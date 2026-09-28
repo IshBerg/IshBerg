@@ -1,6 +1,6 @@
-## AI Systems Architect & Builder
+## AI Product Builder
 
-I design AI systems and set the rules they work by; AI models write the code, and I architect, specify, review and verify it.
+I take products from idea to pilot-ready: I define the product, design the system and set the rules it works by; AI models write the code, and I specify, review and verify it.
 
 My main project is **YAKKI**, an English-learning platform for children who don't have English at home: an Android app on Google Play, a web client and a Rust backend in production, with AI content generation in 10 languages. I have been building AI systems since February 2025 and YAKKI since December 2025, running a fleet of AI coding agents.
 
@@ -31,6 +31,6 @@ Publishing (the full cycle, from choosing books to print and distribution), then
 
 ### Looking for
 
-A role in a small team or startup: designing and implementing AI systems that work in production. Based in Haifa, Israel; hybrid or remote.
+A product role in a small team or AI startup: taking AI products from idea to something that works reliably for real users. Based in Haifa, Israel; hybrid or remote.
 
 [LinkedIn](https://www.linkedin.com/in/ish-berg-79b713313/)
