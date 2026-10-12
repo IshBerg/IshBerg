@@ -1,0 +1,13 @@
+{
+  "start_word": "rumour",
+  "end_word": "proven fact",
+  "ladder_steps": [
+    {"word": "rumour", "translation": "слух", "intensity_level": 1},
+    {"word": "allegation", "translation": "обвинение", "intensity_level": 2},
+    {"word": "claim", "translation": "утверждение", "intensity_level": 3},
+    {"word": "report", "translation": "сообщение", "intensity_level": 4},
+    {"word": "proven fact", "translation": "доказанный факт", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words describing how far a piece of information has been verified form a ladder from unconfirmed gossip to established fact, each step more reliable than the one before."
+}
