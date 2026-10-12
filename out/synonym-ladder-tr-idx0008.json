@@ -1,0 +1,13 @@
+{
+  "start_word": "full",
+  "end_word": "empty",
+  "ladder_steps": [
+    {"word": "full", "translation": "dolu", "intensity_level": 1},
+    {"word": "nearly full", "translation": "neredeyse dolu", "intensity_level": 2},
+    {"word": "half full", "translation": "yarı dolu", "intensity_level": 3},
+    {"word": "nearly empty", "translation": "neredeyse boş", "intensity_level": 4},
+    {"word": "empty", "translation": "boş", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Fullness words form a ladder from completely full to completely empty, each step containing a little less than the one before."
+}

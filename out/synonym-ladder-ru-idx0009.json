@@ -1,0 +1,13 @@
+{
+  "start_word": "rarely",
+  "end_word": "always",
+  "ladder_steps": [
+    {"word": "rarely", "translation": "редко", "intensity_level": 1},
+    {"word": "sometimes", "translation": "иногда", "intensity_level": 2},
+    {"word": "often", "translation": "часто", "intensity_level": 3},
+    {"word": "usually", "translation": "обычно", "intensity_level": 4},
+    {"word": "always", "translation": "всегда", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Frequency words form a ladder from the least frequent to the most frequent, each step occurring more often than the last."
+}

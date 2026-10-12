@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "THEMATIC", "explanation": "A bridge is usually built to cross a river, so the two words are closely linked in everyday contexts."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "A giraffe is an animal and has no connection to the structure or idea of a bridge."},
+    {"word": "arch", "is_associated": true, "association_type": "SEMANTIC", "explanation": "An arch is a curved structural form that supports many bridges, so it shares the same engineering meaning."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "A pillow is used for sleeping and has no connection to bridges or construction."},
+    {"word": "span", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "The span is the distance a bridge covers, and 'bridge span' is a common collocation."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "A piano is a musical instrument and has no link to bridges."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "River, arch and span are linked to bridges through crossing, structure and collocation, while giraffe, pillow and piano are not related."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never in his life,",
+  "correct_completion": "had he witnessed such courage.",
+  "full_sentence": "Never in his life had he witnessed such courage.",
+  "acceptable_variants": ["had he ever seen such bravery.", "had he encountered such courage."],
+  "options": [
+    {"text": "he had witnessed such courage.", "is_correct": false, "why_wrong": "After a fronted negative expression such as 'never', the auxiliary must come before the subject, so this normal word order is incorrect."},
+    {"text": "had he witnessed such courage.", "is_correct": true, "why_wrong": null},
+    {"text": "he witnessed such courage.", "is_correct": false, "why_wrong": "This simple past keeps the normal word order, which cannot follow a fronted negative expression."},
+    {"text": "witnessing such courage.", "is_correct": false, "why_wrong": "A participle phrase cannot complete the sentence without a finite verb in the main clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after fronted negative expressions for rhetorical emphasis",
+  "connector": "never",
+  "explanation": "When a negative expression such as 'never' begins the sentence, the auxiliary is placed before the subject, which adds emphasis to the statement that follows.",
+  "translation": "لم يشهد في حياته قطّ شجاعةً كهذه."
+}

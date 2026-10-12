@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "Y", "N", "T", "A", "X", "M"],
+    ["K", "Q", "Z", "W", "J", "V", "O"],
+    ["F", "G", "H", "B", "P", "J", "D"],
+    ["L", "N", "M", "Y", "R", "G", "U"],
+    ["Q", "P", "W", "T", "K", "Z", "L"],
+    ["J", "V", "X", "E", "M", "H", "E"],
+    ["R", "O", "U", "T", "E", "R", "Z"]
+  ],
+  "words_to_find": ["SYNTAX", "MODULE", "BYTE", "ROUTER"],
+  "word_positions": [
+    {"word": "SYNTAX", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MODULE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BYTE", "start_row": 2, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "ROUTER", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Domain-Specific Jargon Mastery"
+}

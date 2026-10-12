@@ -1,0 +1,14 @@
+{
+  "trigger_word": "engine",
+  "all_words": [
+    {"word": "piston", "is_associated": true, "association_type": "THEMATIC", "explanation": "piston, motorun içinde yanma gücünü hareket enerjisine çeviren ana parçalardan biridir."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "zürafa bir hayvandır ve motorla hiçbir ilgisi yoktur."},
+    {"word": "crankshaft", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "krank mili, motorun piston hareketini dönel harekete çeviren parçasıdır ve engine ile sık birlikte kullanılır."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "yastık uyumak için kullanılır ve motorla ilgisi yoktur."},
+    {"word": "fuel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "yakıt motorun çalışması için gereken enerji kaynağıdır."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "keman bir müzik aletidir ve motorla bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "piston, krank mili ve yakıt motorla ilgili kavramlardır; zürafa, yastık ve keman ise motorla ilgili değildir."
+}
