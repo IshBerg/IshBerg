@@ -1,0 +1,39 @@
+{
+  "start_word": "unaccountable",
+  "end_word": "accountable",
+  "ladder_steps": [
+    {
+      "word": "unaccountable",
+      "translation": "غير مسؤول",
+      "intensity_level": 1
+    },
+    {
+      "word": "negligent",
+      "translation": "مهمل",
+      "intensity_level": 2
+    },
+    {
+      "word": "responsible",
+      "translation": "مسؤول",
+      "intensity_level": 3
+    },
+    {
+      "word": "conscientious",
+      "translation": "ملتزم بالمسؤولية",
+      "intensity_level": 4
+    },
+    {
+      "word": "accountable",
+      "translation": "خاضع للمساءلة",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how responsible a developer is for the consequences of an AI system, from being unaccountable for its effects to being fully open to scrutiny, with each step more responsible than the last."
+}

@@ -1,0 +1,48 @@
+{
+  "trigger_word": "dread",
+  "all_words": [
+    {
+      "word": "anxiety",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Тривога (anxiety) — близьке за змістом почуття: обидва описують напругу перед тим, що може статися."
+    },
+    {
+      "word": "harmonica",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Губна гармоніка (harmonica) — музичний інструмент і не має стосунку до почуття страху."
+    },
+    {
+      "word": "freedom",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Свобода (freedom) — центральна тема екзистенціальної філософії, де жах перед відповідальністю тісно пов’язаний зі свободою вибору."
+    },
+    {
+      "word": "hedgehog",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Їжак (hedgehog) — тварина і не пов’язаний з почуттям жаху."
+    },
+    {
+      "word": "existential",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Екзистенційний (existential) утворює усталене поєднання 'existential dread', що описує глибинний жах перед самим буттям."
+    },
+    {
+      "word": "bucket",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Відро (bucket) — побутовий предмет і не має стосунку до почуття жаху."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'dread' означає сильний страх перед чимось неминучим; тривога, свобода та екзистенційний жах пов’язані з ним, а губна гармоніка, їжак і відро — ні."
+}

@@ -1,0 +1,39 @@
+{
+  "start_word": "rumoured",
+  "end_word": "corroborated",
+  "ladder_steps": [
+    {
+      "word": "rumoured",
+      "translation": "чутки",
+      "intensity_level": 1
+    },
+    {
+      "word": "reported",
+      "translation": "повідомлено",
+      "intensity_level": 2
+    },
+    {
+      "word": "confirmed",
+      "translation": "підтверджено",
+      "intensity_level": 3
+    },
+    {
+      "word": "verified",
+      "translation": "перевірено",
+      "intensity_level": 4
+    },
+    {
+      "word": "corroborated",
+      "translation": "підкріплено",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how well a news claim has been checked, from an unverified rumour to a fact corroborated by several independent sources, with each step better supported than the last."
+}

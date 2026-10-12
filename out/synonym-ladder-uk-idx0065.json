@@ -1,0 +1,39 @@
+{
+  "start_word": "manual",
+  "end_word": "autonomous",
+  "ladder_steps": [
+    {
+      "word": "manual",
+      "translation": "ручний",
+      "intensity_level": 1
+    },
+    {
+      "word": "assisted",
+      "translation": "з допомогою",
+      "intensity_level": 2
+    },
+    {
+      "word": "semi-automated",
+      "translation": "напівавтоматичний",
+      "intensity_level": 3
+    },
+    {
+      "word": "automated",
+      "translation": "автоматизований",
+      "intensity_level": 4
+    },
+    {
+      "word": "autonomous",
+      "translation": "автономний",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how much a machine does without human control, from a fully manual process to an autonomous system that decides for itself, with each step more independent of people than the last."
+}
