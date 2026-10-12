@@ -1,0 +1,48 @@
+{
+  "trigger_word": "frugal",
+  "all_words": [
+    {
+      "word": "thrifty",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Thrifty (бережливый) — близкий по смыслу синоним frugal: оба слова описывают умение расходовать деньги и ресурсы экономно, связь семантическая."
+    },
+    {
+      "word": "telescope",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Telescope (телескоп) — оптический прибор для наблюдения за небесными телами, не связанный с экономией."
+    },
+    {
+      "word": "prudent",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Prudent (благоразумный) — близкое значение: осторожный и разумный подход к расходам, связь семантическая."
+    },
+    {
+      "word": "glacier",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Glacier (ледник) — природное образование, не имеющее отношения к бюджету или экономии."
+    },
+    {
+      "word": "budget",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Budget (бюджет) — тематически связан с расходами, которые frugal человек старается сократить; связь тематическая."
+    },
+    {
+      "word": "marathon",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Marathon (марафон) — спортивное состязание, никак не связанное с экономией."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Связанные слова относятся к умеренному и разумному расходованию средств, а остальные принадлежат к совершенно другим областям: науке, природе и спорту."
+}

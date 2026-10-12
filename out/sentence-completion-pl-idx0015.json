@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The author rarely uses adjectives, yet",
+  "correct_completion": "her prose remains vivid and precise.",
+  "full_sentence": "The author rarely uses adjectives, yet her prose remains vivid and precise.",
+  "acceptable_variants": [
+    "her style is still striking and exact.",
+    "her writing nonetheless feels vivid."
+  ],
+  "options": [
+    {
+      "text": "her prose is therefore dull and bland.",
+      "is_correct": false,
+      "why_wrong": "'Therefore' signals a result, but 'yet' signals contrast. A dull result would not contrast with the scarcity of adjectives."
+    },
+    {
+      "text": "she has written several novels.",
+      "is_correct": false,
+      "why_wrong": "This adds a fact about her career but does not complete the contrast set up by 'yet'."
+    },
+    {
+      "text": "her prose remains vivid and precise.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "adjectives appear in almost every sentence.",
+      "is_correct": false,
+      "why_wrong": "This contradicts the stem, which says adjectives are rarely used, so it cannot complete the contrast."
+    }
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive clause introduced by 'yet' after a clause with 'rarely'",
+  "connector": "yet",
+  "explanation": "'Yet' introduces a clause that contrasts with the first part. Here the expected effect of rarely using adjectives would be weak prose, but the completion shows the opposite.",
+  "translation": "Autorka rzadko używa przymiotników, a jednak jej proza pozostaje żywa i precyzyjna."
+}
