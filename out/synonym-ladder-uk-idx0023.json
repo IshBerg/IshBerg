@@ -1,0 +1,39 @@
+{
+  "start_word": "vague",
+  "end_word": "definitive",
+  "ladder_steps": [
+    {
+      "word": "vague",
+      "translation": "нечіткий",
+      "intensity_level": 1
+    },
+    {
+      "word": "unclear",
+      "translation": "незрозумілий",
+      "intensity_level": 2
+    },
+    {
+      "word": "clear",
+      "translation": "зрозумілий",
+      "intensity_level": 3
+    },
+    {
+      "word": "precise",
+      "translation": "точний",
+      "intensity_level": 4
+    },
+    {
+      "word": "definitive",
+      "translation": "остаточний",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "Words describing how clearly and firmly a statement is expressed form a ladder from a blurred, uncertain statement to one that settles the question completely."
+}

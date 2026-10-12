@@ -1,0 +1,48 @@
+{
+  "trigger_word": "euphemism",
+  "all_words": [
+    {
+      "word": "jargon",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Жаргон — спеціалізована мова, якою часто замінюють прямі назви, тому зв'язок тематичний."
+    },
+    {
+      "word": "volcano",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Вулкан — геологічне явище, яке не має відношення до мовних засобів пом'якшення."
+    },
+    {
+      "word": "idiom",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Ідіома часто використовується як пом'якшена форма вислову, тож зв'язок семантичний."
+    },
+    {
+      "word": "kettle",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Чайник — побутовий предмет, який не пов'язаний з мовою."
+    },
+    {
+      "word": "dysphemism",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Дисфемізм — протилежність евфемізму, тобто грубіша назва того самого поняття, тож зв'язок семантичний."
+    },
+    {
+      "word": "sweater",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Светр — одяг, який не має відношення до мовних явищ."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова стосуються способів називати речі, м'яко або грубо, а решта належить до природи та побуту."
+}

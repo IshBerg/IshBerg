@@ -1,0 +1,58 @@
+{
+  "central_word": "doubt",
+  "chain_words": [
+    {
+      "word": "question",
+      "intensity": 1,
+      "translation": "questionar",
+      "nuance": "to raise a mild query about a claim without rejecting it"
+    },
+    {
+      "word": "doubt",
+      "intensity": 2,
+      "translation": "duvidar",
+      "nuance": "to feel uncertain whether something is true"
+    },
+    {
+      "word": "challenge",
+      "intensity": 3,
+      "translation": "desafiar",
+      "nuance": "to call a claim into question in order to test it"
+    },
+    {
+      "word": "dispute",
+      "intensity": 4,
+      "translation": "contestar",
+      "nuance": "to argue formally against a claim or its evidence"
+    },
+    {
+      "word": "reject",
+      "intensity": 5,
+      "translation": "rejeitar",
+      "nuance": "to refuse a claim completely as false or unacceptable"
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express scepticism towards a claim, from a mild query to a complete refusal to accept it.",
+  "usage_notes": [
+    {
+      "word1": "question",
+      "word2": "reject",
+      "difference": "'Question' leaves room for the claim to be true; 'reject' declares the claim false or unacceptable."
+    }
+  ],
+  "translations": {
+    "question": "questionar",
+    "doubt": "duvidar",
+    "challenge": "desafiar",
+    "dispute": "contestar",
+    "reject": "rejeitar"
+  }
+}

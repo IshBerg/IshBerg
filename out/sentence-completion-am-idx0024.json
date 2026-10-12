@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The critic's reading of the poem depends on the reader's assumptions, so",
+  "correct_completion": "different readers may reach different conclusions about its meaning.",
+  "full_sentence": "The critic's reading of the poem depends on the reader's assumptions, so different readers may reach different conclusions about its meaning.",
+  "acceptable_variants": [
+    "readers with different assumptions will interpret the poem differently.",
+    "the poem can support several legitimate interpretations."
+  ],
+  "options": [
+    {
+      "text": "the poem was written in 1892.",
+      "is_correct": false,
+      "why_wrong": "This is a publication fact that does not follow from the dependence of interpretation on assumptions."
+    },
+    {
+      "text": "different readers may reach different conclusions about its meaning.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the critic never read the poem at all.",
+      "is_correct": false,
+      "why_wrong": "This contradicts the stem, which describes the critic's reading, so it cannot give a logical result."
+    },
+    {
+      "text": "meaning is fixed by the author's intention alone.",
+      "is_correct": false,
+      "why_wrong": "This asserts a view the stem's 'depends on the reader's assumptions' rejects, so 'so' cannot introduce it."
+    }
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clause after 'so' expressing the consequence of reader-dependent interpretation",
+  "connector": "so",
+  "explanation": "Because interpretation depends on the reader's assumptions, the result is that different readers reach different conclusions.",
+  "translation": "የተቺው የግጥሙ ንባብ በአንባቢው ግምት ላይ የተመሠረተ ስለሆነ፣ የተለያዩ አንባቢዎች ስለ ትርጉሙ የተለያዩ መደምደሚያዎች ላይ ሊደርሱ ይችላሉ።"
+}

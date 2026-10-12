@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "Since the author never explained the symbol,",
+  "correct_completion": "readers have offered many competing interpretations of it.",
+  "full_sentence": "Since the author never explained the symbol, readers have offered many competing interpretations of it.",
+  "acceptable_variants": [
+    "critics have proposed several rival readings of it.",
+    "the symbol has attracted many different explanations over time."
+  ],
+  "options": [
+    {
+      "text": "readers have offered many competing interpretations of it.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the symbol appears only once in the novel.",
+      "is_correct": false,
+      "why_wrong": "A fact about how often the symbol appears does not follow from the author's silence about it."
+    },
+    {
+      "text": "the author then published an explanatory preface.",
+      "is_correct": false,
+      "why_wrong": "This contradicts the stem, which says the author never explained the symbol."
+    },
+    {
+      "text": "the novel was translated into twelve languages.",
+      "is_correct": false,
+      "why_wrong": "A publication fact does not follow from the author's silence about the symbol."
+    }
+  ],
+  "correct_index": 0,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clause introduced by 'since' followed by a main clause stating the result",
+  "connector": "since",
+  "explanation": "'Since' introduces the cause, which is the author's silence. The main clause gives the result: readers have filled the gap with their own interpretations.",
+  "translation": "Since the author never explained the symbol, readers have offered many competing interpretations of it."
+}

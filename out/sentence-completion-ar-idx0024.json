@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The critic argued that the novel's ending is deliberately ambiguous, so",
+  "correct_completion": "readers must construct their own interpretation.",
+  "full_sentence": "The critic argued that the novel's ending is deliberately ambiguous, so readers must construct their own interpretation.",
+  "acceptable_variants": [
+    "each reader has to build a personal reading of the ending.",
+    "the interpretation is left entirely to the audience."
+  ],
+  "options": [
+    {
+      "text": "the author confirmed a single meaning in an interview.",
+      "is_correct": false,
+      "why_wrong": "'So' requires a result of the ambiguity, and the author's confirmation of one meaning would contradict the stated ambiguity."
+    },
+    {
+      "text": "the chapter numbers are printed in red.",
+      "is_correct": false,
+      "why_wrong": "This is an irrelevant detail that does not follow from the ambiguity of the ending."
+    },
+    {
+      "text": "readers must construct their own interpretation.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the novel was published in three volumes.",
+      "is_correct": false,
+      "why_wrong": "A publication fact does not follow from the ambiguity of the ending, so the sentence loses its logic."
+    }
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clause after 'so' expressing the consequence of deliberate ambiguity",
+  "connector": "so",
+  "explanation": "'So' introduces a result. Deliberate ambiguity leaves meaning open, so the result is that readers must form their own interpretation.",
+  "translation": "يرى الناقد أن نهاية الرواية غامضة عمدًا، لذا على القراء أن يبنوا تأويلهم الخاص."
+}
