@@ -1,0 +1,58 @@
+{
+  "central_word": "believe",
+  "chain_words": [
+    {
+      "word": "suspect",
+      "intensity": 1,
+      "translation": "підозрювати",
+      "nuance": "to think something is probably the case, with little evidence"
+    },
+    {
+      "word": "suppose",
+      "intensity": 2,
+      "translation": "припускати",
+      "nuance": "to assume something as a working idea, without firm proof"
+    },
+    {
+      "word": "believe",
+      "intensity": 3,
+      "translation": "вважати",
+      "nuance": "to hold something to be true, a general and neutral belief"
+    },
+    {
+      "word": "be convinced",
+      "intensity": 4,
+      "translation": "бути переконаним",
+      "nuance": "to hold a belief firmly after considering the reasons"
+    },
+    {
+      "word": "be certain",
+      "intensity": 5,
+      "translation": "бути впевненим",
+      "nuance": "to hold a belief with complete confidence and no room for doubt"
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express holding a view as true, from a tentative suspicion to complete confidence.",
+  "usage_notes": [
+    {
+      "word1": "suppose",
+      "word2": "be certain",
+      "difference": "'Suppose' treats an idea as a working assumption open to revision; 'be certain' expresses full confidence with no room for doubt."
+    }
+  ],
+  "translations": {
+    "suspect": "підозрювати",
+    "suppose": "припускати",
+    "believe": "вважати",
+    "be convinced": "бути переконаним",
+    "be certain": "бути впевненим"
+  }
+}

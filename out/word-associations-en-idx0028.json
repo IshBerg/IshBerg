@@ -1,0 +1,48 @@
+{
+  "trigger_word": "virtue",
+  "all_words": [
+    {
+      "word": "integrity",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Integrity means moral consistency and honesty, which is one of the core virtues in classical ethics, so the link is semantic."
+    },
+    {
+      "word": "gravel",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Gravel is loose stone used in road building and has no connection to moral character."
+    },
+    {
+      "word": "courage",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Courage is one of the classical cardinal virtues discussed in ethical philosophy, so it belongs to the same thematic field."
+    },
+    {
+      "word": "thermometer",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "A thermometer measures temperature and has nothing to do with ethics or character."
+    },
+    {
+      "word": "temperance",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Temperance, the moderation of desires, is itself a classical virtue, so the link is semantic."
+    },
+    {
+      "word": "canoe",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "A canoe is a small boat and is unrelated to moral philosophy."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "The associated words are themselves moral virtues from classical ethics, while the others belong to road building, measurement, and boats."
+}
