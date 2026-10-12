@@ -1,0 +1,14 @@
+{
+  "trigger_word": "compost",
+  "all_words": [
+    {"word": "decomposition", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Composting is a controlled form of decomposition, in which microorganisms break down organic matter."},
+    {"word": "sousaphone", "is_associated": false, "association_type": "NONE", "explanation": "A sousaphone is a brass instrument and has no connection to waste, soil, or sustainability."},
+    {"word": "soil", "is_associated": true, "association_type": "THEMATIC", "explanation": "Compost is mainly used to enrich soil, so the two words belong to the same topic of land care."},
+    {"word": "bowling", "is_associated": false, "association_type": "NONE", "explanation": "Bowling is a sport with pins and balls and is unrelated to composting."},
+    {"word": "fertilizer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Compost works as a natural fertilizer, so the word is directly linked in meaning to compost."},
+    {"word": "tricycle", "is_associated": false, "association_type": "NONE", "explanation": "A tricycle is a three-wheeled vehicle and has no relation to composting or environmental science."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Compost is decayed organic material used to improve soil; the associated words are decomposition, soil, and fertilizer, while the others belong to unrelated fields."
+}

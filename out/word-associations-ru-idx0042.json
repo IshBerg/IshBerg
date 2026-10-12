@@ -1,0 +1,14 @@
+{
+  "trigger_word": "motivation",
+  "all_words": [
+    {"word": "incentive", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Стимул — это то, что побуждает человека к действию, то есть близкое по смыслу понятие мотивации."},
+    {"word": "octopus", "is_associated": false, "association_type": "NONE", "explanation": "Осьминог — морское животное и не имеет отношения к психологии мотивации."},
+    {"word": "goal", "is_associated": true, "association_type": "THEMATIC", "explanation": "Цель — основная опора мотивации, поэтому она относится к той же теме психологии поведения."},
+    {"word": "scarf", "is_associated": false, "association_type": "NONE", "explanation": "Шарф — предмет одежды и не связан с психологией мотивации."},
+    {"word": "drive", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Побуждение, или драйв, является внутренней силой мотивации, поэтому слово близко по смыслу."},
+    {"word": "gargoyle", "is_associated": false, "association_type": "NONE", "explanation": "Горгулья — архитектурное украшение и не относится к мотивации человека."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Мотивация — это внутренняя или внешняя сила, побуждающая человека к действию; связанные слова описывают стимул, цель и побуждение, а остальные относятся к несвязанным предметам."
+}

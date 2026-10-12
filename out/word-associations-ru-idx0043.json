@@ -1,0 +1,14 @@
+{
+  "trigger_word": "chronology",
+  "all_words": [
+    {"word": "timeline", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Временная линия показывает последовательность событий во времени, то есть наглядно представляет хронологию."},
+    {"word": "flamingo", "is_associated": false, "association_type": "NONE", "explanation": "Фламинго — птица и не имеет отношения к последовательности событий или историческим датам."},
+    {"word": "era", "is_associated": true, "association_type": "THEMATIC", "explanation": "Эпоха — это отрезок времени в хронологии, поэтому слово относится к той же теме исторического изложения."},
+    {"word": "hatchback", "is_associated": false, "association_type": "NONE", "explanation": "Хэтчбек — автомобиль и не связан с хронологией событий."},
+    {"word": "sequence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Последовательность событий во времени — основа хронологии, поэтому слово близко по смыслу."},
+    {"word": "thimble", "is_associated": false, "association_type": "NONE", "explanation": "Наперсток — швейный инструмент и не относится к хронологии."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Хронология — это расположение исторических событий в порядке времени; связанные слова описывают временную линию, эпоху и последовательность, а остальные относятся к несвязанным предметам."
+}

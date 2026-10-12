@@ -1,0 +1,17 @@
+{
+  "central_word": "damage",
+  "chain_words": [
+    {"word": "harm", "intensity": 1, "translation": "вред", "nuance": "a negative effect that may be small or temporary"},
+    {"word": "impair", "intensity": 2, "translation": "ухудшать", "nuance": "to weaken the normal function or quality of something"},
+    {"word": "damage", "intensity": 3, "translation": "повреждать", "nuance": "to cause physical or lasting harm to something"},
+    {"word": "degrade", "intensity": 4, "translation": "разрушать, деградировать", "nuance": "to reduce the quality of a natural system over time"},
+    {"word": "devastate", "intensity": 5, "translation": "опустошать", "nuance": "to destroy something so completely that it cannot recover"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe harm to something, from a slight negative effect to complete destruction that prevents recovery.",
+  "usage_notes": [
+    {"word1": "degrade", "word2": "devastate", "difference": "'Degrade' describes a gradual decline in the quality of an environment; 'devastate' describes sudden and complete destruction."}
+  ],
+  "translations": {"harm": "вред", "impair": "ухудшать", "damage": "повреждать", "degrade": "разрушать, деградировать", "devastate": "опустошать"}
+}
