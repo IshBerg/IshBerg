@@ -1,0 +1,20 @@
+{
+  "title": "Algorithmic Trust and Human Judgement",
+  "text": "Societies increasingly delegate routine judgements to algorithms, from the ranking of job applications to the detection of fraud. Advocates claim that such systems reduce the arbitrariness of human decisions, since a model applies the same criteria to every case. Yet the criteria themselves are chosen by people, which means that values are embedded in code long before any decision is made.\n\nThe ethical question, therefore, is not only whether algorithms are accurate but who is entitled to define success. When a system optimises for efficiency, it may quietly sacrifice fairness, and those affected rarely have a voice in the trade-off. Many philosophers argue that meaningful trust requires the possibility of challenge, so that people subject to automated decisions can understand, question and, where necessary, overturn them.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "According to the first paragraph, what do advocates claim algorithms reduce?", "options": ["The cost of building software", "The arbitrariness of human decisions", "The number of job applications", "The need for any criteria"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does the second paragraph say a system may sacrifice when it optimises for efficiency?", "options": ["Its accuracy in every case", "Its speed of operation", "Fairness", "The criteria chosen by its designers"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What does the passage imply about values in automated systems?", "options": ["They are added only after a decision is made", "They are built in by the people who choose the criteria", "They are determined entirely by the software itself", "They are absent from any system that is accurate"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why do many philosophers consider the possibility of challenge important for trust?", "options": ["Because challenges make systems run faster", "Because people affected by decisions must be able to understand and contest them", "Because challenges eliminate the need for data", "Because only designers should ever question a system"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "arbitrariness", "translation": "arbitralność", "definition": "the quality of being decided by chance or personal whim rather than by reason"},
+    {"word": "embedded", "translation": "zakorzenione", "definition": "fixed firmly within something so that it forms part of its structure"},
+    {"word": "optimises", "translation": "optymalizuje", "definition": "makes something as effective or efficient as possible"},
+    {"word": "overturn", "translation": "unieważnić", "definition": "to reverse or cancel a decision by a higher authority or formal process"}
+  ],
+  "paragraph_translations": [
+    "Społeczeństwa coraz częściej powierzają algorytmom rutynowe oceny, od rangowania podań o pracę po wykrywanie oszustw. Zwolennicy twierdzą, że takie systemy ograniczają dowolność ludzkich decyzji, ponieważ model stosuje te same kryteria do każdego przypadku. Same kryteria wybierają jednak ludzie, co oznacza, że wartości są zakorzenione w kodzie na długo przed podjęciem jakiejkolwiek decyzji.",
+    "Pytanie etyczne nie dotyczy zatem wyłącznie tego, czy algorytmy są dokładne, lecz tego, kto ma prawo określać sukces. Gdy system optymalizuje wydajność, może po cichu poświęcić sprawiedliwość, a osoby, których to dotyczy, rzadko mają głos w tym kompromisie. Wielu filozofów uważa, że prawdziwe zaufanie wymaga możliwości zakwestionowania decyzji, tak aby ludzie objęci zautomatyzowanymi rozstrzygnięciami mogli je zrozumieć, podważyć i, w razie potrzeby, unieważnić."
+  ]
+}

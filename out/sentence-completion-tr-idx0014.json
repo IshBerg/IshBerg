@@ -1,0 +1,18 @@
+{
+  "full_sentence": "Unless the defendant can produce documentary proof, the court will almost certainly enter judgment against him.",
+  "sentence_stem": "Unless the defendant can produce documentary proof,",
+  "correct_completion": "the court will almost certainly enter judgment against him.",
+  "acceptable_variants": ["judgment will very probably be entered against him.", "the case will almost certainly go against him."],
+  "options": [
+    {"text": "the court has already entered judgment in his favour.", "is_correct": false, "why_wrong": "Stating a judgement already entered ignores the condition introduced by 'unless', which presents proof as a requirement not yet met."},
+    {"text": "so the evidence was rejected by the bench.", "is_correct": false, "why_wrong": "'So' signals a consequence of something that has already happened, not the hypothetical result of an unmet condition."},
+    {"text": "the court will almost certainly enter judgment against him.", "is_correct": true, "why_wrong": null},
+    {"text": "the defendant has already produced documentary proof.", "is_correct": false, "why_wrong": "This states the condition as already satisfied, which contradicts the 'unless' clause that frames it as an unmet requirement."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'unless' and a future result with 'will'",
+  "connector": "unless",
+  "explanation": "'Unless' introduces a condition that has not yet been met, so the main clause must state the result that follows if the condition fails.",
+  "translation": "Sanık belgeye dayalı kanıt sunamadığı sürece, mahkeme neredeyse kesinlikle aleyhine karar verecektir."
+}
