@@ -1,0 +1,14 @@
+{
+  "trigger_word": "border",
+  "all_words": [
+    {"word": "treaty", "is_associated": true, "association_type": "THEMATIC", "explanation": "הסכם מדיני הוא מסמך שקובע את גבולות המדינות ואת זכויותיהן, ולכן הוא קשור לגבול."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "כריך הוא מזון ואין לו קשר לגבולות מדיניים."},
+    {"word": "sovereignty", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ריבונות היא הזכות של מדינה לשלוט בשטחה, והיא נובעת מהגבול שלה."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "קומקום הוא כלי למטבח ואין לו קשר לגיאופוליטיקה."},
+    {"word": "checkpoint", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "מחסום גבול הוא צירוף נפוץ עם המילה border."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "כרית משמשת לשינה ואין לה קשר לגבולות או למדיניות."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "הסכם, ריבונות ומחסום קשורים לגבול ולמדיניות, ואילו כריך, קומקום וכרית אינם קשורים לכך."
+}

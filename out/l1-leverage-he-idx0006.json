@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "קסטה", "transliteration": "kaseta", "meaning": "cassette"},
+    {"word": "מכונית", "transliteration": "mekhonit", "meaning": "machine car"},
+    {"word": "אוקטובר", "transliteration": "oktober", "meaning": "October"},
+    {"word": "פוטבול", "transliteration": "futbol", "meaning": "football"}
+  ],
+  "english_words": ["October", "cassette", "football", "motor car"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "This word and its English form match in meaning but not in spelling or sound. The pairing tests the Hebrew word's meaning, so it is not a false friend.",
+  "false_friend_warning": "Careful: the Hebrew word for 'football' sounds close to the English 'futbol' but is pronounced differently. Use the word in its correct meaning."
+}

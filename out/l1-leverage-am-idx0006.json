@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ቤት", "transliteration": "bet", "meaning": "house"},
+    {"word": "ዳቦ", "transliteration": "dabo", "meaning": "bread"},
+    {"word": "ቀለም", "transliteration": "qelem", "meaning": "ink"},
+    {"word": "ሰዓት", "transliteration": "se'at", "meaning": "hour"}
+  ],
+  "english_words": ["ink", "house", "hour", "bread"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Several everyday Amharic nouns are pronounced close to English words that have entirely different meanings, so students must learn the Amharic meaning rather than rely on sound.",
+  "false_friend_warning": "Careful: the Amharic ቤት (bet) sounds like the English 'bet', which means a wager, but it means 'house'."
+}

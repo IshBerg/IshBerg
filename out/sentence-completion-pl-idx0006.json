@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If she had accepted the offer last year,",
+  "correct_completion": "she would be living abroad now.",
+  "full_sentence": "If she had accepted the offer last year, she would be living abroad now.",
+  "acceptable_variants": ["she would now be working overseas.", "she would be living in another country today."],
+  "options": [
+    {"text": "she is living abroad now.", "is_correct": false, "why_wrong": "This states a present fact, but the stem is an unreal past condition that needs a conditional result clause."},
+    {"text": "she would have lived abroad.", "is_correct": false, "why_wrong": "A past result does not match 'now', and a mixed conditional needs 'would' plus a present time reference."},
+    {"text": "she would be living abroad now.", "is_correct": true, "why_wrong": null},
+    {"text": "she will live abroad tomorrow.", "is_correct": false, "why_wrong": "A future form cannot complete a conditional whose result is an unreal present situation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals (past condition, present result)",
+  "connector": "if",
+  "explanation": "A mixed conditional places the past perfect in the 'if' clause for an unreal past condition and 'would' plus a present time word in the main clause for its present result.",
+  "translation": "Gdyby przyjęła ofertę w zeszłym roku, teraz mieszkałaby za granicą."
+}

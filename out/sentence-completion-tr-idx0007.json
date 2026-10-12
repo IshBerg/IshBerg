@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The exam over,",
+  "correct_completion": "the students left the hall one by one.",
+  "full_sentence": "The exam over, the students left the hall one by one.",
+  "acceptable_variants": ["the students gradually left the room.", "the students quietly filed out."],
+  "options": [
+    {"text": "the students were leaving the hall.", "is_correct": false, "why_wrong": "A complete finite clause repeats the structure of the main clause, so it does not form the absolute phrase that the stem requires."},
+    {"text": "to leave the hall quietly.", "is_correct": false, "why_wrong": "An infinitive phrase cannot serve as the main clause that completes the sentence."},
+    {"text": "the students left the hall one by one.", "is_correct": true, "why_wrong": null},
+    {"text": "leaving the hall one by one.", "is_correct": false, "why_wrong": "A participle phrase cannot complete the sentence without a finite main clause and a clear subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Absolute clauses with a noun phrase and a predicate",
+  "connector": "the exam over",
+  "explanation": "An absolute clause has its own subject, here 'the exam', and its own predicate, here 'over', and it is followed by the main clause that describes what happened next.",
+  "translation": "Sınav bittikten sonra, öğrenciler salonu tek tek terk etti."
+}

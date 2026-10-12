@@ -1,0 +1,17 @@
+{
+  "central_word": "hungry",
+  "chain_words": [
+    {"word": "peckish", "intensity": 1, "translation": "جائع قليلاً", "nuance": "slightly hungry, wanting a small snack"},
+    {"word": "hungry", "intensity": 2, "translation": "جائع", "nuance": "wanting food, feeling the need to eat"},
+    {"word": "ravenous", "intensity": 3, "translation": "شديد الجوع", "nuance": "extremely hungry and eager to eat"},
+    {"word": "starving", "intensity": 4, "translation": "يتضوّر جوعاً", "nuance": "suffering from a severe lack of food"},
+    {"word": "famished", "intensity": 5, "translation": "مُنهَك من الجوع", "nuance": "weakened by long hunger, exhausted from lack of food"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe the need for food, from a slight desire to eat to severe physical weakness from lack of food.",
+  "usage_notes": [
+    {"word1": "hungry", "word2": "starving", "difference": "'Hungry' describes a normal need for food; 'starving' describes extreme hunger that can threaten health."}
+  ],
+  "translations": {"peckish": "جائع قليلاً", "hungry": "جائع", "ravenous": "شديد الجوع", "starving": "يتضوّر جوعاً", "famished": "مُنهَك من الجوع"}
+}

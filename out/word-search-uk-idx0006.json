@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "V", "I", "D", "E", "N", "C", "E", "S"],
+    ["A", "K", "Q", "W", "Z", "J", "V", "X", "T"],
+    ["B", "R", "Q", "W", "Z", "J", "V", "X", "R"],
+    ["K", "M", "G", "W", "Z", "J", "V", "X", "O"],
+    ["Q", "W", "Z", "U", "K", "J", "V", "X", "N"],
+    ["Z", "X", "Y", "P", "E", "J", "K", "L", "G"],
+    ["P", "Q", "W", "Z", "X", "K", "B", "D", "H"],
+    ["L", "N", "T", "V", "W", "J", "Y", "F", "R"],
+    ["C", "L", "A", "I", "M", "D", "Q", "X", "Z"]
+  ],
+  "words_to_find": ["EVIDENCE", "STRONG", "ARGUE", "CLAIM"],
+  "word_positions": [
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STRONG", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "ARGUE", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CLAIM", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations in Academic Writing"
+}

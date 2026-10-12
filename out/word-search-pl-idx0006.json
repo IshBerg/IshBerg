@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["P", "U", "N", "C", "H", "L", "I", "N", "E"],
+    ["K", "B", "Q", "W", "Z", "J", "V", "X", "D"],
+    ["F", "G", "I", "H", "P", "K", "M", "Q", "C"],
+    ["B", "J", "R", "T", "W", "Z", "E", "V", "S"],
+    ["L", "M", "O", "D", "K", "Q", "A", "W", "J"],
+    ["Z", "X", "N", "P", "R", "S", "N", "B", "T"],
+    ["C", "G", "Y", "F", "H", "W", "I", "Q", "L"],
+    ["K", "V", "D", "Z", "X", "B", "N", "J", "W"],
+    ["D", "O", "U", "B", "L", "E", "G", "T", "R"]
+  ],
+  "words_to_find": ["PUNCHLINE", "IRONY", "MEANING", "DOUBLE"],
+  "word_positions": [
+    {"word": "PUNCHLINE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 2, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "MEANING", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "DOUBLE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Wordplay, Puns and Double Meaning"
+}
