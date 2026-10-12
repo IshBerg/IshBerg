@@ -1,0 +1,48 @@
+{
+  "trigger_word": "multilingual",
+  "all_words": [
+    {
+      "word": "interpreter",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Tercüman (interpreter), birden fazla dilin kullanıldığı ortamlarda iletişimi sağlayan kişi olduğu için çok dilli (multilingual) bağlamla doğrudan ilişkilidir."
+    },
+    {
+      "word": "turret",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Kule (turret) bir mimari unsurdur ve dil ya da çok dilli iletişimle bir ilgisi yoktur."
+    },
+    {
+      "word": "lingua franca",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Ortak dil (lingua franca), farklı ana dillere sahip insanların ortak bir dilde anlaşmasını anlattığı için çok dilliliğin temel kavramlarından biridir."
+    },
+    {
+      "word": "cobblestone",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Kaldırım taşı (cobblestone) bir yapı malzemesidir ve dil bilimiyle bağlantılı değildir."
+    },
+    {
+      "word": "code-switching",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Kod değiştirme (code-switching), çok dilli konuşucuların sık kullandığı bir iletişim biçimi olduğu için bu kavramla birlikte anılır."
+    },
+    {
+      "word": "parasol",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Şemsiye (parasol) güneşten korunmak için kullanılan bir eşyadır ve dil konusuyla ilgisi yoktur."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Multilingual' birden fazla dilin kullanılmasını anlatır; tercüman, ortak dil ve kod değiştirme ile ilişkilidir, ancak kule, kaldırım taşı ve şemsiye gibi kavramlarla bağlantısı yoktur."
+}

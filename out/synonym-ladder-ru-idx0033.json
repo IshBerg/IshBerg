@@ -1,0 +1,39 @@
+{
+  "start_word": "vague",
+  "end_word": "precise",
+  "ladder_steps": [
+    {
+      "word": "vague",
+      "translation": "расплывчатый",
+      "intensity_level": 1
+    },
+    {
+      "word": "general",
+      "translation": "общий",
+      "intensity_level": 2
+    },
+    {
+      "word": "approximate",
+      "translation": "приблизительный",
+      "intensity_level": 3
+    },
+    {
+      "word": "specific",
+      "translation": "конкретный",
+      "intensity_level": 4
+    },
+    {
+      "word": "precise",
+      "translation": "точный",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words form a scale of detail and accuracy, from something unclear and indefinite to something exact and exact in every detail, with each step more defined than the last."
+}

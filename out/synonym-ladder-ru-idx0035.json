@@ -1,0 +1,39 @@
+{
+  "start_word": "doubtful",
+  "end_word": "certain",
+  "ladder_steps": [
+    {
+      "word": "doubtful",
+      "translation": "сомнительный",
+      "intensity_level": 1
+    },
+    {
+      "word": "uncertain",
+      "translation": "неуверенный",
+      "intensity_level": 2
+    },
+    {
+      "word": "probable",
+      "translation": "вероятный",
+      "intensity_level": 3
+    },
+    {
+      "word": "likely",
+      "translation": "скорее всего",
+      "intensity_level": 4
+    },
+    {
+      "word": "certain",
+      "translation": "несомненный",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words form a scale of confidence in a claim, from doubtful to certain, with each step more convincing than the last."
+}

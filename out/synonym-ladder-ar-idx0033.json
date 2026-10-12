@@ -1,0 +1,39 @@
+{
+  "start_word": "mild",
+  "end_word": "severe",
+  "ladder_steps": [
+    {
+      "word": "mild",
+      "translation": "خفيف",
+      "intensity_level": 1
+    },
+    {
+      "word": "moderate",
+      "translation": "معتدل",
+      "intensity_level": 2
+    },
+    {
+      "word": "considerable",
+      "translation": "كبير",
+      "intensity_level": 3
+    },
+    {
+      "word": "serious",
+      "translation": "خطير",
+      "intensity_level": 4
+    },
+    {
+      "word": "severe",
+      "translation": "شديد",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words form a scale of seriousness, from a mild effect to a severe one, with each step more serious than the last."
+}
