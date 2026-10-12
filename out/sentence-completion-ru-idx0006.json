@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had taken the job in London,",
+  "correct_completion": "I would be earning much more money now.",
+  "full_sentence": "If I had taken the job in London, I would be earning much more money now.",
+  "acceptable_variants": ["I would probably be earning a lot more right now.", "I would have a considerably higher salary today."],
+  "options": [
+    {"text": "I will earn more money next month.", "is_correct": false, "why_wrong": "Next month is a future time, but the result must describe the present state that follows from the unreal past condition."},
+    {"text": "I would be earning much more money now.", "is_correct": true, "why_wrong": null},
+    {"text": "I have been working there since 2019.", "is_correct": false, "why_wrong": "This states a real present-perfect fact. It does not express the hypothetical present result of the condition."},
+    {"text": "I earned more money last year.", "is_correct": false, "why_wrong": "This refers to a real past event, not to a hypothetical present consequence of an unreal past condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: third-conditional condition (had taken) with second-conditional result (would be earning)",
+  "connector": "if",
+  "explanation": "A mixed conditional links an unreal past condition to an unreal present result. Here 'had taken' sets up the past condition, and 'would be earning ... now' gives its present consequence. Speakers often mistake this for a plain third conditional and use 'would have earned', which does not fit the word 'now'.",
+  "translation": "Если бы я взял работу в Лондоне, я бы сейчас зарабатывал гораздо больше."
+}

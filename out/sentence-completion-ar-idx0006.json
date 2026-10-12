@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If she had studied harder last year,",
+  "correct_completion": "she would be working as an engineer now.",
+  "full_sentence": "If she had studied harder last year, she would be working as an engineer now.",
+  "acceptable_variants": ["she would have a job as an engineer right now.", "she would probably be an engineer today."],
+  "options": [
+    {"text": "she will be working as an engineer tomorrow.", "is_correct": false, "why_wrong": "The result clause describes the present, so 'would be ... now' is needed. 'Will' with 'tomorrow' does not complete a mixed conditional."},
+    {"text": "she has studied engineering for years.", "is_correct": false, "why_wrong": "The stem sets up an unreal past condition, so the result must be a hypothetical present consequence, not a real present-perfect fact."},
+    {"text": "she would be working as an engineer now.", "is_correct": true, "why_wrong": null},
+    {"text": "she worked as an engineer last year.", "is_correct": false, "why_wrong": "This states a real past event. It does not express the present result of an unreal past condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: third-conditional condition (had studied) with second-conditional result (would be working)",
+  "connector": "if",
+  "explanation": "A mixed conditional links an unreal past condition to an unreal present result. Here 'had studied' sets up the past condition, and 'would be working ... now' gives its present consequence.",
+  "translation": "لو درست بجد أكثر في العام الماضي، لكانت تعمل مهندسة الآن."
+}
