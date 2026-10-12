@@ -1,0 +1,14 @@
+{
+  "trigger_word": "legislation",
+  "all_words": [
+    {"word": "statute", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Статут (statute) — це писаний закон, тобто одна з форм законодавства; слова близькі за значенням."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "Чайник — побутовий предмет і не пов’язаний із законодавством."},
+    {"word": "parliament", "is_associated": true, "association_type": "THEMATIC", "explanation": "Парламент ухвалює закони, тому ці слова належать до однієї політичної теми."},
+    {"word": "walrus", "is_associated": false, "association_type": "NONE", "explanation": "Морж — морська тварина і не стосується законодавства."},
+    {"word": "reform", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Законодавча реформа (legislative reform) — усталений вираз у політичних документах, тому слова часто стоять разом."},
+    {"word": "pebble", "is_associated": false, "association_type": "NONE", "explanation": "Галька — природний камінь і не має відношення до законодавства."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Законодавство — це правила, які ухвалює парламент і які можуть бути предметом реформи; інші слова належать до несуміжних сфер."
+}
