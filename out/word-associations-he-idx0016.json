@@ -1,0 +1,48 @@
+{
+  "trigger_word": "tariff",
+  "all_words": [
+    {
+      "word": "import",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "יבוא (import) הוא תחום הסחר שבו מוטלים תעריפים, ולכן הקשר נושאי."
+    },
+    {
+      "word": "sonnet",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "סונטה (sonnet) היא צורה שירית ואין לה קשר לכלכלה או למכס."
+    },
+    {
+      "word": "quota",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "מכסה (quota) היא הגבלה כמותית על יבוא או ייצוא, והמושג קרוב במשמעותו לתעריף, לכן הקשר סמנטי."
+    },
+    {
+      "word": "glacier",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "קרחון (glacier) הוא תופעה טבעית ואין לו קשר למסחר או לכלכלה."
+    },
+    {
+      "word": "trade",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "סחר (trade) הוא ההקשר הכלכלי שבו פועלים תעריפים, ולכן הקשר נושאי."
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "פנס (lantern) הוא מכשיר תאורה ואין לו קשר לכלכלה או לסחר."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "המילים הקשורות מתארות מסחר בינלאומי ומגבלות על יבוא וייצוא, ואילו המילים הנוספות שייכות לתחומים אחרים לגמרי."
+}

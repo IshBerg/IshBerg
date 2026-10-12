@@ -1,0 +1,101 @@
+{
+  "grid_size": 7,
+  "grid": [
+    [
+      "K",
+      "Z",
+      "X",
+      "J",
+      "W",
+      "V",
+      "Q"
+    ],
+    [
+      "D",
+      "B",
+      "O",
+      "O",
+      "T",
+      "H",
+      "X"
+    ],
+    [
+      "R",
+      "Z",
+      "K",
+      "Q",
+      "P",
+      "J",
+      "W"
+    ],
+    [
+      "E",
+      "Q",
+      "W",
+      "Z",
+      "J",
+      "V",
+      "S"
+    ],
+    [
+      "L",
+      "P",
+      "Z",
+      "K",
+      "J",
+      "Q",
+      "Y"
+    ],
+    [
+      "A",
+      "Z",
+      "C",
+      "U",
+      "E",
+      "K",
+      "N"
+    ],
+    [
+      "Y",
+      "X",
+      "J",
+      "Q",
+      "W",
+      "K",
+      "C"
+    ]
+  ],
+  "words_to_find": [
+    "BOOTH",
+    "RELAY",
+    "SYNC",
+    "CUE"
+  ],
+  "word_positions": [
+    {
+      "word": "BOOTH",
+      "start_row": 1,
+      "start_col": 1,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "RELAY",
+      "start_row": 2,
+      "start_col": 0,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "SYNC",
+      "start_row": 3,
+      "start_col": 6,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "CUE",
+      "start_row": 5,
+      "start_col": 2,
+      "direction": "HORIZONTAL"
+    }
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}

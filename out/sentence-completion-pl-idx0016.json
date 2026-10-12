@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The poem repeats the word 'never' in every stanza, so",
+  "correct_completion": "its refrain lingers in the reader's mind long after the last line.",
+  "full_sentence": "The poem repeats the word 'never' in every stanza, so its refrain lingers in the reader's mind long after the last line.",
+  "acceptable_variants": [
+    "its repetition creates a haunting rhythm.",
+    "readers remember its central theme more vividly."
+  ],
+  "options": [
+    {
+      "text": "the refrain sounds cheerful and light.",
+      "is_correct": false,
+      "why_wrong": "A cheerful tone does not follow logically from repeating a negative word, so 'so' cannot introduce it as a result."
+    },
+    {
+      "text": "its refrain lingers in the reader's mind long after the last line.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the poem was written in prose.",
+      "is_correct": false,
+      "why_wrong": "The stem already describes stanzas, so this contradicts the premise and cannot be a result of it."
+    },
+    {
+      "text": "the stanzas are all exactly the same length.",
+      "is_correct": false,
+      "why_wrong": "This is a formal detail about structure, not a result of repeating a word, so 'so' does not connect logically."
+    }
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clause after 'so' describing the effect of repetition as a literary device",
+  "connector": "so",
+  "explanation": "'So' introduces a result. Here the repetition of 'never' is the cause, and the lingering refrain is the effect that a reader would naturally feel.",
+  "translation": "Wiersz powtarza słowo „never” w każdej strofie, więc jego refren długo brzmi w pamięci czytelnika po ostatnim wersie."
+}
