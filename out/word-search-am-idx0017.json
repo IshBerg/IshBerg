@@ -1,0 +1,118 @@
+{
+  "grid_size": 8,
+  "grid": [
+    [
+      "O",
+      "Q",
+      "W",
+      "Z",
+      "K",
+      "J",
+      "X",
+      "C"
+    ],
+    [
+      "U",
+      "Z",
+      "K",
+      "Q",
+      "W",
+      "J",
+      "X",
+      "H"
+    ],
+    [
+      "T",
+      "K",
+      "Z",
+      "J",
+      "X",
+      "W",
+      "Q",
+      "A"
+    ],
+    [
+      "L",
+      "M",
+      "E",
+      "T",
+      "H",
+      "O",
+      "D",
+      "P"
+    ],
+    [
+      "I",
+      "K",
+      "Z",
+      "X",
+      "Q",
+      "J",
+      "W",
+      "T"
+    ],
+    [
+      "N",
+      "W",
+      "J",
+      "K",
+      "Z",
+      "Q",
+      "X",
+      "E"
+    ],
+    [
+      "E",
+      "Q",
+      "X",
+      "W",
+      "J",
+      "K",
+      "Z",
+      "R"
+    ],
+    [
+      "A",
+      "D",
+      "V",
+      "I",
+      "S",
+      "O",
+      "R",
+      "K"
+    ]
+  ],
+  "words_to_find": [
+    "OUTLINE",
+    "CHAPTER",
+    "ADVISOR",
+    "METHOD"
+  ],
+  "word_positions": [
+    {
+      "word": "OUTLINE",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "CHAPTER",
+      "start_row": 0,
+      "start_col": 7,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "ADVISOR",
+      "start_row": 7,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "METHOD",
+      "start_row": 3,
+      "start_col": 1,
+      "direction": "HORIZONTAL"
+    }
+  ],
+  "topic": "Academic Thesis Defense"
+}

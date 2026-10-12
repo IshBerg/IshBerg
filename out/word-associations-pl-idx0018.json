@@ -1,0 +1,48 @@
+{
+  "trigger_word": "headline",
+  "all_words": [
+    {
+      "word": "editor",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Redaktor (editor) pracuje nad nagłówkami i tekstami prasowymi, więc związek jest tematyczny."
+    },
+    {
+      "word": "lighthouse",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Latarnia morska (lighthouse) to budowla nadbrzeżna i nie ma związku z prasą ani z nagłówkami."
+    },
+    {
+      "word": "scoop",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Scoop (sensacyjna informacja) to wiadomość, która zwykle trafia na pierwszą stronę jako nagłówek; związek jest semantyczny."
+    },
+    {
+      "word": "parsley",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Pietruszka (parsley) to roślina przyprawowa i nie łączy się z dziennikarstwem."
+    },
+    {
+      "word": "byline",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Podpis autora (byline) pojawia się przy nagłówku artykułu, więc związek jest tematyczny."
+    },
+    {
+      "word": "tricycle",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Rower trójkołowy (tricycle) to pojazd dziecięcy i nie ma żadnego związku z mediami."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzone słowa dotyczą pracy redakcji i tworzenia nagłówków, a pozostałe należą do zupełnie innych dziedzin: przyrody, kuchni i transportu."
+}

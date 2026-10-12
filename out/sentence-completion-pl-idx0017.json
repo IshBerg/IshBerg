@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The results suggest a correlation, although",
+  "correct_completion": "causation has not yet been established.",
+  "full_sentence": "The results suggest a correlation, although causation has not yet been established.",
+  "acceptable_variants": [
+    "a causal link remains unconfirmed.",
+    "further research is needed to confirm the mechanism."
+  ],
+  "options": [
+    {
+      "text": "the sample was entirely random and therefore certain.",
+      "is_correct": false,
+      "why_wrong": "'Certain' contradicts the hedged verb 'suggest', and a random sample does not concede a limitation to the claim."
+    },
+    {
+      "text": "the authors have proven that causation exists.",
+      "is_correct": false,
+      "why_wrong": "This overstates the finding and removes the concession that 'although' is meant to introduce."
+    },
+    {
+      "text": "the data were collected in 2019.",
+      "is_correct": false,
+      "why_wrong": "This adds a neutral fact but does not contrast with the claim of a correlation."
+    },
+    {
+      "text": "causation has not yet been established.",
+      "is_correct": true,
+      "why_wrong": null
+    }
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clause with 'although' introducing a hedged limitation",
+  "connector": "although",
+  "explanation": "'Although' introduces a concession. The hedged claim of a correlation is followed by the limitation that causation is not yet proven, which keeps the academic claim qualified.",
+  "translation": "Wyniki sugerują korelację, chociaż przyczynowość nie została jeszcze ustalona."
+}

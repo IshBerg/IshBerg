@@ -1,0 +1,48 @@
+{
+  "trigger_word": "epic",
+  "all_words": [
+    {
+      "word": "poem",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Поэма (poem) — протяжная форма стихотворного повествования, поэтому связь семантическая."
+    },
+    {
+      "word": "glacier",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Ледник (glacier) — природное образование, которое не связано с литературой."
+    },
+    {
+      "word": "hero",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Герой (hero) — центральный персонаж эпоса, связь тематическая."
+    },
+    {
+      "word": "toaster",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Тостер (toaster) — бытовой прибор, никак не относящийся к литературе."
+    },
+    {
+      "word": "ballad",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Баллада (ballad) — повествовательный жанр поэзии, близкий к эпосу; связь тематическая."
+    },
+    {
+      "word": "sandals",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Сандалии (sandals) — обувь, не имеющая отношения к литературным жанрам."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Ассоциированные слова относятся к эпической поэзии и её жанрам и персонажам, а остальные — к природе и бытовым предметам."
+}
