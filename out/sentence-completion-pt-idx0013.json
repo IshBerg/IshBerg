@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Given the limited size of the sample,",
+  "correct_completion": "the findings should be interpreted with caution.",
+  "full_sentence": "Given the limited size of the sample, the findings should be interpreted with caution.",
+  "acceptable_variants": ["the authors would be wise to qualify their conclusions.", "tentative conclusions are the most defensible in this case."],
+  "options": [
+    {"text": "the researchers are certain that the results are definitive.", "is_correct": false, "why_wrong": "Certainty about definitive results contradicts the qualifier 'limited size', which the stem sets up as a reason for caution."},
+    {"text": "the sample was enormous and entirely unbiased.", "is_correct": false, "why_wrong": "This contradicts the stem, which states that the sample size was limited."},
+    {"text": "so the conclusions must be accepted without question.", "is_correct": false, "why_wrong": "'So' introduces a consequence that reverses the logic of the stem, which points toward caution rather than unquestioned acceptance."},
+    {"text": "the findings should be interpreted with caution.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Reduced adverbial clauses with 'given' and modal hedging with 'should'",
+  "connector": "given",
+  "explanation": "'Given' introduces a reason for a conclusion, so the main clause must express a cautious judgement that follows from the limited sample.",
+  "translation": "Dado o tamanho limitado da amostra, os resultados devem ser interpretados com cautela."
+}

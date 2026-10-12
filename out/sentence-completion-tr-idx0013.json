@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the data appear to support the hypothesis,",
+  "correct_completion": "further replication is required before any causal claim can be made.",
+  "full_sentence": "Although the data appear to support the hypothesis, further replication is required before any causal claim can be made.",
+  "acceptable_variants": ["more research is needed before firm conclusions can be drawn.", "the conclusions should be treated as tentative until other studies confirm them."],
+  "options": [
+    {"text": "the authors can therefore claim with certainty that the treatment causes recovery.", "is_correct": false, "why_wrong": "Absolute certainty contradicts the hedged tone set up by 'appear to support', and it does not complete the concessive contrast."},
+    {"text": "so the hypothesis has been fully proven.", "is_correct": false, "why_wrong": "'So' signals consequence, not concession. A fully proven claim does not contrast with data that merely appear supportive."},
+    {"text": "further replication is required before any causal claim can be made.", "is_correct": true, "why_wrong": null},
+    {"text": "the authors ignored every limitation of their study.", "is_correct": false, "why_wrong": "This is a negative judgement about the authors and does not follow from a hedged statement of support in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and hedged academic qualification",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that qualifies the apparent support for the hypothesis, rather than one that overstates or dismisses it.",
+  "translation": "Veriler hipotezi destekliyormuş gibi görünse de, herhangi bir nedensel iddianın ortaya konabilmesi için daha fazla tekrarlanmış çalışmaya ihtiyaç vardır."
+}
