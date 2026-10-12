@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rarely have I seen such dedication,",
+  "correct_completion": "as this team has shown this year.",
+  "full_sentence": "Rarely have I seen such dedication as this team has shown this year.",
+  "acceptable_variants": ["as this team has demonstrated this year.", "as this group has displayed recently."],
+  "options": [
+    {"text": "so the team has shown this year.", "is_correct": false, "why_wrong": "'So' introduces a result, but the inverted 'rarely' structure requires a comparison completed by 'as'."},
+    {"text": "as this team has shown this year.", "is_correct": true, "why_wrong": null},
+    {"text": "because this team works hard.", "is_correct": false, "why_wrong": "'Because' introduces a cause and does not complete the comparison that 'such ... as' requires."},
+    {"text": "but this team works harder every day.", "is_correct": false, "why_wrong": "'But' signals contrast, while the stem sets up a comparison of dedication, not a contrast."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after 'rarely' with a 'such ... as' comparison",
+  "connector": "rarely",
+  "explanation": "After a fronted 'rarely', the auxiliary verb comes before the subject. The sentence then completes the comparison with 'such ... as', which is a common pattern in formal and literary writing.",
+  "translation": "Rzadko widziałem tak wielkie oddanie, jakie ten zespół okazał w tym roku."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "downsizing",
+  "all_words": [
+    {"word": "layoff", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ሌይኦፍ ሠራተኞችን ከሥራ ማሰናበትን ያመለክታል፤ ይህም የመቀነስ ዋና ዓላማ ነው።"},
+    {"word": "restructuring", "is_associated": true, "association_type": "THEMATIC", "explanation": "የድርጅት መዋቅርን መቀየር ከመቀነስ ጋር በአንድ የአሠራር ሂደት ውስጥ ስለሚከሰት በርዕሰ ጉዳይ ይዛመዳል።"},
+    {"word": "promotion", "is_associated": false, "association_type": "NONE", "explanation": "ሥራ ከፍ ማድረግን ያመለክታል፤ ከመቀነስ ጋር ተቃራኒ ስለሆነ አይዛመድም።"},
+    {"word": "redundancy", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ሠራተኛን ከሥራ ማስወጣትን የሚገልጽ ቃል ሲሆን ከመቀነስ ጋር ቀጥተኛ ተመሳሳይነት አለው።"},
+    {"word": "vacation", "is_associated": false, "association_type": "NONE", "explanation": "ዕረፍትን ያመለክታል፤ ከመቀነስ ጋር ግንኙነት የለውም።"},
+    {"word": "severance", "is_associated": true, "association_type": "THEMATIC", "explanation": "ከሥራ ሲሰናበቱ የሚሰጥ ካሳ ነው፤ ስለዚህ ከመቀነስ ሂደት ጋር በተያያዥነት ይነሳል።"}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "ተዛማጅ ቃላቱ ሠራተኞችን ከድርጅት የማስወጣት ሂደትንና ተያያዥ ጉዳዮችን ይገልጻሉ። ያልተዛመዱት ቃላት ግን ከዚህ ሂደት ጋር የሚያገናኝ ትርጉም የላቸውም።"
+}

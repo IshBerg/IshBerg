@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "L", "A", "U", "S", "E", "K", "Q", "W", "B"],
+    ["J", "F", "Z", "T", "V", "M", "G", "D", "P", "R"],
+    ["X", "F", "Q", "L", "N", "Y", "B", "C", "H", "E"],
+    ["R", "I", "K", "W", "D", "A", "S", "M", "G", "A"],
+    ["P", "T", "Z", "H", "J", "L", "N", "V", "Q", "C"],
+    ["U", "N", "B", "Y", "R", "K", "D", "E", "F", "H"],
+    ["M", "I", "O", "S", "A", "F", "W", "Q", "T", "V"],
+    ["Z", "A", "X", "Q", "V", "G", "L", "S", "D", "C"],
+    ["K", "L", "P", "W", "T", "J", "Q", "M", "Y", "U"],
+    ["G", "P", "V", "Z", "W", "O", "R", "C", "S", "E"]
+  ],
+  "words_to_find": ["CLAUSE", "BREACH", "PLAINTIFF", "ESCROW", "TENANT"],
+  "word_positions": [
+    {"word": "CLAUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BREACH", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "PLAINTIFF", "start_row": 9, "start_col": 1, "direction": "VERTICAL_UP"},
+    {"word": "ESCROW", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "TENANT", "start_row": 6, "start_col": 8, "direction": "DIAGONAL_UP_LEFT"}
+  ],
+  "topic": "Legal and Contractual Texts"
+}

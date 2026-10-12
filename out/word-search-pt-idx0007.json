@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "R", "E", "A", "T", "Y", "K", "Q", "W", "E"],
+    ["A", "L", "L", "I", "A", "N", "C", "E", "Z", "N"],
+    ["S", "K", "J", "P", "D", "G", "R", "B", "H", "V"],
+    ["X", "A", "M", "F", "L", "W", "Q", "Z", "U", "O"],
+    ["D", "G", "N", "H", "V", "J", "R", "F", "X", "Y"],
+    ["B", "Y", "K", "C", "P", "R", "A", "M", "L", "T"],
+    ["Z", "H", "E", "X", "T", "U", "Q", "S", "G", "K"],
+    ["W", "L", "N", "Q", "T", "I", "M", "M", "U", "S"],
+    ["E", "R", "V", "J", "B", "D", "O", "P", "A", "C"],
+    ["G", "K", "P", "W", "R", "T", "L", "N", "D", "A"]
+  ],
+  "words_to_find": ["TREATY", "ENVOY", "SANCTION", "SUMMIT", "ALLIANCE"],
+  "word_positions": [
+    {"word": "TREATY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ENVOY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SANCTION", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SUMMIT", "start_row": 7, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "ALLIANCE", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "International Relations and Diplomacy"
+}

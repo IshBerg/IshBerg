@@ -1,0 +1,23 @@
+{
+  "central_word": "shine",
+  "chain_words": [
+    {"word": "glimmer", "intensity": 1, "translation": "a faint, unsteady light", "nuance": "very weak and barely visible light"},
+    {"word": "glow", "intensity": 2, "translation": "a soft, steady light", "nuance": "gentle light that stays constant"},
+    {"word": "gleam", "intensity": 3, "translation": "a bright reflected light", "nuance": "light that catches the eye, often from a smooth surface"},
+    {"word": "shine", "intensity": 4, "translation": "to give out bright light", "nuance": "clear and noticeable light"},
+    {"word": "blaze", "intensity": 5, "translation": "to burn or shine intensely", "nuance": "very strong, dazzling light"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe light, moving from a faint glimmer to an intense blaze. Each step is brighter or more intense than the one before along the same dimension.",
+  "usage_notes": [
+    {"word1": "glow", "word2": "gleam", "difference": "'Glow' describes a soft, steady light, while 'gleam' describes a brighter flash of light that catches the eye."}
+  ],
+  "translations": {
+    "glimmer": "a faint, unsteady light",
+    "glow": "a soft, steady light",
+    "gleam": "a bright reflected light",
+    "shine": "to give out bright light",
+    "blaze": "to burn or shine intensely"
+  }
+}

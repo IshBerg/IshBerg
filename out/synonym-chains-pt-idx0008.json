@@ -1,0 +1,23 @@
+{
+  "central_word": "dislike",
+  "chain_words": [
+    {"word": "disapprove", "intensity": 1, "translation": "desaprovar", "nuance": "judge something as unacceptable, usually in a mild or formal way"},
+    {"word": "dislike", "intensity": 2, "translation": "não gostar", "nuance": "feel a mild negative feeling toward something"},
+    {"word": "resent", "intensity": 3, "translation": "ressentir-se", "nuance": "feel bitter about something that seems unfair"},
+    {"word": "detest", "intensity": 4, "translation": "detestar", "nuance": "feel strong dislike, often with moral objection"},
+    {"word": "loathe", "intensity": 5, "translation": "odiar profundamente", "nuance": "feel intense, almost physical disgust"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express negative feelings or judgements, moving from mild disapproval to intense loathing. Note that 'disapprove' is a judgement rather than an emotion, so it sits at the weakest end of the scale.",
+  "usage_notes": [
+    {"word1": "dislike", "word2": "detest", "difference": "'Dislike' is a general and mild negative feeling, while 'detest' is stronger and often carries a sense of moral objection."}
+  ],
+  "translations": {
+    "disapprove": "desaprovar",
+    "dislike": "não gostar",
+    "resent": "ressentir-se",
+    "detest": "detestar",
+    "loathe": "odiar profundamente"
+  }
+}
