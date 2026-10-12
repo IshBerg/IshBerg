@@ -1,0 +1,39 @@
+{
+  "start_word": "speculative",
+  "end_word": "conclusive",
+  "ladder_steps": [
+    {
+      "word": "speculative",
+      "translation": "spekulatywny",
+      "intensity_level": 1
+    },
+    {
+      "word": "tentative",
+      "translation": "wstępny",
+      "intensity_level": 2
+    },
+    {
+      "word": "plausible",
+      "translation": "wiarygodny",
+      "intensity_level": 3
+    },
+    {
+      "word": "supported",
+      "translation": "poparty",
+      "intensity_level": 4
+    },
+    {
+      "word": "conclusive",
+      "translation": "rozstrzygający",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words form a scale of how strongly evidence supports a claim, from pure speculation to proof that settles the question, with each step better supported than the last."
+}

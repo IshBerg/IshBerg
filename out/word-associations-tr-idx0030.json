@@ -1,0 +1,49 @@
+{
+  "trigger_word": "liability",
+  "all_words": [
+    {
+      "word": "damages",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Hukuki sorumluluk (liability) çoğunlukla 'liability for damages' yani zarardan doğan sorumluluk kalıbında kullanılır."
+    },
+    {
+      "word": "orchestra",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Orkestra müzik kurumudur ve hukuki sorumlulukla bir ilgisi yoktur."
+    },
+    {
+      "word": "indemnity",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Tazminat yükümlülüğü (indemnity), sorumluluğun doğal sonuçlarından biridir."
+    },
+    {
+      "word": "clause",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Sözleşme maddesi (clause), sorumluluk hükümlerinin yazıldığı bölümdür."
+    },
+    {
+      "word": "ripple",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Ripple kelimesi dalga anlamına gelir ve hukukla bağlantılı değildir."
+    },
+    {
+      "word": "negligence",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "İhmal (negligence), sorumluluğun temel dayanaklarından biridir."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    3,
+    5
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Liability' kelimesi hukuki sorumluluğu anlatır; zarar, tazminat, ihmal ve sözleşme maddeleriyle ilişkilidir, müzik ya da doğa kavramlarıyla değildir."
+}

@@ -1,0 +1,48 @@
+{
+  "trigger_word": "hypothesis",
+  "all_words": [
+    {
+      "word": "experiment",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Hipotez (hypothesis) genellikle bir deney ile test edilir, bu yüzden bilimsel yöntemde doğal olarak birlikte anılır."
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Fener (lantern) bilimsel bir kavram değildir ve hipotezle hiçbir ilgisi yoktur."
+    },
+    {
+      "word": "variable",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Değişken (variable), hipotezde test edilen ilişkinin temel unsurlarından biridir."
+    },
+    {
+      "word": "saddle",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Eyer (saddle) binicilikle ilgili bir nesnedir ve bilimsel araştırmayla bağlantılı değildir."
+    },
+    {
+      "word": "prediction",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Tahmin (prediction), hipotezin en yakın anlamlı karşılığıdır; hipotez bir öngörü ifade eder."
+    },
+    {
+      "word": "harbour",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Liman (harbour) coğrafi bir yerdir ve akademik yöntemle ilgisi yoktur."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Hypothesis' bilimsel yöntemin bir parçasıdır; deney, değişken ve tahmin ile ilişkilidir, ama fener, eyer ve liman gibi kavramlarla ilgisi yoktur."
+}

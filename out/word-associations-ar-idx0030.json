@@ -1,0 +1,48 @@
+{
+  "trigger_word": "sanction",
+  "all_words": [
+    {
+      "word": "embargo",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "الحظر التجاري (embargo) شكل من أشكال العقوبات الاقتصادية، لذلك يرتبط ارتباطاً مباشراً بكلمة العقوبة."
+    },
+    {
+      "word": "orchard",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "البستان (orchard) لا علاقة له بالعلاقات الدولية أو بالعقوبات."
+    },
+    {
+      "word": "diplomacy",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "الدبلوماسية (diplomacy) غالباً ما تُستخدم بديلاً عن العقوبات أو معها في السياسة الخارجية."
+    },
+    {
+      "word": "compass",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "البوصلة (compass) أداة ملاحية ولا ترتبط بالعقوبات."
+    },
+    {
+      "word": "boycott",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "المقاطعة (boycott) وسيلة ضغط اقتصادي تُعد من أنواع العقوبات غير الرسمية."
+    },
+    {
+      "word": "lullaby",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "أغنية التهويدة (lullaby) لا علاقة لها بالسياسة أو العقوبات."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "كلمة 'sanction' تعني العقوبة الرسمية على دولة أو جهة، وترتبط بالإجراءات الاقتصادية والسياسية، ولا ترتبط بالطبيعة أو الموسيقى."
+}
