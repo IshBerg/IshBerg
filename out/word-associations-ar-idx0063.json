@@ -1,0 +1,14 @@
+{
+  "trigger_word": "debate",
+  "all_words": [
+    {"word": "opponent", "is_associated": true, "association_type": "SEMANTIC", "explanation": "المناظرة تقوم على طرفين متعارضين، والخصم هو الطرف الذي يقدم الحجة المقابلة، لذلك تتقارب الكلمتان في المعنى."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "الطماطم خضار ولا علاقة لها بالمناظرة أو بالحوار العام."},
+    {"word": "rhetoric", "is_associated": true, "association_type": "THEMATIC", "explanation": "البلاغة والإقناع من أهم أدوات المناظرة، فالكلمتان تنتميان إلى مجال الخطابة والجدل نفسه."},
+    {"word": "anchor", "is_associated": false, "association_type": "NONE", "explanation": "المرساة أداة بحرية ولا تتصل بالمناظرة أو بالجدل."},
+    {"word": "motion", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "عبارة «debate motion» أي «موضوع المناظرة المطروح» تعبير شائع في المناظرات الرسمية، فالكلمتان تُستخدمان معاً."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "الزرافة حيوان بري ولا علاقة لها بالحوار أو بالمناظرة."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "opponent وrhetoric وmotion ترتبط كلها بالمناظرة وأدواتها، أما tomato وanchor وgiraffe فلا صلة لها بهذا المجال."
+}

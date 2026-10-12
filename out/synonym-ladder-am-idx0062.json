@@ -1,0 +1,13 @@
+{
+  "start_word": "tiny",
+  "end_word": "gigantic",
+  "ladder_steps": [
+    {"word": "tiny", "translation": "ትንሽ", "intensity_level": 1},
+    {"word": "small", "translation": "ትንሽ የሆነ", "intensity_level": 2},
+    {"word": "large", "translation": "ትልቅ", "intensity_level": 3},
+    {"word": "huge", "translation": "እጅግ ትልቅ", "intensity_level": 4},
+    {"word": "gigantic", "translation": "ግዙፍ", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words describing physical size form a ladder from very little to enormous, each step bigger than the one before."
+}

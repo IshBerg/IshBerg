@@ -1,0 +1,17 @@
+{
+  "central_word": "dangerous",
+  "chain_words": [
+    {"word": "risky", "intensity": 1, "translation": "arriscado", "nuance": "involving some chance of loss or harm that can be managed"},
+    {"word": "hazardous", "intensity": 2, "translation": "perigoso", "nuance": "a danger built into conditions, materials or environments"},
+    {"word": "dangerous", "intensity": 3, "translation": "perigoso", "nuance": "a general description of something that can cause harm"},
+    {"word": "perilous", "intensity": 4, "translation": "cheio de perigos", "nuance": "a serious threat, often described in formal or dramatic terms"},
+    {"word": "lethal", "intensity": 5, "translation": "letal", "nuance": "capable of causing death"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe the potential for harm, moving from a manageable risk to a danger that can cause death.",
+  "usage_notes": [
+    {"word1": "dangerous", "word2": "perilous", "difference": "'Dangerous' is the everyday word for something that can cause harm; 'perilous' is more formal and suggests a serious, often dramatic threat."}
+  ],
+  "translations": {"risky": "arriscado", "hazardous": "perigoso", "dangerous": "perigoso", "perilous": "cheio de perigos", "lethal": "letal"}
+}
