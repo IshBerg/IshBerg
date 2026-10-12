@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "G"],
+    ["K", "Q", "Z", "B", "J", "W", "L"],
+    ["V", "K", "Q", "F", "Z", "B", "O"],
+    ["E", "J", "W", "X", "K", "P", "S"],
+    ["R", "D", "H", "Y", "Q", "M", "S"],
+    ["S", "B", "J", "Z", "W", "K", "Y"],
+    ["E", "Q", "T", "E", "X", "T", "G"]
+  ],
+  "words_to_find": ["NUANCE", "GLOSS", "VERSE", "TEXT"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLOSS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "VERSE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TEXT", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Literary Translation"
+}

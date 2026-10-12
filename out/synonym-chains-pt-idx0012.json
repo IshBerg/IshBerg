@@ -1,0 +1,23 @@
+{
+  "central_word": "possible",
+  "chain_words": [
+    {"word": "conceivable", "intensity": 1, "translation": "concebível", "nuance": "imaginable in principle, but with little evidence"},
+    {"word": "possible", "intensity": 2, "translation": "possível", "nuance": "could happen or be true, without strong support"},
+    {"word": "plausible", "intensity": 3, "translation": "plausível", "nuance": "reasonable and likely to be true, given the evidence"},
+    {"word": "probable", "intensity": 4, "translation": "provável", "nuance": "more likely than not, based on good evidence"},
+    {"word": "certain", "intensity": 5, "translation": "certo", "nuance": "beyond reasonable doubt"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe how likely a claim is to be true, moving from something merely imaginable to something beyond doubt. Each step expresses greater confidence than the one before.",
+  "usage_notes": [
+    {"word1": "plausible", "word2": "probable", "difference": "'Plausible' describes a claim that sounds reasonable, while 'probable' describes a claim that the evidence makes more likely than not."}
+  ],
+  "translations": {
+    "conceivable": "concebível",
+    "possible": "possível",
+    "plausible": "plausível",
+    "probable": "provável",
+    "certain": "certo"
+  }
+}

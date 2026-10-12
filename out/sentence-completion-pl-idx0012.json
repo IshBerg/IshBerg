@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not until the final vote was counted",
+  "correct_completion": "did the committee announce its decision.",
+  "full_sentence": "Not until the final vote was counted did the committee announce its decision.",
+  "acceptable_variants": ["did the chairman reveal the outcome.", "did the board publicly confirm its choice."],
+  "options": [
+    {"text": "the committee announced its decision.", "is_correct": false, "why_wrong": "After a fronted 'not until' clause, the main clause must be inverted; this uninverted order is incorrect."},
+    {"text": "so the committee announced its decision.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not complete the time relation set up by 'not until'."},
+    {"text": "because the committee had to act quickly.", "is_correct": false, "why_wrong": "A cause does not complete the 'not until' pattern, which requires an inverted main clause expressing time."},
+    {"text": "did the committee announce its decision.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after a fronted 'not until' clause",
+  "connector": "not until",
+  "explanation": "When a sentence begins with 'not until', the main clause that follows must be inverted, with the auxiliary verb before the subject. This pattern is common in formal and written English.",
+  "translation": "Dopiero po przeliczeniu ostatniego głosu komitet ogłosił swoją decyzję."
+}

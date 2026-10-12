@@ -1,0 +1,23 @@
+{
+  "central_word": "annoy",
+  "chain_words": [
+    {"word": "bother", "intensity": 1, "translation": "to trouble someone mildly", "nuance": "a slight disturbance that is easy to ignore"},
+    {"word": "irritate", "intensity": 2, "translation": "to make someone slightly angry", "nuance": "a small but persistent source of irritation"},
+    {"word": "annoy", "intensity": 3, "translation": "to make someone feel impatient or displeased", "nuance": "a general and neutral sense of being displeased"},
+    {"word": "exasperate", "intensity": 4, "translation": "to make someone extremely frustrated", "nuance": "frustration that has built up over time"},
+    {"word": "infuriate", "intensity": 5, "translation": "to make someone very angry", "nuance": "intense anger caused by a specific provocation"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe causing displeasure in someone, moving from a mild disturbance to intense anger. Each step describes a stronger emotional reaction than the one before.",
+  "usage_notes": [
+    {"word1": "annoy", "word2": "exasperate", "difference": "'Annoy' describes a general displeasure, while 'exasperate' describes frustration that has built up until it becomes hard to bear."}
+  ],
+  "translations": {
+    "bother": "to trouble someone mildly",
+    "irritate": "to make someone slightly angry",
+    "annoy": "to make someone feel impatient or displeased",
+    "exasperate": "to make someone extremely frustrated",
+    "infuriate": "to make someone very angry"
+  }
+}

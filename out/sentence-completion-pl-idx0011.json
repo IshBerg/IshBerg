@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The experiment failed repeatedly;",
+  "correct_completion": "consequently, the team revised its methodology.",
+  "full_sentence": "The experiment failed repeatedly; consequently, the team revised its methodology.",
+  "acceptable_variants": ["as a result, the team changed its approach.", "therefore, the researchers rethought their methods."],
+  "options": [
+    {"text": "however, the team revised its methodology.", "is_correct": false, "why_wrong": "'However' signals contrast, but the logical link required here is a consequence of the repeated failures."},
+    {"text": "consequently, the team revised its methodology.", "is_correct": true, "why_wrong": null},
+    {"text": "for example, the team revised its methodology.", "is_correct": false, "why_wrong": "'For example' introduces an illustration of a general point, not the result of the failures."},
+    {"text": "in addition, the team wrote a report.", "is_correct": false, "why_wrong": "'In addition' adds a related point, but the stem calls for a result of the failure rather than an extra fact."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Discourse marker 'consequently' to express result after a clause",
+  "connector": "consequently",
+  "explanation": "The first clause reports a series of failures, and 'consequently' introduces the logical result of those failures. This is a common discourse pattern in academic and report writing.",
+  "translation": "Eksperyment wielokrotnie kończył się niepowodzeniem; w konsekwencji zespół zmienił swoją metodologię."
+}

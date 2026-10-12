@@ -1,0 +1,14 @@
+{
+  "trigger_word": "thesis",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "טיעון הוא הבסיס של תזה, ולכן המילים קשורות ישירות זו לזו בשיח אקדמי."},
+    {"word": "lemon", "is_associated": false, "association_type": "NONE", "explanation": "לימון הוא פרי ואין לו קשר לכתיבה אקדמית או לתזה."},
+    {"word": "essay", "is_associated": true, "association_type": "THEMATIC", "explanation": "חיבור נכתב סביב תזה מרכזית, ולכן הוא שייך לאותו תחום של כתיבה טיעונית."},
+    {"word": "saddle", "is_associated": false, "association_type": "NONE", "explanation": "אוכף הוא ציוד לרכיבה ואין לו קשר לתזה או לכתיבה."},
+    {"word": "defend", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "הביטוי „defend a thesis” (להגן על תזה) הוא צירוף קבוע בשפה האקדמית."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "רעם הוא תופעת טבע ואין לו קשר לתזה."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "המילים המשויכות מתייחסות לעולם התזה: הטיעון שהיא נשענת עליו, החיבור שבו היא מוצגת וצירוף הקבע להגנה עליה. המילים הלא משויכות שייכות לתחומים אחרים לגמרי."
+}

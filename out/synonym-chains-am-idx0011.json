@@ -1,0 +1,23 @@
+{
+  "central_word": "shout",
+  "chain_words": [
+    {"word": "call", "intensity": 1, "translation": "መጥራት", "nuance": "raise the voice to attract attention"},
+    {"word": "shout", "intensity": 2, "translation": "መጮህ", "nuance": "speak loudly to be heard across a distance"},
+    {"word": "yell", "intensity": 3, "translation": "ጮክ ብሎ መጮህ", "nuance": "shout sharply, often in urgency or alarm"},
+    {"word": "bellow", "intensity": 4, "translation": "በኃይል መጮህ", "nuance": "shout in a deep, powerful voice"},
+    {"word": "roar", "intensity": 5, "translation": "ማገሳ", "nuance": "make a loud, prolonged, overwhelming sound"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe raising the voice, moving from a mild call for attention to a loud, overwhelming roar. Each step involves greater volume or force than the one before.",
+  "usage_notes": [
+    {"word1": "shout", "word2": "yell", "difference": "'Shout' is a general term for speaking loudly, while 'yell' adds urgency, sharpness, or alarm."}
+  ],
+  "translations": {
+    "call": "መጥራት",
+    "shout": "መጮህ",
+    "yell": "ጮክ ብሎ መጮህ",
+    "bellow": "በኃይል መጮህ",
+    "roar": "ማገሳ"
+  }
+}

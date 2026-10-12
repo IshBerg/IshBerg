@@ -1,0 +1,14 @@
+{
+  "trigger_word": "calque",
+  "all_words": [
+    {"word": "loanword", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Zapożyczenie (loanword) i kalka należą do tego samego zjawiska: przejmowania słów lub wyrażeń z innego języka."},
+    {"word": "compass", "is_associated": false, "association_type": "NONE", "explanation": "Kompas to przyrząd nawigacyjny i nie ma związku z językoznawstwem ani kalkami."},
+    {"word": "borrowing", "is_associated": true, "association_type": "THEMATIC", "explanation": "Pożyczanie wyrazów z innych języków jest główną dziedziną, w której pojawia się kalka."},
+    {"word": "pancake", "is_associated": false, "association_type": "NONE", "explanation": "Naleśnik to potrawa i nie jest związany z kalką językową."},
+    {"word": "translation", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie „literal translation” (dosłowne tłumaczenie) to typowe określenie tego, czym jest kalka."},
+    {"word": "tortoise", "is_associated": false, "association_type": "NONE", "explanation": "Żółw to zwierzę i nie ma żadnego związku z kalką językową."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Powiązane słowa dotyczą zjawisk językowych: zapożyczenia, szersza dziedzina przejmowania wyrazów oraz dosłowne tłumaczenie, którym kalka jest. Pozostałe należą do zupełnie innych dziedzin."
+}

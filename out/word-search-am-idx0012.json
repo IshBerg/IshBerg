@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "A", "N", "D", "A", "T", "E"],
+    ["C", "Q", "W", "T", "J", "K", "Z"],
+    ["O", "K", "Z", "R", "Q", "W", "E"],
+    ["N", "J", "X", "E", "Y", "P", "N"],
+    ["S", "Q", "K", "A", "Z", "W", "V"],
+    ["U", "R", "B", "T", "Q", "J", "O"],
+    ["L", "Z", "P", "Y", "K", "X", "Y"]
+  ],
+  "words_to_find": ["MANDATE", "CONSUL", "TREATY", "ENVOY"],
+  "word_positions": [
+    {"word": "MANDATE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CONSUL", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TREATY", "start_row": 1, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "ENVOY", "start_row": 2, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "International Relations and Diplomacy"
+}

@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["A", "C", "C", "O", "R", "D", "A"],
+    ["K", "C", "Q", "W", "Z", "J", "S"],
+    ["F", "A", "X", "K", "P", "B", "Y"],
+    ["M", "B", "Z", "H", "W", "Q", "L"],
+    ["G", "L", "J", "D", "V", "Z", "U"],
+    ["T", "E", "K", "Y", "R", "W", "M"],
+    ["P", "A", "C", "T", "Q", "W", "Z"]
+  ],
+  "words_to_find": ["ACCORD", "ASYLUM", "CABLE", "PACT"],
+  "word_positions": [
+    {"word": "ACCORD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ASYLUM", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "CABLE", "start_row": 1, "start_col": 1, "direction": "VERTICAL"},
+    {"word": "PACT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "International Relations and Diplomacy"
+}
