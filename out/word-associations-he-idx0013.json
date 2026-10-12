@@ -1,0 +1,14 @@
+{
+  "trigger_word": "etiquette",
+  "all_words": [
+    {"word": "protocol", "is_associated": true, "association_type": "SEMANTIC", "explanation": "פרוטוקול הוא סט כללים רשמיים להתנהגות נכונה, ולכן הוא קרוב מאוד במשמעותו לאטיקט."},
+    {"word": "marathon", "is_associated": false, "association_type": "NONE", "explanation": "מרתון הוא ריצה ארוכה ואין לו קשר להתנהגות חברתית או לנימוסים."},
+    {"word": "courtesy", "is_associated": true, "association_type": "THEMATIC", "explanation": "נימוס הוא אחד הערכים המרכזיים של אטיקט, ולכן הוא שייך לאותו תחום של התנהגות מכובדת."},
+    {"word": "pebble", "is_associated": false, "association_type": "NONE", "explanation": "חלוק הוא אבן קטנה ואין לו קשר לכללי התנהגות חברתיים."},
+    {"word": "greeting", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "ברכה פורמלית (formal greeting) היא פעולה שהאטיקט קובע כיצד לבצע, ולכן המילים נפגשות בשימוש."},
+    {"word": "chandelier", "is_associated": false, "association_type": "NONE", "explanation": "נברשת היא גוף תאורה ואין לה קשר לכללי התנהגות."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "המילים המשויכות מתייחסות לכללי ההתנהגות החברתית: מערכת כללים רשמית, ערך של נימוס וברכה שהנימוס קובע. המילים הלא משויכות שייכות לתחומים אחרים לגמרי."
+}

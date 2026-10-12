@@ -1,0 +1,23 @@
+{
+  "central_word": "hungry",
+  "chain_words": [
+    {"word": "peckish", "intensity": 1, "translation": "جائع قليلًا", "nuance": "slightly hungry, ready for a small snack"},
+    {"word": "hungry", "intensity": 2, "translation": "جائع", "nuance": "wanting food, in a general and neutral way"},
+    {"word": "starving", "intensity": 3, "translation": "يتضور جوعًا", "nuance": "very hungry, feeling a strong need to eat"},
+    {"word": "famished", "intensity": 4, "translation": "جائع جدًا", "nuance": "extremely hungry, often after a long period without food"},
+    {"word": "ravenous", "intensity": 5, "translation": "شره الجوع", "nuance": "so hungry that one wants to eat greedily and urgently"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe the feeling of wanting food, moving from a slight appetite to an urgent and overwhelming hunger. Each step describes a stronger need to eat than the one before.",
+  "usage_notes": [
+    {"word1": "famished", "word2": "ravenous", "difference": "'Famished' describes extreme hunger after a long time without food, while 'ravenous' describes an urgent, almost greedy appetite."}
+  ],
+  "translations": {
+    "peckish": "جائع قليلًا",
+    "hungry": "جائع",
+    "starving": "يتضور جوعًا",
+    "famished": "جائع جدًا",
+    "ravenous": "شره الجوع"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["N", "A", "R", "R", "A", "T", "O", "R"],
+    ["T", "K", "Q", "W", "Z", "J", "C", "V"],
+    ["H", "K", "Z", "S", "W", "Q", "R", "J"],
+    ["E", "Q", "J", "Y", "K", "W", "I", "Z"],
+    ["M", "Z", "X", "M", "Q", "K", "T", "V"],
+    ["E", "Q", "W", "B", "K", "Z", "I", "X"],
+    ["K", "J", "V", "O", "W", "Q", "C", "Z"],
+    ["Z", "Q", "K", "L", "J", "V", "X", "W"]
+  ],
+  "words_to_find": ["NARRATOR", "THEME", "SYMBOL", "CRITIC"],
+  "word_positions": [
+    {"word": "NARRATOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THEME", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SYMBOL", "start_row": 2, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "CRITIC", "start_row": 1, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Literary Criticism and Theory"
+}

@@ -1,0 +1,23 @@
+{
+  "central_word": "quarrel",
+  "chain_words": [
+    {"word": "disagreement", "intensity": 1, "translation": "a difference of opinion without open hostility", "nuance": "a mild and neutral difference of view"},
+    {"word": "dispute", "intensity": 2, "translation": "a formal disagreement over a claim or right", "nuance": "a disagreement that needs to be settled"},
+    {"word": "quarrel", "intensity": 3, "translation": "an angry argument between people", "nuance": "a heated exchange, often personal"},
+    {"word": "feud", "intensity": 4, "translation": "a long-lasting bitter conflict between families or groups", "nuance": "hostility that continues over time"},
+    {"word": "vendetta", "intensity": 5, "translation": "a deliberate, prolonged campaign of revenge", "nuance": "hostility driven by a desire for revenge"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe conflict between people or groups, moving from a mild difference of opinion to a sustained and deliberate campaign of revenge. Each step involves greater hostility or duration than the one before.",
+  "usage_notes": [
+    {"word1": "dispute", "word2": "quarrel", "difference": "'Dispute' is usually a formal disagreement about a claim or right, while 'quarrel' is a heated, often personal argument."}
+  ],
+  "translations": {
+    "disagreement": "a difference of opinion without open hostility",
+    "dispute": "a formal disagreement over a claim or right",
+    "quarrel": "an angry argument between people",
+    "feud": "a long-lasting bitter conflict between families or groups",
+    "vendetta": "a deliberate, prolonged campaign of revenge"
+  }
+}

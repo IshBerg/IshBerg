@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee foreseen the consequences,",
+  "correct_completion": "it would have chosen a different course entirely.",
+  "full_sentence": "Had the committee foreseen the consequences, it would have chosen a different course entirely.",
+  "acceptable_variants": ["it would have adopted an entirely different strategy.", "it would certainly have pursued another path."],
+  "options": [
+    {"text": "so it chose a different course.", "is_correct": false, "why_wrong": "'So' introduces a result, but the inverted conditional needs a hypothetical result, not a factual one."},
+    {"text": "it chose a different course, though.", "is_correct": false, "why_wrong": "'Though' adds a contrast, which the stem does not set up; the clause must express a hypothetical result."},
+    {"text": "it would have chosen a different course entirely.", "is_correct": true, "why_wrong": null},
+    {"text": "it chose a different course yesterday.", "is_correct": false, "why_wrong": "A specific past time does not complete the hypothetical result of the inverted condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional ('Had + subject + past participle') with a would-have main clause",
+  "connector": "had (inverted if)",
+  "explanation": "In the inverted form 'Had the committee foreseen', the word order replaces 'If the committee had foreseen'. The main clause then needs 'would have' to express the hypothetical result of an unreal past condition.",
+  "translation": "Gdyby komitet przewidział konsekwencje, z pewnością obrałby zupełnie inny kierunek."
+}
