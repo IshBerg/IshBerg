@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "teatr", "transliteration": "teatr", "meaning": "theatre"},
+    {"word": "komedia", "transliteration": "komedia", "meaning": "comedy"},
+    {"word": "poezja", "transliteration": "poezja", "meaning": "poetry"},
+    {"word": "retoryka", "transliteration": "retoryka", "meaning": "rhetoric"}
+  ],
+  "english_words": ["poetry", "theatre", "rhetoric", "comedy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These Polish words were borrowed from the same Greek and Latin sources as their English equivalents, so the forms stayed close and the meanings match.",
+  "false_friend_warning": null
+}

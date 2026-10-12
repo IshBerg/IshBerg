@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before",
+  "correct_completion": "had I seen the streets so alive.",
+  "full_sentence": "Never before had I seen the streets so alive.",
+  "acceptable_variants": ["had I ever seen the streets so vibrant.", "had I witnessed streets so alive."],
+  "options": [
+    {"text": "I saw the streets so alive.", "is_correct": false, "why_wrong": "After a fronted negative expression such as 'never before', the auxiliary must come before the subject, so this normal word order is incorrect."},
+    {"text": "the streets were so alive.", "is_correct": false, "why_wrong": "The sentence does not invert the subject and auxiliary, so it cannot complete the emphatic structure started by 'never before'."},
+    {"text": "I had seen the streets so alive.", "is_correct": false, "why_wrong": "This keeps the normal word order, which is incorrect after a fronted negative adverbial."},
+    {"text": "had I seen the streets so alive.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after fronted negative adverbials",
+  "connector": "never before",
+  "explanation": "When a negative expression such as 'never before' begins the sentence, the auxiliary verb is placed before the subject for emphasis.",
+  "translation": "Daha önce hiç sokakları bu kadar canlı görmemiştim."
+}

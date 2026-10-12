@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Left alone in the empty house,",
+  "correct_completion": "she listened to the clock ticking in the hallway.",
+  "full_sentence": "Left alone in the empty house, she listened to the clock ticking in the hallway.",
+  "acceptable_variants": ["she heard the clock ticking in the corridor.", "she sat listening to the clock in the hallway."],
+  "options": [
+    {"text": "the clock was left alone in the house.", "is_correct": false, "why_wrong": "The participle 'left' would then refer to the clock, but the sentence requires the implied subject of the participle to be the person who was alone."},
+    {"text": "to listen to the clock ticking.", "is_correct": false, "why_wrong": "An infinitive phrase cannot function as the main clause that completes the sentence."},
+    {"text": "she listened to the clock ticking in the hallway.", "is_correct": true, "why_wrong": null},
+    {"text": "having listened to the clock earlier.", "is_correct": false, "why_wrong": "The perfect participle would describe an action completed before the situation in the stem, which conflicts with the simultaneous state of being alone."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with an implied subject",
+  "connector": "left alone",
+  "explanation": "A participle clause at the start of a sentence shares its implied subject with the main clause, so the main clause must describe what the person in the stem does.",
+  "translation": "Pozostawiona sama w pustym domu, słuchała tykania zegara na korytarzu."
+}

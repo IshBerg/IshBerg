@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["C", "O", "N", "T", "R", "A", "C", "T"],
+    ["L", "B", "F", "G", "H", "J", "K", "R"],
+    ["A", "M", "P", "Q", "V", "W", "X", "U"],
+    ["U", "D", "Z", "C", "N", "Y", "F", "S"],
+    ["S", "K", "E", "G", "L", "H", "M", "T"],
+    ["E", "W", "R", "D", "P", "B", "J", "Q"],
+    ["V", "X", "Z", "K", "N", "F", "G", "H"],
+    ["A", "U", "D", "I", "T", "K", "W", "Z"]
+  ],
+  "words_to_find": ["CONTRACT", "CLAUSE", "TRUST", "AUDIT"],
+  "word_positions": [
+    {"word": "CONTRACT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAUSE", "start_row": 0, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TRUST", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "AUDIT", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Domain-Specific Jargon Mastery"
+}

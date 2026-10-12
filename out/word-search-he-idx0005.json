@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["A", "P", "P", "E", "A", "L", "Q", "V"],
+    ["X", "R", "Z", "M", "T", "K", "J", "W"],
+    ["D", "E", "F", "E", "N", "C", "E", "B"],
+    ["M", "O", "L", "R", "I", "S", "P", "Y"],
+    ["H", "Y", "B", "U", "O", "U", "C", "N"],
+    ["Q", "T", "I", "G", "L", "A", "T", "H"],
+    ["W", "K", "S", "E", "V", "H", "R", "Z"],
+    ["J", "F", "O", "C", "U", "S", "P", "X"]
+  ],
+  "words_to_find": ["APPEAL", "DEFENCE", "VERDICT", "CLAUSE"],
+  "word_positions": [
+    {"word": "APPEAL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DEFENCE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VERDICT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAUSE", "start_row": 0, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Domain-Specific Jargon Mastery"
+}
