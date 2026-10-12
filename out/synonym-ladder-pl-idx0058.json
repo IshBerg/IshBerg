@@ -1,0 +1,39 @@
+{
+  "start_word": "unconfirmed",
+  "end_word": "verified",
+  "ladder_steps": [
+    {
+      "word": "unconfirmed",
+      "translation": "niepotwierdzony",
+      "intensity_level": 1
+    },
+    {
+      "word": "credible",
+      "translation": "wiarygodny",
+      "intensity_level": 2
+    },
+    {
+      "word": "substantiated",
+      "translation": "udokumentowany",
+      "intensity_level": 3
+    },
+    {
+      "word": "corroborated",
+      "translation": "potwierdzony przez inne źródła",
+      "intensity_level": 4
+    },
+    {
+      "word": "verified",
+      "translation": "zweryfikowany",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how well a journalist's claim is established, from an unconfirmed tip to a fully verified fact, with each step better supported than the last."
+}

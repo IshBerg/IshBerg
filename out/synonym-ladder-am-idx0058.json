@@ -1,0 +1,39 @@
+{
+  "start_word": "doubtful",
+  "end_word": "certain",
+  "ladder_steps": [
+    {
+      "word": "doubtful",
+      "translation": "ጥርጣሬ ያለው",
+      "intensity_level": 1
+    },
+    {
+      "word": "possible",
+      "translation": "ሊሆን የሚችል",
+      "intensity_level": 2
+    },
+    {
+      "word": "likely",
+      "translation": "ይመስላል",
+      "intensity_level": 3
+    },
+    {
+      "word": "probable",
+      "translation": "በጣም ሊሆን የሚችል",
+      "intensity_level": 4
+    },
+    {
+      "word": "certain",
+      "translation": "እርግጠኛ",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how sure an investigator can be of a finding, from a doubtful lead to a certain conclusion, with each step more convincing than the last."
+}

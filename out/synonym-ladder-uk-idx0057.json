@@ -1,0 +1,39 @@
+{
+  "start_word": "innocent",
+  "end_word": "guilty",
+  "ladder_steps": [
+    {
+      "word": "innocent",
+      "translation": "невинний",
+      "intensity_level": 1
+    },
+    {
+      "word": "suspected",
+      "translation": "підозрюваний",
+      "intensity_level": 2
+    },
+    {
+      "word": "implicated",
+      "translation": "причетний",
+      "intensity_level": 3
+    },
+    {
+      "word": "accused",
+      "translation": "обвинувачений",
+      "intensity_level": 4
+    },
+    {
+      "word": "guilty",
+      "translation": "винний",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe a person's legal position along one dimension, from being innocent of any charge to being proven guilty, with each step closer to a finding of guilt than the last."
+}
