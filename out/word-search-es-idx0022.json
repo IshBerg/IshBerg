@@ -1,0 +1,137 @@
+{
+  "grid_size": 9,
+  "grid": [
+    [
+      "C",
+      "O",
+      "M",
+      "M",
+      "I",
+      "T",
+      "T",
+      "E",
+      "E"
+    ],
+    [
+      "C",
+      "Q",
+      "W",
+      "Z",
+      "K",
+      "J",
+      "X",
+      "V",
+      "A"
+    ],
+    [
+      "K",
+      "I",
+      "Q",
+      "W",
+      "Z",
+      "X",
+      "J",
+      "V",
+      "B"
+    ],
+    [
+      "Z",
+      "K",
+      "T",
+      "Q",
+      "W",
+      "J",
+      "X",
+      "V",
+      "S"
+    ],
+    [
+      "Q",
+      "W",
+      "K",
+      "A",
+      "Z",
+      "X",
+      "J",
+      "V",
+      "T"
+    ],
+    [
+      "X",
+      "Q",
+      "W",
+      "Z",
+      "T",
+      "K",
+      "J",
+      "V",
+      "R"
+    ],
+    [
+      "Z",
+      "J",
+      "K",
+      "Q",
+      "W",
+      "I",
+      "X",
+      "V",
+      "A"
+    ],
+    [
+      "X",
+      "W",
+      "Q",
+      "Z",
+      "K",
+      "J",
+      "O",
+      "V",
+      "C"
+    ],
+    [
+      "S",
+      "C",
+      "H",
+      "O",
+      "L",
+      "A",
+      "R",
+      "N",
+      "T"
+    ]
+  ],
+  "words_to_find": [
+    "COMMITTEE",
+    "ABSTRACT",
+    "CITATION",
+    "SCHOLAR"
+  ],
+  "word_positions": [
+    {
+      "word": "COMMITTEE",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "ABSTRACT",
+      "start_row": 1,
+      "start_col": 8,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "CITATION",
+      "start_row": 1,
+      "start_col": 0,
+      "direction": "DIAGONAL_DOWN"
+    },
+    {
+      "word": "SCHOLAR",
+      "start_row": 8,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    }
+  ],
+  "topic": "Academic Thesis Defense"
+}

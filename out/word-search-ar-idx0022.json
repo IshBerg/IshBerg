@@ -1,0 +1,137 @@
+{
+  "grid_size": 9,
+  "grid": [
+    [
+      "F",
+      "I",
+      "D",
+      "E",
+      "L",
+      "I",
+      "T",
+      "Y",
+      "R"
+    ],
+    [
+      "G",
+      "L",
+      "O",
+      "S",
+      "S",
+      "Q",
+      "W",
+      "K",
+      "E"
+    ],
+    [
+      "Z",
+      "J",
+      "Q",
+      "X",
+      "V",
+      "K",
+      "W",
+      "Z",
+      "N"
+    ],
+    [
+      "N",
+      "K",
+      "Q",
+      "J",
+      "Z",
+      "X",
+      "W",
+      "V",
+      "D"
+    ],
+    [
+      "K",
+      "U",
+      "Q",
+      "Z",
+      "W",
+      "X",
+      "J",
+      "V",
+      "E"
+    ],
+    [
+      "Q",
+      "W",
+      "A",
+      "J",
+      "Z",
+      "X",
+      "K",
+      "V",
+      "R"
+    ],
+    [
+      "Z",
+      "K",
+      "Q",
+      "N",
+      "W",
+      "X",
+      "J",
+      "V",
+      "Q"
+    ],
+    [
+      "W",
+      "X",
+      "Q",
+      "J",
+      "C",
+      "K",
+      "Z",
+      "V",
+      "Q"
+    ],
+    [
+      "Z",
+      "K",
+      "Q",
+      "W",
+      "J",
+      "E",
+      "X",
+      "Z",
+      "K"
+    ]
+  ],
+  "words_to_find": [
+    "FIDELITY",
+    "RENDER",
+    "GLOSS",
+    "NUANCE"
+  ],
+  "word_positions": [
+    {
+      "word": "FIDELITY",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "RENDER",
+      "start_row": 0,
+      "start_col": 8,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "GLOSS",
+      "start_row": 1,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "NUANCE",
+      "start_row": 3,
+      "start_col": 0,
+      "direction": "DIAGONAL_DOWN"
+    }
+  ],
+  "topic": "Literary Translation"
+}

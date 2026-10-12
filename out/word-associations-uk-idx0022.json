@@ -1,0 +1,48 @@
+{
+  "trigger_word": "palindrome",
+  "all_words": [
+    {
+      "word": "anagram",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Анаграма — це ще одна словесна гра, у якій літери переставляються для створення нового слова, тож зв'язок семантичний."
+    },
+    {
+      "word": "parsley",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Петрушка — пряна зелень, яка не має жодного відношення до словесних ігор."
+    },
+    {
+      "word": "acrostic",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Акровірш будується на першій літері рядків, як і паліндром — на структурі та формі слова, тому зв'язок тематичний."
+    },
+    {
+      "word": "tricycle",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Триколісний велосипед — дитячий транспорт, який не пов'язаний з літературними прийомами."
+    },
+    {
+      "word": "pun",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Каламбур, як і паліндром, грає на звучанні та написанні слів, тож зв'язок тематичний."
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Ліхтар — джерело світла, який не має відношення до словесної творчості."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова належать до словесних ігор, що грають на літерах, звучанні та формі тексту, а решта слів відносяться до побуту, природи та транспорту."
+}

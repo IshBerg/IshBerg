@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The tenant must give written notice before the lease ends, and",
+  "correct_completion": "failure to do so will result in an automatic renewal of the lease.",
+  "full_sentence": "The tenant must give written notice before the lease ends, and failure to do so will result in an automatic renewal of the lease.",
+  "acceptable_variants": [
+    "missing the deadline will automatically renew the agreement.",
+    "without notice, the contract continues for another full term."
+  ],
+  "options": [
+    {
+      "text": "the tenant may leave without notice at any time.",
+      "is_correct": false,
+      "why_wrong": "This contradicts the stated obligation to give notice, so it cannot continue the sentence logically."
+    },
+    {
+      "text": "failure to do so will result in an automatic renewal of the lease.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the lease was signed in the spring.",
+      "is_correct": false,
+      "why_wrong": "This is an unrelated background fact that does not follow from the obligation in the stem."
+    },
+    {
+      "text": "tenants are often confused by the terms.",
+      "is_correct": false,
+      "why_wrong": "This comments on tenants in general and does not state the consequence that the obligation sets up."
+    }
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Coordinated clause stating the consequence of a legal obligation",
+  "connector": "and",
+  "explanation": "The stem sets up an obligation, and the completion states what happens if it is not met. This is a cause-and-effect relationship typical of contractual language.",
+  "translation": "يجب على المستأجر تقديم إشعار كتابي قبل انتهاء عقد الإيجار، وإلا فسيُجدَّد العقد تلقائيًا."
+}
