@@ -1,0 +1,39 @@
+{
+  "start_word": "cold",
+  "end_word": "hot",
+  "ladder_steps": [
+    {
+      "word": "cold",
+      "translation": "ቀዝቃዛ",
+      "intensity_level": 1
+    },
+    {
+      "word": "cool",
+      "translation": "ቀዘቀዝ ያለ",
+      "intensity_level": 2
+    },
+    {
+      "word": "lukewarm",
+      "translation": "ለብ ያለ",
+      "intensity_level": 3
+    },
+    {
+      "word": "warm",
+      "translation": "ሞቅ ያለ",
+      "intensity_level": 4
+    },
+    {
+      "word": "hot",
+      "translation": "ትኩስ",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "Temperature words form a ladder from coldest to hottest, each step slightly warmer than the last."
+}
