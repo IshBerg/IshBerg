@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the sample was drawn from a single hospital,",
+  "correct_completion": "the investigators' findings cannot be generalised to the wider population.",
+  "full_sentence": "Because the sample was drawn from a single hospital, the investigators' findings cannot be generalised to the wider population.",
+  "acceptable_variants": ["the generalisability of the results remains limited.", "any claim about the wider population requires further evidence."],
+  "options": [
+    {"text": "the investigators' findings can be generalised to the wider population.", "is_correct": false, "why_wrong": "This contradicts the causal logic of 'because': a single-site sample is exactly what blocks generalisation."},
+    {"text": "the investigators' findings were generalised by the hospital.", "is_correct": false, "why_wrong": "The stem describes a limitation of the sample, so a claim that the findings were already generalised does not complete the reasoning."},
+    {"text": "the investigators' findings cannot be generalised to the wider population.", "is_correct": true, "why_wrong": null},
+    {"text": "the generalisation of the investigators' findings was a single hospital's decision.", "is_correct": false, "why_wrong": "This uses a nominal phrase that names an action but does not state the logical consequence of the sample's limitation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clauses with 'because' followed by a main clause that states the consequence, using nominal subjects such as 'the findings'",
+  "connector": "because",
+  "explanation": "'Because' introduces a cause, so the main clause must state the consequence of a single-site sample, namely that the findings cannot be generalised.",
+  "translation": "Örneklem tek bir hastaneden alındığı için araştırmacıların bulguları daha geniş bir popülasyona genellenemez."
+}

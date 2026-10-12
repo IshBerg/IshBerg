@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "E", "M", "O", "I", "R", "V"],
+    ["R", "Q", "J", "Z", "W", "B", "I"],
+    ["E", "K", "X", "P", "F", "Z", "V"],
+    ["C", "W", "H", "Q", "J", "K", "I"],
+    ["A", "F", "B", "Z", "X", "Q", "D"],
+    ["L", "K", "W", "Z", "Q", "J", "X"],
+    ["L", "S", "C", "E", "N", "E", "F"]
+  ],
+  "words_to_find": ["MEMOIR", "RECALL", "VIVID", "SCENE"],
+  "word_positions": [
+    {"word": "MEMOIR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RECALL", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "VIVID", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SCENE", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Memoir and Creative Nonfiction"
+}

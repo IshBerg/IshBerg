@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The rapid expansion of the rail network",
+  "correct_completion": "has significantly reduced average commuting times across the region.",
+  "full_sentence": "The rapid expansion of the rail network has significantly reduced average commuting times across the region.",
+  "acceptable_variants": ["has cut average commuting times considerably.", "has shortened the typical journey to work across the region."],
+  "options": [
+    {"text": "the rail network has rapidly expanded and now reducing commuting.", "is_correct": false, "why_wrong": "The sentence mixes a finished verb form with an unfinished '-ing' form, so there is no grammatical main predicate."},
+    {"text": "which rapidly expanded, yet commuting times rose sharply.", "is_correct": false, "why_wrong": "This reverses the meaning the stem sets up, since the nominal subject points to a reduction in commuting times."},
+    {"text": "has significantly reduced average commuting times across the region.", "is_correct": true, "why_wrong": null},
+    {"text": "because the rail network rapidly expanded.", "is_correct": false, "why_wrong": "The stem already names the cause as a noun phrase, so a 'because' clause repeats it and never supplies the main predicate."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Nominalization: a noun phrase ('the rapid expansion') used as the subject of a finite verb",
+  "connector": "rapid expansion",
+  "explanation": "The nominalised subject 'The rapid expansion' needs a finite verb phrase to complete the main clause, so the completion must supply a predicate such as 'has reduced'.",
+  "translation": "A rápida expansão da rede ferroviária reduziu significativamente os tempos médios de deslocamento em toda a região."
+}
