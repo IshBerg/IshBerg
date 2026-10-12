@@ -1,0 +1,48 @@
+{
+  "trigger_word": "clickbait",
+  "all_words": [
+    {
+      "word": "sensational",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Sansasyonel (sensational), clickbait başlıkların amacını tanımlayan bir sıfattır; okuru şaşırtmak için abartılı bir dil kullanmak anlamına gelir."
+    },
+    {
+      "word": "toaster",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Tost makinesi (toaster) bir mutfak aracıdır ve medya okuryazarlığıyla bir ilgisi yoktur."
+    },
+    {
+      "word": "headline",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Manşet (headline), clickbait tuzağının kurulduğu asıl metin öğesidir, bu yüzden aynı tartışmada yer alır."
+    },
+    {
+      "word": "meadow",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Çayır (meadow) bir doğa alanıdır ve medya söylemiyle bağlantısı yoktur."
+    },
+    {
+      "word": "click-through rate",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Tıklama oranı (click-through rate), clickbait içeriklerin başarısını ölçmek için kullanılan yerleşik bir terimdir."
+    },
+    {
+      "word": "parasol",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Şemsiye (parasol) güneşten korunmak için kullanılan bir eşyadır ve medya analiziyle ilgisi yoktur."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Clickbait' okuru tıklamaya zorlamak için tasarlanan abartılı başlıkları anlatır; sansasyonel, manşet ve tıklama oranı bu kavramla ilişkilidir, ancak tost makinesi, çayır ve şemsiye ile bağlantısı yoktur."
+}

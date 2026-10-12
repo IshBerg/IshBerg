@@ -1,0 +1,48 @@
+{
+  "trigger_word": "propaganda",
+  "all_words": [
+    {
+      "word": "slogan",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Slogan, propagandanın en yaygın araçlarından biridir; kısa ve akılda kalıcı bir cümleyle kitleleri etkilemeyi amaçlar."
+    },
+    {
+      "word": "accordion",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Akordeon (accordion) bir müzik aletidir ve siyasi iletişimle bir ilgisi yoktur."
+    },
+    {
+      "word": "censorship",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Sansür (censorship), propagandanın yayılmasını sağlayan ve eleştiriyi engelleyen kontrol mekanizmasıdır; bu yüzden aynı tartışmada yer alır."
+    },
+    {
+      "word": "pebble",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Çakıl taşı (pebble) doğal bir nesnedir ve propagandayla bağlantısı yoktur."
+    },
+    {
+      "word": "state media",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Devlet medyası (state media), propagandanın sıkça yayıldığı kurumlar için kullanılan yerleşik bir ifadedir."
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Fener (lantern) bir aydınlatma aracıdır ve propagandayla ilgisi yoktur."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Propaganda' bir görüşü yaymak için kullanılan örgütlü iletişimi anlatır; slogan, sansür ve devlet medyası bu kavramla ilişkilidir, ancak akordeon, çakıl taşı ve fener ile bağlantısı yoktur."
+}

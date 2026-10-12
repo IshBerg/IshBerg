@@ -1,0 +1,48 @@
+{
+  "trigger_word": "caricature",
+  "all_words": [
+    {
+      "word": "cartoon",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Карикатура і мультфільм (cartoon) мають спільну основу: обидва передають ідею через спрощене, гумористичне зображення."
+    },
+    {
+      "word": "anvil",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Ковадло (anvil) — інструмент ковальства і не має стосунку до карикатури."
+    },
+    {
+      "word": "exaggeration",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Перебільшення (exaggeration) — головний прийом карикатури, тож ці слова належать до однієї теми."
+    },
+    {
+      "word": "tortoise",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Черепаха (tortoise) — тварина і не пов’язана з карикатурою."
+    },
+    {
+      "word": "caricature artist",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Карикатурист (caricature artist) — усталене поєднання, що описує митця, який створює карикатури."
+    },
+    {
+      "word": "chandelier",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Люстра (chandelier) — предмет інтер’єру і не має стосунку до карикатури."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'caricature' означає перебільшене, сатиричне зображення людини; мультфільм, перебільшення і карикатурист пов’язані з ним, а ковадло, черепаха і люстра — ні."
+}

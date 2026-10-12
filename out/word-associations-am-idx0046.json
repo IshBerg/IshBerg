@@ -1,0 +1,48 @@
+{
+  "trigger_word": "propaganda",
+  "all_words": [
+    {
+      "word": "slogan",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "መፈክር (slogan) ፕሮፓጋንዳ የሚጠቀምበት አጭርና ስሜት ቀስቃሽ ሐረግ ነው፤ ስለዚህ ከፕሮፓጋንዳ ጋር በቀጥታ ይያያዛል።"
+    },
+    {
+      "word": "accordion",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "አኮርዲዮን (accordion) የሙዚቃ መሣሪያ ነው፤ ከፖለቲካ ጽሑፍ ጋር ግንኙነት የለውም።"
+    },
+    {
+      "word": "censorship",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "ሳንሱር (censorship) ፕሮፓጋንዳ የሚሰራጭበት የመገናኛ ቁጥጥር ነው፤ ስለዚህ በአንድ ርዕስ ውስጥ ይገኛል።"
+    },
+    {
+      "word": "pebble",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ጠጠር (pebble) ትንሽ ድንጋይ ነው፤ ከፕሮፓጋንዳ ጋር አይገናኝም።"
+    },
+    {
+      "word": "state media",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "'state media' የሚለው አባባል የተለመደ ሲሆን በመንግሥት ቁጥጥር ስር ያለ የመገናኛ ብዙኃንን ያመለክታል፤ ፕሮፓጋንዳ ብዙውን ጊዜ በእሱ ይሰራጫል።"
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "መብራት (lantern) ብርሃን የሚሰጥ መሣሪያ ነው፤ ከፕሮፓጋንዳ ጋር ግንኙነት የለውም።"
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Propaganda' ሕዝብን ለማሳመን የሚደረግ የተደራጀ መልእክት ነው፤ መፈክር፣ ሳንሱር እና 'state media' ከእሱ ጋር ይያያዛሉ፤ አኮርዲዮን፣ ጠጠር እና መብራት ግን አይያያዙም።"
+}

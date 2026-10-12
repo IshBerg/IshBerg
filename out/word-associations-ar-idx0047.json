@@ -1,0 +1,48 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {
+      "word": "simile",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "التشبيه (simile) أداة بلاغية قريبة من الاستعارة، فكلاهما يقارن بين شيئين لإظهار معنى جديد."
+    },
+    {
+      "word": "lighthouse",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "المنارة (lighthouse) منشأة بحرية ولا علاقة لها بالصور البلاغية."
+    },
+    {
+      "word": "imagery",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "الصورة الشعرية (imagery) من أهم أدوات الاستعارة في الشعر، لذلك تُدرس معها في الموضوع نفسه."
+    },
+    {
+      "word": "thermometer",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ميزان الحرارة (thermometer) أداة لقياس الحرارة ولا علاقة له بالبلاغة."
+    },
+    {
+      "word": "figurative language",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "اللغة المجازية (figurative language) تعبير شائع يُستخدم مع الاستعارة لوصف الكلام الذي لا يقصد معناه الحرفي."
+    },
+    {
+      "word": "carpet",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "السجادة (carpet) قطعة أثاث ولا علاقة لها بالأدب أو الشعر."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "كلمة 'metaphor' تعني نقل معنى شيء إلى شيء آخر على سبيل المجاز؛ التشبيه والصورة الشعرية واللغة المجازية مرتبطة بها، أما المنارة وميزان الحرارة والسجادة فلا علاقة لها بها."
+}

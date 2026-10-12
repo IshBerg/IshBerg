@@ -1,0 +1,48 @@
+{
+  "trigger_word": "reminiscence",
+  "all_words": [
+    {
+      "word": "memoir",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "זיכרונות (memoir) הוא ז'אנר כתיבה שבו הכותב מספר על עברו, ולכן הוא קרוב במשמעותו להיזכרות (reminiscence)."
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "פנס (lantern) הוא מכשיר תאורה ואין לו קשר לכתיבה על העבר."
+    },
+    {
+      "word": "nostalgia",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "נוסטלגיה (nostalgia) היא הרגש שמלווה את ההיזכרות, ולכן שתיהן מופיעות יחד בדיון על כתיבה אישית."
+    },
+    {
+      "word": "turnip",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "לפת (turnip) היא ירק ואין לה קשר להיזכרות."
+    },
+    {
+      "word": "childhood recollection",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "הצירוף 'childhood recollection' נפוץ בכתיבה זיכרונית ומתאר היזכרות בילדות."
+    },
+    {
+      "word": "hammock",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ערסל (hammock) הוא פריט לשכיבה ואין לו קשר לכתיבה על העבר."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "המילה 'reminiscence' מתארת שיחזור זיכרונות מהעבר; זיכרונות, נוסטלגיה והיזכרות בילדות קשורים אליה, ואילו פנס, לפת וערסל אינם קשורים אליה."
+}
