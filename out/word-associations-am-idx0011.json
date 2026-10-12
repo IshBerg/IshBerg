@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ዘይቤ እና መሳይ ሁለቱም ነገሮችን በማነጻጸር የሚገልጹ የንግግር ዘዴዎች ናቸው።"},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "ቀጭኔ የዱር እንስሳ ነው፤ ከዘይቤ ጋር ግንኙነት የለውም።"},
+    {"word": "imagery", "is_associated": true, "association_type": "THEMATIC", "explanation": "ምስል ሰጪ ቋንቋ በዘይቤ ውስጥ ብዙ ጊዜ የሚገኝ የስነ-ጽሑፍ ባህርይ ነው።"},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "ፒያኖ የሙዚቃ መሣሪያ ነው፤ ከዘይቤ ጋር አይገናኝም።"},
+    {"word": "figurative", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "ዘይቤያዊ ቋንቋ ተብሎ ሲነገር ቃሉ ከዘይቤ ጋር በቀጥታ ይጣመራል።"},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "ሶፋ የመቀመጫ ዕቃ ነው፤ ከዘይቤ ጋር ምንም ግንኙነት የለውም።"}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "መሳይ፣ ምስል ሰጪ ቋንቋና ዘይቤያዊ የሚሉት ቃላት ከዘይቤ ጋር የተያያዙ ናቸው፤ ቀጭኔ፣ ፒያኖና ሶፋ ግን አይገናኙም።"
+}

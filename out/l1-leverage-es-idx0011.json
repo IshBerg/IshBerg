@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "asistente", "transliteration": "asistente", "meaning": "assistant"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "embarazo", "transliteration": "embarazo", "meaning": "pregnancy"},
+    {"word": "propuesta", "transliteration": "propuesta", "meaning": "proposal"}
+  ],
+  "english_words": ["bookshop", "assistant", "proposal", "pregnancy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These Spanish words look like English words with the same spelling or root, but the English forms match in meaning here, so the exercise checks correct pairing rather than a trap.",
+  "false_friend_warning": "Careful: 'embarazo' looks like 'embarrassment' but means pregnancy, and 'librería' looks like 'library' but means bookshop."
+}

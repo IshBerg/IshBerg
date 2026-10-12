@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Far from being a failure,",
+  "correct_completion": "the experiment provided valuable data for future research.",
+  "full_sentence": "Far from being a failure, the experiment provided valuable data for future research.",
+  "acceptable_variants": ["the experiment yielded valuable data for future research.", "the experiment produced useful findings for later studies."],
+  "options": [
+    {"text": "the experiment provide valuable data for future research.", "is_correct": false, "why_wrong": "The singular subject 'the experiment' requires the singular verb 'provides', so the plural form does not agree."},
+    {"text": "valuable data for future research provided the experiment.", "is_correct": false, "why_wrong": "This reverses the roles, making the data the agent of the experiment, which does not match the intended meaning."},
+    {"text": "to provide valuable data for future research.", "is_correct": false, "why_wrong": "An infinitive phrase cannot serve as the main clause that completes the sentence."},
+    {"text": "the experiment provided valuable data for future research.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Idiomatic 'far from' constructions followed by a main clause",
+  "connector": "far from",
+  "explanation": "The idiomatic phrase 'far from being' introduces a contrast with the main clause, which must have the experiment as its subject and a finite verb that agrees with it.",
+  "translation": "بعيداً عن كونها فشلاً، وفّرت التجربة بيانات قيّمة للأبحاث المستقبلية."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "casualty",
+  "all_words": [
+    {"word": "civilian", "is_associated": true, "association_type": "THEMATIC", "explanation": "sivil, kayıp ya da yaralanma sayılan kişilerin sık görüldüğü bağlamda geçen kelimedir ve casualty ile aynı alanı paylaşır."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "zürafa bir hayvandır ve kayıp ya da yaralanma kavramıyla ilgisi yoktur."},
+    {"word": "damage", "is_associated": true, "association_type": "SEMANTIC", "explanation": "hasar, bir olayın sonucunda ortaya çıkan zararı anlatır ve casualty ile anlam olarak yakındır."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "yastık uyumak için kullanılır ve bu kavramla bağlantısı yoktur."},
+    {"word": "bystander", "is_associated": true, "association_type": "THEMATIC", "explanation": "seyirci, bir olayda yaralanan ya da etkilenen kişilerle birlikte anılan bir kelimedir."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "keman bir müzik aletidir ve kayıp kavramıyla ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "sivil, hasar ve seyirci kayıp ve zarar bağlamıyla ilgilidir; zürafa, yastık ve keman ise ilgili değildir."
+}

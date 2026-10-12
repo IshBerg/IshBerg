@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "E", "M", "O", "I", "R", "M"],
+    ["K", "Q", "Z", "W", "J", "V", "E"],
+    ["Z", "Q", "P", "W", "J", "K", "M"],
+    ["X", "Y", "A", "W", "Z", "J", "O"],
+    ["Q", "W", "S", "K", "V", "Z", "R"],
+    ["J", "K", "T", "Z", "Q", "W", "Y"],
+    ["R", "E", "F", "L", "E", "C", "T"]
+  ],
+  "words_to_find": ["MEMOIR", "MEMORY", "REFLECT", "PAST"],
+  "word_positions": [
+    {"word": "MEMOIR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MEMORY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "REFLECT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PAST", "start_row": 2, "start_col": 2, "direction": "VERTICAL"}
+  ],
+  "topic": "Memoir and Creative Nonfiction"
+}

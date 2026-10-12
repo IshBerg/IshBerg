@@ -1,0 +1,13 @@
+{
+  "start_word": "ask",
+  "end_word": "demand",
+  "ladder_steps": [
+    {"word": "ask", "translation": "ጠየቀ", "intensity_level": 1},
+    {"word": "request", "translation": "ጥያቄ አቀረበ", "intensity_level": 2},
+    {"word": "require", "translation": "ግዴታ አደረገ", "intensity_level": 3},
+    {"word": "insist", "translation": "አጥብቆ ጠየቀ", "intensity_level": 4},
+    {"word": "demand", "translation": "በግድ ጠየቀ", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Requests form a ladder from a simple question to a forceful, non-negotiable demand, each step more insistent than the one before."
+}

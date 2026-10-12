@@ -1,0 +1,14 @@
+{
+  "trigger_word": "formal",
+  "all_words": [
+    {"word": "register", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A formal register is a style of language suited to official or serious situations, so the two terms are closely linked."},
+    {"word": "etiquette", "is_associated": true, "association_type": "THEMATIC", "explanation": "Etiquette sets out the rules of behaviour in formal occasions, so it belongs to the same social context."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "A giraffe is an animal and has no connection to formal style or behaviour."},
+    {"word": "tuxedo", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A tuxedo is the typical clothing for formal evening events, and 'formal wear' is a common collocation."},
+    {"word": "casual", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Casual is the opposite of formal, so the two words define each other on the same scale of style."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "A pillow is used for sleeping and has no connection to formal occasions."}
+  ],
+  "correct_indices": [0, 1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Register, etiquette, tuxedo and casual are linked to the idea of formality, while giraffe and pillow are not related."
+}

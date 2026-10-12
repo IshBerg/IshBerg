@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dictionary",
+  "all_words": [
+    {"word": "glossary", "is_associated": true, "association_type": "SEMANTIC", "explanation": "глосарій є коротким словником термінів, тому він належить до тієї самої групи довідкових видань."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "жирафа є твариною і не має стосунку до словників."},
+    {"word": "word", "is_associated": true, "association_type": "THEMATIC", "explanation": "словник складається зі слів, які розташовані в ньому за алфавітом та описані значеннями."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "фортепіано є музичним інструментом і не пов'язане зі словниками."},
+    {"word": "lexicon", "is_associated": true, "association_type": "SEMANTIC", "explanation": "лексикон означає сукупність слів мови або словника, тому він близький за значенням."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "подушка використовується для сну і не має стосунку до словників."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "глосарій, слово і лексикон пов'язані зі словником, а жирафа, фортепіано та подушка — ні."
+}

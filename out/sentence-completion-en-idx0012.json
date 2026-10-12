@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not until the final vote was counted",
+  "correct_completion": "did the committee announce its decision.",
+  "full_sentence": "Not until the final vote was counted did the committee announce its decision.",
+  "acceptable_variants": ["only then did the committee announce its decision.", "did the committee announce its decision then."],
+  "options": [
+    {"text": "the committee announced its decision.", "is_correct": false, "why_wrong": "After a fronted negative expression such as 'not until', the auxiliary must invert with the subject, so this normal word order is incorrect."},
+    {"text": "did the committee announce its decision.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee did announce its decision.", "is_correct": false, "why_wrong": "The emphatic 'did' is placed after the subject here, so the inversion required by 'not until' is missing."},
+    {"text": "announced the committee its decision.", "is_correct": false, "why_wrong": "This word order is unnatural in English and does not keep the subject and auxiliary in the required position."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after the fronted negative expression 'not until'",
+  "connector": "not until",
+  "explanation": "When 'not until' begins a sentence, the auxiliary verb comes before the subject in the main clause, which adds emphasis to the time at which the event happened.",
+  "translation": "Not until the final vote was counted did the committee announce its decision."
+}

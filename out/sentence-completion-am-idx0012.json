@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "No sooner had the bell rung",
+  "correct_completion": "than the students rushed out of the classroom.",
+  "full_sentence": "No sooner had the bell rung than the students rushed out of the classroom.",
+  "acceptable_variants": ["than the students hurried out of the room.", "than the students dashed from the classroom."],
+  "options": [
+    {"text": "when the students rushed out of the classroom.", "is_correct": false, "why_wrong": "'No sooner' is paired with 'than', not with 'when', so this completion does not follow the correlative structure."},
+    {"text": "the students rushed out of the classroom.", "is_correct": false, "why_wrong": "Without a connecting word such as 'than', the clause cannot complete the correlative 'no sooner' structure."},
+    {"text": "until the students rushed out of the classroom.", "is_correct": false, "why_wrong": "'Until' expresses a limit in time, not the immediate sequence required by 'no sooner'."},
+    {"text": "than the students rushed out of the classroom.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Correlative structure 'no sooner ... than' expressing immediate sequence",
+  "connector": "no sooner",
+  "explanation": "'No sooner' is always followed by 'than' in the main clause, which expresses that the second event happened immediately after the first.",
+  "translation": "ደወሉ ገና እንደተደወለ ተማሪዎቹ ከክፍሉ ሮጠው ወጡ።"
+}
