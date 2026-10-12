@@ -1,0 +1,13 @@
+{
+  "start_word": "vague",
+  "end_word": "unambiguous",
+  "ladder_steps": [
+    {"word": "vague", "translation": "mglisty", "intensity_level": 1},
+    {"word": "unclear", "translation": "niejasny", "intensity_level": 2},
+    {"word": "clear", "translation": "jasny", "intensity_level": 3},
+    {"word": "explicit", "translation": "wyraźny", "intensity_level": 4},
+    {"word": "unambiguous", "translation": "jednoznaczny", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words for the degree of clarity in a message form a ladder from a hazy, indistinct statement to one that admits only a single reading, each step more precise than the last."
+}

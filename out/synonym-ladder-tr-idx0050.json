@@ -1,0 +1,13 @@
+{
+  "start_word": "empty",
+  "end_word": "packed",
+  "ladder_steps": [
+    {"word": "empty", "translation": "boş", "intensity_level": 1},
+    {"word": "sparse", "translation": "seyrek", "intensity_level": 2},
+    {"word": "busy", "translation": "hareketli", "intensity_level": 3},
+    {"word": "crowded", "translation": "kalabalık", "intensity_level": 4},
+    {"word": "packed", "translation": "tıklım tıklım", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words for how full a place is form a ladder from completely empty to tightly packed, each step with more people than the last."
+}

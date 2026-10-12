@@ -1,0 +1,14 @@
+{
+  "trigger_word": "interpreter",
+  "all_words": [
+    {"word": "translator", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Переводчик и устный переводчик обозначают людей, которые передают смысл с одного языка на другой, поэтому слова почти синонимичны."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "Фонарь — источник света и не имеет отношения к языковому посредничеству."},
+    {"word": "booth", "is_associated": true, "association_type": "THEMATIC", "explanation": "Кабина синхронного перевода — рабочее место устного переводчика, поэтому слово относится к той же теме."},
+    {"word": "pumpkin", "is_associated": false, "association_type": "NONE", "explanation": "Тыква — овощ и не связана с переводом или многоязычным общением."},
+    {"word": "headset", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Гарнитура с наушниками и микрофоном — обычное оборудование переводчика, поэтому слова часто стоят рядом."},
+    {"word": "compass", "is_associated": false, "association_type": "NONE", "explanation": "Компас — навигационный прибор и не относится к устному переводу."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Устный переводчик посредничает между языками, работает в кабине с гарнитурой; остальные слова относятся к несвязанным предметам."
+}
