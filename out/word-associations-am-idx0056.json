@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ዘይቤ (metaphor) እና አምሳያ (simile) ሁለቱም ንጽጽርን በመጠቀም ትርጉምን የሚያስተላልፉ የንግግር ዘዴዎች ናቸው፤ ስለዚህ ትርጉማቸው ቅርብ ነው።"},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "ፋኖስ የብርሃን መሣሪያ ነው እና ከሥነ-ጽሑፍ ዘይቤ ጋር ምንም ግንኙነት የለውም።"},
+    {"word": "imagery", "is_associated": true, "association_type": "THEMATIC", "explanation": "ምስል (imagery) ዘይቤን ለመግለጽ የሚያገለግል ዋና መሣሪያ ነው፤ ሁለቱ ቃላት በግጥም ትንተና ውስጥ ተመሳሳይ ርዕስ ይጋራሉ።"},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "ትራክተር የእርሻ ማሽን ነው እና ከሥነ-ጽሑፍ ጋር አይገናኝም።"},
+    {"word": "figurative", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "ዘይቤ ብዙውን ጊዜ 'ምሳሌያዊ' (figurative) ቋንቋ ተብሎ ይገለጻል፤ ሁለቱ ቃላት አብረው ይነገራሉ።"},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "ማሞቂያ ድስት የቤት ዕቃ ነው እና ከሥነ-ጽሑፍ ትንተና ጋር ግንኙነት የለውም።"}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "ዘይቤ ንጽጽርን እና ምስልን በመጠቀም ምሳሌያዊ ትርጉም ይፈጥራል፤ ሌሎቹ ቃላት ግን ከሥነ-ጽሑፍ ዓለም ውጭ ናቸው።"
+}
