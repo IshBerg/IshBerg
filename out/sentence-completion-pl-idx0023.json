@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the agreement has been signed,",
+  "correct_completion": "the parties may still negotiate its terms.",
+  "full_sentence": "Although the agreement has been signed, the parties may still negotiate its terms.",
+  "acceptable_variants": ["the parties can still amend the conditions.", "the terms remain open to further negotiation."],
+  "options": [
+    {"text": "so the parties no longer have any obligations.", "is_correct": false, "why_wrong": "'So' introduces a result of a cause. 'Although' requires a contrasting clause, not a consequence."},
+    {"text": "because the agreement was signed in June.", "is_correct": false, "why_wrong": "'Because' introduces a reason. The sentence needs a contrast with the signing, not an explanation of when or why it occurred."},
+    {"text": "the agreement was drafted by a lawyer.", "is_correct": false, "why_wrong": "This adds background information but does not complete the contrast started by 'although'."},
+    {"text": "the parties may still negotiate its terms.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' (contrast with a completed legal action)",
+  "connector": "although",
+  "explanation": "After 'although', the clause must show a contrast with the signing of the agreement. Continued negotiation contrasts with a signed contract.",
+  "translation": "Chociaż umowa została podpisana, strony mogą nadal negocjować jej warunki."
+}

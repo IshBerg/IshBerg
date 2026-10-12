@@ -1,0 +1,14 @@
+{
+  "trigger_word": "stanza",
+  "all_words": [
+    {"word": "verse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "סטנזה היא יחידה של שורות בשיר, ו-verse משמש לעתים קרובות באותו מובן, ולכן שתי המילים קרובות במשמעותן."},
+    {"word": "thermostat", "is_associated": false, "association_type": "NONE", "explanation": "תרמוסטט הוא מכשיר לוויסות טמפרטורה ואין לו כל קשר לשירה או למבנה שיר."},
+    {"word": "rhyme", "is_associated": true, "association_type": "THEMATIC", "explanation": "חריזה היא מאפיין מרכזי של בתי שיר רבים, ולכן היא קשורה לסטנזה בנושא הניתוח הפואטי."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "טרקטור הוא כלי רכב חקלאי ואין לו קשר למבנה שירי או לניתוח שירה."},
+    {"word": "meter", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "במשמעות הפואטית, 'meter' מתחבר באופן קבוע למונח 'stanza' כשמנתחים את המקצב והמבנה של בית שיר."},
+    {"word": "anchor", "is_associated": false, "association_type": "NONE", "explanation": "עוגן הוא כלי לעגינת ספינה ואין לו קשר לשירה או לניתוח פואטי."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "סטנזה היא יחידה מבנית בשיר; המילים הקשורות אליה מתארות את חלקי השיר, החריזה והמקצב, בעוד שהמילים האחרות שייכות לתחומים שאינם ספרותיים."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Provided that the buyer pays the deposit on time,",
+  "correct_completion": "the seller must reserve the property for thirty days.",
+  "full_sentence": "Provided that the buyer pays the deposit on time, the seller must reserve the property for thirty days.",
+  "acceptable_variants": ["the seller is obliged to hold the property for thirty days.", "the property must remain reserved for thirty days."],
+  "options": [
+    {"text": "the buyer has already signed the contract.", "is_correct": false, "why_wrong": "This states a fact about the contract, but 'provided that' introduces a condition whose outcome must be stated in the main clause."},
+    {"text": "the seller must reserve the property for thirty days.", "is_correct": true, "why_wrong": null},
+    {"text": "so the property is sold to another buyer.", "is_correct": false, "why_wrong": "'So' introduces a consequence of an earlier cause. The condition here requires a contractual obligation, not a result."},
+    {"text": "although the deposit has not been paid.", "is_correct": false, "why_wrong": "'Although' signals contrast and contradicts the condition set by 'provided that'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'provided that' (condition with legal obligation)",
+  "connector": "provided that",
+  "explanation": "'Provided that' sets a condition for the obligation in the main clause. The completion must state the obligation that applies if the deposit is paid on time.",
+  "translation": "Pod warunkiem terminowej wpłaty zaliczki przez kupującego sprzedawca musi zarezerwować nieruchomość na trzydzieści dni."
+}

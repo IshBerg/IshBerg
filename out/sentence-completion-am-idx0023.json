@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Unless the tenant gives written notice,",
+  "correct_completion": "the lease renews automatically for another year.",
+  "full_sentence": "Unless the tenant gives written notice, the lease renews automatically for another year.",
+  "acceptable_variants": ["the lease will continue for one more year.", "the agreement is extended automatically for a further year."],
+  "options": [
+    {"text": "the tenant must pay a deposit in advance.", "is_correct": false, "why_wrong": "This adds an unrelated obligation. After 'unless', the sentence needs a result that depends on whether the notice is given, not a new requirement."},
+    {"text": "so the lease ends on the original date.", "is_correct": false, "why_wrong": "'So' introduces a result of a stated cause. 'Unless' introduces a condition, so the completion must describe what happens when the notice is not given."},
+    {"text": "the lease renews automatically for another year.", "is_correct": true, "why_wrong": null},
+    {"text": "although the tenant has given notice.", "is_correct": false, "why_wrong": "'Although' signals contrast and conflicts with the meaning of 'unless'. The completion must state the outcome of the condition, not a concession."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'unless' (negative condition)",
+  "connector": "unless",
+  "explanation": "'Unless' means 'if not'. The main clause must state what happens when written notice is not given, so the renewal outcome is the logical result.",
+  "translation": "ተከራዩ በጽሑፍ ማስታወቂያ ካልሰጠ በስተቀር ውሉ ለሌላ አንድ ዓመት በራሱ ይታደሳል።"
+}

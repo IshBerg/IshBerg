@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hypothesis",
+  "all_words": [
+    {"word": "conjecture", "is_associated": true, "association_type": "SEMANTIC", "explanation": "التخمين المبني على دليل جزئي قريب في المعنى من الفرضية، فهو تفسير مقترح يحتاج إلى اختبار."},
+    {"word": "bakery", "is_associated": false, "association_type": "NONE", "explanation": "المخبز مكان لصناعة الخبز ولا علاقة له بالمنهج العلمي أو بصياغة الفرضيات."},
+    {"word": "testable", "is_associated": true, "association_type": "THEMATIC", "explanation": "القابلية للاختبار شرط أساسي للفرضية العلمية الجيدة، لذلك يرتبط المفهومان في الموضوع نفسه."},
+    {"word": "tuxedo", "is_associated": false, "association_type": "NONE", "explanation": "البدلة الرسمية لا علاقة لها بالتفكير العلمي أو بالفرضيات."},
+    {"word": "falsification", "is_associated": true, "association_type": "SEMANTIC", "explanation": "التكذيب أو الدحض هو معيار كارل بوبر لاختبار الفرضيات، وهو مرتبط بها مباشرة."},
+    {"word": "saddle", "is_associated": false, "association_type": "NONE", "explanation": "السرج أداة لركوب الخيل ولا صلة له بالفرضيات أو بالمنهج العلمي."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "الفرضية تخمين قابل للاختبار والدحض؛ الكلمات المرتبطة بها تتعلق بالتخمين والاختبار والتكذيب، أما البقية فتنتمي إلى مجالات لا علاقة لها بالعلم."
+}

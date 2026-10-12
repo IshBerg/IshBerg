@@ -1,0 +1,14 @@
+{
+  "trigger_word": "citation",
+  "all_words": [
+    {"word": "reference", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bir alıntı genellikle bir kaynağa yapılan referansla birlikte kullanılır; bu iki kavram anlam olarak yakından ilişkilidir."},
+    {"word": "thermostat", "is_associated": false, "association_type": "NONE", "explanation": "Termostat, ısıyı kontrol eden bir cihazdır ve akademik yazımla ya da alıntıyla hiçbir ilgisi yoktur."},
+    {"word": "bibliography", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kaynakça, bir makalede kullanılan alıntıların listelendiği bölümdür; bu yüzden tematik olarak alıntıyla bağlantılıdır."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Volkan bir jeolojik oluşumdur ve akademik metin yazımıyla ilgili değildir."},
+    {"word": "plagiarism", "is_associated": true, "association_type": "SEMANTIC", "explanation": "İntihal, kaynak belirtilmeden alıntı yapmayı ifade eder; bu nedenle alıntı kavramıyla doğrudan ilişkilidir."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Buzul doğal bir coğrafi oluşumdur ve alıntı yapma ile ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Citation' akademik yazımda kaynağı belirtmeyi ifade eder; ilişkili kelimeler kaynak gösterme, kaynakça ve intihal gibi yazım etiğiyle bağlantılıdır."
+}

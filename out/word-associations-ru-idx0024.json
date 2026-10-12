@@ -1,0 +1,14 @@
+{
+  "trigger_word": "premise",
+  "all_words": [
+    {"word": "conclusion", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Посылка и заключение составляют основу логического аргумента, поэтому эти слова тесно связаны по смыслу."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед — средство передвижения и не имеет отношения к построению аргументов или логике."},
+    {"word": "inference", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Вывод, сделанный на основе посылок, является прямым продолжением посылки в логической цепочке."},
+    {"word": "caramel", "is_associated": false, "association_type": "NONE", "explanation": "Карамель — кондитерское изделие и никак не связана с аргументацией."},
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Доказательства подтверждают посылки, поэтому они относятся к той же теме построения аргумента."},
+    {"word": "lighthouse", "is_associated": false, "association_type": "NONE", "explanation": "Маяк — морское сооружение, которое не связано с логикой или аргументами."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Посылка — это исходное утверждение аргумента; связанные слова обозначают заключение, вывод и доказательства, а остальные относятся к несвязанным сферам."
+}
