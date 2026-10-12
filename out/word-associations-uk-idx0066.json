@@ -1,0 +1,14 @@
+{
+  "trigger_word": "heritage",
+  "all_words": [
+    {"word": "tradition", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Спадщина (heritage) і традиція близькі за змістом: обидві означають те, що передається від покоління до покоління."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "Чайник — побутовий предмет і не пов’язаний із культурною спадщиною."},
+    {"word": "museum", "is_associated": true, "association_type": "THEMATIC", "explanation": "Музей зберігає і показує культурну спадщину, тому ці слова належать до однієї теми."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Трактор — сільськогосподарська техніка і не має відношення до спадщини."},
+    {"word": "preservation", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Збереження спадщини (heritage preservation) — усталене словосполучення, тому ці слова часто стоять разом."},
+    {"word": "pebble", "is_associated": false, "association_type": "NONE", "explanation": "Галька — природний камінь і не стосується культурної спадщини."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Культурна спадщина передається через традиції, зберігається в музеях і потребує збереження; інші слова належать до несуміжних сфер."
+}

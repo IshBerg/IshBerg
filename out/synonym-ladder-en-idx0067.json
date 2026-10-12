@@ -1,0 +1,13 @@
+{
+  "start_word": "neutral",
+  "end_word": "inflammatory",
+  "ladder_steps": [
+    {"word": "neutral", "translation": "showing no preference or bias", "intensity_level": 1},
+    {"word": "slanted", "translation": "presented with a noticeable tilt in one direction", "intensity_level": 2},
+    {"word": "partisan", "translation": "openly supporting one side against the other", "intensity_level": 3},
+    {"word": "provocative", "translation": "intended to provoke a strong emotional reaction", "intensity_level": 4},
+    {"word": "inflammatory", "translation": "designed to incite anger or hostility", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words for how far a media text departs from neutrality form a ladder from neutral to inflammatory, each step more openly charged than the last."
+}
