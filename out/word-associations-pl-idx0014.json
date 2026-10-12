@@ -1,0 +1,48 @@
+{
+  "trigger_word": "peer review",
+  "all_words": [
+    {
+      "word": "referee",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Recenzent (referee) to osoba, która ocenia artykuł w procesie peer review, więc pojęcia są blisko związane."
+    },
+    {
+      "word": "tuxedo",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Smoking to strój wieczorowy i nie ma żadnego związku z oceną prac naukowych."
+    },
+    {
+      "word": "manuscript",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Rękopis to tekst, który w procesie peer review jest oceniany przez recenzentów."
+    },
+    {
+      "word": "kettle",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Czajnik to przedmiot kuchenny i nie jest powiązany z recenzowaniem tekstów naukowych."
+    },
+    {
+      "word": "submit",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Wyrażenie „submit a manuscript” (przesłać rękopis) jest typowym krokiem poprzedzającym peer review."
+    },
+    {
+      "word": "avalanche",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Lawina to zjawisko przyrodnicze i nie ma związku z recenzowaniem prac naukowych."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Powiązane słowa dotyczą procesu recenzji artykułów naukowych: osoba oceniająca, tekst oceniany i typowy krok zgłoszenia pracy. Pozostałe należą do zupełnie innych dziedzin."
+}

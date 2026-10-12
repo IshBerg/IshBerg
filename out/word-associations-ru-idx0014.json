@@ -1,0 +1,48 @@
+{
+  "trigger_word": "qualify",
+  "all_words": [
+    {
+      "word": "limit",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Ограничивать близко по смыслу к «qualify»: оба слова означают сужение или смягчение утверждения."
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Фонарь — источник света и не имеет отношения к оговоркам или академической осторожности в формулировках."
+    },
+    {
+      "word": "caveat",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Оговорка относится к той же теме: это условие, которое сужает или смягчает утверждение."
+    },
+    {
+      "word": "hammock",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Гамак — предмет для отдыха и не связан с формулировками в научном тексте."
+    },
+    {
+      "word": "modify",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Словосочетание «qualify a claim» (смягчать утверждение) является устойчивым и часто используется в академическом письме."
+    },
+    {
+      "word": "walrus",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Морж — морское животное и не относится к языку академической осторожности."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Связанные слова относятся к смягчению утверждений: близкое по смыслу ограничение, тематически родственная оговорка и устойчивое сочетание «смягчить утверждение». Остальные слова относятся к другим областям."
+}

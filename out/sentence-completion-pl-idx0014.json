@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "It may well be that the results were skewed,",
+  "correct_completion": "though the authors have not yet confirmed this.",
+  "full_sentence": "It may well be that the results were skewed, though the authors have not yet confirmed this.",
+  "acceptable_variants": [
+    "although the authors have not yet verified it.",
+    "but the authors have yet to confirm it."
+  ],
+  "options": [
+    {
+      "text": "so the authors have confirmed it.",
+      "is_correct": false,
+      "why_wrong": "'So' introduces a result that contradicts the hedged, unconfirmed claim set up by 'may well be'."
+    },
+    {
+      "text": "though the authors have not yet confirmed this.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "and the authors are certainly right.",
+      "is_correct": false,
+      "why_wrong": "A confident assertion clashes with the hedge 'may well be' in the stem."
+    },
+    {
+      "text": "because the results were definitely skewed.",
+      "is_correct": false,
+      "why_wrong": "'Definitely' removes the hedge that the stem sets up, creating a contradiction."
+    }
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Hedged claim followed by a concessive clause with 'though'",
+  "connector": "though",
+  "explanation": "The stem uses the hedge 'may well be' to present a tentative claim, and 'though' adds a contrasting fact about the lack of confirmation. The completion keeps the claim tentative.",
+  "translation": "Całkiem możliwe, że wyniki były zniekształcone, choć autorzy jeszcze tego nie potwierdzili."
+}

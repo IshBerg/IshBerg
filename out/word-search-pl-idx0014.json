@@ -1,0 +1,137 @@
+{
+  "grid_size": 9,
+  "grid": [
+    [
+      "I",
+      "N",
+      "D",
+      "E",
+      "M",
+      "N",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "W",
+      "K",
+      "Q",
+      "J",
+      "Z",
+      "V",
+      "X",
+      "M",
+      "B"
+    ],
+    [
+      "L",
+      "A",
+      "K",
+      "J",
+      "Z",
+      "X",
+      "V",
+      "W",
+      "P"
+    ],
+    [
+      "I",
+      "Q",
+      "R",
+      "Z",
+      "J",
+      "X",
+      "K",
+      "V",
+      "A"
+    ],
+    [
+      "C",
+      "U",
+      "Z",
+      "R",
+      "Q",
+      "J",
+      "W",
+      "K",
+      "R"
+    ],
+    [
+      "E",
+      "Z",
+      "K",
+      "W",
+      "A",
+      "Q",
+      "X",
+      "M",
+      "T"
+    ],
+    [
+      "N",
+      "B",
+      "V",
+      "Q",
+      "Z",
+      "N",
+      "K",
+      "J",
+      "Y"
+    ],
+    [
+      "S",
+      "W",
+      "M",
+      "K",
+      "J",
+      "X",
+      "T",
+      "Q",
+      "Z"
+    ],
+    [
+      "E",
+      "L",
+      "V",
+      "W",
+      "P",
+      "Z",
+      "Q",
+      "Y",
+      "D"
+    ]
+  ],
+  "words_to_find": [
+    "INDEMNITY",
+    "WARRANTY",
+    "LICENSE",
+    "PARTY"
+  ],
+  "word_positions": [
+    {
+      "word": "INDEMNITY",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "WARRANTY",
+      "start_row": 1,
+      "start_col": 0,
+      "direction": "DIAGONAL_DOWN"
+    },
+    {
+      "word": "LICENSE",
+      "start_row": 2,
+      "start_col": 0,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "PARTY",
+      "start_row": 2,
+      "start_col": 8,
+      "direction": "VERTICAL"
+    }
+  ],
+  "topic": "Legal and Contractual Texts"
+}

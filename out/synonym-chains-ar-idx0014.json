@@ -1,0 +1,58 @@
+{
+  "central_word": "likely",
+  "chain_words": [
+    {
+      "word": "conceivable",
+      "intensity": 1,
+      "translation": "ممكن نظريًا",
+      "nuance": "imaginable, but with little evidence to support it"
+    },
+    {
+      "word": "possible",
+      "intensity": 2,
+      "translation": "محتمل",
+      "nuance": "could happen, without strong grounds either way"
+    },
+    {
+      "word": "likely",
+      "intensity": 3,
+      "translation": "مرجّح",
+      "nuance": "more probable than not, given the available evidence"
+    },
+    {
+      "word": "probable",
+      "intensity": 4,
+      "translation": "راجح",
+      "nuance": "very likely, supported by good reasons"
+    },
+    {
+      "word": "certain",
+      "intensity": 5,
+      "translation": "مؤكد",
+      "nuance": "beyond reasonable doubt"
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe how likely a claim is, moving from something merely imaginable to something beyond doubt. Each step expresses greater confidence than the one before.",
+  "usage_notes": [
+    {
+      "word1": "likely",
+      "word2": "probable",
+      "difference": "'Likely' describes a claim that is more probable than not, while 'probable' describes a claim that is very well supported by evidence."
+    }
+  ],
+  "translations": {
+    "conceivable": "ممكن نظريًا",
+    "possible": "محتمل",
+    "likely": "مرجّح",
+    "probable": "راجح",
+    "certain": "مؤكد"
+  }
+}
