@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "аргумент", "transliteration": "argument", "meaning": "a reason offered in support of a claim, which in Russian can also mean a piece of evidence or a point"},
+    {"word": "оппонент", "transliteration": "opponent", "meaning": "a rival or adversary in a dispute"},
+    {"word": "ректор", "transliteration": "rektor", "meaning": "the head of a university, not a referee or judge"},
+    {"word": "реплика", "transliteration": "replika", "meaning": "a short remark or interjection made during a speech or debate"}
+  ],
+  "english_words": ["rejoinder", "rector", "opposing party", "premise"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words share Latin or Greek roots with English, but their Russian meanings developed differently, so the forms look close while the senses diverge.",
+  "false_friend_warning": "Russian 'ректор' means the head of a university, not a referee or judge in a debate; 'реплика' means a short interjection, not a formal reply, so the English 'replica' is a copy; and 'оппонент' refers to a rival in a dispute, not an opponent in a general sense."
+}

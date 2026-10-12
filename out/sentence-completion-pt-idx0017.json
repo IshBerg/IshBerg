@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Unless the tenant gives written notice at least sixty days in advance,",
+  "correct_completion": "the lease will automatically renew for another twelve-month term.",
+  "full_sentence": "Unless the tenant gives written notice at least sixty days in advance, the lease will automatically renew for another twelve-month term.",
+  "acceptable_variants": ["the agreement will be extended for a further year.", "the contract rolls over into a new twelve-month period."],
+  "options": [
+    {"text": "the lease will automatically renew for another twelve-month term.", "is_correct": true, "why_wrong": null},
+    {"text": "so the tenant has already given written notice.", "is_correct": false, "why_wrong": "'So' signals a consequence of a completed action, but 'unless' sets up a condition that has not yet been met."},
+    {"text": "the tenant may terminate the lease at any time without notice.", "is_correct": false, "why_wrong": "This contradicts the notice requirement that the stem establishes as the condition for ending the lease."},
+    {"text": "the landlord has agreed to waive the notice period in writing.", "is_correct": false, "why_wrong": "This introduces a new event not implied by the stem, so it does not complete the conditional result."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'unless' and a present-tense result describing a contractual consequence",
+  "connector": "unless",
+  "explanation": "'Unless' introduces the condition that prevents the default outcome, so the main clause must state what happens automatically when that notice is not given.",
+  "translation": "A menos que o locatário dê aviso por escrito com pelo menos sessenta dias de antecedência, o contrato de locação será renovado automaticamente por mais um período de doze meses."
+}

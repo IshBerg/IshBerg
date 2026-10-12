@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Provided that the buyer pays the full price on time,",
+  "correct_completion": "the seller shall transfer ownership of the goods.",
+  "full_sentence": "Provided that the buyer pays the full price on time, the seller shall transfer ownership of the goods.",
+  "acceptable_variants": ["the seller is obliged to transfer title to the goods.", "ownership of the goods will pass to the buyer."],
+  "options": [
+    {"text": "so the seller had already transferred ownership of the goods.", "is_correct": false, "why_wrong": "'So' reports a consequence that has already occurred, but 'provided that' sets up a condition that has not yet been met."},
+    {"text": "the seller shall transfer ownership of the goods.", "is_correct": true, "why_wrong": null},
+    {"text": "the buyer has already paid the full price in advance.", "is_correct": false, "why_wrong": "This states the condition as completed, so it cannot supply the contractual result that the stem requires."},
+    {"text": "unless the goods are damaged in transit.", "is_correct": false, "why_wrong": "This introduces a new exception rather than the result of the condition set by 'provided that'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'provided that' and a contractual result using 'shall'",
+  "connector": "provided that",
+  "explanation": "'Provided that' sets a condition that must be met before an obligation takes effect, so the main clause must state the obligation that follows.",
+  "translation": "Alıcı tam bedeli zamanında öderse, satıcı malın mülkiyetini devredecektir."
+}
