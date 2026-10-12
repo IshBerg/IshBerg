@@ -1,0 +1,39 @@
+{
+  "start_word": "vague",
+  "end_word": "exact",
+  "ladder_steps": [
+    {
+      "word": "vague",
+      "translation": "niejasny",
+      "intensity_level": 1
+    },
+    {
+      "word": "general",
+      "translation": "ogólny",
+      "intensity_level": 2
+    },
+    {
+      "word": "specific",
+      "translation": "szczegółowy",
+      "intensity_level": 3
+    },
+    {
+      "word": "precise",
+      "translation": "precyzyjny",
+      "intensity_level": 4
+    },
+    {
+      "word": "exact",
+      "translation": "dokładny",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "Words describing how precisely a claim or description is stated form a ladder from a blurred statement to one that is exact in every detail, each step more precise than the last."
+}

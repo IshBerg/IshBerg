@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The novel's final chapter repeats the opening sentence word for word, so",
+  "correct_completion": "the reader is invited to question whether the story has truly ended.",
+  "full_sentence": "The novel's final chapter repeats the opening sentence word for word, so the reader is invited to question whether the story has truly ended.",
+  "acceptable_variants": [
+    "the reader must consider whether the narrative has really come to an end.",
+    "the ending loops back and leaves the reader uncertain about closure."
+  ],
+  "options": [
+    {
+      "text": "the author never wrote a second draft of the novel.",
+      "is_correct": false,
+      "why_wrong": "This is an unrelated fact about drafting that does not follow from the repetition of the opening sentence."
+    },
+    {
+      "text": "the reader is invited to question whether the story has truly ended.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the chapter is printed on blue paper in the first edition.",
+      "is_correct": false,
+      "why_wrong": "A printing detail is irrelevant to the effect of a repeated sentence."
+    },
+    {
+      "text": "the narrative moves forward in time without any loops.",
+      "is_correct": false,
+      "why_wrong": "This contradicts the stem, which describes a repetition that loops back to the start."
+    }
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clause after 'so' expressing the effect of a repeated sentence on the reader",
+  "connector": "so",
+  "explanation": "The repetition of the opening sentence is the cause, and the reader's uncertainty about closure is the effect. This is a common device in postmodern fiction.",
+  "translation": "Фінальний розділ роману дослівно повторює перше речення, тому читач запрошується поставити під сумнів, чи історія справді завершилася."
+}

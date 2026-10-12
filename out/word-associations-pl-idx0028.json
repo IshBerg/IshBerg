@@ -1,0 +1,48 @@
+{
+  "trigger_word": "dilemma",
+  "all_words": [
+    {
+      "word": "trade-off",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Kompromis (trade-off) to wybór między dwiema niepożądanymi możliwościami, czyli istota dylematu; związek jest semantyczny."
+    },
+    {
+      "word": "wardrobe",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Szafa (wardrobe) to mebel do przechowywania ubrań i nie ma związku z dylematami."
+    },
+    {
+      "word": "conundrum",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Zagadka, trudny problem (conundrum) oznacza sytuację bez łatwego wyjścia, więc związek jest semantyczny."
+    },
+    {
+      "word": "lettuce",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Sałata (lettuce) to warzywo i nie ma związku z dylematami etycznymi."
+    },
+    {
+      "word": "principle",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Zasada (principle) to podstawowe kryterium, na którym opiera się rozstrzygnięcie dylematu moralnego; związek jest tematyczny."
+    },
+    {
+      "word": "tuba",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Tuba to instrument dęty i nie ma związku z dylematami."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzone słowa dotyczą wyboru między trudnymi możliwościami i zasad, którymi się go rozstrzyga, a pozostałe należą do mebli, warzyw i instrumentów."
+}

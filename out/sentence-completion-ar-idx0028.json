@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The memoirist's childhood letters survive only in fragments, so",
+  "correct_completion": "her account of those years must be pieced together from memory.",
+  "full_sentence": "The memoirist's childhood letters survive only in fragments, so her account of those years must be pieced together from memory.",
+  "acceptable_variants": [
+    "her story of that period has to be reconstructed from recollection.",
+    "the earliest years can only be rebuilt from what she remembers."
+  ],
+  "options": [
+    {
+      "text": "the letters were written in a language she never learned.",
+      "is_correct": false,
+      "why_wrong": "The language of the letters does not follow from their survival in fragments, so 'so' cannot introduce it."
+    },
+    {
+      "text": "her account of those years must be pieced together from memory.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the editor cut the first chapter entirely from the final book.",
+      "is_correct": false,
+      "why_wrong": "An editorial decision is unrelated to the fragmentary survival of the letters."
+    },
+    {
+      "text": "she remembers every detail of that summer with perfect clarity.",
+      "is_correct": false,
+      "why_wrong": "Perfect recall does not follow from the loss of the letters, so the result clause fails."
+    }
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clause after 'so' expressing the consequence of lost documents for a memoir",
+  "connector": "so",
+  "explanation": "The fragmentary survival of the letters is the cause. The consequence is that the memoirist must reconstruct her early years from memory.",
+  "translation": "لم تبقَ رسائل الكاتبة من طفولتها إلا أجزاء متفرقة، لذا يجب إعادة تركيب روايتها لتلك السنوات من الذاكرة."
+}

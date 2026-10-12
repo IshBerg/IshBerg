@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The narrator admits that she has invented the characters,",
+  "correct_completion": "so the reader cannot trust any statement made in the book.",
+  "full_sentence": "The narrator admits that she has invented the characters, so the reader cannot trust any statement made in the book.",
+  "acceptable_variants": [
+    "so no claim in the novel can be taken as reliable.",
+    "which means the reader has no firm ground for believing anything the text says."
+  ],
+  "options": [
+    {
+      "text": "the book was first published in 1978.",
+      "is_correct": false,
+      "why_wrong": "A publication date does not follow from the narrator's admission about the characters."
+    },
+    {
+      "text": "the characters are based on real people from her village.",
+      "is_correct": false,
+      "why_wrong": "This contradicts the stem, which says the narrator has invented the characters."
+    },
+    {
+      "text": "so the reader cannot trust any statement made in the book.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the narrator is the author's own sister.",
+      "is_correct": false,
+      "why_wrong": "A family relation does not follow from the narrator's admission of invention."
+    }
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clause after 'so' expressing the effect of an admitted fabrication on the reader",
+  "connector": "so",
+  "explanation": "The narrator's admission that she invented the characters is the cause. The effect is that no statement in the text can be trusted, a common device in postmodern fiction.",
+  "translation": "Narratorka przyznaje, że wymyśliła bohaterów, więc czytelnik nie może ufać żadnemu stwierdzeniu zawartemu w książce."
+}

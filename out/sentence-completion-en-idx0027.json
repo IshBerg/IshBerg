@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "Because the poem's syntax breaks down halfway through,",
+  "correct_completion": "readers must reconstruct its meaning from fragments.",
+  "full_sentence": "Because the poem's syntax breaks down halfway through, readers must reconstruct its meaning from fragments.",
+  "acceptable_variants": [
+    "readers have to build the meaning themselves from scattered pieces.",
+    "interpretation depends on the reader's effort to assemble the broken lines."
+  ],
+  "options": [
+    {
+      "text": "the poem was originally written in Latin.",
+      "is_correct": false,
+      "why_wrong": "The original language of the poem has no logical connection to the breakdown of its syntax in the stem."
+    },
+    {
+      "text": "the publisher printed the poem in a larger font.",
+      "is_correct": false,
+      "why_wrong": "A typographical choice does not follow from the breakdown of syntax."
+    },
+    {
+      "text": "the poet had clearly planned the ending in advance.",
+      "is_correct": false,
+      "why_wrong": "A planned ending would not explain why the syntax breaks down halfway through."
+    },
+    {
+      "text": "readers must reconstruct its meaning from fragments.",
+      "is_correct": true,
+      "why_wrong": null
+    }
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clause introduced by 'because' followed by a main clause stating the reader's task",
+  "connector": "because",
+  "explanation": "The broken syntax is the cause, and the reader's task of reconstructing meaning from fragments is the effect. The sentence describes an experimental poetic technique.",
+  "translation": "Because the poem's syntax breaks down halfway through, readers must reconstruct its meaning from fragments."
+}
