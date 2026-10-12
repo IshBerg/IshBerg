@@ -1,0 +1,23 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "gloomy", "intensity": 1, "translation": "feeling low and without hope", "nuance": "a mild, dim sense of sadness"},
+    {"word": "unhappy", "intensity": 2, "translation": "not content or pleased", "nuance": "a general lack of happiness"},
+    {"word": "sorrowful", "intensity": 3, "translation": "full of grief or regret", "nuance": "sadness connected with loss or regret"},
+    {"word": "miserable", "intensity": 4, "translation": "very unhappy and uncomfortable", "nuance": "intense unhappiness that affects one's whole state"},
+    {"word": "heartbroken", "intensity": 5, "translation": "deeply devastated by loss", "nuance": "overwhelming sorrow, often after a personal loss"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe sadness, moving from a mild low mood to overwhelming grief. Each step represents a deeper or more intense sadness than the one before.",
+  "usage_notes": [
+    {"word1": "unhappy", "word2": "miserable", "difference": "'Unhappy' is a general lack of happiness, while 'miserable' describes a more intense and all-consuming unhappiness."}
+  ],
+  "translations": {
+    "gloomy": "feeling low and without hope",
+    "unhappy": "not content or pleased",
+    "sorrowful": "full of grief or regret",
+    "miserable": "very unhappy and uncomfortable",
+    "heartbroken": "deeply devastated by loss"
+  }
+}

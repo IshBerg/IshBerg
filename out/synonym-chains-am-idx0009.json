@@ -1,0 +1,23 @@
+{
+  "central_word": "urge",
+  "chain_words": [
+    {"word": "suggest", "intensity": 1, "translation": "ሃሳብ ማቅረብ", "nuance": "put an idea forward gently, leaving the choice to the listener"},
+    {"word": "recommend", "intensity": 2, "translation": "መምከር", "nuance": "advise a course of action based on judgement"},
+    {"word": "urge", "intensity": 3, "translation": "አጥብቆ ማሳሰብ", "nuance": "press someone earnestly to do something"},
+    {"word": "insist", "intensity": 4, "translation": "አጥብቆ መናገር", "nuance": "demand firmly, refusing to accept any other option"},
+    {"word": "demand", "intensity": 5, "translation": "በግዳጅ መጠየቅ", "nuance": "require something forcefully, often as a condition"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe advising or pressing someone to act, moving from a gentle suggestion to a forceful demand. Each step applies more pressure than the one before.",
+  "usage_notes": [
+    {"word1": "urge", "word2": "insist", "difference": "'Urge' expresses earnest encouragement, while 'insist' adds firmness and a refusal to accept alternatives."}
+  ],
+  "translations": {
+    "suggest": "ሃሳብ ማቅረብ",
+    "recommend": "መምከር",
+    "urge": "አጥብቆ ማሳሰብ",
+    "insist": "አጥብቆ መናገር",
+    "demand": "በግዳጅ መጠየቅ"
+  }
+}

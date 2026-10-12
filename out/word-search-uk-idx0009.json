@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["L", "E", "S", "S", "O", "R", "K", "W"],
+    ["S", "Q", "J", "D", "F", "V", "Z", "A"],
+    ["T", "K", "B", "N", "G", "Q", "X", "I"],
+    ["A", "P", "W", "H", "C", "Z", "J", "V"],
+    ["T", "D", "Y", "K", "Q", "F", "N", "E"],
+    ["U", "M", "B", "G", "X", "P", "W", "R"],
+    ["T", "V", "K", "Z", "N", "J", "Q", "D"],
+    ["E", "S", "T", "O", "P", "P", "E", "L"]
+  ],
+  "words_to_find": ["LESSOR", "WAIVER", "STATUTE", "ESTOPPEL"],
+  "word_positions": [
+    {"word": "LESSOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WAIVER", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "STATUTE", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "ESTOPPEL", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Legal and Contractual Texts"
+}

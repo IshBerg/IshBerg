@@ -1,0 +1,23 @@
+{
+  "central_word": "say",
+  "chain_words": [
+    {"word": "murmur", "intensity": 1, "translation": "murmurar", "nuance": "speak very quietly, so that few people can hear"},
+    {"word": "speak", "intensity": 2, "translation": "falar", "nuance": "use the voice to express thoughts in ordinary speech"},
+    {"word": "declare", "intensity": 3, "translation": "declarar", "nuance": "state something clearly and openly, often formally"},
+    {"word": "proclaim", "intensity": 4, "translation": "proclamar", "nuance": "announce something publicly and with conviction"},
+    {"word": "thunder", "intensity": 5, "translation": "trovejar", "nuance": "speak loudly and forcefully, often in anger or defiance"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe uttering words aloud, moving from a barely audible murmur to a loud, forceful statement. Each step adds more volume, confidence, or force than the one before.",
+  "usage_notes": [
+    {"word1": "declare", "word2": "proclaim", "difference": "'Declare' states something clearly, while 'proclaim' adds a public and often ceremonial sense of announcing it."}
+  ],
+  "translations": {
+    "murmur": "murmurar",
+    "speak": "falar",
+    "declare": "declarar",
+    "proclaim": "proclamar",
+    "thunder": "trovejar"
+  }
+}

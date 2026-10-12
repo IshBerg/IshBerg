@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R", "E", "G", "I", "S", "T", "E", "R", "P"],
+    ["Q", "K", "E", "W", "J", "Z", "V", "B", "R"],
+    ["L", "M", "S", "D", "F", "X", "H", "Q", "O"],
+    ["P", "J", "S", "W", "Z", "R", "K", "V", "S"],
+    ["G", "D", "A", "Q", "W", "K", "B", "M", "E"],
+    ["Z", "E", "Y", "H", "V", "T", "P", "L", "X"],
+    ["F", "J", "N", "K", "Z", "Q", "W", "D", "C"],
+    ["H", "M", "V", "R", "L", "B", "Y", "W", "Q"],
+    ["T", "K", "P", "J", "E", "S", "Z", "H", "N"]
+  ],
+  "words_to_find": ["REGISTER", "PROSE", "GENRE", "ESSAY"],
+  "word_positions": [
+    {"word": "REGISTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PROSE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "GENRE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ESSAY", "start_row": 1, "start_col": 2, "direction": "VERTICAL"}
+  ],
+  "topic": "Cross-Genre Style Adaptation"
+}

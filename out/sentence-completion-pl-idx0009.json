@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had the committee faced such a clear warning,",
+  "correct_completion": "nor had it been asked to act so urgently.",
+  "full_sentence": "Never before had the committee faced such a clear warning, nor had it been asked to act so urgently.",
+  "acceptable_variants": ["nor had it been asked to decide so quickly.", "nor had its members been pressed to respond so firmly."],
+  "options": [
+    {"text": "so it acted at once.", "is_correct": false, "why_wrong": "'So' introduces a result, but the inverted 'never before ... nor' structure requires a parallel negative clause."},
+    {"text": "and the committee was asked to act urgently.", "is_correct": false, "why_wrong": "'And' adds a positive statement, which does not complete the negative parallel that 'nor' requires."},
+    {"text": "nor had it been asked to act so urgently.", "is_correct": true, "why_wrong": null},
+    {"text": "because the warning was unclear.", "is_correct": false, "why_wrong": "'Because' introduces a cause that contradicts the stem's emphasis on a clear warning."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after 'never before' with a 'nor' clause for rhetorical emphasis",
+  "connector": "never before ... nor",
+  "explanation": "After a fronted 'never before', the auxiliary verb comes before the subject, and the second negative clause is introduced by 'nor' to build emphasis. This pattern is common in formal and rhetorical writing.",
+  "translation": "Nigdy wcześniej komitet nie stał w obliczu tak wyraźnego ostrzeżenia, a także nigdy nie został poproszony o tak pilne działanie."
+}

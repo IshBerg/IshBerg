@@ -1,0 +1,23 @@
+{
+  "central_word": "stop",
+  "chain_words": [
+    {"word": "pause", "intensity": 1, "translation": "يتوقف مؤقتًا", "nuance": "a brief stop, with the intention to continue"},
+    {"word": "halt", "intensity": 2, "translation": "يوقف السير", "nuance": "a stop that interrupts an ongoing movement or process"},
+    {"word": "suspend", "intensity": 3, "translation": "يعلّق", "nuance": "a stop for a period, possibly with conditions for resuming"},
+    {"word": "discontinue", "intensity": 4, "translation": "يوقف الاستمرار", "nuance": "a formal decision to stop something that was in place"},
+    {"word": "terminate", "intensity": 5, "translation": "ينهي تمامًا", "nuance": "a final ending, with no intention to resume"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express stopping an activity, from a brief pause to a final termination. Each step represents a more definitive or formal end than the one before.",
+  "usage_notes": [
+    {"word1": "suspend", "word2": "terminate", "difference": "'Suspend' means stopping for a period that may end, while 'terminate' means ending completely with no plan to resume."}
+  ],
+  "translations": {
+    "pause": "يتوقف مؤقتًا",
+    "halt": "يوقف السير",
+    "suspend": "يعلّق",
+    "discontinue": "يوقف الاستمرار",
+    "terminate": "ينهي تمامًا"
+  }
+}
