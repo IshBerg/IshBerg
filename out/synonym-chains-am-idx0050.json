@@ -1,0 +1,17 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "down", "intensity": 1, "translation": "ትንሽ ያዘነ", "nuance": "a mild, passing low mood"},
+    {"word": "unhappy", "intensity": 2, "translation": "ደስተኛ ያልሆነ", "nuance": "a general lack of happiness"},
+    {"word": "sad", "intensity": 3, "translation": "ያዘነ", "nuance": "a common feeling of sorrow"},
+    {"word": "miserable", "intensity": 4, "translation": "እጅግ የተጎዳ", "nuance": "deep, uncomfortable unhappiness"},
+    {"word": "heartbroken", "intensity": 5, "translation": "ልቡ የተሰበረ", "nuance": "intense grief, usually after a loss"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express unhappiness but with different intensities, from a slight low mood to intense grief.",
+  "usage_notes": [
+    {"word1": "sad", "word2": "miserable", "difference": "'Sad' describes a general feeling of sorrow; 'miserable' describes a stronger and more uncomfortable state that often lasts for some time."}
+  ],
+  "translations": {"down": "ትንሽ ያዘነ", "unhappy": "ደስተኛ ያልሆነ", "sad": "ያዘነ", "miserable": "እጅግ የተጎዳ", "heartbroken": "ልቡ የተሰበረ"}
+}

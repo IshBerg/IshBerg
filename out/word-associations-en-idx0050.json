@@ -1,0 +1,14 @@
+{
+  "trigger_word": "orchestra",
+  "all_words": [
+    {"word": "violin", "is_associated": true, "association_type": "SEMANTIC", "explanation": "The violin is a string instrument played in an orchestra, so the two words belong to the same musical field."},
+    {"word": "bakery", "is_associated": false, "association_type": "NONE", "explanation": "A bakery is a place where bread and pastries are made and has no connection with orchestral music."},
+    {"word": "conductor", "is_associated": true, "association_type": "THEMATIC", "explanation": "The conductor leads an orchestra during a performance, so the two words share the same setting."},
+    {"word": "symphony", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A symphony is a large musical composition performed by an orchestra, so the words are closely linked in meaning."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "A tractor is a farm vehicle and has no link to orchestras or music."},
+    {"word": "score", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Musical score' is a common collocation for the written music that an orchestra plays from."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Violin, conductor, symphony and score are all connected with orchestral music, while bakery and tractor have nothing to do with it."
+}

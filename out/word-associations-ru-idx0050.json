@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dialect",
+  "all_words": [
+    {"word": "accent", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Акцент — это особенности произношения, которые часто отличают один диалект от другого, поэтому слова тесно связаны по смыслу."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Горы — географический объект и не имеют отношения к языковым вариантам или диалектам."},
+    {"word": "vernacular", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Vernacular означает разговорный местный язык или диалект, поэтому слово близко по значению к dialect."},
+    {"word": "anchor", "is_associated": false, "association_type": "NONE", "explanation": "Якорь — морской или технический предмет и не связан с языковыми вариантами."},
+    {"word": "regional", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Выражение «regional dialect» (региональный диалект) является устойчивым сочетанием, поэтому слово связано с dialect."},
+    {"word": "idiom", "is_associated": true, "association_type": "THEMATIC", "explanation": "Идиома и диалект относятся к одной области языкознания: оба описывают особенности языкового выражения, принятые в определённой группе."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова accent, vernacular, regional и idiom связаны с понятием диалекта через язык и речь, а mountain и anchor к языку не относятся."
+}

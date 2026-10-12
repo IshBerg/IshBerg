@@ -1,0 +1,14 @@
+{
+  "trigger_word": "subtitle",
+  "all_words": [
+    {"word": "caption", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Підпис і субтитр — близькі за значенням слова: обидва є текстом, що пояснює зображення або мовлення на екрані."},
+    {"word": "film", "is_associated": true, "association_type": "THEMATIC", "explanation": "Субтитри найчастіше з'являються у фільмах, тож ці слова належать до однієї сфери кіно й перегляду відео."},
+    {"word": "tuba", "is_associated": false, "association_type": "NONE", "explanation": "Туба — духовий музичний інструмент і не має жодного зв'язку із субтитрами чи текстом на екрані."},
+    {"word": "dubbing", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Дубляж і субтитри — два способи передачі іншомовного фільму, тому слова пов'язані за змістом."},
+    {"word": "cactus", "is_associated": false, "association_type": "NONE", "explanation": "Кактус є рослиною і не пов'язаний з кіно, мовою або переказом тексту."},
+    {"word": "translation", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення «subtitle translation» (переклад субтитрів) є усталеним, тому слова часто вживаються разом."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "caption, film, dubbing і translation пов'язані з показом та перекладом іншомовного відео, а tuba і cactus до цієї теми не належать."
+}
