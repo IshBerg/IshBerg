@@ -1,0 +1,48 @@
+{
+  "trigger_word": "subsidy",
+  "all_words": [
+    {
+      "word": "grant",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Dotacja (grant) to forma finansowego wsparcia publicznego, więc jest bliska znaczeniowo dopłacie (subsidy)."
+    },
+    {
+      "word": "saxophone",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Saksofon (saxophone) to instrument muzyczny i nie ma związku z polityką publiczną."
+    },
+    {
+      "word": "tariff",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Cło (tariff) pojawia się w tych samych dokumentach polityki handlowej co dopłaty i ulgi."
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Latarnia (lantern) to źródło światła i nie ma związku z dopłatami rządowymi."
+    },
+    {
+      "word": "budget",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Budżet (budget) jest częstym elementem wyrażenia 'budget subsidy', czyli dopłaty z budżetu państwa."
+    },
+    {
+      "word": "pebble",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Kamyk (pebble) to drobny kamień i nie ma związku z polityką finansową."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'subsidy' oznacza publiczne wsparcie finansowe; dotacja, cło i budżet są z nim powiązane, a saksofon, latarnia i kamyk nie."
+}

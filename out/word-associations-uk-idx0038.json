@@ -1,0 +1,48 @@
+{
+  "trigger_word": "footnote",
+  "all_words": [
+    {
+      "word": "citation",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Посилання (citation) є основною функцією виноски, тому ці слова тісно пов’язані за змістом."
+    },
+    {
+      "word": "walrus",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Морж (walrus) — морська тварина і не має стосунку до виносок."
+    },
+    {
+      "word": "bibliography",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Бібліографія (bibliography) розміщується поруч із виносками в науковому тексті, тож належить до тієї самої теми."
+    },
+    {
+      "word": "lampshade",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Абажур (lampshade) — предмет інтер’єру і не пов’язаний з виносками."
+    },
+    {
+      "word": "superscript",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Верхній індекс (superscript) — типове поєднання з виноскою, адже виноска позначається невеликим верхнім номером."
+    },
+    {
+      "word": "tractor",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Трактор (tractor) — сільськогосподарська машина і не має стосунку до виносок."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'footnote' означає примітку внизу сторінки; посилання, бібліографія і верхній індекс пов’язані з нею, а морж, абажур і трактор — ні."
+}

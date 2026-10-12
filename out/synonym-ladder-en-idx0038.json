@@ -1,0 +1,39 @@
+{
+  "start_word": "vague",
+  "end_word": "precise",
+  "ladder_steps": [
+    {
+      "word": "vague",
+      "translation": "vague",
+      "intensity_level": 1
+    },
+    {
+      "word": "general",
+      "translation": "general",
+      "intensity_level": 2
+    },
+    {
+      "word": "specific",
+      "translation": "specific",
+      "intensity_level": 3
+    },
+    {
+      "word": "detailed",
+      "translation": "detailed",
+      "intensity_level": 4
+    },
+    {
+      "word": "precise",
+      "translation": "precise",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words form a scale of how clearly a comment identifies its problem, from a vague remark that names nothing specific to a precise note that pinpoints the exact issue, with each step more exact than the last."
+}
