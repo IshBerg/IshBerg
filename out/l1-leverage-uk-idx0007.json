@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "current or relevant"},
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "кабінет", "transliteration": "kabinet", "meaning": "office"},
+    {"word": "евентуально", "transliteration": "eventualno", "meaning": "possibly"}
+  ],
+  "english_words": ["office", "possibly", "current", "shop"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Ukrainian words look like English words with the same spelling or root, but their meanings developed separately, so the forms look familiar while the meanings differ.",
+  "false_friend_warning": "Careful: 'магазин' looks like 'magazine' but means shop, 'актуальний' looks like 'actual' but means current, 'кабінет' looks like 'cabinet' but means office, and 'евентуально' looks like 'eventually' but means possibly."
+}

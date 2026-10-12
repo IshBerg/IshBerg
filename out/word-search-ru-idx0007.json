@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "R", "E", "M", "I", "S", "E", "K", "Q", "F"],
+    ["B", "C", "D", "G", "H", "J", "K", "L", "Z", "A"],
+    ["W", "X", "Y", "T", "N", "Q", "R", "S", "V", "L"],
+    ["F", "G", "H", "J", "K", "M", "N", "P", "W", "L"],
+    ["Q", "R", "S", "T", "U", "V", "W", "X", "Y", "A"],
+    ["I", "B", "C", "D", "E", "D", "F", "G", "H", "C"],
+    ["K", "N", "M", "P", "R", "S", "I", "U", "T", "Y"],
+    ["A", "J", "F", "Q", "W", "E", "R", "L", "M", "N"],
+    ["B", "D", "K", "E", "G", "H", "J", "L", "A", "Z"],
+    ["Q", "W", "X", "Y", "R", "Z", "P", "S", "T", "V"]
+  ],
+  "words_to_find": ["PREMISE", "FALLACY", "INFER", "VALID"],
+  "word_positions": [
+    {"word": "PREMISE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FALLACY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "INFER", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "VALID", "start_row": 9, "start_col": 9, "direction": "DIAGONAL_UP_LEFT"}
+  ],
+  "topic": "Precision Vocabulary for Argumentation"
+}

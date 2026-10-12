@@ -1,0 +1,14 @@
+{
+  "trigger_word": "smoke",
+  "all_words": [
+    {"word": "fire", "is_associated": true, "association_type": "THEMATIC", "explanation": "вогонь є джерелом диму, тому ці слова тісно пов'язані."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "скрипка є музичним інструментом і не пов'язана з димом."},
+    {"word": "ash", "is_associated": true, "association_type": "SEMANTIC", "explanation": "попіл залишається після горіння і є типовим супутником диму."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "ложка є кухонним предметом без зв'язку з димом."},
+    {"word": "chimney", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "димохід відводить дим від вогнища, тому часто згадується разом із словом smoke."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "подушка використовується для сну і не має зв'язку з димом."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "вогонь, попіл і димохід пов'язані з димом, а скрипка, ложка та подушка — ні."
+}

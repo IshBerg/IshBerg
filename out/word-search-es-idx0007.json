@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "H", "E", "R", "E", "F", "O", "R", "E", "T"],
+    ["F", "K", "J", "Q", "W", "Z", "X", "B", "M", "H"],
+    ["Y", "O", "P", "G", "W", "Z", "V", "D", "K", "E"],
+    ["B", "K", "R", "T", "M", "D", "Q", "J", "Z", "N"],
+    ["L", "P", "W", "S", "V", "G", "N", "R", "X", "C"],
+    ["Q", "M", "J", "K", "O", "P", "W", "D", "G", "E"],
+    ["V", "Z", "H", "T", "W", "O", "L", "P", "N", "K"],
+    ["J", "D", "K", "R", "E", "Q", "T", "V", "B", "W"],
+    ["N", "Z", "P", "G", "R", "L", "S", "H", "Y", "D"],
+    ["M", "A", "Q", "X", "E", "Z", "Y", "K", "P", "G"]
+  ],
+  "words_to_find": ["WHEREFORE", "THENCE", "FORSOOTH", "ERE"],
+  "word_positions": [
+    {"word": "WHEREFORE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THENCE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "FORSOOTH", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ERE", "start_row": 9, "start_col": 4, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Archaic and Literary Register"
+}

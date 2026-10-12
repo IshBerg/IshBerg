@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rarely in my career",
+  "correct_completion": "have I encountered such a careless mistake.",
+  "full_sentence": "Rarely in my career have I encountered such a careless mistake.",
+  "acceptable_variants": ["have I seen such a careless error.", "have I come across such a careless mistake."],
+  "options": [
+    {"text": "I have encountered such a careless mistake.", "is_correct": false, "why_wrong": "After a fronted negative adverbial such as 'rarely', the auxiliary must come before the subject, so this normal word order is incorrect."},
+    {"text": "have I encountered such a careless mistake.", "is_correct": true, "why_wrong": null},
+    {"text": "such a careless mistake was encountered by me.", "is_correct": false, "why_wrong": "The passive construction does not invert the subject and auxiliary, so it cannot complete the emphatic structure started by 'rarely'."},
+    {"text": "I encountered such a careless mistake.", "is_correct": false, "why_wrong": "This simple past keeps the normal word order, which is incorrect after a fronted negative adverbial."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after fronted negative adverbials",
+  "connector": "rarely",
+  "explanation": "When a negative adverbial such as 'rarely' begins the sentence, the auxiliary verb is placed before the subject for emphasis.",
+  "translation": "Рідко за свою кар'єру я стикався з такою необережною помилкою."
+}

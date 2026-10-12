@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The meeting having adjourned,",
+  "correct_completion": "the members returned to their offices.",
+  "full_sentence": "The meeting having adjourned, the members returned to their offices.",
+  "acceptable_variants": ["the members went back to their offices.", "the members headed home."],
+  "options": [
+    {"text": "to return the members to their offices.", "is_correct": false, "why_wrong": "An infinitive phrase cannot serve as the main clause that completes the sentence."},
+    {"text": "the members returning to their offices.", "is_correct": false, "why_wrong": "A participle phrase cannot complete the sentence because the main clause needs a finite verb."},
+    {"text": "the members returned to their offices.", "is_correct": true, "why_wrong": null},
+    {"text": "the members having returned to their offices.", "is_correct": false, "why_wrong": "A perfect participle leaves no finite verb for the main clause, so the sentence remains incomplete."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Absolute constructions with a participle and its own subject",
+  "connector": "the meeting having adjourned",
+  "explanation": "An absolute construction has its own subject, here 'the meeting', and a participle, and it is followed by a main clause with a finite verb that states what happened next.",
+  "translation": "وقد انتهى الاجتماع، فعاد الأعضاء إلى مكاتبهم."
+}

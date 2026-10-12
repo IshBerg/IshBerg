@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Looking back at those summers,",
+  "correct_completion": "I realise how little I understood about my father.",
+  "full_sentence": "Looking back at those summers, I realise how little I understood about my father.",
+  "acceptable_variants": ["I now see how little I understood my father.", "I recognise how little I grasped of my father's life."],
+  "options": [
+    {"text": "the summers seemed endlessly long to everyone.", "is_correct": false, "why_wrong": "The participle 'looking back' needs the writer as its implied subject, but here the summers would be doing the looking, which is a dangling participle."},
+    {"text": "I realise how little I understood about my father.", "is_correct": true, "why_wrong": null},
+    {"text": "to realise how little I understood.", "is_correct": false, "why_wrong": "An infinitive phrase cannot function as the main clause that completes the sentence."},
+    {"text": "my father, having been understood, was gone.", "is_correct": false, "why_wrong": "The participle 'having been understood' has no logical link to the person looking back, so the clause does not fit the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with an implied subject",
+  "connector": "looking back",
+  "explanation": "A participle clause at the start of a sentence must share its implied subject with the main clause, so the main clause must describe what the writer now realises.",
+  "translation": "מביט לאחור על אותם קיצים, אני מבין עד כמה מעט הבנתי את אבי."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had the play begun,",
+  "correct_completion": "when the audience began to leave.",
+  "full_sentence": "Hardly had the play begun, when the audience began to leave.",
+  "acceptable_variants": ["when the crowd started to drift out.", "when many spectators began to leave."],
+  "options": [
+    {"text": "than the audience began to leave.", "is_correct": false, "why_wrong": "'Than' is used with 'no sooner', not with 'hardly'; the correlative structure with 'hardly' requires 'when'."},
+    {"text": "until the audience began to leave.", "is_correct": false, "why_wrong": "'Until' does not express the immediate sequence that the 'hardly ... when' structure requires."},
+    {"text": "when the audience began to leave.", "is_correct": true, "why_wrong": null},
+    {"text": "because the audience began to leave.", "is_correct": false, "why_wrong": "'Because' expresses a cause, but the stem requires a sequence of events that happened immediately."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion with the correlative structure 'hardly ... when'",
+  "connector": "hardly",
+  "explanation": "After a fronted 'hardly', the auxiliary is inverted with the subject, and 'when' introduces the event that happened immediately afterwards.",
+  "translation": "Mal a peça tinha começado, quando o público começou a sair."
+}
