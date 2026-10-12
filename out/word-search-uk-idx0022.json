@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "R", "A", "N", "S", "L", "A", "T", "E"],
+    ["Q", "W", "Z", "K", "J", "X", "B", "M", "P"],
+    ["V", "F", "H", "Y", "D", "R", "C", "G", "Q"],
+    ["K", "T", "W", "Z", "E", "J", "N", "X", "L"],
+    ["B", "Q", "M", "F", "P", "V", "K", "Z", "W"],
+    ["X", "D", "H", "J", "T", "Y", "Q", "R", "B"],
+    ["P", "W", "K", "V", "Z", "F", "M", "J", "H"],
+    ["G", "Y", "Q", "B", "L", "W", "X", "K", "D"],
+    ["Z", "M", "J", "P", "R", "Q", "V", "N", "F"]
+  ],
+  "words_to_find": ["TRANSLATE", "LITERAL", "STYLE", "VERSION"],
+  "word_positions": [
+    {"word": "TRANSLATE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LITERAL", "start_row": 1, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "STYLE", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VERSION", "start_row": 4, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Literary Translation"
+}

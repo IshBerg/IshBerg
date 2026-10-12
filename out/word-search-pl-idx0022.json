@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R", "E", "B", "U", "T", "T", "A", "L", "Q"],
+    ["K", "W", "P", "Z", "F", "J", "X", "V", "M"],
+    ["J", "A", "R", "G", "U", "M", "E", "N", "T"],
+    ["Q", "Z", "X", "E", "L", "K", "W", "B", "Y"],
+    ["M", "P", "F", "R", "C", "A", "H", "D", "N"],
+    ["W", "K", "V", "J", "Q", "Z", "B", "X", "G"],
+    ["Y", "H", "N", "T", "W", "O", "K", "E", "R"],
+    ["B", "Q", "Z", "F", "M", "X", "P", "W", "L"],
+    ["D", "V", "K", "Q", "Y", "J", "B", "Z", "C"]
+  ],
+  "words_to_find": ["REBUTTAL", "ARGUMENT", "CLAIM", "ROBUST"],
+  "word_positions": [
+    {"word": "REBUTTAL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ARGUMENT", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAIM", "start_row": 4, "start_col": 5, "direction": "HORIZONTAL"},
+    {"word": "ROBUST", "start_row": 6, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Native-Level Debate and Rebuttal"
+}

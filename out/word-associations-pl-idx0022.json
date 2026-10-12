@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sign",
+  "all_words": [
+    {"word": "signifier", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Signifier to część znaku w ujęciu Saussure'a, czyli forma, która odsyła do znaczenia, więc pojęcie jest bezpośrednio związane ze znakiem."},
+    {"word": "meaning", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Znak istnieje po to, by przekazywać znaczenie, więc te dwa pojęcia są ze sobą ściśle powiązane."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku z semiotyką ani z tym, jak znaki odsyłają do znaczeń."},
+    {"word": "referent", "is_associated": true, "association_type": "THEMATIC", "explanation": "Referent to rzecz, do której odsyła znak, więc należy do tego samego obszaru filozofii języka."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "Czajnik nie jest pojęciem z zakresu semiotyki ani filozofii języka."},
+    {"word": "symbol", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "W angielszczyźnie 'sign' i 'symbol' często występują w tym samym kontekście opisującym odsyłanie do znaczenia."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzenia ze słowem 'sign' pochodzą z semiotyki i filozofii języka: znak ma formę, znaczenie i odsyła do referentu, podczas gdy przedmioty z innych dziedzin, jak góra czy czajnik, nie mają z tym związku."
+}
