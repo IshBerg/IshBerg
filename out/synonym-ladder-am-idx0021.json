@@ -1,0 +1,39 @@
+{
+  "start_word": "uncertain",
+  "end_word": "certain",
+  "ladder_steps": [
+    {
+      "word": "uncertain",
+      "translation": "እርግጠኛ ያልሆነ",
+      "intensity_level": 1
+    },
+    {
+      "word": "doubtful",
+      "translation": "ጥርጣሬ ያለው",
+      "intensity_level": 2
+    },
+    {
+      "word": "likely",
+      "translation": "ሊሆን የሚችል",
+      "intensity_level": 3
+    },
+    {
+      "word": "probable",
+      "translation": "ይቻላል ተብሎ የሚጠበቅ",
+      "intensity_level": 4
+    },
+    {
+      "word": "certain",
+      "translation": "እርግጠኛ",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "Words describing how sure we are of a claim form a ladder from complete uncertainty to full certainty, each step more confident than the last."
+}

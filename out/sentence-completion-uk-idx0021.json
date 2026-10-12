@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "If the committee had approved the budget earlier, the project",
+  "correct_completion": "would be finished by now.",
+  "full_sentence": "If the committee had approved the budget earlier, the project would be finished by now.",
+  "acceptable_variants": [
+    "would already be complete.",
+    "would not still be delayed."
+  ],
+  "options": [
+    {
+      "text": "is finished by now.",
+      "is_correct": false,
+      "why_wrong": "A present-tense indicative does not express the hypothetical result of an unreal past condition."
+    },
+    {
+      "text": "would be finished by now.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "was finished last year.",
+      "is_correct": false,
+      "why_wrong": "This states a real past event instead of the hypothetical present result of an unreal condition."
+    },
+    {
+      "text": "will be finished by next year.",
+      "is_correct": false,
+      "why_wrong": "'Will' describes a real future plan, not the unreal present result that the condition implies."
+    }
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditional: a past subjunctive condition ('had approved') with a present-result clause ('would be finished')",
+  "connector": "if",
+  "explanation": "The subjunctive 'had approved' describes an unreal past condition, and 'would be finished by now' gives its present consequence. This is a mixed conditional.",
+  "translation": "Якби комітет затвердив бюджет раніше, проєкт уже був би завершений."
+}

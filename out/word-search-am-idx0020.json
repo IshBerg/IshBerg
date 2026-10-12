@@ -1,0 +1,101 @@
+{
+  "grid_size": 7,
+  "grid": [
+    [
+      "C",
+      "L",
+      "I",
+      "M",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "P",
+      "Z",
+      "Q",
+      "W",
+      "K",
+      "J",
+      "D"
+    ],
+    [
+      "O",
+      "X",
+      "K",
+      "Q",
+      "W",
+      "Z",
+      "R"
+    ],
+    [
+      "L",
+      "W",
+      "Z",
+      "J",
+      "K",
+      "X",
+      "O"
+    ],
+    [
+      "I",
+      "Q",
+      "J",
+      "X",
+      "Z",
+      "W",
+      "N"
+    ],
+    [
+      "C",
+      "K",
+      "X",
+      "W",
+      "Q",
+      "Z",
+      "E"
+    ],
+    [
+      "Y",
+      "S",
+      "A",
+      "F",
+      "E",
+      "T",
+      "Y"
+    ]
+  ],
+  "words_to_find": [
+    "CLIMATE",
+    "DRONE",
+    "POLICY",
+    "SAFETY"
+  ],
+  "word_positions": [
+    {
+      "word": "CLIMATE",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "DRONE",
+      "start_row": 1,
+      "start_col": 6,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "POLICY",
+      "start_row": 1,
+      "start_col": 0,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "SAFETY",
+      "start_row": 6,
+      "start_col": 1,
+      "direction": "HORIZONTAL"
+    }
+  ],
+  "topic": "Global Futures: Technology, Society, Ethics"
+}
