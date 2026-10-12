@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee insisted on a stricter review,",
+  "correct_completion": "the proposal would have been revised before the vote.",
+  "full_sentence": "Had the committee insisted on a stricter review, the proposal would have been revised before the vote.",
+  "acceptable_variants": ["the draft would have been amended ahead of the ballot.", "the document would have been reworked before it went to a vote."],
+  "options": [
+    {"text": "the proposal was revised before the vote.", "is_correct": false, "why_wrong": "This states a past event as fact, but the inverted conditional stem refers to a hypothetical situation that did not happen."},
+    {"text": "so the committee insisted on a stricter review.", "is_correct": false, "why_wrong": "'So' reports an action that actually took place, which contradicts the unreal condition introduced by 'had'."},
+    {"text": "the proposal would have been revised before the vote.", "is_correct": true, "why_wrong": null},
+    {"text": "although the vote was held on schedule.", "is_correct": false, "why_wrong": "'Although' introduces a contrast with a fact, not the hypothetical result that the inverted conditional requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and a modal perfect in the main clause",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'if', so the main clause must state the unrealised result using 'would have' plus a past participle.",
+  "translation": "لو أصرّت اللجنة على مراجعة أكثر صرامة، لكان المقترح قد عُدِّل قبل التصويت."
+}
