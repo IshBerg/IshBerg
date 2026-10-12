@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Since the poet's wordplay depends on the sound of the original language,",
+  "correct_completion": "the translator must choose between fidelity and creativity.",
+  "full_sentence": "Since the poet's wordplay depends on the sound of the original language, the translator must choose between fidelity and creativity.",
+  "acceptable_variants": ["the translator has to weigh accuracy against invention.", "the translator is forced to sacrifice either the sound or the meaning."],
+  "options": [
+    {"text": "so the translation reads smoothly in every language.", "is_correct": false, "why_wrong": "'So' suggests the translation is easy, which contradicts the difficulty that the stem sets up."},
+    {"text": "although the poem was published in 1920.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, and the publication date is unrelated to the translator's problem."},
+    {"text": "the translator must choose between fidelity and creativity.", "is_correct": true, "why_wrong": null},
+    {"text": "because the translator speaks three languages.", "is_correct": false, "why_wrong": "'Because' gives a second reason, but the sentence needs the consequence of the wordplay, not a fact about the translator."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clauses with 'since' (cause followed by a consequence)",
+  "connector": "since",
+  "explanation": "'Since' introduces a reason, and the main clause must state the consequence. When wordplay relies on sound, a translator cannot keep both the meaning and the form.",
+  "translation": "بما أن التلاعب اللفظي عند الشاعر يعتمد على صوت اللغة الأصلية، يضطر المترجم إلى الاختيار بين الأمانة والإبداع."
+}
