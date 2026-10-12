@@ -1,0 +1,14 @@
+{
+  "trigger_word": "indemnity",
+  "all_words": [
+    {"word": "compensation", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Indemnity is a promise to compensate another party for a loss, so the two words share their core meaning."},
+    {"word": "kaleidoscope", "is_associated": false, "association_type": "NONE", "explanation": "A kaleidoscope is an optical toy and has no connection to contracts or legal obligations."},
+    {"word": "liability", "is_associated": true, "association_type": "THEMATIC", "explanation": "Liability and indemnity belong to the same topic of legal responsibility for losses."},
+    {"word": "dumpling", "is_associated": false, "association_type": "NONE", "explanation": "A dumpling is a food and has nothing to do with legal terms or contracts."},
+    {"word": "insurer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "An insurer is often the party that provides indemnity against a loss, so the word is directly related."},
+    {"word": "cobbler", "is_associated": false, "association_type": "NONE", "explanation": "A cobbler is a shoe repairer and is unrelated to legal indemnity."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Indemnity is a contractual promise to cover a loss; the associated words describe compensation, liability, and insurance, while the others belong to unrelated fields."
+}
