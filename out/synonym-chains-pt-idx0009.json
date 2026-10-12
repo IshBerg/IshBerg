@@ -1,0 +1,23 @@
+{
+  "central_word": "claim",
+  "chain_words": [
+    {"word": "suggest", "intensity": 1, "translation": "sugerir", "nuance": "put an idea forward gently, without committing to it"},
+    {"word": "imply", "intensity": 2, "translation": "insinuar", "nuance": "indicate something indirectly, without stating it"},
+    {"word": "assert", "intensity": 3, "translation": "afirmar", "nuance": "state firmly that something is true"},
+    {"word": "insist", "intensity": 4, "translation": "insistir", "nuance": "maintain a claim forcefully, often against objection"},
+    {"word": "declare", "intensity": 5, "translation": "proclamar", "nuance": "announce something publicly and with full authority"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express putting forward a claim, moving from a tentative suggestion to a formal public declaration. Each step commits the speaker more strongly to the claim.",
+  "usage_notes": [
+    {"word1": "assert", "word2": "insist", "difference": "'Assert' states a claim firmly, while 'insist' adds the sense of repeating or defending it against resistance."}
+  ],
+  "translations": {
+    "suggest": "sugerir",
+    "imply": "insinuar",
+    "assert": "afirmar",
+    "insist": "insistir",
+    "declare": "proclamar"
+  }
+}

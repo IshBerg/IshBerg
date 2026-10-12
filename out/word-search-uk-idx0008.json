@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["W", "H", "I", "L", "S", "T", "Q"],
+    ["H", "K", "M", "P", "V", "H", "Z"],
+    ["A", "B", "J", "F", "D", "O", "N"],
+    ["T", "R", "X", "G", "Y", "U", "C"],
+    ["H", "Q", "V", "W", "K", "M", "L"],
+    ["P", "Z", "D", "N", "B", "S", "F"],
+    ["L", "Q", "Y", "E", "R", "E", "T"]
+  ],
+  "words_to_find": ["WHILST", "THOU", "HATH", "ERE"],
+  "word_positions": [
+    {"word": "WHILST", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THOU", "start_row": 0, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "HATH", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "ERE", "start_row": 6, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Archaic and Literary Register"
+}

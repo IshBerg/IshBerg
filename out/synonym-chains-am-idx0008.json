@@ -1,0 +1,23 @@
+{
+  "central_word": "important",
+  "chain_words": [
+    {"word": "relevant", "intensity": 1, "translation": "ተዛማጅ", "nuance": "connected to the topic, but not necessarily of great weight"},
+    {"word": "notable", "intensity": 2, "translation": "የሚታወቅ", "nuance": "worth noticing or attention"},
+    {"word": "significant", "intensity": 3, "translation": "ጉልህ", "nuance": "large enough to affect a result or conclusion"},
+    {"word": "crucial", "intensity": 4, "translation": "ወሳኝ", "nuance": "decisive, something on which an outcome depends"},
+    {"word": "vital", "intensity": 5, "translation": "እጅግ አስፈላጊ", "nuance": "absolutely essential, without which something cannot succeed"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express how much something matters, moving from being merely connected to the topic to being absolutely essential. Each step carries greater weight than the one before.",
+  "usage_notes": [
+    {"word1": "significant", "word2": "crucial", "difference": "'Significant' describes a result large enough to matter, while 'crucial' describes something on which the outcome depends."}
+  ],
+  "translations": {
+    "relevant": "ተዛማጅ",
+    "notable": "የሚታወቅ",
+    "significant": "ጉልህ",
+    "crucial": "ወሳኝ",
+    "vital": "እጅግ አስፈላጊ"
+  }
+}

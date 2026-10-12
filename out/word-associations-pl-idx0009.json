@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hedge",
+  "all_words": [
+    {"word": "tentative", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Przymiotnik „tentative” oznacza wstępny, niepewny, i w pisaniu naukowym jest bliski pojęciu zabezpieczenia wypowiedzi."},
+    {"word": "cucumber", "is_associated": false, "association_type": "NONE", "explanation": "Ogórek nie ma żadnego związku z asekuracją w wypowiedziach naukowych."},
+    {"word": "suggests", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik „suggests” często pojawia się w zdaniach asekuracyjnych, np. „the data suggests”, zamiast mocnego stwierdzenia."},
+    {"word": "lighthouse", "is_associated": false, "association_type": "NONE", "explanation": "Latarnia morska jest budowlą i nie ma związku z językiem asekuracji."},
+    {"word": "might", "is_associated": true, "association_type": "THEMATIC", "explanation": "Czasownik modalny „might” jest jednym z podstawowych środków językowych służących do asekuracji wypowiedzi."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktor to pojazd rolniczy i nie jest powiązany z pojęciem asekuracji w języku."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Powiązane słowa dotyczą języka asekuracji: przymiotnik wyrażający wstępność, czasownik łagodzący twierdzenie oraz czasownik modalny. Pozostałe należą do zupełnie innych dziedzin."
+}

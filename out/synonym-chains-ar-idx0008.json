@@ -1,0 +1,23 @@
+{
+  "central_word": "surprised",
+  "chain_words": [
+    {"word": "startled", "intensity": 1, "translation": "مندهش فجأة", "nuance": "briefly jolted by something unexpected"},
+    {"word": "surprised", "intensity": 2, "translation": "متفاجئ", "nuance": "caught off guard by something unexpected"},
+    {"word": "astonished", "intensity": 3, "translation": "مذهول", "nuance": "very surprised, often with disbelief"},
+    {"word": "amazed", "intensity": 4, "translation": "مبهور", "nuance": "impressed and filled with wonder"},
+    {"word": "stunned", "intensity": 5, "translation": "مصدوم تمامًا", "nuance": "so surprised that one is briefly unable to react"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe a reaction to something unexpected, moving from a brief jolt to a state of being unable to respond. Each step involves a stronger reaction than the one before.",
+  "usage_notes": [
+    {"word1": "astonished", "word2": "amazed", "difference": "'Astonished' focuses on disbelief at something unexpected, while 'amazed' focuses on admiration or wonder."}
+  ],
+  "translations": {
+    "startled": "مندهش فجأة",
+    "surprised": "متفاجئ",
+    "astonished": "مذهول",
+    "amazed": "مبهور",
+    "stunned": "مصدوم تمامًا"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "Y", "N", "T", "A", "X", "L"],
+    ["S", "K", "Q", "F", "B", "V", "E"],
+    ["C", "W", "J", "I", "Z", "P", "X"],
+    ["H", "R", "D", "L", "G", "N", "I"],
+    ["E", "U", "A", "T", "V", "Q", "C"],
+    ["M", "B", "K", "E", "W", "J", "O"],
+    ["A", "P", "Z", "R", "D", "T", "N"]
+  ],
+  "words_to_find": ["SYNTAX", "LEXICON", "SCHEMA", "FILTER"],
+  "word_positions": [
+    {"word": "SYNTAX", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEXICON", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SCHEMA", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "FILTER", "start_row": 1, "start_col": 3, "direction": "VERTICAL"}
+  ],
+  "topic": "Domain-Specific Jargon Mastery"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The exam over,",
+  "correct_completion": "the students filed quietly out of the hall.",
+  "full_sentence": "The exam over, the students filed quietly out of the hall.",
+  "acceptable_variants": ["the students left the hall in silence.", "the students quietly made their way out."],
+  "options": [
+    {"text": "so the students filed out quietly.", "is_correct": false, "why_wrong": "'So' introduces a result, but the absolute construction describes circumstances and needs a main clause describing the scene."},
+    {"text": "because the students were tired.", "is_correct": false, "why_wrong": "The verbless absolute already expresses the circumstance, so adding 'because' creates a redundant and mismatched reason."},
+    {"text": "the students filed quietly out of the hall.", "is_correct": true, "why_wrong": null},
+    {"text": "however, the students had been tired.", "is_correct": false, "why_wrong": "'However' signals contrast, but the stem sets up a circumstance rather than a contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Verbless absolute clauses expressing circumstance",
+  "connector": "absolute clause (no connector)",
+  "explanation": "A verbless absolute clause gives the circumstance of the main event without a conjunction. Here 'The exam over' explains the situation, and the main clause describes what the students did.",
+  "translation": "Egzamin już za nimi, uczniowie po cichu opuścili salę."
+}
