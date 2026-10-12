@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the translator aimed for literal fidelity,",
+  "correct_completion": "the rhythm of the original verse could not survive the transfer intact.",
+  "full_sentence": "Although the translator aimed for literal fidelity, the rhythm of the original verse could not survive the transfer intact.",
+  "acceptable_variants": ["the poem's musical pattern was inevitably lost in translation.", "the cadence of the source poem did not carry over unchanged."],
+  "options": [
+    {"text": "the rhythm of the original verse survived the transfer intact.", "is_correct": false, "why_wrong": "This states the outcome the stem's concessive 'although' is set against, so it does not complete the contrast."},
+    {"text": "so the translator abandoned the attempt to be faithful.", "is_correct": false, "why_wrong": "'So' introduces a consequence, but the sentence needs a concession that qualifies the translator's aim rather than a change of purpose."},
+    {"text": "the rhythm of the original verse could not survive the transfer intact.", "is_correct": true, "why_wrong": null},
+    {"text": "because the source language contains more vowels than the target.", "is_correct": false, "why_wrong": "'Because' gives a cause, but the stem is built on concession, so a causal clause does not complete it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and a contrasting main clause in literary translation",
+  "connector": "although",
+  "explanation": "'Although' introduces a concession, so the main clause must present a limitation that contrasts with the translator's aim of literal fidelity.",
+  "translation": "Çevirmen birebir sadakat amacı gütmüş olsa da, orijinal dizenin ritmi çeviride olduğu gibi korunamamıştır."
+}

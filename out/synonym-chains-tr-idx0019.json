@@ -1,0 +1,17 @@
+{
+  "central_word": "precise",
+  "chain_words": [
+    {"word": "approximate", "intensity": 1, "translation": "yaklaşık", "nuance": "close to the true value but not exact"},
+    {"word": "accurate", "intensity": 2, "translation": "doğru", "nuance": "correct in its details, with no significant error"},
+    {"word": "precise", "intensity": 3, "translation": "kesin", "nuance": "exact and clearly delimited in its detail"},
+    {"word": "rigorous", "intensity": 4, "translation": "titiz", "nuance": "exact because every step of the reasoning is controlled"},
+    {"word": "exact", "intensity": 5, "translation": "tam olarak", "nuance": "identical to the required standard, with no margin at all"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe the degree of correctness in a claim, rising from a close estimate to a standard that allows no margin for error.",
+  "usage_notes": [
+    {"word1": "precise", "word2": "exact", "difference": "'Precise' stresses fine detail and clear boundaries, while 'exact' stresses complete identity with the required standard."}
+  ],
+  "translations": {"approximate": "yaklaşık", "accurate": "doğru", "precise": "kesin", "rigorous": "titiz", "exact": "tam olarak"}
+}

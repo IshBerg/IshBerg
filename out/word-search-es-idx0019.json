@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "T", "A", "T", "U", "T", "E", "Q", "W", "E"],
+    ["K", "L", "Z", "V", "B", "J", "X", "P", "F", "M"],
+    ["D", "E", "P", "O", "S", "I", "T", "W", "Q", "K"],
+    ["R", "J", "W", "X", "Z", "F", "B", "H", "M", "Y"],
+    ["Q", "V", "C", "L", "A", "I", "M", "K", "W", "T"],
+    ["N", "G", "H", "E", "R", "Z", "P", "V", "Q", "J"],
+    ["X", "B", "M", "K", "Y", "W", "C", "U", "F", "L"],
+    ["Z", "K", "Q", "D", "J", "T", "V", "N", "B", "A"],
+    ["W", "F", "N", "P", "E", "X", "R", "Z", "K", "O"],
+    ["H", "Y", "J", "Q", "M", "G", "W", "B", "V", "N"]
+  ],
+  "words_to_find": ["STATUTE", "DEPOSIT", "CLAIM", "REMEDY"],
+  "word_positions": [
+    {"word": "STATUTE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DEPOSIT", "start_row": 2, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "CLAIM", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "REMEDY", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Legal Argumentation and Case Law"
+}
