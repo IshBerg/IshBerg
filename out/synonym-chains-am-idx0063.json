@@ -1,0 +1,17 @@
+{
+  "central_word": "refute",
+  "chain_words": [
+    {"word": "query", "intensity": 1, "translation": "ጥያቄ ማንሳት", "nuance": "raising a doubt about a claim"},
+    {"word": "dispute", "intensity": 2, "translation": "መከራከር", "nuance": "arguing that a claim is not correct"},
+    {"word": "refute", "intensity": 3, "translation": "ማስተባበል", "nuance": "showing with reasons that a claim is false"},
+    {"word": "rebut", "intensity": 4, "translation": "መመለስ", "nuance": "answering an opposing claim point by point"},
+    {"word": "demolish", "intensity": 5, "translation": "ማፍረስ", "nuance": "destroying an argument so completely that nothing remains"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe opposing a claim in debate, but with different intensities, from raising a doubt to completely destroying the argument.",
+  "usage_notes": [
+    {"word1": "refute", "word2": "rebut", "difference": "'Refute' means to prove that a claim is false; 'rebut' means to respond to a claim with an opposing argument, without necessarily proving it false."}
+  ],
+  "translations": {"query": "ጥያቄ ማንሳት", "dispute": "መከራከር", "refute": "ማስተባበል", "rebut": "መመለስ", "demolish": "ማፍረስ"}
+}

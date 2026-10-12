@@ -1,0 +1,14 @@
+{
+  "trigger_word": "concession",
+  "all_words": [
+    {"word": "rebuttal", "is_associated": true, "association_type": "THEMATIC", "explanation": "A concession and a rebuttal both belong to the same stage of debate, where speakers respond to an opponent's claim."},
+    {"word": "tulip", "is_associated": false, "association_type": "NONE", "explanation": "A tulip is a flower and has no connection to debate or negotiation."},
+    {"word": "compromise", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A concession is a kind of compromise, so the two words are close in meaning."},
+    {"word": "bagpipe", "is_associated": false, "association_type": "NONE", "explanation": "A bagpipe is a musical instrument and is unrelated to argument or negotiation."},
+    {"word": "yield", "is_associated": true, "association_type": "SEMANTIC", "explanation": "To yield a point is to give way on it, which is the basic meaning of making a concession."},
+    {"word": "mackerel", "is_associated": false, "association_type": "NONE", "explanation": "A mackerel is a fish and has no link to debate."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A concession is an admission of a point made in debate or negotiation, often close in meaning to compromise or yielding; the other words belong to unrelated fields."
+}

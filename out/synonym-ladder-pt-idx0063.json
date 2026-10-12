@@ -1,0 +1,13 @@
+{
+  "start_word": "unverified",
+  "end_word": "confirmed",
+  "ladder_steps": [
+    {"word": "unverified", "translation": "não verificado", "intensity_level": 1},
+    {"word": "plausible", "translation": "plausível", "intensity_level": 2},
+    {"word": "credible", "translation": "credível", "intensity_level": 3},
+    {"word": "substantiated", "translation": "comprovado", "intensity_level": 4},
+    {"word": "confirmed", "translation": "confirmado", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words for how well a claim has been checked form a ladder from unverified to confirmed, each step more reliable than the last."
+}
