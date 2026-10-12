@@ -1,0 +1,48 @@
+{
+  "trigger_word": "rebuttal",
+  "all_words": [
+    {
+      "word": "counterargument",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "الحجة المضادة (counterargument) هي جوهر الرد، فالرد يقدّم حجة معاكسة لحجة الخصم."
+    },
+    {
+      "word": "napkin",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "المنديل (napkin) قطعة قماش للمائدة ولا علاقة لها بالمناظرة أو الرد."
+    },
+    {
+      "word": "debate",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "المناظرة (debate) هي الإطار الذي يُقدَّم فيه الرد، فهي تُذكر دائماً في الموضوع نفسه."
+    },
+    {
+      "word": "tambourine",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "الدف (tambourine) آلة إيقاع ولا علاقة لها بالحجج."
+    },
+    {
+      "word": "rebuttal letter",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "رسالة الرد (rebuttal letter) تعبير شائع في النشر الأكاديمي يُستخدم للرد على تقييم أو مراجعة."
+    },
+    {
+      "word": "goldfish",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "السمكة الذهبية (goldfish) حيوان أليف ولا علاقة لها بالمناظرة."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "كلمة 'rebuttal' تعني الرد على حجة الخصم؛ الحجة المضادة والمناظرة ورسالة الرد مرتبطة بها، أما المنديل والدف والسمكة الذهبية فلا علاقة لها بها."
+}

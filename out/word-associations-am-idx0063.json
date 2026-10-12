@@ -1,0 +1,48 @@
+{
+  "trigger_word": "premise",
+  "all_words": [
+    {
+      "word": "assumption",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "ግምት (assumption) የአንድ ክርክር መነሻ ሀሳብ ነው፤ ሁለቱም ያለማስረጃ የተወሰደ መሠረታዊ ሀሳብን ያመለክታሉ።"
+    },
+    {
+      "word": "cymbal",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ሲምባል (cymbal) የሙዚቃ መሣሪያ ነው፤ ከክርክር ጋር ግንኙነት የለውም።"
+    },
+    {
+      "word": "logic",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "ሎጂክ (logic) በክርክር ውስጥ መነሻ ሀሳብ ወደ መደምደሚያ እንዴት እንደሚያገናኝ የሚያጠና ዘርፍ ነው።"
+    },
+    {
+      "word": "pumpkin",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ዱባ (pumpkin) አትክልት ነው፤ ከክርክር ጋር አይገናኝም።"
+    },
+    {
+      "word": "major premise",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "'major premise' የሚለው አባባል የተለመደ ሲሆን በአመክንዮ ውስጥ የመጀመሪያውን ዋና መነሻ ሀሳብ ያመለክታል።"
+    },
+    {
+      "word": "lettuce",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ሰላጣ (lettuce) አትክልት ነው፤ ከክርክር ጋር ግንኙነት የለውም።"
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Premise' በክርክር ወይም በአመክንዮ መደምደሚያ የሚመሠረትበት ሀሳብ ነው፤ ግምት፣ ሎጂክ እና 'major premise' ከእሱ ጋር ይያያዛሉ፤ ሲምባል፣ ዱባ እና ሰላጣ ግን አይያያዙም።"
+}

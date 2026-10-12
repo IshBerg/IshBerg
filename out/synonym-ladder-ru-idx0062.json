@@ -1,0 +1,39 @@
+{
+  "start_word": "unsupported",
+  "end_word": "conclusive",
+  "ladder_steps": [
+    {
+      "word": "unsupported",
+      "translation": "неподкреплённый",
+      "intensity_level": 1
+    },
+    {
+      "word": "tentative",
+      "translation": "предварительный",
+      "intensity_level": 2
+    },
+    {
+      "word": "plausible",
+      "translation": "правдоподобный",
+      "intensity_level": 3
+    },
+    {
+      "word": "substantiated",
+      "translation": "обоснованный",
+      "intensity_level": 4
+    },
+    {
+      "word": "conclusive",
+      "translation": "неопровержимый",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how well a candidate's claim is supported during a thesis defence, from an unsupported assertion to conclusive proof, with each step better argued than the last."
+}
