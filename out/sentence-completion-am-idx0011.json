@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The evidence is ambiguous;",
+  "correct_completion": "consequently, no firm conclusion can be drawn.",
+  "full_sentence": "The evidence is ambiguous; consequently, no firm conclusion can be drawn.",
+  "acceptable_variants": ["therefore, no firm conclusion can be drawn.", "as a result, no firm conclusion can be drawn."],
+  "options": [
+    {"text": "nevertheless, a firm conclusion can be drawn.", "is_correct": false, "why_wrong": "'Nevertheless' signals a contrast, but the stem describes a limitation that leads directly to a result, so the marker and the claim do not fit."},
+    {"text": "consequently, no firm conclusion can be drawn.", "is_correct": true, "why_wrong": null},
+    {"text": "for instance, a firm conclusion can be drawn.", "is_correct": false, "why_wrong": "'For instance' introduces an example, which does not follow from an ambiguous body of evidence."},
+    {"text": "in addition, a firm conclusion can be drawn.", "is_correct": false, "why_wrong": "'In addition' adds a further point in the same direction, so it cannot express the result of ambiguous evidence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result discourse markers after a semicolon",
+  "connector": "consequently",
+  "explanation": "After a semicolon, 'consequently' introduces the result that follows from the ambiguity of the evidence, so the main clause must state what that result is.",
+  "translation": "ማስረጃው ግልጽ ያልሆነ ነው፤ ስለዚህ ጠንካራ መደምደሚያ ላይ መድረስ አይቻልም።"
+}

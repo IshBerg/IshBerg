@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The committee deliberated for hours;",
+  "correct_completion": "as a result, its decision was postponed until spring.",
+  "full_sentence": "The committee deliberated for hours; as a result, its decision was postponed until spring.",
+  "acceptable_variants": ["consequently, its decision was postponed until spring.", "so its decision was postponed until spring."],
+  "options": [
+    {"text": "in other words, its decision was postponed until spring.", "is_correct": false, "why_wrong": "'In other words' restates the same idea, but the stem needs a marker that shows a result of the long deliberation."},
+    {"text": "as a result, its decision was postponed until spring.", "is_correct": true, "why_wrong": null},
+    {"text": "for example, its decision was postponed until spring.", "is_correct": false, "why_wrong": "'For example' introduces an illustration, which does not follow from hours of deliberation."},
+    {"text": "by contrast, its decision was postponed until spring.", "is_correct": false, "why_wrong": "'By contrast' signals opposition, but the postponement is a consequence of the deliberation, not a contrast with it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result discourse markers after a semicolon",
+  "connector": "as a result",
+  "explanation": "After a semicolon, 'as a result' introduces the outcome of the long deliberation, so the main clause must describe what followed from it.",
+  "translation": "The committee deliberated for hours; as a result, its decision was postponed until spring."
+}

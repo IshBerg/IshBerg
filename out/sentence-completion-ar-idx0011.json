@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Admittedly, the results were encouraging,",
+  "correct_completion": "nevertheless, the study had several limitations.",
+  "full_sentence": "Admittedly, the results were encouraging, nevertheless, the study had several limitations.",
+  "acceptable_variants": ["however, the study had several limitations.", "still, the study had several limitations."],
+  "options": [
+    {"text": "therefore, the study had several limitations.", "is_correct": false, "why_wrong": "'Therefore' signals a result, but the concession set up by 'admittedly' requires a contrasting marker."},
+    {"text": "furthermore, the study had several limitations.", "is_correct": false, "why_wrong": "'Furthermore' adds information in the same direction, so it does not contrast with the positive results."},
+    {"text": "nevertheless, the study had several limitations.", "is_correct": true, "why_wrong": null},
+    {"text": "for example, the study had several limitations.", "is_correct": false, "why_wrong": "'For example' introduces an illustration, not a contrast with the first clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive discourse markers after 'admittedly'",
+  "connector": "admittedly",
+  "explanation": "'Admittedly' concedes a point, and 'nevertheless' then introduces the contrasting statement that qualifies it.",
+  "translation": "صحيح أن النتائج كانت مشجعة، إلا أن الدراسة كانت لها عدة قيود."
+}

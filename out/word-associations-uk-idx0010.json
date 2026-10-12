@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poem",
+  "all_words": [
+    {"word": "stanza", "is_associated": true, "association_type": "THEMATIC", "explanation": "строфа є структурною частиною вірша, тому ці слова тісно пов'язані."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "жирафа є твариною і не має стосунку до поезії."},
+    {"word": "rhyme", "is_associated": true, "association_type": "SEMANTIC", "explanation": "риму вірш використовує для звукової згідності рядків, тому слово безпосередньо пов'язане з поемою."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "фортепіано є музичним інструментом і не пов'язане з віршем."},
+    {"word": "verse", "is_associated": true, "association_type": "THEMATIC", "explanation": "верш є одиницею поетичного тексту, і слово вживається поряд із поемою."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "подушка використовується для сну і не має стосунку до поезії."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "строфа, рима та верш пов'язані з поемою, а жирафа, фортепіано та подушка — ні."
+}

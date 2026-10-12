@@ -1,0 +1,14 @@
+{
+  "trigger_word": "clock",
+  "all_words": [
+    {"word": "hour", "is_associated": true, "association_type": "THEMATIC", "explanation": "الساعة تقيس الوقت بالساعات، ولذلك ترتبط الكلمتان ارتباطاً مباشراً."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "الزرافة حيوان ولا علاقة لها بالساعة أو بقياس الوقت."},
+    {"word": "hand", "is_associated": true, "association_type": "THEMATIC", "explanation": "عقارب الساعة هي الأجزاء التي تتحرك لتشير إلى الوقت."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "البيانو آلة موسيقية ولا صلة لها بالساعة."},
+    {"word": "alarm", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "المنبّه وظيفة شائعة في الساعات، والعبارة alarm clock معروفة جداً."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "الوسادة تُستخدم للنوم ولا علاقة لها بالساعة."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "الساعات والعقارب والمنبّه ترتبط بالساعة، أما الزرافة والبيانو والوسادة فلا صلة لها بها."
+}

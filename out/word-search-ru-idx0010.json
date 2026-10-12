@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "O", "N", "N", "E", "T", "K", "Q", "N"],
+    ["F", "Z", "W", "J", "V", "X", "S", "D", "O"],
+    ["G", "H", "B", "K", "M", "P", "T", "R", "V"],
+    ["A", "C", "D", "W", "Z", "J", "Y", "Q", "E"],
+    ["E", "F", "K", "R", "Z", "X", "L", "M", "L"],
+    ["N", "S", "P", "W", "Q", "J", "E", "B", "K"],
+    ["Q", "W", "S", "D", "M", "L", "P", "H", "R"],
+    ["J", "K", "L", "A", "T", "P", "R", "G", "D"],
+    ["X", "Z", "R", "W", "Y", "K", "M", "B", "Q"]
+  ],
+  "words_to_find": ["SONNET", "ESSAY", "NOVEL", "STYLE"],
+  "word_positions": [
+    {"word": "SONNET", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSAY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "NOVEL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "STYLE", "start_row": 1, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Cross-Genre Style Adaptation"
+}
