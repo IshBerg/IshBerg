@@ -1,0 +1,17 @@
+{
+  "central_word": "guilty",
+  "chain_words": [
+    {"word": "culpable", "intensity": 1, "translation": "culpable", "nuance": "responsible for a fault, though not necessarily a crime"},
+    {"word": "blameworthy", "intensity": 2, "translation": "blameworthy", "nuance": "deserving criticism for one's conduct"},
+    {"word": "guilty", "intensity": 3, "translation": "guilty", "nuance": "having committed an offence as found by a court or judgement"},
+    {"word": "criminal", "intensity": 4, "translation": "criminal", "nuance": "having committed an act that is prohibited by law"},
+    {"word": "convicted", "intensity": 5, "translation": "convicted", "nuance": "officially found guilty and sentenced after a formal trial"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe responsibility for wrongdoing, moving from a general fault to a formal legal finding of guilt.",
+  "usage_notes": [
+    {"word1": "guilty", "word2": "convicted", "difference": "'Guilty' describes the state of having done wrong, often in a general sense; 'convicted' refers specifically to a formal legal judgement after a trial."}
+  ],
+  "translations": {"culpable": "culpable", "blameworthy": "blameworthy", "guilty": "guilty", "criminal": "criminal", "convicted": "convicted"}
+}

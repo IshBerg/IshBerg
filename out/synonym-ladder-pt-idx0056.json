@@ -1,0 +1,13 @@
+{
+  "start_word": "whisper",
+  "end_word": "bellow",
+  "ladder_steps": [
+    {"word": "whisper", "translation": "sussurrar", "intensity_level": 1},
+    {"word": "murmur", "translation": "murmurar", "intensity_level": 2},
+    {"word": "call out", "translation": "chamar", "intensity_level": 3},
+    {"word": "shout", "translation": "gritar", "intensity_level": 4},
+    {"word": "bellow", "translation": "berrar", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Verbs describing the volume of speech form a ladder from a quiet whisper to a deep, powerful roar, each step louder than the one before."
+}

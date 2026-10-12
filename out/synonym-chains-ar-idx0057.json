@@ -1,0 +1,17 @@
+{
+  "central_word": "falsehood",
+  "chain_words": [
+    {"word": "fib", "intensity": 1, "translation": "كذبة صغيرة", "nuance": "a small, harmless untruth, often told to avoid embarrassment"},
+    {"word": "untruth", "intensity": 2, "translation": "قول غير صحيح", "nuance": "a statement that is not true, without any clear intention to deceive"},
+    {"word": "falsehood", "intensity": 3, "translation": "كذب", "nuance": "a general term for something that is untrue"},
+    {"word": "deception", "intensity": 4, "translation": "خداع", "nuance": "an untruth told on purpose to mislead someone"},
+    {"word": "fabrication", "intensity": 5, "translation": "اختلاق", "nuance": "an invented story or evidence created to mislead, often in a serious matter"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe something untrue, moving from a small, harmless untruth to a deliberate invention created to mislead.",
+  "usage_notes": [
+    {"word1": "fib", "word2": "fabrication", "difference": "'Fib' describes a minor and usually harmless untruth; 'fabrication' describes an invented account made on purpose, often with serious consequences."}
+  ],
+  "translations": {"fib": "كذبة صغيرة", "untruth": "قول غير صحيح", "falsehood": "كذب", "deception": "خداع", "fabrication": "اختلاق"}
+}
