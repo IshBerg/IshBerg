@@ -1,0 +1,14 @@
+{
+  "trigger_word": "stanza",
+  "all_words": [
+    {"word": "verse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A verse is a line of poetry, and a stanza is a group of such lines, so the two words are closely related in meaning."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "A lantern is a light source and has no connection to poetic structure."},
+    {"word": "rhyme", "is_associated": true, "association_type": "THEMATIC", "explanation": "Rhyme often organises the lines within a stanza, so the two belong to the same topic of poetic form."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "A glacier is a mass of moving ice and is unrelated to poetry."},
+    {"word": "couplet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A couplet is a pair of lines that forms a short stanza, so the word is directly linked in meaning."},
+    {"word": "sandal", "is_associated": false, "association_type": "NONE", "explanation": "A sandal is a type of footwear and has no relation to stanzas or poems."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A stanza is a grouped section of a poem; the associated words describe its lines, its rhyme pattern, and a short stanza form, while the others belong to unrelated fields."
+}
