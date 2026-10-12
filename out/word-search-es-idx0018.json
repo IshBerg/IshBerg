@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "E", "T", "A", "P", "H", "O", "R", "S"],
+    ["K", "Q", "W", "Z", "J", "X", "B", "F", "Y"],
+    ["G", "D", "W", "Q", "Z", "K", "X", "L", "M"],
+    ["J", "E", "V", "Q", "W", "Z", "K", "P", "B"],
+    ["F", "X", "N", "Q", "J", "W", "Z", "K", "O"],
+    ["B", "W", "Q", "R", "K", "Z", "X", "V", "L"],
+    ["Z", "J", "D", "K", "E", "Q", "W", "X", "F"],
+    ["Q", "V", "F", "X", "B", "Z", "K", "W", "D"],
+    ["C", "A", "N", "O", "N", "Q", "W", "Y", "X"]
+  ],
+  "words_to_find": ["METAPHOR", "SYMBOL", "GENRE", "CANON"],
+  "word_positions": [
+    {"word": "METAPHOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SYMBOL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "GENRE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CANON", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Literary Criticism and Theory"
+}

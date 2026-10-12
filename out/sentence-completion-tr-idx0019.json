@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the defendant had no prior record,",
+  "correct_completion": "the court imposed the maximum sentence permitted by statute.",
+  "full_sentence": "Although the defendant had no prior record, the court imposed the maximum sentence permitted by statute.",
+  "acceptable_variants": ["the judge nonetheless ordered the longest term the law allows.", "the tribunal still applied the full statutory penalty."],
+  "options": [
+    {"text": "so the defendant received a suspended sentence.", "is_correct": false, "why_wrong": "'So' signals a consequence that follows naturally from the defendant's record, but 'although' sets up a contrast with that expectation."},
+    {"text": "the court imposed the maximum sentence permitted by statute.", "is_correct": true, "why_wrong": null},
+    {"text": "the defendant had already served a similar sentence.", "is_correct": false, "why_wrong": "This adds a prior event that contradicts the stem's statement that the defendant had no prior record."},
+    {"text": "because the statute was ambiguous on penalties.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but the stem is built on concession, so a causal clause does not complete it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and a contrasting main clause in legal reasoning",
+  "connector": "although",
+  "explanation": "'Although' introduces a concession, so the main clause must present an outcome that contrasts with the defendant's clean record, namely the maximum penalty.",
+  "translation": "Sanığın daha önce hiçbir sabıkası olmamasına rağmen, mahkeme kanunun izin verdiği azami cezayı verdi."
+}
