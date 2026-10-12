@@ -1,0 +1,13 @@
+{
+  "codename": "GLASS OWL",
+  "briefing": "Agent, the intercepted messages were rewritten in several styles to hide their origin. Match each English style term to its Polish equivalent to identify which genre each message is hiding behind.",
+  "connection_mode": "vocabulary",
+  "difficulty": "medium",
+  "pairs": [
+    {"left": "lyrical", "right": "liryczny", "left_style": "document", "right_style": "handwritten"},
+    {"left": "prosaic", "right": "prozaiczny", "left_style": "photo", "right_style": "official"},
+    {"left": "terse", "right": "zwięzły", "left_style": "newspaper", "right_style": "document"},
+    {"left": "verbose", "right": "wielosłowny", "left_style": "handwritten", "right_style": "newspaper"},
+    {"left": "ornate", "right": "ozdobny", "left_style": "official", "right_style": "photo"}
+  ]
+}

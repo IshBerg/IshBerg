@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["A", "L", "G", "O", "R", "I", "T", "H", "M"],
+    ["K", "Q", "Z", "W", "J", "V", "X", "B", "D"],
+    ["E", "Q", "P", "J", "M", "N", "W", "R", "Z"],
+    ["T", "B", "D", "K", "L", "P", "R", "Z", "X"],
+    ["H", "J", "W", "M", "N", "K", "O", "Q", "V"],
+    ["I", "T", "P", "R", "Z", "D", "B", "L", "Y"],
+    ["C", "K", "E", "M", "J", "G", "O", "F", "W"],
+    ["S", "Y", "U", "V", "Q", "R", "T", "N", "Z"],
+    ["S", "O", "C", "I", "E", "T", "Y", "D", "K"]
+  ],
+  "words_to_find": ["ALGORITHM", "ETHICS", "ROBOT", "SOCIETY"],
+  "word_positions": [
+    {"word": "ALGORITHM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ETHICS", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "ROBOT", "start_row": 3, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SOCIETY", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Global Futures: Technology, Society, Ethics"
+}

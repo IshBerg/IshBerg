@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had the city seen such a storm,",
+  "correct_completion": "nor had its people ever faced such fear.",
+  "full_sentence": "Never before had the city seen such a storm, nor had its people ever faced such fear.",
+  "acceptable_variants": ["nor had they ever felt such fear.", "nor had anyone ever faced such fear there."],
+  "options": [
+    {"text": "nor had its people ever faced such fear.", "is_correct": true, "why_wrong": null},
+    {"text": "and its people faced such fear.", "is_correct": false, "why_wrong": "A normal word order cannot follow a fronted negative, so the auxiliary must come before the subject."},
+    {"text": "nor its people had faced such fear.", "is_correct": false, "why_wrong": "After 'nor', the auxiliary must invert with the subject, so this order is incorrect."},
+    {"text": "its people faced such fear either.", "is_correct": false, "why_wrong": "'Either' does not complete a negative inversion; the structure requires 'nor' and inverted auxiliary."}
+  ],
+  "correct_index": 0,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after negative 'nor' for rhetorical emphasis",
+  "connector": "nor",
+  "explanation": "When a negative clause is followed by 'nor', the auxiliary is inverted with the subject, which adds emphasis to the parallel negative statement.",
+  "translation": "Never before had the city seen such a storm, nor had its people ever faced such fear."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ደመና ዝናብ የሚያመጣ ነገር ነው።"},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "ቀጭኔ የዱር እንስሳ ነው፤ ከዝናብ ጋር ግንኙነት የለውም።"},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "ጃንጥላ ዝናብ ሲዘንብ ሰዎች ራሳቸውን የሚከልሉበት ነገር ነው።"},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "ፒያኖ የሙዚቃ መሣሪያ ነው፤ ከዝናብ ጋር አይገናኝም።"},
+    {"word": "puddle", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "ዝናብ ከዘነበ በኋላ በመሬት ላይ የሚፈጠር ትንሽ ኩሬ ነው።"},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "ሶፋ የመቀመጫ ዕቃ ነው፤ ከዝናብ ጋር ምንም ግንኙነት የለውም።"}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "ደመና፣ ጃንጥላና ኩሬ ከዝናብ ጋር ይያያዛሉ፤ ቀጭኔ፣ ፒያኖና ሶፋ ግን አይገናኙም።"
+}

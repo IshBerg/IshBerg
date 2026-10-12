@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the team ultimately needed",
+  "correct_completion": "was a clear sense of direction.",
+  "full_sentence": "What the team ultimately needed was a clear sense of direction.",
+  "acceptable_variants": ["is a firm sense of purpose.", "was a clear sense of purpose."],
+  "options": [
+    {"text": "they had a clear sense of direction.", "is_correct": false, "why_wrong": "A finite clause cannot complete a nominal 'what' clause without a copular verb to link the two parts."},
+    {"text": "they needed a clear sense of direction.", "is_correct": false, "why_wrong": "This repeats the verb from the stem and still lacks the copula that the nominal clause requires."},
+    {"text": "was a clear sense of direction.", "is_correct": true, "why_wrong": null},
+    {"text": "clearly a sense of direction.", "is_correct": false, "why_wrong": "This fragment has no verb, so it cannot complete the nominal clause as a predicate."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Nominal 'what' clauses with a copular verb",
+  "connector": "what",
+  "explanation": "A nominal 'what' clause acts as the subject of the sentence, and the copular verb 'was' links it to the noun phrase that identifies what was needed.",
+  "translation": "ما احتاج إليه الفريق في نهاية المطاف هو إحساس واضح بالاتجاه."
+}

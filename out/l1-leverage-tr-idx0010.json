@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktüel", "transliteration": "aktüel", "meaning": "current"},
+    {"word": "sempati", "transliteration": "sempati", "meaning": "fondness"},
+    {"word": "eventüel", "transliteration": "eventüel", "meaning": "possible"},
+    {"word": "kolej", "transliteration": "kolej", "meaning": "secondary school"}
+  ],
+  "english_words": ["possible", "secondary school", "current", "fondness"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Turkish words look like English words with the same spelling or root, but their meanings developed separately, so the forms look familiar while the meanings differ.",
+  "false_friend_warning": "Careful: 'aktüel' looks like 'actual' but means current, 'sempati' looks like 'sympathy' but means fondness, 'eventüel' looks like 'eventual' but means possible, and 'kolej' looks like 'college' but means a secondary school."
+}

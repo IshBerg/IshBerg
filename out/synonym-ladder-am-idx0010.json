@@ -1,0 +1,13 @@
+{
+  "start_word": "vague",
+  "end_word": "precise",
+  "ladder_steps": [
+    {"word": "vague", "translation": "ግልጽ ያልሆነ", "intensity_level": 1},
+    {"word": "general", "translation": "አጠቃላይ", "intensity_level": 2},
+    {"word": "approximate", "translation": "ግምታዊ", "intensity_level": 3},
+    {"word": "specific", "translation": "የተወሰነ", "intensity_level": 4},
+    {"word": "precise", "translation": "ትክክለኛ", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Precision words form a ladder from an unclear statement to an exact one, each step more definite than the last."
+}

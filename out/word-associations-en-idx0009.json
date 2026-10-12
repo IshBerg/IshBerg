@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pen",
+  "all_words": [
+    {"word": "ink", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ink is the liquid that a pen puts onto paper, so the two words belong to the same writing activity."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "A giraffe is an animal and has no connection to writing instruments."},
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "Paper is the surface on which a pen writes, so the two words are closely linked in everyday contexts."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "A piano is a musical instrument and has no link to writing."},
+    {"word": "notebook", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A notebook is often used together with a pen, and 'pen and notebook' is a common pairing."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "A pillow is used for sleeping and has no connection to pens."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Ink, paper and notebook are connected to pens through writing, while giraffe, piano and pillow are not related."
+}

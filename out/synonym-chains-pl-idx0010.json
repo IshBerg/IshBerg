@@ -1,0 +1,17 @@
+{
+  "central_word": "probable",
+  "chain_words": [
+    {"word": "conceivably", "intensity": 1, "translation": "ewentualnie", "nuance": "possible in principle, though not especially likely"},
+    {"word": "possibly", "intensity": 2, "translation": "możliwie", "nuance": "could be the case, with some degree of likelihood"},
+    {"word": "likely", "intensity": 3, "translation": "prawdopodobnie", "nuance": "expected to happen or to be true"},
+    {"word": "probably", "intensity": 4, "translation": "najpewniej", "nuance": "very likely, based on the available evidence"},
+    {"word": "certainly", "intensity": 5, "translation": "na pewno", "nuance": "with complete confidence, leaving no doubt"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express degrees of likelihood, from something that could conceivably be true to something that is certain.",
+  "usage_notes": [
+    {"word1": "likely", "word2": "probably", "difference": "'Likely' describes what is expected; 'probably' adds the speaker's judgement that the claim is well supported by evidence."}
+  ],
+  "translations": {"conceivably": "ewentualnie", "possibly": "możliwie", "likely": "prawdopodobnie", "probably": "najpewniej", "certainly": "na pewno"}
+}

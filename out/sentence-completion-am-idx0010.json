@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Whether the proposal will succeed",
+  "correct_completion": "remains uncertain until the committee votes.",
+  "full_sentence": "Whether the proposal will succeed remains uncertain until the committee votes.",
+  "acceptable_variants": ["remains unclear until the committee votes.", "is still uncertain until the committee votes."],
+  "options": [
+    {"text": "the committee will vote on it soon.", "is_correct": false, "why_wrong": "This is a complete clause that does not supply a predicate for the nominal clause 'whether the proposal will succeed'."},
+    {"text": "remains uncertain until the committee votes.", "is_correct": true, "why_wrong": null},
+    {"text": "remain uncertain until the committee votes.", "is_correct": false, "why_wrong": "The nominal clause is singular and takes a singular verb, so the plural 'remain' does not agree with it."},
+    {"text": "to remain uncertain until the committee votes.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the main verb of the sentence, so the clause is incomplete."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Nominal 'whether' clauses as subjects with singular verb agreement",
+  "connector": "whether",
+  "explanation": "A 'whether' clause used as the subject takes a singular verb, so the main verb must be singular to agree with it.",
+  "translation": "ሀሳቡ ይሳካ እንደሆነ ኮሚቴው ድምፅ እስኪሰጥ ድረስ እርግጠኛ ያልሆነ ነገር ሆኖ ይቆያል።"
+}

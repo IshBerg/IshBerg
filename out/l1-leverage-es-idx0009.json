@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "contrato", "transliteration": "contrato", "meaning": "contract"},
+    {"word": "cláusula", "transliteration": "clausula", "meaning": "clause"},
+    {"word": "licencia", "transliteration": "licencia", "meaning": "licence"},
+    {"word": "arbitraje", "transliteration": "arbitraje", "meaning": "arbitration"}
+  ],
+  "english_words": ["licence", "arbitration", "contract", "clause"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Spanish legal terms were borrowed from the same Latin sources as their English equivalents, so the forms stayed close and the meanings match.",
+  "false_friend_warning": null
+}

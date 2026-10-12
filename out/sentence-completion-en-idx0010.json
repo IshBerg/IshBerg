@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "How the committee will respond",
+  "correct_completion": "remains an open question.",
+  "full_sentence": "How the committee will respond remains an open question.",
+  "acceptable_variants": ["is still an open question.", "continues to be undecided."],
+  "options": [
+    {"text": "the committee has responded already.", "is_correct": false, "why_wrong": "This is a finished clause that does not function as a predicate for the nominal clause 'how the committee will respond'."},
+    {"text": "remain open questions.", "is_correct": false, "why_wrong": "The nominal clause is singular and takes a singular verb, so the plural 'remain' does not agree."},
+    {"text": "remains an open question.", "is_correct": true, "why_wrong": null},
+    {"text": "to remain an open question.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the main verb of the sentence, so the clause is incomplete."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Nominal 'how' clauses as subjects with singular verb agreement",
+  "connector": "how",
+  "explanation": "A nominal 'how' clause used as the subject takes a singular verb, so the main verb must be singular to agree with the whole clause.",
+  "translation": "How the committee will respond remains an open question."
+}

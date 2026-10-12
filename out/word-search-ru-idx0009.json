@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["C", "L", "A", "U", "S", "E", "K", "P"],
+    ["X", "Q", "Z", "M", "J", "W", "D", "A"],
+    ["W", "Q", "B", "J", "P", "K", "M", "R"],
+    ["A", "Z", "R", "N", "G", "Q", "X", "T"],
+    ["I", "K", "E", "P", "T", "J", "L", "Y"],
+    ["V", "M", "A", "Z", "N", "W", "G", "D"],
+    ["E", "Q", "C", "J", "K", "B", "P", "L"],
+    ["R", "T", "H", "G", "Z", "X", "Q", "V"]
+  ],
+  "words_to_find": ["CLAUSE", "PARTY", "BREACH", "WAIVER"],
+  "word_positions": [
+    {"word": "CLAUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARTY", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "BREACH", "start_row": 2, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "WAIVER", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Legal and Contractual Texts"
+}
