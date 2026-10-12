@@ -1,0 +1,48 @@
+{
+  "trigger_word": "hypothesis",
+  "all_words": [
+    {
+      "word": "experiment",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "መላምት (hypothesis) ብዙውን ጊዜ በሙከራ (experiment) ይፈተናል፤ ስለዚህ በሳይንሳዊ ዘዴ ውስጥ አብረው ይገኛሉ።"
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "መብራት (lantern) ብርሃን የሚሰጥ መሣሪያ ነው፤ ከመላምት ጋር ግንኙነት የለውም።"
+    },
+    {
+      "word": "variable",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "ተለዋዋጭ (variable) በመላምት ውስጥ የሚፈተነው ግንኙነት ዋና አካል ነው።"
+    },
+    {
+      "word": "saddle",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ኮርቻ (saddle) ከፈረስ ጋር የሚያያዝ ነገር ነው፤ ከሳይንስ ጋር አይገናኝም።"
+    },
+    {
+      "word": "prediction",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "ትንበያ (prediction) የመላምት ቅርብ ትርጉም ነው፤ መላምት ውጤትን የሚተነብይ ሀሳብ ነው።"
+    },
+    {
+      "word": "harbour",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ወደብ (harbour) የመርከቦች መቆሚያ ቦታ ነው፤ ከሳይንሳዊ ዘዴ ጋር ግንኙነት የለውም።"
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Hypothesis' ሊፈተን የሚችል ሀሳብ ነው፤ ሙከራ፣ ተለዋዋጭ እና ትንበያ ከእሱ ጋር ይያያዛሉ፤ መብራት፣ ኮርቻ እና ወደብ ግን አይያያዙም።"
+}

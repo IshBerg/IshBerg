@@ -1,0 +1,48 @@
+{
+  "trigger_word": "clause",
+  "all_words": [
+    {
+      "word": "contract",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "ውል (contract) የአንቀጽ (clause) መኖሪያ ሰነድ ነው፤ ሁለቱም በሕጋዊ ጽሑፍ ውስጥ ይገኛሉ።"
+    },
+    {
+      "word": "accordion",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "አኮርዲዮን (accordion) የሙዚቃ መሣሪያ ነው፤ ከሕጋዊ ጽሑፍ ጋር ግንኙነት የለውም።"
+    },
+    {
+      "word": "provision",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "ድንጋጌ (provision) በሕግና በውል ውስጥ የሚጻፍ ድንጋጌ ሲሆን ከአንቀጽ ጋር በአንድ ርዕስ ውስጥ ይገኛል።"
+    },
+    {
+      "word": "pebble",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ጠጠር (pebble) ትንሽ ድንጋይ ነው፤ ከሕጋዊ ጽሑፍ ጋር አይገናኝም።"
+    },
+    {
+      "word": "legal clause",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "'legal clause' የሚለው አባባል የተለመደ ሲሆን በውል ውስጥ ያለውን የሕግ አንቀጽ ያመለክታል።"
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "መብራት (lantern) ብርሃን የሚሰጥ መሣሪያ ነው፤ ከሕጋዊ ጽሑፍ ጋር ግንኙነት የለውም።"
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Clause' በሕጋዊ ጽሑፍ ውስጥ ያለ አንቀጽ ነው፤ ውል፣ ድንጋጌ እና 'legal clause' ከእሱ ጋር ይያያዛሉ፤ አኮርዲዮን፣ ጠጠር እና መብራት ግን አይያያዙም።"
+}

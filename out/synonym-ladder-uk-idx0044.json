@@ -1,0 +1,39 @@
+{
+  "start_word": "optional",
+  "end_word": "mandatory",
+  "ladder_steps": [
+    {
+      "word": "optional",
+      "translation": "необов’язковий",
+      "intensity_level": 1
+    },
+    {
+      "word": "advisable",
+      "translation": "бажаний",
+      "intensity_level": 2
+    },
+    {
+      "word": "expected",
+      "translation": "очікуваний",
+      "intensity_level": 3
+    },
+    {
+      "word": "required",
+      "translation": "обов’язковий",
+      "intensity_level": 4
+    },
+    {
+      "word": "mandatory",
+      "translation": "беззаперечно обов’язковий",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how binding a contractual term is, from an optional clause that can be ignored to a mandatory one that cannot be waived, with each step more binding than the last."
+}

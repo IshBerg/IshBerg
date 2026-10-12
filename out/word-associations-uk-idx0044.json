@@ -1,0 +1,48 @@
+{
+  "trigger_word": "contract",
+  "all_words": [
+    {
+      "word": "agreement",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Угода (agreement) — це сутність контракту, тому ці слова майже взаємозамінні в юридичному тексті."
+    },
+    {
+      "word": "accordion",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Акордеон (accordion) — музичний інструмент і не має стосунку до контрактів."
+    },
+    {
+      "word": "clause",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Пункт (clause) — структурна частина контракту, тож ці слова належать до однієї юридичної теми."
+    },
+    {
+      "word": "pebble",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Камінець (pebble) — дрібний камінь і не пов’язаний з юридичними документами."
+    },
+    {
+      "word": "binding contract",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Обов’язковий контракт (binding contract) — усталене поєднання, що описує договір із правовою силою."
+    },
+    {
+      "word": "lantern",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Ліхтар (lantern) — джерело світла і не має стосунку до контрактів."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'contract' означає юридично обов’язкову угоду; угода, пункт і обов’язковий контракт пов’язані з ним, а акордеон, камінець і ліхтар — ні."
+}

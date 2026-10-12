@@ -1,0 +1,48 @@
+{
+  "trigger_word": "chronology",
+  "all_words": [
+    {
+      "word": "timeline",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "الخط الزمني (timeline) هو الوسيلة التي يعرض بها المؤرخ التسلسل الزمني للأحداث، فهو قريب جداً في معناه من التسلسل الزمني (chronology)."
+    },
+    {
+      "word": "saucepan",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "القِدر (saucepan) أداة مطبخ ولا علاقة له بترتيب الأحداث التاريخية."
+    },
+    {
+      "word": "dating",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "تحديد التاريخ (dating) من أهم أدوات المؤرخ في ترتيب الأحداث، فهو يرد دائماً ضمن موضوع التسلسل الزمني."
+    },
+    {
+      "word": "tractor",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "الجرّار (tractor) آلة زراعية ولا علاقة له بالتاريخ أو تسلسل الأحداث."
+    },
+    {
+      "word": "chronological order",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "الترتيب الزمني (chronological order) تعبير شائع يُستخدم مع كلمة chronology في وصف عرض الأحداث بحسب تسلسلها."
+    },
+    {
+      "word": "pillow",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "الوسادة (pillow) قطعة أثاث ولا تتصل بعلم التاريخ."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "كلمة 'chronology' تعني ترتيب الأحداث حسب تسلسلها الزمني؛ الخط الزمني وتحديد التاريخ والترتيب الزمني مرتبطة بها، أما القِدر والجرّار والوسادة فلا علاقة لها بها."
+}

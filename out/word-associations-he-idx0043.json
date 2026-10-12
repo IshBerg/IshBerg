@@ -1,0 +1,48 @@
+{
+  "trigger_word": "headline",
+  "all_words": [
+    {
+      "word": "bias",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "הטיה (bias) היא בעיה מרכזית בכותרות עיתונאיות, כי כותרת יכולה לעצב את הקורא לפני שקרא את הכתבה."
+    },
+    {
+      "word": "accordion",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "אקורדיון (accordion) הוא כלי נגינה ואין לו קשר לכותרות עיתונאיות."
+    },
+    {
+      "word": "sensationalism",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "סנסציוניות (sensationalism) היא סגנון שכותרות רבות נשענות עליו, ולכן היא מופיעה יחד עמן בניתוח שיח תקשורתי."
+    },
+    {
+      "word": "tractor",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "טרקטור (tractor) הוא כלי חקלאי ואין לו קשר לכותרות."
+    },
+    {
+      "word": "clickbait",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "המונח clickbait נפוץ בצירוף 'clickbait headline' ומתאר כותרת שנועדה למשוך קליקים."
+    },
+    {
+      "word": "hammock",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ערסל (hammock) הוא פריט לשכיבה ואין לו קשר לכותרות עיתונאיות."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "המילה 'headline' מתארת כותרת עיתונאית; הטיה, סנסציוניות ו-clickbait קשורות אליה, ואילו אקורדיון, טרקטור וערסל אינם קשורים אליה."
+}

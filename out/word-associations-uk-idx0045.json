@@ -1,0 +1,48 @@
+{
+  "trigger_word": "citation",
+  "all_words": [
+    {
+      "word": "reference",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Посилання (reference) — майже синонім цитування: обидва вказують на джерело, з якого взято інформацію."
+    },
+    {
+      "word": "kayak",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Байдарка (kayak) — човен і не має стосунку до цитування."
+    },
+    {
+      "word": "bibliography",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Бібліографія (bibliography) — список джерел наукової роботи, тож вона належить до тієї самої теми."
+    },
+    {
+      "word": "biscuit",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Печиво (biscuit) — харчовий виріб і не пов’язане з науковими джерелами."
+    },
+    {
+      "word": "in-text citation",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Цитування в тексті (in-text citation) — усталене поєднання, що описує позначення джерела безпосередньо в тексті."
+    },
+    {
+      "word": "ladder",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Драбина (ladder) — побутовий предмет і не має стосунку до цитування."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'citation' означає вказівку на джерело у науковому тексті; посилання, бібліографія та цитування в тексті пов’язані з ним, а байдарка, печиво і драбина — ні."
+}
