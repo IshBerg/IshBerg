@@ -1,0 +1,158 @@
+{
+  "grid_size": 10,
+  "grid": [
+    [
+      "E",
+      "Q",
+      "W",
+      "Z",
+      "K",
+      "J",
+      "X",
+      "V",
+      "B",
+      "F"
+    ],
+    [
+      "K",
+      "S",
+      "W",
+      "Z",
+      "Q",
+      "J",
+      "X",
+      "V",
+      "P",
+      "R"
+    ],
+    [
+      "Q",
+      "Z",
+      "S",
+      "K",
+      "W",
+      "X",
+      "J",
+      "V",
+      "B",
+      "E"
+    ],
+    [
+      "W",
+      "J",
+      "K",
+      "E",
+      "Z",
+      "Q",
+      "X",
+      "V",
+      "K",
+      "E"
+    ],
+    [
+      "Z",
+      "X",
+      "Q",
+      "K",
+      "N",
+      "A",
+      "W",
+      "J",
+      "V",
+      "D"
+    ],
+    [
+      "K",
+      "Z",
+      "X",
+      "Q",
+      "E",
+      "C",
+      "J",
+      "W",
+      "V",
+      "O"
+    ],
+    [
+      "W",
+      "K",
+      "Z",
+      "S",
+      "X",
+      "Q",
+      "E",
+      "V",
+      "J",
+      "M"
+    ],
+    [
+      "J",
+      "Q",
+      "U",
+      "W",
+      "Z",
+      "K",
+      "X",
+      "B",
+      "V",
+      "Q"
+    ],
+    [
+      "Z",
+      "A",
+      "A",
+      "B",
+      "S",
+      "U",
+      "R",
+      "D",
+      "K",
+      "P"
+    ],
+    [
+      "N",
+      "Q",
+      "W",
+      "X",
+      "Z",
+      "J",
+      "K",
+      "V",
+      "L",
+      "Y"
+    ]
+  ],
+  "words_to_find": [
+    "ESSENCE",
+    "FREEDOM",
+    "NAUSEA",
+    "ABSURD"
+  ],
+  "word_positions": [
+    {
+      "word": "ESSENCE",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "DIAGONAL_DOWN"
+    },
+    {
+      "word": "FREEDOM",
+      "start_row": 0,
+      "start_col": 9,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "NAUSEA",
+      "start_row": 9,
+      "start_col": 0,
+      "direction": "DIAGONAL_UP"
+    },
+    {
+      "word": "ABSURD",
+      "start_row": 8,
+      "start_col": 2,
+      "direction": "HORIZONTAL"
+    }
+  ],
+  "topic": "Existentialism and Modern Philosophy"
+}

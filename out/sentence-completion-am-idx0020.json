@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "Had the author revised the opening chapter,",
+  "correct_completion": "the novel would have gained a much stronger first impression.",
+  "full_sentence": "Had the author revised the opening chapter, the novel would have gained a much stronger first impression.",
+  "acceptable_variants": [
+    "the book would have made a far stronger first impression.",
+    "readers would have been more engaged from the start."
+  ],
+  "options": [
+    {
+      "text": "she revises her chapters every single day.",
+      "is_correct": false,
+      "why_wrong": "The stem sets up a hypothetical past, so the completion must describe a past-conditional result, not a present habit."
+    },
+    {
+      "text": "the publisher rejected the manuscript.",
+      "is_correct": false,
+      "why_wrong": "This states a real past event, while the inverted conditional requires a hypothetical result."
+    },
+    {
+      "text": "the novel would have gained a much stronger first impression.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the chapter is written in the past tense.",
+      "is_correct": false,
+      "why_wrong": "This describes grammar in the chapter and does not complete the result of revising it."
+    }
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional: 'Had' + subject + past participle, followed by 'would have' + past participle",
+  "connector": "had (inversion)",
+  "explanation": "Inversion replaces 'if' in a third conditional. 'Had the author revised' sets up the hypothetical past, and 'would have gained' gives the result that did not happen.",
+  "translation": "ደራሲው የመጀመሪያውን ምዕራፍ ቢያሻሽል ኖሮ, ልቦለዱ ለመጀመሪያ ጊዜ የበለጠ ጠንካራ ስሜት ይፈጥር ነበር።"
+}

@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The committee rejected the proposal. Nevertheless,",
+  "correct_completion": "it approved a smaller version the following week.",
+  "full_sentence": "The committee rejected the proposal. Nevertheless, it approved a smaller version the following week.",
+  "acceptable_variants": [
+    "it later accepted a revised plan.",
+    "it still agreed to a scaled-down proposal."
+  ],
+  "options": [
+    {
+      "text": "therefore, it abandoned the project entirely.",
+      "is_correct": false,
+      "why_wrong": "'Therefore' signals a result that follows from the rejection, while 'nevertheless' requires a contrasting continuation."
+    },
+    {
+      "text": "it approved a smaller version the following week.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "in addition, it requested a second budget.",
+      "is_correct": false,
+      "why_wrong": "'In addition' adds a parallel point, but 'nevertheless' signals a contrast with the rejection."
+    },
+    {
+      "text": "similarly, it had rejected three earlier drafts.",
+      "is_correct": false,
+      "why_wrong": "'Similarly' marks a parallel point, not a contrast, so it does not fit the concessive link."
+    }
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive discourse marker 'nevertheless' linking two sentences",
+  "connector": "nevertheless",
+  "explanation": "'Nevertheless' signals that what follows contrasts with the expected outcome of a rejection. Approving a smaller version is the contrasting result.",
+  "translation": "Komisja odrzuciła propozycję. Mimo to tydzień później zatwierdziła jej mniejszą wersję."
+}

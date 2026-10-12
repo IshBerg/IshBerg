@@ -1,0 +1,158 @@
+{
+  "grid_size": 10,
+  "grid": [
+    [
+      "N",
+      "O",
+      "T",
+      "H",
+      "I",
+      "N",
+      "G",
+      "Q",
+      "W",
+      "A"
+    ],
+    [
+      "K",
+      "Z",
+      "P",
+      "J",
+      "X",
+      "V",
+      "Q",
+      "W",
+      "B",
+      "N"
+    ],
+    [
+      "Q",
+      "J",
+      "X",
+      "Z",
+      "V",
+      "K",
+      "W",
+      "Y",
+      "P",
+      "G"
+    ],
+    [
+      "M",
+      "Q",
+      "J",
+      "E",
+      "C",
+      "I",
+      "O",
+      "H",
+      "C",
+      "S"
+    ],
+    [
+      "V",
+      "X",
+      "K",
+      "Z",
+      "Q",
+      "W",
+      "J",
+      "F",
+      "R",
+      "T"
+    ],
+    [
+      "B",
+      "Y",
+      "Q",
+      "W",
+      "K",
+      "X",
+      "Z",
+      "V",
+      "J",
+      "L"
+    ],
+    [
+      "P",
+      "E",
+      "Q",
+      "X",
+      "J",
+      "Z",
+      "K",
+      "W",
+      "F",
+      "Y"
+    ],
+    [
+      "Q",
+      "V",
+      "I",
+      "Z",
+      "R",
+      "K",
+      "X",
+      "J",
+      "W",
+      "H"
+    ],
+    [
+      "J",
+      "Z",
+      "Q",
+      "N",
+      "U",
+      "Y",
+      "E",
+      "K",
+      "L",
+      "P"
+    ],
+    [
+      "W",
+      "X",
+      "Z",
+      "Q",
+      "G",
+      "J",
+      "K",
+      "V",
+      "T",
+      "F"
+    ]
+  ],
+  "words_to_find": [
+    "NOTHING",
+    "ANGST",
+    "CHOICE",
+    "BEING"
+  ],
+  "word_positions": [
+    {
+      "word": "NOTHING",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "ANGST",
+      "start_row": 0,
+      "start_col": 9,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "CHOICE",
+      "start_row": 3,
+      "start_col": 8,
+      "direction": "HORIZONTAL_REVERSE"
+    },
+    {
+      "word": "BEING",
+      "start_row": 5,
+      "start_col": 0,
+      "direction": "DIAGONAL_DOWN"
+    }
+  ],
+  "topic": "Existentialism and Modern Philosophy"
+}

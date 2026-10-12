@@ -1,0 +1,48 @@
+{
+  "trigger_word": "feedback",
+  "all_words": [
+    {
+      "word": "reviewer",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Recenzent (reviewer) to osoba, która udziela informacji zwrotnej na temat pracy, więc związek jest tematyczny."
+    },
+    {
+      "word": "hedgehog",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Jeż (hedgehog) to zwierzę leśne i nie ma związku z oceną ani z informacją zwrotną."
+    },
+    {
+      "word": "revision",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Rewizja tekstu (revision) to poprawa pracy na podstawie uwag, więc związek jest semantyczny."
+    },
+    {
+      "word": "lemonade",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Lemoniada (lemonade) to napój i nie ma związku z recenzowaniem prac."
+    },
+    {
+      "word": "criticism",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Krytyka (criticism) to rodzaj uwag zwrotnych, więc związek jest semantyczny."
+    },
+    {
+      "word": "trampoline",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Trampolina (trampoline) to sprzęt sportowy i nie ma żadnego związku z oceną prac."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzone słowa dotyczą oceny pracy i wprowadzania poprawek na podstawie uwag, a pozostałe należą do przyrody, napojów i sportu."
+}

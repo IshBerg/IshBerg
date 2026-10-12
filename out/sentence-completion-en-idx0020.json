@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "Not until the final chapter did the narrator reveal",
+  "correct_completion": "that she had been writing the story from prison.",
+  "full_sentence": "Not until the final chapter did the narrator reveal that she had been writing the story from prison.",
+  "acceptable_variants": [
+    "that the story had been written in secret.",
+    "the truth behind the events she had described."
+  ],
+  "options": [
+    {
+      "text": "that she had been writing the story from prison.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "that she was writing about the weather.",
+      "is_correct": false,
+      "why_wrong": "This is a trivial detail, while 'not until' with inversion requires a significant revelation."
+    },
+    {
+      "text": "she wrote the story in only two days.",
+      "is_correct": false,
+      "why_wrong": "This reports a fact about writing speed, but the inversion requires a revelation that reframes the story."
+    },
+    {
+      "text": "the ending was a question with no answer.",
+      "is_correct": false,
+      "why_wrong": "This describes the ending's structure, but 'not until' requires the narrator's revelation, not a feature of the text."
+    }
+  ],
+  "correct_index": 0,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Negative adverbial 'Not until' with subject-auxiliary inversion in the main clause",
+  "connector": "not until (inversion)",
+  "explanation": "'Not until' places the revelation after the final chapter, and inversion follows the negative adverbial. The completion gives the dramatic content the inversion introduces.",
+  "translation": "Not until the final chapter did the narrator reveal that she had been writing the story from prison."
+}
