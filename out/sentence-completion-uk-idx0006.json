@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the company had invested in training last year,",
+  "correct_completion": "it would be far more competitive today.",
+  "full_sentence": "If the company had invested in training last year, it would be far more competitive today.",
+  "acceptable_variants": ["it would probably be much stronger in the market now.", "it would have a much larger share of the market today."],
+  "options": [
+    {"text": "it will be far more competitive tomorrow.", "is_correct": false, "why_wrong": "Tomorrow is a future time. A mixed conditional needs a present-time result that follows from the unreal past condition."},
+    {"text": "it has invested in training every year.", "is_correct": false, "why_wrong": "This is a real fact, not the hypothetical result of an unreal past condition."},
+    {"text": "it was far more competitive last year.", "is_correct": false, "why_wrong": "This gives a past result, which does not match the present-time consequence that the stem requires."},
+    {"text": "it would be far more competitive today.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: third-conditional condition (had invested) with second-conditional result (would be)",
+  "connector": "if",
+  "explanation": "A mixed conditional links an unreal past condition to an unreal present result. Here 'had invested' sets up the past condition, and 'would be ... today' gives its present consequence.",
+  "translation": "Якби компанія минулого року інвестувала в навчання персоналу, сьогодні вона була б значно конкурентоспроможнішою."
+}

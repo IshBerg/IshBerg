@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["P", "U", "N", "C", "H", "L", "I", "N", "E"],
+    ["Q", "K", "B", "F", "V", "J", "M", "H", "D"],
+    ["Z", "C", "L", "T", "X", "A", "W", "O", "O"],
+    ["K", "P", "F", "Y", "R", "Z", "V", "M", "U"],
+    ["J", "W", "Q", "G", "X", "C", "T", "O", "B"],
+    ["M", "D", "A", "S", "K", "W", "P", "N", "L"],
+    ["T", "N", "H", "V", "Q", "L", "C", "Y", "E"],
+    ["A", "G", "B", "K", "D", "S", "F", "M", "T"],
+    ["W", "O", "R", "D", "P", "L", "A", "Y", "X"]
+  ],
+  "words_to_find": ["PUNCHLINE", "HOMONYM", "DOUBLE", "WORDPLAY", "ANAGRAM"],
+  "word_positions": [
+    {"word": "PUNCHLINE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOMONYM", "start_row": 1, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "DOUBLE", "start_row": 1, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "WORDPLAY", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ANAGRAM", "start_row": 7, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Wordplay, Puns and Double Meaning"
+}

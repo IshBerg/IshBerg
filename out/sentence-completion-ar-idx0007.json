@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had the meeting started,",
+  "correct_completion": "when the power went out.",
+  "full_sentence": "Hardly had the meeting started when the power went out.",
+  "acceptable_variants": ["when the lights suddenly failed.", "before the power went out."],
+  "options": [
+    {"text": "because the power went out.", "is_correct": false, "why_wrong": "'Hardly ... when' expresses time, not cause, so 'because' does not complete the pattern."},
+    {"text": "when the power went out.", "is_correct": true, "why_wrong": null},
+    {"text": "so we went home early.", "is_correct": false, "why_wrong": "'So' introduces a result, but the inverted 'hardly' structure requires a 'when' clause."},
+    {"text": "and then the power went out.", "is_correct": false, "why_wrong": "'And then' is a sequencing phrase that does not complete the fixed 'hardly ... when' pattern."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after 'hardly' with a 'when' clause",
+  "connector": "hardly ... when",
+  "explanation": "After a fronted 'hardly', the auxiliary verb comes before the subject, and the main clause must be completed by 'when'. This fronting is used for emphasis and is common in formal writing.",
+  "translation": "ما إن بدأ الاجتماع حتى انقطعت الكهرباء."
+}

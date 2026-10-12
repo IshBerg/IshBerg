@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "bookshelf", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A bookshelf is a piece of furniture where library books are stored and displayed."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "A volcano has no connection to libraries or the activities that happen in them."},
+    {"word": "catalogue", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A catalogue is the index that libraries use to record and locate their collections."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "Thunder is a weather sound and has no link to the quiet environment of a library."},
+    {"word": "silence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Silence is closely linked to libraries, where quiet is traditionally expected of visitors."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "A hammer is a tool for construction and is not connected to libraries."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "The associated words relate to a library through its physical contents, its organisation, and the quiet atmosphere expected inside it."
+}
