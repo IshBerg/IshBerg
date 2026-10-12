@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "biologia", "transliteration": "biologia", "meaning": "biology"},
+    {"word": "geometria", "transliteration": "geometria", "meaning": "geometry"},
+    {"word": "psicologia", "transliteration": "psicologia", "meaning": "psychology"},
+    {"word": "economia", "transliteration": "economia", "meaning": "economics"}
+  ],
+  "english_words": ["geometry", "economics", "biology", "psychology"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These academic terms were borrowed into Portuguese from the same Greek and Latin roots as their English equivalents, so the forms stayed close and the meanings match.",
+  "false_friend_warning": null
+}

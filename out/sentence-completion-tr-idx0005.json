@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied medicine,",
+  "correct_completion": "I would be a doctor now.",
+  "full_sentence": "If I had studied medicine, I would be a doctor now.",
+  "acceptable_variants": ["I would be working in a hospital now.", "I would be earning a good salary now."],
+  "options": [
+    {"text": "I know a lot about the subject now.", "is_correct": false, "why_wrong": "This states a present fact, but a mixed conditional requires a result clause using 'would' plus the present situation."},
+    {"text": "I would be a doctor now.", "is_correct": true, "why_wrong": null},
+    {"text": "I had become a doctor yesterday.", "is_correct": false, "why_wrong": "The past perfect result does not match the word 'now' and the 'would' structure that the mixed conditional requires."},
+    {"text": "I will become a doctor tomorrow.", "is_correct": false, "why_wrong": "A future form cannot complete a conditional whose result describes the present, so 'will' is incorrect here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals (past condition, present result)",
+  "connector": "if",
+  "explanation": "A mixed conditional uses the past perfect in the 'if' clause to describe an unreal past condition and 'would' plus a present time word in the main clause to describe its present result.",
+  "translation": "Tıp okumuş olsaydım, şimdi doktor olurdum."
+}

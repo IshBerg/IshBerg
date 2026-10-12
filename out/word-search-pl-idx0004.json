@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["W", "E", "A", "T", "H", "E", "R"],
+    ["Y", "Q", "Z", "M", "P", "K", "J"],
+    ["B", "Q", "Z", "T", "I", "L", "V"],
+    ["E", "M", "R", "Y", "C", "J", "D"],
+    ["A", "N", "U", "S", "E", "P", "L"],
+    ["N", "G", "W", "F", "O", "B", "K"],
+    ["S", "D", "C", "A", "K", "E", "Q"]
+  ],
+  "words_to_find": ["WEATHER", "BEANS", "ICE", "CAKE"],
+  "word_positions": [
+    {"word": "WEATHER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BEANS", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "ICE", "start_row": 2, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "CAKE", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Idiomatic Expressions and Their Origins"
+}

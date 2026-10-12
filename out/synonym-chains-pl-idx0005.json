@@ -1,0 +1,17 @@
+{
+  "central_word": "stop",
+  "chain_words": [
+    {"word": "pause", "intensity": 1, "translation": "wstrzymać na chwilę", "nuance": "a brief interruption before continuing"},
+    {"word": "halt", "intensity": 2, "translation": "przerwać", "nuance": "a stop that brings movement or progress to a standstill"},
+    {"word": "stop", "intensity": 3, "translation": "zatrzymać", "nuance": "a general end to an action or movement"},
+    {"word": "suspend", "intensity": 4, "translation": "zawiesić", "nuance": "a formal stop, often by official decision, that may be lifted later"},
+    {"word": "terminate", "intensity": 5, "translation": "zakończyć", "nuance": "a formal and final end to something"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express bringing an action to a stop, from a brief interruption to a formal and final ending.",
+  "usage_notes": [
+    {"word1": "suspend", "word2": "terminate", "difference": "'Suspend' implies a temporary stop that may be reversed; 'terminate' implies a permanent ending."}
+  ],
+  "translations": {"pause": "wstrzymać na chwilę", "halt": "przerwać", "stop": "zatrzymać", "suspend": "zawiesić", "terminate": "zakończyć"}
+}

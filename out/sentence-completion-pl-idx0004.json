@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee really needs",
+  "correct_completion": "is a clear and binding decision.",
+  "full_sentence": "What the committee really needs is a clear and binding decision.",
+  "acceptable_variants": ["is a firm and binding resolution.", "is a clear and binding policy."],
+  "options": [
+    {"text": "was given a clear and binding decision.", "is_correct": false, "why_wrong": "The passive form changes the meaning and does not complete the 'what' clause, which needs a verb of being to create the emphatic structure."},
+    {"text": "decided on a clear and binding policy.", "is_correct": false, "why_wrong": "The verb 'decided' cannot complete a pseudo-cleft; the emphatic structure requires the verb 'is' to introduce the focused element."},
+    {"text": "is a clear and binding decision.", "is_correct": true, "why_wrong": null},
+    {"text": "a clear and binding decision that they have.", "is_correct": false, "why_wrong": "This fragment has no main verb, so it cannot finish the emphatic sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft (wh-cleft) emphatic structures",
+  "connector": "what",
+  "explanation": "A pseudo-cleft sentence begins with 'what' and places the focused information after the verb 'is', which emphasises the element that follows.",
+  "translation": "To, czego komisja naprawdę potrzebuje, to jasna i wiążąca decyzja."
+}

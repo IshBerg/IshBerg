@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ኮምፒውተር", "transliteration": "kompiwuter", "meaning": "computer"},
+    {"word": "ፕሮፌሰር", "transliteration": "profesar", "meaning": "professor"},
+    {"word": "ቴሌፎን", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "ሆስፒታል", "transliteration": "hospital", "meaning": "hospital"}
+  ],
+  "english_words": ["telephone", "computer", "professor", "hospital"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "These Amharic words were borrowed from European languages, so their forms stayed close to the English originals and their meanings match.",
+  "false_friend_warning": null
+}

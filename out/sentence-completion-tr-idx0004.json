@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished his report,",
+  "correct_completion": "he sent it to the manager.",
+  "full_sentence": "Having finished his report, he sent it to the manager.",
+  "acceptable_variants": ["he then sent it to the manager.", "he emailed it to the manager afterwards."],
+  "options": [
+    {"text": "the manager had already left the office.", "is_correct": false, "why_wrong": "A participle clause must share its subject with the main clause, and here the main clause has no action that follows from the finished report."},
+    {"text": "he was sending it to the manager.", "is_correct": false, "why_wrong": "'Having finished' requires a completed action before the main clause, so a continuous form does not fit."},
+    {"text": "he sent it to the manager.", "is_correct": true, "why_wrong": null},
+    {"text": "to send the manager his report.", "is_correct": false, "why_wrong": "The infinitive phrase cannot function as a main clause that completes the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect participle clauses",
+  "connector": "having finished",
+  "explanation": "The perfect participle 'having finished' shows an action completed before the main clause, so the main clause must describe the next action by the same subject.",
+  "translation": "Raporunu bitirdikten sonra, onu müdüre gönderdi."
+}
