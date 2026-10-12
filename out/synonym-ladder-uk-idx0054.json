@@ -1,0 +1,39 @@
+{
+  "start_word": "harmless",
+  "end_word": "catastrophic",
+  "ladder_steps": [
+    {
+      "word": "harmless",
+      "translation": "безпечний",
+      "intensity_level": 1
+    },
+    {
+      "word": "risky",
+      "translation": "ризикований",
+      "intensity_level": 2
+    },
+    {
+      "word": "dangerous",
+      "translation": "небезпечний",
+      "intensity_level": 3
+    },
+    {
+      "word": "severe",
+      "translation": "серйозний",
+      "intensity_level": 4
+    },
+    {
+      "word": "catastrophic",
+      "translation": "катастрофічний",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe the level of harm a new technology could cause to society, from a harmless tool to a catastrophic outcome, with each step more damaging than the last."
+}

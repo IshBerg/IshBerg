@@ -1,0 +1,39 @@
+{
+  "start_word": "hostile",
+  "end_word": "allied",
+  "ladder_steps": [
+    {
+      "word": "hostile",
+      "translation": "düşmanca",
+      "intensity_level": 1
+    },
+    {
+      "word": "distrustful",
+      "translation": "güvensiz",
+      "intensity_level": 2
+    },
+    {
+      "word": "neutral",
+      "translation": "tarafsız",
+      "intensity_level": 3
+    },
+    {
+      "word": "friendly",
+      "translation": "dost canlısı",
+      "intensity_level": 4
+    },
+    {
+      "word": "allied",
+      "translation": "müttefik",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe the relationship between two states, from a hostile stance that opposes cooperation to a formal alliance, with each step closer and more cooperative than the last."
+}

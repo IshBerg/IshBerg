@@ -1,0 +1,48 @@
+{
+  "trigger_word": "keynote",
+  "all_words": [
+    {
+      "word": "speech",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Konuşma (speech), keynote'un anlamını taşıyan asıl konuşma biçimidir; ana konuşma bir konferansın açılış sunumudur."
+    },
+    {
+      "word": "walrus",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Morina fili (walrus) bir deniz hayvanıdır ve konferanslarla bir ilgisi yoktur."
+    },
+    {
+      "word": "plenary",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Genel oturum (plenary), ana konuşmanın yapıldığı tüm katılımcıların bir arada olduğu oturumdur."
+    },
+    {
+      "word": "pickaxe",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Kazma (pickaxe) bir kazı aracıdır ve akademik etkinliklerle bağlantısı yoktur."
+    },
+    {
+      "word": "opening address",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Açılış konuşması (opening address), konferansın başında yapılan ana konuşmayı anlatan yerleşik bir kalıptır."
+    },
+    {
+      "word": "blender",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Blender bir mutfak aletidir ve konferanslarla ilgisi yoktur."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Keynote' bir konferansın ana konuşmasını anlatır; konuşma, genel oturum ve açılış konuşması bu kavramla ilişkilidir, ancak morina fili, kazma ve blender ile bağlantısı yoktur."
+}
