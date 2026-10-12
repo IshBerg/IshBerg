@@ -1,0 +1,13 @@
+{
+  "start_word": "trivial",
+  "end_word": "catastrophic",
+  "ladder_steps": [
+    {"word": "trivial", "translation": "незначительный", "intensity_level": 1},
+    {"word": "minor", "translation": "второстепенный", "intensity_level": 2},
+    {"word": "significant", "translation": "значительный", "intensity_level": 3},
+    {"word": "severe", "translation": "тяжёлый", "intensity_level": 4},
+    {"word": "catastrophic", "translation": "катастрофический", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words describing the seriousness of a risk or consequence form a ladder from trivial to disastrous, each step more serious than the one before."
+}

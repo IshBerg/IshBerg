@@ -1,0 +1,14 @@
+{
+  "trigger_word": "genome",
+  "all_words": [
+    {"word": "DNA", "is_associated": true, "association_type": "SEMANTIC", "explanation": "الجينوم هو مجموع المادة الوراثية في الكائن الحي، و DNA هو الجزيء الذي يحملها، لذلك تتقارب الكلمتان في المعنى."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "الساندويتش طعام ولا علاقة له بعلم الوراثة أو بالمادة الوراثية."},
+    {"word": "mutation", "is_associated": true, "association_type": "THEMATIC", "explanation": "الطفرة تغيير يحدث في الجينوم، لذلك تنتمي الكلمتان إلى مجال علم الوراثة نفسه."},
+    {"word": "sequencing", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "عبارة «genome sequencing» أي «تسلسل الجينوم» تعبير شائع في الأبحاث العلمية، فالكلمتان تُستخدمان معاً كثيراً."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "الفانوس أداة للإضاءة ولا يرتبط بالعلوم الحيوية أو الوراثة."},
+    {"word": "editing", "is_associated": true, "association_type": "SEMANTIC", "explanation": "تحرير الجينات يعني تعديل الجينوم بطريقة مقصودة، فالكلمتان ترتبطان بالمعنى في سياق التقنيات الحيوية."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "DNA وmutation وsequencing وediting ترتبط كلها بعلم الجينوم وتقنياته، أما sandwich وlantern فلا صلة لهما بهذا المجال."
+}
