@@ -1,0 +1,39 @@
+{
+  "start_word": "approximate",
+  "end_word": "exact",
+  "ladder_steps": [
+    {
+      "word": "approximate",
+      "translation": "przybliżony",
+      "intensity_level": 1
+    },
+    {
+      "word": "adequate",
+      "translation": "adekwatny",
+      "intensity_level": 2
+    },
+    {
+      "word": "accurate",
+      "translation": "trafny",
+      "intensity_level": 3
+    },
+    {
+      "word": "faithful",
+      "translation": "wierny",
+      "intensity_level": 4
+    },
+    {
+      "word": "exact",
+      "translation": "dokładny",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how closely an interpreter's rendering matches the original speech, from an approximate version that only gets the gist across to an exact one that reproduces every detail, with each step more precise than the last."
+}

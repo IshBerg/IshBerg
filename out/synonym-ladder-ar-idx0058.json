@@ -1,0 +1,39 @@
+{
+  "start_word": "vague",
+  "end_word": "precise",
+  "ladder_steps": [
+    {
+      "word": "vague",
+      "translation": "غامض",
+      "intensity_level": 1
+    },
+    {
+      "word": "general",
+      "translation": "عام",
+      "intensity_level": 2
+    },
+    {
+      "word": "specific",
+      "translation": "محدد",
+      "intensity_level": 3
+    },
+    {
+      "word": "detailed",
+      "translation": "مفصّل",
+      "intensity_level": 4
+    },
+    {
+      "word": "precise",
+      "translation": "دقيق",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how clearly a reporter identifies the facts of a story, from a vague claim that names nothing specific to a precise account that pinpoints the exact details, with each step more exact than the last."
+}

@@ -1,0 +1,48 @@
+{
+  "trigger_word": "tone",
+  "all_words": [
+    {
+      "word": "mood",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "ስሜት (mood) የሥራውን ቃና ለመግለጽ የሚያገለግል ቅርብ ትርጉም ያለው ቃል ነው፤ ሁለቱም የአንድ ጽሑፍ ስሜታዊ ድባብን ያመለክታሉ።"
+    },
+    {
+      "word": "tuxedo",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ታክሲዶ (tuxedo) ልብስ ነው፤ ከጽሑፍ ቃና ጋር ግንኙነት የለውም።"
+    },
+    {
+      "word": "diction",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "የቃላት አመራረጥ (diction) ቃና በመፍጠር ረገድ ዋና ሚና ስላለው ከቃና ጋር በአንድ ርዕስ ውስጥ ይገኛል።"
+    },
+    {
+      "word": "spatula",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ስፓቱላ (spatula) የኩሽና መሣሪያ ነው፤ ከጽሑፍ ጋር አይገናኝም።"
+    },
+    {
+      "word": "narrative voice",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "'narrative voice' የሚለው አባባል የተለመደ ሲሆን የተራኪውን ቃና እና አቀራረብ ያመለክታል።"
+    },
+    {
+      "word": "hedgehog",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ጃርት (hedgehog) እንስሳ ነው፤ ከጽሑፍ ቃና ጋር ግንኙነት የለውም።"
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Tone' የጽሑፍ ስሜታዊ ድባብ ነው፤ ስሜት፣ የቃላት አመራረጥ እና 'narrative voice' ከእሱ ጋር ይያያዛሉ፤ ታክሲዶ፣ ስፓቱላ እና ጃርት ግን አይያያዙም።"
+}
