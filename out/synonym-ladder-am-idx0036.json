@@ -1,0 +1,13 @@
+{
+  "start_word": "whisper",
+  "end_word": "roar",
+  "ladder_steps": [
+    {"word": "whisper", "translation": "ሹክ ብሎ መናገር", "intensity_level": 1},
+    {"word": "murmur", "translation": "ሹክሹክታ", "intensity_level": 2},
+    {"word": "speak", "translation": "መናገር", "intensity_level": 3},
+    {"word": "shout", "translation": "መጮህ", "intensity_level": 4},
+    {"word": "roar", "translation": "ማገሳ", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words for the volume of speech form a ladder from a quiet whisper to a loud roar, each step louder than the last."
+}

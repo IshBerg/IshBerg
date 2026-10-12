@@ -1,0 +1,13 @@
+{
+  "start_word": "trivial",
+  "end_word": "fatal",
+  "ladder_steps": [
+    {"word": "trivial", "translation": "trivial", "intensity_level": 1},
+    {"word": "minor", "translation": "menor", "intensity_level": 2},
+    {"word": "serious", "translation": "grave", "intensity_level": 3},
+    {"word": "major", "translation": "grande", "intensity_level": 4},
+    {"word": "fatal", "translation": "fatal", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words for the severity of an error form a ladder from a trivial slip to a fatal flaw, each step more damaging than the last."
+}
