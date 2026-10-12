@@ -1,0 +1,39 @@
+{
+  "start_word": "empty",
+  "end_word": "packed",
+  "ladder_steps": [
+    {
+      "word": "empty",
+      "translation": "فارغة",
+      "intensity_level": 1
+    },
+    {
+      "word": "sparse",
+      "translation": "قليلة",
+      "intensity_level": 2
+    },
+    {
+      "word": "moderate",
+      "translation": "معتدلة",
+      "intensity_level": 3
+    },
+    {
+      "word": "crowded",
+      "translation": "مزدحمة",
+      "intensity_level": 4
+    },
+    {
+      "word": "packed",
+      "translation": "ممتلئة تماماً",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe how full a conference hall is, from an empty room with no listeners to a packed hall with no seats left, with each step fuller than the last."
+}
