@@ -1,0 +1,48 @@
+{
+  "trigger_word": "rebuttal",
+  "all_words": [
+    {
+      "word": "counterargument",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "ተቃራኒ ክርክር (counterargument) በቀጥታ ከመልስ ጋር የሚዛመድ ሐሳብ ነው፤ ስለዚህ ግንኙነቱ ትርጉማዊ ነው።"
+    },
+    {
+      "word": "cucumber",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ዱባ (cucumber) ከክርክርም ሆነ ከምላሽ ጋር ምንም ግንኙነት የለውም።"
+    },
+    {
+      "word": "evidence",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "ማስረጃ (evidence) በክርክር ውስጥ መልስን ለመደገፍ የሚያገለግል ሲሆን፣ ግንኙነቱ ጭብጣዊ ነው።"
+    },
+    {
+      "word": "headlight",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "የመኪና መብራት (headlight) ከክርክር ሆነ ከንግግር ጋር ግንኙነት የለውም።"
+    },
+    {
+      "word": "concession",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "ስምምነት ወይም ቅናሽ (concession) በመልስ ውስጥ ያለ ተቀባይነት መስጠት ነው፤ ስለዚህ ግንኙነቱ ትርጉማዊ ነው።"
+    },
+    {
+      "word": "ukulele",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "ዩክሌሌ (ukulele) የሙዚቃ መሣሪያ ነው እንጂ ከክርክር ጋር ግንኙነት የለውም።"
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "ተዛማጅ ቃላቱ ከክርክርና ከምላሽ አወቃቀር ጋር ይያያዛሉ፤ ሌሎቹ ቃላት ግን ከምግብ፣ ከመኪና እና ከሙዚቃ ዘርፎች የተወሰዱ ናቸው።"
+}

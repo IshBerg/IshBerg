@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The court upheld the verdict, since",
+  "correct_completion": "the evidence presented at trial was sufficient to support the conviction.",
+  "full_sentence": "The court upheld the verdict, since the evidence presented at trial was sufficient to support the conviction.",
+  "acceptable_variants": [
+    "the trial evidence adequately supported the guilty finding.",
+    "the material produced in court justified the conviction."
+  ],
+  "options": [
+    {
+      "text": "the defendant had requested a new trial.",
+      "is_correct": false,
+      "why_wrong": "A request for a new trial would not explain why the verdict was upheld, since the clause needs a reason for upholding it."
+    },
+    {
+      "text": "the prosecution had never presented any witnesses.",
+      "is_correct": false,
+      "why_wrong": "This contradicts the sufficiency of evidence that the 'since' clause needs to justify the verdict."
+    },
+    {
+      "text": "the evidence presented at trial was sufficient to support the conviction.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the courtroom was located on the third floor.",
+      "is_correct": false,
+      "why_wrong": "The location of the courtroom is irrelevant to the reason for upholding the verdict."
+    }
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clause introduced by 'since' giving the reason for upholding a verdict",
+  "connector": "since",
+  "explanation": "'Since' introduces the reason the court upheld the verdict. Sufficient evidence at trial is the standard justification for maintaining a conviction.",
+  "translation": "ፍርድ ቤቱ ብይኑን ያፀናው በችሎቱ የቀረበው ማስረጃ ጥፋተኛነቱን ለማረጋገጥ በቂ ስለነበረ ነው።"
+}

@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "Because the author refuses to name the narrator,",
+  "correct_completion": "readers must infer her identity from subtle clues.",
+  "full_sentence": "Because the author refuses to name the narrator, readers must infer her identity from subtle clues.",
+  "acceptable_variants": [
+    "the reader has to work out who she is from small hints.",
+    "identifying her depends on careful reading of indirect details."
+  ],
+  "options": [
+    {
+      "text": "the narrator is clearly identified in the preface.",
+      "is_correct": false,
+      "why_wrong": "This contradicts the stem, which says the author refuses to name the narrator."
+    },
+    {
+      "text": "the novel was published in several editions.",
+      "is_correct": false,
+      "why_wrong": "This is a publication fact that does not follow from the author's refusal to name the narrator."
+    },
+    {
+      "text": "readers must infer her identity from subtle clues.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "the narrator speaks in the present tense only.",
+      "is_correct": false,
+      "why_wrong": "A grammatical feature of narration does not follow from the author's refusal to name the narrator."
+    }
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clause introduced by 'because' followed by a main clause stating the reader's task",
+  "connector": "because",
+  "explanation": "The author's refusal to name the narrator is the cause. The consequence is that readers must infer her identity from indirect clues.",
+  "translation": "Ponieważ autorka odmawia nazwania narratorki, czytelnicy muszą wywnioskować jej tożsamość z subtelnych wskazówek."
+}

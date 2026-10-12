@@ -1,0 +1,48 @@
+{
+  "trigger_word": "abstract",
+  "all_words": [
+    {
+      "word": "methodology",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Методология — раздел научной работы, который обычно упоминается в аннотации исследования, поэтому связь тематическая."
+    },
+    {
+      "word": "asteroid",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Астероид — небесное тело, которое не имеет отношения к написанию научных статей."
+    },
+    {
+      "word": "keywords",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Ключевые слова — элемент аннотации научной статьи, поэтому связь тематическая."
+    },
+    {
+      "word": "hamster",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Хомяк — домашнее животное, никак не связанное с научным текстом."
+    },
+    {
+      "word": "summary",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Резюме по смыслу близко к аннотации: и то и другое кратко передаёт содержание работы, поэтому связь семантическая."
+    },
+    {
+      "word": "cabinet",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Шкаф — предмет мебели, не относящийся к академическому письму."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Связанные слова относятся к структуре научной статьи и её краткому изложению, а остальные — к астрономии, животным и мебели."
+}

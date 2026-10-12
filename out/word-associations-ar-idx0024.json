@@ -1,0 +1,48 @@
+{
+  "trigger_word": "syllogism",
+  "all_words": [
+    {
+      "word": "premise",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "المقدمة (premise) جزء أساسي من القياس المنطقي، فالعلاقة بينهما علاقة دلالية."
+    },
+    {
+      "word": "kettle",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "الإبريق (kettle) أداة منزلية ولا علاقة لها بالاستدلال المنطقي."
+    },
+    {
+      "word": "conclusion",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "النتيجة (conclusion) هي ما يُستخلص من المقدمات في القياس، فالعلاقة دلالية."
+    },
+    {
+      "word": "pelican",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "البجعة البحرية (pelican) طائر ولا صلة لها بالمنطق."
+    },
+    {
+      "word": "validity",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "صحة الاستدلال (validity) مفهوم مركزي في دراسة القياس المنطقي، فالعلاقة موضوعية."
+    },
+    {
+      "word": "turban",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "العمامة (turban) لباس ولا علاقة لها بالقياس المنطقي."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "الكلمات المرتبطة تصف بنية القياس المنطقي وتقييمه، أما الكلمات الأخرى فتنتمي إلى المطبخ والطيور والملابس."
+}

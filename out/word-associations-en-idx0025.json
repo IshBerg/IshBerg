@@ -1,0 +1,48 @@
+{
+  "trigger_word": "counterexample",
+  "all_words": [
+    {
+      "word": "falsify",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "To falsify a claim means to show by counterexample that it is false, so the link is semantic."
+    },
+    {
+      "word": "lighthouse",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "A lighthouse is a coastal structure that guides ships and has no connection to argument testing."
+    },
+    {
+      "word": "control group",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "A control group is a standard collocation in research design, where counterexamples are often sought to test a hypothesis."
+    },
+    {
+      "word": "pastry",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Pastry is a baked food and has no relation to logical testing of claims."
+    },
+    {
+      "word": "replication",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Replication, the repetition of a study to check its findings, belongs to the same thematic field as testing claims with counterexamples."
+    },
+    {
+      "word": "trombone",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "A trombone is a brass instrument with no connection to argument or evidence."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "The associated words all concern testing a claim against evidence or cases that contradict it, while the others belong to unrelated areas such as architecture, cooking, and music."
+}

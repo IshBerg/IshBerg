@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The judge dismissed the appeal because",
+  "correct_completion": "the appellant failed to file the required brief on time.",
+  "full_sentence": "The judge dismissed the appeal because the appellant failed to file the required brief on time.",
+  "acceptable_variants": [
+    "the appellant missed the deadline for submitting the written argument.",
+    "the required written submission was not lodged within the set period."
+  ],
+  "options": [
+    {
+      "text": "the court had already accepted the same argument.",
+      "is_correct": false,
+      "why_wrong": "This would support the appeal rather than explain its dismissal, so the 'because' clause would be illogical."
+    },
+    {
+      "text": "the appellant was represented by a senior lawyer.",
+      "is_correct": false,
+      "why_wrong": "Representation by counsel does not by itself explain why an appeal would be dismissed."
+    },
+    {
+      "text": "the judgment was delivered on a Tuesday.",
+      "is_correct": false,
+      "why_wrong": "The day of delivery is irrelevant to the reason for dismissal."
+    },
+    {
+      "text": "the appellant failed to file the required brief on time.",
+      "is_correct": true,
+      "why_wrong": null
+    }
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clause introduced by 'because' explaining the reason for a court's dismissal",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason for the dismissal. A procedural failure to file the required brief is a standard legal ground for dismissing an appeal.",
+  "translation": "رفض القاضي الاستئناف لأن مقدّم الاستئناف لم يقدّم المذكرة المطلوبة في الوقت المحدد."
+}
