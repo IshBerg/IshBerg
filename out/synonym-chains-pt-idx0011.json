@@ -1,0 +1,23 @@
+{
+  "central_word": "hot",
+  "chain_words": [
+    {"word": "warm", "intensity": 1, "translation": "morno", "nuance": "pleasantly heated, but not uncomfortable"},
+    {"word": "hot", "intensity": 2, "translation": "quente", "nuance": "high temperature that is noticeable"},
+    {"word": "scorching", "intensity": 3, "translation": "escaldante", "nuance": "so hot that it feels burning"},
+    {"word": "searing", "intensity": 4, "translation": "queimante", "nuance": "intense heat that sears or burns the surface"},
+    {"word": "blistering", "intensity": 5, "translation": "causticante", "nuance": "extremely hot, often used for heat that is almost unbearable"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe high temperature, moving from a pleasant warmth to heat that is almost unbearable. Each step describes a more extreme degree of heat than the one before.",
+  "usage_notes": [
+    {"word1": "hot", "word2": "scorching", "difference": "'Hot' describes high temperature in general, while 'scorching' suggests heat so intense that it feels as if it is burning."}
+  ],
+  "translations": {
+    "warm": "morno",
+    "hot": "quente",
+    "scorching": "escaldante",
+    "searing": "queimante",
+    "blistering": "causticante"
+  }
+}

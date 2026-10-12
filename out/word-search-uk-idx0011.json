@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "R", "A", "N", "S", "L", "A", "T", "E", "B"],
+    ["K", "Q", "P", "W", "Z", "X", "V", "M", "D", "I"],
+    ["L", "J", "Y", "F", "K", "Q", "W", "Z", "H", "L"],
+    ["I", "P", "V", "X", "D", "G", "M", "N", "W", "I"],
+    ["N", "Z", "K", "Q", "Y", "B", "F", "J", "T", "N"],
+    ["G", "G", "L", "O", "S", "S", "A", "R", "Y", "G"],
+    ["U", "Q", "Z", "W", "K", "J", "V", "P", "D", "U"],
+    ["I", "M", "X", "R", "Q", "W", "K", "Z", "B", "A"],
+    ["S", "V", "H", "J", "Z", "Y", "Q", "N", "F", "L"],
+    ["T", "D", "K", "W", "P", "R", "B", "X", "M", "Q"]
+  ],
+  "words_to_find": ["TRANSLATE", "BILINGUAL", "GLOSSARY", "LINGUIST"],
+  "word_positions": [
+    {"word": "TRANSLATE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BILINGUAL", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "GLOSSARY", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "LINGUIST", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Facilitating Multilingual Discourse"
+}

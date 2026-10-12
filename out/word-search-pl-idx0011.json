@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "E", "A", "D", "L", "I", "N", "E", "Q", "B"],
+    ["K", "P", "W", "Z", "V", "J", "X", "M", "Q", "I"],
+    ["W", "R", "Z", "K", "J", "P", "Y", "T", "V", "A"],
+    ["Q", "K", "X", "F", "Y", "W", "Z", "P", "R", "S"],
+    ["S", "D", "P", "K", "J", "Q", "W", "B", "N", "R"],
+    ["P", "O", "K", "Z", "W", "X", "G", "Y", "V", "T"],
+    ["N", "Z", "U", "Y", "J", "Q", "M", "V", "L", "P"],
+    ["L", "K", "W", "R", "T", "Z", "X", "D", "J", "H"],
+    ["Y", "P", "V", "W", "C", "F", "Q", "Z", "K", "G"],
+    ["T", "V", "Z", "D", "A", "E", "L", "S", "I", "M"]
+  ],
+  "words_to_find": ["HEADLINE", "BIAS", "SOURCE", "MISLEAD"],
+  "word_positions": [
+    {"word": "HEADLINE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BIAS", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SOURCE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MISLEAD", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Media Literacy and Discourse Analysis"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Whoever had drafted the original proposal",
+  "correct_completion": "clearly understood the importance of public trust.",
+  "full_sentence": "Whoever had drafted the original proposal clearly understood the importance of public trust.",
+  "acceptable_variants": ["clearly grasped why public trust mattered.", "knew perfectly well how important public trust was."],
+  "options": [
+    {"text": "to clearly understand the importance of public trust.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the finite verb of the subject clause 'whoever had drafted'."},
+    {"text": "the importance of public trust was clear.", "is_correct": false, "why_wrong": "This introduces a new subject, leaving the nominal clause without a predicate that fits it."},
+    {"text": "clearly understood the importance of public trust.", "is_correct": true, "why_wrong": null},
+    {"text": "understanding the importance of public trust.", "is_correct": false, "why_wrong": "A participle cannot act as the main predicate of the sentence, so the subject clause remains unfinished."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Free relative (nominal) clause 'whoever ...' functioning as the subject",
+  "connector": "whoever",
+  "explanation": "A nominal clause introduced by 'whoever' functions as the subject of the sentence, so the main clause needs a finite verb that agrees with it. Here 'clearly understood' provides that predicate.",
+  "translation": "Ktokolwiek sporządził pierwotny wniosek, doskonale rozumiał znaczenie zaufania publicznego."
+}

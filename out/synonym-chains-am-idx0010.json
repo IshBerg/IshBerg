@@ -1,0 +1,23 @@
+{
+  "central_word": "walk",
+  "chain_words": [
+    {"word": "amble", "intensity": 1, "translation": "በዝግታ መሄድ", "nuance": "walk slowly and without any clear hurry"},
+    {"word": "walk", "intensity": 2, "translation": "መሄድ", "nuance": "move on foot at an ordinary, neutral pace"},
+    {"word": "stride", "intensity": 3, "translation": "በእርምጃ መራመድ", "nuance": "walk with long, confident steps"},
+    {"word": "hurry", "intensity": 4, "translation": "መቸኮል", "nuance": "move quickly because of urgency or lateness"},
+    {"word": "dash", "intensity": 5, "translation": "መሮጥ", "nuance": "run suddenly and very fast for a short distance"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe moving on foot, with increasing speed and urgency. Each step involves moving faster or with more purpose than the one before.",
+  "usage_notes": [
+    {"word1": "walk", "word2": "hurry", "difference": "'Walk' is a neutral way of moving on foot, while 'hurry' adds urgency and a sense of rushing."}
+  ],
+  "translations": {
+    "amble": "በዝግታ መሄድ",
+    "walk": "መሄድ",
+    "stride": "በእርምጃ መራመድ",
+    "hurry": "መቸኮል",
+    "dash": "መሮጥ"
+  }
+}

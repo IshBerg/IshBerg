@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "E", "T", "A", "P", "H", "O", "R", "I"],
+    ["T", "K", "Q", "W", "J", "Z", "X", "B", "M"],
+    ["L", "O", "V", "H", "P", "D", "Y", "F", "A"],
+    ["K", "W", "N", "Z", "Q", "J", "B", "T", "G"],
+    ["X", "J", "L", "E", "E", "M", "V", "K", "E"],
+    ["P", "Z", "Y", "R", "W", "Q", "S", "D", "R"],
+    ["H", "L", "N", "F", "Z", "B", "W", "P", "Y"],
+    ["C", "E", "I", "T", "R", "K", "D", "Q", "U"],
+    ["G", "S", "W", "X", "Z", "H", "L", "N", "O"]
+  ],
+  "words_to_find": ["METAPHOR", "IMAGERY", "TONE", "GENRE"],
+  "word_positions": [
+    {"word": "METAPHOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IMAGERY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TONE", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "GENRE", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Cross-Genre Style Adaptation"
+}

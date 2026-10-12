@@ -1,0 +1,14 @@
+{
+  "trigger_word": "plot",
+  "all_words": [
+    {"word": "narrative", "is_associated": true, "association_type": "SEMANTIC", "explanation": "נרטיב הוא הסיפור עצמו, ועלילה (plot) היא המבנה הפנימי שלו, ולכן המילים קשורות ישירות זו לזו."},
+    {"word": "blender", "is_associated": false, "association_type": "NONE", "explanation": "מטחנה חשמלית היא מכשיר מטבח ואין לה קשר לעלילה או לספרות."},
+    {"word": "climax", "is_associated": true, "association_type": "THEMATIC", "explanation": "שיא הדרמה הוא חלק מרכזי במבנה העלילה, ולכן הוא שייך לאותו תחום ספרותי."},
+    {"word": "kangaroo", "is_associated": false, "association_type": "NONE", "explanation": "קנגורו הוא בעל חיים ואין לו קשר לעלילה או לספרות."},
+    {"word": "twist", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "הביטוי „plot twist” (תפנית עלילתית) הוא צירוף קבוע, ולכן המילים נפגשות בשימוש."},
+    {"word": "compass", "is_associated": false, "association_type": "NONE", "explanation": "מצפן הוא מכשיר ניווט ואין לו קשר לעלילה."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "המילים המשויכות שייכות למבנה של סיפור: הנרטיב שבו העלילה מתקיימת, שיא הדרמה וצירוף קבוע שמתאר תפנית בעלילה. המילים שאינן משויכות שייכות לתחומים אחרים לגמרי."
+}

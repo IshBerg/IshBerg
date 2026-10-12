@@ -1,0 +1,13 @@
+{
+  "start_word": "impolite",
+  "end_word": "abusive",
+  "ladder_steps": [
+    {"word": "impolite", "translation": "indelicado", "intensity_level": 1},
+    {"word": "discourteous", "translation": "descortês", "intensity_level": 2},
+    {"word": "rude", "translation": "grosseiro", "intensity_level": 3},
+    {"word": "insolent", "translation": "insolente", "intensity_level": 4},
+    {"word": "abusive", "translation": "abusivo", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe behaviour that fails to show proper respect, moving from a mild lack of politeness to hostile and offensive conduct. Each step is more hostile or offensive than the one before along one dimension."
+}
