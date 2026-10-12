@@ -1,0 +1,39 @@
+{
+  "start_word": "polluted",
+  "end_word": "pristine",
+  "ladder_steps": [
+    {
+      "word": "polluted",
+      "translation": "забруднений",
+      "intensity_level": 1
+    },
+    {
+      "word": "tainted",
+      "translation": "псуватий",
+      "intensity_level": 2
+    },
+    {
+      "word": "clean",
+      "translation": "чистий",
+      "intensity_level": 3
+    },
+    {
+      "word": "unspoiled",
+      "translation": "неушкоджений",
+      "intensity_level": 4
+    },
+    {
+      "word": "pristine",
+      "translation": "первозданний",
+      "intensity_level": 5
+    }
+  ],
+  "correct_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "explanation": "These words describe the condition of an environment along one dimension, from a polluted place harmed by waste to a pristine one left in its original state, with each step cleaner and less affected than the last."
+}

@@ -1,0 +1,48 @@
+{
+  "trigger_word": "allegory",
+  "all_words": [
+    {
+      "word": "parable",
+      "is_associated": true,
+      "association_type": "SEMANTIC",
+      "explanation": "Mesel (parable), içinde ders veren kısa bir anlatıdır ve alegoriyle aynı işlevi görür."
+    },
+    {
+      "word": "thermos",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Termos (thermos), sıcak sıvıları tutmaya yarayan bir kaptır ve edebiyatla ilgisi yoktur."
+    },
+    {
+      "word": "symbolism",
+      "is_associated": true,
+      "association_type": "THEMATIC",
+      "explanation": "Sembolizm (symbolism), alegorinin de kullandığı anlam katmanlama yöntemiyle aynı edebi tartışma alanına aittir."
+    },
+    {
+      "word": "gravel",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Çakıl (gravel), bir inşaat malzemesidir ve edebiyat kuramıyla bağlantısı yoktur."
+    },
+    {
+      "word": "double meaning",
+      "is_associated": true,
+      "association_type": "COLLOCATIONAL",
+      "explanation": "Çift anlam (double meaning), alegorinin temel özelliğini anlatır ve bu kalıp sık kullanılır."
+    },
+    {
+      "word": "bucket",
+      "is_associated": false,
+      "association_type": "NONE",
+      "explanation": "Kova (bucket), günlük bir eşyadır ve alegoriyle ilgisi yoktur."
+    }
+  ],
+  "correct_indices": [
+    0,
+    2,
+    4
+  ],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Allegory' bir anlatının ardındaki ikinci bir anlamı taşıyan edebi bir biçimdir; mesel, sembolizm ve çift anlam ile ilişkilidir, ancak termos, çakıl ve kova ile bağlantısı yoktur."
+}
