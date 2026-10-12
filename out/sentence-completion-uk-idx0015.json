@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Whereas the first draft relied on colloquial idioms,",
+  "correct_completion": "the revised version adopts a formal register throughout.",
+  "full_sentence": "Whereas the first draft relied on colloquial idioms, the revised version adopts a formal register throughout.",
+  "acceptable_variants": ["the revision is written in a consistently formal tone.", "the second text replaces idioms with precise, elevated vocabulary."],
+  "options": [
+    {"text": "the revised version therefore relies on the same colloquial idioms.", "is_correct": false, "why_wrong": "'Therefore' signals a consequence, and repeating the same register erases the contrast that 'whereas' sets up."},
+    {"text": "so the draft was rejected by every editor.", "is_correct": false, "why_wrong": "'So' introduces an editorial outcome, not a shift in register, so it does not complete the contrast."},
+    {"text": "the revised version adopts a formal register throughout.", "is_correct": true, "why_wrong": null},
+    {"text": "both drafts were written in exactly the same register.", "is_correct": false, "why_wrong": "This denies the difference in register that 'whereas' requires the sentence to express."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive 'whereas' linking two contrasting registers",
+  "connector": "whereas",
+  "explanation": "'Whereas' sets up a contrast between two things, so the second clause must present a register that differs from the one described in the first clause.",
+  "translation": "Тоді як перша чернетка спиралася на розмовні ідіоми, переглянута версія послідовно використовує офіційний стиль."
+}

@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N", "A", "R", "R", "A", "T", "I", "V", "E", "F"],
+    ["K", "Q", "X", "Z", "J", "W", "B", "O", "L", "R"],
+    ["P", "D", "Y", "Z", "G", "K", "Q", "W", "U", "A"],
+    ["H", "A", "F", "X", "B", "V", "J", "Z", "Q", "G"],
+    ["W", "K", "S", "Y", "N", "Q", "X", "J", "D", "M"],
+    ["Z", "Q", "B", "T", "L", "V", "K", "X", "P", "E"],
+    ["J", "W", "Z", "M", "I", "D", "F", "K", "Y", "N"],
+    ["Q", "V", "X", "B", "R", "C", "W", "U", "Z", "T"],
+    ["F", "K", "J", "Q", "V", "Z", "H", "B", "M", "D"],
+    ["C", "O", "L", "L", "A", "G", "K", "E", "W", "X"]
+  ],
+  "words_to_find": ["NARRATIVE", "FRAGMENT", "PASTICHE", "COLLAGE"],
+  "word_positions": [
+    {"word": "NARRATIVE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FRAGMENT", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "PASTICHE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "COLLAGE", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Postmodern and Experimental Literature"
+}
