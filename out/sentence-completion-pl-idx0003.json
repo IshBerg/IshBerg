@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied for weeks,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Despite having studied for weeks, she still failed the exam.",
+  "acceptable_variants": ["she nevertheless did not pass the test.", "she did not manage to pass the exam."],
+  "options": [
+    {"text": "because the exam was very easy.", "is_correct": false, "why_wrong": "'Because' introduces a cause that supports the result, but 'despite' requires a contrasting outcome, not a reason."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "so she passed with ease.", "is_correct": false, "why_wrong": "'So' introduces a logical result that matches the effort, while 'despite' signals that the result goes against expectations."},
+    {"text": "she was studying the same material.", "is_correct": false, "why_wrong": "This describes an activity but does not provide the contrasting outcome that 'despite' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive expressions with 'despite'",
+  "connector": "despite",
+  "explanation": "After 'despite', the clause must show a result that contrasts with the expected effect of the effort mentioned in the stem.",
+  "translation": "Mimo że uczyła się przez wiele tygodni, nadal oblała egzamin."
+}

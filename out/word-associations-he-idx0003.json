@@ -1,0 +1,14 @@
+{
+  "trigger_word": "letter",
+  "all_words": [
+    {"word": "envelope", "is_associated": true, "association_type": "THEMATIC", "explanation": "מעטפה היא המכל שמכניסים לתוכו מכתב לפני שליחתו."},
+    {"word": "stamp", "is_associated": true, "association_type": "THEMATIC", "explanation": "בול מודבק על המעטפה כדי לשלם עבור משלוח המכתב."},
+    {"word": "thermometer", "is_associated": false, "association_type": "NONE", "explanation": "מדחום מודד טמפרטורה ואין לו קשר לכתיבה או לשליחה של מכתבים."},
+    {"word": "postman", "is_associated": true, "association_type": "SEMANTIC", "explanation": "דוור הוא האדם שמביא מכתבים אל הבית."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "כינור הוא כלי נגינה ואין לו קשר למכתבים."},
+    {"word": "mailbox", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "תיבת דואר היא המקום שבו מניחים מכתבים שהגיעו, וזהו צירוף נפוץ עם המילה letter."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "מעטפה, בול, דוור ותיבת דואר קשורים לשליחת דואר, ואילו מדחום וכינור אינם קשורים לכך."
+}
