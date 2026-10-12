@@ -1,0 +1,137 @@
+{
+  "grid_size": 9,
+  "grid": [
+    [
+      "C",
+      "O",
+      "N",
+      "C",
+      "E",
+      "D",
+      "E",
+      "X",
+      "O"
+    ],
+    [
+      "A",
+      "R",
+      "G",
+      "U",
+      "M",
+      "E",
+      "N",
+      "T",
+      "B"
+    ],
+    [
+      "F",
+      "K",
+      "W",
+      "Z",
+      "Q",
+      "X",
+      "V",
+      "P",
+      "J"
+    ],
+    [
+      "K",
+      "A",
+      "Q",
+      "W",
+      "Z",
+      "J",
+      "X",
+      "V",
+      "E"
+    ],
+    [
+      "Z",
+      "Q",
+      "L",
+      "X",
+      "K",
+      "W",
+      "J",
+      "Z",
+      "C"
+    ],
+    [
+      "Q",
+      "W",
+      "K",
+      "L",
+      "X",
+      "Z",
+      "J",
+      "V",
+      "T"
+    ],
+    [
+      "X",
+      "Z",
+      "Q",
+      "J",
+      "A",
+      "K",
+      "W",
+      "Z",
+      "I"
+    ],
+    [
+      "W",
+      "K",
+      "J",
+      "Z",
+      "Q",
+      "C",
+      "X",
+      "V",
+      "O"
+    ],
+    [
+      "J",
+      "Q",
+      "Z",
+      "W",
+      "K",
+      "X",
+      "Y",
+      "Z",
+      "N"
+    ]
+  ],
+  "words_to_find": [
+    "CONCEDE",
+    "ARGUMENT",
+    "OBJECTION",
+    "FALLACY"
+  ],
+  "word_positions": [
+    {
+      "word": "CONCEDE",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "ARGUMENT",
+      "start_row": 1,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "OBJECTION",
+      "start_row": 0,
+      "start_col": 8,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "FALLACY",
+      "start_row": 2,
+      "start_col": 0,
+      "direction": "DIAGONAL_DOWN"
+    }
+  ],
+  "topic": "Native-Level Debate and Rebuttal"
+}

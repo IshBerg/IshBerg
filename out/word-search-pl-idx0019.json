@@ -1,0 +1,158 @@
+{
+  "grid_size": 10,
+  "grid": [
+    [
+      "C",
+      "H",
+      "I",
+      "L",
+      "D",
+      "H",
+      "O",
+      "O",
+      "D",
+      "M"
+    ],
+    [
+      "K",
+      "N",
+      "Q",
+      "W",
+      "X",
+      "Z",
+      "J",
+      "V",
+      "P",
+      "E"
+    ],
+    [
+      "W",
+      "A",
+      "Z",
+      "K",
+      "Q",
+      "J",
+      "X",
+      "W",
+      "B",
+      "M"
+    ],
+    [
+      "Q",
+      "R",
+      "J",
+      "X",
+      "Z",
+      "K",
+      "E",
+      "V",
+      "W",
+      "O"
+    ],
+    [
+      "Z",
+      "R",
+      "Q",
+      "W",
+      "X",
+      "D",
+      "J",
+      "K",
+      "V",
+      "I"
+    ],
+    [
+      "X",
+      "A",
+      "Q",
+      "K",
+      "O",
+      "Z",
+      "J",
+      "W",
+      "F",
+      "R"
+    ],
+    [
+      "Q",
+      "T",
+      "W",
+      "S",
+      "X",
+      "K",
+      "Z",
+      "J",
+      "V",
+      "Q"
+    ],
+    [
+      "K",
+      "E",
+      "I",
+      "Z",
+      "W",
+      "J",
+      "Q",
+      "X",
+      "F",
+      "B"
+    ],
+    [
+      "W",
+      "P",
+      "Q",
+      "J",
+      "K",
+      "X",
+      "V",
+      "Z",
+      "Y",
+      "H"
+    ],
+    [
+      "E",
+      "L",
+      "B",
+      "M",
+      "Z",
+      "Q",
+      "K",
+      "W",
+      "N",
+      "U"
+    ]
+  ],
+  "words_to_find": [
+    "CHILDHOOD",
+    "MEMOIR",
+    "EPISODE",
+    "NARRATE"
+  ],
+  "word_positions": [
+    {
+      "word": "CHILDHOOD",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "MEMOIR",
+      "start_row": 0,
+      "start_col": 9,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "EPISODE",
+      "start_row": 9,
+      "start_col": 0,
+      "direction": "DIAGONAL_UP"
+    },
+    {
+      "word": "NARRATE",
+      "start_row": 1,
+      "start_col": 1,
+      "direction": "VERTICAL"
+    }
+  ],
+  "topic": "Memoir and Creative Nonfiction"
+}

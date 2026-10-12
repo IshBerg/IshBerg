@@ -1,0 +1,137 @@
+{
+  "grid_size": 9,
+  "grid": [
+    [
+      "C",
+      "Q",
+      "W",
+      "Z",
+      "K",
+      "J",
+      "X",
+      "V",
+      "P"
+    ],
+    [
+      "K",
+      "O",
+      "Z",
+      "W",
+      "J",
+      "X",
+      "Q",
+      "V",
+      "R"
+    ],
+    [
+      "Q",
+      "Z",
+      "U",
+      "K",
+      "X",
+      "J",
+      "W",
+      "Z",
+      "E"
+    ],
+    [
+      "J",
+      "K",
+      "W",
+      "N",
+      "Z",
+      "Q",
+      "X",
+      "V",
+      "M"
+    ],
+    [
+      "R",
+      "E",
+      "B",
+      "U",
+      "T",
+      "T",
+      "A",
+      "L",
+      "I"
+    ],
+    [
+      "Z",
+      "X",
+      "Q",
+      "J",
+      "K",
+      "E",
+      "W",
+      "V",
+      "S"
+    ],
+    [
+      "W",
+      "Q",
+      "J",
+      "X",
+      "Z",
+      "K",
+      "R",
+      "V",
+      "E"
+    ],
+    [
+      "V",
+      "Q",
+      "W",
+      "Z",
+      "X",
+      "J",
+      "K",
+      "Y",
+      "Q"
+    ],
+    [
+      "Z",
+      "K",
+      "L",
+      "O",
+      "G",
+      "I",
+      "C",
+      "W",
+      "X"
+    ]
+  ],
+  "words_to_find": [
+    "COUNTER",
+    "PREMISE",
+    "REBUTTAL",
+    "LOGIC"
+  ],
+  "word_positions": [
+    {
+      "word": "COUNTER",
+      "start_row": 0,
+      "start_col": 0,
+      "direction": "DIAGONAL_DOWN"
+    },
+    {
+      "word": "PREMISE",
+      "start_row": 0,
+      "start_col": 8,
+      "direction": "VERTICAL"
+    },
+    {
+      "word": "REBUTTAL",
+      "start_row": 4,
+      "start_col": 0,
+      "direction": "HORIZONTAL"
+    },
+    {
+      "word": "LOGIC",
+      "start_row": 8,
+      "start_col": 2,
+      "direction": "HORIZONTAL"
+    }
+  ],
+  "topic": "Native-Level Debate and Rebuttal"
+}
