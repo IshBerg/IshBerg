@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If I had studied harder last year, I would have passed the exam.",
+  "acceptable_variants": ["I would have got a better grade.", "I would have been happier with the result."],
+  "options": [
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "This uses a future form with a time reference to tomorrow, but the stem describes a past hypothetical situation."},
+    {"text": "I pass the exam every year.", "is_correct": false, "why_wrong": "This describes a present habit and does not complete the imagined past result."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I would pass the exam now.", "is_correct": false, "why_wrong": "This uses a present-time result, which does not match the past condition introduced by 'last year'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: if + past perfect, would have + past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined result. The past perfect follows 'if', and 'would have' plus a past participle goes in the main clause. Portuguese speakers often transfer a simple conditional form into this slot, but English requires the perfect structure for past hypotheticals.",
+  "translation": "Se eu tivesse estudado mais no ano passado, eu teria passado no exame."
+}
