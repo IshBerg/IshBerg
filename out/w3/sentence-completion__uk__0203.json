@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would have a better job now.",
+  "full_sentence": "If I had studied harder last year, I would have a better job now.",
+  "acceptable_variants": ["I would be earning more money now.", "My career would be going much better today."],
+  "options": [
+    {"text": "I will have a better job next week.", "is_correct": false, "why_wrong": "'Will' describes a future plan. A mixed conditional needs 'would' to show the present result of a past condition."},
+    {"text": "I have a better job now.", "is_correct": false, "why_wrong": "This states a real present fact. It does not express the imagined result of a past condition that did not happen."},
+    {"text": "I would have a better job now.", "is_correct": true, "why_wrong": null},
+    {"text": "I was studying all night.", "is_correct": false, "why_wrong": "This describes a past activity, but it does not complete the result clause that a conditional needs."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals (past condition with present result)",
+  "connector": "if",
+  "explanation": "The 'if' clause refers to a past situation, so it uses the past perfect 'had studied'. The result clause refers to the present, so it uses 'would' with a present-time reference, creating a mixed conditional.",
+  "translation": "Якби я краще вчився минулого року, зараз у мене була б краща робота."
+}
