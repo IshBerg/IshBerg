@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What frustrated the committee most",
+  "correct_completion": "was the constant delay in approval.",
+  "full_sentence": "What frustrated the committee most was the constant delay in approval.",
+  "acceptable_variants": ["was the slow pace of approval.", "was the repeated postponement of decisions."],
+  "options": [
+    {"text": "the constant delay in approval frustrated it most.", "is_correct": false, "why_wrong": "This is a plain sentence, but the stem opens a pseudo-cleft structure that must be completed with 'was' followed by the focused element."},
+    {"text": "was the constant delay in approval.", "is_correct": true, "why_wrong": null},
+    {"text": "the delays it had caused.", "is_correct": false, "why_wrong": "Without the verb 'was', the 'what' clause has no link to its focus, so the sentence stays incomplete."},
+    {"text": "that the approval process was slow.", "is_correct": false, "why_wrong": "The 'what' clause must be followed directly by 'was' and a noun phrase, not by a that-clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft sentences with 'what' and 'was'",
+  "connector": "what ... was",
+  "explanation": "A pseudo-cleft sentence begins with a 'what' clause that introduces the information being emphasised, then uses the verb 'be' followed by the focus. Learners often omit the verb 'be' or add a that-clause, because their first language does not require this kind of linking verb for emphasis, but English needs it to connect the two parts.",
+  "translation": "To, co najbardziej frustrowało komisję, to ciągłe opóźnienia w zatwierdzaniu."
+}
