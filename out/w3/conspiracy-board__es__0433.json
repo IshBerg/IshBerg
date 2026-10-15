@@ -1,0 +1,14 @@
+{
+  "codename": "SILENT COMPASS",
+  "briefing": "Agent, we've intercepted directions that were sent in code. Match each English word on the evidence cards with its Spanish meaning to reveal the route. Time is critical.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "left", "right": "izquierda", "left_style": "document", "right_style": "handwritten"},
+    {"left": "right", "right": "derecha", "left_style": "photo", "right_style": "newspaper"},
+    {"left": "straight", "right": "recto", "left_style": "official", "right_style": "document"},
+    {"left": "corner", "right": "esquina", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "street", "right": "calle", "left_style": "newspaper", "right_style": "official"},
+    {"left": "bridge", "right": "puente", "left_style": "document", "right_style": "photo"}
+  ]
+}

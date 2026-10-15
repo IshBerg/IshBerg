@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"},
+    {"word": "taxi", "transliteration": "taxi", "meaning": "taxi"},
+    {"word": "museo", "transliteration": "museo", "meaning": "museum"},
+    {"word": "restaurante", "transliteration": "restaurante", "meaning": "restaurant"}
+  ],
+  "english_words": ["taxi", "hotel", "restaurant", "museum"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same source, so the forms stayed close and the meaning is the same.",
+  "false_friend_warning": null
+}
