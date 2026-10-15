@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "E", "N", "C", "E", "Q", "T"],
+    ["B", "K", "M", "R", "P", "V", "H"],
+    ["F", "G", "J", "W", "Q", "C", "U"],
+    ["R", "Y", "W", "K", "P", "F", "S"],
+    ["I", "N", "D", "E", "E", "D", "X"],
+    ["M", "Q", "B", "H", "K", "W", "V"],
+    ["A", "L", "S", "O", "X", "Y", "Z"]
+  ],
+  "words_to_find": ["HENCE", "THUS", "INDEED", "ALSO"],
+  "word_positions": [
+    {"word": "HENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THUS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "INDEED", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ALSO", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Linking Adverbials and Signposting"
+}
