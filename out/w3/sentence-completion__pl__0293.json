@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at that big tree,",
+  "correct_completion": "it is very tall.",
+  "full_sentence": "Look at that big tree, it is very tall.",
+  "acceptable_variants": ["it is very beautiful.", "it is very old."],
+  "options": [
+    {"text": "I am very hungry.", "is_correct": false, "why_wrong": "The sentence is about the tree we are looking at, so 'I am hungry' does not describe it."},
+    {"text": "they are my friends.", "is_correct": false, "why_wrong": "'They' refers to people or several things, but here we are talking about one tree."},
+    {"text": "it is very tall.", "is_correct": true, "why_wrong": null},
+    {"text": "we are going home now.", "is_correct": false, "why_wrong": "This starts a new action and does not describe the tree we are looking at."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative pronoun 'that' for a thing away from the speaker, followed by 'it' to refer back to it",
+  "connector": "that",
+  "explanation": "The word 'that' points to an object away from the speaker, and 'it' then refers back to the same tree. The completion must describe the tree, which is the object being looked at.",
+  "translation": "Spójrz na to duże drzewo, jest bardzo wysokie."
+}
