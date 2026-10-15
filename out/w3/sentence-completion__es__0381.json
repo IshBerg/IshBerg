@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the novel was written two centuries ago,",
+  "correct_completion": "its themes still feel remarkably relevant today.",
+  "full_sentence": "Although the novel was written two centuries ago, its themes still feel remarkably relevant today.",
+  "acceptable_variants": ["its themes remain remarkably relevant today.", "readers still find its characters compelling."],
+  "options": [
+    {"text": "so its themes feel relevant today.", "is_correct": false, "why_wrong": "'So' expresses a result, but 'although' requires a contrast between the two clauses."},
+    {"text": "its themes still feel remarkably relevant today.", "is_correct": true, "why_wrong": null},
+    {"text": "the author had never read it.", "is_correct": false, "why_wrong": "This adds unrelated information and does not complete the contrast set up by the age of the novel."},
+    {"text": "because it was extremely long.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which does not contrast with the age of the novel and breaks the structure."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the subordinate clause. Here the age of the novel contrasts with the continued relevance of its themes.",
+  "translation": "Aunque la novela fue escrita hace dos siglos, sus temas siguen resultando sorprendentemente actuales."
+}

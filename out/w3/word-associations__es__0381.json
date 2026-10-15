@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "THEMATIC", "explanation": "La estufa es un electrodoméstico que normalmente se encuentra en la cocina."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "La jirafa es un animal de la sabana y no tiene ninguna relación con la cocina."},
+    {"word": "fridge", "is_associated": true, "association_type": "THEMATIC", "explanation": "El refrigerador también se encuentra normalmente en la cocina y sirve para guardar la comida."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta es un medio de transporte y no está relacionada con la cocina."},
+    {"word": "table", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La mesa forma una combinación muy común con la cocina, como en la expresión mesa de cocina."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "El volcán es una formación geológica y no tiene ninguna relación con la cocina."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra kitchen se asocia con los electrodomésticos y muebles de la cocina, mientras que los demás objetos pertenecen a otros contextos."
+}
