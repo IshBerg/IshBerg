@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "E", "N", "U", "X", "Q", "Z", "J", "K", "B"],
+    ["R", "T", "A", "Y", "H", "D", "C", "V", "F", "I"],
+    ["G", "K", "O", "W", "P", "N", "D", "X", "R", "L"],
+    ["Q", "A", "E", "T", "D", "K", "B", "Z", "F", "L"],
+    ["S", "H", "R", "I", "M", "P", "L", "E", "Y", "N"],
+    ["C", "O", "X", "M", "A", "J", "Q", "L", "T", "D"],
+    ["Y", "K", "U", "B", "V", "W", "N", "S", "H", "G"],
+    ["E", "F", "A", "P", "R", "Z", "K", "D", "I", "M"],
+    ["L", "Q", "T", "N", "U", "E", "Y", "C", "W", "O"],
+    ["Z", "R", "E", "T", "A", "W", "H", "Y", "D", "K"]
+  ],
+  "words_to_find": ["MENU", "BILL", "SOUP", "WATER"],
+  "word_positions": [
+    {"word": "MENU", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BILL", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SOUP", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WATER", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Ordering Food"
+}
