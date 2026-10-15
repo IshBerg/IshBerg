@@ -1,0 +1,14 @@
+{
+  "trigger_word": "project",
+  "all_words": [
+    {"word": "research", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Badania są ważną częścią większości projektów, więc to słowo jest bezpośrednio związane z pojęciem projektu."},
+    {"word": "deadline", "is_associated": true, "association_type": "THEMATIC", "explanation": "Termin oddania jest typowym elementem pracy nad projektem, więc oba słowa należą do tego samego tematu."},
+    {"word": "elephant", "is_associated": false, "association_type": "NONE", "explanation": "Słowo 'elephant' (słoń) nie ma żadnego związku z projektem."},
+    {"word": "work", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Połączenie 'project work' (praca projektowa) jest bardzo popularne w języku angielskim."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "Parasol nie jest powiązany z pojęciem projektu."},
+    {"word": "team", "is_associated": true, "association_type": "THEMATIC", "explanation": "Wiele projektów wymaga pracy zespołowej, dlatego słowo 'team' (zespół) pasuje do tematu."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'project' kojarzy się z badaniami, terminami, pracą zespołową i wyrażeniem 'project work', natomiast 'elephant' i 'umbrella' nie mają z nim żadnego związku."
+}
