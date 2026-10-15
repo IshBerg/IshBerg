@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Humpty Dumpty sat on a wall,",
+  "correct_completion": "and he had a great fall.",
+  "full_sentence": "Humpty Dumpty sat on a wall, and he had a great fall.",
+  "acceptable_variants": ["and then he fell down.", "and he had a bad fall."],
+  "options": [
+    {"text": "and he went home for dinner.", "is_correct": false, "why_wrong": "This is an everyday action, but it does not continue the story of the rhyme, where the wall is important."},
+    {"text": "and the horses ran to the park.", "is_correct": false, "why_wrong": "This introduces new characters and a new place that do not connect to Humpty Dumpty and the wall."},
+    {"text": "and he had a great fall.", "is_correct": true, "why_wrong": null},
+    {"text": "and then he ate some cake.", "is_correct": false, "why_wrong": "This is a pleasant action, but it does not follow from sitting on a wall in the rhyme."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple with 'had' to describe a past event",
+  "connector": "and",
+  "explanation": "The stem sets up a situation, and the completion must logically continue the same story. In English, the past simple tells us what happened after the first event.",
+  "translation": "Humpty Dumpty se sentó en un muro y tuvo una gran caída."
+}

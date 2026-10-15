@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hello",
+  "all_words": [
+    {"word": "goodbye", "is_associated": true, "association_type": "THEMATIC", "explanation": "Goodbye es la otra fórmula de saludo, la que usamos al despedirnos, así que pertenece al mismo tema de las conversaciones cortas."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Table es un mueble, no tiene relación con saludar a alguien."},
+    {"word": "hand", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mucha gente saluda con la mano, por eso hand aparece junto a hello en situaciones de saludo."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Fish es un animal que vive en el agua y no tiene ninguna relación con los saludos."},
+    {"word": "smile", "is_associated": true, "association_type": "THEMATIC", "explanation": "Cuando saludamos a alguien, normalmente sonreímos, así que smile está relacionado con el saludo."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Window es una parte de una casa o de un coche y no se relaciona con saludar."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra hello se relaciona con otras palabras de saludo y despedida, con gestos que acompañan al saludo y con cosas que ocurren en la conversación, pero no con objetos de la casa o animales."
+}
