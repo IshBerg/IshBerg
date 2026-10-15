@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Dinner finished,",
+  "correct_completion": "the guests moved to the living room.",
+  "full_sentence": "Dinner finished, the guests moved to the living room.",
+  "acceptable_variants": ["the guests went into the living room.", "everyone moved to the lounge."],
+  "options": [
+    {"text": "although the guests were tired.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, but an absolute clause here gives background information about the time, not a contrast."},
+    {"text": "the guests moved to the living room.", "is_correct": true, "why_wrong": null},
+    {"text": "the guests are moving to the living room.", "is_correct": false, "why_wrong": "A present continuous verb does not fit after a verbless absolute clause that describes a completed event."},
+    {"text": "they moved to the living room yesterday.", "is_correct": false, "why_wrong": "A full clause with its own subject and a time expression does not follow the absolute structure, which needs only a short background phrase."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Verbless absolute clauses giving background circumstances",
+  "connector": "absolute clause",
+  "explanation": "A verbless absolute clause gives background information about the situation, usually with a noun and a past participle. After it, the main clause needs a simple past verb to describe what happened next.",
+  "translation": "Terminada la cena, los invitados pasaron a la sala."
+}
