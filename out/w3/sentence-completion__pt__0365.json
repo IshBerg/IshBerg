@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He missed the last bus, so",
+  "correct_completion": "he had to walk home.",
+  "full_sentence": "He missed the last bus, so he had to walk home.",
+  "acceptable_variants": ["he had to take a taxi.", "he arrived home very late."],
+  "options": [
+    {"text": "he bought a new bicycle.", "is_correct": false, "why_wrong": "This is unrelated to the result of missing the bus. 'So' needs a consequence that follows from the first clause."},
+    {"text": "he was never late for school.", "is_correct": false, "why_wrong": "This contradicts the logic of the sentence, since missing a bus normally leads to lateness rather than preventing it."},
+    {"text": "he had to walk home.", "is_correct": true, "why_wrong": null},
+    {"text": "the bus was very old.", "is_correct": false, "why_wrong": "This describes the bus itself rather than giving the result of missing it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a result clause that follows logically from the first part of the sentence. Portuguese speakers sometimes mix up 'so' and 'because' when the cause comes first, so it helps to check whether the second clause answers the question what happened as a result.",
+  "translation": "Ele perdeu o último ônibus, então teve que voltar a pé para casa."
+}
