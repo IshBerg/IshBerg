@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother has never",
+  "correct_completion": "flown in an airplane, so he feels nervous about his first trip.",
+  "full_sentence": "My brother has never flown in an airplane, so he feels nervous about his first trip.",
+  "acceptable_variants": ["been on a plane, so he feels nervous about flying.", "flown in a plane, so he is worried about his first flight."],
+  "options": [
+    {"text": "flew in an airplane last year, and he loved it.", "is_correct": false, "why_wrong": "After 'has never' we need a past participle, not the past simple 'flew'. 'Last year' is also a finished time, which clashes with 'never'."},
+    {"text": "fly in an airplane before.", "is_correct": false, "why_wrong": "After 'has never' the verb must be a past participle, not the base form 'fly'. 'Before' also repeats the idea of experience that 'never' already covers."},
+    {"text": "flown in an airplane, so he feels nervous about his first trip.", "is_correct": true, "why_wrong": null},
+    {"text": "flying in an airplane yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a finished time, which cannot be used with the present perfect. The -ing form 'flying' is also not valid after 'has never'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'never' (has/have + never + past participle)",
+  "connector": "never",
+  "explanation": "The present perfect with 'never' uses has or have plus the past participle to describe an experience that has not happened up to now. The past simple form 'flew' cannot follow 'has never', because the past simple places the action at a finished time. Speakers whose first language has a different past tense system often choose a simple past form here by mistake.",
+  "translation": "Meu irmão nunca voou de avião, por isso ele está nervoso com a primeira viagem."
+}

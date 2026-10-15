@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "H", "E", "E", "R", "Q", "W", "P", "D", "T"],
+    ["M", "A", "S", "J", "F", "X", "Z", "N", "L", "U"],
+    ["Y", "H", "C", "T", "L", "O", "O", "K", "P", "R"],
+    ["W", "D", "I", "F", "Q", "S", "B", "M", "Y", "N"],
+    ["B", "G", "T", "L", "C", "R", "J", "E", "H", "W"],
+    ["P", "R", "Z", "N", "U", "D", "K", "F", "X", "O"],
+    ["S", "V", "E", "Y", "Q", "E", "V", "I", "G", "M"],
+    ["H", "C", "W", "A", "T", "L", "D", "J", "B", "P"],
+    ["F", "N", "X", "G", "K", "Y", "R", "S", "Q", "A"],
+    ["E", "I", "V", "Z", "M", "D", "U", "H", "O", "T"]
+  ],
+  "words_to_find": ["CHEER", "TURN", "BREAK", "GIVE", "LOOK"],
+  "word_positions": [
+    {"word": "CHEER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TURN", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "BREAK", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "GIVE", "start_row": 6, "start_col": 8, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "LOOK", "start_row": 2, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Idioms and Phrasal Verbs"
+}
