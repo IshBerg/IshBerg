@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Some researchers consider the results reliable, while",
+  "correct_completion": "others argue that the sample was too small.",
+  "full_sentence": "Some researchers consider the results reliable, while others argue that the sample was too small.",
+  "acceptable_variants": ["others question whether the sample was large enough.", "others remain unconvinced by the evidence."],
+  "options": [
+    {"text": "so the sample must have been large.", "is_correct": false, "why_wrong": "'So' expresses a result. 'While' introduces a contrast, not a consequence."},
+    {"text": "the study was published last year.", "is_correct": false, "why_wrong": "This adds a neutral fact and does not contrast with the view stated in the first clause."},
+    {"text": "others argue that the sample was too small.", "is_correct": true, "why_wrong": null},
+    {"text": "the results were discussed at a conference.", "is_correct": false, "why_wrong": "This describes an event without contrasting with the opinion in the first clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'while'",
+  "connector": "while",
+  "explanation": "'While' sets two opposing views side by side. The second clause must present an opinion that contrasts with the first, and it can use 'others' to avoid repeating 'some researchers'.",
+  "translation": "Niektórzy badacze uważają wyniki za wiarygodne, podczas gdy inni twierdzą, że próba była zbyt mała."
+}
