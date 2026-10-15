@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R", "E", "P", "L", "Y", "Q", "K", "S"],
+    ["B", "M", "T", "F", "Z", "C", "W", "E"],
+    ["J", "V", "H", "X", "A", "G", "D", "N"],
+    ["P", "Q", "K", "W", "B", "Z", "C", "D"],
+    ["H", "X", "L", "M", "T", "V", "B", "F"],
+    ["O", "E", "M", "O", "J", "I", "Q", "Z"],
+    ["N", "K", "R", "S", "B", "X", "P", "W"],
+    ["E", "V", "Q", "T", "L", "G", "K", "H"]
+  ],
+  "words_to_find": ["REPLY", "SEND", "EMOJI", "PHONE"],
+  "word_positions": [
+    {"word": "REPLY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SEND", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "EMOJI", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "PHONE", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Text Messages"
+}
