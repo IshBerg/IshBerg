@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the children were tired,",
+  "correct_completion": "they still wanted to play outside.",
+  "full_sentence": "Although the children were tired, they still wanted to play outside.",
+  "acceptable_variants": ["they still went to the park.", "they kept playing in the garden."],
+  "options": [
+    {"text": "so they went to bed early.", "is_correct": false, "why_wrong": "This gives a result of tiredness, which shows cause, not the contrast that 'although' requires."},
+    {"text": "they were sleeping in their beds.", "is_correct": false, "why_wrong": "This continues the idea of tiredness instead of contrasting with it."},
+    {"text": "they still wanted to play outside.", "is_correct": true, "why_wrong": null},
+    {"text": "it was a sunny day.", "is_correct": false, "why_wrong": "This adds a fact about the weather but does not provide the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Portuguese speakers may find this pattern easy because Portuguese uses a similar connector in the same position, but they should still check the verb form that follows.",
+  "translation": "Embora as crianças estivessem cansadas, elas ainda queriam brincar lá fora."
+}
