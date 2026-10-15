@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have done much better.", "I might have passed with more effort."],
+  "options": [
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "This is a future plan, not an unreal past result of a missed opportunity."},
+    {"text": "I passed the exam last week.", "is_correct": false, "why_wrong": "This states a real past fact, while the stem expresses an unreal past situation that did not happen."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I should pass the exam now.", "is_correct": false, "why_wrong": "This uses a present obligation and does not complete the past regret introduced by 'if only'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if only' to express unreal past regret",
+  "connector": "if only",
+  "explanation": "The third conditional expresses an imagined past situation and its imagined result. 'If only' adds a sense of regret, so the main clause must use 'would have' followed by the past participle. Ukrainian speakers often use a simple conditional form here, but English requires the perfect infinitive to show the result is also in the past.",
+  "translation": "Якби я лише краще вчився, я б склав іспит."
+}
