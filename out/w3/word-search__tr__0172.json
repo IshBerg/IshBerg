@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "E", "N", "C", "E", "Q", "T"],
+    ["K", "B", "W", "J", "Z", "P", "H"],
+    ["M", "R", "H", "V", "D", "G", "U"],
+    ["Y", "C", "I", "F", "N", "D", "S"],
+    ["X", "T", "L", "A", "L", "S", "O"],
+    ["B", "K", "E", "Q", "W", "R", "N"],
+    ["F", "U", "R", "T", "H", "E", "R"]
+  ],
+  "words_to_find": ["HENCE", "THUS", "FURTHER", "WHILE", "ALSO"],
+  "word_positions": [
+    {"word": "HENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THUS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "FURTHER", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WHILE", "start_row": 1, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "ALSO", "start_row": 4, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}
