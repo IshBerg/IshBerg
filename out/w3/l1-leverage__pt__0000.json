@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "conclusão", "transliteration": "conclusao", "meaning": "conclusion"},
+    {"word": "evidência", "transliteration": "evidencia", "meaning": "evidence"},
+    {"word": "importância", "transliteration": "importancia", "meaning": "importance"},
+    {"word": "realidade", "transliteration": "realidade", "meaning": "reality"}
+  ],
+  "english_words": ["reality", "importance", "conclusion", "evidence"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "All four words come from Latin roots shared by English and Portuguese, so their spelling and meaning stayed close in both languages.",
+  "false_friend_warning": null
+}

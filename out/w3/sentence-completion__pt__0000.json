@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The proposal, having been carefully reviewed by the committee,",
+  "correct_completion": "was finally approved in March.",
+  "full_sentence": "The proposal, having been carefully reviewed by the committee, was finally approved in March.",
+  "acceptable_variants": ["received final approval in March.", "was formally approved in March."],
+  "options": [
+    {"text": "the committee approved it in March.", "is_correct": false, "why_wrong": "This creates a second subject. The participle clause already has the proposal as its subject, so the main clause must continue that same subject."},
+    {"text": "to approve it in March.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the main verb of the sentence. The main clause needs a finite verb."},
+    {"text": "was finally approved in March.", "is_correct": true, "why_wrong": null},
+    {"text": "approving it in March.", "is_correct": false, "why_wrong": "A present participle cannot be the main verb without an auxiliary, and it would leave the proposal without a finite verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect passive participle clause ('having been' + past participle) followed by a passive main clause",
+  "connector": "having been",
+  "explanation": "The perfect passive participle 'having been reviewed' introduces a clause about the proposal, so the main clause must be passive with the proposal as its subject. The completion therefore needs a finite passive verb, not a second active subject or a non-finite form.",
+  "translation": "A proposta, tendo sido cuidadosamente analisada pela comissão, foi finalmente aprovada em março."
+}
