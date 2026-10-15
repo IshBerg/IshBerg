@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are only a few apples left in the basket, so",
+  "correct_completion": "we need to buy more fruit.",
+  "full_sentence": "There are only a few apples left in the basket, so we need to buy more fruit.",
+  "acceptable_variants": ["we should go to the market.", "we will get some more later."],
+  "options": [
+    {"text": "we have a big meal tonight.", "is_correct": false, "why_wrong": "This suggests there is plenty of food, which contradicts 'only a few apples'."},
+    {"text": "there are many apples in the shop.", "is_correct": false, "why_wrong": "This describes a different place. It is not a result of the few apples left in the basket."},
+    {"text": "we need to buy more fruit.", "is_correct": true, "why_wrong": null},
+    {"text": "the basket is very heavy.", "is_correct": false, "why_wrong": "This is a description of the basket, not a logical result of having few apples."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "There are with quantifiers 'only a few' and result clauses with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result of the first clause. Because there are only a few apples, the logical result is that more fruit is needed. Polish speakers may expect a contrast here, but 'so' always signals a consequence.",
+  "translation": "W koszyku zostało tylko kilka jabłek, więc musimy kupić więcej owoców."
+}
