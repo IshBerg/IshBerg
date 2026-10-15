@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "This is my house. That is",
+  "correct_completion": "your house.",
+  "full_sentence": "This is my house. That is your house.",
+  "acceptable_variants": ["a big house.", "a nice house."],
+  "options": [
+    {"text": "my house.", "is_correct": false, "why_wrong": "'That' points to a different house, and 'my house' repeats the house already named in the first sentence."},
+    {"text": "this house.", "is_correct": false, "why_wrong": "'This' points to the nearby house already mentioned, not to the other house that the second sentence contrasts with it."},
+    {"text": "your house.", "is_correct": true, "why_wrong": null},
+    {"text": "those houses.", "is_correct": false, "why_wrong": "'Those' is plural, but the sentence is about one house, so a singular noun is needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Demonstrative pronouns 'this' and 'that' for near and far things",
+  "connector": "that",
+  "explanation": "'This' points to something near the speaker, and 'that' points to something farther away. The second sentence needs 'that' followed by a singular noun phrase that names the other house.",
+  "translation": "Esta es mi casa. Esa es tu casa."
+}
