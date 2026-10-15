@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "E", "N", "U", "X", "Q", "O"],
+    ["K", "L", "Z", "H", "J", "W", "R"],
+    ["B", "R", "E", "A", "D", "Y", "D"],
+    ["F", "I", "C", "G", "V", "N", "E"],
+    ["T", "E", "A", "Q", "M", "Y", "R"],
+    ["S", "O", "U", "P", "X", "B", "Z"],
+    ["J", "K", "F", "W", "L", "C", "H"]
+  ],
+  "words_to_find": ["MENU", "ORDER", "SOUP", "BREAD", "TEA"],
+  "word_positions": [
+    {"word": "MENU", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ORDER", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SOUP", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BREAD", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TEA", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Ordering Food"
+}
