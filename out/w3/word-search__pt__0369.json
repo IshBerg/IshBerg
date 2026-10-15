@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["C", "O", "N", "T", "R", "A", "C", "T"],
+    ["L", "X", "Q", "E", "J", "K", "V", "B"],
+    ["A", "D", "W", "R", "F", "G", "Z", "R"],
+    ["U", "I", "H", "M", "P", "N", "O", "E"],
+    ["S", "K", "Y", "S", "D", "W", "L", "A"],
+    ["E", "B", "F", "J", "Q", "X", "Z", "C"],
+    ["V", "K", "G", "L", "N", "I", "D", "H"],
+    ["P", "A", "R", "T", "Y", "M", "Q", "W"]
+  ],
+  "words_to_find": ["CONTRACT", "CLAUSE", "BREACH", "PARTY", "TERMS"],
+  "word_positions": [
+    {"word": "CONTRACT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAUSE", "start_row": 0, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "BREACH", "start_row": 1, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "PARTY", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TERMS", "start_row": 0, "start_col": 3, "direction": "VERTICAL"}
+  ],
+  "topic": "Legal and Contractual Texts"
+}
