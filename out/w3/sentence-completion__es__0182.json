@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The initial findings were highly promising;",
+  "correct_completion": "accordingly, the trial was extended for another year.",
+  "full_sentence": "The initial findings were highly promising; accordingly, the trial was extended for another year.",
+  "acceptable_variants": ["as a result, the trial was extended for another year.", "consequently, the trial was extended for another year."],
+  "options": [
+    {"text": "however, the trial was never mentioned again.", "is_correct": false, "why_wrong": "'However' signals contrast, which needs a negative or unexpected turn. The stem is positive, and this option says nothing about the findings."},
+    {"text": "for example, the laboratory was painted blue.", "is_correct": false, "why_wrong": "'For example' introduces an illustration of a previous point, not a result of promising findings."},
+    {"text": "accordingly, the trial was extended for another year.", "is_correct": true, "why_wrong": null},
+    {"text": "in other words, the findings were disappointing.", "is_correct": false, "why_wrong": "'In other words' restates the previous idea, but the stem describes the findings as promising, so the restatement contradicts it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Discourse markers expressing result, such as 'accordingly' and 'consequently'",
+  "connector": "accordingly",
+  "explanation": "The semicolon sets up a result: promising findings lead to a logical consequence. The marker must express that the next clause follows from the first, and only the option with a result meaning fits. Spanish speakers may reach for a direct translation of a marker with a different register, so check whether the marker introduces a result, a contrast or an example.",
+  "translation": "Los resultados iniciales eran muy prometedores; por consiguiente, el ensayo se prolongó un año más."
+}
