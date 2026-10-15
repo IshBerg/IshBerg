@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having read the report carefully,",
+  "correct_completion": "the committee asked for further evidence.",
+  "full_sentence": "Having read the report carefully, the committee asked for further evidence.",
+  "acceptable_variants": ["the board requested more data.", "the members called for additional proof."],
+  "options": [
+    {"text": "so the report was never published.", "is_correct": false, "why_wrong": "This describes an unrelated outcome, but the participle clause 'having read' requires a main clause about the committee's reaction to the report."},
+    {"text": "the committee asked for further evidence.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee had already rejected it.", "is_correct": false, "why_wrong": "This conflicts with the stem, which shows the committee actively reading the report, not rejecting it before reading."},
+    {"text": "because it was written in French.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which does not complete the reaction expected after a participle clause of prior action."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses of prior action",
+  "connector": "having",
+  "explanation": "After a participle clause such as 'having read', the main clause must describe the logical reaction of the same subject. Learners should check that the continuation follows from the action in the stem.",
+  "translation": "Po uważnym przeczytaniu raportu komisja zażądała dodatkowych dowodów."
+}
