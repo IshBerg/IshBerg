@@ -1,0 +1,14 @@
+{
+  "trigger_word": "apple",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Jabłka rosną na drzewie, więc słowo „tree” jest bezpośrednio związane z jabłkiem."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Samochód nie ma żadnego związku z jabłkiem ani z owocami."},
+    {"word": "pie", "is_associated": true, "association_type": "THEMATIC", "explanation": "Szarlotka (apple pie) to popularne ciasto z jabłkami, więc pasuje do tematu jedzenia."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "But nie mają związku z jedzeniem ani z jabłkami."},
+    {"word": "red", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówimy „red apple”, czyli czerwone jabłko, więc przymiotnik „red” często występuje obok słowa „apple”."},
+    {"word": "cat", "is_associated": false, "association_type": "NONE", "explanation": "Kot nie ma związku z jabłkami ani z owocami."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo „apple” wiąże się z drzewem, z potrawami z jabłek i z kolorem jabłek, a pozostałe słowa nie mają z nim związku."
+}

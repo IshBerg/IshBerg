@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "I", "L", "K", "X", "Q", "R"],
+    ["B", "X", "F", "G", "H", "N", "I"],
+    ["A", "B", "R", "E", "A", "D", "C"],
+    ["P", "K", "T", "V", "Y", "S", "E"],
+    ["P", "Q", "C", "A", "K", "E", "Z"],
+    ["L", "U", "N", "M", "O", "P", "T"],
+    ["E", "J", "V", "Q", "W", "Z", "X"]
+  ],
+  "words_to_find": ["MILK", "RICE", "BREAD", "APPLE", "CAKE"],
+  "word_positions": [
+    {"word": "MILK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RICE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BREAD", "start_row": 2, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "APPLE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "CAKE", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Food and Drinks"
+}
