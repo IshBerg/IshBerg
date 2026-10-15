@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Ali can speak English, but",
+  "correct_completion": "he can't speak German.",
+  "full_sentence": "Ali can speak English, but he can't speak German.",
+  "acceptable_variants": ["he cannot speak French.", "he can't read Arabic."],
+  "options": [
+    {"text": "he can speak German too.", "is_correct": false, "why_wrong": "'But' signals contrast, and 'too' adds the same ability instead of contrasting with the first clause."},
+    {"text": "he cannot be at school.", "is_correct": false, "why_wrong": "This describes where he is, not his ability, so it does not contrast with the first clause about speaking English."},
+    {"text": "he can't speak German.", "is_correct": true, "why_wrong": null},
+    {"text": "he speaks English every day.", "is_correct": false, "why_wrong": "This repeats the idea of speaking English instead of giving a contrasting ability."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' and the negative 'can't' for ability",
+  "connector": "but",
+  "explanation": "After 'but', the second clause should show a contrast with the first. Here the contrast is about a different language, so the negative form 'can't' gives the needed opposite ability.",
+  "translation": "Ali İngilizce konuşabilir, ama Almanca konuşamaz."
+}
