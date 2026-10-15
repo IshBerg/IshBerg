@@ -1,0 +1,13 @@
+{
+  "start_word": "mild",
+  "end_word": "catastrophic",
+  "ladder_steps": [
+    {"word": "mild", "translation": "hafif", "intensity_level": 1},
+    {"word": "moderate", "translation": "orta", "intensity_level": 2},
+    {"word": "severe", "translation": "ağır", "intensity_level": 3},
+    {"word": "extreme", "translation": "aşırı", "intensity_level": 4},
+    {"word": "catastrophic", "translation": "yıkıcı", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Severity words form a ladder from the least harmful to the most destructive, each step more serious than the last."
+}

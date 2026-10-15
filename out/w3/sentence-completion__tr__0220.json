@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the proposal would almost certainly have been approved.",
+  "full_sentence": "Had the committee been informed earlier, the proposal would almost certainly have been approved.",
+  "acceptable_variants": ["the proposal would have passed without difficulty.", "the outcome would likely have been very different."],
+  "options": [
+    {"text": "the proposal was being discussed for three days.", "is_correct": false, "why_wrong": "This describes a past activity, not the hypothetical result expected after an inverted conditional."},
+    {"text": "the proposal would almost certainly have been approved.", "is_correct": true, "why_wrong": null},
+    {"text": "they will approve the proposal tomorrow.", "is_correct": false, "why_wrong": "This uses a future tense that does not match the past hypothetical set up by the inverted 'had' clause."},
+    {"text": "the committee had met on Friday.", "is_correct": false, "why_wrong": "This gives a past fact, but it does not complete the conditional result that the stem requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had + subject + past participle'",
+  "connector": "had",
+  "explanation": "The inverted 'Had' clause replaces 'If', so the main clause must express a hypothetical past result using 'would have' plus a past participle.",
+  "translation": "Komite daha önce bilgilendirilmiş olsaydı, teklif neredeyse kesinlikle onaylanmış olurdu."
+}
