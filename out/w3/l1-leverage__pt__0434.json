@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"},
+    {"word": "parada", "transliteration": "parada", "meaning": "bus stop"},
+    {"word": "esquina", "transliteration": "esquina", "meaning": "corner"},
+    {"word": "farmácia", "transliteration": "farmacia", "meaning": "pharmacy"}
+  ],
+  "english_words": ["corner", "bookshop", "pharmacy", "bus stop"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Portuguese and English share many words with Latin roots, so some words look alike while meaning different things. This card tests a false friend, where a look-alike English word is the wrong choice for the Portuguese word.",
+  "false_friend_warning": "Careful: the Portuguese word livraria looks like the English word library, but it means bookshop, a shop that sells books, not a place where you borrow them."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I was very tired after the long flight,",
+  "correct_completion": "I went to the meeting on time.",
+  "full_sentence": "Although I was very tired after the long flight, I went to the meeting on time.",
+  "acceptable_variants": ["I still arrived at the meeting on time.", "I went to the meeting anyway."],
+  "options": [
+    {"text": "so I stayed in bed all day.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause. 'So' introduces a result, which does not fit after 'although'."},
+    {"text": "I was tired, so I slept early.", "is_correct": false, "why_wrong": "This gives a cause and an effect, but 'although' needs a clause that contrasts with the tiredness."},
+    {"text": "I went to the meeting on time.", "is_correct": true, "why_wrong": null},
+    {"text": "my flight was very long.", "is_correct": false, "why_wrong": "This repeats the reason for the tiredness instead of giving a contrasting action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners whose first language has no separate word for this contrast often choose a result clause with 'so' instead.",
+  "translation": "Embora eu estivesse muito cansado depois do longo voo, fui à reunião na hora certa."
+}
