@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Notwithstanding the considerable opposition from its members,",
+  "correct_completion": "the board ratified the proposal without amendment.",
+  "full_sentence": "Notwithstanding the considerable opposition from its members, the board ratified the proposal without amendment.",
+  "acceptable_variants": ["the board nevertheless ratified the proposal without amendment.", "the proposal was ratified by the board without amendment."],
+  "options": [
+    {"text": "so the board was obliged to ratify the proposal without amendment.", "is_correct": false, "why_wrong": "'So' signals cause and effect, but 'notwithstanding' sets up a concession. The continuation should contrast with the opposition, not follow from it."},
+    {"text": "the board, owing to that opposition, ratified the proposal without amendment.", "is_correct": false, "why_wrong": "'Owing to' presents the opposition as the reason for the outcome, whereas the stem presents it as an obstacle that does not prevent the outcome."},
+    {"text": "the board ratified the proposal without amendment.", "is_correct": true, "why_wrong": null},
+    {"text": "the opposition, which the board had anticipated, was never raised.", "is_correct": false, "why_wrong": "The stem already states that the opposition existed, so claiming it was never raised contradicts the first half of the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive prepositional phrase 'notwithstanding'",
+  "connector": "notwithstanding",
+  "explanation": "'Notwithstanding' is a formal concessive preposition meaning 'despite'. The main clause must describe an outcome that holds in spite of the opposition, not one caused by it. Learners, and Portuguese speakers in particular, often reach for a causal connector in this position, so the contrast needs to be checked deliberately before choosing a continuation.",
+  "translation": "Apesar da considerável oposição de seus membros, o conselho ratificou a proposta sem emendas."
+}

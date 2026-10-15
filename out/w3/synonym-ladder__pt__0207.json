@@ -1,0 +1,13 @@
+{
+  "start_word": "terrible",
+  "end_word": "excellent",
+  "ladder_steps": [
+    {"word": "terrible", "translation": "terrível", "intensity_level": 1},
+    {"word": "bad", "translation": "ruim", "intensity_level": 2},
+    {"word": "okay", "translation": "razoável", "intensity_level": 3},
+    {"word": "good", "translation": "bom", "intensity_level": 4},
+    {"word": "excellent", "translation": "excelente", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe quality on one scale, from the lowest rating to the highest, and each step is slightly better than the one before."
+}
