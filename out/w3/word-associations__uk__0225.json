@@ -1,0 +1,14 @@
+{
+  "trigger_word": "novel",
+  "all_words": [
+    {"word": "chapter", "is_associated": true, "association_type": "THEMATIC", "explanation": "Роман складається з розділів, тому слово «chapter» тісно пов'язане з «novel»."},
+    {"word": "author", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Автор — це людина, яка пише роман, тож ці слова належать до одного смислового поля."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Молоток — це будівельний інструмент, він не має жодного зв'язку з романами."},
+    {"word": "read", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ми кажемо «read a novel» (читати роман), тому це типове словосполучення."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Сад не пов'язаний з літературним жанром роману, тож це слово не підходить."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед — це транспорт, який не має відношення до романів."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово «novel» пов'язане з текстом, письменником і процесом читання, тому слова chapter, author і read підходять, а інші — ні."
+}
