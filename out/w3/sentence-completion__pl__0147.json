@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child, I used to",
+  "correct_completion": "play in the park every afternoon.",
+  "full_sentence": "When I was a child, I used to play in the park every afternoon.",
+  "acceptable_variants": ["go to the park every afternoon.", "spend every afternoon in the park."],
+  "options": [
+    {"text": "I played in the park once last week.", "is_correct": false, "why_wrong": "This describes a single past event, not a repeated past habit, so 'used to' does not fit."},
+    {"text": "I am going to play in the park tomorrow.", "is_correct": false, "why_wrong": "This is a future plan, but 'used to' describes past habits."},
+    {"text": "play in the park every afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "playing in the park since last year.", "is_correct": false, "why_wrong": "The present perfect continuous describes an activity that continues now, not a finished past habit."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "'Used to' + base verb for past habits",
+  "connector": "used to",
+  "explanation": "'Used to' is always followed by the base form of a verb and describes a habit or state that no longer happens. Polish speakers often use a simple past or a present tense here, because Polish has no separate form for past habits.",
+  "translation": "Kiedy byłem dzieckiem, zwykłem bawić się w parku każdego popołudnia."
+}

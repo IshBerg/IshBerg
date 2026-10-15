@@ -1,0 +1,14 @@
+{
+  "trigger_word": "smile",
+  "all_words": [
+    {"word": "happy", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Uśmiech zwykle pokazuje, że ktoś jest szczęśliwy, więc słowo happy jest z nim znaczeniowo powiązane."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Stół nie ma żadnego związku z uśmiechem ani z emocjami."},
+    {"word": "laugh", "is_associated": true, "association_type": "THEMATIC", "explanation": "Uśmiech i śmiech należą do tego samego tematu reakcji na coś zabawnego."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Most to konstrukcja, która nie ma związku z uczuciami ani wyrazem twarzy."},
+    {"word": "friendly", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Przyjazny człowiek często się uśmiecha, więc przymiotnik friendly jest powiązany z uśmiechem."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek jest przedmiotem do pisania i nie ma związku z uśmiechem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z trigger word smile dotyczą uczuć i reakcji na twarzy, takich jak szczęście, śmiech i przyjazne nastawienie. Pozostałe słowa to przedmioty bez takiego związku."
+}
