@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom never eats breakfast, so",
+  "correct_completion": "he is often hungry at school.",
+  "full_sentence": "Tom never eats breakfast, so he is often hungry at school.",
+  "acceptable_variants": ["he often feels tired in class.", "he gets hungry before lunch."],
+  "options": [
+    {"text": "he always eats two breakfasts.", "is_correct": false, "why_wrong": "This contradicts 'never' and does not show a result of skipping breakfast."},
+    {"text": "he sometimes likes cereal.", "is_correct": false, "why_wrong": "This describes a preference, not a result. 'So' needs a consequence of Tom not eating breakfast."},
+    {"text": "he is often hungry at school.", "is_correct": true, "why_wrong": null},
+    {"text": "he usually goes to bed early.", "is_correct": false, "why_wrong": "This is not a result of skipping breakfast, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Adverbs of frequency with the result connector 'so'",
+  "connector": "so",
+  "explanation": "After 'so', the sentence needs a result of the first clause. Tom never eats breakfast, so the result is that he is often hungry. The adverb 'often' goes between the verb 'is' and the adjective 'hungry'.",
+  "translation": "Том ніколи не снідає, тому він часто голодний у школі."
+}
