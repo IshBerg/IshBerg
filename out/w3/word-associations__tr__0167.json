@@ -1,0 +1,14 @@
+{
+  "trigger_word": "computer",
+  "all_words": [
+    {"word": "keyboard", "is_associated": true, "association_type": "THEMATIC", "explanation": "Klavye, bilgisayarla birlikte kullanılan temel bir giriş aygıtıdır."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmek bilgisayar konusuyla ilgili değildir; yiyecek kategorisine aittir."},
+    {"word": "screen", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ekran, bilgisayarın görüntüyü gösteren parçasıdır ve doğrudan bu kelimeyle anlam bağı kurar."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "Şemsiye hava durumuyla ilgilidir ama bilgisayar kavramıyla bir bağlantısı yoktur."},
+    {"word": "software", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Yazılım, 'computer software' ifadesinde sıkça birlikte kullanılan bir kelimedir."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Ağaç doğa kategorisine aittir ve bilgisayar konusuyla ilgili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bilgisayarla ilgili kelimeler klavye, ekran ve yazılımdır; ekmek, şemsiye ve ağaç ise bu konuyla bir bağlantı kurmaz."
+}
