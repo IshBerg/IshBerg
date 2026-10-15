@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "dres", "transliteration": "dres", "meaning": "tracksuit (looks like 'dress')"},
+    {"word": "kolonia", "transliteration": "kolonia", "meaning": "summer camp for children (looks like 'colony')"},
+    {"word": "sala", "transliteration": "sala", "meaning": "gym hall (looks like 'sale')"},
+    {"word": "magazyn", "transliteration": "magazyn", "meaning": "storehouse (looks like 'magazine')"}
+  ],
+  "english_words": ["summer camp", "storehouse", "tracksuit", "gym hall"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Polish word looks or sounds like an English word that has a different meaning, so the apparent match is misleading and the student must learn the real meaning.",
+  "false_friend_warning": "Several Polish words look like English words but mean something different: the Polish word transliterated as dres sounds like 'dress' but means a tracksuit, and the word kolonia looks like 'colony' but means a summer camp for children."
+}

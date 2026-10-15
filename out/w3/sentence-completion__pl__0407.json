@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the bus was late,",
+  "correct_completion": "we walked to school.",
+  "full_sentence": "Because the bus was late, we walked to school.",
+  "acceptable_variants": ["we ran to school.", "we called a taxi."],
+  "options": [
+    {"text": "the bus arrived early.", "is_correct": false, "why_wrong": "An early bus would not be late, so this clause does not give the reason for the bus being late."},
+    {"text": "we walked to school.", "is_correct": true, "why_wrong": null},
+    {"text": "although it was sunny.", "is_correct": false, "why_wrong": "'Although' shows contrast, but 'because' needs a cause. The clause does not give the result of the lateness."},
+    {"text": "we will walk yesterday.", "is_correct": false, "why_wrong": "This has a tense conflict: 'will' refers to the future, but 'yesterday' refers to the past."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the cause, and the main clause gives the result. Polish speakers may place the result first, but English keeps the cause clause at the start here.",
+  "translation": "Ponieważ autobus się spóźnił, poszliśmy do szkoły pieszo."
+}
