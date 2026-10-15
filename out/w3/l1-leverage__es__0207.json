@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive (easily hurt emotionally)"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"},
+    {"word": "éxito", "transliteration": "exito", "meaning": "success"}
+  ],
+  "english_words": ["folder", "success", "sensitive", "bookstore"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages took these words from Latin, so the spelling looks similar, but over time the meanings drifted apart. Some look-alike pairs keep the same sense, while others, like the Spanish word for 'sensitive' that resembles the English word 'sensible', now point to different meanings.",
+  "false_friend_warning": "Warning: the Spanish word for 'sensitive' looks like the English word 'sensible', which means 'reasonable' or 'practical', so do not translate it as 'sensible'."
+}

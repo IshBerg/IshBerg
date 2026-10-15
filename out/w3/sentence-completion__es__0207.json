@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the editor read the manuscript more carefully,",
+  "correct_completion": "she would have spotted the inconsistencies in the plot.",
+  "full_sentence": "Had the editor read the manuscript more carefully, she would have spotted the inconsistencies in the plot.",
+  "acceptable_variants": ["she would have caught the plot holes.", "she would have noticed the inconsistencies."],
+  "options": [
+    {"text": "she spots the inconsistencies in the plot.", "is_correct": false, "why_wrong": "The present simple does not match the unreal past set by 'Had the editor read'; the main clause needs a conditional perfect."},
+    {"text": "she would spot the inconsistencies in the plot.", "is_correct": false, "why_wrong": "'would spot' is a conditional but not a perfect form, so it cannot refer back to the unrealized past of the condition."},
+    {"text": "she would have spotted the inconsistencies in the plot.", "is_correct": true, "why_wrong": null},
+    {"text": "she has been spotting the inconsistencies in the plot.", "is_correct": false, "why_wrong": "The present perfect continuous describes ongoing action and does not complete an inverted third conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "The inverted third conditional replaces 'If she had read' with 'Had' at the start, so the main clause needs 'would have' plus a past participle. Spanish speakers often drop the perfect auxiliary in this structure, so the main clause must keep both 'have' and the participle.",
+  "translation": "Si la editora hubiera leído el manuscrito con más atención, habría detectado las incoherencias de la trama."
+}
