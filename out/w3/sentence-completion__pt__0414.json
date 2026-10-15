@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The hotel was cheap, but",
+  "correct_completion": "the rooms were clean and comfortable.",
+  "full_sentence": "The hotel was cheap, but the rooms were clean and comfortable.",
+  "acceptable_variants": ["the breakfast was delicious.", "the location was great."],
+  "options": [
+    {"text": "so we booked it again.", "is_correct": false, "why_wrong": "'So' shows a result, but the sentence needs a contrast after 'but'."},
+    {"text": "it was very cheap.", "is_correct": false, "why_wrong": "This repeats the idea in the first clause instead of contrasting with it."},
+    {"text": "the rooms were clean and comfortable.", "is_correct": true, "why_wrong": null},
+    {"text": "we took the bus to the beach.", "is_correct": false, "why_wrong": "This is an unrelated action. It does not contrast with the hotel's price."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the first part of the sentence. Portuguese speakers may repeat the idea from the first clause here, because the same structure is common in their language, but English expects a clause with a different quality.",
+  "translation": "O hotel era barato, mas os quartos eram limpos e confortáveis."
+}
