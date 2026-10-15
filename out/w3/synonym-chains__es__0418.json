@@ -1,0 +1,17 @@
+{
+  "central_word": "good",
+  "chain_words": [
+    {"word": "nice", "intensity": 1, "translation": "agradable", "nuance": "mild, polite approval"},
+    {"word": "good", "intensity": 2, "translation": "bueno", "nuance": "general positive quality"},
+    {"word": "great", "intensity": 3, "translation": "genial", "nuance": "enthusiastic approval"},
+    {"word": "wonderful", "intensity": 4, "translation": "maravilloso", "nuance": "strong admiration and delight"},
+    {"word": "fantastic", "intensity": 5, "translation": "fantástico", "nuance": "exceptionally high praise"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express approval, from a mild, polite compliment to very enthusiastic praise.",
+  "usage_notes": [
+    {"word1": "nice", "word2": "great", "difference": "'Nice' is a mild, polite compliment; 'great' is a stronger and more enthusiastic one."}
+  ],
+  "translations": {"nice": "agradable", "good": "bueno", "great": "genial", "wonderful": "maravilloso", "fantastic": "fantástico"}
+}

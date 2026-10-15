@@ -1,0 +1,14 @@
+{
+  "trigger_word": "park",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Los árboles son parte típica de un parque, así que las dos palabras están relacionadas por su significado."},
+    {"word": "bench", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Park bench' es una combinación habitual en inglés, un banco de parque."},
+    {"word": "bakery", "is_associated": false, "association_type": "NONE", "explanation": "Una panadería es un comercio de comida y no tiene relación con un parque."},
+    {"word": "playground", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las áreas de juegos suelen estar dentro de los parques, así que pertenecen al mismo tema."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "Un ordenador es un objeto de oficina o casa y no se relaciona con un parque."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Un zapato es una prenda de vestir y no tiene conexión con un parque."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'park' son cosas que se encuentran en un parque o forman combinaciones habituales con él."
+}
