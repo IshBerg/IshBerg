@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the novel was written in the nineteenth century,",
+  "correct_completion": "its themes still feel strikingly modern.",
+  "full_sentence": "Although the novel was written in the nineteenth century, its themes still feel strikingly modern.",
+  "acceptable_variants": ["its characters still speak to readers today.", "readers still find its central questions relevant."],
+  "options": [
+    {"text": "the author had never travelled abroad.", "is_correct": false, "why_wrong": "This gives a biographical fact that does not set up a contrast with the novel's date, so the concessive link that 'although' requires is missing."},
+    {"text": "its themes still feel strikingly modern.", "is_correct": true, "why_wrong": null},
+    {"text": "so its themes feel outdated today.", "is_correct": false, "why_wrong": "'So' expresses a result that follows from the date, which would describe cause rather than the concession that 'although' introduces."},
+    {"text": "the publisher released a new edition.", "is_correct": false, "why_wrong": "This describes a publishing event with no contrastive relationship to the novel's age, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and contrast in the main clause",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must present an outcome that goes against what the first part leads us to expect. Learners may reach for a result connector such as 'so', because it feels natural in many languages, but English concession needs an explicit contrast.",
+  "translation": "Chociaż powieść została napisana w XIX wieku, jej tematy wciąż wydają się zaskakująco nowoczesne."
+}
