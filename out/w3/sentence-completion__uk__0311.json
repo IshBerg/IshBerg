@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother never eats breakfast, so",
+  "correct_completion": "he is often hungry at school.",
+  "full_sentence": "My brother never eats breakfast, so he is often hungry at school.",
+  "acceptable_variants": ["he often feels tired in class.", "he is usually hungry before lunch."],
+  "options": [
+    {"text": "he always goes to bed early.", "is_correct": false, "why_wrong": "Going to bed early does not follow as a result of skipping breakfast; 'so' needs a logical consequence of the first clause."},
+    {"text": "he is often hungry at school.", "is_correct": true, "why_wrong": null},
+    {"text": "we usually eat pizza on Friday.", "is_correct": false, "why_wrong": "This describes a different habit and is not a consequence of the first clause, which is about breakfast."},
+    {"text": "he has never been to Spain.", "is_correct": false, "why_wrong": "This is unrelated to breakfast, so it cannot complete the cause-and-effect link that 'so' introduces."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Adverbs of frequency with 'so' to show a result",
+  "connector": "so",
+  "explanation": "The connector 'so' introduces a result, so the second clause must be a logical consequence of skipping breakfast. Adverbs of frequency such as 'often' go before the main verb, here 'is', so the correct structure is 'he is often hungry'. Ukrainian speakers may move the adverb to the end of the clause, which is incorrect in English.",
+  "translation": "Мій брат ніколи не снідає, тому він часто голодний у школі."
+}
