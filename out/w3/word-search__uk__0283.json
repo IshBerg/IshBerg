@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["G","U","E","S","S","A","B","C","D","F"],
+    ["N","O","R","T","H","J","W","Z","V","U"],
+    ["P","A","C","I","M","D","Q","X","K","T"],
+    ["B","H","N","Y","L","E","K","I","L","U"],
+    ["W","S","G","Q","T","F","O","P","C","R"],
+    ["M","D","V","J","Z","N","A","H","U","E"],
+    ["Q","A","L","K","P","W","S","D","B","M"],
+    ["R","T","Y","G","N","O","H","C","E","F"],
+    ["J","K","V","B","Q","A","W","X","I","D"],
+    ["Z","U","P","C","E","L","R","T","O","S"]
+  ],
+  "words_to_find": ["GUESS", "FUTURE", "MAYBE", "LIKELY"],
+  "word_positions": [
+    {"word": "GUESS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FUTURE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "MAYBE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LIKELY", "start_row": 3, "start_col": 8, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Making Predictions"
+}
