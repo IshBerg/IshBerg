@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There isn't much milk left in the fridge, so",
+  "correct_completion": "we need to buy some milk.",
+  "full_sentence": "There isn't much milk left in the fridge, so we need to buy some milk.",
+  "acceptable_variants": ["we should go to the shop for more milk.", "we must buy more milk."],
+  "options": [
+    {"text": "we have many eggs for breakfast.", "is_correct": false, "why_wrong": "This is a fact about breakfast, but it does not follow as a result of the small amount of milk."},
+    {"text": "the fridge is very big.", "is_correct": false, "why_wrong": "This describes the fridge, but it does not give a logical result of having little milk left."},
+    {"text": "we need to buy some milk.", "is_correct": true, "why_wrong": null},
+    {"text": "we will drink many milks.", "is_correct": false, "why_wrong": "'Milk' is usually uncountable, so 'many milks' is incorrect here, and drinking more does not follow from having little left."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifier 'much' with uncountable nouns, and 'so' to show a result",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result: because there is little milk left, we need to buy more. The quantifier 'much' is used with uncountable nouns such as 'milk' in negative sentences, while 'many' is used with countable nouns. Learners whose first language does not separate these noun types may tend to use 'many' with every noun, so it helps to memorize which nouns are uncountable.",
+  "translation": "Dolapta pek fazla süt kalmadı, bu yüzden biraz süt almamız gerekiyor."
+}
