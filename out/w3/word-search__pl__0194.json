@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "Q", "U", "A", "R", "E", "X", "M", "C"],
+    ["K", "P", "D", "W", "Z", "J", "B", "N", "I"],
+    ["T", "R", "I", "A", "N", "G", "L", "E", "R"],
+    ["H", "Y", "F", "U", "Q", "K", "M", "O", "C"],
+    ["S", "B", "F", "Y", "W", "Q", "P", "K", "L"],
+    ["D", "T", "X", "V", "L", "R", "Q", "Z", "E"],
+    ["M", "K", "A", "A", "J", "W", "Y", "N", "H"],
+    ["P", "Z", "V", "R", "G", "L", "T", "K", "B"],
+    ["F", "O", "Q", "W", "S", "D", "M", "Y", "J"]
+  ],
+  "words_to_find": ["SQUARE", "CIRCLE", "TRIANGLE", "STAR", "OVAL"],
+  "word_positions": [
+    {"word": "SQUARE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CIRCLE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TRIANGLE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STAR", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "OVAL", "start_row": 8, "start_col": 1, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Shapes"
+}
