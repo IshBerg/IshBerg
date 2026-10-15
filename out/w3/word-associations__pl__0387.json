@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "debate", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Debata to rozmowa, w której ludzie przedstawiają różne argumenty, więc ma bezpośredni związek ze słowem argument."},
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dowody są tematycznie powiązane z argumentem, ponieważ służą do jego poparcia."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "Parasol nie ma żadnego związku z argumentowaniem; to przedmiot używany podczas deszczu."},
+    {"word": "premise", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Przesłanka to założenie, na którym opiera się argument, więc jest semantycznie związana z tym słowem."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitara nie ma związku z dyskusją ani argumentacją; to instrument muzyczny."},
+    {"word": "rhetoric", "is_associated": true, "association_type": "THEMATIC", "explanation": "Retoryka to sztuka przekonywania, która jest tematycznie związana z budowaniem argumentów."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo argument kojarzy się z debatą, dowodami, przesłankami i retoryką, natomiast parasol i gitara nie mają z nim związku."
+}

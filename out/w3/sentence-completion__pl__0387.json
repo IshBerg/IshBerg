@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before we leave the shop,",
+  "correct_completion": "we need to check the list.",
+  "full_sentence": "Before we leave the shop, we need to check the list.",
+  "acceptable_variants": ["we need to pay for the items.", "we should look for the cashier."],
+  "options": [
+    {"text": "we left the list at home.", "is_correct": false, "why_wrong": "The past tense describes a finished event, so it does not give a plan for the time before leaving the shop."},
+    {"text": "the shop is closed now.", "is_correct": false, "why_wrong": "This is a statement about the shop, but it does not complete the 'before' clause with an action we do before leaving."},
+    {"text": "we need to check the list.", "is_correct": true, "why_wrong": null},
+    {"text": "because we are very hungry.", "is_correct": false, "why_wrong": "'Because' introduces a reason, not a time sequence, so it does not complete the 'before' clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', the main clause should show an action that happens first in time. Checking the list before leaving the shop is the logical sequence here.",
+  "translation": "Zanim wyjdziemy ze sklepu, musimy sprawdzić listę zakupów."
+}
