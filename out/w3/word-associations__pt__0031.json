@@ -1,0 +1,14 @@
+{
+  "trigger_word": "winter",
+  "all_words": [
+    {"word": "snow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Neve é uma das características mais típicas do inverno, por isso está fortemente ligada à palavra 'winter'."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Teclado é um objeto de computador e não tem nenhuma relação com a estação do inverno."},
+    {"word": "scarf", "is_associated": true, "association_type": "THEMATIC", "explanation": "Cachecol é uma peça de roupa usada para se proteger do frio durante o inverno."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Vulcão está ligado a calor e lava, não ao inverno."},
+    {"word": "coat", "is_associated": true, "association_type": "THEMATIC", "explanation": "Casaco é uma roupa muito comum no inverno, quando faz frio."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bicicleta é um meio de transporte que não depende da estação do ano."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao inverno são neve, cachecol e casaco, que fazem parte do frio e das roupas da estação; teclado, vulcão e bicicleta não têm relação com ela."
+}
