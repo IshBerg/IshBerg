@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the novel win an award,",
+  "correct_completion": "but it also changed how critics thought about the genre.",
+  "full_sentence": "Not only did the novel win an award, but it also changed how critics thought about the genre.",
+  "acceptable_variants": ["but it also influenced a generation of writers.", "but it also reshaped the way readers judged the genre."],
+  "options": [
+    {"text": "so it was sold in many countries.", "is_correct": false, "why_wrong": "'So' signals a result, not the second item of the 'not only ... but also' pattern that the stem sets up."},
+    {"text": "and the author was quite tired.", "is_correct": false, "why_wrong": "'And' does not complete the correlative pattern. The sentence needs 'but also' to introduce a second, stronger point."},
+    {"text": "but it also changed how critics thought about the genre.", "is_correct": true, "why_wrong": null},
+    {"text": "because it was very long.", "is_correct": false, "why_wrong": "'Because' gives a cause, which does not fit the 'not only ... but also' pattern that expects a parallel addition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Correlative conjunctions 'not only ... but also' with inverted auxiliary",
+  "connector": "not only",
+  "explanation": "After 'not only' with an inverted auxiliary, the second half must be introduced by 'but also' and must add a parallel, stronger point. Learners often drop the 'also' or reach for a cause clause, which breaks the structure.",
+  "translation": "Roman yalnızca bir ödül kazanmakla kalmadı, aynı zamanda eleştirmenlerin türe bakışını da değiştirdi."
+}
