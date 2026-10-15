@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My hair was too long, so I",
+  "correct_completion": "had it cut at the salon.",
+  "full_sentence": "My hair was too long, so I had it cut at the salon.",
+  "acceptable_variants": ["got it cut by a hairdresser.", "had it trimmed yesterday."],
+  "options": [
+    {"text": "cut it myself at home.", "is_correct": false, "why_wrong": "This shows the speaker doing the action personally. The causative 'have something done' needs 'had it cut' to show that someone else did the job."},
+    {"text": "had it cut at the salon.", "is_correct": true, "why_wrong": null},
+    {"text": "I will cut it yesterday.", "is_correct": false, "why_wrong": "'Will' cannot be used with the past marker 'yesterday' in the same clause."},
+    {"text": "I had cut it by the salon.", "is_correct": false, "why_wrong": "Ungrammatical: 'by the salon' cannot follow a past-tense active verb here. Use 'had it cut at the salon' for the causative meaning."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have something done' (have + object + past participle)",
+  "connector": "so",
+  "explanation": "The causative 'have something done' shows that the subject arranges for someone else to perform the action. The pattern is have + object + past participle, so 'had it cut' is correct. Portuguese speakers often use an active verb with 'I' as the subject here, because the first language usually expresses this idea with a different structure.",
+  "translation": "Meu cabelo estava comprido demais, então eu o mandei cortar no salão."
+}
