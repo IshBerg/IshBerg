@@ -1,0 +1,14 @@
+{
+  "trigger_word": "novel",
+  "all_words": [
+    {"word": "chapter", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um romance (novel) é dividido em capítulos (chapters)."},
+    {"word": "author", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Todo romance tem um autor, que é a pessoa que o escreveu."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Engine (motor) não tem nenhuma relação com livros ou romances."},
+    {"word": "library", "is_associated": true, "association_type": "THEMATIC", "explanation": "Romances são normalmente guardados e emprestados em bibliotecas (libraries)."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "Carrot (cenoura) é um vegetal e não tem ligação com a literatura."},
+    {"word": "plot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O plot (enredo) é a sequência de eventos que forma a história de um romance."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'novel' são elementos de um romance (capítulos, autor, enredo) ou o lugar onde ele fica (biblioteca); 'engine' e 'carrot' não têm relação com o tema."
+}
