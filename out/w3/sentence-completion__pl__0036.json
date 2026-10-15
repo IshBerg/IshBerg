@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The shop was closed because",
+  "correct_completion": "the owner was ill that day.",
+  "full_sentence": "The shop was closed because the owner was ill that day.",
+  "acceptable_variants": ["the staff were on holiday.", "there was a power cut in the street."],
+  "options": [
+    {"text": "it opened early in the morning.", "is_correct": false, "why_wrong": "An early opening would not explain why the shop was closed, so the cause clause does not fit the stem."},
+    {"text": "the sun was shining brightly.", "is_correct": false, "why_wrong": "Sunshine does not explain why a shop would be closed; 'because' needs a real cause for the closure."},
+    {"text": "we bought some bread there.", "is_correct": false, "why_wrong": "This describes a visit to the shop, which contradicts the idea that it was closed."},
+    {"text": "the owner was ill that day.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the clause must give the reason for the first part of the sentence. Learners sometimes choose a clause that describes the situation instead of its cause, so check that the clause explains the closure.",
+  "translation": "Sklep był zamknięty, ponieważ właściciel tego dnia był chory."
+}
