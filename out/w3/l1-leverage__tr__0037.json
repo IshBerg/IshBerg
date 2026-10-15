@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "zebra", "transliteration": "zebra", "meaning": "a striped African animal that looks like a horse"},
+    {"word": "hipopotam", "transliteration": "hipopotam", "meaning": "a large river animal with a wide mouth"},
+    {"word": "goril", "transliteration": "goril", "meaning": "a large, strong ape from Africa"},
+    {"word": "antilop", "transliteration": "antilop", "meaning": "a fast, graceful animal with horns"}
+  ],
+  "english_words": ["antelope", "gorilla", "zebra", "hippopotamus"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these animal names from the same European and classical sources, so the forms stayed close.",
+  "false_friend_warning": null
+}

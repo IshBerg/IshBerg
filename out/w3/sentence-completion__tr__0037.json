@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the bus was late,",
+  "correct_completion": "we arrived at the meeting on time.",
+  "full_sentence": "Although the bus was late, we arrived at the meeting on time.",
+  "acceptable_variants": ["we still reached the meeting before it started.", "everyone was ready when we came in."],
+  "options": [
+    {"text": "so we missed the meeting entirely.", "is_correct": false, "why_wrong": "'Although' signals contrast, so a result of missing the meeting does not complete the contrast. It describes a cause and effect instead."},
+    {"text": "the bus was late again.", "is_correct": false, "why_wrong": "This repeats the first clause instead of giving the contrasting action that 'although' expects."},
+    {"text": "we arrived at the meeting on time.", "is_correct": true, "why_wrong": null},
+    {"text": "we decided to walk home instead.", "is_correct": false, "why_wrong": "This introduces a new decision that is unrelated to arriving at the meeting, so it does not complete the contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. The main clause should describe a result that is surprising given the late bus.",
+  "translation": "Otobüs geç kalmasına rağmen toplantıya zamanında vardık."
+}
