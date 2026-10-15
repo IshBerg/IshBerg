@@ -1,0 +1,13 @@
+{
+  "codename": "SILENT QUILL",
+  "briefing": "Agent, we have intercepted a set of news reports that must be decoded. Match each English term to its Spanish meaning to uncover the hidden connections before the story goes to print.",
+  "connection_mode": "vocabulary",
+  "difficulty": "hard",
+  "pairs": [
+    {"left": "headline", "right": "titular", "left_style": "newspaper", "right_style": "handwritten"},
+    {"left": "source", "right": "fuente", "left_style": "photo", "right_style": "newspaper"},
+    {"left": "witness", "right": "testigo", "left_style": "official", "right_style": "document"},
+    {"left": "report", "right": "informe", "left_style": "document", "right_style": "photo"},
+    {"left": "editor", "right": "redactor", "left_style": "handwritten", "right_style": "official"}
+  ]
+}
