@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child, I used to",
+  "correct_completion": "play in the park every afternoon.",
+  "full_sentence": "When I was a child, I used to play in the park every afternoon.",
+  "acceptable_variants": ["ride my bike around the neighbourhood.", "spend hours outside with my friends."],
+  "options": [
+    {"text": "to play in the park every afternoon.", "is_correct": false, "why_wrong": "'Used to' is followed directly by the base verb, so 'to' must not be repeated after it."},
+    {"text": "playing in the park every afternoon.", "is_correct": false, "why_wrong": "After 'used to' the verb must be in the base form, not the -ing form."},
+    {"text": "play in the park every afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "I have played in the park every afternoon.", "is_correct": false, "why_wrong": "'Used to' is not followed by a present perfect auxiliary; adding 'have' breaks the structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Used to + base verb for past habits and states",
+  "connector": "used to",
+  "explanation": "The structure 'used to' is followed by the base form of the verb to describe a past habit that no longer continues. Learners often add an extra word or an -ing form after it, which is incorrect.",
+  "translation": "Kiedy byłem dzieckiem, zwykłem bawić się w parku każdego popołudnia."
+}

@@ -1,0 +1,13 @@
+{
+  "start_word": "spotless",
+  "end_word": "filthy",
+  "ladder_steps": [
+    {"word": "spotless", "translation": "nieskazitelnie czysty", "intensity_level": 1},
+    {"word": "clean", "translation": "czysty", "intensity_level": 2},
+    {"word": "dusty", "translation": "zakurzony", "intensity_level": 3},
+    {"word": "dirty", "translation": "brudny", "intensity_level": 4},
+    {"word": "filthy", "translation": "obrzydliwie brudny", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Cleanliness words form a ladder from the most spotless to the most filthy, each step slightly less clean than the one before."
+}

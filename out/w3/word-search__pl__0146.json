@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "W", "E", "E", "P", "K", "J", "B", "M"],
+    ["Z", "Q", "F", "H", "L", "T", "V", "G", "O"],
+    ["C", "K", "Y", "W", "B", "A", "N", "J", "P"],
+    ["L", "T", "D", "M", "F", "H", "G", "Y", "X"],
+    ["D", "R", "B", "K", "W", "Z", "F", "Q", "J"],
+    ["P", "U", "C", "L", "V", "H", "K", "N", "T"],
+    ["Y", "X", "S", "M", "B", "J", "O", "K", "D"],
+    ["W", "G", "Q", "T", "E", "R", "L", "C", "Z"],
+    ["B", "N", "H", "K", "I", "V", "D", "S", "U"]
+  ],
+  "words_to_find": ["SWEEP", "MOP", "DUST", "IRON"],
+  "word_positions": [
+    {"word": "SWEEP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MOP", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DUST", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "IRON", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Household Chores"
+}
