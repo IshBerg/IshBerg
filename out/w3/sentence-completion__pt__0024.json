@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The report was published last month, and the findings were questioned by several experts,",
+  "correct_completion": "which means the conclusions have not yet been fully accepted.",
+  "full_sentence": "The report was published last month, and the findings were questioned by several experts, which means the conclusions have not yet been fully accepted.",
+  "acceptable_variants": ["so the conclusions are still being debated.", "meaning the results remain open to challenge."],
+  "options": [
+    {"text": "which was written by a famous scientist.", "is_correct": false, "why_wrong": "This adds a fact about authorship but does not explain what the questioning of the findings means."},
+    {"text": "which means the conclusions have not yet been fully accepted.", "is_correct": true, "why_wrong": null},
+    {"text": "which has been confirmed by all the experts.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the findings were questioned by several experts."},
+    {"text": "which was printed in a local newspaper.", "is_correct": false, "why_wrong": "This describes where the report appeared, not what the questioning of the findings implies."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Passive voice in reports: 'were questioned' and 'has been confirmed'",
+  "connector": "which",
+  "explanation": "The first clause uses a passive form ('were questioned'), so the completion must continue the logic of the report. Portuguese speakers may translate the passive too literally, but English reports often keep the passive for the process being described.",
+  "translation": "O relatório foi publicado no mês passado, e as conclusões foram questionadas por vários especialistas, o que significa que elas ainda não foram totalmente aceitas."
+}
