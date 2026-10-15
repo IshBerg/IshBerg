@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ball",
+  "all_words": [
+    {"word": "kick", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês, 'kick a ball' (chutar a bola) é uma combinação muito comum entre a ação e o objeto."},
+    {"word": "pen", "is_associated": false, "association_type": "NONE", "explanation": "'Pen' (caneta) é um objeto de escrita e não tem relação com bolas ou brincadeiras."},
+    {"word": "game", "is_associated": true, "association_type": "THEMATIC", "explanation": "A bola é um brinquedo muito usado em jogos, por isso as duas palavras pertencem ao mesmo tema."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "'Bread' (pão) é um alimento e não tem nenhuma ligação com a bola."},
+    {"word": "bat", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Bat' (taco) é usado para rebater a bola no beisebol, então os sentidos das duas palavras se conectam."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "'Window' (janela) não tem relação com o jogo de bola, mesmo que uma bola possa quebrá-la."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A bola (ball) está ligada a jogos, esportes e ações como chutar e rebater, mas não a objetos sem relação com brincadeiras."
+}
