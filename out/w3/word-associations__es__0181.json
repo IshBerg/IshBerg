@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Símil' (simile) es una figura retórica que compara dos cosas con 'como' o 'parecido a', por eso está directamente relacionado con la metáfora."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "'Bicicleta' es un vehículo y no tiene ninguna relación con las figuras retóricas."},
+    {"word": "poem", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un poema suele contener metáforas, así que es un contexto temático habitual para este término."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "'Ventana' es un objeto de la casa y no pertenece al campo de la retórica."},
+    {"word": "comparison", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Comparación' es la idea central de la metáfora: relacionar dos cosas distintas para expresar un significado."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "'Lluvia' es un fenómeno meteorológico y no tiene relación con el lenguaje figurado."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'metaphor' pertenecen al campo de la retórica y la literatura: las figuras del lenguaje, los textos literarios y la idea de comparación."
+}

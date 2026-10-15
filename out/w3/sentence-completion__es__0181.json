@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee reviewed the evidence more carefully,",
+  "correct_completion": "the error would have been detected earlier.",
+  "full_sentence": "Had the committee reviewed the evidence more carefully, the error would have been detected earlier.",
+  "acceptable_variants": ["the mistake would have been spotted sooner.", "the problem would have come to light much earlier."],
+  "options": [
+    {"text": "it is likely that the error would be found.", "is_correct": false, "why_wrong": "The stem requires a hypothetical past result. 'Is likely' with a present structure does not match the third conditional."},
+    {"text": "the error was found yesterday.", "is_correct": false, "why_wrong": "This states a real past event, not the unreal result that the inverted conditional introduces."},
+    {"text": "the error would have been detected earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee will review the evidence again.", "is_correct": false, "why_wrong": "This introduces a new future action instead of completing the hypothetical past result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' (no 'if')",
+  "connector": "had + subject (inverted if)",
+  "explanation": "The inverted third conditional replaces 'if' with 'had' before the subject. The main clause needs 'would have' plus a past participle to describe an unreal past situation. Learners whose first language expresses this with a different verb structure often choose a simple past or future form here.",
+  "translation": "Si el comité hubiera revisado las pruebas con más cuidado, el error se habría detectado antes."
+}
