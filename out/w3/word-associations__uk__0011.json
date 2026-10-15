@@ -1,0 +1,14 @@
+{
+  "trigger_word": "newspaper",
+  "all_words": [
+    {"word": "headline", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Заголовок є однією з головних частин газети, тому слово тісно пов'язане з тригерним словом."},
+    {"word": "editor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Редактор готує матеріали для газети, тому слово належить до тієї самої сфери."},
+    {"word": "print", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення newspaper print означає друковану версію газети, тому слова часто вживаються разом."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не має жодного зв'язку з газетами чи їх виданням."},
+    {"word": "battery", "is_associated": false, "association_type": "NONE", "explanation": "Батарея належить до техніки і не пов'язана з друкованими виданнями."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Гітара належить до музичної сфери і не має відношення до газет."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово newspaper асоціюється зі створенням і друком газет, тому правильними є заголовок, редактор і друк, тоді як техніка і музика до теми не належать."
+}
