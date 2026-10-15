@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "éxito", "transliteration": "exito", "meaning": "success"},
+    {"word": "sala", "transliteration": "sala", "meaning": "living room"}
+  ],
+  "english_words": ["bookshop", "success", "living room", "folder"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Spanish and English share many roots from Latin, so some words look alike on the surface, but over time their meanings drifted apart. The similar look can mislead English learners into guessing the wrong meaning.",
+  "false_friend_warning": "Careful: the Spanish word for bookshop looks like the English word 'library', but it does not mean library. Also, the Spanish word for living room looks like the English word 'sale', but it has no connection to a sale."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Right now, my friends and I",
+  "correct_completion": "are at the park.",
+  "full_sentence": "Right now, my friends and I are at the park.",
+  "acceptable_variants": ["are playing football together.", "are sitting under a tree."],
+  "options": [
+    {"text": "is at the park.", "is_correct": false, "why_wrong": "'My friends and I' is a plural subject, so it needs the plural form 'are', not 'is'."},
+    {"text": "are at the park.", "is_correct": true, "why_wrong": null},
+    {"text": "was at the park.", "is_correct": false, "why_wrong": "'Right now' signals the present, so the past form 'was' does not fit."},
+    {"text": "am at the park.", "is_correct": false, "why_wrong": "'Am' goes only with 'I' as a single subject; with a compound subject that includes 'I', the verb must still be 'are'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present tense of 'to be' with compound subjects",
+  "connector": "right now",
+  "explanation": "The verb 'to be' must agree with the whole subject, and a subject joined by 'and' is plural even when one of its parts is 'I'. Spanish speakers may expect one verb form to work for every person, but English requires the plural form 'are' here.",
+  "translation": "Ahora mismo, mis amigos y yo estamos en el parque."
+}
