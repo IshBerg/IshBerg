@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bridge was built in 1990, and",
+  "correct_completion": "it is still used by thousands of people every day.",
+  "full_sentence": "The bridge was built in 1990, and it is still used by thousands of people every day.",
+  "acceptable_variants": ["it still carries cars across the river today.", "it remains open to traffic even now."],
+  "options": [
+    {"text": "it are still used by thousands of people every day.", "is_correct": false, "why_wrong": "The subject 'it' takes the singular verb 'is', not 'are'."},
+    {"text": "tomorrow it will be painted by students.", "is_correct": false, "why_wrong": "This describes a future event with no link to the bridge being used, so the sentence does not continue logically."},
+    {"text": "it is still used by thousands of people every day.", "is_correct": true, "why_wrong": null},
+    {"text": "it was not finished in 1990 at all.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the bridge was built in 1990, so it does not complete the idea."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present simple passive voice after a past event",
+  "connector": "and",
+  "explanation": "After 'and', the second clause must continue the idea of the bridge with a logical, grammatically correct present passive verb phrase. Options that change the time frame or break subject-verb agreement do not fit.",
+  "translation": "A ponte foi construída em 1990, e ainda é usada por milhares de pessoas todos os dias."
+}
