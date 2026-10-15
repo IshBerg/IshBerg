@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "snow", "is_associated": false, "association_type": "NONE", "explanation": "Kar soğuk havayla ilgilidir ve güneşin ışığı ya da sıcaklığıyla doğrudan bir bağlantısı yoktur."},
+    {"word": "ray", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Güneş ışını, güneşin ışığının doğrudan bir parçasıdır."},
+    {"word": "cucumber", "is_associated": false, "association_type": "NONE", "explanation": "Salatalık sadece bir sebzedir ve güneşle anlamsal ya da tematik bir ilişkisi yoktur."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Plaj, insanların güneşin tadını çıkardığı yerlerden biri olduğu için bu temayla birlikte düşünülür."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "Lamba yapay bir ışık kaynağıdır ve güneşle doğrudan ilişkilendirilmez."},
+    {"word": "sunscreen", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Güneş kremi, güneş ışınlarından korunmak için kullanıldığından 'sun' ile sık birlikte kullanılan bir ifadedir."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Sun' kelimesi güneşin ışığı, sıcaklığı ve güneşten korunma gibi kavramlarla ilişkilendirilir; kar, salatalık ve lamba bu konuya ait değildir."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the team prepared more thoroughly,",
+  "correct_completion": "they would have won the match.",
+  "full_sentence": "Had the team prepared more thoroughly, they would have won the match.",
+  "acceptable_variants": ["they would have scored more goals.", "they might have won the match."],
+  "options": [
+    {"text": "they would win the match now.", "is_correct": false, "why_wrong": "The inverted third conditional refers to an unreal past, so 'now' conflicts with the past time frame set by 'had prepared'."},
+    {"text": "they will have won the match.", "is_correct": false, "why_wrong": "'Will' is used for real future possibilities, but this sentence describes an imagined result of an unreal past condition."},
+    {"text": "they would have won the match.", "is_correct": true, "why_wrong": null},
+    {"text": "they won the match yesterday.", "is_correct": false, "why_wrong": "This states a plain past fact rather than the imagined result of a condition that did not happen."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (had + past participle, then would have + past participle)",
+  "connector": "had (inverted if)",
+  "explanation": "Inverted conditionals drop 'if' and move 'had' to the front of the clause. The main clause then needs 'would have' followed by a past participle. Learners who come from a language with a suffix-based past conditional often simplify this to a plain past or to 'would' alone, which loses the past reference.",
+  "translation": "Takım daha titiz hazırlanmış olsaydı, maçı kazanmış olurdu."
+}
