@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Long after the house had been sold,",
+  "correct_completion": "I still dreamed of its creaking staircase.",
+  "full_sentence": "Long after the house had been sold, I still dreamed of its creaking staircase.",
+  "acceptable_variants": ["my memories of its creaking staircase remained vivid.", "I could still hear the wind through its old shutters."],
+  "options": [
+    {"text": "the house was sold to a developer.", "is_correct": false, "why_wrong": "This repeats the sale already implied by the stem and does not complete the sense of lingering attachment."},
+    {"text": "so I never visited the town again.", "is_correct": false, "why_wrong": "'So' signals a consequence, but the stem sets up a sense of enduring memory rather than an outcome."},
+    {"text": "I still dreamed of its creaking staircase.", "is_correct": true, "why_wrong": null},
+    {"text": "its paint was peeling badly.", "is_correct": false, "why_wrong": "This describes the house's condition but does not complete the temporal clause or the sense of persistence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Temporal clauses with 'long after' and the main clause expressing what persists",
+  "connector": "long after",
+  "explanation": "After a temporal clause such as 'long after', the main clause should describe what continues or lingers, so the completion must express enduring memory. Spanish speakers sometimes translate 'long after' literally and then choose a plain past tense that does not fit the lingering sense here.",
+  "translation": "Mucho tiempo después de que la casa hubiera sido vendida, todavía soñaba con su escalera que crujía."
+}

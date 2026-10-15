@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "música", "transliteration": "musica", "meaning": "music"},
+    {"word": "piano", "transliteration": "piano", "meaning": "piano"},
+    {"word": "talento", "transliteration": "talento", "meaning": "talent"},
+    {"word": "atleta", "transliteration": "atleta", "meaning": "athlete"}
+  ],
+  "english_words": ["piano", "athlete", "music", "talent"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin and Greek sources, so the spelling stays close.",
+  "false_friend_warning": null
+}
