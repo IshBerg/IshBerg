@@ -1,0 +1,14 @@
+{
+  "trigger_word": "letter",
+  "all_words": [
+    {"word": "envelope", "is_associated": true, "association_type": "THEMATIC", "explanation": "O envelope é usado para guardar uma carta, por isso está diretamente ligado a ela no mesmo contexto."},
+    {"word": "stamp", "is_associated": true, "association_type": "THEMATIC", "explanation": "O selo é colocado no envelope para enviar uma carta pelo correio, então pertence ao mesmo universo."},
+    {"word": "dear", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Dear' é a palavra usada no início de uma carta formal ou informal, como em 'Dear Sir', por isso forma uma colocação comum."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "A montanha é um fenômeno geográfico e não tem nenhuma relação com cartas ou com o ato de escrever."},
+    {"word": "sincerely", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Sincerely' é usado no fim de uma carta formal, antes da assinatura, por isso se associa a ela."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "A bicicleta é um meio de transporte e não tem ligação com cartas nem com correspondência."}
+  ],
+  "correct_indices": [0, 1, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'letter' pertencem ao universo da correspondência escrita, como envelope, selo e as fórmulas de abertura e fechamento de uma carta, enquanto as demais não pertencem a esse contexto."
+}

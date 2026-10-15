@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "K", "Q", "W", "M", "B", "R", "T", "Z"],
+    ["O", "L", "A", "P", "H", "C", "E", "Y", "N"],
+    ["F", "E", "V", "B", "U", "I", "W", "K", "D"],
+    ["T", "D", "L", "S", "G", "Z", "M", "A", "O"],
+    ["Q", "X", "A", "E", "T", "H", "P", "R", "W"],
+    ["H", "J", "M", "N", "K", "Y", "I", "L", "X"],
+    ["B", "C", "L", "V", "D", "F", "A", "W", "P"],
+    ["R", "G", "O", "H", "Z", "Q", "K", "T", "M"],
+    ["U", "N", "I", "Y", "J", "D", "B", "S", "C"]
+  ],
+  "words_to_find": ["WELL", "HOME", "SELF", "MADE", "LONG"],
+  "word_positions": [
+    {"word": "WELL", "start_row": 0, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "HOME", "start_row": 4, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "SELF", "start_row": 4, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "MADE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "LONG", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Compound Adjectives"
+}
