@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["N", "E", "W", "S", "K", "L", "M", "Q", "E"],
+    ["B", "F", "G", "H", "J", "K", "L", "Z", "D"],
+    ["S", "X", "C", "V", "B", "N", "M", "Q", "I"],
+    ["A", "T", "G", "H", "J", "K", "L", "V", "T"],
+    ["F", "U", "O", "Z", "C", "X", "B", "I", "O"],
+    ["M", "Q", "W", "R", "A", "J", "G", "D", "R"],
+    ["K", "N", "H", "L", "Y", "P", "T", "E", "U"],
+    ["P", "R", "E", "S", "S", "K", "M", "O", "Q"],
+    ["B", "V", "D", "F", "G", "H", "J", "L", "X"]
+  ],
+  "words_to_find": ["NEWS", "EDITOR", "STORY", "PRESS", "VIDEO"],
+  "word_positions": [
+    {"word": "NEWS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EDITOR", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "STORY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PRESS", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VIDEO", "start_row": 3, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Media and Journalism"
+}
