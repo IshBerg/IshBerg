@@ -1,0 +1,21 @@
+{
+  "sentence_stem": "While the preliminary results appear to support the hypothesis,",
+  "correct_completion": "they should nonetheless be interpreted with caution, given the small sample size.",
+  "full_sentence": "While the preliminary results appear to support the hypothesis, they should nonetheless be interpreted with caution, given the small sample size.",
+  "acceptable_variants": [
+    "they do not yet establish it conclusively.",
+    "further replication would be needed before any firm conclusion is drawn."
+  ],
+  "options": [
+    {"text": "they prove the hypothesis beyond any doubt.", "is_correct": false, "why_wrong": "This is an unhedged categorical claim that contradicts the tentative 'appear to' and the qualifying function of 'while'. It would be rejected in academic writing."},
+    {"text": "the researchers therefore conclude that the sample was fully representative.", "is_correct": false, "why_wrong": "This introduces an unrelated claim about sampling that the stem does not set up. The sentence needs a qualification of the results, not a new assertion."},
+    {"text": "they should nonetheless be interpreted with caution, given the small sample size.", "is_correct": true, "why_wrong": null},
+    {"text": "it is clear that no further research is needed.", "is_correct": false, "why_wrong": "This overgeneralizes and closes off inquiry, contrary to the hedged register the stem establishes. Academic qualification would not end discussion this way."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'while' followed by a hedged evaluative clause with 'nonetheless'",
+  "connector": "while",
+  "explanation": "'While' introduces a concession: the first clause grants a partial positive result, and the main clause must qualify its strength rather than endorse it fully. Learners whose first language signals concession with a single word may overuse categorical verbs such as 'prove' here; academic English prefers modal verbs and evaluative phrases such as 'should nonetheless' to keep the claim proportionate.",
+  "translation": "Chociaż wstępne wyniki wydają się potwierdzać hipotezę, należy je mimo to interpretować ostrożnie, biorąc pod uwagę małą próbę badawczą."
+}
