@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the evidence was limited,",
+  "correct_completion": "the author still reached a strong conclusion.",
+  "full_sentence": "Although the evidence was limited, the author still reached a strong conclusion.",
+  "acceptable_variants": ["the author still defended the thesis.", "the researchers still presented a clear claim."],
+  "options": [
+    {"text": "so the author reached a weak conclusion.", "is_correct": false, "why_wrong": "'Although' signals contrast, and 'so' signals cause. This option gives a result that does not contrast with the limited evidence."},
+    {"text": "the author still reached a strong conclusion.", "is_correct": true, "why_wrong": null},
+    {"text": "because the evidence was strong.", "is_correct": false, "why_wrong": "This gives a cause that contradicts the stem, which says the evidence was limited."},
+    {"text": "the evidence was very important.", "is_correct": false, "why_wrong": "This adds a description but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a main clause that contrasts with the first part. In argumentative writing, this structure lets the writer concede a weakness in the evidence while still making a claim.",
+  "translation": "Aunque la evidencia era limitada, el autor aun así llegó a una conclusión sólida."
+}

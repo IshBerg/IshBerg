@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "argumento", "transliteration": "argumento", "meaning": "argument"},
+    {"word": "evidencia", "transliteration": "evidencia", "meaning": "evidence"},
+    {"word": "hipótesis", "transliteration": "hipotesis", "meaning": "hypothesis"},
+    {"word": "metodología", "transliteration": "metodologia", "meaning": "methodology"}
+  ],
+  "english_words": ["hypothesis", "argument", "methodology", "evidence"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these academic words from Latin or Greek, so the spelling and meaning stayed close.",
+  "false_friend_warning": null
+}
