@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["A", "N", "S", "W", "E", "R", "J"],
+    ["F", "U", "Z", "I", "D", "K", "O"],
+    ["T", "Q", "V", "P", "H", "W", "B"],
+    ["A", "C", "Y", "G", "R", "F", "X"],
+    ["L", "Z", "N", "A", "M", "E", "Q"],
+    ["K", "J", "U", "B", "D", "Y", "V"],
+    ["H", "S", "T", "O", "R", "Y", "W"]
+  ],
+  "words_to_find": ["ANSWER", "TALK", "NAME", "JOB", "STORY"],
+  "word_positions": [
+    {"word": "ANSWER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TALK", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "NAME", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "JOB", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "STORY", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Interview Transcripts"
+}
