@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sałata", "transliteration": "salata", "meaning": "lettuce"},
+    {"word": "cebula", "transliteration": "cebula", "meaning": "onion"},
+    {"word": "fasola", "transliteration": "fasola", "meaning": "beans"},
+    {"word": "mandarynka", "transliteration": "mandarynka", "meaning": "tangerine"}
+  ],
+  "english_words": ["beans", "tangerine", "lettuce", "onion"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Polish words for these vegetables and fruit look close to English words that name something else, because both languages borrowed or inherited similar forms but the meanings drifted apart.",
+  "false_friend_warning": "Careful: the Polish word that sounds like the English word 'salad' means lettuce, a leafy green, not a mixed dish of vegetables. Similarly, the Polish word for tangerine looks close to the English word 'mandarin', which is a different thing."
+}
