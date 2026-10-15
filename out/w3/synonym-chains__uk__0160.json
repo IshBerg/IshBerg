@@ -1,0 +1,17 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "unhappy", "intensity": 1, "translation": "нещасливий", "nuance": "mild lack of happiness"},
+    {"word": "sad", "intensity": 2, "translation": "сумний", "nuance": "general feeling of sorrow"},
+    {"word": "miserable", "intensity": 3, "translation": "жалюгідний", "nuance": "very unhappy and uncomfortable"},
+    {"word": "heartbroken", "intensity": 4, "translation": "з розбитим серцем", "nuance": "deep sorrow after a loss"},
+    {"word": "devastated", "intensity": 5, "translation": "спустошений", "nuance": "overwhelming grief or shock"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express sadness but with different intensities, from mild unhappiness to overwhelming grief.",
+  "usage_notes": [
+    {"word1": "unhappy", "word2": "heartbroken", "difference": "'Unhappy' describes a general lack of happiness; 'heartbroken' describes deep sorrow, usually after losing someone or something important."}
+  ],
+  "translations": {"unhappy": "нещасливий", "sad": "сумний", "miserable": "жалюгідний", "heartbroken": "з розбитим серцем", "devastated": "спустошений"}
+}

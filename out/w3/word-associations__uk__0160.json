@@ -1,0 +1,14 @@
+{
+  "trigger_word": "smile",
+  "all_words": [
+    {"word": "happy", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Усмішка зазвичай означає, що людина щаслива."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Клавіатура не пов'язана з усмішкою ні за значенням, ні за вживанням."},
+    {"word": "laugh", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сміх і усмішка — близькі за значенням прояви радості."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Хмара не має жодного стосунку до усмішки."},
+    {"word": "teeth", "is_associated": true, "association_type": "THEMATIC", "explanation": "Зуби видно, коли людина посміхається."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не пов'язаний з усмішкою."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з усмішкою, описують радість або частини обличчя, які видно під час посмішки."
+}
