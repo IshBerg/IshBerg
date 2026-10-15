@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "test",
+  "collocate": "score",
+  "full_collocation": "test score",
+  "options": ["test", "exam", "grade", "mark"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "exam", "reason": "'Exam score' is not a fixed compound in standard English. We usually say 'exam result' or 'exam mark', so 'exam' does not form the compound with 'score'."},
+    {"word": "grade", "reason": "'Grade score' is not a natural compound. 'Grade' is used alone to mean a mark, as in 'a good grade'."},
+    {"word": "mark", "reason": "'Mark score' is not a natural compound. 'Mark' is used on its own for a grade, as in 'full marks'."}
+  ],
+  "example_sentence": "Her ___ score improved a lot after she started studying at home.",
+  "gap_position": 1,
+  "translation": "puntuación de examen",
+  "l1_interference": "Los hispanohablantes a veces invierten el orden de los sustantivos y dicen 'score test' en vez del correcto 'test score'. En inglés, el primer sustantivo funciona como modificador del segundo.",
+  "common_mistake": "score test",
+  "explanation": "In English compound nouns, the first noun modifies the second, so 'test score' is a score that comes from a test. Reversing the order changes the meaning and sounds unnatural.",
+  "related_collocations": [
+    {"collocation": "homework assignment", "translation": "tarea escolar", "example": "The homework assignment is due on Friday."},
+    {"collocation": "study guide", "translation": "guía de estudio", "example": "I used a study guide to prepare for the test."},
+    {"collocation": "report card", "translation": "boletín de calificaciones", "example": "My parents checked my report card carefully."}
+  ],
+  "memory_tip": "The first noun describes the second: TEST SCORE = a score from a test | SCORE TEST = not a standard compound"
+}

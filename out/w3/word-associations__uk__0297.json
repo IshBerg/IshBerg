@@ -1,0 +1,14 @@
+{
+  "trigger_word": "colloquial",
+  "all_words": [
+    {"word": "slang", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сленг є типовим прикладом розмовної лексики, яку використовують у неформальному спілкуванні, тому він тісно пов'язаний із colloquial."},
+    {"word": "informal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово informal означає неформальний стиль, а colloquial описує саме таку розмовну мову, тому між ними є пряма смислова близькість."},
+    {"word": "dictionary", "is_associated": false, "association_type": "NONE", "explanation": "Словник є довідковим джерелом і не пов'язаний із розмовним стилем мовлення, тому це слово не належить до асоціацій з colloquial."},
+    {"word": "chat", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово chat часто вживається в колокаціях на кшталт colloquial chat або casual chat, тому воно поєднується з розмовною мовою."},
+    {"word": "thermometer", "is_associated": false, "association_type": "NONE", "explanation": "Термометр вимірює температуру і не має жодного зв'язку з розмовним стилем, тому це слово не є асоціацією."},
+    {"word": "pavement", "is_associated": false, "association_type": "NONE", "explanation": "Тротуар є фізичним об'єктом міста і не пов'язаний з мовними регістрами, тому це слово не асоціюється з colloquial."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Асоціації з colloquial стосуються неформальної мови та її типових форм, тоді як некоректні варіанти належать до інших сфер: довідкових джерел, вимірювання або міського середовища."
+}
