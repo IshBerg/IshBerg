@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Some people think homework is useful, but",
+  "correct_completion": "many students find it stressful.",
+  "full_sentence": "Some people think homework is useful, but many students find it stressful.",
+  "acceptable_variants": ["others feel it takes up too much of their time.", "some teachers do not agree with them."],
+  "options": [
+    {"text": "homework is always written in English.", "is_correct": false, "why_wrong": "This is a fact about language, not a contrasting opinion about usefulness, so it does not complete the contrast that 'but' requires."},
+    {"text": "many students find it stressful.", "is_correct": true, "why_wrong": null},
+    {"text": "so teachers should give more of it.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. 'But' needs an idea that goes against the first clause."},
+    {"text": "it is usually done at home in the evening.", "is_correct": false, "why_wrong": "This describes when homework happens but does not give an opposing opinion to the idea that it is useful."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "'But' introduces an idea that goes against the first clause. After 'but', the speaker gives an opposing opinion about the same topic, so the completion must contrast with the claim that homework is useful.",
+  "translation": "Bazı insanlar ödevin faydalı olduğunu düşünüyor, ama birçok öğrenci onu stresli buluyor."
+}
