@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R", "E", "B", "U", "T", "K", "Q", "C"],
+    ["P", "W", "Z", "J", "V", "N", "D", "L"],
+    ["A", "S", "K", "F", "H", "D", "Y", "A"],
+    ["R", "Q", "W", "N", "T", "H", "S", "I"],
+    ["G", "D", "Z", "K", "X", "P", "V", "M"],
+    ["U", "B", "N", "F", "J", "Q", "K", "Z"],
+    ["E", "T", "H", "W", "Q", "X", "B", "V"],
+    ["L", "O", "G", "I", "C", "W", "Z", "K"]
+  ],
+  "words_to_find": ["REBUT", "CLAIM", "LOGIC", "ARGUE"],
+  "word_positions": [
+    {"word": "REBUT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAIM", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "LOGIC", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ARGUE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Native-Level Debate and Rebuttal"
+}
