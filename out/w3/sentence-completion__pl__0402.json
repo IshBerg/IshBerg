@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you want to catch the bus,",
+  "correct_completion": "you must arrive at the stop before 8 o'clock.",
+  "full_sentence": "If you want to catch the bus, you must arrive at the stop before 8 o'clock.",
+  "acceptable_variants": ["you should be at the stop by 7:55.", "you need to be early."],
+  "options": [
+    {"text": "you can read the newspaper.", "is_correct": false, "why_wrong": "This does not connect to catching the bus, so the condition and the result do not match."},
+    {"text": "unless the bus is late.", "is_correct": false, "why_wrong": "'Unless' means 'if not', so it turns the condition into a negative and does not give the required action."},
+    {"text": "you must arrive at the stop before 8 o'clock.", "is_correct": true, "why_wrong": null},
+    {"text": "the bus stop is on the map.", "is_correct": false, "why_wrong": "This describes a location but does not complete the conditional result that the stem requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause expresses the real result or necessary action. The completion must state what the person has to do to reach the goal.",
+  "translation": "Jeśli chcesz zdążyć na autobus, musisz przyjść na przystanek przed 8:00."
+}
