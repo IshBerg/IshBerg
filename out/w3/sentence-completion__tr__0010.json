@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "You cannot enter the laboratory",
+  "correct_completion": "unless you have a safety badge.",
+  "full_sentence": "You cannot enter the laboratory unless you have a safety badge.",
+  "acceptable_variants": ["unless you are a registered staff member.", "unless your supervisor gives permission."],
+  "options": [
+    {"text": "so you can take a break.", "is_correct": false, "why_wrong": "'So' signals a result, but the sentence needs a condition that governs entry."},
+    {"text": "unless you have a safety badge.", "is_correct": true, "why_wrong": null},
+    {"text": "even though you are a scientist.", "is_correct": false, "why_wrong": "'Even though' introduces a concession, not the condition that the negative sentence requires."},
+    {"text": "when the lab is open.", "is_correct": false, "why_wrong": "'When' refers to time and does not express the condition under which entry is restricted."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional connector 'unless' expressing the exception to a negative main clause",
+  "connector": "unless",
+  "explanation": "'Unless' sets a condition under which the negative main clause does not hold. Learners may rebuild it as 'if not' with a separate negative, but English uses the single connector 'unless' with a positive clause.",
+  "translation": "Güvenlik kartınız olmadıkça laboratuvara giremezsiniz."
+}
