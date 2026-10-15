@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you have time,",
+  "correct_completion": "please come to my party on Saturday.",
+  "full_sentence": "If you have time, please come to my party on Saturday.",
+  "acceptable_variants": ["we would love to see you at my party.", "come to my party on Saturday."],
+  "options": [
+    {"text": "I am very sad today.", "is_correct": false, "why_wrong": "This describes a feeling and does not complete the invitation after 'if'."},
+    {"text": "please come to my party on Saturday.", "is_correct": true, "why_wrong": null},
+    {"text": "my party was yesterday.", "is_correct": false, "why_wrong": "This talks about the past and does not give a result for the condition."},
+    {"text": "I have a red bicycle.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not complete the sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'if' (present simple in the condition)",
+  "connector": "if",
+  "explanation": "After 'if', the first part sets a condition, so we need a main clause that gives the result. Here the result is a polite invitation.",
+  "translation": "Jeśli masz czas, proszę przyjdź na moje przyjęcie w sobotę."
+}
