@@ -1,0 +1,14 @@
+{
+  "trigger_word": "narrator",
+  "all_words": [
+    {"word": "novel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Оповідач є частиною роману, адже саме він розповідає історію читачеві."},
+    {"word": "plot", "is_associated": true, "association_type": "THEMATIC", "explanation": "Сюжет розповідає оповідач, тому це слово належить до однієї теми з оповідачем у художньому тексті."},
+    {"word": "voice", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "У літературознавстві часто говорять про голос оповідача, тому ці слова часто стоять поруч."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Трактор є сільськогосподарською машиною і не має жодного зв'язку з оповідачем у літературі."},
+    {"word": "lemon", "is_associated": false, "association_type": "NONE", "explanation": "Лимон є фруктом і не пов'язаний з оповіданням або оповідачем."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Вулкан є природним явищем і не належить до теми оповідання або літературного тексту."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова належать до сфери художньої прози: одні стосуються структури твору, інші часто вживаються разом з оповідачем."
+}

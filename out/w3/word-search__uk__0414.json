@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "R", "A", "N", "S", "L", "A", "T", "E"],
+    ["Q", "W", "K", "Z", "P", "H", "J", "Y", "D"],
+    ["V", "F", "M", "X", "C", "U", "R", "N", "I"],
+    ["E", "B", "T", "O", "K", "A", "W", "Q", "A"],
+    ["R", "J", "D", "G", "S", "V", "F", "P", "L"],
+    ["B", "H", "I", "S", "Q", "Z", "N", "M", "E"],
+    ["A", "U", "O", "X", "K", "Q", "W", "P", "C"],
+    ["L", "L", "Z", "V", "F", "R", "M", "K", "T"],
+    ["G", "D", "H", "N", "J", "W", "C", "X", "B"]
+  ],
+  "words_to_find": ["TRANSLATE", "GLOSSARY", "DIALECT", "VERBAL"],
+  "word_positions": [
+    {"word": "TRANSLATE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLOSSARY", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "DIALECT", "start_row": 1, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "VERBAL", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Facilitating Multilingual Discourse"
+}

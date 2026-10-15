@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the story was very sad,",
+  "correct_completion": "the children still liked it.",
+  "full_sentence": "Although the story was very sad, the children still liked it.",
+  "acceptable_variants": ["the children still enjoyed it.", "they still liked it."],
+  "options": [
+    {"text": "the children were very tired.", "is_correct": false, "why_wrong": "This gives a new state that has no contrast with the sadness of the story, so 'although' is not completed."},
+    {"text": "the children still liked it.", "is_correct": true, "why_wrong": null},
+    {"text": "so the children cried a lot.", "is_correct": false, "why_wrong": "'So' shows a result, not contrast. 'Although' needs a clause that contrasts with the first part."},
+    {"text": "the book had a red cover.", "is_correct": false, "why_wrong": "This describes the book but does not contrast with the sad story, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Ukrainian speakers may use a contrast word such as 'but' together with 'although', which is incorrect in English, so only one of them should be used.",
+  "translation": "Хоча історія була дуже сумною, діти все одно її полюбили."
+}
