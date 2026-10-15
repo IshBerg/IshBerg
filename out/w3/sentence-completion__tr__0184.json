@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the train arrives,",
+  "correct_completion": "we will have been waiting for two hours.",
+  "full_sentence": "By the time the train arrives, we will have been waiting for two hours.",
+  "acceptable_variants": ["we will have waited for two hours.", "we will have been standing here for two hours."],
+  "options": [
+    {"text": "we waited for two hours.", "is_correct": false, "why_wrong": "Simple past describes a finished period in the past. The main clause needs a future form that shows duration up to the moment the train arrives."},
+    {"text": "we wait for two hours.", "is_correct": false, "why_wrong": "Simple present does not express an action in progress up to a future moment. It would describe a routine or a fixed timetable instead."},
+    {"text": "we will have been waiting for two hours.", "is_correct": true, "why_wrong": null},
+    {"text": "we have been waiting for two hours.", "is_correct": false, "why_wrong": "Present perfect continuous looks back from now. 'By the time' sets a future reference point, so the main clause must look forward from that point."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Future perfect continuous with 'by the time'",
+  "connector": "by the time",
+  "explanation": "'By the time' sets a future reference point. The main clause therefore needs the future perfect continuous, which shows an action that started earlier and will still be in progress at that point, with its duration stated.",
+  "translation": "Tren geldiğinde, iki saattir beklemiş olacağız."
+}

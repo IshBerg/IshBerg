@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ocean",
+  "all_words": [
+    {"word": "wave", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dalga, okyanusun en belirgin özelliklerinden biridir ve konuyla doğrudan anlamsal bağlantısı vardır."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Plaj, okyanusun kıyısında yer alır ve okyanusla ilgili temalar içinde birlikte düşünülür."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ karada ve yüksek yerlerde bulunur, okyanusla bir bağlantısı olmadığı için ilişkili değildir."},
+    {"word": "fish", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Balık okyanusta yaşayan canlılardan biridir, bu yüzden anlamsal olarak ilişkilidir."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Çöl kuru ve susuz bir yerdir; okyanusun tam tersi olduğu için ilişkili değildir."},
+    {"word": "ship", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Gemi okyanusta seyreder ve okyanus gemisi gibi yaygın birleşik kullanımları vardır."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Okyanusla ilişkili kelimeler; dalga, kıyı, deniz canlıları ve taşımacılık gibi okyanusla doğrudan bağlantılı kavramlardır. Dağ ve çöl ise bu alanın dışında kalır."
+}
