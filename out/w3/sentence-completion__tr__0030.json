@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The team should have checked the data more carefully,",
+  "correct_completion": "because the final results were wrong.",
+  "full_sentence": "The team should have checked the data more carefully, because the final results were wrong.",
+  "acceptable_variants": ["because the sample size was too small.", "before the report was published."],
+  "options": [
+    {"text": "and they are checking it now.", "is_correct": false, "why_wrong": "This describes a present action, but the stem uses a modal perfect to criticize a past action."},
+    {"text": "because the final results were wrong.", "is_correct": true, "why_wrong": null},
+    {"text": "so they will check it tomorrow.", "is_correct": false, "why_wrong": "This talks about the future, but 'should have' criticizes something that did not happen in the past."},
+    {"text": "if the data was clear.", "is_correct": false, "why_wrong": "This adds a condition in an unsuitable form and does not explain the criticism in the main clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfect 'should have' for past criticism",
+  "connector": "because",
+  "explanation": "'Should have' followed by a past participle criticizes a past action that was not done. The completion gives the reason for that criticism. Turkish speakers may use a plain past form in this position, so check that the modal perfect carries the judgment.",
+  "translation": "Ekip verileri daha dikkatli kontrol etmeliydi, çünkü nihai sonuçlar yanlıştı."
+}
