@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "karton", "transliteration": "karton", "meaning": "cardboard"},
+    {"word": "deri", "transliteration": "deri", "meaning": "leather"},
+    {"word": "kumaş", "transliteration": "kumas", "meaning": "fabric"},
+    {"word": "koli", "transliteration": "koli", "meaning": "carton, a cardboard box"}
+  ],
+  "english_words": ["fabric", "carton", "cardboard", "leather"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The English word 'carton' and the English word 'cardboard' both come from the same paper-based material, but the spelling of 'carton' looks close to a Turkish word for a material. Turkish learners should check the English meaning rather than trust the resemblance.",
+  "false_friend_warning": "The first Turkish word looks like the English word 'carton', but it means 'cardboard', the material. 'Carton' in English means a box or container made of that material, so do not translate the first Turkish word as 'carton'."
+}

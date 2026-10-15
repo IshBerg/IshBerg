@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is hardly any sugar left in the jar, so",
+  "correct_completion": "we need to buy some more.",
+  "full_sentence": "There is hardly any sugar left in the jar, so we need to buy some more.",
+  "acceptable_variants": ["we should go to the shop.", "we will need to buy more later."],
+  "options": [
+    {"text": "we have plenty of tea.", "is_correct": false, "why_wrong": "This talks about tea, which is unrelated to the sugar, so it does not give the result the stem needs."},
+    {"text": "there are many biscuits in the box.", "is_correct": false, "why_wrong": "This describes a different food. The word 'so' expects a result that follows from the shortage of sugar."},
+    {"text": "we need to buy some more.", "is_correct": true, "why_wrong": null},
+    {"text": "we used it all yesterday.", "is_correct": false, "why_wrong": "This explains a past event, but the stem with 'so' expects a present result that follows from the current shortage."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifiers 'hardly any' and 'some' with uncountable nouns, and 'so' showing result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that states the result of the shortage. Learners often confuse quantifiers with uncountable nouns, so note that 'some more' is used here with the uncountable noun sugar.",
+  "translation": "Kavanozda neredeyse hiç şeker kalmadı, bu yüzden biraz daha almamız gerekiyor."
+}
