@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "THEMATIC", "explanation": "La estufa es un aparato que se encuentra normalmente en la cocina para cocinar."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña es un lugar natural al aire libre y no tiene relación con la cocina."},
+    {"word": "spoon", "is_associated": true, "association_type": "THEMATIC", "explanation": "La cuchara es un utensilio que se usa para cocinar y comer en la cocina."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "El desierto es un lugar seco y arenoso, sin ninguna relación con la cocina."},
+    {"word": "fridge", "is_associated": true, "association_type": "THEMATIC", "explanation": "El frigorífico es un electrodoméstico que se encuentra en casi todas las cocinas."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "La almohada se usa para dormir en el dormitorio, no en la cocina."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'kitchen' son objetos y electrodomésticos que se usan para cocinar, guardar comida o comer."
+}
