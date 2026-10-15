@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We chose the new bus because",
+  "correct_completion": "it is faster than the old bus.",
+  "full_sentence": "We chose the new bus because it is faster than the old bus.",
+  "acceptable_variants": ["it is quicker than the old bus.", "it gets to school sooner."],
+  "options": [
+    {"text": "it is the oldest bus in the city.", "is_correct": false, "why_wrong": "This describes age, not speed, so it does not give a comparative reason for choosing the new bus."},
+    {"text": "it is faster than the old bus.", "is_correct": true, "why_wrong": null},
+    {"text": "it has the same speed as the old bus.", "is_correct": false, "why_wrong": "Equal speed gives no reason to prefer the new bus over the old one."},
+    {"text": "it is slower than the old bus.", "is_correct": false, "why_wrong": "The comparative 'slower' gives the opposite meaning, so it cannot explain why the new bus was chosen."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Comparative adjectives with 'because' to give a reason",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the choice. The comparative form 'faster than' compares the two buses and explains the decision.",
+  "translation": "Escolhemos o ônibus novo porque ele é mais rápido que o ônibus antigo."
+}
