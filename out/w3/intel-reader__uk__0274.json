@@ -1,0 +1,20 @@
+{
+  "title": "My Home",
+  "text": "My house is small and blue. It has two bedrooms, a kitchen and a living room.\n\nIn the living room there is a sofa and a big table. My cat sleeps on the sofa every day.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How many bedrooms does the house have?", "options": ["One", "Two", "Three", "Four"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is in the living room?", "options": ["A bed and a desk", "A sofa and a big table", "A car and a TV", "A garden and a door"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why is the cat probably comfortable in the living room?", "options": ["It has a sofa to sleep on", "It has no food", "It is outside", "It is very cold"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of person most likely lives in this house?", "options": ["A person who likes animals and a comfortable home", "A person who never sits down", "A person who has no furniture", "A person who lives outside"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "small", "translation": "маленький", "definition": "not big in size"},
+    {"word": "bedrooms", "translation": "спальні", "definition": "rooms where people sleep"},
+    {"word": "sofa", "translation": "диван", "definition": "a long soft seat for two or more people"},
+    {"word": "table", "translation": "стіл", "definition": "a piece of furniture with a flat top and legs"}
+  ],
+  "paragraph_translations": [
+    "Мій будинок маленький і синій. У ньому є дві спальні, кухня та вітальня.",
+    "У вітальні є диван і великий стіл. Мій кіт щодня спить на дивані."
+  ]
+}
