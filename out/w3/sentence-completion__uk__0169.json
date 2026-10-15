@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If she had taken the job offer,",
+  "correct_completion": "she would be living abroad now.",
+  "full_sentence": "If she had taken the job offer, she would be living abroad now.",
+  "acceptable_variants": ["she would have more options today.", "she would probably be in another country now."],
+  "options": [
+    {"text": "she will be living abroad next year.", "is_correct": false, "why_wrong": "'Will' expresses a real future plan, but the stem is an unreal past condition, so the result needs 'would' with a present time reference."},
+    {"text": "she is living abroad now.", "is_correct": false, "why_wrong": "The present simple describes a fact and does not express an unreal result that depends on the past condition."},
+    {"text": "she would be living abroad now.", "is_correct": true, "why_wrong": null},
+    {"text": "she was living abroad yesterday.", "is_correct": false, "why_wrong": "'Was ... yesterday' places the result in the past, but the result must refer to the present."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past unreal condition with present unreal result",
+  "connector": "if",
+  "explanation": "A mixed conditional links an unreal past condition in the if-clause with an unreal present result in the main clause. Ukrainian speakers may mix up the time references here, because Ukrainian marks conditions with a mood form that does not separate past and present in the same way English tenses do.",
+  "translation": "Якби вона прийняла пропозицію про роботу, зараз вона жила б за кордоном."
+}
