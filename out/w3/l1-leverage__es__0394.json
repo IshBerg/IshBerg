@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily hurt or affected"}
+  ],
+  "english_words": ["bookstore", "sensitive", "pregnant", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Spanish word looks or sounds like an English word that students expect to share its meaning, but the two words come from different roots or developed different senses over time.",
+  "false_friend_warning": "The Spanish word that looks like the English word 'embarrassed' actually means 'pregnant', so learners must not translate 'embarrassed' as this word. The Spanish word that resembles 'library' means 'bookstore', and the Spanish word that resembles 'actual' means 'current' rather than 'actual'."
+}
