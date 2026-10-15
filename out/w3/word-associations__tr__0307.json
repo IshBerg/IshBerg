@@ -1,0 +1,14 @@
+{
+  "trigger_word": "vote",
+  "all_words": [
+    {"word": "election", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Seçim, oy verme sürecinin ana parçasıdır ve oylar seçim sırasında kullanılır."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Muz bir meyvedir ve oy verme ile hiçbir anlamsal bağlantısı yoktur."},
+    {"word": "ballot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Oy pusulası, oy verirken kullanılan kağıttır."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sandviç bir yiyecektir ve oy verme süreciyle bağlantılı değildir."},
+    {"word": "citizen", "is_associated": true, "association_type": "THEMATIC", "explanation": "Vatandaş, seçimlerde oy kullanma hakkına sahip kişidir; bu konu oy verme temasıyla ilgilidir."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ coğrafi bir kavramdır ve oy verme ile ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Oy vermek kelimesi seçim, oy pusulası ve vatandaş gibi siyasi ve sosyal kavramlarla güçlü biçimde ilişkilidir; muz, sandviç ve dağ ise bu alanın dışındadır."
+}
