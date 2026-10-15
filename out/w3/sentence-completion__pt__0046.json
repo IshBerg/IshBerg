@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother doesn't like coffee, so",
+  "correct_completion": "he drinks orange juice every morning.",
+  "full_sentence": "My brother doesn't like coffee, so he drinks orange juice every morning.",
+  "acceptable_variants": ["he chooses orange juice instead.", "he has orange juice for breakfast."],
+  "options": [
+    {"text": "he drink orange juice every morning.", "is_correct": false, "why_wrong": "With 'he', the present simple verb needs the -s ending: 'drinks'."},
+    {"text": "he likes coffee every morning.", "is_correct": false, "why_wrong": "This contradicts the first part of the sentence, which says he does not like coffee."},
+    {"text": "he drinks orange juice every morning.", "is_correct": true, "why_wrong": null},
+    {"text": "he is drinking orange juice every morning.", "is_correct": false, "why_wrong": "The present continuous describes an action happening now. A daily habit uses the present simple."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present simple for habits, third person singular with -s",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that gives the result of not liking coffee, written in the present simple because it describes a regular habit. Portuguese speakers often drop the -s ending for he, she, and it, because Portuguese verbs change endings for every person and the -s is easy to forget.",
+  "translation": "Meu irmão não gosta de café, então ele bebe suco de laranja todas as manhãs."
+}
