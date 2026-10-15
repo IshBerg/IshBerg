@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I am very busy this week,",
+  "correct_completion": "I will reply to your letter next Monday.",
+  "full_sentence": "Although I am very busy this week, I will reply to your letter next Monday.",
+  "acceptable_variants": ["I will still answer your letter soon.", "I will write back as soon as possible."],
+  "options": [
+    {"text": "so I will not reply to your letter.", "is_correct": false, "why_wrong": "'So' shows a result, which does not fit the contrast introduced by 'although'."},
+    {"text": "I will reply to your letter next Monday.", "is_correct": true, "why_wrong": null},
+    {"text": "because the letter was short.", "is_correct": false, "why_wrong": "'Because' shows a cause, but the stem already uses 'although', which signals contrast."},
+    {"text": "my letter was very long.", "is_correct": false, "why_wrong": "This describes a letter, not an action that contrasts with being busy."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners sometimes add a result or cause clause here, which breaks the contrast pattern.",
+  "translation": "Embora eu esteja muito ocupado esta semana, responderei à sua carta na próxima segunda-feira."
+}

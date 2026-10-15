@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pasta", "transliteration": "pasta", "meaning": "folder"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"}
+  ],
+  "english_words": ["bookshop", "to intend", "folder", "to watch"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin roots, so the forms look alike, but their meanings drifted apart over time.",
+  "false_friend_warning": "The Portuguese word for a folder looks like the English word for a food dish, and the Portuguese verb for watching looks like an English verb meaning to help; learners who trust the spelling will choose the wrong English word."
+}
