@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "etiket", "transliteration": "etiket", "meaning": "price tag, label"},
+    {"word": "pasaj", "transliteration": "pasaj", "meaning": "shopping arcade, covered passage"},
+    {"word": "kasa", "transliteration": "kasa", "meaning": "cash register, till"},
+    {"word": "fatura", "transliteration": "fatura", "meaning": "bill, invoice"}
+  ],
+  "english_words": ["cash register", "bill", "price tag", "shopping arcade"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both English and Turkish took the word for a label or notice from French, but English later used its form mainly for rules of polite behaviour, while the Turkish form kept the sense of a label or price tag. The two forms therefore look alike while meaning different things.",
+  "false_friend_warning": "Learners whose first language is Turkish may read the Turkish word for a price tag as the English word etiquette, but it means a price tag or label, not rules of polite behaviour."
+}

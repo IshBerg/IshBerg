@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ocak, mutfakta yemek pişirmek için kullanılan bir cihazdır ve doğrudan mutfakla ilişkilidir."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bir müzik aleti olduğu için mutfakla ilgisi yoktur."},
+    {"word": "recipe", "is_associated": true, "association_type": "THEMATIC", "explanation": "Tarif, mutfakta yemek hazırlamak için izlenen adımları anlatır; bu nedenle mutfak konusuyla birlikte düşünülür."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Buzul soğuk bölgelerde oluşan büyük bir buz kütlesidir ve mutfakla bir bağlantısı yoktur."},
+    {"word": "spoon", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Kaşık mutfakta sık kullanılan bir eşyadır ve 'mutfak kaşığı' ifadesinde birlikte kullanılır."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "Şemsiye yağmurdan korunmak için kullanılır; mutfak eşyası değildir ve bu kelimeyle ilişkilendirilmez."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Mutfak kelimesiyle ilişkili kelimeler mutfakta kullanılan eşyalar, cihazlar ve işlemlerdir; piyano, buzul ve şemsiye bu alanın dışında kalır."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the software update fix the crash,",
+  "correct_completion": "but it also doubled the battery life.",
+  "full_sentence": "Not only did the software update fix the crash, but it also doubled the battery life.",
+  "acceptable_variants": ["but it also made startup faster.", "but it also improved the screen brightness."],
+  "options": [
+    {"text": "or it doubled the battery life.", "is_correct": false, "why_wrong": "'Or' breaks the correlative pattern 'not only ... but also', which requires 'but' to introduce the second idea."},
+    {"text": "but also did the battery life double.", "is_correct": false, "why_wrong": "Inversion belongs only to the 'not only' clause. After 'but also' the normal word order is used, so this sentence is ungrammatical."},
+    {"text": "but it also doubled the battery life.", "is_correct": true, "why_wrong": null},
+    {"text": "so it doubled the battery life.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not complete the additive pattern started by 'not only'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after 'not only' with the correlative 'but also'",
+  "connector": "not only ... but also",
+  "explanation": "When a clause begins with 'not only', English inverts the auxiliary 'did' before the subject, and the correlative 'but also' must introduce the second idea in normal word order. Turkish speakers often omit the inversion because Turkish marks emphasis through intonation and particles rather than word order, so the auxiliary has to move before the subject.",
+  "translation": "Yazılım güncellemesi yalnızca çökmeyi düzeltmekle kalmadı, aynı zamanda pil ömrünü de iki katına çıkardı."
+}
