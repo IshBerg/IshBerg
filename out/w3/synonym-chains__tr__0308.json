@@ -1,0 +1,23 @@
+{
+  "central_word": "angry",
+  "chain_words": [
+    {"word": "annoyed", "intensity": 1, "translation": "rahatsız olmuş", "nuance": "mild displeasure at a small nuisance"},
+    {"word": "irritated", "intensity": 2, "translation": "sinirli, bıkmış", "nuance": "growing impatience and on-edge feeling"},
+    {"word": "angry", "intensity": 3, "translation": "kızgın", "nuance": "general strong displeasure"},
+    {"word": "furious", "intensity": 4, "translation": "çılgına dönmüş", "nuance": "very intense anger"},
+    {"word": "enraged", "intensity": 5, "translation": "öfkeden kudurmuş", "nuance": "extreme rage that is hard to control"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express anger, ranging from mild annoyance to extreme rage, so their intensity increases step by step from the first word to the last.",
+  "usage_notes": [
+    {"word1": "annoyed", "word2": "irritated", "difference": "'Annoyed' describes a mild reaction to a small nuisance, while 'irritated' suggests that the feeling is building up and makes the speaker impatient or on edge."}
+  ],
+  "translations": {
+    "annoyed": "rahatsız olmuş",
+    "irritated": "sinirli, bıkmış",
+    "angry": "kızgın",
+    "furious": "çılgına dönmüş",
+    "enraged": "öfkeden kudurmuş"
+  }
+}

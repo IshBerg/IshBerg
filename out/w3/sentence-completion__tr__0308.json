@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother lost his keys, so",
+  "correct_completion": "I helped him look for them.",
+  "full_sentence": "My brother lost his keys, so I helped him look for them.",
+  "acceptable_variants": ["I went with him to search for them.", "I offered to help him find them."],
+  "options": [
+    {"text": "he looked for I.", "is_correct": false, "why_wrong": "'I' is a subject pronoun and cannot follow the preposition 'for'; the object form 'me' is required."},
+    {"text": "I helped him look for them.", "is_correct": true, "why_wrong": null},
+    {"text": "he helped I find them.", "is_correct": false, "why_wrong": "'I' is a subject pronoun; after the verb 'helped', the object form 'me' is needed."},
+    {"text": "they were lost in the park.", "is_correct": false, "why_wrong": "This describes the keys but does not respond to the result of losing them, so the logic of 'so' is not completed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns after verbs and prepositions",
+  "connector": "so",
+  "explanation": "Object pronouns such as 'him', 'me', and 'them' follow verbs and prepositions, while subject pronouns such as 'I' and 'he' cannot occupy that position. Learners whose first language does not separate subject and object pronoun forms often choose a subject form here, so check which role the pronoun plays.",
+  "translation": "Kardeşim anahtarlarını kaybetti, bu yüzden onları aramasında ona yardım ettim."
+}
