@@ -1,0 +1,14 @@
+{
+  "trigger_word": "police",
+  "all_words": [
+    {"word": "officer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Офіцер — це працівник поліції, тому слова тісно пов'язані за змістом."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Кухня не має стосунку до роботи поліції, тому це слово не асоціюється з поняттям поліції."},
+    {"word": "badge", "is_associated": true, "association_type": "THEMATIC", "explanation": "Значок (жетон) є частиною форми та документів поліцейського, тому слова пов'язані тематично."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Сад не пов'язаний з діяльністю поліції."},
+    {"word": "siren", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Сирена — звуковий сигнал поліцейської машини, а 'police siren' є усталеним словосполученням."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не має жодного зв'язку з поліцією."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з поліцією, описують її людей, знаки та транспорт; слова з кухні, саду чи природи з нею не пов'язані."
+}

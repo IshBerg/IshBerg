@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the police arrived,",
+  "correct_completion": "the thief had already been caught by a passerby.",
+  "full_sentence": "By the time the police arrived, the thief had already been caught by a passerby.",
+  "acceptable_variants": ["the thief had already been arrested.", "the thief had already been detained by a passerby."],
+  "options": [
+    {"text": "the thief will be caught by a passerby.", "is_correct": false, "why_wrong": "'Will be caught' is a future passive, but the stem sets a past time frame with 'by the time... arrived'."},
+    {"text": "the thief had already caught.", "is_correct": false, "why_wrong": "The verb 'caught' needs an object here, so the sentence is incomplete and does not make sense."},
+    {"text": "the thief had already been caught by a passerby.", "is_correct": true, "why_wrong": null},
+    {"text": "the thief was catching a passerby.", "is_correct": false, "why_wrong": "This past continuous active describes an action in progress, not a completed event that happened before the police arrived."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past perfect passive with 'by the time'",
+  "connector": "by the time",
+  "explanation": "After 'by the time', the past perfect shows that the first event was already completed before the second past event. The thief is the receiver of the action, so the passive form is needed.",
+  "translation": "Коли приїхала поліція, злодія вже зловив перехожий."
+}
