@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I bought two new shirts because",
+  "correct_completion": "I needed them for school.",
+  "full_sentence": "I bought two new shirts because I needed them for school.",
+  "acceptable_variants": ["I wanted to look nice at the party.", "my old ones were too small."],
+  "options": [
+    {"text": "and my brother has three bikes.", "is_correct": false, "why_wrong": "'And' adds more information, but 'because' needs a reason for buying the shirts."},
+    {"text": "the shop is near my house.", "is_correct": false, "why_wrong": "This describes where the shop is, not why the shirts were bought."},
+    {"text": "I needed them for school.", "is_correct": true, "why_wrong": null},
+    {"text": "I will buy more next week.", "is_correct": false, "why_wrong": "This is a future plan, not a reason for the action in the first part of the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause-and-effect clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part. Turkish speakers may expect the reason to come first, so it helps to practise putting the reason after 'because' in English.",
+  "translation": "İki yeni gömlek aldım çünkü onlara okul için ihtiyacım vardı."
+}

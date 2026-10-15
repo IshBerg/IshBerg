@@ -1,0 +1,14 @@
+{
+  "trigger_word": "smile",
+  "all_words": [
+    {"word": "happy", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gülümsemek çoğunlukla mutlu olma duygusuyla bağlantılıdır."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masa ile gülümseme arasında doğrudan bir ilişki yoktur."},
+    {"word": "laugh", "is_associated": true, "association_type": "THEMATIC", "explanation": "Gülmek ve gülümsemek aynı duygu alanına ait, birbirine yakın eylemlerdir."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "Yağmur gülümsemeyle ilgili bir kelime değildir."},
+    {"word": "face", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Gülümseme yüzde oluşur ve 'yüzünde bir gülümseme' gibi yaygın bir ifade vardır."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet ile gülümseme arasında bir bağlantı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Gülümseme ile ilgili kelimeler duygu, eylem ve yüz ifadesiyle bağlantılıdır; masa, yağmur ve bisiklet ise ilgili değildir."
+}
