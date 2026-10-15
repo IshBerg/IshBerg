@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the government's efforts,",
+  "correct_completion": "unemployment has continued to rise.",
+  "full_sentence": "Despite the government's efforts, unemployment has continued to rise.",
+  "acceptable_variants": ["unemployment has remained a serious problem.", "the number of jobless people has kept increasing."],
+  "options": [
+    {"text": "the government reduced unemployment significantly.", "is_correct": false, "why_wrong": "This matches the expected result of the efforts. 'Despite' signals an unexpected outcome, so the main clause must contrast with the efforts."},
+    {"text": "unemployment is rising because of the government.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'despite' introduces a contrast. The connector and the meaning do not fit."},
+    {"text": "that unemployment is an issue for many.", "is_correct": false, "why_wrong": "This is a noun clause, not a main clause. The sentence would be a fragment with no main verb for the subject."},
+    {"text": "unemployment has continued to rise.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' + noun phrase (nominalization) followed by a main clause",
+  "connector": "despite",
+  "explanation": "'Despite' takes a noun phrase, such as 'the government's efforts', and the main clause must show an outcome that contrasts with what the efforts would normally produce. Nominalizations like 'efforts' and 'growth' are typical of academic English, and learners often replace them with a full clause that does not fit the structure.",
+  "translation": "Apesar dos esforços do governo, o desemprego continua a aumentar."
+}
