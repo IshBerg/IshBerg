@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pencil",
+  "all_words": [
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "O lápis é usado para escrever no papel, então os dois pertencem ao mesmo tema da sala de aula."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "A banana não tem nenhuma relação com o lápis."},
+    {"word": "eraser", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A borracha é usada junto com o lápis para apagar o que foi escrito."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "A janela não tem nenhuma ligação com o lápis."},
+    {"word": "sharpener", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "O apontador é usado para afiar o lápis, por isso as duas palavras andam juntas."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "A nuvem não está relacionada ao lápis."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'pencil' se associa a objetos da sala de aula que se usam com ela para escrever, apagar e apontar."
+}
