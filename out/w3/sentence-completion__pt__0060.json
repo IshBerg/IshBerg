@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Please be quiet, because",
+  "correct_completion": "the baby is sleeping now.",
+  "full_sentence": "Please be quiet, because the baby is sleeping now.",
+  "acceptable_variants": ["the baby is taking a nap now.", "the baby is resting in the bedroom."],
+  "options": [
+    {"text": "the baby sleeps every night.", "is_correct": false, "why_wrong": "This is the simple present, used for habits. The sentence needs a current situation that explains why quiet is needed."},
+    {"text": "the baby is sleeping now.", "is_correct": true, "why_wrong": null},
+    {"text": "the baby slept all day yesterday.", "is_correct": false, "why_wrong": "This is the past simple, which describes a finished action. The reason for being quiet must be happening now."},
+    {"text": "the baby will sleep later.", "is_correct": false, "why_wrong": "This is the future tense. It does not explain why people should be quiet at this moment."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present continuous after 'because' to give a current reason",
+  "connector": "because",
+  "explanation": "The word 'because' introduces a reason, so the second part must describe a situation that is happening at the moment of speaking. The present continuous shows an action in progress, formed with am, is or are plus the -ing form of the verb.",
+  "translation": "Por favor, fiquem em silêncio, porque o bebê está dormindo agora."
+}
