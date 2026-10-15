@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "гойдалка", "transliteration": "hoydalka", "meaning": "swing"},
+    {"word": "м'яч", "transliteration": "myach", "meaning": "ball"},
+    {"word": "зима", "transliteration": "zyma", "meaning": "winter"}
+  ],
+  "english_words": ["swing", "winter", "shop", "ball"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Ukrainian word for shop has a form close to the English word 'magazine'. Both words come from the same French source, meaning storehouse, but each language kept a different meaning, so the similar look misleads learners.",
+  "false_friend_warning": "Warning: the Ukrainian word 'mahazyn' looks like the English word 'magazine', but it means 'shop', so do not match it with 'magazine'."
+}
