@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are many sheep in the field, so",
+  "correct_completion": "the farmer has to count them carefully.",
+  "full_sentence": "There are many sheep in the field, so the farmer has to count them carefully.",
+  "acceptable_variants": ["the farmer has to watch them closely.", "the farmer needs to check every one of them."],
+  "options": [
+    {"text": "the farmer has to count it carefully.", "is_correct": false, "why_wrong": "'It' is singular, but 'sheep' refers to many animals, so the plural pronoun 'them' is needed."},
+    {"text": "the farmer has to counts them carefully.", "is_correct": false, "why_wrong": "After 'has to', the verb must be the base form 'count', not 'counts'."},
+    {"text": "the farmer has to count them carefully.", "is_correct": true, "why_wrong": null},
+    {"text": "the farmer have to count them carefully.", "is_correct": false, "why_wrong": "'The farmer' is singular, so it needs 'has to', not 'have to'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Irregular plural 'sheep' with plural pronouns and singular subject-verb agreement",
+  "connector": "so",
+  "explanation": "The plural noun 'sheep' has the same form in singular and plural, so the pronoun that follows must be the plural 'them'. The singular subject 'the farmer' still needs the verb form 'has to'. Spanish speakers often make the plural explicit in every word, so they may keep a singular pronoun here.",
+  "translation": "Hay muchas ovejas en el campo, así que el granjero tiene que contarlas con cuidado."
+}
