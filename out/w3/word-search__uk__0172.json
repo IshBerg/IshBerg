@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["I", "D", "I", "O", "M", "K", "S"],
+    ["R", "T", "B", "Q", "L", "Z", "A"],
+    ["O", "H", "V", "E", "J", "W", "T"],
+    ["N", "C", "F", "K", "D", "X", "I"],
+    ["Y", "G", "P", "U", "N", "S", "R"],
+    ["M", "A", "Q", "B", "T", "L", "E"],
+    ["S", "L", "A", "N", "G", "R", "P"]
+  ],
+  "words_to_find": ["IDIOM", "IRONY", "SATIRE", "SLANG", "PUN"],
+  "word_positions": [
+    {"word": "IDIOM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 0, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SATIRE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SLANG", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PUN", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Idioms and Figurative Language in the Media"
+}

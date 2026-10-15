@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the house had been painted only last year,",
+  "correct_completion": "it was already showing signs of damage.",
+  "full_sentence": "Although the house had been painted only last year, it was already showing signs of damage.",
+  "acceptable_variants": ["water was already leaking through the roof.", "the walls had already started to crack."],
+  "options": [
+    {"text": "so the owners decided to sell it.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. 'Although' needs a clause that contrasts with the first part of the sentence."},
+    {"text": "the paint had been chosen by a designer.", "is_correct": false, "why_wrong": "This adds background information about the painting but does not create the contrast that 'although' requires."},
+    {"text": "it was already showing signs of damage.", "is_correct": true, "why_wrong": null},
+    {"text": "the windows were being cleaned every day.", "is_correct": false, "why_wrong": "This describes a routine task, which does not contrast with the idea of the house having been recently painted."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Here the recent painting is contrasted with the damage that has already appeared. Learners often add a result connector such as 'so' here, because their first language may use cause and result phrasing more readily than concession.",
+  "translation": "Хоча будинок було пофарбовано лише минулого року, на ньому вже з'являлися ознаки пошкоджень."
+}
