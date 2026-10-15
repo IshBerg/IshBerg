@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rarely had the committee seen such a clear demonstration of commitment,",
+  "correct_completion": "and the members rose to applaud the speaker.",
+  "full_sentence": "Rarely had the committee seen such a clear demonstration of commitment, and the members rose to applaud the speaker.",
+  "acceptable_variants": ["and the room erupted in applause.", "and everyone stood to show their respect."],
+  "options": [
+    {"text": "and the members rose to applaud the speaker.", "is_correct": true, "why_wrong": null},
+    {"text": "so the meeting was cancelled.", "is_correct": false, "why_wrong": "A cancellation does not follow from a clear demonstration of commitment, and it breaks the emphatic reaction the fronted clause sets up."},
+    {"text": "because the speaker was late.", "is_correct": false, "why_wrong": "This gives an unrelated cause, while the fronted adverbial 'Rarely had' expects a reaction to the commitment."},
+    {"text": "the agenda was long and tedious.", "is_correct": false, "why_wrong": "This describes the meeting but does not complete the emphatic structure begun by the inverted clause."}
+  ],
+  "correct_index": 0,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Fronting of a negative adverbial with subject-auxiliary inversion for emphasis",
+  "connector": "rarely",
+  "explanation": "After a fronted negative adverbial, the main clause must express a reaction that matches the emphasis of the first part. Learners often add a cause-and-effect continuation, which weakens the rhetorical effect. Portuguese speakers may find the inverted word order unusual because Portuguese typically keeps the subject before the verb.",
+  "translation": "Raramente o comitê havia presenciado uma demonstração tão clara de comprometimento, e os membros se levantaram para aplaudir o orador."
+}
