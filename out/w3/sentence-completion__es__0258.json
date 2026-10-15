@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has finished her homework,",
+  "correct_completion": "hasn't she?",
+  "full_sentence": "She has finished her homework, hasn't she?",
+  "acceptable_variants": ["has she not?", "hasn't she already?"],
+  "options": [
+    {"text": "has she?", "is_correct": false, "why_wrong": "After a positive statement, the tag must be negative. 'Has she?' keeps the positive form, which would not make a tag question."},
+    {"text": "hasn't she?", "is_correct": true, "why_wrong": null},
+    {"text": "doesn't she?", "is_correct": false, "why_wrong": "The auxiliary in the tag must match the auxiliary in the main clause. Here the main clause uses 'has', so 'doesn't' is wrong."},
+    {"text": "is she?", "is_correct": false, "why_wrong": "'Is' does not match the auxiliary 'has' in the main clause, so the tag does not repeat the correct verb."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Tag questions with the auxiliary 'have' (positive statement, negative tag)",
+  "connector": "tag question",
+  "explanation": "A tag question repeats the auxiliary of the main clause. After a positive statement, the tag is negative. Spanish speakers often add a general tag such as 'right?' or 'no?' instead of repeating the auxiliary, because the language has no direct equivalent to the English pattern.",
+  "translation": "Ella ha terminado su tarea, ¿verdad?"
+}

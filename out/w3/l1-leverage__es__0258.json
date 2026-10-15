@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder for holding papers"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "actual", "transliteration": "actual", "meaning": "present, existing now"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "easily hurt or affected by something"}
+  ],
+  "english_words": ["sensitive", "pregnant", "folder", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words look almost identical in both languages because they come from the same Latin or French sources, but their meanings drifted apart over time, so the similar spelling misleads learners.",
+  "false_friend_warning": "The Spanish word meaning a folder for papers looks like the English word 'carpet', and the Spanish word meaning pregnant looks like the English word 'embarrassed', but these pairs have completely different meanings in English."
+}

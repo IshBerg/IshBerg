@@ -1,0 +1,20 @@
+{
+  "title": "A Day at the Park",
+  "text": "It is spring. Lily goes to the park with her dad. The park has a big slide and two swings. Lily likes the swings the most.\n\nIn summer, the park is hot, so Lily drinks a lot of water. In autumn, the leaves on the trees turn yellow and fall to the ground. Lily likes to jump in the leaves. In winter, the park is cold and quiet.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Who goes to the park with Lily?", "options": ["Her mom", "Her dad", "Her friend", "Her brother"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What falls from the trees in autumn?", "options": ["Snow", "Leaves", "Apples", "Rain"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Lily drink a lot of water in summer?", "options": ["Because the park is hot", "Because she is sad", "Because it is cold", "Because she is sleeping"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Lily probably feel about autumn?", "options": ["She is bored and sad", "She likes jumping in the leaves", "She is afraid of trees", "She does not go outside"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "slide", "translation": "tobogán", "definition": "a long smooth structure that children go down in a playground"},
+    {"word": "swings", "translation": "columpios", "definition": "seats hung from bars that children sit on and move back and forth"},
+    {"word": "leaves", "translation": "hojas", "definition": "the flat green or colored parts that grow on trees"},
+    {"word": "winter", "translation": "invierno", "definition": "the coldest season of the year"}
+  ],
+  "paragraph_translations": [
+    "Es primavera. Lily va al parque con su papá. El parque tiene un tobogán grande y dos columpios. A Lily le gustan más los columpios.",
+    "En verano, el parque está caluroso, así que Lily bebe mucha agua. En otoño, las hojas de los árboles se vuelven amarillas y caen al suelo. A Lily le gusta saltar en las hojas. En invierno, el parque está frío y tranquilo."
+  ]
+}
