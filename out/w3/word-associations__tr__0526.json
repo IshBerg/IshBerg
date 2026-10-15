@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ocak mutfakta yemek pişirmek için kullanılır, bu yüzden mutfakla doğrudan ilgilidir."},
+    {"word": "bed", "is_associated": false, "association_type": "NONE", "explanation": "Yatak yatak odasında bulunur, mutfakla bir ilgisi yoktur."},
+    {"word": "fridge", "is_associated": true, "association_type": "THEMATIC", "explanation": "Buzdolabı mutfakta yiyecekleri soğuk tutmak için kullanılır."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Araba bir ulaşım aracıdır ve mutfakla ilgili değildir."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Kitchen sink' (mutfak lavabosu) birlikte sık kullanılan bir ifadedir."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet bir ulaşım aracıdır ve mutfakla bir bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Mutfakla ilgili eşyalar ve 'kitchen' ile birlikte kullanılan kelimeler doğru seçeneklerdir; yatak, araba ve bisiklet ise mutfakla ilgili değildir."
+}
