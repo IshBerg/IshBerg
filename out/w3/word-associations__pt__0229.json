@@ -1,0 +1,14 @@
+{
+  "trigger_word": "meeting",
+  "all_words": [
+    {"word": "agenda", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Agenda' combina com 'meeting' em expressões como 'meeting agenda' (pauta da reunião), que são muito comuns no ambiente de trabalho."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Uma montanha não tem nenhuma relação com reuniões de trabalho, então não é associada a 'meeting'."},
+    {"word": "boardroom", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Boardroom' é a sala de reuniões da diretoria, um lugar típico de reuniões profissionais, por isso é associada pelo tema."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Travesseiro pertence ao contexto de dormir e não tem relação com reuniões."},
+    {"word": "attendee", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Attendee' (participante) é uma palavra diretamente ligada ao sentido de reunião, pois é quem comparece a ela."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "Pôr do sol é um fenômeno natural e não tem relação com o contexto de reuniões."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'meeting' (reunião) se associa a termos de organização do trabalho, como pauta e participantes, e a espaços como a sala de reuniões, enquanto palavras do dia a dia sem relação profissional não se associam."
+}
