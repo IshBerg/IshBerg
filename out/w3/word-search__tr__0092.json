@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["K", "I", "N", "D", "Q", "W", "F"],
+    ["Z", "R", "P", "E", "T", "G", "U"],
+    ["V", "S", "H", "Y", "J", "A", "N"],
+    ["B", "M", "R", "X", "E", "I", "N"],
+    ["O", "K", "W", "T", "Q", "Z", "Y"],
+    ["L", "P", "C", "A", "L", "M", "V"],
+    ["D", "G", "X", "R", "J", "Q", "E"]
+  ],
+  "words_to_find": ["KIND", "SHY", "FUNNY", "BOLD", "CALM"],
+  "word_positions": [
+    {"word": "KIND", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SHY", "start_row": 2, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "FUNNY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BOLD", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "CALM", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Personality Adjectives"
+}

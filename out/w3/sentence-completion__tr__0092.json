@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There was not much milk in the fridge, so",
+  "correct_completion": "I bought some more at the shop.",
+  "full_sentence": "There was not much milk in the fridge, so I bought some more at the shop.",
+  "acceptable_variants": ["I went to the shop to buy some.", "I walked to the store and got a new carton."],
+  "options": [
+    {"text": "I drank all of the water.", "is_correct": false, "why_wrong": "The stem is about milk, not water. The option does not connect to the shortage of milk in the fridge."},
+    {"text": "I was very happy about the milk.", "is_correct": false, "why_wrong": "This describes a feeling, not an action that results from having little milk."},
+    {"text": "I bought some more at the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "There were many eggs in the fridge.", "is_correct": false, "why_wrong": "This contradicts the idea of a shortage and does not show a result of 'not much milk'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifier 'not much' with a cause-and-effect connector 'so'",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result. After 'not much', the clause should describe what the speaker did because of the shortage.",
+  "translation": "Buzdolabında çok az süt vardı, bu yüzden dükkândan biraz daha aldım."
+}
