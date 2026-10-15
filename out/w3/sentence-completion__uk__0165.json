@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He enjoys",
+  "correct_completion": "reading novels in the evening.",
+  "full_sentence": "He enjoys reading novels in the evening.",
+  "acceptable_variants": ["watching films on weekends.", "spending time with friends."],
+  "options": [
+    {"text": "to read novels in the evening.", "is_correct": false, "why_wrong": "'Enjoy' is followed by a gerund (-ing form), not an infinitive with 'to'."},
+    {"text": "read novels in the evening.", "is_correct": false, "why_wrong": "A bare infinitive without 'to' cannot follow 'enjoys'."},
+    {"text": "reading novels in the evening.", "is_correct": true, "why_wrong": null},
+    {"text": "to reading novels in the evening.", "is_correct": false, "why_wrong": "'To' must be followed by a base verb, so 'to' plus an -ing form is not a valid structure here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbs followed by gerunds",
+  "connector": "enjoys",
+  "explanation": "'Enjoy' is followed by a gerund, so the -ing form is needed after it. Learners whose first language uses a single infinitive form for such verbs often choose the infinitive here; remember that 'enjoy' takes the -ing form.",
+  "translation": "Він любить читати романи ввечері."
+}
