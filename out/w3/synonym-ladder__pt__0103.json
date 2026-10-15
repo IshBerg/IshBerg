@@ -1,0 +1,13 @@
+{
+  "start_word": "short",
+  "end_word": "long",
+  "ladder_steps": [
+    {"word": "short", "translation": "curto", "intensity_level": 1},
+    {"word": "brief", "translation": "breve", "intensity_level": 2},
+    {"word": "moderate", "translation": "moderado", "intensity_level": 3},
+    {"word": "extended", "translation": "prolongado", "intensity_level": 4},
+    {"word": "long", "translation": "longo", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Length words form a ladder from the shortest to the longest, each step a little longer than the last."
+}

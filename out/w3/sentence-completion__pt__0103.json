@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Mount Everest is the highest mountain in the world, so",
+  "correct_completion": "it is taller than any other mountain.",
+  "full_sentence": "Mount Everest is the highest mountain in the world, so it is taller than any other mountain.",
+  "acceptable_variants": ["it is taller than all the other mountains.", "no other mountain is higher than it."],
+  "options": [
+    {"text": "it is the shortest of all mountains.", "is_correct": false, "why_wrong": "This contradicts 'the highest', so it cannot be the logical result of that superlative."},
+    {"text": "it is taller than any other mountain.", "is_correct": true, "why_wrong": null},
+    {"text": "it is the oldest mountain in the world.", "is_correct": false, "why_wrong": "Age is a different quality, and 'the highest' does not tell us anything about how old a mountain is."},
+    {"text": "it is the most beautiful mountain of all.", "is_correct": false, "why_wrong": "Beauty is a matter of opinion and does not follow logically from being the highest."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Superlative adjectives and the logical result they imply",
+  "connector": "so",
+  "explanation": "The superlative 'the highest' implies a comparison with all other items in the group, so the logical result must also be a comparison of height. Choose the option that repeats that comparison.",
+  "translation": "O Monte Everest é a montanha mais alta do mundo, por isso é mais alto do que qualquer outra montanha."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pai", "transliteration": "pai", "meaning": "father"},
+    {"word": "pão", "transliteration": "pao", "meaning": "bread"},
+    {"word": "marido", "transliteration": "marido", "meaning": "husband"},
+    {"word": "amigo", "transliteration": "amigo", "meaning": "friend"}
+  ],
+  "english_words": ["bread", "husband", "friend", "father"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These Portuguese words and their English counterparts do not share a root in this set, so any resemblance is coincidental and does not indicate a shared meaning.",
+  "false_friend_warning": "Careful: the Portuguese word 'pai' (meaning father) looks like the English word 'pie', and the Portuguese word 'pao' (meaning bread) looks like the English word 'pow', so learners may confuse these words when they hear them."
+}

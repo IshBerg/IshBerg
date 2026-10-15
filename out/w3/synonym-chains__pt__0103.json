@@ -1,0 +1,17 @@
+{
+  "central_word": "early",
+  "chain_words": [
+    {"word": "prompt", "intensity": 1, "translation": "pontual", "nuance": "arriving at the expected time, without delay"},
+    {"word": "timely", "intensity": 2, "translation": "oportuno", "nuance": "happening at a suitable moment"},
+    {"word": "early", "intensity": 3, "translation": "cedo", "nuance": "before the expected or usual time"},
+    {"word": "premature", "intensity": 4, "translation": "prematuro", "nuance": "happening before the right or ready time, often with a negative sense"},
+    {"word": "untimely", "intensity": 5, "translation": "inoportuno", "nuance": "happening at a bad moment, often suggesting a sad or unfortunate event"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all relate to the idea of time, moving from a neutral sense of punctuality to a strong sense that timing was wrong.",
+  "usage_notes": [
+    {"word1": "early", "word2": "premature", "difference": "'Early' is a neutral description of timing; 'premature' suggests that something happened before it was ready, which is usually a negative judgement."}
+  ],
+  "translations": {"prompt": "pontual", "timely": "oportuno", "early": "cedo", "premature": "prematuro", "untimely": "inoportuno"}
+}
