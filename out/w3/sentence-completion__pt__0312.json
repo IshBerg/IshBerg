@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "You live near the station,",
+  "correct_completion": "don't you?",
+  "full_sentence": "You live near the station, don't you?",
+  "acceptable_variants": ["right?", "isn't that so?"],
+  "options": [
+    {"text": "do you?", "is_correct": false, "why_wrong": "The negative tag must use 'don't', not 'do', because the main clause is positive and the auxiliary must be negated."},
+    {"text": "don't you?", "is_correct": true, "why_wrong": null},
+    {"text": "aren't you?", "is_correct": false, "why_wrong": "'Aren't' uses the verb 'be', but 'live' is a main verb that needs the auxiliary 'do'."},
+    {"text": "doesn't you?", "is_correct": false, "why_wrong": "'Doesn't' is used with he, she or it. With 'you', the negative auxiliary is 'don't'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative tag questions with a main verb in the present simple",
+  "connector": "tag question",
+  "explanation": "A positive statement takes a negative tag. Because 'live' is a main verb, the tag uses the auxiliary 'do' in negative form with the subject 'you'. Learners often mirror the verb of the sentence instead of using an auxiliary, so the auxiliary must be supplied separately.",
+  "translation": "Você mora perto da estação, não é?"
+}
