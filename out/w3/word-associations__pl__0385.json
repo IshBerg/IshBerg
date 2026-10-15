@@ -1,0 +1,14 @@
+{
+  "trigger_word": "narrator",
+  "all_words": [
+    {"word": "perspective", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Narrator to osoba opowiadająca historię, a perspective to punkt widzenia, z którego ta historia jest przedstawiona."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Wulkan jest zjawiskiem przyrodniczym i nie ma związku z narracją w literaturze."},
+    {"word": "voice", "is_associated": true, "association_type": "SEMANTIC", "explanation": "W analizie prozy 'voice' oznacza sposób mówienia narratora, więc słowo ściśle wiąże się z pojęciem narratora."},
+    {"word": "omelette", "is_associated": false, "association_type": "NONE", "explanation": "Omlet jest potrawą i nie należy do dziedziny literatury ani stylu."},
+    {"word": "chapter", "is_associated": true, "association_type": "THEMATIC", "explanation": "Rozdział jest częścią powieści, którą narrator opowiada, więc należy do tej samej tematyki."},
+    {"word": "tide", "is_associated": false, "association_type": "NONE", "explanation": "Przypływ i odpływ morza to zjawisko naturalne, bez związku z narracją."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'narrator' dotyczą sposobu opowiadania historii w literaturze, natomiast pozostałe słowa należą do przyrody i kuchni."
+}
