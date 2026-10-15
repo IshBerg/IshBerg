@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dog",
+  "all_words": [
+    {"word": "bone", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'dog bone' (osso de cachorro) é uma combinação comum em inglês."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Mesa não tem relação com cachorros; é um móvel de casa."},
+    {"word": "leash", "is_associated": true, "association_type": "THEMATIC", "explanation": "A guia (coleira) faz parte do tema de passear com o cachorro."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "Computador não tem ligação com cachorros."},
+    {"word": "bark", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Latir é o som que o cachorro faz, por isso tem sentido ligado a 'dog'."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Carro não tem relação direta com cachorros."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'dog' se relacionam com o animal, com seus objetos e com seus sons; as outras não têm ligação com ele."
+}
