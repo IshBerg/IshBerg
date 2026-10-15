@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Ali is always late for school because",
+  "correct_completion": "he wakes up late every day.",
+  "full_sentence": "Ali is always late for school because he wakes up late every day.",
+  "acceptable_variants": ["he goes to bed very late.", "he never sets an alarm."],
+  "options": [
+    {"text": "he likes his new shoes.", "is_correct": false, "why_wrong": "This is a true sentence about Ali, but it does not explain why he is late for school, so it does not complete the cause relation."},
+    {"text": "the school is near his house.", "is_correct": false, "why_wrong": "This gives a fact about distance. It does not explain the lateness, because a near school would make him arrive earlier, not later."},
+    {"text": "he wake up late every day.", "is_correct": false, "why_wrong": "The idea is right, but the verb is wrong. With he, the present simple needs an -s ending: 'he wakes up'."},
+    {"text": "he wakes up late every day.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause with 'because' and present simple third person",
+  "connector": "because",
+  "explanation": "The word 'because' introduces the reason for the first clause. The reason must use the present simple, with the verb in third person singular (wakes).",
+  "translation": "Ali her zaman okula geç kalıyor çünkü her gün geç uyanıyor."
+}
