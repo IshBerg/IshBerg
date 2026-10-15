@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because it was late,",
+  "correct_completion": "we went home.",
+  "full_sentence": "Because it was late, we went home.",
+  "acceptable_variants": ["we took the bus home.", "we walked back to the house."],
+  "options": [
+    {"text": "but we stayed in the park.", "is_correct": false, "why_wrong": "'Because' introduces a reason. 'But' introduces a contrast, so it does not fit after 'because it was late'."},
+    {"text": "although we were tired.", "is_correct": false, "why_wrong": "'Although' shows contrast, but this stem needs a result that follows from the reason 'it was late'."},
+    {"text": "we went home.", "is_correct": true, "why_wrong": null},
+    {"text": "so we will go to school tomorrow.", "is_correct": false, "why_wrong": "This talks about tomorrow's plans, not the result of the lateness in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the reason. The main clause must then show the result of that reason, such as the action that followed from the late hour.",
+  "translation": "Como era tarde, nos fuimos a casa."
+}
