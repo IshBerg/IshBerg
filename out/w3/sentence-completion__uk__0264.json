@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was raining, so",
+  "correct_completion": "we took our umbrellas.",
+  "full_sentence": "It was raining, so we took our umbrellas.",
+  "acceptable_variants": ["we wore our raincoats.", "we stayed inside the house."],
+  "options": [
+    {"text": "we went to the beach.", "is_correct": false, "why_wrong": "Going to the beach is not a logical result of rain. 'So' introduces a result that follows from the first part of the sentence."},
+    {"text": "the sun was shining brightly.", "is_correct": false, "why_wrong": "This contradicts the first part of the sentence, which says it was raining."},
+    {"text": "we took our umbrellas.", "is_correct": true, "why_wrong": null},
+    {"text": "the children played in the park.", "is_correct": false, "why_wrong": "Playing in the park is not a natural reaction to rain, so the result does not connect logically with 'so'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a result that logically follows from the situation described in the first part. Taking umbrellas is a sensible reaction to rain, while the other options either contradict the stem or are not logical results of it.",
+  "translation": "Йшов дощ, тому ми взяли парасольки."
+}
