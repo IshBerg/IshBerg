@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the heavy investment in the project,",
+  "correct_completion": "the results were disappointing.",
+  "full_sentence": "Despite the heavy investment in the project, the results were disappointing.",
+  "acceptable_variants": ["the outcome was far below expectations.", "the returns were lower than forecast."],
+  "options": [
+    {"text": "so the team decided to cancel it.", "is_correct": false, "why_wrong": "'So' introduces a consequence, which does not match the concessive meaning set up by 'despite'."},
+    {"text": "the project needed more staff.", "is_correct": false, "why_wrong": "This is a related detail, but it does not complete the contrast: 'despite' requires an outcome that goes against what the investment would suggest."},
+    {"text": "the results were disappointing.", "is_correct": true, "why_wrong": null},
+    {"text": "the investment was made in 2019.", "is_correct": false, "why_wrong": "This states when something happened and does not contrast with the expected result of the investment."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive relations with 'despite'",
+  "connector": "despite",
+  "explanation": "'Despite' signals a concession: the completion must describe an outcome that runs against what the investment would lead one to expect. Polish speakers sometimes transfer a causal link into this position, so it is worth checking that the second clause contrasts rather than follows from the first.",
+  "translation": "Mimo dużych inwestycji w projekt wyniki były rozczarowujące."
+}
