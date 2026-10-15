@@ -1,0 +1,13 @@
+{
+  "start_word": "rare",
+  "end_word": "common",
+  "ladder_steps": [
+    {"word": "rare", "translation": "raro", "intensity_level": 1},
+    {"word": "uncommon", "translation": "incomum", "intensity_level": 2},
+    {"word": "occasional", "translation": "ocasional", "intensity_level": 3},
+    {"word": "frequent", "translation": "frequente", "intensity_level": 4},
+    {"word": "common", "translation": "comum", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words form a ladder along one dimension, how often something happens, from almost never to very regularly, with each step more frequent than the last."
+}

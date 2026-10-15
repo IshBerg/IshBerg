@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "Q", "H"],
+    ["B", "K", "L", "D", "Z", "W", "E"],
+    ["J", "X", "Y", "T", "M", "V", "R"],
+    ["F", "U", "P", "D", "A", "W", "O"],
+    ["B", "Q", "Z", "V", "G", "L", "K"],
+    ["D", "S", "U", "E", "I", "N", "Z"],
+    ["K", "I", "N", "G", "C", "Q", "J"]
+  ],
+  "words_to_find": ["STORY", "HERO", "KING", "MAGIC"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HERO", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "KING", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MAGIC", "start_row": 2, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Short Stories"
+}
