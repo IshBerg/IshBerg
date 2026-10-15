@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the village was small and quiet,",
+  "correct_completion": "its people shared a rich story tradition.",
+  "full_sentence": "Although the village was small and quiet, its people shared a rich story tradition.",
+  "acceptable_variants": ["its people still told stories every night.", "its people kept a lively storytelling culture."],
+  "options": [
+    {"text": "so nobody ever told a story there.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause. This option uses 'so', which shows a result, and it contradicts the contrast the stem sets up."},
+    {"text": "its people shared a rich story tradition.", "is_correct": true, "why_wrong": null},
+    {"text": "the village was very famous.", "is_correct": false, "why_wrong": "This repeats the idea of the village without giving the contrasting action that 'although' requires."},
+    {"text": "its people moved away every year.", "is_correct": false, "why_wrong": "This gives a reason for leaving, which does not fit the contrast pattern that 'although' introduces."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show contrast with the first part. Here the stem describes a small, quiet village, so the completion must introduce a surprising or opposing fact.",
+  "translation": "Küçük ve sessiz olmasına rağmen köyün halkı zengin bir hikâye geleneğini paylaşıyordu."
+}
