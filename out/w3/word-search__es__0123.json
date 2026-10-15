@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E", "U", "P", "H", "E", "M", "I", "S", "M", "X"],
+    ["A", "I", "B", "K", "L", "D", "F", "G", "H", "N"],
+    ["Q", "W", "R", "Z", "X", "P", "K", "J", "V", "U"],
+    ["M", "Y", "D", "O", "F", "Q", "W", "Z", "B", "A"],
+    ["J", "K", "L", "X", "N", "G", "H", "V", "T", "N"],
+    ["B", "D", "Q", "W", "R", "Y", "P", "L", "M", "C"],
+    ["W", "X", "Z", "F", "K", "J", "B", "D", "Q", "E"],
+    ["Z", "E", "L", "T", "B", "U", "S", "K", "H", "Q"],
+    ["F", "G", "A", "W", "D", "R", "X", "Y", "N", "B"],
+    ["P", "E", "J", "O", "R", "A", "T", "I", "V", "E"]
+  ],
+  "words_to_find": ["EUPHEMISM", "PEJORATIVE", "NUANCE", "IRONY", "SUBTLE"],
+  "word_positions": [
+    {"word": "EUPHEMISM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PEJORATIVE", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NUANCE", "start_row": 1, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 1, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "SUBTLE", "start_row": 7, "start_col": 6, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Connotation and Nuance in Word Choice"
+}
