@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The cat",
+  "correct_completion": "is black.",
+  "full_sentence": "The cat is black.",
+  "acceptable_variants": ["is black and white.", "is very black."],
+  "options": [
+    {"text": "are black.", "is_correct": false, "why_wrong": "'The cat' is singular, so we use 'is', not 'are'."},
+    {"text": "am black.", "is_correct": false, "why_wrong": "'Am' is used only with 'I'. With 'The cat' we need 'is'."},
+    {"text": "is black.", "is_correct": true, "why_wrong": null},
+    {"text": "black is.", "is_correct": false, "why_wrong": "The word order is wrong. In English the adjective comes after 'is', not before it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verb 'to be' with third-person singular subjects",
+  "connector": "is",
+  "explanation": "The verb 'to be' must agree with the subject. A singular subject such as 'the cat' takes 'is' in the present simple.",
+  "translation": "Кіт чорний."
+}
