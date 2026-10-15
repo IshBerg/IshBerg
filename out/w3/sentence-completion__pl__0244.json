@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the storm,",
+  "correct_completion": "she would have postponed the journey.",
+  "full_sentence": "Had she known about the storm, she would have postponed the journey.",
+  "acceptable_variants": ["she would have chosen another route.", "she might not have set out at all."],
+  "options": [
+    {"text": "she sets out at dawn as planned.", "is_correct": false, "why_wrong": "The present tense does not match the unreal past set up by the inverted 'Had she known'; the result clause needs 'would have' plus a past participle."},
+    {"text": "she will still travel tomorrow.", "is_correct": false, "why_wrong": "A future form with 'will' cannot express the unreal past result of an inverted third conditional."},
+    {"text": "she would have postponed the journey.", "is_correct": true, "why_wrong": null},
+    {"text": "she wanted to postpone the journey.", "is_correct": false, "why_wrong": "A simple past states a past desire or fact and does not express the hypothetical result that follows an inverted third conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had + subject' and a 'would have' result clause",
+  "connector": "had (inverted if)",
+  "explanation": "After the inverted form 'Had she known', the main clause must express an unreal past result, so we need 'would have' plus a past participle. Polish speakers may find this perfect modal unfamiliar, because Polish builds the conditional from a past-tense verb plus a particle, without a separate perfect form.",
+  "translation": "Gdyby wiedziała o burzy, odłożyłaby podróż."
+}
