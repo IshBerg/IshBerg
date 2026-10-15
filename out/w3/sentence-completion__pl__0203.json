@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rarely has a single report",
+  "correct_completion": "so clearly changed the public debate.",
+  "full_sentence": "Rarely has a single report so clearly changed the public debate.",
+  "acceptable_variants": ["so decisively reshaped the public debate.", "so clearly altered the public debate."],
+  "options": [
+    {"text": "it has so clearly changed the public debate.", "is_correct": false, "why_wrong": "After the inverted auxiliary 'has', the subject already comes after it, so repeating the subject as 'it' breaks the structure."},
+    {"text": "so clearly changed the public debate.", "is_correct": true, "why_wrong": null},
+    {"text": "did a single report so clearly change the public debate.", "is_correct": false, "why_wrong": "'Rarely has' already contains the inverted auxiliary, so adding 'did' creates a second auxiliary and an incorrect structure."},
+    {"text": "the public debate was so clearly changed.", "is_correct": false, "why_wrong": "This passive sentence does not continue the inverted structure set up by 'rarely has' and has no subject that matches the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative adverbial inversion after 'rarely'",
+  "connector": "rarely",
+  "explanation": "When a negative adverb such as 'rarely' comes first, the auxiliary verb moves before the subject. The rest of the clause then follows the inverted pattern without repeating the subject.",
+  "translation": "Rzadko który pojedynczy raport tak wyraźnie zmienił debatę publiczną."
+}
