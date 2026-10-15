@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "U", "B", "T", "L", "E", "K", "V", "Q"],
+    ["Q", "Z", "P", "R", "O", "J", "X", "I", "M"],
+    ["K", "F", "H", "Y", "W", "B", "Q", "V", "R"],
+    ["G", "D", "O", "H", "K", "E", "Z", "I", "L"],
+    ["H", "E", "X", "Y", "C", "P", "M", "D", "F"],
+    ["Y", "T", "N", "N", "W", "K", "P", "Z", "B"],
+    ["W", "J", "A", "T", "Q", "M", "B", "K", "D"],
+    ["R", "U", "Q", "P", "L", "F", "G", "X", "H"],
+    ["N", "Z", "K", "V", "M", "E", "R", "Q", "T"]
+  ],
+  "words_to_find": ["SUBTLE", "VIVID", "GENTLE", "NUANCE"],
+  "word_positions": [
+    {"word": "SUBTLE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VIVID", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "GENTLE", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "NUANCE", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Nuanced Synonyms"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Stół nie ma żadnego związku ze słońcem."},
+    {"word": "yellow", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słońce często przedstawia się jako żółte, a 'yellow sun' jest typowym połączeniem."},
+    {"word": "moon", "is_associated": true, "association_type": "THEMATIC", "explanation": "Księżyc i słońce to ciała niebieskie, więc należą do tego samego tematu."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Chleb nie jest związany ze słońcem."},
+    {"word": "light", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Słońce jest źródłem światła, więc oba słowa są blisko powiązane znaczeniowo."},
+    {"word": "eleven", "is_associated": false, "association_type": "NONE", "explanation": "Liczba jedenaście nie ma związku ze słońcem."}
+  ],
+  "correct_indices": [1, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'sun' kojarzy się z niebem, światłem i żółtym kolorem oraz z innymi ciałami niebieskimi."
+}
