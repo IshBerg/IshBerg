@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because there were too few chairs in the room,",
+  "correct_completion": "some students had to stand by the wall.",
+  "full_sentence": "Because there were too few chairs in the room, some students had to stand by the wall.",
+  "acceptable_variants": ["many students sat on the floor.", "two people had to share a seat."],
+  "options": [
+    {"text": "the room was very big.", "is_correct": false, "why_wrong": "This describes the room, but it does not give the result of having too few chairs."},
+    {"text": "the chairs were very comfortable.", "is_correct": false, "why_wrong": "This describes the chairs, but it is not a result of their small number."},
+    {"text": "some students had to stand by the wall.", "is_correct": true, "why_wrong": null},
+    {"text": "although everyone was happy.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause, so it does not fit after 'because'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the reason and the main clause must give the result. Turkish speakers may find it natural to place the result first, so English learners should keep the reason-then-result order.",
+  "translation": "Odada çok az sandalye olduğu için bazı öğrenciler duvar kenarında ayakta durmak zorunda kaldı."
+}
