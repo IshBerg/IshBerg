@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "teacher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Professor trabalha na escola e ensina os alunos."},
+    {"word": "book", "is_associated": true, "association_type": "THEMATIC", "explanation": "Livros são usados nas aulas e na biblioteca da escola."},
+    {"word": "pencil", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Lápis é um material escolar comum, e a expressão 'lápis escolar' é muito usada."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Cozinha fica em casa e não tem relação com a escola."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Nuvem fica no céu e não tem relação com a escola."},
+    {"word": "student", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Aluno é a pessoa que estuda na escola."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'escola' são pessoas, objetos e lugares ligados às aulas, enquanto cozinha e nuvem não pertencem a esse contexto."
+}
