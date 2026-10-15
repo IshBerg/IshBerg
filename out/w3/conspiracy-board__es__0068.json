@@ -1,0 +1,14 @@
+{
+  "codename": "COLD FRONT",
+  "briefing": "Agent, we've intercepted weather reports hidden in a coded file. Match each English weather word to its Spanish meaning to reveal the forecast before time runs out.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "sunny", "right": "soleado", "left_style": "document", "right_style": "handwritten"},
+    {"left": "cloudy", "right": "nublado", "left_style": "photo", "right_style": "document"},
+    {"left": "windy", "right": "ventoso", "left_style": "newspaper", "right_style": "official"},
+    {"left": "rainy", "right": "lluvioso", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "cold", "right": "frío", "left_style": "official", "right_style": "newspaper"},
+    {"left": "hot", "right": "caliente", "left_style": "document", "right_style": "official"}
+  ]
+}
