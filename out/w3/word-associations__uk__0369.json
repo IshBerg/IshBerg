@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Грім є звуковим явищем, яке супроводжує грозу і шторм."},
+    {"word": "calculator", "is_associated": false, "association_type": "NONE", "explanation": "Калькулятор є приладом для обчислень і не має жодного зв'язку з погодними явищами."},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Парасолька є типовим предметом, який використовують під час дощу, що йде разом зі штормом."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець є канцелярським приладдям і не пов'язаний зі штормом або погодою."},
+    {"word": "rain", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слова 'heavy rain' часто вживаються разом із 'storm', тому це типова колокація."},
+    {"word": "lightning", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Блискавка є характерним явищем грози і шторму."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово storm асоціюється з погодними явищами, такими як грім, блискавка і дощ, а також з предметами, що захищають від негоди, наприклад парасолькою."
+}

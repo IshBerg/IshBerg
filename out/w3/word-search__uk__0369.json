@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["F", "O", "O", "D", "K", "F", "Z", "M"],
+    ["B", "R", "T", "L", "P", "E", "H", "U"],
+    ["D", "A", "N", "C", "E", "S", "W", "S"],
+    ["Y", "J", "K", "Q", "N", "T", "B", "I"],
+    ["R", "O", "W", "G", "H", "I", "D", "C"],
+    ["X", "M", "P", "F", "Y", "V", "R", "N"],
+    ["Q", "L", "B", "U", "T", "A", "K", "Z"],
+    ["J", "S", "E", "W", "O", "L", "P", "G"]
+  ],
+  "words_to_find": ["FOOD", "MUSIC", "DANCE", "FESTIVAL"],
+  "word_positions": [
+    {"word": "FOOD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MUSIC", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "DANCE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FESTIVAL", "start_row": 0, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Cultural Diversity"
+}
