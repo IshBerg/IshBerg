@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is not much milk in the fridge, so",
+  "correct_completion": "we need to buy some more.",
+  "full_sentence": "There is not much milk in the fridge, so we need to buy some more.",
+  "acceptable_variants": ["we need to buy more milk.", "we should get a new carton of milk."],
+  "options": [
+    {"text": "we have many eggs for breakfast.", "is_correct": false, "why_wrong": "Having eggs does not follow from the shortage of milk; 'so' needs a result of the shortage."},
+    {"text": "we need to buy some more.", "is_correct": true, "why_wrong": null},
+    {"text": "we need to buy many milks.", "is_correct": false, "why_wrong": "'Milk' is an uncountable noun, so we do not pluralise it or use 'many' with it. Use 'more milk' or 'a lot of milk'."},
+    {"text": "we have many bread in the kitchen.", "is_correct": false, "why_wrong": "'Bread' is uncountable, so 'many' is wrong here, and the sentence does not state a result of the milk shortage."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Uncountable nouns with 'much' and 'some' or 'more'",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result. Here the shortage of milk leads to the need to buy more. Milk is uncountable, so we use 'much', 'some' and 'more' with it, not 'many'.",
+  "translation": "No hay mucha leche en el refrigerador, así que necesitamos comprar más."
+}

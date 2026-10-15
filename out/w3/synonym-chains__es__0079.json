@@ -1,0 +1,17 @@
+{
+  "central_word": "hungry",
+  "chain_words": [
+    {"word": "peckish", "intensity": 1, "translation": "con algo de hambre", "nuance": "slightly hungry, not very much"},
+    {"word": "hungry", "intensity": 2, "translation": "con hambre", "nuance": "general feeling of wanting food"},
+    {"word": "famished", "intensity": 3, "translation": "con mucha hambre", "nuance": "very hungry, feeling weak"},
+    {"word": "starving", "intensity": 4, "translation": "muerto de hambre", "nuance": "extremely hungry, informal in strong speech"},
+    {"word": "ravenous", "intensity": 5, "translation": "con un hambre voraz", "nuance": "so hungry you could eat a huge amount"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express being hungry, but with different intensities, from a light feeling of hunger to a very strong desire to eat.",
+  "usage_notes": [
+    {"word1": "hungry", "word2": "starving", "difference": "'Hungry' is the neutral everyday word; 'starving' is much stronger and is often used in an exaggerated way after a long day without food."}
+  ],
+  "translations": {"peckish": "con algo de hambre", "hungry": "con hambre", "famished": "con mucha hambre", "starving": "muerto de hambre", "ravenous": "con un hambre voraz"}
+}
