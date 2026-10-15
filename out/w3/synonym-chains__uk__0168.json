@@ -1,0 +1,23 @@
+{
+  "central_word": "scared",
+  "chain_words": [
+    {"word": "worried", "intensity": 1, "translation": "стурбований", "nuance": "mild concern about something that might go wrong"},
+    {"word": "anxious", "intensity": 2, "translation": "занепокоєний", "nuance": "persistent unease about the future"},
+    {"word": "scared", "intensity": 3, "translation": "наляканий", "nuance": "general feeling of fear"},
+    {"word": "frightened", "intensity": 4, "translation": "переляканий", "nuance": "fear caused by a sudden threat"},
+    {"word": "terrified", "intensity": 5, "translation": "охоплений жахом", "nuance": "overwhelming fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "All five words describe fear or unease, moving from mild concern to overwhelming terror.",
+  "usage_notes": [
+    {"word1": "scared", "word2": "frightened", "difference": "'Frightened' often describes a sudden reaction to a specific threat, while 'scared' describes the feeling more generally."}
+  ],
+  "translations": {
+    "worried": "стурбований",
+    "anxious": "занепокоєний",
+    "scared": "наляканий",
+    "frightened": "переляканий",
+    "terrified": "охоплений жахом"
+  }
+}

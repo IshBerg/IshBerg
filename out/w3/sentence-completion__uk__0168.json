@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Unless the bus arrives soon,",
+  "correct_completion": "we will walk to the station.",
+  "full_sentence": "Unless the bus arrives soon, we will walk to the station.",
+  "acceptable_variants": ["we will go on foot instead.", "we will have to walk instead."],
+  "options": [
+    {"text": "we would have walked there.", "is_correct": false, "why_wrong": "'Would have' is a past-result form, but the sentence refers to a future alternative that depends on a present condition."},
+    {"text": "we will walk to the station.", "is_correct": true, "why_wrong": null},
+    {"text": "so we will take a taxi.", "is_correct": false, "why_wrong": "'So' introduces a result that is already decided, not an alternative that depends on the bus not arriving."},
+    {"text": "we walked to the station yesterday.", "is_correct": false, "why_wrong": "The simple past refers to a finished event, which does not match the future-time alternative set up by 'unless'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'unless' (meaning 'if not')",
+  "connector": "unless",
+  "explanation": "'Unless' means 'if not', so the main clause must give the alternative that applies when the condition fails. A future form in the main clause fits this pattern. Ukrainian speakers may translate the connector word by word, which often leads them to choose a form that expresses a result rather than an alternative.",
+  "translation": "Якщо автобус скоро не приїде, ми підемо до станції пішки."
+}
