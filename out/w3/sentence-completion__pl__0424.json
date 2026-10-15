@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the hotel room was small,",
+  "correct_completion": "the staff were friendly and helpful.",
+  "full_sentence": "Although the hotel room was small, the staff were friendly and helpful.",
+  "acceptable_variants": ["the view from the window was beautiful.", "the breakfast was still delicious."],
+  "options": [
+    {"text": "so we asked for a bigger room.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' needs a contrasting clause."},
+    {"text": "the room had a small bathroom too.", "is_correct": false, "why_wrong": "This adds more information about the room, but it does not contrast with the first part."},
+    {"text": "we were tired after the trip.", "is_correct": false, "why_wrong": "This gives a reason for being tired, but it does not complete the contrast set by 'although'."},
+    {"text": "the staff were friendly and helpful.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part of the sentence. Learners often choose a result clause with 'so' because it sounds like cause and effect, but 'although' signals contrast.",
+  "translation": "Chociaż pokój w hotelu był mały, personel był miły i pomocny."
+}
