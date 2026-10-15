@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Right now, my sister",
+  "correct_completion": "is cooking dinner in the kitchen.",
+  "full_sentence": "Right now, my sister is cooking dinner in the kitchen.",
+  "acceptable_variants": ["is making soup in the kitchen.", "is cooking lunch at the moment."],
+  "options": [
+    {"text": "cooks dinner every day.", "is_correct": false, "why_wrong": "The simple present describes habits. The stem says 'right now', which needs the present continuous."},
+    {"text": "is cooking dinner in the kitchen.", "is_correct": true, "why_wrong": null},
+    {"text": "cooked dinner yesterday.", "is_correct": false, "why_wrong": "The simple past describes finished actions in the past. The stem refers to the present moment."},
+    {"text": "will cook dinner tomorrow.", "is_correct": false, "why_wrong": "The future tense refers to tomorrow, but the stem says 'right now'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present continuous for actions happening at the moment of speaking",
+  "connector": "right now",
+  "explanation": "The phrase 'right now' signals an action in progress at the moment of speaking. The verb needs the auxiliary 'is' plus the -ing form of the verb. Learners often choose a simple tense here because the same idea in their first language can be expressed without an auxiliary.",
+  "translation": "Ahora mismo, mi hermana está cocinando la cena en la cocina."
+}

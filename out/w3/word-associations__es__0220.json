@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pencil",
+  "all_words": [
+    {"word": "eraser", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El borrador se usa para corregir lo que se escribe con el lápiz."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Una nube está en el cielo y no tiene relación con el lápiz."},
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "El papel es el material donde se escribe con el lápiz en la escuela."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Una cuchara sirve para comer y no tiene relación con escribir."},
+    {"word": "sharpener", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El sacapuntas afila la punta del lápiz."},
+    {"word": "book", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los libros se leen y se escriben en el colegio, junto con los lápices."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con el lápiz pertenecen al mundo de la escuela y de la escritura; las que no están asociadas pertenecen a otros contextos."
+}
