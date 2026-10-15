@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "L", "E", "A", "S", "E", "X", "Q", "C", "Z"],
+    ["R", "T", "V", "J", "W", "B", "F", "G", "O", "Y"],
+    ["H", "M", "K", "W", "Z", "Q", "T", "J", "U", "Y"],
+    ["B", "E", "R", "N", "W", "X", "G", "Z", "L", "V"],
+    ["F", "G", "L", "Q", "J", "W", "T", "X", "D", "K"],
+    ["V", "B", "N", "P", "Y", "T", "Q", "R", "X", "F"],
+    ["Z", "C", "H", "Y", "D", "W", "V", "K", "S", "A"],
+    ["M", "Q", "J", "X", "N", "V", "W", "Y", "P", "T"],
+    ["S", "J", "Z", "G", "A", "Q", "U", "I", "R", "E"],
+    ["N", "K", "Y", "F", "C", "X", "L", "O", "M", "V"]
+  ],
+  "words_to_find": ["PLEASE", "HELP", "CAN", "ASK", "COULD"],
+  "word_positions": [
+    {"word": "PLEASE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HELP", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CAN", "start_row": 9, "start_col": 4, "direction": "VERTICAL_UP"},
+    {"word": "ASK", "start_row": 6, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "COULD", "start_row": 0, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Making Requests"
+}
