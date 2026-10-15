@@ -1,0 +1,14 @@
+{
+  "trigger_word": "birthday",
+  "all_words": [
+    {"word": "cake", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słowo 'cake' tworzy typowe połączenie 'birthday cake' (tort urodzinowy), więc jest silnie związane z tematem."},
+    {"word": "snow", "is_associated": false, "association_type": "NONE", "explanation": "Śnieg nie ma związku z urodzinami i nie jest częścią typowych obchodów urodzinowych."},
+    {"word": "candle", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówimy 'birthday candles' (świeczki urodzinowe), bo zdmuchujemy je z tortu podczas urodzin."},
+    {"word": "bus", "is_associated": false, "association_type": "NONE", "explanation": "Autobus nie kojarzy się z urodzinami; to po prostu środek transportu."},
+    {"word": "gift", "is_associated": true, "association_type": "THEMATIC", "explanation": "Prezent to tematyczne skojarzenie, bo na urodziny zwykle dajemy i dostajemy prezenty."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Samochód nie ma związku z urodzinami, mimo że też jest pojazdem, tak jak autobus."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'birthday' kojarzy się z jedzeniem (cake), dekoracjami (candle) i prezentami (gift), a nie z pogodą ani transportem."
+}
