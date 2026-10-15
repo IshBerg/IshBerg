@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna is my friend.",
+  "correct_completion": "She is very kind.",
+  "full_sentence": "Anna is my friend. She is very kind.",
+  "acceptable_variants": ["She is very nice.", "She is funny."],
+  "options": [
+    {"text": "Her is very kind.", "is_correct": false, "why_wrong": "'Her' is a possessive or object form. A subject pronoun is needed before the verb 'is'."},
+    {"text": "They are very kind.", "is_correct": false, "why_wrong": "'They' refers to more than one person. Anna is one person, so use a singular pronoun."},
+    {"text": "She is very kind.", "is_correct": true, "why_wrong": null},
+    {"text": "Him is very kind.", "is_correct": false, "why_wrong": "'Him' is an object pronoun. Anna is a woman, and the subject pronoun for a woman is 'she'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject pronouns (she, he, it, we, they)",
+  "connector": "she",
+  "explanation": "In English every sentence needs a subject pronoun before the verb, even when the subject is already named. For a girl or woman, use 'she'. Polish speakers often leave the subject out because Polish verb endings already show who is doing the action, so in English the pronoun must be said.",
+  "translation": "Anna jest moją przyjaciółką. Ona jest bardzo miła."
+}
