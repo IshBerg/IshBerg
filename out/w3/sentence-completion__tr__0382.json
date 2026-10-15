@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We need to go to the shop because",
+  "correct_completion": "we have no milk at home.",
+  "full_sentence": "We need to go to the shop because we have no milk at home.",
+  "acceptable_variants": ["our milk is finished.", "we want to make a cake."],
+  "options": [
+    {"text": "the milk is very expensive.", "is_correct": false, "why_wrong": "This describes the milk, but it does not give a reason for needing to go to the shop."},
+    {"text": "we went to the park.", "is_correct": false, "why_wrong": "This describes a past action, but it does not explain why we need to go to the shop."},
+    {"text": "we have no milk at home.", "is_correct": true, "why_wrong": null},
+    {"text": "the shop is closed on Sundays.", "is_correct": false, "why_wrong": "This gives information about the shop, not the reason we need to go there."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the main part of the sentence. Turkish speakers often place the reason before the main clause, so they should practice the English order of main clause first, then 'because'.",
+  "translation": "Evde süt kalmadığı için markete gitmemiz gerekiyor."
+}
