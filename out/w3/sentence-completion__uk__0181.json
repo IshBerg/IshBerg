@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had the team faced such a difficult deadline,",
+  "correct_completion": "had they been asked to deliver so much in so little time.",
+  "full_sentence": "Never before had the team faced such a difficult deadline, had they been asked to deliver so much in so little time.",
+  "acceptable_variants": ["never had they been asked to deliver so much in so little time.", "rarely had they been given such a demanding task."],
+  "options": [
+    {"text": "the team had completed the project early.", "is_correct": false, "why_wrong": "This is a positive statement in normal word order. Negative inversion requires the auxiliary verb to come before the subject after the negative adverb."},
+    {"text": "they were asked to deliver so much in so little time.", "is_correct": false, "why_wrong": "This is a normal word order sentence. After 'never before', the auxiliary 'had' must come before the subject."},
+    {"text": "had they been asked to deliver so much in so little time.", "is_correct": true, "why_wrong": null},
+    {"text": "they had been asked to deliver so much in so little time.", "is_correct": false, "why_wrong": "This keeps the normal subject-verb order. The negative adverb 'never before' requires inversion, so 'had' must precede 'they'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after 'never before'",
+  "connector": "never before",
+  "explanation": "When a negative adverb such as 'never before' begins a clause, English puts the auxiliary verb before the subject. Learners whose first language does not use this structure often keep the normal order by mistake.",
+  "translation": "Ніколи раніше команда не стикалася з таким складним терміном, і їх ніколи не просили так багато зробити за такий короткий час."
+}
