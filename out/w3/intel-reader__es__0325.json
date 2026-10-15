@@ -1,0 +1,19 @@
+{
+  "title": "A Park and a Library",
+  "text": "There is a park near my house. It is big and green. Many people walk there in the morning.\n\nNext to the park there is a library. My sister goes there every Saturday to read books. The library is open until six.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is near my house?", "options": ["A park", "A school", "A hospital", "A station"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "When does my sister go to the library?", "options": ["Every Saturday", "Every Monday", "Every morning", "Every night"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What kind of place is the park probably?", "options": ["A nice place to relax", "A dangerous place", "An empty place", "A place only for cars"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can you probably do at the library?", "options": ["Read and study quietly", "Play loud music", "Cook dinner", "Swim"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "park", "translation": "parque", "definition": "a green public area where people walk and play"},
+    {"word": "library", "translation": "biblioteca", "definition": "a place where you can borrow and read books"},
+    {"word": "open", "translation": "abierto", "definition": "not closed, so people can go in"}
+  ],
+  "paragraph_translations": [
+    "Hay un parque cerca de mi casa. Es grande y verde. Muchas personas caminan allí por la mañana.",
+    "Al lado del parque hay una biblioteca. Mi hermana va allí todos los sábados para leer libros. La biblioteca está abierta hasta las seis."
+  ]
+}
