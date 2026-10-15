@@ -1,0 +1,23 @@
+{
+  "central_word": "evidence",
+  "chain_words": [
+    {"word": "hint", "intensity": 1, "translation": "wskazówka", "nuance": "a faint, indirect clue that something may be true"},
+    {"word": "suggestion", "intensity": 2, "translation": "sugestia", "nuance": "a weak signal that points in a direction without proving anything"},
+    {"word": "indication", "intensity": 3, "translation": "oznaka", "nuance": "a clear sign that supports a conclusion"},
+    {"word": "evidence", "intensity": 4, "translation": "dowody", "nuance": "information that substantially supports a claim"},
+    {"word": "proof", "intensity": 5, "translation": "dowód", "nuance": "conclusive demonstration that leaves no reasonable doubt"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all relate to the support given to a claim, but they differ in strength, from a faint hint to conclusive proof.",
+  "usage_notes": [
+    {"word1": "evidence", "word2": "proof", "difference": "'Evidence' can be partial and still open to debate; 'proof' implies that the claim is conclusively established."}
+  ],
+  "translations": {
+    "hint": "wskazówka",
+    "suggestion": "sugestia",
+    "indication": "oznaka",
+    "evidence": "dowody",
+    "proof": "dowód"
+  }
+}

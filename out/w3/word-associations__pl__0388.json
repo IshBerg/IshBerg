@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "evidence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dowody są podstawą każdego dobrego argumentu, więc obie kategorie są ze sobą bezpośrednio powiązane znaczeniowo."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banan to owoc i nie ma żadnego związku z tym, jak tworzy się argumenty."},
+    {"word": "debate", "is_associated": true, "association_type": "THEMATIC", "explanation": "Debata to sytuacja, w której ludzie przedstawiają swoje argumenty, dlatego należą do tego samego tematu."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Sofa to mebel i nie ma związku z przedstawianiem opinii ani dyskusją."},
+    {"word": "reason", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Powód jest często używany razem z argumentem, na przykład w wyrażeniu 'podać dobry powód', co czyni to połączenie typowym."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "Lampa to przedmiot oświetleniowy i nie jest powiązana z argumentacją."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo argument kojarzy się z dowodami, debatą i powodami, czyli elementami przekonującej wypowiedzi, a pozostałe słowa dotyczą zupełnie innych dziedzin."
+}
