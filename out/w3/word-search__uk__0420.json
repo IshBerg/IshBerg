@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["I", "R", "O", "N", "Y", "Q", "T"],
+    ["S", "K", "J", "W", "Q", "H", "R"],
+    ["Y", "D", "F", "G", "K", "V", "O"],
+    ["M", "Z", "P", "L", "W", "X", "P"],
+    ["B", "J", "H", "K", "V", "D", "E"],
+    ["O", "W", "X", "Q", "J", "F", "K"],
+    ["L", "C", "A", "N", "O", "N", "Z"]
+  ],
+  "words_to_find": ["IRONY", "TROPE", "SYMBOL", "CANON"],
+  "word_positions": [
+    {"word": "IRONY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TROPE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SYMBOL", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "CANON", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Literary Criticism and Theory"
+}

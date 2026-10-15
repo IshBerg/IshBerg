@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I would love to come to your party,",
+  "correct_completion": "I have to work that evening.",
+  "full_sentence": "Although I would love to come to your party, I have to work that evening.",
+  "acceptable_variants": ["I will not be able to join you.", "I still have to work that evening."],
+  "options": [
+    {"text": "so I will bring you a gift.", "is_correct": false, "why_wrong": "'Although' signals contrast, while 'so' signals a result. This combination does not fit the logic of the sentence."},
+    {"text": "you are my best friend.", "is_correct": false, "why_wrong": "This is a statement about friendship and does not create a contrast with the wish to attend the party."},
+    {"text": "I have to work that evening.", "is_correct": true, "why_wrong": null},
+    {"text": "the party starts at seven.", "is_correct": false, "why_wrong": "This gives a time but does not express the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that contrasts with the first part. Here the speaker wants to come, but a work commitment prevents it. Learners often add a result clause with 'so' by mistake, so check the connector first.",
+  "translation": "Хоча я дуже хотів би прийти на твою вечірку, мені треба працювати того вечора."
+}
