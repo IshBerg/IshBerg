@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you are cold,",
+  "correct_completion": "put on your coat.",
+  "full_sentence": "If you are cold, put on your coat.",
+  "acceptable_variants": ["put on a jacket.", "wear a warm hat."],
+  "options": [
+    {"text": "the cat is sleeping.", "is_correct": false, "why_wrong": "This is a fact about a cat and does not respond to the condition 'if you are cold'."},
+    {"text": "you are happy today.", "is_correct": false, "why_wrong": "This describes a feeling and does not give the action the sentence needs after the condition."},
+    {"text": "put on your coat.", "is_correct": true, "why_wrong": null},
+    {"text": "we go to school.", "is_correct": false, "why_wrong": "This is a statement about a daily routine and does not respond to the feeling of cold."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Imperatives in the main clause after a conditional 'if' clause",
+  "connector": "if",
+  "explanation": "After 'if', the clause states a condition, and the main clause gives a command in the imperative form. The imperative uses the base form of the verb with no subject, so the sentence starts directly with the verb 'put'. Ukrainian speakers often add a subject such as 'you' here, but in English the imperative does not take one.",
+  "translation": "Якщо тобі холодно, одягни пальто."
+}

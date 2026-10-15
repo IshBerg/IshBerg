@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "Духовка є основним приладом для приготування їжі на кухні."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно є музичним інструментом, тому воно не пов'язане з кухнею."},
+    {"word": "recipe", "is_associated": true, "association_type": "THEMATIC", "explanation": "Рецепт описує послідовність дій для приготування страви на кухні."},
+    {"word": "tiger", "is_associated": false, "association_type": "NONE", "explanation": "Тигр є дикою твариною і не має жодного зв'язку з кухнею."},
+    {"word": "spoon", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ложка є типовим кухонним приладдям, тому це слово часто вживається разом із словом кухня."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора є природним об'єктом, який не належить до теми кухні."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з кухнею, це предмети, прилади та процеси, які там використовуються; музичні інструменти, тварини та природні об'єкти до цієї теми не належать."
+}
