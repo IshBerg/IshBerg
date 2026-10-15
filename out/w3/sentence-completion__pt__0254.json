@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was not until the end of the meeting that",
+  "correct_completion": "the director finally explained the plan.",
+  "full_sentence": "It was not until the end of the meeting that the director finally explained the plan.",
+  "acceptable_variants": ["the director explained the plan clearly.", "the plan was finally explained by the director."],
+  "options": [
+    {"text": "the plan explained the director.", "is_correct": false, "why_wrong": "The subject and object are reversed. The director explains the plan, not the other way round."},
+    {"text": "explain the plan the director.", "is_correct": false, "why_wrong": "English word order requires the subject before the verb, so the subject 'the director' must come first."},
+    {"text": "in the afternoon, the plan was lost.", "is_correct": false, "why_wrong": "This changes the meaning completely and does not complete the emphatic 'it was not until... that' structure."},
+    {"text": "the director finally explained the plan.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Emphatic cleft structure with 'It was not until... that'",
+  "connector": "that",
+  "explanation": "The structure 'It was not until... that' places emphasis on the time when an action finally happened. The clause after 'that' must be a complete clause with a subject and a verb.",
+  "translation": "Só no fim da reunião é que o diretor finalmente explicou o plano."
+}
