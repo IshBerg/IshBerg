@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Could you tell me",
+  "correct_completion": "where the station is?",
+  "full_sentence": "Could you tell me where the station is?",
+  "acceptable_variants": ["where the bus stop is?", "where the nearest station is?"],
+  "options": [
+    {"text": "where is the station?", "is_correct": false, "why_wrong": "This uses direct question word order. In an indirect question after 'tell me', the subject comes before the verb."},
+    {"text": "the station is where?", "is_correct": false, "why_wrong": "This is not a question form. The question word must come first, followed by the subject and verb."},
+    {"text": "where the station is?", "is_correct": true, "why_wrong": null},
+    {"text": "what the station is?", "is_correct": false, "why_wrong": "'What' is the wrong question word for a place. 'Where' asks about location."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with wh-words",
+  "connector": "where",
+  "explanation": "After a phrase like 'tell me', a wh-word introduces an indirect question. The subject comes before the verb, so the word order is the same as in a statement.",
+  "translation": "Você poderia me dizer onde fica a estação?"
+}
