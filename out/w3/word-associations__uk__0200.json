@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лікар зазвичай працює в лікарні, тому ці слова належать до однієї теми."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не має нічого спільного з лікарями чи медициною."},
+    {"word": "medicine", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Лікар призначає ліки (medicine), тому ці слова пов'язані за значенням."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим не пов'язаний з роботою лікаря і медициною."},
+    {"word": "nurse", "is_associated": true, "association_type": "THEMATIC", "explanation": "Медсестра працює разом із лікарем у лікарні, тому це слово належить до тієї самої теми."},
+    {"word": "prescription", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Лікар виписує рецепт (prescription), і це часте словосполучення в англійській мові."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'doctor', стосуються медицини, лікарні та людей, які працюють у цій сфері; решта слів до цієї теми не належать."
+}
