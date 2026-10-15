@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "teacher", "is_associated": true, "association_type": "THEMATIC", "explanation": "Вчитель працює в школі, тому це слово тематично пов'язане зі школою."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Дерево не пов'язане зі школою ані за змістом, ані за вживанням."},
+    {"word": "bus", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "«Шкільний автобус» є усталеним словосполученням, тому це колокаційний зв'язок."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Кухня належить до дому, а не до школи, тому зв'язку немає."},
+    {"word": "pencil", "is_associated": true, "association_type": "THEMATIC", "explanation": "Олівець є типовим шкільним предметом, тому він тематично пов'язаний зі школою."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не має відношення до школи і не входить до шкільного контексту."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово «школа» асоціюється з людьми, предметами та словосполученнями. Одні слова пов'язані з ним тематично або через колокації, а інші не мають до нього відношення."
+}

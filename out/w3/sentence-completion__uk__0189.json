@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was not until the final exam that",
+  "correct_completion": "she realised how much she had forgotten.",
+  "full_sentence": "It was not until the final exam that she realised how much she had forgotten.",
+  "acceptable_variants": ["she discovered how much she had forgotten.", "she noticed how much she had forgotten."],
+  "options": [
+    {"text": "she realising how much she had forgotten.", "is_correct": false, "why_wrong": "After 'that' a finite verb is needed. The -ing form cannot act as the main verb of the cleft clause."},
+    {"text": "so she realised how much she had forgotten.", "is_correct": false, "why_wrong": "'That' already introduces the clause, so adding 'so' is redundant and ungrammatical here."},
+    {"text": "she realised how much she had forgotten.", "is_correct": true, "why_wrong": null},
+    {"text": "she would realise how much she had forgotten.", "is_correct": false, "why_wrong": "'Would' makes the realisation hypothetical. The cleft sentence describes an actual moment in the past."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Cleft sentences with 'It was not until ... that' and normal word order in the cleft clause",
+  "connector": "that",
+  "explanation": "In a cleft sentence built with 'It was ... that', the clause after 'that' is a normal finite clause with its usual word order and tense. Ukrainian speakers often add a linking word such as 'so' or 'then' after 'that', because Ukrainian sentences frequently use an extra connector to continue the main idea. In English, 'that' already does this job, so no extra connector is needed.",
+  "translation": "Лише на фінальному екзамені вона зрозуміла, скільки всього забула."
+}
