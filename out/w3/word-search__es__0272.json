@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["R", "E", "S", "T", "X", "K", "S"],
+    ["B", "Q", "D", "N", "I", "J", "L"],
+    ["T", "M", "C", "O", "H", "V", "E"],
+    ["R", "A", "F", "K", "U", "Z", "E"],
+    ["Y", "G", "H", "L", "W", "N", "P"],
+    ["W", "A", "T", "E", "R", "O", "D"],
+    ["M", "K", "Q", "B", "X", "I", "F"]
+  ],
+  "words_to_find": ["REST", "SLEEP", "WATER", "TRY"],
+  "word_positions": [
+    {"word": "REST", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLEEP", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "WATER", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRY", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Giving Advice"
+}
