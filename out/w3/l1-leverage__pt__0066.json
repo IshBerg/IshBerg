@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "data", "transliteration": "data", "meaning": "calendar date (a day of the month and year)"},
+    {"word": "atualmente", "transliteration": "atualmente", "meaning": "currently, at the present time"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend or plan to do something"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch (a film, a show or a game)"}
+  ],
+  "english_words": ["intend", "date", "watch", "currently"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Many Portuguese and English words come from the same Latin roots, so their spellings look alike, but over time their meanings shifted differently in each language.",
+  "false_friend_warning": "The Portuguese word for calendar date looks almost identical to English 'data', but in English 'data' means facts or information. The English word for a day on the calendar is 'date'."
+}

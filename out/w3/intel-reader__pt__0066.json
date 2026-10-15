@@ -1,0 +1,20 @@
+{
+  "title": "Interview Confirmation Letter",
+  "text": "Thank you for your letter of 3 March. We are writing to confirm your job interview on Monday, 10 March, at 10 a.m. Please bring your original certificates and two references. The interview will take place in Room 204 on the second floor.\n\nPlease contact our office by Friday, 7 March, if you cannot attend. We look forward to meeting you. Yours sincerely, Mark Lewis, HR Manager.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What time is the job interview?", "options": ["9 a.m.", "10 a.m.", "11 a.m.", "2 p.m."], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "By which day should the reader contact the office if they cannot attend?", "options": ["Monday, 10 March", "Wednesday, 5 March", "Friday, 7 March", "Sunday, 9 March"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What kind of letter is this most likely to be?", "options": ["A message from a close friend", "A formal business letter", "An invitation to a party", "A complaint about a product"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does the writer want the reader to bring original certificates?", "options": ["To check the reader's qualifications", "To pay the reader for the work", "To book a meeting room", "To cancel the interview"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "interview", "translation": "entrevista de emprego", "definition": "a formal meeting to assess a person who applies for a job"},
+    {"word": "references", "translation": "referências", "definition": "letters that describe a person's character and work"},
+    {"word": "attend", "translation": "comparecer", "definition": "to be present at an event or meeting"},
+    {"word": "certificates", "translation": "certificados", "definition": "official documents that prove a qualification"}
+  ],
+  "paragraph_translations": [
+    "Agradecemos a sua carta de 3 de março. Escrevemos para confirmar a sua entrevista de emprego na segunda-feira, 10 de março, às 10h. Por favor, traga os seus certificados originais e duas referências. A entrevista será realizada na sala 204, no segundo andar.",
+    "Por favor, entre em contacto com o nosso escritório até sexta-feira, 7 de março, caso não possa comparecer. Aguardamos com interesse o nosso encontro. Com os melhores cumprimentos, Mark Lewis, Responsável de Recursos Humanos."
+  ]
+}
