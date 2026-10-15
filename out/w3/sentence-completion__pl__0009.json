@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna has already read the report, and Tom has",
+  "correct_completion": "done so too.",
+  "full_sentence": "Anna has already read the report, and Tom has done so too.",
+  "acceptable_variants": ["done the same.", "read it as well."],
+  "options": [
+    {"text": "not read it yet.", "is_correct": false, "why_wrong": "This creates a contrast with Anna, but the sentence needs a parallel substitution that repeats her action without repeating the words."},
+    {"text": "read it too, very quickly.", "is_correct": false, "why_wrong": "This repeats the action with extra detail. Substitution with 'so' is used to avoid repeating the verb phrase."},
+    {"text": "done so too.", "is_correct": true, "why_wrong": null},
+    {"text": "finished the report by Monday.", "is_correct": false, "why_wrong": "This adds new information instead of referring back to the verb phrase, so it does not complete the substitution."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Substitution with 'do so' in a coordinated clause that avoids repeating the verb phrase",
+  "connector": "and",
+  "explanation": "In the second clause, 'do so' replaces the verb phrase from the first clause, so the sentence does not repeat 'read the report'. Polish speakers often repeat the full verb phrase here, but English prefers a short substitute form.",
+  "translation": "Anna już przeczytała raport, a Tom również tak zrobił."
+}
