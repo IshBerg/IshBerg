@@ -1,0 +1,32 @@
+{
+  "collocation_type": "VERB_PREP",
+  "base_word": "depend",
+  "collocate": "on",
+  "full_collocation": "depend on",
+  "options": ["on", "for", "at", "to"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "for", "reason": "'Depend' does not take 'for' in this sense. 'For' is used with verbs like wait or ask, as in 'wait for'."},
+    {"word": "at", "reason": "'At' is used with verbs like look or laugh, as in 'look at'. It does not follow 'depend'."},
+    {"word": "to", "reason": "'To' is used with verbs like listen or belong, as in 'listen to'. It does not follow 'depend'."}
+  ],
+  "matching_pairs": [
+    {"left": "depend", "right": "on"},
+    {"left": "rely", "right": "on"},
+    {"left": "wait", "right": "for"},
+    {"left": "listen", "right": "to"},
+    {"left": "believe", "right": "in"}
+  ],
+  "example_sentence": "Our plans depend ___ the weather tomorrow.",
+  "gap_position": 3,
+  "translation": "залежати від",
+  "l1_interference": "Українці часто кажуть 'depend of', бо 'залежати від' звучить схоже на 'of'. В англійській правильно казати 'depend on'.",
+  "common_mistake": "depend of",
+  "explanation": "In English, many verbs are fixed with a particular preposition. 'Depend' is always followed by 'on' when it means 'be determined by', so the preposition must be learned together with the verb.",
+  "related_collocations": [
+    {"collocation": "rely on", "translation": "покладатися на", "example": "You can rely on my support."},
+    {"collocation": "wait for", "translation": "чекати на", "example": "We are waiting for the bus."},
+    {"collocation": "listen to", "translation": "слухати", "example": "Please listen to the instructions carefully."}
+  ],
+  "memory_tip": "DEPEND ON = be decided by something (depend on the weather, depend on you)"
+}
