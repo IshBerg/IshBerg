@@ -1,0 +1,14 @@
+{
+  "trigger_word": "phone",
+  "all_words": [
+    {"word": "keyboard", "is_associated": true, "association_type": "THEMATIC", "explanation": "Algunos teléfonos tienen teclado físico para escribir mensajes de texto."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "El paraguas se usa para la lluvia y no tiene relación con el teléfono."},
+    {"word": "battery", "is_associated": true, "association_type": "THEMATIC", "explanation": "El teléfono necesita batería para funcionar y enviar mensajes."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta es un medio de transporte y no está relacionada con los teléfonos."},
+    {"word": "screen", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se lee el mensaje en la pantalla del teléfono, como en 'phone screen'."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "El sándwich es comida y no tiene ninguna relación con el teléfono."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'phone' son partes o funciones del teléfono que se usan para enviar mensajes; las demás pertenecen a otros contextos."
+}
