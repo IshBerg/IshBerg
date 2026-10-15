@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "El paraguas se usa cuando llueve, así que pertenece al mismo tema del clima lluvioso."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Las nubes son el origen de la lluvia, por eso su significado está muy relacionado con 'rain'."},
+    {"word": "puddle", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los charcos se forman después de la lluvia, por eso se asocian con este tema."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "El teclado no tiene ninguna relación con la lluvia; pertenece al mundo de la informática."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "El lápiz es un objeto de escritura y no se relaciona con la lluvia."},
+    {"word": "sugar", "is_associated": false, "association_type": "NONE", "explanation": "El azúcar es un alimento y no tiene relación con la lluvia."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'rain' pertenecen al clima lluvioso: fenómenos, objetos y lugares relacionados con la lluvia."
+}
