@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kuchenka to urządzenie, które zwykle znajduje się w kuchni i służy do gotowania."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma żadnego związku z kuchnią i nie znajduje się tam zwykle."},
+    {"word": "fridge", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lodówka to jeden z najważniejszych sprzętów w kuchni, w którym przechowuje się jedzenie."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka to element natury i nie ma związku z wyposażeniem kuchni."},
+    {"word": "cook", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówimy 'cook in the kitchen' (gotować w kuchni), więc słowo 'cook' często łączy się z 'kitchen'."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Dywan zwykle leży w salonie lub w sypialni, a nie w kuchni."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'kitchen' kojarzy się z przedmiotami i czynnościami związanymi z gotowaniem, a pozostałe słowa nie mają z kuchnią wyraźnego związku."
+}
