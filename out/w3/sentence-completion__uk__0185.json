@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By next summer,",
+  "correct_completion": "she will have worked here for ten years.",
+  "full_sentence": "By next summer, she will have worked here for ten years.",
+  "acceptable_variants": ["she will have been working here for ten years.", "she will have spent ten years in this job."],
+  "options": [
+    {"text": "she has worked here for ten years.", "is_correct": false, "why_wrong": "The present perfect describes a period up to now, not a period completed by a future point such as 'next summer'."},
+    {"text": "she will have worked here for ten years.", "is_correct": true, "why_wrong": null},
+    {"text": "she will work here for ten years.", "is_correct": false, "why_wrong": "The simple future describes a future action, not a duration that is already completed by a future point."},
+    {"text": "she worked here for ten years last summer.", "is_correct": false, "why_wrong": "The past simple refers to a finished past period, so it cannot describe completion by a future time."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect with a 'by' + future time expression",
+  "connector": "by next summer",
+  "explanation": "The phrase 'by next summer' sets a future deadline. The future perfect in the main clause shows that the ten-year period will be complete at that deadline. Ukrainian speakers often choose a simple future here because Ukrainian uses perfective future forms for completion, so the English perfect structure needs deliberate practice.",
+  "translation": "До наступного літа вона пропрацює тут уже десять років."
+}
