@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What puzzled the committee most was",
+  "correct_completion": "why the proposal had been approved so quickly.",
+  "full_sentence": "What puzzled the committee most was why the proposal had been approved so quickly.",
+  "acceptable_variants": ["how the proposal had been approved so quickly.", "that the proposal had passed without any real debate."],
+  "options": [
+    {"text": "the proposal had been approved so quickly.", "is_correct": false, "why_wrong": "A finite clause cannot follow 'was' directly. It needs an introducer such as 'why', 'how' or 'that' to work as a nominal clause, so this option is ungrammatical here."},
+    {"text": "so the proposal had been approved quickly.", "is_correct": false, "why_wrong": "'So' introduces a result adverbial clause, not a nominal clause, so it cannot act as the complement of 'was'."},
+    {"text": "why the proposal had been approved so quickly.", "is_correct": true, "why_wrong": null},
+    {"text": "even though the proposal had been approved so quickly.", "is_correct": false, "why_wrong": "'Even though' introduces a concessive adverbial clause, which cannot serve as the complement of 'was'. The sentence would not answer the question set up by the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Nominal wh-clauses as complements in pseudo-cleft sentences",
+  "connector": "why",
+  "explanation": "In a pseudo-cleft sentence, the part after 'was' must be a noun clause that answers the question set up by the first part. A wh-word such as 'why' introduces such a clause and can take its own subject and verb. Options with no introducer, or with a subordinator of result or concession, do not work in this position. Portuguese speakers may transfer the habit of placing a plain declarative clause directly after a linking verb, so this structure needs explicit practice.",
+  "translation": "O que mais intrigou o comitê foi por que a proposta tinha sido aprovada tão rapidamente."
+}
