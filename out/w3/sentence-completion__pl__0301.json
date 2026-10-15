@@ -1,0 +1,19 @@
+{
+  "sentence_stem": "The cat is not in the kitchen,",
+  "correct_completion": "it is behind the door.",
+  "full_sentence": "The cat is not in the kitchen, it is behind the door.",
+  "acceptable_variants": ["it is behind the fridge.", "it is near the window."],
+  "options": [
+    {"text": "it is in the kitchen.", "is_correct": false, "why_wrong": "The stem already says the cat is not in the kitchen, so repeating the place contradicts it."},
+    {"text": "it is behind the door.", "is_correct": true, "why_wrong": null},
+    {"text": "it is very black.", "is_correct": false, "why_wrong": "This describes the cat's colour, but it does not say where the cat is."},
+    {"text": "it is sleeping now.", "is_correct": false, "why_wrong": "This describes an activity, not a place, so it does not answer where the cat is."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: behind, in",
+  "connector": "none",
+  "explanation": "The stem says where the cat is not, so the completion must name a different place using a preposition of place, here behind. In English the preposition comes before the place noun, so the structure is behind the door."
+  ,
+  "translation": "Kot nie jest w kuchni, jest za drzwiami."
+}
