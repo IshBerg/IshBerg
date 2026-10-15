@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "O", "U", "P", "X", "Q", "Z", "B", "T"],
+    ["D", "N", "J", "V", "W", "Y", "M", "G", "E"],
+    ["F", "H", "R", "Q", "X", "Z", "I", "B", "A"],
+    ["K", "P", "W", "N", "Y", "G", "L", "D", "V"],
+    ["C", "H", "J", "Q", "Z", "X", "K", "B", "M"],
+    ["T", "A", "N", "P", "L", "W", "Y", "E", "G"],
+    ["Z", "Q", "K", "D", "B", "M", "C", "F", "V"],
+    ["P", "W", "H", "E", "N", "I", "X", "S", "L"],
+    ["U", "Y", "G", "J", "R", "D", "V", "Q", "O"]
+  ],
+  "words_to_find": ["SOUP", "TEA", "CAKE", "RICE", "MILK"],
+  "word_positions": [
+    {"word": "SOUP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TEA", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CAKE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "RICE", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"},
+    {"word": "MILK", "start_row": 1, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Menus"
+}
