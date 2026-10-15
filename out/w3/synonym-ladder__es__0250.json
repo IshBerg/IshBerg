@@ -1,0 +1,13 @@
+{
+  "start_word": "manual",
+  "end_word": "autonomous",
+  "ladder_steps": [
+    {"word": "manual", "translation": "manual", "intensity_level": 1},
+    {"word": "assisted", "translation": "asistido", "intensity_level": 2},
+    {"word": "semi-automated", "translation": "semiautomatizado", "intensity_level": 3},
+    {"word": "automated", "translation": "automatizado", "intensity_level": 4},
+    {"word": "autonomous", "translation": "autónomo", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe the degree to which work is performed by machines rather than people, moving from fully human-driven to fully self-directed systems, with each step taking over more of the task."
+}

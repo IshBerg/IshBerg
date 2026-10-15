@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom is a very careful driver, so he",
+  "correct_completion": "never breaks the speed limit.",
+  "full_sentence": "Tom is a very careful driver, so he never breaks the speed limit.",
+  "acceptable_variants": ["never exceeds the speed limit.", "never drives too fast."],
+  "options": [
+    {"text": "always breaks the speed limit.", "is_correct": false, "why_wrong": "This contradicts being a careful driver, and the word 'so' signals a logical result of that quality."},
+    {"text": "never breaks the speed limit.", "is_correct": true, "why_wrong": null},
+    {"text": "breaks never the speed limit.", "is_correct": false, "why_wrong": "Frequency adverbs such as 'never' go before the main verb, not after it."},
+    {"text": "usually breaks the speed limit.", "is_correct": false, "why_wrong": "'Usually' does not fit the careful-driver logic that 'so' is introducing."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Adverbs of frequency with 'never' placed before the main verb",
+  "connector": "so",
+  "explanation": "After 'so', the clause must show a logical result of the first part. The frequency adverb 'never' goes before the main verb. Spanish speakers often place adverbs of frequency after the verb, so check the position of the adverb carefully.",
+  "translation": "Tom es un conductor muy cuidadoso, así que nunca supera el límite de velocidad."
+}

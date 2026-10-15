@@ -1,0 +1,14 @@
+{
+  "trigger_word": "robot",
+  "all_words": [
+    {"word": "lettuce", "is_associated": false, "association_type": "NONE", "explanation": "La lechuga no tiene ninguna relación con los robots ni con la automatización del trabajo."},
+    {"word": "automation", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La automatización es el concepto que describe cómo los robots realizan tareas que antes hacían las personas."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "El violín pertenece al mundo de la música y no tiene vínculo directo con la robótica."},
+    {"word": "factory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las fábricas son el lugar donde trabajan con frecuencia los robots industriales, por lo que comparten el mismo tema."},
+    {"word": "horizon", "is_associated": false, "association_type": "NONE", "explanation": "El horizonte es un concepto visual y geográfico que no se relaciona con los robots."},
+    {"word": "arm", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Robotic arm' es una combinación habitual en inglés para referirse a la parte mecánica de un robot."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'robot' se asocia con la automatización, con el entorno industrial y con sus partes mecánicas, mientras que los demás términos no tienen una relación directa con ella."
+}
