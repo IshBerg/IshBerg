@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having reviewed the evidence carefully,",
+  "correct_completion": "the committee issued a cautious statement.",
+  "full_sentence": "Having reviewed the evidence carefully, the committee issued a cautious statement.",
+  "acceptable_variants": ["the committee then published a measured response.", "the committee chose to make a careful announcement."],
+  "options": [
+    {"text": "the evidence was reviewed by the committee.", "is_correct": false, "why_wrong": "The participle clause 'Having reviewed the evidence' needs the main subject as its doer. Here the evidence would be the one reviewing, which is illogical."},
+    {"text": "the committee issued a cautious statement.", "is_correct": true, "why_wrong": null},
+    {"text": "the statement was reviewed by the committee.", "is_correct": false, "why_wrong": "A statement cannot review evidence, so the subject of the participle clause does not match the main clause."},
+    {"text": "to issue a cautious statement.", "is_correct": false, "why_wrong": "This is an infinitive fragment with no finite verb after the comma, so it cannot complete the sentence as a main clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses with a matching subject",
+  "connector": "having reviewed",
+  "explanation": "A participle clause at the start of a sentence describes an action completed before the main action. Its implied subject must be the same as the subject of the main clause, which is the committee in this case.",
+  "translation": "Kanıtları dikkatle inceledikten sonra komite temkinli bir açıklama yayımladı."
+}
