@@ -1,0 +1,14 @@
+{
+  "trigger_word": "career",
+  "all_words": [
+    {"word": "salary", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Wynagrodzenie jest ważnym elementem każdej kariery, ponieważ określa, ile osoba zarabia w pracy."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Wulkan to zjawisko przyrodnicze i nie ma żadnego związku z karierą zawodową."},
+    {"word": "promotion", "is_associated": true, "association_type": "THEMATIC", "explanation": "Awans to naturalny etap rozwoju kariery zawodowej."},
+    {"word": "blanket", "is_associated": false, "association_type": "NONE", "explanation": "Koc to przedmiot codziennego użytku i nie należy do świata zawodowego."},
+    {"word": "interview", "is_associated": true, "association_type": "THEMATIC", "explanation": "Rozmowa kwalifikacyjna jest typowym etapem szukania pracy i budowania kariery."},
+    {"word": "training", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Szkolenia pomagają zdobywać nowe umiejętności, które wspierają rozwój kariery."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo „career” kojarzy się z pracą, zarobkami, awansami i rozwojem zawodowym, a nie z przedmiotami codziennymi ani zjawiskami przyrody."
+}
