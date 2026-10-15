@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the boy was frightened in the dark forest,",
+  "correct_completion": "he bravely walked on to find his lost dog.",
+  "full_sentence": "Although the boy was frightened in the dark forest, he bravely walked on to find his lost dog.",
+  "acceptable_variants": ["he kept searching for his dog anyway.", "he refused to turn back."],
+  "options": [
+    {"text": "so he stayed home all day.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast, so this clause does not fit."},
+    {"text": "he bravely walked on to find his lost dog.", "is_correct": true, "why_wrong": null},
+    {"text": "the forest was dark and quiet.", "is_correct": false, "why_wrong": "This describes the setting but does not provide the contrasting action expected after 'although'."},
+    {"text": "because the dog was lost.", "is_correct": false, "why_wrong": "'Because' introduces a cause and creates a double connector with 'although', which is ungrammatical here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a main clause that contrasts with the fear described in the first part. Polish speakers may add a contrastive conjunction after 'although' out of habit, which creates a double connector, so the main clause should begin directly with its subject.",
+  "translation": "Chociaż chłopiec bał się w ciemnym lesie, odważnie szedł dalej, by znaleźć swojego zaginionego psa."
+}

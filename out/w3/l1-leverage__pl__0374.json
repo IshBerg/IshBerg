@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "sympatia", "transliteration": "sympatia", "meaning": "liking, fondness"},
+    {"word": "lektura", "transliteration": "lektura", "meaning": "assigned reading"}
+  ],
+  "english_words": ["possibly", "assigned reading", "current", "liking"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Polish words are formed from the same Latin and Greek roots as their English look-alikes, but their meanings developed differently in each language, so the spellings look familiar while the meanings do not match.",
+  "false_friend_warning": "Several Polish words look like English words but mean something different: the Polish word for 'current' looks like 'actual', the Polish word for 'possibly' looks like 'eventually', the Polish word for 'liking' looks like 'sympathy', and the Polish word for 'assigned reading' looks like 'lecture'."
+}
