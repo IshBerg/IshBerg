@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "футбол", "transliteration": "futbol", "meaning": "football (soccer)"},
+    {"word": "волейбол", "transliteration": "volleibol", "meaning": "volleyball"},
+    {"word": "баскетбол", "transliteration": "basketbol", "meaning": "basketball"},
+    {"word": "теніс", "transliteration": "tenis", "meaning": "tennis"}
+  ],
+  "english_words": ["basketball", "football", "tennis", "volleyball"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these sport names from the same international source, so the forms stayed close in sound and spelling.",
+  "false_friend_warning": null
+}
