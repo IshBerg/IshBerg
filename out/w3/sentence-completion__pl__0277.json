@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the scandal would have been avoided.",
+  "full_sentence": "Had the committee been informed earlier, the scandal would have been avoided.",
+  "acceptable_variants": ["the scandal could have been avoided.", "the scandal might have been prevented."],
+  "options": [
+    {"text": "the scandal had been avoided.", "is_correct": false, "why_wrong": "The main clause of an inverted third conditional needs 'would have' plus a past participle, not a bare past perfect."},
+    {"text": "the scandal will be avoided.", "is_correct": false, "why_wrong": "The future tense does not match the past hypothetical condition 'had been informed'."},
+    {"text": "the scandal would have been avoided.", "is_correct": true, "why_wrong": null},
+    {"text": "the scandal would avoid it.", "is_correct": false, "why_wrong": "A present conditional result cannot follow a past condition; the result must refer back to the same past time."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' replacing 'if'",
+  "connector": "had",
+  "explanation": "In an inverted third conditional, 'had' at the start replaces 'if' and the subject and auxiliary swap places. The main clause then needs 'would have' plus a past participle to express a past result that did not happen. Learners whose first language marks conditionals with a separate particle often keep 'if' or drop the auxiliary, so the inversion must be learned as a fixed structure.",
+  "translation": "Gdyby komisję poinformowano wcześniej, udałoby się uniknąć skandalu."
+}

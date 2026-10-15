@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hotel", "transliteration": "hotel", "meaning": "a building where paying guests can stay overnight"},
+    {"word": "muzeum", "transliteration": "muzeum", "meaning": "a building where objects of art or history are displayed"},
+    {"word": "problem", "transliteration": "problem", "meaning": "a difficult situation that needs a solution"},
+    {"word": "telewizja", "transliteration": "telewizja", "meaning": "a system for sending moving pictures and sound to screens"}
+  ],
+  "english_words": ["museum", "television", "hotel", "problem"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin and Greek sources, so the forms stayed close and the meanings did not shift.",
+  "false_friend_warning": null
+}
