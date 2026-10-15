@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you practise football every day,",
+  "correct_completion": "you will play better than before.",
+  "full_sentence": "If you practise football every day, you will play better than before.",
+  "acceptable_variants": ["you will get better every week.", "your team will win more games."],
+  "options": [
+    {"text": "you played better yesterday.", "is_correct": false, "why_wrong": "'If' introduces a condition about the future, so the main clause must describe a future result, not a past event."},
+    {"text": "you will play better than before.", "is_correct": true, "why_wrong": null},
+    {"text": "so you became a good player.", "is_correct": false, "why_wrong": "'So' introduces a result that has already happened, which does not fit a conditional clause describing a future result."},
+    {"text": "the football is very big.", "is_correct": false, "why_wrong": "This describes an object and does not give the result of practising every day."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with comparative 'better than before'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause uses 'will' to describe the future result. Spanish speakers may be tempted to use a past form here, so keep the result clause in the future.",
+  "translation": "Si practicas fútbol todos los días, jugarás mejor que antes."
+}
