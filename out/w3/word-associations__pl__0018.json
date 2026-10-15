@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "opinion", "is_associated": true, "association_type": "THEMATIC", "explanation": "Argument i opinia są ściśle powiązane, ponieważ kłótnia lub dyskusja zwykle dotyczy różnych poglądów."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "Pomidor nie ma żadnego związku z kłótnią ani dyskusją, więc nie jest skojarzony z tym słowem."},
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dowody są typowym elementem każdej kłótni lub dyskusji, ponieważ podpierają argumenty."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower to środek transportu i nie ma żadnego znaczenia w kontekście sporów czy dyskusji."},
+    {"word": "win", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Po angielsku mówi się 'win an argument' w znaczeniu wygrać spór, więc to typowa kolokacja."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Poduszka jest przedmiotem do spania i nie jest w żaden sposób powiązana ze słowem argument."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo argument łączy się z opinią, dowodami i kolokacją 'win an argument', natomiast pomidor, rower i poduszka nie mają z nim związku."
+}

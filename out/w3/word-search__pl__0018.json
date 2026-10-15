@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "I", "G", "E", "R", "Q", "X", "J", "L"],
+    ["V", "K", "D", "P", "U", "H", "Z", "W", "I"],
+    ["M", "C", "Q", "S", "Y", "F", "J", "X", "O"],
+    ["H", "R", "U", "D", "K", "V", "Q", "P", "N"],
+    ["W", "N", "X", "T", "Z", "G", "B", "M", "S"],
+    ["J", "O", "D", "I", "C", "L", "E", "Y", "Q"],
+    ["Y", "H", "L", "K", "W", "X", "A", "N", "T"],
+    ["P", "V", "G", "F", "M", "Q", "R", "S", "J"],
+    ["U", "K", "Z", "E", "B", "R", "A", "D", "X"]
+  ],
+  "words_to_find": ["TIGER", "LION", "WOLF", "BEAR", "ZEBRA"],
+  "word_positions": [
+    {"word": "TIGER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LION", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "WOLF", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BEAR", "start_row": 4, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ZEBRA", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Wild Animals"
+}
