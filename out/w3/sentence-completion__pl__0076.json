@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child,",
+  "correct_completion": "I was afraid of the dark.",
+  "full_sentence": "When I was a child, I was afraid of the dark.",
+  "acceptable_variants": ["I was scared of the dark.", "I used to be afraid of the dark."],
+  "options": [
+    {"text": "I were afraid of the dark.", "is_correct": false, "why_wrong": "'I' takes 'was' in the past simple, not 'were'. 'Were' is used with 'you', 'we', and 'they'."},
+    {"text": "I was afraid of the dark.", "is_correct": true, "why_wrong": null},
+    {"text": "I am afraid of the dark now.", "is_correct": false, "why_wrong": "This uses the present tense 'am', but the stem sets a past context with 'when I was a child'."},
+    {"text": "they was at school every day.", "is_correct": false, "why_wrong": "'They' takes 'were' in the past simple, not 'was'. It also does not connect logically with the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple 'was' and 'were' with different subjects",
+  "connector": "when",
+  "explanation": "After 'when' describing a past time, the main clause must use the past simple. 'I' always takes 'was', while 'you', 'we', and 'they' take 'were'. Learners sometimes apply one form to every subject, so check the subject first.",
+  "translation": "Kiedy byłem dzieckiem, bałem się ciemności."
+}
