@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have never been abroad, but",
+  "correct_completion": "I would love to visit one day.",
+  "full_sentence": "I have never been abroad, but I would love to visit one day.",
+  "acceptable_variants": ["I hope to go someday.", "I am planning a trip soon."],
+  "options": [
+    {"text": "I visited Paris last summer.", "is_correct": false, "why_wrong": "This contradicts the first clause, which says the speaker has never been abroad."},
+    {"text": "I would love to visit one day.", "is_correct": true, "why_wrong": null},
+    {"text": "I have been there many times.", "is_correct": false, "why_wrong": "This contradicts 'have never been abroad' in the same sentence."},
+    {"text": "I went there yesterday.", "is_correct": false, "why_wrong": "This contradicts the present perfect statement and does not complete the contrast set up by 'but'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present perfect with 'never' contrasted with a future wish",
+  "connector": "but",
+  "explanation": "The present perfect with 'never' describes life experience up to now, and 'but' introduces a contrasting wish about the future. Learners may be tempted to use a past simple verb here, but the present perfect is needed for experiences without a specific time.",
+  "translation": "Nunca estive no exterior, mas adoraria visitar um dia."
+}
