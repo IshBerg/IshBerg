@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "passagem", "transliteration": "passagem", "meaning": "ticket for a bus, train or plane"},
+    {"word": "bagagem", "transliteration": "bagagem", "meaning": "luggage"},
+    {"word": "estação", "transliteration": "estacao", "meaning": "station"},
+    {"word": "ônibus", "transliteration": "onibus", "meaning": "bus"}
+  ],
+  "english_words": ["luggage", "ticket", "bus", "station"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Many travel words are cognates: the Portuguese and English forms come from the same Latin or French roots, so their spelling and sound stay close. A few look similar but have different meanings, which is what makes them false friends.",
+  "false_friend_warning": "The Portuguese word for a travel ticket looks like the English word 'passage', but 'passage' means a corridor, a route or a section of a text, so do not use it to ask for a ticket."
+}
