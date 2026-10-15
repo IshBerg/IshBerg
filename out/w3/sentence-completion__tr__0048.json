@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I like music, but",
+  "correct_completion": "I don't like loud music.",
+  "full_sentence": "I like music, but I don't like loud music.",
+  "acceptable_variants": ["I don't enjoy very loud songs.", "I prefer quiet music."],
+  "options": [
+    {"text": "I like it very much.", "is_correct": false, "why_wrong": "This repeats the idea of liking music, so it does not contrast with the first part of the sentence."},
+    {"text": "I don't like loud music.", "is_correct": true, "why_wrong": null},
+    {"text": "I play the guitar every day.", "is_correct": false, "why_wrong": "This is a fact about a hobby, not a contrast with 'I like music'."},
+    {"text": "my sister likes it too.", "is_correct": false, "why_wrong": "This adds information about someone else and does not contrast with liking music."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' and present simple negatives with 'don't like'",
+  "connector": "but",
+  "explanation": "The word 'but' signals a contrast, so the second part must show a different opinion about music. Learners often forget the auxiliary 'do' in present simple negatives, so check that 'don't' is used before 'like'.",
+  "translation": "Müziği severim ama yüksek sesli müziği sevmem."
+}
