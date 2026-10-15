@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The house looked different because",
+  "correct_completion": "someone had repainted it.",
+  "full_sentence": "The house looked different because someone had repainted it.",
+  "acceptable_variants": ["somebody had painted it.", "the owners had changed its colour."],
+  "options": [
+    {"text": "it was going to be sold.", "is_correct": false, "why_wrong": "'Going to' describes a planned future, not a completed earlier change that explains how the house looks now."},
+    {"text": "someone had repainted it.", "is_correct": true, "why_wrong": null},
+    {"text": "the windows were open.", "is_correct": false, "why_wrong": "This describes the house but does not give a reason for the change, so 'because' is not satisfied."},
+    {"text": "it had been a long day.", "is_correct": false, "why_wrong": "This explains tiredness, not why the appearance of the house had changed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past perfect after 'because' to show an earlier cause",
+  "connector": "because",
+  "explanation": "'Because' introduces a cause, so the clause must explain why the house looked different. The past perfect 'had repainted' shows that the repainting happened before the present observation. Turkish speakers may use a simple past here, because Turkish expresses earlier events mainly through its evidential and aspect suffixes rather than a separate past perfect tense.",
+  "translation": "Ev farklı görünüyordu, çünkü birisi onu yeniden boyamıştı."
+}

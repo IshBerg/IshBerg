@@ -1,0 +1,14 @@
+{
+  "trigger_word": "drought",
+  "all_words": [
+    {"word": "dry", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kuraklık, yağmurun uzun süre azalması ve toprağın kurumasıdır; bu yüzden 'dry' kelimesi doğrudan ilişkilidir."},
+    {"word": "farmer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kuraklık çiftçileri en çok etkileyen afetlerden biridir; bu nedenle konuyla tematik olarak bağlantılıdır."},
+    {"word": "snow", "is_associated": false, "association_type": "NONE", "explanation": "Kar soğuk havayla ilgilidir ve kuraklığın tam tersi bir hava olayına aittir; bu nedenle ilişkili değildir."},
+    {"word": "crops", "is_associated": true, "association_type": "THEMATIC", "explanation": "Mahsuller kuraklıktan en çok zarar gören şeylerdir; bu nedenle tematik olarak bağlantılıdır."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Klavye hava olaylarıyla ya da kuraklıkla hiçbir ilgisi olmayan bir nesnedir."},
+    {"word": "heat", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Sıcaklık, kuraklığın en belirgin özelliklerinden biri olduğu için anlamca yakından ilişkilidir."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Drought' kelimesi uzun süren yağış eksikliğini anlatır; ilişkili kelimeler susuzluk, tarım ve sıcaklık gibi bu olguyla bağlantılı olanlardır."
+}
