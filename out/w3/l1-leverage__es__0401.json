@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "chocolate", "transliteration": "chocolate", "meaning": "chocolate"},
+    {"word": "pizza", "transliteration": "pizza", "meaning": "pizza"},
+    {"word": "banana", "transliteration": "banana", "meaning": "banana"},
+    {"word": "tomate", "transliteration": "tomate", "meaning": "tomato"}
+  ],
+  "english_words": ["banana", "tomato", "chocolate", "pizza"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages inherited or borrowed these words from the same source, so their spelling and sound stayed close. The Spanish word in the last row is spelled almost the same as its English match, with a different final vowel.",
+  "false_friend_warning": null
+}
