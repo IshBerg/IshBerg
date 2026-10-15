@@ -1,0 +1,14 @@
+{
+  "trigger_word": "goal",
+  "all_words": [
+    {"word": "ball", "is_associated": true, "association_type": "THEMATIC", "explanation": "М'яч є головним предметом у футболі, тому він тематично пов'язаний із голом."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Кухня не має жодного відношення до голу в спорті."},
+    {"word": "net", "is_associated": true, "association_type": "THEMATIC", "explanation": "Сітка воріт — це частина, куди потрапляє м'яч під час голу, тому зв'язок тематичний."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Подушка не пов'язана зі спортивною грою."},
+    {"word": "score", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'score a goal' (забити гол) є типовим, тому це колокаційний зв'язок."},
+    {"word": "referee", "is_associated": true, "association_type": "THEMATIC", "explanation": "Суддя слідкує за грою і фіксує, чи зараховано гол, тому це тематичний зв'язок."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'goal' пов'язане з предметами гри, місцем, рахунком і суддею, а побутові слова не мають до нього відношення."
+}
