@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I saw",
+  "correct_completion": "an elephant at the zoo.",
+  "full_sentence": "Yesterday I saw an elephant at the zoo.",
+  "acceptable_variants": ["an old elephant in the park.", "an owl in the tree."],
+  "options": [
+    {"text": "a elephant at the zoo.", "is_correct": false, "why_wrong": "'Elephant' starts with a vowel sound, so it needs 'an', not 'a'."},
+    {"text": "elephant at the zoo.", "is_correct": false, "why_wrong": "A singular countable noun needs an article such as 'a' or 'an'."},
+    {"text": "an elephant at the zoo.", "is_correct": true, "why_wrong": null},
+    {"text": "an bear at the zoo.", "is_correct": false, "why_wrong": "'Bear' starts with a consonant sound, so it needs 'a', not 'an'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indefinite articles 'a' and 'an' with singular countable nouns",
+  "connector": "an",
+  "explanation": "Use 'an' before a singular countable noun that starts with a vowel sound, and 'a' before one that starts with a consonant sound. Learners often drop the article entirely because their first language may have no separate article word for this.",
+  "translation": "Dün hayvanat bahçesinde bir fil gördüm."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "melankoli", "transliteration": "melankoli", "meaning": "melancholy"},
+    {"word": "nostalji", "transliteration": "nostalji", "meaning": "nostalgia"},
+    {"word": "panik", "transliteration": "panik", "meaning": "panic"},
+    {"word": "stres", "transliteration": "stres", "meaning": "stress"}
+  ],
+  "english_words": ["panic", "melancholy", "stress", "nostalgia"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each pair comes from a Greek or Latin root that entered both English and Turkish, often through French, so the spelling and sound stayed close.",
+  "false_friend_warning": null
+}
