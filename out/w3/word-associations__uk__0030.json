@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "sunscreen", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сонцезахисний крем використовують, щоб захиститися від сонячних променів, тому він тісно пов'язаний зі словом sun."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець є канцелярським приладдям і не має жодного зв'язку із сонцем."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Пляж є типовим місцем, де люди засмагають під сонцем, тому слова належать до однієї теми відпочинку."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик існує у холодному кліматі, і він не пов'язаний зі сонячною погодою."},
+    {"word": "son", "is_associated": true, "association_type": "PHONETIC", "explanation": "Слово son звучить майже так само, як sun, тому його легко переплутати на слух."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Подушка використовується для сну і не має відношення до сонця."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані зі sun, є або тематичними (пляж, сонцезахисний крем), або фонетичними (son), тоді як pencil, glacier і pillow не мають жодного зв'язку."
+}

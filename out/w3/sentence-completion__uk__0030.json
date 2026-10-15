@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bridge collapsed after only two years, so",
+  "correct_completion": "the engineers must have made serious errors.",
+  "full_sentence": "The bridge collapsed after only two years, so the engineers must have made serious errors.",
+  "acceptable_variants": ["the engineers might have made serious errors.", "the engineers had probably made serious mistakes."],
+  "options": [
+    {"text": "we crossed it every morning.", "is_correct": false, "why_wrong": "This describes a habit, but it does not give a logical conclusion about why the bridge collapsed."},
+    {"text": "the engineers must have made serious errors.", "is_correct": true, "why_wrong": null},
+    {"text": "the bridge is painted blue.", "is_correct": false, "why_wrong": "This is a description of the bridge. It does not explain the collapse, so it does not complete the reasoning after 'so'."},
+    {"text": "the workers should have finished it earlier.", "is_correct": false, "why_wrong": "This criticises the timing of the work, but it does not explain why the bridge collapsed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal perfect for speculation: must have + past participle",
+  "connector": "so",
+  "explanation": "After 'so', we need a conclusion. The modal perfect 'must have' + past participle shows a strong logical deduction about a past event. Learners often use a simple past or a plain present form here, but the modal perfect shows how sure the speaker is.",
+  "translation": "Міст зруйнувався лише через два роки, тож інженери, напевно, припустилися серйозних помилок."
+}
