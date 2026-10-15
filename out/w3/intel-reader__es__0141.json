@@ -1,0 +1,20 @@
+{
+  "title": "At the Café",
+  "text": "Ana is at a café with her friend Maria. Ana says hello to the waiter. The waiter smiles and gives her a menu.\n\nAna wants a coffee. Maria wants a tea. They say thank you and sit by the window.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is Ana?", "options": ["At school", "At a café", "At home", "At a park"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Maria want to drink?", "options": ["Coffee", "Juice", "Water", "Tea"], "correct_index": 3, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the waiter seem to feel?", "options": ["Happy and friendly", "Sad", "Angry", "Sleepy"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does Ana say thank you?", "options": ["She is angry", "She is being polite", "She is lost", "She is late"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "café", "translation": "cafetería", "definition": "a small place where you can buy coffee and food"},
+    {"word": "waiter", "translation": "camarero", "definition": "a person who brings food and drinks to your table"},
+    {"word": "menu", "translation": "carta", "definition": "a list of food and drinks in a restaurant"},
+    {"word": "window", "translation": "ventana", "definition": "an opening in a wall that lets in light and air"}
+  ],
+  "paragraph_translations": [
+    "Ana está en un café con su amiga Maria. Ana saluda al camarero. El camarero sonríe y le da una carta.",
+    "Ana quiere un café. Maria quiere un té. Dan las gracias y se sientan junto a la ventana."
+  ]
+}
