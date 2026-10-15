@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder for the exam,",
+  "correct_completion": "I would have passed it.",
+  "full_sentence": "If only I had studied harder for the exam, I would have passed it.",
+  "acceptable_variants": ["I could have passed it.", "I might have passed it."],
+  "options": [
+    {"text": "I could go to the cinema tonight.", "is_correct": false, "why_wrong": "This refers to a future plan, not to a regret about the past, so it does not complete the wish."},
+    {"text": "I would pass it now.", "is_correct": false, "why_wrong": "'Now' places the result in the present, but the regret is about the past, so the perfect form 'would have passed' is needed."},
+    {"text": "I would have passed it.", "is_correct": true, "why_wrong": null},
+    {"text": "I study harder every day.", "is_correct": false, "why_wrong": "This describes a present habit and does not express a wish about a past event."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'If only' to express regret about the past",
+  "connector": "if only",
+  "explanation": "'If only' followed by the past perfect expresses a wish about the past, and the result clause uses 'would have' plus a past participle. Polish speakers often transfer a single conditional pattern and may use a simple past or a present form in the result clause, so the perfect form must be used here.",
+  "translation": "Gdybym tylko uczył się do egzaminu bardziej, zdałbym go."
+}
