@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sofá", "transliteration": "sofa", "meaning": "sofa"},
+    {"word": "televisión", "transliteration": "television", "meaning": "television"},
+    {"word": "radio", "transliteration": "radio", "meaning": "radio"},
+    {"word": "garaje", "transliteration": "garaje", "meaning": "garage"}
+  ],
+  "english_words": ["garage", "radio", "sofa", "television"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these household words from the same source, so the spelling and sound stayed close in English and Spanish.",
+  "false_friend_warning": null
+}

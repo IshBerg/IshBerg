@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My friend Ana is from Mexico.",
+  "correct_completion": "She speaks Spanish and English.",
+  "full_sentence": "My friend Ana is from Mexico. She speaks Spanish and English.",
+  "acceptable_variants": ["She can speak English and Spanish.", "She speaks two languages."],
+  "options": [
+    {"text": "They speak Spanish and English.", "is_correct": false, "why_wrong": "'They' refers to more than one person, but the sentence is about only one friend, Ana. Use 'she'."},
+    {"text": "It is a big city.", "is_correct": false, "why_wrong": "'It' refers to things or animals, not to a person. Ana is a person, so 'she' is needed."},
+    {"text": "She speaks Spanish and English.", "is_correct": true, "why_wrong": null},
+    {"text": "We are from Mexico too.", "is_correct": false, "why_wrong": "'We' includes the speaker, but the sentence is only about Ana. It also repeats information already given."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Subject pronouns she, they, it and we",
+  "connector": null,
+  "explanation": "Ana is one person, so the subject pronoun 'she' refers back to her. English subject pronouns must always be written in the sentence, while Spanish speakers often drop them because the verb ending already shows the subject.",
+  "translation": "Mi amiga Ana es de México. Ella habla español e inglés."
+}
