@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more time,",
+  "correct_completion": "I would learn to play the guitar.",
+  "full_sentence": "If I had more time, I would learn to play the guitar.",
+  "acceptable_variants": ["I could practise every day.", "I might take guitar lessons."],
+  "options": [
+    {"text": "I will go to the cinema yesterday.", "is_correct": false, "why_wrong": "The time marker 'yesterday' conflicts with the hypothetical meaning of the second conditional, and 'will' does not fit its result clause."},
+    {"text": "I would learn to play the guitar.", "is_correct": true, "why_wrong": null},
+    {"text": "I learned to play the guitar yesterday.", "is_correct": false, "why_wrong": "The past simple describes a real completed action, not the imagined result required after 'if' with a past subjunctive."},
+    {"text": "I have learned to play the guitar.", "is_correct": false, "why_wrong": "The present perfect describes a real experience, so it does not complete an unreal hypothetical situation."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional: if + past simple, would + base verb",
+  "connector": "if",
+  "explanation": "The stem uses 'if' with a past form to describe an unreal situation. The result clause needs 'would' plus the base verb, so the correct completion is the one that uses this structure.",
+  "translation": "Si tuviera más tiempo, aprendería a tocar la guitarra."
+}

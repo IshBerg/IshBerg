@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["P", "A", "R", "T", "Y", "I", "Z", "Q", "G"],
+    ["K", "W", "B", "J", "X", "N", "Z", "F", "U"],
+    ["M", "D", "H", "Q", "W", "V", "B", "K", "E"],
+    ["L", "X", "P", "Y", "Z", "I", "C", "J", "S"],
+    ["C", "B", "F", "H", "R", "T", "Q", "W", "T"],
+    ["Y", "A", "K", "N", "M", "E", "X", "B", "Z"],
+    ["F", "J", "R", "L", "P", "Q", "W", "G", "Y"],
+    ["H", "K", "M", "D", "V", "N", "J", "X", "P"],
+    ["Z", "Q", "W", "X", "D", "A", "T", "E", "R"]
+  ],
+  "words_to_find": ["PARTY", "GUEST", "CARD", "DATE", "INVITE"],
+  "word_positions": [
+    {"word": "PARTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GUEST", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CARD", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DATE", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "INVITE", "start_row": 0, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Invitations"
+}
