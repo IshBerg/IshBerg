@@ -1,0 +1,20 @@
+{
+  "title": "At Sunny Cafe",
+  "text": "This is the menu at Sunny Cafe. There are three kinds of soup. The soup of the day is tomato soup. A sandwich costs five dollars.\n\nThe drinks are on the right side of the menu. You can order tea, coffee, or orange juice. Dessert is at the bottom of the menu. The cake is very good.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How much does a sandwich cost?", "options": ["Three dollars", "Five dollars", "Seven dollars", "Ten dollars"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where are the drinks on the menu?", "options": ["On the left side", "On the right side", "At the bottom", "At the top"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can you infer about Sunny Cafe?", "options": ["It sells food and drinks.", "It is a school.", "It is a shop for toys.", "It is open only at night."], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Which item would a person who likes sweet food probably choose?", "options": ["The soup", "The cake", "The sandwich", "The tea"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "menu", "translation": "menü", "definition": "a list of food and drinks in a restaurant or cafe"},
+    {"word": "soup", "translation": "çorba", "definition": "a warm liquid food, often made from vegetables or meat"},
+    {"word": "order", "translation": "sipariş vermek", "definition": "to ask for food or drink in a restaurant"},
+    {"word": "dessert", "translation": "tatlı", "definition": "something sweet that you eat at the end of a meal"}
+  ],
+  "paragraph_translations": [
+    "Bu, Sunny Cafe'nin menüsü. Üç çeşit çorba var. Günün çorbası domates çorbası. Bir sandviç beş dolara mal olur.",
+    "İçecekler menünün sağ tarafında. Çay, kahve veya portakal suyu sipariş edebilirsiniz. Tatlılar menünün en altında. Pasta çok lezzetli."
+  ]
+}
