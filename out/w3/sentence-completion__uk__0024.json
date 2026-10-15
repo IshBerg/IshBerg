@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results of the experiment were carefully checked",
+  "correct_completion": "before they were published in the journal.",
+  "full_sentence": "The results of the experiment were carefully checked before they were published in the journal.",
+  "acceptable_variants": ["and they were later published in the journal.", "before publication in the journal."],
+  "options": [
+    {"text": "because the journal publishes them.", "is_correct": false, "why_wrong": "The active verb 'publishes' does not fit the passive pattern the sentence sets up with 'were checked'. The passive 'were published' is needed to match the rest of the sentence."},
+    {"text": "which being published by the journal.", "is_correct": false, "why_wrong": "'Being published' is a non-finite form and cannot follow a complete clause without a finite verb. The sentence is ungrammatical."},
+    {"text": "before they were published in the journal.", "is_correct": true, "why_wrong": null},
+    {"text": "so the journal is publishing them.", "is_correct": false, "why_wrong": "This uses an active present continuous and gives a cause, which does not express the sequence of checking and then publishing that the passive clause sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Passive voice in reports, with 'before' to show sequence",
+  "connector": "before",
+  "explanation": "The first clause uses the passive to focus on the results rather than on who checked them. The completion needs a passive verb form and a time connector that shows the checking happened earlier than the publication.",
+  "translation": "Результати експерименту ретельно перевірили, перш ніж їх опублікували в журналі."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "winter",
+  "all_words": [
+    {"word": "snow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сніг є характерною ознакою зими, тому ці слова пов'язані смислово."},
+    {"word": "beach", "is_associated": false, "association_type": "NONE", "explanation": "Пляж асоціюється з літом і морем, а не із зимою, тому прямого зв'язку немає."},
+    {"word": "coat", "is_associated": true, "association_type": "THEMATIC", "explanation": "Пальто є типовим зимовим одягом, тому це тематичний зв'язок."},
+    {"word": "lemonade", "is_associated": false, "association_type": "NONE", "explanation": "Лимонад є літнім напоєм, тож із зимою він не пов'язаний."},
+    {"word": "scarf", "is_associated": true, "association_type": "THEMATIC", "explanation": "Шарф носять узимку, щоб зігрітися, тому це слово тематично пов'язане із зимою."},
+    {"word": "airport", "is_associated": false, "association_type": "NONE", "explanation": "Аеропорт не має безпосереднього відношення до зими."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово winter пов'язане з холодною порою року: снігом, теплим одягом і зимовими звичками, тоді як слова про літо, море та подорожі до нього не пасують."
+}
