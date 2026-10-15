@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "E", "C", "I", "S", "I", "O", "N", "H"],
+    ["K", "L", "A", "P", "T", "R", "U", "Y", "O"],
+    ["C", "W", "Z", "J", "X", "N", "V", "Q", "M"],
+    ["P", "O", "G", "D", "L", "S", "I", "T", "E"],
+    ["Y", "U", "F", "B", "H", "Z", "K", "J", "W"],
+    ["R", "M", "T", "F", "N", "A", "C", "Q", "O"],
+    ["V", "X", "L", "S", "E", "D", "W", "U", "R"],
+    ["Z", "Q", "I", "R", "P", "E", "Y", "N", "K"],
+    ["A", "T", "B", "J", "M", "G", "H", "X", "S"]
+  ],
+  "words_to_find": ["DECISION", "HOMEWORK", "COFFEE", "BREAK"],
+  "word_positions": [
+    {"word": "DECISION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOMEWORK", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "COFFEE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BREAK", "start_row": 8, "start_col": 2, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Collocations"
+}

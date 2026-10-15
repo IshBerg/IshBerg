@@ -1,0 +1,19 @@
+{
+  "title": "At the Cafe",
+  "text": "This is the menu at Sun Cafe. It has soup, salad and pizza. The soup is hot and good. The salad is cold and fresh.\n\nTom wants pizza and a glass of water. Anna wants soup. They pay at the end. The cafe is open until nine.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does the menu have?", "options": ["Soup, salad and pizza", "Cake and tea", "Fish and rice", "Eggs and milk"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Tom want?", "options": ["Soup", "Pizza and a glass of water", "Salad", "A cup of tea"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What kind of place is Sun Cafe most likely to be?", "options": ["A place to eat", "A school", "A bank", "A shop for shoes"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why do Tom and Anna pay at the end?", "options": ["Because they finished eating", "Because the cafe is closed", "Because they are at home", "Because they have no food"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "menu", "translation": "menü", "definition": "a list of food and drinks in a restaurant"},
+    {"word": "salad", "translation": "salata", "definition": "a dish of mixed vegetables, often eaten cold"},
+    {"word": "hot", "translation": "sıcak", "definition": "having a high temperature"}
+  ],
+  "paragraph_translations": [
+    "Bu Sun Cafe'nin menüsü. Çorba, salata ve pizza var. Çorba sıcak ve lezzetli. Salata soğuk ve taze.",
+    "Tom pizza ve bir bardak su istiyor. Anna çorba istiyor. Sonunda ödeme yapıyorlar. Kafe dokuza kadar açık."
+  ]
+}
