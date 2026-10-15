@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We can't go to the park because",
+  "correct_completion": "there is a lot of rain today.",
+  "full_sentence": "We can't go to the park because there is a lot of rain today.",
+  "acceptable_variants": ["there is a storm outside.", "it is raining very hard."],
+  "options": [
+    {"text": "there are many trees in the park.", "is_correct": false, "why_wrong": "This describes the park, but it does not give a reason why we cannot go."},
+    {"text": "we like the park very much.", "is_correct": false, "why_wrong": "Liking a place is not a reason to be unable to visit it, so it does not complete the 'because' clause logically."},
+    {"text": "there is a lot of rain today.", "is_correct": true, "why_wrong": null},
+    {"text": "there is a big park near my house.", "is_correct": false, "why_wrong": "This gives extra information about where the park is, but it does not explain why we cannot go."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because' and 'there is' with an uncountable noun",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part of the sentence. Only the rain explains why the trip is not possible; the other options describe the park or the speaker's feelings. Ukrainian speakers often use a weather verb directly, so they may need practice with 'there is' followed by an uncountable noun such as rain.",
+  "translation": "Ми не можемо піти до парку, тому що сьогодні йде сильний дощ."
+}

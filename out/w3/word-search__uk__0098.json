@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["K", "I", "N", "D", "Q", "X", "P", "Z", "S"],
+    ["W", "J", "L", "O", "T", "G", "R", "E", "H"],
+    ["M", "A", "C", "U", "I", "D", "V", "N", "Y"],
+    ["B", "F", "K", "Q", "S", "W", "O", "X", "T"],
+    ["H", "R", "J", "N", "E", "Z", "Y", "U", "M"],
+    ["P", "D", "A", "I", "O", "K", "G", "L", "X"],
+    ["Q", "W", "R", "V", "T", "N", "A", "S", "B"],
+    ["Z", "M", "O", "H", "E", "C", "I", "J", "D"],
+    ["L", "X", "F", "U", "N", "N", "Y", "Q", "P"]
+  ],
+  "words_to_find": ["KIND", "SHY", "BRAVE", "FUNNY", "CALM"],
+  "word_positions": [
+    {"word": "KIND", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SHY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "BRAVE", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FUNNY", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "CALM", "start_row": 7, "start_col": 5, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Personality Adjectives"
+}
