@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Simile, benzetme yoluyla anlatımı ifade eden bir sanat terimidir ve metaforla aynı alanda kullanılır."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Engine, makine motoru anlamına gelir ve edebi anlatım veya retorikle hiçbir ilgisi yoktur."},
+    {"word": "imagery", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Imagery, metaforların zihinde canlı görüntüler oluşturmasında kullanılan betimleyici dili tanımlar."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Glacier, buzul anlamına gelir ve retorik ya da edebiyat terminolojisiyle bağlantısı yoktur."},
+    {"word": "figurative", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Figurative language ifadesi, metaforun bulunduğu mecazi dili tanımlamak için sık kullanılan bir sözcük öbeğidir."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Hammer, çekiç anlamına gelir ve edebi kavramlarla ilişkili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Metafor, benzetme ve mecazi anlatımla ilgili sözcüklerin hepsi edebi ve retorik bir alanın parçasıdır; diğer sözcükler ise bu alanla ilgisiz somut nesnelerdir."
+}

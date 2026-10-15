@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She had studied hard all week, so",
+  "correct_completion": "she passed the exam easily.",
+  "full_sentence": "She had studied hard all week, so she passed the exam easily.",
+  "acceptable_variants": ["she got a good grade.", "she felt ready for the test."],
+  "options": [
+    {"text": "she failed the exam on purpose.", "is_correct": false, "why_wrong": "Failing on purpose does not follow from studying hard, so it does not complete the cause-and-effect pattern."},
+    {"text": "she did not open any books.", "is_correct": false, "why_wrong": "This contradicts the first clause, which says she studied hard all week."},
+    {"text": "she passed the exam easily.", "is_correct": true, "why_wrong": null},
+    {"text": "the exam was on Monday.", "is_correct": false, "why_wrong": "This gives a fact about timing, but it does not show the result of studying hard."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', the sentence needs a result that follows logically from the first clause. Students often have a Turkish-influenced habit of expecting a connector to come before the result, so they should check the order of cause and effect carefully.",
+  "translation": "Bütün hafta sıkı çalıştı, bu yüzden sınavı kolayca geçti."
+}
