@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Please close the window,",
+  "correct_completion": "because it is cold.",
+  "full_sentence": "Please close the window, because it is cold.",
+  "acceptable_variants": ["because the room is too cold.", "so the room stays warm."],
+  "options": [
+    {"text": "yesterday I was very happy.", "is_correct": false, "why_wrong": "This is about the past, but the stem is a request in the present, so the continuation must give a reason for closing the window."},
+    {"text": "my mother is a teacher.", "is_correct": false, "why_wrong": "This is a fact about a person and does not explain why the window should be closed."},
+    {"text": "because it is cold.", "is_correct": true, "why_wrong": null},
+    {"text": "you are a doctor.", "is_correct": false, "why_wrong": "This does not connect to closing the window and does not give a reason."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Imperatives followed by 'because'",
+  "connector": "because",
+  "explanation": "After an imperative such as 'Please close the window,' we can add a reason using the linking word 'because'. Turkish speakers may expect a suffix on the verb to show a reason, but English uses a separate linking word before the clause.",
+  "translation": "Lütfen pencereyi kapat, çünkü hava soğuk."
+}
