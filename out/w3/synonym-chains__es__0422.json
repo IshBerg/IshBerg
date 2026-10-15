@@ -1,0 +1,17 @@
+{
+  "central_word": "big",
+  "chain_words": [
+    {"word": "little", "intensity": 1, "translation": "pequeño", "nuance": "small in size, often used for something cute or young"},
+    {"word": "small", "intensity": 2, "translation": "pequeño", "nuance": "neutral word for not big in size"},
+    {"word": "big", "intensity": 3, "translation": "grande", "nuance": "general word for large size"},
+    {"word": "large", "intensity": 4, "translation": "grande", "nuance": "more formal word for big size"},
+    {"word": "huge", "intensity": 5, "translation": "enorme", "nuance": "very, very big"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express size, from a small size to a very large one.",
+  "usage_notes": [
+    {"word1": "little", "word2": "small", "difference": "'Little' often suggests something small and cute or young; 'small' is a neutral word for size."}
+  ],
+  "translations": {"little": "pequeño", "small": "pequeño", "big": "grande", "large": "grande", "huge": "enorme"}
+}
