@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["D", "O", "C", "T", "O", "R", "N"],
+    ["K", "B", "M", "Q", "V", "W", "U"],
+    ["P", "Z", "J", "X", "G", "Y", "R"],
+    ["I", "A", "K", "B", "D", "F", "S"],
+    ["L", "C", "H", "E", "F", "Q", "E"],
+    ["O", "N", "W", "R", "V", "Z", "K"],
+    ["T", "M", "X", "B", "L", "Y", "G"]
+  ],
+  "words_to_find": ["DOCTOR", "NURSE", "PILOT", "CHEF"],
+  "word_positions": [
+    {"word": "DOCTOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NURSE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PILOT", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "CHEF", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Professions"
+}
