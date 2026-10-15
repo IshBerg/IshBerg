@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Yağmur yağarken insanlar genellikle şemsiye kullanır."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmek yağmurla herhangi bir anlam ya da durum bağlantısı taşımaz."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yağmur bulutlardan yağar, bu yüzden iki kelime anlamca yakından ilişkilidir."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Sandalye yağmur ile ilgili bir kelime değildir ve bu konuda bir çağrışım yapmaz."},
+    {"word": "wet", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Yağmur yağınca şeyler ıslanır, bu yüzden 'wet' kelimesi sık sık 'rain' ile birlikte düşünülür."},
+    {"word": "puddle", "is_associated": true, "association_type": "THEMATIC", "explanation": "Yağmur yağınca yerde su birikintileri oluşur."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bu kelimelerin çoğu yağmur ve yağışlı havayla ilgilidir; ekmek ve sandalye ise bu konuyla ilgisizdir."
+}

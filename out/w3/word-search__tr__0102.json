@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "E", "A", "C", "H", "E", "R", "Q", "S"],
+    ["K", "P", "M", "W", "Z", "B", "F", "G", "C"],
+    ["D", "J", "V", "X", "Y", "N", "U", "I", "H"],
+    ["K", "O", "W", "Z", "Q", "B", "F", "M", "O"],
+    ["P", "G", "C", "H", "V", "K", "Y", "N", "O"],
+    ["U", "A", "X", "T", "W", "D", "J", "Z", "L"],
+    ["B", "F", "Q", "M", "O", "V", "K", "H", "W"],
+    ["Y", "N", "G", "J", "Z", "R", "X", "P", "V"],
+    ["L", "E", "S", "S", "O", "N", "K", "W", "Q"]
+  ],
+  "words_to_find": ["TEACHER", "SCHOOL", "DOCTOR", "LESSON"],
+  "word_positions": [
+    {"word": "TEACHER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SCHOOL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DOCTOR", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LESSON", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Education and Careers"
+}

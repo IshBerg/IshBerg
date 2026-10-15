@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because she was tired,",
+  "correct_completion": "she went to bed early.",
+  "full_sentence": "Because she was tired, she went to bed early.",
+  "acceptable_variants": ["she fell asleep quickly.", "she decided to rest at home."],
+  "options": [
+    {"text": "she is going to school tomorrow.", "is_correct": false, "why_wrong": "This is a future plan, so it does not show a result of being tired."},
+    {"text": "she bought a new phone yesterday.", "is_correct": false, "why_wrong": "This past event has no link to being tired, so 'because' does not connect it to the stem."},
+    {"text": "she went to bed early.", "is_correct": true, "why_wrong": null},
+    {"text": "the weather was very cold.", "is_correct": false, "why_wrong": "This describes the weather, which does not follow from the reason given in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple with the irregular verb 'go' after 'because' for cause and effect",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the result of the first part. 'Went' is the past simple form of the irregular verb 'go', matching the past tense 'was' in the stem.",
+  "translation": "Yorgun olduğu için erkenden yatağa gitti."
+}
