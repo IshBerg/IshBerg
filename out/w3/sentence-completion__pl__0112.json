@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she had studied for weeks,",
+  "correct_completion": "she still felt nervous before the exam.",
+  "full_sentence": "Although she had studied for weeks, she still felt nervous before the exam.",
+  "acceptable_variants": ["she still couldn't sleep the night before.", "she did not feel fully prepared."],
+  "options": [
+    {"text": "so she passed the exam easily.", "is_correct": false, "why_wrong": "'Although' introduces contrast, but 'so' introduces a result that follows naturally from effort. The connector does not match."},
+    {"text": "she still felt nervous before the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "because she had studied for weeks.", "is_correct": false, "why_wrong": "'Because' repeats a reason and cannot follow 'although' in the same sentence, since 'although' is already a connector."},
+    {"text": "she was studying in the library.", "is_correct": false, "why_wrong": "This describes a place and activity, but it does not complete the contrast that 'although' sets up."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a result that contradicts the expectation set by the first clause. Polish speakers often use a single connector where English needs a contrast structure, so it helps to check that each clause has its own role.",
+  "translation": "Chociaż uczyła się przez wiele tygodni, nadal czuła się zdenerwowana przed egzaminem."
+}
