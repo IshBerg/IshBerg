@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "In my bag, I have two pens and three",
+  "correct_completion": "notebooks.",
+  "full_sentence": "In my bag, I have two pens and three notebooks.",
+  "acceptable_variants": ["pencils.", "erasers."],
+  "options": [
+    {"text": "notebook.", "is_correct": false, "why_wrong": "After the number 'three' we need a plural noun, so the singular 'notebook' is wrong."},
+    {"text": "notebooks.", "is_correct": true, "why_wrong": null},
+    {"text": "a notebook.", "is_correct": false, "why_wrong": "'A' cannot be used after a number such as 'three'. Numbers are followed by plural nouns."},
+    {"text": "many notebook.", "is_correct": false, "why_wrong": "'Many' needs a plural noun, so it would be 'many notebooks', and it also clashes with the number 'three'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Plural nouns after numbers",
+  "connector": "and",
+  "explanation": "After a number greater than one, the noun must be plural. Add -s to the noun to show that there is more than one item.",
+  "translation": "У моїй сумці є дві ручки і три зошити."
+}

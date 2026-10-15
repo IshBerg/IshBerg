@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["O", "P", "I", "N", "I", "O", "N", "K", "A", "W"],
+    ["Q", "Z", "H", "F", "J", "E", "V", "L", "R", "B"],
+    ["M", "T", "S", "X", "D", "Y", "P", "W", "G", "C"],
+    ["A", "S", "S", "E", "R", "T", "H", "K", "U", "F"],
+    ["N", "Q", "B", "L", "Z", "W", "J", "M", "E", "V"],
+    ["D", "R", "K", "H", "P", "Y", "G", "Q", "W", "J"],
+    ["F", "O", "L", "S", "C", "M", "X", "R", "Z", "N"],
+    ["Q", "V", "U", "T", "K", "J", "A", "B", "Y", "H"],
+    ["P", "G", "S", "B", "W", "D", "F", "X", "C", "L"],
+    ["R", "N", "E", "K", "T", "M", "I", "A", "L", "C"]
+  ],
+  "words_to_find": ["OPINION", "ARGUE", "DOUBT", "CLAIM", "ASSERT"],
+  "word_positions": [
+    {"word": "OPINION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ARGUE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DOUBT", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CLAIM", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "ASSERT", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Opinion Language and Stance"
+}
