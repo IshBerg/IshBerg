@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am hungry, so",
+  "correct_completion": "I want to order a meal.",
+  "full_sentence": "I am hungry, so I want to order a meal.",
+  "acceptable_variants": ["I want to eat now.", "I am going to order some food."],
+  "options": [
+    {"text": "the menu is on the table.", "is_correct": false, "why_wrong": "This is a fact about the table. It is not a result of being hungry, so it does not fit after 'so'."},
+    {"text": "I do not want to eat.", "is_correct": false, "why_wrong": "This is the opposite of the result a hungry person would have. 'So' needs a logical result of the first part."},
+    {"text": "I want to order a meal.", "is_correct": true, "why_wrong": null},
+    {"text": "the waiter is very tall.", "is_correct": false, "why_wrong": "This is a description of the waiter. It is not a result of being hungry, so it does not complete the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Connector 'so' to show a result",
+  "connector": "so",
+  "explanation": "'So' introduces a result. After 'I am hungry, so', we need an action that follows logically from being hungry, such as ordering food.",
+  "translation": "Jestem głodny, więc chcę zamówić posiłek."
+}
