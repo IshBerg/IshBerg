@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the train was late,",
+  "correct_completion": "we missed the first part of the film.",
+  "full_sentence": "Because the train was late, we missed the first part of the film.",
+  "acceptable_variants": ["we missed the beginning of the film.", "we had to wait outside the cinema for a long time."],
+  "options": [
+    {"text": "we arrived at the cinema early.", "is_correct": false, "why_wrong": "This contradicts the cause: a late train makes an early arrival unlikely, so the result does not follow from the stem."},
+    {"text": "the train was not very comfortable.", "is_correct": false, "why_wrong": "This describes the train but does not give a consequence of the delay, so the cause-effect relation is missing."},
+    {"text": "we missed the first part of the film.", "is_correct": true, "why_wrong": null},
+    {"text": "so we decided to walk home slowly.", "is_correct": false, "why_wrong": "'So' expresses a result and creates a double connector with 'because', which makes the sentence ungrammatical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the stem gives the cause, so the completion must describe the effect of that cause in the main clause. Learners should avoid adding a second connector such as 'so' in the same sentence.",
+  "translation": "Porque o trem estava atrasado, perdemos a primeira parte do filme."
+}
