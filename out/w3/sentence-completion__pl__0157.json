@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "By the time we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had left.", "the train had already departed."],
+  "options": [
+    {"text": "the train already leaves.", "is_correct": false, "why_wrong": "The present simple describes a general or future timetable, not an earlier past event."},
+    {"text": "the train has already left.", "is_correct": false, "why_wrong": "The present perfect cannot follow a past narrative with 'by the time we arrived'."},
+    {"text": "the train will already leave.", "is_correct": false, "why_wrong": "The future tense points forward, but the stem describes something that had finished before a past moment."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past perfect for an action completed before another past action",
+  "connector": "by the time",
+  "explanation": "The past perfect shows which of two past actions happened first, here the train leaving before we arrived. Polish speakers often use a simple past tense for both actions, because Polish has no separate perfect form for earlier past events.",
+  "translation": "Zanim dotarliśmy na stację, pociąg już odjechał."
+}
