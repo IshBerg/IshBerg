@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the map was old,",
+  "correct_completion": "we found the station easily.",
+  "full_sentence": "Although the map was old, we found the station easily.",
+  "acceptable_variants": ["we still found the station.", "we arrived on time."],
+  "options": [
+    {"text": "so we bought a new map.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. 'Although' needs a clause that goes against the expectation set by the first part."},
+    {"text": "because it was very small.", "is_correct": false, "why_wrong": "'Because' gives a reason, which does not fit after 'although'. It also does not describe an action."},
+    {"text": "we found the station easily.", "is_correct": true, "why_wrong": null},
+    {"text": "the map was already in our bag.", "is_correct": false, "why_wrong": "This adds an unrelated fact about the map and does not show a contrast with the old map."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause should show a result that goes against what we would expect from the first part of the sentence.",
+  "translation": "Harita eskimiş olmasına rağmen istasyonu kolayca bulduk."
+}
