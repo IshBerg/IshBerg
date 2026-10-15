@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the road had been repaired twice,",
+  "correct_completion": "it still flooded every spring.",
+  "full_sentence": "Although the road had been repaired twice, it still flooded every spring.",
+  "acceptable_variants": ["the water still covered it each spring.", "it continued to flood during heavy rain."],
+  "options": [
+    {"text": "the council decided to repair it again.", "is_correct": false, "why_wrong": "This continues the story of the repairs but does not contrast with them, so it does not complete the sentence after 'although'."},
+    {"text": "so the drivers used it less often.", "is_correct": false, "why_wrong": "'So' introduces a consequence, not a contrast. 'Although' needs a clause that goes against the repairs."},
+    {"text": "the repairs were paid for by the city.", "is_correct": false, "why_wrong": "This describes the repairs but does not provide a contrasting result."},
+    {"text": "it still flooded every spring.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' following the passive 'had been repaired'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must express a result that contrasts with the passive clause. Learners should notice that the past perfect passive gives the background, and the main clause shows what happened despite it.",
+  "translation": "Yol iki kez onarılmış olmasına rağmen her ilkbaharda hâlâ sular altında kalıyordu."
+}
