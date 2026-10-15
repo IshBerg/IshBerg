@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"},
+    {"word": "mercado", "transliteration": "mercado", "meaning": "market"},
+    {"word": "farmácia", "transliteration": "farmacia", "meaning": "pharmacy"},
+    {"word": "padaria", "transliteration": "padaria", "meaning": "bakery"}
+  ],
+  "english_words": ["pharmacy", "bookshop", "bakery", "market"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Many Portuguese and English words share Latin roots, so their forms look alike. This card shows that a close match in form can still hide a different meaning.",
+  "false_friend_warning": "The Portuguese word livraria looks like the English word library, but it means bookshop, not library."
+}
