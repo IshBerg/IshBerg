@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had listened to my parents when I was younger,",
+  "correct_completion": "I would be far more confident about my career today.",
+  "full_sentence": "If I had listened to my parents when I was younger, I would be far more confident about my career today.",
+  "acceptable_variants": ["I would feel much more confident about my career today.", "my career would probably be more stable now."],
+  "options": [
+    {"text": "I have been confident about my career for years.", "is_correct": false, "why_wrong": "The present perfect describes a state lasting from the past until now. The mixed conditional needs a conditional result ('would' plus a base verb) that shows a present effect of the past condition."},
+    {"text": "I will be confident about my career by next year.", "is_correct": false, "why_wrong": "'Will' gives a plain future prediction. It does not form the conditional result that the stem requires."},
+    {"text": "I would be far more confident about my career today.", "is_correct": true, "why_wrong": null},
+    {"text": "I was going to choose a career later.", "is_correct": false, "why_wrong": "'Was going to' describes a past intention. It gives no result for the condition and no present effect."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals (past condition with 'had' + present result with 'would')",
+  "connector": "if",
+  "explanation": "A mixed conditional joins a past condition (third conditional, 'had listened') with a present result (second conditional, 'would be'). The result clause needs 'would' plus a base verb to show a present effect, and 'today' signals the present time reference. Polish speakers often copy the past form into the result clause, because the Polish conditional does not change its form with time reference. In English the result must use 'would' with a present meaning here.",
+  "translation": "Gdybym w młodości posłuchał rodziców, dziś byłbym znacznie pewniejszy siebie w kwestii swojej kariery."
+}
