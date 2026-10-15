@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child,",
+  "correct_completion": "I used to live in a small village.",
+  "full_sentence": "When I was a child, I used to live in a small village.",
+  "acceptable_variants": ["I often played by the river.", "I used to play by the river every day."],
+  "options": [
+    {"text": "I live in a big city now.", "is_correct": false, "why_wrong": "This describes the present, but the stem refers to the past, so we need 'used to' for a past habit or state."},
+    {"text": "I will move to the capital soon.", "is_correct": false, "why_wrong": "This talks about the future, which does not match the past time set by 'when I was a child'."},
+    {"text": "I used to live in a small village.", "is_correct": true, "why_wrong": null},
+    {"text": "I have lived there for ten years.", "is_correct": false, "why_wrong": "The present perfect describes an action continuing up to now, not a finished past situation, and it does not fit 'when I was a child'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Used to for past habits and states",
+  "connector": "when",
+  "explanation": "The stem sets a past time, so the completion must describe a finished past habit. Ukrainian speakers often use a simple past verb here, but English 'used to' is needed to show a habit that no longer continues.",
+  "translation": "Коли я був дитиною, я жив у маленькому селі."
+}
