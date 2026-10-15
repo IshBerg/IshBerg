@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the report, she sent it to her manager.",
+  "acceptable_variants": ["she emailed it to her manager.", "she handed it in to her boss."],
+  "options": [
+    {"text": "the report was sent yesterday.", "is_correct": false, "why_wrong": "The participle clause 'having finished' refers to the person who finished the report, so the main clause must describe that same person as the subject."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "she will finish it tomorrow.", "is_correct": false, "why_wrong": "'Will finish' contradicts 'having finished', which describes an action that is already completed."},
+    {"text": "it was very long.", "is_correct": false, "why_wrong": "This describes the report but does not complete the main clause for the person who finished it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with a shared subject",
+  "connector": "having finished",
+  "explanation": "A participle clause at the start of a sentence must share its subject with the main clause. Here the person who finished the report is the same person who sends it, so the main clause needs a matching subject and action.",
+  "translation": "Después de terminar el informe, lo envió a su jefe."
+}

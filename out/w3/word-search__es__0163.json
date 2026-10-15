@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "E", "A", "D", "L", "I", "N", "E", "K", "C"],
+    ["Q", "W", "J", "X", "K", "Z", "M", "T", "O", "F"],
+    ["S", "L", "G", "A", "D", "B", "K", "V", "U", "W"],
+    ["T", "P", "Y", "J", "C", "M", "E", "Q", "A", "R"],
+    ["L", "D", "I", "W", "T", "R", "K", "X", "Z", "O"],
+    ["G", "U", "M", "N", "Q", "A", "E", "P", "Y", "H"],
+    ["V", "B", "F", "S", "J", "L", "D", "W", "K", "Z"],
+    ["X", "Q", "M", "F", "R", "K", "T", "J", "N", "Z"],
+    ["P", "C", "D", "K", "W", "L", "O", "G", "H", "U"],
+    ["M", "Y", "A", "F", "Q", "T", "X", "D", "J", "B"]
+  ],
+  "words_to_find": ["HEADLINE", "SPIN", "BUZZ", "HYPE", "COVER"],
+  "word_positions": [
+    {"word": "HEADLINE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SPIN", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BUZZ", "start_row": 9, "start_col": 9, "direction": "VERTICAL_UP"},
+    {"word": "HYPE", "start_row": 5, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "COVER", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"}
+  ],
+  "topic": "Idioms and Figurative Language in the Media"
+}
