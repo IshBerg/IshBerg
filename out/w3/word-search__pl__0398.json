@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "I", "A", "S", "K", "L", "P", "W", "F"],
+    ["Q", "D", "V", "J", "X", "Z", "T", "H", "R"],
+    ["S", "K", "N", "E", "G", "L", "Y", "W", "A"],
+    ["M", "O", "J", "Q", "B", "F", "D", "V", "M"],
+    ["P", "X", "U", "I", "R", "O", "N", "Y", "I"],
+    ["T", "L", "K", "R", "W", "Z", "A", "E", "N"],
+    ["F", "B", "Q", "D", "C", "J", "V", "U", "G"],
+    ["Y", "M", "W", "P", "L", "E", "K", "S", "X"],
+    ["R", "H", "E", "T", "O", "R", "I", "C", "Z"]
+  ],
+  "words_to_find": ["BIAS", "FRAMING", "SOURCE", "IRONY", "RHETORIC"],
+  "word_positions": [
+    {"word": "BIAS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FRAMING", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SOURCE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "IRONY", "start_row": 4, "start_col": 3, "direction": "HORIZONTAL"},
+    {"word": "RHETORIC", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Media Literacy and Discourse Analysis"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "problem",
+  "all_words": [
+    {"word": "solution", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Rozwiązanie jest bezpośrednią odpowiedzią na problem, więc oba słowa należą do tego samego pola znaczeniowego."},
+    {"word": "solve", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'solve' tworzy typowe połączenie 'solve a problem' (rozwiązać problem)."},
+    {"word": "challenge", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Wyzwanie to trudność podobna do problemu i często pojawia się w tym samym kontekście."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower to przedmiot codziennego użytku i nie ma żadnego znaczeniowego związku z pojęciem problemu."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Dywan to element wyposażenia domu i nie łączy się znaczeniowo ani kolokacyjnie z problemem."},
+    {"word": "issue", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Issue (kwestia, problem) jest bliskim synonimem słowa problem w dyskusjach i tekstach analitycznych."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'problem' łączy się z rozwiązaniami, wyzwaniami i kwestiami oraz z czasownikiem 'solve', który tworzy typowe połączenie; przedmioty codziennego użytku nie mają tu związku."
+}
