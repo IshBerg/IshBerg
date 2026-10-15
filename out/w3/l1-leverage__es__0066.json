@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present"},
+    {"word": "fecha", "transliteration": "fecha", "meaning": "date"},
+    {"word": "mes", "transliteration": "mes", "meaning": "month"},
+    {"word": "año", "transliteration": "ano", "meaning": "year"}
+  ],
+  "english_words": ["month", "current", "year", "date"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Spanish and English share many words from Latin, so some forms look alike. The Spanish words for date, month and year match their English meanings closely, which makes them easy to remember as true friends.",
+  "false_friend_warning": "The Spanish word actual looks like the English word actual, but it means current or present, not real or genuine. Do not translate it as actual."
+}

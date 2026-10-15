@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the children were tired,",
+  "correct_completion": "they played outside all afternoon.",
+  "full_sentence": "Although the children were tired, they played outside all afternoon.",
+  "acceptable_variants": ["they still went to the park.", "they kept on playing."],
+  "options": [
+    {"text": "so they went to bed early.", "is_correct": false, "why_wrong": "'Although' shows contrast, not a result. The sentence needs an action that goes against being tired."},
+    {"text": "they played outside all afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "they were tired because of the game.", "is_correct": false, "why_wrong": "'Because' gives a cause, but 'although' has already set up a contrast that needs a clause about action."},
+    {"text": "the mice were hungry too.", "is_correct": false, "why_wrong": "This adds a new fact about other animals but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a result that goes against the first part of the sentence. Learners often mix up 'although' with 'because', so check which connector the sentence uses.",
+  "translation": "Aunque los niños estaban cansados, jugaron afuera toda la tarde."
+}
