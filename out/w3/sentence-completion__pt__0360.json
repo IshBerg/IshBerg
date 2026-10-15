@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the report was published late,",
+  "correct_completion": "the newspaper lost many readers.",
+  "full_sentence": "Because the report was published late, the newspaper lost many readers.",
+  "acceptable_variants": ["the newspaper lost many readers as a result.", "many readers stopped buying the newspaper."],
+  "options": [
+    {"text": "although the editor checked every fact.", "is_correct": false, "why_wrong": "'Although' shows contrast, but the stem already gives a cause with 'because'. The clause does not complete a cause-and-effect relation."},
+    {"text": "the newspaper lost many readers.", "is_correct": true, "why_wrong": null},
+    {"text": "if the editor had checked the facts.", "is_correct": false, "why_wrong": "This clause is a conditional, which does not match the cause-and-effect pattern started by 'because'."},
+    {"text": "the reporter wrote a long article.", "is_correct": false, "why_wrong": "This adds information about the reporter but does not show a result of the late publication."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the cause, so the main clause must show the effect. Learners sometimes add a contrast word such as 'although' after 'because', which breaks the logic of the sentence.",
+  "translation": "Como o relatório foi publicado com atraso, o jornal perdeu muitos leitores."
+}
