@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the manager read the report carefully,",
+  "correct_completion": "she would have spotted the error.",
+  "full_sentence": "Had the manager read the report carefully, she would have spotted the error.",
+  "acceptable_variants": ["she would have caught the mistake.", "she might have noticed the mistake."],
+  "options": [
+    {"text": "she spots the error.", "is_correct": false, "why_wrong": "The stem sets up a hypothetical past condition, so the main clause must use 'would have' plus a past participle, not a present tense."},
+    {"text": "she would have spotted the error.", "is_correct": true, "why_wrong": null},
+    {"text": "she would spot the error.", "is_correct": false, "why_wrong": "'Would spot' refers to the present. The inverted condition 'had read' refers to the past, so the result must also be in the past."},
+    {"text": "she has spotted the error.", "is_correct": false, "why_wrong": "The present perfect states a completed fact, not the hypothetical result of a condition that did not happen."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' replacing 'if'",
+  "connector": "had + subject (inverted conditional)",
+  "explanation": "In an inverted conditional, 'Had' plus the subject and past participle replaces 'If' plus the past perfect. The main clause therefore needs 'would have' plus a past participle. Polish speakers often use a simple conditional in both clauses, because Polish builds conditionals with a particle and a past form, so they tend to drop the perfect structure here.",
+  "translation": "Gdyby kierownik przeczytał raport uważnie, zauważyłby błąd."
+}

@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["W", "O", "L", "F", "X", "B", "Q", "Z", "F"],
+    ["J", "K", "M", "P", "D", "N", "H", "V", "A"],
+    ["C", "Q", "R", "W", "G", "K", "J", "M", "I"],
+    ["P", "A", "D", "H", "V", "Z", "N", "L", "R"],
+    ["B", "K", "S", "F", "W", "J", "Q", "X", "Y"],
+    ["V", "N", "Q", "T", "H", "Z", "M", "P", "D"],
+    ["H", "Z", "J", "D", "L", "W", "K", "N", "B"],
+    ["M", "Y", "X", "P", "K", "E", "D", "Z", "W"],
+    ["Q", "W", "G", "I", "A", "N", "T", "B", "K"]
+  ],
+  "words_to_find": ["WOLF", "FAIRY", "CASTLE", "GIANT"],
+  "word_positions": [
+    {"word": "WOLF", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FAIRY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CASTLE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "GIANT", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Folk Tales"
+}

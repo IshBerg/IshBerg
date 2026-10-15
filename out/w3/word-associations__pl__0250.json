@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Mosty są często budowane nad rzekami, dlatego słowa te są ze sobą ściśle powiązane znaczeniowo."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino jest instrumentem muzycznym i nie ma żadnego związku z mostami ani z budową infrastruktury."},
+    {"word": "tunnel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Tunele i mosty to dwa sposoby pokonywania przeszkód, więc często występują razem w tematyce transportu."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Lodowiec to masa lodu w górach lub na biegunach i nie kojarzy się z mostami."},
+    {"word": "traffic", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'bridge traffic' opisuje ruch pojazdów na moście i jest typowym połączeniem wyrazowym."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek jest przyborem do pisania i nie ma związku z konstrukcjami mostowymi."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z hasłem most dotyczą miejsc, przez które przebiegają mosty, oraz ruchu na nich; instrument, lodowiec i ołówek nie mają z mostami związku."
+}
