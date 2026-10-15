@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The proposal seemed promising at first;",
+  "correct_completion": "nevertheless, it failed to account for the rising costs.",
+  "full_sentence": "The proposal seemed promising at first; nevertheless, it failed to account for the rising costs.",
+  "acceptable_variants": ["however, it failed to account for the rising costs.", "even so, it failed to account for the rising costs."],
+  "options": [
+    {"text": "consequently, it was approved by the board within a week.", "is_correct": false, "why_wrong": "'Consequently' signals a result, but the first clause sets up a contrast, not a logical consequence."},
+    {"text": "nevertheless, it failed to account for the rising costs.", "is_correct": true, "why_wrong": null},
+    {"text": "furthermore, it was supported by three departments.", "is_correct": false, "why_wrong": "'Furthermore' adds a point in the same direction, so it does not reverse the expectation set up by the first clause."},
+    {"text": "moreover, the cost estimates were accurate.", "is_correct": false, "why_wrong": "'Moreover' adds a supporting point, which does not fit the contrast signalled by the first clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Discourse markers signalling contrast",
+  "connector": "nevertheless",
+  "explanation": "The first clause raises an expectation of success, so the second clause must reverse it. A contrastive discourse marker such as 'nevertheless' introduces a clause that undermines the first, while additive or causal markers do not fit.",
+  "translation": "Спочатку пропозиція здавалася перспективною; проте вона не врахувала зростання витрат."
+}

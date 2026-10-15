@@ -1,0 +1,20 @@
+{
+  "title": "My House",
+  "text": "This is my house. It has three rooms and a small kitchen. There is a big table in the kitchen. I eat breakfast at the table.\n\nMy bedroom is upstairs. There is a bed, a desk and a lamp. The window is next to the bed. I like my room because it is bright.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How many rooms does the house have?", "options": ["Two", "Three", "Four", "Five"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is in the bedroom?", "options": ["A sofa, a TV and a fridge", "A bed, a desk and a lamp", "A table and four chairs", "A bath and a sink"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer probably feel about the bedroom?", "options": ["Happy with it", "Angry about it", "Bored by it", "Scared of it"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Where does the writer probably eat breakfast?", "options": ["In the bedroom", "At the kitchen table", "On the stairs", "In the bathroom"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "kitchen", "translation": "кухня", "definition": "the room where food is cooked"},
+    {"word": "table", "translation": "стіл", "definition": "a piece of furniture with a flat top and legs"},
+    {"word": "bedroom", "translation": "спальня", "definition": "a room where people sleep"},
+    {"word": "bright", "translation": "світлий", "definition": "full of light"}
+  ],
+  "paragraph_translations": [
+    "Це мій будинок. У ньому три кімнати і невелика кухня. На кухні є великий стіл. Я снідаю за столом.",
+    "Моя спальня нагорі. Там є ліжко, письмовий стіл і лампа. Вікно поруч із ліжком. Мені подобається моя кімната, бо вона світла."
+  ]
+}
