@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the house had been cleaned,",
+  "correct_completion": "it still smelled of paint.",
+  "full_sentence": "Although the house had been cleaned, it still smelled of paint.",
+  "acceptable_variants": ["it still looked dirty.", "the smell remained."],
+  "options": [
+    {"text": "so everyone wanted to visit it.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. After 'although' the sentence needs a contrasting idea."},
+    {"text": "it still smelled of paint.", "is_correct": true, "why_wrong": null},
+    {"text": "it was sold the next day.", "is_correct": false, "why_wrong": "This is a passive sentence, but it does not contrast with the cleaning. It only reports a later event."},
+    {"text": "they had cleaned the windows.", "is_correct": false, "why_wrong": "This is in the active voice and repeats the cleaning. It does not provide the contrast that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Past perfect passive ('had been cleaned') with 'although' to show contrast",
+  "connector": "although",
+  "explanation": "The stem uses the past perfect passive to describe the cleaning. The completion must show a contrast with that action, so the correct clause describes what remained true anyway. Learners often confuse the passive with the active voice when describing completed actions.",
+  "translation": "Aunque la casa había sido limpiada, todavía olía a pintura."
+}
