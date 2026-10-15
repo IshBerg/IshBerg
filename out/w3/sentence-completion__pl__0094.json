@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are only a few eggs left, so",
+  "correct_completion": "we need to buy some more.",
+  "full_sentence": "There are only a few eggs left, so we need to buy some more.",
+  "acceptable_variants": ["we should buy more eggs.", "we have to go to the shop for eggs."],
+  "options": [
+    {"text": "we have plenty of eggs for breakfast.", "is_correct": false, "why_wrong": "This contradicts the stem, which says there are only a few eggs left. It also does not give a result of that shortage."},
+    {"text": "we need to buy some more.", "is_correct": true, "why_wrong": null},
+    {"text": "we need to buy much more.", "is_correct": false, "why_wrong": "'Much' is used with uncountable nouns. Eggs are countable, so 'many' or 'some' is needed."},
+    {"text": "we have a little eggs.", "is_correct": false, "why_wrong": "'A little' is used with uncountable nouns. Eggs are countable, so 'a few' is needed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifiers with countable nouns (some, many, a few, a little)",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that gives the result of the first part. Only a few eggs are left, so the result is that we must buy more. Use 'some' or 'many' with countable nouns like 'eggs'. Polish speakers may choose 'much' or 'a little' here because Polish uses one quantity word for both countable and uncountable nouns.",
+  "translation": "Zostało tylko kilka jajek, więc musimy kupić jeszcze kilka."
+}
