@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I still remember the village",
+  "correct_completion": "where I was born.",
+  "full_sentence": "I still remember the village where I was born.",
+  "acceptable_variants": ["where my parents grew up.", "where my grandmother lived."],
+  "options": [
+    {"text": "who I was born in.", "is_correct": false, "why_wrong": "'Who' refers to people, not places, so 'where' is needed to introduce a place."},
+    {"text": "where I was born.", "is_correct": true, "why_wrong": null},
+    {"text": "which my cousin lives.", "is_correct": false, "why_wrong": "A preposition is missing: the sentence needs 'in which' or 'where' to show the place."},
+    {"text": "whose my family is from.", "is_correct": false, "why_wrong": "'Whose' shows possession and must be followed by a noun, so it does not fit this sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clauses with 'where' for places",
+  "connector": "where",
+  "explanation": "'Where' introduces a relative clause that describes a place. Learners often confuse 'who' with 'where', or leave out the preposition. 'Who' is only used for people.",
+  "translation": "Nadal pamiętam wieś, w której się urodziłem."
+}
