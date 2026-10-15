@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although there are only a few seats left,",
+  "correct_completion": "we decided to sit down anyway.",
+  "full_sentence": "Although there are only a few seats left, we decided to sit down anyway.",
+  "acceptable_variants": ["we still sat down.", "we found a place to stand."],
+  "options": [
+    {"text": "so we decided to stand by the window.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast, not a consequence."},
+    {"text": "because there are many seats.", "is_correct": false, "why_wrong": "'Because' gives a reason and contradicts the stem, which says there are only a few seats."},
+    {"text": "there are some seats in the hall.", "is_correct": false, "why_wrong": "This repeats information about the seats instead of giving the contrasting action that 'although' expects."},
+    {"text": "we decided to sit down anyway.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and the quantifier 'a few'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the small quantity in the first part. Polish speakers may expect a simple 'but' in the main clause, but English places the contrast after the introductory 'although' clause.",
+  "translation": "Chociaż zostało tylko kilka miejsc, i tak postanowiliśmy usiąść."
+}

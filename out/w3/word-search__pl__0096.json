@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "R", "E", "E", "K", "P", "R"],
+    ["B", "M", "Q", "D", "F", "Z", "I"],
+    ["R", "G", "H", "J", "K", "L", "V"],
+    ["A", "W", "X", "C", "Y", "U", "E"],
+    ["I", "T", "N", "P", "Q", "M", "R"],
+    ["N", "B", "D", "G", "H", "K", "W"],
+    ["Z", "Y", "S", "O", "I", "L", "X"]
+  ],
+  "words_to_find": ["TREE", "RIVER", "RAIN", "SOIL"],
+  "word_positions": [
+    {"word": "TREE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RIVER", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "RAIN", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SOIL", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Environment"
+}
