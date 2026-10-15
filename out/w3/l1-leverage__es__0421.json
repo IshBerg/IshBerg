@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "héroe", "transliteration": "heroe", "meaning": "hero"},
+    {"word": "cómic", "transliteration": "comic", "meaning": "comic strip or comic book"},
+    {"word": "villano", "transliteration": "villano", "meaning": "villain"},
+    {"word": "televisión", "transliteration": "television", "meaning": "television"}
+  ],
+  "english_words": ["comic", "villain", "television", "hero"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These words come from the same Latin or Greek roots in both languages, so the Spanish and English forms are close and have the same meaning. Refer to the Spanish words by their transliteration: heroe, comic, villano, and television.",
+  "false_friend_warning": null
+}

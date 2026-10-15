@@ -1,0 +1,14 @@
+{
+  "codename": "PAPER SHADOW",
+  "briefing": "Agent, we have intercepted a secret message hidden inside a comic strip. Connect each English word on the evidence cards with its Spanish meaning to decode the plan.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "panel", "right": "viñeta", "left_style": "document", "right_style": "handwritten"},
+    {"left": "speech bubble", "right": "globo", "left_style": "photo", "right_style": "newspaper"},
+    {"left": "hero", "right": "héroe", "left_style": "newspaper", "right_style": "document"},
+    {"left": "villain", "right": "villano", "left_style": "handwritten", "right_style": "official"},
+    {"left": "cartoonist", "right": "dibujante", "left_style": "official", "right_style": "photo"},
+    {"left": "page", "right": "página", "left_style": "document", "right_style": "newspaper"}
+  ]
+}
