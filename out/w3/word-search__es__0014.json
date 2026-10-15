@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "R", "E", "A", "D", "X", "Z", "K", "M"],
+    ["Q", "W", "J", "Y", "P", "T", "C", "V", "I"],
+    ["H", "O", "N", "F", "D", "G", "Z", "X", "L"],
+    ["E", "Q", "B", "W", "T", "J", "Y", "M", "K"],
+    ["R", "N", "A", "S", "V", "P", "X", "D", "Z"],
+    ["K", "I", "L", "G", "H", "Y", "T", "P", "Q"],
+    ["M", "X", "C", "N", "B", "F", "U", "Z", "A"],
+    ["D", "K", "V", "E", "W", "O", "R", "J", "S"],
+    ["T", "Q", "Y", "H", "S", "L", "X", "B", "N"]
+  ],
+  "words_to_find": ["BREAD", "MILK", "RICE", "SOUP"],
+  "word_positions": [
+    {"word": "BREAD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MILK", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "RICE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SOUP", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Food and Drinks"
+}
