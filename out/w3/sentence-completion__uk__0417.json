@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you bake the cake,",
+  "correct_completion": "turn on the oven.",
+  "full_sentence": "Before you bake the cake, turn on the oven.",
+  "acceptable_variants": ["preheat the oven.", "get the flour and eggs."],
+  "options": [
+    {"text": "eat the cake.", "is_correct": false, "why_wrong": "You eat a cake after it is baked, so this action happens later, not before baking."},
+    {"text": "put the cake in the fridge.", "is_correct": false, "why_wrong": "The cake is not made yet, so it cannot be put in the fridge before you bake it."},
+    {"text": "turn on the oven.", "is_correct": true, "why_wrong": null},
+    {"text": "throw the bowl away.", "is_correct": false, "why_wrong": "You still need the bowl to mix the ingredients, so you do not throw it away before baking."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', we need an action that happens first in the recipe. The correct clause is an imperative that gives the next step, which is heating the oven.",
+  "translation": "Перш ніж випекти торт, увімкніть духовку."
+}

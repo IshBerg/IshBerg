@@ -1,0 +1,14 @@
+{
+  "trigger_word": "debate",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Аргументи є основою дебатів, адже кожна сторона висуває свої аргументи на підтримку позиції."},
+    {"word": "furniture", "is_associated": false, "association_type": "NONE", "explanation": "Меблі не мають змістового зв'язку з дебатами; вони належать до побутової сфери."},
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Докази використовуються в дебатах, щоб підтвердити твердження учасника."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Вулкан — природне явище, яке не пов'язане з дебатами ні за значенням, ні за темою."},
+    {"word": "opponent", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Опонент — це учасник протилежної сторони, з яким ведуть дебати."},
+    {"word": "rebuttal", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Спростування — це відповідь на аргументи суперника, що часто звучить під час дебатів."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово «debate» пов'язане з аргументами, доказами, опонентами та спростуваннями, тоді як меблі й вулкани не мають відношення до теми."
+}
