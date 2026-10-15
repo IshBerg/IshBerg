@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have never",
+  "correct_completion": "eaten sushi before.",
+  "full_sentence": "I have never eaten sushi before.",
+  "acceptable_variants": ["tried sushi before.", "had sushi in my life."],
+  "options": [
+    {"text": "ate sushi last week.", "is_correct": false, "why_wrong": "A finished past time such as 'last week' does not go with the present perfect used with 'never'."},
+    {"text": "eaten sushi before.", "is_correct": true, "why_wrong": null},
+    {"text": "eat sushi every day.", "is_correct": false, "why_wrong": "The present simple describes routines, so it does not express experience up to now."},
+    {"text": "will eat sushi tomorrow.", "is_correct": false, "why_wrong": "The future tense does not match the present perfect structure that 'have never' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect for life experience with 'never'",
+  "connector": "never",
+  "explanation": "With 'have never', the verb must be in the past participle, and the sentence describes experience up to the present. Polish speakers often use a simple past form after 'never' because Polish marks this meaning with the past tense, so they should use the participle here.",
+  "translation": "Nigdy wcześniej nie jadłem sushi."
+}

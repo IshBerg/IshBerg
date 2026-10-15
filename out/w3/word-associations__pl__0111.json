@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "plane", "is_associated": true, "association_type": "THEMATIC", "explanation": "Samoloty odlatują i lądują na lotnisku, więc słowa są ze sobą bezpośrednio powiązane."},
+    {"word": "ticket", "is_associated": true, "association_type": "THEMATIC", "explanation": "Na lotnisku pasażerowie pokazują bilet przed wejściem na pokład."},
+    {"word": "luggage", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Podróżni zostawiają bagaż na lotnisku i odbierają go po przylocie."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "Marchewka to warzywo i nie ma związku z lotniskiem."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek jest przyborem szkolnym i nie jest typowy dla lotnisk."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Sofa to mebel do domu i nie łączy się z lotniskiem."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzone słowa dotyczą podróży samolotem i rzeczy, które podróżni mają ze sobą na lotnisku."
+}
