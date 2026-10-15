@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the museum brochure was free,",
+  "correct_completion": "the guided tour cost ten euros.",
+  "full_sentence": "Although the museum brochure was free, the guided tour cost ten euros.",
+  "acceptable_variants": ["the guided tour was not free.", "people still had to pay for the audio guide."],
+  "options": [
+    {"text": "so everyone took one home.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. After 'although', the sentence needs an idea that contrasts with the first part."},
+    {"text": "the guided tour cost ten euros.", "is_correct": true, "why_wrong": null},
+    {"text": "it had a map of the city.", "is_correct": false, "why_wrong": "This adds a detail about the brochure, but it does not contrast with the word 'free'."},
+    {"text": "many people read it on the bus.", "is_correct": false, "why_wrong": "This describes what people did, not something that contrasts with the brochure being free."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners should notice that the contrast is between free and paid, so the completion must introduce a cost.",
+  "translation": "Embora o folheto do museu fosse gratuito, o tour guiado custava dez euros."
+}
