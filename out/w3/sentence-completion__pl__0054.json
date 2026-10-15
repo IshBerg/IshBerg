@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Every morning I eat",
+  "correct_completion": "an orange before school.",
+  "full_sentence": "Every morning I eat an orange before school.",
+  "acceptable_variants": ["a banana before school.", "an apple before school."],
+  "options": [
+    {"text": "a orange before school.", "is_correct": false, "why_wrong": "'A' is used before a consonant sound, so 'an' is needed before 'orange'."},
+    {"text": "orange before school.", "is_correct": false, "why_wrong": "A singular countable noun needs an article here, such as 'an'."},
+    {"text": "an orange before school.", "is_correct": true, "why_wrong": null},
+    {"text": "the oranges before school.", "is_correct": false, "why_wrong": "'The' points to specific oranges already known. Here we mean any one orange, so 'an' is correct."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indefinite articles a and an with singular countable nouns",
+  "connector": "an",
+  "explanation": "Use 'an' before a singular countable noun that starts with a vowel sound, and 'a' before a consonant sound. Students often leave the article out because their first language has no articles.",
+  "translation": "Każdego ranka jem pomarańczę przed szkołą."
+}

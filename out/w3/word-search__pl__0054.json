@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "V", "I", "D", "E", "N", "C", "E", "S"],
+    ["A", "K", "R", "H", "B", "Y", "W", "E", "U"],
+    ["M", "D", "P", "J", "X", "F", "D", "Z", "G"],
+    ["Q", "L", "E", "V", "T", "U", "K", "N", "G"],
+    ["W", "Y", "C", "Q", "L", "H", "P", "B", "E"],
+    ["F", "N", "Z", "C", "U", "X", "M", "J", "S"],
+    ["B", "G", "N", "R", "K", "A", "V", "W", "T"],
+    ["H", "O", "Q", "S", "F", "L", "T", "Y", "P"],
+    ["C", "U", "M", "Z", "W", "J", "R", "E", "K"]
+  ],
+  "words_to_find": ["EVIDENCE", "SUGGEST", "ADEQUATE", "CONCLUDE"],
+  "word_positions": [
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SUGGEST", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "ADEQUATE", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CONCLUDE", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}
