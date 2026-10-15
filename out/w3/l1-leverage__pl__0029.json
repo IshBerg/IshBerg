@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sofa", "transliteration": "sofa", "meaning": "sofa"},
+    {"word": "lampa", "transliteration": "lampa", "meaning": "lamp"},
+    {"word": "balkon", "transliteration": "balkon", "meaning": "balcony"},
+    {"word": "garaż", "transliteration": "garaz", "meaning": "garage"}
+  ],
+  "english_words": ["balcony", "garage", "lamp", "sofa"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words entered both languages from the same source, so their spelling and meaning stayed close.",
+  "false_friend_warning": null
+}

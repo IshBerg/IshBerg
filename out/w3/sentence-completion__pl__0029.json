@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the road was closed,",
+  "correct_completion": "the driver took a longer route.",
+  "full_sentence": "Although the road was closed, the driver took a longer route.",
+  "acceptable_variants": ["the driver still reached the city.", "the driver found another way."],
+  "options": [
+    {"text": "the driver had to stop there.", "is_correct": false, "why_wrong": "This states the expected result of the closure. 'Although' needs a clause that contrasts with the closed road."},
+    {"text": "the driver took a longer route.", "is_correct": true, "why_wrong": null},
+    {"text": "the road was very long.", "is_correct": false, "why_wrong": "This adds a fact about the road but does not give the contrasting action that 'although' requires."},
+    {"text": "the driver had lunch nearby.", "is_correct": false, "why_wrong": "This is unrelated to the closed road and does not show any contrast with the first clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Here the driver goes ahead despite the obstacle.",
+  "translation": "Mimo że droga była zamknięta, kierowca wybrał dłuższą trasę."
+}

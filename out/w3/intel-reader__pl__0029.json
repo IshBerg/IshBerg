@@ -1,0 +1,20 @@
+{
+  "title": "An Email from Sam",
+  "text": "Hi Lisa, how are you? I am in London now. The weather is cold and rainy. I like my new flat very much. It has a big window.\n\nI miss you a lot. Can you visit me next month? We can go to the museum together. Write back soon! Love, Sam.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is Sam now?", "options": ["In London", "In Paris", "At home", "In a museum"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Sam want Lisa to do?", "options": ["Visit him next month", "Write a book", "Buy a flat", "Come home today"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Sam probably feel about his new flat?", "options": ["He likes it", "He hates it", "He wants to move", "He is sad about it"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of text is this?", "options": ["An informal email to a friend", "A school report", "A news article", "A recipe"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "window", "translation": "okno", "definition": "an opening in a wall with glass that lets in light"},
+    {"word": "museum", "translation": "muzeum", "definition": "a building where people can see art or historical objects"},
+    {"word": "weather", "translation": "pogoda", "definition": "the conditions outside, such as rain, sun or cold"},
+    {"word": "miss", "translation": "tęsknić", "definition": "to feel sad because a person is not with you"}
+  ],
+  "paragraph_translations": [
+    "Cześć Lisa, jak się masz? Jestem teraz w Londynie. Pogoda jest zimna i deszczowa. Bardzo lubię moje nowe mieszkanie. Ma duże okno.",
+    "Bardzo za tobą tęsknię. Czy możesz mnie odwiedzić w przyszłym miesiącu? Możemy razem pójść do muzeum. Napisz szybko! Pozdrawiam, Sam."
+  ]
+}
