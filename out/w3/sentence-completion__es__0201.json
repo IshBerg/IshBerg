@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee responded earlier,",
+  "correct_completion": "the crisis would have been avoided.",
+  "full_sentence": "Had the committee responded earlier, the crisis would have been avoided.",
+  "acceptable_variants": ["the damage would have been much smaller.", "the situation would not have escalated."],
+  "options": [
+    {"text": "it was already too late to act.", "is_correct": false, "why_wrong": "The stem describes a hypothetical past, so the completion must give the result that would have followed, not a fact that conflicts with the condition."},
+    {"text": "the committee is responding now.", "is_correct": false, "why_wrong": "This shifts to the present and does not complete the past hypothetical result that the inverted 'Had' clause sets up."},
+    {"text": "the crisis would have been avoided.", "is_correct": true, "why_wrong": null},
+    {"text": "responses are always slow.", "is_correct": false, "why_wrong": "This is a general statement that is unrelated to the specific past condition in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inversion ('Had + subject + past participle')",
+  "connector": "had + subject + past participle",
+  "explanation": "Inverted third conditionals drop the 'if' and place the auxiliary 'had' before the subject. The main clause therefore needs a would-have structure with a past participle. Spanish speakers often expect a simple conditional in this position, but English requires the perfect form to express an unreal past result.",
+  "translation": "Si el comité hubiera respondido antes, la crisis se habría evitado."
+}
