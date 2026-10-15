@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лікар зазвичай працює в лікарні, тому ці слова тематично пов'язані."},
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Медсестра, як і лікар, працює в медицині, тому слова мають близьке значення."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не має відношення до роботи лікаря, тому зв'язку немає."},
+    {"word": "medicine", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лікар призначає ліки, тому це слово тематично пов'язане з ним."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Пустеля не пов'язана з роботою лікаря, тому це слово не асоціюється з лікарем."},
+    {"word": "patient", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Лікар лікує пацієнта, тому ці слова часто стоять поруч у мовленні."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з лікарем, стосуються медицини, лікарні та пацієнтів; слова «велосипед» і «пустеля» до цієї теми не належать."
+}
