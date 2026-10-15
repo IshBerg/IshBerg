@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna is my friend.",
+  "correct_completion": "She lives in London.",
+  "full_sentence": "Anna is my friend. She lives in London.",
+  "acceptable_variants": ["She has a flat in London.", "She lives in London with her family."],
+  "options": [
+    {"text": "Her lives in London.", "is_correct": false, "why_wrong": "'Her' is a possessive adjective, so it cannot be the subject of a verb. Use the subject pronoun 'she'."},
+    {"text": "Me lives in London.", "is_correct": false, "why_wrong": "'Me' is an object pronoun. Subject pronouns are I, you, he, she, it, we and they."},
+    {"text": "She lives in London.", "is_correct": true, "why_wrong": null},
+    {"text": "Hers lives in London.", "is_correct": false, "why_wrong": "'Hers' is a possessive pronoun meaning 'belonging to her'. It cannot replace the person who is the subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject pronouns",
+  "connector": "she",
+  "explanation": "The second sentence needs a subject pronoun that replaces the name 'Anna' and comes before the verb 'lives'. Polish speakers may leave out the subject because Polish verb endings already show the person, but English always needs a subject before the verb.",
+  "translation": "Anna jest moją przyjaciółką. Ona mieszka w Londynie."
+}
