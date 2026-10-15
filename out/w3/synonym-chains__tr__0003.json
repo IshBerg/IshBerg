@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "tired", "intensity": 1, "translation": "yorgun", "nuance": "needing rest after activity"},
+    {"word": "weary", "intensity": 2, "translation": "usanmış", "nuance": "tired of something over a long period"},
+    {"word": "fatigued", "intensity": 3, "translation": "bitkin", "nuance": "tired in a formal or medical sense"},
+    {"word": "exhausted", "intensity": 4, "translation": "tükenmiş", "nuance": "completely without energy"},
+    {"word": "drained", "intensity": 5, "translation": "güçten düşmüş", "nuance": "emptied of all energy, physical or emotional"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe lacking energy, from mild tiredness to a state of total depletion.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "exhausted", "difference": "'Tired' describes the ordinary need for rest, while 'exhausted' describes a state of complete depletion. Turkish speakers may translate both with one word and so overstate mild tiredness by choosing 'exhausted'."}
+  ],
+  "translations": {"tired": "yorgun", "weary": "usanmış", "fatigued": "bitkin", "exhausted": "tükenmiş", "drained": "güçten düşmüş"}
+}
