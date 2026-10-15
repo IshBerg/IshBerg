@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Of all the cities we visited,",
+  "correct_completion": "Kraków was the most beautiful.",
+  "full_sentence": "Of all the cities we visited, Kraków was the most beautiful.",
+  "acceptable_variants": ["Kraków was the most beautiful city of all.", "Kraków was truly the most beautiful."],
+  "options": [
+    {"text": "Kraków was more beautiful.", "is_correct": false, "why_wrong": "'More' forms a comparative, but 'of all' requires a superlative comparing the cities as a group."},
+    {"text": "Kraków was the most beautiful.", "is_correct": true, "why_wrong": null},
+    {"text": "Kraków was beautifuller.", "is_correct": false, "why_wrong": "'Beautiful' is a long adjective, so it does not take an ending; the superlative needs 'the most'."},
+    {"text": "Kraków was the beautifulest.", "is_correct": false, "why_wrong": "Long adjectives form the superlative with 'the most', not with the ending '-est'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Superlative 'the most + adjective' with long adjectives after 'of all'",
+  "connector": "of all",
+  "explanation": "The phrase 'of all' compares one item with a whole group, so the completion needs a superlative. With long adjectives such as 'beautiful', English places 'most' before the adjective instead of adding an ending. Polish speakers usually add a prefix to the adjective to make the superlative, so the English pattern with a separate word may feel unfamiliar.",
+  "translation": "Ze wszystkich miast, które odwiedziliśmy, Kraków był najpiękniejszy."
+}
