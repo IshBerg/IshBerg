@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "teacher", "is_associated": true, "association_type": "THEMATIC", "explanation": "Вчитель працює в школі, тому це слово належить до того самого шкільного середовища."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Вулкан не пов'язаний зі школою ні за змістом, ні за вживанням."},
+    {"word": "lesson", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Урок є основною подією в школі, тому це слово має пряме смислове зв'язок зі словом school."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Подушка є предметом для сну, а не шкільним приладдям чи частиною навчання."},
+    {"word": "desk", "is_associated": true, "association_type": "THEMATIC", "explanation": "Парта є меблями, що стоять у класі, тому вона тематично пов'язана зі школою."},
+    {"word": "dolphin", "is_associated": false, "association_type": "NONE", "explanation": "Дельфін є морською твариною і не має жодного відношення до школи."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Асоційовані слова належать до шкільного середовища: люди, події та предмети, які є в класі; решта слів стосуються інших сфер життя."
+}
