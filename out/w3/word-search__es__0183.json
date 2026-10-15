@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["D", "E", "S", "K", "X", "Q", "Z", "W", "B", "J"],
+    ["M", "T", "V", "W", "H", "G", "F", "Y", "U", "N"],
+    ["Q", "L", "Z", "R", "B", "K", "N", "V", "C", "P"],
+    ["X", "W", "O", "J", "F", "T", "G", "H", "A", "E"],
+    ["C", "R", "B", "Q", "Y", "L", "M", "O", "I", "N"],
+    ["S", "H", "X", "V", "G", "D", "P", "W", "Q", "C"],
+    ["T", "Y", "A", "Z", "K", "M", "R", "J", "U", "I"],
+    ["U", "B", "G", "L", "E", "W", "S", "N", "O", "L"],
+    ["I", "F", "D", "M", "K", "X", "T", "C", "Z", "Q"],
+    ["V", "H", "R", "E", "K", "R", "A", "M", "P", "Z"]
+  ],
+  "words_to_find": ["DESK", "PENCIL", "MARKER", "CHALK"],
+  "word_positions": [
+    {"word": "DESK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PENCIL", "start_row": 2, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "MARKER", "start_row": 9, "start_col": 7, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "CHALK", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"}
+  ],
+  "topic": "Classroom Objects"
+}
