@@ -1,0 +1,20 @@
+{
+  "title": "My House and My Cat",
+  "text": "My house is small and blue. It has two windows and a red door. There is a big tree in the garden. The tree is very old.\n\nMy cat is black and white. Her name is Mia. She likes to sleep in the sun. She is very happy in my house.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is the house?", "options": ["Blue", "Red", "Green", "White"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is the name of the cat?", "options": ["Mia", "Lily", "Anna", "Tom"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer feel about the cat?", "options": ["They love her", "They are scared of her", "They do not know her", "They want a new cat"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can you infer about the garden?", "options": ["It has shade from the tree", "It is covered with snow", "It has no plants", "It is in the desert"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "windows", "translation": "okna", "definition": "glass openings in a wall that let in light and air"},
+    {"word": "garden", "translation": "ogród", "definition": "a place with grass and plants next to a house"},
+    {"word": "sleep", "translation": "spać", "definition": "to rest with your eyes closed"},
+    {"word": "happy", "translation": "szczęśliwy", "definition": "feeling good and pleased"}
+  ],
+  "paragraph_translations": [
+    "Mój dom jest mały i niebieski. Ma dwa okna i czerwone drzwi. W ogrodzie jest duże drzewo. Drzewo jest bardzo stare.",
+    "Mój kot jest czarno-biały. Ma na imię Mia. Lubi spać na słońcu. Jest bardzo szczęśliwa w moim domu."
+  ]
+}
