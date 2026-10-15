@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the team really needed was",
+  "correct_completion": "a clearer plan before the deadline.",
+  "full_sentence": "What the team really needed was a clearer plan before the deadline.",
+  "acceptable_variants": ["a more detailed plan before the deadline.", "clearer goals before the deadline."],
+  "options": [
+    {"text": "they had already decided against it.", "is_correct": false, "why_wrong": "This is a complete clause about a past decision. A cleft sentence after 'was' needs a phrase that names what the team needed, so this option breaks the structure."},
+    {"text": "so they could finish quickly.", "is_correct": false, "why_wrong": "'So' introduces a result, not the thing that was needed. The cleft focus after 'was' must name the need itself."},
+    {"text": "a clearer plan before the deadline.", "is_correct": true, "why_wrong": null},
+    {"text": "the plan was not clear at all.", "is_correct": false, "why_wrong": "This is a full sentence with its own finite verb, so it cannot complete the cleft after 'was'. It describes the plan instead of naming what was needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft (wh-) sentences with 'was'",
+  "connector": "what",
+  "explanation": "A pseudo-cleft sentence places the focus after 'was'. The completion must be a noun phrase that names what the team needed. Learners often add a full clause after 'was', which creates an ungrammatical structure.",
+  "translation": "O que a equipe realmente precisava era de um plano mais claro antes do prazo final."
+}
