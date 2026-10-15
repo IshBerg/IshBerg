@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although my sister is older than me,",
+  "correct_completion": "she is shorter than me.",
+  "full_sentence": "Although my sister is older than me, she is shorter than me.",
+  "acceptable_variants": ["she is smaller than me.", "she is not as tall as I am."],
+  "options": [
+    {"text": "so she is taller than me.", "is_correct": false, "why_wrong": "'So' introduces a result, and being taller is not a contrast with being older. The sentence needs a contrast after 'although'."},
+    {"text": "and she is the same height as me.", "is_correct": false, "why_wrong": "Being the same height does not clearly contrast with being older, and it does not use a comparative with 'than'."},
+    {"text": "she is shorter than me.", "is_correct": true, "why_wrong": null},
+    {"text": "she is more tall than me.", "is_correct": false, "why_wrong": "'More tall' is grammatically incorrect. Short adjectives like 'tall' take the -er ending, so the correct form is 'taller'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Comparative adjectives with 'than' in contrast sentences",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part of the sentence. Here the contrast is between being older and being shorter, so a comparative with 'than' fits. Portuguese speakers often add 'more' before short adjectives, because Portuguese comparatives always use a separate word, so check whether the English adjective is short.",
+  "translation": "Embora minha irmã seja mais velha que eu, ela é mais baixa que eu."
+}

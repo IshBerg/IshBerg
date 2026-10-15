@@ -1,0 +1,17 @@
+{
+  "central_word": "run",
+  "chain_words": [
+    {"word": "jog", "intensity": 1, "translation": "trotar", "nuance": "running slowly and calmly for exercise"},
+    {"word": "run", "intensity": 2, "translation": "correr", "nuance": "moving on foot at a normal fast pace"},
+    {"word": "dash", "intensity": 3, "translation": "correr rapidamente", "nuance": "running quickly for a short distance"},
+    {"word": "sprint", "intensity": 4, "translation": "correr em alta velocidade", "nuance": "running as fast as possible for a short time"},
+    {"word": "bolt", "intensity": 5, "translation": "sair em disparada", "nuance": "suddenly running away at great speed"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe moving on foot, from slow, relaxed running to sudden, very fast escape.",
+  "usage_notes": [
+    {"word1": "jog", "word2": "run", "difference": "'Jog' describes slow, relaxed running, often for exercise; 'run' is the general word for moving quickly on foot."}
+  ],
+  "translations": {"jog": "trotar", "run": "correr", "dash": "correr rapidamente", "sprint": "correr em alta velocidade", "bolt": "sair em disparada"}
+}

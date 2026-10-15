@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold"},
+    {"word": "gripe", "transliteration": "gripe", "meaning": "flu"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend"}
+  ],
+  "english_words": ["intend", "watch", "flu", "cold"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each Portuguese word looks like an English word but has a different meaning, so the similar spelling misleads the learner. Students should match by meaning, not by appearance.",
+  "false_friend_warning": "Several Portuguese words here look like English words but mean something else: the word meaning 'having a cold' looks like 'constipated', the word meaning 'flu' looks like 'grip', the word meaning 'to watch' looks like 'assist', and the word meaning 'to intend' looks like 'pretend'. Learners should check the meaning before using the English word."
+}
