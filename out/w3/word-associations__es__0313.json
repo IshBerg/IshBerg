@@ -1,0 +1,14 @@
+{
+  "trigger_word": "plot",
+  "all_words": [
+    {"word": "character", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los personajes son los que viven los acontecimientos de la trama, por eso están estrechamente ligados a ella."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "El tractor es una máquina agrícola y no tiene ninguna relación con la estructura de un relato."},
+    {"word": "twist", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés se dice 'plot twist' (giro argumental), una colocación muy habitual al hablar de cuentos."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "La lámpara es un objeto de iluminación y no se relaciona con la trama de una historia."},
+    {"word": "narrator", "is_associated": true, "association_type": "THEMATIC", "explanation": "El narrador es quien cuenta la trama, así que pertenece al mismo campo temático del relato."},
+    {"word": "cabbage", "is_associated": false, "association_type": "NONE", "explanation": "La col es una verdura y no tiene relación alguna con la literatura ni con el argumento de un cuento."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'plot' son los elementos narrativos de un cuento, como personajes, narrador y giros argumentales; las demás pertenecen a campos sin relación con la literatura."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The room is small, but",
+  "correct_completion": "it is very bright.",
+  "full_sentence": "The room is small, but it is very bright.",
+  "acceptable_variants": ["it has big windows.", "it is very light."],
+  "options": [
+    {"text": "because it is very bright.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but the sentence needs a contrast after 'but'."},
+    {"text": "it is very bright.", "is_correct": true, "why_wrong": null},
+    {"text": "and it is very dark.", "is_correct": false, "why_wrong": "'And' adds information without contrast, and the meaning 'dark' conflicts with the idea of a pleasant room."},
+    {"text": "so it is very dark.", "is_correct": false, "why_wrong": "'So' introduces a result, and it cannot follow 'but' in this sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the first part of the sentence. Learners sometimes choose a connector that shows cause or addition instead, which breaks the meaning.",
+  "translation": "La habitación es pequeña, pero es muy luminosa."
+}
