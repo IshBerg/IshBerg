@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The room is small, but",
+  "correct_completion": "it is very bright.",
+  "full_sentence": "The room is small, but it is very bright.",
+  "acceptable_variants": ["it has big windows.", "it feels very big inside."],
+  "options": [
+    {"text": "the room is red.", "is_correct": false, "why_wrong": "This describes the color of the room, which does not contrast with its size."},
+    {"text": "because it is very dark.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'but' signals a contrast. Also, 'dark' does not contrast with 'small' in the expected way."},
+    {"text": "it is very bright.", "is_correct": true, "why_wrong": null},
+    {"text": "the door is open.", "is_correct": false, "why_wrong": "This adds a fact about the door, but it does not complete the contrast started by 'but'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', the second clause must show a contrast with the first clause. A small room is contrasted with a positive quality, such as being bright.",
+  "translation": "Pokój jest mały, ale jest bardzo jasny."
+}
