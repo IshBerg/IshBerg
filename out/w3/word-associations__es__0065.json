@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "hot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El sol es muy caliente, por eso 'hot' se relaciona con 'sun'."},
+    {"word": "cat", "is_associated": false, "association_type": "NONE", "explanation": "Un gato no tiene ninguna relación con el sol."},
+    {"word": "sky", "is_associated": true, "association_type": "THEMATIC", "explanation": "El sol está en el cielo, así que 'sky' se asocia con el sol."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Un zapato no tiene relación con el sol."},
+    {"word": "light", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El sol da luz, por eso 'light' está relacionado con él."},
+    {"word": "snow", "is_associated": false, "association_type": "NONE", "explanation": "La nieve es fría y aparece en invierno, no tiene relación con el sol."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'sun' se asocia con calor, luz y el cielo; las palabras sin relación con estas ideas no pertenecen a la lista."
+}

@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "A", "B", "L", "E", "Q", "K", "C"],
+    ["U", "R", "Z", "N", "W", "L", "M", "H"],
+    ["J", "P", "D", "O", "Y", "A", "G", "A"],
+    ["B", "S", "K", "F", "V", "M", "T", "I"],
+    ["E", "X", "Q", "W", "N", "P", "D", "R"],
+    ["D", "H", "L", "Y", "U", "J", "C", "K"],
+    ["V", "R", "M", "T", "Z", "Q", "W", "F"],
+    ["S", "O", "F", "A", "K", "Z", "P", "N"]
+  ],
+  "words_to_find": ["TABLE", "CHAIR", "SOFA", "BED", "LAMP"],
+  "word_positions": [
+    {"word": "TABLE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHAIR", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SOFA", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BED", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "LAMP", "start_row": 1, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "House and Furniture"
+}

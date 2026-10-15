@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she can run fast,",
+  "correct_completion": "she can't climb the tree.",
+  "full_sentence": "Although she can run fast, she can't climb the tree.",
+  "acceptable_variants": ["she cannot jump very high.", "she isn't good at climbing."],
+  "options": [
+    {"text": "she often gets tired.", "is_correct": false, "why_wrong": "This adds a fact about her but does not contrast with the ability to run fast."},
+    {"text": "so she won't join the race.", "is_correct": false, "why_wrong": "'So' shows a result, not contrast. 'Although' needs a clause that contrasts with the first part."},
+    {"text": "she can't climb the tree.", "is_correct": true, "why_wrong": null},
+    {"text": "she likes to run in the park.", "is_correct": false, "why_wrong": "This only adds a preference and does not contrast with the first clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first clause. Here the ability to run contrasts with the inability to climb. Speakers often add a second contrast connector, but 'although' already signals contrast, so the second clause should not start with another one.",
+  "translation": "Aunque ella puede correr rápido, no puede trepar al árbol."
+}
