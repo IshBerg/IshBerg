@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ocean",
+  "all_words": [
+    {"word": "wave", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ondas são um fenômeno típico do oceano, por isso a ligação é direta de sentido."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "A praia fica na borda do oceano, então pertence ao mesmo tema de mar e costa."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanha é um relevo terrestre e não tem relação com o ambiente marinho."},
+    {"word": "fish", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Peixes vivem no oceano, então a associação é semântica e direta."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Deserto é uma região seca e árida, justamente o oposto do ambiente marinho."},
+    {"word": "ship", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Navio aparece em expressões comuns com oceano, como 'ocean liner' (transatlântico)."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao oceano são as que se referem a seres, lugares ou objetos do mar e de sua costa, enquanto as demais pertencem a outros ambientes."
+}
