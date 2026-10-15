@@ -1,0 +1,14 @@
+{
+  "trigger_word": "freedom",
+  "all_words": [
+    {"word": "liberty", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Liberdade e liberty têm praticamente o mesmo significado, por isso a ligação entre as duas palavras é semântica."},
+    {"word": "pizza", "is_associated": false, "association_type": "NONE", "explanation": "Pizza é um alimento e não tem nenhuma relação com o conceito de liberdade."},
+    {"word": "rights", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'civil rights' é muito comum e liga a palavra à ideia de direitos que garantem a liberdade das pessoas."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bicicleta é um meio de transporte que não está ligado ao conceito abstrato de liberdade."},
+    {"word": "independence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Independência descreve a condição de ser livre de controle externo, o que se aproxima bastante do sentido de liberdade."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanha é um elemento da natureza sem relação direta com o conceito de liberdade."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'freedom' são sinônimos ou conceitos próximos, como liberty e independence, além de termos ligados a direitos, como rights. As demais palavras não têm relação com o conceito."
+}

@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "Not only had the manager ignored the warnings,",
+  "correct_completion": "but he had also falsified the reports.",
+  "full_sentence": "Not only had the manager ignored the warnings, but he had also falsified the reports.",
+  "acceptable_variants": ["but he had also manipulated the figures.", "but he had also concealed the losses."],
+  "options": [
+    {"text": "but also the reports falsified.", "is_correct": false, "why_wrong": "The word order is ungrammatical: the auxiliary is missing and the participle is placed in the wrong position after the subject."},
+    {"text": "but he had also falsified the reports.", "is_correct": true, "why_wrong": null},
+    {"text": "and he had also falsified the reports.", "is_correct": false, "why_wrong": "'And' does not express the additive contrast that the 'not only ... but also' structure requires."},
+    {"text": "but falsified the reports he also did.", "is_correct": false, "why_wrong": "The object and verb are reordered in a way that English does not allow in this structure."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after 'not only', with the second clause introduced by 'but also'",
+  "connector": "not only",
+  "explanation": "When a sentence opens with a negative adverbial such as 'not only', the first clause takes subject-auxiliary inversion. The second clause then returns to normal word order, which learners frequently get wrong by applying inversion twice or by dropping the auxiliary."
+}
