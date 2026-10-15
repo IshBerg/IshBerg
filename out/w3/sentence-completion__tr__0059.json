@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look outside! The children",
+  "correct_completion": "are playing in the snow.",
+  "full_sentence": "Look outside! The children are playing in the snow.",
+  "acceptable_variants": ["are building a snowman.", "are laughing and running."],
+  "options": [
+    {"text": "play in the snow every day.", "is_correct": false, "why_wrong": "The simple present describes habits. The stem asks for an action happening right now."},
+    {"text": "are playing in the snow.", "is_correct": true, "why_wrong": null},
+    {"text": "played in the snow yesterday.", "is_correct": false, "why_wrong": "The past simple describes a finished action, not one happening at the moment of speaking."},
+    {"text": "will play in the snow tomorrow.", "is_correct": false, "why_wrong": "The future tense refers to tomorrow, not to the moment of speaking."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present continuous for actions happening now",
+  "connector": "none",
+  "explanation": "The word Look signals a moment of speaking, so the action must be in progress now. The present continuous uses am, is or are with the -ing form.",
+  "translation": "Dışarıya bak! Çocuklar karda oynuyorlar."
+}

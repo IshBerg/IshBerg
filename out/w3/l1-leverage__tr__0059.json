@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "market", "transliteration": "market", "meaning": "supermarket"},
+    {"word": "kolej", "transliteration": "kolej", "meaning": "private high school"},
+    {"word": "otel", "transliteration": "otel", "meaning": "hotel"},
+    {"word": "park", "transliteration": "park", "meaning": "park"}
+  ],
+  "english_words": ["high school", "hotel", "park", "supermarket"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Some Turkish words look identical to English words but have a narrower or different meaning. Learners should check the meaning before assuming a match.",
+  "false_friend_warning": "The Turkish word spelled market looks exactly like the English word market, but in Turkish it means a supermarket. In English, market means an open-air place where people sell goods, so students should choose supermarket for the Turkish meaning."
+}
