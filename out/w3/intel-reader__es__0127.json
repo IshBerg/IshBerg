@@ -1,0 +1,20 @@
+{
+  "title": "My Favourite Comic",
+  "text": "Tom reads a comic strip every day. The comic has a funny dog. The dog is called Max. Max likes to eat pizza.\n\nToday, Tom reads a new comic. In the first box, Max is sleeping. In the last box, Max wakes up and laughs. Tom laughs too.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the name of the dog?", "options": ["Max", "Tom", "Ben", "Lucy"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Max do in the first box?", "options": ["He is sleeping", "He is eating", "He is running", "He is reading"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Tom feel at the end of the story?", "options": ["Happy", "Sad", "Angry", "Bored"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does Tom read a comic strip every day?", "options": ["He enjoys them", "He has to work", "He is studying for a test", "He lost his book"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "comic", "translation": "tira cómica", "definition": "a story told in pictures in boxes, often with funny words"},
+    {"word": "funny", "translation": "divertido", "definition": "making you laugh"},
+    {"word": "box", "translation": "viñeta", "definition": "one of the squares with a picture in a comic strip"},
+    {"word": "laughs", "translation": "se ríe", "definition": "makes a sound with its voice because something is funny"}
+  ],
+  "paragraph_translations": [
+    "Tom lee una tira cómica todos los días. El cómic tiene un perro divertido. El perro se llama Max. A Max le gusta comer pizza.",
+    "Hoy, Tom lee un cómic nuevo. En la primera viñeta, Max está durmiendo. En la última viñeta, Max se despierta y se ríe. Tom también se ríe."
+  ]
+}
