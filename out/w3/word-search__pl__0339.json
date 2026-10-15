@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["O", "P", "I", "N", "I", "O", "N", "B", "K", "E"],
+    ["Q", "W", "T", "M", "U", "Z", "L", "C", "H", "S"],
+    ["I", "J", "F", "V", "K", "P", "X", "Q", "W", "S"],
+    ["F", "D", "J", "L", "P", "O", "B", "V", "T", "A"],
+    ["K", "L", "E", "Z", "W", "H", "R", "J", "M", "Y"],
+    ["G", "N", "H", "A", "F", "T", "D", "A", "P", "Q"],
+    ["B", "C", "D", "U", "V", "W", "T", "G", "Y", "K"],
+    ["N", "O", "S", "A", "E", "R", "K", "R", "M", "X"],
+    ["V", "Z", "P", "Q", "L", "T", "H", "E", "D", "W"],
+    ["J", "K", "W", "F", "B", "C", "G", "E", "N", "T"]
+  ],
+  "words_to_find": ["OPINION", "ESSAY", "IDEA", "AGREE", "REASON"],
+  "word_positions": [
+    {"word": "OPINION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSAY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "IDEA", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "AGREE", "start_row": 5, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "REASON", "start_row": 7, "start_col": 5, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Opinion Essays"
+}

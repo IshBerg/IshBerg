@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My laptop stopped working, so I",
+  "correct_completion": "had it repaired by a technician.",
+  "full_sentence": "My laptop stopped working, so I had it repaired by a technician.",
+  "acceptable_variants": ["had it fixed by a specialist.", "took it to a repair shop."],
+  "options": [
+    {"text": "will repair it yesterday.", "is_correct": false, "why_wrong": "The future tense 'will' cannot be combined with the past time marker 'yesterday'."},
+    {"text": "had repaired it by a technician.", "is_correct": false, "why_wrong": "This makes the subject do the repair personally. The causative 'have something done' needs 'had it repaired' to show that someone else did the job."},
+    {"text": "had it repaired by a technician.", "is_correct": true, "why_wrong": null},
+    {"text": "am repaired it by a technician.", "is_correct": false, "why_wrong": "Ungrammatical: 'am' cannot be followed by 'repaired it' in this structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have something done' (have + object + past participle)",
+  "connector": "so",
+  "explanation": "The causative 'have something done' shows that the subject arranges for someone else to perform the action. The pattern is have + object + past participle, so 'had it repaired' is correct. Polish speakers often use an active verb with 'I' as the subject here, because the first language usually expresses this idea without a dedicated causative structure.",
+  "translation": "Mój laptop przestał działać, więc zleciłem jego naprawę fachowcowi."
+}

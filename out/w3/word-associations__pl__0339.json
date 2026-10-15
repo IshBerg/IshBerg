@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Parasol to przedmiot, którego używa się podczas deszczu, więc łączy się z tym słowem tematycznie."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino nie ma żadnego związku z deszczem ani z pogodą."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Chmury są źródłem deszczu, więc to skojarzenie znaczeniowe."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Krzesło nie ma żadnego związku z deszczem."},
+    {"word": "train", "is_associated": true, "association_type": "PHONETIC", "explanation": "Słowo 'train' brzmi podobnie do 'rain', więc to skojarzenie fonetyczne."},
+    {"word": "wet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Mokry to stan, który powoduje deszcz, więc to skojarzenie znaczeniowe."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'rain' kojarzy się z przedmiotami używanymi podczas deszczu, zjawiskami pogodowymi i stanami wywołanymi przez deszcz, a także z jednym słowem o podobnym brzmieniu."
+}
