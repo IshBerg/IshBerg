@@ -1,0 +1,20 @@
+{
+  "title": "My New Flashcard",
+  "text": "This is my new flashcard. It has a picture of a cat. The word on the card is cat.\n\nI show the card to my mom. She says the word too. Then we put the card in the box.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is on the flashcard?", "options": ["a picture of a cat", "a picture of a car", "a red ball", "a book"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Who does the speaker show the card to?", "options": ["the teacher", "a friend", "mom", "a dog"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does the speaker show the card to mom?", "options": ["to practice the word", "to sell the card", "to play a hiding game", "to throw the card away"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Where does the speaker probably keep the flashcards?", "options": ["in a car", "in the sea", "in the box", "on the roof"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "picture", "translation": "resim", "definition": "an image of something"},
+    {"word": "card", "translation": "kart", "definition": "a small piece of stiff paper"},
+    {"word": "word", "translation": "kelime", "definition": "a single unit of language"},
+    {"word": "box", "translation": "kutu", "definition": "a container with sides and a lid"}
+  ],
+  "paragraph_translations": [
+    "Bu benim yeni kartım. Üzerinde bir kedinin resmi var. Karttaki kelime cat.",
+    "Kartı anneme gösteriyorum. O da kelimeyi söylüyor. Sonra kartı kutuya koyuyoruz."
+  ]
+}

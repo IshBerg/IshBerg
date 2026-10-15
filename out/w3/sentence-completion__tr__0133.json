@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you mix red and blue paint,",
+  "correct_completion": "you get purple.",
+  "full_sentence": "If you mix red and blue paint, you get purple.",
+  "acceptable_variants": ["the color becomes purple.", "you see purple."],
+  "options": [
+    {"text": "you get green.", "is_correct": false, "why_wrong": "Red and blue make purple. Green is made from blue and yellow, so this result is wrong."},
+    {"text": "you get purple.", "is_correct": true, "why_wrong": null},
+    {"text": "you will get purple.", "is_correct": false, "why_wrong": "Zero conditionals use the present simple in both clauses for general truths, not 'will'."},
+    {"text": "you got purple yesterday.", "is_correct": false, "why_wrong": "The past tense describes one finished event, but this sentence states a general fact about mixing colors."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional for general truths",
+  "connector": "if",
+  "explanation": "The zero conditional uses the present simple in both clauses to describe facts that are always true when the condition happens.",
+  "translation": "Kırmızı ile mavi boyayı karıştırırsan mor elde edersin."
+}
