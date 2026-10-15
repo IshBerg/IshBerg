@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat water to 100 degrees,",
+  "correct_completion": "it boils.",
+  "full_sentence": "If you heat water to 100 degrees, it boils.",
+  "acceptable_variants": ["it starts to boil.", "it reaches boiling point."],
+  "options": [
+    {"text": "it boiled yesterday.", "is_correct": false, "why_wrong": "The past tense describes one finished past event. The zero conditional states a general present truth."},
+    {"text": "it would boil if you wanted.", "is_correct": false, "why_wrong": "'Would' is used for imagined or unreal situations (second conditional), not for facts that always happen."},
+    {"text": "it boils.", "is_correct": true, "why_wrong": null},
+    {"text": "it has been boiling since Monday.", "is_correct": false, "why_wrong": "The present perfect continuous describes an ongoing action that started in the past, not a general truth."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional: if + present simple, present simple",
+  "connector": "if",
+  "explanation": "The zero conditional describes facts that are always true under a condition. Both clauses use the present simple. Ukrainian speakers sometimes add a future form in the main clause because the language often uses future-type forms for results, so keep the main clause in the present simple here.",
+  "translation": "Якщо ви нагріваєте воду до 100 градусів, вона закипає."
+}
