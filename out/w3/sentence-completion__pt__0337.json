@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Walking along the beach,",
+  "correct_completion": "we saw a group of dolphins jumping in the waves.",
+  "full_sentence": "Walking along the beach, we saw a group of dolphins jumping in the waves.",
+  "acceptable_variants": ["we noticed a group of dolphins in the waves.", "we spotted some dolphins swimming near the shore."],
+  "options": [
+    {"text": "the dolphins were jumping in the waves.", "is_correct": false, "why_wrong": "The participle 'walking' must describe the subject of the main clause. 'The dolphins' cannot be the ones walking along the beach, so the sentence becomes illogical."},
+    {"text": "yesterday was a sunny day.", "is_correct": false, "why_wrong": "This adds a time detail, but the sentence needs a main clause with a person who does the walking and the seeing."},
+    {"text": "to see the dolphins in the waves.", "is_correct": false, "why_wrong": "An infinitive cannot be the main verb here. We need a finite verb with the subject 'we' to complete the sentence."},
+    {"text": "we saw a group of dolphins jumping in the waves.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with -ing at the start of a sentence",
+  "connector": "walking",
+  "explanation": "The -ing clause at the start describes what the subject 'we' was doing, so the main clause must have 'we' as its subject. Learners need to check that the subject of the participle is the same as the subject of the main clause.",
+  "translation": "Caminhando pela praia, vimos um grupo de golfinhos pulando nas ondas."
+}
