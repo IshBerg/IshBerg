@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La colocación 'river bank' significa la orilla de un río, que es uno de los dos sentidos de la palabra 'bank'."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "'Mountain' no comparte un sentido ni una colocación habitual con 'bank', así que no forma parte de su campo asociativo."},
+    {"word": "teller", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un 'teller' es el empleado que atiende en la ventanilla de un banco, por lo que se asocia temáticamente con el sentido financiero de 'bank'."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "'Piano' pertenece al ámbito musical y no se relaciona con ninguno de los dos sentidos de 'bank'."},
+    {"word": "vault", "is_associated": true, "association_type": "THEMATIC", "explanation": "La cámara acorazada, o 'vault', es parte del mundo de un banco y se asocia temáticamente con el sentido financiero."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "'Cloud' no se relaciona con ninguno de los dos sentidos de 'bank' ni comparte colocaciones habituales con esta palabra."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'bank' tiene dos sentidos principales, la orilla de un río y la entidad financiera. Las palabras asociadas se relacionan con uno de esos sentidos, mientras que las no asociadas no pertenecen a ninguno de los dos campos."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Her prose was littered with metaphors,",
+  "correct_completion": "each one shimmering with a deliberate ambiguity.",
+  "full_sentence": "Her prose was littered with metaphors, each one shimmering with a deliberate ambiguity.",
+  "acceptable_variants": ["each one carrying a deliberately double meaning.", "every image doubling back on itself in meaning."],
+  "options": [
+    {"text": "and she wrote the chapter twice.", "is_correct": false, "why_wrong": "This describes the writing process, but it does not complete the stylistic feature set up by 'littered with metaphors'."},
+    {"text": "so the editor cut them all.", "is_correct": false, "why_wrong": "'So' introduces a result the stem does not justify. The stem sets up a description of style, not an editorial action."},
+    {"text": "each one shimmering with a deliberate ambiguity.", "is_correct": true, "why_wrong": null},
+    {"text": "which was published in 1998.", "is_correct": false, "why_wrong": "This is a bibliographic detail with no stylistic weight, so it breaks the register and does not complete the description."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Absolute participial phrase modifying a noun phrase in a formal literary register",
+  "connector": "with",
+  "explanation": "The '-ing' participial phrase after the comma works as an absolute modifier that adds a descriptive comment on the metaphors. Learners whose first language tends to use a full finite clause for this function often produce an additional verb instead of a participle.",
+  "translation": "Su prosa estaba salpicada de metáforas, cada una brillando con una ambigüedad deliberada."
+}

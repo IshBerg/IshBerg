@@ -1,0 +1,13 @@
+{
+  "start_word": "whisper",
+  "end_word": "shout",
+  "ladder_steps": [
+    {"word": "whisper", "translation": "susurrar", "intensity_level": 1},
+    {"word": "murmur", "translation": "murmurar", "intensity_level": 2},
+    {"word": "speak", "translation": "hablar", "intensity_level": 3},
+    {"word": "call", "translation": "llamar en voz alta", "intensity_level": 4},
+    {"word": "shout", "translation": "gritar", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe the loudness of a voice along one dimension, from the softest barely audible speech to a loud cry. The ladder shows how each step is louder than the one before it, with 'speak' as a neutral middle point."
+}
