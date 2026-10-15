@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The rain having stopped,",
+  "correct_completion": "the children ran out to play.",
+  "full_sentence": "The rain having stopped, the children ran out to play.",
+  "acceptable_variants": ["the children went outside to play.", "the kids rushed out into the garden."],
+  "options": [
+    {"text": "so the children ran out to play.", "is_correct": false, "why_wrong": "'So' introduces a result clause. Placed after an absolute clause it creates a clash, because the absolute clause needs a main clause directly after it."},
+    {"text": "the children ran out to play.", "is_correct": true, "why_wrong": null},
+    {"text": "although the children ran out to play.", "is_correct": false, "why_wrong": "'Although' introduces a concessive subordinate clause, so the sentence would have no main clause and the contrast does not fit the meaning."},
+    {"text": "the children running out to play.", "is_correct": false, "why_wrong": "This is a participle phrase with no finite verb, so the sentence remains incomplete."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Absolute clauses with a having-participle subject",
+  "connector": "having stopped",
+  "explanation": "An absolute clause has its own subject, here 'the rain', and a non-finite verb. It is followed directly by the main clause, with no conjunction between them. Options that add a conjunction or leave the main clause out do not complete the structure correctly.",
+  "translation": "Gdy deszcz przestał padać, dzieci wybiegły bawić się na dwór."
+}
