@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "A", "P", "P", "Y", "K", "L", "M", "Q", "S"],
+    ["W", "Z", "B", "X", "C", "V", "J", "Q", "A", "K"],
+    ["L", "O", "M", "F", "T", "K", "P", "D", "U", "N"],
+    ["E", "X", "A", "Z", "J", "W", "O", "B", "L", "C"],
+    ["Q", "P", "N", "U", "H", "R", "F", "V", "K", "T"],
+    ["M", "B", "G", "S", "Z", "L", "Q", "W", "E", "D"],
+    ["V", "K", "R", "J", "O", "N", "C", "L", "X", "A"],
+    ["T", "Q", "Y", "W", "U", "B", "H", "P", "S", "E"],
+    ["N", "F", "X", "K", "Q", "Z", "M", "O", "W", "G"],
+    ["X", "L", "Q", "V", "D", "E", "R", "I", "T", "P"]
+  ],
+  "words_to_find": ["HAPPY", "SAD", "ANGRY", "TIRED"],
+  "word_positions": [
+    {"word": "HAPPY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SAD", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "ANGRY", "start_row": 3, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "TIRED", "start_row": 9, "start_col": 8, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Basic Feelings"
+}
