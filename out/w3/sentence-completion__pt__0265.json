@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The data suggest that the policy may have contributed to the decline,",
+  "correct_completion": "although other factors likely played a larger role.",
+  "full_sentence": "The data suggest that the policy may have contributed to the decline, although other factors likely played a larger role.",
+  "acceptable_variants": ["although other variables probably mattered more.", "though other causes were likely more significant."],
+  "options": [
+    {"text": "which proves beyond doubt that it was the sole cause.", "is_correct": false, "why_wrong": "'Proves beyond doubt' is an absolute claim that contradicts the hedged modal 'may have' in the stem."},
+    {"text": "although other factors likely played a larger role.", "is_correct": true, "why_wrong": null},
+    {"text": "and so the policy is definitively to blame.", "is_correct": false, "why_wrong": "'Definitively' expresses full certainty, which clashes with the tentative tone set by 'suggest' and 'may have'."},
+    {"text": "clearly showing the policy is a complete failure.", "is_correct": false, "why_wrong": "This overstates the conclusion and does not hedge or qualify the claim as the stem requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Hedging with modal verbs ('may have') and concessive 'although'",
+  "connector": "although",
+  "explanation": "The stem uses hedging language, so the completion must qualify the claim rather than make it absolute. 'Although' introduces a concession that softens the causal link while keeping the tentative tone.",
+  "translation": "Os dados sugerem que a política pode ter contribuído para o declínio, embora outros fatores provavelmente tenham desempenhado um papel maior."
+}
