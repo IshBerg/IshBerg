@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the findings are widely reported to be accurate,",
+  "correct_completion": "several critics still question the methodology used.",
+  "full_sentence": "Although the findings are widely reported to be accurate, several critics still question the methodology used.",
+  "acceptable_variants": ["some experts still doubt the conclusions.", "many researchers remain unconvinced by the data."],
+  "options": [
+    {"text": "so the journalists stopped investigating.", "is_correct": false, "why_wrong": "'Although' signals contrast, but this option expresses a consequence, so it does not complete the contrast."},
+    {"text": "which is why the study was published twice.", "is_correct": false, "why_wrong": "This introduces an unrelated effect and does not express the contrast that 'although' requires."},
+    {"text": "several critics still question the methodology used.", "is_correct": true, "why_wrong": null},
+    {"text": "the results were presented at a conference.", "is_correct": false, "why_wrong": "This adds a neutral fact but does not set up a contrast with the findings being reported as accurate."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and reporting passives",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show contrast with the first part of the sentence. Here the findings are reported to be accurate, so the completion must express doubt. Learners often expect a plain statement after a concessive connector, but English requires a clause that goes against the expectation set up by 'although'.",
+  "translation": "Aunque se informa ampliamente que los hallazgos son precisos, varios críticos todavía cuestionan la metodología utilizada."
+}
