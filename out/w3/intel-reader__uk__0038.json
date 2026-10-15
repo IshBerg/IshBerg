@@ -1,0 +1,20 @@
+{
+  "title": "A Visit to Sunny Cafe",
+  "text": "Welcome to Sunny Cafe. Here is our menu for today. We have soup, salad, and sandwiches. The soup is hot and the salad is fresh. Drinks are on the last page.\n\nBreakfast is served from seven to eleven in the morning. The pancakes are very popular. A pancake costs three dollars. Ask the waiter if you have a question.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What food is on the menu in the first paragraph?", "options": ["Soup, salad, and sandwiches", "Pizza and cake", "Fish and rice", "Eggs and milk"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How much does a pancake cost?", "options": ["Two dollars", "Three dollars", "Five dollars", "Ten dollars"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Which is most likely true about a customer who orders pancakes for breakfast?", "options": ["They are eating in the afternoon", "They are eating in the morning", "They do not want to eat", "They are ordering soup"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is the main purpose of the menu in the passage?", "options": ["To help customers choose food and drinks", "To tell the time", "To sell books", "To show the weather"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "menu", "translation": "меню", "definition": "a list of food and drinks that a restaurant or cafe offers"},
+    {"word": "fresh", "translation": "свіжий", "definition": "newly made or recently picked, not old"},
+    {"word": "popular", "translation": "популярний", "definition": "liked by many people"},
+    {"word": "waiter", "translation": "офіціант", "definition": "a person who brings food and drinks to customers in a restaurant"}
+  ],
+  "paragraph_translations": [
+    "Ласкаво просимо до кафе Sunny Cafe. Ось наше меню на сьогодні. У нас є суп, салат і сендвічі. Суп гарячий, а салат свіжий. Напої є на останній сторінці.",
+    "Сніданок подається з сьомої до одинадцятої ранку. Млинці дуже популярні. Один млинець коштує три долари. Запитайте офіціанта, якщо у вас є питання."
+  ]
+}
