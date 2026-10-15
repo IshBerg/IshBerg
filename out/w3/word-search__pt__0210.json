@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["L", "A", "P", "T", "O", "P", "K", "Z", "E"],
+    ["B", "J", "W", "Y", "V", "U", "P", "Q", "M"],
+    ["S", "G", "F", "D", "K", "X", "H", "Z", "A"],
+    ["C", "W", "Y", "B", "J", "R", "O", "Q", "I"],
+    ["L", "V", "K", "G", "E", "X", "N", "Y", "L"],
+    ["O", "P", "Z", "T", "W", "F", "E", "B", "Q"],
+    ["U", "H", "U", "M", "G", "V", "J", "A", "K"],
+    ["D", "O", "X", "C", "I", "Q", "S", "L", "Y"],
+    ["R", "N", "Z", "F", "H", "W", "B", "G", "V"]
+  ],
+  "words_to_find": ["LAPTOP", "EMAIL", "PHONE", "ROUTER", "CLOUD"],
+  "word_positions": [
+    {"word": "LAPTOP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EMAIL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "PHONE", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ROUTER", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "CLOUD", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Technology and Digital Life"
+}
