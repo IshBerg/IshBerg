@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had listened to my teacher,",
+  "correct_completion": "I would have passed the test.",
+  "full_sentence": "If only I had listened to my teacher, I would have passed the test.",
+  "acceptable_variants": ["I could have passed the test.", "I might have passed the test."],
+  "options": [
+    {"text": "I will listen to my teacher next time.", "is_correct": false, "why_wrong": "This is a future plan. A regret about the past needs an imagined past result, not a future intention."},
+    {"text": "so I failed the test.", "is_correct": false, "why_wrong": "'So' shows a real result. 'If only' introduces an unreal situation, so the result must be imagined, not real."},
+    {"text": "I would have passed the test.", "is_correct": true, "why_wrong": null},
+    {"text": "my teacher was very angry.", "is_correct": false, "why_wrong": "This describes the teacher's feelings and does not complete the unreal past result that 'if only' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Regrets about the past with 'if only' plus past perfect",
+  "connector": "if only",
+  "explanation": "'If only' plus the past perfect expresses regret about a past situation. The main clause uses 'would have' plus the past participle to show the result that did not happen.",
+  "translation": "Якби я лише слухав свого вчителя, я б склав тест."
+}
