@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ідіома", "transliteration": "idioma", "meaning": "idiom"},
+    {"word": "термін", "transliteration": "termin", "meaning": "term"},
+    {"word": "метафора", "transliteration": "metafora", "meaning": "metaphor"},
+    {"word": "етимологія", "transliteration": "etymolohiia", "meaning": "etymology"}
+  ],
+  "english_words": ["metaphor", "idiom", "etymology", "term"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Greek or Latin, so the forms stayed close and the meanings match.",
+  "false_friend_warning": null
+}
