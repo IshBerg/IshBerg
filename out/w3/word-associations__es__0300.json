@@ -1,0 +1,14 @@
+{
+  "trigger_word": "interview",
+  "all_words": [
+    {"word": "resume", "is_associated": true, "association_type": "THEMATIC", "explanation": "El currículum se presenta normalmente antes de una entrevista de trabajo, así que pertenece al mismo tema."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Un martillo es una herramienta y no tiene ninguna relación con una entrevista de trabajo."},
+    {"word": "employer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El empleador es la persona o empresa que entrevista al candidato, así que está relacionado con el significado de la palabra."},
+    {"word": "candle", "is_associated": false, "association_type": "NONE", "explanation": "Una vela no tiene relación con el proceso de una entrevista."},
+    {"word": "question", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Interview question' (pregunta de entrevista) es una combinación habitual en inglés."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Un jardín es un lugar para plantas y no se relaciona con las entrevistas."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'interview' se asocia con el currículum, el empleador y las preguntas típicas de un proceso de selección."
+}
