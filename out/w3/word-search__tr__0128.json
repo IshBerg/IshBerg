@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "U", "N", "K", "B", "W", "I"],
+    ["Z", "M", "E", "T", "V", "F", "R"],
+    ["J", "C", "L", "H", "U", "D", "O"],
+    ["K", "S", "L", "A", "N", "G", "N"],
+    ["Q", "W", "X", "B", "E", "P", "Y"],
+    ["V", "R", "T", "K", "Z", "S", "F"],
+    ["I", "D", "I", "O", "M", "W", "Q"]
+  ],
+  "words_to_find": ["PUN", "IRONY", "SLANG", "IDIOM"],
+  "word_positions": [
+    {"word": "PUN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SLANG", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "IDIOM", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Wordplay, Puns and Double Meaning"
+}
