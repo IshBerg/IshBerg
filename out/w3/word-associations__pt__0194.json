@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bread",
+  "all_words": [
+    {"word": "butter", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A manteiga é o ingrediente que mais se combina com o pão no café da manhã, por isso as duas palavras aparecem juntas com frequência."},
+    {"word": "toast", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A torrada é uma forma de preparar o pão, aquecendo-o até ficar crocante."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "A montanha não tem nenhuma relação com o pão nem com a comida em geral."},
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "O forno é o aparelho usado para assar o pão e pertence ao mesmo tema da cozinha."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "O rio não se relaciona com o pão e não pertence ao tema da padaria."},
+    {"word": "flour", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A farinha é o ingrediente principal usado para fazer o pão."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao pão são ingredientes, processos de preparo ou elementos da cozinha, enquanto as outras pertencem a temas sem relação com a comida."
+}

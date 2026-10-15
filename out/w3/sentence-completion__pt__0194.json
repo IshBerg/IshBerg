@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she submitted it to the editor before the deadline.",
+  "full_sentence": "Having finished the report, she submitted it to the editor before the deadline.",
+  "acceptable_variants": ["she sent it to the editor on time.", "she handed it in before the deadline."],
+  "options": [
+    {"text": "she went out to celebrate with friends.", "is_correct": false, "why_wrong": "This is a possible continuation, but it does not describe what she did with the report, which the sentence stem is about."},
+    {"text": "she submitted it to the editor before the deadline.", "is_correct": true, "why_wrong": null},
+    {"text": "the editor was already asleep.", "is_correct": false, "why_wrong": "The participle clause 'Having finished the report' needs a main clause with the same subject, so this clause about the editor breaks the link."},
+    {"text": "she will finish it tomorrow.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the report is already finished."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with a shared subject",
+  "connector": "having finished",
+  "explanation": "The opening participle clause must be followed by a main clause whose subject is the person who finished the action, and the action must logically follow from the first clause.",
+  "translation": "Depois de terminar o relatório, ela o enviou ao editor antes do prazo."
+}
