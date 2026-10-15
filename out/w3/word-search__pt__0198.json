@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["P", "H", "O", "N", "E", "A", "M", "K", "R"],
+    ["Z", "Q", "I", "L", "D", "W", "O", "V", "O"],
+    ["X", "J", "N", "F", "G", "Y", "U", "P", "B"],
+    ["S", "L", "T", "K", "H", "D", "S", "W", "O"],
+    ["G", "C", "E", "Q", "A", "M", "E", "J", "T"],
+    ["V", "B", "R", "H", "K", "P", "I", "X", "L"],
+    ["D", "F", "N", "E", "Y", "G", "A", "Q", "W"],
+    ["M", "U", "E", "L", "E", "J", "Z", "C", "R"],
+    ["K", "O", "T", "B", "V", "N", "H", "Y", "S"]
+  ],
+  "words_to_find": ["PHONE", "ROBOT", "MOUSE", "SCREEN", "INTERNET"],
+  "word_positions": [
+    {"word": "PHONE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ROBOT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "MOUSE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SCREEN", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "INTERNET", "start_row": 1, "start_col": 2, "direction": "VERTICAL"}
+  ],
+  "topic": "Technology"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "judge",
+  "all_words": [
+    {"word": "court", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um juiz trabalha em um tribunal (court), por isso as duas palavras estão diretamente ligadas pelo significado."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banana não tem nenhuma relação com juízes nem com o sistema de justiça."},
+    {"word": "verdict", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "O juiz ou o júri dá um veredicto (verdict), e essa combinação de palavras é muito comum em textos jurídicos."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Jardim não está relacionado a juízes, tribunais ou processos judiciais."},
+    {"word": "lawyer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Advogados (lawyers) atuam nos mesmos processos e tribunais onde o juiz trabalha, então pertencem ao mesmo tema."},
+    {"word": "sentence", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "O juiz dá uma sentença (sentence) ao réu, e 'pass a sentence' é uma combinação frequente em inglês."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'judge' pertencem ao mundo dos tribunais e da justiça, seja por significado, por tema ou por combinações frequentes; as demais não têm relação com esse campo."
+}
