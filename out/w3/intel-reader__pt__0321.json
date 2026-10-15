@@ -1,0 +1,20 @@
+{
+  "title": "My Family at Work",
+  "text": "My mother is a nurse. She works at a big hospital in the city. She helps patients every day. My father is an engineer. He works in an office and builds bridges.\n\nMy sister is a chef. She cooks food in a restaurant at night. She likes to make cakes. My brother is a driver. He drives a bus to the airport.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the mother's job?", "options": ["Nurse", "Engineer", "Chef", "Driver"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where does the sister work?", "options": ["In an office", "In a hospital", "In a restaurant", "On a bus"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can we guess about the father's job?", "options": ["He works with his hands outside.", "He is good with numbers and planning.", "He drives people around the city.", "He works with food."], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does the sister probably work at night?", "options": ["Because restaurants are busy in the evening", "Because she does not like cooking", "Because she works at the airport", "Because she is a nurse"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "nurse", "translation": "enfermeira", "definition": "a person who takes care of sick people"},
+    {"word": "engineer", "translation": "engenheiro", "definition": "a person who designs and builds things like bridges"},
+    {"word": "restaurant", "translation": "restaurante", "definition": "a place where people buy and eat meals"},
+    {"word": "driver", "translation": "motorista", "definition": "a person who drives a car, bus or other vehicle"}
+  ],
+  "paragraph_translations": [
+    "Minha mãe é enfermeira. Ela trabalha em um grande hospital da cidade. Ela ajuda os pacientes todos os dias. Meu pai é engenheiro. Ele trabalha em um escritório e constrói pontes.",
+    "Minha irmã é chef. Ela cozinha comida em um restaurante à noite. Ela gosta de fazer bolos. Meu irmão é motorista. Ele dirige um ônibus até o aeroporto."
+  ]
+}
