@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "televisión", "transliteration": "televisión", "meaning": "television"},
+    {"word": "información", "transliteration": "información", "meaning": "information"},
+    {"word": "reportero", "transliteration": "reportero", "meaning": "reporter"},
+    {"word": "artículo", "transliteration": "artículo", "meaning": "article (a piece of writing in a newspaper or magazine)"}
+  ],
+  "english_words": ["reporter", "article", "television", "information"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from the same source, so the forms stayed close.",
+  "false_friend_warning": null
+}

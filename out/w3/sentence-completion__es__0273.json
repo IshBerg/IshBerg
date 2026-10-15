@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The roof was leaking badly, so",
+  "correct_completion": "we had it repaired by a professional roofer.",
+  "full_sentence": "The roof was leaking badly, so we had it repaired by a professional roofer.",
+  "acceptable_variants": ["we got it fixed by a professional roofer.", "we called a roofer to have it repaired."],
+  "options": [
+    {"text": "we decided to paint the kitchen instead.", "is_correct": false, "why_wrong": "This does not respond to the leak. 'So' needs a result that deals with the problem described in the first part."},
+    {"text": "the roof is made of wood.", "is_correct": false, "why_wrong": "This describes the roof but is not an action or result that follows from the leak."},
+    {"text": "we had it repaired by a professional roofer.", "is_correct": true, "why_wrong": null},
+    {"text": "it was raining outside.", "is_correct": false, "why_wrong": "This is an unrelated fact. It does not show a result of the leak."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have + object + past participle' after a cause-effect connector",
+  "connector": "so",
+  "explanation": "After 'so', we need a result. The causative structure 'have + object + past participle' shows that someone else performs the action for the speaker, which is the usual meaning when a professional is hired.",
+  "translation": "El techo tenía una filtración muy grave, así que lo hicimos reparar por un techador profesional."
+}

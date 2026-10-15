@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Las enfermeras trabajan en los hospitales, por eso la relación es directa."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "La guitarra no tiene una relación habitual con los hospitales."},
+    {"word": "patient", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un paciente es la persona que recibe atención médica en un hospital."},
+    {"word": "bakery", "is_associated": false, "association_type": "NONE", "explanation": "Una panadería no pertenece al ambiente de un hospital."},
+    {"word": "ambulance", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La ambulancia lleva pacientes al hospital, y ambas palabras aparecen juntas con frecuencia."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Una montaña no tiene ninguna conexión con los hospitales."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas se refieren a personas, servicios o vehículos que forman parte del hospital; las demás no tienen relación con este lugar."
+}
