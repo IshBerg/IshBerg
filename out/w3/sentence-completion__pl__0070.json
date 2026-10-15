@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I usually go to bed",
+  "correct_completion": "at ten o'clock.",
+  "full_sentence": "I usually go to bed at ten o'clock.",
+  "acceptable_variants": ["around ten o'clock.", "at ten."],
+  "options": [
+    {"text": "in ten o'clock.", "is_correct": false, "why_wrong": "'In' is not used before an exact clock time. Use 'at' with times like 'ten o'clock'."},
+    {"text": "at ten o'clock.", "is_correct": true, "why_wrong": null},
+    {"text": "on ten o'clock.", "is_correct": false, "why_wrong": "'On' is used with days and dates, not with clock times."},
+    {"text": "since ten o'clock.", "is_correct": false, "why_wrong": "'Since' is used with the present perfect for an action that started at a point in time and continues, not for a daily habit in the present simple."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Prepositions of time: 'at' with exact clock times",
+  "connector": "at",
+  "explanation": "Exact clock times take the preposition 'at'. 'On' is for days and dates, and 'since' belongs to the present perfect, not to a habit in the present simple.",
+  "translation": "Zwykle chodzę spać o dziesiątej."
+}
