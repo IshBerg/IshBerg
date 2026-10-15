@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she could have left early,",
+  "correct_completion": "she stayed to help us finish.",
+  "full_sentence": "Although she could have left early, she stayed to help us finish.",
+  "acceptable_variants": ["she chose to stay and help us finish.", "she still decided to help us."],
+  "options": [
+    {"text": "so she left early.", "is_correct": false, "why_wrong": "'So' expresses a result, but 'although' requires a clause that contrasts with the first part of the sentence."},
+    {"text": "she stayed to help us finish.", "is_correct": true, "why_wrong": null},
+    {"text": "she was asleep.", "is_correct": false, "why_wrong": "This gives an unrelated fact and does not express the contrast that 'although' requires."},
+    {"text": "she could have stayed.", "is_correct": false, "why_wrong": "Repeating the modal idea does not complete the contrast; the sentence needs a clause that shows the choice she actually made."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'although' with the modal perfect (could have + past participle)",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. The modal perfect 'could have left' describes an option that was not taken, so the continuation should show the action that was actually chosen.",
+  "translation": "Chociaż mogła wyjść wcześniej, została, żeby pomóc nam skończyć."
+}

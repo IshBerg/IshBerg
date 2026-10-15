@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "THEMATIC", "explanation": "Grzmot jest częścią burzy, więc ściśle należy do tego samego tematu pogodowego."},
+    {"word": "sunshine", "is_associated": false, "association_type": "NONE", "explanation": "Słońce kojarzy się z pogodą słoneczną, a nie z burzą, która jest jego przeciwieństwem."},
+    {"word": "lightning", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówimy 'thunder and lightning' (grzmot i błyskawica), więc to typowe połączenie z burzą."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "Biurko nie ma żadnego związku z burzą ani z pogodą."},
+    {"word": "rain", "is_associated": true, "association_type": "THEMATIC", "explanation": "Deszcz zwykle towarzyszy burzy, dlatego jest jej naturalnym skojarzeniem."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek nie jest związany z burzą; należy do zupełnie innego obszaru słownictwa."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'storm' kojarzy się z elementami zjawiska pogodowego, takimi jak grzmot, błyskawica i deszcz, a nie z przedmiotami codziennego użytku ani słonecznym niebem."
+}
