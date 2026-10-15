@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["C", "O", "D", "E", "X", "K", "P", "Q"],
+    ["L", "W", "Z", "N", "B", "J", "V", "M"],
+    ["H", "F", "Y", "R", "G", "T", "K", "O"],
+    ["D", "I", "L", "P", "Q", "W", "N", "U"],
+    ["A", "Z", "X", "K", "M", "E", "G", "S"],
+    ["T", "V", "J", "Q", "H", "L", "P", "E"],
+    ["A", "N", "M", "B", "Z", "Y", "F", "W"],
+    ["Q", "X", "R", "O", "B", "O", "T", "J"]
+  ],
+  "words_to_find": ["CODE", "DATA", "MOUSE", "ROBOT"],
+  "word_positions": [
+    {"word": "CODE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DATA", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "MOUSE", "start_row": 1, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ROBOT", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Technology"
+}
