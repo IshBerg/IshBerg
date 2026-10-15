@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "K", "S"],
+    ["Q", "R", "T", "W", "G", "H", "D", "U"],
+    ["F", "J", "O", "K", "Z", "B", "V", "B"],
+    ["I", "M", "P", "L", "Y", "L", "X", "T"],
+    ["W", "D", "G", "R", "H", "U", "Z", "L"],
+    ["A", "Q", "O", "X", "K", "N", "F", "E"],
+    ["V", "C", "Z", "M", "P", "T", "J", "R"],
+    ["H", "L", "W", "K", "Q", "D", "Z", "X"]
+  ],
+  "words_to_find": ["NUANCE", "SUBTLE", "IMPLY", "BLUNT"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SUBTLE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "IMPLY", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BLUNT", "start_row": 2, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Connotation and Nuance in Word Choice"
+}

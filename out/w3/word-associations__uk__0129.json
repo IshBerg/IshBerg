@@ -1,0 +1,14 @@
+{
+  "trigger_word": "forest",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Дерево є головною частиною лісу, тому це слово має пряме значеннєве зв'язок із лісом."},
+    {"word": "city", "is_associated": false, "association_type": "NONE", "explanation": "Місто є протилежним середовищем до лісу, тому між цими словами немає зв'язку."},
+    {"word": "squirrel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Білка часто живе в лісі, тож це слово належить до однієї тематики з лісом."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "Письмовий стіл належить до офісу або школи, а не до лісу."},
+    {"word": "wood", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Деревина є матеріалом, який отримують із лісу, тому слова пов'язані за значенням."},
+    {"word": "path", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення «forest path» (лісова стежка) є звичайним у англійській мові."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з лісом, стосуються дерев, тварин, деревини та стежок, а місто і письмовий стіл не мають із цим зв'язку."
+}
