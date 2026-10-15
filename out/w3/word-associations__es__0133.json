@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "El piano es un instrumento musical que se toca en una sala de música, no tiene relación con la cocina."},
+    {"word": "oven", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El horno es un electrodoméstico que se usa para cocinar, por eso su significado está muy relacionado con la cocina."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta es un medio de transporte y no aparece en las actividades de la cocina."},
+    {"word": "spoon", "is_associated": true, "association_type": "THEMATIC", "explanation": "La cuchara es un utensilio que se usa para comer y cocinar, así que aparece temáticamente en la cocina."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "El río es un elemento natural que normalmente no se encuentra dentro de una cocina."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El fregadero es parte de la cocina y forma la expresión fija 'kitchen sink'."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'kitchen' son electrodomésticos, utensilios y elementos propios de la cocina; las demás pertenecen a otros contextos."
+}
