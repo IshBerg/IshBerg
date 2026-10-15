@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "elefante", "transliteration": "elefante", "meaning": "elephant"},
+    {"word": "tigre", "transliteration": "tigre", "meaning": "tiger"},
+    {"word": "crocodilo", "transliteration": "crocodilo", "meaning": "crocodile"},
+    {"word": "hipopótamo", "transliteration": "hipopotamo", "meaning": "hippopotamus"}
+  ],
+  "english_words": ["crocodile", "elephant", "hippopotamus", "tiger"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these animal names from the same classical sources, so the spelling stayed close. Each pair keeps the same root and changes only a few letters.",
+  "false_friend_warning": null
+}

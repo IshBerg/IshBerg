@@ -1,0 +1,20 @@
+{
+  "title": "At Sunny Café",
+  "text": "Welcome to Sunny Café. The menu has soup, salad and sandwiches. The soup is hot and cheap. The salad has tomatoes and cheese.\n\nFor dessert, you can have ice cream or cake. The drinks are juice, water and coffee. Water is free. Please tell the waiter if you have a question.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is on the menu in paragraph one?", "options": ["Soup, salad and sandwiches", "Pizza and pasta", "Rice and fish", "Burgers and fries"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is free in paragraph two?", "options": ["Ice cream", "Cake", "Water", "Coffee"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Which dish is the best choice if you want something warm to eat?", "options": ["The salad", "The soup", "The ice cream", "The juice"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can you infer about the waiter?", "options": ["He can answer questions about the menu", "He cooks the food", "He does not work at the café", "He only sells drinks"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "menu", "translation": "cardápio", "definition": "a list of the food and drinks in a restaurant"},
+    {"word": "soup", "translation": "sopa", "definition": "a hot liquid food made from vegetables, meat or fish"},
+    {"word": "dessert", "translation": "sobremesa", "definition": "a sweet food eaten at the end of a meal"},
+    {"word": "waiter", "translation": "garçom", "definition": "a person who brings food and drinks to your table in a restaurant"}
+  ],
+  "paragraph_translations": [
+    "Bem-vindo ao Sunny Café. O cardápio tem sopa, salada e sanduíches. A sopa é quente e barata. A salada tem tomates e queijo.",
+    "Para a sobremesa, você pode comer sorvete ou bolo. As bebidas são suco, água e café. A água é grátis. Por favor, diga ao garçom se você tiver alguma dúvida."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished her homework,",
+  "correct_completion": "Maria turned on the television.",
+  "full_sentence": "Having finished her homework, Maria turned on the television.",
+  "acceptable_variants": ["Maria switched on the television.", "Maria sat down and watched a film."],
+  "options": [
+    {"text": "the television was turned on by her.", "is_correct": false, "why_wrong": "The participle clause 'Having finished' refers to Maria, so the main clause needs Maria as its subject, not the television."},
+    {"text": "Maria turn on the television.", "is_correct": false, "why_wrong": "After a singular subject like 'Maria', the verb needs the past form 'turned'. 'Turn' is ungrammatical here."},
+    {"text": "Maria turned on the television.", "is_correct": true, "why_wrong": null},
+    {"text": "Maria turning on the television.", "is_correct": false, "why_wrong": "The sentence has no finite main verb after the comma. The verb must be 'turned', not the -ing form."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses and the subject they refer to",
+  "connector": "having finished",
+  "explanation": "A participle clause at the start of a sentence must refer to the subject of the main clause. Learners often let a different noun become the subject, so check that the person doing the first action is also the subject of the main verb.",
+  "translation": "Depois de terminar a lição de casa, Maria ligou a televisão."
+}
