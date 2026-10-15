@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before in the history of the company,",
+  "correct_completion": "had the board approved such a risky investment.",
+  "full_sentence": "Never before in the history of the company, had the board approved such a risky investment.",
+  "acceptable_variants": ["had any previous board authorised such a risky investment.", "had the directors ever backed a venture this dangerous."],
+  "options": [
+    {"text": "the board approved such a risky investment.", "is_correct": false, "why_wrong": "After a fronted negative adverbial such as 'Never before', the auxiliary must come before the subject. Without inversion the structure is not correct here."},
+    {"text": "the board had approved such a risky investment.", "is_correct": false, "why_wrong": "The auxiliary 'had' follows the subject, which is the normal order. The fronted negative adverbial requires it to precede the subject."},
+    {"text": "the board was approving such a risky investment.", "is_correct": false, "why_wrong": "A progressive form describes an ongoing action and does not fit the completed-experience meaning, and it cannot take the inverted auxiliary pattern."},
+    {"text": "had the board approved such a risky investment.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion after a fronted negative adverbial",
+  "connector": "never before",
+  "explanation": "A fronted negative adverbial such as 'Never before' triggers inversion, so the auxiliary verb moves in front of the subject. Learners often keep the normal subject-verb order, because Turkish word order is flexible and Turkish has no auxiliary inversion of this kind.",
+  "translation": "Şirketin tarihinde hiçbir zaman yönetim kurulu bu kadar riskli bir yatırımı onaylamamıştı."
+}
