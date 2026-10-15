@@ -1,0 +1,14 @@
+{
+  "trigger_word": "letter",
+  "all_words": [
+    {"word": "envelope", "is_associated": true, "association_type": "THEMATIC", "explanation": "Koperta jest częścią wysyłania listu i zwykle występuje razem z nim w kontekście korespondencji."},
+    {"word": "stamp", "is_associated": true, "association_type": "THEMATIC", "explanation": "Znaczek pocztowy jest potrzebny do wysłania listu, więc należy do tego samego tematu pocztowego."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino to instrument muzyczny i nie ma żadnego związku znaczeniowego ani tematycznego z listem."},
+    {"word": "postman", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Listonosz to osoba, która dostarcza listy, więc słowo ma bezpośredni związek znaczeniowy z listem."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka to rodzaj jedzenia i nie łączy się z listem ani pocztą."},
+    {"word": "dear", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słowo 'Dear' pojawia się na początku listu formalnego lub nieformalnego, tworząc typowe zwroty, np. 'Dear Sir'."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z listem dotyczą jego wysyłania, dostarczania i zwrotów grzecznościowych, natomiast pianino i kanapka nie mają z nim nic wspólnego."
+}
