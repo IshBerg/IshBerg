@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the test was the hardest one this year,",
+  "correct_completion": "I passed it with a high score.",
+  "full_sentence": "Although the test was the hardest one this year, I passed it with a high score.",
+  "acceptable_variants": ["I still passed it with a high score.", "I managed to pass it easily."],
+  "options": [
+    {"text": "so I failed it.", "is_correct": false, "why_wrong": "'So' introduces a result, but after 'although' the sentence needs a contrasting clause."},
+    {"text": "because it was easy.", "is_correct": false, "why_wrong": "'Because' gives a reason, which contradicts the contrast signalled by 'although'."},
+    {"text": "I passed it with a high score.", "is_correct": true, "why_wrong": null},
+    {"text": "if I had studied more.", "is_correct": false, "why_wrong": "'If' introduces a condition, not a contrast, so it does not complete the sentence logically here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a main clause that contrasts with the difficulty described in the first part. The superlative 'the hardest one' sets up the surprising result.",
+  "translation": "Mimo że test był najtrudniejszy w tym roku, zdałem go z wysokim wynikiem."
+}
