@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the novelist not revised the manuscript three times,",
+  "correct_completion": "the final chapter would have lacked its quiet, haunting tension.",
+  "full_sentence": "Had the novelist not revised the manuscript three times, the final chapter would have lacked its quiet, haunting tension.",
+  "acceptable_variants": ["the final chapter would have been much weaker.", "the ending would have felt flat."],
+  "options": [
+    {"text": "the final chapter lacks any tension.", "is_correct": false, "why_wrong": "The stem describes a hypothetical past, so a present form does not match the third conditional meaning."},
+    {"text": "the final chapter would have lacked its quiet, haunting tension.", "is_correct": true, "why_wrong": null},
+    {"text": "the final chapter was lacking tension.", "is_correct": false, "why_wrong": "A past simple form does not fit the third conditional meaning, which needs 'would have' in the main clause."},
+    {"text": "the final chapter will lack its tension.", "is_correct": false, "why_wrong": "A future form does not match the hypothetical past meaning set up by the inverted 'had' clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had'",
+  "connector": "had",
+  "explanation": "This sentence uses the third conditional with an inverted 'had' clause to describe an unreal past. The main clause needs 'would have' followed by a past participle. Learners may be tempted to use a simple past here, since their language allows a similar tense pattern, but English requires the perfect form for an unreal past.",
+  "translation": "Se o romancista não tivesse revisado o manuscrito três vezes, o último capítulo teria carecido de sua tensão silenciosa e inquietante."
+}

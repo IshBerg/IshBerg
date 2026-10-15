@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "banana", "transliteration": "banana", "meaning": "banana"},
+    {"word": "melão", "transliteration": "melao", "meaning": "melon"},
+    {"word": "tomate", "transliteration": "tomate", "meaning": "tomato"},
+    {"word": "kiwi", "transliteration": "kiwi", "meaning": "kiwi"}
+  ],
+  "english_words": ["tomato", "kiwi", "banana", "melon"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words came into both languages from the same sources, so the spelling and meaning stayed close. The Portuguese forms look very much like the English ones, so students can rely on the shared form when they recognise them.",
+  "false_friend_warning": null
+}
