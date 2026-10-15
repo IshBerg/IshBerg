@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hair",
+  "all_words": [
+    {"word": "comb", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гребінець використовують, щоб розчісувати волосся, тому він належить до того самого тематичного поля."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не має жодного зв'язку з волоссям чи доглядом за ним."},
+    {"word": "shampoo", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Шампунь призначений для миття волосся, тому 'hair shampoo' є типовим словосполученням."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець не пов'язаний із волоссям або з доглядом за ним."},
+    {"word": "brush", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Щітка для волосся (hairbrush) є усталеним словосполученням, яке часто вживають разом."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Стіл не має жодного відношення до волосся."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'hair' пов'язане з доглядом за волоссям і засобами для нього, а не з предметами, які не стосуються зовнішності."
+}

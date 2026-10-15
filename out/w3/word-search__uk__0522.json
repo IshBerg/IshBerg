@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "E", "T", "H", "O", "D", "Q", "W", "R"],
+    ["K", "J", "V", "N", "Z", "F", "Y", "T", "E"],
+    ["P", "H", "L", "G", "M", "X", "C", "U", "S"],
+    ["D", "Q", "W", "I", "V", "A", "K", "O", "U"],
+    ["Z", "N", "E", "B", "R", "Y", "J", "H", "L"],
+    ["F", "M", "G", "T", "Q", "I", "W", "X", "T"],
+    ["V", "K", "S", "Y", "N", "B", "L", "P", "W"],
+    ["C", "B", "H", "O", "U", "Z", "R", "F", "M"],
+    ["A", "W", "D", "A", "T", "A", "Q", "J", "N"]
+  ],
+  "words_to_find": ["METHOD", "RESULT", "ABSTRACT", "DATA"],
+  "word_positions": [
+    {"word": "METHOD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RESULT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "ABSTRACT", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "DATA", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Reading Academic Articles"
+}
