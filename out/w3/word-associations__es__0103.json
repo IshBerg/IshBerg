@@ -1,0 +1,14 @@
+{
+  "trigger_word": "broom",
+  "all_words": [
+    {"word": "sweep", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Barrer es la acción que se hace con una escoba, por eso tiene relación de significado con 'broom'."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta es un medio de transporte y no tiene ninguna relación con la escoba."},
+    {"word": "dustpan", "is_associated": true, "association_type": "THEMATIC", "explanation": "El recogedor se usa junto con la escoba para recoger la suciedad del suelo, así que es del mismo tema de la limpieza."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "El piano es un instrumento musical y no se relaciona con las tareas de limpieza de la casa."},
+    {"word": "floor", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se dice 'sweep the floor' (barrer el suelo), así que 'floor' aparece en una combinación típica con la escoba."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "El tomate es un alimento de la cocina y no tiene relación con la escoba."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'broom' son las que se relacionan con barrer o limpiar el suelo; las demás no tienen relación con la escoba."
+}
