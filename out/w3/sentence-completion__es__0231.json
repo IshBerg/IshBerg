@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is raining outside,",
+  "correct_completion": "take an umbrella.",
+  "full_sentence": "It is raining outside, take an umbrella.",
+  "acceptable_variants": ["take your umbrella.", "bring an umbrella."],
+  "options": [
+    {"text": "you are going to the park.", "is_correct": false, "why_wrong": "This states a plan rather than giving an instruction, so it does not complete the imperative."},
+    {"text": "take an umbrella.", "is_correct": true, "why_wrong": null},
+    {"text": "the park is closed.", "is_correct": false, "why_wrong": "This is a fact about the park, not an instruction about the rain."},
+    {"text": "I like rain.", "is_correct": false, "why_wrong": "This expresses an opinion, not an instruction."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Imperatives after a comma",
+  "connector": "comma",
+  "explanation": "After the comma, the sentence needs an imperative: the base form of the verb with no subject, used to give advice or an instruction. Spanish speakers often add a subject or use a plan structure here, because Spanish can use a subject in commands, but English imperatives do not include one.",
+  "translation": "Está lloviendo afuera, lleva un paraguas."
+}
