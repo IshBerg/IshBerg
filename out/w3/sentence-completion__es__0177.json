@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee had not anticipated",
+  "correct_completion": "was the sheer volume of public objections.",
+  "full_sentence": "What the committee had not anticipated was the sheer volume of public objections.",
+  "acceptable_variants": ["was the scale of public opposition.", "was how many people objected publicly."],
+  "options": [
+    {"text": "so the report was delayed.", "is_correct": false, "why_wrong": "'So' introduces a result clause and cannot complete a wh-clause that needs a complement introduced by 'was'."},
+    {"text": "were the members, who arrived late.", "is_correct": false, "why_wrong": "The verb 'were' does not agree with the singular wh-clause subject, and the result makes no sensible contrast or identification."},
+    {"text": "was the sheer volume of public objections.", "is_correct": true, "why_wrong": null},
+    {"text": "although the agenda was already approved.", "is_correct": false, "why_wrong": "'Although' signals concession and needs a main clause, so it cannot serve as the complement of the wh-clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Wh-noun clauses as subjects with a 'was' complement",
+  "connector": "what",
+  "explanation": "The wh-clause 'What the committee had not anticipated' is a nominal clause acting as the subject, so it needs a complement introduced by 'was' to complete its meaning. Only the option that names the unexpected noun phrase fits this pattern.",
+  "translation": "Lo que el comité no había previsto fue el enorme volumen de objeciones públicas."
+}
