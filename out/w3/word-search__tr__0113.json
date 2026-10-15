@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["M", "A", "K", "E", "Q", "J", "Z", "T"],
+    ["L", "I", "D", "O", "U", "N", "P", "A"],
+    ["W", "C", "F", "B", "J", "S", "D", "K"],
+    ["H", "E", "A", "V", "Y", "T", "I", "E"],
+    ["Q", "M", "X", "L", "W", "R", "Z", "P"],
+    ["K", "G", "D", "F", "U", "O", "C", "Y"],
+    ["B", "R", "E", "A", "K", "N", "V", "J"],
+    ["X", "I", "Q", "H", "T", "G", "W", "Y"]
+  ],
+  "words_to_find": ["MAKE", "TAKE", "HEAVY", "STRONG", "BREAK"],
+  "word_positions": [
+    {"word": "MAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TAKE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "HEAVY", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STRONG", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "BREAK", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations"
+}

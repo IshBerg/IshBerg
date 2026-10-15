@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because he has never ridden a horse,",
+  "correct_completion": "he feels nervous about the ride at the farm.",
+  "full_sentence": "Because he has never ridden a horse, he feels nervous about the ride at the farm.",
+  "acceptable_variants": ["he is worried about riding at the farm.", "he asked the instructor to explain everything first."],
+  "options": [
+    {"text": "so he has ridden horses every summer.", "is_correct": false, "why_wrong": "This contradicts the stem, which says he has never ridden a horse."},
+    {"text": "he feels nervous about the ride at the farm.", "is_correct": true, "why_wrong": null},
+    {"text": "he has already won several riding prizes.", "is_correct": false, "why_wrong": "This contradicts the stem, which says he has never ridden a horse."},
+    {"text": "although he loves the animals very much.", "is_correct": false, "why_wrong": "'Although' signals contrast, but after 'because' the sentence needs a result that follows from the reason."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect with 'never' as the reason in a 'because' clause",
+  "connector": "because",
+  "explanation": "After 'because', the sentence needs a result that follows logically from the reason in the first clause. The reason is a present perfect statement with 'never', so the result should describe a feeling or action that naturally comes from lacking that experience. Turkish speakers sometimes reverse the order of reason and result, so check the logical direction of the connector.",
+  "translation": "Hiç at binmemiş olduğu için çiftlikteki binme konusunda gergin hissediyor."
+}
