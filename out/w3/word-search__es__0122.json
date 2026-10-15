@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "U", "B", "T", "L", "E", "K", "P", "B"],
+    ["A", "R", "G", "Y", "D", "X", "F", "M", "L"],
+    ["Q", "W", "E", "V", "J", "K", "Z", "O", "U"],
+    ["C", "H", "P", "D", "W", "A", "G", "I", "N"],
+    ["I", "E", "K", "W", "M", "T", "B", "Q", "T"],
+    ["Z", "R", "J", "A", "T", "O", "V", "X", "P"],
+    ["L", "W", "O", "N", "G", "N", "Y", "K", "Q"],
+    ["D", "F", "I", "N", "H", "E", "S", "V", "M"],
+    ["V", "H", "K", "J", "Y", "Z", "Q", "W", "X"]
+  ],
+  "words_to_find": ["SUBTLE", "BLUNT", "IRONY", "HINT", "TONE"],
+  "word_positions": [
+    {"word": "SUBTLE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BLUNT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "HINT", "start_row": 8, "start_col": 1, "direction": "DIAGONAL_UP"},
+    {"word": "TONE", "start_row": 4, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Connotation and Nuance in Word Choice"
+}

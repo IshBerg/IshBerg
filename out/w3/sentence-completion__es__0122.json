@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The message",
+  "correct_completion": "was sent yesterday.",
+  "full_sentence": "The message was sent yesterday.",
+  "acceptable_variants": ["was delivered yesterday.", "was sent last night."],
+  "options": [
+    {"text": "sends yesterday.", "is_correct": false, "why_wrong": "The present simple active does not form a passive, and 'yesterday' needs a past form."},
+    {"text": "was sent yesterday.", "is_correct": true, "why_wrong": null},
+    {"text": "sent it yesterday.", "is_correct": false, "why_wrong": "This is an active sentence with the object 'it', so it does not describe the message being the receiver of the action."},
+    {"text": "has been sending yesterday.", "is_correct": false, "why_wrong": "The present perfect continuous does not fit with the finished time 'yesterday', and it is not passive."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past simple passive (was/were + past participle)",
+  "connector": "was",
+  "explanation": "The passive uses was or were plus the past participle when the subject receives the action. Speakers of Spanish often use the active form here because Spanish passive constructions are used less often in everyday speech.",
+  "translation": "El mensaje fue enviado ayer."
+}

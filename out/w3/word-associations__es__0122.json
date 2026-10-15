@@ -1,0 +1,13 @@
+{
+  "trigger_word": "phone",
+  "all_words": [
+    {"word": "call", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Llamar por teléfono es una de las funciones principales de un teléfono."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Un árbol es una planta y no tiene relación con los teléfonos."},
+    {"word": "battery", "is_associated": true, "association_type": "THEMATIC", "explanation": "La batería es la parte que da energía al teléfono, por eso pertenece al mismo tema."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "El pan es un alimento y no tiene ninguna relación con los teléfonos."},
+    {"word": "charger", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés se dice 'phone charger' (cargador de teléfono), una combinación muy común."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "El desierto es un lugar natural y no tiene relación con los teléfonos."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "explanation": "Las palabras asociadas con 'phone' son funciones, partes o accesorios del teléfono; las demás palabras no tienen ninguna relación con él."
+}
