@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["L", "A", "P", "T", "O", "P", "E"],
+    ["K", "Q", "J", "B", "R", "W", "M"],
+    ["P", "X", "C", "O", "D", "E", "A"],
+    ["H", "Z", "U", "F", "G", "S", "I"],
+    ["O", "T", "B", "W", "Y", "K", "L"],
+    ["N", "U", "V", "I", "D", "E", "O"],
+    ["E", "Q", "R", "J", "A", "X", "Z"]
+  ],
+  "words_to_find": ["LAPTOP", "EMAIL", "PHONE", "VIDEO", "CODE"],
+  "word_positions": [
+    {"word": "LAPTOP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EMAIL", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PHONE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "VIDEO", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "CODE", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Technology and Digital Life"
+}
