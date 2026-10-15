@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "compromisso", "transliteration": "compromisso", "meaning": "appointment"},
+    {"word": "agenda", "transliteration": "agenda", "meaning": "planner or diary"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookstore"}
+  ],
+  "english_words": ["bookstore", "appointment", "to watch", "planner"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Portuguese words look like English words but developed different meanings, so students cannot rely on the spelling alone.",
+  "false_friend_warning": "The Portuguese word compromisso looks like English compromise but means appointment, and the Portuguese word agenda looks like English agenda but means a planner or diary. The Portuguese word livraria looks like library but means bookstore, so students should not use it for a place to borrow books."
+}

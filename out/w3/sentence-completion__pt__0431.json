@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I was very nervous,",
+  "correct_completion": "I answered every question clearly.",
+  "full_sentence": "Although I was very nervous, I answered every question clearly.",
+  "acceptable_variants": ["I still gave clear answers.", "I managed to answer all the questions."],
+  "options": [
+    {"text": "so I cancelled the interview.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. 'Although' needs a clause that contrasts with the first part of the sentence."},
+    {"text": "I answered every question clearly.", "is_correct": true, "why_wrong": null},
+    {"text": "because the interview room was small.", "is_correct": false, "why_wrong": "'Because' gives a reason. 'Although' signals contrast, not cause."},
+    {"text": "the room had two chairs and a table.", "is_correct": false, "why_wrong": "This describes the setting but does not contrast with feeling nervous."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Cause clauses and descriptions of the setting do not complete the contrast.",
+  "translation": "Embora estivesse muito nervoso, respondi a cada pergunta com clareza."
+}
