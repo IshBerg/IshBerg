@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "O", "U", "S", "E", "Z", "L", "Q", "W"],
+    ["J", "M", "X", "D", "V", "R", "G", "Y", "N"],
+    ["B", "C", "F", "L", "T", "Z", "P", "I", "Q"],
+    ["K", "W", "J", "V", "X", "Y", "A", "D", "M"],
+    ["S", "E", "G", "N", "U", "Q", "R", "W", "K"],
+    ["F", "H", "L", "C", "J", "O", "K", "N", "Z"],
+    ["X", "D", "O", "I", "M", "V", "A", "G", "Y"],
+    ["Q", "U", "F", "P", "W", "B", "H", "L", "J"],
+    ["R", "S", "T", "R", "E", "E", "T", "N", "C"]
+  ],
+  "words_to_find": ["HOUSE", "PARK", "SHOP", "STREET", "BANK"],
+  "word_positions": [
+    {"word": "HOUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARK", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SHOP", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "STREET", "start_row": 8, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "BANK", "start_row": 7, "start_col": 5, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "My Neighborhood"
+}
