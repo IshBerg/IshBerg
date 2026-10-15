@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "konferans", "transliteration": "konferans", "meaning": "lecture"},
+    {"word": "kolej", "transliteration": "kolej", "meaning": "high school"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likeable"},
+    {"word": "eventüel", "transliteration": "eventüel", "meaning": "possible"}
+  ],
+  "english_words": ["likeable", "lecture", "possible", "high school"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Turkish words were borrowed from European languages, so they look familiar to English speakers. Their meanings have shifted over time, so the Turkish form now points to a different English word than the one it resembles.",
+  "false_friend_warning": "The Turkish word that looks like English 'conference' actually means a lecture or talk given to an audience, not a large multi-day meeting. The Turkish word that looks like English 'college' means a high school, not a university, so learners should not translate either word by its English look."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more time,",
+  "correct_completion": "I would learn to play the piano.",
+  "full_sentence": "If I had more time, I would learn to play the piano.",
+  "acceptable_variants": ["I would take piano lessons.", "I would practise every day."],
+  "options": [
+    {"text": "I will learn to play the piano.", "is_correct": false, "why_wrong": "'Will' belongs to the first conditional, used for real future possibilities. This stem describes an imagined situation."},
+    {"text": "I learned to play the piano.", "is_correct": false, "why_wrong": "The past simple describes a finished action, not the imagined result of the condition."},
+    {"text": "I would learn to play the piano.", "is_correct": true, "why_wrong": null},
+    {"text": "I have learned to play the piano.", "is_correct": false, "why_wrong": "The present perfect describes a completed experience, which does not fit an imagined situation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional for imagined situations (if + past simple, would + base verb)",
+  "connector": "if",
+  "explanation": "The second conditional uses the past simple in the if-clause and would plus the base verb in the main clause to describe an imagined situation that is not true now. Learners often use 'will' here because the first conditional is taught earlier, but that form is for real possibilities.",
+  "translation": "Daha fazla zamanım olsaydı, piyano çalmayı öğrenirdim."
+}
