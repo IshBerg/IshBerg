@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The cat is sleeping",
+  "correct_completion": "under the table.",
+  "full_sentence": "The cat is sleeping under the table.",
+  "acceptable_variants": ["on the sofa.", "in the box."],
+  "options": [
+    {"text": "the milk is cold.", "is_correct": false, "why_wrong": "This is a separate fact about the milk. It does not tell us where the cat is sleeping."},
+    {"text": "under the table.", "is_correct": true, "why_wrong": null},
+    {"text": "on Monday morning.", "is_correct": false, "why_wrong": "'On Monday morning' is a time, not a place, so it does not answer where the cat is sleeping."},
+    {"text": "my brother is tall.", "is_correct": false, "why_wrong": "This describes a person and does not complete the sentence about the cat's position."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: under, on, in",
+  "connector": "under",
+  "explanation": "The sentence needs a phrase that tells the place where the cat is. A preposition of place followed by a noun phrase names that location.",
+  "translation": "Kedi masanın altında uyuyor."
+}

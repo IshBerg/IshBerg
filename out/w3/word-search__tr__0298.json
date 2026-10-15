@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["A", "G", "R", "E", "E", "K", "Q", "Z", "W"],
+    ["S", "U", "R", "E", "B", "J", "X", "M", "R"],
+    ["O", "H", "C", "L", "Y", "D", "F", "T", "O"],
+    ["K", "P", "V", "B", "W", "Z", "G", "Q", "N"],
+    ["X", "M", "I", "Q", "D", "R", "J", "A", "G"],
+    ["L", "C", "Y", "N", "H", "F", "K", "D", "M"],
+    ["T", "W", "Q", "Z", "I", "X", "B", "H", "V"],
+    ["V", "D", "J", "K", "B", "O", "R", "T", "E"],
+    ["R", "I", "G", "H", "T", "L", "N", "Q", "Y"]
+  ],
+  "words_to_find": ["AGREE", "OPINION", "SURE", "WRONG", "RIGHT"],
+  "word_positions": [
+    {"word": "AGREE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "OPINION", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SURE", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WRONG", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "RIGHT", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Agreement and Disagreement"
+}
