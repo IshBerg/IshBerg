@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at this big dog.",
+  "correct_completion": "It is very friendly.",
+  "full_sentence": "Look at this big dog. It is very friendly.",
+  "acceptable_variants": ["It is very kind.", "It is big and friendly."],
+  "options": [
+    {"text": "They are very happy.", "is_correct": false, "why_wrong": "'They' is plural, but we are talking about one dog."},
+    {"text": "It is very friendly.", "is_correct": true, "why_wrong": null},
+    {"text": "We are at the park.", "is_correct": false, "why_wrong": "This describes where we are, but the sentence needs a description of the dog."},
+    {"text": "This is my shoe.", "is_correct": false, "why_wrong": "This introduces a different object, a shoe, instead of continuing about the dog."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative 'this' followed by the pronoun 'it' to refer back to the same object",
+  "connector": "this",
+  "explanation": "After pointing at the dog with 'this', the next sentence uses the pronoun 'it' to talk about the same dog again. The completion must describe the dog, so it needs a singular pronoun.",
+  "translation": "Bu büyük köpeğe bak. O çok arkadaş canlısı."
+}
