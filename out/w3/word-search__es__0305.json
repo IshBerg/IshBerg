@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["F", "L", "O", "O", "D", "K", "P", "S"],
+    ["B", "N", "W", "Z", "H", "T", "V", "T"],
+    ["G", "Y", "D", "X", "R", "S", "C", "O"],
+    ["M", "J", "L", "A", "W", "U", "Q", "R"],
+    ["E", "P", "K", "I", "B", "N", "F", "M"],
+    ["H", "C", "O", "D", "L", "A", "Z", "X"],
+    ["V", "Y", "G", "S", "N", "M", "K", "W"],
+    ["Q", "U", "A", "K", "E", "I", "D", "J"]
+  ],
+  "words_to_find": ["FLOOD", "STORM", "QUAKE", "TSUNAMI"],
+  "word_positions": [
+    {"word": "FLOOD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STORM", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "QUAKE", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TSUNAMI", "start_row": 1, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Natural Disasters"
+}
