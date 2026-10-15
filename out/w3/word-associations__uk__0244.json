@@ -1,0 +1,14 @@
+{
+  "trigger_word": "winter",
+  "all_words": [
+    {"word": "snow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сніг є типовим явищем зими, тому він тісно пов'язаний із цим словом за змістом."},
+    {"word": "sandals", "is_associated": false, "association_type": "NONE", "explanation": "Сандалі є літнім взуттям, тому вони не пов'язані із зимою."},
+    {"word": "ice", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Лід, як і сніг, є характерною ознакою зими."},
+    {"word": "summer", "is_associated": false, "association_type": "NONE", "explanation": "Літо є протилежністю зими, але не належить до тієї самої теми."},
+    {"word": "coat", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'winter coat' зимове пальто є усталеним і часто вживається в мові."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Пустеля є гарячою і сухою місцевістю, яка не пов'язана із зимою."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані зі словом 'winter', описують зимову погоду та одяг, а слова, які не пов'язані з ним, належать до літа, гарячого клімату або літнього одягу."
+}
