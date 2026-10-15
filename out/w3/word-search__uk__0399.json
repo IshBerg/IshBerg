@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "I", "N", "T", "Q", "W", "K", "R", "J", "S"],
+    ["A", "Z", "D", "F", "O", "V", "G", "N", "U", "C"],
+    ["B", "K", "W", "Y", "L", "P", "H", "B", "Q", "M"],
+    ["I", "X", "R", "D", "J", "C", "T", "Z", "N", "F"],
+    ["M", "S", "A", "V", "K", "E", "W", "G", "O", "R"],
+    ["P", "H", "L", "Y", "X", "Q", "D", "J", "I", "N"],
+    ["L", "Z", "U", "T", "B", "N", "F", "A", "V", "C"],
+    ["Y", "R", "K", "W", "E", "O", "H", "L", "D", "P"],
+    ["G", "A", "N", "J", "Q", "R", "V", "U", "I", "Z"],
+    ["K", "T", "E", "M", "S", "A", "C", "R", "A", "S"]
+  ],
+  "words_to_find": ["HINT", "IMPLY", "SUBTEXT", "SARCASM"],
+  "word_positions": [
+    {"word": "HINT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IMPLY", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SUBTEXT", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "SARCASM", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Understanding Implicit Meanings"
+}
