@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "Q", "Z", "K", "P"],
+    ["T", "O", "N", "E", "W", "R", "J", "B", "D", "X"],
+    ["M", "I", "S", "L", "E", "A", "D", "I", "N", "G"],
+    ["R", "V", "F", "Q", "H", "U", "Y", "W", "O", "L"],
+    ["E", "A", "W", "K", "P", "G", "M", "S", "T", "Z"],
+    ["C", "B", "H", "S", "I", "C", "Z", "V", "E", "J"],
+    ["Y", "D", "T", "F", "R", "A", "N", "G", "E", "Q"],
+    ["O", "M", "L", "V", "B", "N", "T", "H", "Y", "K"],
+    ["P", "Q", "D", "Z", "W", "X", "R", "J", "C", "F"],
+    ["G", "S", "A", "U", "E", "K", "L", "M", "N", "B"]
+  ],
+  "words_to_find": ["NUANCE", "TONE", "LEAD", "RANGE", "NOTE"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TONE", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEAD", "start_row": 2, "start_col": 3, "direction": "HORIZONTAL"},
+    {"word": "RANGE", "start_row": 6, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "NOTE", "start_row": 2, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Connotation and Nuance in Word Choice"
+}

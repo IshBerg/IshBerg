@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the exam is tomorrow,",
+  "correct_completion": "I have to study tonight.",
+  "full_sentence": "Because the exam is tomorrow, I have to study tonight.",
+  "acceptable_variants": ["I must study tonight.", "I need to review my notes."],
+  "options": [
+    {"text": "I don't have to study tonight.", "is_correct": false, "why_wrong": "'Because' gives the reason for the result. An exam tomorrow is a reason for studying, so 'don't have to' does not follow logically."},
+    {"text": "I like to watch television.", "is_correct": false, "why_wrong": "This is a true statement about preferences, but it does not follow from the reason given by 'because'."},
+    {"text": "I have to study tonight.", "is_correct": true, "why_wrong": null},
+    {"text": "the exam was cancelled yesterday.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the exam is still in the future."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Have to and must for obligation after 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason, and the main clause gives the result. Here the reason is an exam, so the result is an obligation expressed with 'have to'.",
+  "translation": "Ponieważ egzamin jest jutro, muszę dziś wieczorem się uczyć."
+}

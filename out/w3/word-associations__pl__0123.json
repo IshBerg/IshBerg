@@ -1,0 +1,14 @@
+{
+  "trigger_word": "forest",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Drzewo jest podstawowym elementem lasu, więc te dwa słowa są bezpośrednio powiązane znaczeniem."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Kuchnia nie ma żadnego związku z lasem ani w znaczeniu, ani w typowych wyrażeniach."},
+    {"word": "animal", "is_associated": true, "association_type": "THEMATIC", "explanation": "Zwierzęta żyją w lesie, więc słowo należy do tego samego tematu natury."},
+    {"word": "phone", "is_associated": false, "association_type": "NONE", "explanation": "Telefon nie jest powiązany z lasem i nie pojawia się w opisach natury."},
+    {"word": "rain", "is_associated": true, "association_type": "THEMATIC", "explanation": "Deszcz często pada w lesie, a oba słowa opisują tę samą scenę przyrody."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Okno nie ma żadnego związku z lasem, ani w znaczeniu, ani w tematyce przyrody."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z 'forest' opisują rośliny, zwierzęta i zjawiska przyrody, które spotyka się w lesie; pozostałe słowa nie należą do tego tematu."
+}
