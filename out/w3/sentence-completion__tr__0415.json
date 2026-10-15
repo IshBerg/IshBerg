@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "If you come to my party on Saturday,",
+  "correct_completion": "we can play games and eat cake.",
+  "full_sentence": "If you come to my party on Saturday, we can play games and eat cake.",
+  "acceptable_variants": ["we can dance together.", "I will be very happy."],
+  "options": [
+    {"text": "I am going to the shop yesterday.", "is_correct": false, "why_wrong": "This mixes a present tense with 'yesterday'. It also does not describe the result of the condition."},
+    {"text": "we can play games and eat cake.", "is_correct": true, "why_wrong": null},
+    {"text": "did you eat cake yesterday?", "is_correct": false, "why_wrong": "This is a question about the past. It does not complete the result of the first clause."},
+    {"text": "my name is Ali.", "is_correct": false, "why_wrong": "This gives unrelated information and does not describe what happens if the guest comes."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' in the first part, we need a main clause with a future or modal result. Learners whose first language does not mark the future with a separate form may forget the modal or the subject-verb order in the result clause."
+}
