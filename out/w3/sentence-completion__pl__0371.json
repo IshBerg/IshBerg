@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the test was difficult,",
+  "correct_completion": "most students passed it.",
+  "full_sentence": "Even though the test was difficult, most students passed it.",
+  "acceptable_variants": ["many students still achieved good marks.", "most students managed to pass."],
+  "options": [
+    {"text": "because the questions were easy.", "is_correct": false, "why_wrong": "'Because' gives a reason, which conflicts with 'even though'; the sentence would need two connectors for one clause."},
+    {"text": "so the teacher was angry.", "is_correct": false, "why_wrong": "This is a consequence, not a contrast with the difficulty of the test."},
+    {"text": "the questions were very long.", "is_correct": false, "why_wrong": "This adds a description of the test but does not complete the contrast set up by 'even though'."},
+    {"text": "most students passed it.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', we need a clause that shows a result contrary to the difficulty mentioned in the first part. Learners sometimes add a cause connector after this structure, but English allows only one linking word for each clause, so the cause-based options are wrong.",
+  "translation": "Mimo że test był trudny, większość uczniów go zdała."
+}
