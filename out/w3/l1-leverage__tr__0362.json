@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current, up to date"},
+    {"word": "eventüel", "transliteration": "eventuel", "meaning": "possible, if it happens"},
+    {"word": "lokal", "transliteration": "lokal", "meaning": "a small local bar or restaurant"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likeable, pleasant"}
+  ],
+  "english_words": ["pub", "likeable", "current", "possible"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from French, so the forms look alike, but the meanings shifted differently in each language.",
+  "false_friend_warning": "The Turkish word 'aktuel' looks like English 'actual', but it means 'current' or 'up to date'; English 'actual' means 'real' or 'true'. Likewise, the Turkish word 'sempatik' means 'likeable', not English 'sympathetic', which means feeling sorry for someone."
+}

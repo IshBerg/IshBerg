@@ -1,0 +1,20 @@
+{
+  "title": "Ali Is Sick",
+  "text": "Ali has a headache today. He has a fever too. He stays in bed and drinks water.\n\nHis mother calls the doctor. The doctor says Ali needs rest. He must take medicine two times a day. In three days, Ali feels better.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Ali have today?", "options": ["A headache", "A toothache", "A cold", "A broken arm"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Who calls the doctor?", "options": ["Ali", "His father", "His mother", "His teacher"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Ali stay in bed?", "options": ["He is sick and needs rest", "He wants to sleep late", "He is waiting for a friend", "He is doing his homework"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we say about Ali's health at the end of the story?", "options": ["He is getting well", "He is getting sicker", "He has no illness", "He needs to go to hospital"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "headache", "translation": "baş ağrısı", "definition": "a pain in your head"},
+    {"word": "fever", "translation": "ateş", "definition": "a body temperature that is higher than normal when you are ill"},
+    {"word": "medicine", "translation": "ilaç", "definition": "a substance you take to make you better when you are ill"},
+    {"word": "rest", "translation": "dinlenme", "definition": "time when you relax and do not work or move much"}
+  ],
+  "paragraph_translations": [
+    "Ali'nin bugün baş ağrısı var. Ateşi de var. Yatakta kalır ve su içer.",
+    "Annesi doktoru arar. Doktor, Ali'nin dinlenmeye ihtiyacı olduğunu söyler. Günde iki kez ilaç almalı. Üç gün sonra Ali kendini daha iyi hisseder."
+  ]
+}
