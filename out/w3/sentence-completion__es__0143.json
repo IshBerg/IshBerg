@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The new bridge was closed for repairs after",
+  "correct_completion": "a serious crack had been found in one of its supports.",
+  "full_sentence": "The new bridge was closed for repairs after a serious crack had been found in one of its supports.",
+  "acceptable_variants": ["engineers had discovered a serious crack in one of its supports.", "inspectors had noticed damage to one of its supports."],
+  "options": [
+    {"text": "the cars were driving across it every day.", "is_correct": false, "why_wrong": "This describes what happened before the closure, but it does not explain why the bridge was closed."},
+    {"text": "so the city will paint it next summer.", "is_correct": false, "why_wrong": "'So' signals a result, but the sentence needs a past event that happened before the closure, not a future plan."},
+    {"text": "a serious crack had been found in one of its supports.", "is_correct": true, "why_wrong": null},
+    {"text": "it was open to traffic again on Monday.", "is_correct": false, "why_wrong": "This describes what happened after the repairs, not the event that led to the closure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive voice with the past perfect after 'after'",
+  "connector": "after",
+  "explanation": "After 'after', English needs a past perfect clause to show that the discovery happened first. The passive form had been found shows the crack was discovered before the closure. Spanish speakers sometimes use a simple past here, but English requires the past perfect to show the sequence of events.",
+  "translation": "El nuevo puente fue cerrado para reparaciones después de que se encontrara una grieta grave en uno de sus soportes."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "At the Cafe",
+  "text": "Ana and Tom are at a cafe. Ana says, \"Hello, Tom. How are you?\" Tom says, \"I am fine, thank you.\" They sit at a table by the window.\n\nTom wants a coffee. Ana wants a juice. The waiter brings their drinks. Ana smiles and says, \"Thank you!\" Then they talk and laugh together.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where are Ana and Tom?", "options": ["At a cafe", "At a school", "At a park", "At a store"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Tom want?", "options": ["A juice", "A coffee", "A sandwich", "A cake"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Ana feel at the end of the passage?", "options": ["Sad", "Happy", "Angry", "Tired"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is the most likely relationship between Ana and Tom?", "options": ["They are friends", "They are strangers", "They are teacher and student", "They are waiter and customer"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "cafe", "translation": "cafetería", "definition": "a small place where you can buy coffee and other drinks"},
+    {"word": "window", "translation": "ventana", "definition": "a glass opening in a wall that lets in light"},
+    {"word": "juice", "translation": "jugo", "definition": "a drink made from fruit"},
+    {"word": "table", "translation": "mesa", "definition": "a piece of furniture with a flat top that you sit at"}
+  ],
+  "paragraph_translations": [
+    "Ana y Tom están en una cafetería. Ana dice: \"Hola, Tom. ¿Cómo estás?\" Tom dice: \"Estoy bien, gracias.\" Ellos se sientan en una mesa junto a la ventana.",
+    "Tom quiere un café. Ana quiere un jugo. El mesero trae sus bebidas. Ana sonríe y dice: \"¡Gracias!\" Luego hablan y se ríen juntos."
+  ]
+}
