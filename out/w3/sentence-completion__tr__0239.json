@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Notwithstanding the committee's objections,",
+  "correct_completion": "the proposal was approved by a narrow margin.",
+  "full_sentence": "Notwithstanding the committee's objections, the proposal was approved by a narrow margin.",
+  "acceptable_variants": ["the proposal still passed, though only just.", "the board went ahead with it all the same."],
+  "options": [
+    {"text": "the proposal was consequently rejected outright.", "is_correct": false, "why_wrong": "'Consequently' marks a result, but the stem needs a contrasting main clause after 'notwithstanding', so this option does not complete the concessive frame."},
+    {"text": "because the committee had already voted in favour.", "is_correct": false, "why_wrong": "'Because' introduces a reason and cannot open the main clause after 'notwithstanding'; the stem requires a contrast, not a cause."},
+    {"text": "the proposal was approved by a narrow margin.", "is_correct": true, "why_wrong": null},
+    {"text": "so the objections were all withdrawn.", "is_correct": false, "why_wrong": "'So' links the objections to a direct result, which does not express the contrast that 'notwithstanding' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive linking expressions (notwithstanding, despite, although)",
+  "connector": "notwithstanding",
+  "explanation": "'Notwithstanding' introduces a concession, so the main clause has to express an outcome that goes against what the objections would normally lead to. Turkish speakers may be tempted to add a result link after the concessive phrase because they expect the clause to read as a reason or a consequence, but English concessive expressions take a contrasting main clause instead.",
+  "translation": "Komitenin itirazlarına rağmen, öneri dar bir farkla onaylandı."
+}

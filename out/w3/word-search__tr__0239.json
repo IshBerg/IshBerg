@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["D", "O", "C", "T", "O", "R", "A", "B", "W", "N"],
+    ["E", "Q", "Z", "F", "K", "M", "J", "X", "Y", "U"],
+    ["V", "A", "T", "B", "W", "D", "Q", "F", "M", "R"],
+    ["Z", "K", "Y", "C", "O", "U", "G", "H", "P", "S"],
+    ["T", "R", "N", "Q", "B", "X", "W", "A", "D", "E"],
+    ["P", "G", "H", "V", "Y", "T", "Z", "K", "J", "M"],
+    ["F", "I", "D", "W", "R", "S", "B", "Q", "X", "A"],
+    ["M", "T", "L", "E", "Y", "K", "O", "N", "G", "B"],
+    ["W", "R", "J", "L", "V", "Z", "F", "T", "U", "H"],
+    ["Y", "N", "X", "D", "A", "E", "K", "C", "I", "S"]
+  ],
+  "words_to_find": ["DOCTOR", "NURSE", "PILL", "COUGH", "SICK"],
+  "word_positions": [
+    {"word": "DOCTOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NURSE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "PILL", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "COUGH", "start_row": 3, "start_col": 3, "direction": "HORIZONTAL"},
+    {"word": "SICK", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "At the Doctor"
+}
