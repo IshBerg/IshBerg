@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother forgot his book at school, so",
+  "correct_completion": "I gave him my copy.",
+  "full_sentence": "My brother forgot his book at school, so I gave him my copy.",
+  "acceptable_variants": ["I lent him my copy.", "I let him read mine."],
+  "options": [
+    {"text": "I gave he my copy.", "is_correct": false, "why_wrong": "'He' is a subject pronoun; after the verb 'gave' we need an object pronoun, 'him'."},
+    {"text": "I gave my copy to he.", "is_correct": false, "why_wrong": "'He' is a subject pronoun; after the preposition 'to' we need an object pronoun, 'him'."},
+    {"text": "I gave him my copy.", "is_correct": true, "why_wrong": null},
+    {"text": "I gave myself my copy.", "is_correct": false, "why_wrong": "'Myself' is a reflexive pronoun meaning the speaker receives the copy; it does not show who the copy is for."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns after verbs and prepositions",
+  "connector": "so",
+  "explanation": "After the verb 'gave', the receiver is shown with an object pronoun such as 'him'. Polish speakers may mix up subject and object forms because Polish uses case endings in a different way, so the English object pronoun forms should be learned as fixed patterns.",
+  "translation": "Mój brat zapomniał książki w szkole, więc dałem mu swój egzemplarz."
+}
