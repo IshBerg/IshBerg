@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["O", "F", "F", "E", "R", "K", "Y", "B", "W", "N"],
+    ["U", "W", "Q", "L", "Z", "C", "J", "M", "V", "K"],
+    ["S", "Q", "X", "H", "K", "B", "G", "D", "Y", "Z"],
+    ["N", "V", "J", "Q", "W", "F", "O", "E", "U", "L"],
+    ["H", "K", "T", "Z", "X", "B", "Y", "A", "C", "N"],
+    ["P", "W", "M", "Q", "D", "S", "Z", "L", "R", "G"],
+    ["Y", "R", "F", "T", "L", "J", "M", "V", "Q", "K"],
+    ["B", "D", "I", "N", "C", "E", "E", "R", "G", "A"],
+    ["U", "K", "W", "C", "Z", "Q", "H", "X", "E", "P"],
+    ["J", "V", "G", "M", "E", "Q", "Y", "B", "K", "T"]
+  ],
+  "words_to_find": ["OFFER", "DEAL", "PRICE", "AGREE", "TERMS"],
+  "word_positions": [
+    {"word": "OFFER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DEAL", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "PRICE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "AGREE", "start_row": 7, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "TERMS", "start_row": 9, "start_col": 9, "direction": "DIAGONAL_UP_LEFT"}
+  ],
+  "topic": "Negotiating"
+}

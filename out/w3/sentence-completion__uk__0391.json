@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the comic strip was very funny,",
+  "correct_completion": "I laughed out loud.",
+  "full_sentence": "Because the comic strip was very funny, I laughed out loud.",
+  "acceptable_variants": ["I laughed a lot.", "I smiled and laughed."],
+  "options": [
+    {"text": "I was very sad.", "is_correct": false, "why_wrong": "Sadness does not follow naturally from something funny. 'Because' needs a result that matches its cause."},
+    {"text": "it was printed on page five.", "is_correct": false, "why_wrong": "This tells where the comic strip is, not how the reader reacts to it."},
+    {"text": "I laughed out loud.", "is_correct": true, "why_wrong": null},
+    {"text": "I put the newspaper away.", "is_correct": false, "why_wrong": "Putting the newspaper away is not a logical result of finding the comic funny."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we give the reason. The main clause then shows the result, which must follow logically from that reason.",
+  "translation": "Оскільки комікс був дуже смішним, я голосно засміявся."
+}
