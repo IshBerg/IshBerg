@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she had studied for weeks,",
+  "correct_completion": "she failed the exam.",
+  "full_sentence": "Although she had studied for weeks, she failed the exam.",
+  "acceptable_variants": ["she still did not pass.", "she nevertheless failed."],
+  "options": [
+    {"text": "so she passed easily.", "is_correct": false, "why_wrong": "'So' introduces a result that follows naturally from the studying. 'Although' requires a contrasting result."},
+    {"text": "she failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "because she studied hard.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which repeats the idea of studying instead of giving the contrasting result."},
+    {"text": "she was very tired.", "is_correct": false, "why_wrong": "This describes a state, but it does not create the contrast that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "The connector 'although' introduces a clause that goes against what we expect from the first part. The second clause must therefore show an unexpected outcome. Learners often confuse concessive connectors with cause connectors, so check whether the result is surprising or expected.",
+  "translation": "Embora ela tivesse estudado durante semanas, ela foi reprovada no exame."
+}
