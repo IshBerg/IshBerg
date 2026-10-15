@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna has already",
+  "correct_completion": "finished her homework.",
+  "full_sentence": "Anna has already finished her homework.",
+  "acceptable_variants": ["done her homework.", "completed her homework."],
+  "options": [
+    {"text": "will finish her homework tomorrow.", "is_correct": false, "why_wrong": "'Tomorrow' is a future time, but 'already' with the present perfect shows something completed before now."},
+    {"text": "has finish her homework.", "is_correct": false, "why_wrong": "After 'has', we need the past participle 'finished', not the base form 'finish'."},
+    {"text": "finished her homework.", "is_correct": true, "why_wrong": null},
+    {"text": "finished her homework yesterday.", "is_correct": false, "why_wrong": "The present perfect does not go with a specific past time like 'yesterday'. 'Already' needs the present perfect without a time expression."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'already'",
+  "connector": "already",
+  "explanation": "'Already' is used with the present perfect (has or have plus a past participle) to show that an action was completed before now. Speakers of Ukrainian often use the simple past here, because Ukrainian has no separate present perfect tense.",
+  "translation": "Аня вже зробила домашнє завдання."
+}

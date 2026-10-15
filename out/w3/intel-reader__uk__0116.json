@@ -1,0 +1,19 @@
+{
+  "title": "My Friend Lena",
+  "text": "This is my friend Lena. She is tall and she has long brown hair. She has big green eyes. She is very friendly.\n\nLena lives in a small house with a red door. The house has a big garden. There are many flowers in the garden. Lena loves her garden very much.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is Lena's hair?", "options": ["Black", "Brown", "Blonde", "Red"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What color is the door of Lena's house?", "options": ["Blue", "Green", "Red", "White"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What kind of person is Lena?", "options": ["Unfriendly", "Friendly", "Lazy", "Quiet"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does Lena probably like her house?", "options": ["It is very big and expensive", "She loves her garden and flowers", "It is in the city", "It has a swimming pool"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "garden", "translation": "сад", "definition": "a place with plants and flowers outside a house"},
+    {"word": "friendly", "translation": "дружелюбний", "definition": "kind and easy to talk to"},
+    {"word": "flowers", "translation": "квіти", "definition": "colorful plants that grow in gardens"}
+  ],
+  "paragraph_translations": [
+    "Це моя подруга Олена. Вона висока, і в неї довге каштанове волосся. У неї великі зелені очі. Вона дуже дружелюбна.",
+    "Олена живе в маленькому будинку з червоними дверима. У будинку великий сад. У саду багато квітів. Олена дуже любить свій сад."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "демократія", "transliteration": "demokratiia", "meaning": "democracy"},
+    {"word": "проблема", "transliteration": "problema", "meaning": "problem"},
+    {"word": "інформація", "transliteration": "informatsiia", "meaning": "information"},
+    {"word": "ідея", "transliteration": "ideia", "meaning": "idea"}
+  ],
+  "english_words": ["idea", "information", "democracy", "problem"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both English and the Ukrainian words were borrowed from the same Greek and Latin sources, so the spelling and meaning stayed close. The Ukrainian word for democracy is written with the same stress pattern and endings as the English word.",
+  "false_friend_warning": null
+}
