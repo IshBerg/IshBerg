@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["R", "E", "D", "A", "G", "K", "H", "J", "Q", "P"],
+    ["A", "B", "C", "F", "G", "H", "J", "K", "L", "M"],
+    ["Q", "W", "E", "R", "T", "B", "Y", "U", "I", "O"],
+    ["A", "S", "D", "F", "G", "L", "H", "J", "K", "Z"],
+    ["P", "O", "I", "U", "Y", "U", "T", "R", "E", "W"],
+    ["S", "Q", "A", "Z", "X", "E", "C", "V", "B", "N"],
+    ["M", "E", "K", "L", "J", "H", "G", "F", "D", "S"],
+    ["T", "X", "V", "Q", "W", "R", "A", "Y", "U", "I"],
+    ["Z", "I", "O", "E", "P", "M", "N", "B", "C", "X"],
+    ["L", "S", "F", "D", "N", "A", "G", "N", "E", "T"]
+  ],
+  "words_to_find": ["RED", "BLUE", "SEVEN", "TEN", "SIX"],
+  "word_positions": [
+    {"word": "RED", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BLUE", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "SEVEN", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TEN", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SIX", "start_row": 9, "start_col": 1, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Colors and Numbers 1-20"
+}

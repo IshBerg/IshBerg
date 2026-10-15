@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder,",
+  "correct_completion": "I would have passed the exam by now.",
+  "full_sentence": "If I had studied harder, I would have passed the exam by now.",
+  "acceptable_variants": ["I'd have passed the exam by now.", "I would be a doctor now."],
+  "options": [
+    {"text": "I passed the exam last year.", "is_correct": false, "why_wrong": "This is a finished past event. It does not match the hypothetical past condition in the 'if' clause or the present result signalled by 'by now'."},
+    {"text": "I would have passed the exam by now.", "is_correct": true, "why_wrong": null},
+    {"text": "I will pass the exam next week.", "is_correct": false, "why_wrong": "This is a real future plan. A mixed conditional needs a hypothetical result based on an unreal past condition."},
+    {"text": "I pass the exam every term.", "is_correct": false, "why_wrong": "This describes a habit in the present. It does not express the imagined result of an unreal past condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past perfect in the 'if' clause with 'would have' plus a present time expression in the main clause",
+  "connector": "if",
+  "explanation": "The stem uses 'if' with the past perfect, which describes an unreal past condition. The main clause uses 'would have' plus the past participle, linked to a present result, so the time phrase 'by now' is needed. Spanish speakers often use a simple past or a simple conditional here because Spanish marks this kind of hypothetical meaning with different verb tenses, so the English pattern needs to be learned as a fixed form.",
+  "translation": "Si hubiera estudiado más, ahora habría aprobado el examen."
+}
