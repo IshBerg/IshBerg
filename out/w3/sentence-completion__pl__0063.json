@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I don't know what time",
+  "correct_completion": "the train leaves.",
+  "full_sentence": "I don't know what time the train leaves.",
+  "acceptable_variants": ["the bus arrives.", "the shop opens."],
+  "options": [
+    {"text": "does the train leave?", "is_correct": false, "why_wrong": "In an embedded question the word order is statement order, so 'the train leaves' is correct, not 'does the train leave'."},
+    {"text": "the train leaves at.", "is_correct": false, "why_wrong": "The sentence ends with a preposition with no object, so it is incomplete."},
+    {"text": "the train leaves.", "is_correct": true, "why_wrong": null},
+    {"text": "leaves the train.", "is_correct": false, "why_wrong": "The word order is wrong: the subject 'the train' must come before the verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with what time",
+  "connector": "what time",
+  "explanation": "After 'what time' in an embedded question, use subject then verb, not question word order. Learners who translate directly often keep the question order from a normal question, which is a common error.",
+  "translation": "Nie wiem, o której godzinie odjeżdża pociąg."
+}
