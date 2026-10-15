@@ -1,0 +1,14 @@
+{
+  "trigger_word": "opinion",
+  "all_words": [
+    {"word": "view", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'View' é quase sinônimo de 'opinion': ambos expressam o que uma pessoa pensa sobre algo."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "'Carpet' (tapete) não tem nenhuma relação com opiniões; é um objeto usado para cobrir o chão."},
+    {"word": "debate", "is_associated": true, "association_type": "THEMATIC", "explanation": "Um debate é um momento em que pessoas apresentam e defendem suas opiniões, então os dois temas aparecem juntos."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "'Engine' (motor) pertence ao universo das máquinas e não tem ligação com o ato de opinar."},
+    {"word": "belief", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Belief' (crença) é um conceito próximo de 'opinion', pois ambos expressam aquilo em que alguém acredita."},
+    {"word": "express", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês, usamos 'express an opinion' (expressar uma opinião) como uma combinação natural de palavras."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'opinion' são sinônimos, termos de debate e combinações comuns, enquanto as demais não têm relação com o tema de opiniões."
+}
