@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I didn't reply to your text message yesterday because",
+  "correct_completion": "my phone battery was empty.",
+  "full_sentence": "I didn't reply to your text message yesterday because my phone battery was empty.",
+  "acceptable_variants": ["my phone was switched off.", "I was busy with work all day."],
+  "options": [
+    {"text": "so I sent you a photo.", "is_correct": false, "why_wrong": "'Because' introduces a reason for the missing reply. 'So I sent you a photo' describes a later action and does not explain why you did not reply."},
+    {"text": "although my phone was fine.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause. The stem needs a reason that explains the missing reply."},
+    {"text": "my phone battery was empty.", "is_correct": true, "why_wrong": null},
+    {"text": "and then I was happy.", "is_correct": false, "why_wrong": "'And then' adds a new event. It does not give a reason for not replying to the message."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part of the sentence. Students should check whether the option explains the cause rather than adding a contrast or a new event.",
+  "translation": "Nie odpisałem na twoją wiadomość wczoraj, ponieważ bateria w moim telefonie była rozładowana."
+}
