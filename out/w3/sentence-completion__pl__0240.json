@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The committee rejected the proposal; nevertheless,",
+  "correct_completion": "it agreed to reconsider the matter next year.",
+  "full_sentence": "The committee rejected the proposal; nevertheless, it agreed to reconsider the matter next year.",
+  "acceptable_variants": ["it still agreed to revisit the decision later.", "it decided to reopen the discussion."],
+  "options": [
+    {"text": "consequently, the budget was cut in half.", "is_correct": false, "why_wrong": "'Consequently' signals a result. 'Nevertheless' signals that the next part goes against what was expected after the rejection."},
+    {"text": "it agreed to reconsider the matter next year.", "is_correct": true, "why_wrong": null},
+    {"text": "the members were all in the same room.", "is_correct": false, "why_wrong": "This adds a detail but does not complete the logical contrast opened by 'nevertheless'."},
+    {"text": "similarly, the chairman had supported it.", "is_correct": false, "why_wrong": "'Similarly' signals similarity, not the contrast expected after 'nevertheless' following a rejection."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive linking with 'nevertheless' after a semicolon",
+  "connector": "nevertheless",
+  "explanation": "'Nevertheless' introduces a clause that goes against what the first clause leads us to expect. Learners at this level should choose a continuation that reverses the expected outcome, not one that adds a result or a similar point.",
+  "translation": "Komisja odrzuciła propozycję; mimo to zgodziła się ponownie rozważyć tę sprawę w przyszłym roku."
+}
