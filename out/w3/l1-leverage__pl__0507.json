@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "dres", "transliteration": "dres", "meaning": "tracksuit"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "friendly, nice"},
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "magazyn", "transliteration": "magazyn", "meaning": "warehouse, storeroom"}
+  ],
+  "english_words": ["warehouse", "current", "tracksuit", "friendly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Polish words look like English words because the two languages share a common source or borrowed similar forms, but their meanings drifted apart over time.",
+  "false_friend_warning": "Watch out for false friends: the Polish word dres looks like English 'dress' but means tracksuit, sympatyczny looks like 'sympathetic' but means friendly, aktualny looks like 'actual' but means current, and magazyn looks like 'magazine' but means warehouse."
+}
