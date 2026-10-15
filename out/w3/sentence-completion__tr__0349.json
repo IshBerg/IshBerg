@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the study was small,",
+  "correct_completion": "its findings were nevertheless widely cited by other scientists.",
+  "full_sentence": "Although the study was small, its findings were nevertheless widely cited by other scientists.",
+  "acceptable_variants": ["its conclusions still influenced later research.", "its findings were still widely cited."],
+  "options": [
+    {"text": "so its findings were widely cited by other scientists.", "is_correct": false, "why_wrong": "'So' expresses a result, not a contrast. 'Although' needs a clause that contrasts with the small size of the study."},
+    {"text": "its findings were nevertheless widely cited by other scientists.", "is_correct": true, "why_wrong": null},
+    {"text": "because the sample size was very large.", "is_correct": false, "why_wrong": "'Because' introduces a cause, and this clause contradicts the word 'small' in the stem."},
+    {"text": "the researchers also collected more data.", "is_correct": false, "why_wrong": "This adds information but does not contrast with the small size of the study."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and 'nevertheless'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first part of the sentence. 'Nevertheless' signals that the contrast is expected but does not change the outcome.",
+  "translation": "Çalışma küçük olmasına rağmen, bulguları diğer bilim insanları tarafından geniş ölçüde alıntılandı."
+}
