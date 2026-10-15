@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The team, having finished the project early,",
+  "correct_completion": "celebrated with a long dinner.",
+  "full_sentence": "The team, having finished the project early, celebrated with a long dinner.",
+  "acceptable_variants": ["celebrated with a long dinner afterwards.", "went out for a celebratory dinner."],
+  "options": [
+    {"text": "celebrate with a long dinner.", "is_correct": false, "why_wrong": "The base form 'celebrate' cannot be the main verb after a participle clause that refers to a completed action. The sentence needs a past-tense finite verb such as 'celebrated'."},
+    {"text": "to celebrate with a long dinner.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the main verb of the sentence, so the sentence would be left incomplete."},
+    {"text": "celebrated with a long dinner.", "is_correct": true, "why_wrong": null},
+    {"text": "who celebrated with a long dinner.", "is_correct": false, "why_wrong": "Adding 'who' creates a second clause without a clear link to the main verb, so the sentence has no single main verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses at the start of a sentence and the main verb that follows them",
+  "connector": "having finished",
+  "explanation": "The phrase 'having finished the project early' is a participle clause that shows an earlier completed action. It is followed by the main clause, which needs one finite past-tense verb. Options with a base form, an infinitive or an extra 'who' do not give the sentence a correct main verb.",
+  "translation": "Zespół, skończywszy projekt wcześniej, uczcił to długą kolacją."
+}

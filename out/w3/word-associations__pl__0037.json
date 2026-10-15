@@ -1,0 +1,14 @@
+{
+  "trigger_word": "newspaper",
+  "all_words": [
+    {"word": "headline", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Nagłówek to główny tytuł artykułu w gazecie, więc ściśle należy do tematu prasy."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku z gazetami; to zupełnie inny temat."},
+    {"word": "editor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Redaktor pracuje w redakcji gazety, więc jest częścią świata prasy."},
+    {"word": "elephant", "is_associated": false, "association_type": "NONE", "explanation": "Słoń nie ma żadnego związku z prasą ani z mediami."},
+    {"word": "column", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Rubryka to stały dział gazety, a połączenie newspaper column jest naturalne."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka nie ma naturalnego związku z gazetami; to przypadkowe skojarzenie z jedzeniem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo newspaper kojarzy się z treściami, pracownikami i rubrykami prasy, natomiast zwierzęta, krajobrazy i jedzenie nie mają z nim bezpośredniego związku."
+}

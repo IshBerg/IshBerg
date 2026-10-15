@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "R", "A", "I", "N", "X", "Q", "H"],
+    ["D", "G", "L", "U", "S", "Y", "K", "O"],
+    ["F", "W", "Z", "J", "V", "T", "R", "T"],
+    ["N", "Q", "X", "B", "D", "I", "M", "E"],
+    ["M", "A", "P", "W", "F", "C", "Z", "L"],
+    ["V", "J", "Y", "Q", "S", "K", "U", "N"],
+    ["B", "E", "A", "C", "H", "E", "X", "G"],
+    ["L", "P", "O", "D", "Z", "T", "W", "Y"]
+  ],
+  "words_to_find": ["TRAIN", "HOTEL", "BEACH", "TICKET", "MAP"],
+  "word_positions": [
+    {"word": "TRAIN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOTEL", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "BEACH", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TICKET", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "MAP", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Travel Experiences"
+}
