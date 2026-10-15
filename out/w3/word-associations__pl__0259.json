@@ -1,0 +1,14 @@
+{
+  "trigger_word": "money",
+  "all_words": [
+    {"word": "dough", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Dough' to potoczne, nieformalne określenie pieniędzy, więc łączy się z 'money' na poziomie znaczenia."},
+    {"word": "orchestra", "is_associated": false, "association_type": "NONE", "explanation": "Orkiestra nie ma żadnego związku z pieniędzmi ani z ich nazewnictwem, więc nie jest skojarzeniem."},
+    {"word": "currency", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Currency' to formalne określenie waluty, czyli bezpośrednio związane z pojęciem pieniądza."},
+    {"word": "velvet", "is_associated": false, "association_type": "NONE", "explanation": "Aksamit to materiał, który nie ma żadnego znaczenia związanego z pieniędzmi ani ich nazewnictwem."},
+    {"word": "bucks", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Bucks' to slangowe określenie dolarów, używane w zwrocie 'make bucks', więc tworzy kolokację z 'money'."},
+    {"word": "wallet", "is_associated": true, "association_type": "THEMATIC", "explanation": "Portfel jest tematycznie związany z pieniędzmi, ponieważ właśnie w nim się je przechowuje."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'money' tworzy skojarzenia od formalnego 'currency' po potoczne 'dough' i 'bucks', a także tematyczne 'wallet'; 'orchestra' i 'velvet' nie należą do tej sieci."
+}
