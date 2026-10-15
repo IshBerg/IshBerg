@@ -1,0 +1,14 @@
+{
+  "trigger_word": "microscope",
+  "all_words": [
+    {"word": "lens", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Mikroskobun görüntüyü büyüten temel parçası olduğu için doğrudan anlamsal bir bağlantısı vardır."},
+    {"word": "orchestra", "is_associated": false, "association_type": "NONE", "explanation": "Orkestra müzik ve sahne sanatlarına aittir, bilimsel gözlem aracı olan mikroskopla bir ilgisi yoktur."},
+    {"word": "specimen", "is_associated": true, "association_type": "THEMATIC", "explanation": "Numune, mikroskopla incelenen tipik nesne olduğu için bilimsel gözlem temasında yer alır."},
+    {"word": "pastry", "is_associated": false, "association_type": "NONE", "explanation": "Hamur işi yiyecek ile mikroskop arasında ne anlamsal ne de tematik bir bağ bulunur."},
+    {"word": "stain", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Leke, 'stained slide' gibi eşdizimli bir kullanımla mikroskopi bağlamında sıkça geçer."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Buzul, doğal coğrafya alanına ait olup mikroskopla incelenen laboratuvar ortamıyla ilişkili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Mikroskop kelimesi; lens, numune ve boyama lekesi gibi laboratuvar ve gözlem kavramlarıyla ilişkilidir, ancak orkestra, hamur işi ve buzul gibi sözcükler bu alana ait değildir."
+}

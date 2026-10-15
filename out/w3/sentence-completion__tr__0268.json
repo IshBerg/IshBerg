@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had the committee faced such a crisis,",
+  "correct_completion": "and it responded with remarkable calm.",
+  "full_sentence": "Never before had the committee faced such a crisis, and it responded with remarkable calm.",
+  "acceptable_variants": ["and it handled the situation with extraordinary composure.", "and it managed the pressure with remarkable poise."],
+  "options": [
+    {"text": "because it had prepared for months.", "is_correct": false, "why_wrong": "This introduces a cause, but the stem sets up an emphatic contrast about the committee's response, and a cause does not complete that emphasis."},
+    {"text": "and it responded with remarkable calm.", "is_correct": true, "why_wrong": null},
+    {"text": "so it panicked immediately.", "is_correct": false, "why_wrong": "A result that describes panic contradicts the emphatic praise implied by the fronted negative structure."},
+    {"text": "although it had little funding.", "is_correct": false, "why_wrong": "A concession about resources does not fit, because the rhetorical focus is on how the committee responded."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Negative adverbial fronting with subject-verb inversion for emphasis",
+  "connector": "Never before had",
+  "explanation": "After a fronted negative adverbial such as 'Never before', the auxiliary is inverted and the main clause carries the emphasis. The completion must continue that emphatic idea with a clause about the committee's response. Turkish speakers may not expect inversion here, because Turkish word order is flexible and does not use auxiliary inversion for emphasis.",
+  "translation": "Komite daha önce böyle bir krizle hiç karşılaşmamıştı ve olağanüstü bir sakinlikle tepki verdi."
+}
