@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend"},
+    {"word": "soportar", "transliteration": "soportar", "meaning": "to tolerate"}
+  ],
+  "english_words": ["sensitive", "to tolerate", "a cold", "to attend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Spanish word looks close to an English word because both languages inherited it from Latin, but the meanings drifted apart over time. The look-alike English word is therefore often the wrong choice.",
+  "false_friend_warning": "The Spanish word meaning 'having a cold' looks like English 'constipated', but the two mean different things. Likewise, the Spanish word meaning 'sensitive' looks like English 'sensible', which means 'reasonable' in English, and the Spanish word meaning 'to attend' looks like English 'assist', which means 'help'."
+}
