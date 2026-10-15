@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was walking to school,",
+  "correct_completion": "I saw a dog that had lost its way.",
+  "full_sentence": "While I was walking to school, I saw a dog that had lost its way.",
+  "acceptable_variants": ["I noticed a cat sitting near the gate.", "I met my friend at the corner."],
+  "options": [
+    {"text": "I have never seen that dog before.", "is_correct": false, "why_wrong": "The present perfect does not describe an interrupting event in the past, so it does not fit this past setting."},
+    {"text": "I saw a dog that had lost its way.", "is_correct": true, "why_wrong": null},
+    {"text": "yesterday was my birthday.", "is_correct": false, "why_wrong": "This adds unrelated information and does not describe an event that interrupts the walk."},
+    {"text": "I will visit my friend tomorrow.", "is_correct": false, "why_wrong": "The future tense does not match the past continuous setting started by 'while'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous for an action in progress, interrupted by a simple past event",
+  "connector": "while",
+  "explanation": "The past continuous 'was walking' describes the ongoing action, and the simple past 'saw' describes the event that interrupts it. Turkish speakers may find this pairing hard because Turkish marks ongoing and completed past actions with different suffixes, so the English tense pair needs to be learned as a set.",
+  "translation": "Okula yürürken, yolunu kaybetmiş bir köpek gördüm."
+}
