@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The evidence is largely circumstantial, and",
+  "correct_completion": "a definitive verdict would be premature.",
+  "full_sentence": "The evidence is largely circumstantial, and a definitive verdict would be premature.",
+  "acceptable_variants": ["a firm conclusion would not yet be warranted.", "the verdict should remain provisional."],
+  "options": [
+    {"text": "the case has been closed for several years.", "is_correct": false, "why_wrong": "The stem signals reservation about the evidence; the closure of a case does not complete the evaluative reasoning."},
+    {"text": "the witnesses were unanimous in their testimony.", "is_correct": false, "why_wrong": "Unanimous witnesses would strengthen the evidence, which contradicts the hedge set up by 'circumstantial'."},
+    {"text": "the prosecution has definitively proven its case.", "is_correct": false, "why_wrong": "Definitive proof contradicts the reservation that the stem introduces."},
+    {"text": "a definitive verdict would be premature.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Hedged evaluative statements in legal and academic reasoning",
+  "connector": "and",
+  "explanation": "The stem describes weak, indirect evidence, so the continuation must state a logical reservation about reaching a firm judgement. Turkish speakers may translate the connective literally and then choose an emphatic claim, which reverses the intended hedging.",
+  "translation": "Kanıtlar büyük ölçüde dolaylıdır ve kesin bir karar vermek henüz erken olacaktır."
+}
