@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pie", "transliteration": "pie", "meaning": "foot"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"},
+    {"word": "ropa", "transliteration": "ropa", "meaning": "clothes"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive"}
+  ],
+  "english_words": ["folder", "clothes", "foot", "sensitive"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "These Spanish words look or sound like English words, but they come from different roots and carry different meanings in each language.",
+  "false_friend_warning": "Spanish speakers may think 'pie' means the English dessert, but in Spanish it means foot. Similarly, Spanish 'sensible' means sensitive, not reasonable as in English."
+}
