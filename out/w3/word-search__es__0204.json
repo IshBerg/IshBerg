@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "A", "P", "P", "Y", "K", "S"],
+    ["B", "C", "D", "E", "F", "G", "A"],
+    ["A", "J", "K", "L", "M", "N", "D"],
+    ["N", "Q", "R", "S", "T", "U", "V"],
+    ["G", "W", "X", "Y", "Z", "B", "C"],
+    ["R", "D", "F", "H", "J", "L", "M"],
+    ["Y", "Q", "T", "I", "R", "E", "D"]
+  ],
+  "words_to_find": ["HAPPY", "SAD", "ANGRY", "TIRED"],
+  "word_positions": [
+    {"word": "HAPPY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SAD", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ANGRY", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TIRED", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Feelings and Reactions"
+}
