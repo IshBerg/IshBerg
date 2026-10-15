@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The dog is",
+  "correct_completion": "in the garden.",
+  "full_sentence": "The dog is in the garden.",
+  "acceptable_variants": ["outside.", "near the house."],
+  "options": [
+    {"text": "the garden in.", "is_correct": false, "why_wrong": "The word order is wrong. The preposition 'in' must come before 'the garden'."},
+    {"text": "in the garden.", "is_correct": true, "why_wrong": null},
+    {"text": "in the bottle.", "is_correct": false, "why_wrong": "A dog is far too big to be inside a bottle, so the place does not make sense."},
+    {"text": "in the book.", "is_correct": false, "why_wrong": "A dog cannot fit inside a book, so this place is not logical for a dog."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: in, on, under",
+  "connector": "none",
+  "explanation": "The completion must name a place where a dog can realistically be, and the preposition must come before the noun phrase.",
+  "translation": "Pies jest w ogrodzie."
+}

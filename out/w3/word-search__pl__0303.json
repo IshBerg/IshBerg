@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "C", "H", "O", "O", "L", "X", "Q", "Z", "P"],
+    ["B", "K", "V", "T", "W", "J", "A", "G", "D", "H"],
+    ["F", "L", "M", "P", "K", "Z", "Y", "W", "Q", "O"],
+    ["G", "R", "X", "B", "D", "J", "K", "V", "T", "N"],
+    ["Q", "W", "I", "L", "S", "R", "T", "M", "P", "E"],
+    ["Y", "A", "Z", "E", "K", "Q", "B", "L", "X", "U"],
+    ["T", "P", "D", "W", "N", "F", "H", "K", "V", "G"],
+    ["R", "E", "L", "Z", "B", "D", "Y", "J", "W", "C"],
+    ["A", "N", "K", "Q", "T", "V", "G", "B", "J", "Z"],
+    ["P", "Q", "W", "X", "G", "C", "I", "S", "U", "M"]
+  ],
+  "words_to_find": ["SCHOOL", "PHONE", "FRIEND", "MUSIC", "PARTY"],
+  "word_positions": [
+    {"word": "SCHOOL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PHONE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "FRIEND", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MUSIC", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "PARTY", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Teen Life"
+}
