@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Could you tell me where",
+  "correct_completion": "the nearest bus stop is.",
+  "full_sentence": "Could you tell me where the nearest bus stop is?",
+  "acceptable_variants": ["the train station is.", "the nearest bus stop is near the bank."],
+  "options": [
+    {"text": "is the nearest bus stop?", "is_correct": false, "why_wrong": "Indirect questions use statement word order, not question word order, so 'is' should come after the subject."},
+    {"text": "the nearest bus stop is.", "is_correct": true, "why_wrong": null},
+    {"text": "do the nearest bus stop is.", "is_correct": false, "why_wrong": "The auxiliary 'do' is not used with 'be' in an indirect question, and the verb form is wrong here."},
+    {"text": "the nearest bus stop went.", "is_correct": false, "why_wrong": "'Went' describes movement in the past and does not answer where the stop is located."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with 'where' and statement word order",
+  "connector": "where",
+  "explanation": "In an indirect question introduced by 'where', the subject comes before the verb, as in a statement. Learners often keep question word order, which makes the clause incorrect.",
+  "translation": "Скажіть, будь ласка, де найближча автобусна зупинка?"
+}
