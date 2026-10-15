@@ -1,0 +1,14 @@
+{
+  "codename": "SKY WATCH",
+  "briefing": "Agent, we have intercepted weather reports that must be decoded. Connect the evidence cards to reveal the hidden matches before the storm arrives.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "sunny", "right": "ensolarado", "left_style": "document", "right_style": "handwritten"},
+    {"left": "rainy", "right": "chuvoso", "left_style": "photo", "right_style": "document"},
+    {"left": "windy", "right": "ventoso", "left_style": "newspaper", "right_style": "official"},
+    {"left": "cloudy", "right": "nublado", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "snowy", "right": "nevado", "left_style": "official", "right_style": "newspaper"},
+    {"left": "cold", "right": "frio", "left_style": "photo", "right_style": "official"}
+  ]
+}
