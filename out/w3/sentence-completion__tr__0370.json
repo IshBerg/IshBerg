@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she had studied for weeks,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Although she had studied for weeks, she still failed the exam.",
+  "acceptable_variants": ["she still did not pass the test.", "the exam still proved too difficult for her."],
+  "options": [
+    {"text": "so she passed easily.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. 'Although' needs a clause that goes against the expectation set by the first part."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she was very tired.", "is_correct": false, "why_wrong": "This gives a reason or state but does not complete the contrast that 'although' sets up."},
+    {"text": "she bought a new book.", "is_correct": false, "why_wrong": "This is an unrelated action and does not contrast with the effort of studying."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a result that contrasts with the expected outcome of the first clause. Learners often mix up contrast and cause connectors.",
+  "translation": "Haftalarca çalışmasına rağmen sınavda yine de başarısız oldu."
+}
