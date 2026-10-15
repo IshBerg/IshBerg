@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the train arrives,",
+  "correct_completion": "she will have finished her shift.",
+  "full_sentence": "By the time the train arrives, she will have finished her shift.",
+  "acceptable_variants": ["she will already have finished her shift.", "she will have completed her shift."],
+  "options": [
+    {"text": "she has finished her shift.", "is_correct": false, "why_wrong": "The present perfect describes a completed action seen from the present. A future action completed before a future point needs 'will have' plus the past participle."},
+    {"text": "she finishes her shift.", "is_correct": false, "why_wrong": "The simple present describes a routine or fixed timetable, not an action that will be completed before the train arrives."},
+    {"text": "she will have finished her shift.", "is_correct": true, "why_wrong": null},
+    {"text": "she will finish her shift.", "is_correct": false, "why_wrong": "The simple future does not show that the action will already be complete at the moment the train arrives. The future perfect is required."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect with 'by the time'",
+  "connector": "by the time",
+  "explanation": "After 'by the time', the main clause must describe an action that will be finished before the point in the future named by the time clause, so we use the future perfect: will have plus the past participle. Turkish speakers may drop the perfect element here because Turkish expresses completion with verb suffixes rather than a separate auxiliary, so the will-have structure needs deliberate practice.",
+  "translation": "Tren geldiğinde, o vardiyasını bitirmiş olacak."
+}
