@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "мама", "transliteration": "mama", "meaning": "mom, mother"},
+    {"word": "тато", "transliteration": "tato", "meaning": "dad, father"},
+    {"word": "брат", "transliteration": "brat", "meaning": "brother"},
+    {"word": "сестра", "transliteration": "sestra", "meaning": "sister"}
+  ],
+  "english_words": ["sister", "mother", "brother", "father"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words are not true cognates, since the Ukrainian forms are native words and do not come from the same root as the English ones. They are included because the Ukrainian and English forms look and sound alike in the case of 'mama' and 'tato', which may help a learner remember the pairing. The Ukrainian word for brother also has a close English match in spelling pattern, but the pairing is only partly similar.",
+  "false_friend_warning": null
+}

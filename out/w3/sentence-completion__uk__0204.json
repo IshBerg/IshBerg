@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the team had started the project earlier,",
+  "correct_completion": "they would be finishing it by now.",
+  "full_sentence": "If the team had started the project earlier, they would be finishing it by now.",
+  "acceptable_variants": ["they would probably be presenting the results today.", "the work would already be well advanced."],
+  "options": [
+    {"text": "they would be finishing it by now.", "is_correct": true, "why_wrong": null},
+    {"text": "they finish it yesterday.", "is_correct": false, "why_wrong": "The past simple here does not form a conditional result. The sentence needs a conditional form such as 'would be' to match the third conditional in the if-clause."},
+    {"text": "they will have finished it last week.", "is_correct": false, "why_wrong": "'Will have finished' is a future perfect form and does not complete a mixed conditional that links a past condition to a present result."},
+    {"text": "they had been finishing it since Monday.", "is_correct": false, "why_wrong": "This describes a past activity in progress, but it does not provide the present-time result expected after a past condition in a mixed conditional."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: a past unreal condition with a present unreal result",
+  "connector": "if",
+  "explanation": "The if-clause uses the past perfect, which refers to an unreal past condition, while the main clause uses 'would' with a continuous form to describe an unreal present result. Options that give a finished past event or a future perfect result do not match this mixed pattern. Ukrainian speakers may find the time shift between the two clauses difficult, because Ukrainian verb forms do not separate past and present reference in the same way.",
+  "translation": "Якби команда почала проєкт раніше, вони б зараз уже його завершували."
+}
