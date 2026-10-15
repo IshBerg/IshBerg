@@ -1,0 +1,32 @@
+{
+  "collocation_type": "VERB_PREP",
+  "base_word": "depend",
+  "collocate": "on",
+  "full_collocation": "depend on",
+  "options": ["on", "to", "in", "for"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "to", "reason": "We don't say 'depend to'. 'To' follows verbs like 'lead to' or 'belong to', not 'depend'."},
+    {"word": "in", "reason": "We don't say 'depend in'. 'In' is used with verbs like 'believe in' or 'interested in'."},
+    {"word": "for", "reason": "'Depend for' is not standard English. 'For' is used with verbs like 'wait for' or 'ask for'."}
+  ],
+  "example_sentence": "Our conclusions depend ___ the quality of the data we collect.",
+  "gap_position": 3,
+  "translation": "-e bağlı olmak",
+  "l1_interference": "Türkçe konuşanlar 'bağlı' kavramını dilbilgisel bir ek gibi düşünüp edat kullanmayı unutabilir. İngilizcede 'depend' fiili mutlaka 'on' ile kullanılır: 'depend on', 'depend to' veya 'depend of' değil.",
+  "common_mistake": "depend of the data",
+  "explanation": "In English, 'depend' takes 'on' when it means that something is determined or controlled by something else.",
+  "related_collocations": [
+    {"collocation": "rely on", "translation": "güvenmek, dayanmak", "example": "Scientists rely on accurate measurements."},
+    {"collocation": "account for", "translation": "açıklamak, hesaba katmak", "example": "Measurement errors may account for the difference."},
+    {"collocation": "arise from", "translation": "kaynaklanmak", "example": "Many problems arise from poor sampling."}
+  ],
+  "matching_pairs": [
+    {"left": "depend", "right": "on the quality of the data"},
+    {"left": "rely", "right": "on repeated measurements"},
+    {"left": "account", "right": "for the unexpected results"},
+    {"left": "consist", "right": "of several variables"},
+    {"left": "arise", "right": "from experimental error"}
+  ],
+  "memory_tip": "DEPEND ON = something is decided by something else. Think: the result DEPENDS ON the data."
+}
