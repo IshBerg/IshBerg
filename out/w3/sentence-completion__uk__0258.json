@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have got a headache, so",
+  "correct_completion": "I am going to take some medicine.",
+  "full_sentence": "I have got a headache, so I am going to take some medicine.",
+  "acceptable_variants": ["I am going to rest at home.", "I am going to see a doctor."],
+  "options": [
+    {"text": "I am going to the cinema.", "is_correct": false, "why_wrong": "Going to the cinema is not a logical result of having a headache."},
+    {"text": "I have got a new phone.", "is_correct": false, "why_wrong": "This is unrelated to the headache. 'So' needs a result of the first clause."},
+    {"text": "I am going to take some medicine.", "is_correct": true, "why_wrong": null},
+    {"text": "I like chocolate.", "is_correct": false, "why_wrong": "Liking chocolate does not follow from having a headache."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "'So' to show a result after a present perfect clause",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. A headache is a reason to take medicine, so the completion must describe a logical consequence.",
+  "translation": "У мене болить голова, тому я збираюся прийняти ліки."
+}
