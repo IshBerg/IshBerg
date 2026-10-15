@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "H", "E", "R", "E", "F", "O", "R", "E"],
+    ["K", "J", "H", "Q", "W", "Z", "X", "P", "M"],
+    ["B", "T", "Q", "O", "K", "Y", "W", "Z", "J"],
+    ["E", "U", "R", "K", "W", "P", "M", "Q", "X"],
+    ["C", "N", "T", "J", "K", "E", "Z", "W", "Y"],
+    ["A", "L", "X", "Q", "M", "P", "V", "J", "Z"],
+    ["U", "E", "K", "Y", "T", "W", "Q", "E", "R"],
+    ["S", "S", "M", "P", "Z", "K", "J", "W", "R"],
+    ["E", "S", "Q", "X", "W", "J", "K", "T", "P"]
+  ],
+  "words_to_find": ["THEREFORE", "BECAUSE", "HOWEVER", "UNLESS"],
+  "word_positions": [
+    {"word": "THEREFORE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BECAUSE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "HOWEVER", "start_row": 1, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "UNLESS", "start_row": 3, "start_col": 1, "direction": "VERTICAL"}
+  ],
+  "topic": "Linking Words and Connectors"
+}
