@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had the meeting begun",
+  "correct_completion": "when the fire alarm went off.",
+  "full_sentence": "Hardly had the meeting begun when the fire alarm went off.",
+  "acceptable_variants": ["when someone pulled the emergency lever.", "when the power suddenly failed."],
+  "options": [
+    {"text": "so everyone went back to their desks.", "is_correct": false, "why_wrong": "'So' introduces a result, but the inverted 'hardly ... when' pattern needs a clause that describes the event that happens immediately after the start."},
+    {"text": "than the staff had expected.", "is_correct": false, "why_wrong": "'Than' needs a comparison, and 'hardly' is not followed by a comparative in this structure."},
+    {"text": "when the fire alarm went off.", "is_correct": true, "why_wrong": null},
+    {"text": "until the building was evacuated.", "is_correct": false, "why_wrong": "'Until' does not complete this inversion; 'hardly ... when' is the fixed pattern for one event happening right after another."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'hardly' followed by 'when'",
+  "connector": "when",
+  "explanation": "After 'hardly' at the start of a sentence, the auxiliary verb comes before the subject, and the main clause is completed with 'when'. Spanish speakers often place the subject before the verb in this structure, so the word order needs practice."
+  ,"translation": "Apenas había comenzado la reunión cuando sonó la alarma de incendios."
+}
