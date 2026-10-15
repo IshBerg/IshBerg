@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Nehir, köprünün genellikle üzerinden geçtiği su yoludur, bu yüzden iki kavram doğrudan ilişkilidir."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sandviç bir yiyecektir ve köprü kavramıyla anlamsal bir bağlantısı yoktur."},
+    {"word": "cross", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Cross a bridge' sık kullanılan bir kalıptır, bu yüzden iki kelime birlikte kullanılır."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bir müzik aletidir ve köprü kavramıyla ilgisi yoktur."},
+    {"word": "bridle", "is_associated": true, "association_type": "PHONETIC", "explanation": "'Bridle' (dizgin) kelimesi 'bridge' ile benzer okunur, bu nedenle bu bir sesçil bağlantıdır."},
+    {"word": "pepper", "is_associated": false, "association_type": "NONE", "explanation": "Biber bir baharattır ve köprü ile hiçbir ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Köprü kelimesiyle ilişkili olan kelimeler anlam, deyim kalıbı veya ses benzerliği üzerinden bağlanır; diğer kelimeler bu ilişkilerin hiçbirine uymaz."
+}
