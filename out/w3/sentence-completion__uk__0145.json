@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The documents were signed",
+  "correct_completion": "by the director at noon.",
+  "full_sentence": "The documents were signed by the director at noon.",
+  "acceptable_variants": ["by the manager at noon.", "by the director this morning."],
+  "options": [
+    {"text": "the director has them now.", "is_correct": false, "why_wrong": "This is a complete sentence about possession, but it does not describe the action of signing that the passive stem starts."},
+    {"text": "by the director at noon.", "is_correct": true, "why_wrong": null},
+    {"text": "so the office is closed now.", "is_correct": false, "why_wrong": "'So' adds a result, but it does not give the agent or time of the signing that the stem needs."},
+    {"text": "yesterday the office was busy.", "is_correct": false, "why_wrong": "This describes the office, not the action done to the documents."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Passive voice in the past simple with 'by' to show the agent",
+  "connector": "by",
+  "explanation": "In a passive sentence, 'by' introduces the person or thing that performs the action. Ukrainian speakers sometimes drop the agent or move it to the start of the sentence, but English normally places the agent after the past participle with 'by'.",
+  "translation": "Документи були підписані директором опівдні."
+}
