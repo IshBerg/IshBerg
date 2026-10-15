@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more free time,",
+  "correct_completion": "I would learn to play the guitar.",
+  "full_sentence": "If I had more free time, I would learn to play the guitar.",
+  "acceptable_variants": ["I would take a music class.", "I would practise every day."],
+  "options": [
+    {"text": "I will learn to play the guitar next year.", "is_correct": false, "why_wrong": "This is a real plan for the future. The stem sets up an imagined situation, which needs a second conditional result."},
+    {"text": "I learned to play the guitar when I was young.", "is_correct": false, "why_wrong": "This describes a past event, which does not follow from the hypothetical condition in the stem."},
+    {"text": "I would learn to play the guitar.", "is_correct": true, "why_wrong": null},
+    {"text": "I have learned to play the guitar already.", "is_correct": false, "why_wrong": "The present perfect describes a finished experience, not an imagined result of a condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional: if + past simple, would + base verb",
+  "connector": "if",
+  "explanation": "The second conditional describes an unreal or unlikely situation in the present and its imagined result. The if-clause uses the past simple, and the main clause uses would plus the base verb. Spanish speakers often place the conditional form in the if-clause, which is a common mistake in English.",
+  "translation": "Si tuviera más tiempo libre, aprendería a tocar la guitarra."
+}
