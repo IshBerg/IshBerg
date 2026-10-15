@@ -1,0 +1,17 @@
+{
+  "central_word": "damage",
+  "chain_words": [
+    {"word": "affect", "intensity": 1, "translation": "afectar", "nuance": "to have some effect on something, not necessarily negative"},
+    {"word": "harm", "intensity": 2, "translation": "perjudicar", "nuance": "to cause injury or negative effects"},
+    {"word": "damage", "intensity": 3, "translation": "dañar", "nuance": "to cause physical or structural harm"},
+    {"word": "destroy", "intensity": 4, "translation": "destruir", "nuance": "to ruin something so it no longer exists or works"},
+    {"word": "devastate", "intensity": 5, "translation": "devastar", "nuance": "to cause complete ruin on a very large scale"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words describe increasing levels of impact, from a light effect on something to total ruin.",
+  "usage_notes": [
+    {"word1": "harm", "word2": "damage", "difference": "'Harm' is most often used for people, health, or interests; 'damage' is most often used for objects, property, or the environment."}
+  ],
+  "translations": {"affect": "afectar", "harm": "perjudicar", "damage": "dañar", "destroy": "destruir", "devastate": "devastar"}
+}
