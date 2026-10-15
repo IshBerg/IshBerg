@@ -1,0 +1,14 @@
+{
+  "trigger_word": "project",
+  "all_words": [
+    {"word": "deadline", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Project deadline' to stałe połączenie: termin ukończenia projektu, o którym często mówi się na egzaminie."},
+    {"word": "elephant", "is_associated": false, "association_type": "NONE", "explanation": "Słowo 'elephant' nie ma żadnego związku z projektem; oznacza zwierzę."},
+    {"word": "research", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Badania (research) są częścią większości projektów, zwłaszcza akademickich, więc znaczenia się pokrywają."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "Zachód słońca nie jest związany z projektami ani z pracą nad nimi."},
+    {"word": "presentation", "is_associated": true, "association_type": "THEMATIC", "explanation": "Prezentacja wyników należy do tematu projektu, bo często nią kończy się praca nad projektem."},
+    {"word": "budget", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Project budget' to stałe połączenie: budżet projektu określa wydatki na jego realizację."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'project' kojarzy się z terminami, badaniami, prezentacjami i budżetem, a 'elephant' oraz 'sunset' nie mają z nim związku."
+}
