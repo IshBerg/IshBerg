@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were you,",
+  "correct_completion": "I would talk to the manager first.",
+  "full_sentence": "If I were you, I would talk to the manager first.",
+  "acceptable_variants": ["I would speak with the manager first.", "I would probably contact the manager."],
+  "options": [
+    {"text": "I talked to the manager yesterday.", "is_correct": false, "why_wrong": "The past simple reports a real past event. It does not fit the imagined situation introduced by 'If I were you'."},
+    {"text": "I am going to be sleeping now.", "is_correct": false, "why_wrong": "A continuous tense does not express advice in a conditional sentence with 'If I were you'."},
+    {"text": "I would talk to the manager first.", "is_correct": true, "why_wrong": null},
+    {"text": "I have talked to the manager already.", "is_correct": false, "why_wrong": "The present perfect reports a completed action. It does not express an imagined response to the situation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'were' in hypothetical advice",
+  "connector": "if",
+  "explanation": "The second conditional uses a past form such as 'were' in the if-clause and 'would' plus the base verb in the main clause. Portuguese speakers may be tempted to use a simple future here, but the imagined situation requires 'would'.",
+  "translation": "Se eu fosse você, eu falaria primeiro com o gerente."
+}
