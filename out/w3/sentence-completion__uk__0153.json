@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has worked at the bank",
+  "correct_completion": "for ten years.",
+  "full_sentence": "She has worked at the bank for ten years.",
+  "acceptable_variants": ["since 2015.", "for almost a decade."],
+  "options": [
+    {"text": "since ten years ago.", "is_correct": false, "why_wrong": "'Since' needs a starting point in time, not a duration with 'ago'. Use 'for' with a period of time."},
+    {"text": "for ten years.", "is_correct": true, "why_wrong": null},
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "The present perfect does not combine with a specific finished time such as 'yesterday'."},
+    {"text": "last year she moved.", "is_correct": false, "why_wrong": "This is a past simple action that does not describe a period continuing up to now."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'for' and 'since'",
+  "connector": "for",
+  "explanation": "'For' introduces a duration of time, while 'since' introduces a starting point. Ukrainian has no separate present perfect, so learners often use a present tense here, but English needs the present perfect to show an action continuing up to now.",
+  "translation": "Вона працює в банку десять років."
+}
