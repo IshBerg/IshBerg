@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people disagree with the new rule,",
+  "correct_completion": "I believe it is still a fair decision.",
+  "full_sentence": "Although many people disagree with the new rule, I believe it is still a fair decision.",
+  "acceptable_variants": ["I still think it is a fair decision.", "most citizens nevertheless support it."],
+  "options": [
+    {"text": "so they have to follow it.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. The stem requires a clause that goes against the disagreement."},
+    {"text": "I believe it is still a fair decision.", "is_correct": true, "why_wrong": null},
+    {"text": "the rule was written last year.", "is_correct": false, "why_wrong": "This adds a factual detail but does not contrast with the disagreement that 'although' introduces."},
+    {"text": "because the rule is new.", "is_correct": false, "why_wrong": "'Because' expresses cause, while 'although' requires contrast. This clause does not fit the connector."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in opinion writing",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. Here the writer admits disagreement and then gives a personal opinion. Ukrainian speakers may reach for a simple cause clause because their native connectors often mix cause and concession.",
+  "translation": "Хоча багато людей не погоджуються з новим правилом, я вважаю, що це справедливе рішення."
+}

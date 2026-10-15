@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Порівняння є близькою за змістом фігурою мови, але воно використовує слова 'як' або 'наче', тому відрізняється від метафори."},
+    {"word": "invoice", "is_associated": false, "association_type": "NONE", "explanation": "Рахунок-фактура належить до ділової документації і не має жодного зв'язку з мовними засобами."},
+    {"word": "imagery", "is_associated": true, "association_type": "THEMATIC", "explanation": "Образність тісно пов'язана з метафорою, бо обидва поняття стосуються створення яскравих образів у тексті."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик є природним явищем і не пов'язаний з літературними засобами виразності."},
+    {"word": "figurative", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово 'figurative' часто вживається разом із 'metaphor' у фразах на кшталт 'figurative language', тому воно є типовим сполученням."},
+    {"word": "symbol", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Символ, як і метафора, передає глибший зміст через образ, тому поняття близькі за значенням."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'metaphor' пов'язане з мовними засобами виразності, образністю та символікою, тоді як рахунок-фактура та льодовик до нього не належать."
+}
