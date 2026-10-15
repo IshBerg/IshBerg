@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been thoroughly reviewed by the committee,",
+  "correct_completion": "the proposal was finally approved.",
+  "full_sentence": "Having been thoroughly reviewed by the committee, the proposal was finally approved.",
+  "acceptable_variants": ["the proposal finally received approval.", "the proposal was at last accepted by the board."],
+  "options": [
+    {"text": "to finally approve the proposal.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the main verb of the sentence. A finite verb is needed after the introductory phrase."},
+    {"text": "the proposal being approved it.", "is_correct": false, "why_wrong": "The sentence is grammatically broken here: the object 'it' repeats the subject and the passive structure does not form a complete clause."},
+    {"text": "the proposal was finally approved.", "is_correct": true, "why_wrong": null},
+    {"text": "the proposal finally approving.", "is_correct": false, "why_wrong": "A present participle alone cannot complete the clause. Without an auxiliary or finite verb, the sentence has no main verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect passive participle clauses with 'having been' followed by a finite passive main clause",
+  "connector": "having been",
+  "explanation": "The stem uses a perfect passive participle phrase that describes an earlier completed action. The main clause must supply a finite passive verb, with the subject that was reviewed now receiving the approval. Learners often attempt a simple infinitive or participle here, which cannot carry the main verb.",
+  "translation": "Після ретельного розгляду комітетом пропозицію врешті-решт схвалили."
+}
