@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you study hard this year,",
+  "correct_completion": "you will pass the exam.",
+  "full_sentence": "If you study hard this year, you will pass the exam.",
+  "acceptable_variants": ["you will get good grades.", "you will be happy with your results."],
+  "options": [
+    {"text": "you went to the cinema last night.", "is_correct": false, "why_wrong": "This is a past action and does not give the future result that a first conditional sentence requires."},
+    {"text": "you would pass the exam.", "is_correct": false, "why_wrong": "'Would' expresses a hypothetical result; a real future condition like this one uses 'will' in the main clause."},
+    {"text": "you will pass the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "you have passed the exam already.", "is_correct": false, "why_wrong": "The present perfect describes a completed past result, which does not match the future result expected after 'if'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense clause about the future, the main clause uses 'will' for a real future result. Spanish speakers may use a present form in the result clause, but English requires 'will' there.",
+  "translation": "Si estudias mucho este año, aprobarás el examen."
+}
