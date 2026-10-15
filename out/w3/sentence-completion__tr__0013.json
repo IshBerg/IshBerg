@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the meeting,",
+  "correct_completion": "I would have brought the documents.",
+  "full_sentence": "If I had known about the meeting, I would have brought the documents.",
+  "acceptable_variants": ["I would have prepared a summary.", "I would definitely have attended."],
+  "options": [
+    {"text": "I would bring the documents now.", "is_correct": false, "why_wrong": "'Would bring now' refers to the present, but the stem's past conditional requires a perfect result clause."},
+    {"text": "I brought the documents yesterday.", "is_correct": false, "why_wrong": "This states a past fact, not a result of the unreal condition set up by the stem."},
+    {"text": "I would have brought the documents.", "is_correct": true, "why_wrong": null},
+    {"text": "I will bring the documents tomorrow.", "is_correct": false, "why_wrong": "A future form with 'will' does not fit an unreal past condition, which needs 'would have' in the result clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional (unreal past)",
+  "connector": "if",
+  "explanation": "The stem uses 'if' followed by the past perfect, which describes a situation that did not happen. The main clause must therefore use 'would have' plus a past participle to express the imagined result.",
+  "translation": "Toplantıdan haberim olsaydı, belgeleri getirmiş olurdum."
+}
