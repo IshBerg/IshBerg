@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She told me that she",
+  "correct_completion": "had finished her homework.",
+  "full_sentence": "She told me that she had finished her homework.",
+  "acceptable_variants": ["had already done her homework.", "had completed her homework."],
+  "options": [
+    {"text": "finish her homework yesterday.", "is_correct": false, "why_wrong": "After a past reporting verb like 'told', the verb needs a past form, not a base form with a time expression that does not fit reported speech."},
+    {"text": "had finished her homework.", "is_correct": true, "why_wrong": null},
+    {"text": "will finish her homework.", "is_correct": false, "why_wrong": "In reported speech, 'will' shifts backward to 'would' after a past reporting verb, so 'will' is not correct here."},
+    {"text": "is finishing her homework.", "is_correct": false, "why_wrong": "The present continuous does not fit after 'told', because the reported action must move back into the past."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Backshift of tenses in reported speech",
+  "connector": "that",
+  "explanation": "After a past reporting verb, the tense of the reported clause moves one step back in time. Learners often keep the original tense or use a future form, which breaks the backshift rule.",
+  "translation": "Ela me disse que tinha terminado o dever de casa."
+}

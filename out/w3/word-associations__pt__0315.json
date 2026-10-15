@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hypothesis",
+  "all_words": [
+    {"word": "experiment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Experimento é o procedimento usado para testar uma hipótese, por isso pertence ao mesmo campo da pesquisa científica."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Travesseiro é um objeto do cotidiano doméstico e não tem nenhuma relação com a formulação ou o teste de hipóteses."},
+    {"word": "formulate", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês diz-se 'formulate a hypothesis' (formular uma hipótese), uma colocação típica da linguagem científica."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "Cenoura é um alimento e não tem qualquer ligação com o raciocínio científico ou com pesquisas."},
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Evidência é o que sustenta ou refuta uma hipótese, por isso está diretamente ligada ao tema."},
+    {"word": "sandal", "is_associated": false, "association_type": "NONE", "explanation": "Sandália é um tipo de calçado e não se relaciona com ciência, pesquisa ou hipóteses."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'hypothesis' pertencem ao campo da pesquisa científica, como experimentos, evidências e colocações como 'formulate a hypothesis'; as demais não têm relação com o tema."
+}

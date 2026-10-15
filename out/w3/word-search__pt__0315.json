@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "R", "O", "C", "H", "U", "R", "E", "X", "L"],
+    ["Q", "K", "M", "Z", "W", "P", "D", "S", "V", "E"],
+    ["F", "J", "Z", "Q", "K", "W", "M", "T", "B", "A"],
+    ["G", "L", "X", "C", "N", "K", "P", "Z", "Q", "F"],
+    ["V", "B", "Y", "J", "D", "M", "W", "X", "H", "L"],
+    ["K", "M", "W", "E", "T", "Q", "J", "B", "S", "E"],
+    ["P", "D", "V", "N", "R", "L", "Z", "G", "H", "T"],
+    ["Y", "Q", "I", "K", "F", "W", "B", "U", "C", "A"],
+    ["X", "R", "D", "S", "Z", "J", "N", "Q", "V", "K"],
+    ["P", "A", "Z", "X", "W", "O", "T", "O", "H", "P"]
+  ],
+  "words_to_find": ["BROCHURE", "LEAFLET", "FLYER", "PHOTO", "PRINT"],
+  "word_positions": [
+    {"word": "BROCHURE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEAFLET", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "FLYER", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PHOTO", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "PRINT", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Brochures"
+}
