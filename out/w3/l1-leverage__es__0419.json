@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"},
+    {"word": "éxito", "transliteration": "exito", "meaning": "success"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current"}
+  ],
+  "english_words": ["success", "bookshop", "current", "folder"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These Spanish words look almost identical to English words, but the shared spelling comes from different roots, so the meanings split apart.",
+  "false_friend_warning": "The Spanish word for bookshop looks like the English word 'library', but it means a store where books are sold, not a place where books are borrowed."
+}
