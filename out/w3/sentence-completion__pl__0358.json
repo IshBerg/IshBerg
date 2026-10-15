@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the proposed tax would generate substantial revenue,",
+  "correct_completion": "many economists argue it would discourage long-term investment.",
+  "full_sentence": "Although the proposed tax would generate substantial revenue, many economists argue it would discourage long-term investment.",
+  "acceptable_variants": ["critics warn that it could slow economic growth.", "opponents still question its long-term effects on businesses."],
+  "options": [
+    {"text": "so economists unanimously support it.", "is_correct": false, "why_wrong": "'Although' already sets up a contrast, and 'so' signals a result. Using both connectors together breaks the concessive structure."},
+    {"text": "because it would generate substantial revenue.", "is_correct": false, "why_wrong": "This repeats the first clause as a cause and offers no contrast, so the 'although' structure is left unfinished."},
+    {"text": "many economists argue it would discourage long-term investment.", "is_correct": true, "why_wrong": null},
+    {"text": "the revenue would be spent on public infrastructure.", "is_correct": false, "why_wrong": "This adds a neutral detail about spending but does not present the counterpoint that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must present a point that contrasts with the first clause, typically a counterargument. Results, causes and neutral additions do not fulfil this function.",
+  "translation": "Chociaż proponowany podatek przyniósłby znaczne wpływy, wielu ekonomistów twierdzi, że zniechęciłby on inwestycje długoterminowe."
+}
