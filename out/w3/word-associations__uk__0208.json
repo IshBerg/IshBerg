@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "THEMATIC", "explanation": "Плита є одним із основних предметів кухні, тому це слово тісно пов'язане з кухнею."},
+    {"word": "bed", "is_associated": false, "association_type": "NONE", "explanation": "Ліжко стоїть у спальні, а не на кухні, тому слово не пов'язане з кухнею."},
+    {"word": "fridge", "is_associated": true, "association_type": "THEMATIC", "explanation": "Холодильник є типовим предметом кухні для зберігання продуктів."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Сад знаходиться поза будинком, тому він не пов'язаний із кухнею."},
+    {"word": "spoon", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ложка є кухонним приладдям, а словосполучення «кухонна ложка» часто вживається."},
+    {"word": "tent", "is_associated": false, "association_type": "NONE", "explanation": "Намет використовують для походів і відпочинку на природі, а не на кухні."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з кухнею, - це предмети та приладдя, які зазвичай є на кухні або використовуються для приготування їжі."
+}

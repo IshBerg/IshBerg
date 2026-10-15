@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Under no circumstances",
+  "correct_completion": "should you open the door to strangers.",
+  "full_sentence": "Under no circumstances should you open the door to strangers.",
+  "acceptable_variants": ["should you let an unknown visitor into the house.", "should you ever invite a stranger inside."],
+  "options": [
+    {"text": "you should open the door to strangers.", "is_correct": false, "why_wrong": "After a fronted negative phrase such as 'under no circumstances', the auxiliary must come before the subject, so 'should' has to precede 'you'."},
+    {"text": "should you open the door to strangers.", "is_correct": true, "why_wrong": null},
+    {"text": "you open the door to strangers.", "is_correct": false, "why_wrong": "This is a plain statement with no modal and no inversion, so it does not follow the structure required after the fronted negative phrase."},
+    {"text": "do you open the door to strangers.", "is_correct": false, "why_wrong": "'Do' is not used with the modal 'should'; the inversion here is simply 'should' moved in front of the subject."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion after fronted negative adverbial phrases",
+  "connector": "under no circumstances",
+  "explanation": "Negative adverbial phrases placed at the start of a sentence trigger inversion of the auxiliary and the subject. Learners often keep normal statement word order after them, which is ungrammatical in this position.",
+  "translation": "За жодних обставин не варто відчиняти двері незнайомцям."
+}
