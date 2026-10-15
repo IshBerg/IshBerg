@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "O", "U", "R", "C", "E", "T"],
+    ["Q", "K", "J", "W", "P", "Z", "H"],
+    ["N", "R", "B", "L", "D", "V", "E"],
+    ["O", "G", "K", "F", "Y", "J", "M"],
+    ["T", "W", "Q", "H", "L", "P", "E"],
+    ["E", "M", "J", "W", "B", "Z", "F"],
+    ["V", "T", "E", "X", "T", "K", "Q"]
+  ],
+  "words_to_find": ["SOURCE", "THEME", "NOTE", "TEXT"],
+  "word_positions": [
+    {"word": "SOURCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THEME", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "NOTE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TEXT", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Synthesizing Sources"
+}

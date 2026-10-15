@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Humpty Dumpty fell off the wall because",
+  "correct_completion": "he was sitting too close to the edge.",
+  "full_sentence": "Humpty Dumpty fell off the wall because he was sitting too close to the edge.",
+  "acceptable_variants": ["he leaned too far over the edge.", "he was standing on a very thin wall."],
+  "options": [
+    {"text": "he was eating a sandwich.", "is_correct": false, "why_wrong": "This is a complete clause, but it does not give a cause for Humpty Dumpty falling off the wall."},
+    {"text": "and all the king's horses came.", "is_correct": false, "why_wrong": "'And' cannot follow 'because' directly. 'Because' must be followed by a clause with its own subject and verb."},
+    {"text": "he was sitting too close to the edge.", "is_correct": true, "why_wrong": null},
+    {"text": "all the king's horses were tired.", "is_correct": false, "why_wrong": "This is a complete clause, but it describes the horses, not the reason Humpty Dumpty fell."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the event in the first part of the sentence. Speakers whose first language uses a different structure after causal connectors may be tempted to add an extra conjunction; in English, 'because' is followed directly by a subject and a verb.",
+  "translation": "Хамті Дамті впав зі стіни, тому що сидів занадто близько до краю."
+}
