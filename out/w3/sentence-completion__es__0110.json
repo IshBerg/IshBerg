@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister, who lives in Madrid,",
+  "correct_completion": "is a doctor.",
+  "full_sentence": "My sister, who lives in Madrid, is a doctor.",
+  "acceptable_variants": ["works as a doctor.", "is a doctor at the local hospital."],
+  "options": [
+    {"text": "which is very large.", "is_correct": false, "why_wrong": "'Which' refers to things, not to a person, so it does not fit 'my sister'."},
+    {"text": "where she works every day.", "is_correct": false, "why_wrong": "'Where' refers to a place, but the stem is about a person, so this does not complete the sentence."},
+    {"text": "is a doctor.", "is_correct": true, "why_wrong": null},
+    {"text": "the house is big.", "is_correct": false, "why_wrong": "This starts a new clause about a house and does not complete the description of the sister."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Relative pronoun 'who' for people",
+  "connector": "who",
+  "explanation": "The relative pronoun 'who' adds extra information about a person. After the relative clause, the main verb must complete the subject, so the completion must describe what the person is.",
+  "translation": "Mi hermana, que vive en Madrid, es médica."
+}

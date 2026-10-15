@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "R", "E", "A", "K", "X", "P", "Q", "C"],
+    ["H", "J", "M", "D", "W", "Z", "F", "G", "A"],
+    ["N", "S", "Q", "V", "Y", "D", "K", "H", "L"],
+    ["P", "Q", "C", "F", "Z", "W", "E", "J", "L"],
+    ["T", "G", "B", "K", "Y", "M", "D", "O", "X"],
+    ["Z", "U", "P", "W", "Q", "H", "J", "R", "F"],
+    ["K", "V", "R", "S", "F", "D", "N", "Y", "T"],
+    ["M", "V", "J", "N", "Z", "U", "X", "A", "Q"],
+    ["A", "B", "C", "D", "R", "E", "F", "G", "H"]
+  ],
+  "words_to_find": ["BREAK", "CALL", "TURN", "RUN"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CALL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TURN", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "RUN", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Idioms and Phrasal Verbs"
+}
