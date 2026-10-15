@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is a beautiful day today,",
+  "correct_completion": "isn't it?",
+  "full_sentence": "It is a beautiful day today, isn't it?",
+  "acceptable_variants": ["right?", "don't you think?"],
+  "options": [
+    {"text": "is it?", "is_correct": false, "why_wrong": "A question tag after a positive statement must be negative. 'Is it?' keeps the statement's positive form, so it is not a valid tag."},
+    {"text": "does it?", "is_correct": false, "why_wrong": "The tag must repeat the verb 'be' used in the statement. 'Does' is an auxiliary for other verbs, not for 'is'."},
+    {"text": "isn't it?", "is_correct": true, "why_wrong": null},
+    {"text": "won't it?", "is_correct": false, "why_wrong": "The tag must match the verb 'is' in the statement. 'Won't' uses a different auxiliary and tense."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Question tags after a positive statement with 'be'",
+  "connector": "tag question",
+  "explanation": "A tag question repeats the auxiliary or verb 'be' from the statement and reverses its polarity. A positive statement takes a negative tag, which is why 'isn't it?' fits here.",
+  "translation": "Hoje é um dia lindo, não é?"
+}
