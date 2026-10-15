@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom can swim very fast, but",
+  "correct_completion": "he can't ride a bicycle.",
+  "full_sentence": "Tom can swim very fast, but he can't ride a bicycle.",
+  "acceptable_variants": ["he cannot ride a bicycle.", "he can't ride a bike."],
+  "options": [
+    {"text": "he is very tall.", "is_correct": false, "why_wrong": "This gives a fact about Tom's height, not an ability that contrasts with swimming."},
+    {"text": "he can swim in the sea too.", "is_correct": false, "why_wrong": "This adds another ability in the same area, so it does not show the contrast that 'but' introduces."},
+    {"text": "he can't ride a bicycle.", "is_correct": true, "why_wrong": null},
+    {"text": "he can't swim at all.", "is_correct": false, "why_wrong": "This contradicts the first part of the sentence, which says Tom swims very fast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Can / can't for ability, with 'but' to contrast two abilities",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that shows the opposite ability to the first clause. 'Can't' is the negative form of 'can' when talking about ability.",
+  "translation": "Tom puede nadar muy rápido, pero no puede andar en bicicleta."
+}
