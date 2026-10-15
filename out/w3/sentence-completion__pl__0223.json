@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It would seem that the results",
+  "correct_completion": "were skewed by a sampling error.",
+  "full_sentence": "It would seem that the results were skewed by a sampling error.",
+  "acceptable_variants": ["appear to have been distorted by a sampling error.", "may have been skewed by a sampling error."],
+  "options": [
+    {"text": "so the team stopped the experiment.", "is_correct": false, "why_wrong": "'So' signals a consequence, but the hedged stem makes a tentative claim about cause, not a decision by the team."},
+    {"text": "were skewed by a sampling error.", "is_correct": true, "why_wrong": null},
+    {"text": "are definitely wrong and must be discarded.", "is_correct": false, "why_wrong": "'Definitely' removes the hedge that 'it would seem' sets up, so the completion contradicts the tentative tone of the stem."},
+    {"text": "which proves the hypothesis beyond doubt.", "is_correct": false, "why_wrong": "'Proves beyond doubt' is categorical and clashes with the hedged opening of the sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Hedged claims with 'it would seem that' followed by a tentative explanation",
+  "connector": "it would seem that",
+  "explanation": "The modal-style hedge signals that the speaker is inferring a likely cause rather than stating a fact. Polish speakers often translate hedges literally and then state conclusions too firmly, so the completion must keep the same degree of tentativeness.",
+  "translation": "Wydaje sie, ze wyniki zostaly zniekztalcone przez blad probkowania."
+}
