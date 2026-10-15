@@ -1,0 +1,14 @@
+{
+  "trigger_word": "project",
+  "all_words": [
+    {"word": "deadline", "is_associated": true, "association_type": "THEMATIC", "explanation": "Кожен проєкт зазвичай має термін виконання, тому слово deadline тісно пов'язане з темою проєкту."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Жирафа не має жодного зв'язку з проєктами, роботою чи навчанням."},
+    {"word": "presentation", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "У англійській мові часто кажуть project presentation, тобто презентація проєкту."},
+    {"word": "pancake", "is_associated": false, "association_type": "NONE", "explanation": "Млинець не пов'язаний з проєктами, це слово стосується їжі."},
+    {"word": "team", "is_associated": true, "association_type": "THEMATIC", "explanation": "Більшість проєктів виконують командою, тому слово team належить до цієї тематики."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Пустеля не має відношення до проєктів; це географічне поняття."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово project асоціюється з термінами виконання, командною роботою та презентацією результату, а інші слова не пов'язані з цією темою."
+}

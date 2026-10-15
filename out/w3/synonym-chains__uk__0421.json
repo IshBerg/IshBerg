@@ -1,0 +1,17 @@
+{
+  "central_word": "worried",
+  "chain_words": [
+    {"word": "concerned", "intensity": 1, "translation": "занепокоєний", "nuance": "mild interest in a problem that might affect you"},
+    {"word": "worried", "intensity": 2, "translation": "стурбований", "nuance": "general feeling that something may go wrong"},
+    {"word": "anxious", "intensity": 3, "translation": "тривожний", "nuance": "nervous feeling about the future"},
+    {"word": "afraid", "intensity": 4, "translation": "наляканий", "nuance": "feeling of fear about a specific danger"},
+    {"word": "terrified", "intensity": 5, "translation": "перелаканий", "nuance": "extreme fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express a negative feeling about something unpleasant, from mild concern to extreme fear.",
+  "usage_notes": [
+    {"word1": "worried", "word2": "anxious", "difference": "'Worried' describes a feeling about a specific situation; 'anxious' is stronger and often describes a continuous state of nervousness."}
+  ],
+  "translations": {"concerned": "занепокоєний", "worried": "стурбований", "anxious": "тривожний", "afraid": "наляканий", "terrified": "перелаканий"}
+}

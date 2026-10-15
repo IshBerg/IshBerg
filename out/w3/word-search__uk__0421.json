@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["M", "E", "T", "A", "P", "H", "O", "R"],
+    ["S", "K", "W", "Q", "Z", "D", "F", "J"],
+    ["Y", "V", "X", "L", "B", "G", "C", "P"],
+    ["M", "U", "I", "R", "O", "N", "Y", "Z"],
+    ["B", "W", "K", "F", "Q", "X", "V", "D"],
+    ["O", "J", "T", "H", "E", "M", "E", "G"],
+    ["L", "Q", "Z", "D", "K", "W", "B", "F"],
+    ["N", "A", "R", "R", "A", "T", "O", "R"]
+  ],
+  "words_to_find": ["METAPHOR", "SYMBOL", "IRONY", "NARRATOR", "THEME"],
+  "word_positions": [
+    {"word": "METAPHOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SYMBOL", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 3, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "NARRATOR", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THEME", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Literary Criticism and Theory"
+}

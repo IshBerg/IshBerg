@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you come to my party,",
+  "correct_completion": "we will play games together.",
+  "full_sentence": "If you come to my party, we will play games together.",
+  "acceptable_variants": ["we will have a great time.", "we will dance all night."],
+  "options": [
+    {"text": "we played games yesterday.", "is_correct": false, "why_wrong": "The condition uses the present tense ('come'), so the result should use a future form, not the past tense."},
+    {"text": "you will be bored.", "is_correct": false, "why_wrong": "This is grammatically possible, but an invitation normally describes a positive result, so it does not fit the context."},
+    {"text": "we will play games together.", "is_correct": true, "why_wrong": null},
+    {"text": "the party was cancelled.", "is_correct": false, "why_wrong": "The passive past tense does not follow logically from 'if you come'; it describes a finished event."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional: 'if' + present simple, followed by 'will' + base verb",
+  "connector": "if",
+  "explanation": "The first conditional uses a present tense after 'if' and 'will' in the main clause to describe a possible future result. Learners often mix tenses in this pattern, so keep the verb after 'if' in the present.",
+  "translation": "Якщо ти прийдеш на мою вечірку, ми будемо разом грати в ігри."
+}
