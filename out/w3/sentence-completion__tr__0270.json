@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The data, it could be argued,",
+  "correct_completion": "suggest that the policy has been largely ineffective.",
+  "full_sentence": "The data, it could be argued, suggest that the policy has been largely ineffective.",
+  "acceptable_variants": ["seem to indicate that the policy has been largely ineffective.", "may suggest that the policy has been largely ineffective."],
+  "options": [
+    {"text": "proves that the policy has failed completely.", "is_correct": false, "why_wrong": "This overstates certainty. The hedge 'it could be argued' calls for tentative language, not definitive proof."},
+    {"text": "must prove that the policy has been ineffective.", "is_correct": false, "why_wrong": "'Must' expresses strong certainty, which contradicts the hedge already introduced by the stem."},
+    {"text": "suggest that the policy has been largely ineffective.", "is_correct": true, "why_wrong": null},
+    {"text": "suggested that the policy was ineffective.", "is_correct": false, "why_wrong": "The past tense 'suggested' does not fit the present-tense hedging frame 'it could be argued', and it turns the claim into a report."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Hedging with tentative verbs and modal framing",
+  "connector": "it could be argued",
+  "explanation": "The parenthetical hedge signals that the writer is making a cautious claim, so the main verb should be tentative rather than definitive. Speakers who are used to stating conclusions directly often overstate the claim, which weakens the academic register.",
+  "translation": "Veriler, şöyle de savunulabilir, politikanın büyük ölçüde etkisiz olduğuna işaret ediyor."
+}
