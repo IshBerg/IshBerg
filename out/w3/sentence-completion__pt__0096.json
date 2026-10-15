@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although there is a big supermarket near my house,",
+  "correct_completion": "I still prefer to buy my vegetables at the market.",
+  "full_sentence": "Although there is a big supermarket near my house, I still prefer to buy my vegetables at the market.",
+  "acceptable_variants": ["I still buy my vegetables at the market.", "I often walk to the market instead."],
+  "options": [
+    {"text": "so I never go shopping there.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast. The completion must go against the expectation set by the first clause."},
+    {"text": "there are no shops on my street.", "is_correct": false, "why_wrong": "This repeats the idea of shops without showing a contrast with the supermarket, so it does not complete the concessive clause."},
+    {"text": "I still prefer to buy my vegetables at the market.", "is_correct": true, "why_wrong": null},
+    {"text": "there is a park next to it.", "is_correct": false, "why_wrong": "This adds location information about the supermarket but does not provide the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and 'there is' to introduce a place",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show contrast with the first clause. Here the supermarket is convenient, but the speaker still chooses the market, which is the contrasting action. Learners sometimes use 'but' together with 'although' in the same sentence, which is incorrect; only one of the two connectors is needed.",
+  "translation": "Embora haja um grande supermercado perto da minha casa, eu ainda prefiro comprar os meus legumes no mercado."
+}

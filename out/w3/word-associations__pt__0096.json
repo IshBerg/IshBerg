@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bakery",
+  "all_words": [
+    {"word": "bread", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O pão é o produto mais típico vendido em uma padaria, por isso a palavra está fortemente ligada ao tema."},
+    {"word": "bank", "is_associated": false, "association_type": "NONE", "explanation": "O banco é outro tipo de estabelecimento na cidade e não tem relação com a venda de comida em uma padaria."},
+    {"word": "baker", "is_associated": true, "association_type": "THEMATIC", "explanation": "O padeiro é a pessoa que trabalha na padaria e prepara os produtos, então faz parte do mesmo tema."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "O piano é um instrumento musical e não tem nenhuma ligação com uma padaria."},
+    {"word": "cake", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O bolo é um dos doces mais comuns vendidos em padarias, por isso a palavra se relaciona com o lugar."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "A bicicleta é um meio de transporte e não está relacionada com os produtos ou o trabalho de uma padaria."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'bakery' são alimentos vendidos ali ou pessoas que trabalham no local, enquanto os outros termos pertencem a campos diferentes da vida."
+}
