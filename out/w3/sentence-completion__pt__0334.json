@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the report, she sent it to her manager.",
+  "acceptable_variants": ["she emailed it to her manager.", "she submitted it before lunch."],
+  "options": [
+    {"text": "she goes home at five o'clock.", "is_correct": false, "why_wrong": "This is a true statement about her day, but it does not complete the action implied by 'having finished the report'."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "the manager is pleased with the report.", "is_correct": false, "why_wrong": "The participle clause refers to the subject of the main clause. Here the manager is the subject, so the clause is misattached and the sentence becomes illogical."},
+    {"text": "she was sending the report yesterday.", "is_correct": false, "why_wrong": "The participle clause already shows a completed action. This option shifts to a continuous past form, which does not fit the logic of 'having finished'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with 'having + past participle'",
+  "connector": "having finished",
+  "explanation": "A 'having + past participle' clause shows an action completed before the main action. The main clause subject must be the same person who finished the first action.",
+  "translation": "Depois de terminar o relatório, ela o enviou para o seu gerente."
+}
