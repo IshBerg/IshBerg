@@ -1,0 +1,14 @@
+{
+  "trigger_word": "trend",
+  "all_words": [
+    {"word": "pattern", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Pattern' bir veri setinde tekrar eden yönü anlatır; trend de bu tür bir yönü ifade eder."},
+    {"word": "chart", "is_associated": true, "association_type": "THEMATIC", "explanation": "Grafik, trendleri göstermek için en sık kullanılan araçlardan biridir, bu nedenle aynı konuya aittir."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Muz veri analizi ya da sunumlarla hiçbir ilgisi olmayan günlük bir sözcüktür."},
+    {"word": "upward", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Upward trend' İngilizcede yerleşik bir ifadedir: yukarı yönlü eğilim anlamına gelir."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Zürafa veri sunumu ya da istatistikle ilgili değildir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık, veri ve eğilimlerle ilişkili olmayan bir ev eşyasıdır."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Trend kelimesi veri ve grafiklerle ilgili bir kavramdır; yön, örüntü ve grafik gibi sözcükler bu alana aittir, günlük nesneler ise değildir."
+}
