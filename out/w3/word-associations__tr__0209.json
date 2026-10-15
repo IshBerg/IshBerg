@@ -1,0 +1,14 @@
+{
+  "trigger_word": "freedom",
+  "all_words": [
+    {"word": "independence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bağımsızlık, özgürlükle çok yakından ilişkili bir kavramdır ve çoğu zaman yerine kullanılabilir."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Sandalye, özgürlük kavramıyla herhangi bir anlamsal ya da tematik bağlantı taşımaz."},
+    {"word": "prison", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hapishane özgürlüğün tam karşıtıdır, bu yüzden aynı tema içinde yer alır."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Muz, özgürlük kavramıyla hiçbir şekilde ilişkili değildir."},
+    {"word": "fight", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Fight for freedom' yaygın bir birlikte kullanım örneğidir, yani eş dizimsel bir bağlantı vardır."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kalem, özgürlük kavramıyla ilgisizdir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Özgürlük kavramıyla ilişkili kelimeler anlam, tema ve yaygın birlikte kullanımlar üzerinden seçilmiştir."
+}
