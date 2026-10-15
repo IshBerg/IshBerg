@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bridge collapsed last winter, so the engineers",
+  "correct_completion": "should have checked the steel more carefully.",
+  "full_sentence": "The bridge collapsed last winter, so the engineers should have checked the steel more carefully.",
+  "acceptable_variants": ["should have inspected the welds before winter.", "ought to have tested the materials earlier."],
+  "options": [
+    {"text": "will check the steel tomorrow.", "is_correct": false, "why_wrong": "This uses a future form, but the stem describes a past failure. Criticism of a past action needs a modal perfect."},
+    {"text": "should have checked the steel more carefully.", "is_correct": true, "why_wrong": null},
+    {"text": "are checking the steel now.", "is_correct": false, "why_wrong": "This uses the present tense, which does not match the past collapse described in the stem."},
+    {"text": "might have been wearing their coats.", "is_correct": false, "why_wrong": "This is a speculation with a modal perfect, but it has no logical link to the collapse and does not criticise anyone's work."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfects for criticism of past actions (should have + past participle)",
+  "connector": "so",
+  "explanation": "'Should have' plus a past participle criticises a past action that did not happen. Polish speakers may choose a simple past or a conditional form here because Polish has no direct one-to-one equivalent of the English modal perfect, so the learner must remember the full pattern.",
+  "translation": "Most zawalił się zeszłej zimy, więc inżynierowie powinni byli dokładniej sprawdzić stal."
+}

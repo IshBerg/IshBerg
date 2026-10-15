@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, pleasant, likeable"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if needed"},
+    {"word": "bluza", "transliteration": "bluza", "meaning": "a sweatshirt or hoodie"}
+  ],
+  "english_words": ["nice", "sweatshirt", "current", "possibly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Polish words look and sound close to English words because they share a common European source, but over time their meanings moved apart, so the form alone is not a reliable guide.",
+  "false_friend_warning": "The Polish word spelled aktualny looks like the English word 'actual', but it means 'current' or 'up to date', so the English 'actual' is the false friend trap here."
+}
