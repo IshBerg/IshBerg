@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "THEMATIC", "explanation": "Rzeka jest tematycznie powiązana z mostem, ponieważ mosty najczęściej przebiegają nad rzekami."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie jest typowo kojarzona z mostem ani pod względem znaczenia, ani w zwrotach językowych."},
+    {"word": "build", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'build' tworzy typowe połączenie 'build a bridge', czyli budować most."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Chleb nie ma żadnego związku z mostem; to zupełnie inne pojęcie."},
+    {"word": "cross", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'cross' jest typowo używany w wyrażeniu 'cross a bridge', czyli przejść przez most."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka nie jest powiązana z mostem w żadnym typowym znaczeniu ani zwrocie."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'bridge' kojarzy się z rzeką, budowaniem i przechodzeniem, a także w przenośni z łączeniem ludzi lub idei."
+}
