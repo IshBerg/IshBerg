@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the newspaper published the story early,",
+  "correct_completion": "many readers still doubted its accuracy.",
+  "full_sentence": "Although the newspaper published the story early, many readers still doubted its accuracy.",
+  "acceptable_variants": ["many readers still questioned the report.", "the readers were still skeptical about it."],
+  "options": [
+    {"text": "so the readers believed it immediately.", "is_correct": false, "why_wrong": "'Although' signals contrast, so a result that follows naturally, like 'so', does not complete the sentence correctly."},
+    {"text": "the editor was on holiday that week.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not contrast with the first part of the sentence."},
+    {"text": "many readers still doubted its accuracy.", "is_correct": true, "why_wrong": null},
+    {"text": "the headline was very long.", "is_correct": false, "why_wrong": "This describes the headline but does not complete the contrast expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Speakers of Portuguese may be tempted to use a cause connector here, because Portuguese often links clauses with a similar word for both meanings, so the contrast must be checked carefully.",
+  "translation": "Embora o jornal tenha publicado a notícia cedo, muitos leitores ainda duvidaram da sua exatidão."
+}
