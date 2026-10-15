@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results were analysed carefully,",
+  "correct_completion": "and the conclusions were published in June.",
+  "full_sentence": "The results were analysed carefully, and the conclusions were published in June.",
+  "acceptable_variants": ["and the findings were released the following month.", "and the conclusions were later shared with the public."],
+  "options": [
+    {"text": "and the report writes itself quickly.", "is_correct": false, "why_wrong": "'Writes itself' is an idiom meaning something is easy to produce; it does not continue the passive sequence of analysis and publication."},
+    {"text": "although the data were never collected.", "is_correct": false, "why_wrong": "This contradicts the stem, because 'analysed' presupposes that the data existed and were examined."},
+    {"text": "and the conclusions were published in June.", "is_correct": true, "why_wrong": null},
+    {"text": "because the conclusions had been published.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but publication comes after the analysis, so the clause does not fit the logical sequence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Passive voice in a sequence of actions in reports",
+  "connector": "and",
+  "explanation": "The stem is passive and describes a process. The completion must continue the same passive pattern and report the next logical step of that process, not a contradiction or an unrelated cause.",
+  "translation": "Los resultados se analizaron cuidadosamente, y las conclusiones se publicaron en junio."
+}
