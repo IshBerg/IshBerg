@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Thank you for the invitation, but",
+  "correct_completion": "I have work on Saturday.",
+  "full_sentence": "Thank you for the invitation, but I have work on Saturday.",
+  "acceptable_variants": ["I have to study that day.", "I am busy on Saturday."],
+  "options": [
+    {"text": "I can come to your party.", "is_correct": false, "why_wrong": "This accepts the invitation, but 'but' signals a refusal, so the sentence would not make sense."},
+    {"text": "you are very kind.", "is_correct": false, "why_wrong": "This is a compliment, not a reason for declining, so it does not complete the contrast that 'but' expects."},
+    {"text": "the party starts at night.", "is_correct": false, "why_wrong": "This adds information about the party but does not give the refusal that 'but' introduces."},
+    {"text": "I have work on Saturday.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Connector 'but' introducing a contrasting refusal",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the polite opening. Portuguese speakers often expect a separate sentence after the thanks, so remember that English links the refusal to the thanks with 'but' in one sentence.",
+  "translation": "Obrigado pelo convite, mas tenho trabalho no sábado."
+}
