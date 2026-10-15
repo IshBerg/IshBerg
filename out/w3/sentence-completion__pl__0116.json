@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have already finished my homework,",
+  "correct_completion": "so I can watch a film tonight.",
+  "full_sentence": "I have already finished my homework, so I can watch a film tonight.",
+  "acceptable_variants": ["so I can relax this evening.", "so I have free time tonight."],
+  "options": [
+    {"text": "so I am still writing my essay.", "is_correct": false, "why_wrong": "This contradicts 'already finished', which says the homework is done."},
+    {"text": "I have just started a new project.", "is_correct": false, "why_wrong": "'Just' refers to a very recent action. It does not give a logical result of the finished homework."},
+    {"text": "so I am going to sleep early.", "is_correct": false, "why_wrong": "This is possible, but it does not follow logically from the homework being finished in the way the stem sets up."},
+    {"text": "so I can watch a film tonight.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect with 'already' in a result clause",
+  "connector": "so",
+  "explanation": "With 'already', the present perfect shows that an action is complete before the present moment, and the second clause gives a logical result. Polish speakers often use a simple past form in this position, which does not work with 'already', so the present perfect needs focused practice.",
+  "translation": "Prace domowe są już skończone, więc dziś wieczorem mogę obejrzeć film."
+}

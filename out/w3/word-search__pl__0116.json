@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["R", "K", "W", "Y", "V", "B", "J"],
+    ["E", "N", "Q", "U", "I", "R", "E"],
+    ["Q", "X", "K", "I", "D", "S", "G"],
+    ["U", "F", "L", "H", "V", "W", "O"],
+    ["E", "C", "U", "P", "P", "A", "N"],
+    ["S", "Z", "Q", "Y", "B", "F", "N"],
+    ["T", "M", "K", "V", "X", "J", "A"]
+  ],
+  "words_to_find": ["ENQUIRE", "REQUEST", "GONNA", "CUPPA", "KIDS"],
+  "word_positions": [
+    {"word": "ENQUIRE", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REQUEST", "start_row": 0, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "GONNA", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "CUPPA", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "KIDS", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Register Spectrum: Formal to Colloquial"
+}

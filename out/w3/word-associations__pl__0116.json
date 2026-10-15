@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pielęgniarka pracuje razem z lekarzem w szpitalu i w gabinecie, więc obie osoby należą do tego samego obszaru znaczeniowego."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Chleb jest produktem spożywczym i nie ma żadnego związku z pracą lekarza ani z leczeniem."},
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lekarze pracują głównie w szpitalach, dlatego ta lokalizacja należy do tematu opieki zdrowotnej."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Samochód jest środkiem transportu i nie jest związany z zawodem lekarza ani z medycyną."},
+    {"word": "medicine", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lekarz przepisuje leki, więc słowo medicine jest silnie związane z tematem leczenia."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Sofa to mebel do siedzenia i nie ma związku z medycyną ani z pracą lekarza."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z lekarzem dotyczą osób, miejsc i środków leczenia, a przedmioty codziennego użytku, takie jak chleb, samochód czy sofa, nie mają z nim związku."
+}
