@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Maria studies harder than anyone else in the class, so",
+  "correct_completion": "she usually gets the highest marks.",
+  "full_sentence": "Maria studies harder than anyone else in the class, so she usually gets the highest marks.",
+  "acceptable_variants": ["she is often the top student.", "she is usually the best in the exam."],
+  "options": [
+    {"text": "she usually gets the lowest marks.", "is_correct": false, "why_wrong": "This contradicts the logic of the stem, because hard study leads to strong results, not the weakest ones."},
+    {"text": "she usually gets the highest marks.", "is_correct": true, "why_wrong": null},
+    {"text": "the class has twenty-five students.", "is_correct": false, "why_wrong": "This gives a fact about the class, but it is not a result of Maria's hard study."},
+    {"text": "her teacher likes to play football.", "is_correct": false, "why_wrong": "This is unrelated to Maria's study habits and does not complete the result clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Superlative adjectives in a result clause introduced by 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a result that follows from the first clause. Studying harder leads to the top position in the group, so the superlative form 'highest' is needed. Portuguese speakers may use the comparative form here because Portuguese often builds superlatives with a word meaning 'more' plus the adjective, so they must remember that English uses the -est ending for the top position in a group.",
+  "translation": "Maria estuda mais do que qualquer outra pessoa da turma, então ela geralmente tira as notas mais altas."
+}
