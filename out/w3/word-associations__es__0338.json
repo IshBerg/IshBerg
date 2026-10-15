@@ -1,0 +1,14 @@
+{
+  "trigger_word": "thank",
+  "all_words": [
+    {"word": "sorry", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Sorry' es una de las expresiones que se usan junto con 'thank' para hablar de la cortesía y de pedir perdón o agradecer."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "'Table' es un mueble y no tiene ninguna relación con dar las gracias ni con pedir disculpas."},
+    {"word": "please", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Please' pertenece al mismo grupo de palabras de cortesía que 'thank' y se usa al pedir algo con educación."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "'Window' es una parte de una casa y no se relaciona con la cortesía al hablar."},
+    {"word": "welcome", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Welcome' forma parte de la expresión 'you are welcome', la respuesta habitual cuando alguien dice 'thank you'."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "'Bicycle' es un medio de transporte y no tiene relación con las palabras de cortesía."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'thank' son expresiones de cortesía que se usan al agradecer, pedir perdón o pedir algo con educación; las demás palabras pertenecen a otros temas."
+}

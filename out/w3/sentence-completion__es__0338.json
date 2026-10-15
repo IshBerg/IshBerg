@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you bake the cake,",
+  "correct_completion": "turn on the oven.",
+  "full_sentence": "Before you bake the cake, turn on the oven.",
+  "acceptable_variants": ["preheat the oven.", "grease the pan."],
+  "options": [
+    {"text": "you eat the cake right now.", "is_correct": false, "why_wrong": "Eating the cake does not fit the order of a recipe. 'Before' needs an action that comes before baking, and eating is not a preparation step."},
+    {"text": "turn on the oven.", "is_correct": true, "why_wrong": null},
+    {"text": "you are very happy.", "is_correct": false, "why_wrong": "This describes a feeling, not an action in the recipe, so it does not complete the time sequence started by 'before'."},
+    {"text": "the cake was delicious yesterday.", "is_correct": false, "why_wrong": "This refers to a past event. 'Before' with a recipe step needs a present action that happens before baking."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time connector 'before' with a sequence of steps",
+  "connector": "before",
+  "explanation": "The word 'before' introduces an action that happens earlier than the main action. Spanish speakers may be tempted to translate time words word for word, but in English the first action after 'before' should be a preparation step in the same recipe.",
+  "translation": "Antes de hornear el pastel, enciende el horno."
+}

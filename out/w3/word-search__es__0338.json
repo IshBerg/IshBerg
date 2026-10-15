@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["C", "U", "L", "T", "U", "R", "E", "X", "F"],
+    ["B", "P", "D", "W", "Z", "N", "H", "K", "E"],
+    ["Y", "Q", "A", "M", "G", "R", "T", "B", "S"],
+    ["H", "V", "N", "K", "D", "L", "Y", "W", "T"],
+    ["F", "J", "C", "X", "R", "P", "Q", "Z", "I"],
+    ["A", "O", "E", "B", "K", "M", "L", "G", "V"],
+    ["H", "M", "O", "T", "W", "S", "C", "U", "A"],
+    ["P", "R", "Y", "D", "N", "K", "F", "Q", "L"],
+    ["M", "U", "S", "I", "C", "T", "B", "X", "Z"]
+  ],
+  "words_to_find": ["CULTURE", "FESTIVAL", "FOOD", "DANCE", "MUSIC"],
+  "word_positions": [
+    {"word": "CULTURE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FESTIVAL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "FOOD", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DANCE", "start_row": 1, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "MUSIC", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Cultural Diversity"
+}
