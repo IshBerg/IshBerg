@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What surprised the committee most",
+  "correct_completion": "was that nobody had questioned the figures.",
+  "full_sentence": "What surprised the committee most was that nobody had questioned the figures.",
+  "acceptable_variants": ["was that the figures had never been challenged.", "was how readily the figures had been accepted."],
+  "options": [
+    {"text": "the figures were questioned by nobody.", "is_correct": false, "why_wrong": "A wh-clause used as subject needs a linking verb such as 'was' before its complement; without it the sentence is ungrammatical."},
+    {"text": "was that nobody had questioned the figures.", "is_correct": true, "why_wrong": null},
+    {"text": "were the figures questioned by nobody.", "is_correct": false, "why_wrong": "Inverted word order is not permitted here; the subject clause keeps normal word order before its linking verb."},
+    {"text": "nobody had questioned the figures.", "is_correct": false, "why_wrong": "The clause has no linking verb 'was', so it cannot complete the nominal subject 'What surprised the committee most'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Wh-nominal clauses as subjects with a linking verb",
+  "connector": "what",
+  "explanation": "The wh-clause 'What surprised the committee most' functions as the subject, so the sentence needs a linking verb followed by a complement clause. Learners often omit the linking verb or invert the word order, which breaks the structure.",
+  "translation": "To, co najbardziej zaskoczyło komisję, to fakt, że nikt nie zakwestionował tych danych."
+}
