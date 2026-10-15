@@ -1,0 +1,14 @@
+{
+  "trigger_word": "mountain",
+  "all_words": [
+    {"word": "climb", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Na língua inglesa dizemos 'climb a mountain', ou seja, escalar uma montanha, então essa palavra combina naturalmente com a palavra mountain."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Lápis não tem nenhuma relação com montanhas nem com a geografia."},
+    {"word": "valley", "is_associated": true, "association_type": "THEMATIC", "explanation": "O vale costuma ficar entre montanhas, por isso pertence ao mesmo tema geográfico."},
+    {"word": "sugar", "is_associated": false, "association_type": "NONE", "explanation": "Açúcar é um alimento e não tem ligação com o relevo das montanhas."},
+    {"word": "peak", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pico é o ponto mais alto de uma montanha, então o significado está diretamente ligado a ela."},
+    {"word": "telephone", "is_associated": false, "association_type": "NONE", "explanation": "Telefone não tem relação com montanhas ou com paisagens naturais."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra mountain se associa a ações, partes do relevo e termos do mesmo tema geográfico, enquanto objetos do dia a dia e alimentos não têm relação com ela."
+}
