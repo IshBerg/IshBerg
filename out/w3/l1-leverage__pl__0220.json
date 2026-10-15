@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"},
+    {"word": "film", "transliteration": "film", "meaning": "film"},
+    {"word": "problem", "transliteration": "problem", "meaning": "problem"},
+    {"word": "komputer", "transliteration": "komputer", "meaning": "computer"}
+  ],
+  "english_words": ["film", "computer", "hotel", "problem"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same international sources, so the spelling and meaning stayed almost identical in each language.",
+  "false_friend_warning": null
+}

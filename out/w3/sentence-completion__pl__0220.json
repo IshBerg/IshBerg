@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having exhausted every possible avenue of appeal,",
+  "correct_completion": "the defendant finally accepted the verdict.",
+  "full_sentence": "Having exhausted every possible avenue of appeal, the defendant finally accepted the verdict.",
+  "acceptable_variants": ["the accused at last resigned himself to the sentence.", "the defendant reluctantly submitted to the court's decision."],
+  "options": [
+    {"text": "the court adjourned for lunch.", "is_correct": false, "why_wrong": "The participle clause sets up a completed situation for the defendant, and a lunch break does not logically follow from it."},
+    {"text": "the defendant had not appealed yet.", "is_correct": false, "why_wrong": "'Having exhausted' means every appeal was already used, so this contradicts the stem."},
+    {"text": "the appeal was filed again.", "is_correct": false, "why_wrong": "The stem says every avenue of appeal was exhausted, so filing again contradicts it."},
+    {"text": "the defendant finally accepted the verdict.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect participle clauses expressing a completed condition",
+  "connector": "having exhausted",
+  "explanation": "The perfect participle clause presents a completed condition, so the main clause must describe a logical result of that completion. Learners should check that the main clause follows from the situation the participle describes.",
+  "translation": "Wyczerpawszy wszystkie możliwości odwołania, oskarżony w końcu zaakceptował wyrok."
+}
