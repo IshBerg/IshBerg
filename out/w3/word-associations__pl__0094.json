@@ -1,0 +1,14 @@
+{
+  "trigger_word": "winter",
+  "all_words": [
+    {"word": "snow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Śnieg jest typowym zjawiskiem zimy, więc to bezpośrednie skojarzenie znaczeniowe."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banan nie ma żadnego związku z zimą."},
+    {"word": "cold", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Zimno to cecha pory roku, więc słowo jest znaczeniowo związane z zimą."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Młotek nie jest kojarzony z zimą ani z jej aktywnościami."},
+    {"word": "sled", "is_associated": true, "association_type": "THEMATIC", "explanation": "Sanki to zimowa zabawa na śniegu, więc łączą się tematycznie z zimą."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek nie ma żadnego związku z porą roku."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzenia słowa 'winter' obejmują pogodę i zimowe zabawy, a przedmioty codziennego użytku nie mają z nim związku."
+}
