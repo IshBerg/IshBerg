@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When the phone rang,",
+  "correct_completion": "I was cooking dinner.",
+  "full_sentence": "When the phone rang, I was cooking dinner.",
+  "acceptable_variants": ["I was making lunch.", "I was in the kitchen."],
+  "options": [
+    {"text": "I cook dinner every night.", "is_correct": false, "why_wrong": "The simple present describes habits, but the stem needs an action in progress at a past moment."},
+    {"text": "I had cooked dinner before.", "is_correct": false, "why_wrong": "The past perfect shows an action finished before the phone rang, not an action in progress at that moment."},
+    {"text": "I was cooking dinner.", "is_correct": true, "why_wrong": null},
+    {"text": "I will cook dinner tomorrow.", "is_correct": false, "why_wrong": "The future tense does not match the past time signalled by 'rang'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous interrupted by a past simple action",
+  "connector": "when",
+  "explanation": "The phone ringing is a short past event that interrupts a longer action in progress, and the past continuous describes that longer action. Polish speakers often use one simple past form for both actions, so they should mark the ongoing action with 'was' or 'were' plus the -ing form.",
+  "translation": "Kiedy zadzwonił telefon, gotowałem obiad."
+}

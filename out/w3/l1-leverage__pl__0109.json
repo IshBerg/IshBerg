@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "student", "transliteration": "student", "meaning": "a person who is studying at a school or university"},
+    {"word": "profesor", "transliteration": "profesor", "meaning": "a teacher of the highest academic rank at a university"},
+    {"word": "problem", "transliteration": "problem", "meaning": "a difficult question or situation that needs a solution"},
+    {"word": "uniwersytet", "transliteration": "uniwersytet", "meaning": "an institution of higher education that grants degrees"}
+  ],
+  "english_words": ["problem", "university", "student", "professor"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from the same source, so the forms stayed close.",
+  "false_friend_warning": null
+}
