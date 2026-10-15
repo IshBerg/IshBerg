@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the report was long,",
+  "correct_completion": "the main findings were clear.",
+  "full_sentence": "Although the report was long, the main findings were clear.",
+  "acceptable_variants": ["the main findings were still easy to understand.", "its conclusions were nevertheless clear."],
+  "options": [
+    {"text": "so everyone read it carefully.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. The stem needs a clause that goes against the length of the report."},
+    {"text": "the report was written by students.", "is_correct": false, "why_wrong": "This adds a fact about the author but does not contrast with the length of the report."},
+    {"text": "the main findings were clear.", "is_correct": true, "why_wrong": null},
+    {"text": "it contained many charts.", "is_correct": false, "why_wrong": "This describes the report but does not set up the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. Here the report is long, which suggests difficulty, so the clause should show that the key points are still easy to find. Learners often reach for 'so' because the same words are used in cause-and-effect sentences.",
+  "translation": "Хоча звіт був довгим, основні висновки були зрозумілими."
+}
