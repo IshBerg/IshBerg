@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The museum was closed on Monday, so",
+  "correct_completion": "we went to the park instead.",
+  "full_sentence": "The museum was closed on Monday, so we went to the park instead.",
+  "acceptable_variants": ["we went for a walk instead.", "we visited the zoo instead."],
+  "options": [
+    {"text": "we were happy to see the museum.", "is_correct": false, "why_wrong": "The stem says the museum was closed, so seeing it does not follow as a result."},
+    {"text": "we went to the park instead.", "is_correct": true, "why_wrong": null},
+    {"text": "the museum was open on Monday.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the museum was closed."},
+    {"text": "we were in the museum on Monday.", "is_correct": false, "why_wrong": "A closed museum cannot be visited, so this does not complete the logical result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple of 'was' and 'were' with 'so' to show a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a result clause that follows logically from the first part of the sentence. Learners whose first language has no separate past tense for 'was' and 'were' often confuse the two forms, so check the subject before choosing.",
+  "translation": "Müze pazartesi günü kapalıydı, bu yüzden bunun yerine parka gittik."
+}

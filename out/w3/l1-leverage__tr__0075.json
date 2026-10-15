@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pansiyon", "transliteration": "pansiyon", "meaning": "guesthouse"},
+    {"word": "apartman", "transliteration": "apartman", "meaning": "apartment building"},
+    {"word": "pasaj", "transliteration": "pasaj", "meaning": "arcade"},
+    {"word": "gar", "transliteration": "gar", "meaning": "railway station"}
+  ],
+  "english_words": ["railway station", "arcade", "apartment building", "guesthouse"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Turkish words were borrowed from French or Italian and then took meanings in Turkish that differ from their English lookalikes. Learners should check the meaning before assuming the English word has the same sense.",
+  "false_friend_warning": "The Turkish word transliterated as pansiyon looks like the English word 'pension', but it means a guesthouse, not a retirement payment. Likewise, the Turkish word transliterated as pasaj looks like 'passage' but means an arcade, and the Turkish word transliterated as apartman refers to a whole building rather than a single flat."
+}

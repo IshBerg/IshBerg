@@ -1,0 +1,14 @@
+{
+  "trigger_word": "jungle",
+  "all_words": [
+    {"word": "tiger", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kaplan, ormanda yaşayan vahşi bir hayvandır ve jungle ile doğrudan ilişkilidir."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmek günlük bir yiyecektir ama jungle ile bir ilgisi yoktur."},
+    {"word": "vine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Sarmaşık, yağmur ormanlarında sık görülen bir bitkidir ve jungle ile birlikte kullanılır."},
+    {"word": "monkey", "is_associated": true, "association_type": "THEMATIC", "explanation": "Maymunlar jungle'da yaşar; bu yüzden konuyla tematik bir ilişki vardır."},
+    {"word": "airport", "is_associated": false, "association_type": "NONE", "explanation": "Havalimanı şehirle ilgilidir ve jungle ile bir ilgisi yoktur."},
+    {"word": "rain", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yağmur, tropikal ormanların önemli bir iklim özelliğidir ve jungle ile anlamsal bağlantılıdır."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Jungle ile ilgili kelimeler genellikle ormanda yaşayan hayvanları, bitkileri ve ormanın iklim koşullarını içerir; şehir ve günlük yaşamla ilgili kelimeler ise bu alanın dışında kalır."
+}
