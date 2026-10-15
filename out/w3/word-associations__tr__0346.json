@@ -1,0 +1,14 @@
+{
+  "trigger_word": "breakfast",
+  "all_words": [
+    {"word": "coffee", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kahve, kahvaltı sofrasında sık içilen bir içecektir ve aynı sahneye aittir."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Araba kahvaltıyla ilgili bir kelime değildir; ulaşım aracıdır ve kahvaltı sofrasıyla bağlantısı yoktur."},
+    {"word": "toast", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Tost, anlam olarak kahvaltıda yenen bir yiyecek türüdür."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Ayakkabı kahvaltıyla ilgili değildir; yemekle değil giyimle ilgilidir."},
+    {"word": "lunch", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Öğle yemeği de bir öğündür ve kahvaltıyla aynı anlam alanında yer alır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ bir doğa unsurudur ve kahvaltı kelimesiyle hiçbir anlamsal bağı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kahvaltı kelimesiyle ilgili kelimeler yiyecek, içecek ve öğün gibi anlam alanlarında toplanır; araba, ayakkabı ve dağ ise bu alanın dışındadır."
+}

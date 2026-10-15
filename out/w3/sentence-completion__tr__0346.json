@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Due to the sharp increase in energy prices,",
+  "correct_completion": "many households reduced their spending.",
+  "full_sentence": "Due to the sharp increase in energy prices, many households reduced their spending.",
+  "acceptable_variants": ["many households cut back on their spending.", "households significantly reduced their spending."],
+  "options": [
+    {"text": "however, many households kept spending freely.", "is_correct": false, "why_wrong": "'However' introduces a contrast, but the sentence needs a result of the price increase, not a contrast with it."},
+    {"text": "because many households reduced their spending.", "is_correct": false, "why_wrong": "'Because' repeats the cause already expressed by 'due to', creating a double connector."},
+    {"text": "many households reduced their spending.", "is_correct": true, "why_wrong": null},
+    {"text": "so many households reduced their spending.", "is_correct": false, "why_wrong": "'So' repeats the cause-effect link already made by 'due to'; only one connector is needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Nominalization after 'due to' with a single cause-effect link",
+  "connector": "due to",
+  "explanation": "'Due to' is followed by a noun phrase built on a nominalization ('the sharp increase'), so the sentence needs one main clause after the comma. Adding a second connector such as 'because' or 'so' is ungrammatical. Turkish speakers may add a second linking word here, carrying over the habit of marking the cause in more than one place.",
+  "translation": "Enerji fiyatlarındaki keskin artış nedeniyle, birçok hane harcamalarını azalttı."
+}
