@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee acted sooner,",
+  "correct_completion": "the crisis would have been averted.",
+  "full_sentence": "Had the committee acted sooner, the crisis would have been averted.",
+  "acceptable_variants": ["the crisis could have been avoided.", "the damage would have been far smaller."],
+  "options": [
+    {"text": "the crisis is being averted now.", "is_correct": false, "why_wrong": "The present continuous describes a real event happening now. The inverted conditional 'Had + subject + past participle' sets up an unreal past condition, so the result must be hypothetical with 'would have'."},
+    {"text": "the crisis was averted by chance.", "is_correct": false, "why_wrong": "This states what actually happened in the past. The inverted conditional introduces an imagined situation, so the main clause must describe what would have happened."},
+    {"text": "the crisis would have been averted.", "is_correct": true, "why_wrong": null},
+    {"text": "therefore the crisis was averted.", "is_correct": false, "why_wrong": "'Therefore' expresses a real cause and effect. It does not fit an unreal condition introduced by 'had', which needs a hypothetical result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditionals (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'If the committee had acted sooner', so the main clause needs 'would have' plus a past participle to express an unreal past result. Spanish speakers often drop the perfect conditional in this position and use a simple past or present form instead, but English requires the perfect conditional here.",
+  "translation": "Si el comité hubiera actuado antes, la crisis se habría evitado."
+}
