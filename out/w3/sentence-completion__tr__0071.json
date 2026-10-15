@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There were two cats and three",
+  "correct_completion": "mice in the garden.",
+  "full_sentence": "There were two cats and three mice in the garden.",
+  "acceptable_variants": ["mice near the house.", "mice in our garden."],
+  "options": [
+    {"text": "mouses in the garden.", "is_correct": false, "why_wrong": "'Mouse' has the irregular plural 'mice', not 'mouses'."},
+    {"text": "mouse in the garden.", "is_correct": false, "why_wrong": "'Three' needs a plural noun, so the singular 'mouse' does not fit."},
+    {"text": "mices in the garden.", "is_correct": false, "why_wrong": "'Mices' is not a real English word; the irregular plural of 'mouse' is 'mice'."},
+    {"text": "mice in the garden.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Irregular plural nouns: mouse and mice",
+  "connector": "three",
+  "explanation": "The number 'three' requires a plural noun, and 'mouse' has the irregular plural 'mice' instead of a regular -s ending. Learners often add -s to every noun because plural rules in their first language are regular.",
+  "translation": "Bahçede iki kedi ve üç fare vardı."
+}
