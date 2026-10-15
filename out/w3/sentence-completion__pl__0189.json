@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was only after the deadline had passed",
+  "correct_completion": "that the team admitted the plan had failed.",
+  "full_sentence": "It was only after the deadline had passed that the team admitted the plan had failed.",
+  "acceptable_variants": ["that the team finally acknowledged the plan had failed.", "that the plan was openly recognised as a failure."],
+  "options": [
+    {"text": "so the team admitted the plan had failed.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem already sets up a cleft structure that needs a relative 'that' clause to carry the emphasis."},
+    {"text": "the team admitted the plan had failed.", "is_correct": false, "why_wrong": "Without 'that', the cleft structure 'It was ... that' is left incomplete, so the sentence does not work as a standard emphatic construction."},
+    {"text": "that the team admitted the plan had failed.", "is_correct": true, "why_wrong": null},
+    {"text": "which the team admitted the plan had failed.", "is_correct": false, "why_wrong": "'Which' cannot introduce the focused clause in a cleft sentence; the emphasis structure requires 'that' after the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Cleft sentences with 'it was ... that' for emphasis",
+  "connector": "that",
+  "explanation": "The 'it was ... that' pattern places the time expression in focus and is completed by a 'that' clause. Learners whose first language signals emphasis through word order often omit the dummy 'it' or the 'that' in such constructions.",
+  "translation": "Dopiero po upływie terminu zespół przyznał, że plan się nie powiódł."
+}
