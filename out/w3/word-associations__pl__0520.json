@@ -1,0 +1,14 @@
+{
+  "trigger_word": "comic",
+  "all_words": [
+    {"word": "panel", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Pojedynczy kadr w komiksie nazywa się panel, więc słowo jest z nim ściśle związane."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka nie ma żadnego związku z komiksami."},
+    {"word": "hero", "is_associated": true, "association_type": "THEMATIC", "explanation": "Bohater to główna postać większości komiksów."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka nie ma związku z komiksami."},
+    {"word": "cartoon", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kreskówka to rysowana historia, bardzo blisko znaczeniowo związana z komiksem."},
+    {"word": "balloon", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dymek z tekstem w komiksie nazywa się w języku angielskim balloon."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z komiksem dotyczą jego elementów, bohaterów i rysunkowego stylu, a pozostałe nie mają z nim nic wspólnego."
+}

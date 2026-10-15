@@ -1,0 +1,32 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "bus",
+  "collocate": "stop",
+  "full_collocation": "bus stop",
+  "options": ["bus", "car", "bike", "boat"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "car", "reason": "We don't say 'car stop'. A place where cars wait is a 'parking space'."},
+    {"word": "bike", "reason": "We don't say 'bike stop'. 'Bike' does not form this compound with 'stop'."},
+    {"word": "boat", "reason": "We don't say 'boat stop'. A place where boats land is a 'dock' or a 'pier'."}
+  ],
+  "example_sentence": "Excuse me, can you tell me where the ___ stop is, please?",
+  "gap_position": 8,
+  "translation": "ponto de ônibus",
+  "l1_interference": "Os falantes de português às vezes invertem a ordem dos substantivos e dizem 'stop bus' em vez de 'bus stop', porque em português a ordem é 'ponto de ônibus'. Em inglês, o substantivo que descreve o tipo vem primeiro.",
+  "common_mistake": "stop bus",
+  "explanation": "In English, a compound noun puts the word that describes the type first, so 'bus stop' is a stop for buses.",
+  "related_collocations": [
+    {"collocation": "bus ticket", "translation": "bilhete de ônibus", "example": "Do you have a bus ticket?"},
+    {"collocation": "train station", "translation": "estação de trem", "example": "Where is the train station?"},
+    {"collocation": "phone call", "translation": "ligação telefônica", "example": "Can I make a quick phone call?"}
+  ],
+  "memory_tip": "BUS STOP = the place where the bus stops (the first word says what kind of stop)",
+  "matching_pairs": [
+    {"left": "bus", "right": "stop"},
+    {"left": "phone", "right": "call"},
+    {"left": "train", "right": "station"},
+    {"left": "bus", "right": "ticket"},
+    {"left": "traffic", "right": "light"}
+  ]
+}
