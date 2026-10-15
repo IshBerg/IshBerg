@@ -1,0 +1,14 @@
+{
+  "trigger_word": "friend",
+  "all_words": [
+    {"word": "trust", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Zaufanie jest jedną z podstawowych cech prawdziwej przyjaźni."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Silnik to część maszyny i nie ma żadnego związku z przyjaźnią."},
+    {"word": "birthday", "is_associated": true, "association_type": "THEMATIC", "explanation": "Przyjaciele często świętują swoje urodziny razem i składają sobie życzenia."},
+    {"word": "chat", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Rozmowa z przyjacielem, czyli pogawędka, jest typowym sposobem spędzania czasu razem."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Wulkan nie jest związany z relacjami między ludźmi i nie pasuje do tego tematu."},
+    {"word": "smile", "is_associated": true, "association_type": "THEMATIC", "explanation": "Uśmiech często pojawia się, gdy spotykamy się z przyjaciółmi i jesteśmy zadowoleni z ich towarzystwa."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Te słowa są powiązane z przyjaźnią znaczeniowo lub tematycznie, natomiast pozostałe dwa nie mają z nią związku."
+}
