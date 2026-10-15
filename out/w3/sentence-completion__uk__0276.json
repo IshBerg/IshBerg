@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Far from being a failure,",
+  "correct_completion": "the experiment yielded results that reshaped the field.",
+  "full_sentence": "Far from being a failure, the experiment yielded results that reshaped the field.",
+  "acceptable_variants": ["the experiment produced findings that transformed the field.", "the experiment led to a breakthrough in the field."],
+  "options": [
+    {"text": "it was quietly abandoned by the funding board.", "is_correct": false, "why_wrong": "This describes failure, which the phrase 'far from being a failure' explicitly denies. The completion must continue the contrast."},
+    {"text": "so the team decided to repeat it next year.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. The stem needs a clause about a positive outcome."},
+    {"text": "the experiment yielded results that reshaped the field.", "is_correct": true, "why_wrong": null},
+    {"text": "which is why nobody remembers it today.", "is_correct": false, "why_wrong": "This describes a consequence of failure. It does not provide the positive contrast that 'far from being' sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Negative concessive phrase 'far from being' with a contrasting main clause",
+  "connector": "far from being",
+  "explanation": "The phrase 'far from being' sets up a contrast, so the main clause must describe a positive outcome, not a failure. Ukrainian speakers may translate the phrase word for word and then expect a cause clause, but here a contrasting result is needed.",
+  "translation": "Зовсім не будучи невдачею, експеримент дав результати, які змінили цю галузь."
+}
