@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "professor", "transliteration": "professor", "meaning": "school teacher"},
+    {"word": "ator", "transliteration": "ator", "meaning": "actor"},
+    {"word": "médico", "transliteration": "medico", "meaning": "doctor"},
+    {"word": "dentista", "transliteration": "dentista", "meaning": "dentist"}
+  ],
+  "english_words": ["doctor", "dentist", "actor", "teacher"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Portuguese word for a school teacher is spelled the same as the English word 'professor', which in English means a university-level academic. Both forms come from the same Latin root, but the meanings drifted apart over time.",
+  "false_friend_warning": "Warning: the Portuguese word 'professor' looks identical to the English word 'professor', but it means a school teacher. In English, use 'teacher' for a school teacher and reserve 'professor' for university staff."
+}

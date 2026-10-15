@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Right now, my brother",
+  "correct_completion": "is watching TV in the living room.",
+  "full_sentence": "Right now, my brother is watching TV in the living room.",
+  "acceptable_variants": ["is watching television in the living room.", "is watching a film in the living room."],
+  "options": [
+    {"text": "watches TV every day.", "is_correct": false, "why_wrong": "This is the simple present, used for habits. The sentence says 'right now', so the present continuous is needed."},
+    {"text": "watched TV last night.", "is_correct": false, "why_wrong": "This is the past simple, which describes a finished action. 'Right now' points to the present."},
+    {"text": "is watching TV in the living room.", "is_correct": true, "why_wrong": null},
+    {"text": "will watch TV tomorrow.", "is_correct": false, "why_wrong": "This is the future tense. The sentence describes what is happening now, not later."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present continuous for actions happening now",
+  "connector": "right now",
+  "explanation": "The phrase 'right now' shows an action happening at the moment of speaking. Use the present continuous: am, is or are plus the -ing form of the verb. The simple present is used for habits and routines, so it does not fit here.",
+  "translation": "Agora, meu irmão está assistindo TV na sala de estar."
+}
