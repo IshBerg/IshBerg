@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother is very tired,",
+  "correct_completion": "so he goes to bed early.",
+  "full_sentence": "My brother is very tired, so he goes to bed early.",
+  "acceptable_variants": ["so he sleeps early.", "so he has a long nap."],
+  "options": [
+    {"text": "so he runs to the park.", "is_correct": false, "why_wrong": "Running does not follow logically from being tired. The sentence needs a result of his tiredness."},
+    {"text": "so he plays football every day.", "is_correct": false, "why_wrong": "This adds a habit but does not show a result of being tired."},
+    {"text": "so he goes to bed early.", "is_correct": true, "why_wrong": null},
+    {"text": "so he is tired yesterday.", "is_correct": false, "why_wrong": "The time expression 'yesterday' does not fit the present simple, and the sentence does not show a result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present simple, third person singular, after 'so'",
+  "connector": "so",
+  "explanation": "The connector 'so' shows a result of the first clause. Use the present simple with an -s ending for the third person singular 'he'.",
+  "translation": "Mój brat jest bardzo zmęczony, więc idzie wcześnie spać."
+}
