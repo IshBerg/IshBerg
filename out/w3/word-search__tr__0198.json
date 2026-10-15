@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["P", "H", "O", "N", "E", "K", "J", "Q", "C"],
+    ["W", "A", "Z", "L", "D", "V", "G", "X", "H"],
+    ["T", "R", "Y", "F", "K", "Q", "J", "W", "I"],
+    ["L", "O", "V", "G", "M", "N", "A", "D", "P"],
+    ["X", "B", "H", "J", "E", "O", "Z", "L", "Q"],
+    ["F", "O", "K", "E", "W", "Y", "U", "G", "A"],
+    ["M", "T", "R", "I", "N", "D", "V", "S", "B"],
+    ["U", "C", "A", "P", "L", "H", "J", "O", "E"],
+    ["S", "D", "F", "Q", "X", "Z", "K", "W", "T"]
+  ],
+  "words_to_find": ["PHONE", "ROBOT", "MOUSE", "SCREEN", "CHIP"],
+  "word_positions": [
+    {"word": "PHONE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ROBOT", "start_row": 2, "start_col": 1, "direction": "VERTICAL"},
+    {"word": "MOUSE", "start_row": 3, "start_col": 4, "direction": "DIAGONAL_DOWN"},
+    {"word": "SCREEN", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "CHIP", "start_row": 0, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Technology"
+}
