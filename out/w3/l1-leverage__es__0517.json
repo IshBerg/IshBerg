@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "restaurante", "transliteration": "restaurante", "meaning": "restaurant"},
+    {"word": "chocolate", "transliteration": "chocolate", "meaning": "chocolate"},
+    {"word": "pizza", "transliteration": "pizza", "meaning": "pizza"},
+    {"word": "menú", "transliteration": "menu", "meaning": "menu"}
+  ],
+  "english_words": ["pizza", "menu", "chocolate", "restaurant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each of these four words was borrowed from the same source in both languages, so the spelling and sound stayed close. Compare them by their English meanings: restaurant, chocolate, pizza and menu.",
+  "false_friend_warning": null
+}
