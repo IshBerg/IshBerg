@@ -1,0 +1,20 @@
+{
+  "title": "At the Cafe",
+  "text": "Ana goes to a cafe with her friend Luis. The menu has soup, pizza and salad. Ana wants a salad.\n\nLuis wants pizza and orange juice. The pizza costs five dollars. They pay at the counter and sit by the window.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What food does Ana want?", "options": ["Soup", "Pizza", "Salad", "Cake"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Luis want to drink?", "options": ["Water", "Orange juice", "Coffee", "Milk"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What kind of place is the cafe?", "options": ["A place where you order and pay for food", "A school", "A hospital", "A park"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why did Luis probably choose pizza?", "options": ["He likes it", "It is free", "It is the only food", "It is cold"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "menu", "translation": "menú", "definition": "a list of food and drinks that you can order in a restaurant"},
+    {"word": "salad", "translation": "ensalada", "definition": "a dish of mixed vegetables, often eaten cold"},
+    {"word": "counter", "translation": "mostrador", "definition": "a long table where you order or pay in a shop or cafe"},
+    {"word": "window", "translation": "ventana", "definition": "an opening in a wall with glass that lets in light"}
+  ],
+  "paragraph_translations": [
+    "Ana va a una cafetería con su amigo Luis. El menú tiene sopa, pizza y ensalada. Ana quiere una ensalada.",
+    "Luis quiere pizza y jugo de naranja. La pizza cuesta cinco dólares. Ellos pagan en el mostrador y se sientan junto a la ventana."
+  ]
+}

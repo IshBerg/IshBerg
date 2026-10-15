@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["B", "R", "E", "A", "K", "D", "Q", "C"],
+    ["J", "O", "S", "V", "W", "Z", "X", "A"],
+    ["F", "H", "Y", "G", "N", "D", "U", "T"],
+    ["Y", "M", "A", "K", "E", "V", "W", "C"],
+    ["T", "B", "L", "D", "S", "P", "Q", "H"],
+    ["U", "Z", "X", "W", "F", "V", "B", "J"],
+    ["R", "G", "P", "I", "C", "K", "Y", "D"],
+    ["N", "L", "S", "Q", "T", "V", "F", "X"]
+  ],
+  "words_to_find": ["BREAK", "CATCH", "MAKE", "TURN", "PICK"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CATCH", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "MAKE", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "TURN", "start_row": 4, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "PICK", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Idioms and Phrasal Verbs"
+}
