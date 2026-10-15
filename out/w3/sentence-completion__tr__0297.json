@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The cat is sleeping",
+  "correct_completion": "under the table.",
+  "full_sentence": "The cat is sleeping under the table.",
+  "acceptable_variants": ["under the bed.", "on the sofa."],
+  "options": [
+    {"text": "on Monday.", "is_correct": false, "why_wrong": "'On Monday' is a time expression, so it answers 'when', not 'where' the cat is."},
+    {"text": "in the morning.", "is_correct": false, "why_wrong": "'In the morning' describes time, not a place, so it does not show where the cat is sleeping."},
+    {"text": "under the table.", "is_correct": true, "why_wrong": null},
+    {"text": "and it is happy.", "is_correct": false, "why_wrong": "This adds a feeling about the cat but does not say where it is sleeping."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: under, on and in",
+  "connector": "preposition of place",
+  "explanation": "The stem asks where the cat is, so we need a prepositional phrase of place. Time expressions and feelings do not answer the question 'where'. In English the preposition comes before the noun phrase, while some languages place location words after the noun, so learners should check the word order.",
+  "translation": "Kedi masanın altında uyuyor."
+}
