@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, friendly (pleasant to be with)"},
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "rekwizyt", "transliteration": "rekwizyt", "meaning": "prop (an object used on stage or in a film)"}
+  ],
+  "english_words": ["current", "prop", "nice", "possibly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Polish words and their English look-alikes come from related Latin or Greek roots, but over time each language kept a different meaning, so the form looks familiar while the meaning differs.",
+  "false_friend_warning": "Do not assume that an English look-alike means the same as the Polish word: the Polish word for nice looks like the English word sympathetic, which means feeling pity or understanding for someone; the Polish word for current looks like the English word actual, which means real or existing; and the Polish word for possibly looks like the English word eventually, which means at the end of a process."
+}

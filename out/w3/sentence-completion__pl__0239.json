@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The project was well funded; nevertheless,",
+  "correct_completion": "it failed to meet its main goals.",
+  "full_sentence": "The project was well funded; nevertheless, it failed to meet its main goals.",
+  "acceptable_variants": ["it did not achieve its key objectives.", "its main goals remained unmet."],
+  "options": [
+    {"text": "consequently, it met its main goals.", "is_correct": false, "why_wrong": "'Consequently' signals a result that follows from the first clause, but the stem sets up a contrast, so a result that follows from the funding does not fit."},
+    {"text": "it failed to meet its main goals.", "is_correct": true, "why_wrong": null},
+    {"text": "therefore, the funding was increased.", "is_correct": false, "why_wrong": "'Therefore' introduces a logical consequence, and the sentence is about the project's failure, not about more funding."},
+    {"text": "furthermore, it attracted more donors.", "is_correct": false, "why_wrong": "'Furthermore' adds an extra point in the same direction, but 'nevertheless' requires a contrasting outcome."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive discourse markers such as nevertheless, however and nonetheless",
+  "connector": "nevertheless",
+  "explanation": "The discourse marker nevertheless signals that the second clause contradicts what the first clause would lead the reader to expect. Polish speakers often choose a marker that adds information instead, because Polish words for 'nevertheless' are used less frequently in neutral speech, so the contrast needs to be made explicit in English.",
+  "translation": "Projekt był dobrze finansowany; mimo to nie udało mu się osiągnąć głównych celów."
+}
