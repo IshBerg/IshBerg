@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The rapid growth of cities",
+  "correct_completion": "has created new challenges for transport planners.",
+  "full_sentence": "The rapid growth of cities has created new challenges for transport planners.",
+  "acceptable_variants": ["has placed new pressure on public transport.", "has forced planners to rethink road networks."],
+  "options": [
+    {"text": "cities grew rapidly, so planners had to act.", "is_correct": false, "why_wrong": "The stem is already a noun phrase used as the subject. Adding a second full clause with its own verb does not complete it as one sentence."},
+    {"text": "has created new challenges for transport planners.", "is_correct": true, "why_wrong": null},
+    {"text": "although it was raining heavily.", "is_correct": false, "why_wrong": "This is a concessive clause with no main verb for the subject, so it cannot complete the stem as a main clause."},
+    {"text": "happened because the city had money.", "is_correct": false, "why_wrong": "This gives a cause, but the verb 'happened' does not fit the academic nominal structure of the stem and introduces a separate claim."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Nominalized subject noun phrase followed by a present perfect verb",
+  "connector": "of",
+  "explanation": "In academic style, the action is packed into a noun phrase, 'the rapid growth of cities', which becomes the subject. The sentence then needs one main verb, here the present perfect, to say what this subject has done. Turkish speakers often expect a full clause with its own verb after the subject, so they may write a second clause instead.",
+  "translation": "Şehirlerin hızlı büyümesi, ulaşım planlamacıları için yeni zorluklar yarattı."
+}
