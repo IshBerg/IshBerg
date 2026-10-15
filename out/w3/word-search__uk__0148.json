@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "O", "M", "X", "D", "Q", "Z"],
+    ["K", "B", "R", "W", "A", "E", "P"],
+    ["F", "J", "I", "U", "D", "Y", "Q"],
+    ["S", "O", "N", "L", "E", "R", "A"],
+    ["H", "T", "K", "M", "C", "B", "U"],
+    ["W", "X", "G", "F", "V", "J", "N"],
+    ["Z", "Q", "Y", "L", "P", "R", "T"]
+  ],
+  "words_to_find": ["MOM", "DAD", "SON", "AUNT"],
+  "word_positions": [
+    {"word": "MOM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DAD", "start_row": 0, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "SON", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "AUNT", "start_row": 3, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Family Members"
+}
