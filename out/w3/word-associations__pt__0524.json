@@ -1,0 +1,14 @@
+{
+  "trigger_word": "menu",
+  "all_words": [
+    {"word": "waiter", "is_associated": true, "association_type": "THEMATIC", "explanation": "O garçom traz o cardápio à mesa e anota o pedido no restaurante."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanha não tem relação com cardápio nem com pedir comida em restaurante."},
+    {"word": "bill", "is_associated": true, "association_type": "THEMATIC", "explanation": "A conta (bill) é o que se pede depois de escolher no cardápio e comer no restaurante."},
+    {"word": "sleep", "is_associated": false, "association_type": "NONE", "explanation": "Dormir não tem relação com cardápio nem com fazer pedidos em restaurantes."},
+    {"word": "order", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês dizemos 'order from the menu' (pedir do cardápio), por isso as duas palavras andam juntas."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Árvore não tem nenhuma ligação com cardápio ou restaurante."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'menu' se associa a palavras do ambiente de restaurante e do ato de pedir comida; as demais palavras não têm relação."
+}
