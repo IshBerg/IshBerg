@@ -1,0 +1,23 @@
+{
+  "central_word": "run",
+  "chain_words": [
+    {"word": "stroll", "intensity": 1, "translation": "прогулюватися", "nuance": "a slow, relaxed walk for pleasure"},
+    {"word": "walk", "intensity": 2, "translation": "ходити", "nuance": "the general word for moving on foot at a normal pace"},
+    {"word": "jog", "intensity": 3, "translation": "бігти підтюпцем", "nuance": "running slowly, often for exercise"},
+    {"word": "run", "intensity": 4, "translation": "бігти", "nuance": "moving on foot quickly, the general word for running"},
+    {"word": "sprint", "intensity": 5, "translation": "мчати", "nuance": "running as fast as possible for a short distance"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe moving on foot, with increasing speed and effort from a relaxed stroll to a full sprint.",
+  "usage_notes": [
+    {"word1": "stroll", "word2": "walk", "difference": "'Stroll' suggests a relaxed walk taken for pleasure, while 'walk' is the general word for travelling on foot."}
+  ],
+  "translations": {
+    "stroll": "прогулюватися",
+    "walk": "ходити",
+    "jog": "бігти підтюпцем",
+    "run": "бігти",
+    "sprint": "мчати"
+  }
+}

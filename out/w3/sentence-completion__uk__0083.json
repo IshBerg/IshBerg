@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My new bicycle is much faster than",
+  "correct_completion": "my old one.",
+  "full_sentence": "My new bicycle is much faster than my old one.",
+  "acceptable_variants": ["my old bike.", "the one I rode last year."],
+  "options": [
+    {"text": "my old one was very fast.", "is_correct": false, "why_wrong": "After 'than' the clause must name the item being compared; this starts a new sentence about the old bicycle's speed instead."},
+    {"text": "my old one.", "is_correct": true, "why_wrong": null},
+    {"text": "the oldest one in the shop.", "is_correct": false, "why_wrong": "'Oldest' is a superlative, which does not fit a comparison with 'than'; a comparison between two items needs a comparative."},
+    {"text": "as fast as my old one.", "is_correct": false, "why_wrong": "'As fast as' shows equality, but the stem says the new bicycle is much faster."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Comparative adjectives followed by 'than'",
+  "connector": "than",
+  "explanation": "The comparative 'faster' needs 'than' followed by the item it is compared with. Short adjectives take the -er form, and the completion must name the second item.",
+  "translation": "Мій новий велосипед набагато швидший, ніж мій старий."
+}
