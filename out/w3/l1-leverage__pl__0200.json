@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "telefon", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"},
+    {"word": "muzeum", "transliteration": "muzeum", "meaning": "museum"},
+    {"word": "kolor", "transliteration": "kolor", "meaning": "color"}
+  ],
+  "english_words": ["museum", "color", "telephone", "hotel"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each of these Polish words was borrowed from the same Latin or Greek source as its English counterpart, so the spelling and sound stayed close in both languages.",
+  "false_friend_warning": null
+}

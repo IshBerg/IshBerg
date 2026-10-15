@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied medicine,",
+  "correct_completion": "I would be a doctor by now.",
+  "full_sentence": "If I had studied medicine, I would be a doctor by now.",
+  "acceptable_variants": ["I would be working as a doctor now.", "I would probably be a doctor by now."],
+  "options": [
+    {"text": "I am studying law at the moment.", "is_correct": false, "why_wrong": "The result clause must use 'would' plus a present time reference to show the present result of the unreal past condition. 'Am studying' does not complete the mixed conditional."},
+    {"text": "I would be a doctor by now.", "is_correct": true, "why_wrong": null},
+    {"text": "I would have been a doctor now.", "is_correct": false, "why_wrong": "'Would have been' refers to the past, but 'now' places the result in the present. A mixed conditional needs 'would' plus a present time expression."},
+    {"text": "I will become a doctor next year.", "is_correct": false, "why_wrong": "'Will' belongs to first conditional or future forms and does not match an unreal 'if' clause with 'had studied'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals (unreal past condition with present result)",
+  "connector": "if",
+  "explanation": "The if-clause uses the past perfect 'had studied' to describe an unreal past condition, while the main clause uses 'would be' to describe its present result. Polish speakers often try to match the time of both clauses, but English mixed conditionals deliberately separate them.",
+  "translation": "Gdybym studiował medycynę, byłbym teraz lekarzem."
+}
