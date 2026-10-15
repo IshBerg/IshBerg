@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was raining, so",
+  "correct_completion": "we took an umbrella.",
+  "full_sentence": "It was raining, so we took an umbrella.",
+  "acceptable_variants": ["we stayed inside at home.", "we wore our raincoats."],
+  "options": [
+    {"text": "we went to the beach.", "is_correct": false, "why_wrong": "Going to the beach is not a logical result of rain, so this does not fit after 'so'."},
+    {"text": "the sun was shining.", "is_correct": false, "why_wrong": "This contradicts the stem, because it was raining. It is not a result of the rain."},
+    {"text": "we took an umbrella.", "is_correct": true, "why_wrong": null},
+    {"text": "we ate a big cake.", "is_correct": false, "why_wrong": "This is an action, but it has no logical connection to the rain."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Connector 'so' introducing a result clause",
+  "connector": "so",
+  "explanation": "'So' introduces a result, so the second part must be a logical consequence of the first part. Learners whose first language has a single connector for both cause and result often mix up 'so' and 'because', so check which meaning the sentence needs.",
+  "translation": "Yağmur yağıyordu, bu yüzden şemsiye aldık."
+}
