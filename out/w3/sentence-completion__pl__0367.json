@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The company's profits fell sharply because",
+  "correct_completion": "its main factory had to close for three months.",
+  "full_sentence": "The company's profits fell sharply because its main factory had to close for three months.",
+  "acceptable_variants": ["raw material costs rose sharply.", "demand for its products dropped."],
+  "options": [
+    {"text": "the shareholders were very pleased with the result.", "is_correct": false, "why_wrong": "This describes a reaction to good results, but profits fell, so it does not explain the drop."},
+    {"text": "the board announced a new office in London.", "is_correct": false, "why_wrong": "This is an unrelated announcement; it does not give a reason for falling profits."},
+    {"text": "its main factory had to close for three months.", "is_correct": true, "why_wrong": null},
+    {"text": "analysts had predicted strong growth for the year.", "is_correct": false, "why_wrong": "This is a prediction about the future, not an event that could cause profits to fall."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the fall in profits. Only the closure of the factory explains the drop.",
+  "translation": "Zyski firmy gwałtownie spadły, ponieważ jej główna fabryka musiała zostać zamknięta na trzy miesiące."
+}
