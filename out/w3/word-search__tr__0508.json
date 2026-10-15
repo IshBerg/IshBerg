@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["B", "O", "O", "T", "H", "Z", "N"],
+    ["K", "P", "J", "W", "D", "G", "U"],
+    ["A", "C", "C", "E", "N", "T", "A"],
+    ["M", "R", "B", "F", "K", "V", "N"],
+    ["S", "Y", "N", "T", "A", "X", "C"],
+    ["G", "Q", "W", "M", "J", "P", "E"],
+    ["L", "E", "X", "I", "C", "O", "N"]
+  ],
+  "words_to_find": ["BOOTH", "NUANCE", "ACCENT", "SYNTAX", "LEXICON"],
+  "word_positions": [
+    {"word": "BOOTH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NUANCE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ACCENT", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SYNTAX", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEXICON", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}
