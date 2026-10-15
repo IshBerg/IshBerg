@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "A", "S", "T", "I", "C", "H", "E", "K", "S"],
+    ["W", "Q", "Z", "X", "B", "D", "L", "M", "A", "J"],
+    ["U", "K", "V", "B", "N", "H", "Q", "T", "F", "C"],
+    ["I", "Z", "P", "D", "K", "W", "I", "V", "J", "O"],
+    ["Q", "R", "H", "M", "T", "R", "B", "Y", "D", "L"],
+    ["K", "X", "O", "J", "E", "Z", "W", "U", "P", "L"],
+    ["V", "D", "Q", "N", "X", "B", "M", "H", "Z", "A"],
+    ["L", "K", "P", "T", "Y", "D", "Q", "B", "F", "G"],
+    ["R", "J", "W", "U", "H", "V", "X", "C", "N", "E"],
+    ["Q", "T", "N", "E", "M", "G", "A", "R", "F", "Z"]
+  ],
+  "words_to_find": ["PASTICHE", "COLLAGE", "IRONY", "FRAGMENT", "SATIRE"],
+  "word_positions": [
+    {"word": "PASTICHE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "COLLAGE", "start_row": 2, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FRAGMENT", "start_row": 9, "start_col": 8, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SATIRE", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"}
+  ],
+  "topic": "Postmodern and Experimental Literature"
+}

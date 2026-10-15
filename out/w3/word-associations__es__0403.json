@@ -1,0 +1,14 @@
+{
+  "trigger_word": "clock",
+  "all_words": [
+    {"word": "watch", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El reloj de pulsera también sirve para ver la hora, igual que un reloj de pared."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "El pan no tiene ninguna relación con los relojes ni con la hora."},
+    {"word": "alarm", "is_associated": true, "association_type": "THEMATIC", "explanation": "La alarma de un reloj despierta a la persona a una hora fijada, así que forman parte del mismo tema."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "El río es un lugar de la naturaleza y no tiene relación con un reloj."},
+    {"word": "hour", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un reloj muestra las horas, y la hora es la unidad que marca."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El zapato no tiene relación con el tiempo ni con los relojes."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'clock' se relacionan con medir o mostrar el tiempo; las demás no tienen esa relación."
+}
