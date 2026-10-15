@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We have been waiting here",
+  "correct_completion": "since 9 o'clock.",
+  "full_sentence": "We have been waiting here since 9 o'clock.",
+  "acceptable_variants": ["since nine o'clock.", "since 9 a.m."],
+  "options": [
+    {"text": "for 9 o'clock.", "is_correct": false, "why_wrong": "'For' is used with a period of time, such as for two hours. A clock time like 9 o'clock is a starting point, so 'since' is needed."},
+    {"text": "since 9 o'clock.", "is_correct": true, "why_wrong": null},
+    {"text": "during 9 o'clock.", "is_correct": false, "why_wrong": "'During' is used with an event or a period, such as during the film. It does not combine with a clock time."},
+    {"text": "at 9 o'clock.", "is_correct": false, "why_wrong": "'At' names a single point in time, but the present perfect continuous needs a starting point that continues up to now, which 'since' gives."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Prepositions of time with the present perfect continuous",
+  "connector": "since",
+  "explanation": "With the present perfect continuous, 'since' is used before a starting point in time, and 'for' is used before a length of time. Learners often confuse these two prepositions.",
+  "translation": "Czekamy tutaj od godziny dziewiątej."
+}

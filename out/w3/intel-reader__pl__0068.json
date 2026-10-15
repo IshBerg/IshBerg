@@ -1,0 +1,20 @@
+{
+  "title": "An Appointment Letter",
+  "text": "Dear Sir or Madam, thank you for your letter of 3 May. We are pleased to confirm your appointment on Monday at 10 a.m. Please bring your passport and a copy of this letter. If you cannot come, please write to us before Friday.\n\nThe office is on Green Street, number 12. You can park your car in the car park behind the building. Our assistant will meet you at the front desk. We look forward to seeing you.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "When is the appointment?", "options": ["On Monday at 10 a.m.", "On Friday at 2 p.m.", "On Tuesday at 10 a.m.", "On Monday at 4 p.m."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where can you park your car?", "options": ["In the car park behind the building", "On Green Street in front of the office", "In the street next to the station", "In the office garage"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What should you do if you cannot come on Monday?", "options": ["Write to the office before Friday", "Come on Friday instead", "Send your passport by post", "Call the car park"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is the main purpose of this letter?", "options": ["To confirm a meeting", "To sell a car", "To ask for a job", "To order a new passport"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "appointment", "translation": "spotkanie", "definition": "an arranged time to meet someone at a place"},
+    {"word": "passport", "translation": "paszport", "definition": "an official document that proves who you are when you travel"},
+    {"word": "copy", "translation": "kopia", "definition": "a second version of a document"},
+    {"word": "front desk", "translation": "recepcja", "definition": "the place in a building where visitors are greeted"}
+  ],
+  "paragraph_translations": [
+    "Szanowni Państwo, dziękujemy za Państwa list z 3 maja. Z przyjemnością potwierdzamy spotkanie w poniedziałek o godzinie 10:00. Prosimy o zabranie paszportu i kopii tego listu. Jeśli nie będzie Państwa możliwe przybycie, prosimy o napisanie do nas przed piątkiem.",
+    "Biuro znajduje się przy ulicy Zielonej 12. Samochód można zaparkować na parkingu za budynkiem. Nasz asystent spotka się z Państwem przy recepcji. Z niecierpliwością czekamy na spotkanie."
+  ]
+}
