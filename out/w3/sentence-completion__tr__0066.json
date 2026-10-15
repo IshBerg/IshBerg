@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Could you tell me where",
+  "correct_completion": "the library is?",
+  "full_sentence": "Could you tell me where the library is?",
+  "acceptable_variants": ["the bus station is?", "the post office is?"],
+  "options": [
+    {"text": "is the library?", "is_correct": false, "why_wrong": "The word order is wrong. Indirect questions use subject before verb, as in 'where the library is'."},
+    {"text": "the library is?", "is_correct": true, "why_wrong": null},
+    {"text": "does the library open?", "is_correct": false, "why_wrong": "'Does' belongs to direct questions. Inside an indirect question after 'where', the auxiliary is not used."},
+    {"text": "where is it?", "is_correct": false, "why_wrong": "This repeats 'where' and creates a second question, so the sentence no longer completes the request."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with 'where'",
+  "connector": "where",
+  "explanation": "An indirect question embedded in a longer sentence uses normal subject-verb order, so the verb follows the subject. Students often carry over the word order of direct questions, which is an error in this structure.",
+  "translation": "Kütüphanenin nerede olduğunu bana söyleyebilir misiniz?"
+}
