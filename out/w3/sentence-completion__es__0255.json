@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When my brother came home late,",
+  "correct_completion": "my parents were waiting for him.",
+  "full_sentence": "When my brother came home late, my parents were waiting for him.",
+  "acceptable_variants": ["my parents were worried about him.", "my parents were still awake, waiting for him."],
+  "options": [
+    {"text": "my parents were waiting for it.", "is_correct": false, "why_wrong": "'It' refers to a thing or an animal, not to a person. Here the pronoun must refer to the brother."},
+    {"text": "my parents were waiting for he.", "is_correct": false, "why_wrong": "'He' is a subject pronoun. After a preposition such as 'for' we need an object pronoun."},
+    {"text": "my parents were waiting for him.", "is_correct": true, "why_wrong": null},
+    {"text": "my parents were waiting for his.", "is_correct": false, "why_wrong": "'His' is a possessive word meaning 'belonging to him'. It cannot serve as the object of 'for' here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Object pronouns after prepositions",
+  "connector": "for",
+  "explanation": "After a preposition such as 'for', English uses an object pronoun (him, her, us, them). Spanish speakers often mix up subject and object pronouns here, because the subject form 'he' can seem natural after 'for'.",
+  "translation": "Cuando mi hermano llegó tarde a casa, mis padres lo estaban esperando."
+}

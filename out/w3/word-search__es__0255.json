@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "A", "R", "T", "Y", "M", "Q", "Z", "N", "G"],
+    ["K", "L", "O", "J", "H", "U", "E", "V", "C", "I"],
+    ["B", "N", "D", "I", "W", "A", "L", "I", "S", "F"],
+    ["R", "Y", "G", "X", "P", "O", "M", "F", "Q", "T"],
+    ["E", "Z", "H", "U", "K", "B", "W", "J", "D", "V"],
+    ["C", "A", "N", "L", "O", "I", "G", "T", "R", "Y"],
+    ["M", "U", "S", "Q", "F", "D", "X", "P", "H", "E"],
+    ["J", "B", "W", "T", "V", "N", "R", "Z", "L", "K"],
+    ["G", "F", "Q", "M", "E", "S", "H", "U", "I", "A"],
+    ["D", "K", "T", "N", "Y", "R", "O", "W", "V", "C"]
+  ],
+  "words_to_find": ["PARTY", "GIFT", "EASTER", "DIWALI", "CAKE"],
+  "word_positions": [
+    {"word": "PARTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GIFT", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "EASTER", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DIWALI", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "CAKE", "start_row": 9, "start_col": 9, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Holidays Around the World"
+}

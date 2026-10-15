@@ -1,0 +1,17 @@
+{
+  "central_word": "angry",
+  "chain_words": [
+    {"word": "annoyed", "intensity": 1, "translation": "molesto", "nuance": "mild irritation at a small thing"},
+    {"word": "irritated", "intensity": 2, "translation": "irritado", "nuance": "persistent, physical sense of being bothered"},
+    {"word": "angry", "intensity": 3, "translation": "enojado", "nuance": "general feeling of displeasure or hostility"},
+    {"word": "furious", "intensity": 4, "translation": "furioso", "nuance": "intense anger that can lead to loss of control"},
+    {"word": "enraged", "intensity": 5, "translation": "enfurecido", "nuance": "anger provoked into a violent state"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express displeasure at someone or something, rising from mild irritation to violent rage.",
+  "usage_notes": [
+    {"word1": "annoyed", "word2": "irritated", "difference": "'Annoyed' usually describes a reaction to a single event, while 'irritated' often describes a more lasting or physical feeling of being bothered."}
+  ],
+  "translations": {"annoyed": "molesto", "irritated": "irritado", "angry": "enojado", "furious": "furioso", "enraged": "enfurecido"}
+}
