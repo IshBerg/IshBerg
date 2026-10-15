@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more time,",
+  "correct_completion": "I would learn to play the guitar.",
+  "full_sentence": "If I had more time, I would learn to play the guitar.",
+  "acceptable_variants": ["I would take up the guitar.", "I could learn to play the guitar."],
+  "options": [
+    {"text": "I learned to play the guitar yesterday.", "is_correct": false, "why_wrong": "The past simple describes a finished event and does not fit the unreal present condition set by 'had'."},
+    {"text": "I learn to play the guitar every day.", "is_correct": false, "why_wrong": "The present simple describes a real routine, but the 'if' clause is unreal, so the result needs 'would'."},
+    {"text": "I would learn to play the guitar.", "is_correct": true, "why_wrong": null},
+    {"text": "I will learn to play the guitar since I have time.", "is_correct": false, "why_wrong": "'Since' gives a real reason rather than an unreal condition, and 'will' does not match the unreal 'had'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional for unreal present situations",
+  "connector": "if",
+  "explanation": "After 'if' with a past simple form, the main clause uses 'would' plus the base verb to show an unreal present situation.",
+  "translation": "Gdybym miał więcej czasu, nauczyłbym się grać na gitarze."
+}
