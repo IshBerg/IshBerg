@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The students are",
+  "correct_completion": "in the classroom.",
+  "full_sentence": "The students are in the classroom.",
+  "acceptable_variants": ["in the classroom now.", "at their desks."],
+  "options": [
+    {"text": "on the classroom.", "is_correct": false, "why_wrong": "'On' is used for surfaces, such as 'on the table'. We use 'in' for rooms."},
+    {"text": "at the classroom.", "is_correct": false, "why_wrong": "'At' is used for a point or a specific location, such as 'at the door'. For a room we use 'in'."},
+    {"text": "in the classroom.", "is_correct": true, "why_wrong": null},
+    {"text": "the classroom in.", "is_correct": false, "why_wrong": "The preposition must come before the noun phrase. The correct order is 'in the classroom'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Prepositions of place: 'in' with rooms",
+  "connector": "in",
+  "explanation": "Rooms are normally used with 'in' in English, because the room is thought of as a space that people are inside. Ukrainian speakers may be tempted to choose a different preposition, but English uses 'in' for rooms.",
+  "translation": "Учні знаходяться в класі."
+}
