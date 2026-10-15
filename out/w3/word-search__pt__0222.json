@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "M", "A", "I", "L", "Q", "W", "T", "R"],
+    ["K", "J", "P", "Z", "X", "V", "B", "F", "E"],
+    ["N", "U", "G", "C", "H", "Y", "S", "D", "P"],
+    ["R", "O", "W", "T", "K", "M", "Q", "J", "L"],
+    ["H", "X", "Z", "B", "F", "W", "P", "N", "Y"],
+    ["V", "E", "K", "Q", "J", "T", "M", "G", "D"],
+    ["Z", "R", "L", "X", "K", "B", "F", "N", "U"],
+    ["W", "Q", "T", "L", "J", "H", "E", "G", "K"],
+    ["C", "P", "F", "X", "O", "S", "M", "B", "J"]
+  ],
+  "words_to_find": ["EMAIL", "REPLY", "HELLO", "SEND"],
+  "word_positions": [
+    {"word": "EMAIL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REPLY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "HELLO", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SEND", "start_row": 8, "start_col": 5, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Informal Emails"
+}
