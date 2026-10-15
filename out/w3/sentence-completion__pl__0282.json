@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The reason the match was cancelled",
+  "correct_completion": "was that the pitch had been flooded overnight.",
+  "full_sentence": "The reason the match was cancelled was that the pitch had been flooded overnight.",
+  "acceptable_variants": ["was that the pitch had become unplayable after heavy rain.", "was simply that the pitch was waterlogged."],
+  "options": [
+    {"text": "was the weather forecast for next week.", "is_correct": false, "why_wrong": "The forecast for next week concerns the future and does not explain why this match was cancelled."},
+    {"text": "was that the stadium had just been repainted.", "is_correct": false, "why_wrong": "A repainted stadium is an irrelevant detail that does not explain the cancellation."},
+    {"text": "was that the pitch had been flooded overnight.", "is_correct": true, "why_wrong": null},
+    {"text": "was that the players had gone home early.", "is_correct": false, "why_wrong": "This describes a later consequence of events, not the cause of the cancellation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Pseudo-cleft sentences with 'the reason ... was that'",
+  "connector": "the reason ... was that",
+  "explanation": "In a pseudo-cleft sentence, the clause after 'the reason ... was' must state the cause itself, so the answer takes a 'that' clause. Learners may be tempted to add 'because' after 'was', but this structure does not allow it, since the 'was that' clause already carries the explanation.",
+  "translation": "Powodem odwołania meczu było to, że boisko zostało zalane w nocy."
+}
