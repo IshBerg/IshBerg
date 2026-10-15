@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant"},
+    {"word": "батарея", "transliteration": "batareia", "meaning": "radiator"},
+    {"word": "мануфактура", "transliteration": "manufaktura", "meaning": "fabric"}
+  ],
+  "english_words": ["fabric", "radiator", "relevant", "shop"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Ukrainian words look like English words, but their meanings shifted after they were borrowed, so the apparent match leads to a wrong guess.",
+  "false_friend_warning": "The Ukrainian word for 'shop' looks like the English word 'magazine', which means a periodical; the Ukrainian word for 'relevant' looks like 'actual', which means real or existing; and the Ukrainian word for 'radiator' looks like 'battery', which means a source of stored electrical power."
+}
