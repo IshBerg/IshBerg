@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Докази є ключовою частиною будь-якої суперечки, тому це слово тематично пов'язане з argument."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Жирафа не має жодного відношення до суперечок, тому це слово не пов'язане з argument."},
+    {"word": "logic", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Логіка є основою аргументації, тому слово семантично пов'язане з argument."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Подушка не пов'язана із суперечками, тому це слово не належить до асоціацій."},
+    {"word": "debate", "is_associated": true, "association_type": "THEMATIC", "explanation": "Дебати є формальною суперечкою, тому це слово тематично пов'язане з argument."},
+    {"word": "win", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'win an argument' (виграти суперечку) є поширеним, тому слово є колокаційним."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово argument пов'язане з доказами, логікою, дебатами та перемогою в суперечці, але не з предметами побуту чи тваринами."
+}

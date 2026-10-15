@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem seemed simple at first,",
+  "correct_completion": "its meaning became clearer after several readings.",
+  "full_sentence": "Although the poem seemed simple at first, its meaning became clearer after several readings.",
+  "acceptable_variants": ["the deeper message only emerged gradually.", "its hidden layers appeared with each new reading."],
+  "options": [
+    {"text": "so I skipped it entirely.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast. Skipping the poem does not contrast with its simple appearance."},
+    {"text": "I had read it before in school.", "is_correct": false, "why_wrong": "This adds background information but does not contrast with the simple appearance of the poem."},
+    {"text": "its meaning became clearer after several readings.", "is_correct": true, "why_wrong": null},
+    {"text": "the poem was written in free verse.", "is_correct": false, "why_wrong": "This describes the poem's form but does not complete the contrast expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Here the poem looks simple, so the completion must describe a deeper meaning that appears later.",
+  "translation": "Хоча вірш спочатку здавався простим, його зміст став зрозумілішим після кількох прочитань."
+}
