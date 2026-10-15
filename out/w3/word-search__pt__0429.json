@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "R", "E", "A", "T", "Y", "Q", "E"],
+    ["K", "D", "W", "S", "Z", "P", "J", "M"],
+    ["L", "X", "F", "U", "Q", "E", "V", "B"],
+    ["H", "R", "N", "M", "T", "A", "G", "A"],
+    ["Z", "P", "K", "M", "W", "C", "D", "S"],
+    ["B", "F", "L", "I", "R", "E", "X", "S"],
+    ["Q", "J", "G", "T", "N", "K", "H", "Y"],
+    ["E", "N", "V", "O", "Y", "J", "C", "W"]
+  ],
+  "words_to_find": ["TREATY", "EMBASSY", "ENVOY", "PEACE", "SUMMIT"],
+  "word_positions": [
+    {"word": "TREATY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EMBASSY", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ENVOY", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PEACE", "start_row": 1, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "SUMMIT", "start_row": 1, "start_col": 3, "direction": "VERTICAL"}
+  ],
+  "topic": "International Relations and Diplomacy"
+}

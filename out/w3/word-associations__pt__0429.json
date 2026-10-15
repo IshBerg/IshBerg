@@ -1,0 +1,14 @@
+{
+  "trigger_word": "card",
+  "all_words": [
+    {"word": "deck", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um baralho é um conjunto de cartas, por isso a palavra está diretamente ligada a 'card'."},
+    {"word": "word", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em flashcards, escrevemos uma palavra em um lado do cartão, então 'word card' é uma combinação comum."},
+    {"word": "study", "is_associated": true, "association_type": "THEMATIC", "explanation": "Flashcards são usados para estudar, então a palavra pertence ao mesmo tema."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Peixe não tem nenhuma relação com cartões de estudo."},
+    {"word": "cake", "is_associated": false, "association_type": "NONE", "explanation": "Bolo é um alimento e não está relacionado com cartões."},
+    {"word": "paper", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Cartões geralmente são feitos de papel, então a palavra está semanticamente relacionada."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'card' são coisas que fazem parte dos cartões, do seu uso ou do seu material."
+}
