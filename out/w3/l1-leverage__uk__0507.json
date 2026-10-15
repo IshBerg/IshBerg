@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "дієта", "transliteration": "diieta", "meaning": "diet"},
+    {"word": "вітамін", "transliteration": "vitamin", "meaning": "vitamin"},
+    {"word": "спорт", "transliteration": "sport", "meaning": "sport"}
+  ],
+  "english_words": ["diet", "shop", "sport", "vitamin"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Diet, vitamin and sport came into both languages from the same international sources, so their forms stayed close. The first Ukrainian word looks like an English word but has a different meaning.",
+  "false_friend_warning": "The Ukrainian word 'mahazyn' looks like the English word 'magazine', but it means 'shop'. Students should not translate it as 'magazine', which is a printed publication."
+}
