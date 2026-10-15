@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the documents are not submitted on time,",
+  "correct_completion": "the application will be rejected automatically.",
+  "full_sentence": "If the documents are not submitted on time, the application will be rejected automatically.",
+  "acceptable_variants": ["the application will be automatically rejected.", "the request will be turned down automatically."],
+  "options": [
+    {"text": "the application has been rejected yesterday.", "is_correct": false, "why_wrong": "The present perfect passive ('has been rejected') cannot be used with a finished past time such as 'yesterday', and the sentence needs a future result after 'if'."},
+    {"text": "the application will be rejected automatically.", "is_correct": true, "why_wrong": null},
+    {"text": "the application rejects itself automatically.", "is_correct": false, "why_wrong": "An application cannot act on itself. The passive 'be rejected' is needed because the application receives the action."},
+    {"text": "the application was being rejected by us.", "is_correct": false, "why_wrong": "The past continuous does not match the future meaning of the first clause. The result of a condition should use 'will' plus the passive."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Future passive in the main clause of a first conditional",
+  "connector": "if",
+  "explanation": "After 'if' with a present simple clause, the main clause uses 'will' plus a passive form ('will be rejected') to show that the action happens to the application. Ukrainian speakers may choose an active verb here, because Ukrainian often uses reflexive or impersonal forms for this idea; in English, the passive is the natural choice when the doer is unimportant.",
+  "translation": "Якщо документи не буде подано вчасно, заявку буде автоматично відхилено."
+}

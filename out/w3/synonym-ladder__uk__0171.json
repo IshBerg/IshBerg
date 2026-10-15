@@ -1,0 +1,13 @@
+{
+  "start_word": "safe",
+  "end_word": "deadly",
+  "ladder_steps": [
+    {"word": "safe", "translation": "безпечний", "intensity_level": 1},
+    {"word": "risky", "translation": "ризикований", "intensity_level": 2},
+    {"word": "unsafe", "translation": "небезпечний", "intensity_level": 3},
+    {"word": "dangerous", "translation": "загрозливий", "intensity_level": 4},
+    {"word": "deadly", "translation": "смертельний", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words form a ladder of danger, from having no risk at all to a risk of death, with each step more dangerous than the last."
+}

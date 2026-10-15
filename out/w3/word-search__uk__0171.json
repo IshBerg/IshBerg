@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "O", "P", "E", "K", "Q", "Z", "M", "W", "T"],
+    ["B", "I", "D", "G", "S", "L", "N", "Y", "V", "R"],
+    ["J", "K", "A", "W", "Q", "D", "F", "E", "C", "U"],
+    ["Z", "O", "M", "R", "X", "B", "G", "L", "P", "T"],
+    ["N", "S", "Y", "U", "D", "K", "W", "Q", "A", "H"],
+    ["F", "M", "R", "T", "L", "X", "O", "J", "B", "N"],
+    ["V", "A", "S", "E", "Z", "G", "Y", "I", "K", "D"],
+    ["Q", "W", "I", "N", "B", "F", "L", "D", "M", "S"],
+    ["R", "P", "O", "T", "U", "Y", "C", "A", "G", "X"],
+    ["K", "L", "Q", "V", "H", "E", "C", "A", "E", "P"]
+  ],
+  "words_to_find": ["HOPE", "TRUTH", "FAITH", "PEACE"],
+  "word_positions": [
+    {"word": "HOPE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRUTH", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "FAITH", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PEACE", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Abstract Concepts"
+}
