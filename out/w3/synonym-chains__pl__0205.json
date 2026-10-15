@@ -1,0 +1,23 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "sleepy", "intensity": 1, "translation": "senny", "nuance": "mildly wanting to sleep"},
+    {"word": "tired", "intensity": 2, "translation": "zmęczony", "nuance": "general lack of energy"},
+    {"word": "weary", "intensity": 3, "translation": "znużony", "nuance": "tired from long effort or boredom"},
+    {"word": "drained", "intensity": 4, "translation": "wyczerpany", "nuance": "emptied of energy by something demanding"},
+    {"word": "exhausted", "intensity": 5, "translation": "wykończony", "nuance": "completely worn out"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe lacking energy, from mild drowsiness to complete collapse of strength.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "exhausted", "difference": "'Tired' is the common everyday word; 'exhausted' describes a much stronger state of having no energy left."}
+  ],
+  "translations": {
+    "sleepy": "senny",
+    "tired": "zmęczony",
+    "weary": "znużony",
+    "drained": "wyczerpany",
+    "exhausted": "wykończony"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The work completed,",
+  "correct_completion": "the team went home.",
+  "full_sentence": "The work completed, the team went home.",
+  "acceptable_variants": ["the team left the office.", "everyone headed home."],
+  "options": [
+    {"text": "the team has been going home.", "is_correct": false, "why_wrong": "'Has been going' implies an ongoing action, which conflicts with the completed state described in the absolute clause."},
+    {"text": "the team went home.", "is_correct": true, "why_wrong": null},
+    {"text": "the team, which went home.", "is_correct": false, "why_wrong": "A relative clause cannot serve as the main clause that follows an absolute construction."},
+    {"text": "going home the team.", "is_correct": false, "why_wrong": "Word order is wrong; the main clause should begin with its subject."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Absolute clauses with a past participle",
+  "connector": "absolute construction",
+  "explanation": "An absolute clause has its own subject and a participle, and it gives background to the main clause. The main clause then needs a finished past-tense verb and its own subject.",
+  "translation": "Praca zakończona, zespół poszedł do domu."
+}
