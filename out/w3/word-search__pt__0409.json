@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["H", "O", "U", "S", "E", "D", "Q", "P"],
+    ["M", "L", "K", "W", "Z", "N", "F", "A"],
+    ["S", "H", "O", "P", "G", "S", "V", "R"],
+    ["J", "C", "Y", "I", "B", "T", "X", "K"],
+    ["D", "A", "N", "Q", "L", "R", "M", "Z"],
+    ["F", "O", "W", "K", "P", "E", "H", "Y"],
+    ["B", "U", "S", "T", "R", "E", "G", "N"],
+    ["Q", "C", "J", "A", "X", "T", "L", "D"]
+  ],
+  "words_to_find": ["HOUSE", "PARK", "SHOP", "STREET", "BUS"],
+  "word_positions": [
+    {"word": "HOUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARK", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SHOP", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STREET", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "BUS", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "My Neighborhood"
+}
