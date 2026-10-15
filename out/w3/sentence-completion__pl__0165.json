@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She avoided",
+  "correct_completion": "answering the question.",
+  "full_sentence": "She avoided answering the question.",
+  "acceptable_variants": ["replying to the question with a joke.", "discussing the topic at all."],
+  "options": [
+    {"text": "to answer the question.", "is_correct": false, "why_wrong": "'Avoid' is followed by a gerund (the -ing form), not by a to-infinitive."},
+    {"text": "answered the question.", "is_correct": false, "why_wrong": "A past-tense verb cannot follow 'avoided' directly; the verb after 'avoid' must take the -ing form."},
+    {"text": "answering the question.", "is_correct": true, "why_wrong": null},
+    {"text": "answer the question.", "is_correct": false, "why_wrong": "A bare infinitive is not used after 'avoid'; the verb must take the -ing form."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbs followed by gerunds (avoid + -ing)",
+  "connector": "avoided",
+  "explanation": "The verb 'avoid' is always followed by a gerund, so the completion must take the -ing form.",
+  "translation": "Ona unikała odpowiadania na pytanie."
+}
