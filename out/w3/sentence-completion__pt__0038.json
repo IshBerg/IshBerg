@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "I handed it to my manager.",
+  "full_sentence": "Having finished the report, I handed it to my manager.",
+  "acceptable_variants": ["I sent it to my manager by email.", "I gave it to my manager the same afternoon."],
+  "options": [
+    {"text": "the printer jammed again.", "is_correct": false, "why_wrong": "The participle clause 'Having finished' needs a main clause whose subject is the person who finished the report. A printer cannot be the one who finished it."},
+    {"text": "it was raining outside.", "is_correct": false, "why_wrong": "This describes the setting but does not give the action that should follow the participle clause."},
+    {"text": "I handed it to my manager.", "is_correct": true, "why_wrong": null},
+    {"text": "my manager was sleeping in the office.", "is_correct": false, "why_wrong": "This gives a new state of the manager, but the subject of the main clause must be the person who finished the report."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses whose implied subject matches the subject of the main clause",
+  "connector": "having finished",
+  "explanation": "A participle clause at the start of a sentence needs the same subject as the main clause. The main clause must therefore describe what the person who finished the report did next.",
+  "translation": "Depois de terminar o relatório, entreguei-o ao meu gerente."
+}

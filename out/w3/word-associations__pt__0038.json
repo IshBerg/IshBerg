@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rainbow",
+  "all_words": [
+    {"word": "colour", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um arco-íris é formado por cores, por isso as duas palavras têm sentido muito próximo."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "A bicicleta é um meio de transporte e não tem ligação com o arco-íris."},
+    {"word": "rain", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Um arco-íris costuma aparecer depois da chuva, por isso as duas palavras aparecem juntas."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "O sanduíche é um alimento e não se relaciona com o arco-íris."},
+    {"word": "red", "is_associated": true, "association_type": "THEMATIC", "explanation": "O vermelho é uma das cores do arco-íris, por isso pertence ao mesmo tema."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "O sapato é uma peça de vestuário e não tem ligação com o arco-íris."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "O arco-íris é formado pela luz da chuva e tem muitas cores; as palavras associadas falam de cores e chuva, enquanto as outras são objetos sem relação com ele."
+}
