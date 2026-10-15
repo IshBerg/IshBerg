@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the storm,",
+  "correct_completion": "she would have stayed indoors.",
+  "full_sentence": "Had she known about the storm, she would have stayed indoors.",
+  "acceptable_variants": ["she would have remained at home.", "she would have avoided the rain."],
+  "options": [
+    {"text": "she goes outside every morning.", "is_correct": false, "why_wrong": "The simple present does not match the past perfect 'had known', which requires a past conditional result clause."},
+    {"text": "the storm was already over.", "is_correct": false, "why_wrong": "This describes the storm instead of completing the conditional structure, so no result clause follows."},
+    {"text": "she would have stayed indoors.", "is_correct": true, "why_wrong": null},
+    {"text": "she stays indoors now.", "is_correct": false, "why_wrong": "The present tense does not express the imagined past situation that 'had known' sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' instead of 'if'",
+  "connector": "had",
+  "explanation": "Inverting 'had' replaces 'if', so the first clause is a past perfect condition. The second clause needs 'would have' plus a past participle to show the imagined result.",
+  "translation": "Gdyby wiedziała o burzy, zostałaby w domu."
+}

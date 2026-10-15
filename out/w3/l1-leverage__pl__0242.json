@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "dywan", "transliteration": "dywan", "meaning": "a thick floor covering"},
+    {"word": "zmywarka", "transliteration": "zmywarka", "meaning": "a machine that washes dishes"},
+    {"word": "kosz", "transliteration": "kosz", "meaning": "a container for rubbish"},
+    {"word": "wycieraczka", "transliteration": "wycieraczka", "meaning": "a mat placed at a door to wipe shoes"}
+  ],
+  "english_words": ["bin", "doormat", "carpet", "dishwasher"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Some Polish words were borrowed from other European languages, while the English look-alikes came from different sources. Over time the meanings drifted apart, so a similar spelling does not guarantee the same meaning.",
+  "false_friend_warning": "The Polish word transliterated as dywan looks like the English word divan, but it means carpet; divan refers to a couch, so divan is a false friend and must not be used for it."
+}
