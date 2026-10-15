@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "tygrys", "transliteration": "tygrys", "meaning": "tiger"},
+    {"word": "żyrafa", "transliteration": "zyrafa", "meaning": "giraffe"},
+    {"word": "hipopotam", "transliteration": "hipopotam", "meaning": "hippopotamus"},
+    {"word": "antylopa", "transliteration": "antylopa", "meaning": "antelope"}
+  ],
+  "english_words": ["antelope", "tiger", "giraffe", "hippopotamus"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these animal names from the same international sources, so the spellings and meanings stayed close.",
+  "false_friend_warning": null
+}
