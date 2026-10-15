@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My neighbour,",
+  "correct_completion": "who speaks four languages, is a translator.",
+  "full_sentence": "My neighbour, who speaks four languages, is a translator.",
+  "acceptable_variants": ["who lives upstairs, is a translator.", "who works from home, is a translator."],
+  "options": [
+    {"text": "which speaks four languages, is a translator.", "is_correct": false, "why_wrong": "'Which' is used for things, but a neighbour is a person, so 'who' is needed."},
+    {"text": "who speaks four languages, is a translator.", "is_correct": true, "why_wrong": null},
+    {"text": "where she lives in a big flat, is a translator.", "is_correct": false, "why_wrong": "'Where' refers to places, but the sentence describes a person, so 'who' is needed."},
+    {"text": "so she speaks four languages.", "is_correct": false, "why_wrong": "'So' introduces a result, not a relative clause. The sentence needs a clause that identifies the neighbour."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clauses with 'who' for people",
+  "connector": "who",
+  "explanation": "'Who' is a relative pronoun for people, so it introduces the clause that describes the neighbour. Learners whose first language does not separate people and things with different relative words often choose 'which' here, but English uses 'who' for people.",
+  "translation": "Komşum, dört dil konuşan bir çevirmendir."
+}
