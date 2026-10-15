@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were walking to the station,",
+  "correct_completion": "it started to rain.",
+  "full_sentence": "While we were walking to the station, it started to rain.",
+  "acceptable_variants": ["it suddenly started to rain.", "we noticed a bus pass us."],
+  "options": [
+    {"text": "we walk to the station every day.", "is_correct": false, "why_wrong": "The present simple describes habits, which does not fit the past narrative set up by 'while' and the past continuous."},
+    {"text": "we will take a taxi.", "is_correct": false, "why_wrong": "The future tense cannot follow a past-tense 'while' clause that describes an action in progress."},
+    {"text": "it started to rain.", "is_correct": true, "why_wrong": null},
+    {"text": "we have walked there many times.", "is_correct": false, "why_wrong": "The present perfect describes past experience, not a specific event that interrupts an ongoing action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous with 'while' for the ongoing action, and past simple for the interrupting event",
+  "connector": "while",
+  "explanation": "After 'while', the past continuous describes the action in progress, and the past simple introduces the sudden event that interrupts it.",
+  "translation": "Mientras caminábamos a la estación, empezó a llover."
+}
