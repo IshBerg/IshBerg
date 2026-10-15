@@ -1,0 +1,14 @@
+{
+  "trigger_word": "tree",
+  "all_words": [
+    {"word": "leaf", "is_associated": true, "association_type": "THEMATIC", "explanation": "A folha é parte da árvore, por isso as duas palavras pertencem ao mesmo tema da natureza."},
+    {"word": "phone", "is_associated": false, "association_type": "NONE", "explanation": "Telefone não tem nenhuma relação de sentido nem de uso com árvores."},
+    {"word": "bark", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A casca é a camada externa do tronco, então o sentido está diretamente ligado à árvore."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Cadeira é um móvel; não há relação de sentido nem de uso com 'tree'."},
+    {"word": "apple", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Apple tree' é uma expressão comum que significa macieira."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "Computador não tem relação com árvores, nem no sentido nem nas expressões usuais."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'tree' são partes da árvore ou expressões que a incluem; as demais não se relacionam com o tema."
+}
