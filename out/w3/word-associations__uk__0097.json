@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лікарі працюють у лікарні, тому це слово тематично пов'язане з 'doctor'."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець не має відношення до роботи лікаря."},
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Медсестра працює разом з лікарем, тому це семантично близьке слово."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не має жодного зв'язку з лікарем."},
+    {"word": "medicine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Лікар призначає ліки; словосполучення 'doctor prescribes medicine' є типовим."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не пов'язаний з професією лікаря."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з лікарем, — це місця, люди та предмети з його роботи; випадкові слова не мають з ним зв'язку."
+}
