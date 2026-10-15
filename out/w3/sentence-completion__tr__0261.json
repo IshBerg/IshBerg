@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom needs a pen for school, so",
+  "correct_completion": "he buys a pen from the shop.",
+  "full_sentence": "Tom needs a pen for school, so he buys a pen from the shop.",
+  "acceptable_variants": ["he buys one from the shop.", "he goes to the shop to get one."],
+  "options": [
+    {"text": "he buys an pen from the shop.", "is_correct": false, "why_wrong": "'An' is used only before a word that starts with a vowel sound. 'Pen' starts with a consonant sound, so it needs 'a'."},
+    {"text": "he buys a pen from the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "he buys a apple from the shop.", "is_correct": false, "why_wrong": "'Apple' starts with a vowel sound, so it needs 'an'. Also, the sentence is about a pen, not an apple."},
+    {"text": "he buys the pen from the shop.", "is_correct": false, "why_wrong": "'The' points to a specific pen that both speakers know. Here Tom needs any pen, so the indefinite article 'a' is correct."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Indefinite articles 'a' and 'an' before singular nouns",
+  "connector": "so",
+  "explanation": "The article depends on the first sound of the following word, not its spelling. Learners often make errors with 'a' and 'an' when a word starts with a consonant or vowel sound, so check the sound before choosing.",
+  "translation": "Tom'un okul için bir kaleme ihtiyacı var, bu yüzden dükkandan bir kalem alır."
+}
