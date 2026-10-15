@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pele", "transliteration": "pele", "meaning": "skin"},
+    {"word": "seda", "transliteration": "seda", "meaning": "silk"},
+    {"word": "algodão", "transliteration": "algodao", "meaning": "cotton"},
+    {"word": "cetim", "transliteration": "cetim", "meaning": "satin"}
+  ],
+  "english_words": ["cotton", "satin", "skin", "silk"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Portuguese words and their English counterparts do not share a root in this set, so the similar spelling is a coincidence and does not indicate a shared meaning.",
+  "false_friend_warning": "Careful: the Portuguese word 'pele' (meaning skin) looks like the English word 'peel', which means to remove the outer layer of something such as a fruit, so learners often confuse the two."
+}

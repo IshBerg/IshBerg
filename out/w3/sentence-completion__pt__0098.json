@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I lost my keys, so",
+  "correct_completion": "I had to wait outside for two hours.",
+  "full_sentence": "Yesterday I lost my keys, so I had to wait outside for two hours.",
+  "acceptable_variants": ["I waited outside for two hours.", "I could not enter the house until my brother came home."],
+  "options": [
+    {"text": "so I gave them to my best friend.", "is_correct": false, "why_wrong": "Giving the keys to a friend does not follow logically from losing them."},
+    {"text": "I had to wait outside for two hours.", "is_correct": true, "why_wrong": null},
+    {"text": "so I wrote a letter to the king.", "is_correct": false, "why_wrong": "This result is absurd and does not follow logically from losing keys."},
+    {"text": "so I was happy all day.", "is_correct": false, "why_wrong": "Being happy is not a logical result of losing keys, so the connector 'so' does not fit here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past Simple with the connector 'so' and the result of an event",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. Check that the result follows logically from losing the keys, and use the past form 'had' after 'I'.",
+  "translation": "Ontem perdi as minhas chaves, então tive de esperar lá fora durante duas horas."
+}
