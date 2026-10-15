@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is not much milk left in the fridge, so",
+  "correct_completion": "we need to buy some more.",
+  "full_sentence": "There is not much milk left in the fridge, so we need to buy some more.",
+  "acceptable_variants": ["we should go shopping.", "we will buy more later."],
+  "options": [
+    {"text": "we have plenty of bread.", "is_correct": false, "why_wrong": "This talks about bread, which is unrelated to the milk, so it does not give the result the stem needs."},
+    {"text": "we need to buy some more.", "is_correct": true, "why_wrong": null},
+    {"text": "there are many eggs.", "is_correct": false, "why_wrong": "This describes a different food. The stem uses 'so' to lead to a result about the milk, so the completion must follow from the milk."},
+    {"text": "we drank all of it yesterday.", "is_correct": false, "why_wrong": "This explains a past event, but the stem with 'so' expects a present result that follows from the shortage."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifier 'some' with uncountable nouns, and 'so' showing result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that states the result of the shortage. The quantifier 'some' with the uncountable noun milk is used in the positive, and 'more' adds the idea of extra amount.",
+  "translation": "W lodówce nie zostało dużo mleka, więc musimy kupić jeszcze trochę."
+}

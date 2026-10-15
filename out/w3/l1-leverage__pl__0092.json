@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "metal", "transliteration": "metal", "meaning": "metal"},
+    {"word": "plastik", "transliteration": "plastik", "meaning": "plastic"},
+    {"word": "granit", "transliteration": "granit", "meaning": "granite"},
+    {"word": "cement", "transliteration": "cement", "meaning": "cement"}
+  ],
+  "english_words": ["granite", "cement", "plastic", "metal"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these material names from the same international sources, so the spelling and meaning stayed almost identical. Learners can rely on the resemblance and recognise the English word from the Polish one.",
+  "false_friend_warning": null
+}
