@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more free time,",
+  "correct_completion": "I would learn to play the guitar.",
+  "full_sentence": "If I had more free time, I would learn to play the guitar.",
+  "acceptable_variants": ["I would take guitar lessons.", "I would start playing the guitar."],
+  "options": [
+    {"text": "I learned to play the guitar last year.", "is_correct": false, "why_wrong": "The past simple describes a finished event, but the second conditional talks about an imagined present situation."},
+    {"text": "so I have learned to play the guitar.", "is_correct": false, "why_wrong": "'So' shows the result of a real event. The second conditional describes a situation that is not real."},
+    {"text": "I would learn to play the guitar.", "is_correct": true, "why_wrong": null},
+    {"text": "I have learned to play guitar since I was ten.", "is_correct": false, "why_wrong": "The present perfect describes a real past experience, not an imagined situation after 'if'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional for imagined present or future situations",
+  "connector": "if",
+  "explanation": "The second conditional uses a past form after 'if' and 'would' in the main clause to describe an unreal or unlikely situation. Turkish speakers may use a simple tense here, but English needs 'had' with 'would' to show that the situation is imagined.",
+  "translation": "Daha fazla boş vaktim olsaydı, gitar çalmayı öğrenirdim."
+}
