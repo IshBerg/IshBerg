@@ -1,0 +1,14 @@
+{
+  "trigger_word": "swim",
+  "all_words": [
+    {"word": "pool", "is_associated": true, "association_type": "THEMATIC", "explanation": "Basen to miejsce, w którym ludzie najczęściej pływają, więc jest bezpośrednio związany z pływaniem."},
+    {"word": "water", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pływanie odbywa się w wodzie, a słowo woda opisuje środowisko, w którym pływamy."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Krzesło nie ma żadnego związku z pływaniem ani z wodą."},
+    {"word": "goggles", "is_associated": true, "association_type": "THEMATIC", "explanation": "Okulary pływackie są specjalnym sprzętem używanym podczas pływania, żeby widzieć pod wodą."},
+    {"word": "book", "is_associated": false, "association_type": "NONE", "explanation": "Książka jest przedmiotem do czytania i nie łączy się logicznie z pływaniem."},
+    {"word": "pen", "is_associated": false, "association_type": "NONE", "explanation": "Długopis służy do pisania i nie ma związku z pływaniem."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z czasownikiem swim opisują miejsce pływania, wodę i sprzęt używany podczas pływania. Słowa niepowiązane to przedmioty z zupełnie innych sytuacji, jak czytanie czy pisanie."
+}
