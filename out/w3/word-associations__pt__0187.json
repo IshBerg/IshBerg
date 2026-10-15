@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pollution",
+  "all_words": [
+    {"word": "smoke", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Fumaça é uma das principais fontes de poluição do ar, por isso tem ligação direta com o tema."},
+    {"word": "factory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fábricas emitem gases e resíduos, por isso aparecem com frequência quando falamos de poluição."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piano não tem nenhuma relação com poluição, por isso não está associado ao tema."},
+    {"word": "recycling", "is_associated": true, "association_type": "THEMATIC", "explanation": "Reciclagem é uma solução comum para reduzir a poluição e costuma aparecer no mesmo contexto."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sanduíche é um alimento sem relação com o tema da poluição."},
+    {"word": "blanket", "is_associated": false, "association_type": "NONE", "explanation": "Cobertor é um objeto do dia a dia que não tem relação com poluição."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a poluição são causas ou soluções do problema, como fumaça, fábricas e reciclagem. Objetos e alimentos sem relação com o tema não estão associados."
+}
