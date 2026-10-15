@@ -1,0 +1,20 @@
+{
+  "title": "Maria's Town",
+  "text": "Maria lives in a small town. In the town center there is a big park. Next to the park, there is a library. Maria goes to the library every Saturday to read books.\n\nAcross the street from the library is a bakery. The bread there is very good. There is also a post office near the bakery. Maria buys bread and then sends letters at the post office.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the big park?", "options": ["In the town center", "Next to the bakery", "Across the street", "Near the post office"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is across the street from the library?", "options": ["A bakery", "A park", "A school", "A bus station"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Maria probably feel about the library?", "options": ["She likes it", "She is afraid of it", "She does not know it", "She is angry at it"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Where can Maria probably buy bread and mail a letter in one trip?", "options": ["At the library", "At the park", "At the bakery and post office", "At the bus station"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "library", "translation": "biblioteca", "definition": "a place where people borrow books"},
+    {"word": "bakery", "translation": "panadería", "definition": "a shop that sells bread and cakes"},
+    {"word": "post office", "translation": "oficina de correos", "definition": "a place where you send letters and packages"},
+    {"word": "across", "translation": "al otro lado", "definition": "on the other side of a street or area"}
+  ],
+  "paragraph_translations": [
+    "María vive en un pueblo pequeño. En el centro del pueblo hay un parque grande. Al lado del parque hay una biblioteca. María va a la biblioteca todos los sábados para leer libros.",
+    "Al otro lado de la calle de la biblioteca hay una panadería. El pan de allí es muy bueno. También hay una oficina de correos cerca de la panadería. María compra pan y luego envía cartas en la oficina de correos."
+  ]
+}
