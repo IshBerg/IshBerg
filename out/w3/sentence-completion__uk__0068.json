@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before we go to bed,",
+  "correct_completion": "we brush our teeth.",
+  "full_sentence": "Before we go to bed, we brush our teeth.",
+  "acceptable_variants": ["we wash our faces.", "we read a short story."],
+  "options": [
+    {"text": "we went to bed yesterday.", "is_correct": false, "why_wrong": "This describes a past event, but 'before we go to bed' refers to the evening routine that comes earlier than going to bed."},
+    {"text": "we eat lunch in the park.", "is_correct": false, "why_wrong": "Lunch happens during the day, so it does not come before going to bed in the same evening sequence."},
+    {"text": "we brush our teeth.", "is_correct": true, "why_wrong": null},
+    {"text": "but we are tired.", "is_correct": false, "why_wrong": "'But' signals contrast, not time order, so it does not complete the sequence that 'before' starts."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', we need an action that happens earlier than the main event. Brushing teeth is a bedtime routine that comes first in the evening.",
+  "translation": "Перш ніж ми підемо спати, ми чистимо зуби."
+}
