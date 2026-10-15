@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bookshop on Mill Street,",
+  "correct_completion": "where I bought my first novel, is closing next month.",
+  "full_sentence": "The bookshop on Mill Street, where I bought my first novel, is closing next month.",
+  "acceptable_variants": ["where I first met my favorite author, is closing next month.", "where I spent many afternoons reading, is closing next month."],
+  "options": [
+    {"text": "who I bought my first novel from, is closing next month.", "is_correct": false, "why_wrong": "'Who' refers to people, but the bookshop is a place, so a place relative pronoun such as 'where' is needed."},
+    {"text": "that closing next month, I bought my first novel.", "is_correct": false, "why_wrong": "The word order is broken: a verb form cannot start the clause here, so the sentence does not describe the bookshop."},
+    {"text": "where I bought my first novel, is closing next month.", "is_correct": true, "why_wrong": null},
+    {"text": "when I bought my first novel, it closes next month.", "is_correct": false, "why_wrong": "'When' refers to time, but the bookshop is a place, so 'where' is needed. The second clause also does not describe the bookshop."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clauses with 'where' for places",
+  "connector": "where",
+  "explanation": "'Where' is a relative pronoun for places, so it introduces the clause that describes the bookshop. Learners whose first language uses one relative word for every noun often pick 'who' or 'when' here, but English chooses the relative pronoun by whether the noun is a person, a place or a time.",
+  "translation": "A livraria da Rua Mill, onde comprei meu primeiro romance, vai fechar no mês que vem."
+}
