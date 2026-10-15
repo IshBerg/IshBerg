@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she was very tired,",
+  "correct_completion": "she finished reading the story.",
+  "full_sentence": "Although she was very tired, she finished reading the story.",
+  "acceptable_variants": ["she kept reading until midnight.", "she still finished the book."],
+  "options": [
+    {"text": "so she went to bed early.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause. 'So' expresses a result, which does not fit here."},
+    {"text": "she was tired all day.", "is_correct": false, "why_wrong": "This repeats the idea of tiredness but does not give a contrasting action after 'although'."},
+    {"text": "she finished reading the story.", "is_correct": true, "why_wrong": null},
+    {"text": "the story was very long.", "is_correct": false, "why_wrong": "This describes the story but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Ukrainian speakers sometimes add 'but' after 'although', which is a double connector and should be avoided in English.",
+  "translation": "Хоча вона дуже втомилася, вона дочитала оповідання."
+}
