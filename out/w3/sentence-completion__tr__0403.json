@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you want dessert,",
+  "correct_completion": "you can choose the chocolate cake.",
+  "full_sentence": "If you want dessert, you can choose the chocolate cake.",
+  "acceptable_variants": ["you can order the ice cream.", "you should look at the dessert list."],
+  "options": [
+    {"text": "the menu is on the table.", "is_correct": false, "why_wrong": "This describes where the menu is, but it does not give the result of the condition set by 'if'."},
+    {"text": "unless the kitchen is closed.", "is_correct": false, "why_wrong": "'Unless' introduces a negative condition and does not complete the choice that the stem sets up."},
+    {"text": "the waiter brought the bill.", "is_correct": false, "why_wrong": "This is an action that happens at the end of a meal, not a result of wanting dessert."},
+    {"text": "you can choose the chocolate cake.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause gives the real result of the condition. The completion must state what the person is allowed or able to do.",
+  "translation": "Tatlı istersen çikolatalı keki seçebilirsin."
+}
