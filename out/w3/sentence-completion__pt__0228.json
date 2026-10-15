@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have taken an earlier train.",
+  "full_sentence": "Had she known about the delay, she would have taken an earlier train.",
+  "acceptable_variants": ["she would have left the station sooner.", "she would have caught a different train."],
+  "options": [
+    {"text": "she takes the earlier train every day.", "is_correct": false, "why_wrong": "This describes a habitual present action and does not express a hypothetical past result after 'had known'."},
+    {"text": "she has taken an earlier train.", "is_correct": false, "why_wrong": "The present perfect reports a real completed action, while the inverted 'had' clause requires a hypothetical third conditional result."},
+    {"text": "she would have taken an earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "she will have taken an earlier train.", "is_correct": false, "why_wrong": "The future perfect refers to a future completion, but the sentence describes an imagined past situation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' in the if-clause",
+  "connector": "had",
+  "explanation": "The inverted 'had' replaces 'if', so the main clause must use 'would have' plus a past participle to describe an imagined past result. Learners often choose a present or future form here because the sentence concerns a delay, but the meaning is entirely hypothetical and about the past.",
+  "translation": "Se ela tivesse sabido do atraso, teria pegado um trem mais cedo."
+}
