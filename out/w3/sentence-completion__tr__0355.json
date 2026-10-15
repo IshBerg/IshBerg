@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the novel explore memory,",
+  "correct_completion": "but it also questioned the nature of truth.",
+  "full_sentence": "Not only did the novel explore memory, but it also questioned the nature of truth.",
+  "acceptable_variants": ["but it also challenged the reader's assumptions.", "but it also examined the role of identity."],
+  "options": [
+    {"text": "so the reader felt bored.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'not only' needs a parallel addition introduced by 'but also', not a consequence."},
+    {"text": "but it also questioned the nature of truth.", "is_correct": true, "why_wrong": null},
+    {"text": "because the author was a teacher.", "is_correct": false, "why_wrong": "'Because' gives a cause, which does not complete the 'not only ... but also' structure."},
+    {"text": "it was written in the nineteenth century.", "is_correct": false, "why_wrong": "This adds a fact but does not complete the correlative structure started by 'not only'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Correlative conjunctions: not only ... but also",
+  "connector": "not only ... but also",
+  "explanation": "The stem opens a correlative pair. The second clause must begin with 'but also' and add a second idea that parallels the first, which Turkish speakers may miss because their language marks this with a suffix rather than a paired connector.",
+  "translation": "Roman yalnızca hafızayı incelemekle kalmadı, aynı zamanda gerçeğin doğasını da sorguladı."
+}
