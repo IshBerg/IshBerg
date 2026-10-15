@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "esquisito", "transliteration": "esquisito", "meaning": "strange, odd"},
+    {"word": "apontamento", "transliteration": "apontamento", "meaning": "note, written record"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend, to aim to do"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch, to attend"}
+  ],
+  "english_words": ["note", "intend", "attend", "strange"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages descend from Latin, so several of these words look alike, but over time the English and Portuguese forms developed different meanings. The look-alike form is not a reliable guide to meaning.",
+  "false_friend_warning": "The Portuguese word for strange looks like the English word 'exquisite', but it does not mean exquisite. Likewise, the Portuguese word for to watch or to attend looks like the English word 'assist', which means to help."
+}

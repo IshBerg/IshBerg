@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before we left the supermarket,",
+  "correct_completion": "we checked that we had bought everything on the list.",
+  "full_sentence": "Before we left the supermarket, we checked that we had bought everything on the list.",
+  "acceptable_variants": ["we made sure we had not forgotten any items.", "we looked at the list one last time."],
+  "options": [
+    {"text": "we checked that we had bought everything on the list.", "is_correct": true, "why_wrong": null},
+    {"text": "so we forgot the milk at home.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem needs a clause about an action that happens before leaving. This option describes an outcome that does not follow the timing of 'before'."},
+    {"text": "because the shop was closed.", "is_correct": false, "why_wrong": "'Because' gives a reason, which does not complete a sentence that begins with a time clause about checking the list."},
+    {"text": "we bought the bread after the cashier left.", "is_correct": false, "why_wrong": "This describes an event that happens later, not an action completed before leaving, so the time sequence is wrong."}
+  ],
+  "correct_index": 0,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses introduced by 'before' followed by a main clause in the past",
+  "connector": "before",
+  "explanation": "After 'before', the main clause must describe an action that happens earlier than the action in the time clause. Checking the list before leaving the store is the only option that fits that sequence.",
+  "translation": "Antes de sairmos do supermercado, verificámos que tínhamos comprado tudo o que estava na lista."
+}
