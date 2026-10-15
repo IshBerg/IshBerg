@@ -1,0 +1,17 @@
+{
+  "central_word": "scared",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "niespokojny", "nuance": "mild feeling that something is not right"},
+    {"word": "nervous", "intensity": 2, "translation": "zdenerwowany", "nuance": "anxious tension before an event"},
+    {"word": "worried", "intensity": 3, "translation": "zmartwiony", "nuance": "general concern about a possible problem"},
+    {"word": "frightened", "intensity": 4, "translation": "przestraszony", "nuance": "fear caused by a specific threat"},
+    {"word": "terrified", "intensity": 5, "translation": "przerażony", "nuance": "overwhelming fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express fear or anxiety but with increasing intensity, from a vague sense of unease to overwhelming terror.",
+  "usage_notes": [
+    {"word1": "nervous", "word2": "terrified", "difference": "'Nervous' describes tension that is often temporary and tied to an upcoming event, while 'terrified' describes intense fear that can paralyze a person."}
+  ],
+  "translations": {"uneasy": "niespokojny", "nervous": "zdenerwowany", "worried": "zmartwiony", "frightened": "przestraszony", "terrified": "przerażony"}
+}

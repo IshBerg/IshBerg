@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Far from being a mere ornament,",
+  "correct_completion": "the metaphor reveals the author's deepest anxieties.",
+  "full_sentence": "Far from being a mere ornament, the metaphor reveals the author's deepest anxieties.",
+  "acceptable_variants": ["the metaphor exposes the poet's most hidden fears.", "the image carries the emotional core of the whole poem."],
+  "options": [
+    {"text": "the metaphor is purely decorative and carries no meaning.", "is_correct": false, "why_wrong": "This repeats the idea of 'mere ornament' that the stem rejects, so it does not complete the contrast."},
+    {"text": "critics had long ignored the metaphor entirely.", "is_correct": false, "why_wrong": "This describes a reception history, not a contrast with the idea of ornament, so the concessive structure is not completed."},
+    {"text": "the metaphor reveals the author's deepest anxieties.", "is_correct": true, "why_wrong": null},
+    {"text": "the metaphor was added only to lengthen the stanza.", "is_correct": false, "why_wrong": "This restates the ornamental function that 'far from being' explicitly denies, so it creates no real contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive structure 'far from being' followed by a main clause",
+  "connector": "far from being",
+  "explanation": "The phrase 'far from being' sets up a negated expectation, so the main clause must present the opposite function. Learners often choose an option that repeats the rejected idea, because it seems related to the topic, but the sentence requires the reverse of that idea.",
+  "translation": "Daleko od bycia zwykłym ozdobnikiem, metafora ujawnia najgłębsze lęki autora."
+}
