@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother has already",
+  "correct_completion": "finished his breakfast.",
+  "full_sentence": "My brother has already finished his breakfast.",
+  "acceptable_variants": ["had his breakfast.", "eaten his breakfast."],
+  "options": [
+    {"text": "is finishing his breakfast.", "is_correct": false, "why_wrong": "The present continuous does not follow 'has already'. The present perfect needs a past participle such as 'finished'."},
+    {"text": "finish his breakfast yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a finished time and cannot be used with the present perfect 'has already'."},
+    {"text": "finished his breakfast.", "is_correct": true, "why_wrong": null},
+    {"text": "will finish his breakfast.", "is_correct": false, "why_wrong": "The future 'will' does not fit 'has already', which describes an action completed before now."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'already'",
+  "connector": "already",
+  "explanation": "'Already' signals that an action was completed before the present moment. After 'has already', we need the past participle of the verb to show a completed action linked to now. Learners whose first language marks past actions differently may need extra practice with this structure.",
+  "translation": "Kardeşim kahvaltısını çoktan bitirdi."
+}

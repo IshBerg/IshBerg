@@ -1,0 +1,14 @@
+{
+  "trigger_word": "river",
+  "all_words": [
+    {"word": "bank", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'River bank'İngilizcede nehir kenarındaki toprak alanı anlatan yaygın bir ortak kullanımdır."},
+    {"word": "boat", "is_associated": true, "association_type": "THEMATIC", "explanation": "Tekneler ve kayıklar genellikle nehirlerde seyreder; bu yüzden konu olarak ilişkilidir."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ yüksek bir kara şeklidir; nehirle doğrudan bir anlam ya da kullanım ilişkisi yoktur."},
+    {"word": "fish", "is_associated": true, "association_type": "THEMATIC", "explanation": "Birçok balık nehirlerde yaşar; bu yüzden tematik olarak ilişkilidir."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Çöl kurak bir yerdir ve nehirlerle genellikle ilişkilendirilmez."},
+    {"word": "liver", "is_associated": true, "association_type": "PHONETIC", "explanation": "'Liver' kelimesi 'river' ile sesçe benzerdir; bu bir fonetik bağlantıdır, anlamsal değildir."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Nehirle ilişkili kelimeler su kenarı, nehirde yaşayan canlılar ve nehirde kullanılan taşıtlar üzerinden kurulur; çöl ve dağ bu ilişkinin dışındadır."
+}
