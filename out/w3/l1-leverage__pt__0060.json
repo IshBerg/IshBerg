@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hospital", "transliteration": "hospital", "meaning": "a building where sick people receive medical care"},
+    {"word": "museu", "transliteration": "museu", "meaning": "a building where objects of art or history are shown"},
+    {"word": "restaurante", "transliteration": "restaurante", "meaning": "a place where you buy and eat a meal"},
+    {"word": "hotel", "transliteration": "hotel", "meaning": "a place where travellers pay to sleep"}
+  ],
+  "english_words": ["restaurant", "hospital", "hotel", "museum"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These words came into both languages from the same Latin, Greek, or French sources, so their spelling and meaning stayed very close in English and in the learner's first language.",
+  "false_friend_warning": null
+}
