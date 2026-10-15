@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Whatever the committee ultimately decides,",
+  "correct_completion": "it will have to be accepted by every department.",
+  "full_sentence": "Whatever the committee ultimately decides, it will have to be accepted by every department.",
+  "acceptable_variants": ["it must be respected by all departments.", "every department will need to follow it."],
+  "options": [
+    {"text": "so the department has already rejected it.", "is_correct": false, "why_wrong": "This gives a past-tense result, which does not match the future-oriented meaning of the free relative clause 'whatever... decides'."},
+    {"text": "it will have to be accepted by every department.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee has been meeting since May.", "is_correct": false, "why_wrong": "This adds background information but does not complete the main clause that the 'whatever' clause requires."},
+    {"text": "all departments were consulted last year.", "is_correct": false, "why_wrong": "The past tense describes an earlier event, while the stem points to a future consequence of the decision."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Free relative clauses with 'whatever' as the subject of a sentence",
+  "connector": "whatever",
+  "explanation": "A clause introduced by 'whatever' functions as a nominal subject, so the main clause must give the predicate that applies to it. Speakers of Spanish often add a conditional or subjunctive marker here, but English requires a plain modal construction after the free relative clause.",
+  "translation": "Lo que sea que decida finalmente el comité tendrá que ser aceptado por todos los departamentos."
+}
