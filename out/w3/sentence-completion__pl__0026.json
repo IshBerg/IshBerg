@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The survey was conducted in twelve cities,",
+  "correct_completion": "so the results cannot be generalised to the whole country.",
+  "full_sentence": "The survey was conducted in twelve cities, so the results cannot be generalised to the whole country.",
+  "acceptable_variants": ["so its findings apply only to those cities.", "and its findings cannot be applied to the whole country."],
+  "options": [
+    {"text": "so every citizen has been surveyed by now.", "is_correct": false, "why_wrong": "Twelve cities cannot cover every citizen in a country, so this consequence contradicts the scope of the survey stated in the first part."},
+    {"text": "because the results were published in the newspaper.", "is_correct": false, "why_wrong": "Publication does not explain the scope or limits of the survey, so the connector gives an illogical reason."},
+    {"text": "so the results cannot be generalised to the whole country.", "is_correct": true, "why_wrong": null},
+    {"text": "so the survey was carried out again by the same team.", "is_correct": false, "why_wrong": "The completion should state the consequence of a limited survey, not describe another survey, so it does not follow from the first part."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive reports with 'so' to express a logical consequence",
+  "connector": "so",
+  "explanation": "The 'so' clause expresses a consequence. A survey limited to twelve cities cannot represent the whole country, so the findings must be limited in scope. The passive 'cannot be generalised' focuses on the results rather than on the researchers.",
+  "translation": "Badanie przeprowadzono w dwunastu miastach, więc wyników nie można uogólnić na cały kraj."
+}

@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "W", "E", "N", "T", "Y", "Q", "Z", "F"],
+    ["B", "K", "D", "J", "N", "R", "U", "P", "I"],
+    ["G", "A", "M", "V", "I", "C", "L", "O", "F"],
+    ["H", "E", "Q", "B", "N", "D", "W", "S", "T"],
+    ["S", "U", "Z", "K", "E", "F", "R", "A", "Y"],
+    ["A", "I", "P", "O", "T", "V", "C", "L", "M"],
+    ["D", "H", "X", "G", "Y", "J", "N", "E", "Q"],
+    ["W", "R", "B", "T", "K", "U", "O", "V", "Z"],
+    ["L", "S", "F", "M", "Y", "A", "H", "I", "D"]
+  ],
+  "words_to_find": ["TWENTY", "FIFTY", "SIXTY", "NINETY"],
+  "word_positions": [
+    {"word": "TWENTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FIFTY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SIXTY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "NINETY", "start_row": 1, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Numbers 20-100"
+}
