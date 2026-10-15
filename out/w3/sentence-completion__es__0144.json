@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have done better on the test.", "I would have gotten a higher grade."],
+  "options": [
+    {"text": "I passed the exam yesterday.", "is_correct": false, "why_wrong": "This states a past fact, not a wish. 'If only' expresses regret about something that did not happen."},
+    {"text": "I will study tomorrow.", "is_correct": false, "why_wrong": "This talks about the future. 'If only' with the past perfect expresses regret about the past."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I study every day.", "is_correct": false, "why_wrong": "This describes a present habit and does not express a wish about the past."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Wishes about the past with 'if only' + past perfect",
+  "connector": "if only",
+  "explanation": "'If only' expresses a regret about the past. Use the past perfect after it, and 'would have' plus the past participle in the main clause. Learners whose first language has a simpler past tense system often need extra practice with this pattern.",
+  "translation": "Ojalá hubiera estudiado más, habría aprobado el examen."
+}
