@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been informed of the delay in advance,",
+  "correct_completion": "the passengers rearranged their plans accordingly.",
+  "full_sentence": "Having been informed of the delay in advance, the passengers rearranged their plans accordingly.",
+  "acceptable_variants": ["the passengers changed their travel arrangements.", "the passengers decided to take a later train."],
+  "options": [
+    {"text": "the train was delayed again.", "is_correct": false, "why_wrong": "The perfect passive participle clause needs a subject who was informed. A train cannot be informed, so the clause dangles."},
+    {"text": "the passengers rearranged their plans accordingly.", "is_correct": true, "why_wrong": null},
+    {"text": "the passengers had informed the station already.", "is_correct": false, "why_wrong": "The passengers are the ones who were informed, not the ones who informed. The passive meaning of the participle is contradicted here."},
+    {"text": "they had been waiting on the platform since noon.", "is_correct": false, "why_wrong": "This describes a past situation, but it does not respond logically to the information that was received in advance."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect passive participle clauses (having been + past participle) and their agreement with the main clause subject",
+  "connector": "having been informed",
+  "explanation": "The stem uses a perfect passive participle, which shows an action completed before the main action and refers to the main clause subject as the person affected. The completion must therefore be a main clause whose subject is a person who could receive the information. Speakers whose first language has no separate perfect participle may find this structure difficult, so it is worth practising in full sentences.",
+  "translation": "Завчасно дізнавшись про затримку, пасажири відповідно змінили свої плани."
+}
