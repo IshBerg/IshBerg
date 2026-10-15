@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sofá", "transliteration": "sofá", "meaning": "sofa"},
+    {"word": "garagem", "transliteration": "garagem", "meaning": "garage"},
+    {"word": "piano", "transliteration": "piano", "meaning": "piano"},
+    {"word": "telefone", "transliteration": "telefone", "meaning": "telephone"}
+  ],
+  "english_words": ["piano", "sofa", "telephone", "garage"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages took these words from the same international sources, so the spellings and meanings stayed close.",
+  "false_friend_warning": null
+}
