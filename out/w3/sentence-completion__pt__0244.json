@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the bus was late,",
+  "correct_completion": "we took a taxi to school.",
+  "full_sentence": "Because the bus was late, we took a taxi to school.",
+  "acceptable_variants": ["we called our parents for a ride.", "we walked to school instead."],
+  "options": [
+    {"text": "we will arrive early.", "is_correct": false, "why_wrong": "A late bus normally leads to late arrival, so arriving early does not follow logically from the cause."},
+    {"text": "the bus was on time.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the bus was late."},
+    {"text": "we took a taxi to school.", "is_correct": true, "why_wrong": null},
+    {"text": "we were very happy about it.", "is_correct": false, "why_wrong": "This describes a feeling, but it is not a logical result of the bus being late."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the sentence gives the reason, and the main clause must show the logical result of that reason. Learners should place the result after the comma.",
+  "translation": "Como o ônibus estava atrasado, pegamos um táxi para a escola."
+}

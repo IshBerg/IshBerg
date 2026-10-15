@@ -1,0 +1,14 @@
+{
+  "trigger_word": "postpone",
+  "all_words": [
+    {"word": "delay", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Delay' tem o mesmo sentido de adiar algo para um momento posterior, por isso é um sinônimo próximo de 'postpone'."},
+    {"word": "elephant", "is_associated": false, "association_type": "NONE", "explanation": "'Elefante' é um animal grande e não tem nenhuma relação com a ideia de adiar algo."},
+    {"word": "meeting", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Postpone' costuma combinar com substantivos como 'meeting', como em 'postpone a meeting', que significa adiar uma reunião."},
+    {"word": "mirror", "is_associated": false, "association_type": "NONE", "explanation": "'Espelho' é um objeto do dia a dia sem qualquer ligação com o significado de adiar."},
+    {"word": "defer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Defer' é um termo formal que significa adiar ou transferir algo para outro momento, por isso se relaciona diretamente a 'postpone'."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "'Tapete' é um item de decoração sem relação com a ideia de adiamento."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Postpone' é o equivalente formal do phrasal verb 'put off'. Está associado a sinônimos formais e a colocações que tratam de adiamento de compromissos, enquanto substantivos concretos sem essa ligação não se associam a ele."
+}
