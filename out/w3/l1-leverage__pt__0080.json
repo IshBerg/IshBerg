@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hospital", "transliteration": "hospital", "meaning": "hospital"},
+    {"word": "vitamina", "transliteration": "vitamina", "meaning": "vitamin"},
+    {"word": "temperatura", "transliteration": "temperatura", "meaning": "temperature"},
+    {"word": "anestesia", "transliteration": "anestesia", "meaning": "anesthesia"}
+  ],
+  "english_words": ["temperature", "anesthesia", "hospital", "vitamin"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each of these words came into both English and Portuguese from the same international sources, often Latin or Greek through medical and scientific vocabulary, so the forms stayed close and the meanings match.",
+  "false_friend_warning": null
+}

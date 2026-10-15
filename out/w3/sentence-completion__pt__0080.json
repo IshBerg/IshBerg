@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday we cleaned the house, so",
+  "correct_completion": "we rested in the afternoon.",
+  "full_sentence": "Yesterday we cleaned the house, so we rested in the afternoon.",
+  "acceptable_variants": ["we relaxed on the sofa.", "we watched a movie together."],
+  "options": [
+    {"text": "we are cleaning the kitchen now.", "is_correct": false, "why_wrong": "The present continuous does not fit a past-time story that begins with 'yesterday'."},
+    {"text": "we will travel next week.", "is_correct": false, "why_wrong": "The future tense conflicts with the past time marker 'yesterday', and it does not follow from cleaning the house."},
+    {"text": "we rested in the afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "we wash the car every Monday.", "is_correct": false, "why_wrong": "The present simple describes habits, so it breaks the past time frame and does not show one result of cleaning."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple regular verbs with 'so' to show a result",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result. Because the action in the first clause is in the past simple, the completion must also use a past simple regular verb to describe what happened next.",
+  "translation": "Ontem nós limpamos a casa, então descansamos à tarde."
+}
