@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was not the price that worried the customers;",
+  "correct_completion": "it was the unreliable delivery times.",
+  "full_sentence": "It was not the price that worried the customers; it was the unreliable delivery times.",
+  "acceptable_variants": ["it was the late deliveries.", "it was the slow and unreliable delivery service."],
+  "options": [
+    {"text": "the price was actually very high.", "is_correct": false, "why_wrong": "This repeats the rejected idea instead of contrasting with it, so the not ... but structure breaks down."},
+    {"text": "customers often complain about prices.", "is_correct": false, "why_wrong": "This restates the price issue that the first clause has already rejected as the cause."},
+    {"text": "it was the unreliable delivery times.", "is_correct": true, "why_wrong": null},
+    {"text": "the shop had recently changed its opening hours.", "is_correct": false, "why_wrong": "This introduces an unrelated fact. The cleft structure needs the contrasting cause that the speaker is focusing on."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Cleft sentences for contrastive focus with not ... but",
+  "connector": "not ... but",
+  "explanation": "The cleft structure 'It was ... that' places focus on the real cause, and the not ... but pattern sets up a contrast. After the rejected idea, the completion must name the actual reason, so repeating the rejected idea is a common error. Learners often miss this contrast because their first language may not mark focus with a cleft in the same way. Check that the second clause answers the question raised by the first.",
+  "translation": "Müşterileri asıl endişelendiren fiyat değildi; güvenilmez teslimat süreleriydi."
+}
