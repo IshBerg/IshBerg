@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["R", "E", "V", "I", "E", "W", "K"],
+    ["B", "L", "U", "N", "Y", "P", "R"],
+    ["S", "K", "M", "C", "Z", "H", "A"],
+    ["T", "J", "Q", "F", "L", "W", "T"],
+    ["A", "P", "G", "O", "O", "D", "I"],
+    ["R", "Y", "B", "S", "U", "K", "N"],
+    ["V", "C", "X", "M", "B", "Q", "G"]
+  ],
+  "words_to_find": ["REVIEW", "STAR", "GOOD", "RATING"],
+  "word_positions": [
+    {"word": "REVIEW", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STAR", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "GOOD", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "RATING", "start_row": 1, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Reviews"
+}

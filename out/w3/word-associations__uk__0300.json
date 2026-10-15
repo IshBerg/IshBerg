@@ -1,0 +1,14 @@
+{
+  "trigger_word": "anchor",
+  "all_words": [
+    {"word": "ship", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Якір є обов'язковим обладнанням корабля, тож ці слова семантично пов'язані."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно не має жодного зв'язку з якорем або морською справою."},
+    {"word": "chain", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'anchor chain' є усталеним і означає ланцюг, яким якір прикріплюється до судна."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не пов'язана з якорями чи мореплавством."},
+    {"word": "harbor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гавань є місцем, де кораблі стають на якір, тому це слово тематично пов'язане."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим не має відношення до якоря."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'anchor' асоціюється з морською тематикою: кораблями, ланцюгами та гаванями, а також з фразеологізмом 'кинути якір'."
+}

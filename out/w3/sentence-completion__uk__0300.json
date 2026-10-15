@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Please put the book",
+  "correct_completion": "on the shelf.",
+  "full_sentence": "Please put the book on the shelf.",
+  "acceptable_variants": ["next to the lamp.", "on the table."],
+  "options": [
+    {"text": "at seven o'clock.", "is_correct": false, "why_wrong": "'At seven o'clock' tells us when, not where. The sentence needs a place after 'put the book'."},
+    {"text": "on the shelf.", "is_correct": true, "why_wrong": null},
+    {"text": "very quickly.", "is_correct": false, "why_wrong": "'Very quickly' describes how something is done, not where it goes."},
+    {"text": "two red pencils.", "is_correct": false, "why_wrong": "This names objects, but it does not say where the book should go."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place after the verb 'put'",
+  "connector": "on",
+  "explanation": "The verb 'put' needs a place to show where the object goes. Use 'on' with a surface such as a shelf. Ukrainian speakers may hesitate between place and time prepositions, so remember that 'on' with a surface shows place, while 'at' with a clock time shows when.",
+  "translation": "Будь ласка, постав книжку на полицю."
+}
