@@ -1,0 +1,14 @@
+{
+  "trigger_word": "newspaper",
+  "all_words": [
+    {"word": "editor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Редактор є людиною, яка керує змістом газети, тому це слово пов'язане з газетою за змістом."},
+    {"word": "headline", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Заголовок є головною частиною кожної статті в газеті."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Трактор є сільськогосподарською технікою і не має жодного зв'язку з газетами."},
+    {"word": "journalist", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Журналіст пише статті для газети, тож слово належить до того самого поля значень."},
+    {"word": "mushroom", "is_associated": false, "association_type": "NONE", "explanation": "Гриб не пов'язаний з газетами ані за змістом, ані за вживанням."},
+    {"word": "print", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово print часто вживається в словосполученні in print для опису друкованих газет і журналів."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово newspaper асоціюється з людьми, які створюють газету, її частинами та друкованою формою, тоді як трактор, гриб і подібні слова не стосуються газет."
+}
