@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I cleaned my room, so",
+  "correct_completion": "it looked very clean.",
+  "full_sentence": "Yesterday I cleaned my room, so it looked very clean.",
+  "acceptable_variants": ["it looked tidy.", "my mother was happy."],
+  "options": [
+    {"text": "I cleaned the kitchen again.", "is_correct": false, "why_wrong": "This describes another cleaning action, but 'so' needs a result of cleaning the room."},
+    {"text": "I wanted to play outside.", "is_correct": false, "why_wrong": "This states a different intention and does not follow as a result of cleaning the room."},
+    {"text": "it looked very clean.", "is_correct": true, "why_wrong": null},
+    {"text": "I forgot my keys at home.", "is_correct": false, "why_wrong": "This event has no logical connection to cleaning the room."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple of regular verbs (cleaned) with 'so' to show a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a result clause that follows logically from the first part of the sentence. Portuguese speakers may forget that regular past verbs in English add -ed, so check the verb ending in the first clause.",
+  "translation": "Ontem limpei meu quarto, então ele ficou muito limpo."
+}
