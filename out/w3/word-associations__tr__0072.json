@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bus",
+  "all_words": [
+    {"word": "ticket", "is_associated": true, "association_type": "THEMATIC", "explanation": "Otobüse binmek için bilet gerekir, bu yüzden 'ticket' ile 'bus' arasında doğrudan bir bağlantı vardır."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Ağaç otobüsle ilgili değildir ve yolculukta kullanılan bir şey değildir."},
+    {"word": "driver", "is_associated": true, "association_type": "THEMATIC", "explanation": "Otobüsü şoför kullanır, bu yüzden 'driver' otobüs temasına aittir."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sandviç yemek türüdür ve otobüsle bir ilgisi yoktur."},
+    {"word": "road", "is_associated": true, "association_type": "THEMATIC", "explanation": "Otobüs yolda ilerler, bu yüzden 'road' otobüsle birlikte düşünülür."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bir müzik aletidir ve ulaşımla bağlantılı değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Bus' kelimesi bilet, şoför ve yol gibi ulaşım ve yolculukla ilgili kelimelerle çağrışım yapar."
+}
