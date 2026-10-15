@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pasta", "transliteration": "pasta", "meaning": "cake (a sweet baked dessert)"},
+    {"word": "fabrika", "transliteration": "fabrika", "meaning": "factory"},
+    {"word": "mevsim", "transliteration": "mevsim", "meaning": "season"},
+    {"word": "kanal", "transliteration": "kanal", "meaning": "channel"}
+  ],
+  "english_words": ["season", "cake", "channel", "factory"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Several Turkish words look like English words because both languages borrowed them from European languages, so the spelling stayed close. Some of these shared-looking words still carry a different meaning in English.",
+  "false_friend_warning": "The Turkish word pasta means cake, but in English the word pasta means noodles. Students should not translate the Turkish word pasta as pasta in English."
+}

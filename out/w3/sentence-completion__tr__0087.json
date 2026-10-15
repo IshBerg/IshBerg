@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because she was tired,",
+  "correct_completion": "she went to bed early.",
+  "full_sentence": "Because she was tired, she went to bed early.",
+  "acceptable_variants": ["she decided to rest at home.", "she took a short nap."],
+  "options": [
+    {"text": "she stayed up until midnight.", "is_correct": false, "why_wrong": "Being tired usually leads to rest, so staying up late does not follow logically from 'because she was tired'."},
+    {"text": "she felt very happy.", "is_correct": false, "why_wrong": "This describes a feeling, but it does not give a result of being tired."},
+    {"text": "she went to bed early.", "is_correct": true, "why_wrong": null},
+    {"text": "she bought a new book.", "is_correct": false, "why_wrong": "This is unrelated to being tired, so it does not complete the cause and effect link started by 'because'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the stem gives a cause, so the main clause must give the logical result of that cause.",
+  "translation": "Yorgun olduğu için erken yatağa gitti."
+}
