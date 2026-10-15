@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I was tired, so",
+  "correct_completion": "I went to bed early.",
+  "full_sentence": "Yesterday I was tired, so I went to bed early.",
+  "acceptable_variants": ["I went to sleep early.", "I decided to rest early."],
+  "options": [
+    {"text": "I was not tired at all.", "is_correct": false, "why_wrong": "This contradicts the first part of the sentence, and 'so' needs a result that follows from being tired."},
+    {"text": "I was at school.", "is_correct": false, "why_wrong": "This gives a place, but it does not show a result of being tired."},
+    {"text": "I went to bed early.", "is_correct": true, "why_wrong": null},
+    {"text": "I were sleepy in the morning.", "is_correct": false, "why_wrong": "The subject 'I' takes 'was', not 'were', and this option also does not give a result of being tired."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple 'was' with the connector 'so' for cause and result",
+  "connector": "so",
+  "explanation": "The word 'so' introduces the result of the first clause. After 'I was tired', we need an action that shows what the speaker did as a result.",
+  "translation": "Dün yorgundum, bu yüzden erken yattım."
+}
