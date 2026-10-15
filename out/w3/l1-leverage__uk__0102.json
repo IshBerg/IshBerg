@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "фамілія", "transliteration": "familiia", "meaning": "surname"},
+    {"word": "симпатія", "transliteration": "simpatiia", "meaning": "a liking or romantic crush"},
+    {"word": "сусід", "transliteration": "susid", "meaning": "neighbor"},
+    {"word": "брат", "transliteration": "brat", "meaning": "brother"}
+  ],
+  "english_words": ["neighbor", "crush", "brother", "surname"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Ukrainian word for 'surname' and the English word 'family' both come from the Latin 'familia', but the Ukrainian word narrowed to mean a surname while the English word kept the meaning of a household.",
+  "false_friend_warning": "The Ukrainian word 'familiia' looks like the English word 'family', but it means 'surname'. The Ukrainian word 'simpatiia' looks like 'sympathy', but it means a liking or romantic interest, not compassion for someone's suffering."
+}
