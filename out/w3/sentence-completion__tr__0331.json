@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Her car broke down on the motorway, so",
+  "correct_completion": "she had it repaired at the garage.",
+  "full_sentence": "Her car broke down on the motorway, so she had it repaired at the garage.",
+  "acceptable_variants": ["she got it repaired at the garage.", "she arranged for a mechanic to fix it."],
+  "options": [
+    {"text": "she repaired it herself in the garage.", "is_correct": false, "why_wrong": "This is a plausible result, but it does not use the causative structure 'have + object + past participle' that the exercise tests, and it says she did the work herself."},
+    {"text": "she took the bus to work.", "is_correct": false, "why_wrong": "This is a logical result of a broken car, but it does not show any action taken to get the car repaired."},
+    {"text": "she had it repaired at the garage.", "is_correct": true, "why_wrong": null},
+    {"text": "she was stuck in the rain for hours.", "is_correct": false, "why_wrong": "This describes a consequence of the breakdown, but it does not show what she did about the car."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have something done'",
+  "connector": "so",
+  "explanation": "The connector 'so' introduces a result, so the completion must show what she did about the broken car. The causative 'have something done' shows that she arranged for someone else to do the repair.",
+  "translation": "Arabası otoyolda bozuldu, bu yüzden onu garajda tamir ettirdi."
+}
