@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bird is sitting",
+  "correct_completion": "on the roof.",
+  "full_sentence": "The bird is sitting on the roof.",
+  "acceptable_variants": ["in the tree.", "next to the window."],
+  "options": [
+    {"text": "blue and small.", "is_correct": false, "why_wrong": "This describes the bird's appearance, but the stem asks where the bird is sitting."},
+    {"text": "on the roof.", "is_correct": true, "why_wrong": null},
+    {"text": "yesterday morning.", "is_correct": false, "why_wrong": "This is a time expression. The stem needs a place after 'sitting'."},
+    {"text": "to eat some seeds.", "is_correct": false, "why_wrong": "This gives a purpose, but the sentence needs a location to complete the description."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: on",
+  "connector": "sitting",
+  "explanation": "After a verb of position such as 'sitting', we need a preposition of place followed by a noun phrase. 'On' shows that the bird is resting on a surface.",
+  "translation": "Птах сидить на даху."
+}
