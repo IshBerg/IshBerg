@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "E", "A", "N", "S", "X", "Q", "Z", "M", "W"],
+    ["R", "J", "F", "D", "G", "H", "V", "L", "P", "T"],
+    ["H", "Y", "K", "W", "O", "V", "D", "Z", "Q", "F"],
+    ["G", "M", "T", "I", "R", "X", "B", "L", "N", "V"],
+    ["P", "S", "D", "J", "C", "Q", "W", "K", "H", "Y"],
+    ["L", "O", "F", "W", "G", "K", "E", "M", "Z", "R"],
+    ["L", "A", "P", "T", "Q", "V", "X", "H", "D", "N"],
+    ["I", "Q", "M", "A", "T", "E", "K", "C", "U", "B"],
+    ["P", "Z", "R", "F", "V", "L", "N", "W", "Q", "J"],
+    ["S", "D", "G", "H", "X", "T", "M", "Y", "K", "A"]
+  ],
+  "words_to_find": ["BEANS", "KICK", "SPILL", "BUCKET"],
+  "word_positions": [
+    {"word": "BEANS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "KICK", "start_row": 2, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "SPILL", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"},
+    {"word": "BUCKET", "start_row": 7, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Idiomatic Expressions and Their Origins"
+}
