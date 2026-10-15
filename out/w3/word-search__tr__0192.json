@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "Q", "U", "A", "R", "E", "C"],
+    ["X", "K", "P", "D", "W", "N", "I"],
+    ["O", "V", "A", "L", "T", "Z", "R"],
+    ["C", "H", "J", "G", "M", "Y", "C"],
+    ["U", "Q", "F", "K", "D", "B", "L"],
+    ["B", "W", "N", "S", "R", "J", "E"],
+    ["E", "P", "S", "T", "A", "R", "G"]
+  ],
+  "words_to_find": ["SQUARE", "CIRCLE", "OVAL", "CUBE", "STAR"],
+  "word_positions": [
+    {"word": "SQUARE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CIRCLE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "OVAL", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CUBE", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "STAR", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Shapes"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "novel",
+  "all_words": [
+    {"word": "chapter", "is_associated": true, "association_type": "THEMATIC", "explanation": "Roman genellikle bölümlerden oluşur, bu nedenle 'chapter' romanla tematik olarak ilişkilidir."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Motor roman dünyasına ait değildir ve edebiyatla bir bağlantısı yoktur."},
+    {"word": "author", "is_associated": true, "association_type": "THEMATIC", "explanation": "Yazar, romanı yazan kişidir, bu yüzden tematik olarak ilişkilidir."},
+    {"word": "canvas", "is_associated": false, "association_type": "NONE", "explanation": "Tuval resim sanatına aittir ve romanla ilgisi yoktur."},
+    {"word": "write", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Write a novel' yaygın bir eş dizimdir, bu nedenle koloksiyonel bir ilişki vardır."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Bahçe ile roman kavramı arasında bir ilişki yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Roman kelimesiyle ilgili kelimeler arasında yazar, bölüm ve 'roman yazmak' gibi yaygın bağlantılar vardır; diğer kelimeler ise konuyla ilgisizdir."
+}
