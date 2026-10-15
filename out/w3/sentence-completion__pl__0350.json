@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the sharp increase in the cost of raw materials,",
+  "correct_completion": "the company maintained its profit margins.",
+  "full_sentence": "Despite the sharp increase in the cost of raw materials, the company maintained its profit margins.",
+  "acceptable_variants": ["the firm kept its profit margins stable.", "the business continued to report healthy profits."],
+  "options": [
+    {"text": "so the company raised its prices.", "is_correct": false, "why_wrong": "'So' signals a result, but 'despite' requires a contrast with the noun phrase that follows. The sentence needs a main clause that shows what happened in spite of the cost rise."},
+    {"text": "because the increase was sharp.", "is_correct": false, "why_wrong": "'Because' introduces a cause and repeats the idea already present in the stem. 'Despite' and 'because' cannot both introduce the same idea."},
+    {"text": "the company maintained its profit margins.", "is_correct": true, "why_wrong": null},
+    {"text": "maintaining its profit margins.", "is_correct": false, "why_wrong": "This is a gerund phrase with no finite verb, so it cannot serve as the main clause that completes the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive prepositions (despite + noun phrase) with nominalization",
+  "connector": "despite",
+  "explanation": "'Despite' is followed by a noun phrase and introduces a contrast, so the main clause must show the result in spite of the rise in costs. Polish speakers often add a finite clause right after a concessive preposition, because similar constructions in their L1 take a clause; in English the nominal phrase 'the sharp increase' must be followed directly by the main clause.",
+  "translation": "Mimo gwałtownego wzrostu kosztów surowców firma utrzymała swoje marże zysku."
+}

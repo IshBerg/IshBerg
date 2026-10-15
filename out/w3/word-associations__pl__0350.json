@@ -1,0 +1,14 @@
+{
+  "trigger_word": "debate",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Argument jest podstawowym elementem debaty, ponieważ każde stanowisko opiera się na argumentach."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku z debatą ani z perswazją i nie należy do tego pola znaczeniowego."},
+    {"word": "rebuttal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Rebuttal (odparcie) to odpowiedź na argument przeciwnika, więc jest bezpośrednio związane z debatą."},
+    {"word": "spreadsheet", "is_associated": false, "association_type": "NONE", "explanation": "Arkusz kalkulacyjny to narzędzie do danych liczbowych, nie ma związku z perswazją ani z debatą."},
+    {"word": "motion", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Motion (wniosek) to propozycja, o której debatują uczestnicy; typowe połączenie to 'debate a motion'."},
+    {"word": "podium", "is_associated": true, "association_type": "THEMATIC", "explanation": "Podium (mównica) to miejsce, z którego mówca przemawia podczas debaty."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo debate kojarzy się z argumentami, wnioskami i mówcami; cztery z sześciu słów pasują do tego pola znaczeniowego, a dwa nie mają z nim związku."
+}
