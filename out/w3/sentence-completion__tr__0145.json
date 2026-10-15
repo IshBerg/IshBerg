@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The package was delivered this morning,",
+  "correct_completion": "so we opened it right away.",
+  "full_sentence": "The package was delivered this morning, so we opened it right away.",
+  "acceptable_variants": ["so we opened it at once.", "and we signed for it."],
+  "options": [
+    {"text": "so someone delivered the packages yesterday.", "is_correct": false, "why_wrong": "The stem already says the package was delivered this morning, so this repeats the event with a different time and does not continue the story."},
+    {"text": "so we opened it right away.", "is_correct": true, "why_wrong": null},
+    {"text": "we have delivered it.", "is_correct": false, "why_wrong": "This uses an active present perfect with a new subject, which does not follow the passive focus on the package being delivered."},
+    {"text": "the package delivers every day.", "is_correct": false, "why_wrong": "The present simple describes a habit, which does not continue a completed event that happened this morning."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive voice in the past simple, followed by a result clause",
+  "connector": "so",
+  "explanation": "The passive stem focuses on the package, so the completion must continue with what happened because of that delivery. Turkish speakers often prefer an active structure in everyday speech, so English passive sentences need a deliberate focus on the object of the action.",
+  "translation": "Paket bu sabah teslim edildi, bu yüzden onu hemen açtık."
+}
