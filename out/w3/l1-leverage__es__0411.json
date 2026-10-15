@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "éxito", "transliteration": "exito", "meaning": "success"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"}
+  ],
+  "english_words": ["folder", "bookstore", "success", "to attend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Some of these Spanish words look almost identical to English words because both languages took them from Latin roots, but over time their meanings moved apart, so the similar spelling can mislead learners.",
+  "false_friend_warning": "The Spanish word that looks like the English word 'library' means bookstore, not a place where you borrow books, so do not confuse the two. Likewise, the Spanish word for 'folder' looks like the English word 'carpet', but it has nothing to do with floor coverings."
+}
