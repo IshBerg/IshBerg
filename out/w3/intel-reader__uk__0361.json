@@ -1,0 +1,20 @@
+{
+  "title": "Sam Has a Cold",
+  "text": "Sam is sick today. He has a cold. He has a sore throat and a headache. He stays in bed.\n\nHis mother gives him hot tea and soup. She says he must drink a lot of water. Sam feels better in the evening. He wants to play outside tomorrow.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Sam have?", "options": ["A broken arm", "A cold", "A toothache", "A new bike"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Sam's mother give him?", "options": ["Hot tea and soup", "Cold milk and cake", "Ice cream", "A new book"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Sam stay in bed?", "options": ["He is sick and needs rest", "He is on holiday", "He wants to sleep at school", "He is waiting for a train"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is Sam probably going to do tomorrow?", "options": ["Stay in bed all day", "Play outside", "Go to the hospital", "Go to school with a cold"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "cold", "translation": "застуда", "definition": "an illness that makes your nose run and your throat feel sore"},
+    {"word": "headache", "translation": "головний біль", "definition": "a pain in your head"},
+    {"word": "soup", "translation": "суп", "definition": "a warm liquid food, often made with vegetables or meat"},
+    {"word": "water", "translation": "вода", "definition": "the clear liquid that people drink to stay healthy"}
+  ],
+  "paragraph_translations": [
+    "Сем сьогодні хворий. У нього застуда. У нього болить горло і голова. Він лишається в ліжку.",
+    "Мама дає йому гарячий чай і суп. Вона каже, що він має пити багато води. Увечері Сему стає краще. Завтра він хоче погратися на вулиці."
+  ]
+}

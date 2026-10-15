@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the long journey,",
+  "correct_completion": "the traveller arrived at the station on time.",
+  "full_sentence": "Despite the long journey, the traveller arrived at the station on time.",
+  "acceptable_variants": ["the traveller still reached the station on time.", "the traveller was not tired when the train arrived."],
+  "options": [
+    {"text": "so the traveller missed the train.", "is_correct": false, "why_wrong": "'So' introduces a result that follows naturally from a cause. 'Despite' requires a contrast with the first part of the sentence."},
+    {"text": "the traveller arrived at the station on time.", "is_correct": true, "why_wrong": null},
+    {"text": "because the train was late.", "is_correct": false, "why_wrong": "'Because' gives a cause, but 'despite' requires an idea that contrasts with the difficulty mentioned in the stem."},
+    {"text": "the traveller was carrying two heavy bags.", "is_correct": false, "why_wrong": "This adds a detail but does not provide the contrasting result that 'despite' expects."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Prepositional phrase 'despite' expressing concession",
+  "connector": "despite",
+  "explanation": "'Despite' is followed by a noun phrase and introduces a contrast. The main clause must show a result that goes against the difficulty described in the stem.",
+  "translation": "Попри довгу подорож, мандрівник прибув на вокзал вчасно."
+}
