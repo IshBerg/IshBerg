@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister can swim very well, but",
+  "correct_completion": "she can't ride a bicycle yet.",
+  "full_sentence": "My sister can swim very well, but she can't ride a bicycle yet.",
+  "acceptable_variants": ["she cannot ride a bicycle yet.", "she is still learning to ride a bicycle."],
+  "options": [
+    {"text": "she can swim very fast too.", "is_correct": false, "why_wrong": "'But' signals contrast. This sentence only adds another similar ability, so it does not contrast with the first part."},
+    {"text": "she likes to swim in the sea.", "is_correct": false, "why_wrong": "This gives extra information about swimming, but it does not show the contrast that 'but' requires."},
+    {"text": "she can't ride a bicycle yet.", "is_correct": true, "why_wrong": null},
+    {"text": "she can ride a bicycle every day.", "is_correct": false, "why_wrong": "This matches the ability in the first part, so it does not create the contrast that 'but' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' and can't for inability",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the ability to swim. The negative form 'can't' shows inability.",
+  "translation": "Kardeşim çok iyi yüzebilir ama henüz bisiklete binemez."
+}
