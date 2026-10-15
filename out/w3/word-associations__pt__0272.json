@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Riverbank' is a common compound, and the same word 'bank' also names the land beside a river, which creates the pun."},
+    {"word": "loan", "is_associated": true, "association_type": "THEMATIC", "explanation": "Um banco é uma instituição financeira que concede empréstimos, por isso 'loan' pertence ao mesmo campo temático."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "'Cloud' não tem relação de sentido nem de uso com 'bank', nem como financeira nem como margem de rio."},
+    {"word": "interest", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Interest' significa juros, o valor que um banco paga ou cobra sobre o dinheiro, e portanto tem sentido ligado ao banco."},
+    {"word": "trumpet", "is_associated": false, "association_type": "NONE", "explanation": "'Trumpet' é um instrumento musical e não tem qualquer ligação com o sentido financeiro ou geográfico de 'bank'."},
+    {"word": "pound", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Pound' é uma unidade monetária, e por isso se associa ao contexto bancário e financeiro."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'bank' tem dois sentidos principais: instituição financeira e margem de rio. As associações corretas vêm de um ou de outro sentido, e o jogo de palavras depende dessa dupla leitura."
+}
