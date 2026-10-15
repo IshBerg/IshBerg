@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "Духовка є одним із головних приладів на кухні, тому вона тематично пов'язана зі словом kitchen."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно зазвичай стоїть у залі або музичній кімнаті, а не на кухні, тому зв'язку немає."},
+    {"word": "spoon", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ложка є звичайним кухонним приладдям, яке використовують для приготування та подачі їжі."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Пустеля не має жодного відношення до кухні, тому слова не пов'язані."},
+    {"word": "recipe", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Рецепт часто називають разом із кухнею, наприклад, kitchen recipe, тому слова сполучаються."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не пов'язана з кухнею ні за змістом, ні за типовим вживанням."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з kitchen, стосуються приготування їжі, кухонного приладдя та рецептів, тоді як решта слів належать до інших сфер."
+}
