@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had we arrived at the station",
+  "correct_completion": "when the train left.",
+  "full_sentence": "Hardly had we arrived at the station when the train left.",
+  "acceptable_variants": ["when the train pulled away.", "when the doors closed."],
+  "options": [
+    {"text": "than the train left.", "is_correct": false, "why_wrong": "'Hardly' is paired with 'when' in this structure, not with 'than', which is used in comparisons."},
+    {"text": "the train left before us.", "is_correct": false, "why_wrong": "The sentence needs the fixed pattern 'hardly ... when' after the inverted auxiliary, so this completion does not finish the structure."},
+    {"text": "when the train left.", "is_correct": true, "why_wrong": null},
+    {"text": "because the train left.", "is_correct": false, "why_wrong": "'Hardly ... when' expresses two events happening almost at the same time; 'because' would wrongly express a cause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'hardly ... when'",
+  "connector": "hardly ... when",
+  "explanation": "When a sentence begins with 'hardly', the auxiliary verb must come before the subject ('had we arrived'), and the second clause is introduced by 'when'. Turkish speakers often keep a normal subject-verb order here because Turkish word order does not change in this way for emphasis.",
+  "translation": "İstasyona daha yeni varmıştık ki tren kalktı."
+}

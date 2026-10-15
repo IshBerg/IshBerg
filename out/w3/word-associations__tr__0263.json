@@ -1,0 +1,14 @@
+{
+  "trigger_word": "candle",
+  "all_words": [
+    {"word": "wax", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Mum, mumun ana maddesidir ve kavramla doğrudan anlamsal bağlantı kurar."},
+    {"word": "wick", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Fitil, mumun yanan kısmıdır ve mumla doğrudan ilişkilidir."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "Gök gürültüsü bir hava olayıdır; mumla ne anlamsal ne de kullanım açısından bir bağlantısı yoktur."},
+    {"word": "blow", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Blow out a candle' mumu üfleyerek söndürmek anlamına gelir; bu sabit bir eşdizimdir."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Buzul soğuk ve doğal bir oluşumdur; mumla bir ilişkisi yoktur."},
+    {"word": "cathedral", "is_associated": true, "association_type": "THEMATIC", "explanation": "Katedraller ayinlerde mum yakılan mekanlardır; bu tematik bir bağlantıdır."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Mumla ilgili kavramlar üç gruba ayrılır: mumun malzemesi ve yanma ile ilgili kelimeler, mumun kullanıldığı yerler ve mumla birlikte kullanılan sabit ifadeler."
+}
