@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "book", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Книги зберігаються в бібліотеці, тому це слово має безпосередній смисловий зв'язок із нею."},
+    {"word": "shelf", "is_associated": true, "association_type": "THEMATIC", "explanation": "Полиці є частиною бібліотечного простору, де стоять книги, тому слово належить до однієї теми."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Кухня пов'язана з приготуванням їжі і не має смислового зв'язку з бібліотекою."},
+    {"word": "librarian", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Бібліотекар є людиною, яка працює в бібліотеці, тому слова тісно пов'язані за змістом."},
+    {"word": "stadium", "is_associated": false, "association_type": "NONE", "explanation": "Стадіон асоціюється зі спортом і подіями на відкритому повітрі, а не з бібліотекою."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Трактор належить до сільськогосподарської техніки і не пов'язаний з бібліотекою ні за змістом, ні за словосполученням."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'library' пов'язане з книгами, полицями та людьми, які там працюють, тоді як решта слів належить до інших сфер життя."
+}
