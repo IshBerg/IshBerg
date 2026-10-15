@@ -1,0 +1,23 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "unhappy", "intensity": 1, "translation": "infeliz", "nuance": "mild lack of happiness"},
+    {"word": "sad", "intensity": 2, "translation": "triste", "nuance": "general feeling of sorrow"},
+    {"word": "miserable", "intensity": 3, "translation": "miserable", "nuance": "very unhappy and uncomfortable"},
+    {"word": "heartbroken", "intensity": 4, "translation": "con el corazón roto", "nuance": "deep sorrow caused by loss or disappointment"},
+    {"word": "devastated", "intensity": 5, "translation": "devastado", "nuance": "overwhelming grief that leaves someone shocked"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express unhappiness, from a mild lack of happiness to overwhelming grief.",
+  "usage_notes": [
+    {"word1": "sad", "word2": "miserable", "difference": "'Sad' describes a temporary feeling; 'miserable' describes a stronger and often longer-lasting state of unhappiness."}
+  ],
+  "translations": {
+    "unhappy": "infeliz",
+    "sad": "triste",
+    "miserable": "miserable",
+    "heartbroken": "con el corazón roto",
+    "devastated": "devastado"
+  }
+}
