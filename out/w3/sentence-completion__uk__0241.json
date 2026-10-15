@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the decision would have been different.",
+  "full_sentence": "Had the committee been informed earlier, the decision would have been different.",
+  "acceptable_variants": ["the outcome would likely have changed.", "the vote might have gone differently."],
+  "options": [
+    {"text": "the committee has informed everyone already.", "is_correct": false, "why_wrong": "The stem sets up a hypothetical past condition, so the result must be a conditional, not a statement of present fact."},
+    {"text": "the decision would have been different.", "is_correct": true, "why_wrong": null},
+    {"text": "they will decide the matter tomorrow.", "is_correct": false, "why_wrong": "A future-tense result does not match the third conditional that the inverted 'Had' structure introduces."},
+    {"text": "the decision was already final.", "is_correct": false, "why_wrong": "This describes a past fact rather than the hypothetical result that the inverted conditional sets up."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inversion: 'Had + subject + past participle' replacing 'If'",
+  "connector": "had",
+  "explanation": "The inverted 'Had' structure replaces 'If' and sets up an unreal past condition. The main clause must use 'would have' plus a past participle to express the imagined result.",
+  "translation": "Якби комітет був поінформований раніше, рішення було б іншим."
+}

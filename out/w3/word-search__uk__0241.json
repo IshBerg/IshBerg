@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["W", "E", "N", "T", "X", "K", "Q", "B"],
+    ["P", "H", "R", "V", "J", "F", "Z", "M"],
+    ["G", "Q", "L", "T", "Y", "S", "H", "C"],
+    ["B", "D", "K", "N", "F", "A", "P", "V"],
+    ["D", "R", "F", "J", "Z", "W", "M", "G"],
+    ["I", "A", "T", "E", "Q", "L", "R", "X"],
+    ["D", "O", "P", "K", "V", "Z", "N", "H"],
+    ["Y", "B", "C", "L", "A", "S", "T", "U"]
+  ],
+  "words_to_find": ["WENT", "SAW", "ATE", "DID", "LAST"],
+  "word_positions": [
+    {"word": "WENT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SAW", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "ATE", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "DID", "start_row": 4, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "LAST", "start_row": 7, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Talking About Past Events"
+}
