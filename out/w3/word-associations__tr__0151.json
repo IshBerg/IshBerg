@@ -1,0 +1,14 @@
+{
+  "trigger_word": "friend",
+  "all_words": [
+    {"word": "best", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'best friend' (en yakın arkadaş) ifadesinde 'best' sık kullanılan bir sıfattır."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "'table' (masa) arkadaşlık kavramıyla ilgili değildir, aralarında anlamsal bir bağ yoktur."},
+    {"word": "friendship", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'friendship' (arkadaşlık) 'friend' ile aynı kökü ve anlam alanını paylaşır."},
+    {"word": "winter", "is_associated": false, "association_type": "NONE", "explanation": "'winter' (kış) arkadaşlık konusuyla bağlantısı olmayan bir mevsim adıdır."},
+    {"word": "family", "is_associated": true, "association_type": "THEMATIC", "explanation": "'family' (aile) ilişkiler konusunda 'friend' ile birlikte geçen ortak bir temadır."},
+    {"word": "meet", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'meet a friend' (bir arkadaşla buluşmak) ifadesi çok yaygın bir kalıptır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Friend' kelimesiyle sıfat-isim kalıpları, aynı kökten türeyen kelimeler ve ilişkiler teması ilgilidir; 'table' ve 'winter' ise ilgisizdir."
+}
