@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have never flown on a plane, so",
+  "correct_completion": "I asked the flight attendant many questions.",
+  "full_sentence": "I have never flown on a plane, so I asked the flight attendant many questions.",
+  "acceptable_variants": ["I checked the airport signs very carefully.", "I felt nervous at the check-in desk."],
+  "options": [
+    {"text": "I got on the plane without any worries.", "is_correct": false, "why_wrong": "Calm confidence does not follow logically from having no flying experience, so this result does not fit the stem."},
+    {"text": "I know exactly how the security check works.", "is_correct": false, "why_wrong": "Having never flown, the speaker would not know this, so the completion contradicts the first clause."},
+    {"text": "I asked the flight attendant many questions.", "is_correct": true, "why_wrong": null},
+    {"text": "I have flown many times before.", "is_correct": false, "why_wrong": "This contradicts the present perfect 'never' in the stem and does not give a result of it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect with 'never' followed by a result clause introduced by 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. The present perfect 'never' describes lack of experience, so the correct completion must show a logical result of that lack, such as asking questions for help.",
+  "translation": "Hiç uçakla uçmadım, bu yüzden uçuş görevlisine birçok soru sordum."
+}
