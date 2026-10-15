@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at these shoes,",
+  "correct_completion": "they are very expensive.",
+  "full_sentence": "Look at these shoes, they are very expensive.",
+  "acceptable_variants": ["they look very expensive.", "they cost a lot of money."],
+  "options": [
+    {"text": "it is very expensive.", "is_correct": false, "why_wrong": "'These shoes' is plural, so the pronoun must be plural too. 'It' refers to a single thing."},
+    {"text": "they are very expensive.", "is_correct": true, "why_wrong": null},
+    {"text": "that is my bag.", "is_correct": false, "why_wrong": "This talks about a different object. The sentence is about the shoes, not a bag."},
+    {"text": "this are my keys.", "is_correct": false, "why_wrong": "'This' is singular and 'these' is plural, so 'this are' is incorrect grammar. Also, the keys are not the topic."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative pronouns this, that, these, those with matching pronouns",
+  "connector": "these",
+  "explanation": "The demonstrative 'these' is plural, so the following pronoun must also be plural and refer back to the shoes. Spanish speakers may use a singular pronoun for objects, because Spanish often drops subject pronouns, so the English plural subject must be stated clearly.",
+  "translation": "Mira estos zapatos, son muy caros."
+}
