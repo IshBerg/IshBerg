@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I had my car repaired yesterday,",
+  "correct_completion": "so it runs much better now.",
+  "full_sentence": "I had my car repaired yesterday, so it runs much better now.",
+  "acceptable_variants": ["so it works well again.", "so I can drive it safely."],
+  "options": [
+    {"text": "so it runs much better now.", "is_correct": true, "why_wrong": null},
+    {"text": "I repaired my car myself.", "is_correct": false, "why_wrong": "'Had ... repaired' means someone else did the work for me, so this contradicts the causative structure."},
+    {"text": "although it runs much better now.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, which does not fit the logical result of the repair."},
+    {"text": "the car was repaired by me.", "is_correct": false, "why_wrong": "This passive form says I did the repair, which contradicts the meaning of 'had my car repaired'."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have something done' with a result clause",
+  "connector": "so",
+  "explanation": "The causative 'have something done' means someone else performs the action for the subject. Turkish speakers often use a simple past verb here, because Turkish has a separate suffix for causation and can express 'had repaired' without a helper verb.",
+  "translation": "Arabamı dün tamir ettirdim, bu yüzden artık çok daha iyi çalışıyor."
+}

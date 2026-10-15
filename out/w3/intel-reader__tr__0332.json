@@ -1,0 +1,19 @@
+{
+  "title": "My Shopping Day",
+  "text": "I went to the market on Saturday. I bought twenty apples and thirty eggs. The apples cost forty lira and the eggs cost fifty lira. I paid with a hundred lira note.\n\nMy friend came with me to the market. She bought sixty oranges for her family. The oranges were very sweet. We walked home together and ate one orange on the way.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How many apples did the writer buy?", "options": ["Twenty", "Thirty", "Forty", "Fifty"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How many oranges did the friend buy?", "options": ["Forty", "Fifty", "Sixty", "Hundred"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How much money did the writer probably pay for the apples and eggs together?", "options": ["Less than twenty lira", "Exactly seventy lira", "More than one hundred lira", "Exactly one hundred lira"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why did the friend and the writer probably eat an orange on the way home?", "options": ["They were hungry and enjoyed the sweet fruit", "They wanted to sell the oranges", "They did not like the market", "They had no money left"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "apples", "translation": "elmalar", "definition": "round fruits that are often red or green"},
+    {"word": "eggs", "translation": "yumurtalar", "definition": "oval objects laid by hens that people eat"},
+    {"word": "oranges", "translation": "portakallar", "definition": "round, orange-coloured fruits with sweet juice"}
+  ],
+  "paragraph_translations": [
+    "Cumartesi günü markete gittim. Yirmi elma ve otuz yumurta aldım. Elmalar kırk lira, yumurtalar ise elli lira tuttu. Yüz liralık banknotla ödeme yaptım.",
+    "Arkadaşım da benimle markete geldi. Ailesi için altmış portakal aldı. Portakallar çok tatlıydı. Birlikte eve yürüdük ve yolda birer portakal yedik."
+  ]
+}

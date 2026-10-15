@@ -1,0 +1,23 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "weary", "intensity": 1, "translation": "yorgun", "nuance": "mild tiredness that is starting to build up"},
+    {"word": "fatigued", "intensity": 2, "translation": "bitkin", "nuance": "tired from sustained effort or work"},
+    {"word": "tired", "intensity": 3, "translation": "yorgun, uykulu", "nuance": "general state of needing rest"},
+    {"word": "exhausted", "intensity": 4, "translation": "tükenmiş", "nuance": "tired to the point of having no energy left"},
+    {"word": "spent", "intensity": 5, "translation": "tamamen tükenmiş", "nuance": "completely drained, with nothing left to give"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe lacking energy, from mild weariness to complete exhaustion.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "exhausted", "difference": "'Tired' describes a general need for rest; 'exhausted' suggests a much stronger state where no energy is left."}
+  ],
+  "translations": {
+    "weary": "yorgun",
+    "fatigued": "bitkin",
+    "tired": "yorgun, uykulu",
+    "exhausted": "tükenmiş",
+    "spent": "tamamen tükenmiş"
+  }
+}
