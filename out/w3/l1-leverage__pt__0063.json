@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "agenda", "transliteration": "agenda", "meaning": "diary or planner"},
+    {"word": "data", "transliteration": "data", "meaning": "date (a day in the calendar)"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current, present"},
+    {"word": "pasta", "transliteration": "pasta", "meaning": "folder for holding papers"}
+  ],
+  "english_words": ["current", "date", "folder", "diary"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin, so the spellings stayed close, but over time the meanings drifted apart. Learners can use the similar spelling as a clue, but must check the meaning before trusting it.",
+  "false_friend_warning": "Careful: the Portuguese word agenda means a diary or planner, but the English word agenda means a list of items to be discussed at a meeting. Likewise, the Portuguese word atual means current, not actual, so it is a false friend with the English word actual."
+}

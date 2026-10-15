@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I don't know",
+  "correct_completion": "where the library is.",
+  "full_sentence": "I don't know where the library is.",
+  "acceptable_variants": ["where the nearest library is.", "where the library is located."],
+  "options": [
+    {"text": "where is the library.", "is_correct": false, "why_wrong": "This keeps the question word order ('is the library'). After 'I don't know', an indirect question uses statement order: 'where the library is'."},
+    {"text": "the library is open now.", "is_correct": false, "why_wrong": "This is a complete statement. 'I don't know' needs a clause introduced by a question word, not a new statement."},
+    {"text": "where the library is.", "is_correct": true, "why_wrong": null},
+    {"text": "the library where is.", "is_correct": false, "why_wrong": "The question word 'where' must come before the phrase it introduces, and the verb must follow the subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with wh-words",
+  "connector": "where",
+  "explanation": "In an indirect question, the subject comes before the verb ('where the library is'), unlike a direct question ('where is the library?'). Portuguese speakers often keep the direct question order because Portuguese word order in questions is more flexible.",
+  "translation": "Eu não sei onde fica a biblioteca."
+}
