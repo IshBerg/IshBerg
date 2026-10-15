@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The street was cleaned this morning, so",
+  "correct_completion": "it looks very clean now.",
+  "full_sentence": "The street was cleaned this morning, so it looks very clean now.",
+  "acceptable_variants": ["it looks much nicer now.", "people can walk there safely."],
+  "options": [
+    {"text": "the cars were parked there.", "is_correct": false, "why_wrong": "This adds an unrelated event and does not show the result of the street being cleaned."},
+    {"text": "it was dirty yesterday.", "is_correct": false, "why_wrong": "This describes the situation before the cleaning, not the result that 'so' introduces."},
+    {"text": "it looks very clean now.", "is_correct": true, "why_wrong": null},
+    {"text": "the workers cleaned the windows.", "is_correct": false, "why_wrong": "This is a different action in active voice; the stem already tells us the street was cleaned."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive voice in the past with 'so' to express a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. The passive 'was cleaned' describes the action in the past, and the result is described in the present tense with 'looks'.",
+  "translation": "A rua foi limpa esta manhã, então ela está muito limpa agora."
+}
