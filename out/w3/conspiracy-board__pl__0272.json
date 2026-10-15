@@ -1,0 +1,14 @@
+{
+  "codename": "PAPER TRAIL",
+  "briefing": "Agent, we've intercepted a stack of press documents. Match each English media word to its Polish translation to uncover the source of the leak. Time is critical.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "newspaper", "right": "gazeta", "left_style": "document", "right_style": "handwritten"},
+    {"left": "journalist", "right": "dziennikarz", "left_style": "photo", "right_style": "document"},
+    {"left": "headline", "right": "nagłówek", "left_style": "newspaper", "right_style": "official"},
+    {"left": "article", "right": "artykuł", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "editor", "right": "redaktor", "left_style": "official", "right_style": "newspaper"},
+    {"left": "camera", "right": "kamera", "left_style": "photo", "right_style": "handwritten"}
+  ]
+}
