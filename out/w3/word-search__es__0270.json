@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["P", "R", "E", "D", "I", "C", "T", "Q", "G"],
+    ["A", "B", "K", "M", "N", "Z", "W", "Y", "U"],
+    ["F", "H", "J", "P", "L", "V", "X", "D", "E"],
+    ["K", "U", "Q", "W", "B", "T", "R", "A", "S"],
+    ["B", "D", "T", "F", "K", "H", "Y", "N", "S"],
+    ["Z", "X", "P", "U", "G", "M", "L", "J", "V"],
+    ["W", "T", "Q", "L", "R", "O", "D", "D", "S"],
+    ["H", "Y", "J", "K", "B", "E", "N", "Q", "A"],
+    ["C", "L", "U", "E", "R", "K", "P", "W", "T"]
+  ],
+  "words_to_find": ["PREDICT", "GUESS", "FUTURE", "CLUE", "ODDS"],
+  "word_positions": [
+    {"word": "PREDICT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GUESS", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "FUTURE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CLUE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ODDS", "start_row": 6, "start_col": 5, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Making Predictions"
+}
