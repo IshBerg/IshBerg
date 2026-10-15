@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the train arrive late,",
+  "correct_completion": "but the station was also closed for repairs.",
+  "full_sentence": "Not only did the train arrive late, but the station was also closed for repairs.",
+  "acceptable_variants": ["but the platform was also flooded.", "but the ticket office was also closed."],
+  "options": [
+    {"text": "so we took a taxi instead.", "is_correct": false, "why_wrong": "This expresses a result of the delay, but 'not only ... but also' needs a second problem added in parallel, not a consequence."},
+    {"text": "but the station was also closed for repairs.", "is_correct": true, "why_wrong": null},
+    {"text": "and we had to wait outside.", "is_correct": false, "why_wrong": "This describes what happened next, but it does not complete the 'not only ... but also' pattern with a parallel second problem."},
+    {"text": "although the tickets were cheap.", "is_correct": false, "why_wrong": "'Although' introduces a contrast with the first clause, but the structure requires 'but also' to add a second parallel point."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Negative inversion with 'not only ... but also'",
+  "connector": "not only ... but also",
+  "explanation": "After 'Not only', the auxiliary verb 'did' is placed before the subject, which is the inversion. The second clause must start with 'but also' to add a parallel problem of the same kind. Polish speakers often keep normal word order after 'not only', so the inversion is easy to forget.",
+  "translation": "Nie tylko pociąg przyjechał spóźniony, ale także stacja była zamknięta z powodu remontu."
+}
