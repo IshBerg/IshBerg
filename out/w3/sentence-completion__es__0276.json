@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished his homework,",
+  "correct_completion": "he went out to play with his friends.",
+  "full_sentence": "Having finished his homework, he went out to play with his friends.",
+  "acceptable_variants": ["he called his best friend to make plans.", "he decided to watch a film with his brother."],
+  "options": [
+    {"text": "he is still doing his homework.", "is_correct": false, "why_wrong": "'Having finished' states that the homework is already complete, so this contradicts the stem."},
+    {"text": "he went out to play with his friends.", "is_correct": true, "why_wrong": null},
+    {"text": "the homework was still on his desk.", "is_correct": false, "why_wrong": "This contradicts 'having finished', which says the homework is already done."},
+    {"text": "he will finish it tomorrow.", "is_correct": false, "why_wrong": "This contradicts 'having finished', which describes an action already completed before the main clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect participle clauses with 'having + past participle'",
+  "connector": "having finished",
+  "explanation": "A perfect participle clause describes an action completed before the action in the main clause. The main clause must therefore follow logically from the finished task, and the subject of the participle clause must be the subject of the main clause.",
+  "translation": "Habiendo terminado sus deberes, salió a jugar con sus amigos."
+}
