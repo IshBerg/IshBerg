@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "warm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El sol da calor, así que 'warm' está muy relacionado con el sol."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "La lluvia viene de las nubes y no tiene relación directa con el sol."},
+    {"word": "light", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El sol es una fuente de luz, por eso 'light' está asociado al sol."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Un pez vive en el agua y no tiene relación con el sol."},
+    {"word": "day", "is_associated": true, "association_type": "THEMATIC", "explanation": "El sol brilla durante el día, así que 'day' pertenece al mismo tema."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Un zapato es un objeto de ropa y no tiene relación con el sol."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'sun' describen su calor, su luz y el día en que aparece."
+}

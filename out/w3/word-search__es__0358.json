@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "I", "N", "T", "Q", "R", "W", "D", "T"],
+    ["K", "Z", "F", "L", "P", "J", "S", "V", "O"],
+    ["M", "C", "G", "A", "R", "B", "U", "W", "N"],
+    ["D", "Q", "J", "K", "S", "Y", "B", "F", "E"],
+    ["I", "P", "Z", "R", "M", "L", "T", "K", "W"],
+    ["V", "M", "Q", "D", "B", "N", "E", "J", "C"],
+    ["G", "A", "P", "S", "F", "T", "X", "Q", "R"],
+    ["Z", "K", "D", "L", "V", "H", "T", "B", "M"],
+    ["N", "W", "C", "D", "Y", "J", "R", "Q", "F"]
+  ],
+  "words_to_find": ["HINT", "TONE", "IMPLY", "SUBTEXT"],
+  "word_positions": [
+    {"word": "HINT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TONE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "IMPLY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SUBTEXT", "start_row": 1, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Understanding Implicit Meanings"
+}
