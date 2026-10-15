@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "kolej", "transliteration": "kolej", "meaning": "private high school (not a university)"},
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current, up to date"},
+    {"word": "eventüel", "transliteration": "eventuel", "meaning": "possible, if needed"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "nice, likable"}
+  ],
+  "english_words": ["nice", "possibly", "high school", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each of these Turkish words looks like an English word but means something different, so the spelling alone can mislead learners.",
+  "false_friend_warning": "Watch out for these traps: a Turkish word that looks like 'college' means a private high school, not a university; a word that looks like 'actual' means current; a word that looks like 'eventual' means possible; and a word that looks like 'sympathetic' means nice."
+}

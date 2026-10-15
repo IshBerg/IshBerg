@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before the exam, students have to",
+  "correct_completion": "bring their ID card to the classroom.",
+  "full_sentence": "Before the exam, students have to bring their ID card to the classroom.",
+  "acceptable_variants": ["bring their ID card with them.", "must bring their ID card."],
+  "options": [
+    {"text": "to bringing their ID card to the classroom.", "is_correct": false, "why_wrong": "'Have to' is followed by the base verb, not by 'to' or an -ing form."},
+    {"text": "has to bring their ID card to the classroom.", "is_correct": false, "why_wrong": "'Has to' is used with he, she or it; with the plural subject 'students' we use 'have to'."},
+    {"text": "bring their ID card to the classroom.", "is_correct": true, "why_wrong": null},
+    {"text": "might bring their ID card to the classroom.", "is_correct": false, "why_wrong": "'Might' shows possibility, not obligation, so it does not express the required action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Obligation with 'have to' followed by the base verb",
+  "connector": "have to",
+  "explanation": "'Have to' expresses obligation, and the verb after it stays in the base form. Learners may be tempted to add an -ing form or a third-person -s, but the plural subject needs no ending on the verb.",
+  "translation": "Sınavdan önce öğrenciler kimlik kartlarını sınıfa getirmek zorundadır."
+}

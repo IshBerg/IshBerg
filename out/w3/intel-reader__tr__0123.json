@@ -1,0 +1,20 @@
+{
+  "title": "My House and My Dog",
+  "text": "This is my house. It is small and blue. It has two windows and a red door. There is a big garden behind it.\n\nMy dog is called Max. He is brown and very friendly. He likes to run in the garden. In the evening, he sleeps near the door.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is the house?", "options": ["blue", "red", "green", "white"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What color is Max?", "options": ["black", "brown", "white", "grey"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer probably feel about Max?", "options": ["The writer loves Max", "The writer is afraid of Max", "The writer does not know Max", "The writer wants to sell Max"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Where does Max probably spend most of his day?", "options": ["in the garden", "in a car", "at school", "in the kitchen"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "small", "translation": "küçük", "definition": "not big in size"},
+    {"word": "garden", "translation": "bahçe", "definition": "a piece of land next to a house where plants and flowers grow"},
+    {"word": "window", "translation": "pencere", "definition": "an opening in a wall with glass that lets in light"},
+    {"word": "friendly", "translation": "arkadaş canlısı", "definition": "kind and nice to other people"}
+  ],
+  "paragraph_translations": [
+    "Bu benim evim. Küçük ve mavi. İki penceresi ve kırmızı bir kapısı var. Arkasında büyük bir bahçe var.",
+    "Köpeğimin adı Max. Kahverengi ve çok arkadaş canlısı. Bahçede koşmayı sever. Akşamları kapının yanında uyur."
+  ]
+}
