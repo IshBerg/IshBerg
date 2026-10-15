@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I could not write my homework because",
+  "correct_completion": "I did not have a pen.",
+  "full_sentence": "I could not write my homework because I did not have a pen.",
+  "acceptable_variants": ["I could not find a pen.", "I had no pen at home."],
+  "options": [
+    {"text": "I had an apple for lunch.", "is_correct": false, "why_wrong": "This describes what happened at lunch but does not explain why the homework could not be written."},
+    {"text": "The teacher was a kind woman.", "is_correct": false, "why_wrong": "This describes the teacher, but it does not give a reason for the problem with the homework."},
+    {"text": "I did not have a pen.", "is_correct": true, "why_wrong": null},
+    {"text": "I bought an orange yesterday.", "is_correct": false, "why_wrong": "This is a separate action that does not explain why the homework could not be written."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Indefinite articles 'a' and 'an' with singular countable nouns",
+  "connector": "because",
+  "explanation": "'Because' introduces a reason. The reason needs a clause that explains the problem, and 'a pen' uses the indefinite article 'a' before a singular countable noun beginning with a consonant sound.",
+  "translation": "Nie mogłem napisać pracy domowej, ponieważ nie miałem długopisu."
+}
