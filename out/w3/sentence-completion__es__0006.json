@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the project would have been approved last year.",
+  "full_sentence": "Had the committee been informed earlier, the project would have been approved last year.",
+  "acceptable_variants": ["the project would have been approved sooner.", "the project might have been approved last year."],
+  "options": [
+    {"text": "the project was approved last year.", "is_correct": false, "why_wrong": "The stem sets up a hypothetical condition, so the result needs 'would have + past participle'. A simple past states a fact instead."},
+    {"text": "so the project was delayed.", "is_correct": false, "why_wrong": "'So' signals a result of something already known, not the hypothetical outcome that the inverted conditional requires."},
+    {"text": "the project would have been approved last year.", "is_correct": true, "why_wrong": null},
+    {"text": "the project has been approved already.", "is_correct": false, "why_wrong": "The present perfect describes a completed situation without the hypothetical link that the stem demands."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' (no 'if')",
+  "connector": "had (inverted conditional)",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'If ... had been informed', so the main clause must use 'would have + past participle' to express an unreal past result.",
+  "translation": "Si el comité hubiera sido informado antes, el proyecto habría sido aprobado el año pasado."
+}

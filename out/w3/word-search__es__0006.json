@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "O", "L", "L", "Q", "W", "Z", "X", "K"],
+    ["M", "R", "U", "P", "J", "N", "F", "V", "I"],
+    ["G", "Y", "K", "W", "A", "Z", "O", "Q", "T"],
+    ["X", "B", "D", "N", "R", "U", "M", "I", "E"],
+    ["B", "T", "G", "Y", "Q", "C", "J", "L", "O"],
+    ["F", "A", "K", "R", "V", "H", "Z", "U", "P"],
+    ["N", "X", "L", "Q", "Y", "E", "M", "D", "W"],
+    ["J", "K", "T", "L", "Z", "S", "R", "B", "N"],
+    ["V", "P", "G", "W", "U", "S", "Y", "F", "A"]
+  ],
+  "words_to_find": ["DOLL", "KITE", "BALL", "CHESS"],
+  "word_positions": [
+    {"word": "DOLL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "KITE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "BALL", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CHESS", "start_row": 4, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Toys and Games"
+}
