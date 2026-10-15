@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee really needs",
+  "correct_completion": "is a clear and realistic budget.",
+  "full_sentence": "What the committee really needs is a clear and realistic budget.",
+  "acceptable_variants": ["is a realistic plan with clearly stated costs.", "is a clear and realistic budget for next year."],
+  "options": [
+    {"text": "a clear and realistic budget.", "is_correct": false, "why_wrong": "A pseudo-cleft sentence with 'what' needs a verb such as 'is' before the complement, so the sentence is incomplete."},
+    {"text": "that it needs a clear and realistic budget.", "is_correct": false, "why_wrong": "A pseudo-cleft sentence is not followed by 'that'. The 'what' clause is completed by 'is' and the complement."},
+    {"text": "is a clear and realistic budget.", "is_correct": true, "why_wrong": null},
+    {"text": "it is a clear and realistic budget.", "is_correct": false, "why_wrong": "The pronoun 'it' repeats the subject. A pseudo-cleft sentence does not add a dummy pronoun before 'is'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft sentences with 'what'",
+  "connector": "what",
+  "explanation": "A pseudo-cleft sentence places the focus of the sentence after the verb 'is'. The 'what' clause acts as the subject, and the element that answers it follows the verb. Learners sometimes omit the verb or add an extra pronoun, which breaks this structure.",
+  "translation": "Komitenin gerçekten ihtiyaç duyduğu şey, açık ve gerçekçi bir bütçedir."
+}
