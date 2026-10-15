@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "sleepy", "intensity": 1, "translation": "somnoliento", "nuance": "wanting to go to sleep"},
+    {"word": "tired", "intensity": 2, "translation": "cansado", "nuance": "general lack of energy"},
+    {"word": "weary", "intensity": 3, "translation": "fatigado", "nuance": "tired from long effort or time"},
+    {"word": "exhausted", "intensity": 4, "translation": "agotado", "nuance": "extremely tired, no energy left"},
+    {"word": "drained", "intensity": 5, "translation": "exhausto", "nuance": "completely emptied of energy"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe being tired, but with increasing intensity, from wanting sleep to having no energy at all.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "exhausted", "difference": "'Tired' is a general feeling after an ordinary day; 'exhausted' means extremely tired, with no energy left."}
+  ],
+  "translations": {"sleepy": "somnoliento", "tired": "cansado", "weary": "fatigado", "exhausted": "agotado", "drained": "exhausto"}
+}
