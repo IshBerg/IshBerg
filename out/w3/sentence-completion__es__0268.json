@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother, who lives in Madrid,",
+  "correct_completion": "is coming to visit us next week.",
+  "full_sentence": "My brother, who lives in Madrid, is coming to visit us next week.",
+  "acceptable_variants": ["will visit us next week.", "is planning to visit us next week."],
+  "options": [
+    {"text": "that is coming to visit us next week.", "is_correct": false, "why_wrong": "Non-defining clauses cannot use 'that'. The relative pronoun 'who' is used for people and the clause must be set off by commas."},
+    {"text": "is coming to visit us next week.", "is_correct": true, "why_wrong": null},
+    {"text": "he is coming to visit us next week.", "is_correct": false, "why_wrong": "This repeats the subject after the relative clause, which creates a redundant subject. The main verb should follow the clause directly."},
+    {"text": "whom is coming to visit us next week.", "is_correct": false, "why_wrong": "'Whom' is an object pronoun and cannot act as the subject of the verb 'is coming'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "A non-defining relative clause adds extra information about a noun that is already identified, and it must be enclosed in commas. Speakers whose first language allows dropping and repeating subject pronouns often add a second subject after the clause, which English does not allow.",
+  "translation": "Mi hermano, que vive en Madrid, vendrá a visitarnos la próxima semana."
+}
