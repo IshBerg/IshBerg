@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pasta", "transliteration": "pasta", "meaning": "cake"},
+    {"word": "tost", "transliteration": "tost", "meaning": "toasted sandwich"},
+    {"word": "patates", "transliteration": "patates", "meaning": "potato"},
+    {"word": "salata", "transliteration": "salata", "meaning": "salad"}
+  ],
+  "english_words": ["salad", "potato", "cake", "toasted sandwich"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Turkish words look like English words because they were borrowed from European languages, but in Turkish their meanings have shifted away from the English forms.",
+  "false_friend_warning": "The Turkish word spelled pasta looks like the English word pasta, which means noodles, but in Turkish it means cake. The Turkish word tost looks like the English word toast, but it means a toasted sandwich, not a slice of bread."
+}
