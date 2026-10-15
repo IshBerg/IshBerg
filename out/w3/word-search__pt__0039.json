@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "U", "G", "E", "Q", "W", "J", "V", "X", "B"],
+    ["P", "D", "A", "C", "L", "O", "Z", "M", "T", "R"],
+    ["T", "S", "D", "W", "A", "Y", "K", "P", "C", "I"],
+    ["O", "I", "B", "Q", "D", "G", "X", "L", "U", "E"],
+    ["A", "V", "N", "W", "J", "K", "P", "D", "Z", "F"],
+    ["C", "R", "T", "Y", "N", "S", "B", "Q", "W", "M"],
+    ["K", "E", "L", "I", "O", "P", "H", "Z", "V", "Q"],
+    ["J", "X", "R", "U", "M", "A", "E", "L", "G", "D"],
+    ["F", "H", "Y", "T", "S", "C", "W", "B", "N", "O"],
+    ["S", "Z", "Q", "K", "J", "V", "P", "X", "A", "R"]
+  ],
+  "words_to_find": ["HUGE", "TINY", "BRIEF", "GLEAM", "SHRINK"],
+  "word_positions": [
+    {"word": "HUGE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TINY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BRIEF", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "GLEAM", "start_row": 7, "start_col": 8, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SHRINK", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Nuanced Synonyms"
+}

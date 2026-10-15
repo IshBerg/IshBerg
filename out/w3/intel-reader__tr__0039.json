@@ -1,0 +1,20 @@
+{
+  "title": "At the Café",
+  "text": "This is the menu at a small café. It has soup, salad, and bread. The soup is hot and good in winter. You can also order a cold drink.\n\nFor dessert, there is ice cream and cake. The cake costs five dollars. If you want more water, ask the waiter. He will bring it to your table.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does the menu have for the first course?", "options": ["Soup, salad, and bread", "Fish and rice", "Pizza and pasta", "Eggs and milk"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How much does the cake cost?", "options": ["Three dollars", "Five dollars", "Ten dollars", "Two dollars"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why might someone order the hot soup?", "options": ["They want something warm on a cold day", "They want something cold to drink", "They do not like bread", "They are at home"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What should you do if you want more water?", "options": ["Ask the waiter", "Pay for the cake", "Wait for the menu", "Leave the café"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "menu", "translation": "menü", "definition": "a list of food and drinks in a restaurant"},
+    {"word": "dessert", "translation": "tatlı", "definition": "a sweet food eaten at the end of a meal"},
+    {"word": "waiter", "translation": "garson", "definition": "a person who brings food and drinks to your table"},
+    {"word": "order", "translation": "sipariş vermek", "definition": "to ask for food or drinks in a restaurant"}
+  ],
+  "paragraph_translations": [
+    "Bu küçük bir kafenin menüsü. Çorba, salata ve ekmek var. Çorba sıcak ve kışın çok güzel. Soğuk bir içecek de sipariş edebilirsiniz.",
+    "Tatlı olarak dondurma ve pasta var. Pasta beş dolar. Daha fazla su isterseniz garsona sorun. O, suyu masanıza getirecektir."
+  ]
+}
