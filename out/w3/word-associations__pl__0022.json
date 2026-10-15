@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "money", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pieniądze to główna rzecz, którą przechowujemy i wypłacamy w banku."},
+    {"word": "account", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Połączenie 'bank account' (konto bankowe) jest bardzo częste w języku angielskim."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "Pomidor nie ma żadnego związku z bankami ani z finansami."},
+    {"word": "loan", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pożyczka (kredyt) to jedna z usług, które oferuje bank."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Skrzypce nie są związane z bankowością ani z pieniędzmi."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Poduszka nie ma żadnego związku ze słowem 'bank' w znaczeniu finansowym."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'bank' kojarzy się przede wszystkim z finansami: pieniędzmi, kontami i pożyczkami."
+}
