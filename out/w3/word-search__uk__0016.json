@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "O", "N", "D", "A", "Y", "F"],
+    ["X", "Q", "J", "B", "K", "P", "R"],
+    ["W", "E", "D", "Z", "H", "U", "I"],
+    ["L", "G", "C", "T", "Q", "N", "D"],
+    ["K", "S", "B", "J", "X", "V", "A"],
+    ["P", "U", "H", "R", "Z", "L", "Y"],
+    ["S", "U", "N", "D", "A", "Y", "Q"]
+  ],
+  "words_to_find": ["MONDAY", "FRIDAY", "SUNDAY", "WED"],
+  "word_positions": [
+    {"word": "MONDAY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FRIDAY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SUNDAY", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WED", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Days of the Week"
+}

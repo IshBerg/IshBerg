@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bread",
+  "all_words": [
+    {"word": "butter", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "У виразі 'bread and butter' ці слова завжди використовуються разом, тому 'butter' пов'язане з 'bread' як усталене словосполучення."},
+    {"word": "bakery", "is_associated": true, "association_type": "THEMATIC", "explanation": "Пекарня — це місце, де випікають хліб, тому обидва слова належать до однієї теми."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не має жодного зв'язку з хлібом ні за значенням, ні в усталених виразах."},
+    {"word": "flour", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Борошно є основним інгредієнтом хліба, тому між словами є пряме смислове зв'язок."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Клавіатура належить до сфери комп'ютерів і не має відношення до хліба."},
+    {"word": "toast", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Тост — це підсмажений хліб, тому слово має пряме смислове значення, пов'язане з 'bread'."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'bread', стосуються інгредієнтів, місць приготування або усталених виразів, тоді як решта слів належить до інших тем."
+}

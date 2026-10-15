@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the exam was extremely difficult,",
+  "correct_completion": "she still managed to pass with a good grade.",
+  "full_sentence": "Even though the exam was extremely difficult, she still managed to pass with a good grade.",
+  "acceptable_variants": ["she passed it anyway.", "she still got a good grade."],
+  "options": [
+    {"text": "so she failed the test.", "is_correct": false, "why_wrong": "'So' signals a result that follows naturally, not a contrast. 'Even though' needs an outcome that goes against what we would expect."},
+    {"text": "she still managed to pass with a good grade.", "is_correct": true, "why_wrong": null},
+    {"text": "she had studied for it all week.", "is_correct": false, "why_wrong": "This gives a reason for the result, but it does not complete the contrast that 'even though' introduces."},
+    {"text": "the exam was held on a Monday.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not provide the contrasting outcome expected after 'even though'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "Concessive connectors such as 'even though' introduce a clause that contrasts with the main clause, so the completion must show an unexpected result. Speakers may be tempted to choose a cause or result clause here, because in their own language the connector is often translated loosely.",
+  "translation": "Хоча іспит був надзвичайно складним, вона все ж таки склала його на добру оцінку."
+}
