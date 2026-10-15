@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "emocja", "transliteration": "emocja", "meaning": "emotion"},
+    {"word": "empatia", "transliteration": "empatia", "meaning": "empathy"},
+    {"word": "panika", "transliteration": "panika", "meaning": "panic"},
+    {"word": "frustracja", "transliteration": "frustracja", "meaning": "frustration"}
+  ],
+  "english_words": ["panic", "emotion", "frustration", "empathy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "All four words were borrowed into both languages from Latin or Greek, so the English counterparts keep nearly the same spelling and meaning. The similarity comes from the shared source, not from chance.",
+  "false_friend_warning": null
+}
