@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the project would have been approved.",
+  "full_sentence": "Had the committee been informed earlier, the project would have been approved.",
+  "acceptable_variants": ["the proposal would have passed.", "the budget would have been released sooner."],
+  "options": [
+    {"text": "they approve it every year.", "is_correct": false, "why_wrong": "The present habitual tense does not match the past hypothetical condition expressed by 'had been informed'."},
+    {"text": "the project was approved last week.", "is_correct": false, "why_wrong": "This states a past fact with no conditional meaning. The inverted conditional needs a result clause describing what would have happened."},
+    {"text": "the project would have been approved.", "is_correct": true, "why_wrong": null},
+    {"text": "the project will be approved now.", "is_correct": false, "why_wrong": "This mixes time references. 'Had been informed' requires an unreal past result, not a future or present one."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and a past participle",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'If + had + past participle'. The main clause must use 'would have' + past participle to express an unreal past result. Speakers whose first language marks past conditionals with a suffix often reach for a simple past or a plain conditional here, so the auxiliary structure needs practice.",
+  "translation": "Komite daha önce bilgilendirilseydi, proje onaylanmış olurdu."
+}
