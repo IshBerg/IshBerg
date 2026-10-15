@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Should you require further assistance,",
+  "correct_completion": "please contact our support team directly.",
+  "full_sentence": "Should you require further assistance, please contact our support team directly.",
+  "acceptable_variants": ["please do not hesitate to call our helpdesk.", "our team will gladly assist you by phone."],
+  "options": [
+    {"text": "the team would have answered sooner.", "is_correct": false, "why_wrong": "A 'would have' result describes an unreal past outcome, but the inverted 'Should you require' sets up a present or future condition, so the result must match that time."},
+    {"text": "the office was closed last week.", "is_correct": false, "why_wrong": "This states an unrelated past fact and does not express a result of the condition."},
+    {"text": "we had already finished the report.", "is_correct": false, "why_wrong": "A past perfect fact about a report does not provide the expected result of a 'should' condition."},
+    {"text": "please contact our support team directly.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditional with 'should' as a formal alternative to 'if'",
+  "connector": "should",
+  "explanation": "The inverted form 'Should you require' replaces 'If you should require', and the result clause takes a present-time imperative or request. Polish speakers may carry over a past-style conditional into the result clause, because Polish builds its conditionals from a particle and a past-tense verb rather than from an inverted structure.",
+  "translation": "W razie potrzeby dalszej pomocy proszę bezpośrednio skontaktować się z naszym zespołem wsparcia."
+}
