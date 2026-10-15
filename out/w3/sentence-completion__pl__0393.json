@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We stayed inside because",
+  "correct_completion": "it was raining outside.",
+  "full_sentence": "We stayed inside because it was raining outside.",
+  "acceptable_variants": ["it was very cold outside.", "we wanted to watch a film."],
+  "options": [
+    {"text": "it was sunny and warm.", "is_correct": false, "why_wrong": "Sunny weather is not a reason to stay inside, so this clause does not give a logical cause."},
+    {"text": "we were going to the park.", "is_correct": false, "why_wrong": "This describes a plan that contradicts staying inside, so it does not explain the action."},
+    {"text": "it was raining outside.", "is_correct": true, "why_wrong": null},
+    {"text": "we wanted to go shopping.", "is_correct": false, "why_wrong": "This gives a different plan, not a reason for staying inside."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the action in the first part of the sentence. Learners may choose a clause that sounds plausible but describes a plan or a contrast rather than a reason.",
+  "translation": "Zostaliśmy w domu, ponieważ na zewnątrz padało."
+}
