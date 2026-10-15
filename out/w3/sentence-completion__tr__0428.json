@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I sent the form last week,",
+  "correct_completion": "I have not received a confirmation yet.",
+  "full_sentence": "Although I sent the form last week, I have not received a confirmation yet.",
+  "acceptable_variants": ["I still have not heard back from the company.", "I have still not received any reply."],
+  "options": [
+    {"text": "so I did not need to send it again.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. 'Although' needs a clause that contrasts with the first part of the sentence."},
+    {"text": "because the office was closed.", "is_correct": false, "why_wrong": "'Because' gives a reason. 'Although' signals contrast, not cause."},
+    {"text": "I have not received a confirmation yet.", "is_correct": true, "why_wrong": null},
+    {"text": "the weather was very nice that day.", "is_correct": false, "why_wrong": "This is a true detail but unrelated to the form, so it does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Cause clauses and unrelated details do not complete the contrast.",
+  "translation": "Formu geçen hafta gönderdiğim halde, henüz bir onay almadım."
+}
