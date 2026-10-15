@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder at school,",
+  "correct_completion": "I would be in a better job today.",
+  "full_sentence": "If I had studied harder at school, I would be in a better job today.",
+  "acceptable_variants": ["I would be earning much more money now.", "I would have more options at work today."],
+  "options": [
+    {"text": "I had a better job last year.", "is_correct": false, "why_wrong": "This describes a past situation and does not give the imagined present result that the 'if' clause calls for."},
+    {"text": "so I am working in a shop now.", "is_correct": false, "why_wrong": "'So' signals a real cause and effect, but the sentence needs a hypothetical result after an unreal past condition."},
+    {"text": "I would be in a better job today.", "is_correct": true, "why_wrong": null},
+    {"text": "I studied hard every day.", "is_correct": false, "why_wrong": "This states past actions, but the main clause must describe the imagined present result of the condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals (unreal past condition with unreal present result)",
+  "connector": "if",
+  "explanation": "A mixed conditional uses a past perfect in the 'if' clause to talk about an unreal past, and would plus a base verb in the main clause to talk about the present result. The result clause refers to now, not to the past.",
+  "translation": "Si hubiera estudiado más en la escuela, ahora tendría un trabajo mejor."
+}
