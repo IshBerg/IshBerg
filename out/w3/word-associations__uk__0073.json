@@ -1,0 +1,14 @@
+{
+  "trigger_word": "weekend",
+  "all_words": [
+    {"word": "rest", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово «rest» означає відпочинок, а вихідні саме для цього і призначені."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Стіл не має прямого зв'язку з вихідними, це просто меблі."},
+    {"word": "Sunday", "is_associated": true, "association_type": "THEMATIC", "explanation": "Неділя є одним із днів вихідних, тому вона тематично пов'язана зі словом «weekend»."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець пов'язаний із навчанням і роботою, але не з вихідними."},
+    {"word": "relax", "is_associated": true, "association_type": "SEMANTIC", "explanation": "«Relax» означає відпочивати, і люди часто так роблять у вихідні."},
+    {"word": "park", "is_associated": true, "association_type": "THEMATIC", "explanation": "Парк — популярне місце для прогулянок у вихідні."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з вихідними, описують відпочинок, дні тижня та місця для дозвілля, а предмети для навчання і роботи до цієї теми не належать."
+}
