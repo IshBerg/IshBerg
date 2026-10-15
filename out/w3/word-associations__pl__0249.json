@@ -1,0 +1,14 @@
+{
+  "trigger_word": "winter",
+  "all_words": [
+    {"word": "snow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Śnieg jest typowym zjawiskiem pogodowym zimy, więc ma bezpośredni związek znaczeniowy z tym słowem."},
+    {"word": "scarf", "is_associated": true, "association_type": "THEMATIC", "explanation": "Szalik to ubranie noszone zimą, dlatego należy do tego samego tematu co zima."},
+    {"word": "pilot", "is_associated": false, "association_type": "NONE", "explanation": "Pilot to zawód związany z lataniem i nie ma żadnego związku tematycznego ani znaczeniowego z zimą."},
+    {"word": "holiday", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'winter holiday' (zimowe wakacje) jest naturalnym połączeniem słów w języku angielskim."},
+    {"word": "bench", "is_associated": false, "association_type": "NONE", "explanation": "Ławka nie jest z zimą powiązana ani znaczeniowo, ani w typowych połączeniach wyrazowych."},
+    {"word": "sunscreen", "is_associated": false, "association_type": "NONE", "explanation": "Krem do opalania kojarzy się z latem i słońcem, a nie z zimą, dlatego nie jest powiązany z tym słowem."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'winter' wiąże się ze śniegiem, zimowym ubraniem i zimowymi połączeniami wyrazowymi, natomiast pozostałe słowa należą do innych kontekstów."
+}

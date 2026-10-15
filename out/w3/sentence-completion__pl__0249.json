@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had I known about the delay,",
+  "correct_completion": "I would have taken the earlier train.",
+  "full_sentence": "Had I known about the delay, I would have taken the earlier train.",
+  "acceptable_variants": ["I would have left home earlier.", "I would have caught the earlier train."],
+  "options": [
+    {"text": "I have taken the earlier train.", "is_correct": false, "why_wrong": "The inverted conditional needs 'would have' plus a past participle in the main clause to express an unreal past result. A present perfect does not fit."},
+    {"text": "I am taking the earlier train now.", "is_correct": false, "why_wrong": "The present tense does not express the unreal past situation introduced by 'had I known'."},
+    {"text": "I would have taken the earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "so I took the earlier train.", "is_correct": false, "why_wrong": "'So' introduces a real result of a past action. The stem requires an unreal conditional result instead."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional without 'if'",
+  "connector": "had I known",
+  "explanation": "In an inverted conditional, the word 'if' is dropped and 'had' moves to the front of the clause. The main clause then uses 'would have' with a past participle to express what would have happened in an unreal past situation.",
+  "translation": "Gdybym wiedział o opóźnieniu, wziąłbym wcześniejszy pociąg."
+}
