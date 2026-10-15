@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have worked in a shop for three years, so",
+  "correct_completion": "I know how to serve customers well.",
+  "full_sentence": "I have worked in a shop for three years, so I know how to serve customers well.",
+  "acceptable_variants": ["I can easily help our customers.", "I understand what customers need."],
+  "options": [
+    {"text": "I am not interested in the job.", "is_correct": false, "why_wrong": "This negative statement does not follow as a result of three years of work experience."},
+    {"text": "I know how to serve customers well.", "is_correct": true, "why_wrong": null},
+    {"text": "I would like to ask about the salary.", "is_correct": false, "why_wrong": "This is a question about pay, which is not a result of the experience described in the first part."},
+    {"text": "the shop was closed last year.", "is_correct": false, "why_wrong": "This is a fact about the shop, not a result of the speaker's experience, so it does not complete the 'so' clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first clause. Portuguese speakers often confuse 'so' with 'because' since both link two clauses, but 'so' always introduces the result.",
+  "translation": "Trabalho em uma loja há três anos, então sei atender bem os clientes."
+}
