@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied all night,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Despite having studied all night, she still failed the exam.",
+  "acceptable_variants": ["she still did not pass the exam.", "her grade was still low."],
+  "options": [
+    {"text": "she took a short break.", "is_correct": false, "why_wrong": "This is unrelated to the contrast; it does not show the outcome that 'despite' sets up."},
+    {"text": "therefore she failed the exam.", "is_correct": false, "why_wrong": "'Therefore' introduces a logical consequence, not a contrast. 'Despite' needs an unexpected result."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she had not opened a book.", "is_correct": false, "why_wrong": "This contradicts the first clause instead of contrasting with it, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive contrast with 'despite' and 'still'",
+  "connector": "despite",
+  "explanation": "'Despite' introduces an unexpected result that goes against the expected outcome of the first clause. Here, studying all night would normally lead to success, so the second clause must show the opposite.",
+  "translation": "Попри те, що вона вчила всю ніч, вона все одно провалила іспит."
+}

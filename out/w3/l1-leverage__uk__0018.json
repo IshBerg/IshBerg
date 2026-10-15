@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, topical"},
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "ефективний", "transliteration": "efektyvnyi", "meaning": "effective"},
+    {"word": "симпатичний", "transliteration": "simpatychnyi", "meaning": "nice, pretty"}
+  ],
+  "english_words": ["effective", "pretty", "relevant", "shop"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same source, so the forms stayed close, but their meanings drifted apart over time.",
+  "false_friend_warning": "The Ukrainian word transliterated 'aktualnyi' looks like the English 'actual' but means 'relevant' or 'topical'; 'mahazyn' looks like 'magazine' but means 'shop'; and 'simpatychnyi' looks like 'sympathetic' but means 'nice' or 'pretty'."
+}
