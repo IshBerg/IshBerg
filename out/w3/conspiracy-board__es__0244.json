@@ -1,0 +1,13 @@
+{
+  "codename": "GOLD COIN",
+  "briefing": "Agent, we've intercepted financial documents that must be decoded. Connect each English term to its Spanish match to reveal the hidden trail before the mission is compromised.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "receipt", "right": "recibo", "left_style": "document", "right_style": "handwritten"},
+    {"left": "price", "right": "precio", "left_style": "photo", "right_style": "document"},
+    {"left": "cash", "right": "efectivo", "left_style": "newspaper", "right_style": "official"},
+    {"left": "discount", "right": "descuento", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "wallet", "right": "cartera", "left_style": "official", "right_style": "newspaper"}
+  ]
+}
