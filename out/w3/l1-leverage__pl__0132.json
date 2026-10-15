@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "analiza", "transliteration": "analiza", "meaning": "analysis"},
+    {"word": "teoria", "transliteration": "teoria", "meaning": "theory"},
+    {"word": "hipoteza", "transliteration": "hipoteza", "meaning": "hypothesis"},
+    {"word": "metoda", "transliteration": "metoda", "meaning": "method"}
+  ],
+  "english_words": ["theory", "method", "analysis", "hypothesis"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these academic terms from Greek or Latin, so the written forms stayed close and the meanings match exactly.",
+  "false_friend_warning": null
+}
