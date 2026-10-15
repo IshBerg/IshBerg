@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "Had the novelist revised the opening chapter,",
+  "correct_completion": "the story would have gained far more momentum.",
+  "full_sentence": "Had the novelist revised the opening chapter, the story would have gained far more momentum.",
+  "acceptable_variants": ["the narrative would have moved much faster.", "the plot would have become far more engaging."],
+  "options": [
+    {"text": "the editor would publish it next year.", "is_correct": false, "why_wrong": "The inverted conditional needs a past hypothetical result. A future publication does not match the unreal past condition introduced by 'Had'."},
+    {"text": "the story would have gained far more momentum.", "is_correct": true, "why_wrong": null},
+    {"text": "although the plot was already well known.", "is_correct": false, "why_wrong": "'Although' signals a concession, which conflicts with the hypothetical result that the inverted conditional requires."},
+    {"text": "unless the readers had complained.", "is_correct": false, "why_wrong": "'Unless' introduces another negative condition. It cannot complete the result clause that the inversion requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional inversion with 'Had' in creative writing contexts",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'If', so the main clause must describe an unreal past result with 'would have' plus a past participle. Writers use this structure to reflect on missed opportunities in a narrative."
+}
