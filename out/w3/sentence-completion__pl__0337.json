@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because her car was damaged in the accident,",
+  "correct_completion": "she had it repaired at a local garage.",
+  "full_sentence": "Because her car was damaged in the accident, she had it repaired at a local garage.",
+  "acceptable_variants": ["she took it to a local garage for repairs.", "she paid a mechanic to fix it."],
+  "options": [
+    {"text": "she repaired it herself yesterday.", "is_correct": false, "why_wrong": "This is a plausible continuation, but it describes doing the repair personally. The grammar focus is the causative 'have something done', which shows that someone else did the work."},
+    {"text": "she was repairing the car a month ago.", "is_correct": false, "why_wrong": "The past continuous describes an action in progress at a past time. It does not complete the logic of the stem, which leads to the car being fixed."},
+    {"text": "she had it repaired at a local garage.", "is_correct": true, "why_wrong": null},
+    {"text": "she has repair the car after the accident.", "is_correct": false, "why_wrong": "The sentence is ungrammatical. After 'have something done' you need the past participle 'repaired', not the base form 'repair'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have something done' after a 'because' clause",
+  "connector": "because",
+  "explanation": "After 'because', the main clause must give the result of the cause. The causative structure 'have + object + past participle' shows that the speaker arranged for another person to do the action.",
+  "translation": "Ponieważ jej samochód został uszkodzony w wypadku, oddała go do naprawy w lokalnym warsztacie."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "The Weather Today and Tomorrow",
+  "text": "Today the weather is bad. It is cold and it is raining. The sky is grey. There is a lot of wind.\n\nTomorrow it will be sunny. The sun will be hot in the afternoon. We can go to the park. Bring a hat.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the weather like today?", "options": ["Cold and rainy", "Hot and sunny", "Snowy and dark", "Windy only"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What will the weather be tomorrow?", "options": ["Rainy", "Sunny", "Cold", "Snowy"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What should people take with them tomorrow?", "options": ["An umbrella", "A hat", "A winter coat", "Skis"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why is tomorrow a good day to go to the park?", "options": ["It will be sunny and warm", "It will be snowing", "It is a school holiday", "The park is closed"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "raining", "translation": "pada deszcz", "definition": "when water falls from the sky as drops"},
+    {"word": "sunny", "translation": "słoneczny", "definition": "with bright light from the sun"},
+    {"word": "wind", "translation": "wiatr", "definition": "air that moves quickly across the land"},
+    {"word": "park", "translation": "park", "definition": "a large public place with grass and trees"}
+  ],
+  "paragraph_translations": [
+    "Dzisiaj pogoda jest zła. Jest zimno i pada deszcz. Niebo jest szare. Wieje dużo wiatru.",
+    "Jutro będzie słonecznie. Po południu słońce będzie gorące. Możemy pójść do parku. Weź kapelusz."
+  ]
+}
