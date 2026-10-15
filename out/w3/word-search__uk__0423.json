@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "R", "E", "C", "E", "D", "E", "N", "T", "V"],
+    ["H", "K", "M", "B", "Q", "W", "L", "Z", "Y", "E"],
+    ["S", "F", "N", "O", "X", "I", "G", "H", "K", "R"],
+    ["B", "T", "Q", "W", "Z", "P", "N", "Y", "C", "D"],
+    ["M", "V", "A", "K", "L", "O", "R", "X", "B", "I"],
+    ["Q", "W", "Z", "T", "J", "U", "D", "G", "E", "C"],
+    ["F", "H", "L", "P", "U", "Y", "K", "M", "N", "T"],
+    ["J", "B", "X", "C", "W", "T", "R", "Q", "D", "G"],
+    ["L", "R", "V", "Z", "K", "N", "E", "H", "S", "Y"],
+    ["A", "P", "P", "E", "A", "L", "M", "Z", "X", "Q"]
+  ],
+  "words_to_find": ["PRECEDENT", "VERDICT", "STATUTE", "APPEAL", "JUDGE"],
+  "word_positions": [
+    {"word": "PRECEDENT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VERDICT", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "STATUTE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "APPEAL", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "JUDGE", "start_row": 5, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Legal Argumentation and Case Law"
+}
