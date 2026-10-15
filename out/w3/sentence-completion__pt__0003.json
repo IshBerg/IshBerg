@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been warned about the approaching storm,",
+  "correct_completion": "the fishermen stayed safely in the harbor.",
+  "full_sentence": "Having been warned about the approaching storm, the fishermen stayed safely in the harbor.",
+  "acceptable_variants": ["the fishermen remained in port until the weather cleared.", "the fishermen decided to stay ashore that day."],
+  "options": [
+    {"text": "the fishermen set out to sea as usual.", "is_correct": false, "why_wrong": "Setting out to sea as usual ignores the warning. The perfect passive clause describes an earlier warning that should lead to a sensible reaction."},
+    {"text": "the storm had already reached the coast.", "is_correct": false, "why_wrong": "This describes the storm, not the fishermen. The main clause must continue the action of the people who were warned."},
+    {"text": "the fishermen stayed safely in the harbor.", "is_correct": true, "why_wrong": null},
+    {"text": "the weather forecast was published on Monday.", "is_correct": false, "why_wrong": "This gives unrelated background information. It does not complete the logic of having been warned."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect passive participle clauses (having been + past participle)",
+  "connector": "having been warned",
+  "explanation": "The perfect passive participle clause 'Having been warned' describes an earlier event that happened to the implied subject. The main clause must be the logical result of that warning, with the fishermen as the subject.",
+  "translation": "Tendo sido avisados sobre a tempestade que se aproximava, os pescadores permaneceram em segurança no porto."
+}
