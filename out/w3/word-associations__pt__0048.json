@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pencil",
+  "all_words": [
+    {"word": "eraser", "is_associated": true, "association_type": "THEMATIC", "explanation": "A borracha é um objeto da mesma sala de aula que o lápis e serve para apagar o que foi escrito com ele."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "A janela faz parte da sala, mas não tem relação de uso com o lápis."},
+    {"word": "sharpen", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Sharpen a pencil' é uma expressão comum em inglês que significa apontar o lápis."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "O sanduíche é um alimento e não tem relação com o uso do lápis."},
+    {"word": "pen", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A caneta é outro instrumento para escrever, por isso tem um significado relacionado ao do lápis."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "A cadeira é um móvel de sala de aula, mas não se relaciona diretamente com o lápis."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao lápis são objetos de escrita, uma ação comum com ele ou outro instrumento que serve para escrever, enquanto as demais pertencem a outros contextos da sala de aula."
+}

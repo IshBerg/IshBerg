@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although Tom is very young,",
+  "correct_completion": "he can swim very well.",
+  "full_sentence": "Although Tom is very young, he can swim very well.",
+  "acceptable_variants": ["he can still swim well.", "he can also swim fast."],
+  "options": [
+    {"text": "so he cannot swim at all.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause, and 'so' introduces a result rather than a contrasting ability."},
+    {"text": "he can swim very well.", "is_correct": true, "why_wrong": null},
+    {"text": "he is always hungry.", "is_correct": false, "why_wrong": "This describes a feeling, not an ability, so it does not complete the contrast about what Tom can do."},
+    {"text": "he is very tall.", "is_correct": false, "why_wrong": "This describes his appearance, but the sentence is about what he is able to do."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and ability with 'can'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows a contrast with the first part of the sentence, and here the clause uses 'can' to show ability. Learners often confuse 'although' with 'because', which would change the meaning to a cause.",
+  "translation": "Embora Tom seja muito jovem, ele sabe nadar muito bem."
+}
