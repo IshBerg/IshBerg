@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R", "I", "V", "E", "R", "X", "O", "Q", "L"],
+    ["M", "T", "B", "W", "J", "Z", "C", "F", "A"],
+    ["I", "U", "P", "D", "G", "H", "E", "Y", "K"],
+    ["Q", "S", "R", "V", "K", "M", "A", "O", "E"],
+    ["B", "F", "L", "C", "W", "X", "N", "J", "G"],
+    ["P", "Y", "T", "A", "U", "I", "K", "Z", "D"],
+    ["Z", "Q", "H", "V", "N", "B", "W", "E", "L"],
+    ["M", "G", "T", "F", "C", "D", "Y", "U", "R"],
+    ["J", "K", "D", "E", "S", "E", "R", "T", "P"]
+  ],
+  "words_to_find": ["RIVER", "LAKE", "ISLAND", "DESERT", "OCEAN"],
+  "word_positions": [
+    {"word": "RIVER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LAKE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "ISLAND", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DESERT", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "OCEAN", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Geography Vocabulary"
+}

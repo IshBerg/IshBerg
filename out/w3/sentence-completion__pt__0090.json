@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I don't have many friends in this city, so",
+  "correct_completion": "I often feel lonely on weekends.",
+  "full_sentence": "I don't have many friends in this city, so I often feel lonely on weekends.",
+  "acceptable_variants": ["I usually spend weekends alone.", "I spend a lot of time at home."],
+  "options": [
+    {"text": "I have a lot of parties every week.", "is_correct": false, "why_wrong": "This contradicts the first clause. A person with few friends does not usually have many parties, so it cannot be the result."},
+    {"text": "I often feel lonely on weekends.", "is_correct": true, "why_wrong": null},
+    {"text": "I always have many people to talk to.", "is_correct": false, "why_wrong": "This contradicts 'I don't have many friends', so it cannot be the logical result that 'so' introduces."},
+    {"text": "I like the city very much.", "is_correct": false, "why_wrong": "This is a separate opinion. It does not follow as a result of having few friends, which is what 'so' needs."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifier 'many' in negative sentences and result clauses with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result of the first clause. The quantifier 'many' in a negative sentence means few friends, so the logical result is a feeling such as loneliness. Portuguese speakers may expect a contrast after this kind of clause, but 'so' always signals a consequence.",
+  "translation": "Eu não tenho muitos amigos nesta cidade, então eu frequentemente me sinto sozinho nos fins de semana."
+}
