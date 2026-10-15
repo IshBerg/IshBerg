@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The meeting over,",
+  "correct_completion": "everyone left the room.",
+  "full_sentence": "The meeting over, everyone left the room.",
+  "acceptable_variants": ["people headed back to their desks.", "the employees went home."],
+  "options": [
+    {"text": "because everyone was tired.", "is_correct": false, "why_wrong": "'Because' starts a dependent clause, which cannot serve as the main clause after the verbless absolute phrase, so the sentence has no independent main clause."},
+    {"text": "the walls were painted blue.", "is_correct": false, "why_wrong": "This is a grammatically valid main clause, but it does not follow logically from the meeting being over, so it does not complete the sentence sensibly."},
+    {"text": "everyone left the room.", "is_correct": true, "why_wrong": null},
+    {"text": "leaving the room everyone.", "is_correct": false, "why_wrong": "The subject 'everyone' is placed after the verb phrase, which is wrong English word order for a statement; the subject must come before the verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbless absolute clauses",
+  "connector": "none (verbless absolute clause)",
+  "explanation": "A verbless absolute clause, such as 'The meeting over', gives background information about the whole sentence without a verb of its own. After the comma the sentence still needs a main clause with a subject and a finite verb. Ukrainian speakers may expect a full verb in the first part, because Ukrainian often expresses this kind of meaning with a full clause, so they may add a verb such as 'was' to the absolute phrase. In English, the phrase should stay verbless.",
+  "translation": "Після закінчення зустрічі всі вийшли з кімнати."
+}

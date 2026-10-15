@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "O", "U", "P", "X", "T", "Q", "W"],
+    ["Z", "B", "D", "N", "F", "E", "J", "V"],
+    ["G", "H", "Y", "O", "L", "A", "R", "U"],
+    ["Q", "P", "W", "T", "D", "N", "X", "R"],
+    ["M", "C", "A", "K", "E", "S", "B", "I"],
+    ["I", "F", "G", "V", "H", "O", "D", "C"],
+    ["L", "J", "N", "U", "Y", "P", "Z", "E"],
+    ["K", "Q", "M", "B", "R", "W", "T", "F"]
+  ],
+  "words_to_find": ["SOUP", "TEA", "CAKE", "RICE", "MILK"],
+  "word_positions": [
+    {"word": "SOUP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TEA", "start_row": 0, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "CAKE", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "RICE", "start_row": 3, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "MILK", "start_row": 4, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Menus"
+}
