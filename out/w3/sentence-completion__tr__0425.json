@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the hotel is far from the city centre,",
+  "correct_completion": "guests can reach the centre in ten minutes.",
+  "full_sentence": "Although the hotel is far from the city centre, guests can reach the centre in ten minutes.",
+  "acceptable_variants": ["guests can still get there easily.", "the city is only a short trip away."],
+  "options": [
+    {"text": "the hotel has a large swimming pool.", "is_correct": false, "why_wrong": "This adds a fact about the hotel but does not contrast with the distance from the centre."},
+    {"text": "so guests must walk for an hour.", "is_correct": false, "why_wrong": "'So' shows a result, but 'although' needs a contrast. It also contradicts the brochure's positive message."},
+    {"text": "the rooms are very quiet at night.", "is_correct": false, "why_wrong": "This adds information about the rooms, but it does not give an advantage that contrasts with the distance."},
+    {"text": "guests can reach the centre in ten minutes.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. Turkish speakers may expect a conjunction that signals the result here, but 'although' requires a positive point that contrasts with the distance.",
+  "translation": "Otel şehir merkezine uzak olsa da, misafirler merkeze on dakikada ulaşabilir."
+}

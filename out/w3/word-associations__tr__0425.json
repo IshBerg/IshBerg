@@ -1,0 +1,14 @@
+{
+  "trigger_word": "summary",
+  "all_words": [
+    {"word": "paragraph", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bir özet genellikle bir veya birkaç paragraf uzunluğunda olur ve metnin ana fikrini kısaca anlatır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ, özetleme ya da yeniden ifade etme işiyle hiçbir anlam ya da kullanım bağlantısı taşımaz."},
+    {"word": "conclusion", "is_associated": true, "association_type": "THEMATIC", "explanation": "Özetler çoğu zaman bir metnin sonuç bölümüyle birlikte düşünülür, çünkü ikisi de ana noktaları toplar."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet, metin özetleme konusuyla ne anlamca ne de konu olarak ilgilidir."},
+    {"word": "brief", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Brief kelimesi kısa ve öz anlamına gelir; bu da özetin temel özelliğidir."},
+    {"word": "gist", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gist, bir metnin asıl anlamı ya da özü demektir ve özetin amacına doğrudan karşılık gelir."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bir özetle ilgili kelimeler metnin kısa, öz ve ana fikre odaklı yapısını anlatır; ilgisiz kelimeler ise konunun dışında kalan nesneler ya da kavramlardır."
+}
