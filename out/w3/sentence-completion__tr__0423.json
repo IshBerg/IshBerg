@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you send me the address,",
+  "correct_completion": "I will come to your house after school.",
+  "full_sentence": "If you send me the address, I will come to your house after school.",
+  "acceptable_variants": ["I will reply quickly.", "I can come by bus."],
+  "options": [
+    {"text": "I went to the shop yesterday.", "is_correct": false, "why_wrong": "This describes a past event, but a conditional clause needs a result that depends on the condition."},
+    {"text": "my brother likes football.", "is_correct": false, "why_wrong": "This is unrelated to the condition, so it does not complete the if-clause."},
+    {"text": "I was at home last night.", "is_correct": false, "why_wrong": "This is a past statement and does not give a future result of the condition."},
+    {"text": "I will come to your house after school.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "The 'if' clause describes a possible future condition, so the main clause needs 'will' with a future result. Turkish speakers may use a suffix-based future form here, but English needs a separate auxiliary verb.",
+  "translation": "Bana adresi gönderirsen, okuldan sonra evine geleceğim."
+}
