@@ -1,0 +1,14 @@
+{
+  "trigger_word": "mother",
+  "all_words": [
+    {"word": "father", "is_associated": true, "association_type": "SEMANTIC", "explanation": "„Father” (ojciec) to też członek rodziny, tak samo jak „mother” (mama)."},
+    {"word": "baby", "is_associated": true, "association_type": "THEMATIC", "explanation": "„Baby” (dziecko) jest związane z mamą, bo mama opiekuje się dzieckiem."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "„Car” (samochód) nie ma nic wspólnego z mamą ani z rodziną."},
+    {"word": "sister", "is_associated": true, "association_type": "SEMANTIC", "explanation": "„Sister” (siostra) to członek rodziny, więc pasuje do słowa „mother”."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "„Apple” (jabłko) to owoc i nie ma związku z mamą."},
+    {"word": "cat", "is_associated": false, "association_type": "NONE", "explanation": "„Cat” (kot) to zwierzę, a nie część rodziny ani słowo związane z mamą."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo „mother” kojarzy się z członkami rodziny (father, sister) oraz z opieką nad dzieckiem (baby)."
+}
