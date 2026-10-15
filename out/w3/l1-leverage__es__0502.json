@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "éxito", "transliteration": "exito", "meaning": "success"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold (illness)"}
+  ],
+  "english_words": ["pregnant", "bookshop", "cold", "success"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Spanish word looks very similar to an English word but has a different meaning, so the familiar form misleads learners who guess from appearance.",
+  "false_friend_warning": "The Spanish word that looks like English 'exit' means success, not a way out. The Spanish word that looks like 'embarrassed' means pregnant, and the word that looks like 'library' means bookshop. Learners should check the real meaning instead of guessing from the English form."
+}
