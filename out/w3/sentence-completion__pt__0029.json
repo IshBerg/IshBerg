@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He should have read the report carefully,",
+  "correct_completion": "but he only skimmed the first page.",
+  "full_sentence": "He should have read the report carefully, but he only skimmed the first page.",
+  "acceptable_variants": ["but he skipped most of it.", "but he did not finish it."],
+  "options": [
+    {"text": "so he knew all the details.", "is_correct": false, "why_wrong": "'Should have' criticizes a missed past action; this option describes success, which contradicts the criticism."},
+    {"text": "and he is reading it now.", "is_correct": false, "why_wrong": "This describes a present action, but 'should have' refers to a past action that did not happen."},
+    {"text": "but he only skimmed the first page.", "is_correct": true, "why_wrong": null},
+    {"text": "and he has already finished it.", "is_correct": false, "why_wrong": "This describes completion, which does not match the criticism of a missed careful reading."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Modal perfect 'should have' for past criticism, with a contrasting clause",
+  "connector": "but",
+  "explanation": "The modal perfect 'should have' criticizes a past action that was not done, so the continuation must show what actually happened in contrast.",
+  "translation": "Ele deveria ter lido o relatório com atenção, mas só passou os olhos pela primeira página."
+}
