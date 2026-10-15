@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you have time on Saturday,",
+  "correct_completion": "please come to my birthday party.",
+  "full_sentence": "If you have time on Saturday, please come to my birthday party.",
+  "acceptable_variants": ["I would love to see you there.", "you can bring a friend."],
+  "options": [
+    {"text": "I am very tired today.", "is_correct": false, "why_wrong": "This tells us about the speaker's feelings. It does not make an invitation that fits the condition about having time."},
+    {"text": "the party starts at seven.", "is_correct": false, "why_wrong": "This gives a detail about the party, but it does not invite the listener to come."},
+    {"text": "please come to my birthday party.", "is_correct": true, "why_wrong": null},
+    {"text": "my cat is black and white.", "is_correct": false, "why_wrong": "This is a fact about a cat. It has no connection to the condition or to an invitation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and an invitation in the main clause",
+  "connector": "if",
+  "explanation": "After 'if', the main clause should give a result that fits the condition. Here the result is an invitation to the party.",
+  "translation": "Se você tiver tempo no sábado, por favor venha à minha festa de aniversário."
+}

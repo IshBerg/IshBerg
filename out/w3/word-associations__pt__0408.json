@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "book", "is_associated": true, "association_type": "THEMATIC", "explanation": "O livro é um objeto que os alunos usam na escola para estudar e ler."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "O pão não tem relação com a escola; é um alimento e não um material de sala de aula."},
+    {"word": "teacher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O professor é a pessoa que trabalha na escola e ensina os alunos, então o sentido é diretamente ligado."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "O carro não tem relação com a escola, pois é um meio de transporte."},
+    {"word": "pencil", "is_associated": true, "association_type": "THEMATIC", "explanation": "O lápis é um material escolar usado para escrever e desenhar na sala de aula."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "A nuvem aparece no céu e não tem nenhuma relação com a escola."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'school' se associa com pessoas, materiais e objetos usados na sala de aula, e não com alimentos, veículos ou elementos da natureza."
+}
