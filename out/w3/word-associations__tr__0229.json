@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "THEMATIC", "explanation": "Gök gürültüsü fırtınaya eşlik eden doğal bir olaydır."},
+    {"word": "rain", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yağmur, fırtınanın en yaygın belirtilerinden biridir."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Halının fırtınayla doğrudan bir ilişkisi yoktur."},
+    {"word": "lightning", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Şimşek, fırtınadan sıkça bahsedilirken birlikte anılan tipik bir kelimedir."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano ile fırtına arasında kavramsal bir bağ yoktur."},
+    {"word": "hurricane", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kasırga, anlam olarak güçlü bir fırtına türüdür."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Fırtına kelimesi yağmur, gök gürültüsü, şimşek ve kasırga gibi hava olaylarıyla güçlü bir bağ kurar; halı ve piyano ise bu alanla ilgisizdir."
+}
