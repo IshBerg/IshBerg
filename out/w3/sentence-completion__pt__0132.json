@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more money,",
+  "correct_completion": "I would buy a bigger house.",
+  "full_sentence": "If I had more money, I would buy a bigger house.",
+  "acceptable_variants": ["I would get a new car.", "I would move to a bigger city."],
+  "options": [
+    {"text": "I will buy a bigger house.", "is_correct": false, "why_wrong": "'Will' is used for real future plans. After 'if I had', the second conditional uses 'would' for an imaginary situation."},
+    {"text": "I would bought a bigger house.", "is_correct": false, "why_wrong": "'Would' is followed by the base verb, not the past participle 'bought'."},
+    {"text": "I would buy a bigger house.", "is_correct": true, "why_wrong": null},
+    {"text": "I buy a bigger house.", "is_correct": false, "why_wrong": "A simple present tense does not fit the imaginary situation set up by 'had'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional: if + past simple, would + base verb",
+  "connector": "if",
+  "explanation": "The stem uses 'had' in the past simple to describe an imaginary situation, so the main clause needs 'would' followed by the base verb. Learners often confuse this with the first conditional, which uses 'will' for real future plans.",
+  "translation": "Se eu tivesse mais dinheiro, eu compraria uma casa maior."
+}
