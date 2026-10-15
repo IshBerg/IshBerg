@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The shop was closed, so",
+  "correct_completion": "we bought some bread at the bakery next door.",
+  "full_sentence": "The shop was closed, so we bought some bread at the bakery next door.",
+  "acceptable_variants": ["we went to the bakery instead.", "we walked to the bakery next door."],
+  "options": [
+    {"text": "the bread was very fresh and warm.", "is_correct": false, "why_wrong": "This describes the bread but does not show what the speaker did as a result of the shop being closed."},
+    {"text": "we bought some bread at the shop.", "is_correct": false, "why_wrong": "This contradicts the stem, because the shop was closed, so the speaker could not buy anything there."},
+    {"text": "we bought some bread at the bakery next door.", "is_correct": true, "why_wrong": null},
+    {"text": "the owner was very friendly.", "is_correct": false, "why_wrong": "This adds a detail about the owner, but it is not a result of the shop being closed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so' and past simple",
+  "connector": "so",
+  "explanation": "'So' introduces a result of the first clause. The completion must describe what the speaker did as a logical consequence of the shop being closed. Ukrainian speakers sometimes choose a sentence that repeats the first clause, but a result should add new information.",
+  "translation": "Магазин був зачинений, тому ми купили трохи хліба в пекарні поруч."
+}
