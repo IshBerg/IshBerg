@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although critics argue that homework adds unnecessary stress,",
+  "correct_completion": "research suggests it improves long-term learning.",
+  "full_sentence": "Although critics argue that homework adds unnecessary stress, research suggests it improves long-term learning.",
+  "acceptable_variants": ["many studies show clear benefits for learning.", "it still has clear educational value."],
+  "options": [
+    {"text": "so schools should abolish it completely.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast, so it does not answer the concessive clause started by 'although'."},
+    {"text": "research suggests it improves long-term learning.", "is_correct": true, "why_wrong": null},
+    {"text": "because stress is harmful to students.", "is_correct": false, "why_wrong": "'Because' introduces a cause and repeats the critics' point instead of contrasting with it."},
+    {"text": "homework is always useless for students.", "is_correct": false, "why_wrong": "This repeats the critics' view, so it does not provide the contrast expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the critics' claim in the first part of the sentence.",
+  "translation": "Eleştirmenler ev ödevinin gereksiz stres yarattığını savunsa da, araştırmalar onun uzun vadeli öğrenmeyi geliştirdiğini gösteriyor."
+}
