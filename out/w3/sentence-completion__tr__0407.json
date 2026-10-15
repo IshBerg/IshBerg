@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the door was locked,",
+  "correct_completion": "they could not go inside.",
+  "full_sentence": "Because the door was locked, they could not go inside.",
+  "acceptable_variants": ["they waited outside instead.", "they had to find another way in."],
+  "options": [
+    {"text": "although they had the key.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause. The stem gives a reason, so the sentence needs a result."},
+    {"text": "they could not go inside.", "is_correct": true, "why_wrong": null},
+    {"text": "but they were happy outside.", "is_correct": false, "why_wrong": "'But' introduces a contrast. The stem gives a cause, so the completion must give its result."},
+    {"text": "they will read a book together.", "is_correct": false, "why_wrong": "This is a new plan that does not follow from the locked door. It does not complete the cause and effect started by 'because'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first part gives the reason and the second part gives the result of that reason. Learners should use 'because' for cause, while 'although' and 'but' show contrast.",
+  "translation": "Kapı kilitli olduğu için içeri giremediler."
+}
