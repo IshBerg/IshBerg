@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "E", "A", "C", "H", "E", "R", "Q", "S"],
+    ["B", "I", "N", "D", "O", "F", "W", "P", "K"],
+    ["G", "M", "V", "Z", "X", "J", "L", "A", "I"],
+    ["Q", "R", "N", "U", "C", "E", "H", "K", "L"],
+    ["S", "P", "Y", "W", "K", "M", "T", "E", "L"],
+    ["V", "T", "Q", "R", "N", "A", "Z", "G", "D"],
+    ["K", "D", "U", "M", "Z", "P", "Q", "W", "E"],
+    ["Z", "X", "O", "D", "L", "V", "J", "R", "N"],
+    ["W", "C", "F", "M", "Y", "J", "O", "B", "Q"]
+  ],
+  "words_to_find": ["TEACHER", "SKILL", "STUDY", "JOB"],
+  "word_positions": [
+    {"word": "TEACHER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SKILL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "STUDY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "JOB", "start_row": 8, "start_col": 5, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Education and Careers"
+}
