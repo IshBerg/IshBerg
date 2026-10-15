@@ -1,0 +1,14 @@
+{
+  "trigger_word": "exam",
+  "all_words": [
+    {"word": "score", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A pontuação é o resultado que o estudante recebe depois de fazer uma prova, por isso está diretamente ligada a 'exam'."},
+    {"word": "revision", "is_associated": true, "association_type": "THEMATIC", "explanation": "A revisão da matéria é a atividade que os estudantes fazem antes de uma prova, pertencendo ao mesmo tema de estudo."},
+    {"word": "swimming", "is_associated": false, "association_type": "NONE", "explanation": "Nadar não tem nenhuma relação com provas ou avaliações escolares."},
+    {"word": "pass", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Na língua inglesa, diz-se 'pass an exam' para dizer que alguém foi aprovado numa prova, então as duas palavras formam uma combinação típica."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Vulcão é um fenômeno geológico e não tem ligação com exames ou avaliações."},
+    {"word": "pencil", "is_associated": true, "association_type": "THEMATIC", "explanation": "O lápis é um material comum usado para responder a uma prova escrita, pertencendo ao mesmo contexto escolar."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'exam' pertencem ao contexto escolar: resultados, preparação, aprovação e materiais de escrita. As palavras não associadas pertencem a temas completamente diferentes."
+}
