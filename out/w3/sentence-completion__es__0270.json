@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Our teacher,",
+  "correct_completion": "who speaks three languages, teaches us English.",
+  "full_sentence": "Our teacher, who speaks three languages, teaches us English.",
+  "acceptable_variants": ["who is very patient, teaches us English.", "who came from Spain, teaches us English."],
+  "options": [
+    {"text": "that speaks three languages, teaches us English.", "is_correct": false, "why_wrong": "Non-defining clauses set off by commas do not use 'that'. Use 'who' for people."},
+    {"text": "whom speaks three languages, teaches us English.", "is_correct": false, "why_wrong": "'Whom' is an object pronoun and cannot be the subject of the verb 'speaks'."},
+    {"text": "who speaks three languages, teaches us English.", "is_correct": true, "why_wrong": null},
+    {"text": "which speaks three languages, teaches us English.", "is_correct": false, "why_wrong": "'Which' refers to things, not to people such as a teacher."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who'",
+  "connector": "who",
+  "explanation": "A non-defining relative clause gives extra information about a person and is separated from the rest of the sentence by commas. For people, the relative pronoun 'who' is used in this position, while 'that' and 'which' are not used.",
+  "translation": "Nuestra profesora, que habla tres idiomas, nos enseña inglés."
+}
