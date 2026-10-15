@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poverty",
+  "all_words": [
+    {"word": "money", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Brak pieniędzy jest główną cechą ubóstwa, więc to słowo jest z nim bezpośrednio związane."},
+    {"word": "charity", "is_associated": true, "association_type": "THEMATIC", "explanation": "Organizacje charytatywne pomagają osobom żyjącym w ubóstwie, więc słowo należy do tego tematu."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma żadnego związku z ubóstwem ani z problemami społecznymi."},
+    {"word": "homeless", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bezdomność jest jedną z najtrudniejszych form ubóstwa, więc słowa są bliskie znaczeniowo."},
+    {"word": "dolphin", "is_associated": false, "association_type": "NONE", "explanation": "Delfin to zwierzę morskie i nie jest powiązany z tematem ubóstwa."},
+    {"word": "debt", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówi się o długach i ubóstwie razem, bo zadłużenie często prowadzi do biedy."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo poverty (ubóstwo) kojarzy się z brakiem pieniędzy, pomocą społeczną i problemami finansowymi, a nie z rowerami czy zwierzętami."
+}

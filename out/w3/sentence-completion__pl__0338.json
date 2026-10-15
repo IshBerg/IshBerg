@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The roof of our house was leaking badly, so",
+  "correct_completion": "we had a roofer repair it last week.",
+  "full_sentence": "The roof of our house was leaking badly, so we had a roofer repair it last week.",
+  "acceptable_variants": ["we got a roofer to repair it last week.", "we arranged for a roofer to fix it last week."],
+  "options": [
+    {"text": "we repaired it ourselves on a Sunday.", "is_correct": false, "why_wrong": "This says the family did the repair themselves. The causative 'have' structure (have + object + past participle) means someone else does the action."},
+    {"text": "we had a roofer repair it last week.", "is_correct": true, "why_wrong": null},
+    {"text": "we painted the walls in the kitchen.", "is_correct": false, "why_wrong": "This is a different home task and does not address the leaking roof."},
+    {"text": "we were worried about the leaks.", "is_correct": false, "why_wrong": "This describes a feeling, not an action that gets the roof fixed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have' + object + past participle",
+  "connector": "so",
+  "explanation": "The leaking roof is the cause, and the second clause gives the result. The causative pattern shows that the subject arranges for another person to do the work, so the object comes before the past participle. Learners often choose a simple past form that suggests they did the work themselves.",
+  "translation": "Dach naszego domu mocno przeciekał, więc w zeszłym tygodniu zleciliśmy dekarzowi jego naprawę."
+}

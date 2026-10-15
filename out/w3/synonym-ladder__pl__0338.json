@@ -1,0 +1,13 @@
+{
+  "start_word": "uncertain",
+  "end_word": "certain",
+  "ladder_steps": [
+    {"word": "uncertain", "translation": "niepewny", "intensity_level": 1},
+    {"word": "possible", "translation": "możliwy", "intensity_level": 2},
+    {"word": "probable", "translation": "prawdopodobny", "intensity_level": 3},
+    {"word": "likely", "translation": "bardzo prawdopodobny", "intensity_level": 4},
+    {"word": "certain", "translation": "pewny", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe growing confidence that something will be true, from no real confidence to complete certainty."
+}
