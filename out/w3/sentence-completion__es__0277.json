@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is essential that she",
+  "correct_completion": "submit the report by Friday.",
+  "full_sentence": "It is essential that she submit the report by Friday.",
+  "acceptable_variants": ["hand in the report by Friday.", "send the report by Friday."],
+  "options": [
+    {"text": "submits the report by Friday.", "is_correct": false, "why_wrong": "After 'it is essential that', English uses the base form of the verb, not the third-person -s form, even with a singular subject such as 'she'."},
+    {"text": "submitted the report by Friday.", "is_correct": false, "why_wrong": "The past tense does not express the required necessity; the base form of the verb is needed in this that-clause."},
+    {"text": "submit the report by Friday.", "is_correct": true, "why_wrong": null},
+    {"text": "will submit the report by Friday.", "is_correct": false, "why_wrong": "The modal 'will' is not used in this that-clause after 'essential'; the bare base form alone is correct."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Mandative subjunctive (base form) after 'it is essential that'",
+  "connector": "that",
+  "explanation": "The mandative subjunctive uses the base form of the verb in that-clauses after expressions of necessity, importance or recommendation such as 'it is essential that', regardless of the subject. Spanish speakers often reach for a finite, indicative-style form here because Spanish subjunctive endings look different from the indicative, so the bare English base form can feel unnatural at first.",
+  "translation": "Es esencial que ella entregue el informe antes del viernes."
+}
