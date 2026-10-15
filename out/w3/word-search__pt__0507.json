@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "O", "O", "T", "H", "K", "Q", "W", "Z", "G"],
+    ["D", "F", "M", "J", "V", "X", "Q", "W", "H", "L"],
+    ["S", "R", "T", "N", "U", "D", "I", "P", "F", "O"],
+    ["G", "P", "L", "W", "E", "M", "Z", "A", "N", "S"],
+    ["H", "Y", "E", "C", "B", "Q", "T", "J", "X", "S"],
+    ["S", "D", "V", "A", "L", "W", "O", "K", "G", "A"],
+    ["E", "C", "Z", "M", "K", "P", "F", "U", "B", "R"],
+    ["T", "Q", "H", "J", "D", "E", "X", "N", "W", "Y"],
+    ["O", "L", "G", "S", "I", "F", "R", "M", "D", "V"],
+    ["N", "T", "Y", "C", "A", "R", "U", "C", "C", "A"]
+  ],
+  "words_to_find": ["BOOTH", "GLOSSARY", "SPEAKER", "ACCURACY", "NOTES"],
+  "word_positions": [
+    {"word": "BOOTH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLOSSARY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SPEAKER", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ACCURACY", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "NOTES", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}
