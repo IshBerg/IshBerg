@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the article was very long,",
+  "correct_completion": "most readers finished it.",
+  "full_sentence": "Although the article was very long, most readers finished it.",
+  "acceptable_variants": ["many people still read it to the end.", "the readers enjoyed it anyway."],
+  "options": [
+    {"text": "so most readers stopped after one page.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast, not a consequence."},
+    {"text": "the writer added three more pages.", "is_correct": false, "why_wrong": "This adds information about length but does not show the contrast that 'although' requires."},
+    {"text": "most readers finished it.", "is_correct": true, "why_wrong": null},
+    {"text": "it had no headings at all.", "is_correct": false, "why_wrong": "This describes the article but does not give the contrasting outcome that 'although' expects."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show contrast with the first part of the sentence. Learners often confuse concessive clauses with cause-and-effect clauses, so check whether the sentence expects a surprising outcome or a logical result.",
+  "translation": "Embora o artigo fosse muito longo, a maioria dos leitores o terminou."
+}
