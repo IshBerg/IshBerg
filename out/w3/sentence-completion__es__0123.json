@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child,",
+  "correct_completion": "I used to play in the park every afternoon.",
+  "full_sentence": "When I was a child, I used to play in the park every afternoon.",
+  "acceptable_variants": ["I would play in the park every afternoon.", "I often played in the park after school."],
+  "options": [
+    {"text": "I played in the park yesterday.", "is_correct": false, "why_wrong": "This describes one finished event, not a repeated habit in the past."},
+    {"text": "I used to play in the park every afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "I use to play in the park every afternoon.", "is_correct": false, "why_wrong": "The standard form is 'used to' with a final -d; 'use to' is not correct in standard English."},
+    {"text": "I am playing in the park every afternoon.", "is_correct": false, "why_wrong": "This describes a present action in progress, not a past habit."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Used to for past habits and states",
+  "connector": "used to",
+  "explanation": "'Used to' describes a repeated habit or a state in the past that no longer happens. Spanish has a past tense that covers this meaning, so learners often choose the simple past in English, which describes one finished action instead of a habit.",
+  "translation": "Cuando era niño, solía jugar en el parque todas las tardes."
+}

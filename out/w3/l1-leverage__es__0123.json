@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "actual", "transliteration": "actual", "meaning": "current or present"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"}
+  ],
+  "english_words": ["folder", "sensitive", "current", "pregnant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "These Spanish words look almost identical to English words, but both languages developed them from Latin roots with different meanings, so the shared spelling does not share the meaning.",
+  "false_friend_warning": "A Spanish adjective that looks like the English word 'actual' means 'current' or 'present', not 'real'. Students often translate it literally and choose 'actual' when they need 'current'."
+}
