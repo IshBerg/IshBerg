@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "H", "E", "R", "E", "F", "O", "R", "E", "A"],
+    ["K", "P", "M", "Z", "Q", "W", "B", "N", "C", "L"],
+    ["J", "A", "L", "S", "O", "D", "X", "V", "Y", "T"],
+    ["K", "M", "Z", "B", "N", "C", "V", "F", "G", "H"],
+    ["U", "C", "J", "K", "P", "Q", "Z", "W", "X", "O"],
+    ["M", "N", "B", "D", "F", "G", "H", "J", "K", "U"],
+    ["P", "Q", "L", "R", "T", "Y", "U", "I", "O", "G"],
+    ["V", "W", "X", "E", "Z", "A", "B", "C", "D", "H"],
+    ["F", "G", "H", "J", "S", "K", "L", "M", "N", "P"],
+    ["A", "B", "C", "D", "E", "S", "G", "H", "I", "J"]
+  ],
+  "words_to_find": ["THEREFORE", "ALTHOUGH", "ALSO", "UNLESS"],
+  "word_positions": [
+    {"word": "THEREFORE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ALTHOUGH", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "ALSO", "start_row": 2, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "UNLESS", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"}
+  ],
+  "topic": "Linking Words and Connectors"
+}
