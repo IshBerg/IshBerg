@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is too much rice in the pot, so",
+  "correct_completion": "we do not need to cook more.",
+  "full_sentence": "There is too much rice in the pot, so we do not need to cook more.",
+  "acceptable_variants": ["we will not cook more.", "we can put some in the fridge."],
+  "options": [
+    {"text": "we need to buy more rice.", "is_correct": false, "why_wrong": "This contradicts the logic of 'too much'; if there is already too much rice, buying more does not follow."},
+    {"text": "there are too many rices.", "is_correct": false, "why_wrong": "'Rice' is an uncountable noun, so it cannot take a plural form or be used with 'many'."},
+    {"text": "the pot is completely empty.", "is_correct": false, "why_wrong": "This contradicts the stem, which says there is too much rice in the pot."},
+    {"text": "we do not need to cook more.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Uncountable nouns with 'much' and 'too much'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of having too much rice, so the completion must describe a logical consequence. The uncountable noun 'rice' takes the quantifier 'much', not 'many', and no plural form.",
+  "translation": "Há arroz demais na panela, então não precisamos cozinhar mais."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "campo", "transliteration": "campo", "meaning": "field"},
+    {"word": "nascente", "transliteration": "nascente", "meaning": "spring (the source of a river)"},
+    {"word": "rio", "transliteration": "rio", "meaning": "river"},
+    {"word": "ilha", "transliteration": "ilha", "meaning": "island"}
+  ],
+  "english_words": ["island", "river", "field", "spring"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Some Portuguese geography words look or sound like English words with unrelated meanings, so learners who rely on similarity alone will mismatch them.",
+  "false_friend_warning": "The Portuguese word that looks like 'camp' means field, and the Portuguese word that looks like 'nascent' means spring, the source of a river, so students must match these by meaning rather than by appearance."
+}
