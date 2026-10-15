@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "O", "N", "E", "Y", "Q", "W", "Z", "K", "P"],
+    ["A", "R", "T", "C", "H", "E", "C", "K", "L", "D"],
+    ["R", "X", "B", "J", "F", "G", "V", "S", "A", "S"],
+    ["K", "P", "U", "R", "S", "E", "N", "H", "E", "A"],
+    ["E", "Y", "Q", "M", "C", "B", "T", "O", "R", "L"],
+    ["T", "L", "W", "E", "G", "A", "P", "P", "C", "E"],
+    ["P", "R", "I", "C", "E", "N", "R", "I", "V", "M"],
+    ["L", "K", "D", "V", "X", "Q", "L", "T", "U", "Y"],
+    ["Z", "G", "H", "W", "A", "J", "N", "Q", "T", "F"],
+    ["V", "D", "S", "Q", "M", "R", "K", "Z", "W", "B"]
+  ],
+  "words_to_find": ["MONEY", "PRICE", "CHECK", "SALE", "CART"],
+  "word_positions": [
+    {"word": "MONEY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PRICE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHECK", "start_row": 1, "start_col": 3, "direction": "HORIZONTAL"},
+    {"word": "SALE", "start_row": 2, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "CART", "start_row": 4, "start_col": 4, "direction": "DIAGONAL_DOWN"}
+  ],
+  "topic": "Shopping and Money"
+}
