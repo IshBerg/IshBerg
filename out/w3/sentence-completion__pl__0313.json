@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Maria was sad yesterday, so",
+  "correct_completion": "I called her after school.",
+  "full_sentence": "Maria was sad yesterday, so I called her after school.",
+  "acceptable_variants": ["I texted her that evening.", "I visited her at home."],
+  "options": [
+    {"text": "I called them after school.", "is_correct": false, "why_wrong": "'Them' is a plural object pronoun, but Maria is one person, so the singular object pronoun 'her' is needed."},
+    {"text": "I called she after school.", "is_correct": false, "why_wrong": "'She' is a subject pronoun. After a verb, English needs an object pronoun such as 'her'."},
+    {"text": "I called her after school.", "is_correct": true, "why_wrong": null},
+    {"text": "I called hers after school.", "is_correct": false, "why_wrong": "'Hers' is a possessive pronoun meaning 'belonging to her'. It cannot be the object of the verb 'called'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Object pronouns after a verb",
+  "connector": "so",
+  "explanation": "After a verb, English uses an object pronoun to show who receives the action. Here 'her' refers to Maria. Students may confuse object pronouns with subject or possessive forms, but the object form is required directly after the verb 'called'.",
+  "translation": "Maria wczoraj była smutna, więc po szkole do niej zadzwoniłem."
+}
