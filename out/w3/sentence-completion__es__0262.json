@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He should have called me,",
+  "correct_completion": "but he forgot about it.",
+  "full_sentence": "He should have called me, but he forgot about it.",
+  "acceptable_variants": ["but he didn't have time.", "but he never did."],
+  "options": [
+    {"text": "but he is still at home now.", "is_correct": false, "why_wrong": "'Should have' refers to a missed past action. A present location does not complete the regret about the call."},
+    {"text": "and he will call tomorrow.", "is_correct": false, "why_wrong": "This talks about the future, but 'should have' expresses regret about something that did not happen in the past."},
+    {"text": "but he forgot about it.", "is_correct": true, "why_wrong": null},
+    {"text": "so he called me yesterday.", "is_correct": false, "why_wrong": "If the call already happened, there is no reason to say he should have made it, so this does not fit the regret."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Modal perfect 'should have' for past regret, with 'but' for contrast",
+  "connector": "but",
+  "explanation": "'Should have' plus a past participle expresses a past expectation that was not fulfilled. The second clause must show that the expected action did not happen, which is why a contrast with 'but' works here.",
+  "translation": "Debería haberme llamado, pero se olvidó de ello."
+}
