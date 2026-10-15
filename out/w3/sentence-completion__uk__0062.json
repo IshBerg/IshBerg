@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Right now, my sister",
+  "correct_completion": "is reading a book in her room.",
+  "full_sentence": "Right now, my sister is reading a book in her room.",
+  "acceptable_variants": ["is doing her homework in her room.", "is listening to music in the kitchen."],
+  "options": [
+    {"text": "reads a book in her room every day.", "is_correct": false, "why_wrong": "'Right now' describes an action in progress, so the present continuous is needed. The simple present is used for habits such as 'every day'."},
+    {"text": "is reading a book in her room.", "is_correct": true, "why_wrong": null},
+    {"text": "read a book in her room yesterday.", "is_correct": false, "why_wrong": "'Yesterday' points to the past, but the stem says 'right now', so the present form is needed."},
+    {"text": "will read a book in her room tomorrow.", "is_correct": false, "why_wrong": "'Tomorrow' points to the future, and 'will' does not describe an action happening at this moment."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present continuous (am/is/are + verb-ing) for actions happening now",
+  "connector": "right now",
+  "explanation": "The time expression 'Right now' signals an action happening at this moment, so the present continuous (is + verb-ing) is required. Ukrainian speakers may choose a simple present form here because Ukrainian uses one present tense for both ongoing and habitual actions.",
+  "translation": "Зараз моя сестра читає книжку у своїй кімнаті."
+}

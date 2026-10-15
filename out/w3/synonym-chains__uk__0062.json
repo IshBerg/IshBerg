@@ -1,0 +1,23 @@
+{
+  "central_word": "hungry",
+  "chain_words": [
+    {"word": "peckish", "intensity": 1, "translation": "трохи голодний", "nuance": "slightly hungry, a mild need to eat"},
+    {"word": "hungry", "intensity": 2, "translation": "голодний", "nuance": "general feeling of wanting food"},
+    {"word": "famished", "intensity": 3, "translation": "дуже голодний", "nuance": "very hungry, a strong informal feeling"},
+    {"word": "starving", "intensity": 4, "translation": "знемагаю від голоду", "nuance": "extremely hungry, often used informally for very hungry"},
+    {"word": "ravenous", "intensity": 5, "translation": "ненаситно голодний", "nuance": "overwhelming hunger"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express the feeling of hunger, but with different intensities, from a mild need to eat to overwhelming hunger.",
+  "usage_notes": [
+    {"word1": "hungry", "word2": "starving", "difference": "'Hungry' describes a normal wish to eat; 'starving' is much stronger and is often used informally to mean very hungry."}
+  ],
+  "translations": {
+    "peckish": "трохи голодний",
+    "hungry": "голодний",
+    "famished": "дуже голодний",
+    "starving": "знемагаю від голоду",
+    "ravenous": "ненаситно голодний"
+  }
+}
