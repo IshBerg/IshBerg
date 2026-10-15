@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "R", "A", "F", "T", "X", "E", "Q", "T"],
+    ["K", "P", "W", "Z", "B", "J", "V", "G", "H"],
+    ["L", "Y", "U", "N", "O", "K", "I", "R", "E"],
+    ["A", "B", "Q", "X", "P", "W", "D", "F", "S"],
+    ["C", "U", "M", "K", "R", "Z", "E", "G", "I"],
+    ["O", "L", "T", "Y", "H", "F", "N", "B", "S"],
+    ["P", "Q", "A", "J", "K", "W", "C", "D", "M"],
+    ["T", "R", "W", "I", "A", "S", "E", "K", "O"],
+    ["H", "J", "X", "B", "M", "Q", "L", "V", "P"]
+  ],
+  "words_to_find": ["DRAFT", "THESIS", "CLAIM", "EVIDENCE"],
+  "word_positions": [
+    {"word": "DRAFT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THESIS", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CLAIM", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}
