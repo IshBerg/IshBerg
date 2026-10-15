@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rainbow",
+  "all_words": [
+    {"word": "red", "is_associated": true, "association_type": "THEMATIC", "explanation": "El rojo es uno de los colores del arcoíris, por eso está tematicamente relacionado con la palabra."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "El lápiz no forma parte del arcoíris ni de sus colores, así que no está asociado."},
+    {"word": "blue", "is_associated": true, "association_type": "THEMATIC", "explanation": "El azul es uno de los colores que aparecen en el arcoíris."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "La mesa es un mueble y no tiene relación con el arcoíris."},
+    {"word": "green", "is_associated": true, "association_type": "THEMATIC", "explanation": "El verde es otro de los colores del arcoíris."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "La silla es un mueble y no está relacionada con el arcoíris."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con rainbow son los colores que forman el arcoíris; los demás términos son objetos que no tienen relación con él."
+}

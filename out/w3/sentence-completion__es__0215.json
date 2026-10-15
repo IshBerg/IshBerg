@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee known about the risks,",
+  "correct_completion": "it would have rejected the proposal immediately.",
+  "full_sentence": "Had the committee known about the risks, it would have rejected the proposal immediately.",
+  "acceptable_variants": ["it would have turned down the proposal at once.", "it would have dismissed the proposal outright."],
+  "options": [
+    {"text": "it rejects the proposal immediately.", "is_correct": false, "why_wrong": "The stem is a past counterfactual, so a present-tense verb does not match the unreal past condition."},
+    {"text": "it would reject the proposal immediately.", "is_correct": false, "why_wrong": "'Would' plus a base verb refers to a present or future result, not to what would have happened in the past."},
+    {"text": "the proposal would have been rejected if they knew.", "is_correct": false, "why_wrong": "The inverted form already replaces 'if', so adding a second conditional clause with 'if' makes the sentence redundant."},
+    {"text": "it would have rejected the proposal immediately.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' replacing 'if'",
+  "connector": "had",
+  "explanation": "In an inverted conditional, the auxiliary 'had' moves to the front of the clause in place of 'if'. The main clause still uses 'would have' plus the past participle to express an unreal past result. Learners often keep 'if' or use a present-tense verb in the main clause.",
+  "translation": "Si el comité hubiera conocido los riesgos, habría rechazado la propuesta de inmediato."
+}
