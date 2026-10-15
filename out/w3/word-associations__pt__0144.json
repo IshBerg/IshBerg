@@ -1,0 +1,14 @@
+{
+  "trigger_word": "friend",
+  "all_words": [
+    {"word": "best", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Best friend' é uma combinação muito comum em inglês, em que 'best' vem antes de 'friend'."},
+    {"word": "smile", "is_associated": true, "association_type": "THEMATIC", "explanation": "Amigos costumam sorrir juntos, por isso 'smile' está ligado ao tema da amizade."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "'Hammer' é um martelo, uma ferramenta, e não tem relação com amizade."},
+    {"word": "trust", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Confiança é uma característica importante de uma boa amizade."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "'Desk' é uma mesa de escritório ou de estudo, sem relação com amigos."},
+    {"word": "help", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Amigos se ajudam, então 'help' está diretamente ligado à amizade."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'friend' são as que se relacionam com amizade, seja pelo significado, pela combinação de palavras ou pelo tema."
+}

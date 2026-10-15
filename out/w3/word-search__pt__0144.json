@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["A", "P", "P", "L", "E", "X", "G"],
+    ["B", "K", "L", "M", "N", "W", "R"],
+    ["Q", "J", "P", "D", "S", "H", "A"],
+    ["Y", "F", "E", "G", "I", "K", "P"],
+    ["V", "C", "A", "H", "T", "Y", "E"],
+    ["L", "Z", "R", "N", "O", "J", "Q"],
+    ["C", "A", "R", "R", "O", "T", "Z"]
+  ],
+  "words_to_find": ["APPLE", "GRAPE", "PEAR", "CARROT"],
+  "word_positions": [
+    {"word": "APPLE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GRAPE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PEAR", "start_row": 2, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "CARROT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Fruit and Vegetables"
+}
