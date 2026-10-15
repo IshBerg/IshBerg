@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "otomatik", "transliteration": "otomatik", "meaning": "automatic"},
+    {"word": "telefon", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "radyo", "transliteration": "radyo", "meaning": "radio"},
+    {"word": "televizyon", "transliteration": "televizyon", "meaning": "television"}
+  ],
+  "english_words": ["radio", "automatic", "television", "telephone"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from the same source, so the forms stayed close.",
+  "false_friend_warning": null
+}

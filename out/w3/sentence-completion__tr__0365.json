@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she had studied all night,",
+  "correct_completion": "she still felt unprepared for the exam.",
+  "full_sentence": "Although she had studied all night, she still felt unprepared for the exam.",
+  "acceptable_variants": ["she still did not feel ready for the exam.", "she was still worried about the test."],
+  "options": [
+    {"text": "she went to bed early.", "is_correct": false, "why_wrong": "This is a separate action and does not show contrast with the studying mentioned in the first part of the sentence."},
+    {"text": "so she passed the exam easily.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' needs a contrasting idea, not a consequence."},
+    {"text": "she still felt unprepared for the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "because she had studied all night.", "is_correct": false, "why_wrong": "'Because' repeats the cause already given, so it does not provide the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners whose first language has different concessive structures often choose a cause clause here by mistake, so it helps to check whether the second clause goes against the expectation set by the first.",
+  "translation": "Bütün gece ders çalışmış olmasına rağmen, sınav için hâlâ kendini hazır hissetmiyordu."
+}
