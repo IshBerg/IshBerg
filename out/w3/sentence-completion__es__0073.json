@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I stayed at home because",
+  "correct_completion": "I wanted to finish my book.",
+  "full_sentence": "Yesterday I stayed at home because I wanted to finish my book.",
+  "acceptable_variants": ["I needed to rest after work.", "I wanted to clean my room."],
+  "options": [
+    {"text": "I will finish my book tomorrow.", "is_correct": false, "why_wrong": "The future tense 'will' does not match the past simple 'stayed' in the stem, and it does not explain a past reason."},
+    {"text": "I wanted to finish my book.", "is_correct": true, "why_wrong": null},
+    {"text": "I have finished my book for ever.", "is_correct": false, "why_wrong": "The present perfect does not fit the past event in the stem, and 'for ever' does not give a reason for staying home."},
+    {"text": "I finish my book every day.", "is_correct": false, "why_wrong": "The present simple describes a habit, which does not match the single past event 'stayed' and gives no reason for it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple with 'because' to give a reason",
+  "connector": "because",
+  "explanation": "After 'because', the clause must give a reason for the past event, so the verb should be in the past simple to match 'stayed'. Spanish speakers may mix past and present forms because Spanish uses different past tenses.",
+  "translation": "Ayer me quedé en casa porque quería terminar mi libro."
+}
