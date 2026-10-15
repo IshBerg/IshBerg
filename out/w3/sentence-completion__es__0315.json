@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He wanted to buy the shoes, but",
+  "correct_completion": "they were too expensive.",
+  "full_sentence": "He wanted to buy the shoes, but they were too expensive.",
+  "acceptable_variants": ["he did not have enough money.", "he decided not to buy them."],
+  "options": [
+    {"text": "so he bought them.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. After 'but' the sentence needs a clause that goes against the wish."},
+    {"text": "he was happy to buy them.", "is_correct": false, "why_wrong": "This continues the wish instead of giving a contrasting reason, so the connector 'but' has no effect."},
+    {"text": "they were too expensive.", "is_correct": true, "why_wrong": null},
+    {"text": "they were red and blue.", "is_correct": false, "why_wrong": "This describes the shoes but does not complete the contrast that 'but' introduces."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that shows a contrast with the first part of the sentence, such as a problem that stops the wish from happening.",
+  "translation": "Quería comprar los zapatos, pero eran demasiado caros."
+}
