@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "makarna", "transliteration": "makarna", "meaning": "pasta (macaroni)"},
+    {"word": "limon", "transliteration": "limon", "meaning": "lemon"},
+    {"word": "pilav", "transliteration": "pilav", "meaning": "rice dish (pilaf)"},
+    {"word": "salata", "transliteration": "salata", "meaning": "salad"}
+  ],
+  "english_words": ["lemon", "salad", "macaroni", "pilaf"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Turkish words and their English matches were borrowed from the same older source languages, which is why their forms stayed close. Macaroni comes from Italian, lemon from Arabic and Persian, pilaf from Persian, and salad from Latin through French or Provençal.",
+  "false_friend_warning": null
+}
