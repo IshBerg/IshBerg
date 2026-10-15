@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pencil",
+  "all_words": [
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "El papel es lo que usamos con el lápiz para escribir o dibujar en clase."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "El coche no tiene relación con el lápiz; es un vehículo para viajar."},
+    {"word": "eraser", "is_associated": true, "association_type": "THEMATIC", "explanation": "La goma de borrar se usa junto con el lápiz para corregir lo que escribimos."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "La nube está en el cielo y no tiene ninguna relación con el lápiz."},
+    {"word": "write", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Decimos 'write with a pencil' (escribir con lápiz), así que es una combinación muy común."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El zapato no tiene relación con el lápiz ni con las actividades de la clase."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'pencil' se asocia con materiales de escritura y con la acción de escribir, pero no con vehículos, el cielo ni la ropa."
+}

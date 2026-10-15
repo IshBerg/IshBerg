@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Would you like tea or",
+  "correct_completion": "coffee?",
+  "full_sentence": "Would you like tea or coffee?",
+  "acceptable_variants": ["juice?", "water?"],
+  "options": [
+    {"text": "yes, please.", "is_correct": false, "why_wrong": "'Yes, please' answers a yes/no question, but 'or' needs a second option to choose from."},
+    {"text": "the bill, please.", "is_correct": false, "why_wrong": "This is a request for payment and does not offer a second drink option after 'or'."},
+    {"text": "coffee?", "is_correct": true, "why_wrong": null},
+    {"text": "I like it.", "is_correct": false, "why_wrong": "This comments on the situation but does not complete the choice that 'or' introduces."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Offering a choice with 'or' in questions",
+  "connector": "or",
+  "explanation": "After 'or', the sentence must give a second option that matches the first one, here another drink in the same category.",
+  "translation": "¿Quieres té o café?"
+}
