@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had the team shown such determination,",
+  "correct_completion": "and they went on to win the championship.",
+  "full_sentence": "Never before had the team shown such determination, and they went on to win the championship.",
+  "acceptable_variants": ["and they eventually won the title.", "and they went on to claim the trophy."],
+  "options": [
+    {"text": "so they quit the competition.", "is_correct": false, "why_wrong": "This contradicts the stem: 'such determination' describes people who do not give up, so quitting does not follow from it."},
+    {"text": "because the weather was bad.", "is_correct": false, "why_wrong": "This gives an unrelated cause. The stem is building a comment on determination, and the completion must continue that comment."},
+    {"text": "the coach was disappointed.", "is_correct": false, "why_wrong": "This describes someone's reaction but does not continue the fronted emphasis on what the team achieved."},
+    {"text": "and they went on to win the championship.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Negative inversion after 'never before' with a main clause that carries the emphasised result",
+  "connector": "never before",
+  "explanation": "The fronted 'never before' phrase with inversion creates a dramatic emphasis, and the main clause must state the achievement that this emphasis leads to. Learners may translate the structure literally and lose the inversion, which is a typical interference pattern for Ukrainian speakers.",
+  "translation": "Ніколи раніше команда не проявляла такої рішучості, і вона згодом виграла чемпіонат."
+}
