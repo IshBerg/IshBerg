@@ -1,0 +1,14 @@
+{
+  "trigger_word": "office",
+  "all_words": [
+    {"word": "desk", "is_associated": true, "association_type": "THEMATIC", "explanation": "Masa, ofisin en tipik eşyalarından biridir ve çalışma ortamına aittir."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ, ofis ortamıyla hiçbir anlamsal veya tematik bağlantı taşımaz."},
+    {"word": "printer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Yazıcı, modern ofislerde en sık kullanılan cihazlardan biridir."},
+    {"word": "forest", "is_associated": false, "association_type": "NONE", "explanation": "Orman doğal bir ortamdır ve ofis kavramıyla ilgili değildir."},
+    {"word": "deadline", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Office deadline' ve 'meet a deadline' gibi kullanımlarla iş hayatında sıkça birlikte geçer."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Nehir, ofis çalışmasıyla ilgili bir kavram değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Ofis kelimesiyle ilgili kelimeler çalışma eşyaları, iş hayatı ve ofis rutinleriyle bağlantılıdır; doğa ile ilgili kelimeler ise bağlantısızdır."
+}
