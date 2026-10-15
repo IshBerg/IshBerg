@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The report was thorough in its methodology;",
+  "correct_completion": "several of its conclusions remained open to debate.",
+  "full_sentence": "The report was thorough in its methodology; several of its conclusions remained open to debate.",
+  "acceptable_variants": ["some of its conclusions were still disputed.", "several findings, however, remained contested."],
+  "options": [
+    {"text": "the reasons for its thoroughness were obvious.", "is_correct": false, "why_wrong": "This restates the same idea about thoroughness rather than contrasting with it, and 'nevertheless' requires a contrast."},
+    {"text": "several of its conclusions remained open to debate.", "is_correct": true, "why_wrong": null},
+    {"text": "therefore, its recommendations were adopted immediately.", "is_correct": false, "why_wrong": "'Therefore' signals a consequence, which conflicts with the contrastive meaning of 'nevertheless'."},
+    {"text": "it had been published in a journal last year.", "is_correct": false, "why_wrong": "This adds irrelevant background information without providing the contrast that 'nevertheless' expects."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive discourse markers such as 'nevertheless' and 'however'",
+  "connector": "nevertheless",
+  "explanation": "The connector 'nevertheless' introduces a clause that contrasts with the positive statement before it. Learners should look for a completion that limits or qualifies the first clause rather than repeating or extending it. Portuguese speakers may be tempted to use a consequence connector here because similar connectors in their first language can be used in that way, so the contrastive meaning should be checked carefully.",
+  "translation": "O relatório era minucioso em sua metodologia; no entanto, várias de suas conclusões continuavam abertas a debate."
+}
