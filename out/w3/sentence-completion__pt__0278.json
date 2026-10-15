@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee had failed to consider",
+  "correct_completion": "was the long-term cost to the local community.",
+  "full_sentence": "What the committee had failed to consider was the long-term cost to the local community.",
+  "acceptable_variants": ["was the long-term impact on residents.", "was the cost that would fall on the local community over time."],
+  "options": [
+    {"text": "has already been considered by everyone.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the committee failed to consider it, so the completion cannot say it was already considered."},
+    {"text": "was the long-term cost to the local community.", "is_correct": true, "why_wrong": null},
+    {"text": "the members simply voted on the proposal.", "is_correct": false, "why_wrong": "A pseudo-cleft needs 'was' followed by the focus element. This option gives a separate action and breaks the structure."},
+    {"text": "it was the cost, which affected everyone.", "is_correct": false, "why_wrong": "'It' cannot follow 'What' in a pseudo-cleft, so this option violates the grammar of the construction."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Pseudo-cleft sentences with 'what' clauses and focus",
+  "connector": "what",
+  "explanation": "A pseudo-cleft places the focus element after 'was', while the 'what' clause carries the information that was overlooked. The completion must therefore name the item that was missed, and it must follow the pattern 'was' plus a noun phrase or clause. Portuguese speakers often front the focus with a different structure, so they may produce 'it' forms that English does not accept after 'what'.",
+  "translation": "O que o comitê tinha deixado de considerar foi o custo a longo prazo para a comunidade local."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pasta", "transliteration": "pasta", "meaning": "folder, a holder for documents"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch, as a film or a show"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current, present, up to date"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop, a store that sells books"}
+  ],
+  "english_words": ["bookshop", "current", "folder", "to watch"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each of these Portuguese words looks like a familiar English word, which makes the trap easy to fall into. The Portuguese word 'pasta' looks like the English word 'pasta', 'assistir' looks like 'assist', 'atual' looks like 'actual', and 'livraria' looks like 'library', yet each one carries a meaning that differs from its English look-alike.",
+  "false_friend_warning": "Warning: the Portuguese word 'livraria' looks like the English word 'library', but it means a bookshop. A library is a different place, so do not translate 'livraria' as 'library'. Similarly, 'assistir' means to watch, not to assist."
+}
