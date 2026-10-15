@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the traffic,",
+  "correct_completion": "she would have left home earlier.",
+  "full_sentence": "Had she known about the traffic, she would have left home earlier.",
+  "acceptable_variants": ["she would have taken a different route.", "she would have called ahead to warn us."],
+  "options": [
+    {"text": "she left home earlier yesterday.", "is_correct": false, "why_wrong": "A simple past form reports a real event. The inverted 'Had she known' sets up an unreal past condition, which needs a conditional result clause."},
+    {"text": "she has left home earlier.", "is_correct": false, "why_wrong": "The present perfect describes a completed fact. It cannot express the imagined result of an unreal past condition."},
+    {"text": "she would have left home earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "she will leave home earlier.", "is_correct": false, "why_wrong": "The future tense does not match the unreal past condition set by 'Had she known'. The result must refer back to the past with 'would have'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' (unreal past condition)",
+  "connector": "had",
+  "explanation": "The inverted 'Had + subject + past participle' structure replaces 'If she had known' and creates an unreal past condition. The main clause must therefore use 'would have' plus a past participle to express the imagined result.",
+  "translation": "Якби вона знала про пробки, то вийшла б із дому раніше."
+}
