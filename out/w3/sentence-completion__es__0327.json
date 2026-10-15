@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you want to catch the bus,",
+  "correct_completion": "you must leave at eight thirty.",
+  "full_sentence": "If you want to catch the bus, you must leave at eight thirty.",
+  "acceptable_variants": ["you should check the timetable first.", "you need to arrive early."],
+  "options": [
+    {"text": "the bus is very big.", "is_correct": false, "why_wrong": "This describes the bus but does not give a result that depends on the condition started by 'If'."},
+    {"text": "the timetable is on the wall.", "is_correct": false, "why_wrong": "This is a fact about the station, not a result of the condition."},
+    {"text": "you must leave at eight thirty.", "is_correct": true, "why_wrong": null},
+    {"text": "you read the map yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is past time, but the result of a first conditional needs a present or future verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and the modal 'must'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause gives the result that depends on the condition, often with a modal such as 'must' or 'should'. Spanish speakers may mix up the time of the verbs because Spanish uses similar tense forms in these sentences, so check that the result clause is in the present or future.",
+  "translation": "Si quieres tomar el autobús, debes salir a las ocho y media."
+}

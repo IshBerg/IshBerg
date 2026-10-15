@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily hurt or affected by something"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current or present, happening now"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"}
+  ],
+  "english_words": ["current", "bookstore", "pregnant", "sensitive"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Spanish word looks like an English word that students already know, so the English form seems to be the right match. In all four pairs the shared spelling comes from a common Latin or Romance root, but the meaning drifted apart over time in one language or the other.",
+  "false_friend_warning": "The Spanish word for pregnant looks like English embarrassed, the Spanish word for bookstore looks like English library, the Spanish word for sensitive looks like English sensible, and the Spanish word for present looks like English actual. Matching by spelling alone leads to wrong meanings, so check the meaning before you use the word in an argumentative essay."
+}
