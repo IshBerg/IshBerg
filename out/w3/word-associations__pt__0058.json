@@ -1,0 +1,14 @@
+{
+  "trigger_word": "circle",
+  "all_words": [
+    {"word": "round", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Round' significa redondo, como um círculo, por isso as duas palavras têm sentido parecido."},
+    {"word": "dog", "is_associated": false, "association_type": "NONE", "explanation": "Um cachorro não tem nenhuma relação com a forma de círculo."},
+    {"word": "wheel", "is_associated": true, "association_type": "THEMATIC", "explanation": "A roda tem a forma de um círculo, então as duas palavras pertencem ao mesmo tema."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Um rio não tem nenhuma relação com a forma de círculo."},
+    {"word": "ring", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um anel tem a forma de círculo, então as duas palavras estão semanticamente ligadas."},
+    {"word": "sugar", "is_associated": false, "association_type": "NONE", "explanation": "O açúcar não tem nenhuma relação com a forma de círculo."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'circle' têm sentido parecido (round), pertencem ao mesmo tema (wheel) ou são objetos com a forma de um círculo (ring)."
+}

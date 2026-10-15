@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "O", "W", "E", "V", "E", "R", "X", "B"],
+    ["K", "P", "D", "Z", "Q", "J", "W", "Y", "E"],
+    ["U", "G", "F", "M", "T", "A", "D", "V", "C"],
+    ["R", "N", "I", "O", "K", "P", "Z", "W", "A"],
+    ["H", "Y", "L", "Q", "B", "F", "T", "J", "U"],
+    ["E", "X", "G", "E", "D", "V", "M", "K", "S"],
+    ["N", "C", "W", "R", "S", "Y", "P", "Q", "E"],
+    ["C", "F", "B", "G", "K", "S", "D", "Z", "L"],
+    ["E", "J", "T", "H", "U", "S", "Q", "W", "R"]
+  ],
+  "words_to_find": ["HOWEVER", "BECAUSE", "UNLESS", "HENCE", "THUS"],
+  "word_positions": [
+    {"word": "HOWEVER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BECAUSE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "UNLESS", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "HENCE", "start_row": 4, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "THUS", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Linking Words and Connectors"
+}
