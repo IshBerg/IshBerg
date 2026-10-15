@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["O", "F", "F", "E", "R", "Q", "W", "Z", "X", "P"],
+    ["K", "U", "B", "D", "N", "J", "V", "G", "H", "R"],
+    ["L", "Q", "D", "T", "S", "Y", "B", "N", "K", "I"],
+    ["G", "X", "W", "M", "Z", "U", "H", "F", "T", "C"],
+    ["M", "J", "R", "N", "Q", "D", "L", "B", "W", "E"],
+    ["A", "K", "V", "S", "H", "Z", "T", "P", "Y", "G"],
+    ["P", "D", "F", "L", "Y", "E", "R", "M", "K", "J"],
+    ["N", "C", "H", "B", "V", "K", "S", "L", "W", "Q"],
+    ["T", "Z", "G", "X", "J", "N", "D", "P", "B", "A"],
+    ["Y", "S", "E", "Q", "W", "L", "K", "R", "F", "D"]
+  ],
+  "words_to_find": ["OFFER", "PRICE", "FLYER", "MAP"],
+  "word_positions": [
+    {"word": "OFFER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PRICE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "FLYER", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "MAP", "start_row": 4, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Brochures"
+}
