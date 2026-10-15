@@ -1,0 +1,13 @@
+{
+  "start_word": "bad",
+  "end_word": "excellent",
+  "ladder_steps": [
+    {"word": "bad", "translation": "zły", "intensity_level": 1},
+    {"word": "poor", "translation": "słaby", "intensity_level": 2},
+    {"word": "fair", "translation": "poprawny", "intensity_level": 3},
+    {"word": "good", "translation": "dobry", "intensity_level": 4},
+    {"word": "excellent", "translation": "doskonały", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Quality words form a ladder from the weakest to the strongest evaluation, each step slightly better than the last."
+}
