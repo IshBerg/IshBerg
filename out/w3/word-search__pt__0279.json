@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "O", "N", "E", "Y", "X", "Q", "R", "Z", "S"],
+    ["K", "B", "T", "L", "P", "W", "J", "D", "G", "A"],
+    ["Q", "R", "F", "X", "M", "T", "H", "C", "B", "V"],
+    ["L", "P", "D", "G", "K", "Z", "U", "W", "Y", "E"],
+    ["C", "H", "N", "R", "Q", "T", "J", "K", "W", "F"],
+    ["G", "O", "B", "V", "E", "X", "M", "Q", "D", "L"],
+    ["P", "Y", "I", "L", "H", "R", "N", "G", "Z", "S"],
+    ["K", "T", "L", "N", "A", "B", "D", "Q", "F", "W"],
+    ["U", "A", "X", "C", "M", "P", "I", "R", "E", "H"],
+    ["W", "J", "K", "F", "D", "N", "E", "P", "S", "Y"]
+  ],
+  "words_to_find": ["MONEY", "SAVE", "COIN", "SPEND", "WALLET"],
+  "word_positions": [
+    {"word": "MONEY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SAVE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "COIN", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SPEND", "start_row": 9, "start_col": 8, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "WALLET", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Pocket Money"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hello! My name is Ana. I",
+  "correct_completion": "am from Brazil.",
+  "full_sentence": "Hello! My name is Ana. I am from Brazil.",
+  "acceptable_variants": ["come from Brazil.", "live in Brazil."],
+  "options": [
+    {"text": "is from Brazil.", "is_correct": false, "why_wrong": "'Is' is used with he, she and it. It does not go with the subject 'I'."},
+    {"text": "are from Brazil.", "is_correct": false, "why_wrong": "'Are' is used with you, we and they. It does not go with the subject 'I'."},
+    {"text": "am from Brazil.", "is_correct": true, "why_wrong": null},
+    {"text": "be from Brazil.", "is_correct": false, "why_wrong": "'Be' is the base form of the verb. It cannot follow the subject 'I' directly in a statement."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verb to be: the first person singular form 'am'",
+  "connector": null,
+  "explanation": "The verb to be changes with the subject. The subject 'I' always takes 'am' in the present simple. Portuguese speakers may expect one form for every subject because Portuguese verb endings already show the person, so the English form must be learned for each subject.",
+  "translation": "Olá! Meu nome é Ana. Eu sou do Brasil."
+}

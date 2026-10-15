@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "archive", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um arquivo, assim como uma biblioteca, guarda documentos e registros para consulta futura."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Um vulcão é uma formação geológica e não tem nenhuma relação com bibliotecas."},
+    {"word": "librarian", "is_associated": true, "association_type": "THEMATIC", "explanation": "O bibliotecário é a pessoa que trabalha em uma biblioteca, ajudando os leitores a encontrar livros."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Um sanduíche é um alimento e não está ligado ao ambiente ou às atividades de uma biblioteca."},
+    {"word": "bookshelf", "is_associated": true, "association_type": "THEMATIC", "explanation": "A estante de livros é um móvel típico de bibliotecas, onde os livros são organizados."},
+    {"word": "hurricane", "is_associated": false, "association_type": "NONE", "explanation": "Um furacão é um fenômeno meteorológico e não possui qualquer ligação com bibliotecas."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'library' se referem ao acervo, às pessoas e ao mobiliário de uma biblioteca. As palavras não associadas pertencem a campos totalmente diferentes, como geografia, alimentação e clima."
+}

@@ -1,0 +1,13 @@
+{
+  "start_word": "cheap",
+  "end_word": "expensive",
+  "ladder_steps": [
+    {"word": "cheap", "translation": "barato", "intensity_level": 1},
+    {"word": "inexpensive", "translation": "econômico", "intensity_level": 2},
+    {"word": "moderate", "translation": "moderado", "intensity_level": 3},
+    {"word": "pricey", "translation": "custoso", "intensity_level": 4},
+    {"word": "expensive", "translation": "caro", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These adjectives form a price scale from the lowest cost to the highest, with each step describing a higher price than the one before."
+}
