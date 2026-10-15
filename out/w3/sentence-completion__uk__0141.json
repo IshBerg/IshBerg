@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While Mark was cooking dinner,",
+  "correct_completion": "the power went out.",
+  "full_sentence": "While Mark was cooking dinner, the power went out.",
+  "acceptable_variants": ["the lights went off.", "the electricity stopped."],
+  "options": [
+    {"text": "the power goes out.", "is_correct": false, "why_wrong": "The present simple does not fit a past narrative, so it breaks the past tense sequence of the sentence."},
+    {"text": "the power went out.", "is_correct": true, "why_wrong": null},
+    {"text": "the power was going out.", "is_correct": false, "why_wrong": "Both actions are in progress here, so the sentence describes two actions at the same time instead of a sudden interruption."},
+    {"text": "he was going to cook.", "is_correct": false, "why_wrong": "'Was going to' expresses a plan, and a plan does not interrupt the cooking in the way the sentence requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous interrupted by past simple with 'while'",
+  "connector": "while",
+  "explanation": "The past continuous describes the longer action in progress, and the past simple describes the shorter action that interrupts it.",
+  "translation": "Поки Марко готував вечерю, світло вимкнулося."
+}

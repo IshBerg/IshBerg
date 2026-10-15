@@ -1,0 +1,20 @@
+{
+  "title": "Hungry Ben",
+  "text": "Mom: Hello, Ben! Ben: Hi, Mom. Mom: Are you hungry? Ben: Yes, I am.\n\nMom: Here is an apple. Ben: Thank you! Mom: You are welcome. Ben: Good!",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Mom ask Ben?", "options": ["Are you hungry?", "Where is your bag?", "Do you have a dog?", "What time is it?"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Mom give Ben in the second paragraph?", "options": ["An apple", "A book", "A ball", "A cake"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Ben probably feel about the apple?", "options": ["He is happy", "He is sad", "He is angry", "He is sleepy"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Who is probably talking in this passage?", "options": ["A mother and her son", "Two teachers", "Two doctors", "A bus driver and a shop worker"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "Hello", "translation": "Привіт", "definition": "a word you say when you meet someone"},
+    {"word": "hungry", "translation": "голодний", "definition": "wanting to eat food"},
+    {"word": "apple", "translation": "яблуко", "definition": "a round fruit that is red, green or yellow"},
+    {"word": "welcome", "translation": "будь ласка", "definition": "a polite answer when someone says thank you"}
+  ],
+  "paragraph_translations": [
+    "Мама: Привіт, Бен! Бен: Привіт, мамо. Мама: Ти голодний? Бен: Так, я голодний.",
+    "Мама: Ось яблуко. Бен: Дякую! Мама: Будь ласка. Бен: Добре!"
+  ]
+}
