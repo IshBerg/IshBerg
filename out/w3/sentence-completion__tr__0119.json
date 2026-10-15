@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you study hard,",
+  "correct_completion": "you will pass the exam.",
+  "full_sentence": "If you study hard, you will pass the exam.",
+  "acceptable_variants": ["you will get a good grade.", "you will feel proud of yourself."],
+  "options": [
+    {"text": "you passed the exam last week.", "is_correct": false, "why_wrong": "The past simple refers to a finished time, which does not fit a future result after a first conditional 'if' clause."},
+    {"text": "you will pass the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "you would pass the exam.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional for unlikely situations; a real future possibility with present simple in the 'if' clause takes 'will'."},
+    {"text": "you pass the exam every year.", "is_correct": false, "why_wrong": "The present simple here describes a habit, not a future result, so it does not complete the conditional meaning."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "In the first conditional, the 'if' clause uses the present simple for a real future possibility, and the main clause uses 'will' for the result. Turkish speakers may be tempted to put a future or past form inside the 'if' clause, because Turkish marks tense and conditions differently, but English keeps the if clause in the present simple.",
+  "translation": "Sıkı çalışırsan sınavı geçersin."
+}
