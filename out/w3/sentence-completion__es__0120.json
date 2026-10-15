@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bridge was closed for repairs,",
+  "correct_completion": "so the buses took a longer route.",
+  "full_sentence": "The bridge was closed for repairs, so the buses took a longer route.",
+  "acceptable_variants": ["so the buses had to use a detour.", "so traffic moved slowly on the main road."],
+  "options": [
+    {"text": "although the traffic was light.", "is_correct": false, "why_wrong": "'Although' signals contrast, but a closed bridge naturally causes a result, not a contrast."},
+    {"text": "even though the drivers were patient.", "is_correct": false, "why_wrong": "'Even though' also signals contrast, which does not fit a closure that leads to a consequence."},
+    {"text": "so the buses took a longer route.", "is_correct": true, "why_wrong": null},
+    {"text": "unless the drivers knew another road.", "is_correct": false, "why_wrong": "'Unless' introduces a condition for an exception, not the result of the closure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After a cause given in the first clause, 'so' introduces the result. Spanish speakers often confuse 'so' with 'although' because the two can be translated with similar connectors, so it helps to check whether the second part shows a result or a contrast.",
+  "translation": "El puente estaba cerrado por reparaciones, así que los autobuses tomaron una ruta más larga."
+}
