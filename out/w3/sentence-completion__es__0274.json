@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the report, she sent it to her manager.",
+  "acceptable_variants": ["she handed it in before lunch.", "she printed copies for the team."],
+  "options": [
+    {"text": "the report was sent to her manager.", "is_correct": false, "why_wrong": "This makes the report the grammatical subject, which conflicts with the participle clause that refers to 'she'."},
+    {"text": "she was sent a new report.", "is_correct": false, "why_wrong": "This changes the action to receiving a report, so 'Having finished' no longer leads to a logical result."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "she had finished it yesterday.", "is_correct": false, "why_wrong": "This repeats the completed action of the participle clause instead of giving the main action that follows it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect participle clauses ('Having + past participle') with a shared subject",
+  "connector": "having finished",
+  "explanation": "A perfect participle clause describes an action completed before the main action, and its implied subject must match the subject of the main clause.",
+  "translation": "Habiendo terminado el informe, ella lo envió a su jefe."
+}
