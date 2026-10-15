@@ -1,0 +1,14 @@
+{
+  "trigger_word": "justice",
+  "all_words": [
+    {"word": "fairness", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La imparcialidad es un valor central de la justicia, por lo que está directamente relacionada con ella."},
+    {"word": "verdict", "is_associated": true, "association_type": "THEMATIC", "explanation": "El veredicto es la decisión final que dicta un tribunal al concluir un juicio, un tema propio de la justicia."},
+    {"word": "tiger", "is_associated": false, "association_type": "NONE", "explanation": "El tigre es un animal salvaje y no tiene ninguna relación con los tribunales ni con las leyes."},
+    {"word": "scales", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Las balanzas son el símbolo tradicional de la justicia y forman parte de la expresión balanza de la justicia."},
+    {"word": "pasta", "is_associated": false, "association_type": "NONE", "explanation": "La pasta es un alimento y no guarda ninguna relación con el derecho ni con la justicia."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "El jardín es un lugar con plantas y no tiene vínculo alguno con el sistema judicial."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con la justicia incluyen conceptos jurídicos y sus símbolos tradicionales, mientras que las demás no tienen conexión con el tema."
+}
