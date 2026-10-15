@@ -1,0 +1,14 @@
+{
+  "trigger_word": "tree",
+  "all_words": [
+    {"word": "leaf", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Folha é uma parte da árvore, por isso as duas palavras estão diretamente relacionadas."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Sapato não tem nenhuma relação com árvores."},
+    {"word": "forest", "is_associated": true, "association_type": "THEMATIC", "explanation": "Floresta é um lugar com muitas árvores, então pertence ao mesmo tema."},
+    {"word": "phone", "is_associated": false, "association_type": "NONE", "explanation": "Telefone não está ligado ao tema das árvores."},
+    {"word": "branch", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Galho é a parte da árvore que cresce a partir do tronco."},
+    {"word": "ball", "is_associated": false, "association_type": "NONE", "explanation": "Bola não tem relação com árvores."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'tree' se associa às partes da árvore (leaf, branch) e a lugares com muitas árvores (forest). As outras palavras não têm relação com o tema."
+}
