@@ -1,0 +1,14 @@
+{
+  "trigger_word": "breakfast",
+  "all_words": [
+    {"word": "coffee", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kawa to typowy napój podawany na śniadanie."},
+    {"word": "bed", "is_associated": false, "association_type": "NONE", "explanation": "Łóżko kojarzy się z nocą i spaniem, a nie ze śniadaniem."},
+    {"word": "toast", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Tost często pojawia się w zestawie śniadaniowym i tworzy z nim częste połączenia."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Samochód to środek transportu i nie ma związku ze śniadaniem."},
+    {"word": "spoon", "is_associated": true, "association_type": "THEMATIC", "explanation": "Łyżka jest potrzebna do jedzenia płatków lub jogurtu na śniadanie."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku z porannym posiłkiem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'breakfast' kojarzy się z jedzeniem i przyborami używanymi podczas porannego posiłku."
+}
