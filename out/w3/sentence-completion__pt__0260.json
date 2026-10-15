@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had the city faced such a crisis,",
+  "correct_completion": "and few people could have predicted its scale.",
+  "full_sentence": "Never before had the city faced such a crisis, and few people could have predicted its scale.",
+  "acceptable_variants": ["and few people had foreseen its scale.", "and nobody could have fully predicted its impact."],
+  "options": [
+    {"text": "the mayor announced a new park.", "is_correct": false, "why_wrong": "This is unrelated to the crisis and breaks the dramatic tone that 'Never before' sets up."},
+    {"text": "and few people could have predicted its scale.", "is_correct": true, "why_wrong": null},
+    {"text": "because the city had many parks.", "is_correct": false, "why_wrong": "'Because' introduces a cause that does not fit the rhetorical pattern. The sentence needs a comment on the scale or impact of the crisis."},
+    {"text": "so the crisis was over quickly.", "is_correct": false, "why_wrong": "This contradicts the emphatic build-up. The fronted negative phrase calls for a dramatic follow-up, not a quick resolution."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Negative inversion after 'Never before' for emphasis",
+  "connector": "never before",
+  "explanation": "When a negative adverbial such as 'Never before' opens the clause, the auxiliary verb comes before the subject for emphasis. The main clause then needs an assessment that matches this dramatic tone.",
+  "translation": "Nunca antes a cidade tinha enfrentado uma crise assim, e poucas pessoas poderiam ter previsto sua dimensão."
+}
