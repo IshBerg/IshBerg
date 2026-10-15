@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because it was raining,",
+  "correct_completion": "we stayed at home.",
+  "full_sentence": "Because it was raining, we stayed at home.",
+  "acceptable_variants": ["we did not go out.", "we watched a film inside."],
+  "options": [
+    {"text": "we went to the beach.", "is_correct": false, "why_wrong": "Going to the beach does not follow from rain; the result must match the cause given by 'because'."},
+    {"text": "we went for a long walk.", "is_correct": false, "why_wrong": "A long walk is an unlikely result of rain, so it does not complete the cause and effect logic."},
+    {"text": "we stayed at home.", "is_correct": true, "why_wrong": null},
+    {"text": "the sun was shining.", "is_correct": false, "why_wrong": "This describes the weather again instead of a result; a result clause is needed after 'because'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the reason. The main clause must show the result of that reason, which is a natural consequence of rain.",
+  "translation": "Porque estava chovendo, ficamos em casa."
+}
