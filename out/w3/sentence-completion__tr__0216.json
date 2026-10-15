@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Far from being a mere formality,",
+  "correct_completion": "the audit uncovered serious irregularities in the accounts.",
+  "full_sentence": "Far from being a mere formality, the audit uncovered serious irregularities in the accounts.",
+  "acceptable_variants": ["the audit revealed major irregularities in the accounts.", "the audit brought to light significant problems in the accounts."],
+  "options": [
+    {"text": "the auditors were all given a day off.", "is_correct": false, "why_wrong": "This is unrelated to the contrast the stem sets up and does not show the audit's significance."},
+    {"text": "the audit uncovered serious irregularities in the accounts.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was printed in two colours.", "is_correct": false, "why_wrong": "This is a trivial detail and does not complete the contrast introduced by 'far from'."},
+    {"text": "the accountants had been informed in advance.", "is_correct": false, "why_wrong": "This describes preparation rather than the contrast that 'far from being' signals."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Discourse marker 'far from' expressing contrast",
+  "connector": "far from",
+  "explanation": "'Far from' is a discourse marker that signals contrast: the sentence states the opposite of the claim implied by the stem. Turkish speakers may translate it literally and reach for a negative verb, so it helps to practise the fixed phrase as a whole.",
+  "translation": "Sıradan bir formalite olmaktan çok uzak olan bu denetim, hesaplarda ciddi usulsüzlükler ortaya çıkardı."
+}
