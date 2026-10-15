@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The hotel room was small, but",
+  "correct_completion": "the staff were very friendly.",
+  "full_sentence": "The hotel room was small, but the staff were very friendly.",
+  "acceptable_variants": ["the breakfast was delicious.", "the view was beautiful."],
+  "options": [
+    {"text": "so we left the hotel at once.", "is_correct": false, "why_wrong": "'So' shows a result. The stem uses 'but' to show contrast, so a result does not fit here."},
+    {"text": "the staff were very friendly.", "is_correct": true, "why_wrong": null},
+    {"text": "the room was in the city.", "is_correct": false, "why_wrong": "This adds a fact about the location but does not give the positive contrasting point expected after 'but'."},
+    {"text": "the room was very small too.", "is_correct": false, "why_wrong": "This repeats the idea of smallness rather than contrasting with it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the negative first part of the sentence. Portuguese speakers may be tempted to use a result connector here, but English needs a contrast connector.",
+  "translation": "O quarto do hotel era pequeno, mas os funcionários foram muito simpáticos."
+}
