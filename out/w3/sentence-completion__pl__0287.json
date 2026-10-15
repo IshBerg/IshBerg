@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is very cold today, so",
+  "correct_completion": "I am wearing my warm coat.",
+  "full_sentence": "It is very cold today, so I am wearing my warm coat.",
+  "acceptable_variants": ["I am wearing my jacket.", "I am wearing a warm hat."],
+  "options": [
+    {"text": "I am swimming in the sea.", "is_correct": false, "why_wrong": "Swimming in the sea does not follow from cold weather. 'So' introduces a logical result of the situation in the first part."},
+    {"text": "The sun is very bright.", "is_correct": false, "why_wrong": "This describes a different fact about the weather, not a result of the cold."},
+    {"text": "I am wearing my warm coat.", "is_correct": true, "why_wrong": null},
+    {"text": "My shoes are blue.", "is_correct": false, "why_wrong": "This adds a fact about shoes but is not a result of the cold weather."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Using 'so' to show a result",
+  "connector": "so",
+  "explanation": "After 'so', we give the result of the situation described in the first part. Here the cold weather is the reason, so the completion must be a logical result of the cold.",
+  "translation": "Dzisiaj jest bardzo zimno, więc mam na sobie mój ciepły płaszcz."
+}
