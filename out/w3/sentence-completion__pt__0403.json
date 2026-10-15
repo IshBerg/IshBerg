@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The girl opened the old box",
+  "correct_completion": "because she wanted to see what was inside.",
+  "full_sentence": "The girl opened the old box because she wanted to see what was inside.",
+  "acceptable_variants": ["because she was curious about the object inside.", "because she wanted to know what it contained."],
+  "options": [
+    {"text": "and then she went to bed.", "is_correct": false, "why_wrong": "This describes a later action, but it does not explain why the girl opened the box."},
+    {"text": "because she wanted to see what was inside.", "is_correct": true, "why_wrong": null},
+    {"text": "so the box was empty.", "is_correct": false, "why_wrong": "This describes a possible result of opening the box, not the reason she opened it."},
+    {"text": "she was happy with her friend.", "is_correct": false, "why_wrong": "This is unrelated to the reason for opening the box, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses of reason with 'because'",
+  "connector": "because",
+  "explanation": "The connector 'because' introduces the reason for the action in the first clause, so the completion must give the girl's motive.",
+  "translation": "A menina abriu a caixa velha porque queria ver o que estava dentro."
+}
