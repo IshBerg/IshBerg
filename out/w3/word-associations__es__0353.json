@@ -1,0 +1,14 @@
+{
+  "trigger_word": "card",
+  "all_words": [
+    {"word": "picture", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las tarjetas suelen tener una imagen, por eso 'picture' está relacionado con 'card'."},
+    {"word": "cow", "is_associated": false, "association_type": "NONE", "explanation": "La vaca no tiene relación con las tarjetas, así que no está asociada."},
+    {"word": "paper", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Muchas tarjetas están hechas de papel, por eso 'paper' significa algo parecido en este contexto."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "La lluvia no tiene ninguna relación con las tarjetas."},
+    {"word": "game", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Card game' es una combinación habitual en inglés, que significa juego de cartas."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "El árbol no tiene relación con las tarjetas, así que no está asociado."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'card' se asocia con imágenes, papel y juegos; las otras tres palabras no tienen ninguna relación con ella."
+}

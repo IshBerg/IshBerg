@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am writing to complain because",
+  "correct_completion": "the package arrived two weeks late.",
+  "full_sentence": "I am writing to complain because the package arrived two weeks late.",
+  "acceptable_variants": ["the product was damaged when it arrived.", "the service was very slow."],
+  "options": [
+    {"text": "and please reply soon.", "is_correct": false, "why_wrong": "'And' adds a request, but 'because' needs a reason that explains why the writer is complaining."},
+    {"text": "so I am very happy with it.", "is_correct": false, "why_wrong": "'So' introduces a result, and being happy contradicts the purpose of a complaint letter."},
+    {"text": "the package arrived two weeks late.", "is_correct": true, "why_wrong": null},
+    {"text": "my order is in the box.", "is_correct": false, "why_wrong": "This describes the box but does not give a reason for the complaint."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because' in formal letters",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason for the complaint, so the clause after it must give a fact that explains the problem. Spanish speakers may add a result word such as 'so' after the reason, but in English 'because' already shows the cause.",
+  "translation": "Le escribo para quejarme porque el paquete llegó con dos semanas de retraso."
+}
