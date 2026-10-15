@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I got home yesterday,",
+  "correct_completion": "I found a letter on the table.",
+  "full_sentence": "When I got home yesterday, I found a letter on the table.",
+  "acceptable_variants": ["I saw a letter on the table.", "I noticed an envelope by the door."],
+  "options": [
+    {"text": "I finded a letter on the table.", "is_correct": false, "why_wrong": "'Find' is irregular, so its past simple form is 'found', not 'finded'."},
+    {"text": "I found a letter on the table.", "is_correct": true, "why_wrong": null},
+    {"text": "I have found a letter on the table.", "is_correct": false, "why_wrong": "'Yesterday' marks a finished time in the past, so the past simple 'found' is needed rather than the present perfect."},
+    {"text": "I finding a letter on the table.", "is_correct": false, "why_wrong": "'Finding' is an -ing form and cannot work as the main verb after 'I' without an auxiliary."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past simple of irregular verbs after a 'when' clause",
+  "connector": "when",
+  "explanation": "The stem refers to a finished action at a specific past time, so the main clause needs the past simple form of an irregular verb. Learners sometimes add a regular -ed ending to irregular verbs, or swap in the present perfect. Remember that irregular verbs change their form rather than following a pattern, so each one must be learned separately.",
+  "translation": "Quando cheguei em casa ontem, encontrei uma carta sobre a mesa."
+}
