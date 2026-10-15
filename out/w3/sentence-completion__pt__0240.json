@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister does not like coffee, so",
+  "correct_completion": "she drinks tea every morning.",
+  "full_sentence": "My sister does not like coffee, so she drinks tea every morning.",
+  "acceptable_variants": ["she chooses juice instead.", "she always asks for water."],
+  "options": [
+    {"text": "she likes coffee very much.", "is_correct": false, "why_wrong": "This contradicts the first part of the sentence, which says she does not like coffee."},
+    {"text": "she is very tall.", "is_correct": false, "why_wrong": "This is unrelated to her dislike of coffee, so it does not complete the cause-and-effect link that 'so' signals."},
+    {"text": "she drinks tea every morning.", "is_correct": true, "why_wrong": null},
+    {"text": "she drinks coffee every morning.", "is_correct": false, "why_wrong": "This contradicts the stem. If she does not like coffee, she would not normally drink it every morning as a result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present simple with 'like' and 'does not like', joined by 'so' to show a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. Because the stem uses the present simple negative 'does not like', the result clause should also use the present simple.",
+  "translation": "Minha irmã não gosta de café, então ela bebe chá todas as manhãs."
+}

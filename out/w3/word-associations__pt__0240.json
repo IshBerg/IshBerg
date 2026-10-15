@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "evidence", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em textos acadêmicos, 'argument' costuma vir acompanhado de 'evidence' (evidências), pois um argumento forte precisa de provas que o sustentem."},
+    {"word": "lighthouse", "is_associated": false, "association_type": "NONE", "explanation": "'Lighthouse' (farol) é um prédio costeiro que guia navios e não tem nenhuma relação com argumentos ou escrita acadêmica."},
+    {"word": "debate", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Debate' (debate) e 'argument' (argumento) têm sentidos próximos, porque ambos envolvem defender uma posição diante de outra."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "'Bread' (pão) é um alimento e não tem qualquer ligação com o sentido de 'argument' nem com o uso acadêmico da palavra."},
+    {"word": "claim", "is_associated": true, "association_type": "THEMATIC", "explanation": "Em escrita acadêmica, 'claim' (afirmação) faz parte do mesmo campo temático de 'argument', pois um argumento é construído a partir de afirmações."},
+    {"word": "sunflower", "is_associated": false, "association_type": "NONE", "explanation": "'Sunflower' (girassol) é uma planta e não está relacionada a argumentos, provas ou discussões acadêmicas."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'argument' se associa a provas (evidence), debate e afirmações (claim), que fazem parte do campo da escrita acadêmica; as demais palavras pertencem a outros campos semânticos."
+}
