@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "H", "E", "O", "R", "Y", "Q", "W", "K", "C"],
+    ["L", "O", "G", "I", "C", "B", "F", "U", "M", "O"],
+    ["E", "Z", "J", "P", "H", "D", "R", "S", "T", "N"],
+    ["W", "V", "K", "M", "G", "Q", "I", "A", "U", "C"],
+    ["F", "B", "I", "O", "T", "S", "L", "N", "R", "E"],
+    ["K", "E", "W", "D", "Y", "V", "U", "Z", "A", "P"],
+    ["Q", "R", "O", "L", "E", "X", "B", "H", "J", "T"],
+    ["G", "T", "A", "K", "F", "N", "W", "Y", "D", "M"],
+    ["H", "N", "U", "Q", "R", "B", "C", "L", "V", "X"],
+    ["A", "O", "K", "P", "W", "T", "J", "E", "F", "Z"]
+  ],
+  "words_to_find": ["THEORY", "CONCEPT", "EVIDENCE", "ANALYSIS", "LOGIC"],
+  "word_positions": [
+    {"word": "THEORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CONCEPT", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "EVIDENCE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ANALYSIS", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "LOGIC", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Academic Vocabulary: Abstract Nouns"
+}
