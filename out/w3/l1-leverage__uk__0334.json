@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant"},
+    {"word": "конкретний", "transliteration": "konkretnyi", "meaning": "specific"},
+    {"word": "пропозиція", "transliteration": "propozytsiia", "meaning": "suggestion"},
+    {"word": "коментар", "transliteration": "komentar", "meaning": "remark"}
+  ],
+  "english_words": ["suggestion", "remark", "relevant", "specific"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Ukrainian words look like English words with the same spelling pattern, but their meanings were shaped by different word histories, so the lookalike English words carry other meanings.",
+  "false_friend_warning": "The Ukrainian word 'aktualnyi' (актуальний) looks like the English word 'actual', but it means 'relevant' or 'current'. Learners who translate it as 'actual' will say something different from what they intend, because 'actual' means 'real' or 'existing'."
+}

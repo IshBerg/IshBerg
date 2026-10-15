@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother, who is ten years older than me,",
+  "correct_completion": "works as an engineer in Kyiv.",
+  "full_sentence": "My brother, who is ten years older than me, works as an engineer in Kyiv.",
+  "acceptable_variants": ["is an engineer in Kyiv.", "lives and works in Kyiv."],
+  "options": [
+    {"text": "that I admire very much.", "is_correct": false, "why_wrong": "A non-defining clause cannot use 'that'. It needs 'who' or 'which' after a comma, and the sentence still needs a main verb for the brother."},
+    {"text": "although he lives far away.", "is_correct": false, "why_wrong": "'Although' starts a contrast clause, but the sentence has no main verb yet. The completion must give the brother's main action."},
+    {"text": "works as an engineer in Kyiv.", "is_correct": true, "why_wrong": null},
+    {"text": "which is a famous museum.", "is_correct": false, "why_wrong": "'Which' refers to things, but the relative clause describes my brother. A person cannot be a museum."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "The clause between the commas adds extra information about the brother and can be removed without changing the main sentence. After it, we need the main verb and the rest of the main clause, and the answer must be a logical action for the brother. Use 'who' for people, and do not use 'that' in this type of clause.",
+  "translation": "Мій брат, який старший за мене на десять років, працює інженером у Києві."
+}
