@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The library is the place",
+  "correct_completion": "where I study every evening.",
+  "full_sentence": "The library is the place where I study every evening.",
+  "acceptable_variants": ["where I go to study every evening.", "in which I study every evening."],
+  "options": [
+    {"text": "who I study with every evening.", "is_correct": false, "why_wrong": "'Who' refers to people, but 'the place' is a location, so the relative clause needs 'where'."},
+    {"text": "we studied there yesterday.", "is_correct": false, "why_wrong": "This is a main clause, not a relative clause, and the extra 'there' repeats the place."},
+    {"text": "where I study every evening.", "is_correct": true, "why_wrong": null},
+    {"text": "who are friendly to everyone.", "is_correct": false, "why_wrong": "'Who' is used for people, and a library is not a person, so this completion is not possible."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clauses with 'where' for places",
+  "connector": "where",
+  "explanation": "Relative clauses that describe a place use 'where'. 'Who' is only for people, and 'which' would need a preposition such as 'in which' in this sentence. Learners may choose the relative word by grammatical gender instead of by whether the noun is a person or a place, because the forms do not separate people from things.",
+  "translation": "Biblioteka to miejsce, w którym uczę się każdego wieczoru."
+}
