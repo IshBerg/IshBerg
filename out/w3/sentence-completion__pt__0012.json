@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more time,",
+  "correct_completion": "I would learn a second language.",
+  "full_sentence": "If I had more time, I would learn a second language.",
+  "acceptable_variants": ["I would start a new course.", "I would take up a new hobby."],
+  "options": [
+    {"text": "I learned a second language last year.", "is_correct": false, "why_wrong": "The past simple describes a completed action, not the hypothetical situation that the conditional requires."},
+    {"text": "I will have learned it by yesterday.", "is_correct": false, "why_wrong": "This is a perfect form that does not fit the unreal conditional clause introduced by 'if'."},
+    {"text": "I would learn a second language.", "is_correct": true, "why_wrong": null},
+    {"text": "I learn languages every morning.", "is_correct": false, "why_wrong": "The present simple describes a habit, which does not complete the hypothetical condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional: past simple after 'if' for unreal present situations, with 'would' in the main clause",
+  "connector": "if",
+  "explanation": "The past form after 'if' signals a hypothetical present situation, so the main clause needs 'would' plus the base verb. Learners may keep a present-tense pattern in the main clause because conditional structures are less rigid in their own language.",
+  "translation": "Se eu tivesse mais tempo, aprenderia uma segunda língua."
+}
