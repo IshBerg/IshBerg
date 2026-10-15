@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The manager denied the mistake, although",
+  "correct_completion": "the report clearly showed it was his error.",
+  "full_sentence": "The manager denied the mistake, although the report clearly showed it was his error.",
+  "acceptable_variants": ["the emails proved otherwise.", "the evidence clearly contradicted him."],
+  "options": [
+    {"text": "he apologised to the whole team.", "is_correct": false, "why_wrong": "An apology does not provide the contrasting evidence that 'although' requires after the denial."},
+    {"text": "the report clearly showed it was his error.", "is_correct": true, "why_wrong": null},
+    {"text": "so the team had to work late.", "is_correct": false, "why_wrong": "'So' expresses result, not contrast. 'Although' needs a clause that opposes the denial."},
+    {"text": "he had been on holiday that week.", "is_correct": false, "why_wrong": "This gives a reason for the mistake, not a contrast to the denial, so it does not fit the meaning of 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the clause must contrast with the main clause. Here the denial is contrasted with evidence that shows the manager was wrong. Portuguese speakers may be tempted to choose a result clause, but 'although' signals opposition.",
+  "translation": "O gerente negou o erro, embora o relatório tenha mostrado claramente que o erro era dele."
+}
