@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she was tired,",
+  "correct_completion": "she finished the report on time.",
+  "full_sentence": "Although she was tired, she finished the report on time.",
+  "acceptable_variants": ["she still finished the report on time.", "she completed her work anyway."],
+  "options": [
+    {"text": "so she went to bed early.", "is_correct": false, "why_wrong": "'Although' shows contrast, not result. 'So' would be used to show a result, not a contrast."},
+    {"text": "she was feeling tired all day.", "is_correct": false, "why_wrong": "This repeats the idea of tiredness instead of giving the contrasting action expected after 'although'."},
+    {"text": "she finished the report on time.", "is_correct": true, "why_wrong": null},
+    {"text": "because the report was short.", "is_correct": false, "why_wrong": "'Because' gives a reason, which does not fit a sentence that begins with 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Polish speakers often confuse contrast connectors with cause connectors, so check whether the second part goes against expectation.",
+  "translation": "Chociaż była zmęczona, skończyła raport na czas."
+}
