@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the data been more complete,",
+  "correct_completion": "the researchers would probably have reached a firmer conclusion.",
+  "full_sentence": "Had the data been more complete, the researchers would probably have reached a firmer conclusion.",
+  "acceptable_variants": ["the researchers might have reached a firmer conclusion.", "a firmer conclusion could probably have been drawn."],
+  "options": [
+    {"text": "the researchers will definitely reach a firmer conclusion.", "is_correct": false, "why_wrong": "'Will' expresses certainty about the future, which contradicts the hypothetical past meaning and the hedge 'probably'."},
+    {"text": "the researchers reach a firmer conclusion now.", "is_correct": false, "why_wrong": "The present tense breaks the third conditional pattern, so the hypothetical past meaning is lost."},
+    {"text": "the researchers would probably have reached a firmer conclusion.", "is_correct": true, "why_wrong": null},
+    {"text": "the researchers had no need to conclude anything.", "is_correct": false, "why_wrong": "This contradicts the intended meaning that a firmer conclusion was possible if the data had been complete."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with the hedge 'would probably have'",
+  "connector": "had (inverted conditional)",
+  "explanation": "The inverted third conditional expresses a hypothetical past situation. The result clause uses 'would probably have' plus the past participle to hedge the outcome.",
+  "translation": "Si los datos hubieran estado más completos, los investigadores probablemente habrían llegado a una conclusión más firme."
+}
