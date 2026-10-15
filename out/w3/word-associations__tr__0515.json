@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hair",
+  "all_words": [
+    {"word": "brown", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Brown hair' ifadesinde kullanılan bir renk kelimesidir; saçı tarif etmek için sık kullanılır."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masanın saçla bir ilgisi yoktur; görünüşü tarif etmekle ilgili değildir."},
+    {"word": "brush", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fırça, saçı taramak için kullanılan bir eşyadır, bu yüzden saçla birlikte düşünülür."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Nehrin saç ile doğrudan bir ilgisi yoktur."},
+    {"word": "comb", "is_associated": true, "association_type": "THEMATIC", "explanation": "Tarak da saçı düzeltmek için kullanılan bir eşyadır ve saçla sık birlikte anılır."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "Okyanusun saçla bir bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Hair' ile ilişkili kelimeler, saçın rengini tarif eden ifadeler ve saç bakımında kullanılan eşyalardır."
+}

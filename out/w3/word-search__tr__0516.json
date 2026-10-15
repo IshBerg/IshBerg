@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["L", "E", "T", "T", "E", "R", "X"],
+    ["R", "F", "G", "H", "C", "J", "R"],
+    ["E", "K", "M", "N", "L", "Q", "E"],
+    ["F", "W", "Z", "X", "A", "B", "P"],
+    ["U", "C", "D", "K", "I", "T", "L"],
+    ["N", "P", "Q", "R", "M", "S", "Y"],
+    ["D", "V", "J", "W", "Z", "K", "T"]
+  ],
+  "words_to_find": ["LETTER", "REFUND", "CLAIM", "REPLY"],
+  "word_positions": [
+    {"word": "LETTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REFUND", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "CLAIM", "start_row": 1, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "REPLY", "start_row": 1, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Formal Correspondence and Complaints"
+}
