@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["I", "N", "T", "E", "R", "P", "R", "E", "T"],
+    ["K", "Q", "Z", "W", "B", "F", "V", "J", "X"],
+    ["L", "D", "G", "H", "O", "M", "P", "C", "Y"],
+    ["A", "I", "K", "R", "O", "U", "W", "Q", "B"],
+    ["Z", "X", "S", "M", "T", "C", "N", "H", "D"],
+    ["J", "V", "P", "T", "H", "G", "L", "E", "A"],
+    ["B", "C", "F", "K", "E", "Q", "W", "D", "M"],
+    ["R", "U", "V", "Y", "G", "N", "P", "S", "Z"],
+    ["X", "K", "Y", "N", "O", "T", "E", "S", "J"]
+  ],
+  "words_to_find": ["INTERPRET", "BOOTH", "LISTEN", "NOTES"],
+  "word_positions": [
+    {"word": "INTERPRET", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BOOTH", "start_row": 1, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "LISTEN", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "NOTES", "start_row": 8, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}
