@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "E", "N", "C", "E", "Q", "F", "K", "I"],
+    ["A", "B", "K", "T", "U", "S", "I", "Z", "N"],
+    ["H", "P", "Q", "J", "M", "X", "N", "T", "D"],
+    ["B", "O", "K", "G", "S", "C", "A", "P", "E"],
+    ["T", "U", "W", "F", "M", "J", "L", "Q", "E"],
+    ["D", "K", "S", "E", "R", "N", "L", "B", "D"],
+    ["C", "G", "A", "T", "V", "K", "Y", "X", "M"],
+    ["P", "Z", "I", "H", "U", "E", "Q", "S", "W"],
+    ["L", "N", "B", "D", "F", "J", "R", "O", "K"]
+  ],
+  "words_to_find": ["HENCE", "INDEED", "HOWEVER", "FINALLY"],
+  "word_positions": [
+    {"word": "HENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "INDEED", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "HOWEVER", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FINALLY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Linking Adverbials and Signposting"
+}
