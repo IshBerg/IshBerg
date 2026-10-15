@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Were the committee to reconsider its decision,",
+  "correct_completion": "the proposal might yet be approved.",
+  "full_sentence": "Were the committee to reconsider its decision, the proposal might yet be approved.",
+  "acceptable_variants": ["the applicants could still receive funding.", "the original plan would be revived."],
+  "options": [
+    {"text": "the committee will reconsider tomorrow.", "is_correct": false, "why_wrong": "This states a plan rather than completing the conditional clause about a possible result."},
+    {"text": "the proposal has already been rejected.", "is_correct": false, "why_wrong": "'Has already been rejected' contradicts the hypothetical 'were the committee to reconsider', which points to a possible outcome."},
+    {"text": "the applicants must submit a new form.", "is_correct": false, "why_wrong": "This introduces a new requirement but does not give the hypothetical result that the stem sets up."},
+    {"text": "the proposal would be approved only if it were revised.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditional with 'were ... to' followed by a hypothetical result",
+  "connector": "were ... to",
+  "explanation": "The inverted form replaces 'if' and calls for a hypothetical main clause with 'would' or 'might'. Ukrainian speakers may expect a plain conditional marker, so the result clause must match the hypothetical tone of the stem.",
+  "translation": "Якби комітет переглянув своє рішення, пропозицію, можливо, ще схвалили б."
+}
