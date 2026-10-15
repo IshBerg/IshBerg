@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "O", "R", "R", "O", "W", "Z", "K", "Q", "C"],
+    ["H", "M", "J", "D", "T", "F", "N", "S", "Y", "A"],
+    ["K", "W", "B", "P", "C", "L", "X", "D", "M", "U"],
+    ["D", "G", "Y", "Q", "H", "Z", "W", "K", "F", "T"],
+    ["E", "E", "R", "V", "B", "J", "N", "Q", "C", "I"],
+    ["S", "T", "L", "W", "G", "K", "P", "Y", "Z", "O"],
+    ["I", "F", "M", "I", "A", "R", "G", "U", "E", "N"],
+    ["A", "Q", "H", "Z", "V", "D", "K", "B", "W", "T"],
+    ["R", "N", "C", "X", "O", "E", "Y", "L", "H", "J"],
+    ["P", "U", "K", "S", "F", "W", "R", "M", "Q", "D"]
+  ],
+  "words_to_find": ["BORROW", "CAUTION", "DELIVER", "PRAISE", "ARGUE"],
+  "word_positions": [
+    {"word": "BORROW", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CAUTION", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "DELIVER", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PRAISE", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"},
+    {"word": "ARGUE", "start_row": 6, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}

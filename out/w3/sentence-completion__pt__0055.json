@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Every morning, my sister",
+  "correct_completion": "wakes up at six o'clock.",
+  "full_sentence": "Every morning, my sister wakes up at six o'clock.",
+  "acceptable_variants": ["gets up at six o'clock.", "has breakfast at seven o'clock."],
+  "options": [
+    {"text": "wake up at six o'clock.", "is_correct": false, "why_wrong": "With a third person singular subject like 'my sister', the verb needs an -s ending in the present simple."},
+    {"text": "wakes up at six o'clock.", "is_correct": true, "why_wrong": null},
+    {"text": "waking up at six o'clock.", "is_correct": false, "why_wrong": "The -ing form cannot be the main verb of a present simple sentence without an auxiliary verb such as 'is'."},
+    {"text": "to wake up at six o'clock.", "is_correct": false, "why_wrong": "The sentence needs a finite verb here; the infinitive 'to wake' cannot act as the main verb."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present Simple: third person singular (-s)",
+  "connector": "every morning",
+  "explanation": "Third person singular subjects take an -s ending in the present simple. Portuguese speakers often transfer the verb-agreement habit of their own language and forget that English marks only the third person singular with -s.",
+  "translation": "Todas as manhãs, minha irmã acorda às seis horas."
+}
