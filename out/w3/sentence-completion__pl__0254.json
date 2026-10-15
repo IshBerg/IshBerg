@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "My brother likes football, but",
+  "correct_completion": "he doesn't like tennis.",
+  "full_sentence": "My brother likes football, but he doesn't like tennis.",
+  "acceptable_variants": ["he doesn't enjoy tennis.", "he dislikes tennis."],
+  "options": [
+    {"text": "he likes tennis too.", "is_correct": false, "why_wrong": "'But' signals contrast, so the second part should not agree with the first part."},
+    {"text": "he plays football every day.", "is_correct": false, "why_wrong": "This repeats the idea of football and does not contrast with the first part."},
+    {"text": "he likes football very much.", "is_correct": false, "why_wrong": "This repeats the idea of liking football and does not contrast with the first part."},
+    {"text": "he doesn't like tennis.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present simple negative with 'doesn't' after 'but'",
+  "connector": "but",
+  "explanation": "After 'but', the clause must contrast with the first part, so a negative present simple form is needed. English uses 'doesn't' with third-person singular subjects. Polish speakers often omit the auxiliary verb, so they may say 'he no like tennis' by mistake."
+}
