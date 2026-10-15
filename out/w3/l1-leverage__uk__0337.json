@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ідея", "transliteration": "idea", "meaning": "a thought or plan in the mind"},
+    {"word": "аналіз", "transliteration": "analiz", "meaning": "a careful examination of something"},
+    {"word": "тема", "transliteration": "tema", "meaning": "the main subject of a text or talk"},
+    {"word": "текст", "transliteration": "tekst", "meaning": "a piece of written language"}
+  ],
+  "english_words": ["text", "idea", "theme", "analysis"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin or Greek through European scholarly vocabulary, so the forms stayed close and the meanings match.",
+  "false_friend_warning": null
+}

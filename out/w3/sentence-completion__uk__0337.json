@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because my laptop kept crashing,",
+  "correct_completion": "I had it repaired by a technician.",
+  "full_sentence": "Because my laptop kept crashing, I had it repaired by a technician.",
+  "acceptable_variants": ["I got it fixed by a technician.", "I took it to a repair shop."],
+  "options": [
+    {"text": "I repaired it myself at home.", "is_correct": false, "why_wrong": "This is a simple past action done by the speaker. It does not use the causative 'have something done' structure that the exercise targets."},
+    {"text": "I had it repaired by a technician.", "is_correct": true, "why_wrong": null},
+    {"text": "I am repairing the laptop now.", "is_correct": false, "why_wrong": "The present continuous describes an action in progress. It does not use the causative structure and does not explain the past reason."},
+    {"text": "I have repaired the laptop for years.", "is_correct": false, "why_wrong": "The present perfect describes past experience over time. It does not use the causative 'have + object + past participle' pattern."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have something done' with 'because' as the cause connector",
+  "connector": "because",
+  "explanation": "The causative structure 'have + object + past participle' shows that someone else performs the action for the speaker. Ukrainian speakers often use a simple active verb here, such as 'I repaired it', when they mean that someone did it for them, so it helps to practise the 'have something done' pattern.",
+  "translation": "Оскільки мій ноутбук постійно зависав, я віддав його майстру на ремонт."
+}

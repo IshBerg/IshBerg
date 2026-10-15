@@ -1,0 +1,23 @@
+{
+  "central_word": "fear",
+  "chain_words": [
+    {"word": "unease", "intensity": 1, "translation": "неспокій", "nuance": "vague feeling that something is not right"},
+    {"word": "apprehension", "intensity": 2, "translation": "тривога", "nuance": "anxious expectation of a possible problem"},
+    {"word": "fear", "intensity": 3, "translation": "страх", "nuance": "general feeling caused by a perceived threat"},
+    {"word": "dread", "intensity": 4, "translation": "тривожне очікування", "nuance": "strong fear of something unpleasant to come"},
+    {"word": "terror", "intensity": 5, "translation": "жах", "nuance": "overwhelming and paralysing fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express a response to a threat, moving from a vague feeling of unease to overwhelming terror.",
+  "usage_notes": [
+    {"word1": "fear", "word2": "dread", "difference": "'Fear' is usually a response to a present or clear threat; 'dread' is anticipation of something unpleasant that has not happened yet."}
+  ],
+  "translations": {
+    "unease": "неспокій",
+    "apprehension": "тривога",
+    "fear": "страх",
+    "dread": "тривожне очікування",
+    "terror": "жах"
+  }
+}
