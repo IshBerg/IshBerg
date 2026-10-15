@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "H", "O", "U", "T", "X", "Q", "G"],
+    ["W", "K", "D", "F", "J", "B", "N", "L"],
+    ["H", "Z", "C", "V", "Y", "P", "T", "A"],
+    ["I", "M", "G", "D", "L", "W", "K", "R"],
+    ["S", "Q", "F", "B", "X", "N", "R", "E"],
+    ["P", "A", "T", "C", "O", "J", "Z", "Y"],
+    ["E", "K", "W", "B", "V", "Q", "F", "D"],
+    ["R", "M", "U", "M", "B", "L", "E", "H"]
+  ],
+  "words_to_find": ["SHOUT", "GLARE", "MUMBLE", "WHISPER"],
+  "word_positions": [
+    {"word": "SHOUT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLARE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "MUMBLE", "start_row": 7, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "WHISPER", "start_row": 1, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Nuanced Synonyms"
+}

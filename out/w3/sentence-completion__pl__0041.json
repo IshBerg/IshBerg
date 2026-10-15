@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had known about the test,",
+  "correct_completion": "I would have studied all week.",
+  "full_sentence": "If only I had known about the test, I would have studied all week.",
+  "acceptable_variants": ["I would have revised every chapter.", "I would have felt much more confident."],
+  "options": [
+    {"text": "I study every day.", "is_correct": false, "why_wrong": "The present simple describes a habit now, but the stem expresses a regret about the past."},
+    {"text": "I will study tomorrow.", "is_correct": false, "why_wrong": "'Will' points to the future, but 'if only' with a past perfect expresses an unreal past situation."},
+    {"text": "I would have studied all week.", "is_correct": true, "why_wrong": null},
+    {"text": "I am studying now.", "is_correct": false, "why_wrong": "The present continuous describes a current action, which does not complete a regret about the past."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if only' for past regrets",
+  "connector": "if only",
+  "explanation": "After 'if only' with a past perfect, the main clause uses 'would have' plus a past participle to express what would have happened in an unreal past situation. Learners often switch back to a present or future form here, so check that the main clause refers to the past.",
+  "translation": "Gdybym tylko wiedział o sprawdzianie, uczyłbym się przez cały tydzień."
+}
