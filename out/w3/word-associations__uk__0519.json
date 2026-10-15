@@ -1,0 +1,14 @@
+{
+  "trigger_word": "music",
+  "all_words": [
+    {"word": "song", "is_associated": true, "association_type": "THEMATIC", "explanation": "Пісня є музичним твором, тому вона тісно пов'язана з музикою."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Стіл не має жодного відношення до музики."},
+    {"word": "guitar", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гітара є музичним інструментом, на якому грають музику."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "Дощ не пов'язаний з музикою."},
+    {"word": "dance", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слова 'dance' і 'music' часто використовують разом: танцювати під музику."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "Океан не має прямого зв'язку з музикою."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'music', це музичні твори, інструменти та дії, які супроводжують музику."
+}

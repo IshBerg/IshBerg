@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["A", "B", "S", "T", "R", "A", "C", "T", "K", "M"],
+    ["P", "Q", "J", "W", "G", "Y", "N", "D", "C", "E"],
+    ["R", "Z", "F", "B", "K", "X", "Q", "V", "I", "T"],
+    ["J", "E", "M", "G", "Y", "P", "W", "Z", "T", "H"],
+    ["F", "K", "S", "Q", "B", "D", "J", "V", "A", "O"],
+    ["Y", "W", "N", "U", "G", "Q", "Z", "X", "T", "D"],
+    ["B", "X", "F", "K", "L", "Z", "P", "V", "I", "N"],
+    ["Q", "J", "D", "W", "Y", "T", "B", "F", "O", "G"],
+    ["K", "Z", "X", "P", "Q", "D", "S", "V", "N", "H"],
+    ["W", "E", "I", "V", "E", "R", "G", "K", "J", "X"]
+  ],
+  "words_to_find": ["ABSTRACT", "METHOD", "RESULTS", "REVIEW", "CITATION"],
+  "word_positions": [
+    {"word": "ABSTRACT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "METHOD", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "RESULTS", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "REVIEW", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "CITATION", "start_row": 1, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Reading Academic Articles"
+}
