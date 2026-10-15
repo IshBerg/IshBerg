@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although most students prefer studying in the library,",
+  "correct_completion": "a few still choose to work at home.",
+  "full_sentence": "Although most students prefer studying in the library, a few still choose to work at home.",
+  "acceptable_variants": ["some still prefer to study alone at home.", "a minority continue to work from home."],
+  "options": [
+    {"text": "so the library is always crowded.", "is_correct": false, "why_wrong": "'So' expresses a result. 'Although' requires a contrast with the first part, not a consequence."},
+    {"text": "a few still choose to work at home.", "is_correct": true, "why_wrong": null},
+    {"text": "most of them study late at night.", "is_correct": false, "why_wrong": "This adds a related fact but does not contrast with the preference for the library."},
+    {"text": "the library opens at eight every day.", "is_correct": false, "why_wrong": "This gives a factual detail about the library and does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first part of the sentence. Here the majority preference for the library is contrasted with a small group who work at home. Learners may choose a result connector such as 'so' by mistake, which breaks the contrast.",
+  "translation": "Embora a maioria dos alunos prefira estudar na biblioteca, alguns ainda escolhem trabalhar em casa."
+}

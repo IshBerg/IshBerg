@@ -1,0 +1,14 @@
+{
+  "trigger_word": "forest",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "THEMATIC", "explanation": "Árvore é um elemento típico da floresta, por isso está diretamente ligada a essa palavra."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Trator é uma máquina agrícola e não tem relação com a floresta."},
+    {"word": "squirrel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Esquilo é um animal que vive nas florestas, então pertence ao mesmo tema."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piano é um instrumento musical sem qualquer ligação com a floresta."},
+    {"word": "path", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Trilha é uma combinação frequente com 'forest', como em 'forest path'."},
+    {"word": "coin", "is_associated": false, "association_type": "NONE", "explanation": "Moeda não tem nenhuma relação com o conceito de floresta."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'forest' se associa a elementos naturais que existem nas florestas, como árvores e animais, e a combinações frequentes como 'forest path'."
+}
