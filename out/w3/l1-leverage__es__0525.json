@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "chocolate", "transliteration": "chocolate", "meaning": "chocolate"},
+    {"word": "tomate", "transliteration": "tomate", "meaning": "tomato"},
+    {"word": "vainilla", "transliteration": "vainilla", "meaning": "vanilla"},
+    {"word": "pasta", "transliteration": "pasta", "meaning": "pasta"}
+  ],
+  "english_words": ["pasta", "vanilla", "chocolate", "tomato"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each of these words reached both English and the Spanish-speaking world from a shared international source, so the spelling and the meaning stayed close in both languages.",
+  "false_friend_warning": null
+}
