@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualnie", "transliteration": "aktualnie", "meaning": "currently, at present"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "wreszcie", "transliteration": "wreszcie", "meaning": "finally, at last"},
+    {"word": "konkretnie", "transliteration": "konkretnie", "meaning": "specifically, to be precise"}
+  ],
+  "english_words": ["specifically", "finally", "possibly", "currently"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin roots, so the Polish forms look close to English ones, but the meanings drifted apart over time.",
+  "false_friend_warning": "The Polish word 'aktualnie' looks like English 'actually', but it means 'currently', and the Polish word 'ewentualnie' looks like 'eventually' but means 'possibly' or 'if necessary'. Do not use 'actually' or 'eventually' in these senses."
+}
