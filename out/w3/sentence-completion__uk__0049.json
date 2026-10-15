@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister can cook very well, but she can't",
+  "correct_completion": "swim in the sea.",
+  "full_sentence": "My sister can cook very well, but she can't swim in the sea.",
+  "acceptable_variants": ["ride a bicycle.", "swim very far."],
+  "options": [
+    {"text": "she can sing too.", "is_correct": false, "why_wrong": "'But' signals a contrast, so the second clause needs an inability (can't), not another ability (can)."},
+    {"text": "so she likes to cook.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. 'But' needs a negative ability after the comma."},
+    {"text": "swim in the sea.", "is_correct": true, "why_wrong": null},
+    {"text": "she cooks every day.", "is_correct": false, "why_wrong": "This describes a habit, not an inability, so it does not complete the contrast started by 'but'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' and 'can't' for inability",
+  "connector": "but",
+  "explanation": "The connector 'but' shows a contrast, so the second clause must express an inability with 'can't' that opposes the ability in the first clause. English uses 'can't' plus the base verb for inability, so the verb after it stays in its simple form.",
+  "translation": "Моя сестра дуже добре вміє готувати, але вона не вміє плавати в морі."
+}
