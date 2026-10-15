@@ -1,0 +1,17 @@
+{
+  "central_word": "cold",
+  "chain_words": [
+    {"word": "chilly", "intensity": 1, "translation": "serin", "nuance": "slightly cold, pleasantly fresh"},
+    {"word": "cold", "intensity": 2, "translation": "soğuk", "nuance": "general low temperature"},
+    {"word": "icy", "intensity": 3, "translation": "buzlu", "nuance": "very cold, covered with ice or frost"},
+    {"word": "freezing", "intensity": 4, "translation": "donacak kadar soğuk", "nuance": "so cold that water turns to ice"},
+    {"word": "frigid", "intensity": 5, "translation": "dondurucu", "nuance": "extremely cold, harsh and bitter"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe low temperature, from a slight chill to an extremely harsh cold.",
+  "usage_notes": [
+    {"word1": "chilly", "word2": "freezing", "difference": "'Chilly' describes mild, pleasant coolness; 'freezing' describes cold so intense that it can freeze water."}
+  ],
+  "translations": {"chilly": "serin", "cold": "soğuk", "icy": "buzlu", "freezing": "donacak kadar soğuk", "frigid": "dondurucu"}
+}

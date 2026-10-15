@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "money", "is_associated": true, "association_type": "THEMATIC", "explanation": "Banka para ile ilgilidir; insanlar bankaya para yatırır."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "Elma bankayla ilgili değildir."},
+    {"word": "account", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Banka hesabı bankada açılan bir hesaptır; bu iki kelime sıkça birlikte kullanılır."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bankayla hiçbir bağlantısı olmayan bir çalgıdır."},
+    {"word": "cashier", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kasiyer bankada para işlemlerini yapan kişidir."},
+    {"word": "loan", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Bank loan' yani banka kredisi sık kullanılan bir ifadedir."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bank kelimesinin çağrışımları para, hesap, kasiyer ve kredi gibi bankacılıkla ilgili kelimelerdir; elma ve piyano ise ilgili değildir."
+}

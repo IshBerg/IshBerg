@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although there is a long queue at the bakery,",
+  "correct_completion": "we decided to wait for our bread.",
+  "full_sentence": "Although there is a long queue at the bakery, we decided to wait for our bread.",
+  "acceptable_variants": ["we still waited in the line.", "we stayed and bought some bread."],
+  "options": [
+    {"text": "so we went home without bread.", "is_correct": false, "why_wrong": "'So' shows a result, but 'although' requires a contrast, not a consequence."},
+    {"text": "we decided to wait for our bread.", "is_correct": true, "why_wrong": null},
+    {"text": "there is no bread in the bakery.", "is_correct": false, "why_wrong": "This states a fact that repeats the situation at the bakery but does not give the contrasting action that 'although' expects."},
+    {"text": "the bakery is very near our home.", "is_correct": false, "why_wrong": "This adds information about location but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and the existential structure 'there is'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the long queue in the first part. Turkish speakers may expect a simple result clause here because Turkish often marks contrast with a different connector, so the English contrast must come from the main clause.",
+  "translation": "Fırında uzun bir kuyruk olmasına rağmen ekmeğimizi beklemeye karar verdik."
+}
