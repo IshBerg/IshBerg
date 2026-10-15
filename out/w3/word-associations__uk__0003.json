@@ -1,0 +1,14 @@
+{
+  "trigger_word": "garden",
+  "all_words": [
+    {"word": "flower", "is_associated": true, "association_type": "THEMATIC", "explanation": "Квітка є тематичним зв'язком із садом: квіти зазвичай ростуть у саду і становлять його невід'ємну частину."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Клавіатура не пов'язана із садом; це частина комп'ютера, тому слово не належить до цього поняття."},
+    {"word": "hose", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення garden hose (садовий шланг) є типовою колокацією, тому слово тісно пов'язане з садом."},
+    {"word": "invoice", "is_associated": false, "association_type": "NONE", "explanation": "Рахунок-фактура належить до сфери бізнесу та фінансів, а не до саду, тому зв'язку немає."},
+    {"word": "lawn", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Газон є семантично близьким поняттям: це ділянка трави в саду, тобто частина того самого простору."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Скрипка належить до музичних інструментів і не має жодного зв'язку із садом."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово garden асоціюється з квіткою, шлангом і газоном, бо це частини саду або предмети, пов'язані з ним; клавіатура, рахунок і скрипка до цього поняття не належать."
+}
