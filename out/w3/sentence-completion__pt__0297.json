@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Right now, my mother is",
+  "correct_completion": "at home.",
+  "full_sentence": "Right now, my mother is at home.",
+  "acceptable_variants": ["at work.", "in the kitchen."],
+  "options": [
+    {"text": "in home.", "is_correct": false, "why_wrong": "With the word 'home' we use 'at', not 'in'. 'In' is used with rooms and buildings, such as 'in the kitchen'."},
+    {"text": "at home.", "is_correct": true, "why_wrong": null},
+    {"text": "home at.", "is_correct": false, "why_wrong": "The preposition must come before the place. The correct order is 'at home'."},
+    {"text": "on home.", "is_correct": false, "why_wrong": "'On' is used for surfaces, such as 'on the table'. It is not used with 'home'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Prepositions of place: 'at home'",
+  "connector": "at",
+  "explanation": "'At home' is the fixed phrase for the place where someone is living or staying. Speakers of Portuguese may choose 'in' because they often use one general preposition for many places, but in English 'at' is used with 'home', while 'in' is used with rooms and buildings.",
+  "translation": "Neste momento, minha mãe está em casa."
+}

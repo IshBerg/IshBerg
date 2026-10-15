@@ -1,0 +1,17 @@
+{
+  "central_word": "small",
+  "chain_words": [
+    {"word": "small", "intensity": 1, "translation": "pequeno", "nuance": "not large in size; the neutral baseline"},
+    {"word": "tiny", "intensity": 2, "translation": "diminuto", "nuance": "noticeably and often charmingly small"},
+    {"word": "minute", "intensity": 3, "translation": "ínfimo", "nuance": "very small, often in a formal or technical register"},
+    {"word": "minuscule", "intensity": 4, "translation": "minúsculo", "nuance": "so small it is barely perceptible"},
+    {"word": "microscopic", "intensity": 5, "translation": "microscópico", "nuance": "so small it can only be seen with a microscope"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express smallness, moving from ordinary small size up to something only visible under a microscope, with each step stronger than the last.",
+  "usage_notes": [
+    {"word1": "tiny", "word2": "minute", "difference": "'Tiny' is everyday and descriptive, while 'minute' is more formal and emphasizes precise, often measured, smallness."}
+  ],
+  "translations": {"small": "pequeno", "tiny": "diminuto", "minute": "ínfimo", "minuscule": "minúsculo", "microscopic": "microscópico"}
+}
