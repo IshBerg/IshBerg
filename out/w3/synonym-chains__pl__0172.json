@@ -1,0 +1,17 @@
+{
+  "central_word": "dangerous",
+  "chain_words": [
+    {"word": "risky", "intensity": 1, "translation": "ryzykowny", "nuance": "may lead to loss or harm, but the chance is uncertain"},
+    {"word": "unsafe", "intensity": 2, "translation": "niebezpieczny", "nuance": "not protected from harm"},
+    {"word": "dangerous", "intensity": 3, "translation": "groźny", "nuance": "likely to cause harm or injury"},
+    {"word": "perilous", "intensity": 4, "translation": "pełen niebezpieczeństw", "nuance": "full of serious and frightening threats"},
+    {"word": "deadly", "intensity": 5, "translation": "śmiertelny", "nuance": "able to cause death"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe danger, with intensity rising from a possible risk to a threat that can cause death.",
+  "usage_notes": [
+    {"word1": "dangerous", "word2": "deadly", "difference": "'Dangerous' means something may cause harm; 'deadly' is much stronger and means it can cause death."}
+  ],
+  "translations": {"risky": "ryzykowny", "unsafe": "niebezpieczny", "dangerous": "groźny", "perilous": "pełen niebezpieczeństw", "deadly": "śmiertelny"}
+}

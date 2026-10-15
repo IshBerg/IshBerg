@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The old building was damaged in the storm,",
+  "correct_completion": "so the city decided to repair it.",
+  "full_sentence": "The old building was damaged in the storm, so the city decided to repair it.",
+  "acceptable_variants": ["so the city arranged for it to be repaired.", "so it was soon repaired by the city."],
+  "options": [
+    {"text": "so the storm decided to repair it.", "is_correct": false, "why_wrong": "A storm cannot make decisions or repair buildings. The logical doer of the repair is the city, not the storm."},
+    {"text": "so the building was not damaged at all.", "is_correct": false, "why_wrong": "This contradicts the stem, which already states that the building was damaged."},
+    {"text": "so the city decided to repair it.", "is_correct": true, "why_wrong": null},
+    {"text": "the city has repaired itself.", "is_correct": false, "why_wrong": "A city cannot repair itself. People or workers carry out the repair, so this uses the wrong agent."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive voice followed by an active clause that names the agent who acts",
+  "connector": "so",
+  "explanation": "The stem describes a passive event, so the continuation should show the logical result and the agent who takes action. Polish speakers may find it natural to omit the agent here, but English usually names who does the action in the following clause.",
+  "translation": "Stary budynek został uszkodzony podczas burzy, więc miasto postanowiło go naprawić."
+}
