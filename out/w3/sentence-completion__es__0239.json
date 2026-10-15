@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Maria and I are in the same class, and",
+  "correct_completion": "we study English together.",
+  "full_sentence": "Maria and I are in the same class, and we study English together.",
+  "acceptable_variants": ["we study English together every day.", "we are good students."],
+  "options": [
+    {"text": "they study English together.", "is_correct": false, "why_wrong": "'They' refers to other people. The sentence is about Maria and me, so we need 'we'."},
+    {"text": "we study English together.", "is_correct": true, "why_wrong": null},
+    {"text": "you study English together.", "is_correct": false, "why_wrong": "'You' speaks to the listener. The sentence is about Maria and me, not about the listener."},
+    {"text": "she likes English.", "is_correct": false, "why_wrong": "'She' refers to only one person, but 'Maria and I' are two people, so the subject must be a plural pronoun."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject pronouns: 'we' for a group that includes the speaker",
+  "connector": "and",
+  "explanation": "The subject pronoun must match the people named in the first part of the sentence. 'Maria and I' means two people, including the speaker, so the pronoun 'we' is needed. Speakers whose first language drops the subject often forget that English needs the pronoun in the sentence.",
+  "translation": "María y yo estamos en la misma clase, y nosotros estudiamos inglés juntos."
+}

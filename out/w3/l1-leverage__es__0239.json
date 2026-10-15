@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ensayo", "transliteration": "ensayo", "meaning": "rehearsal"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "sala", "transliteration": "sala", "meaning": "hall, auditorium"}
+  ],
+  "english_words": ["bookshop", "rehearsal", "attend", "hall"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "Each Spanish word looks like an English word but comes from a different meaning path, so the spelling is misleading. Students must learn the Spanish meaning instead of trusting the similar form.",
+  "false_friend_warning": "Do not translate the Spanish word 'ensayo' as 'essay': it means rehearsal, as in a theatre or music practice. Similarly, 'asistir' means to attend, not to assist, and 'librería' means bookshop, not library."
+}
