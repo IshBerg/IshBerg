@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at those dark clouds!",
+  "correct_completion": "It is going to rain soon.",
+  "full_sentence": "Look at those dark clouds! It is going to rain soon.",
+  "acceptable_variants": ["It will probably rain soon.", "The rain is going to start soon."],
+  "options": [
+    {"text": "The sun is shining brightly.", "is_correct": false, "why_wrong": "This describes the present scene, but the sentence needs a prediction about the future based on the clouds."},
+    {"text": "It will rains soon.", "is_correct": false, "why_wrong": "After 'will' the base form 'rain' is used, not 'rains'."},
+    {"text": "It is going to rain soon.", "is_correct": true, "why_wrong": null},
+    {"text": "We went to the beach yesterday.", "is_correct": false, "why_wrong": "A past tense sentence does not express a prediction based on what we can see now."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "'Going to' for predictions based on present evidence",
+  "connector": "going to",
+  "explanation": "The dark clouds are present evidence, so the future form 'be going to' fits a prediction that is based on what the speaker can see now.",
+  "translation": "Подивіться на ці темні хмари! Незабаром піде дощ."
+}

@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "E", "X", "T", "Q", "B", "K", "M", "W"],
+    ["A", "J", "L", "R", "D", "F", "G", "V", "C"],
+    ["H", "K", "U", "Q", "A", "S", "W", "P", "Y"],
+    ["J", "P", "Z", "G", "T", "B", "L", "H", "I"],
+    ["S", "M", "F", "C", "R", "V", "Y", "O", "L"],
+    ["A", "E", "K", "U", "T", "Q", "Z", "N", "B"],
+    ["F", "W", "N", "I", "A", "D", "G", "E", "J"],
+    ["K", "S", "X", "D", "M", "L", "P", "Q", "Z"],
+    ["V", "G", "R", "E", "P", "L", "Y", "H", "O"]
+  ],
+  "words_to_find": ["TEXT", "PHONE", "SEND", "REPLY"],
+  "word_positions": [
+    {"word": "TEXT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PHONE", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SEND", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "REPLY", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Text Messages"
+}
