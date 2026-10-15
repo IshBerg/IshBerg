@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She should have taken an umbrella,",
+  "correct_completion": "because it started raining an hour ago.",
+  "full_sentence": "She should have taken an umbrella, because it started raining an hour ago.",
+  "acceptable_variants": ["because the sky had been getting darker all afternoon.", "because the forecast had predicted rain."],
+  "options": [
+    {"text": "because it is sunny outside now.", "is_correct": false, "why_wrong": "A present sunny condition does not explain the regret that 'should have' expresses about a past action."},
+    {"text": "so she will take one tomorrow.", "is_correct": false, "why_wrong": "This is a future plan, but the modal perfect expresses regret about the past."},
+    {"text": "because it started raining an hour ago.", "is_correct": true, "why_wrong": null},
+    {"text": "and she took it with her.", "is_correct": false, "why_wrong": "This states what she actually did, which contradicts the regret that 'should have' expresses."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfect: should have + past participle",
+  "connector": "because",
+  "explanation": "The modal perfect 'should have' plus a past participle expresses regret about a past action, and the clause after 'because' gives the reason for that regret. Polish speakers may choose a simple conditional-style form here, because Polish uses one invariable conditional particle for many meanings, so the English perfect modal must be learned as a separate pattern.",
+  "translation": "Powinna była wziąć parasol, bo godzinę temu zaczęło padać."
+}
