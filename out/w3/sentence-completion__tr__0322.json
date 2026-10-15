@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom didn't answer his phone all day. He must have",
+  "correct_completion": "been very busy at work.",
+  "full_sentence": "Tom didn't answer his phone all day. He must have been very busy at work.",
+  "acceptable_variants": ["probably been working very hard all day.", "been in meetings for hours."],
+  "options": [
+    {"text": "be very busy at work.", "is_correct": false, "why_wrong": "After 'must have' we need a past participle, not a base verb. 'Must have be' is ungrammatical."},
+    {"text": "been very busy at work.", "is_correct": true, "why_wrong": null},
+    {"text": "is very busy at work now.", "is_correct": false, "why_wrong": "After 'must have' we need the past participle 'been', not a present form. Also, 'now' does not fit a past deduction."},
+    {"text": "being very busy at work.", "is_correct": false, "why_wrong": "'Being' cannot follow 'must have'. The structure needs the past participle 'been'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal perfect for logical deduction about the past: must have + past participle",
+  "connector": "must have",
+  "explanation": "The modal perfect 'must have' plus a past participle expresses a logical conclusion about a past event, based on evidence. After 'must have', use the past participle, such as 'been', and not a base form, a present form, or an infinitive. Turkish speakers may be tempted to use a plain base verb or a present form here, because Turkish marks this kind of past deduction with a verb suffix rather than with a separate helper verb and a participle.",
+  "translation": "Tom bütün gün telefonuna cevap vermedi. İş yerinde çok meşgul olmuş olmalı."
+}
