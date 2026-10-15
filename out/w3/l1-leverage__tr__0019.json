@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current, up to date"},
+    {"word": "eventüel", "transliteration": "eventuel", "meaning": "possible, if it happens"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "pleasant, likeable"},
+    {"word": "kolej", "transliteration": "kolej", "meaning": "high school"}
+  ],
+  "english_words": ["likeable", "high school", "current", "possible"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Turkish borrowed these words from French and other European languages, where the forms were close to their English counterparts, but their meanings shifted during borrowing, so the spellings now look alike while the meanings differ.",
+  "false_friend_warning": "The Turkish word spelled kolej looks like the English word 'college', but it means high school, so a student who translates it as 'college' will choose the wrong meaning."
+}

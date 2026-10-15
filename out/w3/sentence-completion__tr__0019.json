@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the train was late,",
+  "correct_completion": "we arrived at the meeting on time.",
+  "full_sentence": "Even though the train was late, we arrived at the meeting on time.",
+  "acceptable_variants": ["we still reached the meeting before it started.", "we managed to be punctual for the meeting."],
+  "options": [
+    {"text": "so we missed the meeting completely.", "is_correct": false, "why_wrong": "'So' signals a result that follows naturally, not a contrast. 'Even though' needs an outcome that goes against the expected result."},
+    {"text": "we had booked the wrong seats.", "is_correct": false, "why_wrong": "This adds a separate problem and does not complete the contrast that 'even though' introduces."},
+    {"text": "we arrived at the meeting on time.", "is_correct": true, "why_wrong": null},
+    {"text": "the train had been delayed twice before.", "is_correct": false, "why_wrong": "This repeats the cause of the delay instead of giving the contrasting outcome expected after 'even though'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "Concessive connectors introduce a clause that contrasts with the main clause, so the completion must show an unexpected outcome. Turkish speakers may focus on the delay and choose a result or cause clause, because Turkish often marks this kind of contrast with a different grammatical pattern.",
+  "translation": "Tren gecikmiş olmasına rağmen toplantıya zamanında vardık."
+}
