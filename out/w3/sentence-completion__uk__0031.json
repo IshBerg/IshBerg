@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna's phone was switched off all day, so",
+  "correct_completion": "she must have been somewhere without a signal.",
+  "full_sentence": "Anna's phone was switched off all day, so she must have been somewhere without a signal.",
+  "acceptable_variants": ["she must have been out of network coverage.", "she was probably travelling in an area with no signal."],
+  "options": [
+    {"text": "she should have answered the phone yesterday.", "is_correct": false, "why_wrong": "This criticises a past action rather than speculating about the reason the phone was switched off."},
+    {"text": "she can be at home now.", "is_correct": false, "why_wrong": "This makes a claim about her present location, but it does not explain why the phone was off all day."},
+    {"text": "she must have been somewhere without a signal.", "is_correct": true, "why_wrong": null},
+    {"text": "she would have called us back.", "is_correct": false, "why_wrong": "This describes a hypothetical result, not a logical explanation for the phone being switched off."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfect 'must have + past participle' for speculation about a past event",
+  "connector": "so",
+  "explanation": "The connector 'so' introduces a logical result of the first clause. The modal perfect 'must have been' expresses a confident conclusion about a past situation. Ukrainian speakers may be tempted to use a simple past form here, because Ukrainian has no direct equivalent of the English modal perfect.",
+  "translation": "Телефон Анни був вимкнений увесь день, тож, мабуть, вона була десь, де немає зв'язку."
+}
