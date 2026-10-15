@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom said he",
+  "correct_completion": "had finished his homework.",
+  "full_sentence": "Tom said he had finished his homework.",
+  "acceptable_variants": ["had already finished his homework.", "had done his homework."],
+  "options": [
+    {"text": "will finish his homework.", "is_correct": false, "why_wrong": "After a past reporting verb such as 'said', the future 'will' usually backshifts to 'would', so this is not correct reported speech."},
+    {"text": "is finishing his homework now.", "is_correct": false, "why_wrong": "After 'said', the present continuous shifts back to the past continuous, so 'is finishing' is not correct here."},
+    {"text": "had finished his homework.", "is_correct": true, "why_wrong": null},
+    {"text": "finish his homework yesterday.", "is_correct": false, "why_wrong": "A base form cannot follow the subject here; after 'said' the verb must take a past tense form, and the time expression does not fix the grammar."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Reported speech: backshift of tenses after 'said'",
+  "connector": "said",
+  "explanation": "The present perfect 'has finished' in direct speech shifts back to the past perfect 'had finished' in reported speech after a past reporting verb. Ukrainian speakers often find this shift difficult because Ukrainian marks completed actions with verb aspect rather than a separate past perfect tense.",
+  "translation": "Том сказав, що він закінчив домашнє завдання."
+}
