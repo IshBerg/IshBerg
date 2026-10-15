@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "H", "E", "M", "E", "K", "Z", "P"],
+    ["B", "C", "D", "F", "G", "H", "J", "L"],
+    ["Q", "W", "R", "S", "V", "X", "N", "O"],
+    ["A", "B", "C", "D", "F", "G", "K", "T"],
+    ["I", "M", "A", "G", "E", "R", "Y", "X"],
+    ["B", "C", "D", "F", "G", "H", "J", "K"],
+    ["S", "E", "T", "T", "I", "N", "G", "Q"],
+    ["L", "M", "N", "P", "R", "S", "V", "W"]
+  ],
+  "words_to_find": ["THEME", "PLOT", "IMAGERY", "SETTING"],
+  "word_positions": [
+    {"word": "THEME", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PLOT", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "IMAGERY", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SETTING", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Literary Analysis (HOTS)"
+}
