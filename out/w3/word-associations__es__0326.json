@@ -1,0 +1,14 @@
+{
+  "trigger_word": "name",
+  "all_words": [
+    {"word": "surname", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El apellido es una parte del nombre completo de una persona, por eso está muy relacionado con 'name'."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "El árbol es una planta y no tiene relación con el nombre de una persona."},
+    {"word": "hello", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Hello' se usa al presentarse y decir su nombre, así que pertenece al mismo tema de la presentación personal."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "La mesa es un mueble y no se relaciona con el nombre de una persona."},
+    {"word": "country", "is_associated": true, "association_type": "THEMATIC", "explanation": "Al presentarse, muchas personas dicen su nombre y también de qué país son, por eso 'country' está en el mismo tema."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "La ventana es parte de una casa y no tiene relación con el nombre de una persona."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'name' pertenecen a la presentación personal: el apellido, el saludo y el país. Los objetos como la mesa, la ventana o el árbol no tienen relación con el tema."
+}
