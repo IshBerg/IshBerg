@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "гімназія", "transliteration": "himnaziia", "meaning": "secondary school (grades 5 to 11 in Ukraine)"},
+    {"word": "коректний", "transliteration": "korektnyi", "meaning": "polite, tactful, well-mannered"},
+    {"word": "акуратний", "transliteration": "akuratnyi", "meaning": "neat, tidy, careful with details"},
+    {"word": "аспірант", "transliteration": "aspirant", "meaning": "postgraduate researcher working toward a doctoral degree"}
+  ],
+  "english_words": ["tidy", "postgraduate researcher", "secondary school", "polite"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words were borrowed from German, French and Latin, so their forms look close to English words, but each language developed its own meaning over time.",
+  "false_friend_warning": "The Ukrainian word 'himnaziia' looks like the English 'gymnasium' but means a secondary school, while 'gymnasium' in English means a sports hall. Similarly, 'korektnyi' looks like 'correct' but means polite, 'akuratnyi' looks like 'accurate' but means neat, and 'aspirant' looks like 'aspirant' but means a postgraduate researcher, not an ambitious person."
+}
