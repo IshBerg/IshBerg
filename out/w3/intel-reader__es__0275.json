@@ -1,0 +1,19 @@
+{
+  "title": "Anna's House",
+  "text": "Anna has a small house. The house is blue and it has two bedrooms. There is a big kitchen with a table and four chairs.\n\nThe living room has a sofa and a TV. Anna likes to read on the sofa every evening. Her cat sleeps on the bed in the bedroom.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How many bedrooms does Anna's house have?", "options": ["One", "Two", "Three", "Four"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Anna like to do on the sofa?", "options": ["Cook", "Read", "Clean", "Sleep"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Where is Anna most likely to cook?", "options": ["In the kitchen", "In the bathroom", "In the bedroom", "In the garden"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Anna probably feel about her house?", "options": ["She likes it", "She does not like it", "She wants to move", "She is afraid of it"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "kitchen", "translation": "cocina", "definition": "a room where you cook food"},
+    {"word": "sofa", "translation": "sofá", "definition": "a long soft seat for two or more people"},
+    {"word": "chairs", "translation": "sillas", "definition": "seats for one person, with a back"}
+  ],
+  "paragraph_translations": [
+    "Anna tiene una casa pequeña. La casa es azul y tiene dos dormitorios. Hay una cocina grande con una mesa y cuatro sillas.",
+    "La sala de estar tiene un sofá y una televisión. Anna le gusta leer en el sofá todas las tardes. Su gato duerme en la cama del dormitorio."
+  ]
+}

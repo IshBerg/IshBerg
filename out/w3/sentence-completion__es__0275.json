@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished his homework,",
+  "correct_completion": "he went out to play with his friends.",
+  "full_sentence": "Having finished his homework, he went out to play with his friends.",
+  "acceptable_variants": ["he then went out to play with his friends.", "he decided to join his friends outside."],
+  "options": [
+    {"text": "he has to finish his homework now.", "is_correct": false, "why_wrong": "The participle clause says the homework is already finished, so this option contradicts the stem."},
+    {"text": "he will start his homework next week.", "is_correct": false, "why_wrong": "This describes a future action, but the stem shows the homework is already complete."},
+    {"text": "he went out to play with his friends.", "is_correct": true, "why_wrong": null},
+    {"text": "he is still finishing the last exercise.", "is_correct": false, "why_wrong": "'Still finishing' describes an unfinished action, which conflicts with 'having finished'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect participle clauses showing an action completed before the main verb",
+  "connector": "having finished",
+  "explanation": "The perfect participle clause shows that the first action was completed before the main action in the second part of the sentence. The main clause must therefore describe what happened next.",
+  "translation": "Después de terminar sus deberes, él salió a jugar con sus amigos."
+}
