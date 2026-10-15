@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "R", "A", "V", "E", "L", "Q"],
+    ["B", "K", "D", "F", "G", "H", "S"],
+    ["J", "N", "C", "W", "P", "X", "T"],
+    ["M", "E", "M", "O", "R", "Y", "O"],
+    ["Z", "L", "U", "Q", "D", "A", "R"],
+    ["V", "I", "S", "I", "T", "K", "Y"],
+    ["C", "D", "F", "H", "N", "L", "W"]
+  ],
+  "words_to_find": ["TRAVEL", "STORY", "MEMORY", "VISIT"],
+  "word_positions": [
+    {"word": "TRAVEL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STORY", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "MEMORY", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VISIT", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Discussing Life Experiences"
+}
