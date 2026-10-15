@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the project would have been approved last month.",
+  "full_sentence": "Had the committee been informed earlier, the project would have been approved last month.",
+  "acceptable_variants": ["the budget would have been secured.", "the decision would have been different."],
+  "options": [
+    {"text": "the project would be approved now.", "is_correct": false, "why_wrong": "The stem describes a past condition ('had been informed earlier'), so the result must also refer to the past, not the present."},
+    {"text": "the project was approved last month.", "is_correct": false, "why_wrong": "Without 'would have', this is a simple statement of fact and does not complete the hypothetical result of the inverted condition."},
+    {"text": "the project would have been approved last month.", "is_correct": true, "why_wrong": null},
+    {"text": "the project would have approved last month.", "is_correct": false, "why_wrong": "After 'would have' the verb must be a past participle in the passive, 'been approved'; 'approved' alone is incorrect."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' replacing 'if'",
+  "connector": "had ... (inverted if)",
+  "explanation": "Inversion replaces 'if' by moving 'had' to the front of the clause, so the stem still expresses a past condition. The main clause must use 'would have' plus a past participle. Learners often keep the full 'if' form or drop the auxiliary, because Portuguese speakers may not expect inverted conditionals in formal English.",
+  "translation": "Se o comitê tivesse sido informado mais cedo, o projeto teria sido aprovado no mês passado."
+}
