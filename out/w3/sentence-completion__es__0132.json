@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have got a better grade.", "I might have passed the exam."],
+  "options": [
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "This is a future statement, not a past hypothetical result; the third conditional needs 'would have' plus a past participle."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I would pass the exam every day.", "is_correct": false, "why_wrong": "'Every day' describes a habit, not a past result that did not happen."},
+    {"text": "so I passed the exam.", "is_correct": false, "why_wrong": "'So' introduces a real past result, but the stem is hypothetical, so the main clause must use 'would have'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: unreal past situations and their results",
+  "connector": "if",
+  "explanation": "The third conditional describes an unreal past situation. Use 'had' plus a past participle in the if-clause and 'would have' plus a past participle in the main clause.",
+  "translation": "Si hubiera estudiado más duro, habría aprobado el examen."
+}
