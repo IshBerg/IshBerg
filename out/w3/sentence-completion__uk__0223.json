@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only had the editor rejected the article,",
+  "correct_completion": "but she had also demanded a complete rewrite.",
+  "full_sentence": "Not only had the editor rejected the article, but she had also demanded a complete rewrite.",
+  "acceptable_variants": ["but she also insisted on major revisions.", "and she even postponed the whole issue."],
+  "options": [
+    {"text": "the article was published the next morning.", "is_correct": false, "why_wrong": "Publication does not complete the 'not only ... but also' pattern, which requires a parallel additional action by the same subject."},
+    {"text": "so the author withdrew the piece.", "is_correct": false, "why_wrong": "'So' introduces a result, not the additive second element that 'not only' requires."},
+    {"text": "although the deadline had passed.", "is_correct": false, "why_wrong": "'Although' signals concession, which conflicts with the additive structure set up by 'not only'."},
+    {"text": "but she had also demanded a complete rewrite.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Correlative 'not only ... but also' with parallel clauses and inversion after 'not only'",
+  "connector": "not only",
+  "explanation": "After 'not only' with inversion, the sentence needs a second clause that adds a further action by the same subject, introduced by 'but also'. Learners should keep the subject and tense consistent across both halves.",
+  "translation": "Редакторка не лише відхилила статтю, а й вимагала повністю її переписати."
+}
