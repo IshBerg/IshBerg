@@ -1,0 +1,14 @@
+{
+  "codename": "SILENT ROUTE",
+  "briefing": "Agent, we have intercepted travel documents that must be decoded. Connect each English word on the evidence cards to its Spanish match before the trail goes cold.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "luggage", "right": "equipaje", "left_style": "document", "right_style": "handwritten"},
+    {"left": "passport", "right": "pasaporte", "left_style": "photo", "right_style": "document"},
+    {"left": "ticket", "right": "billete", "left_style": "newspaper", "right_style": "official"},
+    {"left": "airport", "right": "aeropuerto", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "map", "right": "mapa", "left_style": "official", "right_style": "newspaper"},
+    {"left": "tourist", "right": "turista", "left_style": "document", "right_style": "photo"}
+  ]
+}
