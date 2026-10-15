@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Doktorlar genellikle hastanede çalışır."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Ağaç doktorun çalıştığı alanla hiçbir ilgisi olmayan bir kelimedir."},
+    {"word": "patient", "is_associated": true, "association_type": "THEMATIC", "explanation": "Doktor hastalara bakar; hasta, doktorun ilgilendiği kişidir."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet doktorla ilgili değildir."},
+    {"word": "medicine", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Doktorlar hastalara ilaç verir; ilaç doktorla doğrudan ilişkilidir."},
+    {"word": "prescription", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Doktor reçete yazar; bu kelime doktorla sık birlikte kullanılır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Doktor kelimesinin çağrışımları hastane, hasta, ilaç ve reçete gibi tıp alanıyla ilgili kelimelerdir; ağaç ve bisiklet ise bu alanla ilgili değildir."
+}
