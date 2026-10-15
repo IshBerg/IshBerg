@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "THEMATIC", "explanation": "Pielęgniarka pracuje w szpitalu, więc słowo 'nurse' jest tematycznie związane z 'hospital'."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek nie ma żadnego związku ze szpitalem; to przedmiot używany do pisania, a nie w szpitalu."},
+    {"word": "clinic", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Klinika ma podobne znaczenie do szpitala – to także miejsce, gdzie udziela się opieki medycznej."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka nie jest związana ze szpitalem ani pod względem znaczenia, ani w typowych zwrotach."},
+    {"word": "ward", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Hospital ward' (oddział szpitalny) to ustalone połączenie wyrazów, dlatego 'ward' pasuje do 'hospital'."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitara nie ma związku ze szpitalem – to instrument muzyczny, bez żadnego powiązania z medycyną."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'hospital' to osoby i miejsca z zakresu opieki medycznej oraz typowe połączenia wyrazów; pozostałe słowa nie mają z nim nic wspólnego."
+}
