@@ -1,0 +1,14 @@
+{
+  "trigger_word": "river",
+  "all_words": [
+    {"word": "water", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Nehir büyük miktarda su taşır; su nehrin ana unsurudur."},
+    {"word": "bridge", "is_associated": true, "association_type": "THEMATIC", "explanation": "Köprüler genellikle nehirlerin üzerinden geçmek için kurulur, bu yüzden aynı doğal ve yapay çevrenin parçasıdır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağlar nehirle doğrudan ilişkili değildir; nehir ile dağ arasında ortak bir kullanım bağlantısı yoktur."},
+    {"word": "fish", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Birçok balık türü nehirlerde yaşar."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Klavye nehirle ilgili bir kavram değildir ve aralarında bir bağlantı yoktur."},
+    {"word": "bank", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'River bank' sabit bir ifadedir ve nehir kıyısı anlamına gelir; Türkçe konuşanlar bunu yanlışlıkla banka ile karıştırabilir."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Nehir kelimesiyle ilgili kelimeler arasında doğal anlam, ortak yer ve sabit ifade bağlantıları vardır; dağ ve klavye ise ilişkisiz kalır."
+}

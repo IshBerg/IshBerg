@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the manager reviewed the figures more carefully,",
+  "correct_completion": "the company would have avoided the loss.",
+  "full_sentence": "Had the manager reviewed the figures more carefully, the company would have avoided the loss.",
+  "acceptable_variants": ["the firm could have prevented the loss.", "the company would not have suffered the loss."],
+  "options": [
+    {"text": "the report would be published tomorrow.", "is_correct": false, "why_wrong": "The third conditional requires a past hypothetical result, so 'would be published tomorrow' does not match the past 'Had reviewed'."},
+    {"text": "although the figures were accurate.", "is_correct": false, "why_wrong": "'Although' introduces a concession, which contradicts the hypothetical result that the inverted conditional requires."},
+    {"text": "the company would have avoided the loss.", "is_correct": true, "why_wrong": null},
+    {"text": "unless the data had changed.", "is_correct": false, "why_wrong": "This is a condition clause, not a result, so it cannot complete a sentence that already contains the conditional 'Had' clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional inversion with 'Had' and 'would have' in the main clause",
+  "connector": "had",
+  "explanation": "The inverted 'Had + subject + past participle' form replaces 'If'. The main clause must use 'would have' plus a past participle to describe the result of an unreal past situation.",
+  "translation": "Müdür rakamları daha dikkatli incelemiş olsaydı, şirket zararı önleyebilirdi."
+}
