@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the road was closed,",
+  "correct_completion": "the driver reached the city before noon.",
+  "full_sentence": "Even though the road was closed, the driver reached the city before noon.",
+  "acceptable_variants": ["the driver still reached the city before noon.", "the driver got there ahead of schedule."],
+  "options": [
+    {"text": "so the driver took a longer route home.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast, and does not complete the concession started by 'even though'."},
+    {"text": "the driver stayed in the car for hours.", "is_correct": false, "why_wrong": "This describes a situation but does not contrast with the expected difficulty of a closed road."},
+    {"text": "the driver reached the city before noon.", "is_correct": true, "why_wrong": null},
+    {"text": "the road was very wide.", "is_correct": false, "why_wrong": "This adds a description of the road but does not give the contrasting outcome expected after 'even though'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', we need an outcome that contrasts with the expected result of a closed road. Polish speakers often confuse 'even though' with 'so', because both can follow a similar word order, but 'even though' signals concession rather than cause.",
+  "translation": "Mimo że droga była zamknięta, kierowca dotarł do miasta przed południem."
+}
