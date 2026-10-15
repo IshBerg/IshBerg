@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bark",
+  "all_words": [
+    {"word": "dog", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Bark' oznacza dźwięk wydawany przez psa, więc to bezpośrednie znaczenie tego słowa."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku ze słowem 'bark', ani w znaczeniu, ani w połączeniach wyrazowych."},
+    {"word": "barque", "is_associated": true, "association_type": "PHONETIC", "explanation": "'Barque' jest wymawiane tak samo jak 'bark', co tworzy grę słów z dźwiękiem; oznacza mały statek żaglowy."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "Lampa nie ma żadnego związku z żadnym znaczeniem słowa 'bark'."},
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Bark' to też kora drzewa, czyli zewnętrzna warstwa pnia; to drugie znaczenie tego słowa."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek nie ma żadnego związku z żadnym znaczeniem słowa 'bark'."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'bark' ma znaczenia: szczekanie psa i korę drzewa, a dzięki homofonii wiąże się też ze słowem 'barque'; pozostałe wyrazy nie mają związku."
+}
