@@ -1,0 +1,14 @@
+{
+  "trigger_word": "run",
+  "all_words": [
+    {"word": "marathon", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Марафон — це довга бігова гонка, і в англійській мові ми говоримо 'run a marathon', тобто 'пробігти марафон'."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно — це музичний інструмент, і воно не пов'язане з бігом."},
+    {"word": "shoes", "is_associated": true, "association_type": "THEMATIC", "explanation": "Кросівки — це взуття, яке люди надягають для бігу, тому слово належить до однієї тематичної групи."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Міст — це споруда для переходу через річку або дорогу, і він не пов'язаний із бігом."},
+    {"word": "race", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Забіг або перегони — це змагання з бігу, тому значення цих слів тісно пов'язані."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "Лампа — це предмет для освітлення і не має жодного зв'язку з бігом."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані з 'run' слова описують бігові змагання, спорядження для бігу або саму дію бігу."
+}
