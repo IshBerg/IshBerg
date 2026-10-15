@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "discussion", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dyskusja i argument znaczą podobną rzecz: wymianę zdań na temat, o którym ludzie mają różne zdania."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Poduszka służy do spania i nie ma żadnego związku z kłótnią ani z prowadzeniem sporu."},
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dowody należą do tego samego tematu, ponieważ dobry argument opiera się na dowodach."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Most to konstrukcja inżynierska i nie jest powiązany z żadnym aspektem argumentacji."},
+    {"word": "opponent", "is_associated": true, "association_type": "THEMATIC", "explanation": "Przeciwnik to osoba, która przedstawia odmienne argumenty w sporze, więc słowo należy do tego samego pola znaczeniowego."},
+    {"word": "compelling", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "W języku angielskim mówi się 'compelling argument' (przekonujący argument), więc to naturalne połączenie wyrazów."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z 'argument' dotyczą dyskusji, dowodów, przeciwników i typowych określeń, natomiast pozostałe wyrazy nie mają związku z tematem sporu."
+}
