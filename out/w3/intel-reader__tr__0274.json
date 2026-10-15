@@ -1,0 +1,19 @@
+{
+  "title": "My Living Room",
+  "text": "This is my living room. It is big and bright. There is a blue sofa next to the window, and a small table in the middle of the room.\n\nOn the table there is a lamp and a book. My family likes to sit here in the evening. We watch TV and talk together.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is the sofa?", "options": ["Red", "Blue", "Green", "White"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is on the table?", "options": ["A lamp and a book", "A TV and a sofa", "A window and a bed", "A plate and a cup"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does the family probably like the living room?", "options": ["It is cold and dark", "It is a comfortable place to spend time together", "It is very small", "It has no furniture"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What time of day do they usually spend time in the living room?", "options": ["In the morning", "At lunch time", "In the evening", "At midnight"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "sofa", "translation": "koltuk", "definition": "a long soft seat for two or more people"},
+    {"word": "lamp", "translation": "lamba", "definition": "a light that you can put on a table or stand"},
+    {"word": "bright", "translation": "parlak", "definition": "full of light"}
+  ],
+  "paragraph_translations": [
+    "Bu benim oturma odam. Büyük ve parlak. Pencerenin yanında mavi bir koltuk ve odanın ortasında küçük bir masa var.",
+    "Masanın üzerinde bir lamba ve bir kitap var. Ailem akşamları burada oturmayı sever. Birlikte televizyon izler ve konuşuruz."
+  ]
+}
