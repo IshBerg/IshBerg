@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister is not at home right now, so",
+  "correct_completion": "I will call her later.",
+  "full_sentence": "My sister is not at home right now, so I will call her later.",
+  "acceptable_variants": ["I will phone her this evening.", "I'll call her after lunch."],
+  "options": [
+    {"text": "I will call her later.", "is_correct": true, "why_wrong": null},
+    {"text": "I called her yesterday.", "is_correct": false, "why_wrong": "The past tense does not fit the plan for the present situation, and 'yesterday' conflicts with 'right now'."},
+    {"text": "I am going to call her now.", "is_correct": false, "why_wrong": "The stem already says she is not at home, so calling her now is not the expected result of the stem."},
+    {"text": "I have called her many times.", "is_correct": false, "why_wrong": "The present perfect describes past experience, which does not complete the logical result after 'so'."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns with the future simple",
+  "connector": "so",
+  "explanation": "After 'so', the sentence needs a result of the first clause. The object pronoun 'her' follows the verb 'call', and the future with 'will' expresses the plan.",
+  "translation": "Моєї сестри зараз немає вдома, тому я зателефоную їй пізніше."
+}
