@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the team really needed was",
+  "correct_completion": "a clear plan of action.",
+  "full_sentence": "What the team really needed was a clear plan of action.",
+  "acceptable_variants": ["a clearer sense of direction.", "someone to set clear priorities."],
+  "options": [
+    {"text": "they were wearing new uniforms.", "is_correct": false, "why_wrong": "This describes the team rather than what they needed, so it breaks the focus of the cleft structure."},
+    {"text": "the coffee machine was broken again.", "is_correct": false, "why_wrong": "This describes a problem rather than a need, so it does not complete the cleft."},
+    {"text": "a clear plan of action.", "is_correct": true, "why_wrong": null},
+    {"text": "to be finished by Friday.", "is_correct": false, "why_wrong": "A deadline is a constraint, not what the team needed most, and the sentence would need a different structure to express it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Pseudo-cleft sentences with 'what' clauses",
+  "connector": "what",
+  "explanation": "A pseudo-cleft sentence starts with a 'what' clause and places the key information after 'was'. The completion must be a noun phrase that answers the question of what the team needed most.",
+  "translation": "Те, що команді справді було потрібно, — це чіткий план дій."
+}
