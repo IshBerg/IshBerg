@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Unless you hurry,",
+  "correct_completion": "you will miss the bus.",
+  "full_sentence": "Unless you hurry, you will miss the bus.",
+  "acceptable_variants": ["you will be late for school.", "you will not reach the station on time."],
+  "options": [
+    {"text": "you hurried to the station.", "is_correct": false, "why_wrong": "The past tense describes a finished action. 'Unless' needs a result clause about what happens if the condition is not met."},
+    {"text": "you will miss the bus.", "is_correct": true, "why_wrong": null},
+    {"text": "you were happy about it.", "is_correct": false, "why_wrong": "This gives an emotion that has no logical link to the condition introduced by 'unless'."},
+    {"text": "you should hurry and catch it.", "is_correct": false, "why_wrong": "This is advice, not a consequence. 'Unless' introduces a conditional result, not a suggestion."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'unless'",
+  "connector": "unless",
+  "explanation": "'Unless' means 'if not', so the main clause must state the likely result when the condition in the first part is not met.",
+  "translation": "Acele etmezsen otobüsü kaçıracaksın."
+}

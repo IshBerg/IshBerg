@@ -1,0 +1,14 @@
+{
+  "trigger_word": "break",
+  "all_words": [
+    {"word": "down", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Break down' bir araba veya makine arızalandığında kullanılan yaygın bir phrasal verb'dür."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "Elma bir meyvedir ve 'break' kelimesiyle bir kalıp oluşturmaz."},
+    {"word": "glass", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Cam kırılabilen bir maddedir, bu yüzden 'break' ile anlamsal olarak ilişkilidir."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Sandalye 'break' ile birlikte yaygın bir kullanım oluşturmaz."},
+    {"word": "heart", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Break someone's heart' üzüntü verdiğini anlatan yaygın bir deyimdir."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Nehir 'break' kelimesiyle ne anlamsal ne de kalıpsal bir bağlantı kurar."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Break' kelimesiyle ilişkili olanlar 'break down', 'break ... glass' ve 'break ... heart' gibi kalıplardır; diğer kelimeler bu kalıplara uymaz."
+}

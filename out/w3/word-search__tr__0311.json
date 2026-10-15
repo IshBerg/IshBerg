@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "R", "A", "I", "N", "Q", "W", "Z", "K", "H"],
+    ["P", "L", "J", "D", "U", "S", "V", "G", "Y", "O"],
+    ["B", "N", "K", "F", "M", "A", "P", "Q", "X", "T"],
+    ["C", "U", "Y", "R", "W", "D", "Z", "M", "J", "E"],
+    ["S", "K", "G", "V", "H", "Q", "N", "X", "F", "L"],
+    ["B", "O", "W", "Q", "J", "K", "T", "S", "D", "G"],
+    ["R", "E", "V", "N", "S", "L", "U", "I", "A", "K"],
+    ["U", "W", "A", "D", "G", "Y", "O", "P", "T", "F"],
+    ["M", "Z", "J", "C", "N", "B", "Q", "E", "V", "R"],
+    ["K", "D", "L", "X", "H", "P", "W", "G", "Q", "S"]
+  ],
+  "words_to_find": ["TRAIN", "HOTEL", "BEACH", "MAP"],
+  "word_positions": [
+    {"word": "TRAIN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOTEL", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "BEACH", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MAP", "start_row": 2, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Travel Adventures"
+}
