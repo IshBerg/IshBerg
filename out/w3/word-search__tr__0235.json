@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "I", "Z", "Z", "A", "Q", "X", "J", "K", "M"],
+    ["R", "T", "Y", "U", "I", "O", "P", "L", "K", "E"],
+    ["H", "G", "F", "D", "S", "A", "Z", "X", "C", "N"],
+    ["B", "N", "M", "V", "C", "X", "Z", "Q", "W", "U"],
+    ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
+    ["Y", "Z", "S", "A", "L", "A", "D", "K", "J", "B"],
+    ["G", "H", "J", "K", "L", "Z", "X", "C", "V", "B"],
+    ["M", "N", "B", "V", "C", "X", "Z", "Q", "W", "E"],
+    ["T", "Y", "U", "I", "O", "P", "L", "K", "J", "H"],
+    ["G", "H", "J", "K", "L", "R", "E", "T", "A", "W"]
+  ],
+  "words_to_find": ["PIZZA", "MENU", "SALAD", "WATER"],
+  "word_positions": [
+    {"word": "PIZZA", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MENU", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SALAD", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "WATER", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Ordering Food"
+}
