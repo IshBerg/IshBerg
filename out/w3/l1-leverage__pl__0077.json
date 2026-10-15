@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "wirus", "transliteration": "wirus", "meaning": "virus"},
+    {"word": "alergia", "transliteration": "alergia", "meaning": "allergy"},
+    {"word": "witamina", "transliteration": "witamina", "meaning": "vitamin"},
+    {"word": "diagnoza", "transliteration": "diagnoza", "meaning": "diagnosis"}
+  ],
+  "english_words": ["vitamin", "virus", "diagnosis", "allergy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each of these English words and its Polish counterpart were borrowed from Latin or Greek medical and scientific vocabulary, so the spelling and sound stayed close in both languages.",
+  "false_friend_warning": null
+}
