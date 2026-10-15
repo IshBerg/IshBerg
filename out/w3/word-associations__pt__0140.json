@@ -1,0 +1,14 @@
+{
+  "trigger_word": "smile",
+  "all_words": [
+    {"word": "laugh", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Rir' e 'sorrir' são reações de alegria e bom humor, por isso estão ligadas."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Cadeira é um móvel e não tem relação com sorriso."},
+    {"word": "teeth", "is_associated": true, "association_type": "THEMATIC", "explanation": "Os dentes aparecem quando a pessoa sorri, por isso fazem parte do mesmo tema."},
+    {"word": "happy", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Happy smile' (sorriso feliz) é uma combinação comum em inglês."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rio é um elemento da natureza e não se relaciona com sorriso."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Nuvem é um fenômeno do céu e não tem relação com sorriso."}
+  ],
+  "correct_indices": [0, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao sorriso ligam-se a emoções, ao rosto ou a expressões comuns em inglês; as outras não têm relação com ele."
+}
