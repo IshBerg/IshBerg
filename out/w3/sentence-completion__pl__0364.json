@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the article presented strong statistics,",
+  "correct_completion": "several readers questioned how the data had been collected.",
+  "full_sentence": "Although the article presented strong statistics, several readers questioned how the data had been collected.",
+  "acceptable_variants": ["many people still doubted its conclusions.", "the editors later added a correction about the sample size."],
+  "options": [
+    {"text": "so the readers trusted every claim.", "is_correct": false, "why_wrong": "'Although' signals contrast, but this option expresses agreement and a result, so it does not complete the contrast."},
+    {"text": "several readers questioned how the data had been collected.", "is_correct": true, "why_wrong": null},
+    {"text": "the article was published in a newspaper.", "is_correct": false, "why_wrong": "This adds neutral background information but does not provide the contrasting reaction expected after 'although'."},
+    {"text": "the statistics were presented in a table.", "is_correct": false, "why_wrong": "This describes the format of the presentation, which does not contrast with the strength of the statistics."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Polish speakers often reach for a second contrast marker in the main clause, but English needs only one contrast connector in this structure.",
+  "translation": "Chociaż artykuł przedstawiał mocne statystyki, kilku czytelników kwestionowało sposób, w jaki zebrano dane."
+}
