@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "R", "U", "T", "H", "K", "Q", "H"],
+    ["J", "V", "B", "N", "W", "Z", "X", "O"],
+    ["U", "L", "D", "F", "G", "Y", "M", "P"],
+    ["S", "A", "K", "Q", "R", "D", "W", "E"],
+    ["T", "N", "J", "O", "B", "X", "L", "V"],
+    ["I", "P", "E", "A", "C", "E", "Z", "K"],
+    ["C", "W", "Q", "F", "M", "S", "H", "D"],
+    ["E", "G", "R", "B", "L", "P", "Y", "T"]
+  ],
+  "words_to_find": ["TRUTH", "HOPE", "PEACE", "JUSTICE"],
+  "word_positions": [
+    {"word": "TRUTH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOPE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "PEACE", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "JUSTICE", "start_row": 1, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Abstract Concepts"
+}
