@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the company invested in staff training,",
+  "correct_completion": "it would not have lost so many customers.",
+  "full_sentence": "Had the company invested in staff training, it would not have lost so many customers.",
+  "acceptable_variants": ["it wouldn't have lost so many customers.", "it would have kept far more of its customers."],
+  "options": [
+    {"text": "it will not lose many customers today.", "is_correct": false, "why_wrong": "An inverted third conditional needs a 'would have' result clause to describe an imagined past outcome; 'will not lose ... today' refers to the present or future instead."},
+    {"text": "the company loses customers every year.", "is_correct": false, "why_wrong": "This states a general fact and does not complete the hypothetical result of the condition introduced by 'had'."},
+    {"text": "it would not have lost so many customers.", "is_correct": true, "why_wrong": null},
+    {"text": "it has lost so many customers recently.", "is_correct": false, "why_wrong": "The present perfect reports a real past fact, not the imagined result of an unreal condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle, without 'if')",
+  "connector": "had",
+  "explanation": "Here 'had' begins an inverted conditional clause that replaces 'if', so the main clause must use 'would have' plus a past participle. Portuguese speakers often try to use a simple past or a plain future in the result clause, because Portuguese conditional structures are built differently; in English the result must match the unreal past condition.",
+  "translation": "Se a empresa tivesse investido em treinamento da equipe, não teria perdido tantos clientes."
+}

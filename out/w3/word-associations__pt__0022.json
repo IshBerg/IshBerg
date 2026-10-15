@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A enfermeira trabalha diretamente no hospital, por isso está semanticamente ligada ao tema."},
+    {"word": "stethoscope", "is_associated": true, "association_type": "THEMATIC", "explanation": "O estetoscópio é um instrumento típico usado pelos médicos dentro do hospital."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "O trator pertence ao contexto agrícola e não tem nenhuma relação com o ambiente hospitalar."},
+    {"word": "ambulance", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A ambulância é o veículo que costuma levar pacientes ao hospital, formando uma combinação comum."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "O violino não tem nenhuma ligação com o ambiente hospitalar."},
+    {"word": "patient", "is_associated": true, "association_type": "THEMATIC", "explanation": "O paciente é a pessoa atendida no hospital, o que cria uma relação temática direta."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao hospital são as que se referem a pessoas, objetos e serviços desse ambiente; palavras de outros contextos, como trator e violino, não se associam."
+}
