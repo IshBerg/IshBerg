@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the old house had stood empty for decades,",
+  "correct_completion": "its windows still glowed faintly at dusk.",
+  "full_sentence": "Although the old house had stood empty for decades, its windows still glowed faintly at dusk.",
+  "acceptable_variants": ["a faint light still flickered in one of its upper rooms.", "its garden remained surprisingly green."],
+  "options": [
+    {"text": "because it was built by a famous architect.", "is_correct": false, "why_wrong": "'Because' signals cause and clashes with 'although', which signals contrast."},
+    {"text": "so the villagers had long since forgotten it.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast with the empty house."},
+    {"text": "its windows still glowed faintly at dusk.", "is_correct": true, "why_wrong": null},
+    {"text": "it was full of dust and broken furniture.", "is_correct": false, "why_wrong": "This continues the description of emptiness rather than contrasting with it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' (contrast between the two clauses)",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. An empty house is expected to be dark and lifeless, so a clause showing signs of life creates the contrast. Learners may be tempted to use a cause connector here because of a similar-looking connector in their first language, but 'although' always signals concession.",
+  "translation": "Aunque la vieja casa llevaba décadas vacía, sus ventanas aún brillaban tenuemente al anochecer."
+}
