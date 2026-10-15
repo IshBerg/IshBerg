@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["C", "A", "T", "X", "X", "D", "Q", "W"],
+    ["X", "K", "L", "M", "N", "O", "P", "R"],
+    ["Z", "E", "V", "B", "Y", "G", "J", "K"],
+    ["P", "M", "Q", "W", "L", "Z", "E", "B"],
+    ["X", "F", "I", "S", "H", "U", "W", "I"],
+    ["K", "P", "N", "Q", "J", "T", "L", "R"],
+    ["M", "V", "E", "Y", "A", "Q", "O", "D"],
+    ["Z", "J", "U", "C", "L", "W", "K", "X"]
+  ],
+  "words_to_find": ["CAT", "DOG", "FISH", "BIRD"],
+  "word_positions": [
+    {"word": "CAT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DOG", "start_row": 0, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "FISH", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "BIRD", "start_row": 3, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Pets and Caring for Animals"
+}
