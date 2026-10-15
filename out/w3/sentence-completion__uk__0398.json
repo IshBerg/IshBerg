@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I am very busy,",
+  "correct_completion": "I will reply to your email tomorrow.",
+  "full_sentence": "Although I am very busy, I will reply to your email tomorrow.",
+  "acceptable_variants": ["I will write back as soon as I can.", "I will answer you soon."],
+  "options": [
+    {"text": "so I cannot write now.", "is_correct": false, "why_wrong": "'So' shows a result, but after 'although' the sentence needs a contrasting action."},
+    {"text": "I will reply to your email tomorrow.", "is_correct": true, "why_wrong": null},
+    {"text": "I am busy every day.", "is_correct": false, "why_wrong": "This repeats the reason from the stem and does not give the contrasting action expected after 'although'."},
+    {"text": "I have a lot of work.", "is_correct": false, "why_wrong": "This adds more information about being busy but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Here the contrast is between being busy and still replying.",
+  "translation": "Хоча я дуже зайнятий, я відповім на твій лист завтра."
+}
