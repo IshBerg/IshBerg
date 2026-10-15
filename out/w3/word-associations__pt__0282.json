@@ -1,0 +1,14 @@
+{
+  "trigger_word": "lantern",
+  "all_words": [
+    {"word": "candle", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Uma vela também produz luz, por isso está semanticamente ligada à lanterna."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Um trator não tem relação com lanternas nem com a ideia de luz portátil."},
+    {"word": "shadow", "is_associated": true, "association_type": "THEMATIC", "explanation": "Sombras aparecem quando uma lanterna ilumina um objeto, então o tema é o mesmo."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Uma geleira pertence ao universo do gelo e do frio, sem ligação com lanternas."},
+    {"word": "dusk", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lanternas são usadas ao entardecer e à noite, uma situação tematicamente comum."},
+    {"word": "spreadsheet", "is_associated": false, "association_type": "NONE", "explanation": "Uma planilha pertence ao mundo dos dados e não tem relação com iluminação."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas à lanterna se relacionam com luz, escuridão e situações noturnas, enquanto as demais pertencem a outros campos."
+}
