@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By next June,",
+  "correct_completion": "I will have been working here for ten years.",
+  "full_sentence": "By next June, I will have been working here for ten years.",
+  "acceptable_variants": ["I will have worked here for a decade.", "I will have spent ten years working here."],
+  "options": [
+    {"text": "I have been working here for ten years.", "is_correct": false, "why_wrong": "The present perfect continuous looks back from now and does not fit a future point marked by 'by next June'."},
+    {"text": "I will have been working here for ten years.", "is_correct": true, "why_wrong": null},
+    {"text": "I was working here for ten years.", "is_correct": false, "why_wrong": "The past continuous describes a past period, but the stem points to a future time."},
+    {"text": "I worked here for ten years.", "is_correct": false, "why_wrong": "The simple past refers to a finished period in the past and cannot complete a future time expression."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect continuous with 'by' for duration up to a future point",
+  "connector": "by",
+  "explanation": "The future perfect continuous shows an action that will still be in progress up to a future point, here marked by 'by next June'. Spanish speakers often use a simple future or a present form here, because Spanish has no direct equivalent that combines future, perfect and continuous meaning in the same way.",
+  "translation": "Para junio del próximo año, habré estado trabajando aquí durante diez años."
+}

@@ -1,0 +1,13 @@
+{
+  "start_word": "certain",
+  "end_word": "impossible",
+  "ladder_steps": [
+    {"word": "certain", "translation": "seguro", "intensity_level": 1},
+    {"word": "likely", "translation": "probable", "intensity_level": 2},
+    {"word": "possible", "translation": "posible", "intensity_level": 3},
+    {"word": "unlikely", "translation": "poco probable", "intensity_level": 4},
+    {"word": "impossible", "translation": "imposible", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Probability words form a ladder from complete certainty to complete impossibility, and each step is less sure than the one before."
+}
