@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "A", "R", "A", "P", "H", "R", "A", "S", "E"],
+    ["K", "J", "Q", "W", "Z", "X", "B", "L", "D", "S"],
+    ["F", "M", "V", "K", "T", "Z", "U", "G", "N", "Y"],
+    ["B", "X", "D", "L", "Q", "W", "H", "C", "J", "N"],
+    ["Z", "K", "P", "I", "U", "T", "D", "F", "W", "O"],
+    ["V", "B", "G", "Q", "S", "L", "K", "Y", "Z", "N"],
+    ["H", "J", "E", "A", "W", "P", "K", "Z", "X", "Y"],
+    ["L", "F", "C", "Q", "V", "B", "N", "H", "D", "M"],
+    ["U", "E", "R", "T", "I", "O", "J", "Q", "K", "W"],
+    ["R", "Q", "W", "Z", "M", "G", "L", "O", "S", "S"]
+  ],
+  "words_to_find": ["PARAPHRASE", "SYNONYM", "RECAST", "GLOSS"],
+  "word_positions": [
+    {"word": "PARAPHRASE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SYNONYM", "start_row": 1, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "RECAST", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "GLOSS", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Restatement: Equivalent Meanings"
+}

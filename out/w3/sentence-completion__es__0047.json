@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister likes pop music, but",
+  "correct_completion": "she doesn't like rock music.",
+  "full_sentence": "My sister likes pop music, but she doesn't like rock music.",
+  "acceptable_variants": ["she doesn't enjoy rock songs.", "she isn't a fan of rock bands."],
+  "options": [
+    {"text": "she likes rock music too.", "is_correct": false, "why_wrong": "'But' introduces a contrast. This option agrees with the first clause instead of contrasting with it."},
+    {"text": "she likes to sing at home.", "is_correct": false, "why_wrong": "This adds a new fact about singing, but it does not contrast her taste in music."},
+    {"text": "she likes it a lot.", "is_correct": false, "why_wrong": "This repeats the positive idea of the first clause, so it does not create the contrast that 'but' requires."},
+    {"text": "she doesn't like rock music.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present simple: like / don't like with a contrasting clause",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the first part. In the present simple, the negative form uses don't or doesn't with the base verb.",
+  "translation": "Mi hermana escucha música pop, pero no le gusta la música rock."
+}
