@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been consulted earlier,",
+  "correct_completion": "the policy would almost certainly have taken a different shape.",
+  "full_sentence": "Had the committee been consulted earlier, the policy would almost certainly have taken a different shape.",
+  "acceptable_variants": ["the policy would probably have looked quite different.", "the outcome might have been very different."],
+  "options": [
+    {"text": "the policy would be drafted differently today.", "is_correct": false, "why_wrong": "'Today' conflicts with the past time frame set by the inverted 'Had' clause, which refers to an earlier moment."},
+    {"text": "so the policy was adopted without changes.", "is_correct": false, "why_wrong": "This uses a simple past statement of what actually happened and introduces a cause, but the stem requires a hypothetical result."},
+    {"text": "the policy would almost certainly have taken a different shape.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee has already been consulted.", "is_correct": false, "why_wrong": "The present perfect states a fact and contradicts the counterfactual meaning that the inverted 'Had' clause sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'if', so the main clause needs 'would have' followed by a past participle. Options with present, simple past or present perfect forms break this counterfactual pattern.",
+  "translation": "Si el comité hubiera sido consultado antes, la política habría tomado casi seguramente una forma diferente."
+}
