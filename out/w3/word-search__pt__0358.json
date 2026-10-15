@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "I", "N", "T", "M", "Q", "Z", "X", "I"],
+    ["K", "B", "R", "D", "E", "W", "J", "S", "M"],
+    ["V", "F", "O", "G", "A", "T", "Y", "D", "P"],
+    ["Q", "W", "E", "R", "N", "C", "B", "H", "L"],
+    ["C", "J", "K", "X", "I", "M", "T", "R", "Y"],
+    ["A", "L", "P", "S", "N", "D", "F", "K", "W"],
+    ["Z", "X", "U", "Q", "G", "V", "B", "N", "M"],
+    ["R", "T", "Y", "E", "O", "P", "L", "S", "D"],
+    ["G", "H", "I", "N", "F", "E", "R", "Q", "T"]
+  ],
+  "words_to_find": ["HINT", "IMPLY", "CLUE", "INFER", "MEANING"],
+  "word_positions": [
+    {"word": "HINT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IMPLY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CLUE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "INFER", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "MEANING", "start_row": 0, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Understanding Implicit Meanings"
+}
