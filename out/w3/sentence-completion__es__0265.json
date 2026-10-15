@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The novel,",
+  "correct_completion": "which my teacher recommended, is very difficult to read.",
+  "full_sentence": "The novel, which my teacher recommended, is very difficult to read.",
+  "acceptable_variants": ["which was suggested by my teacher, is very hard to read.", "which my teacher recommended last year, is quite challenging."],
+  "options": [
+    {"text": "who my teacher recommended, is very difficult to read.", "is_correct": false, "why_wrong": "'Who' refers to people, not to a novel. Use 'which' for things in a non-defining clause."},
+    {"text": "where my teacher recommended, is very difficult to read.", "is_correct": false, "why_wrong": "'Where' refers to places, not to objects like a novel."},
+    {"text": "which my teacher recommended, is very difficult to read.", "is_correct": true, "why_wrong": null},
+    {"text": "whose my teacher recommended, is very difficult to read.", "is_correct": false, "why_wrong": "'Whose' must be followed by a noun and shows possession. This sentence has no noun after it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'which'",
+  "connector": "which",
+  "explanation": "A non-defining relative clause is set off by commas and adds extra information about a noun that is already identified. For things, the relative pronoun is 'which'.",
+  "translation": "La novela, que mi profesor recomendó, es muy difícil de leer."
+}
