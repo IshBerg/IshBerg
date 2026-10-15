@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would be working in a better job now.",
+  "full_sentence": "If I had studied harder last year, I would be working in a better job now.",
+  "acceptable_variants": ["I would have a better job today.", "I would be in a much better position now."],
+  "options": [
+    {"text": "I will be working in a better job now.", "is_correct": false, "why_wrong": "A mixed conditional with an unreal past condition uses 'would' in the result, not 'will'."},
+    {"text": "I work in a better job now.", "is_correct": false, "why_wrong": "This states a present fact and does not express the unreal result of the past condition."},
+    {"text": "I had worked in a better job then.", "is_correct": false, "why_wrong": "This refers to a past result, but a mixed conditional needs a present result, marked by 'now'."},
+    {"text": "I would be working in a better job now.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past unreal condition with a present unreal result",
+  "connector": "if",
+  "explanation": "A mixed conditional links a past unreal condition with a present unreal result. The condition uses the past perfect after 'if', and the result uses 'would' with a present form to refer to now. Speakers often keep the same tense in both clauses because their first language marks conditional meaning differently, so the time reference is easy to lose.",
+  "translation": "Якби я краще навчався минулого року, зараз я б працював на кращій роботі."
+}

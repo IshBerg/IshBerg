@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, topical"},
+    {"word": "експлуатація", "transliteration": "ekspluatatsiia", "meaning": "operation or use of machinery and equipment"},
+    {"word": "реалізувати", "transliteration": "realizuvaty", "meaning": "to implement or carry out a plan"},
+    {"word": "перспективний", "transliteration": "perspektyvnyi", "meaning": "promising, with good prospects"}
+  ],
+  "english_words": ["operation", "promising", "relevant", "implement"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Ukrainian words were borrowed from the same European roots as their English look-alikes, but over time their meanings moved apart, so the forms look close while the meanings differ.",
+  "false_friend_warning": "Four Ukrainian words look like English words but mean something else: 'aktualnyi' looks like 'actual' but means relevant, 'ekspluatatsiia' looks like 'exploitation' but means operation of machinery, 'realizuvaty' looks like 'realize' but means to implement, and 'perspektyvnyi' looks like 'perspective' but means promising."
+}
