@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Given that the evidence remains inconclusive,",
+  "correct_completion": "researchers should avoid drawing firm conclusions.",
+  "full_sentence": "Given that the evidence remains inconclusive, researchers should avoid drawing firm conclusions.",
+  "acceptable_variants": ["researchers should refrain from drawing firm conclusions.", "firm conclusions are best avoided for now."],
+  "options": [
+    {"text": "so researchers have drawn firm conclusions.", "is_correct": false, "why_wrong": "'So' adds a second connector to 'given that' and states a result that contradicts the premise of inconclusive evidence."},
+    {"text": "the evidence is conclusive and firm.", "is_correct": false, "why_wrong": "This contradicts the stem's premise that the evidence is inconclusive, so it cannot complete the logic."},
+    {"text": "although researchers should draw firm conclusions.", "is_correct": false, "why_wrong": "'Although' creates a double connector with 'given that' and introduces a contrast that the logic does not support."},
+    {"text": "researchers should avoid drawing firm conclusions.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Given that as a premise followed by a main clause that follows logically from it",
+  "connector": "given that",
+  "explanation": "'Given that' introduces a premise, and the main clause must follow logically from it. An inconclusive premise leads to caution, not to firm claims. Learners may be tempted to add a contrast word here, because the sentence feels like it should turn in a new direction, but the premise and the conclusion agree.",
+  "translation": "Dado que as evidências permanecem inconclusivas, os pesquisadores devem evitar tirar conclusões firmes."
+}
