@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["M", "O", "V", "I", "E", "R", "Z", "M"],
+    ["P", "L", "H", "K", "W", "B", "T", "U"],
+    ["J", "D", "Q", "F", "X", "L", "R", "S"],
+    ["G", "Y", "B", "V", "S", "H", "W", "I"],
+    ["A", "K", "L", "P", "O", "T", "R", "C"],
+    ["M", "Z", "Q", "X", "N", "B", "F", "D"],
+    ["E", "W", "J", "K", "G", "V", "P", "L"],
+    ["H", "Y", "D", "A", "N", "C", "E", "Q"]
+  ],
+  "words_to_find": ["MOVIE", "MUSIC", "GAME", "DANCE", "SONG"],
+  "word_positions": [
+    {"word": "MOVIE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MUSIC", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "GAME", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "DANCE", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "SONG", "start_row": 3, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Entertainment"
+}
