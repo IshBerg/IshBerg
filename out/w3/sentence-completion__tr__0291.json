@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "Anna is my sister, and",
+  "correct_completion": "she is very kind.",
+  "full_sentence": "Anna is my sister, and she is very kind.",
+  "acceptable_variants": ["she is very funny.", "she is my best friend."],
+  "options": [
+    {"text": "he is very kind.", "is_correct": false, "why_wrong": "'He' is a male pronoun, but Anna is a female name, so the pronoun does not match the subject."},
+    {"text": "she is very kind.", "is_correct": true, "why_wrong": null},
+    {"text": "they is very kind.", "is_correct": false, "why_wrong": "'They' is plural and cannot be used with 'is', and the stem refers to one person."},
+    {"text": "it is very kind.", "is_correct": false, "why_wrong": "'It' refers to things or animals, not to a person named Anna."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Subject pronouns that agree with the person named in the sentence",
+  "connector": "and",
+  "explanation": "The second clause needs a subject pronoun that refers back to Anna, who is one female person. Turkish speakers may be tempted to ignore gender in pronouns, but English requires the pronoun to match the person's gender."
+}
