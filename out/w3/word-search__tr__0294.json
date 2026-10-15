@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R","U","L","E","X","K","P","Q","M"],
+    ["B","Z","F","H","J","C","N","D","U"],
+    ["G","V","H","M","Q","W","K","R","S"],
+    ["N","C","Z","F","P","J","B","D","T"],
+    ["L","M","X","B","P","J","O","Q","H"],
+    ["Z","A","N","E","K","T","B","G","C"],
+    ["F","J","W","R","Q","M","E","P","X"],
+    ["H","V","C","K","L","S","Y","D","Q"],
+    ["A","B","C","G","D","U","T","Y","K"]
+  ],
+  "words_to_find": ["RULE", "MUST", "LAW", "DUTY", "OBEY"],
+  "word_positions": [
+    {"word": "RULE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MUST", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "LAW", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DUTY", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "OBEY", "start_row": 4, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Rules and Obligation"
+}
