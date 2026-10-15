@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["J", "U", "N", "E", "K", "Z", "P", "B", "L", "W"],
+    ["B", "I", "Q", "F", "K", "S", "W", "X", "Z", "D"],
+    ["G", "H", "V", "T", "C", "L", "P", "R", "M", "Q"],
+    ["Y", "U", "L", "O", "F", "G", "N", "W", "A", "K"],
+    ["S", "E", "B", "I", "D", "K", "T", "P", "Y", "J"],
+    ["M", "O", "Q", "V", "L", "Z", "X", "J", "F", "B"],
+    ["T", "A", "K", "W", "Z", "N", "H", "C", "U", "R"],
+    ["S", "G", "R", "Y", "I", "P", "E", "T", "A", "D"],
+    ["L", "B", "W", "C", "N", "X", "K", "O", "Q", "V"],
+    ["P", "Z", "D", "F", "H", "U", "S", "L", "G", "E"]
+  ],
+  "words_to_find": ["JUNE", "MAY", "MARCH", "DATE"],
+  "word_positions": [
+    {"word": "JUNE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MAY", "start_row": 2, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "MARCH", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DATE", "start_row": 7, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Months and Dates"
+}
