@@ -1,0 +1,17 @@
+{
+  "central_word": "dirty",
+  "chain_words": [
+    {"word": "untidy", "intensity": 1, "translation": "düzensiz", "nuance": "not neat, slightly out of order"},
+    {"word": "messy", "intensity": 2, "translation": "dağınık", "nuance": "in disorder, with things lying around"},
+    {"word": "dirty", "intensity": 3, "translation": "kirli", "nuance": "covered in dirt, general meaning"},
+    {"word": "grimy", "intensity": 4, "translation": "kirden lekeli", "nuance": "dirty in a thick, greasy or smudged way"},
+    {"word": "filthy", "intensity": 5, "translation": "çok pis", "nuance": "extremely dirty and unpleasant"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe something that is not clean, from slightly untidy to extremely dirty.",
+  "usage_notes": [
+    {"word1": "messy", "word2": "dirty", "difference": "'Messy' describes things that are in disorder, like a messy room; 'dirty' describes things covered in dirt, like dirty dishes."}
+  ],
+  "translations": {"untidy": "düzensiz", "messy": "dağınık", "dirty": "kirli", "grimy": "kirden lekeli", "filthy": "çok pis"}
+}

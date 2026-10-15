@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child, I used to",
+  "correct_completion": "play in the park every afternoon.",
+  "full_sentence": "When I was a child, I used to play in the park every afternoon.",
+  "acceptable_variants": ["visit my grandparents every summer.", "spend hours reading comics."],
+  "options": [
+    {"text": "played in the park every afternoon.", "is_correct": false, "why_wrong": "'Used to' must be followed by the base form of the verb, not the past form 'played'."},
+    {"text": "am playing in the park right now.", "is_correct": false, "why_wrong": "'Used to' cannot be followed by a continuous form. It also describes the present, while the stem asks for a past habit."},
+    {"text": "play in the park every afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "went to the park yesterday.", "is_correct": false, "why_wrong": "This describes one specific past event, not a repeated habit, and 'used to' cannot be followed by the past form 'went'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Used to + base verb for past habits",
+  "connector": "used to",
+  "explanation": "'Used to' describes a past habit or a situation that is no longer true, and it is always followed by the base form of the verb. Turkish speakers often use a simple past tense to report past habits, so they may write a past form after 'used to' by mistake.",
+  "translation": "Ben çocukken her öğleden sonra parkta oynardım."
+}
