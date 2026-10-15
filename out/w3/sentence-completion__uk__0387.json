@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before we go to the shop, we need to check",
+  "correct_completion": "if we have enough money.",
+  "full_sentence": "Before we go to the shop, we need to check if we have enough money.",
+  "acceptable_variants": ["whether we have enough money.", "if we have enough money for the shopping list."],
+  "options": [
+    {"text": "we went home yesterday.", "is_correct": false, "why_wrong": "This refers to the past, but the stem asks for something to check before shopping."},
+    {"text": "the bread is very fresh.", "is_correct": false, "why_wrong": "This describes the bread but does not complete the idea of checking something before going shopping."},
+    {"text": "if we have enough money.", "is_correct": true, "why_wrong": null},
+    {"text": "milk is in the fridge.", "is_correct": false, "why_wrong": "This is a fact about the fridge, not something we check before we go shopping."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'if'",
+  "connector": "if",
+  "explanation": "After 'check', we need a clause that says what we want to find out. 'If' introduces a condition, so the clause shows what must be true before we buy the shopping list items.",
+  "translation": "Перш ніж іти в магазин, нам треба перевірити, чи вистачить нам грошей."
+}
