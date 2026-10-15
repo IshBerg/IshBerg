@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the novel was written centuries ago,",
+  "correct_completion": "its themes remain strikingly relevant today.",
+  "full_sentence": "Although the novel was written centuries ago, its themes remain strikingly relevant today.",
+  "acceptable_variants": ["its characters still feel vividly alive.", "its moral questions continue to resonate with readers."],
+  "options": [
+    {"text": "so its themes remain relevant today.", "is_correct": false, "why_wrong": "'So' introduces a result. 'Although' introduces a concession, so the second clause must contrast with the first."},
+    {"text": "its themes remain strikingly relevant today.", "is_correct": true, "why_wrong": null},
+    {"text": "because its themes are relevant today.", "is_correct": false, "why_wrong": "'Because' gives a cause, which conflicts with the concessive meaning that 'although' sets up."},
+    {"text": "and its themes are still studied in schools.", "is_correct": false, "why_wrong": "'And' adds information without contrast, so the sentence does not express the concession that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "'Although' signals a concession. The main clause must express something unexpected given the age of the novel, so the reader expects its relevance to persist despite time. Spanish speakers often reach for a causal connector here because Spanish 'aunque' and 'porque' sit close together in ordinary speech, so the contrast needs deliberate attention.",
+  "translation": "Aunque la novela se escribió hace siglos, sus temas siguen siendo sorprendentemente actuales."
+}
