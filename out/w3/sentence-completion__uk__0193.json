@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the warnings from the forecasters,",
+  "correct_completion": "the organizers decided to hold the festival outdoors.",
+  "full_sentence": "Despite the warnings from the forecasters, the organizers decided to hold the festival outdoors.",
+  "acceptable_variants": ["the organizers still held the festival outdoors.", "the event went ahead as planned."],
+  "options": [
+    {"text": "so the organizers cancelled the festival entirely.", "is_correct": false, "why_wrong": "'Despite' signals contrast with the warnings and a decision to proceed; 'so' introduces a consequence, which reverses the intended contrast."},
+    {"text": "the festival was postponed until next year.", "is_correct": false, "why_wrong": "A postponement is a response that accepts the warnings, rather than proceeding in spite of them, so it does not express the intended contrast."},
+    {"text": "the organizers decided to hold the festival outdoors.", "is_correct": true, "why_wrong": null},
+    {"text": "the weather forecasts were largely accurate.", "is_correct": false, "why_wrong": "This states a fact about the forecasts rather than an action that contrasts with them, so it does not complete the sentence as intended."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive prepositional phrase 'despite' followed by a main clause",
+  "connector": "despite",
+  "explanation": "After 'despite', the main clause must describe an action that goes ahead in spite of the stated obstacle. Learners often mirror cause-and-effect patterns from their first language here, so a 'so' or 'because' type continuation is a common error.",
+  "translation": "Попри попередження синоптиків, організатори вирішили провести фестиваль на відкритому повітрі."
+}
