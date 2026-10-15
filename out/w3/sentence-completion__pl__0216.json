@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Far from being a mere formality,",
+  "correct_completion": "the audit uncovered serious irregularities in the accounts.",
+  "full_sentence": "Far from being a mere formality, the audit uncovered serious irregularities in the accounts.",
+  "acceptable_variants": ["the audit revealed major problems with the records.", "the audit exposed several serious errors in the accounts."],
+  "options": [
+    {"text": "the audit was carried out by three staff members.", "is_correct": false, "why_wrong": "This only states who did the work. It is neutral information and does not contrast with the idea of a mere formality."},
+    {"text": "so the auditors signed off without reading the files.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not fit the contrast set up by 'far from being'. It also repeats the idea of a formality instead of opposing it."},
+    {"text": "the audit uncovered serious irregularities in the accounts.", "is_correct": true, "why_wrong": null},
+    {"text": "because the deadline had already passed.", "is_correct": false, "why_wrong": "'Because' signals a cause. The structure 'far from being' needs a contrasting clause about the content of the audit, so a cause clause does not complete it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive structure 'far from being' followed by a main clause describing the contrasting result",
+  "connector": "far from being",
+  "explanation": "After 'far from being', the sentence needs a main clause that contrasts with the idea of a formality. Only the option describing serious findings does this; the other options give neutral facts, a result, or a cause.",
+  "translation": "Daleko od bycia zwykłą formalnością audyt ujawnił poważne nieprawidłowości w księgach."
+}

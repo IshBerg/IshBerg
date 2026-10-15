@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Most mosty są budowane nad rzekami lub innymi przeszkodami wodnymi, więc słowa są ze sobą silnie powiązane znaczeniowo."},
+    {"word": "sugar", "is_associated": false, "association_type": "NONE", "explanation": "Cukier nie ma żadnego związku z mostami ani z przeprawami; to przypadkowe słowo."},
+    {"word": "cross", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'cross' często występuje w połączeniu z rzeczownikiem 'bridge' (przejść przez most), dlatego tworzy typowe wyrażenie."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino nie ma związku z mostami; należy do innej dziedziny, czyli muzyki."},
+    {"word": "tunnel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Most i tunel to dwa rodzaje budowli komunikacyjnych, więc należą do tego samego tematu, czyli transportu."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek nie jest związany z mostami ani z budownictwem infrastrukturalnym."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'bridge' kojarzy się z rzeką, z przejściem przez przeszkodę i z transportem; pozostałe słowa nie mają z nim związku."
+}

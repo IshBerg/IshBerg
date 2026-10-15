@@ -1,0 +1,13 @@
+{
+  "start_word": "dry",
+  "end_word": "flooded",
+  "ladder_steps": [
+    {"word": "dry", "translation": "suchy", "intensity_level": 1},
+    {"word": "damp", "translation": "wilgotny", "intensity_level": 2},
+    {"word": "wet", "translation": "mokry", "intensity_level": 3},
+    {"word": "soaked", "translation": "przemoczony", "intensity_level": 4},
+    {"word": "flooded", "translation": "zalany", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words describing the amount of water form a ladder from completely dry to fully flooded, each step containing more water than the one before."
+}
