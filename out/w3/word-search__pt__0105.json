@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["P", "O", "V", "E", "R", "T", "Y", "R"],
+    ["A", "K", "L", "D", "B", "N", "W", "I"],
+    ["Q", "F", "Z", "K", "V", "L", "D", "G"],
+    ["B", "W", "H", "J", "O", "A", "N", "H"],
+    ["X", "P", "K", "Y", "T", "U", "D", "T"],
+    ["L", "Q", "B", "D", "E", "W", "G", "S"],
+    ["C", "R", "I", "M", "E", "Z", "K", "X"],
+    ["J", "A", "O", "Q", "W", "N", "F", "B"]
+  ],
+  "words_to_find": ["POVERTY", "RIGHTS", "CRIME", "VOTE"],
+  "word_positions": [
+    {"word": "POVERTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RIGHTS", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "CRIME", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VOTE", "start_row": 2, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Social Issues"
+}
