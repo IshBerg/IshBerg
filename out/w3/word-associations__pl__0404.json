@@ -1,0 +1,14 @@
+{
+  "trigger_word": "exam",
+  "all_words": [
+    {"word": "grade", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ocena jest bezpośrednio związana z egzaminem, ponieważ to wynik, jaki uczeń dostaje za test."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego znaczeniowego ani tematycznego związku z egzaminem."},
+    {"word": "pass", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówimy 'pass an exam' (zdać egzamin), więc to typowe połączenie wyrazowe."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka nie jest powiązana z egzaminem ani znaczeniowo, ani tematycznie."},
+    {"word": "pencil", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ołówek kojarzy się z egzaminem tematycznie, ponieważ uczniowie piszą nim podczas testu."},
+    {"word": "ship", "is_associated": false, "association_type": "NONE", "explanation": "Statek nie ma żadnego związku z egzaminem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'exam' kojarzy się z wynikami, zdawaniem i przyborami szkolnymi, a nie z przedmiotami z innych dziedzin życia."
+}
