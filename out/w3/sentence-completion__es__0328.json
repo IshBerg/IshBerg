@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the bus is late,",
+  "correct_completion": "we will wait a few minutes at the stop.",
+  "full_sentence": "If the bus is late, we will wait a few minutes at the stop.",
+  "acceptable_variants": ["we will wait for the next bus.", "we will walk to school."],
+  "options": [
+    {"text": "the map is on the wall.", "is_correct": false, "why_wrong": "This describes a location of an object. It does not give a result that follows the condition 'if the bus is late'."},
+    {"text": "we visited the museum last year.", "is_correct": false, "why_wrong": "This describes a past event. The sentence needs a future result after 'if' to complete the condition."},
+    {"text": "we will wait a few minutes at the stop.", "is_correct": true, "why_wrong": null},
+    {"text": "the timetable is blue.", "is_correct": false, "why_wrong": "This describes the color of the timetable. It does not give a result of the bus being late."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "The clause with 'if' describes a possible future situation. The main clause must give the future result, using 'will' plus a base verb.",
+  "translation": "Si el autobús llega tarde, esperaremos unos minutos en la parada."
+}
