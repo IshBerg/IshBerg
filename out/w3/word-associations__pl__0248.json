@@ -1,0 +1,14 @@
+{
+  "trigger_word": "research",
+  "all_words": [
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Laboratorium to miejsce, w którym prowadzi się badania naukowe, więc jest ściśle związane z pojęciem research."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Most nie ma żadnego związku z badaniami naukowymi ani z pracą akademicką."},
+    {"word": "experiment", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Eksperyment jest jedną z podstawowych metod badawczych, więc znaczeniowo jest blisko związany z research."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Poduszka to przedmiot codziennego użytku, który nie ma związku z badaniami."},
+    {"word": "data", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Research data to stały, często używany zwrot w języku akademickim, dlatego te słowa występują razem."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Hipoteza to założenie, które badanie ma sprawdzić, więc pojęcia są ze sobą silnie powiązane."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo research łączy się z miejscami pracy naukowej, metodami badawczymi, danymi i hipotezami, natomiast most i poduszka nie należą do tego pola znaczeniowego."
+}
