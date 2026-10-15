@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are no buses on Sundays, so",
+  "correct_completion": "we usually walk to the market.",
+  "full_sentence": "There are no buses on Sundays, so we usually walk to the market.",
+  "acceptable_variants": ["we often ride our bikes.", "we stay at home and rest."],
+  "options": [
+    {"text": "we take the bus every day.", "is_correct": false, "why_wrong": "This contradicts the stem: there are no buses on Sundays, so a bus ride cannot be the result."},
+    {"text": "the buses are very big.", "is_correct": false, "why_wrong": "This describes the buses, but it does not give a result of there being no buses on Sundays."},
+    {"text": "we usually walk to the market.", "is_correct": true, "why_wrong": null},
+    {"text": "there are many cars on the road.", "is_correct": false, "why_wrong": "This adds an unrelated fact about cars and does not follow from the lack of buses."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "There are with plural nouns, followed by 'so' to show a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. Because there are no buses, the result must be a way of travelling that does not use a bus. Learners often mix up 'so' and 'because', so check which part is the cause and which is the result.",
+  "translation": "No hay autobuses los domingos, así que normalmente caminamos al mercado."
+}

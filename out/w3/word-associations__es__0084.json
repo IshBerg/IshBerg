@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Las nubes no tienen relación con la escuela, así que no aparecen en el entorno escolar."},
+    {"word": "teacher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El profesor es una persona que trabaja en la escuela y enseña a los alumnos."},
+    {"word": "lemon", "is_associated": false, "association_type": "NONE", "explanation": "El limón es una fruta sin ninguna conexión con las actividades escolares."},
+    {"word": "book", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los libros se usan en la escuela para estudiar y aprender."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "El río pertenece a la naturaleza y no tiene relación con la vida escolar."},
+    {"word": "desk", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El pupitre es un mueble típico de la escuela, y las palabras school desk se usan juntas."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a school son personas, objetos y lugares que forman parte de la vida escolar."
+}
