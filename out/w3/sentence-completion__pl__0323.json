@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Ana asked me where",
+  "correct_completion": "I had put my keys.",
+  "full_sentence": "Ana asked me where I had put my keys.",
+  "acceptable_variants": ["I had left my keys at home.", "I had kept my keys in my bag."],
+  "options": [
+    {"text": "did I put my keys.", "is_correct": false, "why_wrong": "Reported questions keep the normal word order of a statement: subject before verb. There is no auxiliary inversion as in direct questions."},
+    {"text": "I put my keys.", "is_correct": false, "why_wrong": "After a past reporting verb such as 'asked', the tense usually moves back one step, so 'put' should become 'had put'."},
+    {"text": "I had put my keys.", "is_correct": true, "why_wrong": null},
+    {"text": "had I put my keys.", "is_correct": false, "why_wrong": "Inversion belongs to direct questions. In reported speech the word order returns to statement form."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Reported questions and backshifting of tenses",
+  "connector": "where",
+  "explanation": "A reported question uses statement word order and moves the tense back one step after a past reporting verb. Here the past simple in the direct question becomes the past perfect.",
+  "translation": "Ana zapytała mnie, gdzie położyłam klucze."
+}
