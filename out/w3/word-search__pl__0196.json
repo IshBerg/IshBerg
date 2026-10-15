@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["C", "O", "D", "E", "R", "Q", "C"],
+    ["Z", "K", "L", "B", "W", "J", "H"],
+    ["M", "N", "A", "S", "U", "Y", "I"],
+    ["F", "V", "P", "G", "X", "D", "P"],
+    ["B", "T", "P", "K", "L", "W", "R"],
+    ["J", "Q", "Z", "H", "M", "V", "Y"],
+    ["M", "O", "U", "S", "E", "Q", "A"]
+  ],
+  "words_to_find": ["CODE", "CHIP", "MOUSE", "APP"],
+  "word_positions": [
+    {"word": "CODE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHIP", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "MOUSE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "APP", "start_row": 2, "start_col": 2, "direction": "VERTICAL"}
+  ],
+  "topic": "Technology"
+}
