@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the meeting,",
+  "correct_completion": "I would have brought the documents with me.",
+  "full_sentence": "If I had known about the meeting, I would have brought the documents with me.",
+  "acceptable_variants": ["I would have come prepared.", "I would have prepared properly."],
+  "options": [
+    {"text": "I will bring the documents tomorrow.", "is_correct": false, "why_wrong": "This uses a future form, which does not fit an unreal past condition that describes what did not happen."},
+    {"text": "I would bring the documents now.", "is_correct": false, "why_wrong": "This uses a present conditional, so it refers to the present rather than to the past result of the unreal condition."},
+    {"text": "I would have brought the documents with me.", "is_correct": true, "why_wrong": null},
+    {"text": "I brought the documents yesterday.", "is_correct": false, "why_wrong": "This describes a past action that happened, but it does not complete the imagined result of the unreal condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional (unreal past) with 'if'",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined result. The result clause needs would have followed by the past participle. Turkish speakers often use the simple past in the result clause because Turkish marks this meaning with a single suffix, so the English perfect conditional must be learned as a separate pattern.",
+  "translation": "Toplantıdan haberim olsaydı, belgeleri yanımda getirirdim."
+}
