@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have never visited Japan, but",
+  "correct_completion": "I have always wanted to go there.",
+  "full_sentence": "I have never visited Japan, but I have always wanted to go there.",
+  "acceptable_variants": ["I would love to go there one day.", "I hope to visit it someday."],
+  "options": [
+    {"text": "I visited it last summer.", "is_correct": false, "why_wrong": "This contradicts 'never' in the first clause, so it cannot follow the stem."},
+    {"text": "I have always wanted to go there.", "is_correct": true, "why_wrong": null},
+    {"text": "I went there twice last year.", "is_correct": false, "why_wrong": "This also contradicts 'never' and uses the past simple for visits the stem denies."},
+    {"text": "so I know everything about its culture.", "is_correct": false, "why_wrong": "'So' shows cause or result, not contrast; the connector in this stem is 'but'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present perfect with 'never' and contrast with 'but'",
+  "connector": "but",
+  "explanation": "'But' introduces a contrast with the first clause. The first clause uses the present perfect with 'never' to say that the experience has not happened, so the second clause must show a different attitude or feeling. Portuguese speakers sometimes choose a past simple option because the Portuguese past tense covers both completed actions and past experiences, but English uses the present perfect with 'never' to talk about life experience up to now.",
+  "translation": "Eu nunca visitei o Japão, mas sempre quis ir até lá."
+}
