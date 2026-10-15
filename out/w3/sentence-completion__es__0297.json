@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the article claimed to be entirely objective,",
+  "correct_completion": "its author had received funding from the company it evaluated.",
+  "full_sentence": "Although the article claimed to be entirely objective, its author had received funding from the company it evaluated.",
+  "acceptable_variants": ["the author had close ties to the industry under review.", "several of its sources had a clear financial interest."],
+  "options": [
+    {"text": "so readers trusted its conclusions completely.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast with the first clause."},
+    {"text": "its author had received funding from the company it evaluated.", "is_correct": true, "why_wrong": null},
+    {"text": "the article was published in a national newspaper.", "is_correct": false, "why_wrong": "This adds neutral information but does not contrast with the claim of objectivity."},
+    {"text": "because the editors were very careful.", "is_correct": false, "why_wrong": "'Because' signals cause and clashes with 'although', which signals contrast."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in news and report writing",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. Here the claim of objectivity is contradicted by a financial link, which is the kind of concession that critical readers look for in reports.",
+  "translation": "Aunque el artículo afirmaba ser totalmente objetivo, su autor había recibido financiación de la empresa que evaluaba."
+}
