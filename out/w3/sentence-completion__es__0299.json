@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people prefer to drive,",
+  "correct_completion": "public transport is cheaper and cleaner.",
+  "full_sentence": "Although many people prefer to drive, public transport is cheaper and cleaner.",
+  "acceptable_variants": ["the bus is often the better choice for the city.", "buses reduce traffic and pollution."],
+  "options": [
+    {"text": "they drive to work every day.", "is_correct": false, "why_wrong": "This repeats the idea of driving. It does not show the contrast that 'although' requires."},
+    {"text": "public transport is cheaper and cleaner.", "is_correct": true, "why_wrong": null},
+    {"text": "so they never use buses.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. The connector 'although' needs a clause that contrasts with the first part."},
+    {"text": "cars are very expensive to buy.", "is_correct": false, "why_wrong": "This gives a fact about cars but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the writer needs a clause that contrasts with the first part of the sentence. Here the contrast is between a common preference for driving and a better alternative.",
+  "translation": "Aunque muchas personas prefieren conducir, el transporte público es más barato y más limpio."
+}
