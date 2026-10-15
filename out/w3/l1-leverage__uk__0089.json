@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "активний", "transliteration": "aktyvnyi", "meaning": "active"},
+    {"word": "оптимістичний", "transliteration": "optymistychnyi", "meaning": "optimistic"},
+    {"word": "нервовий", "transliteration": "nervovyi", "meaning": "nervous"},
+    {"word": "романтичний", "transliteration": "romantychnyi", "meaning": "romantic"}
+  ],
+  "english_words": ["nervous", "optimistic", "romantic", "active"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Ukrainian word and its English equivalent descend from the same Greek or Latin root, so their spellings stay close and the match can be guessed from the shared form.",
+  "false_friend_warning": null
+}
