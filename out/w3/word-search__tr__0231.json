@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "E", "N", "T", "R", "Q", "J", "K", "V", "P"],
+    ["B", "Z", "M", "H", "F", "G", "D", "X", "C", "L"],
+    ["H", "K", "R", "P", "Q", "L", "M", "T", "U", "A"],
+    ["F", "G", "J", "B", "N", "S", "D", "V", "R", "Y"],
+    ["K", "M", "Q", "T", "Z", "X", "B", "F", "W", "E"],
+    ["Q", "V", "J", "L", "P", "C", "H", "G", "N", "D"],
+    ["S", "N", "B", "J", "K", "T", "Q", "H", "L", "F"],
+    ["G", "A", "Y", "C", "M", "K", "F", "S", "P", "R"],
+    ["Z", "X", "W", "D", "H", "Q", "T", "A", "B", "M"],
+    ["N", "V", "K", "E", "T", "A", "J", "W", "Q", "C"]
+  ],
+  "words_to_find": ["WENT", "PLAYED", "SAW", "ATE", "WAS"],
+  "word_positions": [
+    {"word": "WENT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PLAYED", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SAW", "start_row": 6, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ATE", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "WAS", "start_row": 9, "start_col": 7, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Talking About Past Events"
+}
