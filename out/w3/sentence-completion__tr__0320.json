@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The garden gate is wide open.",
+  "correct_completion": "Someone must have left it that way.",
+  "full_sentence": "The garden gate is wide open. Someone must have left it that way.",
+  "acceptable_variants": ["Someone must have left it open.", "It must have been left open by someone."],
+  "options": [
+    {"text": "Someone should have left it that way.", "is_correct": false, "why_wrong": "'Should have' expresses criticism or regret about a past action, not a logical conclusion drawn from the present evidence."},
+    {"text": "Someone can have left it that way.", "is_correct": false, "why_wrong": "'Can have' is not a natural way to state a logical conclusion here. The strong deduction needs 'must have'."},
+    {"text": "Someone must have left it that way.", "is_correct": true, "why_wrong": null},
+    {"text": "Someone must left it that way.", "is_correct": false, "why_wrong": "A modal of deduction about the past needs 'have' followed by the past participle. 'Must left' is ungrammatical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal perfect of deduction: must have + past participle",
+  "connector": "must have",
+  "explanation": "The open gate is evidence, and we draw a strong conclusion about a past action from it. The modal perfect 'must have' plus the past participle expresses this logical deduction. Turkish speakers often use a plain past or an evidential form for this idea, so the explicit 'have' plus participle needs practice.",
+  "translation": "Bahçe kapısı sonuna kadar açık. Birisi onu böyle bırakmış olmalı."
+}
