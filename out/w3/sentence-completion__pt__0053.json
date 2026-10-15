@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna is an excellent cook, so",
+  "correct_completion": "her friends always ask her to make dinner.",
+  "full_sentence": "Anna is an excellent cook, so her friends always ask her to make dinner.",
+  "acceptable_variants": ["they often invite her to their parties.", "they always ask for her recipes."],
+  "options": [
+    {"text": "she never cooks at home.", "is_correct": false, "why_wrong": "This contradicts 'excellent cook' and does not show a result of cooking well."},
+    {"text": "she has a new car.", "is_correct": false, "why_wrong": "This is unrelated information. 'So' needs a result that follows from being a good cook."},
+    {"text": "her friends always ask her to make dinner.", "is_correct": true, "why_wrong": null},
+    {"text": "she is an actress in a film.", "is_correct": false, "why_wrong": "This adds a different job and does not follow from being an excellent cook."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' and the article 'an' before a vowel sound",
+  "connector": "so",
+  "explanation": "After 'so', we need a result that follows from the first clause. The article 'an' is used before 'excellent' because the word begins with a vowel sound, not because of its spelling.",
+  "translation": "Anna é uma excelente cozinheira, então seus amigos sempre lhe pedem para fazer o jantar."
+}
