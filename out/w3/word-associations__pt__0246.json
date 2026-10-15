@@ -1,0 +1,14 @@
+{
+  "trigger_word": "forest",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Árvore é o elemento central de uma floresta, por isso está diretamente ligada ao significado da palavra."},
+    {"word": "invoice", "is_associated": false, "association_type": "NONE", "explanation": "Fatura pertence ao campo do comércio e não tem nenhuma relação com florestas."},
+    {"word": "wildlife", "is_associated": true, "association_type": "THEMATIC", "explanation": "Vida selvagem é um tema típico de florestas, pois muitos animais vivem nesse ambiente."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Teclado é um objeto de informática e não se relaciona com florestas."},
+    {"word": "canopy", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Copa é a camada superior das árvores de uma floresta, portanto faz parte do mesmo campo semântico."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bicicleta é um meio de transporte e não tem ligação com o ambiente florestal."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a forest pertencem ao campo das plantas, dos animais e do ambiente natural; as demais pertencem a outros contextos, como comércio, tecnologia e transporte."
+}

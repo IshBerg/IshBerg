@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the shop was closed,",
+  "correct_completion": "we went to the park anyway.",
+  "full_sentence": "Even though the shop was closed, we went to the park anyway.",
+  "acceptable_variants": ["we still walked to the park.", "we took a walk instead."],
+  "options": [
+    {"text": "so we bought some bread.", "is_correct": false, "why_wrong": "'So' signals a result, but 'even though' signals a contrast with the closed shop."},
+    {"text": "because we needed milk.", "is_correct": false, "why_wrong": "'Because' introduces a reason, which contradicts the contrast that 'even though' requires."},
+    {"text": "we went to the park anyway.", "is_correct": true, "why_wrong": null},
+    {"text": "we are hungry now.", "is_correct": false, "why_wrong": "This describes a state but does not contrast with the closed shop."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the main clause must show an action that goes against the expected outcome of the first clause. Learners often choose a result or reason clause here, which breaks the contrast.",
+  "translation": "Embora a loja estivesse fechada, fomos ao parque mesmo assim."
+}
