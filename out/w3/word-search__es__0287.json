@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "E", "X", "T", "K", "Q", "W", "V", "Z", "E"],
+    ["A", "D", "S", "F", "G", "H", "L", "P", "C", "M"],
+    ["B", "N", "Y", "U", "I", "K", "R", "T", "W", "O"],
+    ["C", "G", "Q", "A", "D", "V", "F", "S", "H", "J"],
+    ["M", "L", "X", "E", "N", "P", "T", "Z", "K", "I"],
+    ["R", "U", "G", "W", "A", "S", "M", "D", "N", "Q"],
+    ["H", "E", "J", "B", "Y", "C", "O", "F", "L", "K"],
+    ["V", "Z", "P", "D", "R", "U", "G", "A", "T", "S"],
+    ["F", "Q", "W", "L", "Y", "N", "I", "E", "M", "C"],
+    ["D", "K", "G", "A", "Y", "X", "O", "B", "N", "I"]
+  ],
+  "words_to_find": ["TEXT", "EMOJI", "REPLY", "INBOX"],
+  "word_positions": [
+    {"word": "TEXT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EMOJI", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "REPLY", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "INBOX", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Text Messages"
+}
