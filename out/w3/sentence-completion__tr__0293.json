@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because she was tired,",
+  "correct_completion": "she went to bed early.",
+  "full_sentence": "Because she was tired, she went to bed early.",
+  "acceptable_variants": ["she slept for ten hours.", "she took a short nap on the sofa."],
+  "options": [
+    {"text": "she will go to the park tomorrow.", "is_correct": false, "why_wrong": "This is a plan for the future. It does not show the result of being tired."},
+    {"text": "and she likes to play music.", "is_correct": false, "why_wrong": "This adds an unrelated fact. It does not give the result of being tired."},
+    {"text": "she went to bed early.", "is_correct": true, "why_wrong": null},
+    {"text": "they went to the shop.", "is_correct": false, "why_wrong": "'They' does not match the subject 'she' in the stem, and the action has no link to being tired."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Subject pronouns in a sentence with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the reason and the main clause gives the result. Here the result of being tired is that she went to bed early. Turkish speakers often drop the subject in the second clause because Turkish allows it, but English usually needs an explicit subject pronoun in the main clause.",
+  "translation": "Yorgun olduğu için erken yatağa gitti."
+}
