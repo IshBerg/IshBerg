@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied medicine at university,",
+  "correct_completion": "I would be working as a doctor now.",
+  "full_sentence": "If I had studied medicine at university, I would be working as a doctor now.",
+  "acceptable_variants": ["I would be a doctor today.", "I would have a medical career now."],
+  "options": [
+    {"text": "I will be working as a doctor now.", "is_correct": false, "why_wrong": "'Will' expresses a real future possibility, not an imagined past condition with a present result."},
+    {"text": "I would be working as a doctor now.", "is_correct": true, "why_wrong": null},
+    {"text": "I am a doctor now.", "is_correct": false, "why_wrong": "This states a fact and does not give the present result of the imagined past condition."},
+    {"text": "I would have worked as a doctor last year.", "is_correct": false, "why_wrong": "The time reference 'last year' conflicts with the present result that the mixed conditional expresses."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: a past unreal condition with a present result",
+  "connector": "if",
+  "explanation": "The if-clause refers to an unreal past situation, so it takes the past perfect. The main clause refers to the present result, so it takes 'would' with a continuous infinitive.",
+  "translation": "Se eu tivesse estudado medicina na universidade, eu estaria trabalhando como médico agora."
+}
