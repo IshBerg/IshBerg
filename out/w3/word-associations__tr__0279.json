@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "shelf", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kitaplar kütüphanede raflarda durduğu için raf, kütüphaneyle tematik olarak bağlantılıdır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağın kütüphane ile doğrudan bir ilişkisi yoktur, bu yüzden ilişkili değildir."},
+    {"word": "librarian", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kütüphaneci, kütüphanede çalışan kişi olduğu için anlamsal olarak doğrudan ilişkilidir."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Motor kütüphane ile ilgili değildir; tamamen farklı bir alana aittir."},
+    {"word": "catalogue", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Katalog, kitapları bulmak için kullanılan bir araçtır ve 'library catalogue' yaygın bir ortak kullanımdır."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet kütüphane ile bağlantılı değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kütüphane kelimesi kitaplar, personel ve kayıt sistemleri etrafında bir çağrışım ağı oluşturur; diğer kelimeler ise farklı alanlara aittir."
+}
