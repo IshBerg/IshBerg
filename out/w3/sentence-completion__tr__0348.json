@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the sample size was small,",
+  "correct_completion": "the findings were widely cited in later research.",
+  "full_sentence": "Although the sample size was small, the findings were widely cited in later research.",
+  "acceptable_variants": ["the findings still influenced later research.", "the results attracted considerable attention."],
+  "options": [
+    {"text": "because the findings were widely cited in later research.", "is_correct": false, "why_wrong": "'Because' expresses cause, which conflicts with the contrast that 'although' introduces."},
+    {"text": "the researchers were all trained in statistics.", "is_correct": false, "why_wrong": "This adds background about the researchers but does not set up a contrast with the limitation in the first clause."},
+    {"text": "the findings were widely cited in later research.", "is_correct": true, "why_wrong": null},
+    {"text": "the sample was collected in a single afternoon.", "is_correct": false, "why_wrong": "This repeats the limitation instead of contrasting with it, so the concessive structure is not completed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that expresses a result running against the expectation set up by the limitation in the first clause.",
+  "translation": "Örneklem büyüklüğü küçük olmasına rağmen, bulgular sonraki araştırmalarda geniş ölçüde atıf aldı."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "friend",
+  "all_words": [
+    {"word": "best", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Best friend' (en yakın arkadaş) çok sık kullanılan bir ifadedir."},
+    {"word": "party", "is_associated": true, "association_type": "THEMATIC", "explanation": "Arkadaşlar genellikle partilerde bir araya gelir."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masa, arkadaşlık kavramıyla doğrudan ilgili bir kelime değildir."},
+    {"word": "help", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yardım etmek, iyi bir arkadaşın en önemli davranışlarından biridir."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "Yağmur, insan ilişkileriyle ilgili bir kelime değildir."},
+    {"word": "trust", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Güven, arkadaşlığın temelini oluşturan bir değerdir."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bu kelimelerden dördü arkadaşlık kavramıyla bağlantılıdır; masa ve yağmur ise ilgisizdir."
+}
