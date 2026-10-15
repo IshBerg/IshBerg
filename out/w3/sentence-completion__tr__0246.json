@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had the committee",
+  "correct_completion": "faced such intense criticism.",
+  "full_sentence": "Never before had the committee faced such intense criticism.",
+  "acceptable_variants": ["faced such fierce opposition.", "come under such intense scrutiny."],
+  "options": [
+    {"text": "facing such intense criticism.", "is_correct": false, "why_wrong": "The past perfect after 'had' requires a past participle. The -ing form does not complete this structure."},
+    {"text": "faced such intense criticism.", "is_correct": true, "why_wrong": null},
+    {"text": "so it faced such intense criticism.", "is_correct": false, "why_wrong": "'So' introduces a consequence, and the extra subject breaks the inverted structure that the emphatic opening requires."},
+    {"text": "to face such intense criticism.", "is_correct": false, "why_wrong": "An infinitive cannot follow 'had' to form the past perfect, so this completion is ungrammatical here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'never before' and the past perfect",
+  "connector": "never before",
+  "explanation": "Negative adverbial phrases such as 'never before' trigger subject-auxiliary inversion, so 'had' comes before the subject and the main verb stays in past participle form. Turkish word order is flexible and marks emphasis through intonation or particles, so Turkish speakers may keep the subject first and omit the inversion.",
+  "translation": "Komite daha önce hiç bu kadar yoğun eleştiriyle karşılaşmamıştı."
+}
