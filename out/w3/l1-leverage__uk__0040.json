@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "футбол", "transliteration": "futbol", "meaning": "football"},
+    {"word": "баскетбол", "transliteration": "basketbol", "meaning": "basketball"},
+    {"word": "робот", "transliteration": "robot", "meaning": "robot"},
+    {"word": "гольф", "transliteration": "holf", "meaning": "golf"}
+  ],
+  "english_words": ["robot", "golf", "basketball", "football"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these sports and game words from the same international source, so the English and Ukrainian forms stayed close in spelling and sound.",
+  "false_friend_warning": null
+}

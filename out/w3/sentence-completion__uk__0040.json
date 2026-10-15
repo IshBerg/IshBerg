@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have passed the exam easily.", "I might have passed the exam."],
+  "options": [
+    {"text": "I can pass the exam easily now.", "is_correct": false, "why_wrong": "The present tense 'can' does not express a past regret, which 'if only' with a past perfect clause refers to."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I will study harder tomorrow.", "is_correct": false, "why_wrong": "This is a future plan, not a regret about the past, so it does not follow the 'if only' structure."},
+    {"text": "I would pass the exam if I study.", "is_correct": false, "why_wrong": "This mixes a present condition 'if I study' with a past regret, so the tenses do not match."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if only' to express regret about the past",
+  "connector": "if only",
+  "explanation": "'If only' plus a past perfect clause expresses regret, and the main clause uses 'would have' plus a past participle to describe the unreal result.",
+  "translation": "Якби я тільки більше старався, я б склав іспит."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hand",
+  "all_words": [
+    {"word": "glove", "is_associated": true, "association_type": "THEMATIC", "explanation": "Рукавичку надівають на руку, тому це слово тематично пов'язане з 'hand'."},
+    {"word": "finger", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Палець є частиною руки, тому значення цих слів безпосередньо пов'язані."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Хмара не має жодного відношення до руки."},
+    {"word": "clap", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Кажуть 'clap hands' (плескати в долоні), тому це типове словосполучення."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Стілець є меблями і не пов'язаний із рукою."},
+    {"word": "sun", "is_associated": false, "association_type": "NONE", "explanation": "Сонце не має відношення до руки."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'hand' пов'язане з частинами руки, предметами, які носять на руці, і типовими діями руками; решта слів не пов'язані з ним."
+}
