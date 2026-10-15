@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The museum,",
+  "correct_completion": "which opens at nine every morning, has free entry on Sundays.",
+  "full_sentence": "The museum, which opens at nine every morning, has free entry on Sundays.",
+  "acceptable_variants": ["which is near the station, has free entry on Sundays.", "which was built in 1900, has free entry on Sundays."],
+  "options": [
+    {"text": "who opens at nine every morning, has free entry on Sundays.", "is_correct": false, "why_wrong": "'Who' is used for people, but a museum is a place, so 'which' is needed."},
+    {"text": "so we visited it on Sunday.", "is_correct": false, "why_wrong": "'So' introduces a result, not a clause that describes the museum."},
+    {"text": "that opens at nine every morning, has free entry on Sundays.", "is_correct": false, "why_wrong": "The commas show a non-defining clause, and standard English does not use 'that' in that position."},
+    {"text": "which opens at nine every morning, has free entry on Sundays.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'which'",
+  "connector": "which",
+  "explanation": "'Which' is a relative pronoun for things and places, and the commas show that the clause adds extra information about the museum. Learners whose first language does not separate defining and non-defining clauses often choose 'that' here, but English requires 'which' after a comma.",
+  "translation": "Музей, який відкривається о дев'ятій ранку, має безкоштовний вхід у неділю."
+}
