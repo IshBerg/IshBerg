@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"},
+    {"word": "taxi", "transliteration": "taxi", "meaning": "taxi"},
+    {"word": "restaurante", "transliteration": "restaurante", "meaning": "restaurant"},
+    {"word": "museo", "transliteration": "museo", "meaning": "museum"}
+  ],
+  "english_words": ["museum", "restaurant", "taxi", "hotel"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Spanish words come from the same Latin or Greek roots as their English equivalents, so the spelling and meaning stayed close.",
+  "false_friend_warning": null
+}
