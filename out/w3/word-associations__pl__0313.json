@@ -1,0 +1,14 @@
+{
+  "trigger_word": "football",
+  "all_words": [
+    {"word": "goal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bramka, czyli gol, to główny cel w piłce nożnej."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino to instrument muzyczny i nie ma żadnego związku z piłką nożną."},
+    {"word": "ball", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Piłka to przedmiot, bez którego nie da się grać w piłkę nożną."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Kuchnia to pomieszczenie w domu i nie należy do świata sportu."},
+    {"word": "team", "is_associated": true, "association_type": "THEMATIC", "explanation": "Drużyna to grupa zawodników, którzy razem grają w piłkę nożną."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Sofa to mebel i nie ma związku z grą w piłkę nożną."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'football' kojarzy się z bramkami, piłką i drużyną, a pozostałe słowa należą do zupełnie innych dziedzin życia."
+}
