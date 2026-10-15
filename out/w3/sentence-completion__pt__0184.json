@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the new bridge reduce travel time,",
+  "correct_completion": "but it also lowered the cost of freight.",
+  "full_sentence": "Not only did the new bridge reduce travel time, but it also lowered the cost of freight.",
+  "acceptable_variants": ["but it also reduced fuel costs for every trucking company.", "but it also cut the cost of shipping goods."],
+  "options": [
+    {"text": "and the bridge was built quickly.", "is_correct": false, "why_wrong": "'Not only' must be paired with 'but also' to create emphasis. Using 'and' breaks the correlative structure."},
+    {"text": "so drivers were pleased.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'not only ... but also' requires a parallel additional point, not a consequence."},
+    {"text": "but it also lowered the cost of freight.", "is_correct": true, "why_wrong": null},
+    {"text": "however, the cost of freight rose.", "is_correct": false, "why_wrong": "'However' introduces a contrast that undermines the additive emphasis; both parts of the structure need to point in the same positive direction."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Correlative conjunction 'not only ... but also' with subject-auxiliary inversion",
+  "connector": "not only ... but also",
+  "explanation": "The correlative pair 'not only ... but also' adds emphasis by presenting a second, stronger point after the first. After 'not only' the auxiliary 'did' comes before the subject, which is an inversion learners often miss. Learners also tend to drop 'also' or substitute 'and' for 'but', which weakens the emphatic effect.",
+  "translation": "Não apenas a nova ponte reduziu o tempo de viagem, como também diminuiu o custo do frete."
+}
