@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "catalogue", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Katalog, kütüphanedeki kitapların kayıtlarını ve yerlerini gösterdiği için kütüphane kavramıyla anlamsal olarak doğrudan bağlantılıdır."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Volkan doğal bir jeolojik oluşumdur ve kütüphane ortamıyla ne anlam ne de tema bakımından bir ilişkisi vardır."},
+    {"word": "librarian", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kütüphaneci, kütüphane ortamının doğal bir parçası olduğu için tematik olarak bu kelimeyle ilişkilidir."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktör bir tarım makinesidir ve kütüphane kavramıyla hiçbir bağlantısı yoktur."},
+    {"word": "shelf", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Raf, kütüphanede kitap yerleştirmek için kullanıldığından 'library shelf' gibi sık kullanılan bir birleşim oluşturur."},
+    {"word": "anchor", "is_associated": false, "association_type": "NONE", "explanation": "Çapa gemilerin demirlemesinde kullanılan bir araçtır ve kütüphane ile bir bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kütüphane kelimesiyle ilişkili kelimeler kitap, kayıt ve kütüphane çalışanı gibi kavramlar etrafında toplanır; ilişkisiz kelimeler ise bu ortamla ortak bir anlam taşımaz."
+}

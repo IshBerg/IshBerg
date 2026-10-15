@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although Austen rarely describes her heroines' appearance in detail,",
+  "correct_completion": "she conveys their character through dialogue and irony.",
+  "full_sentence": "Although Austen rarely describes her heroines' appearance in detail, she conveys their character through dialogue and irony.",
+  "acceptable_variants": ["she reveals their personalities through their speech.", "she brings out their character through their words."],
+  "options": [
+    {"text": "so readers know exactly how they looked.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. The concessive 'although' needs a clause that contrasts with the first part, and this option repeats the same idea of physical description instead."},
+    {"text": "she never mentions their names.", "is_correct": false, "why_wrong": "This is a factual claim that is untrue of Austen, who names her heroines in every novel. It also does not describe a contrasting method of characterisation."},
+    {"text": "she conveys their character through dialogue and irony.", "is_correct": true, "why_wrong": null},
+    {"text": "it was a common practice in her day.", "is_correct": false, "why_wrong": "This adds historical background but does not complete the contrast. The sentence needs a main clause describing what Austen does instead of describing appearance."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a main clause that contrasts with the first part. The correct option states what Austen does instead of describing appearance, so the contrast is clear.",
+  "translation": "Austen, kahramanlarının görünüşünü ayrıntılı olarak nadiren betimlemesine rağmen, karakterlerini diyalog ve ironi aracılığıyla aktarır."
+}
