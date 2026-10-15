@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have got a higher score.", "I would have done much better."],
+  "options": [
+    {"text": "I would pass the exam tomorrow.", "is_correct": false, "why_wrong": "This uses a future time reference, but 'had studied' refers to the past, so the completion should describe a past result."},
+    {"text": "I study every day now.", "is_correct": false, "why_wrong": "This describes a present habit. It does not complete the past regret set up by 'If only I had studied'."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "the exam was very easy.", "is_correct": false, "why_wrong": "This describes the exam, not the speaker's regret about what could have happened."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if only' to express past regret",
+  "connector": "if only",
+  "explanation": "The stem uses 'if only' with a past perfect to express regret about the past, so the completion needs 'would have' followed by a past participle. Ukrainian speakers may be tempted to use a simple past here because their past conditional is built with a separate particle rather than an auxiliary verb.",
+  "translation": "Якби я лише вчився більше, я б склав іспит."
+}

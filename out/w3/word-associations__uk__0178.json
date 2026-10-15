@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "plane", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Літак — це основний транспорт, який відправляється з аеропорту."},
+    {"word": "ticket", "is_associated": true, "association_type": "THEMATIC", "explanation": "Квиток потрібен, щоб пройти реєстрацію та сісти на рейс в аеропорту."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Сад не має прямого зв'язку з аеропортом і подорожами по повітрю."},
+    {"word": "luggage", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Багаж здають і забирають в аеропорту, тому це слово часто йде поруч із ним."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно не пов'язане з аеропортом і подорожами."},
+    {"word": "pilot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Пілот керує літаком, який вилітає з аеропорту."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з аеропортом, стосуються транспорту, документів і багажу, а сад і піаніно до цієї теми не належать."
+}
