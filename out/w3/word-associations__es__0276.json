@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un buen argumento necesita pruebas que lo sostengan, así que esta palabra pertenece al mismo tema."},
+    {"word": "debate", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un debate es un intercambio de argumentos entre personas, por lo que el significado está muy relacionado."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "La jirafa es un animal y no tiene relación con la idea de argumento ni con la forma de discutirlo."},
+    {"word": "premise", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Premise' es una palabra habitual en la expresión 'the premise of an argument', que significa la base de un razonamiento."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "La almohada es un objeto para dormir y no aparece en el contexto de los argumentos."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "El trueno es un fenómeno meteorológico y no se relaciona con el razonamiento ni con la discusión."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'argument' pertenecen al ámbito del razonamiento, la discusión y las pruebas, mientras que las demás no tienen relación con ese tema."
+}

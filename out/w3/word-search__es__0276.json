@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "K", "J"],
+    ["B", "Q", "D", "N", "I", "V", "W"],
+    ["T", "M", "C", "O", "H", "Z", "E"],
+    ["R", "A", "F", "K", "U", "W", "N"],
+    ["Y", "G", "H", "L", "W", "N", "T"],
+    ["W", "A", "T", "E", "R", "O", "D"],
+    ["M", "K", "Q", "B", "X", "I", "F"]
+  ],
+  "words_to_find": ["STORY", "WENT", "TOLD", "WATER"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WENT", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "TOLD", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "WATER", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Narrating Events"
+}
