@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "bus",
+  "collocate": "stop",
+  "full_collocation": "bus stop",
+  "options": ["stop bus", "bus driver", "bus stop", "bus station"],
+  "correct_index": 2,
+  "distractors": [
+    {"word": "stop bus", "reason": "Wrong order. In English the first noun describes the type of stop, so we say 'bus stop', not 'stop bus'."},
+    {"word": "bus driver", "reason": "A 'bus driver' is a person who drives the bus, not the place where you wait for it."},
+    {"word": "bus station", "reason": "A 'bus station' is a large terminal for many routes and long-distance buses, not the small point on the street where local buses stop."}
+  ],
+  "example_sentence": "Please wait for me at the ___ on Main Street.",
+  "gap_position": 6,
+  "translation": "ponto de ônibus",
+  "l1_interference": "Os falantes de português costumam inverter a ordem e dizer 'stop bus', porque em português o núcleo ('ponto') vem antes e o complemento ('de ônibus') vem depois. Em inglês, o primeiro substantivo ('bus') funciona como modificador e o último ('stop') é o núcleo.",
+  "common_mistake": "stop bus",
+  "explanation": "In English, the first noun in a compound often works like an adjective, describing what kind of thing the second noun is. A bus stop is a type of stop, so 'bus' comes first.",
+  "related_collocations": [
+    {"collocation": "bus driver", "translation": "motorista de ônibus", "example": "The bus driver waved at us as we got on."},
+    {"collocation": "bus ticket", "translation": "bilhete de ônibus", "example": "I lost my bus ticket on the way home."},
+    {"collocation": "traffic jam", "translation": "engarrafamento", "example": "We were late because of a traffic jam."}
+  ],
+  "memory_tip": "The LAST noun is the main one: a bus STOP is a stop, a bus DRIVER is a driver. The first noun only says what kind."
+}
