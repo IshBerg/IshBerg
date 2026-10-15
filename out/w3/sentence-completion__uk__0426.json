@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the film had a famous actor,",
+  "correct_completion": "I did not enjoy it very much.",
+  "full_sentence": "Although the film had a famous actor, I did not enjoy it very much.",
+  "acceptable_variants": ["I still found it boring.", "I left the cinema before the end."],
+  "options": [
+    {"text": "so I watched it again.", "is_correct": false, "why_wrong": "'So' shows a result, but 'although' needs a contrast with the first part of the sentence."},
+    {"text": "I did not enjoy it very much.", "is_correct": true, "why_wrong": null},
+    {"text": "the cinema was full of people.", "is_correct": false, "why_wrong": "This describes the situation but does not complete the contrast started by 'although'."},
+    {"text": "it was filmed in English.", "is_correct": false, "why_wrong": "This adds information but does not provide the contrasting opinion expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Ukrainian speakers sometimes use a result connector here because the same idea is often expressed with a simple conjunction in their first language.",
+  "translation": "Хоча у фільмі знімався відомий актор, мені він не дуже сподобався."
+}
