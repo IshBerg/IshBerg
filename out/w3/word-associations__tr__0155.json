@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hurricane",
+  "all_words": [
+    {"word": "wind", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kasırga sırasında çok güçlü rüzgar eser, bu nedenle iki kelime doğrudan ilişkilidir."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyanonun kasırga ile hiçbir ilgisi yoktur."},
+    {"word": "storm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kasırga aslında çok şiddetli bir fırtına türüdür, bu yüzden anlamca yakındır."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmeğin kasırga ile bir ilgisi yoktur."},
+    {"word": "shelter", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kasırga sırasında insanlar sığınak arar, bu yüzden konu olarak ilişkilidir."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "Lambanın kasırga ile doğrudan bir bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kasırga kelimesi rüzgar, fırtına ve sığınak gibi kavramlarla ilişkilidir; diğer kelimeler ise konu dışındadır."
+}

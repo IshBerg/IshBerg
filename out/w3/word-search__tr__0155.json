@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E", "M", "A", "I", "L", "X", "Q", "T", "Z", "W"],
+    ["K", "D", "R", "U", "F", "Y", "P", "G", "J", "E"],
+    ["V", "S", "N", "C", "O", "A", "L", "H", "K", "B"],
+    ["P", "U", "D", "F", "K", "R", "T", "Y", "C", "M"],
+    ["Z", "H", "W", "B", "G", "Q", "J", "X", "D", "N"],
+    ["L", "K", "O", "V", "Y", "S", "W", "F", "A", "D"],
+    ["V", "B", "X", "N", "O", "N", "L", "I", "N", "E"],
+    ["M", "J", "Q", "U", "E", "T", "B", "K", "P", "H"],
+    ["T", "G", "A", "L", "N", "E", "E", "R", "C", "S"],
+    ["X", "W", "Q", "D", "F", "K", "M", "V", "Z", "A"]
+  ],
+  "words_to_find": ["EMAIL", "WEB", "PHONE", "SCREEN", "ONLINE"],
+  "word_positions": [
+    {"word": "EMAIL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WEB", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "PHONE", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SCREEN", "start_row": 8, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "ONLINE", "start_row": 6, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Technology and Digital Life"
+}

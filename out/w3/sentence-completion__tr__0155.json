@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "When we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had gone.", "the last train had departed."],
+  "options": [
+    {"text": "the train was leaving now.", "is_correct": false, "why_wrong": "This describes an action happening at the moment of speaking, but the past narrative needs an action completed before the arrival."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null},
+    {"text": "the train will leave soon.", "is_correct": false, "why_wrong": "This is a future form, which does not fit a past narrative about what happened when we arrived."},
+    {"text": "we have left the house.", "is_correct": false, "why_wrong": "This uses the present perfect and changes the subject of the earlier action, so it does not complete the past sequence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past perfect for an action completed before another past action",
+  "connector": "when",
+  "explanation": "The past perfect shows that the train left before we arrived, so the earlier action is completed first. Turkish speakers may use the simple past here because Turkish verb endings can mark earlier past events without a separate auxiliary, so the English auxiliary had must be added explicitly.",
+  "translation": "İstasyona vardığımızda tren çoktan kalkmıştı."
+}
