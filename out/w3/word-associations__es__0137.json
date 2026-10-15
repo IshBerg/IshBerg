@@ -1,0 +1,14 @@
+{
+  "trigger_word": "brand",
+  "all_words": [
+    {"word": "logo", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El logotipo es el símbolo visual que identifica a una marca, por eso está directamente relacionado con 'brand'."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Un árbol no tiene ninguna relación con la publicidad ni con las marcas comerciales."},
+    {"word": "slogan", "is_associated": true, "association_type": "THEMATIC", "explanation": "El eslogan es una frase corta que las marcas usan en sus anuncios, así que pertenece al mismo tema."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Un río no se relaciona con marcas ni con el mundo de la publicidad."},
+    {"word": "loyalty", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión 'brand loyalty', es decir, la lealtad a una marca, es una combinación muy común en inglés."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Una bicicleta no tiene relación con el concepto de marca."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'brand' se asocia con elementos de identidad y publicidad, como el logotipo, el eslogan y la lealtad del cliente."
+}
