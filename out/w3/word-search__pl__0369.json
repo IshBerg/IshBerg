@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["C", "O", "N", "T", "R", "A", "C", "T"],
+    ["L", "Q", "X", "E", "B", "K", "J", "Z"],
+    ["A", "V", "P", "R", "D", "H", "M", "F"],
+    ["U", "W", "Y", "M", "N", "P", "H", "K"],
+    ["S", "G", "T", "S", "Q", "Z", "V", "B"],
+    ["E", "D", "F", "J", "K", "L", "X", "W"],
+    ["O", "Q", "S", "I", "G", "N", "R", "T"],
+    ["L", "A", "W", "Y", "U", "K", "P", "Z"]
+  ],
+  "words_to_find": ["CONTRACT", "CLAUSE", "TERMS", "SIGN", "LAW"],
+  "word_positions": [
+    {"word": "CONTRACT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAUSE", "start_row": 0, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TERMS", "start_row": 0, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "SIGN", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "LAW", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Legal and Contractual Texts"
+}
