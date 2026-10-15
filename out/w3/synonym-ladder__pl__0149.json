@@ -1,0 +1,13 @@
+{
+  "start_word": "free",
+  "end_word": "expensive",
+  "ladder_steps": [
+    {"word": "free", "translation": "bezpłatny", "intensity_level": 1},
+    {"word": "cheap", "translation": "tani", "intensity_level": 2},
+    {"word": "reasonable", "translation": "przystępny cenowo", "intensity_level": 3},
+    {"word": "pricey", "translation": "dość drogi", "intensity_level": 4},
+    {"word": "expensive", "translation": "drogi", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Price words form a ladder from no cost at all to a high price, and each step costs a little more than the one before."
+}

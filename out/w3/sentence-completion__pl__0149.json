@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child,",
+  "correct_completion": "I used to play in the garden every day.",
+  "full_sentence": "When I was a child, I used to play in the garden every day.",
+  "acceptable_variants": ["I used to spend every day in the garden.", "I would often play in the garden."],
+  "options": [
+    {"text": "I play in the garden every day now.", "is_correct": false, "why_wrong": "The present simple describes the present, but the stem refers to the past, so it does not fit."},
+    {"text": "I have played in the garden yesterday.", "is_correct": false, "why_wrong": "The present perfect cannot be used with a finished time expression such as 'yesterday'."},
+    {"text": "I used to play in the garden every day.", "is_correct": true, "why_wrong": null},
+    {"text": "I will play in the garden tomorrow.", "is_correct": false, "why_wrong": "The future tense talks about later, not about the past habit described by 'when I was a child'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "'Used to' for past habits and states",
+  "connector": "when",
+  "explanation": "'Used to' describes a past habit or state that no longer happens. Polish speakers often choose a simple past tense here, because Polish has no separate form that matches 'used to', so the habit can sound like a single event. Use 'used to' or 'would' for repeated past actions.",
+  "translation": "W dzieciństwie zwykłem bawić się w ogrodzie każdego dnia."
+}
