@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "E", "B", "A", "T", "E", "Q", "W", "L"],
+    ["X", "R", "Z", "K", "J", "V", "P", "F", "O"],
+    ["C", "H", "M", "S", "N", "Y", "D", "K", "G"],
+    ["T", "L", "W", "Q", "B", "F", "A", "Z", "I"],
+    ["P", "V", "A", "K", "U", "X", "R", "H", "C"],
+    ["M", "J", "Q", "I", "Z", "N", "G", "Y", "W"],
+    ["N", "X", "F", "S", "M", "K", "U", "P", "R"],
+    ["B", "D", "H", "T", "V", "Y", "E", "Q", "L"],
+    ["Z", "C", "J", "W", "F", "O", "K", "X", "S"]
+  ],
+  "words_to_find": ["DEBATE", "LOGIC", "CLAIM", "ARGUE"],
+  "word_positions": [
+    {"word": "DEBATE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LOGIC", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CLAIM", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ARGUE", "start_row": 3, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Persuasion and Debate"
+}
