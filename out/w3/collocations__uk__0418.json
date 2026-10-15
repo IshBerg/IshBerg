@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "bus",
+  "collocate": "stop",
+  "full_collocation": "bus stop",
+  "options": ["bus", "car", "train", "road"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "car", "reason": "We don't say 'car stop' for a place where buses wait. For cars we use 'car park' or 'parking lot'."},
+    {"word": "train", "reason": "'Train stop' is not the usual phrase for a bus place. For trains we say 'train station'."},
+    {"word": "road", "reason": "We don't say 'road stop' for a place where buses stop. 'Road' describes a street, not the bus that stops there."}
+  ],
+  "example_sentence": "Excuse me, where is the ___ stop?",
+  "gap_position": 5,
+  "translation": "автобусна зупинка",
+  "l1_interference": "Українською часто кажуть 'зупинка автобуса' (зупинка + родовий відмінок), тому можна помилково сказати 'stop bus' або 'stop of the bus'. В англійській першим стоїть іменник-модифікатор: 'bus stop'.",
+  "common_mistake": "stop bus",
+  "explanation": "In English compound nouns, the first noun describes the second: a bus stop is a stop for buses. The first noun works like an adjective and stays in its singular form.",
+  "related_collocations": [
+    {"collocation": "traffic light", "translation": "світлофор", "example": "Turn left at the traffic light."},
+    {"collocation": "phone call", "translation": "телефонний дзвінок", "example": "I will make a phone call later."},
+    {"collocation": "shopping bag", "translation": "пакет для покупок", "example": "Can I have a shopping bag, please?"}
+  ],
+  "memory_tip": "NOUN + NOUN: the FIRST noun describes the SECOND (bus stop = a stop for buses, phone call = a call by phone)"
+}
