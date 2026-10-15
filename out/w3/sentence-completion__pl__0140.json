@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While I was cooking dinner, the phone rang.",
+  "acceptable_variants": ["the doorbell rang.", "my sister called."],
+  "options": [
+    {"text": "I cook dinner every day.", "is_correct": false, "why_wrong": "This is a present habit. It does not fit the past setting created by 'while I was cooking'."},
+    {"text": "I am cooking dinner now.", "is_correct": false, "why_wrong": "This is present continuous, but the sentence is about the past, so the past continuous or past simple is needed."},
+    {"text": "I have cooked dinner already.", "is_correct": false, "why_wrong": "The present perfect describes a completed action. It cannot follow 'while' to describe an action in progress in the past."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous for a background action interrupted by a past simple action",
+  "connector": "while",
+  "explanation": "The stem uses 'while' with the past continuous to describe an action in progress. The completion needs the past simple to describe the shorter action that interrupts it. Polish speakers may use one past tense for both actions, because Polish expresses ongoing and completed past actions mainly through verb aspect, so the English two-tense pattern needs to be practised.",
+  "translation": "Kiedy gotowałem obiad, zadzwonił telefon."
+}
