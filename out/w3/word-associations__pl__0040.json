@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "hot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Słońce daje ciepło, więc słowo 'hot' (gorący) bezpośrednio kojarzy się ze słońcem."},
+    {"word": "yellow", "is_associated": true, "association_type": "THEMATIC", "explanation": "Słońce na rysunkach i zdjęciach jest zwykle żółte, więc kolor 'yellow' należy do tego samego tematu."},
+    {"word": "moon", "is_associated": true, "association_type": "THEMATIC", "explanation": "Słońce i księżyc to ciała niebieskie na niebie, więc należą do tego samego tematu."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Krzesło nie ma żadnego związku ze słońcem: to mebel, a nie coś na niebie ani związanego z pogodą."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Ryba żyje w wodzie i nie ma związku ze słońcem ani z niebem."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Stół to przedmiot domowy i nie ma żadnego związku ze słońcem."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'sun' kojarzy się z ciepłem, kolorem żółtym i innymi ciałami niebieskimi, a pozostałe słowa należą do zupełnie innych tematów."
+}
