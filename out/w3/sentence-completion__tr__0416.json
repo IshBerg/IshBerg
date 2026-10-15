@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the hotel had five stars,",
+  "correct_completion": "the room was small and dirty.",
+  "full_sentence": "Although the hotel had five stars, the room was small and dirty.",
+  "acceptable_variants": ["the service was still poor.", "many guests felt disappointed."],
+  "options": [
+    {"text": "the room was small and dirty.", "is_correct": true, "why_wrong": null},
+    {"text": "so the guests left early.", "is_correct": false, "why_wrong": "'Although' shows contrast, not a result. The phrase 'so the guests left early' gives a consequence, which 'although' does not introduce."},
+    {"text": "because the staff was friendly.", "is_correct": false, "why_wrong": "'Because' gives a reason, but the clause must show contrast with the five-star rating."},
+    {"text": "the breakfast was very good.", "is_correct": false, "why_wrong": "This adds a positive detail, but it does not contrast with the hotel's five-star rating in the way 'although' requires."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a negative contrast with the expectation set by the first clause. Turkish speakers may use a reason connector here because Turkish marks concession with a different structure.",
+  "translation": "Otel beş yıldızlı olmasına rağmen, oda küçük ve kirliydi."
+}

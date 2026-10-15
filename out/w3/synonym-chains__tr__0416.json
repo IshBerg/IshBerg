@@ -1,0 +1,23 @@
+{
+  "central_word": "important",
+  "chain_words": [
+    {"word": "relevant", "intensity": 1, "translation": "ilgili, konuyla bağlantılı", "nuance": "connected to the subject being discussed"},
+    {"word": "significant", "intensity": 2, "translation": "önemli, dikkate değer", "nuance": "large enough to have a noticeable effect"},
+    {"word": "crucial", "intensity": 3, "translation": "kritik, belirleyici", "nuance": "decisive for the outcome of something"},
+    {"word": "vital", "intensity": 4, "translation": "hayati, elzem", "nuance": "necessary for survival or success"},
+    {"word": "essential", "intensity": 5, "translation": "vazgeçilmez, olmazsa olmaz", "nuance": "absolutely necessary and impossible to do without"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express importance, moving from a loose connection to the topic up to something that cannot be done without.",
+  "usage_notes": [
+    {"word1": "significant", "word2": "crucial", "difference": "'Significant' describes something that has a noticeable effect, while 'crucial' describes something on which the outcome of a situation depends."}
+  ],
+  "translations": {
+    "relevant": "ilgili, konuyla bağlantılı",
+    "significant": "önemli, dikkate değer",
+    "crucial": "kritik, belirleyici",
+    "vital": "hayati, elzem",
+    "essential": "vazgeçilmez, olmazsa olmaz"
+  }
+}

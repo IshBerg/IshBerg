@@ -1,0 +1,14 @@
+{
+  "trigger_word": "presentation",
+  "all_words": [
+    {"word": "slide", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Slayt, bir sunumda bilgiyi göstermek için kullanılan temel araçtır, bu yüzden sunumla doğrudan ilişkilidir."},
+    {"word": "audience", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dinleyici kitlesi, her sunumun ayrılmaz bir parçasıdır ve konuyla tematik olarak bağlantılıdır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ, sunumla ilgisi olmayan coğrafi bir kavramdır ve bu bağlamda bir anlamı yoktur."},
+    {"word": "rehearse", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Bir sunumu prova etmek, sık kullanılan bir eş-dizimdir; 'rehearse a presentation' ifadesi doğal bir kullanımdır."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Çöl, konuyla hiçbir anlamsal ya da tematik bağı olmayan bir doğa terimidir."},
+    {"word": "clock", "is_associated": false, "association_type": "NONE", "explanation": "Saat genel bir nesnedir, ancak sunumla ilgili belirgin bir eş-dizim ya da anlamsal bağ oluşturmaz."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Sunum kelimesi, görsel araçlar, dinleyiciler ve hazırlık süreci ile güçlü bağlantılar kurar; diğer kelimeler bu bağlamın dışındadır."
+}
