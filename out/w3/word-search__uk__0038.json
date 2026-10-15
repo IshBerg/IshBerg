@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "A", "K", "E", "Q", "W", "C", "X", "H"],
+    ["J", "L", "P", "D", "Z", "F", "H", "U", "E"],
+    ["S", "B", "D", "K", "L", "M", "O", "Q", "A"],
+    ["X", "T", "Z", "N", "P", "J", "I", "L", "V"],
+    ["W", "K", "R", "U", "D", "H", "C", "M", "Y"],
+    ["F", "Q", "X", "O", "A", "B", "E", "P", "Z"],
+    ["Y", "J", "L", "V", "N", "D", "W", "F", "K"],
+    ["C", "H", "M", "Q", "T", "G", "S", "V", "X"],
+    ["B", "R", "E", "A", "K", "Z", "L", "D", "P"]
+  ],
+  "words_to_find": ["MAKE", "HEAVY", "STRONG", "CHOICE", "BREAK"],
+  "word_positions": [
+    {"word": "MAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HEAVY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "STRONG", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CHOICE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BREAK", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations"
+}

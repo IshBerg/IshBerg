@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the presentation,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the presentation, she sent it to her manager.",
+  "acceptable_variants": ["she emailed it to her manager.", "she then handed it to her manager."],
+  "options": [
+    {"text": "the slides were sent to her manager.", "is_correct": false, "why_wrong": "The participle clause 'Having finished' must refer to the subject of the main clause. Here the subject would be 'the slides', which cannot finish a presentation, so this is a dangling modifier."},
+    {"text": "which she had planned for weeks.", "is_correct": false, "why_wrong": "This completion has no main clause, so the sentence stays incomplete. A relative clause cannot stand alone as the main part of the sentence."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "she feeling very relieved.", "is_correct": false, "why_wrong": "'Feeling' cannot follow the subject directly as the main verb. A finite verb such as 'felt' is needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses with a shared subject",
+  "connector": "having finished",
+  "explanation": "After a participle clause such as 'Having finished...', the main clause must have the same subject as the participle, meaning the person who did the action. Ukrainian speakers may be tempted to attach a new clause with a conjunction or a relative pronoun here, because Ukrainian often uses full clauses in writing. In English, a participle clause is used to shorten the sentence, so the main clause must follow directly with a finite verb.",
+  "translation": "Закінчивши презентацію, вона надіслала її своєму керівникові."
+}

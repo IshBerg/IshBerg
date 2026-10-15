@@ -1,0 +1,14 @@
+{
+  "trigger_word": "family",
+  "all_words": [
+    {"word": "mother", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Мати є членом родини, тому це семантичний зв'язок зі словом 'family'."},
+    {"word": "house", "is_associated": true, "association_type": "THEMATIC", "explanation": "Родина зазвичай живе разом в одному домі, тому це тематичний зв'язок."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "Комп'ютер не є частиною поняття родини, тому зв'язку немає."},
+    {"word": "dinner", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'family dinner' є усталеним, тому це колокаційний зв'язок."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не пов'язана з поняттям родини, тому це слово не підходить."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець не має відношення до родини, тому зв'язку немає."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'family' пов'язане з людьми, які живуть разом, їхнім домом і спільними справами, наприклад сімейною вечерею."
+}
