@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The report, written last month,",
+  "correct_completion": "contains several errors in the data.",
+  "full_sentence": "The report, written last month, contains several errors in the data.",
+  "acceptable_variants": ["has several errors in the data.", "includes several mistakes in the data."],
+  "options": [
+    {"text": "written by a team of experts.", "is_correct": false, "why_wrong": "This repeats the participle clause already given and does not complete the main clause."},
+    {"text": "which were written in the morning.", "is_correct": false, "why_wrong": "The plural verb 'were' does not agree with the singular subject 'report', and the sentence repeats the idea of writing."},
+    {"text": "contain several errors in the data.", "is_correct": false, "why_wrong": "The plural verb 'contain' does not agree with the singular subject 'report'."},
+    {"text": "contains several errors in the data.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past participle clauses and subject-verb agreement with a singular subject",
+  "connector": "participle clause",
+  "explanation": "The participle clause 'written last month' adds extra information about the subject 'report'. The main verb must agree with the singular subject, so the third-person singular form 'contains' is needed.",
+  "translation": "Raport, napisany w zeszłym miesiącu, zawiera kilka błędów w danych."
+}

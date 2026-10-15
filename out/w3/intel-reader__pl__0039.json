@@ -1,0 +1,20 @@
+{
+  "title": "Lunch at the Cafe",
+  "text": "This is the menu at the cafe. The soup costs five zloty. The pizza costs twelve zloty. The juice costs two zloty.\n\nTom is hungry. He orders pizza and a glass of juice. He pays at the counter. The waiter says thank you.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How much does the pizza cost?", "options": ["5 zloty", "12 zloty", "2 zloty", "20 zloty"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Tom order?", "options": ["Soup and bread", "Pizza and a glass of juice", "Tea and cake", "Ice cream"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What kind of place is this?", "options": ["A cafe", "A school", "A park", "A hospital"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Tom probably feel after his meal?", "options": ["Full and happy", "Angry", "Sleepy at school", "Cold and wet"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "menu", "translation": "menu", "definition": "a list of food and drinks that a cafe or restaurant offers"},
+    {"word": "pizza", "translation": "pizza", "definition": "a flat round food with cheese and tomato on top"},
+    {"word": "juice", "translation": "sok", "definition": "a drink made from fruit or vegetables"},
+    {"word": "counter", "translation": "lada", "definition": "a long table where you pay or order in a shop or cafe"}
+  ],
+  "paragraph_translations": [
+    "To jest menu w kawiarni. Zupa kosztuje pięć złotych. Pizza kosztuje dwanaście złotych. Sok kosztuje dwa złote.",
+    "Tomek jest głodny. Zamawia pizzę i szklankę soku. Płaci przy ladzie. Kelner mówi dziękuję."
+  ]
+}
