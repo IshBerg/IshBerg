@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has been learning English",
+  "correct_completion": "for three years.",
+  "full_sentence": "She has been learning English for three years.",
+  "acceptable_variants": ["since 2020.", "since last year."],
+  "options": [
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "'Yesterday' names a finished point in the past, which conflicts with the present perfect continuous, an action that continues now."},
+    {"text": "when she was ten.", "is_correct": false, "why_wrong": "'When' with a past time clause does not fit the present perfect; use 'for' or 'since' to show the duration."},
+    {"text": "for three years.", "is_correct": true, "why_wrong": null},
+    {"text": "three years ago.", "is_correct": false, "why_wrong": "'Ago' is used with the past simple, not with the present perfect continuous."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect continuous with 'for' and 'since'",
+  "connector": "for",
+  "explanation": "'For' is used with a period of time, and 'since' with a starting point. Both fit the present perfect continuous to show an action that began in the past and is still going on now. Many learners use a simple present tense here because their first language does not separate these tenses in the same way.",
+  "translation": "Üç yıldır İngilizce öğreniyor."
+}
