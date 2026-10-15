@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["B", "A", "N", "K", "X", "Q", "Z", "W"],
+    ["L", "H", "O", "T", "D", "S", "G", "J"],
+    ["I", "E", "U", "C", "F", "V", "N", "M"],
+    ["B", "T", "S", "W", "Q", "L", "P", "H"],
+    ["R", "E", "K", "J", "D", "G", "A", "Z"],
+    ["A", "O", "I", "U", "N", "S", "R", "X"],
+    ["R", "Q", "W", "E", "T", "H", "K", "J"],
+    ["Y", "F", "M", "A", "R", "K", "E", "T"]
+  ],
+  "words_to_find": ["BANK", "LIBRARY", "PARK", "MARKET"],
+  "word_positions": [
+    {"word": "BANK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LIBRARY", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "PARK", "start_row": 3, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "MARKET", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Places in Town"
+}

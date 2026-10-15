@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday, Tom visited his grandmother and",
+  "correct_completion": "helped her in the garden.",
+  "full_sentence": "Yesterday, Tom visited his grandmother and helped her in the garden.",
+  "acceptable_variants": ["cleaned the kitchen with her.", "helped her with the shopping."],
+  "options": [
+    {"text": "he helps her in the garden.", "is_correct": false, "why_wrong": "The present simple 'helps' does not match the past time marker 'Yesterday'."},
+    {"text": "he will help her tomorrow.", "is_correct": false, "why_wrong": "The future tense 'will help' conflicts with the past time marker 'Yesterday'."},
+    {"text": "helped her in the garden.", "is_correct": true, "why_wrong": null},
+    {"text": "he is helping her now.", "is_correct": false, "why_wrong": "The present continuous 'is helping' with 'now' conflicts with the past time marker 'Yesterday'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past simple of regular verbs with a past time marker",
+  "connector": "yesterday",
+  "explanation": "The time marker 'Yesterday' requires a past simple verb. The regular verb 'help' takes the ending -ed to form 'helped', so only the past form fits the sentence.",
+  "translation": "Вчора Том відвідав свою бабусю і допоміг їй у саду."
+}

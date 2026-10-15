@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ball",
+  "all_words": [
+    {"word": "bounce", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "М'яч відскакує від підлоги, тому слова 'bounce' і 'ball' часто використовують разом."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Ложка не пов'язана з м'ячем і не належить до ігор з м'ячем."},
+    {"word": "game", "is_associated": true, "association_type": "THEMATIC", "explanation": "М'ячі часто використовують в іграх, тому слово 'game' належить до тієї самої теми."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Вікно не має відношення ні до м'яча, ні до іграшок."},
+    {"word": "kick", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "М'яч б'ють ногою, тому слово 'kick' часто звучить разом із 'ball'."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Стілець не пов'язаний із м'ячем чи грою."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'ball' пов'язане з іграми, діями з м'ячем і самим предметом; слова без цього зв'язку не підходять."
+}
