@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "A", "P", "Q", "J", "X", "K", "L", "Z", "T"],
+    ["B", "F", "W", "N", "V", "G", "H", "C", "Y", "R"],
+    ["D", "K", "L", "P", "Q", "W", "S", "U", "E", "A"],
+    ["G", "Z", "X", "J", "F", "T", "V", "D", "R", "I"],
+    ["H", "M", "B", "K", "O", "C", "Y", "W", "Q", "N"],
+    ["L", "E", "V", "P", "Z", "J", "H", "R", "X", "G"],
+    ["E", "T", "N", "Q", "A", "Y", "M", "K", "B", "F"],
+    ["M", "D", "G", "S", "W", "C", "L", "P", "U", "J"],
+    ["I", "O", "R", "H", "Z", "V", "A", "N", "F", "Q"],
+    ["T", "K", "Q", "S", "U", "B", "X", "Z", "W", "L"]
+  ],
+  "words_to_find": ["MAP", "TRAIN", "STOP", "BUS", "TIME"],
+  "word_positions": [
+    {"word": "MAP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRAIN", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "STOP", "start_row": 2, "start_col": 6, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "BUS", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "TIME", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Maps and Timetables"
+}
