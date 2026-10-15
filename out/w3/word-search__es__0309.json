@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "R", "A", "I", "N", "K", "Q", "T"],
+    ["B", "X", "F", "Z", "W", "J", "U", "E"],
+    ["G", "D", "Y", "S", "C", "V", "R", "N"],
+    ["M", "K", "Q", "F", "B", "X", "Z", "T"],
+    ["A", "J", "W", "D", "S", "G", "Y", "L"],
+    ["P", "R", "U", "V", "K", "N", "C", "B"],
+    ["X", "Z", "H", "O", "T", "E", "L", "Q"],
+    ["D", "W", "J", "K", "F", "S", "V", "Y"]
+  ],
+  "words_to_find": ["TRAIN", "TENT", "MAP", "HOTEL"],
+  "word_positions": [
+    {"word": "TRAIN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TENT", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "MAP", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "HOTEL", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Travel Adventures"
+}
