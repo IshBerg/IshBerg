@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time you arrive,",
+  "correct_completion": "we will have finished the project.",
+  "full_sentence": "By the time you arrive, we will have finished the project.",
+  "acceptable_variants": ["we will have completed the project.", "we will have finished the work."],
+  "options": [
+    {"text": "we finished the project yesterday.", "is_correct": false, "why_wrong": "The past simple refers to a finished action in the past, which conflicts with the future time reference set by 'by the time'."},
+    {"text": "we will have finished the project.", "is_correct": true, "why_wrong": null},
+    {"text": "we have finished the project.", "is_correct": false, "why_wrong": "The present perfect does not point to a future completion point, so it does not fit after 'by the time' with a future event."},
+    {"text": "we will be finishing the project.", "is_correct": false, "why_wrong": "The future continuous describes an action in progress at a future time, not an action completed before that time."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect with 'by the time'",
+  "connector": "by the time",
+  "explanation": "'By the time' introduces a point in the future. The main clause needs the future perfect to show that the action will be complete before that point. Polish speakers often use a simple future here because Polish expresses completion with verb aspect rather than a separate tense.",
+  "translation": "Do czasu twojego przyjazdu zdążymy już skończyć projekt."
+}
