@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only",
+  "correct_completion": "does the new policy help workers, but it also protects their families.",
+  "full_sentence": "Not only does the new policy help workers, but it also protects their families.",
+  "acceptable_variants": ["does the new policy help workers, and it also protects their families.", "does the new policy benefit workers, but it also protects their families."],
+  "options": [
+    {"text": "the new policy helps workers, but also protects their families.", "is_correct": false, "why_wrong": "After a negative adverbial such as 'not only', the auxiliary must move before the subject; this sentence keeps the standard word order."},
+    {"text": "does the new policy help workers, but it also protects their families.", "is_correct": true, "why_wrong": null},
+    {"text": "does the new policy helps workers, but it also protects their families.", "is_correct": false, "why_wrong": "After the auxiliary 'does' the main verb must be in its base form, so 'helps' is incorrect."},
+    {"text": "the new policy did help workers, but it also protects their families.", "is_correct": false, "why_wrong": "The sentence is in standard word order, so it lacks the inversion that 'not only' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after 'not only'",
+  "connector": "not only",
+  "explanation": "When 'not only' opens the sentence, the auxiliary verb moves before the subject. The main verb then stays in its base form, and the second clause follows with 'but it also'.",
+  "translation": "Yeni politika yalnızca işçilere yardım etmekle kalmıyor, aynı zamanda ailelerini de koruyor."
+}
