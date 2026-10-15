@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The evidence was, on the face of it, compelling;",
+  "correct_completion": "nonetheless, the panel withheld its verdict until further review.",
+  "full_sentence": "The evidence was, on the face of it, compelling; nonetheless, the panel withheld its verdict until further review.",
+  "acceptable_variants": ["however, the panel withheld its verdict until further review.", "yet the panel withheld its verdict until further review."],
+  "options": [
+    {"text": "consequently, the panel reached its verdict the same day.", "is_correct": false, "why_wrong": "'Consequently' signals a result that follows from the evidence, but the stem sets up a concession that the panel then resists."},
+    {"text": "nonetheless, the panel withheld its verdict until further review.", "is_correct": true, "why_wrong": null},
+    {"text": "furthermore, the panel had already issued its verdict.", "is_correct": false, "why_wrong": "'Furthermore' adds a point in the same direction, but the stem needs a contrasting element after the concession."},
+    {"text": "similarly, the panel had reviewed comparable cases.", "is_correct": false, "why_wrong": "'Similarly' signals a parallel comparison, which does not contrast with the concession in the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive discourse markers",
+  "connector": "nonetheless",
+  "explanation": "The stem concedes that the evidence appears strong. The completion must introduce a contrasting outcome, which 'nonetheless' signals while keeping the formal register expected at this level.",
+  "translation": "Dowody, na pierwszy rzut oka, były przekonujące; mimo to panel wstrzymał swój werdykt do czasu dalszej analizy."
+}
