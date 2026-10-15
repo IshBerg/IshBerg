@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "assinatura", "transliteration": "assinatura", "meaning": "subscription (a regular payment for a service, not a handwritten signature)"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current or present (not 'actual', which means real or true)"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend or plan (not 'to pretend', which means to act as if)"},
+    {"word": "eventual", "transliteration": "eventual", "meaning": "possible or occasional (not 'eventual', which means final or ultimate in English)"}
+  ],
+  "english_words": ["intend", "possible", "subscription", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages derive these forms from the same Latin roots, so the spelling stayed close, but the meanings drifted apart over centuries of separate use.",
+  "false_friend_warning": "A Portuguese speaker may assume that the word for a regular payment looks like English 'signature', and that the word for present time means 'actual'. In formal correspondence these mix-ups change the meaning of a letter completely, so check each word in an English dictionary before writing."
+}
