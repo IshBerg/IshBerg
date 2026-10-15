@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I lived in the village, I used to",
+  "correct_completion": "wake up early to help my grandfather.",
+  "full_sentence": "When I lived in the village, I used to wake up early to help my grandfather.",
+  "acceptable_variants": ["get up at dawn to feed the animals.", "help my grandfather in the fields every morning."],
+  "options": [
+    {"text": "waking up early to help my grandfather.", "is_correct": false, "why_wrong": "After 'used to' the verb must be in the base form, not the -ing form."},
+    {"text": "to wake up early to help my grandfather.", "is_correct": false, "why_wrong": "'Used to' is followed directly by the base verb, so 'to' must not be repeated."},
+    {"text": "I have woken up early to help my grandfather.", "is_correct": false, "why_wrong": "'Used to' is not followed by a present perfect auxiliary; adding 'have' breaks the structure."},
+    {"text": "wake up early to help my grandfather.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Used to + base verb for past habits",
+  "connector": "used to",
+  "explanation": "The structure 'used to' is followed by the base form of the verb to describe a past habit that no longer continues. Learners often add an extra word or an -ing form after it, which is incorrect.",
+  "translation": "Коли я жив у селі, я мав звичку рано прокидатися, щоб допомагати дідусеві."
+}
