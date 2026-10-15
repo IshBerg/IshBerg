@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "vitamina", "transliteration": "vitamina", "meaning": "vitamin"},
+    {"word": "exercício", "transliteration": "exercicio", "meaning": "exercise"},
+    {"word": "calorias", "transliteration": "calorias", "meaning": "calories"},
+    {"word": "proteína", "transliteration": "proteina", "meaning": "protein"}
+  ],
+  "english_words": ["protein", "calories", "exercise", "vitamin"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin and Greek, so the spelling and meaning stayed close.",
+  "false_friend_warning": null
+}
