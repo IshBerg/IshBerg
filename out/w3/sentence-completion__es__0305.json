@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the story was long,",
+  "correct_completion": "I finished it in one week.",
+  "full_sentence": "Although the story was long, I finished it in one week.",
+  "acceptable_variants": ["I still enjoyed reading it.", "I read it quickly anyway."],
+  "options": [
+    {"text": "so I read it slowly.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. 'Although' needs a clause that contrasts with the first part of the sentence."},
+    {"text": "I finished it in one week.", "is_correct": true, "why_wrong": null},
+    {"text": "the characters were boring.", "is_correct": false, "why_wrong": "This describes the story but does not provide the contrasting action expected after 'although'."},
+    {"text": "it was printed in 1990.", "is_correct": false, "why_wrong": "This is a fact about publication and does not complete the contrast set up by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Spanish speakers may confuse concessive clauses with cause clauses, because the same connector family can express both ideas in their first language. In English, 'although' signals an unexpected result.",
+  "translation": "Aunque la historia era larga, la terminé en una semana."
+}
