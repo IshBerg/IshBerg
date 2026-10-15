@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother lost his phone, so",
+  "correct_completion": "I helped him look for it.",
+  "full_sentence": "My brother lost his phone, so I helped him look for it.",
+  "acceptable_variants": ["I called him to help me find it.", "I searched the whole house with him."],
+  "options": [
+    {"text": "I helped he look for it.", "is_correct": false, "why_wrong": "'He' is a subject pronoun; after the verb 'helped' we need an object pronoun such as 'him'."},
+    {"text": "I helped his look for it.", "is_correct": false, "why_wrong": "'His' is a possessive word and needs a noun after it; here the object pronoun 'him' is required."},
+    {"text": "I helped him look for it.", "is_correct": true, "why_wrong": null},
+    {"text": "I helped them look for it.", "is_correct": false, "why_wrong": "'Them' refers to a group of people, but the sentence is about one brother, so 'him' is needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns after verbs (him, it)",
+  "connector": "so",
+  "explanation": "After 'so', we need the result of the first clause. The verb 'helped' takes an object pronoun, so 'him' is correct. Ukrainian speakers often mix up subject and object pronouns here because Ukrainian marks case through word endings, while English relies on separate pronoun forms and word order.",
+  "translation": "Мій брат загубив телефон, тож я допоміг йому його знайти."
+}
