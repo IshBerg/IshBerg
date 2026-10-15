@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "I", "C", "K", "E", "T", "Q", "R"],
+    ["S", "B", "X", "Y", "G", "N", "F", "O"],
+    ["T", "K", "Z", "W", "J", "M", "P", "A"],
+    ["A", "L", "B", "I", "K", "E", "V", "D"],
+    ["T", "Q", "Z", "F", "R", "W", "Y", "X"],
+    ["I", "H", "J", "C", "U", "V", "L", "M"],
+    ["O", "P", "S", "D", "A", "G", "N", "F"],
+    ["N", "W", "E", "L", "Y", "K", "C", "Z"]
+  ],
+  "words_to_find": ["TICKET", "ROAD", "BIKE", "STATION"],
+  "word_positions": [
+    {"word": "TICKET", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ROAD", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "BIKE", "start_row": 3, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "STATION", "start_row": 1, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Travel and Transport"
+}
