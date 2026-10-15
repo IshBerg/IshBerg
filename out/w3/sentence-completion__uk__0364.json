@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the report was written in very simple language,",
+  "correct_completion": "many readers found its conclusions hard to follow.",
+  "full_sentence": "Although the report was written in very simple language, many readers found its conclusions hard to follow.",
+  "acceptable_variants": ["some readers still found the main ideas difficult to understand.", "its key points were not clear to a lot of people."],
+  "options": [
+    {"text": "so everyone understood its main points easily.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. After 'although' the sentence needs a clause that contrasts with the simple language mentioned in the stem."},
+    {"text": "the authors added several charts and tables.", "is_correct": false, "why_wrong": "This adds extra information but does not contrast with the simple language mentioned in the stem."},
+    {"text": "many readers found its conclusions hard to follow.", "is_correct": true, "why_wrong": null},
+    {"text": "it was published in three different languages.", "is_correct": false, "why_wrong": "This is an unrelated fact about publication; it does not contrast with the difficulty expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Simple language normally suggests easy understanding, so the correct clause reverses that expectation.",
+  "translation": "Хоча звіт був написаний дуже простою мовою, багатьом читачам його висновки було важко зрозуміти."
+}
