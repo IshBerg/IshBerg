@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["C", "R", "I", "M", "E", "W", "Z", "J", "P"],
+    ["H", "K", "D", "A", "T", "N", "U", "F", "O"],
+    ["B", "O", "Y", "G", "K", "L", "Q", "R", "V"],
+    ["A", "N", "M", "P", "C", "J", "I", "S", "E"],
+    ["D", "Q", "Z", "E", "W", "H", "B", "T", "R"],
+    ["G", "Y", "X", "K", "L", "U", "A", "N", "T"],
+    ["K", "W", "F", "U", "P", "E", "Z", "Q", "Y"],
+    ["J", "R", "T", "B", "V", "D", "S", "G", "H"],
+    ["R", "A", "C", "I", "S", "M", "K", "S", "L"]
+  ],
+  "words_to_find": ["CRIME", "POVERTY", "HOMELESS", "RACISM"],
+  "word_positions": [
+    {"word": "CRIME", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "POVERTY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "HOMELESS", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "RACISM", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Social Issues"
+}
