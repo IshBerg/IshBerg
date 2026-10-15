@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "таксі", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "метро", "transliteration": "metro", "meaning": "metro, underground railway"},
+    {"word": "парк", "transliteration": "park", "meaning": "park"},
+    {"word": "банк", "transliteration": "bank", "meaning": "bank"}
+  ],
+  "english_words": ["park", "taxi", "bank", "metro"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from the same source, so the forms stayed close.",
+  "false_friend_warning": null
+}
