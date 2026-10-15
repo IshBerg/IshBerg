@@ -1,0 +1,14 @@
+{
+  "trigger_word": "idiom",
+  "all_words": [
+    {"word": "phrase", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Uma frase feita é a forma mais comum de expressão idiomática, por isso as duas palavras se relacionam diretamente."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "O guarda-chuva é um objeto do cotidiano e não tem relação com a linguagem figurada ou com expressões idiomáticas."},
+    {"word": "proverb", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O provérbio é uma expressão popular de sabedoria, muito próxima do idiomatismo em forma e função."},
+    {"word": "dictionary", "is_associated": true, "association_type": "THEMATIC", "explanation": "Os dicionários registram idiomatismos e explicam seu sentido figurado, por isso pertencem ao mesmo campo temático."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "O tomate é um alimento e não guarda nenhuma ligação com a linguagem idiomática."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "A ponte é uma estrutura física e não pertence ao campo semântico dos idiomatismos."}
+  ],
+  "correct_indices": [0, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao idioma pertencem ao campo da linguagem, das expressões populares e da lexicografia, enquanto os demais termos são objetos ou conceitos sem relação com esse campo."
+}
