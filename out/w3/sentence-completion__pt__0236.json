@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Should you need any further assistance,",
+  "correct_completion": "please do not hesitate to contact us.",
+  "full_sentence": "Should you need any further assistance, please do not hesitate to contact us.",
+  "acceptable_variants": ["if you require further help, please let us know.", "feel free to get in touch should you have questions."],
+  "options": [
+    {"text": "we would have sent it earlier.", "is_correct": false, "why_wrong": "The past tense conflicts with the open, present-facing condition introduced by 'Should', so the sentence becomes inconsistent."},
+    {"text": "please do not hesitate to contact us.", "is_correct": true, "why_wrong": null},
+    {"text": "so we closed the file yesterday.", "is_correct": false, "why_wrong": "This describes a completed past action with a cause-and-effect link, which does not match the open condition of 'Should'."},
+    {"text": "the assistance was provided last week.", "is_correct": false, "why_wrong": "A past result does not fit the future-oriented conditional that 'Should' introduces."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditional with 'Should' in formal written English",
+  "connector": "should",
+  "explanation": "The inverted 'Should' form replaces 'If you should need'. It is more formal than a full if-clause and is common in business correspondence. L1 interference note: Portuguese speakers may translate the conditional literally with 'if' and a full clause, which sounds less polished in formal English writing.",
+  "translation": "Caso precise de qualquer assistência adicional, não hesite em entrar em contato conosco."
+}
