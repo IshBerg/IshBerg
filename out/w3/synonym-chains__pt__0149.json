@@ -1,0 +1,17 @@
+{
+  "central_word": "cheap",
+  "chain_words": [
+    {"word": "inexpensive", "intensity": 1, "translation": "econômico", "nuance": "not expensive, good value"},
+    {"word": "affordable", "intensity": 2, "translation": "acessível", "nuance": "a price that people can pay"},
+    {"word": "cheap", "intensity": 3, "translation": "barato", "nuance": "low price, general and neutral"},
+    {"word": "bargain", "intensity": 4, "translation": "pechincha", "nuance": "a very good deal for the money"},
+    {"word": "dirt-cheap", "intensity": 5, "translation": "baratíssimo", "nuance": "extremely low price, very informal"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe a low price, but they move from good value to an extremely low price.",
+  "usage_notes": [
+    {"word1": "cheap", "word2": "inexpensive", "difference": "'Cheap' can suggest poor quality; 'inexpensive' is a more neutral and polite way to describe a low price."}
+  ],
+  "translations": {"inexpensive": "econômico", "affordable": "acessível", "cheap": "barato", "bargain": "pechincha", "dirt-cheap": "baratíssimo"}
+}
