@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["A", "L", "L", "E", "G", "O", "R", "Y", "W", "T"],
+    ["Q", "K", "F", "M", "H", "D", "J", "V", "Z", "R"],
+    ["S", "L", "W", "P", "K", "F", "Q", "X", "D", "O"],
+    ["G", "U", "V", "Z", "J", "M", "W", "H", "L", "P"],
+    ["K", "R", "B", "Q", "D", "V", "F", "J", "W", "E"],
+    ["N", "H", "L", "T", "S", "K", "Z", "Q", "F", "M"],
+    ["O", "P", "Y", "D", "E", "W", "G", "H", "V", "J"],
+    ["N", "M", "R", "V", "F", "X", "L", "Z", "K", "Q"],
+    ["A", "D", "G", "W", "H", "J", "T", "S", "B", "F"],
+    ["C", "U", "P", "L", "K", "Y", "N", "O", "R", "I"]
+  ],
+  "words_to_find": ["ALLEGORY", "TROPE", "IRONY", "SUBTEXT", "CANON"],
+  "word_positions": [
+    {"word": "ALLEGORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TROPE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SUBTEXT", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CANON", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Literary Criticism and Theory"
+}
