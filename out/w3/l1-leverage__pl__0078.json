@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, friendly"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "pacjent", "transliteration": "pacjent", "meaning": "patient, a person receiving medical care"}
+  ],
+  "english_words": ["nice", "patient", "current", "possibly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Several Polish words look like English words but have different meanings. They came into each language through different word histories, so the spelling stayed close while the meaning changed.",
+  "false_friend_warning": "Watch out: the Polish word 'aktualny' looks like the English word 'actual', but it means 'current'. The Polish word 'sympatyczny' looks like 'sympathetic' but means 'nice', and 'ewentualnie' looks like 'eventually' but means 'possibly'."
+}
