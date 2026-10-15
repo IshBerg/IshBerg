@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee had failed to consider",
+  "correct_completion": "was the long-term cost of the proposal.",
+  "full_sentence": "What the committee had failed to consider was the long-term cost of the proposal.",
+  "acceptable_variants": ["was the impact on future budgets.", "was how much the project would ultimately cost."],
+  "options": [
+    {"text": "the long-term cost of the proposal.", "is_correct": false, "why_wrong": "The clause has no linking verb. A wh-clause used as a subject needs a verb such as 'was' to connect it to its complement."},
+    {"text": "was considering the long-term cost of the proposal.", "is_correct": false, "why_wrong": "A progressive verb describes an ongoing action, but this structure is an identifying statement of the form 'what X was Y', where the complement is a noun phrase."},
+    {"text": "was the long-term cost of the proposal.", "is_correct": true, "why_wrong": null},
+    {"text": "that the long-term cost of the proposal.", "is_correct": false, "why_wrong": "'That' can introduce a noun clause as an object, but after a wh-clause subject it cannot take the place of the linking verb, so the sentence stays ungrammatical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Wh-nominal clauses as subjects (pseudo-cleft structure)",
+  "connector": "what",
+  "explanation": "A wh-nominal clause used as the subject needs one linking verb such as 'was' before its complement. Learners often add a second main verb or a conjunction at this point, which breaks the structure.",
+  "translation": "O que o comitê não havia considerado era o custo a longo prazo da proposta."
+}
