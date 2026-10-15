@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "планета", "transliteration": "planeta", "meaning": "planet"},
+    {"word": "комета", "transliteration": "kometa", "meaning": "comet"},
+    {"word": "телескоп", "transliteration": "teleskop", "meaning": "telescope"},
+    {"word": "атмосфера", "transliteration": "atmosfera", "meaning": "atmosphere"}
+  ],
+  "english_words": ["telescope", "planet", "atmosphere", "comet"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each of these words entered both languages through scientific vocabulary based on Greek or Latin roots, so the Ukrainian and English forms stayed close in spelling and meaning.",
+  "false_friend_warning": null
+}

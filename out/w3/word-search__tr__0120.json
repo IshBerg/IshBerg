@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "U", "G", "G", "E", "S", "T"],
+    ["X", "Q", "B", "J", "Z", "K", "W"],
+    ["L", "I", "K", "E", "L", "Y", "M"],
+    ["Q", "Z", "J", "W", "V", "B", "I"],
+    ["A", "P", "P", "E", "A", "R", "G"],
+    ["V", "X", "Z", "Q", "J", "K", "H"],
+    ["M", "A", "Y", "B", "E", "W", "T"]
+  ],
+  "words_to_find": ["SUGGEST", "LIKELY", "MIGHT", "APPEAR", "MAYBE"],
+  "word_positions": [
+    {"word": "SUGGEST", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LIKELY", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MIGHT", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "APPEAR", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MAYBE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Academic Hedging Vocabulary"
+}
