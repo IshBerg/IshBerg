@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E", "S", "S", "E", "N", "C", "E", "X", "K", "F"],
+    ["Q", "W", "H", "L", "P", "T", "U", "Z", "J", "R"],
+    ["A", "W", "K", "O", "M", "V", "Y", "C", "G", "E"],
+    ["P", "B", "H", "Z", "Q", "J", "K", "L", "Y", "E"],
+    ["Y", "F", "S", "T", "X", "N", "W", "C", "B", "D"],
+    ["K", "T", "R", "U", "V", "G", "P", "H", "Y", "O"],
+    ["L", "S", "Z", "F", "R", "B", "Q", "W", "X", "M"],
+    ["J", "G", "K", "P", "T", "D", "V", "Z", "Q", "L"],
+    ["C", "N", "H", "K", "W", "Y", "P", "J", "T", "B"],
+    ["Z", "A", "J", "X", "N", "I", "E", "S", "A", "D"]
+  ],
+  "words_to_find": ["ESSENCE", "FREEDOM", "ABSURD", "DASEIN", "ANGST"],
+  "word_positions": [
+    {"word": "ESSENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FREEDOM", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "ABSURD", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DASEIN", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "ANGST", "start_row": 9, "start_col": 1, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Existentialism and Modern Philosophy"
+}
