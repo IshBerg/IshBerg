@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We need some milk and bread, so",
+  "correct_completion": "we go to the shop.",
+  "full_sentence": "We need some milk and bread, so we go to the shop.",
+  "acceptable_variants": ["we buy them at the supermarket.", "we make a shopping list first."],
+  "options": [
+    {"text": "we go to the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "we are going to the shop yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a past time expression, and it does not fit the present simple used with 'we need'."},
+    {"text": "the shop is closed.", "is_correct": false, "why_wrong": "This gives a reason for not going, so it does not complete the action expected after 'so'."},
+    {"text": "milk and bread are cheap.", "is_correct": false, "why_wrong": "This gives a description of the products, not the action that follows from needing them."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present simple for routine actions after 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part of the sentence. Spanish speakers may mix up the present continuous and the present simple here, because Spanish uses the present tense for both, so English needs the simple form for routine actions.",
+  "translation": "Necesitamos leche y pan, así que vamos a la tienda."
+}

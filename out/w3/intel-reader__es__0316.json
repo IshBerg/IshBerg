@@ -1,0 +1,20 @@
+{
+  "title": "My Weekend Hobbies",
+  "text": "I like sports very much. On Saturday, I play football with my friends in the park. We play for one hour and then we rest.\n\nOn Sunday, I paint pictures at home. I like to paint the sea and the sky. My brother likes music, so he plays the guitar every evening.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What sport does the person play on Saturday?", "options": ["Tennis", "Football", "Swimming", "Basketball"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does the person paint?", "options": ["Cars and houses", "Flowers and trees", "The sea and the sky", "Animals and people"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Where does the person play football?", "options": ["In the park", "At school", "In a swimming pool", "At the station"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about the brother?", "options": ["He does not like music", "He enjoys music", "He paints on Sundays", "He plays football with the person"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "football", "translation": "fútbol", "definition": "a sport played by two teams who try to kick a ball into a goal"},
+    {"word": "park", "translation": "parque", "definition": "a public green area where people can walk, play and relax"},
+    {"word": "paint", "translation": "pintar", "definition": "to make pictures using colours"},
+    {"word": "guitar", "translation": "guitarra", "definition": "a musical instrument with six strings that you play with your fingers"}
+  ],
+  "paragraph_translations": [
+    "Me gusta mucho el deporte. El sábado juego al fútbol con mis amigos en el parque. Jugamos durante una hora y luego descansamos.",
+    "El domingo pinto cuadros en casa. Me gusta pintar el mar y el cielo. Mi hermano le gusta la música, así que toca la guitarra todas las tardes."
+  ]
+}

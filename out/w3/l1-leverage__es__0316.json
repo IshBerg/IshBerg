@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "responsabilidad", "transliteration": "responsabilidad", "meaning": "responsibility"},
+    {"word": "ética", "transliteration": "etica", "meaning": "ethics"},
+    {"word": "justicia", "transliteration": "justicia", "meaning": "justice"},
+    {"word": "honestidad", "transliteration": "honestidad", "meaning": "honesty"}
+  ],
+  "english_words": ["justice", "responsibility", "honesty", "ethics"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin roots, so the forms stayed close to each other.",
+  "false_friend_warning": null
+}
