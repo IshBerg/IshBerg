@@ -1,0 +1,23 @@
+{
+  "central_word": "important",
+  "chain_words": [
+    {"word": "relevant", "intensity": 1, "translation": "ilgili, konuyla bağlantılı", "nuance": "connected to the topic, but not necessarily very serious"},
+    {"word": "significant", "intensity": 2, "translation": "anlamlı, dikkate değer", "nuance": "large enough to have a noticeable effect"},
+    {"word": "important", "intensity": 3, "translation": "önemli", "nuance": "general sense of having value or weight"},
+    {"word": "crucial", "intensity": 4, "translation": "çok kritik, belirleyici", "nuance": "decisive, something the outcome depends on"},
+    {"word": "vital", "intensity": 5, "translation": "hayati", "nuance": "absolutely necessary, without it something cannot work"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express the idea of being important, but with different intensities, from simply relevant to absolutely necessary.",
+  "usage_notes": [
+    {"word1": "crucial", "word2": "vital", "difference": "'Crucial' describes something that decides an outcome; 'vital' describes something that is absolutely necessary for life or for a system to work."}
+  ],
+  "translations": {
+    "relevant": "ilgili, konuyla bağlantılı",
+    "significant": "anlamlı, dikkate değer",
+    "important": "önemli",
+    "crucial": "çok kritik, belirleyici",
+    "vital": "hayati"
+  }
+}

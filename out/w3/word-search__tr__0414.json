@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["G", "A", "M", "E", "K", "T", "Q", "Z", "M"],
+    ["B", "N", "F", "J", "Q", "W", "R", "X", "U"],
+    ["V", "L", "D", "Y", "K", "P", "G", "O", "S"],
+    ["E", "H", "Q", "R", "M", "T", "N", "W", "I"],
+    ["P", "F", "K", "U", "J", "Y", "D", "L", "C"],
+    ["Q", "A", "X", "M", "Z", "O", "R", "S", "B"],
+    ["W", "E", "I", "G", "L", "V", "K", "N", "A"],
+    ["T", "J", "Q", "N", "D", "H", "W", "Z", "F"],
+    ["R", "Y", "C", "U", "T", "H", "I", "K", "E"]
+  ],
+  "words_to_find": ["GAME", "MUSIC", "PAINT", "HIKE"],
+  "word_positions": [
+    {"word": "GAME", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MUSIC", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "PAINT", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "HIKE", "start_row": 8, "start_col": 5, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Free Time Activities"
+}

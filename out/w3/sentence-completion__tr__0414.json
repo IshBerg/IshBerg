@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We will have a picnic in the park if",
+  "correct_completion": "the weather is nice.",
+  "full_sentence": "We will have a picnic in the park if the weather is nice.",
+  "acceptable_variants": ["the sun is shining tomorrow.", "it does not rain on Sunday."],
+  "options": [
+    {"text": "we are very hungry.", "is_correct": false, "why_wrong": "This is a fact about hunger. It does not give the condition needed after 'if'."},
+    {"text": "the weather is nice.", "is_correct": true, "why_wrong": null},
+    {"text": "we ate lunch yesterday.", "is_correct": false, "why_wrong": "This refers to the past, but the first part of the sentence is about a future picnic."},
+    {"text": "our friends like cake.", "is_correct": false, "why_wrong": "This describes what friends like, but it does not state the condition for the picnic."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "'If' introduces a condition that must be true for the future action to happen. The completion must be a clause with a present tense verb that states that condition.",
+  "translation": "Hava güzel olursa parkta piknik yapacağız."
+}
