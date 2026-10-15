@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had more time,",
+  "correct_completion": "I could finish the project.",
+  "full_sentence": "If only I had more time, I could finish the project.",
+  "acceptable_variants": ["I could complete the project.", "I was able to finish the project."],
+  "options": [
+    {"text": "I finish the project yesterday.", "is_correct": false, "why_wrong": "A wish about the present needs a past form after 'if only', and 'yesterday' does not fit a present wish."},
+    {"text": "I could finish the project.", "is_correct": true, "why_wrong": null},
+    {"text": "I finished the project tomorrow.", "is_correct": false, "why_wrong": "A past form combined with 'tomorrow' is contradictory, and it does not express the present wish."},
+    {"text": "I will finish the project.", "is_correct": false, "why_wrong": "'Will' does not follow 'if only' in this wish structure. The wish is expressed with 'could' for the result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Present wishes with 'if only' and 'could'",
+  "connector": "if only",
+  "explanation": "After 'if only', a past form expresses a wish about the present, and 'could' shows the result the speaker wants. Speakers of Spanish may find this past-form pattern unfamiliar, because the wish is marked by the verb form rather than by a separate mood word.",
+  "translation": "Si tan solo tuviera más tiempo, podría terminar el proyecto."
+}
