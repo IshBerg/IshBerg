@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the exercise was difficult,",
+  "correct_completion": "I still think it was useful for my English.",
+  "full_sentence": "Although the exercise was difficult, I still think it was useful for my English.",
+  "acceptable_variants": ["I still enjoyed it.", "I still learned a lot."],
+  "options": [
+    {"text": "so I stopped trying at once.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. After 'although', the sentence needs a clause that contrasts with the first part."},
+    {"text": "I was tired because of the noise.", "is_correct": false, "why_wrong": "'Because' introduces a cause. It does not show contrast, so it does not complete the 'although' structure."},
+    {"text": "I still think it was useful for my English.", "is_correct": true, "why_wrong": null},
+    {"text": "it was in the morning.", "is_correct": false, "why_wrong": "This adds a time detail but does not express the contrast expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners often pick a result clause with 'so' because the same idea works in other languages with a cause-and-effect structure.",
+  "translation": "Embora o exercício tenha sido difícil, eu ainda acho que foi útil para o meu inglês."
+}
