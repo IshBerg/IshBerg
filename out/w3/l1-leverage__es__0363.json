@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily hurt"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"}
+  ],
+  "english_words": ["attend", "bookshop", "current", "sensitive"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages have a word that looks almost the same, but the English meaning differs from the Spanish meaning, so the look-alike form misleads learners.",
+  "false_friend_warning": "The Spanish word that looks like the English word 'actual' means current or present, while 'actual' in English means real or true. The Spanish word that looks like 'library' means bookshop, while 'library' is a place to borrow books."
+}

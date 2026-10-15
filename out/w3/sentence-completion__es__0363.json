@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the city needs more parks,",
+  "correct_completion": "the council has not yet approved the budget.",
+  "full_sentence": "Although the city needs more parks, the council has not yet approved the budget.",
+  "acceptable_variants": ["the council still has not agreed on the money.", "the mayor has not signed the plan yet."],
+  "options": [
+    {"text": "the parks are open every day.", "is_correct": false, "why_wrong": "This describes the parks but does not complete the contrast started by 'although'."},
+    {"text": "the council has not yet approved the budget.", "is_correct": true, "why_wrong": null},
+    {"text": "so the council has approved the budget.", "is_correct": false, "why_wrong": "'So' introduces a result that follows naturally, but 'although' needs a contrast."},
+    {"text": "the city is very large.", "is_correct": false, "why_wrong": "This adds a fact about size but does not provide the contrasting idea expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners often mix up 'although' with 'because' when they write persuasive essays, so it helps to check whether the second clause goes against the first.",
+  "translation": "Aunque la ciudad necesita más parques, el concejo todavía no ha aprobado el presupuesto."
+}

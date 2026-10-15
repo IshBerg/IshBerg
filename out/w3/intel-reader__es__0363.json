@@ -1,0 +1,20 @@
+{
+  "title": "Tom Is Sick",
+  "text": "Tom is sick today. He has a fever and a cough. He stays in bed and drinks water.\n\nHis mother calls the doctor. The doctor says Tom needs rest and medicine. Tom feels better in three days.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Tom have?", "options": ["A fever and a cough", "A broken leg", "A toothache", "A headache"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Who calls the doctor?", "options": ["His mother", "His father", "Tom", "His teacher"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Tom stay in bed?", "options": ["He is sick", "He is on holiday", "He wants to play a game", "He is going to school"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about the doctor?", "options": ["The doctor helps sick people", "The doctor is Tom's brother", "The doctor does not like children", "The doctor lives in Tom's house"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "fever", "translation": "fiebre", "definition": "a high body temperature when you are ill"},
+    {"word": "cough", "translation": "tos", "definition": "a sound you make when you push air out of your throat"},
+    {"word": "rest", "translation": "descanso", "definition": "time when you do not work or move much"},
+    {"word": "medicine", "translation": "medicina", "definition": "something you take to help you get better when you are ill"}
+  ],
+  "paragraph_translations": [
+    "Tom está enfermo hoy. Tiene fiebre y tos. Se queda en la cama y bebe agua.",
+    "Su madre llama al médico. El médico dice que Tom necesita descanso y medicina. Tom se siente mejor en tres días."
+  ]
+}
