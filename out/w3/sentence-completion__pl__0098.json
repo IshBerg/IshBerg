@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is a bus stop near our school, so",
+  "correct_completion": "we can catch the bus every morning.",
+  "full_sentence": "There is a bus stop near our school, so we can catch the bus every morning.",
+  "acceptable_variants": ["we do not need to walk far.", "we can get to class quickly."],
+  "options": [
+    {"text": "we have to walk for an hour.", "is_correct": false, "why_wrong": "This contradicts the result the stem implies: a nearby bus stop makes a long walk unnecessary."},
+    {"text": "the bus stop is very old.", "is_correct": false, "why_wrong": "This describes the bus stop, but 'so' needs a result that follows from the bus stop being near the school."},
+    {"text": "we can catch the bus every morning.", "is_correct": true, "why_wrong": null},
+    {"text": "there is a bus station too.", "is_correct": false, "why_wrong": "This adds another place, but it does not give a result of the bus stop being near the school."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "'There is' introducing a fact, followed by a result clause with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a result that follows logically from the first clause. Here the nearby bus stop makes convenient travel possible, so a clause about catching the bus completes the sentence. Learners sometimes treat 'there is' as if it were a result itself, but it only introduces the fact that something exists. Polish speakers may also use 'so' loosely, so check that the result really follows from the first clause.",
+  "translation": "Przy naszej szkole jest przystanek autobusowy, więc możemy codziennie rano złapać autobus."
+}
