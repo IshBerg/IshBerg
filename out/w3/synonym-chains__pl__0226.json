@@ -1,0 +1,23 @@
+{
+  "central_word": "hungry",
+  "chain_words": [
+    {"word": "peckish", "intensity": 1, "translation": "lekko głodny", "nuance": "slightly hungry, wanting a small snack"},
+    {"word": "hungry", "intensity": 2, "translation": "głodny", "nuance": "a normal need for food"},
+    {"word": "famished", "intensity": 3, "translation": "wygłodzony", "nuance": "very hungry, feeling weak from lack of food"},
+    {"word": "ravenous", "intensity": 4, "translation": "wygłodniały", "nuance": "extremely hungry, with a strong urge to eat"},
+    {"word": "starving", "intensity": 5, "translation": "umierający z głodu", "nuance": "extreme hunger, close to suffering from lack of food"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express hunger, moving from a light wish for a snack to an extreme lack of food.",
+  "usage_notes": [
+    {"word1": "hungry", "word2": "starving", "difference": "'Hungry' describes a normal need for food; 'starving' describes an extreme lack of food, which is much more intense."}
+  ],
+  "translations": {
+    "peckish": "lekko głodny",
+    "hungry": "głodny",
+    "famished": "wygłodzony",
+    "ravenous": "wygłodniały",
+    "starving": "umierający z głodu"
+  }
+}

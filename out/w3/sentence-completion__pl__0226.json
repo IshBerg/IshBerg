@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rather than employing the jargon of the report,",
+  "correct_completion": "the author opted for plain, direct prose.",
+  "full_sentence": "Rather than employing the jargon of the report, the author opted for plain, direct prose.",
+  "acceptable_variants": ["the author chose a clear and simple style.", "the author wrote in plain, direct language."],
+  "options": [
+    {"text": "the reader found the report dense.", "is_correct": false, "why_wrong": "This describes the reader's reaction, which does not complete the choice between two registers that 'rather than' sets up."},
+    {"text": "the author used a lot of jargon.", "is_correct": false, "why_wrong": "This repeats the register the stem rejects, so it contradicts the contrast introduced by 'rather than'."},
+    {"text": "therefore the report was shortened.", "is_correct": false, "why_wrong": "'Therefore' introduces a consequence, not a stylistic alternative, so it does not fit 'rather than'."},
+    {"text": "the author opted for plain, direct prose.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive 'rather than' followed by a main clause naming the alternative",
+  "connector": "rather than",
+  "explanation": "'Rather than' sets up a contrast between two options, so the main clause must name the alternative that was chosen. Polish speakers may translate 'rather than' word for word and then expect a verb after it, which leads to ungrammatical completions.",
+  "translation": "Zamiast posługiwać się żargonem z raportu, autor wybrał prosty i bezpośredni styl."
+}
