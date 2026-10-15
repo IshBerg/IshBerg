@@ -1,0 +1,14 @@
+{
+  "trigger_word": "winter",
+  "all_words": [
+    {"word": "snow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A neve, inverno ile diretamente relacionado, pois cai principalmente durante essa estação do ano."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "O piano é um instrumento musical e não tem nenhuma ligação com a estação do inverno."},
+    {"word": "frost", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A geada é uma camada de gelo que se forma em dias muito frios, característica do inverno."},
+    {"word": "sandal", "is_associated": false, "association_type": "NONE", "explanation": "A sandália é um calçado de verão, por isso não está associada ao inverno."},
+    {"word": "season", "is_associated": true, "association_type": "THEMATIC", "explanation": "Estação é o campo temático ao qual o inverno pertence, junto com primavera, verão e outono."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "O tomate é um alimento sem relação com o inverno ou com o clima frio."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'winter' referem-se à neve, à geada e ao conceito de estação do ano, enquanto as demais pertencem a campos sem relação com o clima frio."
+}
