@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "O", "N", "G", "U", "E", "B"],
+    ["Q", "J", "X", "M", "Z", "W", "R"],
+    ["A", "C", "C", "E", "N", "T", "I"],
+    ["K", "Y", "V", "Q", "Z", "F", "D"],
+    ["S", "P", "E", "A", "K", "L", "G"],
+    ["W", "X", "Q", "Z", "M", "J", "E"],
+    ["D", "I", "A", "L", "E", "C", "T"]
+  ],
+  "words_to_find": ["TONGUE", "BRIDGE", "ACCENT", "DIALECT", "SPEAK"],
+  "word_positions": [
+    {"word": "TONGUE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BRIDGE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ACCENT", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DIALECT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SPEAK", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Facilitating Multilingual Discourse"
+}

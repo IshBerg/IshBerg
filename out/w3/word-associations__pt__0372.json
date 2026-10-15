@@ -1,0 +1,14 @@
+{
+  "trigger_word": "recycling",
+  "all_words": [
+    {"word": "bottle", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Garrafas são um dos materiais mais comuns que se recicla, e a expressão 'recycle a bottle' é usada com frequência."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Vulcão não tem nenhuma relação com reciclagem, nem com materiais ou processos de reaproveitamento."},
+    {"word": "compost", "is_associated": true, "association_type": "THEMATIC", "explanation": "Composto orgânico é produzido a partir de resíduos, fazendo parte do mesmo tema de reaproveitamento ambiental."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sanduíche não se relaciona com reciclagem nem com o tema do reaproveitamento de materiais."},
+    {"word": "plastic", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Plástico é o material que mais se associa à reciclagem, por ser um dos principais itens coletados para reaproveitamento."},
+    {"word": "trumpet", "is_associated": false, "association_type": "NONE", "explanation": "Trompete é um instrumento musical e não tem ligação com reciclagem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'recycling' se associa a garrafas, composto e plástico, que são materiais ou processos ligados ao reaproveitamento; as outras palavras não têm relação com o tema."
+}
