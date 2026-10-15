@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were you,",
+  "correct_completion": "I would apologize to her first.",
+  "full_sentence": "If I were you, I would apologize to her first.",
+  "acceptable_variants": ["I would talk to her first.", "I would call her before anything else."],
+  "options": [
+    {"text": "I apologized to her yesterday.", "is_correct": false, "why_wrong": "This is a past simple statement about a finished action. It does not give hypothetical advice after 'If I were you'."},
+    {"text": "I am apologizing to her right now.", "is_correct": false, "why_wrong": "The present continuous describes an action in progress. The sentence needs a hypothetical 'would' clause to match the 'If I were you' structure."},
+    {"text": "I would apologize to her first.", "is_correct": true, "why_wrong": null},
+    {"text": "I will apologize to her tomorrow.", "is_correct": false, "why_wrong": "'Will' expresses a real plan. 'If I were you' calls for the second conditional with 'would' to express imagined advice."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with subjunctive 'were' (hypothetical advice)",
+  "connector": "If",
+  "explanation": "'If I were you' is a second conditional that uses the subjunctive 'were' to talk about an imagined situation. The completion needs a 'would' clause that describes what the speaker would do in that imagined situation. Turkish speakers often reach for a simple future or past tense here, because Turkish marks hypothetical meaning with a conditional suffix rather than a fixed 'were' form.",
+  "translation": "Yerinde olsaydım, önce ondan özür dilerdim."
+}
