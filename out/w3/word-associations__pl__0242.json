@@ -1,0 +1,14 @@
+{
+  "trigger_word": "telescope",
+  "all_words": [
+    {"word": "lens", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Soczewka jest kluczowym elementem teleskopu, dlatego jest z nim semantycznie powiązana."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "Czajnik nie ma nic wspólnego z teleskopem; należy do kuchni, a nie do optyki ani astronomii."},
+    {"word": "galaxy", "is_associated": true, "association_type": "THEMATIC", "explanation": "Galaktyka to obiekt astronomiczny, którego obserwacja jest typowym zastosowaniem teleskopu, więc łączy je ta sama tematyka."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Łyżka to przedmiot codziennego użytku bez żadnego związku z obserwowaniem nieba."},
+    {"word": "microscope", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Mikroskop jest przyrządem optycznym podobnym do teleskopu i często pojawia się obok niego w tekstach o nauce."},
+    {"word": "cabbage", "is_associated": false, "association_type": "NONE", "explanation": "Kapusta to warzywo, które nie ma żadnego związku z astronomią ani z optyką."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo telescope, które pochodzi od greckich rdzeni oznaczających 'daleko' i 'patrzeć', kojarzy się z optyką, astronomią i nazwami przyrządów naukowych, natomiast przedmioty kuchenne i warzywa nie są z nim powiązane."
+}
