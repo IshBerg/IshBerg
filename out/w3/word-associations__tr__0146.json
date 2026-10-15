@@ -1,0 +1,14 @@
+{
+  "trigger_word": "recycle",
+  "all_words": [
+    {"word": "bottle", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Geri dönüştürmek için en sık kullanılan nesnelerden biri plastik şişelerdir; 'recycle bottles' ifadesi çok yaygındır."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano geri dönüşüm konusuyla ilgisi olmayan bir müzik aletidir."},
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kâğıt, geri dönüşüm konusunda en çok bahsedilen malzemelerden biridir ve aynı çevre temasına aittir."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Kanepe, geri dönüşüm ve çevre konularıyla doğrudan bir bağlantısı olmayan bir mobilyadır."},
+    {"word": "green", "is_associated": true, "association_type": "THEMATIC", "explanation": "Yeşil renk çevre korumayı simgeler ve geri dönüşüm kavramıyla birlikte kullanılır."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masa, geri dönüşümle ilgili bir kavram değildir ve bu konuyla bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Recycle' kelimesi, geri dönüştürülen malzemeleri (bottle, paper) ve çevre temasını (green) çağrıştırır. Piano, sofa ve table ise bu konuyla ilgisi olmayan günlük nesnelerdir."
+}
