@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The company invested heavily in new technology;",
+  "correct_completion": "however, sales fell sharply that year.",
+  "full_sentence": "The company invested heavily in new technology; however, sales fell sharply that year.",
+  "acceptable_variants": ["nevertheless, sales fell sharply that year.", "but sales fell sharply that year."],
+  "options": [
+    {"text": "therefore, sales rose sharply that year.", "is_correct": false, "why_wrong": "'Therefore' signals a result, but a sharp rise is not a logical result of the investment described here, and it does not contrast with it."},
+    {"text": "moreover, the staff received extra training.", "is_correct": false, "why_wrong": "'Moreover' adds information in the same direction. The sentence needs a contrast, not another supporting detail."},
+    {"text": "however, sales fell sharply that year.", "is_correct": true, "why_wrong": null},
+    {"text": "in addition, the factory moved to a new city.", "is_correct": false, "why_wrong": "'In addition' continues the same line of thought and adds an unrelated fact, so it does not contrast with the investment."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive linking adverbials: however",
+  "connector": "however",
+  "explanation": "The first clause sets up an expectation that investment will raise sales. 'However' introduces a clause that goes against that expectation, so the second clause must show the opposite result.",
+  "translation": "La empresa invirtió fuertemente en nueva tecnología; sin embargo, las ventas cayeron bruscamente ese año."
+}
