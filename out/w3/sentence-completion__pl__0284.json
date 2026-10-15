@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is cold today, so",
+  "correct_completion": "I am wearing a warm coat.",
+  "full_sentence": "It is cold today, so I am wearing a warm coat.",
+  "acceptable_variants": ["I am wearing gloves.", "I am wearing a scarf."],
+  "options": [
+    {"text": "the sun is in the sky.", "is_correct": false, "why_wrong": "This is a true statement about the sky, but it is not a result of the cold weather, so it does not complete the logic of 'so'."},
+    {"text": "because I am hot.", "is_correct": false, "why_wrong": "'Because' introduces a reason, while 'so' introduces a result. This option also contradicts the cold weather in the stem."},
+    {"text": "I am wearing a warm coat.", "is_correct": true, "why_wrong": null},
+    {"text": "they are my friends.", "is_correct": false, "why_wrong": "The sentence is grammatically correct with 'are', but it has no logical link to the cold weather."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Connector 'so' introducing a result, with present continuous 'am wearing'",
+  "connector": "so",
+  "explanation": "'So' introduces a result that follows from the first part of the sentence. Here the cold weather is the cause and wearing a warm coat is the logical effect. Polish speakers often mix up 'so' and 'because' because both link two ideas, so remember that 'so' always comes after the reason.",
+  "translation": "Dzisiaj jest zimno, więc mam na sobie ciepły płaszcz."
+}
