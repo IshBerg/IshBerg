@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although Sara almost never eats sweets,",
+  "correct_completion": "she sometimes has a small piece of chocolate on her birthday.",
+  "full_sentence": "Although Sara almost never eats sweets, she sometimes has a small piece of chocolate on her birthday.",
+  "acceptable_variants": ["she occasionally has a small treat on holidays.", "she still enjoys a slice of cake at parties."],
+  "options": [
+    {"text": "so she eats sweets every day.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast, and the completion contradicts 'almost never'."},
+    {"text": "she is never hungry in the morning.", "is_correct": false, "why_wrong": "This is unrelated to sweets and does not complete the contrast set up by 'although'."},
+    {"text": "she sometimes has a small piece of chocolate on her birthday.", "is_correct": true, "why_wrong": null},
+    {"text": "she will go to the shop tomorrow.", "is_correct": false, "why_wrong": "This is a plan with no link to the contrast set up by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and adverbs of frequency",
+  "connector": "although",
+  "explanation": "After 'although', the clause must contrast with the first part. Here 'almost never' sets up a habit, so the completion needs an action that contrasts with it and uses an adverb of frequency such as 'sometimes'. Turkish speakers may place frequency adverbs at the end of the clause, but in English they go before the main verb.",
+  "translation": "Sara neredeyse hiç tatlı yemese de, doğum gününde küçük bir parça çikolata yer."
+}
