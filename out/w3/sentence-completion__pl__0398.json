@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I was tired,",
+  "correct_completion": "I wrote the email to my friend.",
+  "full_sentence": "Although I was tired, I wrote the email to my friend.",
+  "acceptable_variants": ["I still wrote the email to my friend.", "I finished the message anyway."],
+  "options": [
+    {"text": "so I went to bed early.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause. This ending would need 'so' or 'because' with the first part instead."},
+    {"text": "I wrote the email to my friend.", "is_correct": true, "why_wrong": null},
+    {"text": "I was very happy yesterday.", "is_correct": false, "why_wrong": "This does not continue the contrast started by 'although', and it does not match the tiredness in the stem."},
+    {"text": "the email was short.", "is_correct": false, "why_wrong": "This describes the email but does not give the main action that the sentence needs after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a main clause that contrasts with the first part. Here the contrast is between being tired and still doing an action.",
+  "translation": "Chociaż byłem zmęczony, napisałem e-mail do mojego przyjaciela."
+}
