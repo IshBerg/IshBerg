@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "O", "P", "E", "Q", "W", "L"],
+    ["K", "M", "N", "P", "R", "T", "O"],
+    ["Z", "X", "C", "V", "B", "R", "S"],
+    ["G", "H", "J", "K", "L", "I", "S"],
+    ["T", "R", "A", "D", "E", "S", "Y"],
+    ["Q", "W", "E", "R", "T", "K", "U"],
+    ["P", "L", "M", "O", "K", "I", "N"]
+  ],
+  "words_to_find": ["HOPE", "LOSS", "TRADE", "RISK"],
+  "word_positions": [
+    {"word": "HOPE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LOSS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "TRADE", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RISK", "start_row": 2, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}
