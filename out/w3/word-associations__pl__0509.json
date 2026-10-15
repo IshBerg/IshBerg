@@ -1,0 +1,14 @@
+{
+  "trigger_word": "shopping",
+  "all_words": [
+    {"word": "basket", "is_associated": true, "association_type": "THEMATIC", "explanation": "Koszyk to przedmiot, którego zwykle używa się podczas zakupów w sklepie."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Chleb jest produktem, który można kupić, ale samo słowo nie kojarzy się z samym procesem zakupów."},
+    {"word": "receipt", "is_associated": true, "association_type": "THEMATIC", "explanation": "Paragon to dokument, który dostajemy po zakupach, więc jest z nimi ściśle związany."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino nie ma żadnego związku z zakupami ani z handlem."},
+    {"word": "cart", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wózek na zakupy to typowe połączenie słów: 'shopping cart' to standardowe wyrażenie."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka nie ma żadnego związku z zakupami."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'shopping' kojarzy się z przedmiotami i dokumentami używanymi podczas zakupów, a pozostałe słowa nie mają z tym związku."
+}
