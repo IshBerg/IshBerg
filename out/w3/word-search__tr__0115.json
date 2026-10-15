@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "A", "L", "M", "W", "J", "K", "P", "Q", "A"],
+    ["F", "O", "H", "S", "B", "L", "X", "U", "D", "N"],
+    ["M", "T", "Z", "O", "K", "P", "I", "W", "H", "G"],
+    ["J", "Q", "N", "A", "F", "E", "V", "L", "S", "R"],
+    ["K", "W", "B", "U", "T", "C", "O", "M", "Z", "Y"],
+    ["T", "H", "P", "N", "G", "A", "L", "X", "Q", "J"],
+    ["V", "I", "Y", "D", "K", "S", "W", "F", "M", "O"],
+    ["P", "L", "R", "U", "Z", "H", "J", "N", "T", "C"],
+    ["X", "G", "K", "E", "Q", "W", "B", "Y", "A", "F"],
+    ["M", "S", "L", "O", "D", "E", "V", "A", "R", "B"]
+  ],
+  "words_to_find": ["CALM", "ANGRY", "TIRED", "BRAVE", "QUIET"],
+  "word_positions": [
+    {"word": "CALM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ANGRY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "TIRED", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BRAVE", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "QUIET", "start_row": 0, "start_col": 8, "direction": "DIAGONAL_DOWN_LEFT"}
+  ],
+  "topic": "Nuanced Synonyms"
+}
