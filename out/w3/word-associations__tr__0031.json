@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fırın, mutfakta yemek pişirmek için kullanılan bir cihazdır, bu yüzden 'kitchen' ile tematik olarak ilişkilidir."},
+    {"word": "airport", "is_associated": false, "association_type": "NONE", "explanation": "Havalimanı mutfakla ilgili bir yer değildir ve iki kelime arasında doğrudan bir bağlantı yoktur."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Kitchen sink' (mutfak evyesi) sık kullanılan bir kelime öbeğidir, bu yüzden 'sink' kelimesi 'kitchen' ile birlikte kullanılır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ mutfakla ilgili değildir ve bu kelimeyle birlikte kullanılan ortak bir kalıp da yoktur."},
+    {"word": "fridge", "is_associated": true, "association_type": "THEMATIC", "explanation": "Buzdolabı tipik bir mutfak eşyasıdır, bu nedenle 'kitchen' ile tematik olarak bağlantılıdır."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet mutfakla ilgili bir kavram değildir ve mutfak eşyaları ya da mutfak alanıyla bir bağı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Kitchen' ile ilişkili kelimeler mutfaktaki eşyalar ve mutfakta sık kullanılan kelime öbekleridir; ilişkisiz kelimeler ise mutfak dışındaki yerleri ve nesneleri içerir."
+}
