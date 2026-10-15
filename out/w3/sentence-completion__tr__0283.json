@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you are hungry,",
+  "correct_completion": "eat something.",
+  "full_sentence": "If you are hungry, eat something.",
+  "acceptable_variants": ["have a snack.", "eat some fruit."],
+  "options": [
+    {"text": "go to sleep.", "is_correct": false, "why_wrong": "This is a command, but it does not respond to the condition about being hungry."},
+    {"text": "close the door.", "is_correct": false, "why_wrong": "This is a command, but it has no connection with being hungry."},
+    {"text": "eat something.", "is_correct": true, "why_wrong": null},
+    {"text": "read a book.", "is_correct": false, "why_wrong": "This is a command, but it does not solve the problem of being hungry."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Imperatives after an 'if' clause",
+  "connector": "if",
+  "explanation": "After 'if' and a condition, we use an imperative to give advice or an instruction for what to do when the condition is true.",
+  "translation": "Acıkırsan bir şeyler ye."
+}
