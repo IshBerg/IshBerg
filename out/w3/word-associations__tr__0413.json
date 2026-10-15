@@ -1,0 +1,14 @@
+{
+  "trigger_word": "evidence",
+  "all_words": [
+    {"word": "proof", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Proof kelimesi evidence ile anlam olarak yakındır ve tartışmalarda çoğu zaman aynı bağlamda kullanılır."},
+    {"word": "cucumber", "is_associated": false, "association_type": "NONE", "explanation": "Salatalık bir sebzedir ve delil kavramıyla hiçbir ilgisi yoktur."},
+    {"word": "statistics", "is_associated": true, "association_type": "THEMATIC", "explanation": "İstatistikler bir görüşü desteklemek için kullanılan kanıtlar arasında yer alır, bu yüzden aynı konuya aittir."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bir müzik aletidir ve kanıt kavramıyla bir bağlantısı yoktur."},
+    {"word": "reliable", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Reliable evidence İngilizcede sık kullanılan bir eş dizimdir, yani bu iki kelime genellikle birlikte gelir."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Volkan bir doğa olayıdır ve delil kavramıyla ilişkili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Evidence kelimesi kanıt, veri ve güvenilirlik gibi anlamlarla ilişkilidir; sebze, müzik aleti ve doğa olayı ise bu kavramla bağlantılı değildir."
+}

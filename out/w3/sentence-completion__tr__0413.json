@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you come to my party,",
+  "correct_completion": "we can dance and eat cake.",
+  "full_sentence": "If you come to my party, we can dance and eat cake.",
+  "acceptable_variants": ["we will have a great time.", "we can play games together."],
+  "options": [
+    {"text": "I will be very sad.", "is_correct": false, "why_wrong": "This result does not fit a friendly invitation, so it does not complete the sentence naturally."},
+    {"text": "we danced and ate cake yesterday.", "is_correct": false, "why_wrong": "The past tense does not fit a real condition about the future."},
+    {"text": "we can dance and eat cake.", "is_correct": true, "why_wrong": null},
+    {"text": "because it is my birthday.", "is_correct": false, "why_wrong": "'Because' gives a reason, but the sentence needs the result of the condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Real conditionals with 'if' and a future result clause",
+  "connector": "if",
+  "explanation": "After 'if' in a real condition, we use the present simple, and the main clause shows a possible future result with 'can' or 'will'.",
+  "translation": "Partime gelirsen, dans edip pasta yiyebiliriz."
+}
