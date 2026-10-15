@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ajanda", "transliteration": "ajanda", "meaning": "planner or diary"},
+    {"word": "pratik", "transliteration": "pratik", "meaning": "convenient, handy"},
+    {"word": "lisans", "transliteration": "lisans", "meaning": "bachelor's degree"},
+    {"word": "eventüel", "transliteration": "eventuel", "meaning": "possible, potential"}
+  ],
+  "english_words": ["possible", "degree", "planner", "handy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words look close to English words because both languages borrowed them from the same source, but their meanings have drifted apart in each language, so the look-alike English word is often wrong.",
+  "false_friend_warning": "Warning: the Turkish word 'ajanda' looks like the English word 'agenda', but it means a planner or diary, not a list of topics for a meeting."
+}

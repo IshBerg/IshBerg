@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "With the presentation finished,",
+  "correct_completion": "the audience applauded loudly.",
+  "full_sentence": "With the presentation finished, the audience applauded loudly.",
+  "acceptable_variants": ["the room filled with applause.", "everyone stood up to clap."],
+  "options": [
+    {"text": "the speaker was tired and sad.", "is_correct": false, "why_wrong": "This describes the speaker, but the absolute phrase is about the event ending and the audience reacting to it."},
+    {"text": "so we opened the windows.", "is_correct": false, "why_wrong": "The word 'so' introduces an unrelated result; the second part must describe the situation after the presentation ended."},
+    {"text": "the lights were turned off.", "is_correct": false, "why_wrong": "This may happen at the end of a presentation, but it does not complete the description of how the audience responded."},
+    {"text": "the audience applauded loudly.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Absolute phrases with 'with' and a past participle",
+  "connector": "with",
+  "explanation": "The 'with' phrase sets the background situation, so the main clause must describe what happened once the event was over. Students should add a main clause with a subject and a verb rather than a second phrase without a subject. Speakers whose first language does not use a separate absolute structure may be tempted to add a conjunction such as 'so' or 'and' here instead.",
+  "translation": "Sunum bittiğinde, izleyiciler yüksek sesle alkışladı."
+}
