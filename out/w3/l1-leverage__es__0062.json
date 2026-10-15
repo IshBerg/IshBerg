@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "carnicería", "transliteration": "carniceria", "meaning": "butcher's shop"},
+    {"word": "farmacia", "transliteration": "farmacia", "meaning": "pharmacy"},
+    {"word": "estación", "transliteration": "estacion", "meaning": "station"}
+  ],
+  "english_words": ["butcher", "station", "bookshop", "pharmacy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Spanish and English both borrowed many words from Latin and Greek, so some Spanish words look like English ones. Over time, the meanings of some of these look-alikes drifted apart, so the spelling stays close while the meaning changes.",
+  "false_friend_warning": "The Spanish word libreria looks like the English word library, but it means bookshop. The Spanish word for a library is a different word, so students should not translate library by looking at the spelling."
+}
