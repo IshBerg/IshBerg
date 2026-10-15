@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The museum is open every day, so",
+  "correct_completion": "visitors can come on Sunday too.",
+  "full_sentence": "The museum is open every day, so visitors can come on Sunday too.",
+  "acceptable_variants": ["they can plan a visit at any time of the week.", "families can visit whenever they like."],
+  "options": [
+    {"text": "the entrance is at the back of the building.", "is_correct": false, "why_wrong": "This gives a location detail, which does not follow as a result of the museum being open every day."},
+    {"text": "visitors can come on Sunday too.", "is_correct": true, "why_wrong": null},
+    {"text": "the tickets were sold out yesterday.", "is_correct": false, "why_wrong": "This describes a past event that has no logical link to the museum's opening days."},
+    {"text": "the museum closed at five last month.", "is_correct": false, "why_wrong": "This describes a past closing time, which contradicts the idea of being open every day rather than following from it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result that follows from the first clause. The completion must describe what becomes possible because of the opening pattern, so a result about visiting times is the logical choice.",
+  "translation": "Музей відкритий щодня, тож відвідувачі можуть прийти і в неділю."
+}

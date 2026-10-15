@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R", "E", "N", "D", "I", "T", "I", "O", "N"],
+    ["G", "F", "P", "V", "Z", "Q", "W", "J", "K"],
+    ["L", "Q", "I", "X", "M", "P", "V", "K", "Z"],
+    ["O", "W", "K", "D", "J", "Q", "X", "M", "B"],
+    ["S", "V", "Q", "P", "E", "K", "W", "Z", "J"],
+    ["S", "K", "X", "M", "Q", "L", "Z", "P", "V"],
+    ["A", "J", "Z", "W", "K", "V", "I", "Q", "P"],
+    ["R", "V", "K", "Q", "X", "Z", "M", "T", "W"],
+    ["Y", "B", "O", "O", "T", "H", "Q", "Z", "Y"]
+  ],
+  "words_to_find": ["RENDITION", "GLOSSARY", "FIDELITY", "BOOTH"],
+  "word_positions": [
+    {"word": "RENDITION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLOSSARY", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "FIDELITY", "start_row": 1, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "BOOTH", "start_row": 8, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}
