@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at this flower,",
+  "correct_completion": "it is very red.",
+  "full_sentence": "Look at this flower, it is very red.",
+  "acceptable_variants": ["it is very pretty.", "it is very beautiful."],
+  "options": [
+    {"text": "we are at home.", "is_correct": false, "why_wrong": "This does not describe the flower, so it does not complete the sentence about the object the speaker is pointing to."},
+    {"text": "they are very big.", "is_correct": false, "why_wrong": "'They' refers to more than one thing, but the flower is a single object, so the pronoun does not match."},
+    {"text": "it is very red.", "is_correct": true, "why_wrong": null},
+    {"text": "that is my bag.", "is_correct": false, "why_wrong": "'That' points to something farther away, and the sentence is about the flower, so the meaning does not fit."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative pronouns: 'this' and 'that'",
+  "connector": "this",
+  "explanation": "'This' points to something near the speaker. The second part of the sentence uses 'it' to refer back to the flower, so the completion must describe the flower.",
+  "translation": "Spójrz na ten kwiat, jest bardzo czerwony."
+}
