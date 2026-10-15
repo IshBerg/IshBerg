@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "R", "E", "A", "K", "Q", "W", "J", "C"],
+    ["X", "Z", "M", "P", "D", "L", "G", "F", "H"],
+    ["V", "N", "S", "O", "T", "J", "K", "Y", "E"],
+    ["Y", "K", "U", "L", "G", "N", "D", "B", "E"],
+    ["P", "S", "A", "F", "W", "E", "J", "Q", "R"],
+    ["X", "I", "D", "M", "B", "W", "Q", "L", "Z"],
+    ["R", "Q", "C", "Y", "L", "M", "T", "V", "P"],
+    ["Z", "N", "W", "K", "D", "H", "G", "J", "B"],
+    ["L", "D", "F", "W", "T", "U", "R", "N", "S"]
+  ],
+  "words_to_find": ["BREAK", "CHEER", "PICK", "TURN"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHEER", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "PICK", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TURN", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Idioms and Phrasal Verbs"
+}
