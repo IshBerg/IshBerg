@@ -1,0 +1,20 @@
+{
+  "title": "My House",
+  "text": "This is my house. It is small and blue. There is a big table in the kitchen. Four chairs are around the table.\n\nMy bedroom is upstairs. There is a bed, a desk and a lamp. The lamp is on the desk. I like my room very much.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is the house?", "options": ["Blue", "Red", "Green", "White"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is on the desk?", "options": ["A lamp", "A bed", "A chair", "A table"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Where does the writer probably sleep?", "options": ["In the bedroom", "In the kitchen", "In the garden", "On the table"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about the family?", "options": ["They may eat together at the table", "They never eat at home", "They have no kitchen", "They sleep in the kitchen"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "table", "translation": "stół", "definition": "a piece of furniture with a flat top and legs, used for eating or working"},
+    {"word": "upstairs", "translation": "na górze", "definition": "on a higher floor of a house"},
+    {"word": "desk", "translation": "biurko", "definition": "a table used for writing or working"},
+    {"word": "lamp", "translation": "lampa", "definition": "a light that you can move or turn on and off"}
+  ],
+  "paragraph_translations": [
+    "To jest mój dom. Jest mały i niebieski. W kuchni jest duży stół. Wokół stołu stoją cztery krzesła.",
+    "Moja sypialnia jest na górze. Jest tam łóżko, biurko i lampa. Lampa stoi na biurku. Bardzo lubię mój pokój."
+  ]
+}
