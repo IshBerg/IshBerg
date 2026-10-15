@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look! The cat is",
+  "correct_completion": "under the table.",
+  "full_sentence": "Look! The cat is under the table.",
+  "acceptable_variants": ["under the chair.", "under the bed."],
+  "options": [
+    {"text": "on the table.", "is_correct": false, "why_wrong": "'On' means touching the top of a surface. The cat is below the table, so 'under' is the correct preposition."},
+    {"text": "in the sky.", "is_correct": false, "why_wrong": "A cat is on the ground, not in the sky, so this place does not fit the picture."},
+    {"text": "under the table.", "is_correct": true, "why_wrong": null},
+    {"text": "behind the door.", "is_correct": false, "why_wrong": "'Behind' means at the back of something. This sentence describes a cat that is under the table."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: 'under'",
+  "connector": "under",
+  "explanation": "The stem describes where the cat is, so we need a preposition of place followed by a noun phrase. 'Under' shows a position below an object. Turkish speakers may find English place prepositions difficult because Turkish marks location with case endings rather than separate words, so these prepositions must be learned as separate words.",
+  "translation": "Bak! Kedi masanın altında."
+}

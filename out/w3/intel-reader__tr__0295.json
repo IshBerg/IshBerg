@@ -1,0 +1,20 @@
+{
+  "title": "My Neighborhood",
+  "text": "My neighborhood is small and quiet. There is a park near my house. Many children play there after school. There is also a small shop on the corner.\n\nThe baker next to the shop makes good bread. Every morning, I buy bread for my family. My neighbors are friendly, and they always say hello.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is near my house?", "options": ["A park", "A school", "A hospital", "A train station"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Who makes good bread?", "options": ["The teacher", "The baker", "The doctor", "The driver"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why do children probably like the park?", "options": ["Because it is far away", "Because it is a good place to play", "Because it is always closed", "Because it is very cold"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does the writer probably feel about the neighborhood?", "options": ["Unhappy with it", "Bored by it", "Happy with it", "Afraid of it"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "neighborhood", "translation": "mahalle", "definition": "the area where people live, near their homes"},
+    {"word": "quiet", "translation": "sessiz", "definition": "with little or no noise"},
+    {"word": "corner", "translation": "köşe", "definition": "the place where two streets meet"},
+    {"word": "friendly", "translation": "arkadaş canlısı", "definition": "kind and pleasant to other people"}
+  ],
+  "paragraph_translations": [
+    "Mahallem küçük ve sessizdir. Evimin yakınında bir park var. Okuldan sonra birçok çocuk orada oynar. Köşede de küçük bir dükkân var.",
+    "Dükkânın yanındaki fırıncı güzel ekmek yapar. Her sabah ailem için ekmek alırım. Komşularım arkadaş canlısıdır ve her zaman merhaba derler."
+  ]
+}
