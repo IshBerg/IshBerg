@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the film started,",
+  "correct_completion": "we had already bought our popcorn.",
+  "full_sentence": "By the time the film started, we had already bought our popcorn.",
+  "acceptable_variants": ["we had bought our popcorn.", "we had already got our popcorn."],
+  "options": [
+    {"text": "we buy our popcorn now.", "is_correct": false, "why_wrong": "The present simple does not show an action finished before a past moment, so it does not fit the timeframe set by 'by the time'."},
+    {"text": "we had already bought our popcorn.", "is_correct": true, "why_wrong": null},
+    {"text": "we were buying popcorn for a long time.", "is_correct": false, "why_wrong": "The past continuous describes a long action in progress, but the clause needs a completed action that happened before the film began."},
+    {"text": "we will buy popcorn after the film.", "is_correct": false, "why_wrong": "The future tense points to a time after the film, which contradicts the past timeframe set by 'by the time'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past perfect with 'by the time'",
+  "connector": "by the time",
+  "explanation": "With 'by the time', the past perfect shows which action was already finished before another past action. Here the popcorn was bought before the film started, so the past perfect is needed.",
+  "translation": "Film başladığında, biz patlamış mısırımızı çoktan almıştık."
+}
