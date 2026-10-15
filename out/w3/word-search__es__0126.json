@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["Q", "T", "V", "Z", "H", "J", "K", "P", "X"],
+    ["B", "H", "G", "D", "W", "E", "Y", "R", "M"],
+    ["F", "O", "L", "I", "T", "U", "N", "A", "Q"],
+    ["K", "U", "W", "S", "J", "Z", "G", "C", "V"],
+    ["X", "D", "A", "P", "R", "Y", "M", "B", "E"],
+    ["V", "L", "T", "Q", "N", "O", "K", "W", "Z"],
+    ["A", "J", "F", "B", "E", "R", "E", "D", "H"],
+    ["P", "G", "Y", "K", "X", "T", "M", "Q", "S"],
+    ["W", "H", "E", "R", "E", "F", "O", "R", "E"]
+  ],
+  "words_to_find": ["THOU", "HENCE", "ALAS", "ERE", "WHEREFORE"],
+  "word_positions": [
+    {"word": "THOU", "start_row": 0, "start_col": 1, "direction": "VERTICAL"},
+    {"word": "HENCE", "start_row": 0, "start_col": 4, "direction": "DIAGONAL_DOWN"},
+    {"word": "ALAS", "start_row": 6, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "ERE", "start_row": 6, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "WHEREFORE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Archaic and Literary Register"
+}

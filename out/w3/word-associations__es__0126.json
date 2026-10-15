@@ -1,0 +1,14 @@
+{
+  "trigger_word": "gym",
+  "all_words": [
+    {"word": "trainer", "is_associated": true, "association_type": "THEMATIC", "explanation": "El entrenador personal trabaja en el gimnasio, así que las dos palabras pertenecen al mismo tema del ejercicio físico."},
+    {"word": "dumbbell", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La mancuerna es un aparato que se usa para levantar pesas, y se encuentra típicamente en un gimnasio."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "El pan es un alimento y no tiene ninguna relación con el gimnasio ni con el ejercicio."},
+    {"word": "membership", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión gym membership, que significa cuota o inscripción de gimnasio, es una combinación muy habitual en inglés."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "El río es un accidente geográfico natural y no tiene relación con el gimnasio."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "El lápiz es un objeto de escritura y no se relaciona con el gimnasio ni con el deporte."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas al gimnasio se relacionan con él por sentido, tema o uso frecuente, mientras que las demás no tienen conexión con el ejercicio ni con los lugares de deporte."
+}
