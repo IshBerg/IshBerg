@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because I can't cook very well,",
+  "correct_completion": "my mother usually cooks dinner.",
+  "full_sentence": "Because I can't cook very well, my mother usually cooks dinner.",
+  "acceptable_variants": ["my mother usually makes dinner.", "my dad often cooks dinner for us."],
+  "options": [
+    {"text": "I always cook dinner for my family.", "is_correct": false, "why_wrong": "This contradicts the reason in the stem. If the speaker cannot cook very well, they would not normally be the regular cook."},
+    {"text": "dinner is always very cold.", "is_correct": false, "why_wrong": "This describes dinner but does not give the result of 'can't cook very well', so the cause-and-effect logic does not work."},
+    {"text": "my mother usually cooks dinner.", "is_correct": true, "why_wrong": null},
+    {"text": "I can cook dinner very quickly.", "is_correct": false, "why_wrong": "This contradicts the ability expressed by 'can't cook very well' in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because' and the negative ability form 'can't'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the reason. Here the reason is that the speaker cannot cook well, so the result must be that someone else does the cooking. Options where the speaker cooks well or regularly contradict the reason.",
+  "translation": "Como eu não consigo cozinhar muito bem, minha mãe geralmente faz o jantar."
+}
