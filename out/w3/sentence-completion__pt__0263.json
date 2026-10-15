@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee acted sooner,",
+  "correct_completion": "the crisis might have been averted.",
+  "full_sentence": "Had the committee acted sooner, the crisis might have been averted.",
+  "acceptable_variants": ["the crisis may have been prevented.", "the crisis could have been averted."],
+  "options": [
+    {"text": "the crisis would avert.", "is_correct": false, "why_wrong": "A bare 'would avert' does not complete an inverted third conditional. The main clause needs a perfect infinitive, such as 'might have been averted'."},
+    {"text": "the crisis was averted yesterday.", "is_correct": false, "why_wrong": "A fixed past time reference describes a real event, but the stem sets up a hypothetical situation that did not happen."},
+    {"text": "the crisis might have been averted.", "is_correct": true, "why_wrong": null},
+    {"text": "the crisis averts every day.", "is_correct": false, "why_wrong": "The present simple describes a habit, which does not fit the counterfactual meaning set by the inverted 'Had' clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional, where 'had' replaces 'if' at the start of the clause",
+  "connector": "had",
+  "explanation": "In an inverted conditional, the word 'had' moves to the front and replaces 'if'. The main clause then needs a modal with a perfect infinitive to express a past hypothetical result. Learners whose first language uses a different word order for conditionals often need extra practice with this inversion.",
+  "translation": "Se o comitê tivesse agido mais cedo, a crise poderia ter sido evitada."
+}

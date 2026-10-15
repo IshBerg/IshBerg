@@ -1,0 +1,14 @@
+{
+  "trigger_word": "candle",
+  "all_words": [
+    {"word": "wax", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A cera é o principal material de uma vela, por isso está diretamente ligada a ela."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "A montanha é uma formação natural de grande porte e não tem relação com velas ou com objetos de iluminação doméstica."},
+    {"word": "wick", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O pavio é a parte da vela que queima e sustenta a chama, sendo uma parte essencial dela."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "O rio é um corpo de água natural e não tem nenhuma ligação com velas."},
+    {"word": "match", "is_associated": true, "association_type": "THEMATIC", "explanation": "O fósforo é muito usado para acender velas, por isso aparece no mesmo contexto de uso."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "O piano é um instrumento musical e não pertence ao universo das velas ou da iluminação."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra candle se associa a materiais e elementos que formam ou acendem a vela, como a cera, o pavio e o fósforo; os demais termos pertencem a contextos sem relação com ela."
+}
