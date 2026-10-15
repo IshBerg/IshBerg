@@ -1,0 +1,13 @@
+{
+  "start_word": "cheap",
+  "end_word": "exorbitant",
+  "ladder_steps": [
+    {"word": "cheap", "translation": "barato", "intensity_level": 1},
+    {"word": "inexpensive", "translation": "económico", "intensity_level": 2},
+    {"word": "expensive", "translation": "caro", "intensity_level": 3},
+    {"word": "costly", "translation": "costoso", "intensity_level": 4},
+    {"word": "exorbitant", "translation": "exorbitante", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Price words form a ladder from the lowest cost to a cost that is far too high, each step more expensive than the last."
+}

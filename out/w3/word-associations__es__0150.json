@@ -1,0 +1,14 @@
+{
+  "trigger_word": "market",
+  "all_words": [
+    {"word": "price", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El precio es un elemento central de cualquier mercado, porque allí se compran y venden productos a un valor determinado."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "El piano es un instrumento musical y no tiene relación con el funcionamiento de un mercado."},
+    {"word": "customer", "is_associated": true, "association_type": "THEMATIC", "explanation": "El cliente es la persona que compra en el mercado, por eso pertenece al mismo ámbito."},
+    {"word": "forest", "is_associated": false, "association_type": "NONE", "explanation": "El bosque es un lugar natural y no está relacionado con la actividad de un mercado."},
+    {"word": "stock", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión 'stock market' (mercado de valores) es una colocación habitual, por eso está asociada a 'market'."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta es un medio de transporte y no tiene ninguna relación con el mercado."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'market' son conceptos del comercio, como el precio, el cliente y las expresiones habituales del ámbito económico."
+}
