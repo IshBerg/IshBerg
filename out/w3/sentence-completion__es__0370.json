@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Unless both parties sign the agreement,",
+  "correct_completion": "the contract is not valid.",
+  "full_sentence": "Unless both parties sign the agreement, the contract is not valid.",
+  "acceptable_variants": ["the contract has no legal effect.", "the agreement cannot be enforced."],
+  "options": [
+    {"text": "the contract becomes valid immediately.", "is_correct": false, "why_wrong": "This reverses the meaning of 'unless', which introduces a condition that must be met first."},
+    {"text": "both parties will sign the agreement.", "is_correct": false, "why_wrong": "This repeats the condition instead of stating its result."},
+    {"text": "the contract is not valid.", "is_correct": true, "why_wrong": null},
+    {"text": "the parties have already signed it.", "is_correct": false, "why_wrong": "This contradicts the conditional meaning, because 'unless' introduces a case that has not happened yet."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'unless'",
+  "connector": "unless",
+  "explanation": "After 'unless', we need the result that happens when the condition is not met. Learners often confuse 'unless' with 'if', so check that the clause describes what happens without the condition.",
+  "translation": "A menos que ambas partes firmen el acuerdo, el contrato no es válido."
+}
