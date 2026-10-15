@@ -1,0 +1,17 @@
+{
+  "central_word": "afraid",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "неспокійний", "nuance": "mild unease, a vague sense that something is wrong"},
+    {"word": "apprehensive", "intensity": 2, "translation": "стривожений", "nuance": "worried about something that may happen"},
+    {"word": "afraid", "intensity": 3, "translation": "наляканий", "nuance": "general feeling of fear toward a specific threat"},
+    {"word": "terrified", "intensity": 4, "translation": "охоплений жахом", "nuance": "intense fear that overwhelms a person"},
+    {"word": "petrified", "intensity": 5, "translation": "скам'янілий від страху", "nuance": "fear so extreme that the person is unable to move"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express fear or worry, but they rise in intensity from a vague unease to a state of being unable to move from fright.",
+  "usage_notes": [
+    {"word1": "apprehensive", "word2": "afraid", "difference": "'Apprehensive' describes worry about a future event that has not yet happened; 'afraid' describes fear of something that is present or likely to happen."}
+  ],
+  "translations": {"uneasy": "неспокійний", "apprehensive": "стривожений", "afraid": "наляканий", "terrified": "охоплений жахом", "petrified": "скам'янілий від страху"}
+}

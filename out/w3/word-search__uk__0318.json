@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["A", "G", "R", "E", "E", "K", "M", "P", "D"],
+    ["J", "B", "T", "L", "Q", "W", "U", "F", "I"],
+    ["Y", "H", "X", "Z", "K", "D", "B", "V", "S"],
+    ["M", "E", "C", "F", "H", "P", "L", "T", "A"],
+    ["Q", "J", "S", "U", "G", "Z", "K", "X", "G"],
+    ["B", "V", "D", "N", "H", "M", "W", "L", "R"],
+    ["F", "P", "O", "A", "T", "Y", "C", "K", "E"],
+    ["V", "R", "I", "S", "M", "J", "Q", "B", "E"],
+    ["W", "Z", "L", "X", "D", "F", "H", "P", "N"]
+  ],
+  "words_to_find": ["AGREE", "DISAGREE", "YES", "WRONG"],
+  "word_positions": [
+    {"word": "AGREE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DISAGREE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "YES", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WRONG", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Agreement and Disagreement"
+}
