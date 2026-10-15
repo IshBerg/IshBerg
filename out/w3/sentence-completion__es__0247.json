@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at those dark clouds. Because of them,",
+  "correct_completion": "it is going to rain soon.",
+  "full_sentence": "Look at those dark clouds. Because of them, it is going to rain soon.",
+  "acceptable_variants": ["it will rain soon.", "it is about to rain."],
+  "options": [
+    {"text": "it rained for three hours yesterday.", "is_correct": false, "why_wrong": "This describes a finished past event, but the clouds point to what will happen next."},
+    {"text": "it will to rain soon.", "is_correct": false, "why_wrong": "'Will' is followed directly by the base verb, without 'to'."},
+    {"text": "it is going to rain soon.", "is_correct": true, "why_wrong": null},
+    {"text": "it rains in this city every day.", "is_correct": false, "why_wrong": "This states a general habit, not a prediction based on the clouds we can see now."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Going to for predictions based on present evidence",
+  "connector": "because of",
+  "explanation": "We use 'going to' to predict a future event that the present situation makes likely, such as dark clouds before rain. 'Will' can also express a prediction, but 'going to' fits best when the evidence is visible now. After 'will', the base verb follows directly, without 'to'.",
+  "translation": "Mira esas nubes oscuras. Por ellas, va a llover pronto."
+}
