@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He has lived in this flat",
+  "correct_completion": "for five years.",
+  "full_sentence": "He has lived in this flat for five years.",
+  "acceptable_variants": ["for the last five years.", "for about five years."],
+  "options": [
+    {"text": "since five years.", "is_correct": false, "why_wrong": "'Since' needs a starting point in time, such as a date or an event, not a length of time like 'five years'."},
+    {"text": "for five years.", "is_correct": true, "why_wrong": null},
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "A finished past time marker does not fit the present perfect. The sentence needs the past simple for a completed time."},
+    {"text": "during five years.", "is_correct": false, "why_wrong": "'During' does not express duration with the present perfect. 'For' is the correct phrase for a length of time."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with for and since",
+  "connector": "for",
+  "explanation": "The present perfect shows an action that started in the past and continues now. 'For' introduces a length of time, while 'since' introduces a starting point. Polish speakers often use the present simple here because the Polish present tense covers ongoing states, which can lead to sentences like 'He lives in this flat for five years'.",
+  "translation": "Mieszka w tym mieszkaniu od pięciu lat."
+}
