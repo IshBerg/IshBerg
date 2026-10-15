@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have taken an earlier train.",
+  "full_sentence": "Had she known about the delay, she would have taken an earlier train.",
+  "acceptable_variants": ["she would have left home sooner.", "she would have called a taxi instead."],
+  "options": [
+    {"text": "she knows the train is late.", "is_correct": false, "why_wrong": "This states a present fact and does not complete the hypothetical past condition set up by 'Had she known'."},
+    {"text": "she will take the earlier train tomorrow.", "is_correct": false, "why_wrong": "This is future-oriented, but the inverted third conditional needs a past result such as 'would have' plus a past participle."},
+    {"text": "she would have taken an earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "she took the earlier train yesterday.", "is_correct": false, "why_wrong": "The simple past reports a completed event and does not express the unreal result that follows 'Had she known'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (unreal past condition without 'if')",
+  "connector": "had",
+  "explanation": "In an inverted third conditional, 'had' replaces 'if had' at the start of the clause, and the result clause needs 'would have' plus a past participle. Ukrainian speakers often need extra practice here because Ukrainian expresses unreal past conditions with a conditional particle and past tense rather than a separate perfect structure.",
+  "translation": "Якби вона знала про затримку, вона б взяла раніший потяг."
+}
