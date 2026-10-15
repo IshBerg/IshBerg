@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because Tom never drinks coffee,",
+  "correct_completion": "he always drinks tea in the morning.",
+  "full_sentence": "Because Tom never drinks coffee, he always drinks tea in the morning.",
+  "acceptable_variants": ["he usually orders green tea at cafes.", "he often chooses juice instead."],
+  "options": [
+    {"text": "he sometimes drinks coffee at night.", "is_correct": false, "why_wrong": "This contradicts 'never' in the stem, so it cannot be a logical result of it."},
+    {"text": "he always drinks tea in the morning.", "is_correct": true, "why_wrong": null},
+    {"text": "he is always hungry at lunchtime.", "is_correct": false, "why_wrong": "This is unrelated to drinks, so it does not complete the cause-effect link set up by 'because'."},
+    {"text": "he has drunk coffee since he was a child.", "is_correct": false, "why_wrong": "This directly contradicts 'never' in the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause-effect clauses with 'because' and adverbs of frequency",
+  "connector": "because",
+  "explanation": "After 'because', the main clause must show a logical result of the first part. Since Tom never drinks coffee, the result should be a habit that replaces it. The frequency adverb goes before the main verb in English. Portuguese speakers may place the adverb after the verb, which sounds unnatural in English.",
+  "translation": "Como Tom nunca bebe café, ele sempre toma chá de manhã."
+}
