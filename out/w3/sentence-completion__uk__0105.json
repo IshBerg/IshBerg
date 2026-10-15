@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "This is the tallest building",
+  "correct_completion": "I have ever seen in this city.",
+  "full_sentence": "This is the tallest building I have ever seen in this city.",
+  "acceptable_variants": ["that I have ever seen in this city.", "which I have ever seen in this city."],
+  "options": [
+    {"text": "I have ever seen in this city.", "is_correct": true, "why_wrong": null},
+    {"text": "more tall than any other.", "is_correct": false, "why_wrong": "'Tallest' already is the superlative form, so 'more tall' is incorrect in this sentence."},
+    {"text": "the most tall in the city.", "is_correct": false, "why_wrong": "A superlative with 'the' is followed by the adjective alone, so 'the most tall' is incorrect here."},
+    {"text": "than the other buildings.", "is_correct": false, "why_wrong": "A comparison with 'than' does not fit the superlative 'tallest' in this sentence structure."}
+  ],
+  "correct_index": 0,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Superlative adjectives with a relative clause ('the tallest building I have ever seen')",
+  "connector": "tallest",
+  "explanation": "The superlative 'tallest' is often followed by a relative clause with 'ever' that describes the experience. Ukrainian speakers may over-use 'more' or 'most' with superlatives, which English does not need here.",
+  "translation": "Це найвища будівля, яку я коли-небудь бачив у цьому місті."
+}

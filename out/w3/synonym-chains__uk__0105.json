@@ -1,0 +1,17 @@
+{
+  "central_word": "late",
+  "chain_words": [
+    {"word": "early", "intensity": 1, "translation": "рано", "nuance": "mild sense of before the expected time"},
+    {"word": "punctual", "intensity": 2, "translation": "точний", "nuance": "arriving exactly on time"},
+    {"word": "behind", "intensity": 3, "translation": "позаду", "nuance": "not yet at the expected point"},
+    {"word": "delayed", "intensity": 4, "translation": "затриманий", "nuance": "held back by an unexpected event"},
+    {"word": "overdue", "intensity": 5, "translation": "прострочений", "nuance": "much later than it should have been"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all relate to timing that differs from what was expected, moving from slight earliness to a clearly overdue situation.",
+  "usage_notes": [
+    {"word1": "late", "word2": "delayed", "difference": "'Late' describes arriving after the expected time, while 'delayed' describes something postponed by an outside cause."}
+  ],
+  "translations": {"early": "рано", "punctual": "точний", "behind": "позаду", "delayed": "затриманий", "overdue": "прострочений"}
+}
