@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I need an umbrella because",
+  "correct_completion": "it is raining outside.",
+  "full_sentence": "I need an umbrella because it is raining outside.",
+  "acceptable_variants": ["the sky is grey and wet.", "I do not want to get wet."],
+  "options": [
+    {"text": "the umbrella is red.", "is_correct": false, "why_wrong": "This describes the umbrella, but 'because' needs a reason for needing it."},
+    {"text": "it is raining outside.", "is_correct": true, "why_wrong": null},
+    {"text": "I want an apple.", "is_correct": false, "why_wrong": "This is a different need. It does not explain why an umbrella is needed."},
+    {"text": "it was a sunny day yesterday.", "is_correct": false, "why_wrong": "This describes yesterday, so it cannot be the reason for needing an umbrella now."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because' after a noun phrase using 'an'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part. Spanish speakers may place the reason before the main clause, so practise keeping the reason after 'because' in English.",
+  "translation": "Necesito un paraguas porque está lloviendo afuera."
+}
