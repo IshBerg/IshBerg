@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the report was widely shared online,",
+  "correct_completion": "few readers checked its sources.",
+  "full_sentence": "Although the report was widely shared online, few readers checked its sources.",
+  "acceptable_variants": ["many people still believed its claims.", "the corrections spread more slowly than the original story."],
+  "options": [
+    {"text": "so the editors removed it from the website.", "is_correct": false, "why_wrong": "'Although' signals contrast, not a result. Use 'so' only to show a consequence of the first clause."},
+    {"text": "few readers checked its sources.", "is_correct": true, "why_wrong": null},
+    {"text": "the headline was printed in bold letters.", "is_correct": false, "why_wrong": "This describes the layout but does not contrast with the idea of the report being widely shared."},
+    {"text": "it was written by a local student.", "is_correct": false, "why_wrong": "This adds a detail about the author but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show contrast with the first part of the sentence. A clause that gives a result or adds only a neutral detail breaks this logic.",
+  "translation": "Rapor geniş çapta internette paylaşılmasına rağmen, az sayıda okuyucu kaynaklarını kontrol etti."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Maria Is Sick",
+  "text": "Maria has a bad cold. She has a fever and a sore throat. She stays in bed for two days. Her mother gives her warm soup and water.\n\nOn the third day, Maria feels better. She still has a small cough. She goes to the doctor for a check-up. The doctor says she can go to school next week.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Maria have?", "options": ["A bad cold", "A broken leg", "A headache only", "A stomach ache"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does the doctor say?", "options": ["She must stay in bed for a month", "She cannot go to school", "She can go to school next week", "She needs an operation"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Maria's mother give her warm soup?", "options": ["Because she wants to go to school", "To make her feel better when she is sick", "Because the doctor is coming", "Because it is her birthday"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Maria feel on the third day?", "options": ["Much worse than before", "Better, but not completely well", "Very happy because it is a holiday", "Angry at the doctor"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "fever", "translation": "ateş", "definition": "a body temperature that is higher than normal, often a sign of illness"},
+    {"word": "cough", "translation": "öksürük", "definition": "a sudden noise you make when air is pushed out of your throat"},
+    {"word": "check-up", "translation": "kontrol muayenesi", "definition": "a visit to a doctor to see if you are healthy"},
+    {"word": "bed", "translation": "yatak", "definition": "a piece of furniture where you sleep or rest"}
+  ],
+  "paragraph_translations": [
+    "Maria'nın ağır bir nezlesi var. Ateşi ve boğaz ağrısı var. İki gün yatakta kalıyor. Annesi ona sıcak çorba ve su veriyor.",
+    "Üçüncü gün Maria kendini daha iyi hissediyor. Hâlâ küçük bir öksürüğü var. Kontrol için doktora gidiyor. Doktor, gelecek hafta okula gidebileceğini söylüyor."
+  ]
+}
