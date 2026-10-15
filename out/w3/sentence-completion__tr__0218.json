@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have taken an earlier train.",
+  "full_sentence": "Had she known about the delay, she would have taken an earlier train.",
+  "acceptable_variants": ["she would have caught an earlier train.", "she would have made a different plan."],
+  "options": [
+    {"text": "she left the station already.", "is_correct": false, "why_wrong": "This describes a past fact. It does not give the hypothetical result of the unreal past condition set by 'had known'."},
+    {"text": "she would leave earlier.", "is_correct": false, "why_wrong": "This uses a present conditional, which does not match the past unreal condition 'had known'. The result must also be in the past."},
+    {"text": "she would have taken an earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "she has taken the earlier train.", "is_correct": false, "why_wrong": "The present perfect states a real completed action. It does not express the imagined result of an unreal past condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' in the if-clause",
+  "connector": "had + would have",
+  "explanation": "In a third conditional, an unreal past condition is followed by a result clause with 'would have' plus the past participle. Students may use a simple tense here, but the structure must stay in the past unreal form.",
+  "translation": "Gecikme hakkında bilseydi, daha erken bir trene binmiş olurdu."
+}

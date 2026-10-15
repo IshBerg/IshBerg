@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["F", "R", "E", "E", "D", "O", "M", "X", "T"],
+    ["Y", "K", "B", "Q", "W", "Z", "J", "N", "R"],
+    ["H", "V", "L", "K", "M", "J", "Q", "Z", "U"],
+    ["W", "O", "X", "B", "G", "U", "D", "L", "T"],
+    ["A", "F", "P", "N", "R", "S", "K", "W", "H"],
+    ["V", "Q", "Y", "E", "G", "T", "B", "M", "D"],
+    ["N", "Z", "B", "F", "W", "I", "K", "Q", "L"],
+    ["D", "Y", "J", "U", "O", "C", "X", "R", "V"],
+    ["P", "E", "A", "C", "E", "E", "L", "T", "W"]
+  ],
+  "words_to_find": ["FREEDOM", "TRUTH", "HOPE", "JUSTICE", "PEACE"],
+  "word_positions": [
+    {"word": "FREEDOM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRUTH", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "HOPE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "JUSTICE", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "PEACE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Abstract Concepts"
+}
