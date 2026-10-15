@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I forgot my keys at home, so",
+  "correct_completion": "I had to wait outside for an hour.",
+  "full_sentence": "Yesterday I forgot my keys at home, so I had to wait outside for an hour.",
+  "acceptable_variants": ["I had to sit on the steps for an hour.", "I ended up waiting outside for an hour."],
+  "options": [
+    {"text": "I went to the cinema very early.", "is_correct": false, "why_wrong": "This does not explain a result of forgetting the keys; 'so' needs a consequence of the first clause."},
+    {"text": "I had to wait outside for an hour.", "is_correct": true, "why_wrong": null},
+    {"text": "I buy a new set of keys every day.", "is_correct": false, "why_wrong": "The present simple does not fit a past narrative, and it is not a result of forgetting the keys."},
+    {"text": "I wrote a note to my friend.", "is_correct": false, "why_wrong": "This is an unrelated action that does not follow from forgetting the keys."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple irregular verbs in result clauses",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause, which here is a past event. The irregular past form 'had' keeps the whole sentence in the past. Polish speakers may be tempted to mix tenses in this structure because Polish verb forms are built without auxiliaries such as 'had'.",
+  "translation": "Wczoraj zapomniałem kluczy w domu, więc musiałem czekać na zewnątrz przez godzinę."
+}
