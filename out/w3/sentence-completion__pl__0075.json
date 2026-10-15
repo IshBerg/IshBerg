@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When we arrived at the station,",
+  "correct_completion": "the train was already gone.",
+  "full_sentence": "When we arrived at the station, the train was already gone.",
+  "acceptable_variants": ["the train had left.", "the platform was empty."],
+  "options": [
+    {"text": "we was happy to see the sign.", "is_correct": false, "why_wrong": "'We' takes 'were' in the past simple, not 'was'. Use 'were' with we, you, and they."},
+    {"text": "the trains is always late.", "is_correct": false, "why_wrong": "'The trains' is plural, so it needs 'are' or 'were'. The sentence also describes a general habit, not a single event at the station."},
+    {"text": "the train was already gone.", "is_correct": true, "why_wrong": null},
+    {"text": "they were at home last night.", "is_correct": false, "why_wrong": "This describes a different time and place, so it does not follow logically from arriving at the station."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple was and were in time clauses",
+  "connector": "when",
+  "explanation": "After 'when', the second clause should describe what happened at the moment of arrival. Use was with singular subjects such as 'the train' and were with plural subjects or with 'we', 'you', and 'they'. Polish learners should check the agreement, since Polish verb endings do not work the same way in English.",
+  "translation": "Kiedy dotarliśmy na dworzec, pociąg już odjechał."
+}
