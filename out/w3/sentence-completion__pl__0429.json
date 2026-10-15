@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I can't come to the party tonight",
+  "correct_completion": "because I have to work late.",
+  "full_sentence": "I can't come to the party tonight because I have to work late.",
+  "acceptable_variants": ["because I have an exam tomorrow.", "because I am feeling sick."],
+  "options": [
+    {"text": "so I will come tomorrow.", "is_correct": false, "why_wrong": "'So' introduces a result, and the message gives no reason. Tomorrow also changes the meaning of 'tonight'."},
+    {"text": "my favourite band is playing.", "is_correct": false, "why_wrong": "This gives an unrelated fact and does not explain why the speaker cannot come."},
+    {"text": "because I have to work late.", "is_correct": true, "why_wrong": null},
+    {"text": "I am at home now.", "is_correct": false, "why_wrong": "This describes where the speaker is, not why they cannot come to the party."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason for the situation in the first part, so the completion must give a cause. Learners may confuse 'because' with 'so', but 'so' introduces a result.",
+  "translation": "Nie mogę przyjść na imprezę dziś wieczorem, bo muszę pracować do późna."
+}
