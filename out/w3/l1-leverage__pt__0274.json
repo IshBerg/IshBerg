@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "jornal", "transliteration": "jornal", "meaning": "newspaper"},
+    {"word": "notícia", "transliteration": "noticia", "meaning": "news"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current, up to date"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"}
+  ],
+  "english_words": ["current", "watch", "news", "newspaper"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Several Portuguese words and their English counterparts share a Latin or Greek origin, so their forms look close. Over time, however, the meanings drifted apart in each language, so the English look-alike often means something different from the Portuguese word.",
+  "false_friend_warning": "Warning: the Portuguese word for newspaper looks very similar to the English word 'journal', but in English 'journal' means a personal diary or an academic magazine, not a newspaper."
+}
