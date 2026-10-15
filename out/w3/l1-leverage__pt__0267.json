@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "mouse", "transliteration": "mouse", "meaning": "computer mouse"},
+    {"word": "pasta", "transliteration": "pasta", "meaning": "folder"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current, present"},
+    {"word": "pendente", "transliteration": "pendente", "meaning": "pending, unresolved"}
+  ],
+  "english_words": ["pending", "mouse", "current", "folder"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Portuguese words look close to English words such as pending, folder and current, but the match is not a reliable guide to meaning in technology contexts, so learners must match by meaning rather than by appearance.",
+  "false_friend_warning": "The Portuguese word for folder looks like the English word 'pasta', which means paste in English. Learners should match words by their meaning in computing contexts, not by their similar appearance."
+}
