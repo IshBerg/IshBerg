@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you book before Friday,",
+  "correct_completion": "you will get a discount.",
+  "full_sentence": "If you book before Friday, you will get a discount.",
+  "acceptable_variants": ["you will save money on your stay.", "you will receive a free breakfast."],
+  "options": [
+    {"text": "you pay the full price.", "is_correct": false, "why_wrong": "This is the opposite of the offer. The stem leads to a benefit, not to the full price."},
+    {"text": "you will get a discount.", "is_correct": true, "why_wrong": null},
+    {"text": "the hotel is closed on Friday.", "is_correct": false, "why_wrong": "This is unrelated to the booking offer and does not complete the condition and result pattern."},
+    {"text": "we booked the room yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a past time and does not fit a future condition that begins with 'if' and 'before Friday'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and a future result",
+  "connector": "if",
+  "explanation": "After 'if', the present simple shows the condition, and the main clause uses 'will' with a verb to show the likely result.",
+  "translation": "Якщо ви забронюєте до п'ятниці, ви отримаєте знижку."
+}
