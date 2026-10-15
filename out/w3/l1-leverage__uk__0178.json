@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "конкретний", "transliteration": "konkretnyi", "meaning": "specific, particular"},
+    {"word": "евентуальний", "transliteration": "eventualnyi", "meaning": "possible, potential"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, topical"},
+    {"word": "патетичний", "transliteration": "patetychnyi", "meaning": "impassioned, grandiloquent"}
+  ],
+  "english_words": ["relevant", "specific", "impassioned", "potential"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Ukrainian word looks close to an English word that shares a Latin or Greek root, but its everyday sense in Ukrainian has drifted. The surface resemblance misleads the learner into a wrong meaning, while the true English equivalent is a different word.",
+  "false_friend_warning": "Warning: the Ukrainian word 'konkretnyi' looks like English 'concrete' but means 'specific', and 'eventualnyi' looks like 'eventual' but means 'possible', so these traps must not be translated literally."
+}
