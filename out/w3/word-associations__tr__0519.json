@@ -1,0 +1,14 @@
+{
+  "trigger_word": "piano",
+  "all_words": [
+    {"word": "music", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Piyano bir müzik aleti olduğu için müzikle doğrudan anlamsal bir bağlantısı vardır."},
+    {"word": "play", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Play the piano' (piyano çalmak) çok yaygın bir birlikte kullanım örneğidir."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet piyanoyla ilgili değildir; ikisi arasında ne anlamsal ne de kullanım bağı vardır."},
+    {"word": "keyboard", "is_associated": true, "association_type": "THEMATIC", "explanation": "Klavye piyanonun tuşlu kısmını anlatır ve piyano konusunda birlikte düşünülen bir öğedir."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Nehir piyanoyla hiçbir anlamsal ya da kullanım bağı taşımaz."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kalem piyano ile ilgili bir kelime değildir."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Piyano ile ilişkili kelimeler müzik, çalma eylemi ve tuşlu klavye gibi öğelerdir; diğer kelimelerin konuyla bir bağı yoktur."
+}

@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["C", "H", "A", "R", "T", "Q", "A"],
+    ["M", "K", "L", "P", "J", "W", "X"],
+    ["T", "Y", "F", "B", "N", "G", "I"],
+    ["R", "O", "U", "E", "H", "V", "S"],
+    ["E", "Z", "C", "K", "M", "O", "P"],
+    ["N", "Q", "Z", "Y", "R", "W", "K"],
+    ["D", "J", "D", "A", "T", "A", "M"]
+  ],
+  "words_to_find": ["CHART", "TREND", "AXIS", "DATA"],
+  "word_positions": [
+    {"word": "CHART", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TREND", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "AXIS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "DATA", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Presenting Data and Trends"
+}
