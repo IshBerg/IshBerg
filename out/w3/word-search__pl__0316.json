@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "R", "I", "C", "E", "X", "F"],
+    ["K", "Z", "W", "Q", "J", "V", "O"],
+    ["P", "B", "N", "S", "U", "Y", "L"],
+    ["H", "C", "G", "T", "E", "W", "D"],
+    ["O", "A", "Z", "X", "Q", "R", "K"],
+    ["T", "D", "M", "A", "P", "B", "N"],
+    ["O", "K", "S", "J", "Q", "W", "E"]
+  ],
+  "words_to_find": ["PRICE", "FOLD", "PHOTO", "MAP"],
+  "word_positions": [
+    {"word": "PRICE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FOLD", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PHOTO", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "MAP", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Brochures"
+}
