@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are three apples on the table, and",
+  "correct_completion": "two of them are red.",
+  "full_sentence": "There are three apples on the table, and two of them are red.",
+  "acceptable_variants": ["one of them is green.", "they are all fresh."],
+  "options": [
+    {"text": "they is red.", "is_correct": false, "why_wrong": "The verb 'is' does not agree with the plural subject 'they'. Use 'are' with 'they'."},
+    {"text": "two of them are red.", "is_correct": true, "why_wrong": null},
+    {"text": "two of it are red.", "is_correct": false, "why_wrong": "'It' is singular, but the phrase refers to several apples, so 'them' is needed."},
+    {"text": "two of them is red.", "is_correct": false, "why_wrong": "'Is' is singular, but 'two of them' refers to more than one apple, so 'are' is needed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-verb agreement with plural nouns",
+  "connector": "and",
+  "explanation": "The plural subject must match a plural verb form. Learners should check that the pronoun and the verb both refer to more than one thing.",
+  "translation": "Hay tres manzanas sobre la mesa, y dos de ellas son rojas."
+}

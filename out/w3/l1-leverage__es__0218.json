@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant (not embarrassed)"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop (not library)"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder (not carpet)"},
+    {"word": "éxito", "transliteration": "exito", "meaning": "success (not exit)"}
+  ],
+  "english_words": ["exit", "carpet", "embarrassed", "library"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "This card trains learners to notice false friends: words that look or sound similar across the two languages but carry different meanings. The Spanish-script forms here are close in spelling to English words that have unrelated meanings.",
+  "false_friend_warning": "The Spanish word for pregnant looks like the English word embarrassed, so learners may wrongly translate it as feeling ashamed. Also, the Spanish word for bookshop looks like the English word library, which is a different place."
+}
