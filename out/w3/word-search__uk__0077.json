@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["W", "A", "K", "E", "X", "D", "Q", "S"],
+    ["J", "M", "B", "F", "T", "R", "Z", "L"],
+    ["N", "V", "Y", "G", "D", "E", "K", "E"],
+    ["Q", "B", "F", "X", "J", "S", "M", "E"],
+    ["C", "T", "Z", "A", "I", "S", "Y", "P"],
+    ["L", "U", "N", "C", "H", "V", "Q", "K"],
+    ["A", "G", "D", "B", "M", "T", "Z", "W"],
+    ["S", "H", "O", "W", "E", "R", "K", "J"]
+  ],
+  "words_to_find": ["WAKE", "SLEEP", "DRESS", "LUNCH", "SHOWER"],
+  "word_positions": [
+    {"word": "WAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLEEP", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "DRESS", "start_row": 0, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "LUNCH", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SHOWER", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Daily Routines"
+}
