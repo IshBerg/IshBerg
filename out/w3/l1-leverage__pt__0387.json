@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "cabelo", "transliteration": "cabelo", "meaning": "hair"},
+    {"word": "pele", "transliteration": "pele", "meaning": "skin"},
+    {"word": "barba", "transliteration": "barba", "meaning": "beard"},
+    {"word": "costume", "transliteration": "costume", "meaning": "habit or custom"}
+  ],
+  "english_words": ["skin", "habit", "hair", "beard"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from the same source, so the spelling stayed close, but the meanings moved in different directions over time. The English word now mostly means clothing worn for a role or event, while the Portuguese word still means habit or custom.",
+  "false_friend_warning": "A Portuguese speaker may assume that the English word costume means habit, like the Portuguese word, but in English it means clothing worn for a role or event."
+}

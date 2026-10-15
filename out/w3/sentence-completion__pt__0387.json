@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Jack fell down and broke his crown because",
+  "correct_completion": "he was running too fast up the hill.",
+  "full_sentence": "Jack fell down and broke his crown because he was running too fast up the hill.",
+  "acceptable_variants": ["he was not looking where he was going.", "he did not see the stone on the path."],
+  "options": [
+    {"text": "so he was running too fast up the hill.", "is_correct": false, "why_wrong": "'So' cannot follow 'because'; the reason is already introduced by 'because', so the two connectors cannot be used together."},
+    {"text": "and he was the king of the hill.", "is_correct": false, "why_wrong": "'And' adds information but does not give a reason after 'because'."},
+    {"text": "he was running too fast up the hill.", "is_correct": true, "why_wrong": null},
+    {"text": "if he had a crown on his head.", "is_correct": false, "why_wrong": "'If' introduces a condition, not a reason, so it does not explain the fall after 'because'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part of the sentence. Options with 'so' or 'and' do not give a reason, and 'if' introduces a condition rather than a cause.",
+  "translation": "Jack caiu e quebrou a coroa porque estava correndo rápido demais morro acima."
+}
