@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Our car broke down last week, so",
+  "correct_completion": "we had it repaired at a garage.",
+  "full_sentence": "Our car broke down last week, so we had it repaired at a garage.",
+  "acceptable_variants": ["we got it fixed by a mechanic.", "we took it to a repair shop."],
+  "options": [
+    {"text": "we walked to work every day.", "is_correct": false, "why_wrong": "This is a possible situation, but it does not use the causative structure 'have/get something done' and does not describe getting the car repaired."},
+    {"text": "we repaired it ourselves in the garage.", "is_correct": false, "why_wrong": "This describes doing the repair yourself. The causative 'have something done' means someone else performs the action for you."},
+    {"text": "we had it repaired at a garage.", "is_correct": true, "why_wrong": null},
+    {"text": "it repaired itself overnight.", "is_correct": false, "why_wrong": "A car cannot repair itself, so this result is not logical after the cause given in the first part."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have something done' in the past simple",
+  "connector": "so",
+  "explanation": "After 'so', we need a logical result of the breakdown. The causative structure 'had + object + past participle' shows that someone else repaired the car for the speaker.",
+  "translation": "Наша машина зламалася минулого тижня, тож ми віддали її в гараж на ремонт."
+}

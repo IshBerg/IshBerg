@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "реферат", "transliteration": "referat", "meaning": "summary"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "topical, currently relevant"},
+    {"word": "ефективний", "transliteration": "efektyvnyi", "meaning": "effective, producing the desired result"},
+    {"word": "конспект", "transliteration": "konspekt", "meaning": "outline of notes on a text"}
+  ],
+  "english_words": ["topical", "summary", "outline", "effective"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages inherited much of their academic vocabulary from Latin and Greek, so some word forms stayed close. Meanings can still drift apart, so the form alone is not a reliable guide.",
+  "false_friend_warning": "Watch out: the Ukrainian word with the transliteration aktualnyi looks like the English word 'actual', but it means 'topical' or 'currently relevant', so it is a false friend and should not be translated as 'actual'."
+}
