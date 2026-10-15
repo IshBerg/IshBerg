@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lekarze pracują głównie w szpitalu, więc to słowo jest tematycznie powiązane z lekarzem."},
+    {"word": "patient", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Lekarz leczy pacjenta, a oba słowa opisują relację między nimi."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma żadnego związku z pracą lekarza."},
+    {"word": "stethoscope", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Stetoskop jest podstawowym narzędziem lekarza, więc kojarzy się z nim znaczeniowo."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Wulkan nie ma żadnego związku z zawodem lekarza."},
+    {"word": "medicine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'practice medicine' oznacza wykonywanie zawodu lekarza, więc słowa często występują razem."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'doctor' kojarzy się z miejscem pracy, pacjentami, narzędziami i wiedzą medyczną; rower i wulkan nie mają z nim związku."
+}

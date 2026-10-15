@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "A", "T", "X", "Q", "L", "M", "P", "Z", "W"],
+    ["K", "F", "V", "B", "N", "J", "Y", "U", "O", "S"],
+    ["L", "M", "I", "P", "R", "Y", "T", "K", "D", "E"],
+    ["Q", "W", "X", "S", "N", "Z", "V", "J", "O", "U"],
+    ["P", "R", "L", "E", "H", "K", "M", "T", "G", "Y"],
+    ["B", "V", "C", "N", "Z", "W", "D", "Q", "L", "X"],
+    ["M", "J", "K", "O", "P", "S", "H", "V", "Z", "E"],
+    ["G", "W", "T", "Y", "U", "F", "N", "B", "Q", "R"],
+    ["L", "C", "X", "E", "K", "D", "O", "M", "A", "P"],
+    ["T", "I", "B", "B", "A", "R", "U", "Q", "W", "S"]
+  ],
+  "words_to_find": ["CAT", "DOG", "FISH", "RABBIT"],
+  "word_positions": [
+    {"word": "CAT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DOG", "start_row": 2, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "FISH", "start_row": 1, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "RABBIT", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Pets and Caring for Animals"
+}
