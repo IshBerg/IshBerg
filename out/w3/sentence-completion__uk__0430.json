@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I'm sorry I didn't reply sooner because",
+  "correct_completion": "my phone battery was dead.",
+  "full_sentence": "I'm sorry I didn't reply sooner because my phone battery was dead.",
+  "acceptable_variants": ["my phone was turned off.", "I was in a meeting all afternoon."],
+  "options": [
+    {"text": "so I replied right away.", "is_correct": false, "why_wrong": "'So' introduces a result, not a reason, and this sentence contradicts the apology."},
+    {"text": "I replied very quickly.", "is_correct": false, "why_wrong": "This contradicts the apology for not replying sooner, and it gives no reason for the delay."},
+    {"text": "my phone battery was dead.", "is_correct": true, "why_wrong": null},
+    {"text": "I will send you a message tomorrow.", "is_correct": false, "why_wrong": "This is a future promise, not a reason for the delay, so it does not complete the 'because' clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the delay in replying. Use a short subject and verb to explain the cause.",
+  "translation": "Вибач, що не відповів раніше, бо в мене розрядився телефон."
+}
