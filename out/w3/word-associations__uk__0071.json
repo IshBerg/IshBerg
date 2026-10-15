@@ -1,0 +1,14 @@
+{
+  "trigger_word": "Sunday",
+  "all_words": [
+    {"word": "rest", "is_associated": true, "association_type": "THEMATIC", "explanation": "Неділя часто є днем відпочинку, тому відпочинок тематично пов'язаний із цим днем."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Автомобіль не має прямого зв'язку з неділею, це просто транспортний засіб."},
+    {"word": "lunch", "is_associated": true, "association_type": "THEMATIC", "explanation": "У багатьох родинах неділя асоціюється з великим обідом, тому обід тематично пов'язаний із цим днем."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Молоток є інструментом і не має жодного зв'язку з неділею."},
+    {"word": "weekend", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Неділя є частиною вихідних, тому слова мають близьке значення."},
+    {"word": "family", "is_associated": true, "association_type": "THEMATIC", "explanation": "Неділя часто проводиться з родиною, тому слово тематично пов'язане з цим днем."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова стосуються відпочинку та вихідних, а також того, як часто проводять неділю; решта слів не мають змістового зв'язку з цим днем."
+}
