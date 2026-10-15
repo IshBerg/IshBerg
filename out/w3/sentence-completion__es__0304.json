@@ -1,0 +1,19 @@
+{
+  "sentence_stem": "The writer had never published a story before,",
+  "correct_completion": "so she was nervous about the reaction of readers.",
+  "full_sentence": "The writer had never published a story before, so she was nervous about the reaction of readers.",
+  "acceptable_variants": ["so she felt anxious about what critics would say.", "so the publication day made her very worried."],
+  "options": [
+    {"text": "so she was nervous about the reaction of readers.", "is_correct": false, "why_wrong": null},
+    {"text": "but she had already won a prize.", "is_correct": false, "why_wrong": "The contrast here is not supported by the stem, which gives a reason for nervousness."},
+    {"text": "although she had written many novels.", "is_correct": false, "why_wrong": "This contradicts the stem, which says she had never published a story before."},
+    {"text": "because the story was very short.", "is_correct": false, "why_wrong": "The length of the story does not explain why she is nervous about readers."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'so'",
+  "connector": "so",
+  "explanation": "The word so introduces a result that follows from the first part of the sentence. The completion must show the writer's feeling as a consequence of her inexperience."
+  ,
+  "translation": "La escritora nunca había publicado una historia antes, así que estaba nerviosa por la reacción de los lectores."
+}
