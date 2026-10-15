@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Mix the eggs and sugar because",
+  "correct_completion": "we want the mixture to be smooth.",
+  "full_sentence": "Mix the eggs and sugar because we want the mixture to be smooth.",
+  "acceptable_variants": ["we want a smooth mixture.", "the cake will taste better."],
+  "options": [
+    {"text": "the oven is cold.", "is_correct": false, "why_wrong": "This describes the oven, but it does not explain why we mix the eggs and sugar."},
+    {"text": "the bowl is blue.", "is_correct": false, "why_wrong": "The colour of the bowl does not give a reason for the mixing step."},
+    {"text": "we want the mixture to be smooth.", "is_correct": true, "why_wrong": null},
+    {"text": "the cake is already eaten.", "is_correct": false, "why_wrong": "This would happen after baking, so it cannot be the reason for mixing the ingredients now."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "The connector 'because' introduces a reason, so the completion must explain why we mix the ingredients. Options that give a reason unrelated to the recipe do not fit.",
+  "translation": "Mieszaj jajka z cukrem, ponieważ chcemy, aby masa była gładka."
+}
