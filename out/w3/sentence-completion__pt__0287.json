@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at that red car.",
+  "correct_completion": "It is very fast.",
+  "full_sentence": "Look at that red car. It is very fast.",
+  "acceptable_variants": ["It is very quick.", "It goes very fast."],
+  "options": [
+    {"text": "He is my brother.", "is_correct": false, "why_wrong": "'He' refers to a male person, but the car is an object, so a neutral pronoun is needed."},
+    {"text": "They are my friends.", "is_correct": false, "why_wrong": "'They' is plural, but we are talking about one car."},
+    {"text": "It is very fast.", "is_correct": true, "why_wrong": null},
+    {"text": "This is my house.", "is_correct": false, "why_wrong": "This talks about a house, but the sentence is about the car we just pointed to."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative 'that' followed by the pronoun 'it' to refer back to the object",
+  "connector": "that",
+  "explanation": "After pointing at the car with 'that', the next sentence uses the pronoun 'it' to talk about the same object again. The completion must describe the car, so the pronoun has to match a singular thing.",
+  "translation": "Olhe para aquele carro vermelho. Ele é muito rápido."
+}

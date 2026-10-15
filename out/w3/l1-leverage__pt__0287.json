@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "atual", "transliteration": "atual", "meaning": "current, present"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch or to attend"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend or to plan"},
+    {"word": "eventual", "transliteration": "eventual", "meaning": "occasional, possible"}
+  ],
+  "english_words": ["intend", "current", "occasional", "watch"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin, so the forms stayed close, but the meanings drifted apart over time.",
+  "false_friend_warning": "The Portuguese word for 'current' looks like English 'actual', but 'actual' means real or true. The Portuguese verb for 'to watch' looks like 'assist', but it does not mean to help. Check the meaning before translating a look-alike word."
+}
