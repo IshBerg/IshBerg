@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "H", "E", "O", "R", "E", "M", "K", "C"],
+    ["Q", "V", "W", "Z", "P", "D", "G", "J", "A"],
+    ["X", "F", "A", "N", "B", "H", "Y", "W", "T"],
+    ["S", "K", "D", "R", "G", "Q", "P", "U", "A"],
+    ["Z", "N", "O", "T", "I", "K", "D", "Y", "L"],
+    ["F", "W", "J", "Q", "M", "A", "V", "G", "Y"],
+    ["K", "D", "P", "H", "Z", "N", "B", "L", "S"],
+    ["W", "Q", "X", "U", "R", "T", "Y", "L", "T"],
+    ["M", "O", "L", "E", "C", "U", "L", "E", "E"]
+  ],
+  "words_to_find": ["THEOREM", "CATALYST", "VARIABLE", "MOLECULE"],
+  "word_positions": [
+    {"word": "THEOREM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CATALYST", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "VARIABLE", "start_row": 1, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "MOLECULE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Specialized Lexis Across Disciplines"
+}

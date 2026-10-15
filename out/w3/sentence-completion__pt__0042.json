@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I wish I had known about the meeting earlier,",
+  "correct_completion": "so I would have arrived on time.",
+  "full_sentence": "I wish I had known about the meeting earlier, so I would have arrived on time.",
+  "acceptable_variants": ["so I could have arrived on time.", "so I would have been on time."],
+  "options": [
+    {"text": "so I can arrive on time tomorrow.", "is_correct": false, "why_wrong": "'Can arrive tomorrow' refers to the future, but the stem expresses a regret about the past."},
+    {"text": "so I would have arrived on time.", "is_correct": true, "why_wrong": null},
+    {"text": "so I arrive on time every day.", "is_correct": false, "why_wrong": "This is a habit in the present, which does not match the regret expressed by 'I wish I had known'."},
+    {"text": "so I will be late again.", "is_correct": false, "why_wrong": "This is a prediction about the future, not an unreal past result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional after 'I wish' to express past regret",
+  "connector": "I wish",
+  "explanation": "After 'I wish' with the past perfect, the result clause uses would have plus a past participle to express an unreal past outcome.",
+  "translation": "Eu queria ter sabido da reunião mais cedo, então teria chegado no horário."
+}
