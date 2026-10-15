@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results appear to suggest a correlation, although",
+  "correct_completion": "the sample size is too small to rule out chance.",
+  "full_sentence": "The results appear to suggest a correlation, although the sample size is too small to rule out chance.",
+  "acceptable_variants": ["the study lacks the power to exclude random variation.", "further replication would be needed before drawing firm conclusions."],
+  "options": [
+    {"text": "they prove beyond doubt that the effect is causal.", "is_correct": false, "why_wrong": "This is an absolute claim that contradicts the hedged opening 'appear to suggest', so the contrast the sentence needs is missing."},
+    {"text": "the sample size is too small to rule out chance.", "is_correct": true, "why_wrong": null},
+    {"text": "we are certain the findings will be replicated.", "is_correct": false, "why_wrong": "This is an overconfident prediction, out of line with the cautious hedging of 'appear to' and 'although'."},
+    {"text": "the data were collected in 2019.", "is_correct": false, "why_wrong": "This is a factual detail that does not qualify the strength of the claim, so it does not complete the concessive contrast."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Hedging with 'appear to' and concessive 'although'",
+  "connector": "although",
+  "explanation": "The first clause hedges the claim, and 'although' introduces a limitation that weakens it further. The completion must state a qualification, not a stronger claim. Ukrainian speakers may find this hedging pattern less explicit than in English, so keep the qualifying clause clearly tied to the concession.",
+  "translation": "Результати, здається, свідчать про кореляцію, однак розмір вибірки занадто малий, щоб виключити випадковість."
+}

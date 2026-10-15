@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "телефон", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "музей", "transliteration": "muzei", "meaning": "museum"},
+    {"word": "мікрофон", "transliteration": "mikrofon", "meaning": "microphone"},
+    {"word": "інтернет", "transliteration": "internet", "meaning": "internet"}
+  ],
+  "english_words": ["museum", "internet", "telephone", "microphone"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "All four words were borrowed from Greek or Latin through international scientific and technical vocabulary, so the forms stayed close in both languages.",
+  "false_friend_warning": null
+}
