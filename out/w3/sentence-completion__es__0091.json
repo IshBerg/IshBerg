@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Of all the cities we visited,",
+  "correct_completion": "Rome was the most beautiful one.",
+  "full_sentence": "Of all the cities we visited, Rome was the most beautiful one.",
+  "acceptable_variants": ["Paris was the most expensive.", "Venice was the most surprising."],
+  "options": [
+    {"text": "we stayed in the hotel all day.", "is_correct": false, "why_wrong": "This describes an activity but does not compare the cities, so it cannot complete a superlative comparison."},
+    {"text": "it rained for three days.", "is_correct": false, "why_wrong": "This gives a weather detail but does not rank the cities against each other."},
+    {"text": "Rome was the most beautiful one.", "is_correct": true, "why_wrong": null},
+    {"text": "the trains were very late.", "is_correct": false, "why_wrong": "This is a complaint about transport, not a superlative comparison of the cities."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Superlative adjectives with 'the most' for long adjectives",
+  "connector": "of all the",
+  "explanation": "The stem sets up a comparison among several cities, so we need a superlative that ranks one city above the others. With a long adjective such as beautiful, the superlative is formed with 'the most' rather than an ending.",
+  "translation": "De todas las ciudades que visitamos, Roma fue la más bella."
+}
