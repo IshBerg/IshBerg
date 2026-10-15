@@ -1,0 +1,37 @@
+{
+  "sentence_stem": "The proposal was rejected by the committee;",
+  "correct_completion": "nevertheless, the author resubmitted it with revisions.",
+  "full_sentence": "The proposal was rejected by the committee; nevertheless, the author resubmitted it with revisions.",
+  "acceptable_variants": [
+    "however, the author revised it and submitted it again.",
+    "still, the author resubmitted a revised version."
+  ],
+  "options": [
+    {
+      "text": "furthermore, the author resubmitted it with revisions.",
+      "is_correct": false,
+      "why_wrong": "'Furthermore' adds information in the same direction; it cannot mark the contrast that a rejection calls for."
+    },
+    {
+      "text": "similarly, the committee rejected a second proposal.",
+      "is_correct": false,
+      "why_wrong": "'Similarly' signals a parallel comparison, not a contrast with the rejection in the first clause."
+    },
+    {
+      "text": "nevertheless, the author resubmitted it with revisions.",
+      "is_correct": true,
+      "why_wrong": null
+    },
+    {
+      "text": "in other words, the author gave up.",
+      "is_correct": false,
+      "why_wrong": "'In other words' restates the previous clause; it does not introduce a new action that contrasts with the rejection."
+    }
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive discourse markers: nevertheless, however, still",
+  "connector": "nevertheless",
+  "explanation": "After a clause describing a rejection, the second clause must show a reaction that runs against expectation. The contrastive marker signals that the author did not accept the outcome and acted anyway. Learners often pick a marker that feels close in meaning but adds addition instead of contrast, so the marker must be checked against the logic of the sentence.",
+  "translation": "A proposta foi rejeitada pelo comitê; ainda assim, o autor a reapresentou com revisões."
+}

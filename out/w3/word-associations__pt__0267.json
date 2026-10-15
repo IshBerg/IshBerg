@@ -1,0 +1,14 @@
+{
+  "trigger_word": "vaccine",
+  "all_words": [
+    {"word": "antibody", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Anticorpos são produzidos pelo sistema imunológico após a vacinação, por isso se relacionam diretamente com a vacina."},
+    {"word": "syringe", "is_associated": true, "association_type": "THEMATIC", "explanation": "A seringa é o instrumento usado para aplicar a vacina, portanto pertence ao mesmo tema da aplicação médica."},
+    {"word": "verdict", "is_associated": false, "association_type": "NONE", "explanation": "Veredicto é um termo do campo jurídico e não tem relação com a área médica da vacina."},
+    {"word": "immunity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Imunidade é o estado de proteção que a vacina confere ao organismo."},
+    {"word": "contract", "is_associated": false, "association_type": "NONE", "explanation": "Contrato é um termo do direito e não se associa à vacina nem à medicina."},
+    {"word": "dosage", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Dosagem forma a colocação comum dosagem da vacina, usada em textos sobre imunização."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao termo vaccine pertencem ao campo da imunologia e da aplicação médica, enquanto as demais pertencem a outras áreas do conhecimento."
+}
