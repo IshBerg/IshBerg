@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "When I arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "When I arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had already left the platform.", "my friend had already bought the tickets."],
+  "options": [
+    {"text": "I buy a ticket every day.", "is_correct": false, "why_wrong": "This is present simple, which does not fit a past time clause introduced by 'when I arrived'."},
+    {"text": "the train leaves at noon.", "is_correct": false, "why_wrong": "The present tense does not fit the past narrative set by 'when I arrived'."},
+    {"text": "I had went to the ticket office.", "is_correct": false, "why_wrong": "'Went' is the past simple of 'go'. After 'had' we need the past participle 'gone', so this is ungrammatical."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past perfect after a past simple time clause",
+  "connector": "when",
+  "explanation": "The time clause uses the past simple, so the main clause needs the past perfect to show that the train left before the arrival. Spanish speakers may use only the simple past in both clauses, because the order of events is often clear from context. In English the past perfect is needed to mark the earlier action."
+}
