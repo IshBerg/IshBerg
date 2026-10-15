@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There isn't any milk in the fridge, so",
+  "correct_completion": "we need to go to the shop.",
+  "full_sentence": "There isn't any milk in the fridge, so we need to go to the shop.",
+  "acceptable_variants": ["we have to buy some at the shop.", "we must go shopping."],
+  "options": [
+    {"text": "we have a lot of cheese.", "is_correct": false, "why_wrong": "This adds unrelated information. 'So' needs a result that follows from the lack of milk."},
+    {"text": "there are two eggs on the table.", "is_correct": false, "why_wrong": "This describes something else in the kitchen but is not a result of having no milk."},
+    {"text": "we need to go to the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "we drink milk every morning.", "is_correct": false, "why_wrong": "This states a habit, which does not follow as a result of the fridge being empty."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause, so the second clause must follow logically from the lack of milk. Turkish speakers may expect the result to be stated before the cause, so check that the order of cause and result matches the connector.",
+  "translation": "Buzdolabında hiç süt yok, bu yüzden dükkâna gitmemiz gerekiyor."
+}
