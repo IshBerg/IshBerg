@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is not much milk left, so",
+  "correct_completion": "we need to buy more.",
+  "full_sentence": "There is not much milk left, so we need to buy more.",
+  "acceptable_variants": ["we should go to the shop.", "we will buy some tomorrow."],
+  "options": [
+    {"text": "we have plenty of milk for everyone.", "is_correct": false, "why_wrong": "'Plenty' contradicts 'not much', so it does not follow from the first part of the sentence."},
+    {"text": "we drink a lot of coffee.", "is_correct": false, "why_wrong": "This is about coffee, not milk, so it does not logically complete the sentence."},
+    {"text": "we need to buy more.", "is_correct": true, "why_wrong": null},
+    {"text": "there are many cows nearby.", "is_correct": false, "why_wrong": "This adds unrelated information and does not explain what to do about the small amount of milk."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Quantifiers with uncountable nouns: not much",
+  "connector": "so",
+  "explanation": "After 'so', we need a result that follows logically from the small amount of milk. The quantifier 'not much' describes a small amount of an uncountable noun.",
+  "translation": "Zostało niewiele mleka, więc musimy kupić więcej."
+}
