@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the critic praised the novel's formal ingenuity,",
+  "correct_completion": "she found its moral argument strikingly unconvincing.",
+  "full_sentence": "Although the critic praised the novel's formal ingenuity, she found its moral argument strikingly unconvincing.",
+  "acceptable_variants": ["she nevertheless regarded its moral argument as unconvincing.", "yet she remained unpersuaded by its moral argument."],
+  "options": [
+    {"text": "so she dismissed the book as a mere exercise in style.", "is_correct": false, "why_wrong": "'So' signals a result and doubles the connector already used by 'although'. The clause does not express a contrast with the praise."},
+    {"text": "because the plot follows a conventional pattern.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast. It repeats the logic of a connector without completing the concession."},
+    {"text": "she found its moral argument strikingly unconvincing.", "is_correct": true, "why_wrong": null},
+    {"text": "and her praise was echoed by every reviewer.", "is_correct": false, "why_wrong": "This continues the praise instead of contrasting with it, so the concessive structure is not completed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and the contrastive main clause that follows",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must express a contrast with the first clause. Here the praise is conceded, and the main clause introduces the opposing judgement about the moral argument. Connectors of result or cause, such as 'so' or 'because', cannot carry that contrast.",
+  "translation": "Aunque la crítica elogió la ingeniosidad formal de la novela, ella consideró que su argumento moral resultaba sorprendentemente poco convincente."
+}

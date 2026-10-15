@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hair",
+  "all_words": [
+    {"word": "brush", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El cepillo se usa para peinar el pelo y forma una combinación frecuente con 'hair' (hairbrush)."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El zapato se usa en los pies y no tiene relación con el pelo."},
+    {"word": "curly", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Curly' describe un tipo de pelo con forma de rizos."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "La ventana es parte de un edificio y no tiene ninguna relación con el pelo."},
+    {"word": "beard", "is_associated": true, "association_type": "THEMATIC", "explanation": "La barba es un tipo de vello facial, así que pertenece al mismo tema que el pelo."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "La manzana es una fruta y no se relaciona con el pelo."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'hair' son brush, curly y beard; las demás no tienen relación con el pelo."
+}
