@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the engineers had checked the data more carefully,",
+  "correct_completion": "they would have noticed the error.",
+  "full_sentence": "If the engineers had checked the data more carefully, they would have noticed the error.",
+  "acceptable_variants": ["they might have noticed the error.", "they could have noticed the error."],
+  "options": [
+    {"text": "they will notice the error.", "is_correct": false, "why_wrong": "The future does not match the unreal past condition set by 'had checked'. A third conditional needs would have plus a past participle in the main clause."},
+    {"text": "they should noticed the error.", "is_correct": false, "why_wrong": "After 'should' a perfect form needs 'have' plus a past participle. 'Should noticed' is ungrammatical."},
+    {"text": "they would have noticed the error.", "is_correct": true, "why_wrong": null},
+    {"text": "they would notice the error.", "is_correct": false, "why_wrong": "'Would' plus the base verb refers to an unreal present situation, not the past one set by 'had checked'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with the modal perfect: would have plus past participle",
+  "connector": "if",
+  "explanation": "The if-clause uses the past perfect, which describes an unreal past condition. The main clause therefore needs would have plus a past participle to express what would have happened. Speakers of Portuguese often transfer a simple conditional form here, because Portuguese does not map the English perfect modals directly onto its tenses.",
+  "translation": "Se os engenheiros tivessem verificado os dados com mais cuidado, eles teriam percebido o erro."
+}
