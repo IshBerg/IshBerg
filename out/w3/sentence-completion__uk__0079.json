@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Last night I cleaned my room, so",
+  "correct_completion": "my mother was very happy.",
+  "full_sentence": "Last night I cleaned my room, so my mother was very happy.",
+  "acceptable_variants": ["she was very pleased.", "she thanked me."],
+  "options": [
+    {"text": "my bedroom was dirty again.", "is_correct": false, "why_wrong": "This describes the room, but 'so' needs a result of cleaning it, not a new problem."},
+    {"text": "my mother was very happy.", "is_correct": true, "why_wrong": null},
+    {"text": "I played football in the park.", "is_correct": false, "why_wrong": "This is an unrelated activity. 'So' needs a result that follows from cleaning the room."},
+    {"text": "I cleaned the room yesterday.", "is_correct": false, "why_wrong": "This repeats the action already stated in the stem, so it does not give a new result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple of regular verbs with 'so' to show a result",
+  "connector": "so",
+  "explanation": "The word 'so' introduces the result of the first clause. After the past simple action 'cleaned', we need a result that happened afterwards.",
+  "translation": "Минулої ночі я прибрав у кімнаті, тому мама була дуже рада."
+}
