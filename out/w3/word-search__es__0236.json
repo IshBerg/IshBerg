@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["C", "A", "K", "E", "T", "L", "S"],
+    ["G", "H", "J", "K", "Q", "W", "O"],
+    ["Z", "X", "V", "B", "N", "F", "U"],
+    ["M", "Y", "T", "L", "D", "H", "P"],
+    ["E", "B", "W", "D", "Q", "J", "K"],
+    ["N", "R", "I", "C", "E", "T", "Z"],
+    ["U", "S", "F", "V", "M", "Q", "A"]
+  ],
+  "words_to_find": ["CAKE", "SOUP", "RICE", "MENU"],
+  "word_positions": [
+    {"word": "CAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SOUP", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "RICE", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "MENU", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Ordering Food"
+}
