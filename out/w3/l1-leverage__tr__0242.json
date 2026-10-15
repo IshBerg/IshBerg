@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "lavabo", "transliteration": "lavabo", "meaning": "washbasin"},
+    {"word": "süpürge", "transliteration": "supurge", "meaning": "vacuum cleaner"},
+    {"word": "çamaşır", "transliteration": "camasir", "meaning": "laundry"},
+    {"word": "bulaşık", "transliteration": "bulasik", "meaning": "dishes"}
+  ],
+  "english_words": ["dishes", "laundry", "vacuum cleaner", "washbasin"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Turkish word for the first item looks close to an English word for a bathroom fixture, but the two refer to different things, so the similar spelling can mislead learners.",
+  "false_friend_warning": "The Turkish word for washbasin looks like the English word 'lavatory', which means toilet. Learners who trust the resemblance may say the wrong thing about the bathroom, so they should learn the English word 'washbasin' for a sink."
+}

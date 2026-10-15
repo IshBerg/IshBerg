@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The new policy was widely criticised;",
+  "correct_completion": "nevertheless, it was implemented in March.",
+  "full_sentence": "The new policy was widely criticised; nevertheless, it was implemented in March.",
+  "acceptable_variants": ["however, it was implemented in March.", "yet it was implemented in March."],
+  "options": [
+    {"text": "in addition, the budget grew.", "is_correct": false, "why_wrong": "'In addition' adds a further point, but the sentence needs a contrast with the criticism, not an extra fact."},
+    {"text": "therefore, it was cancelled the following day.", "is_correct": false, "why_wrong": "'Therefore' signals a result that follows from the criticism, not a contrast with it. It also contradicts the expected implementation."},
+    {"text": "nevertheless, it was implemented in March.", "is_correct": true, "why_wrong": null},
+    {"text": "consequently, nobody discussed it.", "is_correct": false, "why_wrong": "'Consequently' marks a result, so it does not express the contrast the sentence needs."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive linking adverbials: nevertheless, however, yet",
+  "connector": "nevertheless",
+  "explanation": "'Nevertheless' signals that the second clause runs against what the first clause leads the reader to expect. Turkish speakers may rely on a conjunction for contrast, whereas English usually places a linking adverbial like this one after a semicolon and before a comma.",
+  "translation": "Yeni politika geniş çapta eleştirildi; yine de Mart ayında uygulamaya konuldu."
+}
