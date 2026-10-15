@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Grzmot bezpośrednio towarzyszy burzy i jest jej nieodłącznym elementem."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Skrzypce nie mają żadnego znaczeniowego ani kolokacyjnego związku z burzą."},
+    {"word": "lightning", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Błyskawica pojawia się podczas burzy i jest jej najbardziej charakterystycznym zjawiskiem."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka to przedmiot codziennego użytku, który nie ma logicznego powiązania z burzą."},
+    {"word": "front", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'storm front' (front burzowy) jest ustalonym połączeniem, więc słowo 'front' łączy się z burzą kolokacyjnie."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Dywan to element wyposażenia domu, który nie ma żadnego związku z burzą."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'storm' łączy się semantycznie z pogodą i zjawiskami atmosferycznymi oraz kolokacyjnie z wyrażeniami takimi jak 'storm front'."
+}

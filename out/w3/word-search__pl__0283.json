@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E", "D", "I", "S", "O", "N", "X", "Q", "K", "T"],
+    ["R", "A", "M", "P", "U", "F", "L", "C", "V", "E"],
+    ["B", "J", "G", "Y", "N", "H", "O", "D", "W", "S"],
+    ["Z", "K", "A", "T", "M", "I", "P", "R", "U", "L"],
+    ["Q", "F", "E", "N", "C", "X", "O", "G", "D", "A"],
+    ["B", "H", "Y", "T", "S", "M", "K", "J", "I", "W"],
+    ["V", "E", "P", "O", "A", "D", "R", "N", "G", "Q"],
+    ["U", "Y", "L", "C", "K", "Z", "M", "F", "A", "S"],
+    ["N", "F", "W", "L", "A", "E", "K", "S", "P", "C"],
+    ["D", "Q", "U", "O", "T", "H", "G", "I", "R", "W"]
+  ],
+  "words_to_find": ["EDISON", "TESLA", "BELL", "WRIGHT"],
+  "word_positions": [
+    {"word": "EDISON", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TESLA", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "BELL", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WRIGHT", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Famous Inventors"
+}
