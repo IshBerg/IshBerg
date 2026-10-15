@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is raining very hard, so",
+  "correct_completion": "you have to take an umbrella.",
+  "full_sentence": "It is raining very hard, so you have to take an umbrella.",
+  "acceptable_variants": ["you must take an umbrella.", "you need to take an umbrella."],
+  "options": [
+    {"text": "we can go to the beach.", "is_correct": false, "why_wrong": "'Can' shows ability or permission, and a beach trip does not follow logically from heavy rain."},
+    {"text": "it does not rain at all.", "is_correct": false, "why_wrong": "This contradicts the first part of the sentence, which says it is raining very hard."},
+    {"text": "you have to take an umbrella.", "is_correct": true, "why_wrong": null},
+    {"text": "you should dry your shoes.", "is_correct": false, "why_wrong": "'Should' gives advice, but the sentence needs a stronger obligation, so 'have to' fits better."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Have to for obligation after a cause clause with 'so'",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result of the rain. We need an obligation expressed with 'have to' that describes what a person must do because of the weather. Ukrainian speakers may use a simple modal without the obligation meaning, so check that the sentence shows necessity.",
+  "translation": "Йде дуже сильний дощ, тому тобі треба взяти парасольку."
+}
