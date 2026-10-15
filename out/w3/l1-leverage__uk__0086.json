@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "поле", "transliteration": "pole", "meaning": "field"},
+    {"word": "дим", "transliteration": "dym", "meaning": "smoke"},
+    {"word": "сад", "transliteration": "sad", "meaning": "garden"},
+    {"word": "ліс", "transliteration": "lis", "meaning": "forest"}
+  ],
+  "english_words": ["smoke", "forest", "field", "garden"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Ukrainian words look or sound close to English words, but their meanings come from unrelated roots. Learners who trust the similar form will pick the wrong English meaning.",
+  "false_friend_warning": "The Ukrainian word transliterated as 'pole' means field, while English 'pole' means a long thin stick or a point on the globe. The Ukrainian word transliterated as 'sad' means garden, not unhappy, so do not translate it with the English adjective 'sad'."
+}
