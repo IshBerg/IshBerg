@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied medicine at university,",
+  "correct_completion": "I would be working in a hospital now.",
+  "full_sentence": "If I had studied medicine at university, I would be working in a hospital now.",
+  "acceptable_variants": ["I would be a doctor today.", "I would have a job at a hospital now."],
+  "options": [
+    {"text": "I work in a hospital every day.", "is_correct": false, "why_wrong": "This is a simple present statement of fact. It does not express an unreal past condition with a present result."},
+    {"text": "I would have worked in a hospital yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a finished past time, which does not match the present result that a mixed conditional requires."},
+    {"text": "I would be working in a hospital now.", "is_correct": true, "why_wrong": null},
+    {"text": "I will be working in a hospital tomorrow.", "is_correct": false, "why_wrong": "'Will' is used for real future plans, not for an unreal condition that did not happen in the past."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past condition with a present result",
+  "connector": "if",
+  "explanation": "The stem uses a past perfect condition about an unreal past situation, so the result must use 'would' with a present time expression such as 'now'. The connector 'if' introduces the hypothetical past.",
+  "translation": "Üniversitede tıp okusaydım, şimdi bir hastanede çalışıyor olurdum."
+}
