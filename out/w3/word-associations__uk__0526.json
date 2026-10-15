@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "teacher", "is_associated": true, "association_type": "THEMATIC", "explanation": "Вчитель працює в школі і навчає учнів."},
+    {"word": "beach", "is_associated": false, "association_type": "NONE", "explanation": "Пляж не пов'язаний зі школою; він асоціюється з відпочинком і морем."},
+    {"word": "timetable", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Розклад уроків (timetable) показує, коли відбуваються заняття в школі."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Хмара — це явище погоди, і воно не має стосунку до школи."},
+    {"word": "homework", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Домашнє завдання (homework) — це те, що учні роблять удома після уроків."},
+    {"word": "bus", "is_associated": true, "association_type": "THEMATIC", "explanation": "Шкільний автобус (school bus) возить учнів до школи."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'school' пов'язане з людьми, заняттями і розкладом, а не з відпочинком або погодою."
+}
