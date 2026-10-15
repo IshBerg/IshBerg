@@ -1,0 +1,20 @@
+{
+  "title": "My Home and My Cat",
+  "text": "My house is small and blue. It has two windows and a red door. There is a big tree in the garden. The tree is very old.\n\nMy cat lives in the house too. She is black and white. She likes to sleep on the sofa. Her eyes are green.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is the door?", "options": ["Red", "Blue", "Green", "White"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What color are the cat's eyes?", "options": ["Black", "Green", "Blue", "Brown"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What kind of home does the writer probably have?", "options": ["A cozy home", "A cold home", "A dangerous home", "A huge home"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about the cat?", "options": ["It is probably calm and relaxed", "It is angry at everyone", "It is very hungry now", "It lives outside the house"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "garden", "translation": "jardim", "definition": "a small piece of land near a house where plants or trees grow"},
+    {"word": "sofa", "translation": "sofá", "definition": "a long soft seat for two or more people"},
+    {"word": "windows", "translation": "janelas", "definition": "openings in a wall that let in light and air"},
+    {"word": "old", "translation": "velho", "definition": "having lived or existed for a long time"}
+  ],
+  "paragraph_translations": [
+    "Minha casa é pequena e azul. Ela tem duas janelas e uma porta vermelha. Há uma árvore grande no jardim. A árvore é muito velha.",
+    "Meu gato também mora na casa. Ela é preta e branca. Ela gosta de dormir no sofá. Os olhos dela são verdes."
+  ]
+}

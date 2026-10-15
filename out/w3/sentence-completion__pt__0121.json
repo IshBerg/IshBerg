@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Passengers must show their tickets at the gate,",
+  "correct_completion": "because the staff needs to check them.",
+  "full_sentence": "Passengers must show their tickets at the gate, because the staff needs to check them.",
+  "acceptable_variants": ["because the gate staff must see them.", "because the staff has to check them."],
+  "options": [
+    {"text": "so they can choose any seat on the bus.", "is_correct": false, "why_wrong": "Showing tickets at the gate has nothing to do with choosing a seat, so this result does not fit the obligation."},
+    {"text": "because the staff needs to check them.", "is_correct": true, "why_wrong": null},
+    {"text": "but they do not need to pay anything.", "is_correct": false, "why_wrong": "'But' sets up a contrast about payment, which the stem does not mention."},
+    {"text": "if they are late for the train.", "is_correct": false, "why_wrong": "This adds a condition about being late, not the reason why tickets must be shown."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Obligation with 'must' and reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After an obligation stated with 'must', 'because' gives the reason for it. Check that the second part explains why the obligation exists.",
+  "translation": "Os passageiros devem mostrar suas passagens no portão, porque a equipe precisa verificá-las."
+}
