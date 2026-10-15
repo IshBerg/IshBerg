@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He must have forgotten the meeting,",
+  "correct_completion": "because he never replied to any messages.",
+  "full_sentence": "He must have forgotten the meeting, because he never replied to any messages.",
+  "acceptable_variants": ["because he did not answer any of our calls.", "since he ignored every reminder we sent."],
+  "options": [
+    {"text": "so he must have been on time.", "is_correct": false, "why_wrong": "If he forgot the meeting, he could not have arrived on time, so this contradicts the modal deduction in the stem."},
+    {"text": "because he never replied to any messages.", "is_correct": true, "why_wrong": null},
+    {"text": "although he remembered it perfectly.", "is_correct": false, "why_wrong": "'Although' signals contrast with forgetting, which conflicts with the deduction that he must have forgotten."},
+    {"text": "because he is always early.", "is_correct": false, "why_wrong": "Being early makes forgetting less likely, so this does not explain the conclusion that he forgot."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfect for a past deduction (must have + past participle)",
+  "connector": "because",
+  "explanation": "'Must have' plus a past participle expresses a logical conclusion about a past event, and the clause after it gives the evidence. Portuguese speakers often replace this structure with a simple past or a plain modal, because Portuguese uses different verb forms for expressing past certainty.",
+  "translation": "Ele deve ter esquecido a reunião, porque nunca respondeu a nenhuma mensagem."
+}
