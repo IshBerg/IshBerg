@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "rule", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las reglas son parte de la vida escolar: cada escuela tiene sus propias normas que los alumnos deben cumplir."},
+    {"word": "bank", "is_associated": false, "association_type": "NONE", "explanation": "Un banco es un lugar para guardar dinero y no tiene ninguna relación con la escuela."},
+    {"word": "homework", "is_associated": true, "association_type": "THEMATIC", "explanation": "La tarea es una obligación típica de los estudiantes y se hace fuera de la clase, por eso está relacionada con la escuela."},
+    {"word": "tiger", "is_associated": false, "association_type": "NONE", "explanation": "El tigre es un animal salvaje y no tiene relación con el ambiente escolar."},
+    {"word": "desk", "is_associated": true, "association_type": "THEMATIC", "explanation": "El pupitre es el mueble donde los alumnos se sientan en clase, así que pertenece al entorno escolar."},
+    {"word": "teacher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El profesor trabaja en la escuela y enseña a los alumnos, por lo que el significado está directamente relacionado con 'school'."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'school' se refieren a personas, objetos y actividades del entorno escolar. Las palabras 'bank' y 'tiger' no pertenecen a este tema."
+}

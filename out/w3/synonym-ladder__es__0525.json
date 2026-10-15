@@ -1,0 +1,13 @@
+{
+  "start_word": "allowed",
+  "end_word": "mandatory",
+  "ladder_steps": [
+    {"word": "allowed", "translation": "permitido", "intensity_level": 1},
+    {"word": "suggested", "translation": "sugerido", "intensity_level": 2},
+    {"word": "recommended", "translation": "recomendado", "intensity_level": 3},
+    {"word": "required", "translation": "necesario", "intensity_level": 4},
+    {"word": "mandatory", "translation": "obligatorio", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words about obligation form a ladder from the weakest (something you may do) to the strongest (something you must do), each step a little stronger than the last. Spanish speakers should note that 'required' is closer to 'necessary' than to 'obligatory'."
+}
