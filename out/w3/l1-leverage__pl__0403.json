@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sałata", "transliteration": "salata", "meaning": "lettuce (a green leafy vegetable)"},
+    {"word": "tort", "transliteration": "tort", "meaning": "cake (a large sweet layered dessert)"},
+    {"word": "chipsy", "transliteration": "chipsy", "meaning": "crisps (thin fried potato slices sold in a bag)"},
+    {"word": "kolacja", "transliteration": "kolacja", "meaning": "dinner (the evening meal)"}
+  ],
+  "english_words": ["crisps", "lettuce", "dinner", "cake"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these food words from related sources, so the forms stayed close, but the meanings drifted apart over time.",
+  "false_friend_warning": "The Polish word salata looks like the English word salad, but it means lettuce; a Polish salad is called salatka."
+}

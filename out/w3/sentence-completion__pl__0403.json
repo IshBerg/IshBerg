@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the bus leaves at eight,",
+  "correct_completion": "we must get up early.",
+  "full_sentence": "Because the bus leaves at eight, we must get up early.",
+  "acceptable_variants": ["we need to wake up early.", "we have to leave home early."],
+  "options": [
+    {"text": "the bus is very big.", "is_correct": false, "why_wrong": "This describes the bus, but it does not give a result of the bus leaving at eight."},
+    {"text": "the map is on the wall.", "is_correct": false, "why_wrong": "This is about a map, so it does not complete the cause and effect link with the bus time."},
+    {"text": "we must get up early.", "is_correct": true, "why_wrong": null},
+    {"text": "we can sleep until noon.", "is_correct": false, "why_wrong": "This contradicts the early bus time, so it does not follow logically from the reason given."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the clause gives the reason, and the main clause must show the result of that reason.",
+  "translation": "Ponieważ autobus odjeżdża o ósmej, musimy wstać wcześnie."
+}
