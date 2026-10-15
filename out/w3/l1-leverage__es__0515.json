@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present-day"}
+  ],
+  "english_words": ["folder", "current", "bookshop", "pregnant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Some of these word pairs share a Latin root, so their spelling looks alike in both languages, but their meanings drifted apart over time in each language.",
+  "false_friend_warning": "Several Spanish words look like English words but mean something different: the Spanish word for bookshop looks like 'library', the Spanish word for folder looks like 'carpet', the Spanish word for pregnant looks like 'embarrassed', and the Spanish word for current looks like 'actual'."
+}
