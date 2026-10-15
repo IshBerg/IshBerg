@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop, store"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "крем", "transliteration": "krem", "meaning": "cream"},
+    {"word": "телефон", "transliteration": "telefon", "meaning": "phone"}
+  ],
+  "english_words": ["cream", "shop", "phone", "factory"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both English and Ukrainian borrowed the root of this word from the same old source meaning storehouse. Over time the English word came to mean a printed periodical, while the Ukrainian word kept the meaning of a shop.",
+  "false_friend_warning": "The Ukrainian word 'mahazyn' looks very similar to the English word 'magazine', but it means shop or store, not a printed periodical. Students should match it with 'shop', not 'magazine'."
+}
