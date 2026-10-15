@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the manuscript reached the editor earlier,",
+  "correct_completion": "the novel might have been published a year sooner.",
+  "full_sentence": "Had the manuscript reached the editor earlier, the novel might have been published a year sooner.",
+  "acceptable_variants": ["the book could have appeared a year sooner.", "the novel might have come out a year sooner."],
+  "options": [
+    {"text": "the author would be famous by now.", "is_correct": false, "why_wrong": "This gives a present result, but the inverted conditional refers to an unrealised past situation, so the time reference is inconsistent."},
+    {"text": "she has been writing for years.", "is_correct": false, "why_wrong": "This describes an ongoing state and does not complete the hypothetical past result that the stem requires."},
+    {"text": "the novel might have been published a year sooner.", "is_correct": true, "why_wrong": null},
+    {"text": "so the editor is reading it now.", "is_correct": false, "why_wrong": "This uses a present action and a cause-effect link, while the stem requires a past hypothetical result with 'might have'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had' and 'might have' + past participle",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces the longer structure with 'if'. The main clause needs a modal such as 'might have' followed by a past participle, which describes an outcome that did not happen. Learners often use a simple past or a present tense here, because the time reference of the hypothetical past is easy to lose.",
+  "translation": "Gdyby rękopis trafił do redaktora wcześniej, powieść mogłaby ukazać się rok wcześniej."
+}
