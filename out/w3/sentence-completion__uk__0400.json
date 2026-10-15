@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you want to find the train station,",
+  "correct_completion": "look at the map on the wall.",
+  "full_sentence": "If you want to find the train station, look at the map on the wall.",
+  "acceptable_variants": ["check the map at the entrance.", "ask the person at the information desk."],
+  "options": [
+    {"text": "you can buy a ticket for the bus.", "is_correct": false, "why_wrong": "This talks about buying a bus ticket, which does not help you find the station. The stem asks for a way to find something."},
+    {"text": "the train was late yesterday.", "is_correct": false, "why_wrong": "This describes a past event. After 'if' in a first conditional, the main clause needs a present action that helps in the situation."},
+    {"text": "look at the map on the wall.", "is_correct": true, "why_wrong": null},
+    {"text": "your bag is very heavy.", "is_correct": false, "why_wrong": "This describes a bag and does not complete the idea of finding the station."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' (present simple after 'if', imperative in the main clause)",
+  "connector": "if",
+  "explanation": "After 'if' in a first conditional, the main clause often gives a useful action. Here an imperative such as 'look at' gives advice for the situation in the if-clause. Ukrainian speakers may need practice with this word order because English uses a short, direct imperative in this position.",
+  "translation": "Якщо ви хочете знайти залізничну станцію, подивіться на карту на стіні."
+}
