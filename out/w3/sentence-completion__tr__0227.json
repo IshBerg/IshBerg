@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the mounting pressure from the board,",
+  "correct_completion": "the chief executive maintained a remarkably measured tone.",
+  "full_sentence": "Despite the mounting pressure from the board, the chief executive maintained a remarkably measured tone.",
+  "acceptable_variants": ["the chief executive kept a calm and composed manner.", "the chief executive stayed remarkably restrained in public."],
+  "options": [
+    {"text": "the chief executive resigned on the spot.", "is_correct": false, "why_wrong": "This describes a dramatic outcome that contradicts the restraint implied by the concessive 'Despite' clause and the measured register it sets up."},
+    {"text": "the chief executive maintained a remarkably measured tone.", "is_correct": true, "why_wrong": null},
+    {"text": "so the board postponed the vote.", "is_correct": false, "why_wrong": "'So' expresses cause and effect, while 'Despite' signals concession. The completion must show the outcome that runs against the pressure."},
+    {"text": "the press release was published in full.", "is_correct": false, "why_wrong": "This adds a fact about publication but does not show the executive's composure that the concessive clause is setting up."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' followed by a noun phrase and a contrasting main clause",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a concession, so the main clause must describe an outcome that runs against the pressure. Turkish speakers may expect a cause-and-effect pattern here, so the contrast has to be made explicit in the English main clause.",
+  "translation": "Yönetim kurulunun artan baskısına rağmen, baş yönetici son derece ölçülü bir tutum sürdürdü."
+}

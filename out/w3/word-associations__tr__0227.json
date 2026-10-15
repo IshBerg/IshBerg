@@ -1,0 +1,14 @@
+{
+  "trigger_word": "fire",
+  "all_words": [
+    {"word": "flame", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Alev, yanan bir ateşin en belirgin parçasıdır; bu nedenle 'fire' ile anlamsal olarak bağlantılıdır."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Sandalye ateşle ilgili bir kavram değildir ve bu kelimeyle bir bağlantısı yoktur."},
+    {"word": "smoke", "is_associated": true, "association_type": "THEMATIC", "explanation": "Duman, yangın sahnelerinde ateşle birlikte ortaya çıkar; bu yüzden tematik bir bağlantı vardır."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bir müzik aletidir ve ateş temasıyla hiçbir ilgisi yoktur."},
+    {"word": "alarm", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Fire alarm' (yangın alarmı) İngilizcede sık kullanılan bir birleşik kelimedir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık ev eşyasıdır ve ateşle ilgili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Fire' kelimesiyle ilgili olan sözcükler yangının parçaları veya yangınla birlikte kullanılan terimlerdir; diğerleri farklı alanlara aittir."
+}
