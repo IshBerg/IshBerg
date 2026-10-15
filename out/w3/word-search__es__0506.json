@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "T", "Y", "L", "E", "A", "Q", "K", "V"],
+    ["B", "N", "H", "W", "R", "D", "I", "J", "O"],
+    ["K", "Z", "P", "F", "X", "C", "M", "V", "I"],
+    ["D", "W", "Q", "G", "L", "Z", "A", "X", "C"],
+    ["T", "K", "B", "J", "M", "R", "G", "Q", "E"],
+    ["Z", "O", "P", "V", "Y", "N", "E", "F", "W"],
+    ["X", "L", "N", "Q", "B", "K", "R", "M", "D"],
+    ["H", "J", "P", "E", "C", "W", "Y", "Z", "K"],
+    ["Q", "W", "X", "V", "P", "L", "O", "T", "R"]
+  ],
+  "words_to_find": ["STYLE", "VOICE", "TONE", "IMAGERY", "PLOT"],
+  "word_positions": [
+    {"word": "STYLE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VOICE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TONE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "IMAGERY", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PLOT", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Creative Writing: Voice and Style"
+}

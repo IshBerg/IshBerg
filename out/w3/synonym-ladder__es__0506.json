@@ -1,0 +1,13 @@
+{
+  "start_word": "weak",
+  "end_word": "very strong",
+  "ladder_steps": [
+    {"word": "weak", "translation": "débil", "intensity_level": 1},
+    {"word": "fair", "translation": "regular", "intensity_level": 2},
+    {"word": "good", "translation": "buena", "intensity_level": 3},
+    {"word": "strong", "translation": "fuerte", "intensity_level": 4},
+    {"word": "very strong", "translation": "muy fuerte", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Password strength words form a ladder from the weakest to the strongest, each step slightly stronger than the last."
+}

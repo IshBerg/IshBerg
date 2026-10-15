@@ -1,0 +1,14 @@
+{
+  "trigger_word": "password",
+  "all_words": [
+    {"word": "lock", "is_associated": true, "association_type": "THEMATIC", "explanation": "La cerradura protege algo, igual que una contraseña protege una cuenta, así que pertenece al mismo tema de seguridad."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "El plátano es una fruta y no tiene ninguna relación con las contraseñas."},
+    {"word": "secret", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un secreto es algo que solo debe conocer una persona, como una contraseña."},
+    {"word": "keyboard", "is_associated": true, "association_type": "THEMATIC", "explanation": "Escribimos la contraseña con el teclado, así que están relacionados."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña es un lugar natural y no se relaciona con las contraseñas."},
+    {"word": "login", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés se dice 'login password' para hablar de la contraseña de acceso a una cuenta."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'password' son las relacionadas con la seguridad, el acceso y el uso de dispositivos; las palabras como 'banana' o 'mountain' no tienen ninguna relación."
+}
