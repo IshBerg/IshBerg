@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before we serve the soup,",
+  "correct_completion": "we taste it.",
+  "full_sentence": "Before we serve the soup, we taste it.",
+  "acceptable_variants": ["we check the salt.", "we add some pepper."],
+  "options": [
+    {"text": "we ate all the bread.", "is_correct": false, "why_wrong": "'Before' needs an action that is a normal step in the cooking process. Eating bread does not fit as a step before serving the soup."},
+    {"text": "the soup is very cold.", "is_correct": false, "why_wrong": "This describes the soup, but it is not an action we do before serving, so 'before' does not connect it logically."},
+    {"text": "we taste it.", "is_correct": true, "why_wrong": null},
+    {"text": "we eat the dessert later.", "is_correct": false, "why_wrong": "'Later' places the action after serving the soup, which contradicts the meaning of 'before'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses with 'before'",
+  "connector": "before",
+  "explanation": "'Before' introduces a time clause, so the main clause must describe a step that happens earlier than serving the soup in the recipe order.",
+  "translation": "Çorbayı servis etmeden önce, tadına bakarız."
+}

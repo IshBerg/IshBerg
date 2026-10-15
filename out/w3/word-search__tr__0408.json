@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "L", "E", "A", "S", "E", "H"],
+    ["K", "R", "M", "B", "Q", "J", "E"],
+    ["C", "W", "Y", "Z", "F", "G", "L"],
+    ["O", "N", "V", "X", "I", "T", "P"],
+    ["U", "T", "H", "A", "N", "K", "S"],
+    ["L", "D", "W", "Q", "A", "R", "Z"],
+    ["D", "M", "Y", "F", "B", "K", "O"]
+  ],
+  "words_to_find": ["PLEASE", "HELP", "COULD", "THANKS"],
+  "word_positions": [
+    {"word": "PLEASE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HELP", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "COULD", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "THANKS", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Making Requests"
+}

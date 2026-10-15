@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Benzetme, metaforla yakından ilişkili bir edebi araçtır; ikisi de dilde karşılaştırma yapar."},
+    {"word": "imagery", "is_associated": true, "association_type": "THEMATIC", "explanation": "Betimleme, metaforla birlikte kullanılan ve zihinde görüntü yaratan bir anlatım tekniğidir."},
+    {"word": "figurative", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mecazi anlamlı dil, metaforun en sık yer aldığı bir eş-dizimdir."},
+    {"word": "calendar", "is_associated": false, "association_type": "NONE", "explanation": "Takvim günlük hayatta kullanılan bir nesnedir ve edebi bir kavramla bağlantısı yoktur."},
+    {"word": "thermometer", "is_associated": false, "association_type": "NONE", "explanation": "Termometre bilimsel bir ölçüm aracıdır ve metaforla anlamsal bir bağ kurmaz."},
+    {"word": "voltage", "is_associated": false, "association_type": "NONE", "explanation": "Voltaj elektrik alanına ait bir terimdir ve edebi anlatımla ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Metafor, edebi üslup ve anlatım teknikleri alanında benzetme, betimleme ve mecazi dil ile güçlü bağlantılar kurar; diğer kelimeler farklı alanlara aittir."
+}
