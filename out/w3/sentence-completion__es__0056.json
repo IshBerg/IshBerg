@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister works in a hospital, so",
+  "correct_completion": "she helps many patients every day.",
+  "full_sentence": "My sister works in a hospital, so she helps many patients every day.",
+  "acceptable_variants": ["she meets many doctors every day.", "she looks after sick people every day."],
+  "options": [
+    {"text": "she helps many patients every day.", "is_correct": true, "why_wrong": null},
+    {"text": "she help many patients every day.", "is_correct": false, "why_wrong": "The third person singular needs the -s ending, so 'help' must become 'helps' after 'she'."},
+    {"text": "she helping many patients every day.", "is_correct": false, "why_wrong": "A main verb in the present simple does not take -ing here, and it needs a subject and a correct form."},
+    {"text": "she helped many patients yesterday.", "is_correct": false, "why_wrong": "The past tense does not match 'works' and 'every day', which describe a habit in the present."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present simple, third person singular (-s ending)",
+  "connector": "so",
+  "explanation": "After 'so', the second clause shows the result of the first clause. The verb must take the -s ending because the subject is third person singular.",
+  "translation": "Mi hermana trabaja en un hospital, así que ayuda a muchos pacientes todos los días."
+}
