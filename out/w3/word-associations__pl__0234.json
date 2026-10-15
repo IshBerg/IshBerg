@@ -1,0 +1,14 @@
+{
+  "trigger_word": "meeting",
+  "all_words": [
+    {"word": "agenda", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Agenda to lista punktów, które omawia się podczas spotkania, więc ściśle łączy się ze słowem 'meeting'."},
+    {"word": "office", "is_associated": true, "association_type": "THEMATIC", "explanation": "Spotkania zwykle odbywają się w biurze, dlatego to słowo należy do tego samego tematu."},
+    {"word": "elephant", "is_associated": false, "association_type": "NONE", "explanation": "Słon nie ma żadnego związku z zebraniami ani z pracą biurową."},
+    {"word": "minutes", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Meeting minutes' to protokół ze spotkania, czyli stałe połączenie wyrazów."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Żyrafa nie kojarzy się ze spotkaniem ani z biznesem."},
+    {"word": "boardroom", "is_associated": true, "association_type": "THEMATIC", "explanation": "Sala zarządu to miejsce, w którym odbywają się ważne spotkania firmy."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'meeting' wiąże się z pracą, miejscem spotkania, dokumentami i przestrzenią, w której się odbywa. Słowa nie związane z pracą biurową nie są poprawnymi skojarzeniami."
+}
