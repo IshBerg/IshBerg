@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current"},
+    {"word": "librería", "transliteration": "librería", "meaning": "bookshop"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"}
+  ],
+  "english_words": ["folder", "pregnant", "bookshop", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Spanish word for 'current' and the English word 'actual' come from the same Latin root, but their meanings drifted apart over time.",
+  "false_friend_warning": "Be careful: the Spanish word for 'current' looks almost the same as the English word 'actual', but in English 'actual' means 'real' or 'true', not 'current'. Do not translate the Spanish word as 'actual'."
+}
