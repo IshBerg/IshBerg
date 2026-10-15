@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["A", "P", "P", "L", "E", "X", "Q", "Z", "K"],
+    ["L", "I", "M", "E", "V", "J", "S", "W", "H"],
+    ["Q", "W", "F", "K", "Z", "X", "P", "D", "C"],
+    ["J", "V", "T", "G", "Y", "B", "R", "L", "A"],
+    ["O", "H", "D", "U", "S", "E", "K", "M", "R"],
+    ["W", "N", "C", "Q", "F", "A", "T", "Z", "R"],
+    ["P", "X", "I", "L", "J", "N", "V", "G", "O"],
+    ["K", "D", "B", "O", "W", "H", "Z", "Q", "T"],
+    ["M", "S", "X", "R", "N", "J", "F", "C", "Y"]
+  ],
+  "words_to_find": ["APPLE", "LIME", "CARROT", "ONION", "BEAN"],
+  "word_positions": [
+    {"word": "APPLE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LIME", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CARROT", "start_row": 2, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "ONION", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BEAN", "start_row": 3, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Fruit and Vegetables"
+}
