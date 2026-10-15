@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["D", "E", "S", "K", "Q", "V", "J", "B"],
+    ["W", "Z", "X", "L", "R", "T", "U", "O"],
+    ["F", "G", "H", "I", "J", "K", "N", "O"],
+    ["C", "Y", "Q", "B", "D", "F", "S", "K"],
+    ["H", "W", "V", "X", "Z", "M", "Q", "L"],
+    ["A", "B", "P", "E", "N", "A", "Y", "R"],
+    ["I", "K", "T", "U", "V", "P", "O", "N"],
+    ["R", "S", "G", "J", "D", "H", "W", "C"]
+  ],
+  "words_to_find": ["DESK", "BOOK", "PEN", "CHAIR", "MAP"],
+  "word_positions": [
+    {"word": "DESK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BOOK", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "PEN", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "CHAIR", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "MAP", "start_row": 4, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Classroom Objects"
+}

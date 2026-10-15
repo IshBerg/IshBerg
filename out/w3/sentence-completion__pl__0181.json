@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had she sat down",
+  "correct_completion": "when the phone rang.",
+  "full_sentence": "Hardly had she sat down when the phone rang.",
+  "acceptable_variants": ["when someone knocked at the door.", "when the doorbell rang."],
+  "options": [
+    {"text": "so the phone rang.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem requires a time relation with 'hardly', which is expressed by 'when'."},
+    {"text": "when the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "than the phone rang.", "is_correct": false, "why_wrong": "'Than' belongs to comparatives, and 'hardly' does not pair with it in this structure. The correct pair is 'hardly ... when'."},
+    {"text": "because the phone rang.", "is_correct": false, "why_wrong": "'Because' gives a cause, but the stem sets up two events happening almost at the same moment, not a reason."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'hardly' and the 'hardly ... when' correlative",
+  "connector": "hardly ... when",
+  "explanation": "After 'hardly', English places the auxiliary verb before the subject, and the clause is completed with 'when' to show that two events happened almost at the same moment. Polish speakers often keep the normal subject-verb order here because Polish does not require this inversion, so the pattern has to be learned explicitly.",
+  "translation": "Ledwo usiadła, gdy zadzwonił telefon."
+}

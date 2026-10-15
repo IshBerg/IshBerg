@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rocket",
+  "all_words": [
+    {"word": "fuel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Paliwo jest potrzebne, aby rakieta mogła polecieć, więc jest bezpośrednio związane z rakietami."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "Pomidor to warzywo z ogrodu i nie ma nic wspólnego z rakietami."},
+    {"word": "astronaut", "is_associated": true, "association_type": "THEMATIC", "explanation": "Astronauta to osoba, która leci rakietą w kosmos, więc należy do tematu kosmosu."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka to naturalny ciek wodny na Ziemi i nie jest związana z rakietami."},
+    {"word": "launch", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słowo 'launch' występuje w połączeniu 'rocket launch', czyli start rakiety."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Poduszka służy do spania w domu i nie ma związku z kosmosem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'rocket' dotyczą napędu, załogi i startu, a pozostałe słowa należą do innych dziedzin życia."
+}
