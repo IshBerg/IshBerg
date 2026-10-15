@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current, up to date"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likable, pleasant to be with"},
+    {"word": "literatür", "transliteration": "literatur", "meaning": "the body of existing research on a topic"},
+    {"word": "konu", "transliteration": "konu", "meaning": "subject or topic of discussion"}
+  ],
+  "english_words": ["literature review", "topic", "current", "likable"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Turkish borrowed many academic terms from European languages, so several spellings look close to English. The same form can carry a different meaning in each language, so students should check the meaning and not rely on the spelling alone.",
+  "false_friend_warning": "Careful: the Turkish word literatur looks like the English word literature, but in academic writing it means the existing body of research on a topic, not books or novels, so its English match is literature review."
+}

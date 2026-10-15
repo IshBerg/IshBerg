@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more time,",
+  "correct_completion": "I would learn to play the guitar.",
+  "full_sentence": "If I had more time, I would learn to play the guitar.",
+  "acceptable_variants": ["I would travel around the world.", "I would start painting again."],
+  "options": [
+    {"text": "I learn to play the guitar every day.", "is_correct": false, "why_wrong": "The present simple describes a real routine, but the second conditional needs an imagined situation with would."},
+    {"text": "I will learn to play the guitar.", "is_correct": false, "why_wrong": "Will belongs to the first conditional; the second conditional uses would in the main clause."},
+    {"text": "I would learn to play the guitar.", "is_correct": true, "why_wrong": null},
+    {"text": "I learned to play the guitar.", "is_correct": false, "why_wrong": "The past simple describes a finished action, not the imagined result of the condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'if' and 'would'",
+  "connector": "if",
+  "explanation": "The second conditional describes an imagined present or future situation. After 'if' we use the past simple, and the main clause uses would plus the base verb. Turkish speakers often reach for a simple future here, so the main clause must use would instead of will.",
+  "translation": "Daha fazla zamanım olsaydı, gitar çalmayı öğrenirdim."
+}
