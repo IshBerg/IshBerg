@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the sample size was small,",
+  "correct_completion": "the authors drew confident conclusions about the whole population.",
+  "full_sentence": "Although the sample size was small, the authors drew confident conclusions about the whole population.",
+  "acceptable_variants": ["the authors nevertheless drew confident conclusions about the whole population.", "the authors still generalised their findings to all groups."],
+  "options": [
+    {"text": "so the authors repeated the experiment twice.", "is_correct": false, "why_wrong": "'So' introduces a result of the small sample, not a contrast with it."},
+    {"text": "the authors drew confident conclusions about the whole population.", "is_correct": true, "why_wrong": null},
+    {"text": "the authors mentioned the limits of their sample.", "is_correct": false, "why_wrong": "This matches what is expected after a small sample, so it does not create a contrast."},
+    {"text": "because the population was very large.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'although' requires a contrast."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' expressing contrast",
+  "connector": "although",
+  "explanation": "After 'although', the completion must express a contrast with the small sample mentioned in the first clause. Ukrainian speakers may confuse 'although' with 'because', since their native phrasing of cause and concession can look similar, so they may choose a cause instead of a contrast.",
+  "translation": "Хоча вибірка була невеликою, автори зробили впевнені висновки щодо всієї сукупності."
+}
