@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "A", "K", "E", "Q", "W", "R"],
+    ["X", "Z", "J", "Q", "W", "Y", "A"],
+    ["B", "Z", "X", "J", "Q", "W", "I"],
+    ["R", "J", "Z", "X", "Q", "K", "N"],
+    ["E", "W", "J", "Q", "Z", "X", "Y"],
+    ["A", "Q", "X", "Z", "J", "W", "Y"],
+    ["K", "Q", "T", "I", "M", "E", "Z"]
+  ],
+  "words_to_find": ["MAKE", "RAIN", "TIME", "BREAK"],
+  "word_positions": [
+    {"word": "MAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RAIN", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "TIME", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "BREAK", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Collocations"
+}
