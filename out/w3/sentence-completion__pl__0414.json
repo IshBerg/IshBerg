@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The girl opened the old box,",
+  "correct_completion": "and she found a small golden key.",
+  "full_sentence": "The girl opened the old box, and she found a small golden key.",
+  "acceptable_variants": ["and she saw a letter inside.", "and there was a photo of her family."],
+  "options": [
+    {"text": "and she was sleeping in the garden.", "is_correct": false, "why_wrong": "This does not follow from the action of opening a box, so it breaks the logic of the story."},
+    {"text": "and she found a small golden key.", "is_correct": true, "why_wrong": null},
+    {"text": "because she was hungry at the time.", "is_correct": false, "why_wrong": "'Because' gives a reason for opening the box, but the stem already describes the action, so the result is needed here."},
+    {"text": "and she will buy a new car tomorrow.", "is_correct": false, "why_wrong": "The future tense and the word 'tomorrow' do not match the past actions in the story."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple in narrative sentences",
+  "connector": null,
+  "explanation": "The completion must describe a logical result of opening the box, using the past simple tense to match the rest of the story.",
+  "translation": "Dziewczynka otworzyła stare pudełko i znalazła mały złoty klucz."
+}
