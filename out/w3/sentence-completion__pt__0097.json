@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "In the kitchen,",
+  "correct_completion": "there are two chairs and a table.",
+  "full_sentence": "In the kitchen, there are two chairs and a table.",
+  "acceptable_variants": ["there are two chairs and one table.", "there are two chairs and a small table."],
+  "options": [
+    {"text": "there is two chairs and a table.", "is_correct": false, "why_wrong": "'There is' is singular, so it cannot be used before the plural noun 'two chairs'. Use 'there are' with plural nouns."},
+    {"text": "it are two chairs and a table.", "is_correct": false, "why_wrong": "English does not use 'it' to introduce things that exist in a place. Use 'there' followed by is or are."},
+    {"text": "there are two chairs and a table.", "is_correct": true, "why_wrong": null},
+    {"text": "there are a chair and a table.", "is_correct": false, "why_wrong": "'There are' needs a plural noun, but 'a chair' is singular."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "There is / There are with singular and plural nouns",
+  "connector": "there are",
+  "explanation": "With 'there are', the noun that follows must be plural, and the verb must agree with it. Learners from a language with a different existential structure often use a subject pronoun or a singular verb here, so check the number of the noun before choosing the verb.",
+  "translation": "Na cozinha, há duas cadeiras e uma mesa."
+}

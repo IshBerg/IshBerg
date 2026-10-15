@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "R", "E", "E", "K", "P", "Q", "L"],
+    ["H", "M", "B", "D", "J", "N", "V", "E"],
+    ["G", "O", "Z", "K", "P", "Y", "W", "A"],
+    ["S", "C", "L", "Q", "H", "J", "A", "F"],
+    ["U", "R", "I", "V", "E", "R", "T", "Z"],
+    ["N", "B", "K", "D", "M", "P", "E", "W"],
+    ["Q", "H", "J", "L", "X", "D", "R", "M"],
+    ["F", "G", "A", "B", "C", "D", "K", "P"]
+  ],
+  "words_to_find": ["TREE", "LEAF", "RIVER", "SUN", "WATER"],
+  "word_positions": [
+    {"word": "TREE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEAF", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "RIVER", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "SUN", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "WATER", "start_row": 2, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Environment"
+}
