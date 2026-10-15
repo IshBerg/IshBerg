@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "O", "V", "I", "E", "M", "Q", "R", "K", "A"],
+    ["T", "H", "P", "N", "W", "L", "D", "Y", "B", "C"],
+    ["X", "G", "J", "Z", "K", "I", "V", "E", "Q", "T"],
+    ["N", "A", "L", "D", "H", "F", "U", "W", "M", "O"],
+    ["B", "K", "Y", "E", "P", "J", "X", "N", "L", "R"],
+    ["M", "C", "Q", "V", "A", "D", "H", "K", "W", "G"],
+    ["Z", "U", "F", "O", "T", "R", "B", "L", "P", "Y"],
+    ["E", "N", "S", "W", "I", "X", "D", "K", "H", "Q"],
+    ["R", "J", "V", "I", "Y", "N", "O", "M", "U", "Z"],
+    ["F", "B", "L", "W", "C", "E", "G", "A", "T", "S"]
+  ],
+  "words_to_find": ["MOVIE", "ACTOR", "MUSIC", "STAGE", "FILM"],
+  "word_positions": [
+    {"word": "MOVIE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ACTOR", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "MUSIC", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "STAGE", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "FILM", "start_row": 3, "start_col": 5, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Entertainment"
+}

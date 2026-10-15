@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What surprised everyone at the meeting",
+  "correct_completion": "was how little the director knew about the budget.",
+  "full_sentence": "What surprised everyone at the meeting was how little the director knew about the budget.",
+  "acceptable_variants": ["was how little the director had prepared for the budget discussion.", "was that the director had almost no knowledge of the budget."],
+  "options": [
+    {"text": "the director knew very little about the budget.", "is_correct": false, "why_wrong": "The clause is complete on its own, but the stem's subject 'What surprised everyone at the meeting' still needs a linking verb. Placing two full clauses side by side without a connector makes the sentence ungrammatical."},
+    {"text": "although the director knew very little about the budget.", "is_correct": false, "why_wrong": "'Although' introduces a subordinate clause of contrast, which cannot serve as the complement of the subject. The stem still has no main verb."},
+    {"text": "was how little the director knew about the budget.", "is_correct": true, "why_wrong": null},
+    {"text": "in the director's office, where the budget was kept.", "is_correct": false, "why_wrong": "This is a locative phrase with a relative clause. It describes a place rather than the surprising content, and it still leaves the subject without a verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Wh-clauses (free relatives) used as sentence subjects, with a linking verb",
+  "connector": "what",
+  "explanation": "The stem opens with a free relative clause, 'What surprised everyone at the meeting', which acts as the subject of the sentence. A subject like this needs a linking verb, here 'was', followed by a nominal complement such as a wh-clause ('how little the director knew'). Options that add a full clause without a linking verb do not form a grammatical sentence. Portuguese speakers may be tempted to attach a finished clause straight after the subject, so it helps to check that the sentence still has one main verb linked to the subject.",
+  "translation": "O que surpreendeu todos na reunião foi o quão pouco o diretor sabia sobre o orçamento."
+}
