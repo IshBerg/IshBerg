@@ -1,0 +1,20 @@
+{
+  "title": "My Family",
+  "text": "My name is Ana. I live with my family in a small house. My mother is a teacher. My father works in a shop. We have a dog named Bob.\n\nI have one brother. His name is Pedro. He is seven years old. On Sundays, we eat lunch together. We like to play games after lunch.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the name of the family's dog?", "options": ["Ana", "Bob", "Pedro", "Max"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How old is Pedro?", "options": ["Five", "Seven", "Nine", "Ten"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can we infer about Ana's family?", "options": ["They are a happy family who spend time together", "They do not like to eat together", "They live in a big apartment in the city", "They do not have any pets"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why do Ana and Pedro probably enjoy Sundays?", "options": ["They eat lunch together and play games", "They go to school on Sundays", "They work in a shop together", "They have a teacher at home"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "small", "translation": "pequeno", "definition": "not big in size"},
+    {"word": "teacher", "translation": "professor(a)", "definition": "a person who teaches students"},
+    {"word": "together", "translation": "juntos", "definition": "with another person or other people"},
+    {"word": "brother", "translation": "irmão", "definition": "a boy or man who has the same parents as you"}
+  ],
+  "paragraph_translations": [
+    "Meu nome é Ana. Eu moro com a minha família em uma casa pequena. Minha mãe é professora. Meu pai trabalha em uma loja. Nós temos um cachorro chamado Bob.",
+    "Eu tenho um irmão. O nome dele é Pedro. Ele tem sete anos. Aos domingos, nós almoçamos juntos. Gostamos de jogar jogos depois do almoço."
+  ]
+}
