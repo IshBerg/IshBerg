@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["A", "D", "V", "E", "R", "T", "X", "B"],
+    ["K", "Q", "Z", "P", "J", "W", "Y", "R"],
+    ["L", "U", "F", "H", "M", "S", "C", "A"],
+    ["V", "I", "D", "E", "O", "G", "K", "N"],
+    ["P", "X", "W", "Q", "Z", "T", "J", "D"],
+    ["F", "M", "E", "D", "I", "A", "Z", "Q"],
+    ["H", "K", "L", "Y", "U", "B", "O", "P"],
+    ["S", "C", "R", "E", "E", "N", "J", "W"]
+  ],
+  "words_to_find": ["ADVERT", "BRAND", "VIDEO", "MEDIA", "SCREEN"],
+  "word_positions": [
+    {"word": "ADVERT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BRAND", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "VIDEO", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MEDIA", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "SCREEN", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Media and Advertising"
+}

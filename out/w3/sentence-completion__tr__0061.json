@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Please don't call me now, because",
+  "correct_completion": "I am cooking dinner.",
+  "full_sentence": "Please don't call me now, because I am cooking dinner.",
+  "acceptable_variants": ["I am making dinner.", "I am busy in the kitchen."],
+  "options": [
+    {"text": "I cooked dinner last night.", "is_correct": false, "why_wrong": "This is the past simple, which describes a finished action. The reason for not being called must be happening now."},
+    {"text": "I cook dinner every evening.", "is_correct": false, "why_wrong": "This is the simple present, used for habits. It does not explain the situation at this moment."},
+    {"text": "I am cooking dinner.", "is_correct": true, "why_wrong": null},
+    {"text": "I will cook dinner tomorrow.", "is_correct": false, "why_wrong": "This is the future tense. It does not give a reason for the request made now."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present continuous after 'because' to give a current reason",
+  "connector": "because",
+  "explanation": "The word 'because' introduces a reason, so the second part must describe something happening at the moment of speaking. The present continuous shows an action in progress, formed with am, is or are plus the -ing form of the verb.",
+  "translation": "Lütfen şimdi beni arama, çünkü yemek pişiriyorum."
+}
