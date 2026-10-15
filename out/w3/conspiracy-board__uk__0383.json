@@ -1,0 +1,14 @@
+{
+  "codename": "SILENT ECHO",
+  "briefing": "Agent, we have intercepted messages about the target's personal tastes. Connect each English word to its Ukrainian match to reveal the hidden code. Time is critical.",
+  "connection_mode": "vocabulary",
+  "difficulty": "hard",
+  "pairs": [
+    {"left": "love", "right": "кохати", "left_style": "document", "right_style": "handwritten"},
+    {"left": "hate", "right": "ненавидіти", "left_style": "photo", "right_style": "document"},
+    {"left": "like", "right": "подобатися", "left_style": "newspaper", "right_style": "official"},
+    {"left": "dislike", "right": "не подобатися", "left_style": "handwritten", "right_style": "newspaper"},
+    {"left": "favourite", "right": "улюблений", "left_style": "official", "right_style": "photo"},
+    {"left": "prefer", "right": "віддавати перевагу", "left_style": "photo", "right_style": "official"}
+  ]
+}

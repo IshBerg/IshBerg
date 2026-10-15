@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home and read books.",
+  "full_sentence": "If it rains tomorrow, we will stay at home and read books.",
+  "acceptable_variants": ["we will watch a movie at home.", "we will cook dinner together."],
+  "options": [
+    {"text": "we went to the beach yesterday.", "is_correct": false, "why_wrong": "The past tense does not fit a future condition, and yesterday does not match 'tomorrow' in the stem."},
+    {"text": "we will stays at home.", "is_correct": false, "why_wrong": "After 'will' the verb must be in its base form, so 'stay' is needed, not 'stays'."},
+    {"text": "we will stay at home and read books.", "is_correct": true, "why_wrong": null},
+    {"text": "the weather was very nice.", "is_correct": false, "why_wrong": "This describes a past state and does not give a logical result of rain."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "The stem uses 'if' with a present simple verb to describe a possible future condition. The main clause needs 'will' plus a base verb to show the logical result of that condition.",
+  "translation": "Якщо завтра піде дощ, ми залишимося вдома і читатимемо книжки."
+}

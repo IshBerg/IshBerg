@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "magazyn", "meaning": "shop, store"},
+    {"word": "батон", "transliteration": "baton", "meaning": "loaf of white bread"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "конкурс", "transliteration": "konkurs", "meaning": "competition, contest"}
+  ],
+  "english_words": ["loaf of bread", "competition", "shop", "factory"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Ukrainian words look close to English words because they were borrowed from the same international sources, but their meanings have drifted apart in each language. The similarity of form does not guarantee a similarity of meaning, so the learner should check the meaning before accepting a match.",
+  "false_friend_warning": "Watch out for false friends: the Ukrainian word written as magazyn looks like English magazine but means shop, the word baton looks like English baton but means a loaf of white bread, fabryka looks like fabric but means factory, and konkurs looks like concourse but means competition."
+}
