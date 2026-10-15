@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the bus is late,",
+  "correct_completion": "we will take a taxi.",
+  "full_sentence": "If the bus is late, we will take a taxi.",
+  "acceptable_variants": ["we will call a taxi.", "we will wait for the next bus."],
+  "options": [
+    {"text": "the timetable is on the wall.", "is_correct": false, "why_wrong": "This describes where the timetable is, but it does not give the result of the condition started by 'if'."},
+    {"text": "we will take a taxi.", "is_correct": true, "why_wrong": null},
+    {"text": "the bus station has a map.", "is_correct": false, "why_wrong": "This describes a fact about the station, not what will happen when the bus is late."},
+    {"text": "yesterday the bus was on time.", "is_correct": false, "why_wrong": "This refers to the past, but the 'if' clause is in the present, so the result must be a future action."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause uses 'will' to show a likely future result. Portuguese speakers may find this natural, but English does not use a future tense after 'if'.",
+  "translation": "Se o ônibus atrasar, vamos pegar um táxi."
+}
