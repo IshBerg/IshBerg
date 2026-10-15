@@ -1,0 +1,14 @@
+{
+  "trigger_word": "anchor",
+  "all_words": [
+    {"word": "harbor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Gemiler demir attığı için 'anchor' ile en çok limanda ilişkilendirilir; bu, konu olarak birbirine bağlı bir alandır."},
+    {"word": "orchestra", "is_associated": false, "association_type": "NONE", "explanation": "Orkestra müzik topluluğudur ve 'anchor' ile ne anlamsal ne de tematik bir bağı vardır."},
+    {"word": "chain", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Anchor chain' (çapa zinciri) doğal bir birleşimdir; ayrıca çapa ile birlikte kullanılan zincirdir."},
+    {"word": "mortgage", "is_associated": false, "association_type": "NONE", "explanation": "İpotek bir kredi türüdür; denizcilik ya da çapa ile hiçbir bağlantısı yoktur, yalnızca finans alanına aittir."},
+    {"word": "keel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Omurga anlamına gelen 'keel', geminin dengesini sağlayan parçadır ve çapa ile aynı denizcilik anlam alanındadır."},
+    {"word": "tide", "is_associated": true, "association_type": "THEMATIC", "explanation": "Gel-git, çapanın tutuşunu ve geminin konumunu etkileyen denizcilik olgusudur; bu yüzden tematik olarak ilişkilidir."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Anchor' çoğunlukla denizcilik alanında çağrışım yapar: liman, çapa zinciri, geminin omurgası ve gel-git gibi kavramlarla ilişkilidir, müzik ve finans terimleri ise bu alana ait değildir."
+}
