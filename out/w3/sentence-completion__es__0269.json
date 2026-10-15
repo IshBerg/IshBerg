@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My neighbour, who works as a doctor,",
+  "correct_completion": "helped me when I was sick.",
+  "full_sentence": "My neighbour, who works as a doctor, helped me when I was sick.",
+  "acceptable_variants": ["gave me some advice about my cold.", "checked my temperature last night."],
+  "options": [
+    {"text": "which is in the next street.", "is_correct": false, "why_wrong": "A non-defining clause adds extra information about the subject; 'which' is not used for a person, and this completion does not fit the verb 'works'."},
+    {"text": "helped me when I was sick.", "is_correct": true, "why_wrong": null},
+    {"text": "that I met last year.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining clause after a comma, so the sentence is grammatically incorrect."},
+    {"text": "whose house is very big.", "is_correct": false, "why_wrong": "'Whose' refers to a possession, but the sentence already gives the neighbour's job, so this completion does not logically finish the sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "A non-defining relative clause is set off by commas and adds extra information about a person already identified. Learners often omit the commas or use 'that' by mistake, because Spanish speakers may treat the relative pronoun as optional in this position.",
+  "translation": "Mi vecino, que trabaja como médico, me ayudó cuando estaba enfermo."
+}
