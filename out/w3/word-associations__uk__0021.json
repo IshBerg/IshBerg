@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "teacher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Вчитель викладає в школі, тож це людина, тісно пов'язана зі школою."},
+    {"word": "pencil", "is_associated": true, "association_type": "THEMATIC", "explanation": "Олівець є типовим шкільним приладдям, яким учні пишуть і малюють."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Міст — це споруда для перетину річок чи доріг і не має відношення до навчального закладу."},
+    {"word": "homework", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Домашнє завдання — це частина шкільного навчання, його зазвичай задають учням."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Бутерброд — це їжа, але він не пов'язаний зі школою як навчальним закладом."},
+    {"word": "pilot", "is_associated": false, "association_type": "NONE", "explanation": "Пілот керує літаком і не має прямого зв'язку зі школою."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово «school» асоціюється з людьми, предметами і процесами навчання; міст, бутерброд і пілот до цієї теми не належать."
+}
