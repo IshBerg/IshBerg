@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["H", "O", "P", "E", "W", "Q", "R", "T"],
+    ["K", "W", "J", "Z", "B", "V", "M", "R"],
+    ["X", "Q", "U", "Y", "N", "G", "D", "U"],
+    ["B", "K", "S", "W", "P", "Z", "V", "S"],
+    ["M", "G", "T", "Y", "Q", "N", "X", "T"],
+    ["F", "A", "I", "T", "H", "B", "K", "Z"],
+    ["Q", "V", "C", "M", "X", "W", "Z", "N"],
+    ["K", "Y", "E", "B", "Q", "J", "V", "X"]
+  ],
+  "words_to_find": ["HOPE", "TRUST", "FAITH", "JUSTICE"],
+  "word_positions": [
+    {"word": "HOPE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRUST", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "FAITH", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "JUSTICE", "start_row": 1, "start_col": 2, "direction": "VERTICAL"}
+  ],
+  "topic": "Academic Vocabulary: Abstract Nouns"
+}

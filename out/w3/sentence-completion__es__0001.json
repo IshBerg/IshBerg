@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been informed of the delay,",
+  "correct_completion": "the passengers asked for a full refund.",
+  "full_sentence": "Having been informed of the delay, the passengers asked for a full refund.",
+  "acceptable_variants": ["the passengers rebooked their connecting flights.", "they demanded compensation from the airline."],
+  "options": [
+    {"text": "the airline apologised for the delay.", "is_correct": false, "why_wrong": "The participle clause needs the passengers as its implied subject, since they are the ones who were informed."},
+    {"text": "the flight had been delayed twice before.", "is_correct": false, "why_wrong": "This gives background information but does not complete the clause with an action by the implied subject."},
+    {"text": "the passengers asked for a full refund.", "is_correct": true, "why_wrong": null},
+    {"text": "the announcement will be repeated at the gate.", "is_correct": false, "why_wrong": "A future passive does not complete a perfect participle clause, which needs a main-clause action by the implied subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect passive participle clauses ('Having been informed')",
+  "connector": "Having been informed",
+  "explanation": "A perfect passive participle clause such as 'Having been informed' has an implied subject, here the passengers, who must carry out the action in the main clause. Spanish speakers often add a finite verb right after the participle phrase, but English expects the main clause to continue directly with the subject's action.",
+  "translation": "Después de haber sido informados del retraso, los pasajeros pidieron un reembolso completo."
+}
