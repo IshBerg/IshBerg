@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "Mix the flour and the eggs, then",
+  "correct_completion": "bake the cake for thirty minutes.",
+  "full_sentence": "Mix the flour and the eggs, then bake the cake for thirty minutes.",
+  "acceptable_variants": ["pour the mixture into a pan.", "put the bowl in the oven."],
+  "options": [
+    {"text": "eat the bowl.", "is_correct": false, "why_wrong": "A bowl is not food, and eating it is not the next step in a recipe."},
+    {"text": "bake the cake for thirty minutes.", "is_correct": true, "why_wrong": null},
+    {"text": "I like chocolate.", "is_correct": false, "why_wrong": "This is an opinion, not a cooking step, so it does not continue the recipe."},
+    {"text": "the cake was yesterday.", "is_correct": false, "why_wrong": "This uses the past tense for a step that comes next, and it does not describe an action."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Sequencing with 'then'",
+  "connector": "then",
+  "explanation": "After 'then', we need the next action in the recipe, written as an imperative. Ukrainian speakers may add a subject or use a past form here, because their recipes often use different verb forms, but English recipe instructions use a bare verb."
+}
