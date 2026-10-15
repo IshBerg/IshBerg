@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is essential that everyone",
+  "correct_completion": "arrive on time for the exam.",
+  "full_sentence": "It is essential that everyone arrive on time for the exam.",
+  "acceptable_variants": ["be on time for the exam.", "come on time for the exam."],
+  "options": [
+    {"text": "will arrive on time for the exam.", "is_correct": false, "why_wrong": "After 'essential that', English uses the subjunctive (base form of the verb), not the future. 'Will' is incorrect here."},
+    {"text": "arrives on time for the exam.", "is_correct": false, "why_wrong": "The third-person -s ending is not used in the subjunctive after 'essential that'. The base form 'arrive' is required."},
+    {"text": "arrive on time for the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "arrived on time for the exam.", "is_correct": false, "why_wrong": "The past tense does not express the subjunctive here. It would suggest the arrival has already happened, which does not fit a requirement."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subjunctive mood after expressions of necessity (essential that + base verb)",
+  "connector": "essential that",
+  "explanation": "After expressions such as 'it is essential that', 'it is important that' and 'it is necessary that', English uses the base form of the verb for all subjects. Polish speakers often use a 'that' clause with a finite verb in the same way, so they may add a third-person -s or use the future by mistake.",
+  "translation": "Jest konieczne, aby wszyscy przybyli na egzamin na czas."
+}
