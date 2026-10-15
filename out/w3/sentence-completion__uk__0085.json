@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the bus was late,",
+  "correct_completion": "we arrived at the station on time.",
+  "full_sentence": "Even though the bus was late, we arrived at the station on time.",
+  "acceptable_variants": ["we still reached the station before the train left.", "we got there on time anyway."],
+  "options": [
+    {"text": "so we missed the train.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast, so it does not complete the pattern started by 'even though'."},
+    {"text": "we arrived at the station on time.", "is_correct": true, "why_wrong": null},
+    {"text": "the bus was red and new.", "is_correct": false, "why_wrong": "This adds a description of the bus but does not provide the contrasting action expected after 'even though'."},
+    {"text": "because we walked fast.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast, so it does not complete the sentence correctly."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', we need a clause that contrasts with the delay in the first part of the sentence. Learners often translate the connector word for word and read the sentence as a simple cause, so the contrast is missed.",
+  "translation": "Хоча автобус запізнився, ми прибули на станцію вчасно."
+}
