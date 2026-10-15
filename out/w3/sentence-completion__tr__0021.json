@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she accepted the job offer last year,",
+  "correct_completion": "she would be living abroad by now.",
+  "full_sentence": "Had she accepted the job offer last year, she would be living abroad by now.",
+  "acceptable_variants": ["she would now be living overseas.", "she would be living a very different life today."],
+  "options": [
+    {"text": "she is living abroad now.", "is_correct": false, "why_wrong": "The simple present does not express an unreal result of a past condition. The result clause needs 'would' plus a base verb."},
+    {"text": "she would have lived abroad last year.", "is_correct": false, "why_wrong": "The perfect form points to the past, which conflicts with 'by now'. Mixed conditionals link a past condition to a present result."},
+    {"text": "she would be living abroad by now.", "is_correct": true, "why_wrong": null},
+    {"text": "she will live abroad next year.", "is_correct": false, "why_wrong": "'Will' expresses a real future plan, not an unreal result of a past condition. The sentence needs 'would' here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals with inverted 'had' (past condition, present result)",
+  "connector": "had (inverted if)",
+  "explanation": "'Had she accepted' is an inverted form of 'If she had accepted', which is a mixed conditional. The past condition is followed by a present-time result built with 'would' plus a base verb. Turkish speakers may find the inverted 'had' word order unfamiliar because Turkish conditionals are formed with a suffix, so the subject-verb inversion is easy to overlook.",
+  "translation": "Geçen yıl iş teklifini kabul etseydi, şimdi yurt dışında yaşıyor olurdu."
+}
