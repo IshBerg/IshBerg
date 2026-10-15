@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "R", "E", "A", "K", "Q", "W", "X", "Z", "S"],
+    ["D", "F", "G", "H", "J", "L", "M", "N", "T", "P"],
+    ["V", "B", "N", "M", "A", "S", "D", "F", "G", "I"],
+    ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "L"],
+    ["A", "S", "D", "F", "G", "H", "J", "K", "L", "L"],
+    ["C", "V", "B", "N", "M", "Q", "W", "E", "R", "T"],
+    ["Z", "H", "P", "O", "I", "U", "Y", "T", "R", "E"],
+    ["M", "N", "E", "B", "V", "C", "X", "Z", "A", "S"],
+    ["K", "J", "L", "E", "W", "R", "T", "Y", "U", "O"],
+    ["A", "S", "D", "F", "R", "G", "K", "C", "I", "P"]
+  ],
+  "words_to_find": ["BREAK", "SPILL", "CHEER", "PICK"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SPILL", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "CHEER", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PICK", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Idioms and Phrasal Verbs"
+}
