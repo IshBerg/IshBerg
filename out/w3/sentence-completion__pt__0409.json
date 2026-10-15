@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I would love to come to your party, but",
+  "correct_completion": "I have to work that evening.",
+  "full_sentence": "I would love to come to your party, but I have to work that evening.",
+  "acceptable_variants": ["I have another commitment that night.", "I am busy on Saturday evening."],
+  "options": [
+    {"text": "I can come to your party.", "is_correct": false, "why_wrong": "This agrees to the invitation, so there is no contrast with the first part of the sentence, which 'but' requires."},
+    {"text": "thank you for the invitation.", "is_correct": false, "why_wrong": "This is a polite phrase, but it does not give the contrasting reason that 'but' expects."},
+    {"text": "the party is on Saturday.", "is_correct": false, "why_wrong": "This gives information about the party, but it does not explain why the speaker cannot come."},
+    {"text": "I have to work that evening.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' in invitation replies",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the wish to attend. Learners sometimes repeat the wish again, but the sentence needs a barrier that prevents attending.",
+  "translation": "Eu adoraria ir à sua festa, mas tenho que trabalhar naquela noite."
+}
