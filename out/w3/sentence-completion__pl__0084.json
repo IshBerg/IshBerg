@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister is taller than me,",
+  "correct_completion": "but I am faster than her.",
+  "full_sentence": "My sister is taller than me, but I am faster than her.",
+  "acceptable_variants": ["but I run faster than her.", "but I am quicker than her."],
+  "options": [
+    {"text": "so I am taller than her.", "is_correct": false, "why_wrong": "'So' shows a result, but the sentence needs a contrast. The stem already says she is taller, so this repeats the opposite idea."},
+    {"text": "but I am faster than her.", "is_correct": true, "why_wrong": null},
+    {"text": "and she is also younger.", "is_correct": false, "why_wrong": "This adds another fact about age, but it does not give the contrasting comparison expected after 'than' and 'but'."},
+    {"text": "because we are both tall.", "is_correct": false, "why_wrong": "This gives a reason, but it does not compare speed with the first part of the sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Comparatives with 'than' and contrast with 'but'",
+  "connector": "but",
+  "explanation": "The sentence compares two people with comparative adjectives. The second clause should contrast with the first, using the same structure of comparison.",
+  "translation": "Moja siostra jest wyższa ode mnie, ale ja jestem szybszy od niej."
+}
