@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "R", "A", "V", "E", "L", "K", "F", "Q"],
+    ["B", "Z", "N", "J", "W", "P", "S", "R", "D"],
+    ["C", "G", "H", "M", "U", "O", "Y", "I", "K"],
+    ["M", "X", "Q", "P", "F", "A", "V", "E", "S"],
+    ["A", "E", "T", "Y", "D", "K", "L", "N", "B"],
+    ["P", "W", "M", "I", "G", "R", "T", "D", "O"],
+    ["K", "J", "L", "O", "Z", "X", "W", "B", "R"],
+    ["S", "O", "Q", "Y", "R", "N", "J", "P", "T"],
+    ["H", "C", "B", "G", "V", "Y", "W", "K", "Z"]
+  ],
+  "words_to_find": ["TRAVEL", "FRIEND", "MEMORY", "HOLIDAY"],
+  "word_positions": [
+    {"word": "TRAVEL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FRIEND", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "MEMORY", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "HOLIDAY", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Discussing Life Experiences"
+}
