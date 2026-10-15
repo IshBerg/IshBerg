@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "teacher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Nauczyciel pracuje w szkole, więc to słowo ma z nią bezpośrednie znaczeniowe powiązanie."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma żadnego związku ze szkołą jako miejscem nauki."},
+    {"word": "classroom", "is_associated": true, "association_type": "THEMATIC", "explanation": "Sala lekcyjna jest częścią szkoły, więc należy do tego samego tematu."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka nie jest związana ze szkołą ani z nauką."},
+    {"word": "homework", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Odrabia się pracę domową (homework) po lekcjach w szkole; to typowe połączenie wyrazów."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Chmura na niebie nie ma nic wspólnego ze szkołą."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane ze szkołą to osoby, miejsca i czynności związane z nauką; pozostałe słowa nie mają z nią związku."
+}

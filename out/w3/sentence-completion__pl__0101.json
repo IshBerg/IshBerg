@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I went to the shop and",
+  "correct_completion": "bought some bread.",
+  "full_sentence": "Yesterday I went to the shop and bought some bread.",
+  "acceptable_variants": ["got some bread.", "picked up some bread."],
+  "options": [
+    {"text": "buyed some bread.", "is_correct": false, "why_wrong": "'Buy' is irregular. Its past simple form is 'bought', not 'buyed'."},
+    {"text": "bought some bread.", "is_correct": true, "why_wrong": null},
+    {"text": "buy some bread.", "is_correct": false, "why_wrong": "The base form 'buy' cannot describe a finished action in the past. The past simple needs the past form 'bought'."},
+    {"text": "have bought some bread.", "is_correct": false, "why_wrong": "The present perfect does not combine with the finished time 'yesterday'. Use the past simple."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past simple of irregular verbs after a sequence with 'and'",
+  "connector": "and",
+  "explanation": "The second action in this sentence is a finished past event, so it needs the irregular past simple form of the verb. Learners often add the regular ending -ed to irregular verbs, and this error is common when the verb is not yet memorised.",
+  "translation": "Wczoraj poszedłem do sklepu i kupiłem trochę chleba."
+}
