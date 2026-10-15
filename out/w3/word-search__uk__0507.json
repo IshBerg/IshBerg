@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["A", "L", "G", "O", "R", "I", "T", "H", "M", "E"],
+    ["R", "Q", "K", "J", "U", "W", "F", "P", "D", "T"],
+    ["O", "V", "N", "Z", "L", "B", "X", "G", "Q", "H"],
+    ["B", "W", "E", "K", "Z", "M", "J", "A", "U", "I"],
+    ["O", "F", "X", "Q", "N", "S", "D", "L", "W", "C"],
+    ["T", "G", "J", "B", "K", "P", "E", "X", "Q", "S"],
+    ["I", "N", "V", "W", "Z", "D", "Q", "K", "F", "L"],
+    ["C", "M", "U", "H", "Q", "W", "J", "X", "B", "Y"],
+    ["S", "T", "Q", "Y", "C", "A", "V", "I", "R", "P"],
+    ["K", "Z", "F", "J", "H", "O", "W", "N", "D", "G"]
+  ],
+  "words_to_find": ["ALGORITHM", "ROBOTICS", "PRIVACY", "ETHICS"],
+  "word_positions": [
+    {"word": "ALGORITHM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ROBOTICS", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "PRIVACY", "start_row": 8, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "ETHICS", "start_row": 0, "start_col": 9, "direction": "VERTICAL"}
+  ],
+  "topic": "Global Futures: Technology, Society, Ethics"
+}
