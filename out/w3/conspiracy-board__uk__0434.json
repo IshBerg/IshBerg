@@ -1,0 +1,13 @@
+{
+  "codename": "SILENT COMPASS",
+  "briefing": "Agent, the enemy hid a map of secret routes in plain sight. Match each English direction word on the evidence cards to its Ukrainian translation to find the way.",
+  "connection_mode": "vocabulary",
+  "difficulty": "medium",
+  "pairs": [
+    {"left": "left", "right": "ліворуч", "left_style": "document", "right_style": "handwritten"},
+    {"left": "right", "right": "праворуч", "left_style": "photo", "right_style": "newspaper"},
+    {"left": "straight", "right": "прямо", "left_style": "newspaper", "right_style": "official"},
+    {"left": "corner", "right": "ріг", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "street", "right": "вулиця", "left_style": "official", "right_style": "document"}
+  ]
+}
