@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "U", "N", "P", "K", "Z", "I"],
+    ["G", "H", "C", "L", "V", "J", "R"],
+    ["F", "K", "M", "A", "Q", "W", "O"],
+    ["T", "X", "R", "Y", "S", "D", "N"],
+    ["H", "P", "Z", "F", "K", "G", "Y"],
+    ["D", "O", "U", "B", "L", "E", "J"],
+    ["W", "I", "T", "Q", "N", "V", "C"]
+  ],
+  "words_to_find": ["PUN", "IRONY", "DOUBLE", "PLAY", "WIT"],
+  "word_positions": [
+    {"word": "PUN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "DOUBLE", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PLAY", "start_row": 0, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "WIT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Wordplay, Puns and Double Meaning"
+}
