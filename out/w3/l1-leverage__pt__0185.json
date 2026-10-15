@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "argumento", "transliteration": "argumento", "meaning": "argument"},
+    {"word": "premissa", "transliteration": "premissa", "meaning": "premise"},
+    {"word": "falácia", "transliteration": "falacia", "meaning": "fallacy"},
+    {"word": "inferência", "transliteration": "inferencia", "meaning": "inference"}
+  ],
+  "english_words": ["fallacy", "inference", "argument", "premise"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages inherited these terms from Latin and Greek through the vocabulary of logic and rhetoric, so the spelling stayed close in each case and the meanings match exactly.",
+  "false_friend_warning": null
+}

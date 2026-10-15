@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she submitted it to the committee before the deadline.",
+  "full_sentence": "Having finished the report, she submitted it to the committee before the deadline.",
+  "acceptable_variants": ["she sent it to the committee before the deadline.", "she handed it in to the committee ahead of schedule."],
+  "options": [
+    {"text": "the committee has submitted it before the deadline.", "is_correct": false, "why_wrong": "The participle clause implies that the subject finished the report, but the committee did not finish it, so the subjects do not match."},
+    {"text": "she submitted it to the committee before the deadline.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was finally submitted to the committee.", "is_correct": false, "why_wrong": "The main clause makes the report the subject, while the participle clause implies a person finished it, so the two clauses do not share a subject."},
+    {"text": "while the committee was waiting for it.", "is_correct": false, "why_wrong": "This adds a background detail, but the main clause must be a complete action performed by the same subject as the participle clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses with a shared subject",
+  "connector": "having + past participle",
+  "explanation": "A participle clause at the start of a sentence must refer to the same subject as the main clause. Learners often transfer gerund or infinitive-style constructions directly from their first language, but in English the subject of the participle clause must be the person who performs the main action.",
+  "translation": "Tendo terminado o relatório, ela o enviou à comissão antes do prazo."
+}
