@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N", "E", "W", "S", "X", "K", "L", "Q", "M", "E"],
+    ["A", "B", "C", "F", "G", "H", "J", "K", "L", "D"],
+    ["M", "N", "S", "P", "Q", "R", "V", "W", "Z", "I"],
+    ["B", "C", "D", "T", "F", "G", "H", "J", "K", "T"],
+    ["Q", "R", "S", "U", "O", "V", "W", "X", "Y", "O"],
+    ["F", "G", "H", "J", "K", "R", "L", "M", "N", "R"],
+    ["A", "E", "I", "O", "U", "W", "Y", "B", "D", "C"],
+    ["K", "L", "M", "N", "P", "Q", "R", "T", "V", "Z"],
+    ["B", "C", "F", "S", "S", "E", "R", "P", "G", "H"],
+    ["J", "K", "L", "M", "N", "P", "Q", "R", "S", "T"]
+  ],
+  "words_to_find": ["NEWS", "EDITOR", "STORY", "PRESS"],
+  "word_positions": [
+    {"word": "NEWS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EDITOR", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "STORY", "start_row": 2, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "PRESS", "start_row": 8, "start_col": 7, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Media and Journalism"
+}

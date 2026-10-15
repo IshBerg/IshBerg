@@ -1,0 +1,20 @@
+{
+  "title": "My Red Card",
+  "text": "I have a red card. It has a picture of an apple. The word is apple.\n\nI read the card every morning. I say the word three times. Then I smile.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is the card?", "options": ["red", "blue", "green", "yellow"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How many times does the speaker say the word?", "options": ["once", "two times", "three times", "five times"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the speaker probably feel when reading the card?", "options": ["happy", "angry", "sleepy", "scared"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does the speaker read the card every morning?", "options": ["to learn the word", "to cook breakfast", "to sell the card", "to clean the room"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "card", "translation": "karta", "definition": "a small piece of stiff paper"},
+    {"word": "picture", "translation": "obrazek", "definition": "an image of something"},
+    {"word": "word", "translation": "słowo", "definition": "a single unit of language"},
+    {"word": "apple", "translation": "jabłko", "definition": "a round red or green fruit"}
+  ],
+  "paragraph_translations": [
+    "Mam czerwoną kartę. Ma obrazek jabłka. Słowo to apple.",
+    "Czytam kartę każdego ranka. Mówię słowo trzy razy. Potem się uśmiecham."
+  ]
+}
