@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more money,",
+  "correct_completion": "I would buy a new bicycle.",
+  "full_sentence": "If I had more money, I would buy a new bicycle.",
+  "acceptable_variants": ["I would probably buy a new bicycle.", "I would buy a new car."],
+  "options": [
+    {"text": "I will buy a new bicycle tomorrow.", "is_correct": false, "why_wrong": "'Will' expresses a real future plan. The second conditional describes an imagined situation, so it needs 'would'."},
+    {"text": "I bought a new bicycle yesterday.", "is_correct": false, "why_wrong": "This is a past event, but the second conditional describes an imagined result, not something that already happened."},
+    {"text": "I would buy a new bicycle.", "is_correct": true, "why_wrong": null},
+    {"text": "I have already bought a new bicycle.", "is_correct": false, "why_wrong": "The present perfect describes a completed action in the real past, which does not fit an imagined condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional: 'if' with past simple, followed by 'would' and the base verb",
+  "connector": "if",
+  "explanation": "The second conditional describes an imagined present or future situation. The condition uses the past simple, and the result clause uses 'would' plus the base verb.",
+  "translation": "Se eu tivesse mais dinheiro, eu compraria uma bicicleta nova."
+}
