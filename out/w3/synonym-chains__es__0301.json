@@ -1,0 +1,23 @@
+{
+  "central_word": "run",
+  "chain_words": [
+    {"word": "stroll", "intensity": 1, "translation": "pasear", "nuance": "walking slowly and relaxed, with no hurry"},
+    {"word": "walk", "intensity": 2, "translation": "caminar", "nuance": "moving on foot at a normal pace"},
+    {"word": "jog", "intensity": 3, "translation": "trotar", "nuance": "running slowly for exercise"},
+    {"word": "run", "intensity": 4, "translation": "correr", "nuance": "moving quickly on foot, faster than walking"},
+    {"word": "sprint", "intensity": 5, "translation": "correr a toda velocidad", "nuance": "running at the highest possible speed for a short distance"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe moving on foot, but they range from a slow, relaxed walk to a very fast burst of speed.",
+  "usage_notes": [
+    {"word1": "stroll", "word2": "walk", "difference": "'Stroll' suggests a relaxed walk with no particular destination; 'walk' is the general word for moving on foot."}
+  ],
+  "translations": {
+    "stroll": "pasear",
+    "walk": "caminar",
+    "jog": "trotar",
+    "run": "correr",
+    "sprint": "correr a toda velocidad"
+  }
+}

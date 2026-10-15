@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the exam was difficult,",
+  "correct_completion": "I managed to pass it with a good grade.",
+  "full_sentence": "Although the exam was difficult, I managed to pass it with a good grade.",
+  "acceptable_variants": ["I still passed with a good grade.", "I finally managed to pass it."],
+  "options": [
+    {"text": "I did not study at all.", "is_correct": false, "why_wrong": "This gives a separate fact about studying, but it does not complete the contrast that 'although' sets up with a successful outcome."},
+    {"text": "I managed to pass it with a good grade.", "is_correct": true, "why_wrong": null},
+    {"text": "so I failed the test.", "is_correct": false, "why_wrong": "'So' introduces a natural result, while 'although' sets up a contrast. A failed result does not contrast with the difficulty in this way."},
+    {"text": "because it was easy for me.", "is_correct": false, "why_wrong": "'Because' gives a reason, and it contradicts the difficulty stated in the first part of the sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a result that contrasts with the first clause. Spanish speakers often use a connector that signals cause or result here, because the same idea is often expressed with a different word order in their first language.",
+  "translation": "Aunque el examen fue difícil, logré aprobarlo con una buena nota."
+}

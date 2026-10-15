@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "C", "H", "O", "O", "L", "K", "F"],
+    ["Z", "X", "B", "M", "V", "D", "G", "R"],
+    ["W", "J", "Q", "K", "T", "Y", "C", "I"],
+    ["P", "H", "O", "N", "E", "L", "A", "E"],
+    ["U", "B", "G", "Q", "W", "Z", "F", "N"],
+    ["J", "K", "M", "C", "X", "V", "S", "D"],
+    ["L", "Q", "P", "A", "R", "T", "Y", "K"],
+    ["H", "N", "C", "D", "B", "G", "W", "Z"]
+  ],
+  "words_to_find": ["SCHOOL", "FRIEND", "PHONE", "PARTY"],
+  "word_positions": [
+    {"word": "SCHOOL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FRIEND", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "PHONE", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARTY", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Teen Life"
+}
