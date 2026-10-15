@@ -1,0 +1,14 @@
+{
+  "trigger_word": "market",
+  "all_words": [
+    {"word": "price", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Cena jest ściśle związana z rynkiem, bo to na rynku ustala się, ile kosztują towary i usługi."},
+    {"word": "forest", "is_associated": false, "association_type": "NONE", "explanation": "Las nie ma żadnego związku z rynkiem ani z handlem, to pojęcie z przyrody."},
+    {"word": "customer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Klient to osoba, która kupuje na rynku, więc należy do tego samego tematu handlu."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "Zachód słońca nie ma związku z handlem ani z gospodarką, dotyczy tylko pory dnia."},
+    {"word": "stock", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'stock market' oznacza giełdę, więc słowo 'stock' tworzy z rynkiem stały związek."},
+    {"word": "trade", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Handel to podstawowa czynność, która odbywa się na rynku, więc znaczenia obu słów są bliskie."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'market' kojarzy się z ekonomią i handlem: z ceną, klientem, akcjami i wymianą towarów. Słowa z przyrody i pory dnia nie mają z nim związku."
+}
