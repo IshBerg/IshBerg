@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I haven't finished my homework yet, so",
+  "correct_completion": "I can't go to the cinema with you tonight.",
+  "full_sentence": "I haven't finished my homework yet, so I can't go to the cinema with you tonight.",
+  "acceptable_variants": ["I will have to stay at home and study.", "I need to work on my homework for the rest of the evening."],
+  "options": [
+    {"text": "I have already finished it, so I can go out.", "is_correct": false, "why_wrong": "This contradicts 'haven't finished ... yet' in the first clause, so it cannot follow the stem."},
+    {"text": "I finished it yesterday, so I am free now.", "is_correct": false, "why_wrong": "This contradicts the present perfect negative 'haven't finished' and gives an unrelated time reference."},
+    {"text": "I can't go to the cinema with you tonight.", "is_correct": true, "why_wrong": null},
+    {"text": "but I have just watched that film.", "is_correct": false, "why_wrong": "'But' introduces contrast, while the stem needs a result of not finishing the homework."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect negative with 'yet' and cause-effect with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. The first clause uses the present perfect negative with 'yet' to say that the homework is not finished at the moment, so the result must be a consequence that still applies now. Portuguese speakers sometimes use a simple past form with 'yet' because the Portuguese past tense covers both completed actions and recent events, but English uses the present perfect with 'yet' for actions that are not finished up to now.",
+  "translation": "Ainda não terminei minha lição de casa, então não posso ir ao cinema com você hoje à noite."
+}
