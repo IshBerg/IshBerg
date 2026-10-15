@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "book", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Livros são o principal item que se encontra em uma biblioteca, por isso a relação de significado é direta."},
+    {"word": "bus", "is_associated": false, "association_type": "NONE", "explanation": "Ônibus é um meio de transporte e não tem ligação com o que se faz ou se encontra em uma biblioteca."},
+    {"word": "librarian", "is_associated": true, "association_type": "THEMATIC", "explanation": "O bibliotecário trabalha na biblioteca, então os dois termos pertencem ao mesmo tema."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piano é um instrumento musical e não se relaciona com o ambiente de uma biblioteca."},
+    {"word": "shelf", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'library shelf' (prateleira de biblioteca) é uma combinação comum em inglês."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Deserto é um tipo de paisagem natural e não tem relação com bibliotecas."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'library' se associa a livros, a pessoas que trabalham no local e a itens do ambiente, enquanto as palavras restantes não têm relação com ela."
+}
