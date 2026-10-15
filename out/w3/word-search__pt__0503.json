@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "O", "U", "R", "C", "E", "K", "P", "Z", "E"],
+    ["B", "L", "A", "T", "H", "D", "O", "M", "W", "V"],
+    ["G", "J", "N", "F", "X", "K", "T", "I", "R", "I"],
+    ["S", "H", "P", "Z", "B", "L", "N", "A", "Q", "D"],
+    ["W", "U", "K", "R", "T", "J", "X", "L", "V", "E"],
+    ["Y", "F", "M", "G", "Q", "B", "D", "C", "P", "N"],
+    ["H", "V", "L", "M", "Z", "W", "K", "T", "J", "C"],
+    ["D", "N", "G", "B", "A", "X", "Q", "R", "F", "E"],
+    ["P", "C", "T", "K", "Z", "R", "I", "S", "U", "L"],
+    ["E", "T", "O", "U", "Q", "H", "Y", "V", "G", "W"]
+  ],
+  "words_to_find": ["SOURCE", "EVIDENCE", "SUMMARY", "QUOTE", "CLAIM"],
+  "word_positions": [
+    {"word": "SOURCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SUMMARY", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "QUOTE", "start_row": 9, "start_col": 4, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "CLAIM", "start_row": 5, "start_col": 7, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Synthesizing Sources"
+}

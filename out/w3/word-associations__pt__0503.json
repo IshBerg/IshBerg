@@ -1,0 +1,14 @@
+{
+  "trigger_word": "chess",
+  "all_words": [
+    {"word": "king", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O rei é uma das peças principais do xadrez, então está diretamente ligado ao jogo."},
+    {"word": "board", "is_associated": true, "association_type": "THEMATIC", "explanation": "O tabuleiro é o lugar onde o xadrez é jogado, por isso faz parte do mesmo tema."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Pão não tem relação com o xadrez; é comida e não faz parte do jogo."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Árvore não tem nenhuma relação com o xadrez."},
+    {"word": "piece", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Chess piece é uma expressão comum em inglês, que significa peça de xadrez."},
+    {"word": "cake", "is_associated": false, "association_type": "NONE", "explanation": "Bolo não tem relação com o xadrez."}
+  ],
+  "correct_indices": [0, 1, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao xadrez são as peças, o tabuleiro e expressões comuns do jogo; as outras são coisas do dia a dia sem ligação com ele."
+}
