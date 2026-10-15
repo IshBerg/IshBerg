@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the reviews were mixed,",
+  "correct_completion": "many people still enjoyed the film.",
+  "full_sentence": "Although the reviews were mixed, many people still enjoyed the film.",
+  "acceptable_variants": ["people still enjoyed the film anyway.", "the director was still praised."],
+  "options": [
+    {"text": "the film was very long.", "is_correct": false, "why_wrong": "This adds a detail but does not show contrast with the mixed reviews, which is what 'although' requires."},
+    {"text": "so the film was a big success.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. 'Although' needs a clause that contrasts with the first part."},
+    {"text": "many people still enjoyed the film.", "is_correct": true, "why_wrong": null},
+    {"text": "the reviews were very kind.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the reviews were mixed, so it does not create a contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show contrast with the first part of the sentence. Learners sometimes use a result clause with 'so' here, but 'so' signals cause and effect, not contrast.",
+  "translation": "Mimo że recenzje były mieszane, wielu ludziom film i tak się podobał."
+}
