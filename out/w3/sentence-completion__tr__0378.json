@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the box is heavy,",
+  "correct_completion": "Tom asks his friend for help.",
+  "full_sentence": "Because the box is heavy, Tom asks his friend for help.",
+  "acceptable_variants": ["Tom asks his mother for help.", "Tom needs a friend to help him."],
+  "options": [
+    {"text": "Tom likes the color blue.", "is_correct": false, "why_wrong": "A heavy box does not cause Tom to like a color. The completion must show a result of the heavy box."},
+    {"text": "the box is red and big.", "is_correct": false, "why_wrong": "This describes the box again instead of giving a result, so it does not complete the cause and effect."},
+    {"text": "Tom asks his friend for help.", "is_correct": true, "why_wrong": null},
+    {"text": "Tom is very happy today.", "is_correct": false, "why_wrong": "This gives a feeling, not a result of the heavy box, so the cause and effect link is missing."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the sentence gives the reason. The main clause must show the result of the heavy box, which is asking for help.",
+  "translation": "Kutu ağır olduğu için Tom arkadaşından yardım ister."
+}
