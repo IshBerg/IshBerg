@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though she had studied all night,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Even though she had studied all night, she still failed the exam.",
+  "acceptable_variants": ["she still did not pass the test.", "she still felt unprepared."],
+  "options": [
+    {"text": "so she passed the exam easily.", "is_correct": false, "why_wrong": "This shows a result, not a contrast. 'Even though' signals an unexpected outcome, not an expected one."},
+    {"text": "she was tired in the morning.", "is_correct": false, "why_wrong": "This describes her state but does not complete the contrast expected after 'even though'."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she bought a new book.", "is_correct": false, "why_wrong": "This is unrelated to studying and does not contrast with the first part of the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the second clause must show an outcome that is unexpected given the first clause. Learners often choose a simple result clause here, but English needs a contrast.",
+  "translation": "Mesmo que ela tivesse estudado a noite toda, ela ainda reprovou no exame."
+}
