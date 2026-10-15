@@ -1,0 +1,14 @@
+{
+  "trigger_word": "circle",
+  "all_words": [
+    {"word": "round", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Koło jest okrągłe, więc słowo 'round' opisuje właśnie jego kształt."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Stół nie ma związku z kołem ani z jego kształtem, a służy do innego celu."},
+    {"word": "draw", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówimy 'draw a circle', czyli narysować koło, więc to bardzo częste połączenie."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Sofa nie ma żadnego związku z kształtem koła."},
+    {"word": "wheel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Koło w rowerze lub samochodzie ma kształt koła, więc słowo często pojawia się w tym samym kontekście."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka nie jest związana z kształtem koła."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'circle' opisują jego kształt, czynności związane z rysowaniem koła lub przedmioty o kształcie koła; pozostałe słowa nie mają z nim znaczeniowego związku."
+}

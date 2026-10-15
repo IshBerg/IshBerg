@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Right now, my brother",
+  "correct_completion": "is playing football in the park.",
+  "full_sentence": "Right now, my brother is playing football in the park.",
+  "acceptable_variants": ["is kicking a ball in the park.", "is running around in the park."],
+  "options": [
+    {"text": "plays football in the park every day.", "is_correct": false, "why_wrong": "The simple present describes routines. 'Right now' signals an action in progress, which needs the present continuous."},
+    {"text": "is play football in the park.", "is_correct": false, "why_wrong": "The present continuous needs the -ing form of the main verb, so 'play' must become 'playing'."},
+    {"text": "is playing football in the park.", "is_correct": true, "why_wrong": null},
+    {"text": "played football in the park yesterday.", "is_correct": false, "why_wrong": "The past simple refers to a finished action. 'Yesterday' and 'right now' cannot describe the same moment."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present continuous for actions happening now (am/is/are + verb-ing)",
+  "connector": "right now",
+  "explanation": "The phrase 'right now' points to an action in progress, so the present continuous is needed: a form of 'be' followed by the -ing form of the verb. Polish speakers often use one simple present tense for both routines and current actions, so this contrast needs focused practice.",
+  "translation": "W tej chwili mój brat gra w piłkę w parku."
+}
