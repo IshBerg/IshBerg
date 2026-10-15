@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child, I used to",
+  "correct_completion": "play in the park every day.",
+  "full_sentence": "When I was a child, I used to play in the park every day.",
+  "acceptable_variants": ["ride my bike around the neighborhood.", "spend hours outside with my friends."],
+  "options": [
+    {"text": "playing in the park every day.", "is_correct": false, "why_wrong": "'Used to' is followed by the base form of the verb, not the -ing form. The -ing form appears after 'be used to' (meaning 'be familiar with')."},
+    {"text": "plays in the park every day.", "is_correct": false, "why_wrong": "The -s ending belongs to the present simple with he, she or it. After 'used to' we always use the base form of the verb."},
+    {"text": "play in the park every day.", "is_correct": true, "why_wrong": null},
+    {"text": "to play in the park every day.", "is_correct": false, "why_wrong": "'Used to' is followed directly by the base verb. Adding 'to' before the verb creates an incorrect structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "'used to' + base form of the verb for past habits",
+  "connector": "used to",
+  "explanation": "'Used to' describes a past habit or routine that no longer happens, and it is always followed by the base form of the verb. Turkish speakers often express past habits with a past tense and a time expression, so they may be tempted to add an ending to the verb here.",
+  "translation": "Ben çocukken her gün parkta oynardım."
+}
