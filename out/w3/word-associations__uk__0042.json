@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "book", "is_associated": true, "association_type": "THEMATIC", "explanation": "Книжки є важливою частиною навчання в школі, тому це слово тематично пов'язане зі школою."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Хмара є природним явищем і не має жодного стосунку до школи."},
+    {"word": "desk", "is_associated": true, "association_type": "THEMATIC", "explanation": "У класі учні сидять за партами, тож парта належить до шкільної теми."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Диван стоїть у домі, а не в школі, тому він не пов'язаний зі школою."},
+    {"word": "teacher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Учитель працює в школі, тому це слово має пряме значеннєве зв'язок зі школою."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка є природним об'єктом і не пов'язана зі шкільним життям."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова стосуються навчання, класу та людей, які працюють у школі, а не природи чи побутових речей."
+}
