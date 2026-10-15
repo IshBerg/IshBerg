@@ -1,0 +1,17 @@
+{
+  "central_word": "worried",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "niespokojny", "nuance": "mild feeling that something is not right"},
+    {"word": "concerned", "intensity": 2, "translation": "zaniepokojony", "nuance": "caring about a problem and thinking about it"},
+    {"word": "worried", "intensity": 3, "translation": "zmartwiony", "nuance": "general anxiety about what might happen"},
+    {"word": "anxious", "intensity": 4, "translation": "lękliwy", "nuance": "strong nervousness about the future"},
+    {"word": "terrified", "intensity": 5, "translation": "przerażony", "nuance": "extreme fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express a negative feeling about a problem, with increasing intensity from mild unease to extreme fear.",
+  "usage_notes": [
+    {"word1": "worried", "word2": "anxious", "difference": "'Worried' is about a specific problem; 'anxious' is a stronger, more lasting feeling of nervousness about what may happen."}
+  ],
+  "translations": {"uneasy": "niespokojny", "concerned": "zaniepokojony", "worried": "zmartwiony", "anxious": "lękliwy", "terrified": "przerażony"}
+}

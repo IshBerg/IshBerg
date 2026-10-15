@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Mix the flour and the eggs,",
+  "correct_completion": "then add a little milk.",
+  "full_sentence": "Mix the flour and the eggs, then add a little milk.",
+  "acceptable_variants": ["then add some sugar.", "then pour in the water slowly."],
+  "options": [
+    {"text": "but the oven is already hot.", "is_correct": false, "why_wrong": "'But' shows contrast, and the recipe needs the next step in the order."},
+    {"text": "then add a little milk.", "is_correct": true, "why_wrong": null},
+    {"text": "because the cake is very tasty.", "is_correct": false, "why_wrong": "'Because' gives a reason, but the recipe needs an action that comes next."},
+    {"text": "so the milk was eaten yesterday.", "is_correct": false, "why_wrong": "This talks about the past, but the recipe is giving instructions in order."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Sequencing steps with 'then' in instructions",
+  "connector": "then",
+  "explanation": "In a recipe, the second part of the sentence should give the next step, using the word then to show order. Learners often use a reason connector here, but the sequence is what matters.",
+  "translation": "Wymieszaj mąkę i jajka, a potem dodaj trochę mleka."
+}
