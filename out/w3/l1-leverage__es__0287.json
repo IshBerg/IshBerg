@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily affected"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"}
+  ],
+  "english_words": ["bookshop", "current", "pregnant", "sensitive"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each Spanish word looks like an English word that students already know, but the Spanish form carries a different meaning. The trap is that the look-alike English word seems to be a good match, so students are tempted to choose the wrong English word.",
+  "false_friend_warning": "The Spanish word looks like the English word 'actual', but it means current or present, not real or genuine. Learners should not translate the Spanish word as 'actual' in English."
+}
