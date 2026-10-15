@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The man",
+  "correct_completion": "who lives next door is a doctor.",
+  "full_sentence": "The man who lives next door is a doctor.",
+  "acceptable_variants": ["who is a doctor lives next door.", "who lives next door works as a doctor."],
+  "options": [
+    {"text": "which lives next door is a doctor.", "is_correct": false, "why_wrong": "'Which' refers to things or animals, not people. For a person we use 'who'."},
+    {"text": "who lives next door is a doctor.", "is_correct": true, "why_wrong": null},
+    {"text": "whom lives next door is a doctor.", "is_correct": false, "why_wrong": "'Whom' is an object pronoun and cannot be the subject of the verb 'lives'."},
+    {"text": "who we met yesterday.", "is_correct": false, "why_wrong": "This is a relative clause, but the sentence still has no main verb to complete it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Defining relative clauses with 'who' for people",
+  "connector": "who",
+  "explanation": "A relative clause that describes a person needs 'who', and the subject of the clause must match its verb. Learners may mix up relative pronouns for people and things, so 'who' for people should be practised as a fixed pattern.",
+  "translation": "Чоловік, який живе по сусідству, — лікар."
+}
