@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The package was delivered to the wrong address, so",
+  "correct_completion": "the courier must have made a mistake.",
+  "full_sentence": "The package was delivered to the wrong address, so the courier must have made a mistake.",
+  "acceptable_variants": ["the courier might have made a mistake.", "the courier had probably made a mistake."],
+  "options": [
+    {"text": "we will open the package tomorrow.", "is_correct": false, "why_wrong": "This is a plan for the future. It does not give a conclusion about why the package went to the wrong address."},
+    {"text": "it arrived on Monday.", "is_correct": false, "why_wrong": "A delivery day is a plain fact, not a conclusion drawn from the wrong address, so it does not complete the reasoning after 'so'."},
+    {"text": "the box was quite heavy.", "is_correct": false, "why_wrong": "This describes the box but does not explain the mistake or give a logical conclusion."},
+    {"text": "the courier must have made a mistake.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal perfect for speculation: must have + past participle",
+  "connector": "so",
+  "explanation": "After 'so', we need a conclusion. The modal perfect 'must have' + past participle shows a strong logical deduction about a past event. Learners often use a simple past or a plain present form here, but the modal perfect shows how sure the speaker is.",
+  "translation": "Paket yanlış adrese teslim edildi, bu yüzden kurye bir hata yapmış olmalı."
+}
