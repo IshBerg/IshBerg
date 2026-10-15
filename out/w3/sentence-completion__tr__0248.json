@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee known about the delay,",
+  "correct_completion": "they would have postponed the vote.",
+  "full_sentence": "Had the committee known about the delay, they would have postponed the vote.",
+  "acceptable_variants": ["they would have delayed the vote.", "they would have put the vote off."],
+  "options": [
+    {"text": "the vote will be held as planned.", "is_correct": false, "why_wrong": "This is a plain future statement. It ignores the hypothetical past meaning set by the inverted 'Had the committee known' clause."},
+    {"text": "they would have postponed the vote.", "is_correct": true, "why_wrong": null},
+    {"text": "they postponed the vote last year.", "is_correct": false, "why_wrong": "This describes a separate past event. It does not complete the third conditional result that the inverted 'Had' clause requires."},
+    {"text": "postponing the vote would be a poor idea.", "is_correct": false, "why_wrong": "This gives an opinion but does not state the result that the committee would have produced in that hypothetical situation."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had' + subject + past participle",
+  "connector": "had",
+  "explanation": "In an inverted third conditional, 'Had' replaces 'If' and the subject comes before the past participle. The main clause must use 'would have' plus a past participle to express what would have happened in an unreal past situation.",
+  "translation": "Komite gecikmeden haberi olsaydı, oylamayı ertelemiş olurdu."
+}
