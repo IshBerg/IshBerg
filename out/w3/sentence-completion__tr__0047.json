@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother likes football, but",
+  "correct_completion": "I don't like it at all.",
+  "full_sentence": "My brother likes football, but I don't like it at all.",
+  "acceptable_variants": ["I do not enjoy it.", "I am not a fan of it."],
+  "options": [
+    {"text": "I like football too.", "is_correct": false, "why_wrong": "'Too' adds agreement with the first clause. After 'but', the sentence needs a contrasting idea."},
+    {"text": "I play it every day.", "is_correct": false, "why_wrong": "This describes a habit, not a contrast with the first clause about liking football."},
+    {"text": "I don't like it at all.", "is_correct": true, "why_wrong": null},
+    {"text": "I always watch it with him.", "is_correct": false, "why_wrong": "This describes an action, but it does not show a different feeling from the brother's liking for football."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present simple for likes and dislikes with 'but'",
+  "connector": "but",
+  "explanation": "'But' introduces a contrast, so the second clause should show the opposite feeling to the first. Negative present simple sentences in English need 'do not' or 'don't' before the verb, and speakers of Turkish, which marks negation on the verb itself, often need practice with this word order.",
+  "translation": "Kardeşim futbolu sever ama ben onu hiç sevmiyorum."
+}
