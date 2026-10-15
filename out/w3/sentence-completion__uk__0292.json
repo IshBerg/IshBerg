@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at that dog!",
+  "correct_completion": "It is very big.",
+  "full_sentence": "Look at that dog! It is very big.",
+  "acceptable_variants": ["It is very big and brown.", "It looks very big."],
+  "options": [
+    {"text": "They are very big.", "is_correct": false, "why_wrong": "'They' is plural, but 'that dog' refers to one animal, so the singular pronoun 'it' is needed."},
+    {"text": "Those are very big.", "is_correct": false, "why_wrong": "'Those' is a plural demonstrative. 'That' is used for one thing far away, so it does not match the single dog."},
+    {"text": "It is very big.", "is_correct": true, "why_wrong": null},
+    {"text": "We are very big.", "is_correct": false, "why_wrong": "'We' refers to the speaker and other people, not to the dog that is being described."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Singular pronoun 'it' referring back to 'that dog'",
+  "connector": "that",
+  "explanation": "The demonstrative 'that' points to one thing at a distance. The following sentence should use the singular pronoun 'it' to refer back to that single animal.",
+  "translation": "Подивись на ту собаку! Вона дуже велика."
+}
