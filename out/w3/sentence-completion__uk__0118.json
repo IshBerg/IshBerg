@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Don't call Mark right now, because",
+  "correct_completion": "he has just gone to bed.",
+  "full_sentence": "Don't call Mark right now, because he has just gone to bed.",
+  "acceptable_variants": ["he has just fallen asleep.", "he has already gone to bed."],
+  "options": [
+    {"text": "he goes to bed at ten every night.", "is_correct": false, "why_wrong": "The simple present describes a habit, not an action that has just finished, so it does not explain why the call is a bad idea right now."},
+    {"text": "he has just gone to bed.", "is_correct": true, "why_wrong": null},
+    {"text": "he went to bed at ten last night.", "is_correct": false, "why_wrong": "The past simple with a finished time expression does not connect the action to the present. The present perfect with 'just' is needed here."},
+    {"text": "he gone to bed.", "is_correct": false, "why_wrong": "This is ungrammatical because the present perfect needs 'has' before the past participle 'gone'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect with 'just' to show an action completed a moment ago",
+  "connector": "because",
+  "explanation": "The word 'just' signals an action completed a moment ago, and the present perfect links that completed action to the present situation. Ukrainian has no separate present perfect tense, so Ukrainian speakers often use a simple past form here, which is incorrect in this context.",
+  "translation": "Не телефонуй Марку зараз, бо він щойно ліг спати."
+}
