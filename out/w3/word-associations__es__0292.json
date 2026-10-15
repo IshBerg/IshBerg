@@ -1,0 +1,14 @@
+{
+  "trigger_word": "volunteer",
+  "all_words": [
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Charity' (organización benéfica) está semánticamente relacionada con 'volunteer', porque muchos voluntarios trabajan para obras benéficas."},
+    {"word": "unpaid", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Unpaid volunteer' (voluntario no remunerado) es una colocación muy común en inglés. Ojo: los hispanohablantes a veces dicen 'free volunteer', expresión que no se usa."},
+    {"word": "mortgage", "is_associated": false, "association_type": "NONE", "explanation": "'Mortgage' (hipoteca) es un término financiero y no tiene relación con el voluntariado."},
+    {"word": "helper", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Helper' (ayudante) es casi sinónimo de 'volunteer' cuando hablamos de alguien que ayuda a otras personas."},
+    {"word": "cucumber", "is_associated": false, "association_type": "NONE", "explanation": "'Cucumber' (pepino) es un alimento y no tiene ninguna relación con el tema."},
+    {"word": "community", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Community' (comunidad) pertenece al mismo tema: muchos voluntarios sirven a su comunidad local."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'volunteer' pertenecen al campo de la ayuda a otros y del servicio a la comunidad, mientras que las no asociadas pertenecen a otros campos, como las finanzas o la alimentación."
+}
