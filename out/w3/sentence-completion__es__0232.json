@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you eat,",
+  "correct_completion": "wash your hands.",
+  "full_sentence": "Before you eat, wash your hands.",
+  "acceptable_variants": ["clean your hands first.", "wash your hands with soap."],
+  "options": [
+    {"text": "go to sleep.", "is_correct": false, "why_wrong": "Going to sleep does not fit the time clause 'before you eat' or make a sensible instruction in this context."},
+    {"text": "your hands are dirty.", "is_correct": false, "why_wrong": "This describes a state, but the sentence needs an imperative instruction after the comma."},
+    {"text": "wash your hands.", "is_correct": true, "why_wrong": null},
+    {"text": "close the door.", "is_correct": false, "why_wrong": "This is a valid imperative, but it has no logical link to eating."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Imperatives after a time clause with 'before'",
+  "connector": "before",
+  "explanation": "After 'before you eat', the sentence needs an imperative that gives a sensible instruction about what to do first. The base form of the verb is used without a subject.",
+  "translation": "Antes de comer, lávate las manos."
+}
