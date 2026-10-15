@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the new law was approved in March,",
+  "correct_completion": "many workers still do not know its rules.",
+  "full_sentence": "Although the new law was approved in March, many workers still do not know its rules.",
+  "acceptable_variants": ["few people have read the text yet.", "the government has not started enforcing it."],
+  "options": [
+    {"text": "so everyone understands it perfectly.", "is_correct": false, "why_wrong": "'So' signals a result. The idea of perfect understanding does not contrast with the approval of the law, as 'although' requires."},
+    {"text": "because the workers wrote it.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast. The clause after 'although' must show something unexpected."},
+    {"text": "many workers still do not know its rules.", "is_correct": true, "why_wrong": null},
+    {"text": "it was approved by the parliament.", "is_correct": false, "why_wrong": "This repeats passive information already given in the stem instead of creating a contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and passive voice in the first clause",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part. Here, the law was approved, but workers still lack knowledge of it. Learners often add a result clause with 'so', which breaks the contrast.",
+  "translation": "Embora a nova lei tenha sido aprovada em março, muitos trabalhadores ainda não conhecem suas regras."
+}
