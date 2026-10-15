@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would be in a better job now.",
+  "full_sentence": "If I had studied harder last year, I would be in a better job now.",
+  "acceptable_variants": ["I would be earning more money now.", "I would be doing a more interesting job now."],
+  "options": [
+    {"text": "I was in a better job now.", "is_correct": false, "why_wrong": "This is a simple past statement without 'would', so it does not express the result of the condition."},
+    {"text": "I will be in a better job now.", "is_correct": false, "why_wrong": "After an 'if' clause in the past perfect, the main clause uses 'would' rather than 'will'."},
+    {"text": "I would be in a better job now.", "is_correct": true, "why_wrong": null},
+    {"text": "I would have been in a better job last year.", "is_correct": false, "why_wrong": "This is a third conditional about the past, but the sentence needs a present result, so 'now' is required."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: a past condition with a present result",
+  "connector": "if",
+  "explanation": "Mixed conditionals combine a past condition (if + past perfect) with a present result (would + base verb). Learners sometimes use 'will' in the main clause, but after a past perfect if-clause the main clause uses 'would'. Turkish speakers often find the time mismatch between the two clauses confusing, so it helps to label each clause as past or present.",
+  "translation": "Geçen yıl daha çok çalışsaydım, şimdi daha iyi bir işte olurdum."
+}
