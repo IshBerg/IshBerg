@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "tired", "intensity": 1, "translation": "yorgun", "nuance": "general feeling of needing rest"},
+    {"word": "weary", "intensity": 2, "translation": "bitkin", "nuance": "tired from long effort, often with some sadness or boredom"},
+    {"word": "fatigued", "intensity": 3, "translation": "halsiz", "nuance": "formal; tired from prolonged physical or mental work"},
+    {"word": "exhausted", "intensity": 4, "translation": "tükenmiş", "nuance": "extremely tired, with no energy left"},
+    {"word": "drained", "intensity": 5, "translation": "bitap", "nuance": "emptied of energy, as if strength has been taken away"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express tiredness, but they differ in strength, from a general feeling of needing rest to being completely drained of energy.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "exhausted", "difference": "'Tired' describes a normal need for rest; 'exhausted' describes a much stronger state where almost no energy remains."}
+  ],
+  "translations": {"tired": "yorgun", "weary": "bitkin", "fatigued": "halsiz", "exhausted": "tükenmiş", "drained": "bitap"}
+}

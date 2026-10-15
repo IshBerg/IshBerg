@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I was very busy this week, so",
+  "correct_completion": "I could not answer your email.",
+  "full_sentence": "I was very busy this week, so I could not answer your email.",
+  "acceptable_variants": ["I did not reply to your email.", "I did not write back until today."],
+  "options": [
+    {"text": "I will visit you on Sunday.", "is_correct": false, "why_wrong": "This is a future plan. It does not show the result of being busy, which is what 'so' needs."},
+    {"text": "Thank you for your nice message.", "is_correct": false, "why_wrong": "This is a polite phrase, but it does not give the result that 'so' introduces."},
+    {"text": "I could not answer your email.", "is_correct": true, "why_wrong": null},
+    {"text": "Are you free this weekend?", "is_correct": false, "why_wrong": "This is a question. After 'so' we need a statement that completes the cause and effect idea."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "The word 'so' introduces the result of the first clause. Being very busy is the cause, so the result is that the writer could not reply.",
+  "translation": "Bu hafta çok meşguldum, bu yüzden e-postana cevap veremedim."
+}
