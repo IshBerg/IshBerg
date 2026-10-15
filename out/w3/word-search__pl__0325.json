@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "H", "I", "N", "K", "Q", "Z", "A"],
+    ["P", "M", "C", "B", "X", "D", "R", "G"],
+    ["L", "S", "K", "F", "W", "J", "Q", "R"],
+    ["V", "O", "Y", "U", "N", "T", "B", "E"],
+    ["I", "K", "D", "Z", "X", "H", "M", "E"],
+    ["E", "P", "I", "D", "E", "A", "Q", "W"],
+    ["W", "Y", "L", "R", "K", "S", "O", "N"],
+    ["C", "F", "Q", "G", "H", "J", "V", "P"]
+  ],
+  "words_to_find": ["THINK", "AGREE", "IDEA", "VIEW"],
+  "word_positions": [
+    {"word": "THINK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "AGREE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "IDEA", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "VIEW", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Expressing Opinions"
+}

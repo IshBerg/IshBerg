@@ -1,0 +1,23 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "drowsy", "intensity": 1, "translation": "senny", "nuance": "mild sleepiness"},
+    {"word": "weary", "intensity": 2, "translation": "znużony", "nuance": "tiredness from long effort or stress"},
+    {"word": "tired", "intensity": 3, "translation": "zmęczony", "nuance": "general need for rest"},
+    {"word": "fatigued", "intensity": 4, "translation": "wycieńczony zmęczeniem", "nuance": "tiredness that affects the body or mind for a long time"},
+    {"word": "exhausted", "intensity": 5, "translation": "wyczerpany", "nuance": "complete loss of energy"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express tiredness, but with different intensities, from mild sleepiness at the weakest end to a complete loss of energy at the strongest.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "exhausted", "difference": "'Tired' describes a state that rest can usually fix; 'exhausted' describes an extreme state where a person has no energy left at all."}
+  ],
+  "translations": {
+    "drowsy": "senny",
+    "weary": "znużony",
+    "tired": "zmęczony",
+    "fatigued": "wycieńczony zmęczeniem",
+    "exhausted": "wyczerpany"
+  }
+}
