@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "In the box there are two apples and",
+  "correct_completion": "three bananas.",
+  "full_sentence": "In the box there are two apples and three bananas.",
+  "acceptable_variants": ["three ripe bananas.", "a few more bananas."],
+  "options": [
+    {"text": "three banana.", "is_correct": false, "why_wrong": "'Banana' is singular. After a number greater than one, the noun needs a plural form, so it must be 'bananas'."},
+    {"text": "three bananas.", "is_correct": true, "why_wrong": null},
+    {"text": "three bananaes.", "is_correct": false, "why_wrong": "Regular plurals of nouns ending in a vowel add only -s, not -es, so 'bananaes' is an incorrect spelling."},
+    {"text": "three banana's.", "is_correct": false, "why_wrong": "An apostrophe shows possession, not plural. A plural noun does not take an apostrophe."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Regular plural nouns after numbers",
+  "connector": "and",
+  "explanation": "The second item in the list needs a plural noun to match the number three. Speakers may be tempted to add -es after a vowel because many plurals take -es after consonants, but English regular plurals normally add only -s after a vowel.",
+  "translation": "Na caixa há duas maçãs e três bananas."
+}
