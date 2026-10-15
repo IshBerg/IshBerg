@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Weather permitting,",
+  "correct_completion": "we will hold the picnic outdoors.",
+  "full_sentence": "Weather permitting, we will hold the picnic outdoors.",
+  "acceptable_variants": ["we will have the picnic outside.", "the picnic will take place in the park."],
+  "options": [
+    {"text": "the picnic was cancelled last year.", "is_correct": false, "why_wrong": "This refers to the past, but 'weather permitting' sets up a condition for a future plan, so the completion must state that plan."},
+    {"text": "we are very hungry now.", "is_correct": false, "why_wrong": "This is unrelated to the condition; the absolute clause needs a statement of what happens when the condition is met."},
+    {"text": "we will hold the picnic outdoors.", "is_correct": true, "why_wrong": null},
+    {"text": "the weather forecast was wrong.", "is_correct": false, "why_wrong": "This comments on the forecast but does not give the outcome the verbless clause is describing."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Absolute (verbless) clauses with 'weather permitting'",
+  "connector": "weather permitting",
+  "explanation": "The absolute clause has no verb of its own and expresses a condition. Turkish speakers may expect a full verb in every clause, but English allows this compact conditional form, so the main clause must state the planned outcome.",
+  "translation": "Hava müsait olursa, pikniği açık havada yapacağız."
+}

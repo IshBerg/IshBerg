@@ -1,0 +1,14 @@
+{
+  "trigger_word": "invoice",
+  "all_words": [
+    {"word": "bill", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bill, faturayla aynı anlama gelebilen bir kelimedir, bu nedenle 'invoice' ile anlamsal olarak ilişkilidir."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "Domates bir sebzedir ve iş dünyasının faturalarıyla hiçbir ilgisi yoktur."},
+    {"word": "payment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ödeme, fatura kesildikten sonra gerçekleşen işlem olduğu için konuyla tematik olarak bağlantılıdır."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano müzik aletidir ve ticaret ya da faturalama ile ilgili değildir."},
+    {"word": "overdue", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Overdue invoice' (vadesi geçmiş fatura) yaygın bir ifadedir, bu nedenle eşdizimlidir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık ev eşyasıdır ve iş ilişkileriyle bir bağı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Fatura ile ilgili kelimeler ticaret, ödeme ve tahsilat alanına aittir; diğer kelimeler bu alanın dışında kalır."
+}
