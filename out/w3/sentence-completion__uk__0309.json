@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother always wakes up early,",
+  "correct_completion": "so he is never late for school.",
+  "full_sentence": "My brother always wakes up early, so he is never late for school.",
+  "acceptable_variants": ["so he always arrives at school on time.", "so he rarely misses the first lesson."],
+  "options": [
+    {"text": "he sometimes forgets his keys.", "is_correct": false, "why_wrong": "'Sometimes' contradicts the regular habit shown by 'always', so the completion does not follow from the stem."},
+    {"text": "so he is never late for school.", "is_correct": true, "why_wrong": null},
+    {"text": "he went to bed at midnight yesterday.", "is_correct": false, "why_wrong": "This describes a single past event and does not follow from the regular pattern shown by 'always'."},
+    {"text": "he has never liked the color blue.", "is_correct": false, "why_wrong": "This adds an unrelated preference and does not complete the logic of the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Adverbs of frequency with the present simple",
+  "connector": "so",
+  "explanation": "Frequency adverbs such as 'always' and 'never' go before the main verb in the present simple. The completion must follow logically from the habit described in the first clause.",
+  "translation": "Мій брат завжди прокидається рано, тому він ніколи не спізнюється до школи."
+}
