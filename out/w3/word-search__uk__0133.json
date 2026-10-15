@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "H", "O", "U", "X", "Q", "F", "H"],
+    ["K", "J", "W", "Z", "P", "V", "O", "E"],
+    ["M", "D", "Y", "L", "K", "B", "R", "N"],
+    ["G", "Z", "Q", "X", "H", "W", "S", "C"],
+    ["V", "P", "K", "J", "D", "F", "O", "E"],
+    ["Y", "L", "X", "M", "Q", "Z", "O", "R"],
+    ["A", "L", "B", "E", "I", "T", "T", "W"],
+    ["N", "S", "G", "R", "D", "K", "H", "Q"]
+  ],
+  "words_to_find": ["THOU", "HENCE", "ALBEIT", "FORSOOTH"],
+  "word_positions": [
+    {"word": "THOU", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HENCE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ALBEIT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FORSOOTH", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Archaic and Literary Register"
+}

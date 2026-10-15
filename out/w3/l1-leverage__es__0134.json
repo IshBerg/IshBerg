@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "actualmente", "transliteration": "actualmente", "meaning": "currently"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive"}
+  ],
+  "english_words": ["attend", "sensitive", "pregnant", "currently"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Spanish words look close to English words because both languages come from Latin, but over time the meanings have shifted apart.",
+  "false_friend_warning": "A Spanish word that looks like 'embarrassed' actually means pregnant, so learners must not translate it as embarrassed. Other false friends in this set look like 'actually', 'assist' and 'sensible', but their meanings are currently, to attend and sensitive."
+}
