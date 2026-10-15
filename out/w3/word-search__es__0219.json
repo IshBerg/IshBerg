@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "A", "G", "X", "Q", "R", "W", "Z", "P", "L"],
+    ["B", "D", "F", "M", "N", "J", "V", "Y", "U", "K"],
+    ["N", "Q", "Z", "B", "F", "K", "J", "W", "Y", "V"],
+    ["J", "V", "X", "M", "D", "I", "P", "O", "T", "B"],
+    ["G", "L", "S", "D", "Q", "T", "U", "R", "N", "M"],
+    ["C", "W", "K", "Y", "V", "E", "Z", "D", "F", "J"],
+    ["A", "H", "R", "N", "L", "Q", "M", "X", "S", "G"],
+    ["Y", "D", "E", "U", "P", "W", "K", "Z", "B", "T"],
+    ["R", "N", "F", "S", "J", "M", "D", "Q", "V", "Y"],
+    ["K", "U", "W", "L", "S", "X", "B", "N", "C", "R"]
+  ],
+  "words_to_find": ["TAG", "KITE", "CHESS", "TOP"],
+  "word_positions": [
+    {"word": "TAG", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "KITE", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "CHESS", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TOP", "start_row": 3, "start_col": 8, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Traditional Games"
+}
