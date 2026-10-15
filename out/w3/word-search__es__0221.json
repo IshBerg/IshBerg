@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["H", "E", "L", "L", "O", "K", "Q", "D"],
+    ["B", "I", "T", "R", "U", "W", "Z", "E"],
+    ["C", "V", "N", "G", "O", "J", "H", "A"],
+    ["F", "M", "S", "X", "D", "Q", "B", "R"],
+    ["S", "K", "L", "V", "P", "G", "W", "Y"],
+    ["E", "K", "Z", "M", "A", "I", "L", "F"],
+    ["N", "J", "Q", "C", "U", "T", "O", "V"],
+    ["D", "G", "R", "E", "P", "L", "Y", "M"]
+  ],
+  "words_to_find": ["HELLO", "DEAR", "SEND", "MAIL", "REPLY"],
+  "word_positions": [
+    {"word": "HELLO", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DEAR", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SEND", "start_row": 4, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "MAIL", "start_row": 5, "start_col": 3, "direction": "HORIZONTAL"},
+    {"word": "REPLY", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Informal Emails"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Excuse me, can you tell me",
+  "correct_completion": "where the bus station is?",
+  "full_sentence": "Excuse me, can you tell me where the bus station is?",
+  "acceptable_variants": ["where the bus stop is?", "where the nearest bus station is?"],
+  "options": [
+    {"text": "where is the bus station?", "is_correct": false, "why_wrong": "After 'tell me', an indirect question uses statement word order: 'where the bus station is', not 'where is the bus station'."},
+    {"text": "the bus station is where?", "is_correct": false, "why_wrong": "The question word 'where' must come before the clause. This order is not correct in English."},
+    {"text": "where the bus station is?", "is_correct": true, "why_wrong": null},
+    {"text": "what time the bus leaves?", "is_correct": false, "why_wrong": "The sentence asks for a place, so the question word must be 'where', not 'what time'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with question words (where, what time)",
+  "connector": "where",
+  "explanation": "After a phrase like 'can you tell me', the question word 'where' starts a clause, and the subject comes before the verb. Spanish speakers often keep question word order here, so they need to practise the statement order used in indirect questions.",
+  "translation": "Perdone, ¿puede decirme dónde está la estación de autobuses?"
+}
