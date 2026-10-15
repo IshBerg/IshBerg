@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "emocja", "transliteration": "emocja", "meaning": "emotion"},
+    {"word": "frustracja", "transliteration": "frustracja", "meaning": "frustration"},
+    {"word": "nerwowy", "transliteration": "nerwowy", "meaning": "nervous"},
+    {"word": "empatia", "transliteration": "empatia", "meaning": "empathy"}
+  ],
+  "english_words": ["nervous", "empathy", "emotion", "frustration"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin and French sources, so the spellings stayed close and the meanings match. The Polish forms follow Polish spelling rules, but the English forms keep the same root.",
+  "false_friend_warning": null
+}
