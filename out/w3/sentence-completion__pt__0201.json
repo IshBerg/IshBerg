@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the crisis might have been avoided.",
+  "full_sentence": "Had the committee been informed earlier, the crisis might have been avoided.",
+  "acceptable_variants": ["the damage could have been far less severe.", "the company would not have lost its reputation."],
+  "options": [
+    {"text": "the crisis is being avoided by everyone.", "is_correct": false, "why_wrong": "The present passive does not match the unreal past condition set up by the inverted 'Had'."},
+    {"text": "so the crisis was not avoidable.", "is_correct": false, "why_wrong": "'So' expresses a result that follows from a fact, but the stem sets up a hypothetical past condition that needs a conditional result clause."},
+    {"text": "the crisis might have been avoided.", "is_correct": true, "why_wrong": null},
+    {"text": "the crisis would avoid itself.", "is_correct": false, "why_wrong": "This is an unnatural reflexive construction; the crisis is the passive target of avoidance, so the result needs a passive past form."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had' and a modal perfect",
+  "connector": "had",
+  "explanation": "Inversion replaces 'if' with the auxiliary 'had', so the result clause needs a modal perfect form such as 'might have been' to describe an unreal past situation.",
+  "translation": "Se o comitê tivesse sido informado antes, a crise poderia ter sido evitada."
+}
