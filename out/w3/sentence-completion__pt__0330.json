@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My grandmother,",
+  "correct_completion": "who taught me to swim, still lives in the village.",
+  "full_sentence": "My grandmother, who taught me to swim, still lives in the village.",
+  "acceptable_variants": ["who taught me to swim, now lives in the village.", "who taught me to swim, lives in the village near the river."],
+  "options": [
+    {"text": "that taught me to swim, still lives in the village.", "is_correct": false, "why_wrong": "Non-defining clauses cannot use 'that'; use 'who' for people."},
+    {"text": "who taught me to swim, still lives in the village.", "is_correct": true, "why_wrong": null},
+    {"text": "who taught me to swim still lives in the village.", "is_correct": false, "why_wrong": "A non-defining clause must be enclosed in commas, so the comma after 'swim' is missing."},
+    {"text": "taught me to swim, still lives in the village.", "is_correct": false, "why_wrong": "The clause has no relative pronoun to introduce the extra information, so the sentence is ungrammatical."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who'",
+  "connector": "who",
+  "explanation": "A non-defining relative clause adds extra information about a person who is already identified. It uses 'who' or 'which', and it is always separated from the rest of the sentence by commas.",
+  "translation": "Minha avó, que me ensinou a nadar, ainda mora na aldeia."
+}
