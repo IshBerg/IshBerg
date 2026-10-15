@@ -1,0 +1,20 @@
+{
+  "title": "My Neighborhood",
+  "text": "My neighborhood is small and quiet. There is a park next to my house. Many children play there after school. There is also a small shop on the corner. The shop owner is very friendly.\n\nThe bakery is across the street. It sells fresh bread every morning. I buy bread there on Sundays. My favorite place is the library, because I like to read books.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is next to my house?", "options": ["A park", "A school", "A bank", "A hospital"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "When do I buy bread at the bakery?", "options": ["On Mondays", "On Sundays", "On Fridays", "After school"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer feel about the neighborhood?", "options": ["It is noisy and dangerous", "It is small and pleasant", "It is very large and busy", "It is empty and sad"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does the writer probably like the library?", "options": ["It is close to the bakery", "It has a big garden", "The writer enjoys reading", "It is open all night"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "neighborhood", "translation": "vecindario", "definition": "the area where people live, near their homes"},
+    {"word": "friendly", "translation": "amable", "definition": "kind and easy to talk to"},
+    {"word": "fresh", "translation": "fresco", "definition": "made or picked recently, not old"},
+    {"word": "corner", "translation": "esquina", "definition": "the place where two streets meet"}
+  ],
+  "paragraph_translations": [
+    "Mi barrio es pequeño y tranquilo. Hay un parque al lado de mi casa. Muchos niños juegan allí después de la escuela. También hay una pequeña tienda en la esquina. El dueño de la tienda es muy amable.",
+    "La panadería está al otro lado de la calle. Vende pan fresco todas las mañanas. Compro pan allí los domingos. Mi lugar favorito es la biblioteca, porque me gusta leer libros."
+  ]
+}
