@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "atender", "transliteration": "atender", "meaning": "to answer"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend"},
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold"}
+  ],
+  "english_words": ["intend", "have a cold", "watch", "answer"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Portuguese verbs look like English verbs because both languages took the root from Latin, so the spelling stayed close. Over time the meanings moved apart, so the look-alike English verb now means something different.",
+  "false_friend_warning": "Four Portuguese verbs here look like English verbs but mean something different: the verb that looks like 'assist' means 'to watch', the one that looks like 'attend' means 'to answer', the one that looks like 'pretend' means 'to intend', and the one that looks like 'constipated' means 'having a cold'. Do not translate by spelling alone."
+}

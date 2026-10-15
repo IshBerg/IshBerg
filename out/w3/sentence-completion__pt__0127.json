@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat water to 100 degrees,",
+  "correct_completion": "it boils.",
+  "full_sentence": "If you heat water to 100 degrees, it boils.",
+  "acceptable_variants": ["it starts to boil.", "it reaches boiling point."],
+  "options": [
+    {"text": "it will boil.", "is_correct": false, "why_wrong": "The zero conditional uses the present simple in both clauses for facts that are always true, not 'will'."},
+    {"text": "it boils.", "is_correct": true, "why_wrong": null},
+    {"text": "it would boil.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional, used for imagined situations, not for general scientific facts."},
+    {"text": "it boiled yesterday.", "is_correct": false, "why_wrong": "The past tense refers to one finished event, but this sentence describes a general fact that is always true."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional for general facts",
+  "connector": "if",
+  "explanation": "The zero conditional uses the present simple in both clauses to describe facts that are always true. Learners may add 'will' to the main clause because future forms are common in conditional sentences in many languages, but the zero conditional does not use it.",
+  "translation": "Se você aquecer a água a 100 graus, ela ferve."
+}
