@@ -1,0 +1,14 @@
+{
+  "trigger_word": "student",
+  "all_words": [
+    {"word": "homework", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ödevler öğrencinin okul hayatının doğal bir parçasıdır, bu yüzden kelime 'student' ile tematik olarak bağlantılıdır."},
+    {"word": "teacher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Öğretmen, öğrencinin karşısında yer alan kişidir; anlam olarak iki kelime birbirini tamamlar."},
+    {"word": "lesson", "is_associated": true, "association_type": "THEMATIC", "explanation": "Öğrenciler derslere katılır, dolayısıyla ders kelimesi okul bağlamında doğrudan ilişkilidir."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktör tarımla ilgili bir araçtır ve öğrenciyle ya da eğitimle hiçbir ilgisi yoktur."},
+    {"word": "university", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'University student' ifadesi çok yaygın bir kullanımdır, bu yüzden iki kelime sıkça birlikte kullanılır."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Volkan bir jeolojik oluşumdur ve öğrenci kavramıyla ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 1, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Student' kelimesiyle ilişkili olanlar okul ve öğrenim dünyasına ait kavramlardır; ilişkisiz olanlar ise tarım, jeoloji gibi tamamen farklı alanlara aittir."
+}
