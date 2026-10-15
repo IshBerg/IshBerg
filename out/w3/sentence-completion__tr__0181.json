@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the end of this month,",
+  "correct_completion": "the team will have been working on the project for two years.",
+  "full_sentence": "By the end of this month, the team will have been working on the project for two years.",
+  "acceptable_variants": ["the team will have worked on the project for two years.", "the team will have been developing the project for two years."],
+  "options": [
+    {"text": "the team worked on the project for two years.", "is_correct": false, "why_wrong": "The past simple describes a finished period in the past. It does not link the work to a future endpoint set by 'by the end of this month'."},
+    {"text": "the team will have been working on the project for two years.", "is_correct": true, "why_wrong": null},
+    {"text": "the team is going to finish the project.", "is_correct": false, "why_wrong": "This predicts a future completion but does not show the duration of the work up to that future point."},
+    {"text": "the team has been working on the project for two years.", "is_correct": false, "why_wrong": "The present perfect continuous looks back from now, not from a future moment, so it does not fit the time reference of 'by the end of this month'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect continuous with 'by the end of'",
+  "connector": "by the end of",
+  "explanation": "The phrase 'by the end of this month' points to a future moment, so the verb must show an activity that will still be in progress up to that point. The future perfect continuous shows both the ongoing activity and its total duration.",
+  "translation": "Bu ayın sonunda ekip projede iki yıldır çalışıyor olacak."
+}
