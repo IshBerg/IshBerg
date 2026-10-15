@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the newspaper checked its sources more carefully,",
+  "correct_completion": "the correction would not have been necessary.",
+  "full_sentence": "Had the newspaper checked its sources more carefully, the correction would not have been necessary.",
+  "acceptable_variants": ["the paper would have avoided the error.", "there would have been no need for a correction."],
+  "options": [
+    {"text": "so it checks its sources every day.", "is_correct": false, "why_wrong": "This is a present habit, not the past counterfactual result that 'Had ... checked' requires."},
+    {"text": "the reporter was checking the facts.", "is_correct": false, "why_wrong": "This describes an ongoing past action and does not complete the unreal past condition."},
+    {"text": "the correction would not have been necessary.", "is_correct": true, "why_wrong": null},
+    {"text": "because it always double-checks.", "is_correct": false, "why_wrong": "'Because' introduces a real cause, but the stem is an unreal condition, so it cannot complete the argument."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inversion: 'Had' replaces 'If ... had'",
+  "connector": "had (inverted if)",
+  "explanation": "Inverted 'Had' replaces 'If ... had', so the main clause must use would have plus a past participle to express an unreal past result.",
+  "translation": "Якби газета уважніше перевірила свої джерела, виправлення не було б потрібним."
+}
