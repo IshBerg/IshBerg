@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "E", "N", "U", "X", "Q", "S"],
+    ["B", "J", "K", "Z", "W", "P", "O"],
+    ["H", "C", "V", "F", "G", "R", "U"],
+    ["D", "Y", "N", "M", "X", "I", "P"],
+    ["S", "A", "L", "A", "D", "C", "Q"],
+    ["R", "K", "Z", "W", "B", "E", "J"],
+    ["G", "L", "T", "E", "A", "P", "M"]
+  ],
+  "words_to_find": ["MENU", "SOUP", "SALAD", "PRICE", "TEA"],
+  "word_positions": [
+    {"word": "MENU", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SOUP", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SALAD", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PRICE", "start_row": 1, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "TEA", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Menus"
+}
