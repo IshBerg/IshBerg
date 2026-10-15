@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at those birds!",
+  "correct_completion": "They are very big.",
+  "full_sentence": "Look at those birds! They are very big.",
+  "acceptable_variants": ["They look very big.", "They are huge."],
+  "options": [
+    {"text": "It is very big.", "is_correct": false, "why_wrong": "'It' is singular, but 'those birds' refers to more than one bird, so the plural pronoun 'they' is needed."},
+    {"text": "They are very big.", "is_correct": true, "why_wrong": null},
+    {"text": "He is very big.", "is_correct": false, "why_wrong": "'He' refers to one male person, not to birds."},
+    {"text": "This is very big.", "is_correct": false, "why_wrong": "'This' is singular and near, while 'those birds' are plural and farther away."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Demonstrative 'those' followed by a plural pronoun",
+  "connector": "those",
+  "explanation": "The demonstrative 'those' points to several things at a distance, so the pronoun that follows must be plural. Learners may reach for a singular pronoun, but it has to match the plural noun that 'those' introduces.",
+  "translation": "¡Mira esos pájaros! Son muy grandes."
+}

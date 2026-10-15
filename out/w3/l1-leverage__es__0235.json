@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "carpeta", "transliteration": "karpeta", "meaning": "folder (on a computer or in an office)"},
+    {"word": "actual", "transliteration": "aktual", "meaning": "current or present"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "disco", "transliteration": "disko", "meaning": "disk (a storage device)"}
+  ],
+  "english_words": ["bookstore", "disk", "folder", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Spanish words and their English counterparts look similar because both languages drew on Latin roots, but over time the meanings drifted apart, so the forms stay close while the senses differ.",
+  "false_friend_warning": "The Spanish word carpeta (pronounced karpeta) looks like the English word carpet, but it means folder, and the Spanish word for bookstore looks like library in English. Check the meaning before translating these words."
+}
