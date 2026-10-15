@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "A", "T", "X", "D", "O", "G", "Q", "E", "S"],
+    ["B", "K", "L", "P", "F", "M", "Z", "J", "U", "Y"],
+    ["C", "V", "W", "R", "K", "E", "B", "N", "Q", "F"],
+    ["P", "O", "D", "L", "I", "Y", "H", "K", "M", "T"],
+    ["J", "G", "A", "S", "X", "Q", "E", "W", "P", "C"],
+    ["V", "N", "U", "T", "R", "D", "B", "F", "K", "A"],
+    ["L", "Q", "M", "Z", "O", "N", "K", "V", "T", "P"],
+    ["G", "B", "Y", "E", "X", "I", "W", "O", "N", "S"],
+    ["D", "F", "H", "Q", "J", "A", "K", "Z", "V", "L"],
+    ["M", "T", "B", "W", "Y", "R", "E", "D", "G", "X"]
+  ],
+  "words_to_find": ["HAT", "COAT", "SNOW", "RAIN", "SUN"],
+  "word_positions": [
+    {"word": "HAT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "COAT", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SNOW", "start_row": 7, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "RAIN", "start_row": 9, "start_col": 5, "direction": "VERTICAL_UP"},
+    {"word": "SUN", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"}
+  ],
+  "topic": "Clothes and Weather"
+}
