@@ -1,0 +1,14 @@
+{
+  "trigger_word": "family",
+  "all_words": [
+    {"word": "mother", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Madre es un miembro de la familia, por eso las dos palabras están relacionadas por significado."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Mesa es un mueble y no tiene relación con la palabra familia."},
+    {"word": "cousin", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Primo es un pariente de la familia, así que está relacionado por significado."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "Lluvia es un fenómeno del clima y no se relaciona con la familia."},
+    {"word": "parent", "is_associated": true, "association_type": "THEMATIC", "explanation": "Padre o madre pertenecen al mismo tema de la familia."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Coche es un medio de transporte y no tiene relación directa con la familia."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras relacionadas con family son los miembros de la familia; mesa, lluvia y coche no pertenecen a ese tema."
+}

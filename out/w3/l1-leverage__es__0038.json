@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "burro", "transliteration": "burro", "meaning": "donkey"},
+    {"word": "lobo", "transliteration": "lobo", "meaning": "wolf"},
+    {"word": "oso", "transliteration": "oso", "meaning": "bear"},
+    {"word": "tiburón", "transliteration": "tiburon", "meaning": "shark"}
+  ],
+  "english_words": ["wolf", "donkey", "shark", "bear"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages came into contact through shared sources, but the Spanish animal names have their own history, so similar-looking English words can be confused with them.",
+  "false_friend_warning": "Warning: the Spanish word burro looks like the English word burrow, which means an animal's hole in the ground, but burro means donkey. Do not translate burro as burrow."
+}

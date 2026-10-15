@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The report, which was written last year,",
+  "correct_completion": "still contains several useful examples.",
+  "full_sentence": "The report, which was written last year, still contains several useful examples.",
+  "acceptable_variants": ["still includes several useful examples.", "remains useful, with several helpful examples."],
+  "options": [
+    {"text": "that still contains several useful examples.", "is_correct": false, "why_wrong": "A second relative pronoun is not needed after the first relative clause. The sentence still needs a main verb for its subject."},
+    {"text": "still contains several useful examples.", "is_correct": true, "why_wrong": null},
+    {"text": "containing several useful examples and", "is_correct": false, "why_wrong": "This participle phrase is left unfinished, with a dangling 'and' and no main verb for the subject 'the report'."},
+    {"text": "to contain several useful examples.", "is_correct": false, "why_wrong": "An infinitive cannot act as the main verb of the sentence, so the report would have no finite verb."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clause followed by the main clause verb",
+  "connector": "which",
+  "explanation": "The relative clause adds extra information about the report and is set off by commas. After it, the sentence needs a single finite main verb for the subject. Spanish speakers may add a second relative word here because Spanish often repeats connecting words more freely.",
+  "translation": "El informe, escrito el año pasado, todavía contiene varios ejemplos útiles."
+}
