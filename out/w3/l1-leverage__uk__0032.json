@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "таксі", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "радіо", "transliteration": "radio", "meaning": "radio"},
+    {"word": "парк", "transliteration": "park", "meaning": "park"},
+    {"word": "футбол", "transliteration": "futbol", "meaning": "football"}
+  ],
+  "english_words": ["park", "taxi", "football", "radio"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "All four words were borrowed from English or another international source, so the Ukrainian forms stayed close to the English spelling and pronunciation.",
+  "false_friend_warning": null
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the warnings from the doctors,",
+  "correct_completion": "he continued to smoke.",
+  "full_sentence": "Despite the warnings from the doctors, he continued to smoke.",
+  "acceptable_variants": ["he kept on smoking.", "he did not change his habits."],
+  "options": [
+    {"text": "so he stopped smoking.", "is_correct": false, "why_wrong": "'So' introduces a result, which implies the warnings worked. 'Despite' requires a contrast with the warnings."},
+    {"text": "he quit the habit last year.", "is_correct": false, "why_wrong": "This adds past information but does not show a contrast with the warnings in the present sentence."},
+    {"text": "he continued to smoke.", "is_correct": true, "why_wrong": null},
+    {"text": "the warnings were very clear.", "is_correct": false, "why_wrong": "This describes the warnings rather than what the person did, so it does not complete the contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Despite plus a noun phrase, contrasted with although plus a clause",
+  "connector": "despite",
+  "explanation": "After 'despite', the main clause must express an action that goes against the expected result of the warnings. Remember that 'despite' is followed by a noun phrase or a gerund, and the main clause follows after the comma.",
+  "translation": "Попри попередження лікарів, він продовжував палити."
+}
