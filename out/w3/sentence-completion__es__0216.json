@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister has got",
+  "correct_completion": "a red bike.",
+  "full_sentence": "My sister has got a red bike.",
+  "acceptable_variants": ["a blue bike.", "a new bicycle."],
+  "options": [
+    {"text": "have a red bike.", "is_correct": false, "why_wrong": "'My sister' is singular, and 'has got' already carries the verb; 'have' does not fit this subject."},
+    {"text": "a red bike.", "is_correct": true, "why_wrong": null},
+    {"text": "is a red bike.", "is_correct": false, "why_wrong": "'Is' does not express possession, so it does not complete 'has got' in this meaning."},
+    {"text": "at school yesterday.", "is_correct": false, "why_wrong": "This is a time phrase about a past event; 'has got' expresses possession, not an action in the past."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Have got / has got for possession with a singular subject",
+  "connector": "has got",
+  "explanation": "With a singular subject, 'has got' is followed directly by the thing being possessed. Options that repeat the verb or describe time or location do not complete the possession pattern.",
+  "translation": "Mi hermana tiene una bicicleta roja."
+}
