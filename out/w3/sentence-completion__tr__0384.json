@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The comic strip was very funny, so",
+  "correct_completion": "I laughed a lot.",
+  "full_sentence": "The comic strip was very funny, so I laughed a lot.",
+  "acceptable_variants": ["I smiled and showed my friends.", "I wanted to read the next one."],
+  "options": [
+    {"text": "I was very sad.", "is_correct": false, "why_wrong": "'So' introduces a result that follows logically from the first clause. Being sad does not follow from a funny comic strip."},
+    {"text": "I laughed a lot.", "is_correct": true, "why_wrong": null},
+    {"text": "I did not read it.", "is_correct": false, "why_wrong": "This is a negative action that does not follow from finding the comic funny."},
+    {"text": "the comic had five pages.", "is_correct": false, "why_wrong": "This adds a fact about the comic but does not explain the result of it being funny."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', the second clause must describe a logical result of the first clause. Here the comic is funny, so the completion should show a reaction to being amused. Learners sometimes choose a clause with 'because' by mistake, since both connectors appear near cause and effect.",
+  "translation": "Çizgi roman çok komikti, bu yüzden çok güldüm."
+}
