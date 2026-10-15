@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because it was raining,",
+  "correct_completion": "we stayed at home.",
+  "full_sentence": "Because it was raining, we stayed at home.",
+  "acceptable_variants": ["we played games inside.", "we watched a film together."],
+  "options": [
+    {"text": "we went to the beach.", "is_correct": false, "why_wrong": "Going to the beach does not logically follow from rain, so the sentence would not make sense."},
+    {"text": "but we went to the park.", "is_correct": false, "why_wrong": "'But' signals contrast, while 'because' introduces a cause that leads to a simple result."},
+    {"text": "we stayed at home.", "is_correct": true, "why_wrong": null},
+    {"text": "so we were happy.", "is_correct": false, "why_wrong": "'So' would repeat the cause-and-result link already made by 'because', and the result does not describe what they did."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the stem gives the cause, so the completion must give the logical result of that cause. Options that describe actions outside the cause, or that add a second connector, do not fit.",
+  "translation": "Ponieważ padało, zostaliśmy w domu."
+}
