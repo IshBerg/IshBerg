@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "музика", "transliteration": "muzyka", "meaning": "music"},
+    {"word": "таксі", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "метро", "transliteration": "metro", "meaning": "underground railway system"},
+    {"word": "кіно", "transliteration": "kino", "meaning": "cinema"}
+  ],
+  "english_words": ["taxi", "cinema", "music", "metro"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "All four pairs are international words that reached both English and Ukrainian from the same source languages (mainly Greek, Latin, French or Italian), so their written forms stayed close and their meanings match.",
+  "false_friend_warning": null
+}

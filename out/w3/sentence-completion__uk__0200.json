@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the report, she sent it to her manager.",
+  "acceptable_variants": ["she emailed it to the team.", "she handed it in before lunch."],
+  "options": [
+    {"text": "the printer ran out of paper.", "is_correct": false, "why_wrong": "This describes a separate event. The participle clause 'having finished' needs a subject who finished the report, and the main clause must continue that person's action."},
+    {"text": "she is going to finish it.", "is_correct": false, "why_wrong": "The perfect participle 'having finished' shows an action already completed, so the main clause cannot describe the report as still unfinished."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "to send it.", "is_correct": false, "why_wrong": "An infinitive alone cannot complete the sentence. The main clause needs a finite verb with a subject to follow the participle clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect participle clauses showing a completed action before the main verb",
+  "connector": "having finished",
+  "explanation": "A perfect participle clause describes an action that finished before the action in the main clause. The subject of the participle must be the same as the subject of the main clause, so the completion needs a finite verb with that subject. Learners whose first language has no perfect participle often mistake the perfect form for a simple present or future structure here.",
+  "translation": "Закінчивши звіт, вона надіслала його своєму керівникові."
+}
