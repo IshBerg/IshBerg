@@ -1,0 +1,24 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["P","O","S","T","Q","D","L","X","V"],
+    ["B","M","C","G","J","U","I","Z","I"],
+    ["F","A","K","E","Y","N","K","O","R"],
+    ["T","H","D","L","Q","V","E","U","A"],
+    ["S","P","M","O","G","I","C","J","L"],
+    ["Y","H","X","B","N","K","T","Z","S"],
+    ["Q","D","A","M","O","F","L","W","U"],
+    ["J","V","G","R","I","C","E","B","Y"],
+    ["K","T","X","Z","E","N","Q","H","D"]
+  ],
+  "words_to_find": ["POST", "LIKE", "SHARE", "FAKE", "NEWS", "VIRAL"],
+  "word_positions": [
+    {"word": "POST", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LIKE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SHARE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FAKE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NEWS", "start_row": 8, "start_col": 5, "direction": "DIAGONAL_UP"},
+    {"word": "VIRAL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Social Media and Fake News"
+}
