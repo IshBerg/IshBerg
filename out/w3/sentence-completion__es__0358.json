@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I think schools should start later,",
+  "correct_completion": "because students are often tired in the morning.",
+  "full_sentence": "I think schools should start later, because students are often tired in the morning.",
+  "acceptable_variants": ["because they need more sleep.", "because morning classes are too early."],
+  "options": [
+    {"text": "so they can sleep less at night.", "is_correct": false, "why_wrong": "'So' gives a result or purpose, and sleeping less does not support the opinion that schools should start later."},
+    {"text": "because students are often tired in the morning.", "is_correct": true, "why_wrong": null},
+    {"text": "but students like breakfast.", "is_correct": false, "why_wrong": "'But' signals contrast, while the opinion needs a reason that supports it."},
+    {"text": "although the bus is fast.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, so it does not give a reason for the opinion here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a reason that supports the opinion in the first part of the sentence. Spanish speakers may confuse 'because' with 'so', since Spanish often uses one connector for both reasons and results.",
+  "translation": "Creo que las escuelas deberían empezar más tarde porque los estudiantes suelen estar cansados por la mañana."
+}
