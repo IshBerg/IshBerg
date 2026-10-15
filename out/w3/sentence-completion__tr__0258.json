@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the shelves held many books,",
+  "correct_completion": "the girl could not find a single story she liked.",
+  "full_sentence": "Although the shelves held many books, the girl could not find a single story she liked.",
+  "acceptable_variants": ["the girl still left the library without a book.", "the girl gave up and went home."],
+  "options": [
+    {"text": "the girl found three new books to read.", "is_correct": false, "why_wrong": "This follows naturally from the many books and sets up no contrast, so 'although' has no role here."},
+    {"text": "so the girl bought a new bookshelf.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. 'Although' needs a clause that goes against what the first part leads us to expect."},
+    {"text": "the girl could not find a single story she liked.", "is_correct": true, "why_wrong": null},
+    {"text": "the shelves were made of dark wood.", "is_correct": false, "why_wrong": "This adds a detail about the shelves but does not contrast with the first clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with what the first clause suggests. Many books would normally make choosing easy, so failing to find one creates the contrast. Turkish speakers may be tempted to use 'because' here, but 'because' signals cause rather than contrast.",
+  "translation": "Raflarda pek çok kitap olmasına rağmen, kız hoşuna giden tek bir hikâye bulamadı."
+}

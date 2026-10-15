@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "polis", "transliteration": "polis", "meaning": "police"},
+    {"word": "parola", "transliteration": "parola", "meaning": "password"},
+    {"word": "hırsız", "transliteration": "hirsiz", "meaning": "thief"},
+    {"word": "şartlı tahliye", "transliteration": "sartli tahliye", "meaning": "parole (early release from prison on conditions)"}
+  ],
+  "english_words": ["parole", "thief", "police", "password"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Turkish word for password and the English word parole both come from the same Romance root meaning 'word' or 'speech', so the spellings look nearly identical. Each language then developed a different specialised meaning, so the forms stayed close while the senses separated.",
+  "false_friend_warning": "Be careful: the Turkish word for password looks almost exactly like the English word parole, which means conditional early release from prison. Do not translate the Turkish password word as parole."
+}
