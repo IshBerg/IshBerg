@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "сова", "transliteration": "sova", "meaning": "owl"},
+    {"word": "кіт", "transliteration": "kit", "meaning": "cat"},
+    {"word": "бик", "transliteration": "byk", "meaning": "bull"},
+    {"word": "вовк", "transliteration": "vovk", "meaning": "wolf"}
+  ],
+  "english_words": ["wolf", "owl", "bull", "cat"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Ukrainian words for these animals were borrowed or inherited with sounds that happen to resemble unrelated English words, so the similarity is coincidental rather than a shared origin.",
+  "false_friend_warning": "Warning: the Ukrainian word 'sova' sounds like the English word 'sow', which means a female pig, but it means 'owl', so do not translate it as 'sow'."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the train arrives,",
+  "correct_completion": "we will have been waiting for over two hours.",
+  "full_sentence": "By the time the train arrives, we will have been waiting for over two hours.",
+  "acceptable_variants": ["we will have been standing here for two hours.", "we will have spent over two hours on the platform."],
+  "options": [
+    {"text": "we wait for over two hours.", "is_correct": false, "why_wrong": "The simple present describes a routine or fixed schedule, not an action that will be in progress up to a future moment."},
+    {"text": "we are waiting for over two hours.", "is_correct": false, "why_wrong": "The present continuous describes an action happening now, not one that will be in progress by a future point."},
+    {"text": "we would have waited for two hours.", "is_correct": false, "why_wrong": "The conditional perfect expresses hypothetical past situations, which does not fit a real future event."},
+    {"text": "we will have been waiting for over two hours.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future Perfect Continuous with 'by the time'",
+  "connector": "by the time",
+  "explanation": "The future perfect continuous shows an action that started before a future moment and will still be in progress at that moment, and 'by the time' signals that moment. Ukrainian speakers may use a simple future form here, because Ukrainian verbs do not map directly onto this combined English structure, but English requires it to express duration up to a future point.",
+  "translation": "Коли потяг прибуде, ми будемо чекати вже понад дві години."
+}
