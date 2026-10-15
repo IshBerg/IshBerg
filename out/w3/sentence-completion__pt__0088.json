@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is not much milk left in the fridge, so",
+  "correct_completion": "we need to buy some more.",
+  "full_sentence": "There is not much milk left in the fridge, so we need to buy some more.",
+  "acceptable_variants": ["we must go to the shop.", "we will buy milk on the way home."],
+  "options": [
+    {"text": "we have plenty of milk for everyone.", "is_correct": false, "why_wrong": "'So' introduces a result of the shortage; having plenty of milk contradicts 'not much' and does not follow from it."},
+    {"text": "there are many eggs in the box.", "is_correct": false, "why_wrong": "This talks about a different food and does not respond to the shortage of milk."},
+    {"text": "we need to buy some more.", "is_correct": true, "why_wrong": null},
+    {"text": "the fridge is very big.", "is_correct": false, "why_wrong": "This is a fact about the fridge that does not produce a result from the lack of milk."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifiers 'much' and 'some' with uncountable nouns",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. 'Milk' is an uncountable noun, so we use 'much' with it and 'some' for a positive quantity. Learners often add a plural form to uncountable nouns, which is incorrect here.",
+  "translation": "Não há muito leite sobrando na geladeira, então precisamos comprar mais."
+}
