@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "Духовка є одним із головних приладів, які зазвичай стоять на кухні."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не має жодного зв'язку з кухнею, це природний ландшафт."},
+    {"word": "sink", "is_associated": true, "association_type": "THEMATIC", "explanation": "Раковина є стандартною частиною кухні, де миють посуд і продукти."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не пов'язана з кухнею, це природний водний об'єкт."},
+    {"word": "cook", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово cook означає готувати їжу, тобто воно тісно пов'язане з кухнею за змістом."},
+    {"word": "ship", "is_associated": false, "association_type": "NONE", "explanation": "Корабель не має відношення до кухні, це транспортний засіб."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з kitchen, є предметами, приладами або діями, які відбуваються саме на кухні; решта слів належить до інших тематичних сфер."
+}
