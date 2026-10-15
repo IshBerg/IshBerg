@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the train arrives,",
+  "correct_completion": "we will have been waiting here for two hours.",
+  "full_sentence": "By the time the train arrives, we will have been waiting here for two hours.",
+  "acceptable_variants": ["we will have been standing on this platform for hours.", "we will have been sitting on this bench all afternoon."],
+  "options": [
+    {"text": "we wait here for two hours.", "is_correct": false, "why_wrong": "The simple present does not express the duration up to a future point that the time clause sets. The future perfect continuous is needed."},
+    {"text": "we waited here for two hours.", "is_correct": false, "why_wrong": "The simple past refers to a finished past period and does not fit a future time clause with 'by the time'."},
+    {"text": "we will have been waiting here for two hours.", "is_correct": true, "why_wrong": null},
+    {"text": "we have been waiting here since noon.", "is_correct": false, "why_wrong": "The present perfect continuous looks at the present and past, not at a point in the future, so it conflicts with 'by the time' plus a future clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect continuous with 'by the time' clauses",
+  "connector": "by the time",
+  "explanation": "With 'by the time', the main clause uses a future tense to describe an activity that will still be in progress at a future moment. Portuguese speakers often use a simple future here, because Portuguese has an equivalent future form but learners may not map the continuous aspect onto it.",
+  "translation": "Quando o trem chegar, teremos esperado aqui por duas horas."
+}
