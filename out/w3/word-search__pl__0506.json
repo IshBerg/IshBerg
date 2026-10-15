@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "O", "N", "E", "Q", "K", "L", "W", "I"],
+    ["M", "J", "Z", "D", "V", "U", "B", "F", "M"],
+    ["X", "E", "H", "C", "G", "S", "P", "K", "A"],
+    ["Q", "W", "T", "D", "R", "X", "Z", "L", "G"],
+    ["B", "N", "K", "A", "A", "M", "Y", "J", "E"],
+    ["V", "D", "L", "T", "P", "C", "U", "S", "R"],
+    ["F", "G", "N", "B", "W", "H", "Q", "T", "Y"],
+    ["L", "Y", "I", "K", "D", "S", "O", "V", "Z"],
+    ["S", "U", "J", "W", "L", "Q", "C", "R", "D"]
+  ],
+  "words_to_find": ["TONE", "METAPHOR", "SYNTAX", "IMAGERY"],
+  "word_positions": [
+    {"word": "TONE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "METAPHOR", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SYNTAX", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "IMAGERY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Creative Writing: Voice and Style"
+}
