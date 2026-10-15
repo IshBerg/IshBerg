@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "сад", "transliteration": "sad", "meaning": "garden"},
+    {"word": "диня", "transliteration": "dynia", "meaning": "melon"},
+    {"word": "цибуля", "transliteration": "tsybulia", "meaning": "onion"},
+    {"word": "капуста", "transliteration": "kapusta", "meaning": "cabbage"}
+  ],
+  "english_words": ["melon", "onion", "cabbage", "garden"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Ukrainian words in this set look like English words with a different meaning. The shared spelling is a coincidence of form, not of origin, so the English meanings must be learned separately.",
+  "false_friend_warning": "Careful: the Ukrainian word that looks like the English word 'sad' means 'garden', so do not translate it as 'sad'. The Ukrainian word for 'sad' is a different word."
+}

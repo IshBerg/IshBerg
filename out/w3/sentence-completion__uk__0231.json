@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been better informed,",
+  "correct_completion": "the proposal would have been approved.",
+  "full_sentence": "Had the committee been better informed, the proposal would have been approved.",
+  "acceptable_variants": ["the proposal might have passed.", "the members would have supported it."],
+  "options": [
+    {"text": "the proposal is approved yesterday.", "is_correct": false, "why_wrong": "The tense is wrong: a past hypothetical needs a past conditional, and 'yesterday' conflicts with the hypothetical meaning."},
+    {"text": "the proposal approved.", "is_correct": false, "why_wrong": "The auxiliary is missing. The conditional requires 'would have' followed by a past participle."},
+    {"text": "the proposal would have been approved.", "is_correct": true, "why_wrong": null},
+    {"text": "we would approve the proposal now.", "is_correct": false, "why_wrong": "It mixes a present result with a past condition. The clause 'had the committee been' refers to the past."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had'",
+  "connector": "had",
+  "explanation": "The stem begins with an inverted 'had' clause, which replaces 'if' in a formal third conditional. The main clause must use 'would have' with a past participle to describe an unreal past result.",
+  "translation": "Якби комітет був краще поінформований, пропозицію було б схвалено."
+}
