@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pasta", "transliteration": "pasta", "meaning": "cake"},
+    {"word": "lokal", "transliteration": "lokal", "meaning": "bar or pub"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "friendly or likeable"},
+    {"word": "garson", "transliteration": "garson", "meaning": "waiter"}
+  ],
+  "english_words": ["bar", "cake", "waiter", "friendly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These words look like English words but developed different meanings in Turkish, so the spelling alone can mislead the student.",
+  "false_friend_warning": "The Turkish word pasta looks like English pasta but means cake, not a type of food made from flour and water. The Turkish word lokal looks like English local but means a bar or pub. The Turkish word sempatik sounds like sympathetic but means friendly or likeable. The Turkish word garson looks like a French-derived term for a boy but means waiter."
+}

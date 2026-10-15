@@ -1,0 +1,14 @@
+{
+  "trigger_word": "volunteer",
+  "all_words": [
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Hayır kurumu, gönüllülerin çalıştığı ve karşılıksız destek verilen bir kuruluştur; bu yüzden gönüllülükle doğrudan bağlantılıdır."},
+    {"word": "submarine", "is_associated": false, "association_type": "NONE", "explanation": "Denizaltı gönüllülükle ya da toplumsal hizmetle hiçbir ilgisi olmayan bir araçtır."},
+    {"word": "community", "is_associated": true, "association_type": "THEMATIC", "explanation": "Topluluk, gönüllülük faaliyetlerinin yapıldığı ve insanlara yardım edilen ortamı tanımladığı için bu konuya aittir."},
+    {"word": "dinosaur", "is_associated": false, "association_type": "NONE", "explanation": "Dinozor geçmişte yaşamış bir canlıdır ve gönüllülük konusuyla bağlantısı yoktur."},
+    {"word": "unpaid", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ücretsiz anlamına gelen unpaid, gönüllü çalışma için sık kullanılan bir birlikte kullanımdır (unpaid volunteer)."},
+    {"word": "bakery", "is_associated": false, "association_type": "NONE", "explanation": "Fırın, gönüllülük kavramıyla doğrudan ilgili olmayan bir iş yeridir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Gönüllülükle ilgili kelimeler kuruluşlar, toplumsal ortam ve sık kullanılan birlikte kullanımlar arasından seçilmiştir; diğer kelimeler bu konuyla ilgisizdir."
+}
