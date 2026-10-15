@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "komputer", "transliteration": "komputer", "meaning": "computer"},
+    {"word": "ekran", "transliteration": "ekran", "meaning": "screen"},
+    {"word": "klawiatura", "transliteration": "klawiatura", "meaning": "keyboard"}
+  ],
+  "english_words": ["screen", "keyboard", "current", "computer"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Polish word and the English word 'actual' both come from Latin, so the forms stayed close, but their meanings drifted apart over time.",
+  "false_friend_warning": "The Polish word for 'current' looks like English 'actual', but 'actual' means 'real or existing in fact', not 'up to date'. Do not say 'the actual version' when you mean 'the latest version'."
+}
