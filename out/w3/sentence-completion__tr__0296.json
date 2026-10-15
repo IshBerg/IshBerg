@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The cat is sleeping",
+  "correct_completion": "under the table.",
+  "full_sentence": "The cat is sleeping under the table.",
+  "acceptable_variants": ["next to the table.", "near the table."],
+  "options": [
+    {"text": "very quickly.", "is_correct": false, "why_wrong": "'Very quickly' describes speed, but the sentence needs a place after 'sleeping'."},
+    {"text": "in the morning.", "is_correct": false, "why_wrong": "'In the morning' tells us the time, not the place where the cat sleeps."},
+    {"text": "under the table.", "is_correct": true, "why_wrong": null},
+    {"text": "a small fish.", "is_correct": false, "why_wrong": "This adds a noun, but it does not say where the cat is sleeping, so the sentence is not logical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place with 'under'",
+  "connector": "under",
+  "explanation": "The preposition 'under' shows that the cat is lower than the table and below it. Learners whose first language puts place words in a different position may first try a time phrase here, so check whether the answer shows where something is.",
+  "translation": "Kedi masanın altında uyuyor."
+}
