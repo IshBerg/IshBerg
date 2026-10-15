@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "E", "N", "C", "E", "X", "U"],
+    ["B", "K", "Q", "W", "F", "Z", "N"],
+    ["S", "D", "R", "Y", "K", "P", "L"],
+    ["I", "A", "T", "H", "U", "S", "E"],
+    ["N", "G", "Q", "M", "B", "V", "S"],
+    ["C", "J", "W", "F", "D", "O", "S"],
+    ["E", "P", "K", "X", "R", "L", "T"]
+  ],
+  "words_to_find": ["HENCE", "UNLESS", "SINCE", "THUS"],
+  "word_positions": [
+    {"word": "HENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "UNLESS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SINCE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "THUS", "start_row": 3, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Linking Words and Connectors"
+}
