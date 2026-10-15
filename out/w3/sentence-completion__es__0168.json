@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did she pass the exam,",
+  "correct_completion": "but she also got the highest score.",
+  "full_sentence": "Not only did she pass the exam, but she also got the highest score.",
+  "acceptable_variants": ["but she also earned a scholarship.", "but she also received an award from the school."],
+  "options": [
+    {"text": "so she was happy about it.", "is_correct": false, "why_wrong": "'Not only' sets up an addition, so the completion must add a second achievement, not a consequence."},
+    {"text": "because she studied hard.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which does not complete the 'not only ... but also' structure."},
+    {"text": "but she also got the highest score.", "is_correct": true, "why_wrong": null},
+    {"text": "she passed the exam yesterday.", "is_correct": false, "why_wrong": "This repeats information already given in the stem instead of adding a further point."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Fronted negative adverbials with inversion and the correlative 'not only ... but also'",
+  "connector": "not only",
+  "explanation": "After a fronted negative phrase, English uses inversion with an auxiliary such as 'did', and the second clause is introduced by 'but also'. Spanish speakers may omit the auxiliary because Spanish word order does not require inversion in this structure.",
+  "translation": "No solo aprobó el examen, sino que también obtuvo la calificación más alta."
+}
