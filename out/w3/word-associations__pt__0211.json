@@ -1,0 +1,14 @@
+{
+  "trigger_word": "research",
+  "all_words": [
+    {"word": "experiment", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Experimento é o principal método de pesquisa científica, por isso está diretamente ligado ao termo 'research'."},
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Laboratório é o espaço onde a pesquisa científica geralmente acontece, portanto pertence ao mesmo tema."},
+    {"word": "data", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'research data' é uma colocação comum em inglês para os dados coletados em uma pesquisa."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banana não tem relação com pesquisa, portanto não está associada."},
+    {"word": "holiday", "is_associated": false, "association_type": "NONE", "explanation": "Feriado não tem relação com o ambiente acadêmico ou de pesquisa."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sanduíche não se relaciona com o tema de pesquisa."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'research' incluem o método, o local e os dados da pesquisa, enquanto as demais não pertencem ao campo acadêmico."
+}

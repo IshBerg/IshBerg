@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E", "M", "A", "I", "L", "Q", "Z", "K", "J", "A"],
+    ["U", "F", "V", "X", "G", "H", "N", "B", "Y", "P"],
+    ["S", "O", "W", "K", "Q", "Z", "J", "U", "D", "P"],
+    ["L", "C", "Y", "V", "F", "M", "G", "A", "H", "X"],
+    ["P", "W", "R", "N", "T", "K", "D", "Q", "Z", "S"],
+    ["V", "G", "J", "E", "U", "R", "W", "Y", "T", "K"],
+    ["N", "X", "Q", "Z", "E", "B", "K", "M", "O", "D"],
+    ["A", "Y", "H", "L", "G", "N", "F", "T", "B", "W"],
+    ["Q", "K", "V", "S", "J", "D", "Y", "I", "O", "H"],
+    ["E", "D", "O", "C", "W", "P", "L", "Z", "R", "U"]
+  ],
+  "words_to_find": ["EMAIL", "APP", "SCREEN", "ROBOT", "CODE"],
+  "word_positions": [
+    {"word": "EMAIL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "APP", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SCREEN", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ROBOT", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"},
+    {"word": "CODE", "start_row": 9, "start_col": 3, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Technology and Digital Life"
+}

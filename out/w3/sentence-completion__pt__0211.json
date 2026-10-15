@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The study appears to confirm the hypothesis;",
+  "correct_completion": "however, the sample was too small to be conclusive.",
+  "full_sentence": "The study appears to confirm the hypothesis; however, the sample was too small to be conclusive.",
+  "acceptable_variants": ["but the sample was too small to be conclusive.", "yet the sample size limits what can be concluded."],
+  "options": [
+    {"text": "therefore, the hypothesis must be entirely correct.", "is_correct": false, "why_wrong": "'Therefore' signals a conclusion that follows from the first clause, not a contrast, while the hedged stem calls for a qualification."},
+    {"text": "however, the sample was too small to be conclusive.", "is_correct": true, "why_wrong": null},
+    {"text": "and the researchers were delighted with the outcome.", "is_correct": false, "why_wrong": "This adds a reaction but gives no qualification of the claim in the stem, so it does not express the contrast the stem invites."},
+    {"text": "so the sample was clearly very large.", "is_correct": false, "why_wrong": "A large sample would strengthen the claim rather than qualify it, so this does not complete the contrast."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive linking adverbs with hedged claims",
+  "connector": "however",
+  "explanation": "After a hedged claim, the writer uses a contrastive linker to introduce a qualification. The clause must limit how far the first clause can be trusted, and English often places a comma after this linker.",
+  "translation": "O estudo parece confirmar a hipótese; contudo, a amostra era pequena demais para ser conclusiva."
+}
