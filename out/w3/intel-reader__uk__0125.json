@@ -1,0 +1,20 @@
+{
+  "title": "A Short Email",
+  "text": "Hi Tom, how are you? I am fine, thanks. I write to you from London. It is very cold here.\n\nI want to see you next week. Can you come to my house on Friday? We can eat pizza and watch a film. Write back soon!",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the writer?", "options": ["In Paris", "In London", "At home in Rome", "At school"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What can they eat together on Friday?", "options": ["Pizza", "Soup", "Fish", "Cake"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer feel about Tom?", "options": ["They are friendly and want to meet him", "They are angry with him", "They do not know him", "They want to move to London"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does the writer finish with 'Write back soon!'?", "options": ["They want a reply", "They want to end the friendship", "They are leaving the country", "They are very tired"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "cold", "translation": "холодний", "definition": "having a low temperature"},
+    {"word": "film", "translation": "фільм", "definition": "a story shown on a screen that you watch at the cinema or at home"},
+    {"word": "soon", "translation": "незабаром", "definition": "in a short time from now"},
+    {"word": "pizza", "translation": "піца", "definition": "a flat round food with cheese and other toppings"}
+  ],
+  "paragraph_translations": [
+    "Привіт, Томе, як справи? У мене все добре, дякую. Пишу тобі з Лондона. Тут дуже холодно.",
+    "Я хочу побачити тебе наступного тижня. Можеш прийти до мене додому в п'ятницю? Ми можемо з'їсти піцу і подивитися фільм. Напиши мені незабаром!"
+  ]
+}
