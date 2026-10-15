@@ -1,0 +1,14 @@
+{
+  "codename": "RED THREAD",
+  "briefing": "Agent, we have intercepted messages about a permission request. Connect each English word with its Ukrainian match to decode the message before the meeting starts.",
+  "connection_mode": "vocabulary",
+  "difficulty": "hard",
+  "pairs": [
+    {"left": "please", "right": "будь ласка", "left_style": "document", "right_style": "handwritten"},
+    {"left": "permission", "right": "дозвіл", "left_style": "photo", "right_style": "document"},
+    {"left": "allowed", "right": "дозволено", "left_style": "newspaper", "right_style": "official"},
+    {"left": "ask", "right": "питати", "left_style": "handwritten", "right_style": "newspaper"},
+    {"left": "yes", "right": "так", "left_style": "official", "right_style": "photo"},
+    {"left": "excuse", "right": "вибачте", "left_style": "document", "right_style": "handwritten"}
+  ]
+}
