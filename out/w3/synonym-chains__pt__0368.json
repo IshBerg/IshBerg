@@ -1,0 +1,17 @@
+{
+  "central_word": "big",
+  "chain_words": [
+    {"word": "small", "intensity": 1, "translation": "pequeno", "nuance": "not large in size"},
+    {"word": "medium", "intensity": 2, "translation": "médio", "nuance": "between small and large"},
+    {"word": "big", "intensity": 3, "translation": "grande", "nuance": "general word for large size"},
+    {"word": "huge", "intensity": 4, "translation": "enorme", "nuance": "much larger than usual"},
+    {"word": "giant", "intensity": 5, "translation": "gigante", "nuance": "extremely large, impressive in size"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe size, from a small object to something extremely large.",
+  "usage_notes": [
+    {"word1": "big", "word2": "huge", "difference": "'Big' is a general word for large size; 'huge' is stronger and suggests something much larger than expected."}
+  ],
+  "translations": {"small": "pequeno", "medium": "médio", "big": "grande", "huge": "enorme", "giant": "gigante"}
+}

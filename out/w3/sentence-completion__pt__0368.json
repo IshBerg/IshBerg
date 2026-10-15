@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the ending was unexpected,",
+  "correct_completion": "the reader found it deeply satisfying.",
+  "full_sentence": "Although the ending was unexpected, the reader found it deeply satisfying.",
+  "acceptable_variants": ["the reader still believed it was fair.", "the reader enjoyed the story to the end."],
+  "options": [
+    {"text": "so the reader closed the book early.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause. This sentence expresses a result that follows naturally, so it does not fit."},
+    {"text": "the reader found it deeply satisfying.", "is_correct": true, "why_wrong": null},
+    {"text": "the reader had read the first chapter.", "is_correct": false, "why_wrong": "This gives background information but does not complete the contrast that 'although' introduces."},
+    {"text": "the book was published last year.", "is_correct": false, "why_wrong": "This adds a fact about the book, but it does not express the contrasting reaction expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the clause must show a contrast with the first part of the sentence. Learners often add a result clause with 'so' here, but that connector expresses cause, not contrast.",
+  "translation": "Embora o final fosse inesperado, o leitor o achou profundamente satisfatório."
+}

@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["C", "L", "A", "U", "S", "E", "P"],
+    ["K", "M", "B", "W", "Z", "Q", "A"],
+    ["N", "F", "V", "J", "L", "D", "R"],
+    ["T", "E", "R", "M", "E", "X", "T"],
+    ["Q", "H", "P", "C", "G", "K", "Y"],
+    ["B", "D", "S", "O", "A", "Z", "W"],
+    ["J", "R", "F", "V", "L", "N", "M"]
+  ],
+  "words_to_find": ["CLAUSE", "PARTY", "TERM", "LEGAL"],
+  "word_positions": [
+    {"word": "CLAUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARTY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "TERM", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEGAL", "start_row": 2, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Legal and Contractual Texts"
+}

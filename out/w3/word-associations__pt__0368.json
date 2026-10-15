@@ -1,0 +1,14 @@
+{
+  "trigger_word": "volunteer",
+  "all_words": [
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Muitos voluntários trabalham para instituições de caridade, por isso as duas palavras têm um significado relacionado."},
+    {"word": "shift", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'volunteer shift' (turno de voluntariado) é comum para descrever o período de trabalho voluntário."},
+    {"word": "community", "is_associated": true, "association_type": "THEMATIC", "explanation": "O voluntariado costuma acontecer na comunidade, então a palavra pertence ao mesmo tema de ajuda social."},
+    {"word": "salary", "is_associated": false, "association_type": "NONE", "explanation": "Salário é o pagamento de um trabalho, e voluntários não recebem esse tipo de pagamento, por isso a palavra não está associada."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bicicleta não tem nenhuma relação com voluntariado."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Lápis não tem nenhuma relação com voluntariado."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'volunteer' se ligam à ajuda social, ao trabalho em instituições e à comunidade, enquanto as outras não têm relação com o tema."
+}
