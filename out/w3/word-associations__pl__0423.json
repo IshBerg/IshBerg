@@ -1,0 +1,14 @@
+{
+  "trigger_word": "newspaper",
+  "all_words": [
+    {"word": "headline", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Nagłówek to tytuł artykułu i jest typowym elementem gazety."},
+    {"word": "editor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Redaktor pracuje przy gazecie i decyduje, co zostanie opublikowane."},
+    {"word": "article", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Artykuł to tekst publikowany w gazecie."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma związku z gazetą; to pojazd służący do jazdy."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Wulkan to zjawisko przyrodnicze i nie ma związku z prasą."},
+    {"word": "forest", "is_associated": false, "association_type": "NONE", "explanation": "Las to obszar porośnięty drzewami, bez powiązania z gazetami."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'newspaper' kojarzy się z elementami gazety (nagłówek, artykuł) oraz z osobami, które ją tworzą (redaktor), natomiast rower, wulkan i las nie mają z nią żadnego związku."
+}
