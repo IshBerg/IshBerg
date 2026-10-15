@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It might well be the case that",
+  "correct_completion": "the results were skewed by the sampling method.",
+  "full_sentence": "It might well be the case that the results were skewed by the sampling method.",
+  "acceptable_variants": ["the sample was not representative of the population.", "the data collection was flawed from the start."],
+  "options": [
+    {"text": "so the results are definitely correct.", "is_correct": false, "why_wrong": "This states certainty, which contradicts the hedging introduced by 'might well'. The connector 'so' also introduces a result that the stem does not support."},
+    {"text": "we have to accept them without question.", "is_correct": false, "why_wrong": "'Have to' expresses obligation, not the tentative possibility that the stem sets up."},
+    {"text": "the results were skewed by the sampling method.", "is_correct": true, "why_wrong": null},
+    {"text": "I will certainly prove it tomorrow.", "is_correct": false, "why_wrong": "'Will certainly' expresses firm certainty about a future action, which does not complete a hedged possibility about the results."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Epistemic modality with 'might well'",
+  "connector": "might well",
+  "explanation": "'It might well be the case that' introduces a tentative possibility, so the completion must be a hedged claim rather than a firm statement or an obligation. Turkish speakers may translate the modal too directly and choose a certainty form, because Turkish expresses this nuance with verb suffixes rather than a separate modal verb.",
+  "translation": "Sonuçların örnekleme yöntemi nedeniyle çarpıtılmış olması oldukça olası olabilir."
+}
