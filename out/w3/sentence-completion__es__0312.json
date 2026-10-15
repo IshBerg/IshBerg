@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The room is very dark, so",
+  "correct_completion": "we turn on the light.",
+  "full_sentence": "The room is very dark, so we turn on the light.",
+  "acceptable_variants": ["we turn on the lamp.", "we open the curtains."],
+  "options": [
+    {"text": "we go to the beach.", "is_correct": false, "why_wrong": "'So' introduces a result of the first clause, and going to the beach does not follow from a dark room."},
+    {"text": "the room is very big.", "is_correct": false, "why_wrong": "This repeats a description that does not explain the darkness, and 'so' needs a result, not a fact."},
+    {"text": "we turn on the light.", "is_correct": true, "why_wrong": null},
+    {"text": "the window is open.", "is_correct": false, "why_wrong": "This describes the room but is not a result of it being dark."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part of the sentence. Learners should practise placing the result clause after the comma and using a subject followed by a simple present verb.",
+  "translation": "La habitación está muy oscura, así que encendemos la luz."
+}
