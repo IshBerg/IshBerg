@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The company lost millions of dollars, so the managers",
+  "correct_completion": "should have seen the warning signs earlier.",
+  "full_sentence": "The company lost millions of dollars, so the managers should have seen the warning signs earlier.",
+  "acceptable_variants": ["should have noticed the warning signs sooner.", "ought to have acted on the warnings earlier."],
+  "options": [
+    {"text": "must have been very happy about the result.", "is_correct": false, "why_wrong": "This is a speculation about feelings. It does not criticise the managers and does not follow the loss described in the stem."},
+    {"text": "are reading the warning signs now.", "is_correct": false, "why_wrong": "The present continuous does not match the past loss described in the stem, and it does not express criticism of a past action."},
+    {"text": "will see the warning signs next year.", "is_correct": false, "why_wrong": "This uses a future form, which cannot criticise a failure that has already happened."},
+    {"text": "should have seen the warning signs earlier.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfects for criticism of past actions (should have + past participle)",
+  "connector": "so",
+  "explanation": "'Should have' plus a past participle criticises a past action that did not happen. Portuguese speakers often use a simple past or a conditional form here because Portuguese has a different system of modal forms, so learners should memorise the full English pattern.",
+  "translation": "A empresa perdeu milhões de dólares, então os gerentes deveriam ter percebido os sinais de alerta mais cedo."
+}
