@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While I was cooking dinner, the phone rang.",
+  "acceptable_variants": ["the doorbell rang.", "my sister called me."],
+  "options": [
+    {"text": "I usually cook dinner at six.", "is_correct": false, "why_wrong": "'Usually' describes a habit, not an action in progress at a past moment. The stem needs a past continuous background action."},
+    {"text": "the phone rings.", "is_correct": false, "why_wrong": "The present simple does not fit a past context set by 'was cooking'. The completion needs a past form."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "I will cook dinner tomorrow.", "is_correct": false, "why_wrong": "The future tense does not match the past context set by 'was cooking'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous for a background action interrupted by a past simple action",
+  "connector": "while",
+  "explanation": "After 'while' with the past continuous, we need a past simple clause for the action that interrupts the longer background action. Polish speakers may find the English contrast between the two past forms easier to use once they see that one form marks the background and the other marks the interruption.",
+  "translation": "Podczas gdy gotowałem obiad, zadzwonił telefon."
+}
