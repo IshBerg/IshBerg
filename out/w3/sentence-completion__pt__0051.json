@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because I wanted to be healthy,",
+  "correct_completion": "I went to the park every day.",
+  "full_sentence": "Because I wanted to be healthy, I went to the park every day.",
+  "acceptable_variants": ["I went running every morning.", "I started to walk around the lake every day."],
+  "options": [
+    {"text": "I ate a big cake for lunch.", "is_correct": false, "why_wrong": "Eating a big cake does not follow from wanting to be healthy, so the result does not match the reason."},
+    {"text": "The park was closed on Sunday.", "is_correct": false, "why_wrong": "This states a fact about the park, not an action that follows from the reason given."},
+    {"text": "I went to the park every day.", "is_correct": true, "why_wrong": null},
+    {"text": "My brother is very tall.", "is_correct": false, "why_wrong": "This sentence is unrelated to the reason in the stem, so it does not complete the cause and effect."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the sentence gives a reason. The main clause must describe a result that follows logically from that reason.",
+  "translation": "Porque eu queria ser saudável, eu fui ao parque todos os dias."
+}

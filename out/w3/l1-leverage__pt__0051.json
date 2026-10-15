@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "academia", "transliteration": "academia", "meaning": "gym (a place to exercise)"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch (for example, a match on TV)"},
+    {"word": "pavilhão", "transliteration": "pavilhao", "meaning": "sports hall (an indoor arena)"},
+    {"word": "lesão", "transliteration": "lesao", "meaning": "injury (damage to the body)"}
+  ],
+  "english_words": ["to watch", "injury", "gym", "sports hall"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Portuguese and English both borrowed many words from Latin, so some words look almost identical in the two languages. Over time, however, their meanings drifted apart, which creates false friends.",
+  "false_friend_warning": "Watch out: the Portuguese word for 'gym' looks like the English word 'academy', but 'academy' means a school or institute, not a gym. Also, the Portuguese word for 'to watch' looks like the English word 'assist', which means to help."
+}
