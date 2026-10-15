@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the statute appears to be unambiguous,",
+  "correct_completion": "the court nonetheless examined its legislative history.",
+  "full_sentence": "Although the statute appears to be unambiguous, the court nonetheless examined its legislative history.",
+  "acceptable_variants": ["the court nevertheless consulted the drafting debates.", "yet the court still looked beyond the plain wording."],
+  "options": [
+    {"text": "so the court declined to consider any extrinsic evidence.", "is_correct": false, "why_wrong": "'So' introduces a consequence that follows from the apparent clarity of the text. It does not express a contrast with the concession made by 'although'."},
+    {"text": "the court nonetheless examined its legislative history.", "is_correct": true, "why_wrong": null},
+    {"text": "because the statute was enacted only recently.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast. It does not complete the concessive structure started by 'although'."},
+    {"text": "and the parties agreed on its meaning.", "is_correct": false, "why_wrong": "This continues the idea of clarity instead of contrasting with it, so the concession is never answered."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'although' followed by a contrastive main clause",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must express a contrast with the first clause. Here the apparent clarity of the statute is conceded, and the main clause shows the court looking beyond the wording anyway. Result and cause connectors cannot carry that contrast.",
+  "translation": "Aunque el estatuto parece inequívoco, el tribunal examinó no obstante su historia legislativa."
+}

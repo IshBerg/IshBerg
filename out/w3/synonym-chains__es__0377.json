@@ -1,0 +1,17 @@
+{
+  "central_word": "challenge",
+  "chain_words": [
+    {"word": "question", "intensity": 1, "translation": "cuestionar", "nuance": "asks whether something is true or right"},
+    {"word": "doubt", "intensity": 2, "translation": "dudar", "nuance": "feels uncertain about something"},
+    {"word": "challenge", "intensity": 3, "translation": "desafiar", "nuance": "openly tests whether an idea holds up"},
+    {"word": "dispute", "intensity": 4, "translation": "disputar", "nuance": "argues strongly against a claim"},
+    {"word": "refute", "intensity": 5, "translation": "refutar", "nuance": "proves a claim to be false"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express questioning an idea, with the strength rising from simply asking whether something is true to proving that it is false.",
+  "usage_notes": [
+    {"word1": "challenge", "word2": "dispute", "difference": "'Challenge' can be a neutral test of an idea; 'dispute' implies an open disagreement in which both sides argue against each other."}
+  ],
+  "translations": {"question": "cuestionar", "doubt": "dudar", "challenge": "desafiar", "dispute": "disputar", "refute": "refutar"}
+}
