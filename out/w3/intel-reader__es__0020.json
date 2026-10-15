@@ -1,0 +1,20 @@
+{
+  "title": "My Home and My Cat",
+  "text": "My house is small and blue. It has two windows and a red door. There is a big tree in the garden. The tree has green leaves.\n\nMy cat is black and white. Her name is Luna. She likes to sleep on the sofa. She is very friendly.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is the house?", "options": ["Blue", "Red", "Green", "Yellow"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is the name of the cat?", "options": ["Mia", "Luna", "Nora", "Bella"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer probably feel about the cat?", "options": ["The writer loves the cat", "The writer is afraid of the cat", "The writer does not know the cat", "The writer is angry with the cat"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of place is the garden most likely to be?", "options": ["A place with plants", "A place with cars", "A place with snow only", "A place with a swimming pool"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "house", "translation": "casa", "definition": "a building where people live"},
+    {"word": "garden", "translation": "jardín", "definition": "a piece of land near a house where plants and trees grow"},
+    {"word": "window", "translation": "ventana", "definition": "an opening in a wall with glass that lets in light"},
+    {"word": "friendly", "translation": "amigable", "definition": "kind and pleasant to be with"}
+  ],
+  "paragraph_translations": [
+    "Mi casa es pequeña y azul. Tiene dos ventanas y una puerta roja. Hay un árbol grande en el jardín. El árbol tiene hojas verdes.",
+    "Mi gato es negro y blanco. Se llama Luna. Le gusta dormir en el sofá. Es muy amigable."
+  ]
+}

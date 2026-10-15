@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N", "U", "R", "S", "E", "X", "Q", "W", "Z", "K"],
+    ["B", "M", "T", "J", "A", "Q", "P", "L", "V", "D"],
+    ["K", "M", "Z", "Q", "Y", "W", "C", "H", "E", "F"],
+    ["X", "A", "L", "Q", "Z", "D", "P", "R", "W", "B"],
+    ["P", "R", "T", "G", "K", "L", "N", "D", "S", "A"],
+    ["Z", "I", "M", "R", "T", "V", "B", "W", "K", "J"],
+    ["H", "W", "L", "Y", "P", "R", "S", "D", "Q", "E"],
+    ["U", "Q", "N", "O", "C", "K", "T", "B", "G", "Z"],
+    ["V", "D", "A", "F", "T", "M", "Q", "R", "J", "X"],
+    ["C", "L", "E", "R", "K", "M", "V", "Y", "H", "Q"]
+  ],
+  "words_to_find": ["NURSE", "CHEF", "PILOT", "CLERK"],
+  "word_positions": [
+    {"word": "NURSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHEF", "start_row": 2, "start_col": 6, "direction": "HORIZONTAL"},
+    {"word": "PILOT", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CLERK", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Professions"
+}

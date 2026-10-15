@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "THEMATIC", "explanation": "Медсестри працюють у лікарні, тому це слово тематично пов'язане з нею."},
+    {"word": "beach", "is_associated": false, "association_type": "NONE", "explanation": "Пляж — місце відпочинку біля моря, а не лікарняна установа, тому зв'язку немає."},
+    {"word": "patient", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Пацієнт — це людина, яка лікується в лікарні, тож слова мають близьке значення в одній сфері."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не має прямого відношення до лікарні ні за змістом, ні за вживанням."},
+    {"word": "medicine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "У лікарні часто говорять про медицину, і це слово часто вживається разом із ними в одному контексті."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не пов'язана з лікарнею ні змістом, ні типовим словосполученням."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з лікарнею, стосуються людей, які там працюють або лікуються, та лікування; інші слова належать до інших сфер."
+}
