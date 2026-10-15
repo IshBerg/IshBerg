@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the puppy has got a small bed,",
+  "correct_completion": "it always sleeps on the sofa.",
+  "full_sentence": "Although the puppy has got a small bed, it always sleeps on the sofa.",
+  "acceptable_variants": ["it still prefers the sofa.", "it does not use the bed."],
+  "options": [
+    {"text": "so it sleeps on the sofa.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. After 'although', the clause must contrast with the first part of the sentence."},
+    {"text": "it always sleeps on the sofa.", "is_correct": true, "why_wrong": null},
+    {"text": "it has got a very big bed too.", "is_correct": false, "why_wrong": "This adds the same idea (another bed) and does not contrast with the small bed mentioned in the first part."},
+    {"text": "it has got a bed for two.", "is_correct": false, "why_wrong": "This gives more information about the bed but does not provide the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and 'have got' for possession",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. Ukrainian speakers sometimes use a linker that expresses a result where English needs a contrast, so check the meaning of the linker before choosing the completion.",
+  "translation": "Хоча в цуценяти є маленьке ліжко, воно завжди спить на дивані."
+}

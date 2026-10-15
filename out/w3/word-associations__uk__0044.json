@@ -1,0 +1,14 @@
+{
+  "trigger_word": "farm",
+  "all_words": [
+    {"word": "barn", "is_associated": true, "association_type": "THEMATIC", "explanation": "Хлів є будівлею на фермі, тому він тематично пов'язаний із фермою."},
+    {"word": "hospital", "is_associated": false, "association_type": "NONE", "explanation": "Лікарня не має жодного стосунку до ферми."},
+    {"word": "cow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Корова є типовою твариною на фермі, тож це семантичний зв'язок."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "Океан не пов'язаний із фермою."},
+    {"word": "tractor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Трактор використовують на фермі, тому він тематично пов'язаний."},
+    {"word": "chicken", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Курка є типовою свійською птахою на фермі, тож це семантичний зв'язок."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова стосуються тварин, будівель або техніки, які є на фермі; решта слів не мають до ферми жодного стосунку."
+}
