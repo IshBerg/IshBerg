@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look! The cat is sleeping",
+  "correct_completion": "under the table.",
+  "full_sentence": "Look! The cat is sleeping under the table.",
+  "acceptable_variants": ["on the table.", "next to the table."],
+  "options": [
+    {"text": "is very happy today.", "is_correct": false, "why_wrong": "This describes the cat's mood, not where the cat is sleeping. The sentence needs a place."},
+    {"text": "at ten o'clock.", "is_correct": false, "why_wrong": "This gives a time, not a place. The sentence asks where the cat is."},
+    {"text": "under the table.", "is_correct": true, "why_wrong": null},
+    {"text": "because it is tired.", "is_correct": false, "why_wrong": "This gives a reason, but the sentence needs a place after 'sleeping'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Prepositions of place: under",
+  "connector": "under",
+  "explanation": "After the verb 'sleeping' we need a preposition of place followed by a noun phrase. 'Under' shows that the cat is below the table.",
+  "translation": "¡Mira! El gato está durmiendo debajo de la mesa."
+}
