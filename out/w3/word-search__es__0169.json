@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R", "I", "V", "E", "R", "X", "Q", "T"],
+    ["B", "O", "K", "D", "M", "L", "Z", "R"],
+    ["C", "H", "W", "Y", "F", "G", "J", "A"],
+    ["S", "D", "U", "K", "B", "H", "P", "I"],
+    ["T", "Q", "E", "W", "Z", "D", "K", "N"],
+    ["O", "F", "L", "A", "J", "X", "M", "C"],
+    ["N", "B", "Y", "G", "R", "U", "D", "V"],
+    ["E", "W", "P", "L", "A", "N", "T", "Z"]
+  ],
+  "words_to_find": ["RIVER", "TRAIN", "STONE", "PLANT"],
+  "word_positions": [
+    {"word": "RIVER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRAIN", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "STONE", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "PLANT", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists A and B"
+}

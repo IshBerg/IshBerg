@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If she had known about the delay,",
+  "correct_completion": "she would have called us sooner.",
+  "full_sentence": "If she had known about the delay, she would have called us sooner.",
+  "acceptable_variants": ["she would have contacted us earlier.", "she would have informed us sooner."],
+  "options": [
+    {"text": "so she called us yesterday.", "is_correct": false, "why_wrong": "'So' introduces a real result, but the stem sets up a hypothetical condition that needs a conditional result clause."},
+    {"text": "she called us yesterday.", "is_correct": false, "why_wrong": "This is a simple past statement about a real event. It does not complete a conditional sentence with 'if'."},
+    {"text": "she would have called us sooner.", "is_correct": true, "why_wrong": null},
+    {"text": "because she did not know.", "is_correct": false, "why_wrong": "'Because' gives a real cause, but the stem requires a hypothetical result after 'if'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if' and 'would have' plus past participle",
+  "connector": "if",
+  "explanation": "The past perfect in the if-clause signals an unreal past situation, so the main clause needs 'would have' followed by a past participle to express the imagined result.",
+  "translation": "Si ella hubiera sabido del retraso, nos habría llamado antes."
+}
