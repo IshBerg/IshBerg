@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "They have been waiting at the bus stop for",
+  "correct_completion": "two hours.",
+  "full_sentence": "They have been waiting at the bus stop for two hours.",
+  "acceptable_variants": ["more than an hour.", "some time now."],
+  "options": [
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "'For' needs a length of time, and 'yesterday' is a point in time."},
+    {"text": "two hours.", "is_correct": true, "why_wrong": null},
+    {"text": "since two hours.", "is_correct": false, "why_wrong": "'Since' needs a starting point, not a length of time, so 'for' is the correct connector here."},
+    {"text": "two hours ago.", "is_correct": false, "why_wrong": "'Ago' is used with the past simple, not with the present perfect continuous, which describes actions that continue now."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect continuous with 'for' + duration",
+  "connector": "for",
+  "explanation": "'For' is used before a period of time, such as two hours or three days. With the present perfect continuous, it shows an action that started in the past and is still continuing now.",
+  "translation": "Otobüs durağında iki saattir bekliyorlar."
+}
