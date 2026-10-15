@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she has lived in Madrid for five years,",
+  "correct_completion": "she has never visited the Prado museum.",
+  "full_sentence": "Although she has lived in Madrid for five years, she has never visited the Prado museum.",
+  "acceptable_variants": ["she still has never visited the Prado museum.", "she has not visited the Prado museum yet."],
+  "options": [
+    {"text": "she visited the Prado museum yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a finished past time, and the present perfect cannot be used with it."},
+    {"text": "she visits the Prado museum every week.", "is_correct": false, "why_wrong": "The present simple describes habits and does not match the experience-up-to-now meaning that the stem sets up."},
+    {"text": "she has never visited the Prado museum.", "is_correct": true, "why_wrong": null},
+    {"text": "she never visiting the Prado museum.", "is_correct": false, "why_wrong": "'Never' goes between 'has' and the past participle, so 'visiting' is ungrammatical here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'never' for experiences up to now",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. The present perfect 'has never visited' describes an experience that has not happened up to now, so it cannot combine with a finished time word such as 'yesterday'. In English, 'never' goes between 'has' and the past participle.",
+  "translation": "Aunque ha vivido en Madrid durante cinco años, nunca ha visitado el Museo del Prado."
+}
