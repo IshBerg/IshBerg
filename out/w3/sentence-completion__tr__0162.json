@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "After the long journey, he stopped",
+  "correct_completion": "to buy some water at the station.",
+  "full_sentence": "After the long journey, he stopped to buy some water at the station.",
+  "acceptable_variants": ["to get some water at the station.", "to rest for a while."],
+  "options": [
+    {"text": "buying some water at the station.", "is_correct": false, "why_wrong": "'Stop + gerund' means he ended an activity. Here the sentence needs a purpose, so 'stop + infinitive' is required."},
+    {"text": "to buy some water at the station.", "is_correct": true, "why_wrong": null},
+    {"text": "buy some water at the station.", "is_correct": false, "why_wrong": "A bare infinitive without 'to' cannot follow 'stopped' in this structure."},
+    {"text": "having bought some water already.", "is_correct": false, "why_wrong": "'Having bought' describes a completed action before the stop, so it does not explain why he stopped."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Stop + infinitive of purpose versus stop + gerund",
+  "connector": "stopped",
+  "explanation": "After 'stopped', an infinitive with 'to' shows the purpose of stopping, while a gerund shows that an activity was ended. Turkish speakers often rely on a purpose suffix in their own language, so they may need to think about the verb pattern in English more explicitly.",
+  "translation": "Uzun yolculuktan sonra, istasyonda biraz su almak için durdu."
+}
