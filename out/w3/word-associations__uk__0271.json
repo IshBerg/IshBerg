@@ -1,0 +1,14 @@
+{
+  "trigger_word": "idiom",
+  "all_words": [
+    {"word": "phrase", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Фразеологізм є різновидом усталеного сполучення слів, тому слово «phrase» близьке за значенням до idiom."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик є природним утворенням і не має жодного стосунку до мовних явищ."},
+    {"word": "proverb", "is_associated": true, "association_type": "THEMATIC", "explanation": "Прислів'я належить до тієї самої теми усталених висловів культури, що й ідіома."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "Чайник є побутовим предметом і не пов'язаний з мовою чи ідіомами."},
+    {"word": "literal", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Прикметник «literal» часто стоїть поруч із idiom, коли говорять про буквальне значення, на відміну від переносного."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим не має жодного зв'язку з мовними виразами чи ідіомами."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово idiom пов'язане з іншими усталеними мовними виразами та з поняттям буквального або переносного значення, тоді як побутові предмети і природні явища до нього не належать."
+}

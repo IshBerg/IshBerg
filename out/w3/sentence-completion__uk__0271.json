@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What puzzled the researchers was",
+  "correct_completion": "why the results differed so sharply between the two groups.",
+  "full_sentence": "What puzzled the researchers was why the results differed so sharply between the two groups.",
+  "acceptable_variants": ["why the two groups produced such different results.", "why the results diverged so sharply across the two groups."],
+  "options": [
+    {"text": "they had already published the data.", "is_correct": false, "why_wrong": "This is a full independent clause without a wh-word, so it cannot serve as the subject complement of a pseudo-cleft that answers 'what puzzled the researchers'."},
+    {"text": "why the results differed so sharply between the two groups.", "is_correct": true, "why_wrong": null},
+    {"text": "to publish the findings quickly.", "is_correct": false, "why_wrong": "The infinitive expresses purpose, not the content of the puzzle, so it does not complete the nominal clause."},
+    {"text": "the groups, which differed sharply.", "is_correct": false, "why_wrong": "A relative clause adds information about the groups, but it does not answer the question created by 'What puzzled the researchers'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft sentences with a wh-nominal clause as the first part",
+  "connector": "why",
+  "explanation": "The stem opens a pseudo-cleft, so the completion must be a wh-nominal clause that names the content of the puzzle. Ukrainian speakers may place a finite clause after 'was' without the wh-word, because Ukrainian word order and clause linking are more flexible here, but English requires a wh-clause that fills the 'what' slot.",
+  "translation": "Те, що спантеличувало дослідників, — це чому результати так різко відрізнялися між двома групами."
+}
