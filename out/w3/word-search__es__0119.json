@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "R", "E", "A", "K", "T", "Y", "U", "P", "I"],
+    ["G", "N", "O", "H", "D", "J", "V", "W", "C", "K"],
+    ["F", "L", "M", "Q", "R", "Z", "X", "E", "S", "A"],
+    ["H", "K", "W", "Y", "G", "T", "O", "L", "D", "N"],
+    ["P", "U", "J", "C", "V", "S", "N", "A", "E", "B"],
+    ["K", "Q", "S", "Z", "F", "W", "R", "Y", "M", "H"],
+    ["A", "B", "P", "D", "G", "Y", "U", "I", "O", "L"],
+    ["C", "X", "I", "F", "K", "N", "T", "E", "Q", "R"],
+    ["W", "D", "L", "G", "H", "J", "A", "M", "V", "K"],
+    ["T", "S", "L", "B", "R", "N", "C", "P", "Y", "D"]
+  ],
+  "words_to_find": ["BREAK", "ICE", "SPILL", "BEANS", "CAT"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ICE", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "SPILL", "start_row": 5, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "BEANS", "start_row": 4, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "CAT", "start_row": 9, "start_col": 6, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Idiomatic Expressions and Their Origins"
+}
