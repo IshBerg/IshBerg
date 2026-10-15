@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "cat",
+  "collocate": "food",
+  "full_collocation": "cat food",
+  "options": ["food", "bowl", "toys", "cage"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "bowl", "reason": "A bowl is an object you put food in. We don't buy a 'bowl' as the food itself, so it doesn't fit the sentence."},
+    {"word": "toys", "reason": "'Cat toys' is a different compound. Toys are not eaten, so they don't complete the request for food."},
+    {"word": "cage", "reason": "A cage is a place to keep an animal. 'Cat cage' is not a food collocation, and the sentence asks for food."}
+  ],
+  "example_sentence": "Please buy more ___ for our cat; its bowl is empty.",
+  "gap_position": 3,
+  "translation": "comida para gatos",
+  "l1_interference": "Los hispanohablantes suelen construir la frase con la preposición y el orden invertido, como 'food for cat' o 'food cat'. En inglés el primer sustantivo describe al segundo, así que el correcto es 'cat food'.",
+  "common_mistake": "food cat",
+  "explanation": "In English, one noun can describe another noun, as in 'cat food' or 'dog bed'. The first noun names the animal or thing the second noun is for, so 'cat food' means food for a cat.",
+  "related_collocations": [
+    {"collocation": "dog food", "translation": "comida para perros", "example": "Our dog eats dog food every day."},
+    {"collocation": "dog bed", "translation": "cama para perros", "example": "The puppy sleeps in its dog bed."},
+    {"collocation": "farm animal", "translation": "animal de granja", "example": "Cows and pigs are farm animals."}
+  ],
+  "memory_tip": "CAT FOOD = food for a cat | FOOD CAT = wrong, because the first noun describes the second"
+}

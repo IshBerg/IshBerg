@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "doctor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лікар працює в лікарні, тому це слово тісно пов'язане з hospital."},
+    {"word": "nurse", "is_associated": true, "association_type": "THEMATIC", "explanation": "Медсестра також працює в лікарні і доглядає за хворими."},
+    {"word": "patient", "is_associated": true, "association_type": "THEMATIC", "explanation": "Пацієнт — це людина, яка лікується в лікарні."},
+    {"word": "ticket", "is_associated": false, "association_type": "NONE", "explanation": "Квиток не має прямого зв'язку з лікарнею."},
+    {"word": "bed", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ліжко є звичайною частиною лікарняної палати, і в англійській мові його часто називають hospital bed."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Гітара не має відношення до лікарні."}
+  ],
+  "correct_indices": [0, 1, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з лікарнею, стосуються персоналу, пацієнтів і обладнання, а слова, які до неї не належать, не мають з нею спільного змісту."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Feeling tired after the long journey,",
+  "correct_completion": "they went straight to bed.",
+  "full_sentence": "Feeling tired after the long journey, they went straight to bed.",
+  "acceptable_variants": ["they soon fell asleep.", "they decided to rest for the night."],
+  "options": [
+    {"text": "the hotel bed was feeling tired.", "is_correct": false, "why_wrong": "The participle 'feeling' must refer to the subject of the main clause. A bed cannot feel tired, so this is a dangling participle."},
+    {"text": "they went straight to bed.", "is_correct": true, "why_wrong": null},
+    {"text": "so they stayed up until midnight.", "is_correct": false, "why_wrong": "'So' introduces a result, and staying up late contradicts the tiredness described in the opening clause."},
+    {"text": "they will go to bed tomorrow.", "is_correct": false, "why_wrong": "The future tense does not fit the immediate result of the participle clause, which describes what happened right after the journey."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with a shared subject",
+  "connector": "feeling",
+  "explanation": "A participle clause at the start of a sentence must share its subject with the main clause. Learners often leave the participle hanging by attaching it to a noun that cannot logically perform the action.",
+  "translation": "Відчуваючи втому після довгої подорожі, вони одразу лягли спати."
+}
