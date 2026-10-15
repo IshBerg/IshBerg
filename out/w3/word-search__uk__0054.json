@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "E", "N", "E", "F", "I", "T", "X", "D"],
+    ["Q", "K", "Z", "P", "W", "J", "U", "V", "E"],
+    ["C", "R", "Y", "H", "G", "S", "Q", "Z", "M"],
+    ["J", "O", "P", "L", "K", "R", "Y", "B", "A"],
+    ["H", "D", "N", "G", "W", "K", "S", "F", "N"],
+    ["P", "Q", "T", "C", "V", "B", "G", "L", "D"],
+    ["M", "W", "D", "Z", "E", "R", "H", "J", "K"],
+    ["Y", "U", "S", "N", "B", "A", "X", "T", "Q"],
+    ["E", "F", "F", "O", "R", "T", "L", "W", "I"]
+  ],
+  "words_to_find": ["BENEFIT", "DEMAND", "CONCEAL", "EFFORT"],
+  "word_positions": [
+    {"word": "BENEFIT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DEMAND", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CONCEAL", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "EFFORT", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}
