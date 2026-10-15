@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Every morning, my brother",
+  "correct_completion": "drinks a glass of milk before school.",
+  "full_sentence": "Every morning, my brother drinks a glass of milk before school.",
+  "acceptable_variants": ["takes a shower before breakfast.", "eats toast before he goes to school."],
+  "options": [
+    {"text": "went to the park yesterday.", "is_correct": false, "why_wrong": "The past simple does not fit the daily habit shown by 'every morning'."},
+    {"text": "drinks a glass of milk before school.", "is_correct": true, "why_wrong": null},
+    {"text": "drink a glass of milk before school.", "is_correct": false, "why_wrong": "'My brother' is a third person singular subject, so the verb needs an -s ending: 'drinks'."},
+    {"text": "is watching TV right now.", "is_correct": false, "why_wrong": "The present continuous describes actions happening now, not a regular habit."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present simple, third person singular",
+  "connector": "every morning",
+  "explanation": "A daily habit uses the present simple. With a singular subject such as 'my brother', the verb takes an -s ending. Turkish verbs change form for the subject in a different way, so learners often forget this -s ending.",
+  "translation": "Her sabah kardeşim okula gitmeden önce bir bardak süt içer."
+}
