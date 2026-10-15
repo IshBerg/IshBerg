@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "H", "O", "U", "X", "Q", "Z", "J", "H"],
+    ["B", "K", "W", "L", "M", "P", "R", "Y", "E"],
+    ["F", "G", "D", "S", "V", "Z", "W", "X", "N"],
+    ["J", "T", "M", "L", "K", "Q", "P", "D", "C"],
+    ["E", "N", "G", "B", "V", "Y", "W", "T", "E"],
+    ["Q", "R", "X", "K", "Z", "M", "J", "F", "G"],
+    ["L", "P", "E", "Y", "W", "K", "T", "D", "V"],
+    ["X", "M", "Q", "B", "Z", "L", "K", "J", "W"],
+    ["P", "E", "R", "C", "H", "A", "N", "C", "E"]
+  ],
+  "words_to_find": ["THOU", "HENCE", "ERE", "PERCHANCE"],
+  "word_positions": [
+    {"word": "THOU", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HENCE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "ERE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PERCHANCE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Archaic and Literary Register"
+}
