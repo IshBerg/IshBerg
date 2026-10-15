@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is raining outside, so Maria",
+  "correct_completion": "has got an umbrella in her bag.",
+  "full_sentence": "It is raining outside, so Maria has got an umbrella in her bag.",
+  "acceptable_variants": ["has got a raincoat with her.", "has got an umbrella with her."],
+  "options": [
+    {"text": "have got an umbrella in her bag.", "is_correct": false, "why_wrong": "'Have got' does not agree with the third person singular subject 'Maria'. Use 'has got'."},
+    {"text": "has got an umbrella in her bag.", "is_correct": true, "why_wrong": null},
+    {"text": "is going to buy an umbrella.", "is_correct": false, "why_wrong": "This talks about a future plan, but the stem asks for a statement about what Maria already possesses."},
+    {"text": "has got a sunny day outside.", "is_correct": false, "why_wrong": "'Has got' is used for possession, and a day is not something Maria can own."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Have got and has got for possession",
+  "connector": "so",
+  "explanation": "'Has got' expresses possession with a third person singular subject. Portuguese speakers often use one verb form for all subjects, so they may forget to change 'have' to 'has'.",
+  "translation": "Está a chover lá fora, então a Maria tem um guarda-chuva na bolsa."
+}
