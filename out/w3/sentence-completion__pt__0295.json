@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My keys are",
+  "correct_completion": "on the table.",
+  "full_sentence": "My keys are on the table.",
+  "acceptable_variants": ["on the kitchen table.", "on the sofa."],
+  "options": [
+    {"text": "very big.", "is_correct": false, "why_wrong": "This describes the size of the keys, not where they are. The stem asks for a place."},
+    {"text": "on the table.", "is_correct": true, "why_wrong": null},
+    {"text": "at seven o'clock.", "is_correct": false, "why_wrong": "'At seven o'clock' is a time, not a place. The stem needs a location."},
+    {"text": "my favourite color is blue.", "is_correct": false, "why_wrong": "This gives an unrelated opinion about a color and does not say where the keys are."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: 'on' for a surface",
+  "connector": "on",
+  "explanation": "We use 'on' when something is resting on a flat surface, such as a table. Portuguese speakers may translate 'em cima de' word by word, but in English 'on' is used for surfaces.",
+  "translation": "Minhas chaves estão em cima da mesa."
+}
