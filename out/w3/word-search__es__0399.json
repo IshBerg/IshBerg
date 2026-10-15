@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "R", "O", "P", "A", "G", "A", "N", "D", "A"],
+    ["N", "E", "F", "K", "L", "Q", "W", "Z", "J", "U"],
+    ["A", "T", "H", "R", "Y", "C", "D", "B", "K", "M"],
+    ["R", "O", "P", "V", "A", "S", "E", "L", "T", "Y"],
+    ["R", "U", "K", "W", "Z", "M", "Q", "F", "N", "B"],
+    ["A", "J", "D", "H", "O", "L", "I", "X", "Y", "C"],
+    ["T", "K", "S", "P", "E", "U", "B", "N", "Q", "W"],
+    ["I", "M", "A", "Z", "H", "F", "V", "D", "G", "R"],
+    ["V", "E", "I", "Q", "K", "T", "Y", "B", "L", "J"],
+    ["E", "F", "B", "K", "E", "C", "R", "U", "O", "S"]
+  ],
+  "words_to_find": ["PROPAGANDA", "NARRATIVE", "FRAMING", "SOURCE", "BIAS"],
+  "word_positions": [
+    {"word": "PROPAGANDA", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NARRATIVE", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "FRAMING", "start_row": 1, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "SOURCE", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "BIAS", "start_row": 9, "start_col": 2, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Media Literacy and Discourse Analysis"
+}
