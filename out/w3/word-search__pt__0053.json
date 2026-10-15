@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["I", "M", "P", "A", "C", "T", "X", "T"],
+    ["Q", "F", "K", "Z", "W", "H", "J", "R"],
+    ["V", "G", "Y", "L", "O", "P", "K", "E"],
+    ["C", "L", "A", "I", "M", "Q", "W", "N"],
+    ["R", "S", "F", "G", "T", "J", "Y", "D"],
+    ["B", "I", "A", "S", "K", "L", "P", "O"],
+    ["Z", "X", "I", "S", "S", "U", "E", "Y"],
+    ["H", "Q", "W", "E", "R", "T", "Y", "U"]
+  ],
+  "words_to_find": ["IMPACT", "TREND", "CLAIM", "ISSUE", "BIAS"],
+  "word_positions": [
+    {"word": "IMPACT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TREND", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "CLAIM", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ISSUE", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "BIAS", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}

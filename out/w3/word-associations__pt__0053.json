@@ -1,0 +1,14 @@
+{
+  "trigger_word": "angry",
+  "all_words": [
+    {"word": "shout", "is_associated": true, "association_type": "THEMATIC", "explanation": "Gritar é uma ação típica de quem está com raiva."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Pão não tem nenhuma relação com o sentimento de raiva."},
+    {"word": "frown", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Franzir a testa é uma expressão facial comum quando alguém está irritado."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Nuvem não está ligada a sentimentos de raiva."},
+    {"word": "fist", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Cerrar o punho é um gesto muito comum quando alguém está com raiva."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Lápis não tem relação com raiva; é apenas um objeto de escrita."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas à raiva são ações e expressões físicas, enquanto pão, nuvem e lápis não têm relação com esse sentimento."
+}
