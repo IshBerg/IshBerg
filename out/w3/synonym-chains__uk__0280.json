@@ -1,0 +1,17 @@
+{
+  "central_word": "angry",
+  "chain_words": [
+    {"word": "annoyed", "intensity": 1, "translation": "незадоволений", "nuance": "mildly bothered by something small"},
+    {"word": "irritated", "intensity": 2, "translation": "роздратований", "nuance": "bothered and impatient, more noticeable"},
+    {"word": "angry", "intensity": 3, "translation": "сердитий", "nuance": "general feeling of strong displeasure"},
+    {"word": "furious", "intensity": 4, "translation": "розлючений", "nuance": "very strong anger, often out of control"},
+    {"word": "enraged", "intensity": 5, "translation": "розлютований", "nuance": "anger so intense it is hard to contain"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express anger but with different intensities, from mild annoyance to uncontrolled rage.",
+  "usage_notes": [
+    {"word1": "annoyed", "word2": "furious", "difference": "'Annoyed' describes mild irritation about a small thing; 'furious' describes very strong anger, often about something unfair."}
+  ],
+  "translations": {"annoyed": "незадоволений", "irritated": "роздратований", "angry": "сердитий", "furious": "розлючений", "enraged": "розлютований"}
+}
