@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["G", "E", "N", "R", "E", "K", "P", "L", "M", "T"],
+    ["W", "Q", "J", "A", "B", "X", "Z", "D", "H", "O"],
+    ["V", "K", "F", "Q", "L", "D", "U", "B", "W", "N"],
+    ["B", "O", "X", "M", "G", "K", "Q", "Z", "J", "E"],
+    ["U", "L", "I", "Z", "W", "D", "Q", "B", "E", "K"],
+    ["H", "J", "M", "C", "Q", "P", "X", "L", "R", "D"],
+    ["Z", "W", "D", "B", "E", "N", "K", "F", "I", "Q"],
+    ["P", "X", "L", "G", "H", "Z", "M", "V", "T", "J"],
+    ["K", "Q", "W", "D", "B", "F", "U", "X", "A", "L"],
+    ["Y", "N", "O", "R", "I", "Q", "H", "G", "S", "P"]
+  ],
+  "words_to_find": ["GENRE", "TONE", "VOICE", "IRONY", "SATIRE"],
+  "word_positions": [
+    {"word": "GENRE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TONE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "VOICE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "IRONY", "start_row": 9, "start_col": 4, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SATIRE", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Cross-Genre Style Adaptation"
+}

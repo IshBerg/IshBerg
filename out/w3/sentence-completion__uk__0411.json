@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the soup is too hot,",
+  "correct_completion": "we can wait a few minutes.",
+  "full_sentence": "If the soup is too hot, we can wait a few minutes.",
+  "acceptable_variants": ["we can drink some water.", "we can talk while we wait."],
+  "options": [
+    {"text": "the bread is on the table.", "is_correct": false, "why_wrong": "This describes a place. It is not a result of the soup being hot."},
+    {"text": "we can wait a few minutes.", "is_correct": true, "why_wrong": null},
+    {"text": "we ate all the cake yesterday.", "is_correct": false, "why_wrong": "This is a past event. A first conditional needs a present or future result after the 'if' clause."},
+    {"text": "the menu has many pages.", "is_correct": false, "why_wrong": "This is a fact about the menu. It does not depend on the soup being hot."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'can'",
+  "connector": "if",
+  "explanation": "The 'if' clause states a condition, and the main clause gives the result that depends on it. Ukrainian speakers may feel a future tense is needed after 'if', but in English the 'if' clause uses the simple present.",
+  "translation": "Якщо суп занадто гарячий, ми можемо почекати кілька хвилин."
+}
