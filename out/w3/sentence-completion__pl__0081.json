@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Last night the power went off, so",
+  "correct_completion": "we played cards by candlelight.",
+  "full_sentence": "Last night the power went off, so we played cards by candlelight.",
+  "acceptable_variants": ["we lit some candles and talked.", "we read books with a torch."],
+  "options": [
+    {"text": "the lights stayed on all night.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the power went off."},
+    {"text": "we cooked a big breakfast.", "is_correct": false, "why_wrong": "A big breakfast is not the natural result of a power cut at night, so the clause does not follow logically."},
+    {"text": "we watched a film on TV.", "is_correct": false, "why_wrong": "Watching TV needs electricity, so this contradicts the power cut."},
+    {"text": "we played cards by candlelight.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple regular verbs (-ed endings) after 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a logical result of the power cut, so the completion must describe a reasonable activity without electricity. The regular past form 'played' takes the -ed ending.",
+  "translation": "Zeszłej nocy zgasło światło, więc graliśmy w karty przy świecach."
+}
