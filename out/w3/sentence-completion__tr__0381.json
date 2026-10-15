@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because we need milk for breakfast,",
+  "correct_completion": "we buy some milk at the shop.",
+  "full_sentence": "Because we need milk for breakfast, we buy some milk at the shop.",
+  "acceptable_variants": ["we go to the shop now.", "we write milk on our shopping list."],
+  "options": [
+    {"text": "the shop is closed on Sunday.", "is_correct": false, "why_wrong": "This is a fact about the shop. It is not an action that results from needing milk."},
+    {"text": "we buy some milk at the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "we already have bread at home.", "is_correct": false, "why_wrong": "This describes what we have, not a result of needing milk, so the cause and effect link is missing."},
+    {"text": "milk is my favourite drink.", "is_correct": false, "why_wrong": "This states a preference, not an action that follows from the need for milk."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the sentence gives the reason. The main clause must show the result of that reason, which here is an action of buying milk.",
+  "translation": "Kahvaltı için süte ihtiyacımız olduğu için markete gidip biraz süt alırız."
+}
