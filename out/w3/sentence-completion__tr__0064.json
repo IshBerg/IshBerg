@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She didn't come to the party because",
+  "correct_completion": "she was sick in bed.",
+  "full_sentence": "She didn't come to the party because she was sick in bed.",
+  "acceptable_variants": ["she had a bad cold.", "she had to work late."],
+  "options": [
+    {"text": "she was very happy about the party.", "is_correct": false, "why_wrong": "This describes her feelings about the party, but it does not explain why she was absent."},
+    {"text": "she bought a new dress.", "is_correct": false, "why_wrong": "This is an action that does not give a reason for missing the party."},
+    {"text": "she was sick in bed.", "is_correct": true, "why_wrong": null},
+    {"text": "the party was at night.", "is_correct": false, "why_wrong": "This gives a fact about the party, not a reason for her absence after 'because'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the result in the first part of the sentence. Learners should keep the subject and verb in a full clause after the connector.",
+  "translation": "Partiye gelmedi çünkü yatakta hastaydı."
+}
