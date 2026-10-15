@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had we left earlier,",
+  "correct_completion": "we would have avoided the traffic jam.",
+  "full_sentence": "Had we left earlier, we would have avoided the traffic jam.",
+  "acceptable_variants": ["we could have arrived on time.", "we would have reached the airport sooner."],
+  "options": [
+    {"text": "we would avoid the traffic jam now.", "is_correct": false, "why_wrong": "Mixes tenses: an inverted 'Had' clause refers to the past, so the result must use 'would have' with a past reference, not a present one."},
+    {"text": "so we would be stuck now.", "is_correct": false, "why_wrong": "'So' introduces a result of a real situation, while the inverted clause requires a hypothetical past result."},
+    {"text": "we would have avoided the traffic jam.", "is_correct": true, "why_wrong": null},
+    {"text": "we avoided the traffic jam yesterday.", "is_correct": false, "why_wrong": "This states a past fact instead of completing a hypothetical conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had'",
+  "connector": "had",
+  "explanation": "In an inverted third conditional, 'Had' replaces 'If' and the subject comes before the verb. The main clause then needs 'would have' plus a past participle to describe the imagined past result. Learners whose first language has no separate perfect tense often choose a simple present or past form here, so the 'would have' structure needs focused practice.",
+  "translation": "Якби ми виїхали раніше, ми б уникли затору на дорозі."
+}
