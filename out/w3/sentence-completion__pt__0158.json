@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would be a better engineer today.",
+  "full_sentence": "If I had studied harder last year, I would be a better engineer today.",
+  "acceptable_variants": ["I would be working in a better job now.", "I would have more career options now."],
+  "options": [
+    {"text": "I will be a better engineer tomorrow.", "is_correct": false, "why_wrong": "'Will' belongs to first conditionals with real future possibilities, so it does not match the unreal past condition in 'had studied'."},
+    {"text": "I studied harder and became an engineer.", "is_correct": false, "why_wrong": "This reports what happened in the past, so it does not give the hypothetical result that the conditional requires."},
+    {"text": "I would be a better engineer today.", "is_correct": true, "why_wrong": null},
+    {"text": "I would have been a better engineer yesterday.", "is_correct": false, "why_wrong": "'Yesterday' points to the past, but the result of this mixed conditional is in the present, so the time reference does not fit."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past perfect in the if-clause with 'would' plus base verb in the main clause for a present result",
+  "connector": "if",
+  "explanation": "A mixed conditional combines a past perfect condition with a present result. The main clause uses 'would' plus a base verb and a present time reference such as 'today'.",
+  "translation": "Se eu tivesse estudado mais no ano passado, eu seria um engenheiro melhor hoje."
+}
