@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the council consulted local residents earlier,",
+  "correct_completion": "the project would not have been abandoned.",
+  "full_sentence": "Had the council consulted local residents earlier, the project would not have been abandoned.",
+  "acceptable_variants": ["the project would have survived.", "the plans would have been revised in time."],
+  "options": [
+    {"text": "the project is being abandoned now.", "is_correct": false, "why_wrong": "The present tense conflicts with the past-conditional structure set up by 'had consulted'."},
+    {"text": "they will abandon the project soon.", "is_correct": false, "why_wrong": "A future-tense main clause does not match the inverted third conditional opened by 'had consulted'."},
+    {"text": "the project would not have been abandoned.", "is_correct": true, "why_wrong": null},
+    {"text": "the project was abandoned yesterday.", "is_correct": false, "why_wrong": "A simple past reports a fact and does not complete the hypothetical result that the conditional clause introduces."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (had + subject + past participle, with a perfect conditional in the main clause)",
+  "connector": "had",
+  "explanation": "Inversion replaces 'if' with 'had' at the start of the clause, so the main clause must use a perfect conditional to describe a past hypothetical result. Learners often mix in present or future forms here, which breaks the time reference of the sentence.",
+  "translation": "Se o conselho tivesse consultado os moradores locais mais cedo, o projeto não teria sido abandonado."
+}
