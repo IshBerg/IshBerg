@@ -1,0 +1,20 @@
+{
+  "title": "Weather Today and Tomorrow",
+  "text": "Today is sunny. The sky is blue and the sun is hot. Tom wears a hat and a T-shirt. He goes to the park with his dog.\n\nTomorrow it will be cloudy and cold. Maybe it will rain in the afternoon. Tom takes his red umbrella. He likes rainy days too.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the weather today?", "options": ["sunny", "rainy", "snowy", "windy"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Tom take with him tomorrow?", "options": ["a hat", "a red umbrella", "a dog", "a T-shirt"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Tom probably feel about the weather today?", "options": ["He is happy to be outside.", "He is afraid of the sun.", "He is cold.", "He is sad about the sky."], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why will Tom probably need his umbrella tomorrow?", "options": ["It might rain in the afternoon.", "The sun will be very hot.", "He wants to play in the snow.", "It will be very windy."], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "sunny", "translation": "słoneczny", "definition": "with a lot of sunshine"},
+    {"word": "cloudy", "translation": "pochmurny", "definition": "with many clouds in the sky"},
+    {"word": "umbrella", "translation": "parasol", "definition": "an object you hold above your head to stay dry in the rain"},
+    {"word": "afternoon", "translation": "popołudnie", "definition": "the part of the day between noon and evening"}
+  ],
+  "paragraph_translations": [
+    "Dzisiaj jest słonecznie. Niebo jest niebieskie, a słońce jest gorące. Tom zakłada czapkę i koszulkę. Idzie do parku ze swoim psem.",
+    "Jutro będzie pochmurno i zimno. Może po południu będzie padać. Tom bierze swój czerwony parasol. On też lubi deszczowe dni."
+  ]
+}
