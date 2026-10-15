@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pantolon", "transliteration": "pantolon", "meaning": "trousers"},
+    {"word": "gömlek", "transliteration": "gomlek", "meaning": "shirt"},
+    {"word": "şemsiye", "transliteration": "semsiye", "meaning": "umbrella"},
+    {"word": "mont", "transliteration": "mont", "meaning": "coat"}
+  ],
+  "english_words": ["umbrella", "trousers", "coat", "shirt"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Turkish word and the English word look alike because both come from the same European source, but their meanings have drifted apart in everyday use.",
+  "false_friend_warning": "The Turkish word pantolon looks like the English word 'pants', but 'pants' means trousers in American English and underwear in British English. The correct English match for pantolon is 'trousers'."
+}

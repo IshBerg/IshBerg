@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have got a higher score.", "I would have done much better in the exam."],
+  "options": [
+    {"text": "I will pass the exam.", "is_correct": false, "why_wrong": "'Will' does not express regret about the past; after 'if only' with a past perfect clause, the result needs 'would have'."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I passed the exam yesterday.", "is_correct": false, "why_wrong": "This states a past fact, but it does not give the imagined result that the wish refers to."},
+    {"text": "I would pass the exam tomorrow.", "is_correct": false, "why_wrong": "'Tomorrow' refers to the future, but 'if only' with a past perfect clause expresses regret about the past."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Wishes and regrets with 'if only' and the past perfect",
+  "connector": "if only",
+  "explanation": "'If only' followed by the past perfect expresses regret about a past situation, so the result clause uses 'would have' plus the past participle. Learners whose first language marks this regret with a different verb form often choose a simple past or a present conditional here, so it helps to compare the past condition with the imagined past result.",
+  "translation": "Keşke daha çok çalışsaydım, sınavı geçerdim."
+}
