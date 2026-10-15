@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The house was built in 1990,",
+  "correct_completion": "and it was painted last year.",
+  "full_sentence": "The house was built in 1990, and it was painted last year.",
+  "acceptable_variants": ["and it was repaired last summer.", "and it was repainted recently."],
+  "options": [
+    {"text": "and it painted last year.", "is_correct": false, "why_wrong": "The passive needs 'was' before the past participle. 'Painted' alone cannot form a complete passive verb here."},
+    {"text": "and it was painted last year.", "is_correct": true, "why_wrong": null},
+    {"text": "and somebody paint it last year.", "is_correct": false, "why_wrong": "'Paint' is in the base form. The passive needs 'was' followed by the past participle 'painted'."},
+    {"text": "and they painted it last year.", "is_correct": false, "why_wrong": "This is grammatical but uses active voice, so it does not continue the passive pattern set by 'was built'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Passive voice in the past simple: was/were plus past participle",
+  "connector": "and",
+  "explanation": "The first clause uses the passive 'was built', so the second clause should use the same structure. The passive is formed with a form of 'be' and the past participle.",
+  "translation": "Dom został zbudowany w 1990 roku i został pomalowany w zeszłym roku."
+}
