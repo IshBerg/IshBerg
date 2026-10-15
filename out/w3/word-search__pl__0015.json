@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "R", "E", "A", "D", "X", "C", "Q", "W", "M"],
+    ["T", "N", "K", "J", "V", "Z", "H", "G", "Y", "I"],
+    ["F", "D", "W", "Q", "R", "B", "E", "T", "N", "L"],
+    ["G", "Y", "V", "H", "Z", "D", "E", "X", "J", "K"],
+    ["M", "Q", "I", "N", "T", "R", "S", "W", "F", "B"],
+    ["A", "K", "U", "Z", "H", "G", "E", "D", "V", "Q"],
+    ["N", "P", "Y", "T", "I", "W", "R", "L", "M", "X"],
+    ["J", "F", "P", "Q", "K", "D", "N", "V", "T", "Z"],
+    ["H", "W", "G", "L", "Y", "R", "U", "K", "Q", "N"],
+    ["C", "Z", "R", "J", "E", "V", "P", "U", "O", "S"]
+  ],
+  "words_to_find": ["BREAD", "MILK", "APPLE", "SOUP", "CHEESE"],
+  "word_positions": [
+    {"word": "BREAD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MILK", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "APPLE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SOUP", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "CHEESE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Food and Drinks"
+}
