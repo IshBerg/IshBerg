@@ -1,0 +1,14 @@
+{
+  "trigger_word": "factory",
+  "all_words": [
+    {"word": "robot", "is_associated": true, "association_type": "THEMATIC", "explanation": "Roboty są coraz częściej używane w fabrykach, więc słowo 'robot' tematycznie łączy się z hasłem 'factory'."},
+    {"word": "pottery", "is_associated": false, "association_type": "NONE", "explanation": "Garncarstwo to rzemiosło wykonywane zwykle w pracowni, a nie w fabryce, więc nie jest z nią związane."},
+    {"word": "assembly", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słowo 'assembly' tworzy stałe połączenie 'assembly line' (linia montażowa), typowe dla fabryk."},
+    {"word": "lighthouse", "is_associated": false, "association_type": "NONE", "explanation": "Latarnia morska jest związana z morzem, a nie z przemysłem, więc nie ma związku z fabryką."},
+    {"word": "worker", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pracownik to osoba zatrudniona w fabryce, więc znaczenie tego słowa jest bardzo bliskie hasłu 'factory'."},
+    {"word": "hammock", "is_associated": false, "association_type": "NONE", "explanation": "Hamak to mebel do odpoczynku w ogrodzie i nie ma żadnego związku z fabrykami."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'factory' kojarzy się z pracą, produkcją i maszynami; jego tematyka oraz stałe połączenia wskazują na robota, linię montażową i pracownika, a pozostałe wyrazy dotyczą innych kontekstów."
+}
