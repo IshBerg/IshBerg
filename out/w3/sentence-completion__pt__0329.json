@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister, who lives in Lisbon,",
+  "correct_completion": "is coming to visit us next week.",
+  "full_sentence": "My sister, who lives in Lisbon, is coming to visit us next week.",
+  "acceptable_variants": ["is planning to visit us next week.", "will come and see us soon."],
+  "options": [
+    {"text": "which is a very old city.", "is_correct": false, "why_wrong": "'Which' refers to the city, not the sister. A non-defining clause must add information about the person already named."},
+    {"text": "is coming to visit us next week.", "is_correct": true, "why_wrong": null},
+    {"text": "that is my favourite colour.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining clause, and the content does not relate to the sister."},
+    {"text": "because it rained yesterday.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not extra information about the sister, so it does not complete the clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who'",
+  "connector": "who",
+  "explanation": "A non-defining relative clause adds extra information about a person who is already identified, and it is set off by commas. Learners may drop the relative pronoun or leave out the commas, so keep 'who' and both commas.",
+  "translation": "Minha irmã, que mora em Lisboa, vem nos visitar na próxima semana."
+}
