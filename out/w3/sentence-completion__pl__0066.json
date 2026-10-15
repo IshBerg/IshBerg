@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I'm not sure why",
+  "correct_completion": "she didn't come to the party.",
+  "full_sentence": "I'm not sure why she didn't come to the party.",
+  "acceptable_variants": ["she was not at the party.", "she decided to stay at home."],
+  "options": [
+    {"text": "did she come to the party?", "is_correct": false, "why_wrong": "This is a direct question with question word order. After 'why' in a statement, the subject comes before the verb."},
+    {"text": "she didn't come to the party.", "is_correct": true, "why_wrong": null},
+    {"text": "because she was sick.", "is_correct": false, "why_wrong": "'Why' already introduces the reason, so adding 'because' here is ungrammatical."},
+    {"text": "she come to the party not.", "is_correct": false, "why_wrong": "The negative 'didn't' must come before the main verb, and the verb must be in its base form 'come' after 'didn't', with normal word order."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with why",
+  "connector": "why",
+  "explanation": "In an indirect question introduced by 'why', the subject comes before the verb, as in a statement. Polish speakers may keep the question word order because Polish word order is more flexible.",
+  "translation": "Nie jestem pewien, dlaczego ona nie przyszła na przyjęcie."
+}

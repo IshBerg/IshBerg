@@ -1,0 +1,14 @@
+{
+  "trigger_word": "apple",
+  "all_words": [
+    {"word": "orange", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pomarańcza to też owoc, więc jest znaczeniowo powiązana z jabłkiem."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Samochód nie ma żadnego związku z jabłkiem ani z owocami."},
+    {"word": "tree", "is_associated": true, "association_type": "THEMATIC", "explanation": "Jabłoń to drzewo, na którym rosną jabłka, więc to powiązanie tematyczne."},
+    {"word": "pie", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Apple pie' (szarlotka) to popularne połączenie słów, więc to powiązanie kolokacyjne."},
+    {"word": "bike", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie jest powiązany z jabłkiem ani z jedzeniem."},
+    {"word": "rock", "is_associated": false, "association_type": "NONE", "explanation": "Kamień nie ma związku z jabłkiem."}
+  ],
+  "correct_indices": [0, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'apple' dotyczą owoców, drzew i potraw z jabłek; pozostałe słowa nie mają z nim żadnego związku."
+}
