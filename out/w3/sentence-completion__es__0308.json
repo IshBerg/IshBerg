@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem seemed simple at first,",
+  "correct_completion": "its final stanza revealed a hidden layer of grief.",
+  "full_sentence": "Although the poem seemed simple at first, its final stanza revealed a hidden layer of grief.",
+  "acceptable_variants": ["its last stanza surprised every reader.", "the ending still left readers deeply moved."],
+  "options": [
+    {"text": "so the poet rewrote every line twice.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast with the first clause."},
+    {"text": "the poem was written in free verse.", "is_correct": false, "why_wrong": "This is a neutral fact about the form and does not contrast with the first clause."},
+    {"text": "its final stanza revealed a hidden layer of grief.", "is_correct": true, "why_wrong": null},
+    {"text": "it was printed in a small book.", "is_correct": false, "why_wrong": "This adds an unrelated detail and does not express a contrast with the first clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Here the poem looks simple, yet its ending reveals something deeper. Learners often mistake 'although' for a cause connector, so check that the second clause contrasts rather than explains.",
+  "translation": "Aunque el poema parecía sencillo al principio, su última estrofa reveló una capa oculta de dolor."
+}

@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "O", "R", "N", "A", "D", "O"],
+    ["F", "X", "Q", "K", "S", "W", "Z"],
+    ["L", "J", "U", "P", "T", "B", "M"],
+    ["O", "C", "A", "V", "O", "Y", "H"],
+    ["O", "D", "K", "N", "R", "L", "Q"],
+    ["D", "N", "E", "G", "M", "I", "X"],
+    ["D", "R", "O", "U", "G", "H", "T"]
+  ],
+  "words_to_find": ["TORNADO", "FLOOD", "STORM", "QUAKE", "DROUGHT"],
+  "word_positions": [
+    {"word": "TORNADO", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FLOOD", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "STORM", "start_row": 1, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "QUAKE", "start_row": 1, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "DROUGHT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Natural Disasters"
+}
