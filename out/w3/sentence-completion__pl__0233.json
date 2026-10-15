@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The data suggest a correlation, although",
+  "correct_completion": "causation cannot be established from it alone.",
+  "full_sentence": "The data suggest a correlation, although causation cannot be established from it alone.",
+  "acceptable_variants": ["causation has yet to be demonstrated.", "the relationship remains tentative."],
+  "options": [
+    {"text": "the sample size was entirely irrelevant.", "is_correct": false, "why_wrong": "This dismisses a methodological factor, which does not complete the concessive contrast the stem sets up."},
+    {"text": "causation cannot be established from it alone.", "is_correct": true, "why_wrong": null},
+    {"text": "the authors have proved the link conclusively.", "is_correct": false, "why_wrong": "Conclusive proof contradicts the hedged concession introduced by 'although'."},
+    {"text": "the findings were published last year.", "is_correct": false, "why_wrong": "This gives a publication date, which is not the evaluative reservation that 'although' calls for."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'although' with hedged academic claims",
+  "connector": "although",
+  "explanation": "After 'although', the writer concedes an observed pattern and then qualifies it, so the completion must express a reservation about the strength of the claim. Polish speakers may be tempted to state the conclusion outright, which removes the hedge.",
+  "translation": "Dane sugerują korelację, chociaż nie można na ich podstawie jednoznacznie stwierdzić związku przyczynowego."
+}
