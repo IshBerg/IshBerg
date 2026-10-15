@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "R", "O", "B", "L", "E", "M"],
+    ["A", "Z", "K", "Q", "W", "T", "N"],
+    ["H", "U", "S", "C", "D", "V", "F"],
+    ["E", "J", "M", "G", "R", "Y", "I"],
+    ["L", "B", "A", "Q", "T", "W", "X"],
+    ["P", "N", "D", "K", "Z", "S", "O"],
+    ["T", "Q", "I", "D", "E", "A", "M"]
+  ],
+  "words_to_find": ["PROBLEM", "HELP", "FIX", "IDEA"],
+  "word_positions": [
+    {"word": "PROBLEM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HELP", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "FIX", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "IDEA", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Problems and Solutions"
+}
