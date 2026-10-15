@@ -1,0 +1,20 @@
+{
+  "title": "A Trip to the Zoo",
+  "text": "Our school has thirty students. There are fifteen girls and fifteen boys. Our class is on the second floor. We have forty books in the library.\n\nToday we go on a trip to the zoo. The zoo has fifty animals and one hundred birds. The bus leaves at eight o'clock. Each ticket costs twenty dollars.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How many students are in the school?", "options": ["Twenty", "Thirty", "Forty", "Fifty"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How many animals are in the zoo?", "options": ["Ten", "Twenty", "Fifty", "One hundred"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can we infer about the trip?", "options": ["It will probably be a full day trip", "It will be a trip of one minute", "It will take a whole week", "It will end before breakfast"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How much would two tickets probably cost?", "options": ["Forty dollars", "Twenty dollars", "Sixty dollars", "One hundred dollars"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "students", "translation": "estudiantes", "definition": "people who study at a school"},
+    {"word": "animals", "translation": "animales", "definition": "living creatures such as dogs, lions or birds"},
+    {"word": "ticket", "translation": "boleto", "definition": "a small paper or card that allows you to enter a place"},
+    {"word": "trip", "translation": "viaje", "definition": "a journey to another place"}
+  ],
+  "paragraph_translations": [
+    "Nuestra escuela tiene treinta estudiantes. Hay quince niñas y quince niños. Nuestra clase está en el segundo piso. Tenemos cuarenta libros en la biblioteca.",
+    "Hoy vamos de viaje al zoológico. El zoológico tiene cincuenta animales y cien pájaros. El autobús sale a las ocho en punto. Cada boleto cuesta veinte dólares."
+  ]
+}
