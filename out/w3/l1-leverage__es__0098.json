@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"},
+    {"word": "pasta", "transliteration": "pasta", "meaning": "dough"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present"}
+  ],
+  "english_words": ["dough", "current", "folder", "bookstore"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Spanish words look like English words but carry different meanings, so learners should check meaning rather than trusting the resemblance in form.",
+  "false_friend_warning": "The Spanish word for 'folder' looks like the English word 'carpet', but it means a paper folder, not a floor covering."
+}

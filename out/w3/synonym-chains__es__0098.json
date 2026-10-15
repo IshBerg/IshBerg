@@ -1,0 +1,17 @@
+{
+  "central_word": "cold",
+  "chain_words": [
+    {"word": "cool", "intensity": 1, "translation": "fresco", "nuance": "pleasantly low temperature"},
+    {"word": "chilly", "intensity": 2, "translation": "fresquito", "nuance": "slightly unpleasant cold, often in the air"},
+    {"word": "cold", "intensity": 3, "translation": "frío", "nuance": "general low temperature"},
+    {"word": "freezing", "intensity": 4, "translation": "helado", "nuance": "very cold, below the freezing point of water"},
+    {"word": "frozen", "intensity": 5, "translation": "congelado", "nuance": "extremely cold, as if turned to ice"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express low temperature but with increasing intensity, from a pleasant coolness to a state of extreme cold.",
+  "usage_notes": [
+    {"word1": "cold", "word2": "chilly", "difference": "'Chilly' describes mild, unpleasant cold, often in the air or in a room; 'cold' is the general word for low temperature."}
+  ],
+  "translations": {"cool": "fresco", "chilly": "fresquito", "cold": "frío", "freezing": "helado", "frozen": "congelado"}
+}
