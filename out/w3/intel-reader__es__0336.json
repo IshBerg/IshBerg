@@ -1,0 +1,19 @@
+{
+  "title": "The Weather Today and Yesterday",
+  "text": "Today the weather is sunny. The sun is hot and the sky is blue. My friends and I go to the park. We play football.\n\nYesterday it was cold and rainy. I stayed at home. I read a book and drank hot tea.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the weather like today?", "options": ["Sunny", "Rainy", "Snowy", "Windy"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What did the writer do yesterday?", "options": ["Went to the park", "Stayed at home", "Played football", "Went to the beach"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer probably feel today?", "options": ["Happy", "Sad", "Angry", "Tired"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why did the writer probably drink hot tea yesterday?", "options": ["Because it was cold", "Because it was hot outside", "Because it was sunny", "Because it was a holiday"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "sunny", "translation": "soleado", "definition": "with bright sunshine in the sky"},
+    {"word": "cold", "translation": "frío", "definition": "having a low temperature"},
+    {"word": "rainy", "translation": "lluvioso", "definition": "with a lot of rain falling"}
+  ],
+  "paragraph_translations": [
+    "Hoy el clima está soleado. El sol está caliente y el cielo está azul. Mis amigos y yo vamos al parque. Jugamos al fútbol.",
+    "Ayer hizo frío y llovía. Me quedé en casa. Leí un libro y bebí té caliente."
+  ]
+}

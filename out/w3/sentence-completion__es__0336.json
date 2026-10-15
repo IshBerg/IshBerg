@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The little girl found a red box in the garden,",
+  "correct_completion": "and she opened it very slowly.",
+  "full_sentence": "The little girl found a red box in the garden, and she opened it very slowly.",
+  "acceptable_variants": ["and then she opened it carefully.", "and she looked inside very slowly."],
+  "options": [
+    {"text": "because she was very hungry.", "is_correct": false, "why_wrong": "'Because' gives a reason, but being hungry does not explain why she found the box in the garden."},
+    {"text": "and she opened it very slowly.", "is_correct": true, "why_wrong": null},
+    {"text": "but she was in the kitchen.", "is_correct": false, "why_wrong": "'But' shows contrast, and being in the kitchen does not contrast with finding the box in the garden, so the story does not make sense."},
+    {"text": "yesterday it was snowing.", "is_correct": false, "why_wrong": "This adds a time detail, but the story continues with what the girl does next, so it does not complete the sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Joining two actions with 'and' in a short story",
+  "connector": "and",
+  "explanation": "After the comma, the story continues with what the girl does next. We need a clause that joins her second action to the first one, so 'and' is the correct connector here.",
+  "translation": "La niña encontró una caja roja en el jardín y la abrió muy despacio."
+}
