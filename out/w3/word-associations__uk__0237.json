@@ -1,0 +1,14 @@
+{
+  "trigger_word": "vote",
+  "all_words": [
+    {"word": "election", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Вибори (election) — це процес, під час якого громадяни голосують, тому це слово тісно пов'язане зі словом vote."},
+    {"word": "ballot", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово ballot означає бюлетень, і ми кажемо cast a ballot (подати бюлетень), тобто воно часто стоїть поруч із vote."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Банан (banana) не має жодного зв'язку з голосуванням ні за значенням, ні за вживанням у словосполученнях."},
+    {"word": "candidate", "is_associated": true, "association_type": "THEMATIC", "explanation": "Кандидат (candidate) — це людина, за яку голосують на виборах, тому слово належить до тієї ж політичної теми."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "Парасолька (umbrella) — це побутовий предмет, який не має відношення до політики чи голосування."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "Захід сонця (sunset) — природне явище, яке не пов'язане з голосуванням."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово vote пов'язане з виборчим процесом: з виборами (election), бюлетенем (ballot) і кандидатом (candidate), тоді як решта слів стосується інших тем."
+}
