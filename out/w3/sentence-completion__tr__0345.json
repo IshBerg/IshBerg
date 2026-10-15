@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the survey results were unclear,",
+  "correct_completion": "the researchers repeated the experiment.",
+  "full_sentence": "Because the survey results were unclear, the researchers repeated the experiment.",
+  "acceptable_variants": ["the researchers decided to run the experiment again.", "the team repeated the data collection."],
+  "options": [
+    {"text": "the researchers ignored the data entirely.", "is_correct": false, "why_wrong": "Ignoring the data is not a logical response to unclear results, so the 'because' clause does not lead to it."},
+    {"text": "the report was published last year.", "is_correct": false, "why_wrong": "This is a fact about publication that has no logical link to the reason given in the stem."},
+    {"text": "the researchers repeated the experiment.", "is_correct": true, "why_wrong": null},
+    {"text": "the journal printed the results in color.", "is_correct": false, "why_wrong": "This describes a printing detail, which has no cause-and-effect link to the unclear results."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses of reason with 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces a clause of reason, so the completion must describe a logical result of the unclear survey results. Repeating the experiment is a sensible consequence of unclear results.",
+  "translation": "Anket sonuçları belirsiz olduğu için araştırmacılar deneyi tekrarladı."
+}
