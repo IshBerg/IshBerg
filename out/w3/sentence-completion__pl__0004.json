@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she handed it to the director.",
+  "full_sentence": "Having finished the report, she handed it to the director.",
+  "acceptable_variants": ["she gave it to the director.", "she submitted it to the director."],
+  "options": [
+    {"text": "she handing it to the director.", "is_correct": false, "why_wrong": "The -ing form cannot work as a finite main verb here; the sentence needs a past tense verb."},
+    {"text": "she handed it to the director.", "is_correct": true, "why_wrong": null},
+    {"text": "to hand it to the director.", "is_correct": false, "why_wrong": "An infinitive cannot express the completed main action, so the sequence of events is not shown."},
+    {"text": "it was being handed to the director by her.", "is_correct": false, "why_wrong": "The progressive passive describes an ongoing action, while the stem requires a completed action before the main verb."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect participle clauses",
+  "connector": "Having finished",
+  "explanation": "The perfect participle 'Having finished' shows an action completed before the main verb. The main clause then needs a finite past tense verb after the comma. Speakers may be tempted to use a gerund or an infinitive here, but English requires a finite verb.",
+  "translation": "Skończywszy raport, przekazała go dyrektorce."
+}
