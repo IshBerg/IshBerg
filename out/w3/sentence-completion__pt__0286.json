@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Please open the window,",
+  "correct_completion": "and sit down.",
+  "full_sentence": "Please open the window, and sit down.",
+  "acceptable_variants": ["and close the door.", "and wait here."],
+  "options": [
+    {"text": "you are a teacher.", "is_correct": false, "why_wrong": "This is a statement about a person, not an instruction that follows 'please open the window'."},
+    {"text": "yesterday we went to the park.", "is_correct": false, "why_wrong": "This talks about the past, but the sentence needs a command in the present."},
+    {"text": "and sit down.", "is_correct": true, "why_wrong": null},
+    {"text": "and sits down.", "is_correct": false, "why_wrong": "Imperatives use the base form of the verb, so 'sits' is incorrect."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Imperatives with the base form of the verb",
+  "connector": "and",
+  "explanation": "Imperatives use the base form of the verb, with no -s ending, even when speaking to one person. Learners often add -s because they apply the third person rule from the present simple.",
+  "translation": "Por favor, abra a janela e sente-se."
+}

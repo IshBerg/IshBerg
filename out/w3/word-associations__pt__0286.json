@@ -1,0 +1,14 @@
+{
+  "trigger_word": "verdict",
+  "all_words": [
+    {"word": "judge", "is_associated": true, "association_type": "THEMATIC", "explanation": "O juiz é quem pronuncia o veredito em um tribunal, por isso a palavra pertence ao mesmo campo jurídico."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "A guitarra é um instrumento musical e não tem nenhuma relação com decisões judiciais."},
+    {"word": "jury", "is_associated": true, "association_type": "THEMATIC", "explanation": "O júri é o grupo de cidadãos que chega a um veredito em julgamentos, o que o liga diretamente ao termo."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "O tomate é um alimento e não pertence ao vocabulário jurídico."},
+    {"word": "appeal", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Um veredito pode ser contestado por meio de um recurso, e essa combinação de palavras é comum no jargão jurídico."},
+    {"word": "ladder", "is_associated": false, "association_type": "NONE", "explanation": "A escada não tem relação com o processo judicial nem com a decisão final de um tribunal."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao veredito pertencem ao campo do direito: pessoas do tribunal e expressões ligadas à decisão e ao recurso, enquanto as demais pertencem a outros campos."
+}
