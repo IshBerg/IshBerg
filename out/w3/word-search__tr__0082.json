@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "W", "E", "N", "T", "Y", "K", "B", "F"],
+    ["M", "Q", "A", "J", "L", "P", "Z", "V", "O"],
+    ["H", "U", "N", "D", "R", "E", "D", "G", "R"],
+    ["C", "K", "W", "Q", "B", "M", "J", "L", "T"],
+    ["F", "V", "R", "Z", "N", "K", "S", "P", "Y"],
+    ["B", "I", "Q", "L", "M", "W", "I", "C", "A"],
+    ["J", "D", "F", "V", "E", "G", "X", "H", "Z"],
+    ["P", "R", "K", "T", "O", "D", "T", "N", "L"],
+    ["Q", "A", "W", "E", "Y", "B", "Y", "M", "C"]
+  ],
+  "words_to_find": ["TWENTY", "FORTY", "FIFTY", "SIXTY", "HUNDRED"],
+  "word_positions": [
+    {"word": "TWENTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FORTY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "FIFTY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SIXTY", "start_row": 4, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "HUNDRED", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Numbers 20-100"
+}

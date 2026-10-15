@@ -1,0 +1,14 @@
+{
+  "trigger_word": "run",
+  "all_words": [
+    {"word": "sleep", "is_associated": false, "association_type": "NONE", "explanation": "Uyumak koşmakla ilgili değildir, bu yüzden run kelimesiyle ilişkili değildir."},
+    {"word": "race", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Koşu yarışı, run kelimesiyle anlam olarak doğrudan ilişkilidir."},
+    {"word": "fun", "is_associated": true, "association_type": "PHONETIC", "explanation": "Fun kelimesi run ile kafiyelidir, bu yüzden sesçe ilişkilidir."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masa koşmakla ilgili değildir, bu yüzden bu kelime ilişkili değildir."},
+    {"word": "shoes", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Run shoes koşu ayakkabısı anlamına gelir, bu yüzden bu kelimeler birlikte kullanılır."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Bulut koşmakla ilgili değildir, bu yüzden bu kelime ilişkili değildir."}
+  ],
+  "correct_indices": [1, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Run kelimesi koşu, yarış ve ayakkabı gibi kelimelerle ilişkilidir, ama uyku, masa ve bulut ile ilişkili değildir."
+}
