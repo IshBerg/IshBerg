@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "Q", "W", "X", "Z", "H"],
+    ["B", "J", "K", "L", "M", "V", "N", "U", "F", "E"],
+    ["C", "H", "P", "D", "V", "Q", "X", "M", "Y", "R"],
+    ["L", "W", "S", "T", "N", "Z", "B", "V", "K", "O"],
+    ["Q", "X", "J", "F", "M", "R", "H", "D", "N", "W"],
+    ["P", "X", "L", "Z", "K", "V", "Y", "C", "E", "G"],
+    ["B", "A", "F", "I", "D", "U", "T", "Q", "R", "L"],
+    ["M", "N", "G", "J", "X", "D", "K", "T", "V", "Q"],
+    ["R", "S", "W", "E", "B", "N", "Q", "C", "X", "T"],
+    ["Z", "J", "H", "P", "Q", "E", "K", "O", "O", "B"]
+  ],
+  "words_to_find": ["STORY", "HERO", "PAGE", "BOOK", "END"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HERO", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "PAGE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BOOK", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "END", "start_row": 9, "start_col": 5, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Short Stories"
+}
