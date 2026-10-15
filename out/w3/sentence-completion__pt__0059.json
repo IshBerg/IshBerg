@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Right now, my sister",
+  "correct_completion": "is reading a book in her room.",
+  "full_sentence": "Right now, my sister is reading a book in her room.",
+  "acceptable_variants": ["is doing her homework in her room.", "is listening to music in her room."],
+  "options": [
+    {"text": "reads a book in her room.", "is_correct": false, "why_wrong": "The Present Simple describes habits and routines. For an action happening at this moment, English uses the Present Continuous."},
+    {"text": "is read a book in her room.", "is_correct": false, "why_wrong": "After a form of 'be', the main verb must take the -ing form, so it should be 'reading', not 'read'."},
+    {"text": "reading a book in her room.", "is_correct": false, "why_wrong": "The sentence needs a form of 'be' before the -ing verb. Without 'is', the verb phrase is incomplete."},
+    {"text": "is reading a book in her room.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present Continuous for actions happening now",
+  "connector": "none",
+  "explanation": "The Present Continuous is made with 'am', 'is', or 'are' plus the -ing form of the verb. Portuguese speakers may choose the simple present here, because Portuguese uses one present tense for both routines and actions in progress, while English separates them.",
+  "translation": "Neste momento, minha irmã está lendo um livro no quarto."
+}

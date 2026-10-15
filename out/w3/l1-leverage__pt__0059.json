@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"},
+    {"word": "padaria", "transliteration": "padaria", "meaning": "bakery"},
+    {"word": "farmácia", "transliteration": "farmacia", "meaning": "pharmacy"},
+    {"word": "escola", "transliteration": "escola", "meaning": "school"}
+  ],
+  "english_words": ["pharmacy", "bookshop", "school", "bakery"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Portuguese word for bookshop and the English word library both come from the Latin word liber, meaning book. Over time the two words took different meanings: English uses library for a place where books are borrowed, while Portuguese uses the word for bookshop for a place where books are sold.",
+  "false_friend_warning": "The Portuguese word for bookshop looks like the English word library, but in English a library is a place to borrow books, not a shop that sells them, so students must not use library to mean bookshop."
+}
