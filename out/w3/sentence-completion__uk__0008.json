@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Most students prefer printed textbooks, whereas",
+  "correct_completion": "others prefer digital ones.",
+  "full_sentence": "Most students prefer printed textbooks, whereas others prefer digital ones.",
+  "acceptable_variants": ["some choose e-books instead.", "a few enjoy reading on screens."],
+  "options": [
+    {"text": "so digital books are cheaper.", "is_correct": false, "why_wrong": "'So' signals a result, but 'whereas' signals a contrast between two groups of students."},
+    {"text": "they all read at home.", "is_correct": false, "why_wrong": "This does not contrast with the preference stated in the first clause, so 'whereas' has no logical link to it."},
+    {"text": "others prefer digital ones.", "is_correct": true, "why_wrong": null},
+    {"text": "most students prefer printed books too.", "is_correct": false, "why_wrong": "This repeats the first clause instead of contrasting with it, so 'whereas' would sound unnatural."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive connector 'whereas' followed by a clause that sets up a clear contrast",
+  "connector": "whereas",
+  "explanation": "Speakers may treat this connector as a simple 'and', but English 'whereas' requires a clause that sets up a clear contrast with the first clause, usually a different group or preference.",
+  "translation": "Більшість студентів віддають перевагу друкованим підручникам, тоді як інші віддають перевагу цифровим."
+}
