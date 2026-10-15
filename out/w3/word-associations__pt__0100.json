@@ -1,0 +1,14 @@
+{
+  "trigger_word": "calendar",
+  "all_words": [
+    {"word": "date", "is_associated": true, "association_type": "THEMATIC", "explanation": "Em um calendário vemos a data de cada dia, por isso essas palavras estão tematicamente ligadas."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Colher não tem nenhuma relação com calendário, por isso essa palavra não está associada."},
+    {"word": "month", "is_associated": true, "association_type": "THEMATIC", "explanation": "Um calendário mostra os meses do ano, então a palavra tem relação direta com ele."},
+    {"word": "tiger", "is_associated": false, "association_type": "NONE", "explanation": "Tigre é um animal e não tem ligação com calendários, então não está associado."},
+    {"word": "page", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Dizemos 'calendar page', ou seja, folha do calendário, por isso as palavras aparecem juntas."},
+    {"word": "week", "is_associated": true, "association_type": "THEMATIC", "explanation": "Um calendário mostra as semanas de cada mês, por isso a palavra está ligada ao tema."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao calendário falam de datas, meses e semanas; as outras palavras não têm relação com o tema."
+}
