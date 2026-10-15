@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Плита є одним із основних предметів на кухні, тому вона має прямий семантичний зв'язок зі словом kitchen."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не належить до кухні і не пов'язана з цим словом ні за значенням, ні за вживанням."},
+    {"word": "spoon", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ложка є кухонним приладом, тож вона тематично пов'язана з кухнею."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Скрипка є музичним інструментом і не стосується кухні."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення kitchen sink є усталеним, тож слово sink має колокаційний зв'язок зі словом kitchen."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не має відношення до кухні ні за змістом, ні за типовим вживанням."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово kitchen пов'язане з кухонними предметами та їх усталеними сполученнями, тоді як слова, що стосуються інших місць або занять, не входять до його асоціацій."
+}
