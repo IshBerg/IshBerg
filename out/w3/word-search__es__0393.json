@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["A", "B", "S", "U", "R", "D", "K", "F"],
+    ["Q", "W", "Z", "L", "P", "V", "H", "R"],
+    ["A", "J", "Y", "T", "X", "M", "K", "E"],
+    ["N", "E", "S", "S", "E", "N", "C", "E"],
+    ["G", "L", "Q", "W", "Z", "P", "V", "D"],
+    ["S", "H", "J", "Y", "F", "X", "L", "O"],
+    ["T", "R", "K", "V", "Q", "W", "Z", "M"],
+    ["B", "E", "I", "N", "G", "P", "Y", "D"]
+  ],
+  "words_to_find": ["ABSURD", "FREEDOM", "ESSENCE", "ANGST", "BEING"],
+  "word_positions": [
+    {"word": "ABSURD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FREEDOM", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ESSENCE", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "ANGST", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "BEING", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Existentialism and Modern Philosophy"
+}
