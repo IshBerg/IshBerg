@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have lived in this city",
+  "correct_completion": "for five years.",
+  "full_sentence": "I have lived in this city for five years.",
+  "acceptable_variants": ["for a long time.", "for many years."],
+  "options": [
+    {"text": "since five years.", "is_correct": false, "why_wrong": "'Since' is used with a starting point in time, such as 'since 2015', not with a length of time."},
+    {"text": "for five years.", "is_correct": true, "why_wrong": null},
+    {"text": "in five years.", "is_correct": false, "why_wrong": "'In' with a period of time points to the future, so it does not describe a time that has already passed."},
+    {"text": "during five years.", "is_correct": false, "why_wrong": "'During' is used with an event or period like 'during the summer', not with a length of time."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of time: 'for' with a length of time",
+  "connector": "for",
+  "explanation": "A length of time, such as five years, needs the preposition 'for' with the present perfect. Learners often confuse 'for' with 'since', so it helps to remember that 'since' goes with a starting point.",
+  "translation": "Я живу в цьому місті вже п'ять років."
+}
