@@ -1,0 +1,14 @@
+{
+  "trigger_word": "friendly",
+  "all_words": [
+    {"word": "kind", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Uma pessoa gentil também é amigável, então as duas palavras têm um significado muito próximo."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Uma mesa é um objeto e não tem nenhuma relação com o jeito de ser de uma pessoa."},
+    {"word": "smile", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Um sorriso amigável é uma combinação muito comum em inglês, por isso as palavras aparecem juntas."},
+    {"word": "rock", "is_associated": false, "association_type": "NONE", "explanation": "Uma pedra é um objeto da natureza e não descreve a personalidade de alguém."},
+    {"word": "polite", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Uma pessoa educada costuma ser amigável, então a palavra está relacionada ao mesmo tipo de comportamento."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Uma janela é parte de um prédio e não tem relação com a personalidade de uma pessoa."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'friendly' se associa a adjetivos com significado parecido, como 'kind' e 'polite', e à colocação 'friendly smile'. As outras palavras são objetos que não descrevem uma pessoa."
+}
