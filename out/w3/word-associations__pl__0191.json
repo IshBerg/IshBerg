@@ -1,0 +1,14 @@
+{
+  "trigger_word": "coffee",
+  "all_words": [
+    {"word": "cup", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówimy 'a cup of coffee' (filiżanka kawy), więc to słowo często występuje razem z kawą."},
+    {"word": "bean", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kawa powstaje z ziaren, czyli 'coffee beans', a więc pojęcia są bezpośrednio powiązane."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Fortepian to instrument muzyczny i nie ma żadnego związku z kawą."},
+    {"word": "sugar", "is_associated": true, "association_type": "THEMATIC", "explanation": "Cukier często dodajemy do kawy, więc pojawia się w tej samej sytuacji."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Okno nie należy do świata kawy ani nie pojawia się w sytuacjach związanych z jej piciem."},
+    {"word": "tea", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Herbata i kawa to napoje, czyli należą do tej samej kategorii."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'coffee' to te, które opisują napoje, składniki lub zwyczaje związane z piciem kawy; przedmioty i pojęcia spoza tego tematu nie pasują."
+}
