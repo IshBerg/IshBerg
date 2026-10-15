@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom reads comic strips every day because",
+  "correct_completion": "he likes the funny pictures.",
+  "full_sentence": "Tom reads comic strips every day because he likes the funny pictures.",
+  "acceptable_variants": ["he thinks they are fun.", "he enjoys the stories."],
+  "options": [
+    {"text": "he is very tired.", "is_correct": false, "why_wrong": "This is a reason, but it does not explain why Tom reads comic strips. 'Tired' has no link to the reading habit."},
+    {"text": "he wants to buy a bike.", "is_correct": false, "why_wrong": "This describes a plan or a goal, not a reason for reading comic strips."},
+    {"text": "he likes the funny pictures.", "is_correct": true, "why_wrong": null},
+    {"text": "the shop is closed today.", "is_correct": false, "why_wrong": "This describes a situation about a shop. It does not give a reason for Tom's habit of reading comics."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we give the reason for the action in the main clause. The reason must explain why Tom reads comic strips every day, so it should be about the pleasure of the pictures or the stories.",
+  "translation": "Tom her gün çizgi romanları okur çünkü komik resimleri sever."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "laboratory",
+  "all_words": [
+    {"word": "experiment", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Laboratuvarda yapılan deneyler için 'lab experiment' ifadesi sık kullanılır."},
+    {"word": "orchestra", "is_associated": false, "association_type": "NONE", "explanation": "Orkestra bir müzik topluluğudur ve laboratuvarla bir ilgisi yoktur."},
+    {"word": "microscope", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Mikroskop, laboratuvarda küçük örnekleri incelemek için kullanılan bir alettir."},
+    {"word": "bakery", "is_associated": false, "association_type": "NONE", "explanation": "Fırın ekmek ve pasta üreten bir yerdir, bilimsel bir laboratuvar değildir."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hipotez, laboratuvarda test edilen bilimsel bir tahmindir ve bu nedenle konuyla ilgilidir."},
+    {"word": "beaker", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Beaker, laboratuvarda sıvı ölçmek ve karıştırmak için kullanılan bir kaptır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Laboratuvar kelimesi bilimsel deney ve araştırma ile ilgili kelimelerle güçlü bir bağlantı kurar, müzik ve yiyecek kelimeleri ise bu bağlantıya uymaz."
+}
