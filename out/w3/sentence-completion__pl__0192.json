@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results were promising;",
+  "correct_completion": "however, further tests are needed before any conclusions are drawn.",
+  "full_sentence": "The results were promising; however, further tests are needed before any conclusions are drawn.",
+  "acceptable_variants": ["nevertheless, more testing is required before drawing conclusions.", "still, additional trials are necessary before any conclusions can be made."],
+  "options": [
+    {"text": "therefore, the study was immediately published.", "is_correct": false, "why_wrong": "'Therefore' signals a result that follows from the promising results, but the cohesion device here must signal a contrast with them."},
+    {"text": "in addition, the sample size was doubled.", "is_correct": false, "why_wrong": "'In addition' adds a similar point, but the stem sets up a positive result that needs a limitation, not another supporting detail."},
+    {"text": "however, further tests are needed before any conclusions are drawn.", "is_correct": true, "why_wrong": null},
+    {"text": "consequently, the funding was withdrawn.", "is_correct": false, "why_wrong": "'Consequently' introduces a result, which does not fit a stem that calls the results promising and then needs a contrasting qualification."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive linking adverbials after a semicolon",
+  "connector": "however",
+  "explanation": "After the semicolon, the second clause must qualify the positive statement in the first clause. Learners should choose a contrastive linker, not a causal or additive one, and check that the rest of the clause follows the linker's structure.",
+  "translation": "Wyniki były obiecujące; jednak przed wyciągnięciem jakichkolwiek wniosków potrzebne są dalsze badania."
+}
