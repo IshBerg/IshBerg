@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "аптека", "transliteration": "apteka", "meaning": "pharmacy"},
+    {"word": "банк", "transliteration": "bank", "meaning": "bank"},
+    {"word": "готель", "transliteration": "hotel'", "meaning": "hotel"}
+  ],
+  "english_words": ["bank", "hotel", "shop", "pharmacy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "English 'magazine' and the Ukrainian word for shop both come from the French word 'magasin', meaning storehouse. Over time the meanings split: English kept a sense of a periodical publication, while Ukrainian kept the sense of a store.",
+  "false_friend_warning": "The Ukrainian word mahazyn looks like the English word 'magazine', but it means shop; students must not translate it as 'magazine', which in English means a periodical publication."
+}

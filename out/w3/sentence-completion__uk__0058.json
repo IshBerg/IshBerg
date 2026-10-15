@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My mother usually",
+  "correct_completion": "cooks dinner on Sundays.",
+  "full_sentence": "My mother usually cooks dinner on Sundays.",
+  "acceptable_variants": ["makes lunch on Saturdays.", "cooks a big meal on Sundays."],
+  "options": [
+    {"text": "cook dinner on Sundays.", "is_correct": false, "why_wrong": "With she, he, or it in the Present Simple, the verb needs an -s ending, so it should be 'cooks'."},
+    {"text": "is cooks dinner on Sundays.", "is_correct": false, "why_wrong": "'Is' cannot be placed before a Present Simple main verb in an affirmative sentence. The sentence needs only 'cooks'."},
+    {"text": "cooks dinner on Sundays.", "is_correct": true, "why_wrong": null},
+    {"text": "cooking dinner on Sundays.", "is_correct": false, "why_wrong": "A present participle needs a form of 'be' before it. Also, the Present Simple routine needs the verb 'cooks' after 'usually'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Third person singular -s in the Present Simple with adverbs of frequency",
+  "connector": "none",
+  "explanation": "With she, he, or it in the Present Simple, the verb takes an -s ending even when an adverb of frequency like usually comes before it. Ukrainian speakers may forget this ending because Ukrainian verbs agree with the subject through their own endings, so the English -s is easy to leave out.",
+  "translation": "Моя мама зазвичай готує вечерю у неділю."
+}
