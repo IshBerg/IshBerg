@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "computador", "transliteration": "computador", "meaning": "computer"},
+    {"word": "televisão", "transliteration": "televisao", "meaning": "television"},
+    {"word": "motorista", "transliteration": "motorista", "meaning": "driver"},
+    {"word": "hospital", "transliteration": "hospital", "meaning": "hospital"}
+  ],
+  "english_words": ["driver", "computer", "hospital", "television"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same international source, so the forms stayed close. The Portuguese word keeps almost the same spelling and pronunciation as its English match and has the same meaning.",
+  "false_friend_warning": null
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the manager explain the decision clearly,",
+  "correct_completion": "but she also listened carefully to every objection.",
+  "full_sentence": "Not only did the manager explain the decision clearly, but she also listened carefully to every objection.",
+  "acceptable_variants": ["but she also took the time to answer each concern.", "but she also invited the team to share their doubts."],
+  "options": [
+    {"text": "so the meeting ended early that day.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem sets up an additive structure with 'not only ... but also', which needs a second positive action rather than a consequence."},
+    {"text": "although the decision was unpopular.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, but the 'not only ... but also' structure requires an additional action of the same kind, not a concession."},
+    {"text": "but she also listened carefully to every objection.", "is_correct": true, "why_wrong": null},
+    {"text": "and the office was located on the third floor.", "is_correct": false, "why_wrong": "This adds a neutral detail, but it does not complete the 'not only ... but also' pair, which needs a second action by the manager."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Correlative conjunctions 'not only ... but also' with subject-auxiliary inversion after 'not only'",
+  "connector": "not only ... but also",
+  "explanation": "After 'Not only did', the auxiliary moves before the subject, and the sentence needs an additive second clause introduced by 'but also' that presents a second action of similar weight. Speakers whose first language keeps the subject before the verb may omit this inversion, so it helps to practise it as a fixed pattern.",
+  "translation": "Não só a gerente explicou a decisão com clareza, como também ouviu com atenção cada objeção."
+}
