@@ -1,0 +1,14 @@
+{
+  "trigger_word": "teacher",
+  "all_words": [
+    {"word": "school", "is_associated": true, "association_type": "THEMATIC", "explanation": "Вчитель працює у школі, тому ці слова тісно пов'язані."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Трактор належить до сільського господарства і не має відношення до вчителя."},
+    {"word": "lesson", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Вчитель проводить уроки, і словосполучення 'teacher gives a lesson' є дуже поширеним."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Бутерброд є їжею і не пов'язаний з роботою вчителя."},
+    {"word": "chalk", "is_associated": true, "association_type": "THEMATIC", "explanation": "Крейда є приладдям, яким вчитель пише на дошці."},
+    {"word": "pilot", "is_associated": false, "association_type": "NONE", "explanation": "Пілот керує літаком і не має відношення до сфери освіти."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з вчителем, стосуються школи, уроків і шкільного приладдя, а решта слів належать до інших сфер."
+}

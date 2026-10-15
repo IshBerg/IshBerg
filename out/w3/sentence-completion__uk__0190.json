@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was not the weather that ruined the trip,",
+  "correct_completion": "but the poor planning beforehand.",
+  "full_sentence": "It was not the weather that ruined the trip, but the poor planning beforehand.",
+  "acceptable_variants": ["but rather the lack of preparation.", "but the careless booking of the hotel."],
+  "options": [
+    {"text": "so we stayed at home.", "is_correct": false, "why_wrong": "'So' expresses a result, which does not complete the contrast set up by 'not ... that'."},
+    {"text": "because we forgot the tickets.", "is_correct": false, "why_wrong": "This gives a cause, but the stem already sets up a contrast with 'not', so a second cause does not fit."},
+    {"text": "but the poor planning beforehand.", "is_correct": true, "why_wrong": null},
+    {"text": "although we were quite tired.", "is_correct": false, "why_wrong": "'Although' introduces a concession, which does not complete the 'not ... but' contrast structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive cleft-style structure: 'It was not X that ... but Y'",
+  "connector": "but",
+  "explanation": "The 'not ... that' part denies one cause, so the completion must introduce the real cause with 'but', creating a contrast.",
+  "translation": "Це була не погода, яка зіпсувала поїздку, а погане планування заздалегідь."
+}
