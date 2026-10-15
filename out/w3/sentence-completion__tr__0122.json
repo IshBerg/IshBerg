@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The school rules are very strict, so",
+  "correct_completion": "students have to wear uniforms every day.",
+  "full_sentence": "The school rules are very strict, so students have to wear uniforms every day.",
+  "acceptable_variants": ["students must wear uniforms every day.", "students need to wear uniforms every day."],
+  "options": [
+    {"text": "students can wear whatever they want.", "is_correct": false, "why_wrong": "'Can' gives permission, which contradicts the idea of strict rules. 'So' needs a consequence that follows from the rules."},
+    {"text": "students must to wear uniforms every day.", "is_correct": false, "why_wrong": "This is ungrammatical. 'Must' is followed directly by the base verb, without 'to'."},
+    {"text": "students have to wear uniforms every day.", "is_correct": true, "why_wrong": null},
+    {"text": "students don't have to wear uniforms.", "is_correct": false, "why_wrong": "This is the opposite of the obligation that strict rules create. 'Don't have to' means there is no obligation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Obligation with 'have to' after a result connector 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result of the first clause, here the strict rules. 'Have to' expresses an obligation that comes from outside the speaker, such as school rules. After 'must', the verb stays in its base form with no 'to', and learners who carry over a Turkish-style pattern may add an extra form to the modal, so keep the verb bare.",
+  "translation": "Okul kuralları çok katı olduğu için öğrencilerin her gün üniforma giymesi gerekir."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Ali's House",
+  "text": "My friend Ali has a small house in a quiet village. The house is white, and it has a red door. There is a big garden with many trees behind the house.\n\nIn the garden, there is a small pond. Ali's dog likes to swim there in the summer. The kitchen is yellow and warm, and it is Ali's favorite room.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is the door of Ali's house?", "options": ["Blue", "Red", "White", "Yellow"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is in the garden?", "options": ["A small pond", "A big swimming pool", "A red car", "A yellow chair"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Ali probably feel about his house?", "options": ["He is happy with it", "He wants to sell it", "He does not like the kitchen", "He is afraid of the dog"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does the dog probably enjoy the garden in summer?", "options": ["It is too cold there", "It has no trees", "It has a pond where it can swim", "It is a small room"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "quiet", "translation": "sessiz", "definition": "not loud, with little noise"},
+    {"word": "garden", "translation": "bahçe", "definition": "an area of land outside a house where plants and trees grow"},
+    {"word": "pond", "translation": "gölet", "definition": "a small area of still water"},
+    {"word": "favorite", "translation": "en sevilen", "definition": "liked more than others"}
+  ],
+  "paragraph_translations": [
+    "Arkadaşım Ali, sessiz bir köyde küçük bir evde yaşıyor. Ev beyaz ve kırmızı bir kapısı var. Evin arkasında birçok ağacın olduğu büyük bir bahçe var.",
+    "Bahçede küçük bir gölet var. Ali'nin köpeği yazın orada yüzmeyi seviyor. Mutfak sarı ve sıcak, ve Ali'nin en sevdiği oda burası."
+  ]
+}

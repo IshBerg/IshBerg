@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "lokal", "transliteration": "lokal", "meaning": "a small bar or pub where drinks are served"},
+    {"word": "pansiyon", "transliteration": "pansiyon", "meaning": "a small guesthouse or boarding house"},
+    {"word": "emekli maaşı", "transliteration": "emekli maasi", "meaning": "a regular payment received after retirement"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "friendly and pleasant to be with"}
+  ],
+  "english_words": ["pension", "pub", "friendly", "guesthouse"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Turkish word 'pansiyon' and the English word 'pension' come from the same French source, but each language developed a different meaning. The look-alike form is therefore misleading.",
+  "false_friend_warning": "Warning: the Turkish word 'pansiyon' means a small guesthouse, not a pension. In English, 'pension' usually means a regular payment received after retirement, so do not match the Turkish 'pansiyon' with 'pension'."
+}
