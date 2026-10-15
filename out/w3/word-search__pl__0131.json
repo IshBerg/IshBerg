@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "A", "R", "A", "D", "I", "G", "M", "Q", "O"],
+    ["X", "K", "J", "W", "Z", "V", "B", "F", "E", "N"],
+    ["H", "U", "C", "K", "L", "P", "Q", "W", "R", "T"],
+    ["W", "E", "P", "Q", "B", "K", "F", "Z", "C", "O"],
+    ["Z", "X", "G", "P", "V", "H", "K", "W", "Q", "L"],
+    ["K", "R", "M", "E", "J", "W", "Q", "Z", "F", "O"],
+    ["V", "B", "Q", "Z", "M", "X", "L", "P", "D", "G"],
+    ["F", "J", "K", "W", "P", "O", "Z", "B", "C", "Y"],
+    ["C", "H", "D", "R", "U", "W", "N", "K", "S", "L"],
+    ["S", "Y", "N", "T", "A", "X", "B", "Y", "R", "M"]
+  ],
+  "words_to_find": ["PARADIGM", "ONTOLOGY", "HEGEMONY", "SYNTAX"],
+  "word_positions": [
+    {"word": "PARADIGM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ONTOLOGY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "HEGEMONY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SYNTAX", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Domain-Specific Jargon Mastery"
+}
