@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am sorry I missed your call,",
+  "correct_completion": "because I was in a meeting at work.",
+  "full_sentence": "I am sorry I missed your call, because I was in a meeting at work.",
+  "acceptable_variants": ["because I was busy at work.", "because I was driving and could not answer."],
+  "options": [
+    {"text": "so my phone was very cheap.", "is_correct": false, "why_wrong": "'So' introduces a result, and a phone price does not explain why the call was missed."},
+    {"text": "because I was in a meeting at work.", "is_correct": true, "why_wrong": null},
+    {"text": "although your phone is very new.", "is_correct": false, "why_wrong": "'Although' introduces contrast, but the stem needs a reason for missing the call."},
+    {"text": "and I like pizza for dinner.", "is_correct": false, "why_wrong": "This is unrelated to the missed call and does not complete the message logically."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Giving a reason with 'because' in a text message",
+  "connector": "because",
+  "explanation": "After the comma, we need a clause that gives the reason for missing the call. Learners often start the clause with a simple reason, and the word because makes the cause clear.",
+  "translation": "Sinto muito por não ter atendido sua ligação, porque eu estava em uma reunião no trabalho."
+}
