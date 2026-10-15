@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Of all the cities we visited on holiday,",
+  "correct_completion": "Rome was the most beautiful.",
+  "full_sentence": "Of all the cities we visited on holiday, Rome was the most beautiful.",
+  "acceptable_variants": ["Rome was the most beautiful of them all.", "Rome was the best one we saw."],
+  "options": [
+    {"text": "we took a lot of photos.", "is_correct": false, "why_wrong": "This is true of the holiday, but it does not complete a superlative comparison among the cities."},
+    {"text": "Rome was the most beautiful.", "is_correct": true, "why_wrong": null},
+    {"text": "the cities were very old.", "is_correct": false, "why_wrong": "This describes the cities, but it does not compare them with each other as the phrase 'of all' requires."},
+    {"text": "Paris was more expensive than Rome.", "is_correct": false, "why_wrong": "A comparative compares two things, but the phrase 'of all the cities' needs a superlative that ranks the whole group."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Superlative adjectives with 'the most' and the group phrase 'of all'",
+  "connector": "of all",
+  "explanation": "The phrase 'of all' introduces the group being compared, so the sentence needs a superlative that ranks one item above the rest. Long adjectives such as 'beautiful' form the superlative with 'the most' instead of an -est ending. Spanish speakers may be tempted to use a comparative here because Spanish uses the same word for both forms, so it helps to look for the 'of all' group.",
+  "translation": "De todas las ciudades que visitamos de vacaciones, Roma fue la más bonita."
+}

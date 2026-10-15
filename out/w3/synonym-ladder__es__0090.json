@@ -1,0 +1,13 @@
+{
+  "start_word": "ill",
+  "end_word": "healthy",
+  "ladder_steps": [
+    {"word": "ill", "translation": "enfermo", "intensity_level": 1},
+    {"word": "unwell", "translation": "indispuesto", "intensity_level": 2},
+    {"word": "okay", "translation": "regular", "intensity_level": 3},
+    {"word": "well", "translation": "bien", "intensity_level": 4},
+    {"word": "healthy", "translation": "sano", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Health words form a scale from being ill to being fully healthy, each step a little better than the last."
+}

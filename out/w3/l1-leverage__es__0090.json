@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "fábrica", "transliteration": "fabrica", "meaning": "factory (a building where goods are made)"},
+    {"word": "bosque", "transliteration": "bosque", "meaning": "forest (a large area covered with trees)"},
+    {"word": "lluvia", "transliteration": "lluvia", "meaning": "rain (water falling from clouds)"},
+    {"word": "viento", "transliteration": "viento", "meaning": "wind (moving air)"}
+  ],
+  "english_words": ["rain", "factory", "wind", "forest"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Spanish word looks like an English word, but the two words developed different meanings over time, so the resemblance misleads learners.",
+  "false_friend_warning": "The Spanish word looks like the English word 'fabric', but it means 'factory', so students should not translate it as 'fabric'."
+}
