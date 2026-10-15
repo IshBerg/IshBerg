@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "bola", "transliteration": "bola", "meaning": "ball"},
+    {"word": "bala", "transliteration": "bala", "meaning": "candy"},
+    {"word": "pipa", "transliteration": "pipa", "meaning": "kite"},
+    {"word": "boneca", "transliteration": "boneca", "meaning": "doll"}
+  ],
+  "english_words": ["kite", "doll", "candy", "ball"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Portuguese toy and game words do not share roots with their English matches, so the meanings must be learned one by one. Some Portuguese words look like English words but mean something else, which is where learners can be misled.",
+  "false_friend_warning": "The Portuguese word bala means candy, not bullet, so an English speaker who sees the similar-looking English word bullet may guess the wrong meaning."
+}
