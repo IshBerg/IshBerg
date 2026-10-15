@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother never forgets my birthday, so",
+  "correct_completion": "he always sends me a message.",
+  "full_sentence": "My brother never forgets my birthday, so he always sends me a message.",
+  "acceptable_variants": ["he always remembers to call me.", "he always sends me a card."],
+  "options": [
+    {"text": "he never sends me a gift.", "is_correct": false, "why_wrong": "'Never' contradicts the result that 'so' introduces, since a brother who never forgets would be expected to send something."},
+    {"text": "he always sends me a message.", "is_correct": true, "why_wrong": null},
+    {"text": "I rarely remember his.", "is_correct": false, "why_wrong": "This talks about the speaker rather than the brother, and does not follow logically from the first clause."},
+    {"text": "he is sometimes late to work.", "is_correct": false, "why_wrong": "This adds unrelated information and does not describe a result of remembering birthdays."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Adverbs of frequency 'never' and 'always' with a result clause after 'so'",
+  "connector": "so",
+  "explanation": "After 'so', the clause must state a result that follows logically from the first part. Adverbs of frequency such as 'always' go before the main verb, and they must agree with the meaning of the first clause.",
+  "translation": "Mój brat nigdy nie zapomina o moich urodzinach, więc zawsze wysyła mi wiadomość."
+}

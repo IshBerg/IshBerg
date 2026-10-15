@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "R", "A", "I", "N", "X", "Z", "H"],
+    ["K", "D", "F", "L", "S", "W", "B", "O"],
+    ["T", "G", "Y", "U", "J", "B", "V", "T"],
+    ["I", "P", "N", "Q", "Z", "R", "W", "E"],
+    ["C", "W", "B", "E", "A", "C", "H", "L"],
+    ["K", "S", "D", "M", "F", "Q", "X", "R"],
+    ["E", "J", "V", "A", "Y", "U", "Z", "D"],
+    ["T", "B", "L", "P", "G", "N", "K", "S"]
+  ],
+  "words_to_find": ["TRAIN", "HOTEL", "BEACH", "TICKET", "MAP"],
+  "word_positions": [
+    {"word": "TRAIN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOTEL", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "BEACH", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "TICKET", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "MAP", "start_row": 5, "start_col": 3, "direction": "VERTICAL"}
+  ],
+  "topic": "Travel Adventures"
+}
