@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am writing to complain because",
+  "correct_completion": "the package arrived two weeks late.",
+  "full_sentence": "I am writing to complain because the package arrived two weeks late.",
+  "acceptable_variants": ["the delivery was never made.", "my order was damaged on arrival."],
+  "options": [
+    {"text": "thank you very much for your help.", "is_correct": false, "why_wrong": "This is a thank-you phrase, which does not give a reason for a complaint."},
+    {"text": "I am very happy with the service.", "is_correct": false, "why_wrong": "This states satisfaction, which contradicts the purpose of writing a complaint."},
+    {"text": "please send me the form now.", "is_correct": false, "why_wrong": "This is a request, not a reason for complaining."},
+    {"text": "the package arrived two weeks late.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the complaint in the first part of the sentence. Turkish speakers often place the reason before the main clause, so they should check that the reason follows 'because' in English.",
+  "translation": "Şikayet etmek için yazıyorum, çünkü paket iki hafta geç ulaştı."
+}
