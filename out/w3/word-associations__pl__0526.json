@@ -1,0 +1,14 @@
+{
+  "trigger_word": "timetable",
+  "all_words": [
+    {"word": "schedule", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Harmonogram i rozkład zajęć to w zasadzie to samo znaczenie, więc słowo jest bezpośrednio związane z rozkładem."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku z rozkładem zajęć ani z planowaniem czasu."},
+    {"word": "clock", "is_associated": true, "association_type": "THEMATIC", "explanation": "Zegar pokazuje czas, dlatego jest tematycznie związany z rozkładem jazdy i planem dnia."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banan nie ma związku z rozkładem zajęć ani z czasem."},
+    {"word": "calendar", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kalendarz służy do zapisywania dat i planowania spotkań, więc jest znaczeniowo związany z rozkładem."},
+    {"word": "departure", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'departure time' (godzina odjazdu) często pojawia się w rozkładach jazdy."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'timetable' dotyczą planowania czasu, zegarów, kalendarzy i odjazdów; mountain i banana nie mają z tym nic wspólnego."
+}
