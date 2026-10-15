@@ -1,0 +1,20 @@
+{
+  "title": "A Message from Ali",
+  "text": "Hi Anna, how are you? I am fine, thanks. I am writing from Istanbul because I have a new job here. The job is good, but it is very busy.\n\nCan you visit me next month? My flat has a big window and a small balcony. We can have dinner on the balcony. Write back soon! Love, Ali.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is Ali writing from?", "options": ["Istanbul", "Ankara", "Paris", "London"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Ali ask Anna to do?", "options": ["Send him a photo", "Call him tomorrow", "Visit him next month", "Buy a new flat"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Ali feel about his new job?", "options": ["He hates it and wants to leave", "He likes it, but it is busy", "He does not have a job", "He is bored because there is nothing to do"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is the most likely relationship between Ali and Anna?", "options": ["Teacher and student", "Boss and worker", "Strangers", "Friends"], "correct_index": 3, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "busy", "translation": "meşgul", "definition": "having a lot of things to do"},
+    {"word": "balcony", "translation": "balkon", "definition": "a platform outside a building, connected to a room"},
+    {"word": "visit", "translation": "ziyaret etmek", "definition": "to go to see a person or place for a short time"},
+    {"word": "flat", "translation": "daire", "definition": "a set of rooms for living in, on one floor of a building"}
+  ],
+  "paragraph_translations": [
+    "Merhaba Anna, nasılsın? İyiyim, teşekkürler. Yeni bir işim olduğu için buradan İstanbul'dan yazıyorum. İş iyi, ama çok meşgul.",
+    "Gelecek ay beni ziyaret edebilir misin? Dairemin büyük bir penceresi ve küçük bir balkonu var. Balkonda birlikte akşam yemeği yiyebiliriz. Yakında cevap yaz! Sevgilerle, Ali."
+  ]
+}
