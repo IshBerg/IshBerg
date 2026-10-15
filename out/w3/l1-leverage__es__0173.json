@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "temperatura", "transliteration": "temperatura", "meaning": "how hot or cold the air or a thing is"},
+    {"word": "color", "transliteration": "color", "meaning": "a shade seen by the eye, such as red or blue"},
+    {"word": "clima", "transliteration": "clima", "meaning": "the usual weather of a place over a long period"},
+    {"word": "tropical", "transliteration": "tropical", "meaning": "relating to the hot, wet areas near the equator"}
+  ],
+  "english_words": ["climate", "tropical", "temperature", "color"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin and Greek sources, so the spelling and meaning stayed close in English and in the other language.",
+  "false_friend_warning": null
+}
