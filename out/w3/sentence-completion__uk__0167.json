@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would be ready for the exam now.",
+  "full_sentence": "If I had studied harder last year, I would be ready for the exam now.",
+  "acceptable_variants": ["I would be better prepared now.", "I would have a better chance today."],
+  "options": [
+    {"text": "I was ready for the exam yesterday.", "is_correct": false, "why_wrong": "This describes a past fact. A mixed conditional needs a hypothetical past condition with a present result, so the main clause needs 'would' plus a present meaning."},
+    {"text": "I have studied for the exam already.", "is_correct": false, "why_wrong": "This reports a real past action. It does not express the imagined result of a condition that did not happen."},
+    {"text": "I would be ready for the exam now.", "is_correct": true, "why_wrong": null},
+    {"text": "I will be ready for the exam tomorrow.", "is_correct": false, "why_wrong": "'Will' is used for real future plans. In a mixed conditional, the main clause uses 'would' for an imagined present result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals (past condition with present result)",
+  "connector": "if",
+  "explanation": "The if-clause refers to an unreal past situation, so it uses the past perfect. The main clause refers to an unreal present result, so it uses 'would' with a base verb. Learners often mix up the tenses across the two clauses.",
+  "translation": "Якби я минулого року займався більше, зараз я був би готовий до екзамену."
+}
