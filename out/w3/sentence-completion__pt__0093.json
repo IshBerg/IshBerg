@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have very little time today, so",
+  "correct_completion": "I cannot visit you this afternoon.",
+  "full_sentence": "I have very little time today, so I cannot visit you this afternoon.",
+  "acceptable_variants": ["I will not be able to see you.", "I have to stay at home."],
+  "options": [
+    {"text": "I have plenty of time for everything.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the speaker has very little time. A result cannot be a plentiful supply of time."},
+    {"text": "there are too many people at the party.", "is_correct": false, "why_wrong": "This is not connected to the speaker's time. The stem needs a result about the speaker's own plans."},
+    {"text": "I cannot visit you this afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "I bought some apples at the market.", "is_correct": false, "why_wrong": "This describes a past action and does not explain why the speaker has little time now."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part of the sentence. Portuguese speakers may mix up 'so' and 'but' because both are short linking words, but 'so' always introduces a consequence.",
+  "translation": "Hoje tenho muito pouco tempo, por isso não posso visitar você esta tarde."
+}
