@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The first proposal was too expensive;",
+  "correct_completion": "consequently, the committee rejected it and asked for a cheaper alternative.",
+  "full_sentence": "The first proposal was too expensive; consequently, the committee rejected it and asked for a cheaper alternative.",
+  "acceptable_variants": ["hence the committee rejected it and requested a cheaper option.", "therefore the committee turned it down and asked for a less costly plan."],
+  "options": [
+    {"text": "however, the committee accepted it without changes.", "is_correct": false, "why_wrong": "'However' signals contrast, but a proposal that is too expensive would normally be rejected, so accepting it unchanged contradicts the logic of the stem."},
+    {"text": "consequently, the committee rejected it and asked for a cheaper alternative.", "is_correct": true, "why_wrong": null},
+    {"text": "moreover, the committee had already approved a similar budget.", "is_correct": false, "why_wrong": "'Moreover' adds information in the same direction, but the stem needs a result of the high cost, not an extra point."},
+    {"text": "for instance, the committee rejected a different proposal.", "is_correct": false, "why_wrong": "'For instance' introduces an example, but the stem requires a consequence of the high cost, not an illustration."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Consequential discourse markers in formal writing",
+  "connector": "consequently",
+  "explanation": "The stem gives a cause, so the continuation must mark a result. Learners often choose a contrastive or additive marker here, because the markers are close in meaning but not interchangeable. Spanish speakers in particular may overuse contrastive markers when linking two clauses.",
+  "translation": "La primera propuesta era demasiado cara; en consecuencia, el comité la rechazó y pidió una alternativa más barata."
+}
