@@ -1,0 +1,17 @@
+{
+  "central_word": "hate",
+  "chain_words": [
+    {"word": "dislike", "intensity": 1, "translation": "não gostar", "nuance": "mild negative feeling"},
+    {"word": "hate", "intensity": 2, "translation": "odiar", "nuance": "strong feeling of not wanting something"},
+    {"word": "despise", "intensity": 3, "translation": "desprezar", "nuance": "strong contempt, a feeling of looking down on something"},
+    {"word": "detest", "intensity": 4, "translation": "detestar", "nuance": "very strong dislike"},
+    {"word": "loathe", "intensity": 5, "translation": "abominar", "nuance": "extreme disgust, the strongest dislike"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express dislike, moving from a mild negative feeling to an extreme feeling of disgust.",
+  "usage_notes": [
+    {"word1": "dislike", "word2": "hate", "difference": "'Dislike' describes a mild negative feeling; 'hate' is much stronger and is used for intense feelings about people or things."}
+  ],
+  "translations": {"dislike": "não gostar", "hate": "odiar", "despise": "desprezar", "detest": "detestar", "loathe": "abominar"}
+}
