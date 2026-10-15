@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "H", "E", "O", "R", "Y", "Q", "B", "K"],
+    ["P", "D", "M", "F", "J", "W", "S", "V", "C"],
+    ["L", "K", "Q", "D", "Z", "F", "W", "R", "A"],
+    ["V", "B", "J", "S", "X", "Q", "H", "K", "N"],
+    ["Y", "C", "F", "D", "W", "M", "Q", "J", "O"],
+    ["T", "L", "Z", "B", "P", "K", "R", "E", "N"],
+    ["G", "E", "M", "P", "V", "W", "Z", "X", "B"],
+    ["D", "F", "X", "L", "Q", "A", "J", "M", "W"],
+    ["R", "K", "N", "T", "G", "S", "U", "P", "H"]
+  ],
+  "words_to_find": ["THEORY", "CANON", "TEXT", "GAZE"],
+  "word_positions": [
+    {"word": "THEORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CANON", "start_row": 1, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TEXT", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "GAZE", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Literary Criticism and Theory"
+}

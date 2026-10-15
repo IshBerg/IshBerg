@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dance",
+  "all_words": [
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Mesa é um móvel e não tem relação com dança nem com músicas de ação."},
+    {"word": "music", "is_associated": true, "association_type": "THEMATIC", "explanation": "A música é o tema principal das canções de ação, e as pessoas dançam ao som dela."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "Chuva é um fenômeno da natureza e não está ligada à dança."},
+    {"word": "move", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês dizemos 'dance move', que significa um movimento da dança."},
+    {"word": "clap", "is_associated": true, "association_type": "THEMATIC", "explanation": "Bater palmas é uma ação comum nas canções de dança e de ação."},
+    {"word": "dancer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dançarino é a pessoa que faz a dança, então tem um sentido muito próximo."}
+  ],
+  "correct_indices": [1, 3, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'dance' estão ligadas à música, aos movimentos e às pessoas que dançam. As palavras sem relação são objetos ou fenômenos que não fazem parte da dança."
+}
