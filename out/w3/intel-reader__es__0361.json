@@ -1,0 +1,20 @@
+{
+  "title": "Tom Has a Cold",
+  "text": "Tom has a cold. He feels tired and his head hurts. He stays in bed all day. He drinks warm tea.\n\nThe next day, Tom goes to the doctor. The doctor looks at his throat. She says Tom needs rest and water. Tom feels better after three days.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Tom have?", "options": ["A cold", "A broken arm", "A toothache", "A fever only"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Who does Tom go to see the next day?", "options": ["A teacher", "A doctor", "A friend", "A driver"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Tom stay in bed all day?", "options": ["He needs to rest to get better", "He wants to watch television", "He is waiting for a bus", "He is going on holiday"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Tom probably feel about the doctor?", "options": ["Thankful for her help", "Afraid of her", "Bored by her", "Angry with her"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "cold", "translation": "resfriado", "definition": "an illness that makes your nose run and your throat sore"},
+    {"word": "doctor", "translation": "médico", "definition": "a person who works to help sick people"},
+    {"word": "throat", "translation": "garganta", "definition": "the inside part of your neck that you use to swallow"},
+    {"word": "rest", "translation": "descanso", "definition": "time when you do nothing so that your body can recover"}
+  ],
+  "paragraph_translations": [
+    "Tom tiene un resfriado. Se siente cansado y le duele la cabeza. Se queda en la cama todo el día. Bebe té caliente.",
+    "Al día siguiente, Tom va al médico. La doctora le mira la garganta. Ella dice que Tom necesita descanso y agua. Tom se siente mejor después de tres días."
+  ]
+}
