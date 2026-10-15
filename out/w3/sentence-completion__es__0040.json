@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the report was long,",
+  "correct_completion": "she finished it before the deadline.",
+  "full_sentence": "Although the report was long, she finished it before the deadline.",
+  "acceptable_variants": ["she still finished it early.", "she completed it ahead of schedule."],
+  "options": [
+    {"text": "so she finished it early.", "is_correct": false, "why_wrong": "'So' shows result, but 'although' requires a contrast with the first part of the sentence."},
+    {"text": "she finished it before the deadline.", "is_correct": true, "why_wrong": null},
+    {"text": "the deadline was tomorrow.", "is_correct": false, "why_wrong": "This adds a fact about the deadline, but it does not give the contrasting action expected after 'although'."},
+    {"text": "it contained many pages.", "is_correct": false, "why_wrong": "This repeats the idea of the stem (the report was long) and does not create a contrast."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Here, a long report is contrasted with finishing it early.",
+  "translation": "Aunque el informe era largo, lo terminó antes de la fecha límite."
+}

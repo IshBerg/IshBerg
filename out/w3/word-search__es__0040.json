@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "I", "N", "T", "X", "Q", "C"],
+    ["K", "M", "R", "Z", "B", "W", "L"],
+    ["F", "P", "J", "S", "V", "G", "U"],
+    ["A", "L", "L", "U", "D", "E", "E"],
+    ["O", "Y", "K", "R", "T", "H", "Q"],
+    ["B", "W", "D", "A", "P", "Z", "X"],
+    ["N", "U", "A", "N", "C", "E", "R"]
+  ],
+  "words_to_find": ["HINT", "CLUE", "IMPLY", "ALLUDE", "NUANCE"],
+  "word_positions": [
+    {"word": "HINT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLUE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "IMPLY", "start_row": 0, "start_col": 1, "direction": "VERTICAL"},
+    {"word": "ALLUDE", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NUANCE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Nuanced Synonyms"
+}
