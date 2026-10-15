@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rather than simply accepting the proposal,",
+  "correct_completion": "the board demanded a full review of its financial assumptions.",
+  "full_sentence": "Rather than simply accepting the proposal, the board demanded a full review of its financial assumptions.",
+  "acceptable_variants": ["the board insisted on a detailed review of its figures.", "the board requested an independent audit of the forecasts."],
+  "options": [
+    {"text": "so the board accepted the proposal at once.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not fit the contrast set up by 'rather than'. The clause also repeats the very action the stem rejects."},
+    {"text": "the board's meeting took place on Tuesday.", "is_correct": false, "why_wrong": "This adds an unrelated detail and does not complete the contrast with simply accepting the proposal."},
+    {"text": "the board demanded a full review of its financial assumptions.", "is_correct": true, "why_wrong": null},
+    {"text": "although the board had already accepted it.", "is_correct": false, "why_wrong": "'Rather than' must be followed by a noun phrase or an -ing form, not a finite clause introduced by 'although', and the clause repeats the rejected action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive structure with 'rather than'",
+  "connector": "rather than",
+  "explanation": "'Rather than' sets up a contrast with the action of simply accepting, so the completion must present a different course of action. Ukrainian speakers may reach for a cause-and-effect continuation with 'so', because the contrast is expressed with a separate clause in their first language. Check that the completion offers an alternative, not a result.",
+  "translation": "Замість того щоб просто погодитися з пропозицією, рада вимагала ретельного перегляду її фінансових припущень."
+}
