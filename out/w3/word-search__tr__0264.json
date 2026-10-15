@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["E", "G", "G", "X", "Q", "Z", "F"],
+    ["V", "M", "B", "D", "P", "W", "L"],
+    ["T", "I", "N", "H", "Y", "C", "O"],
+    ["K", "L", "J", "E", "Q", "X", "U"],
+    ["Z", "K", "D", "W", "B", "V", "R"],
+    ["S", "U", "G", "A", "R", "P", "N"],
+    ["A", "F", "H", "Q", "T", "J", "C"]
+  ],
+  "words_to_find": ["EGG", "MILK", "FLOUR", "SUGAR"],
+  "word_positions": [
+    {"word": "EGG", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MILK", "start_row": 1, "start_col": 1, "direction": "VERTICAL"},
+    {"word": "FLOUR", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SUGAR", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Recipes"
+}
