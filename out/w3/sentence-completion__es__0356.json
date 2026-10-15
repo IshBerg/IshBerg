@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the bus is slow,",
+  "correct_completion": "I still take it every day.",
+  "full_sentence": "Although the bus is slow, I still take it every day.",
+  "acceptable_variants": ["I still ride it to work.", "I keep taking it to school."],
+  "options": [
+    {"text": "so I walk to school every day.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause. 'So' shows a result, so this option does not fit the sentence."},
+    {"text": "the bus stop is near my house.", "is_correct": false, "why_wrong": "This gives extra information, but it does not contrast with the slow bus."},
+    {"text": "I still take it every day.", "is_correct": true, "why_wrong": null},
+    {"text": "it is a very big bus.", "is_correct": false, "why_wrong": "This describes the bus again, but it does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Here the bus is slow, but the speaker still continues to use it.",
+  "translation": "Aunque el autobús es lento, todavía lo tomo todos los días."
+}
