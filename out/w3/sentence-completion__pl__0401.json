@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you want to arrive early,",
+  "correct_completion": "you should take the first train at 7 o'clock.",
+  "full_sentence": "If you want to arrive early, you should take the first train at 7 o'clock.",
+  "acceptable_variants": ["you should take the early bus.", "you can take a taxi."],
+  "options": [
+    {"text": "the station is closed today.", "is_correct": false, "why_wrong": "This is a fact about the station. It does not give a result or action that fits the condition about arriving early."},
+    {"text": "the train is very late today.", "is_correct": false, "why_wrong": "This describes a problem with the train. It does not help you arrive early."},
+    {"text": "you should take the first train at 7 o'clock.", "is_correct": true, "why_wrong": null},
+    {"text": "I like the big map.", "is_correct": false, "why_wrong": "This gives a personal opinion. It does not show a result of the condition in the first part of the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional sentences with 'if' and a suggested result",
+  "connector": "if",
+  "explanation": "After 'if', the main clause should give advice or a result that matches the condition. Here the advice is to take the earliest train.",
+  "translation": "Jeśli chcesz przyjechać wcześnie, powinieneś wsiąść do pierwszego pociągu o siódmej."
+}
