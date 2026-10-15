@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child, I used to",
+  "correct_completion": "play in the park every afternoon.",
+  "full_sentence": "When I was a child, I used to play in the park every afternoon.",
+  "acceptable_variants": ["spend my afternoons in the park.", "go to the park after school."],
+  "options": [
+    {"text": "playing in the park every afternoon.", "is_correct": false, "why_wrong": "'Used to' must be followed by the base form of the verb, not the -ing form. Say 'used to play'."},
+    {"text": "am playing in the park every afternoon.", "is_correct": false, "why_wrong": "'Used to' describes past habits, so the present continuous 'am playing' does not fit."},
+    {"text": "play in the park every afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "played in the park yesterday.", "is_correct": false, "why_wrong": "'Used to' describes repeated past habits, not a single finished event with 'yesterday'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Used to for past habits and states",
+  "connector": "used to",
+  "explanation": "'Used to' is followed by the base form of a verb and describes a habit or state that was true in the past but is no longer true. Learners should avoid the -ing form and the present or perfect tenses after it.",
+  "translation": "Коли я був дитиною, я щодня вдень грався в парку."
+}
