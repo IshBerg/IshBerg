@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, current"},
+    {"word": "коректний", "transliteration": "korektnyi", "meaning": "polite, tactful, appropriate"},
+    {"word": "евентуальний", "transliteration": "yeventualnyi", "meaning": "possible, contingent"},
+    {"word": "конкретний", "transliteration": "konkretnyi", "meaning": "specific, particular"}
+  ],
+  "english_words": ["correct", "eventual", "actual", "concrete"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "These Ukrainian words were borrowed from Latin or Greek like their English counterparts, but over time they took on different senses, so the English word looks like the right answer while meaning something else.",
+  "false_friend_warning": "Several of these Ukrainian words look like English words but mean something different: the Ukrainian word for 'relevant' or 'current' looks like English 'actual', the Ukrainian word for 'polite or tactful' looks like English 'correct', and the Ukrainian word for 'possible or contingent' looks like English 'eventual'. Learners should check the meaning rather than trust the spelling."
+}
