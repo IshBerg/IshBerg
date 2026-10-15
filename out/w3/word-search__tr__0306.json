@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["F", "L", "O", "O", "D", "K", "Q", "W", "S"],
+    ["J", "X", "D", "R", "O", "U", "G", "H", "T"],
+    ["T", "B", "Z", "E", "P", "Y", "L", "V", "O"],
+    ["A", "S", "N", "K", "W", "F", "C", "J", "R"],
+    ["E", "I", "U", "Q", "H", "X", "D", "G", "M"],
+    ["P", "L", "R", "N", "T", "Z", "B", "K", "Y"],
+    ["V", "O", "L", "C", "A", "N", "O", "E", "Q"],
+    ["W", "D", "G", "S", "U", "M", "R", "Y", "F"],
+    ["K", "Z", "H", "J", "C", "P", "I", "B", "N"]
+  ],
+  "words_to_find": ["FLOOD", "STORM", "TSUNAMI", "VOLCANO", "DROUGHT"],
+  "word_positions": [
+    {"word": "FLOOD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STORM", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TSUNAMI", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "VOLCANO", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DROUGHT", "start_row": 1, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Natural Disasters"
+}
