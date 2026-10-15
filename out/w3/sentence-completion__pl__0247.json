@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Should you need any further assistance,",
+  "correct_completion": "please do not hesitate to contact our support team.",
+  "full_sentence": "Should you need any further assistance, please do not hesitate to contact our support team.",
+  "acceptable_variants": ["please feel free to get in touch with our team.", "our support team will gladly help you."],
+  "options": [
+    {"text": "we will have helped you.", "is_correct": false, "why_wrong": "The future perfect is out of place in this polite offer; the speaker is inviting contact, not reporting a completed result."},
+    {"text": "then the matter had been resolved.", "is_correct": false, "why_wrong": "The past perfect describes an unreal past result and does not fit an offer of help in the present."},
+    {"text": "the price increases by ten percent.", "is_correct": false, "why_wrong": "This has no logical link with the condition 'should you need assistance'."},
+    {"text": "please do not hesitate to contact our support team.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditional with 'Should' in formal offers of help",
+  "connector": "should",
+  "explanation": "Inverted 'Should' replaces 'if' in formal English, and the main clause is a polite imperative offer. Polish speakers may keep a literal 'if' structure, because Polish conditionals rely on a particle rather than on word order.",
+  "translation": "Gdyby potrzebował Pan dalszej pomocy, proszę nie wahać się skontaktować z naszym zespołem wsparcia."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "kurs", "transliteration": "kurs", "meaning": "exchange rate"},
+    {"word": "rachunek", "transliteration": "rachunek", "meaning": "bill"},
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, pleasant"}
+  ],
+  "english_words": ["current", "bill", "exchange rate", "nice"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "The Polish words look close to English words but carry different meanings, so learners may translate them literally.",
+  "false_friend_warning": "The Polish word that looks like English 'course' means exchange rate in money contexts, and the Polish word that looks like 'sympathetic' means nice or pleasant, so learners should not rely on the look of the word."
+}
