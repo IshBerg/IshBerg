@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "mama", "transliteration": "mama", "meaning": "mother"},
+    {"word": "tata", "transliteration": "tata", "meaning": "father"},
+    {"word": "telefon", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "kino", "transliteration": "kino", "meaning": "cinema"}
+  ],
+  "english_words": ["telephone", "mother", "cinema", "father"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each of these words has a close partner in English with the same meaning. The forms stayed close because the words share a common family or international root, so the resemblance is not accidental.",
+  "false_friend_warning": null
+}

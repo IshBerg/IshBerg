@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the film had excellent reviews,",
+  "correct_completion": "I did not enjoy it very much.",
+  "full_sentence": "Although the film had excellent reviews, I did not enjoy it very much.",
+  "acceptable_variants": ["I still found it boring.", "I was not impressed by it."],
+  "options": [
+    {"text": "so we watched it again.", "is_correct": false, "why_wrong": "'Although' signals contrast, not a result. 'So' creates a cause-and-effect link that does not fit here."},
+    {"text": "the actors were very good.", "is_correct": false, "why_wrong": "This is another positive point, so it does not create the contrast that 'although' requires."},
+    {"text": "it was shown on Friday.", "is_correct": false, "why_wrong": "This gives a fact about timing but does not contrast with the reviews."},
+    {"text": "I did not enjoy it very much.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that contrasts with the first part. Here the positive reviews are contrasted with the speaker's disappointment. Learners sometimes choose a result clause with 'so' by mistake, so check the connector first.",
+  "translation": "Chociaż film miał znakomite recenzje, nie podobał mi się zbyt bardzo."
+}
