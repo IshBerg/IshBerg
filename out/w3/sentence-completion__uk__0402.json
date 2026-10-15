@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before we get on the bus,",
+  "correct_completion": "we check the timetable.",
+  "full_sentence": "Before we get on the bus, we check the timetable.",
+  "acceptable_variants": ["we look at the bus map.", "we find our platform."],
+  "options": [
+    {"text": "the bus has already left.", "is_correct": false, "why_wrong": "'Before' needs a clause about an action we do before boarding. If the bus has already left, we cannot get on it, so the sentence does not make sense."},
+    {"text": "we will be at the zoo yesterday.", "is_correct": false, "why_wrong": "This has a tense conflict: 'will' refers to the future, but 'yesterday' refers to the past. Use 'we were' for past time."},
+    {"text": "we check the timetable.", "is_correct": true, "why_wrong": null},
+    {"text": "the bus stop is on the map.", "is_correct": false, "why_wrong": "This is a statement about a location with no subject 'we' doing an action. The stem needs an action that happens before boarding."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', the main clause must describe an action that happens earlier than the event in the stem. Ukrainian speakers may mix up the order of events here, so check that the action comes before boarding. English uses the simple present for routine actions such as checking a timetable.",
+  "translation": "Перш ніж ми сядемо в автобус, ми перевіряємо розклад руху."
+}

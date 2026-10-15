@@ -1,0 +1,14 @@
+{
+  "trigger_word": "promise",
+  "all_words": [
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не пов'язаний з поняттям обіцянки."},
+    {"word": "vow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово 'vow' означає урочисту обіцянку, тому воно є близьким за значенням до 'promise'."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець є предметом для письма і не має зв'язку з обіцянками."},
+    {"word": "keep", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'keep a promise' означає 'дотриматися обіцянки', тому 'keep' часто вживається з цим словом."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не має жодного зв'язку з обіцянками."},
+    {"word": "trust", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Довіра тісно пов'язана з обіцянками, адже обіцянку дають, щоб викликати довіру."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'promise' пов'язане із синонімами, словосполученнями та поняттями довіри, тоді як нерелевантні слова описують предмети або місця без зв'язку з обіцянками."
+}
