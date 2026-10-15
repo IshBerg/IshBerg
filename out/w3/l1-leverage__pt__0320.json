@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "informação", "transliteration": "informacao", "meaning": "information"},
+    {"word": "análise", "transliteration": "analise", "meaning": "analysis"},
+    {"word": "hipótese", "transliteration": "hipotese", "meaning": "hypothesis"},
+    {"word": "universidade", "transliteration": "universidade", "meaning": "university"}
+  ],
+  "english_words": ["hypothesis", "university", "information", "analysis"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these academic terms from Latin through the same scholarly tradition, so the spelling and meaning stayed close. Pronunciation and stress differ slightly, but the root is easy to recognize when reading academic articles.",
+  "false_friend_warning": null
+}

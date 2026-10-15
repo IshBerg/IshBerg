@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She should have studied harder,",
+  "correct_completion": "but she went to the party instead.",
+  "full_sentence": "She should have studied harder, but she went to the party instead.",
+  "acceptable_variants": ["but she chose to relax instead.", "but she spent the evening with friends."],
+  "options": [
+    {"text": "but she got an excellent grade.", "is_correct": false, "why_wrong": "A good grade does not show regret about the missed study, so it does not fit the 'should have' meaning of the stem."},
+    {"text": "but she went to the party instead.", "is_correct": true, "why_wrong": null},
+    {"text": "so she passed the exam easily.", "is_correct": false, "why_wrong": "The modal perfect 'should have' expresses regret about a past action, and this completion does not express that regret."},
+    {"text": "because the exam was very easy.", "is_correct": false, "why_wrong": "This gives a reason for an easy exam, but the stem expresses criticism of a past choice, so this completion does not connect to it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Modal perfect 'should have' for past regret and criticism",
+  "connector": "but",
+  "explanation": "The modal perfect 'should have' + past participle expresses a past action that did not happen and is regretted. The contrast after 'but' must describe the action that was actually taken instead.",
+  "translation": "Ela deveria ter estudado mais, mas foi à festa em vez disso."
+}
