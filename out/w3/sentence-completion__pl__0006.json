@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The data was incomplete, so",
+  "correct_completion": "the researchers postponed their conclusions.",
+  "full_sentence": "The data was incomplete, so the researchers postponed their conclusions.",
+  "acceptable_variants": ["the researchers decided to wait for more data.", "the analysis was delayed until the spring."],
+  "options": [
+    {"text": "the researchers were pleased with the results.", "is_correct": false, "why_wrong": "This contradicts the logic of the stem: incomplete data is unlikely to produce a satisfying result that prompts no further action."},
+    {"text": "the researchers postponed their conclusions.", "is_correct": true, "why_wrong": null},
+    {"text": "the data was collected in March.", "is_correct": false, "why_wrong": "This gives a date rather than a consequence, so it does not complete the cause-and-effect link that 'so' requires."},
+    {"text": "the researchers were paid in advance.", "is_correct": false, "why_wrong": "This is unrelated to the incomplete data and does not follow from it as a result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result, so the completion must follow logically from the first clause. Learners sometimes add a fact that is true but does not express a consequence, so check that the second clause describes what happens as a result.",
+  "translation": "Dane były niepełne, więc badacze odłożyli wnioski."
+}
