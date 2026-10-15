@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "O", "U", "S", "E", "K", "J", "B", "Y", "C"],
+    ["W", "Z", "P", "M", "Q", "D", "F", "G", "R", "A"],
+    ["K", "X", "V", "B", "L", "I", "Q", "S", "D", "T"],
+    ["J", "Y", "N", "O", "M", "E", "L", "Z", "W", "X"],
+    ["D", "A", "G", "K", "Q", "R", "U", "B", "T", "X"],
+    ["R", "K", "M", "B", "P", "C", "W", "H", "E", "Y"],
+    ["Q", "I", "D", "Z", "S", "F", "G", "J", "N", "V"],
+    ["K", "B", "V", "L", "X", "H", "P", "R", "A", "U"],
+    ["Y", "F", "T", "E", "Z", "W", "D", "Q", "L", "M"],
+    ["G", "C", "J", "K", "R", "B", "S", "X", "P", "H"]
+  ],
+  "words_to_find": ["HOUSE", "CAT", "RIVER", "PLANET", "LEMON"],
+  "word_positions": [
+    {"word": "HOUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CAT", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "RIVER", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PLANET", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"},
+    {"word": "LEMON", "start_row": 3, "start_col": 6, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}
