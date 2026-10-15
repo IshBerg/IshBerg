@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "O", "L", "F", "K", "Z", "Q", "J", "V", "X"],
+    ["A", "Z", "M", "D", "E", "Q", "J", "U", "B", "N"],
+    ["Y", "K", "P", "H", "S", "D", "F", "G", "W", "X"],
+    ["L", "T", "Q", "A", "C", "V", "B", "Z", "I", "M"],
+    ["R", "N", "J", "K", "F", "O", "E", "L", "T", "D"],
+    ["G", "X", "U", "V", "P", "Y", "C", "M", "C", "Q"],
+    ["H", "I", "W", "K", "Y", "S", "N", "B", "H", "L"],
+    ["T", "F", "A", "Q", "J", "R", "I", "D", "O", "Z"],
+    ["K", "M", "V", "N", "E", "L", "R", "P", "G", "W"],
+    ["J", "O", "U", "X", "T", "K", "P", "E", "V", "S"]
+  ],
+  "words_to_find": ["WOLF", "WITCH", "GIANT", "PRINCE"],
+  "word_positions": [
+    {"word": "WOLF", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WITCH", "start_row": 2, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "GIANT", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PRINCE", "start_row": 9, "start_col": 6, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Folk Tales"
+}

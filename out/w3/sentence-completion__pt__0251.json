@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had she sat down,",
+  "correct_completion": "when the phone rang.",
+  "full_sentence": "Hardly had she sat down, when the phone rang.",
+  "acceptable_variants": ["before the phone rang."],
+  "options": [
+    {"text": "and the phone rang.", "is_correct": false, "why_wrong": "'And' does not express an immediate sequence of events. The fixed structure after 'hardly' requires 'when' or 'before'."},
+    {"text": "when the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "than the phone rang.", "is_correct": false, "why_wrong": "'Than' is used for comparison, so it cannot complete the time relation introduced by 'hardly'."},
+    {"text": "until the phone rang.", "is_correct": false, "why_wrong": "'Until' expresses a duration limit, not the immediate sequence that 'hardly ... when' describes."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'hardly ... when'",
+  "connector": "hardly",
+  "explanation": "The adverb 'hardly' at the start of the clause triggers subject-auxiliary inversion, and the sentence is completed with 'when' to show two events happening almost at the same moment. Portuguese speakers often use a coordinating conjunction here because Portuguese has no equivalent inversion pattern, so they need to practise the fixed 'hardly ... when' structure.",
+  "translation": "Mal ela tinha se sentado, quando o telefone tocou."
+}
