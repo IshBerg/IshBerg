@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "фото", "transliteration": "foto", "meaning": "photo"},
+    {"word": "таксі", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "банан", "transliteration": "banan", "meaning": "banana"},
+    {"word": "футбол", "transliteration": "futbol", "meaning": "football"}
+  ],
+  "english_words": ["banana", "photo", "football", "taxi"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same international sources, so the forms stayed close. Each pair keeps nearly the same spelling and sound, and the meaning is identical.",
+  "false_friend_warning": null
+}
