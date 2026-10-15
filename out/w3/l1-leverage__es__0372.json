@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "metáfora", "transliteration": "metáfora", "meaning": "metaphor, a figure of speech that compares two things"},
+    {"word": "símbolo", "transliteration": "símbolo", "meaning": "symbol, an object that represents an idea"},
+    {"word": "poesía", "transliteration": "poesía", "meaning": "poetry, writing in verse"},
+    {"word": "imagen", "transliteration": "imagen", "meaning": "image, a picture or vivid description"}
+  ],
+  "english_words": ["image", "poetry", "metaphor", "symbol"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "All four words come from Latin or Greek roots shared with English, so their spelling and meaning stayed close in both languages.",
+  "false_friend_warning": null
+}
