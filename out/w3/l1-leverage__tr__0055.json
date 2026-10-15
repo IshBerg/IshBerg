@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "doktor", "transliteration": "doktor", "meaning": "doctor"},
+    {"word": "garson", "transliteration": "garson", "meaning": "waiter"},
+    {"word": "polis", "transliteration": "polis", "meaning": "police officer"},
+    {"word": "pilot", "transliteration": "pilot", "meaning": "pilot"}
+  ],
+  "english_words": ["waiter", "pilot", "doctor", "police officer"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these profession words from European languages, so the forms stayed close. Most of them keep the same meaning in both languages.",
+  "false_friend_warning": "Careful: the Turkish word spelled garson looks like the English word garson, but in English that old word means a boy. The English word for the person who serves food in a restaurant is waiter."
+}

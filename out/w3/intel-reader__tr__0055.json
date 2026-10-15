@@ -1,0 +1,20 @@
+{
+  "title": "A Restaurant Review",
+  "text": "Maria wrote a review of a new Italian restaurant. She said the pasta was delicious and the staff were very friendly. However, she thought the restaurant was too noisy.\n\nHer friend Omar read the review before dinner. He liked the honest comments, so he booked a table for Friday. He wanted a quiet place, so he planned to ask for a seat near the window.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What did Maria say about the pasta?", "options": ["It was delicious.", "It was cold.", "It was too expensive.", "It was small."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What did Omar do after he read the review?", "options": ["He wrote a review.", "He cooked pasta.", "He booked a table.", "He called Maria."], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can we infer about Maria's opinion of the restaurant?", "options": ["The food was good, but the place was noisy.", "The food was bad and the place was quiet.", "The staff were rude and the food was cold.", "She did not go to the restaurant at all."], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we infer about Omar?", "options": ["He works in a restaurant.", "He is angry with Maria.", "He does not like Italian food.", "He values a calm place when he eats out."], "correct_index": 3, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "review", "translation": "inceleme", "definition": "a written opinion about a product, place or service"},
+    {"word": "honest", "translation": "dürüst", "definition": "telling the truth, not hiding the real opinion"},
+    {"word": "booked", "translation": "rezervasyon yaptı", "definition": "arranged to keep a table or seat in advance"},
+    {"word": "noisy", "translation": "gürültülü", "definition": "full of loud sounds"}
+  ],
+  "paragraph_translations": [
+    "Maria yeni bir İtalyan restoranı hakkında bir inceleme yazdı. Makarnanın lezzetli olduğunu ve personelin çok güler yüzlü olduğunu söyledi. Ancak restoranın çok gürültülü olduğunu düşündü.",
+    "Arkadaşı Omar akşam yemeğinden önce incelemeyi okudu. Dürüst yorumları beğendi, bu yüzden cuma için bir masa rezerve etti. Sakin bir yer istediği için pencere kenarında bir koltuk isteyeceğini planladı."
+  ]
+}

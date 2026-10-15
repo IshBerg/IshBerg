@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister always",
+  "correct_completion": "wakes up early on Sundays.",
+  "full_sentence": "My sister always wakes up early on Sundays.",
+  "acceptable_variants": ["gets up early on Sundays.", "is up early on Sundays."],
+  "options": [
+    {"text": "wake up early on Sundays.", "is_correct": false, "why_wrong": "'My sister' is third person singular, so the verb needs -s: 'wakes'."},
+    {"text": "waking up early on Sundays.", "is_correct": false, "why_wrong": "The -ing form cannot be the main verb after the subject here. The simple present needs a plain verb form."},
+    {"text": "wakes up early on Sundays.", "is_correct": true, "why_wrong": null},
+    {"text": "did wake up early on Sundays.", "is_correct": false, "why_wrong": "'Did' is past tense, but 'always' describes a regular habit, so the present simple is needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Third person singular -s in the present simple",
+  "connector": "always",
+  "explanation": "The subject 'my sister' is third person singular, so the verb takes -s in the present simple. Turkish speakers may forget the -s because Turkish verb endings show the person in a different way from English.",
+  "translation": "Kız kardeşim Pazar günleri her zaman erken uyanır."
+}
