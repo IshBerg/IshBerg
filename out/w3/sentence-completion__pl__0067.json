@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will watch a film inside.", "we will not go out."],
+  "options": [
+    {"text": "yesterday we bought bread.", "is_correct": false, "why_wrong": "'Yesterday' is past time, but the 'if' clause refers to the future, so the main clause must also be about the future."},
+    {"text": "the shop was open on Monday.", "is_correct": false, "why_wrong": "This is a past statement about a shop and does not complete the condition set by 'if'."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "in the morning we eat breakfast.", "is_correct": false, "why_wrong": "This describes a daily routine and does not answer the condition in the first part of the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "The 'if' clause uses the present simple for a future possibility, and the main clause uses 'will' with a base verb. Polish speakers often need to remember that English does not use a future tense inside the 'if' clause.",
+  "translation": "Jeśli jutro będzie padać, zostaniemy w domu."
+}
