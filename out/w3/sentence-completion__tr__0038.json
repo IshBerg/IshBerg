@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though he studied all night,",
+  "correct_completion": "he still passed the exam.",
+  "full_sentence": "Even though he studied all night, he still passed the exam.",
+  "acceptable_variants": ["he still felt ready for the test.", "he still got a good grade."],
+  "options": [
+    {"text": "so he passed the exam easily.", "is_correct": false, "why_wrong": "'Even though' shows contrast, not result. 'So' introduces a result that does not fit the contrast."},
+    {"text": "he still passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "he was very tired the next morning.", "is_correct": false, "why_wrong": "This adds a detail but does not complete the contrast that 'even though' sets up."},
+    {"text": "because the exam was easy.", "is_correct": false, "why_wrong": "'Because' gives a cause, which contradicts the contrast expected after 'even though'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the main clause must show a result that goes against what we would expect. Learners often add a cause or result connector here by mistake, so check that the main clause contrasts with the first part.",
+  "translation": "Bütün gece çalışmasına rağmen yine de sınavı geçti."
+}

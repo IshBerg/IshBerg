@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "R", "E", "A", "K", "X", "Q", "Z", "R"],
+    ["A", "C", "F", "J", "W", "P", "N", "G", "U"],
+    ["Y", "K", "T", "D", "V", "H", "S", "O", "L"],
+    ["M", "B", "R", "I", "C", "Y", "A", "F", "E"],
+    ["Q", "W", "J", "K", "M", "N", "X", "P", "Z"],
+    ["G", "D", "V", "U", "R", "E", "I", "K", "B"],
+    ["S", "L", "N", "C", "F", "X", "W", "T", "J"],
+    ["P", "Y", "Q", "G", "Z", "V", "D", "M", "K"],
+    ["W", "A", "H", "O", "L", "D", "R", "F", "N"]
+  ],
+  "words_to_find": ["BREAK", "RULE", "TIME", "HOLD"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RULE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TIME", "start_row": 2, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "HOLD", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations"
+}
