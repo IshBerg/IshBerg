@@ -1,0 +1,14 @@
+{
+  "trigger_word": "letter",
+  "all_words": [
+    {"word": "envelope", "is_associated": true, "association_type": "THEMATIC", "explanation": "Zarf, mektubun gönderilmesinde kullanılan bir nesnedir, bu yüzden letter ile tematik olarak ilişkilidir."},
+    {"word": "elephant", "is_associated": false, "association_type": "NONE", "explanation": "Fil ne mektupla ne de yazışmayla ilgilidir, dolayısıyla bu kelime ile bir bağlantısı yoktur."},
+    {"word": "stamp", "is_associated": true, "association_type": "THEMATIC", "explanation": "Pul, mektubu postalamak için gereken bir malzemedir, bu nedenle letter ile tematik olarak bağlantılıdır."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet mektup kavramıyla hiçbir anlam ya da kullanım ilişkisi taşımaz."},
+    {"word": "formal", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "formal letter bir kalıp dil örneğidir ve resmi dil kaydı ile mektup arasında yerleşik bir eşleşme vardır."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "Okyanus ile mektup arasında ne anlamsal ne de kullanımsal bir bağ vardır."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Letter kelimesi posta, yazışma ve resmi yazı dili ile ilişkilidir; buna karşılık hayvanlar, ulaşım araçları ve doğa öğeleri bu kelimenin çağrışımları arasında yer almaz."
+}
