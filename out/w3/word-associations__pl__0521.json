@@ -1,0 +1,14 @@
+{
+  "trigger_word": "moon",
+  "all_words": [
+    {"word": "star", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gwiazdy świecą na niebie w nocy, tak jak księżyc."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma związku z księżycem ani z tradycyjnymi rymowankami."},
+    {"word": "cow", "is_associated": true, "association_type": "THEMATIC", "explanation": "Krowa skakała przez księżyc w znanej angielskiej rymowance."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka nie ma związku z księżycem ani z rymowankami."},
+    {"word": "sky", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Niebo to miejsce, na którym widzimy księżyc."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "Komputer nie ma związku z księżycem ani z rymowankami."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z księżycem to te, które widzimy na niebie lub które pojawiają się w rymowance o krowie i księżycu; pozostałe nie mają z tym tematem nic wspólnego."
+}
