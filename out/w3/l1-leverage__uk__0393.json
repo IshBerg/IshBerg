@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "телефон", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "таксі", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "парк", "transliteration": "park", "meaning": "park"},
+    {"word": "банан", "transliteration": "banan", "meaning": "banana"}
+  ],
+  "english_words": ["park", "taxi", "banana", "telephone"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each word has a close English counterpart with the same meaning and a similar form, because both languages took these words from the same international sources. The transliterations give the Latin-letter spelling of the Ukrainian words for reference.",
+  "false_friend_warning": null
+}
