@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I wish I had more time,",
+  "correct_completion": "so I could finish the project.",
+  "full_sentence": "I wish I had more time, so I could finish the project.",
+  "acceptable_variants": ["so I would be able to finish the project.", "which would let me finish the project."],
+  "options": [
+    {"text": "so I finish the project now.", "is_correct": false, "why_wrong": "After 'so I could', the verb must be in the past modal form 'could finish'. The present form does not express the unreal result of the wish."},
+    {"text": "so I could finish the project.", "is_correct": true, "why_wrong": null},
+    {"text": "because I am finishing it today.", "is_correct": false, "why_wrong": "'Because' introduces a real cause. The wish is about a situation that is not true now, so it needs an unreal result."},
+    {"text": "so I have finished the project.", "is_correct": false, "why_wrong": "'Have finished' describes a completed action, which does not fit the unreal result that follows 'I wish'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Wish with past simple for unreal present situations",
+  "connector": "I wish",
+  "explanation": "After 'I wish' with the past simple, the speaker describes a present situation that is not true, and the result clause uses could plus the base verb. Spanish speakers may use a present form here because Spanish expresses wishes with a different mood, but English uses the past simple after wish to show an unreal present.",
+  "translation": "Ojalá tuviera más tiempo para terminar el proyecto."
+}
