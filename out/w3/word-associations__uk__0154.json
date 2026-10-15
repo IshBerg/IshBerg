@@ -1,0 +1,14 @@
+{
+  "trigger_word": "money",
+  "all_words": [
+    {"word": "bank", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Банк пов'язаний з грошима, адже саме там їх зберігають, обмінюють і позичають."},
+    {"word": "wallet", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гаманець є місцем, де люди носять гроші, тому це слово належить до тієї самої теми."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка є природним об'єктом і не має жодного стосунку до грошей чи фінансів."},
+    {"word": "coin", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Монета є однією з форм грошей, тому це слово має пряме смислове значення, пов'язане з money."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно є музичним інструментом і не пов'язане з грошима."},
+    {"word": "price", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ціна є ключовим поняттям у торгівлі, і її завжди виражають у грошових одиницях."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з money, стосуються фінансів, банків, покупок і грошових предметів, а слова про природу чи музику не підходять."
+}
