@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pencil",
+  "all_words": [
+    {"word": "eraser", "is_associated": true, "association_type": "THEMATIC", "explanation": "Silgi, kurşun kalemle yazılanları silmek için kullanılır; bu yüzden kalemle aynı konuya aittir."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmek bir yiyecektir ve kalemle hiçbir ilgisi yoktur."},
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kalemle genellikle kağıda yazılır; bu yüzden kağıt kalemle birlikte düşünülür."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Pencere (window) sınıfta bulunabilir ama kalemle bir bağlantısı yoktur."},
+    {"word": "sharpener", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Kalemtıraş (pencil sharpener) kalemin ucunu açmak için kullanılır; 'pencil sharpener' sık kullanılan bir ifadedir."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Ayakkabı giyilen bir eşyadır ve kalemle ilgili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kalemle ilgili kelimeler yazma ve düzeltme araçlarıyla ya da kalemin kullanımıyla bağlantılıdır; diğer kelimeler ise farklı konulara aittir."
+}

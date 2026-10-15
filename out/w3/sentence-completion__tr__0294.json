@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Ali is my friend,",
+  "correct_completion": "he lives near my house.",
+  "full_sentence": "Ali is my friend, and he lives near my house.",
+  "acceptable_variants": ["he is very kind.", "he likes football."],
+  "options": [
+    {"text": "she is my teacher.", "is_correct": false, "why_wrong": "Ali is a man, so the pronoun 'she' does not match him, and a teacher is not a friend in this sentence."},
+    {"text": "he lives near my house.", "is_correct": true, "why_wrong": null},
+    {"text": "it is a big dog.", "is_correct": false, "why_wrong": "'It' is used for things and animals, not for a person like Ali."},
+    {"text": "they are in the park.", "is_correct": false, "why_wrong": "'They' is plural, but Ali is one person, so the pronoun must be singular."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Subject pronouns he, she, it and they",
+  "connector": "and",
+  "explanation": "Use the subject pronoun that matches the person or thing it replaces. Since Ali is one male person, the singular masculine pronoun 'he' is correct. Turkish uses one third-person pronoun for both he and she, so learners should check the gender in English.",
+  "translation": "Ali benim arkadaşım ve evimin yakınında yaşıyor."
+}
