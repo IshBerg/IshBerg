@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pasta", "transliteration": "pasta", "meaning": "spread or paste (e.g. chocolate spread)"},
+    {"word": "tort", "transliteration": "tort", "meaning": "layer cake"},
+    {"word": "bułka", "transliteration": "bulka", "meaning": "bread roll"},
+    {"word": "ser", "transliteration": "ser", "meaning": "cheese"}
+  ],
+  "english_words": ["cheese", "spread", "bread roll", "cake"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Polish word and the English word are spelled the same way, but they do not mean the same thing. The Polish word for a spread looks like the English word for noodles, so it is a trap for English learners.",
+  "false_friend_warning": "The Polish word 'pasta' looks like the English word 'pasta', but in Polish it means a spread or paste, such as chocolate spread. English 'pasta' means noodles, so Polish speakers should not use it for noodles."
+}

@@ -1,0 +1,32 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "bus",
+  "collocate": "stop",
+  "full_collocation": "bus stop",
+  "options": ["bus", "road", "street", "car"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "road", "reason": "We don't say 'road stop' for a place where buses wait. 'Road' is the surface you drive on, e.g. a country road."},
+    {"word": "street", "reason": "We don't say 'street stop'. 'Street' is a road in a town, not a vehicle or a stopping place."},
+    {"word": "car", "reason": "We don't say 'car stop'. For cars we use 'car park' or 'car wash', not 'car stop'."}
+  ],
+  "example_sentence": "Wait for me at the ___ stop at eight o'clock.",
+  "gap_position": 5,
+  "translation": "przystanek autobusowy",
+  "l1_interference": "Osoby mówiące po polsku często odwracają kolejność i mówią 'stop bus', bo w polskim rzeczownik główny ('przystanek') stoi przed przymiotnikiem. W angielskim rzeczownik określający ('bus') stoi przed głównym rzeczownikiem: 'bus stop'.",
+  "common_mistake": "stop bus",
+  "explanation": "In English, a noun can describe another noun: 'bus' tells us what kind of stop it is. The first noun is the modifier and the second noun is the head of the phrase.",
+  "related_collocations": [
+    {"collocation": "train station", "translation": "stacja kolejowa", "example": "The train station is ten minutes from our house."},
+    {"collocation": "bus timetable", "translation": "rozkład jazdy autobusu", "example": "Check the bus timetable before you leave."},
+    {"collocation": "traffic jam", "translation": "korek drogowy", "example": "We were late because of a traffic jam."}
+  ],
+  "memory_tip": "BUS STOP = the STOP for the BUS. Put the 'what' word first: bus stop, train station, traffic jam.",
+  "matching_pairs": [
+    {"left": "bus", "right": "stop"},
+    {"left": "train", "right": "station"},
+    {"left": "traffic", "right": "jam"},
+    {"left": "phone", "right": "call"},
+    {"left": "office", "right": "hours"}
+  ]
+}
