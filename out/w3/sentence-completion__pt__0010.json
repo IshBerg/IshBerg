@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Some students prefer to study in silence, whereas others",
+  "correct_completion": "prefer to study with background music.",
+  "full_sentence": "Some students prefer to study in silence, whereas others prefer to study with background music.",
+  "acceptable_variants": ["do so with music playing in the background.", "do so with background music."],
+  "options": [
+    {"text": "study in silence as well.", "is_correct": false, "why_wrong": "'As well' signals addition or similarity, but 'whereas' requires a contrast with the first clause."},
+    {"text": "prefer to study with background music.", "is_correct": true, "why_wrong": null},
+    {"text": "so they stayed at home.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast, and 'whereas' cannot be followed by a result clause here."},
+    {"text": "they study in silence too.", "is_correct": false, "why_wrong": "'Too' repeats the first clause instead of contrasting with it, so the meaning is similarity, not contrast."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive connector 'whereas' and verb-phrase ellipsis",
+  "connector": "whereas",
+  "explanation": "After 'whereas', the second clause sets up a contrast with the first. The verb phrase 'prefer to study' is left out after 'others', so the completion only needs the contrasting complement that follows it.",
+  "translation": "Alguns alunos preferem estudar em silêncio, enquanto outros preferem estudar com música de fundo."
+}
