@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "банан", "transliteration": "banan", "meaning": "banana"},
+    {"word": "таксі", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "радіо", "transliteration": "radio", "meaning": "radio"},
+    {"word": "фото", "transliteration": "foto", "meaning": "photo"}
+  ],
+  "english_words": ["radio", "banana", "photo", "taxi"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "All four words were borrowed from the same international sources, so the forms in English and in the Ukrainian words stayed close in spelling and sound.",
+  "false_friend_warning": null
+}
