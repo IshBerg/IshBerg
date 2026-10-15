@@ -1,0 +1,14 @@
+{
+  "codename": "SILENT QUILL",
+  "briefing": "Agent, our informants have hidden literary terms inside coded messages from the archive. Link each English term to its Spanish equivalent to decode the file before it is destroyed.",
+  "connection_mode": "vocabulary",
+  "difficulty": "hard",
+  "pairs": [
+    {"left": "metaphor", "right": "metáfora", "left_style": "document", "right_style": "handwritten"},
+    {"left": "irony", "right": "ironía", "left_style": "photo", "right_style": "newspaper"},
+    {"left": "narrator", "right": "narrador", "left_style": "newspaper", "right_style": "official"},
+    {"left": "simile", "right": "símil", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "protagonist", "right": "protagonista", "left_style": "official", "right_style": "document"},
+    {"left": "foreshadowing", "right": "prefiguración", "left_style": "document", "right_style": "official"}
+  ]
+}
