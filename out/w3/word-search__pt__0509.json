@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "Q", "L"],
+    ["K", "B", "M", "P", "F", "W", "Z", "E"],
+    ["H", "J", "R", "T", "G", "V", "D", "X"],
+    ["D", "I", "A", "L", "E", "C", "T", "I"],
+    ["P", "W", "K", "Y", "B", "N", "F", "C"],
+    ["M", "G", "Z", "S", "H", "R", "J", "O"],
+    ["S", "Y", "N", "T", "A", "X", "B", "N"],
+    ["G", "L", "D", "K", "W", "P", "H", "T"]
+  ],
+  "words_to_find": ["NUANCE", "LEXICON", "DIALECT", "SYNTAX"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEXICON", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "DIALECT", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SYNTAX", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Literary Translation"
+}
