@@ -1,0 +1,14 @@
+{
+  "trigger_word": "court",
+  "all_words": [
+    {"word": "judge", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Hakim, mahkeme salonunda davayı yöneten kişidir; bu yüzden mahkemeyle doğrudan ilişkilidir."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Bahçe ile mahkeme arasında anlamsal ya da kullanımsal bir bağ yoktur."},
+    {"word": "lawyer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Avukat, mahkemede dava savunmasını yapan meslek mensubudur; aynı hukuk konusuna aittir."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sandviç ile mahkeme arasında herhangi bir anlam ya da konu bağlantısı yoktur."},
+    {"word": "verdict", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Karar, mahkemenin davanın sonunda verdiği resmi hükümdür."},
+    {"word": "tennis", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Tennis court ifadesi, tenis oynanan saha anlamında yaygın bir birlikte kullanımdır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Court, hukuk ve adalet sistemiyle güçlü bağlantılar kurar; spor sahası anlamı ise tennis court ifadesiyle ortaya çıkar. Bağlantısı olmayan kelimeler ise günlük nesnelerden seçilmiştir."
+}
