@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "U", "D", "D", "E", "N", "L", "Y", "K", "T"],
+    ["M", "Q", "B", "Y", "O", "V", "R", "P", "Z", "H"],
+    ["J", "C", "X", "G", "L", "D", "K", "U", "W", "E"],
+    ["Q", "I", "S", "B", "H", "L", "C", "O", "V", "N"],
+    ["A", "D", "G", "U", "P", "X", "A", "J", "M", "K"],
+    ["Z", "F", "W", "O", "C", "G", "H", "N", "Q", "B"],
+    ["Y", "L", "T", "V", "D", "S", "R", "E", "I", "X"],
+    ["P", "K", "J", "E", "M", "W", "Q", "B", "G", "F"],
+    ["L", "V", "X", "C", "R", "Z", "U", "O", "H", "D"],
+    ["N", "A", "K", "T", "N", "E", "W", "I", "S", "G"]
+  ],
+  "words_to_find": ["SUDDENLY", "THEN", "AFTER", "WENT", "FINALLY"],
+  "word_positions": [
+    {"word": "SUDDENLY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THEN", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "AFTER", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WENT", "start_row": 9, "start_col": 6, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "FINALLY", "start_row": 7, "start_col": 9, "direction": "DIAGONAL_UP_LEFT"}
+  ],
+  "topic": "Narrating Events"
+}

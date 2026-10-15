@@ -1,0 +1,20 @@
+{
+  "title": "Our Flat",
+  "text": "This is our flat. It has two bedrooms and a big kitchen. In the kitchen there is a table and four chairs. The table is white.\n\nMy sister's room is small. It has a bed, a desk and a bookcase. Her books are on the bookcase. I like the yellow curtains in her room.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How many bedrooms does the flat have?", "options": ["One", "Two", "Three", "Four"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What color is the table?", "options": ["Blue", "Yellow", "White", "Brown"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Where does the writer's sister probably study?", "options": ["In the kitchen", "At her desk", "In the bathroom", "On the bed"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about the writer's sister?", "options": ["She likes reading", "She hates books", "She has no room", "She works in the kitchen"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "kitchen", "translation": "mutfak", "definition": "a room where food is prepared and cooked"},
+    {"word": "bookcase", "translation": "kitaplık", "definition": "a piece of furniture with shelves for books"},
+    {"word": "curtains", "translation": "perdeler", "definition": "pieces of cloth hung at a window to cover it"},
+    {"word": "desk", "translation": "çalışma masası", "definition": "a table used for reading, writing or studying"}
+  ],
+  "paragraph_translations": [
+    "Bu bizim dairemiz. İki yatak odası ve büyük bir mutfağı var. Mutfakta bir masa ve dört sandalye var. Masa beyaz.",
+    "Kız kardeşimin odası küçük. Bir yatağı, bir çalışma masası ve bir kitaplığı var. Kitapları kitaplıkta. Odasındaki sarı perdeleri seviyorum."
+  ]
+}

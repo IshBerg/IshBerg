@@ -1,0 +1,13 @@
+{
+  "codename": "SILENT PRESS",
+  "briefing": "Agent, intercepted newsroom notes contain coded terms. Match each English word to its Turkish meaning before the story goes to print.",
+  "connection_mode": "vocabulary",
+  "difficulty": "hard",
+  "pairs": [
+    {"left": "news", "right": "haber", "left_style": "document", "right_style": "handwritten"},
+    {"left": "reporter", "right": "muhabir", "left_style": "photo", "right_style": "document"},
+    {"left": "headline", "right": "manşet", "left_style": "newspaper", "right_style": "official"},
+    {"left": "article", "right": "makale", "left_style": "handwritten", "right_style": "newspaper"},
+    {"left": "editor", "right": "editör", "left_style": "official", "right_style": "photo"}
+  ]
+}
