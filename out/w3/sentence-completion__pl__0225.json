@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been better informed,",
+  "correct_completion": "it might well have reached a different conclusion.",
+  "full_sentence": "Had the committee been better informed, it might well have reached a different conclusion.",
+  "acceptable_variants": ["it may well have arrived at a different verdict.", "it could well have come to another conclusion."],
+  "options": [
+    {"text": "it must have reached a different conclusion.", "is_correct": false, "why_wrong": "'Must have' expresses a strong deduction and signals high confidence, which contradicts the tentative tone that a hedged conditional requires."},
+    {"text": "it might well have reached a different conclusion.", "is_correct": true, "why_wrong": null},
+    {"text": "it will reach a different conclusion.", "is_correct": false, "why_wrong": "'Will' with a present-time reading breaks the counterfactual past set up by 'Had ... been', so a modal perfect is needed."},
+    {"text": "it should have reached a different conclusion.", "is_correct": false, "why_wrong": "'Should have' shifts the meaning toward expectation or criticism (the committee was expected to conclude differently), rather than a hedged possibility."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with a hedged modal perfect ('might well have')",
+  "connector": "had",
+  "explanation": "'Might well' is a hedged modal that signals a strong but tentative possibility in a hypothetical past. 'Must have' overstates certainty, 'will' ignores the counterfactual past, and 'should have' turns the sentence into an expectation or judgement. Polish speakers often collapse all degrees of possibility into one conditional form, so English graded modals need deliberate practice.",
+  "translation": "Gdyby komisja była lepiej poinformowana, całkiem możliwe, że doszłaby do innego wniosku."
+}

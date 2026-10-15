@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hypothesis",
+  "all_words": [
+    {"word": "experiment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Eksperyment to podstawowe narzędzie, za pomocą którego sprawdza się hipotezę w badaniach naukowych."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma żadnego związku z hipotezą ani z metodologią badań naukowych."},
+    {"word": "theory", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Teoria i hipoteza są blisko spokrewnione znaczeniowo, ponieważ hipoteza bywa punktem wyjścia do budowy teorii."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Dywan nie ma żadnego związku semantycznego ani tematycznego z hipotezą."},
+    {"word": "test", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "To test a hypothesis to typowe połączenie, dlatego oba słowa często występują razem."},
+    {"word": "orange", "is_associated": false, "association_type": "NONE", "explanation": "Pomarańcza nie jest powiązana z hipotezą ani pod względem znaczenia, ani w typowych zestawieniach."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzenia z hasłem 'hypothesis' wynikają z metody naukowej: hipotezę formułuje się, a następnie testuje w eksperymencie, więc słowa związane z tym procesem pasują, a pozostałe nie."
+}
