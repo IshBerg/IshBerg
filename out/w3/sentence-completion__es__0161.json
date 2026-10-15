@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the manager apologize,",
+  "correct_completion": "but she also offered to fix the mistake.",
+  "full_sentence": "Not only did the manager apologize, but she also offered to fix the mistake.",
+  "acceptable_variants": ["but she also promised to help.", "but she also offered a refund."],
+  "options": [
+    {"text": "and she apologized again.", "is_correct": false, "why_wrong": "It repeats the same idea instead of adding a stronger second idea after 'Not only'."},
+    {"text": "so she was very sorry.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'Not only' needs a second idea that adds to the first."},
+    {"text": "but she also offered to fix the mistake.", "is_correct": true, "why_wrong": null},
+    {"text": "but she didn't offer anything.", "is_correct": false, "why_wrong": "The negative contradicts the emphasis built by 'Not only', which expects an added positive action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Inversion with 'not only ... but also'",
+  "connector": "not only ... but also",
+  "explanation": "After 'Not only', English needs an auxiliary verb before the subject, and the second idea is introduced by 'but also'. Spanish speakers often leave out the auxiliary verb in this structure.",
+  "translation": "No solo se disculpó la gerente, sino que también ofreció arreglar el error."
+}
