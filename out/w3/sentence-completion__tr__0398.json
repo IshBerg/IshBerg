@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the menu was long,",
+  "correct_completion": "we found a dish we liked.",
+  "full_sentence": "Even though the menu was long, we found a dish we liked.",
+  "acceptable_variants": ["we still chose something good.", "we ordered a salad anyway."],
+  "options": [
+    {"text": "so we ordered quickly.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'even though' sets up a contrast, so a result clause does not fit here."},
+    {"text": "because we were hungry.", "is_correct": false, "why_wrong": "'Because' gives a cause, which conflicts with the contrast expressed by 'even though'."},
+    {"text": "we found a dish we liked.", "is_correct": true, "why_wrong": null},
+    {"text": "if we had time.", "is_correct": false, "why_wrong": "'If' starts a condition, and this fragment is incomplete as the second part of a sentence begun with 'even though'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the main clause must show a result that contrasts with the difficulty in the first part. Learners sometimes choose a clause with 'so' or 'because', but those connectors express result or cause, not contrast.",
+  "translation": "Menü uzun olmasına rağmen, sevdiğimiz bir yemek bulduk."
+}
