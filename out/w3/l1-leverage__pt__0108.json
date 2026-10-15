@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"},
+    {"word": "turista", "transliteration": "turista", "meaning": "tourist"},
+    {"word": "passaporte", "transliteration": "passaporte", "meaning": "passport"},
+    {"word": "museu", "transliteration": "museu", "meaning": "museum"}
+  ],
+  "english_words": ["passport", "hotel", "museum", "tourist"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Portuguese word and its English match come from the same Latin or Greek root, so the spelling and meaning stay close. Many travel vocabulary items follow this pattern, which lets students recognize them quickly.",
+  "false_friend_warning": null
+}

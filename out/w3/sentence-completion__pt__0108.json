@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were walking through the park,",
+  "correct_completion": "it started to rain suddenly.",
+  "full_sentence": "While we were walking through the park, it started to rain suddenly.",
+  "acceptable_variants": ["it suddenly began to rain.", "a storm began to come in."],
+  "options": [
+    {"text": "we had walked home before.", "is_correct": false, "why_wrong": "The past perfect describes an earlier completed action, but the stem needs an action happening at the same time as the walk, so this does not fit."},
+    {"text": "it started to rain suddenly.", "is_correct": true, "why_wrong": null},
+    {"text": "we will go to the cinema tomorrow.", "is_correct": false, "why_wrong": "'Will' refers to the future, but the stem is set in the past, so the completion must also be in the past."},
+    {"text": "the park was very beautiful.", "is_correct": false, "why_wrong": "This gives a description instead of an event, so it does not interrupt or accompany the walking action as the stem requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous interrupted by a past simple action with 'while'",
+  "connector": "while",
+  "explanation": "The stem uses 'while' with the past continuous, which describes an action in progress. The completion needs a sudden past simple action that interrupts it, so the event must happen at that moment.",
+  "translation": "Enquanto caminhávamos pelo parque, começou a chover de repente."
+}
