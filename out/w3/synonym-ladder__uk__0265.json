@@ -1,0 +1,13 @@
+{
+  "start_word": "doubtful",
+  "end_word": "certain",
+  "ladder_steps": [
+    {"word": "doubtful", "translation": "сумнівний", "intensity_level": 1},
+    {"word": "unlikely", "translation": "малоймовірний", "intensity_level": 2},
+    {"word": "possible", "translation": "можливий", "intensity_level": 3},
+    {"word": "probable", "translation": "імовірний", "intensity_level": 4},
+    {"word": "certain", "translation": "певний", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words of likelihood form a ladder from the least likely outcome to the most certain one, with each step slightly more confident than the last."
+}

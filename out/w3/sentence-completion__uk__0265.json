@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have two cats and three",
+  "correct_completion": "dogs at home.",
+  "full_sentence": "I have two cats and three dogs at home.",
+  "acceptable_variants": ["birds in the garden.", "rabbits in the garden."],
+  "options": [
+    {"text": "dog at home.", "is_correct": false, "why_wrong": "After the number 'three', the noun must be plural. 'Dog' is singular and is missing the plural -s."},
+    {"text": "a dog at home.", "is_correct": false, "why_wrong": "The article 'a' means one, and it cannot be used with the number 'three'. The noun also needs to be plural."},
+    {"text": "dogs at home.", "is_correct": true, "why_wrong": null},
+    {"text": "dog's at home.", "is_correct": false, "why_wrong": "'Dog's' is a possessive form, meaning something belonging to a dog. It does not name the animals being counted."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Plural nouns after numbers greater than one",
+  "connector": "and",
+  "explanation": "After a number greater than one, English uses the plural form of a regular noun, which normally takes an -s ending. Learners may forget the plural ending or add an article that only fits a single item. The possessive apostrophe is a separate form and does not mark plural.",
+  "translation": "У мене вдома два коти та три собаки."
+}
