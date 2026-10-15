@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was walking to school,",
+  "correct_completion": "I saw my friend at the bakery.",
+  "full_sentence": "While I was walking to school, I saw my friend at the bakery.",
+  "acceptable_variants": ["I met my friend at the bakery.", "a dog suddenly ran in front of me."],
+  "options": [
+    {"text": "I was seeing my friend at the bakery.", "is_correct": false, "why_wrong": "'See' with the meaning of noticing someone is not normally used in the continuous form, and it sounds like dating in this context."},
+    {"text": "I saw my friend at the bakery.", "is_correct": true, "why_wrong": null},
+    {"text": "I see my friend every day at the bakery.", "is_correct": false, "why_wrong": "The simple present does not fit a past narrative that started with 'while' and the past continuous."},
+    {"text": "I will see my friend at the bakery.", "is_correct": false, "why_wrong": "The future tense does not match the past time of the first clause, which describes an action in progress in the past."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous for an action in progress, interrupted by a past simple action",
+  "connector": "while",
+  "explanation": "The past continuous describes a longer action in progress in the past, and the past simple describes a shorter action that happens during it. Learners often use the simple past for both actions, so check that the first clause uses 'was walking'. Speakers of languages with a single past tense often make this mistake.",
+  "translation": "Mientras caminaba a la escuela, vi a mi amigo en la panadería."
+}
