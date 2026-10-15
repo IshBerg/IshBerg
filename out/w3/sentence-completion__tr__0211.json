@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the project had a very tight deadline,",
+  "correct_completion": "the team delivered a flawless report.",
+  "full_sentence": "Although the project had a very tight deadline, the team delivered a flawless report.",
+  "acceptable_variants": ["the team still produced excellent work.", "the staff met every expectation."],
+  "options": [
+    {"text": "so the team finished it early.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrasting clause, so this option does not fit."},
+    {"text": "the team delivered a flawless report.", "is_correct": true, "why_wrong": null},
+    {"text": "they had no time left at all.", "is_correct": false, "why_wrong": "This restates the pressure of the deadline rather than giving the contrasting outcome that 'although' requires."},
+    {"text": "the deadline was moved last week.", "is_correct": false, "why_wrong": "This adds background information but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must present a result that contrasts with the difficulty described in the first clause. Here the difficult deadline is contrasted with a high-quality outcome.",
+  "translation": "Proje çok sıkı bir teslim tarihine sahip olmasına rağmen, ekip kusursuz bir rapor teslim etti."
+}
