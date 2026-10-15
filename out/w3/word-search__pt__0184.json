@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["D", "O", "G", "R", "U", "Q", "C"],
+    ["K", "M", "S", "P", "E", "B", "A"],
+    ["H", "V", "L", "I", "J", "N", "T"],
+    ["W", "F", "Z", "G", "D", "K", "R"],
+    ["C", "O", "W", "Y", "X", "Z", "Q"],
+    ["J", "M", "T", "B", "H", "L", "P"],
+    ["N", "R", "K", "E", "S", "U", "F"]
+  ],
+  "words_to_find": ["DOG", "CAT", "PIG", "COW"],
+  "word_positions": [
+    {"word": "DOG", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CAT", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PIG", "start_row": 1, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "COW", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Pets and Farm Animals"
+}

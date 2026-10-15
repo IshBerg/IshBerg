@@ -1,0 +1,14 @@
+{
+  "trigger_word": "billboard",
+  "all_words": [
+    {"word": "road", "is_associated": true, "association_type": "THEMATIC", "explanation": "Outdoors billboards são normalmente colocados ao lado de estradas, para que os motoristas possam vê-los."},
+    {"word": "picture", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um billboard mostra uma imagem grande com um anúncio, por isso está ligado à palavra picture."},
+    {"word": "sea", "is_associated": false, "association_type": "NONE", "explanation": "O mar não tem relação com anúncios em painéis, então essa palavra não está associada a billboard."},
+    {"word": "message", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um billboard transmite uma mensagem curta para quem passa por ele."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Lápis é um objeto de escrita e não tem ligação com billboards."},
+    {"word": "sign", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Na expressão 'road sign' ou 'advertising sign', sign aparece junto com ideias de anúncio e publicidade."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a billboard são ligadas à publicidade e às ruas onde os painéis ficam; sea e pencil não têm relação com esse tema."
+}
