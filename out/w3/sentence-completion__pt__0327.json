@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister, who lives in Lisbon,",
+  "correct_completion": "is coming to visit us next month.",
+  "full_sentence": "My sister, who lives in Lisbon, is coming to visit us next month.",
+  "acceptable_variants": ["will visit us next month.", "is planning to visit us next month."],
+  "options": [
+    {"text": "who is coming to visit us next month.", "is_correct": false, "why_wrong": "'Who' starts another relative clause, so the sentence still has no main verb for the subject 'My sister'."},
+    {"text": "which is a famous city in Portugal.", "is_correct": false, "why_wrong": "This adds a second relative clause after 'Lisbon' but still leaves the sentence without a main verb for 'My sister'."},
+    {"text": "is coming to visit us next month.", "is_correct": true, "why_wrong": null},
+    {"text": "that she loves to visit.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining clause after commas, and the sentence still lacks a main verb for the subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with commas",
+  "connector": "who",
+  "explanation": "A non-defining relative clause sits between commas and adds extra information about a noun that is already identified. After the clause, the sentence still needs its own main verb for the subject, so the completion must supply that verb.",
+  "translation": "Minha irmã, que mora em Lisboa, vem nos visitar no próximo mês."
+}
