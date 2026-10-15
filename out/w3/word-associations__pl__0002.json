@@ -1,0 +1,14 @@
+{
+  "trigger_word": "evidence",
+  "all_words": [
+    {"word": "proof", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Słowo 'proof' ma zbliżone znaczenie do 'evidence' i często pojawia się w tym samym kontekście."},
+    {"word": "research", "is_associated": true, "association_type": "THEMATIC", "explanation": "Badania naukowe są głównym źródłem dowodów, więc słowo należy do tego samego tematu."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku ze znaczeniem dowodu ani z kontekstem argumentacji."},
+    {"word": "submit", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'submit' tworzy typowe połączenie 'submit evidence', czyli przedstawić dowody."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "Zachód słońca nie łączy się z pojęciem dowodu i nie występuje w tym samym kontekście."},
+    {"word": "data", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dane liczbowe i fakty są jednym z rodzajów dowodów, więc słowo jest blisko związane znaczeniowo."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'evidence' kojarzy się z dowodami, ich źródłami i sposobem przedstawiania ich w argumentacji, natomiast słowa związane z przyrodą nie mają tu znaczenia."
+}

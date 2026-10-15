@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been informed of the delay,",
+  "correct_completion": "the passengers waited patiently in the lounge.",
+  "full_sentence": "Having been informed of the delay, the passengers waited patiently in the lounge.",
+  "acceptable_variants": ["the passengers settled down to wait in the lounge.", "the passengers decided to stay in the lounge until the train arrived."],
+  "options": [
+    {"text": "the train had already left the station.", "is_correct": false, "why_wrong": "This states a fact about the train, but the perfect passive participle requires a reaction by the subject, so the main clause must describe what the passengers did."},
+    {"text": "the passengers waited patiently in the lounge.", "is_correct": true, "why_wrong": null},
+    {"text": "the announcement was made in the morning.", "is_correct": false, "why_wrong": "The stem already expresses the passive idea of being informed, so repeating the announcement in the main clause does not complete the logical link."},
+    {"text": "the passengers had to be informed again.", "is_correct": false, "why_wrong": "This repeats the passive idea from the stem and makes the sequence of events illogical."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Perfect passive participle clauses expressing a completed event before the main clause",
+  "connector": "having been informed",
+  "explanation": "The perfect passive participle 'having been informed' shows that the event in the first clause is completed before the action in the main clause. The main clause must describe a logical reaction of the subject to that event. Learners whose first language expresses this sequence with a separate time-ordered sentence may find the compressed participle form less natural at first, so comparing the two structures helps.",
+  "translation": "Po poinformowaniu o opóźnieniu pasażerowie cierpliwie czekali w poczekalni."
+}
