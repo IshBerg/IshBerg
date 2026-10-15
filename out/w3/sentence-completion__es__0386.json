@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the novel abandons linear chronology,",
+  "correct_completion": "its fragments still form a coherent emotional arc.",
+  "full_sentence": "Although the novel abandons linear chronology, its fragments still form a coherent emotional arc.",
+  "acceptable_variants": ["its fragments still create a unified mood.", "readers still sense a deliberate pattern."],
+  "options": [
+    {"text": "the chapters are arranged in strict order.", "is_correct": false, "why_wrong": "This restates the linear order that the stem says the novel abandons, so it does not create a contrast."},
+    {"text": "its narrator never appears in the text.", "is_correct": false, "why_wrong": "This describes the narration, but it does not contrast with the abandonment of chronology."},
+    {"text": "its fragments still form a coherent emotional arc.", "is_correct": true, "why_wrong": null},
+    {"text": "the publisher printed it in two colours.", "is_correct": false, "why_wrong": "This is a fact about production, not a feature of the text that contrasts with the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part of the sentence. Here the contrast is between the missing chronology and the emotional unity that remains.",
+  "translation": "Aunque la novela abandona la cronología lineal, sus fragmentos aún forman un arco emocional coherente."
+}

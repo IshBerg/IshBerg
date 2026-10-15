@@ -1,0 +1,23 @@
+{
+  "central_word": "worried",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "intranquilo", "nuance": "vague feeling that something is not quite right"},
+    {"word": "concerned", "intensity": 2, "translation": "preocupado", "nuance": "caring about a possible problem"},
+    {"word": "worried", "intensity": 3, "translation": "angustiado", "nuance": "general anxiety about an outcome"},
+    {"word": "alarmed", "intensity": 4, "translation": "alarmado", "nuance": "sudden fear that a danger is real"},
+    {"word": "terrified", "intensity": 5, "translation": "aterrorizado", "nuance": "overwhelming fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express unease about a threat, from a vague sense that something is wrong to overwhelming fear, which is useful when discussing privacy risks.",
+  "usage_notes": [
+    {"word1": "worried", "word2": "alarmed", "difference": "'Worried' describes ongoing concern about a possible problem; 'alarmed' describes a sudden shock about a danger that is already present."}
+  ],
+  "translations": {
+    "uneasy": "intranquilo",
+    "concerned": "preocupado",
+    "worried": "angustiado",
+    "alarmed": "alarmado",
+    "terrified": "aterrorizado"
+  }
+}
