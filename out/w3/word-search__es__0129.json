@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["P", "A", "R", "A", "D", "I", "G", "M"],
+    ["S", "B", "Q", "W", "K", "J", "Z", "V"],
+    ["Y", "D", "I", "L", "E", "M", "M", "A"],
+    ["N", "T", "U", "O", "K", "F", "W", "P"],
+    ["E", "L", "Q", "B", "X", "V", "C", "R"],
+    ["R", "K", "H", "E", "D", "G", "E", "Z"],
+    ["G", "Q", "W", "X", "J", "U", "L", "O"],
+    ["Y", "T", "F", "B", "W", "Q", "K", "N"]
+  ],
+  "words_to_find": ["PARADIGM", "SYNERGY", "DILEMMA", "HEDGE"],
+  "word_positions": [
+    {"word": "PARADIGM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SYNERGY", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "DILEMMA", "start_row": 2, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "HEDGE", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Domain-Specific Jargon Mastery"
+}
