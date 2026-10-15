@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poverty",
+  "all_words": [
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La caridad es una respuesta habitual a la pobreza: se da dinero o ayuda a quienes no tienen recursos."},
+    {"word": "welfare", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El bienestar social (welfare) es el sistema de ayudas públicas que se creó para reducir la pobreza."},
+    {"word": "line", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión 'poverty line' (umbral de pobreza) es una colocación fija en inglés, con la palabra 'line'."},
+    {"word": "slum", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un barrio marginal (slum) es un lugar típico donde vive la población en situación de pobreza, así que pertenece al mismo tema."},
+    {"word": "telescope", "is_associated": false, "association_type": "NONE", "explanation": "El telescopio pertenece al mundo de la astronomía y no tiene ninguna relación con la pobreza."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "El glaciar es un fenómeno de la geografía física y no está relacionado con la pobreza ni con la economía."}
+  ],
+  "correct_indices": [0, 1, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'poverty' se asocia con ayudas sociales (charity, welfare), con la expresión fija 'poverty line' y con lugares típicos como los barrios marginales (slum), mientras que telescope y glacier no tienen relación."
+}
