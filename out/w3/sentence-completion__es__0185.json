@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had she sat down,",
+  "correct_completion": "when the phone rang.",
+  "full_sentence": "Hardly had she sat down, when the phone rang.",
+  "acceptable_variants": ["when someone knocked on the door.", "when the phone started ringing."],
+  "options": [
+    {"text": "than the phone rang.", "is_correct": false, "why_wrong": "'Hardly' pairs with 'when', not 'than'. 'Than' belongs to comparative structures and cannot complete this inversion."},
+    {"text": "when the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "until the phone rang.", "is_correct": false, "why_wrong": "'Until' sets a time limit, while 'hardly ... when' expresses two events happening in immediate succession."},
+    {"text": "because the phone rang.", "is_correct": false, "why_wrong": "'Because' gives a reason, but the fixed pattern 'hardly ... when' signals timing, not cause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'hardly ... when' for immediate sequence of events",
+  "connector": "hardly ... when",
+  "explanation": "The pattern 'hardly had + subject + past participle' is followed by 'when', not by 'than' or 'until'. Spanish speakers may expect a simple past in the main clause, because Spanish has no inversion with hardly, so the auxiliary and the inverted word order need deliberate practice.",
+  "translation": "Apenas se había sentado cuando sonó el teléfono."
+}
