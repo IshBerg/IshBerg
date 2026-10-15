@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has never flown on a plane before,",
+  "correct_completion": "so she felt nervous about the trip.",
+  "full_sentence": "She has never flown on a plane before, so she felt nervous about the trip.",
+  "acceptable_variants": ["so she was anxious while waiting at the airport.", "and she felt worried during the flight."],
+  "options": [
+    {"text": "so she flies every week.", "is_correct": false, "why_wrong": "'Every week' describes a regular habit, which contradicts 'has never flown before'."},
+    {"text": "and she has flown to Spain twice.", "is_correct": false, "why_wrong": "Having flown to Spain twice contradicts the present perfect with 'never' in the stem."},
+    {"text": "so she felt nervous about the trip.", "is_correct": true, "why_wrong": null},
+    {"text": "so she often travels for work.", "is_correct": false, "why_wrong": "Frequent travel contradicts 'has never flown before', so the result does not follow from the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect with 'never' followed by a logical result using 'so'",
+  "connector": "so",
+  "explanation": "'Never' with the present perfect says that an experience has not happened up to now, so the completion should be a logical result of that situation. Spanish speakers may choose a habit or a past event, which conflicts with the meaning of 'never' in this context.",
+  "translation": "Ella nunca ha volado en avión antes, así que se sintió nerviosa por el viaje."
+}
