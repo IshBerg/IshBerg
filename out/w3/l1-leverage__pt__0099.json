@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "comodidade", "transliteration": "comodidade", "meaning": "convenience"},
+    {"word": "educado", "transliteration": "educado", "meaning": "polite"}
+  ],
+  "english_words": ["convenience", "to intend", "polite", "to watch"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each of these Portuguese words looks like an English word but means something different, so learners may choose the lookalike instead of the true meaning.",
+  "false_friend_warning": "These look-alikes are false friends: the Portuguese word pretender sounds like 'pretend' but means to intend, assistir sounds like 'assist' but means to watch, comodidade sounds like 'comfort' but means convenience, and educado sounds like 'educated' but means polite."
+}

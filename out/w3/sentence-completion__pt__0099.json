@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I was late for work because",
+  "correct_completion": "I lost my keys and had to look for them.",
+  "full_sentence": "Yesterday I was late for work because I lost my keys and had to look for them.",
+  "acceptable_variants": ["I forgot my keys at home.", "I took too long to find my phone."],
+  "options": [
+    {"text": "I forgot my lunch on the bus.", "is_correct": false, "why_wrong": "The past form is correct, but a forgotten lunch does not explain why I was late for work."},
+    {"text": "I losed my keys and had to look for them.", "is_correct": false, "why_wrong": "'Lose' is irregular, so its past form is 'lost', not 'losed'."},
+    {"text": "I lost my keys and had to look for them.", "is_correct": true, "why_wrong": null},
+    {"text": "I goed to the bus stop too slowly.", "is_correct": false, "why_wrong": "'Go' is irregular, so its past form is 'went', not 'goed'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple irregular verbs after 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason for being late, so the completion must describe a past event that caused it. Irregular verbs change their form instead of adding -ed, so the past simple of 'lose' is 'lost'. Portuguese speakers may apply a regular -ed pattern to every verb, which is a common error with irregular verbs.",
+  "translation": "Ontem cheguei atrasado ao trabalho porque perdi as minhas chaves e tive de procurá-las."
+}
