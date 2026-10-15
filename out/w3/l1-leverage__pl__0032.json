@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hotel", "transliteration": "hotel", "meaning": "a building where travellers pay to stay overnight"},
+    {"word": "park", "transliteration": "park", "meaning": "an area of grass and trees open to the public"},
+    {"word": "radio", "transliteration": "radio", "meaning": "a device that broadcasts sound programmes"},
+    {"word": "metro", "transliteration": "metro", "meaning": "an underground railway system in a city"}
+  ],
+  "english_words": ["radio", "hotel", "metro", "park"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These words entered both languages from the same international sources, so the spelling and meaning stayed almost identical.",
+  "false_friend_warning": null
+}
