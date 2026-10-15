@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N","U","A","N","C","E","K","T","Z","I"],
+    ["B","L","Q","D","W","F","J","P","V","R"],
+    ["S","G","H","X","K","L","D","W","Q","O"],
+    ["T","A","Z","B","F","J","P","K","G","N"],
+    ["M","V","R","L","D","Q","W","H","T","Y"],
+    ["F","K","B","C","X","P","Z","J","N","L"],
+    ["W","D","Q","H","A","G","T","K","V","L"],
+    ["B","X","Z","F","J","S","N","D","W","K"],
+    ["Q","G","H","L","P","T","M","R","Z","X"],
+    ["K","M","S","I","M","E","H","P","U","E"]
+  ],
+  "words_to_find": ["NUANCE", "IRONY", "SARCASM", "EUPHEMISM"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SARCASM", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "EUPHEMISM", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Connotation and Nuance in Word Choice"
+}
