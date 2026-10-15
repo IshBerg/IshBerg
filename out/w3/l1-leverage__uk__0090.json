@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "інтелігентний", "transliteration": "intelihentnyi", "meaning": "cultured, polite, refined"},
+    {"word": "коректний", "transliteration": "korektnyi", "meaning": "tactful, polite"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, topical"},
+    {"word": "товариський", "transliteration": "tovarystskyi", "meaning": "sociable, friendly"}
+  ],
+  "english_words": ["relevant", "sociable", "cultured", "tactful"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The English words 'intelligent', 'correct' and 'actual' look like Ukrainian words, but each Ukrainian form carries a different meaning in its own language.",
+  "false_friend_warning": "The Ukrainian word 'intelihentnyi' looks like the English word 'intelligent' but means cultured and polite, not clever. The Ukrainian word 'aktualnyi' looks like 'actual' but means relevant or topical."
+}
