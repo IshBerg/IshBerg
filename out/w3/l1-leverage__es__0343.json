@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive"}
+  ],
+  "english_words": ["attend", "sensitive", "bookstore", "folder"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These look-alike words share a Latin root with their English counterparts, but over time their meanings drifted apart, so the similar form does not guarantee the same meaning.",
+  "false_friend_warning": "The Spanish word for bookstore looks like the English word library, and the Spanish verb meaning to attend looks like the English word assist. Learners should check the meaning instead of trusting the similar form."
+}
