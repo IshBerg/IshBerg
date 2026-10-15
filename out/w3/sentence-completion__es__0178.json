@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Whatever the reasons for the delay,",
+  "correct_completion": "the board refused to accept any further excuses.",
+  "full_sentence": "Whatever the reasons for the delay, the board refused to accept any further excuses.",
+  "acceptable_variants": ["the board still refused to grant any extension.", "the committee would not accept any further delay."],
+  "options": [
+    {"text": "the reasons were mostly financial.", "is_correct": false, "why_wrong": "This repeats the topic of the first clause and gives no main action, so it does not complete the sentence."},
+    {"text": "so the board approved the extension.", "is_correct": false, "why_wrong": "'So' signals a result, but 'whatever' introduces a concessive clause, so the main clause must show that the reasons did not change the outcome."},
+    {"text": "the board refused to accept any further excuses.", "is_correct": true, "why_wrong": null},
+    {"text": "because the board was unaware of them.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which conflicts with the concessive meaning of 'whatever'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Free relative and concessive clauses with 'whatever'",
+  "connector": "whatever",
+  "explanation": "'Whatever' introduces a concessive clause meaning 'no matter what'. The main clause must show that the reasons did not change the result, so a refusal fits, while a result or a cause does not.",
+  "translation": "Cualesquiera que fueran las razones del retraso, la junta se negó a aceptar más excusas."
+}
