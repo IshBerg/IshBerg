@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the film was long,",
+  "correct_completion": "I enjoyed every minute of it.",
+  "full_sentence": "Although the film was long, I enjoyed every minute of it.",
+  "acceptable_variants": ["I still enjoyed it.", "the story kept me interested."],
+  "options": [
+    {"text": "so I left early.", "is_correct": false, "why_wrong": "'Although' shows contrast, not a result. 'So' introduces a result, which does not fit after 'although'."},
+    {"text": "I enjoyed every minute of it.", "is_correct": true, "why_wrong": null},
+    {"text": "it had many actors.", "is_correct": false, "why_wrong": "This describes the film but does not contrast with its length, so the sentence does not work."},
+    {"text": "the film was at the cinema.", "is_correct": false, "why_wrong": "This gives a location, but it does not provide the contrasting idea that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners often use 'but' in the main clause, but 'although' and 'but' should not be used together.",
+  "translation": "Film uzun olmasına rağmen, filmin her dakikasından keyif aldım."
+}
