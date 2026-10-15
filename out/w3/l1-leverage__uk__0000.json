@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "інформація", "transliteration": "informatsiia", "meaning": "information"},
+    {"word": "адреса", "transliteration": "adresa", "meaning": "address"},
+    {"word": "телефон", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "ідея", "transliteration": "idea", "meaning": "idea"}
+  ],
+  "english_words": ["telephone", "idea", "information", "address"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "All four words come from Latin or Greek roots shared by English and Ukrainian, so their spelling and meaning stayed close in both languages.",
+  "false_friend_warning": null
+}
