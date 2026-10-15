@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have done better.", "I would have got a higher grade."],
+  "options": [
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "The stem is a past unreal condition, so the result must use 'would have' plus the past participle, not a future tense."},
+    {"text": "I passed the exam yesterday.", "is_correct": false, "why_wrong": "The past simple describes a real past event, but the stem describes an unreal past situation that did not happen."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I would pass the exam now.", "is_correct": false, "why_wrong": "'Now' points to the present, which conflicts with the past time of the stem's condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional (unreal past situations)",
+  "connector": "if",
+  "explanation": "After 'if' with the past perfect, the main clause uses 'would have' with a past participle. Portuguese speakers may be tempted to use a simple conditional, but English requires 'would have' for past results that did not happen.",
+  "translation": "Se eu tivesse estudado mais, eu teria passado no exame."
+}
