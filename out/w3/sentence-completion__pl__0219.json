@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rather than accepting the proposal outright,",
+  "correct_completion": "the board demanded a series of substantial revisions.",
+  "full_sentence": "Rather than accepting the proposal outright, the board demanded a series of substantial revisions.",
+  "acceptable_variants": ["the board requested a thorough review of its underlying assumptions.", "the members asked for detailed amendments before any vote."],
+  "options": [
+    {"text": "the board accepted it without question.", "is_correct": false, "why_wrong": "This contradicts the stem, which sets up a contrast with outright acceptance."},
+    {"text": "so the committee approved the budget at once.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem requires a contrasting action after 'rather than'."},
+    {"text": "the board demanded a series of substantial revisions.", "is_correct": true, "why_wrong": null},
+    {"text": "the proposal had already been signed by everyone present.", "is_correct": false, "why_wrong": "This describes a completed agreement, which repeats the idea of acceptance rather than offering a contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive structure with 'rather than'",
+  "connector": "rather than",
+  "explanation": "After 'rather than', the sentence needs an action that replaces the one just named, here accepting the proposal. Completions that repeat acceptance or introduce a result with 'so' do not fit the contrast. Learners should check that the second clause opposes the first rather than continuing it.",
+  "translation": "Zamiast od razu zaakceptować propozycję, zarząd zażądał szeregu znacznych poprawek."
+}
