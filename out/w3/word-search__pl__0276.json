@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "X", "T"],
+    ["M", "K", "J", "L", "Q", "W", "H"],
+    ["A", "C", "V", "P", "I", "Z", "E"],
+    ["F", "B", "U", "D", "O", "K", "N"],
+    ["T", "X", "B", "E", "G", "A", "N"],
+    ["E", "H", "M", "R", "J", "L", "Q"],
+    ["R", "E", "N", "D", "E", "D", "V"]
+  ],
+  "words_to_find": ["STORY", "THEN", "AFTER", "BEGAN", "ENDED"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THEN", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "AFTER", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "BEGAN", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "ENDED", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Narrating Events"
+}

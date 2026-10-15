@@ -1,0 +1,14 @@
+{
+  "trigger_word": "spring",
+  "all_words": [
+    {"word": "season", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Spring' oznacza porę roku, więc to bezpośrednie znaczenie tego słowa."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Most nie ma żadnego związku ze słowem 'spring', ani w znaczeniu, ani w połączeniach wyrazowych."},
+    {"word": "coil", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Spring' oznacza też sprężynę, czyli zwiniętą spiralę z metalu; to drugie znaczenie tego słowa."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek nie ma żadnego związku z żadnym ze znaczeń słowa 'spring'."},
+    {"word": "water", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Spring water' to ustalone połączenie oznaczające wodę źródlaną, więc to kolokacja."},
+    {"word": "rain", "is_associated": true, "association_type": "THEMATIC", "explanation": "Deszcz kojarzy się z wiosną jako porą roku, więc to skojarzenie tematyczne."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'spring' ma kilka znaczeń: porę roku, sprężynę i źródło wody, a skojarzenia wynikają z tych znaczeń lub z typowych połączeń wyrazowych."
+}
