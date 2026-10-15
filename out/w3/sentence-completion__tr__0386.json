@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although Little Miss Muffet was scared of the spider,",
+  "correct_completion": "she stayed on her tuffet and ate her curds.",
+  "full_sentence": "Although Little Miss Muffet was scared of the spider, she stayed on her tuffet and ate her curds.",
+  "acceptable_variants": ["she kept eating her curds.", "she did not run away."],
+  "options": [
+    {"text": "so she ran home to her mother.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast, so it does not complete the 'although' clause."},
+    {"text": "she was very happy about the spider.", "is_correct": false, "why_wrong": "This contradicts the stem without giving the contrasting action that 'although' requires."},
+    {"text": "she stayed on her tuffet and ate her curds.", "is_correct": true, "why_wrong": null},
+    {"text": "the spider was very small.", "is_correct": false, "why_wrong": "This describes the spider rather than showing a contrasting action by Miss Muffet."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Here the fear in the first clause is contrasted with what the character actually does.",
+  "translation": "Küçük Miss Muffet örümcekten korkmasına rağmen tabure üzerinde oturup lor peynirini yemeye devam etti."
+}
