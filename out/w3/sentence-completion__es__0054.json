@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because she is an excellent cook,",
+  "correct_completion": "everyone asks her for the recipe.",
+  "full_sentence": "Because she is an excellent cook, everyone asks her for the recipe.",
+  "acceptable_variants": ["people always ask her for advice about food.", "her friends often ask her to cook for parties."],
+  "options": [
+    {"text": "she never wears a hat.", "is_correct": false, "why_wrong": "This fact has no connection to cooking, so it cannot give the reason for the result in the main clause."},
+    {"text": "she has a big apple tree.", "is_correct": false, "why_wrong": "A tree in her garden does not explain why people ask her for recipes. 'Because' needs a reason linked to the first clause."},
+    {"text": "everyone asks her for the recipe.", "is_correct": true, "why_wrong": null},
+    {"text": "she lives in a small town.", "is_correct": false, "why_wrong": "Where she lives is not a result of being an excellent cook, so it does not complete the cause and effect."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the reason. The main clause that follows must show a logical result of that reason, so it must relate to cooking.",
+  "translation": "Como ella es una cocinera excelente, todos le piden la receta."
+}
