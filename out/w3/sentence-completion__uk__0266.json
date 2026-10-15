@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother is",
+  "correct_completion": "an engineer.",
+  "full_sentence": "My brother is an engineer.",
+  "acceptable_variants": ["an engineer in the city.", "an engineer at a large company."],
+  "options": [
+    {"text": "a engineer.", "is_correct": false, "why_wrong": "'A' is used before a consonant sound, but 'engineer' begins with a vowel sound, so the article must be 'an'."},
+    {"text": "an engineer.", "is_correct": true, "why_wrong": null},
+    {"text": "engineer.", "is_correct": false, "why_wrong": "A singular countable noun naming a job needs an article after 'is', so the bare noun is ungrammatical here."},
+    {"text": "the engineers.", "is_correct": false, "why_wrong": "'Engineers' is plural, which does not agree with one brother, and the definite article is not needed for a job title."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indefinite articles 'a' and 'an' with singular countable nouns",
+  "connector": "is",
+  "explanation": "The indefinite article is chosen by the sound of the next word, not its spelling. Ukrainian has no article system, so Ukrainian speakers often leave the article out or pick 'a' by habit before a vowel sound.",
+  "translation": "Мій брат — інженер."
+}

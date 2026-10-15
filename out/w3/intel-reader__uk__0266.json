@@ -1,0 +1,20 @@
+{
+  "title": "Cold Today, Sunny Tomorrow",
+  "text": "It is cold today. I wear a warm coat and a hat. My friend wears boots and gloves.\n\nTomorrow it will be sunny. We will not need our coats. We will go to the park in T-shirts.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the weather like today?", "options": ["Hot and sunny", "Cold", "Windy and snowy", "Warm and cloudy"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does the writer's friend wear?", "options": ["A warm coat", "A hat", "Boots and gloves", "T-shirts"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why will the writer not need a coat tomorrow?", "options": ["The weather will be warm", "The coat is dirty", "The shop is closed", "It will rain"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does the writer probably feel about tomorrow?", "options": ["Happy to go outside", "Sad and tired", "Afraid of the sun", "Angry about the park"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "cold", "translation": "холодний", "definition": "having a low temperature; not warm"},
+    {"word": "coat", "translation": "пальто", "definition": "a long piece of clothing worn outside to keep warm"},
+    {"word": "sunny", "translation": "сонячний", "definition": "with bright sunshine"},
+    {"word": "park", "translation": "парк", "definition": "a public green area where people go to relax"}
+  ],
+  "paragraph_translations": [
+    "Сьогодні холодно. Я ношу тепле пальто і капелюх. Мій друг носить чоботи і рукавиці.",
+    "Завтра буде сонячно. Нам не знадобляться пальто. Ми підемо в парк у футболках."
+  ]
+}
