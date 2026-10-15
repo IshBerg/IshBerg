@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "billete", "transliteration": "billete", "meaning": "ticket for a train, bus, or plane"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present, existing now"},
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold, feeling unwell with a cold"}
+  ],
+  "english_words": ["current", "cold", "pregnant", "ticket"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages share Latin roots for these words, so the spellings look alike. Over time, however, the Spanish meanings developed differently from their English look-alikes.",
+  "false_friend_warning": "Watch out: the Spanish word 'embarazada' means pregnant, not embarrassed; 'billete' means a ticket or a banknote, not a bill; 'actual' means current or present, not actual; and 'constipado' means having a cold, not constipated."
+}
