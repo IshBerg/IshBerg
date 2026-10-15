@@ -1,0 +1,17 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "unhappy", "intensity": 1, "translation": "mutsuz", "nuance": "slightly not happy"},
+    {"word": "sad", "intensity": 2, "translation": "üzgün", "nuance": "general feeling of sorrow"},
+    {"word": "upset", "intensity": 3, "translation": "üzülmüş, kırılmış", "nuance": "hurt or disturbed by something that happened"},
+    {"word": "miserable", "intensity": 4, "translation": "perişan", "nuance": "very unhappy for a long time"},
+    {"word": "heartbroken", "intensity": 5, "translation": "yüreği parçalanmış", "nuance": "extremely sad, usually after a loss"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express unhappiness but with increasing intensity, from mild unhappiness to deep grief.",
+  "usage_notes": [
+    {"word1": "sad", "word2": "upset", "difference": "'Sad' describes a general feeling of unhappiness; 'upset' usually points to a specific event that hurt or disturbed the person."}
+  ],
+  "translations": {"unhappy": "mutsuz", "sad": "üzgün", "upset": "üzülmüş, kırılmış", "miserable": "perişan", "heartbroken": "yüreği parçalanmış"}
+}
