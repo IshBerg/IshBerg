@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the ending surprised the readers,",
+  "correct_completion": "many of them found it deeply satisfying.",
+  "full_sentence": "Although the ending surprised the readers, many of them found it deeply satisfying.",
+  "acceptable_variants": ["most of them still enjoyed the story.", "many readers praised the author's courage."],
+  "options": [
+    {"text": "so they stopped reading the book.", "is_correct": false, "why_wrong": "'Although' introduces contrast, not cause. A result clause with 'so' does not show the contrast the connector requires."},
+    {"text": "the story was written in the past tense.", "is_correct": false, "why_wrong": "This gives a grammatical fact about the story but does not complete the contrast started by 'although'."},
+    {"text": "many of them found it deeply satisfying.", "is_correct": true, "why_wrong": null},
+    {"text": "the author wrote a second chapter.", "is_correct": false, "why_wrong": "This adds new information but does not express the reaction contrasting with the surprise that 'although' sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must express a result that contrasts with the first part of the sentence. Portuguese speakers may reach for a cause-and-effect connector here, because Portuguese often uses the same connector family for both contrast and cause, so the English concessive pattern needs to be practised separately.",
+  "translation": "Embora o final tenha surpreendido os leitores, muitos deles o acharam muito satisfatório."
+}
