@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If we had left earlier,",
+  "correct_completion": "we would have caught the train.",
+  "full_sentence": "If we had left earlier, we would have caught the train.",
+  "acceptable_variants": ["we would have arrived on time.", "we would not have missed it."],
+  "options": [
+    {"text": "we will catch the train tomorrow.", "is_correct": false, "why_wrong": "This uses a future form, but the third conditional needs a past result that could not happen because of the past situation."},
+    {"text": "we would catch the train now.", "is_correct": false, "why_wrong": "This mixes a present result with a past condition. The third conditional needs 'would have' plus a past participle for the result."},
+    {"text": "we would have caught the train.", "is_correct": true, "why_wrong": null},
+    {"text": "we are catching the train.", "is_correct": false, "why_wrong": "This is a present continuous action, which does not express the imagined past result required after 'if we had left earlier'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: if + past perfect, would have + past participle",
+  "connector": "if",
+  "explanation": "The third conditional talks about an imagined past situation and its imagined past result. Ukrainian speakers may use a single conditional marker in both clauses, so in English the if-clause needs the past perfect and the main clause needs would have plus the past participle.",
+  "translation": "Якби ми вийшли раніше, ми б встигли на потяг."
+}
