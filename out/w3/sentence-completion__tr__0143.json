@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Last week, the old bridge",
+  "correct_completion": "was repaired by the city council.",
+  "full_sentence": "Last week, the old bridge was repaired by the city council.",
+  "acceptable_variants": ["was fixed by the city workers.", "was repaired by the city workers."],
+  "options": [
+    {"text": "repaired the city council.", "is_correct": false, "why_wrong": "The bridge is the thing that receives the action, so a passive form is needed. Here the council would be the object of an active verb, which does not match the meaning."},
+    {"text": "has been repaired by the city council.", "is_correct": false, "why_wrong": "The present perfect does not combine with a finished past time expression such as 'last week'. Use the past simple instead."},
+    {"text": "was repaired by the city council.", "is_correct": true, "why_wrong": null},
+    {"text": "was repairing by the city council.", "is_correct": false, "why_wrong": "'Repairing' is not a past participle, so the passive needs 'was repaired', not 'was repairing'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Passive voice in the past simple (was/were + past participle)",
+  "connector": "by",
+  "explanation": "The subject 'the old bridge' receives the action, so the passive form 'was repaired' is needed. The time phrase 'last week' requires the past simple tense.",
+  "translation": "Geçen hafta eski köprü şehir meclisi tarafından onarıldı."
+}
