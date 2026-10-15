@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "data",
+  "collocate": "breach",
+  "full_collocation": "data breach",
+  "options": ["data", "record", "file", "code"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "record", "reason": "'Record breach' means breaking a previous best performance, as in a record breach in sports. It does not describe a security incident involving information."},
+    {"word": "file", "reason": "'File breach' is not an established collocation. The noun 'breach' is used with 'data' or 'security' to describe unauthorized access."},
+    {"word": "code", "reason": "'Code breach' is rarely used and refers to breaking a secret code or cipher, not to a security incident involving stored information."}
+  ],
+  "example_sentence": "Hackers exploited a ___ breach that exposed thousands of customer files.",
+  "gap_position": 3,
+  "translation": "violación de datos",
+  "l1_interference": "Los hispanohablantes suelen construir frases con el sustantivo principal primero y 'de' después, como 'violación de datos', y pueden decir 'breach of data' o 'breach data' en lugar del orden inglés 'data breach', donde el sustantivo modificador va delante.",
+  "common_mistake": "breach of data",
+  "explanation": "In English, the first noun in a compound noun modifies the second, so 'data breach' describes a breach of data. Spanish places the head noun first and links the second with 'de', so Spanish speakers must reverse the order and drop the preposition.",
+  "related_collocations": [
+    {"collocation": "security breach", "translation": "violación de seguridad", "example": "The company reported a security breach last week."},
+    {"collocation": "data leak", "translation": "filtración de datos", "example": "The data leak exposed private email addresses."},
+    {"collocation": "data protection", "translation": "protección de datos", "example": "The new law strengthens data protection for users."}
+  ],
+  "memory_tip": "DATA + BREACH = a security failure in which protected information is accessed without permission. Put the modifier first, as in 'data breach', not 'breach of data'."
+}
