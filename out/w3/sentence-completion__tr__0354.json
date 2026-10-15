@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Critics argue that the policy is unfair; however,",
+  "correct_completion": "its supporters maintain that it protects the most vulnerable citizens.",
+  "full_sentence": "Critics argue that the policy is unfair; however, its supporters maintain that it protects the most vulnerable citizens.",
+  "acceptable_variants": ["its defenders insist that it reduces poverty.", "proponents claim that it encourages fair growth."],
+  "options": [
+    {"text": "its supporters maintain that it protects the most vulnerable citizens.", "is_correct": true, "why_wrong": null},
+    {"text": "therefore the policy must be abandoned immediately.", "is_correct": false, "why_wrong": "'Therefore' signals a conclusion that follows from the critics' view, not the contrast that 'however' requires."},
+    {"text": "since the policy was introduced last year.", "is_correct": false, "why_wrong": "'Since' introduces a time reference, which does not give the opposing argument that 'however' calls for."},
+    {"text": "the critics are unfair to the government.", "is_correct": false, "why_wrong": "This repeats the critics' view in a different form instead of presenting the counter-argument."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive linking with 'however' in argumentative writing",
+  "connector": "however",
+  "explanation": "'However' introduces a counter-argument, so the completion must present the opposing position. Turkish speakers may place the contrast word inside the clause, but in English a connector such as 'however' starts a new clause after a semicolon.",
+  "translation": "Eleştirmenler politikanın adil olmadığını savunuyor; ancak destekçileri, politikanın en savunmasız vatandaşları koruduğunu ileri sürüyor."
+}
