@@ -1,0 +1,14 @@
+{
+  "trigger_word": "phone",
+  "all_words": [
+    {"word": "call", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Phone call' (telefon görüşmesi) çok yaygın bir kelime grubudur, bu yüzden 'call' telefonla bağlantılıdır."},
+    {"word": "ring", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Telefon çaldığında 'ring' sesi çıkar; bu anlam olarak telefonla ilgilidir."},
+    {"word": "hello", "is_associated": true, "association_type": "THEMATIC", "explanation": "Telefonda konuşmaya genellikle 'hello' diyerek başlanır, bu yüzden aynı konuşma temasına aittir."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "Elma telefonla hiçbir ilgisi olmayan bir meyvedir."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Nehir telefonla ilgili bir kelime değildir."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Ayakkabı telefonla hiçbir ilgisi olmayan bir eşyadır."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Telefonla ilgili kelimeler arama, çalma sesi ve telefon konuşması gibi konulardan gelir; diğer kelimeler bu konuyla ilişkili değildir."
+}
