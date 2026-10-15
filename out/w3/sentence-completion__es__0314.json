@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We have no bread for breakfast, so",
+  "correct_completion": "we are going to buy some at the store.",
+  "full_sentence": "We have no bread for breakfast, so we are going to buy some at the store.",
+  "acceptable_variants": ["we will buy some bread at the market.", "we need to go to the shop today."],
+  "options": [
+    {"text": "we have a lot of bread in the bag.", "is_correct": false, "why_wrong": "This contradicts the stem, which says that there is no bread."},
+    {"text": "we bought eggs and milk yesterday.", "is_correct": false, "why_wrong": "This describes a past action, but the result needed after 'so' is a present action that solves the lack of bread."},
+    {"text": "we are going to buy some at the store.", "is_correct": true, "why_wrong": null},
+    {"text": "the bread was very fresh.", "is_correct": false, "why_wrong": "This describes bread that existed before, but it does not give the result of having none."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Using 'so' to show a result",
+  "connector": "so",
+  "explanation": "The word 'so' introduces the result of the first clause. The completion must describe what the speaker does because there is no bread, so an action in the present that solves the problem is the logical choice.",
+  "translation": "No tenemos pan para el desayuno, así que vamos a comprar en la tienda."
+}
