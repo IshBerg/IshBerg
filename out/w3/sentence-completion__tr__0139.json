@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While I was cooking dinner, the phone rang.",
+  "acceptable_variants": ["the doorbell rang.", "someone called me."],
+  "options": [
+    {"text": "the phone is ringing.", "is_correct": false, "why_wrong": "The present tense does not fit a past story, so it cannot complete this sentence."},
+    {"text": "I have cooked dinner.", "is_correct": false, "why_wrong": "The present perfect does not work for an action that interrupts a past continuous action."},
+    {"text": "the phone was ringing.", "is_correct": false, "why_wrong": "Two continuous actions at the same time do not show an interruption; the second action needs the past simple."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple interrupting a past continuous action",
+  "connector": "while",
+  "explanation": "The past continuous describes the longer action in progress, and the past simple describes the shorter action that interrupts it. Learners often use two continuous forms here, which does not show the interruption.",
+  "translation": "Yemek pişirirken telefon çaldı."
+}
