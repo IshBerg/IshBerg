@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My friend was lost in the city, so",
+  "correct_completion": "I called her and gave her directions.",
+  "full_sentence": "My friend was lost in the city, so I called her and gave her directions.",
+  "acceptable_variants": ["I phoned her and helped her find the way.", "I rang her and told her how to get home."],
+  "options": [
+    {"text": "I calls her and gave her directions.", "is_correct": false, "why_wrong": "With the subject 'I', the verb takes its base form 'call', not 'calls'."},
+    {"text": "I called she and gave she directions.", "is_correct": false, "why_wrong": "After a verb, English uses the object pronoun 'her', not the subject pronoun 'she'."},
+    {"text": "I called her and gave her directions.", "is_correct": true, "why_wrong": null},
+    {"text": "I called the city and gave it directions.", "is_correct": false, "why_wrong": "'It' refers to the city, not to the friend, so the meaning does not match the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns after verbs (her, him, it, them)",
+  "connector": "so",
+  "explanation": "After the verbs 'called' and 'gave', English needs an object pronoun such as 'her', not a subject pronoun such as 'she'. Spanish speakers may mix these up because Spanish object pronouns come before the verb, so check the position of the pronoun after the verb in English.",
+  "translation": "Mi amiga se perdió en la ciudad, así que la llamé y le di indicaciones."
+}
