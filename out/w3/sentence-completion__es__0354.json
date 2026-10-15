@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I have only one year of work experience,",
+  "correct_completion": "I am very interested in this position.",
+  "full_sentence": "Although I have only one year of work experience, I am very interested in this position.",
+  "acceptable_variants": ["I still want to work with your company.", "I would like to learn quickly and work hard."],
+  "options": [
+    {"text": "so I need the job very much.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. The stem already needs a contrasting clause after 'although'."},
+    {"text": "I have a lot of experience in sales.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the writer has only one year of experience, so it does not complete the contrast."},
+    {"text": "I am very interested in this position.", "is_correct": true, "why_wrong": null},
+    {"text": "I do not want to apply for the job.", "is_correct": false, "why_wrong": "This negative statement does not fit a formal application letter and does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part of the sentence. Here the limited experience is contrasted with a positive attitude toward the job, which is typical of formal application letters.",
+  "translation": "Aunque solo tengo un año de experiencia laboral, estoy muy interesado en este puesto."
+}

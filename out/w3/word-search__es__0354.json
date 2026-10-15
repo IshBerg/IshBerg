@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "O", "U", "R", "C", "E", "X", "K", "Q"],
+    ["B", "L", "F", "H", "D", "W", "P", "J", "U"],
+    ["M", "V", "Z", "G", "R", "N", "A", "Y", "O"],
+    ["C", "K", "J", "W", "P", "H", "L", "D", "T"],
+    ["I", "Q", "B", "X", "F", "V", "G", "N", "E"],
+    ["T", "R", "M", "Y", "K", "P", "D", "O", "Z"],
+    ["E", "H", "Q", "W", "J", "B", "L", "T", "C"],
+    ["K", "P", "Y", "F", "N", "X", "G", "E", "D"],
+    ["S", "U", "M", "M", "A", "R", "Y", "S", "W"]
+  ],
+  "words_to_find": ["SOURCE", "QUOTE", "CITE", "SUMMARY", "NOTES"],
+  "word_positions": [
+    {"word": "SOURCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "QUOTE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CITE", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SUMMARY", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NOTES", "start_row": 4, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Synthesizing Sources"
+}
