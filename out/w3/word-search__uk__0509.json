@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["D", "E", "B", "A", "T", "E", "K", "S"],
+    ["Q", "W", "R", "F", "Z", "J", "O", "E"],
+    ["L", "X", "G", "H", "C", "U", "V", "M"],
+    ["T", "H", "E", "S", "I", "S", "B", "I"],
+    ["K", "P", "Y", "D", "W", "Q", "F", "N"],
+    ["P", "A", "N", "E", "L", "X", "R", "A"],
+    ["J", "Z", "F", "K", "W", "O", "G", "R"],
+    ["E", "V", "I", "D", "E", "N", "C", "E"]
+  ],
+  "words_to_find": ["DEBATE", "SEMINAR", "THESIS", "PANEL", "EVIDENCE"],
+  "word_positions": [
+    {"word": "DEBATE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SEMINAR", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "THESIS", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PANEL", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EVIDENCE", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Academic Discussion and Seminars"
+}
