@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "doktor", "transliteration": "doktor", "meaning": "doctor"},
+    {"word": "pilot", "transliteration": "pilot", "meaning": "pilot"},
+    {"word": "architekt", "transliteration": "architekt", "meaning": "architect"},
+    {"word": "fotograf", "transliteration": "fotograf", "meaning": "photographer"}
+  ],
+  "english_words": ["pilot", "photographer", "doctor", "architect"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these profession words from the same Latin and European sources, so the spellings stayed close.",
+  "false_friend_warning": null
+}

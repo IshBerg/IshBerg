@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you finish your homework early,",
+  "correct_completion": "you can play outside.",
+  "full_sentence": "If you finish your homework early, you can play outside.",
+  "acceptable_variants": ["you can watch television.", "you can call your friend."],
+  "options": [
+    {"text": "you played outside yesterday.", "is_correct": false, "why_wrong": "The past tense and the word 'yesterday' do not fit a condition about the future."},
+    {"text": "because you like playing outside.", "is_correct": false, "why_wrong": "'Because' gives a reason, but the stem needs a result that follows the condition."},
+    {"text": "you can play outside.", "is_correct": true, "why_wrong": null},
+    {"text": "however, you must stay inside.", "is_correct": false, "why_wrong": "'However' shows contrast, but the stem sets up a simple condition and result, not a contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' (present simple in the if-clause, can in the result)",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense verb, the result clause uses a form with a future meaning, such as 'can' or 'will'. Polish speakers may expect a special future form after 'if', but English uses the present tense in the if-clause.",
+  "translation": "Jeśli skończysz pracę domową wcześnie, możesz bawić się na dworze."
+}
