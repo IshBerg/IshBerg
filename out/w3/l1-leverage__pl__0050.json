@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "dres", "transliteration": "dres", "meaning": "tracksuit"},
+    {"word": "bluza", "transliteration": "bluza", "meaning": "sweatshirt"},
+    {"word": "trening", "transliteration": "trening", "meaning": "training / workout"},
+    {"word": "sala", "transliteration": "sala", "meaning": "hall (for example a gym hall)"}
+  ],
+  "english_words": ["training", "hall", "tracksuit", "sweatshirt"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words look close to English words because of a similar form, but over time their meanings drifted apart, so the Polish words do not mean what the look-alike English words mean.",
+  "false_friend_warning": "The Polish word that looks like the English word 'dress' actually means 'tracksuit', and the Polish word that looks like 'blouse' means 'sweatshirt', so do not translate them by their look."
+}

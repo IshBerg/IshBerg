@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although my little sister is only five,",
+  "correct_completion": "she can read some simple words.",
+  "full_sentence": "Although my little sister is only five, she can read some simple words.",
+  "acceptable_variants": ["she is able to read some simple words.", "she can already spell her name."],
+  "options": [
+    {"text": "she can reading some simple words.", "is_correct": false, "why_wrong": "After the modal verb 'can', we use the base form of the verb, not the -ing form."},
+    {"text": "she can read some simple words.", "is_correct": true, "why_wrong": null},
+    {"text": "she can reads some simple words.", "is_correct": false, "why_wrong": "Modal verbs like 'can' do not add -s, even with 'she'."},
+    {"text": "she can to read some simple words.", "is_correct": false, "why_wrong": "The modal verb 'can' is never followed by 'to'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Can for ability, with 'although' showing contrast",
+  "connector": "although",
+  "explanation": "After 'although', the clause shows a contrast with the young age. The modal verb 'can' is followed by the base form of the verb.",
+  "translation": "Chociaż moja młodsza siostra ma dopiero pięć lat, potrafi czytać kilka prostych słów."
+}
