@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the study was based on a small sample,",
+  "correct_completion": "its findings were widely cited by other researchers.",
+  "full_sentence": "Although the study was based on a small sample, its findings were widely cited by other researchers.",
+  "acceptable_variants": ["its conclusions still attracted wide attention.", "other researchers nevertheless referred to its results."],
+  "options": [
+    {"text": "so its findings were limited to one city.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. After 'although' the sentence needs a clause that goes against the expectation created by the small sample."},
+    {"text": "the researchers collected data over two years.", "is_correct": false, "why_wrong": "This adds neutral background information but does not contrast with the small sample mentioned in the stem."},
+    {"text": "the sample was chosen at random.", "is_correct": false, "why_wrong": "This describes how the sample was selected; it does not provide the contrasting outcome that 'although' requires."},
+    {"text": "its findings were widely cited by other researchers.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. A small sample normally suggests weak results, so the correct clause reverses that expectation.",
+  "translation": "Mimo że badanie opierało się na małej próbie, jego wyniki były szeroko cytowane przez innych badaczy."
+}
