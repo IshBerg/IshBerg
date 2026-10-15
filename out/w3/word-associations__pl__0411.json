@@ -1,0 +1,14 @@
+{
+  "trigger_word": "volunteer",
+  "all_words": [
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Wolontariusze często pracują dla organizacji charytatywnych, więc to słowo jest blisko związane z wolontariatem."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góry nie mają bezpośredniego związku z wolontariatem."},
+    {"word": "community", "is_associated": true, "association_type": "THEMATIC", "explanation": "Wolontariat często polega na pomocy lokalnej społeczności, więc słowo pasuje do tego tematu."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka nie jest związana z wolontariatem."},
+    {"word": "shift", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówi się 'volunteer shift', czyli określony czas pracy wolontariusza, więc słowa tworzą typowe połączenie."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "Latarnia nie ma żadnego związku z wolontariatem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'volunteer' łączy się z pomocą innym, organizacjami charytatywnymi, społecznością i określonym czasem pracy."
+}
