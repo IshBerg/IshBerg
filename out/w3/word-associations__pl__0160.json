@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "plane", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Samolot to środek transportu, którym podróżujemy na lotnisko i z lotniska, więc jest silnie związany ze słowem 'airport'."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "Marchewka to warzywo i nie ma żadnego związku z podróżowaniem ani z lotniskiem."},
+    {"word": "luggage", "is_associated": true, "association_type": "THEMATIC", "explanation": "Bagaż jest typową rzeczą, którą zabieramy ze sobą, wyjeżdżając na lotnisko w czasie podróży."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Sofa stoi w domu i nie jest związana z lotniskiem ani z podróżą samolotem."},
+    {"word": "terminal", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "W języku angielskim mówi się 'airport terminal' (terminal lotniczy), więc to naturalne połączenie wyrazów."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek jest przyborem szkolnym i nie ma związku z lotniskiem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'airport' kojarzy się ze słowami związanymi z podróżą lotniczą, takimi jak samolot, bagaż i terminal, natomiast pozostałe słowa dotyczą zupełnie innych sytuacji."
+}

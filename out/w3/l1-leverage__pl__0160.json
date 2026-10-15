@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "argument", "transliteration": "argument", "meaning": "a reason given to support a point"},
+    {"word": "logika", "transliteration": "logika", "meaning": "logic, the science of sound reasoning"},
+    {"word": "debata", "transliteration": "debata", "meaning": "debate, a formal discussion of opposing views"},
+    {"word": "teoria", "transliteration": "teoria", "meaning": "theory, a system of ideas explaining something"}
+  ],
+  "english_words": ["theory", "argument", "logic", "debate"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Polish and English both borrowed these academic terms from Latin and Greek, so the forms stayed nearly identical and the meanings match closely in formal argumentation.",
+  "false_friend_warning": null
+}
