@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I wanted to buy two new shoes,",
+  "correct_completion": "but the shop was closed.",
+  "full_sentence": "I wanted to buy two new shoes, but the shop was closed.",
+  "acceptable_variants": ["but unfortunately the shop was closed.", "but the shop was already closed."],
+  "options": [
+    {"text": "because the shop was closed.", "is_correct": false, "why_wrong": "'Because' gives a cause, but the closed shop did not cause the wish to buy shoes. The sentence needs a contrast."},
+    {"text": "and the shop was closed.", "is_correct": false, "why_wrong": "'And' only adds information. It does not show the contrast between wanting something and not getting it."},
+    {"text": "but the shop was closed.", "is_correct": true, "why_wrong": null},
+    {"text": "so the shop was closed.", "is_correct": false, "why_wrong": "'So' introduces a result. The closed shop is an obstacle, not a result of wanting shoes."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast connector 'but' compared with 'because', 'and' and 'so'",
+  "connector": "but",
+  "explanation": "The stem sets up a wish, so the completion must show an obstacle that contrasts with it. The connector 'but' signals this contrast, while 'because', 'and' and 'so' signal cause, addition or result.",
+  "translation": "Chciałem kupić dwa nowe buty, ale sklep był zamknięty."
+}

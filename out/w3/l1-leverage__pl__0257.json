@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "alarm", "transliteration": "alarm", "meaning": "alarm"},
+    {"word": "bandyta", "transliteration": "bandyta", "meaning": "bandit"},
+    {"word": "kamera", "transliteration": "kamera", "meaning": "camera"},
+    {"word": "detektyw", "transliteration": "detektyw", "meaning": "detective"}
+  ],
+  "english_words": ["detective", "camera", "alarm", "bandit"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same international sources, so the written forms stayed very close and the meanings match exactly.",
+  "false_friend_warning": null
+}
