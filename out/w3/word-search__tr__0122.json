@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "Q", "W", "I"],
+    ["K", "S", "L", "T", "P", "D", "V", "B", "R"],
+    ["Z", "F", "A", "G", "H", "J", "X", "W", "O"],
+    ["M", "Y", "K", "R", "Q", "U", "L", "T", "N"],
+    ["B", "D", "F", "V", "C", "I", "N", "P", "Y"],
+    ["W", "X", "G", "H", "T", "A", "Z", "O", "K"],
+    ["R", "J", "Y", "B", "N", "L", "S", "D", "F"],
+    ["C", "G", "H", "W", "Q", "V", "K", "M", "X"],
+    ["E", "U", "P", "H", "E", "M", "I", "S", "M"]
+  ],
+  "words_to_find": ["NUANCE", "IRONY", "SARCASM", "EUPHEMISM"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SARCASM", "start_row": 1, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "EUPHEMISM", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Connotation and Nuance in Word Choice"
+}

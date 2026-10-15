@@ -1,0 +1,14 @@
+{
+  "trigger_word": "brave",
+  "all_words": [
+    {"word": "hero", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kahraman, cesaret gösteren kişi anlamına gelir, bu nedenle 'brave' ile anlamsal olarak bağlantılıdır."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masa bir eşyadır ve cesaretle ilgili değildir."},
+    {"word": "lion", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Aslan cesaretin sembolü olarak kabul edilir, bu yüzden anlamsal bağlantısı vardır."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Kaşık mutfakta kullanılan bir araçtır ve cesaret kavramıyla bir ilgisi yoktur."},
+    {"word": "soldier", "is_associated": true, "association_type": "THEMATIC", "explanation": "Asker, tehlikeli durumlarda cesaret gösteren kişidir, bu nedenle konu olarak ilişkilidir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık uyumak için kullanılır ve cesaretle bağlantılı değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Cesaret kelimesiyle ilgili kelimeler cesaret gösteren kişileri, hayvanları veya meslekleri anlatır; diğer kelimeler ise bu anlamla ilgili değildir."
+}
