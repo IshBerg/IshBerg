@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because his laptop kept crashing,",
+  "correct_completion": "he had it repaired by a technician.",
+  "full_sentence": "Because his laptop kept crashing, he had it repaired by a technician.",
+  "acceptable_variants": ["he got it repaired by a technician.", "he had a technician fix it."],
+  "options": [
+    {"text": "he repaired it himself at home.", "is_correct": false, "why_wrong": "This describes doing the repair personally. The causative 'have + object + past participle' shows that someone else was arranged to do the action."},
+    {"text": "he had it repaired by a technician.", "is_correct": true, "why_wrong": null},
+    {"text": "so he threw it away immediately.", "is_correct": false, "why_wrong": "'So' introduces a result that does not fit the stem, which expects an arranged service rather than disposal."},
+    {"text": "he got a new laptop from the shop.", "is_correct": false, "why_wrong": "Buying a new laptop does not express having a repair done, so it does not complete the causative pattern."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Causative 'have + object + past participle'",
+  "connector": "had",
+  "explanation": "The causative structure 'have + object + past participle' shows that the subject arranged for another person to do an action. Turkish speakers often use a simple active verb here because Turkish marks this idea with a suffix on the verb itself, so the 'have' pattern needs deliberate practice.",
+  "translation": "Dizüstü bilgisayarı sürekli çöktüğü için, bir teknisyene tamir ettirdi."
+}
