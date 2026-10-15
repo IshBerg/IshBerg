@@ -1,0 +1,13 @@
+{
+  "start_word": "empty",
+  "end_word": "full",
+  "ladder_steps": [
+    {"word": "empty", "translation": "порожній", "intensity_level": 1},
+    {"word": "low", "translation": "низький", "intensity_level": 2},
+    {"word": "half-full", "translation": "наполовину повний", "intensity_level": 3},
+    {"word": "nearly full", "translation": "майже повний", "intensity_level": 4},
+    {"word": "full", "translation": "повний", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Fill-level words form a ladder from empty to full, each step closer to completely full."
+}
