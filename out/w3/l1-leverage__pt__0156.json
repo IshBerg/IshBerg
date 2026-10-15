@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "melancolia", "transliteration": "melancolia", "meaning": "melancholy; a deep, quiet sadness"},
+    {"word": "epílogo", "transliteration": "epilogo", "meaning": "epilogue; a closing section of a literary work"},
+    {"word": "catástrofe", "transliteration": "catastrofe", "meaning": "catastrophe; a sudden disaster"},
+    {"word": "monólogo", "transliteration": "monologo", "meaning": "monologue; a long speech by one speaker"}
+  ],
+  "english_words": ["catastrophe", "melancholy", "monologue", "epilogue"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Greek and Latin, so the forms stayed close and the meanings stayed the same. Literary and formal vocabulary often shows this kind of close match.",
+  "false_friend_warning": null
+}

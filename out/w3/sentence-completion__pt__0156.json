@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I look forward to",
+  "correct_completion": "meeting you next week.",
+  "full_sentence": "I look forward to meeting you next week.",
+  "acceptable_variants": ["seeing you next week.", "hearing from you next week."],
+  "options": [
+    {"text": "meet you next week.", "is_correct": false, "why_wrong": "'Look forward to' is followed by a gerund (-ing form), not a base verb, so 'meet' is incorrect here."},
+    {"text": "meeting you next week.", "is_correct": true, "why_wrong": null},
+    {"text": "to meet you next week.", "is_correct": false, "why_wrong": "Here 'to' is a preposition in the fixed phrase 'look forward to', so it must be followed by a gerund, not an infinitive."},
+    {"text": "met you last week.", "is_correct": false, "why_wrong": "This is a past-tense clause, which cannot follow 'look forward to' and does not describe a future meeting."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Gerunds after the fixed phrase 'look forward to'",
+  "connector": "to",
+  "explanation": "Portuguese speakers may be tempted to use an infinitive here, because the Portuguese equivalent takes an infinitive after its preposition. In English, 'look forward to' is a fixed phrase in which 'to' is a preposition, so it must be followed by the -ing form.",
+  "translation": "Estou ansioso por encontrar você na próxima semana."
+}
