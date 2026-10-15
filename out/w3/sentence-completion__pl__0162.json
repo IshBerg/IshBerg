@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She enjoys",
+  "correct_completion": "reading novels in the evening.",
+  "full_sentence": "She enjoys reading novels in the evening.",
+  "acceptable_variants": ["cooking dinner for her friends.", "walking in the park after work."],
+  "options": [
+    {"text": "to read novels in the evening.", "is_correct": false, "why_wrong": "'Enjoy' is followed by a gerund (-ing form), not an infinitive with 'to'."},
+    {"text": "reading novels in the evening.", "is_correct": true, "why_wrong": null},
+    {"text": "read novels in the evening.", "is_correct": false, "why_wrong": "'Enjoy' needs a gerund; a bare verb without -ing is ungrammatical here."},
+    {"text": "she reads novels every evening.", "is_correct": false, "why_wrong": "The stem already contains the verb 'enjoys', so a second finite verb cannot follow it directly."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbs followed by gerunds: enjoy + -ing",
+  "connector": "enjoys",
+  "explanation": "The verb 'enjoy' is always followed by a gerund. Learners may expect an infinitive here because many other verbs take 'to', so the -ing pattern after 'enjoy' should be learned as a fixed pattern.",
+  "translation": "Ona lubi czytać powieści wieczorem."
+}
