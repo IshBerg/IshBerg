@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had the meeting started",
+  "correct_completion": "when the power went out.",
+  "full_sentence": "Hardly had the meeting started when the power went out.",
+  "acceptable_variants": ["when the lights suddenly went off.", "when a power cut interrupted everyone."],
+  "options": [
+    {"text": "because the power went out.", "is_correct": false, "why_wrong": "'Hardly ... when' links two events that happen almost at once. It does not express a cause, so 'because' does not fit."},
+    {"text": "when the power went out.", "is_correct": true, "why_wrong": null},
+    {"text": "so the power went out.", "is_correct": false, "why_wrong": "'So' introduces a result, but the pattern 'hardly ... when' describes sudden timing, not a consequence."},
+    {"text": "but the power was still on.", "is_correct": false, "why_wrong": "'But' signals contrast, while the structure 'hardly ... when' requires a second event that follows immediately."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Negative inversion with 'hardly ... when'",
+  "connector": "when",
+  "explanation": "'Hardly' at the start of the sentence triggers inversion of the auxiliary verb, and the structure 'hardly ... when' shows that the second event happens immediately after the first. The completion must therefore be a 'when' clause describing that sudden event.",
+  "translation": "Ledwie zaczęło się spotkanie, gdy nagle zabrakło prądu."
+}
