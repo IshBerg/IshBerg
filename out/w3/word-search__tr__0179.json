@@ -1,0 +1,25 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "E", "A", "D", "Q", "W", "K", "P", "U", "H"],
+    ["B", "I", "C", "T", "Z", "L", "M", "J", "R", "A"],
+    ["G", "X", "V", "O", "S", "P", "Q", "W", "Y", "N"],
+    ["L", "T", "K", "U", "I", "F", "Z", "B", "C", "D"],
+    ["N", "P", "R", "J", "W", "D", "A", "G", "Q", "K"],
+    ["V", "O", "Z", "L", "P", "E", "Y", "E", "S", "B"],
+    ["R", "K", "S", "Q", "M", "W", "X", "D", "L", "T"],
+    ["Y", "F", "M", "E", "U", "N", "B", "H", "C", "G"],
+    ["W", "J", "R", "A", "Q", "S", "K", "P", "V", "I"],
+    ["D", "U", "A", "Z", "I", "N", "T", "O", "O", "F"]
+  ],
+  "words_to_find": ["HEAD", "HAND", "NOSE", "FOOT", "ARM", "EYE"],
+  "word_positions": [
+    {"word": "HEAD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HAND", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "NOSE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FOOT", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "ARM", "start_row": 9, "start_col": 2, "direction": "VERTICAL_UP"},
+    {"word": "EYE", "start_row": 5, "start_col": 5, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Basic Body Parts"
+}
