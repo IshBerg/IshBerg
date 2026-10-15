@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["N", "E", "W", "S", "E", "A", "K", "L", "S"],
+    ["Q", "M", "B", "J", "D", "U", "F", "Z", "T"],
+    ["R", "X", "G", "H", "I", "C", "N", "L", "O"],
+    ["W", "E", "K", "V", "T", "Q", "A", "M", "R"],
+    ["Y", "S", "P", "D", "O", "B", "J", "F", "Y"],
+    ["H", "U", "L", "O", "R", "N", "C", "G", "X"],
+    ["Z", "K", "W", "A", "R", "E", "M", "Q", "B"],
+    ["J", "N", "F", "U", "H", "T", "G", "X", "L"],
+    ["V", "I", "D", "E", "O", "Z", "A", "C", "M"]
+  ],
+  "words_to_find": ["NEWS", "STORY", "REPORT", "EDITOR", "VIDEO"],
+  "word_positions": [
+    {"word": "NEWS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STORY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "REPORT", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "EDITOR", "start_row": 0, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "VIDEO", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Reporting News"
+}

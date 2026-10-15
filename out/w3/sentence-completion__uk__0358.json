@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the strong evidence presented against him,",
+  "correct_completion": "the jury remained unconvinced.",
+  "full_sentence": "Despite the strong evidence presented against him, the jury remained unconvinced.",
+  "acceptable_variants": ["the jury still refused to convict him.", "the verdict nonetheless stayed uncertain."],
+  "options": [
+    {"text": "the court immediately adjourned for the day.", "is_correct": false, "why_wrong": "Adjourning describes a procedural event, not a reaction to the evidence, so it does not complete the concessive contrast that 'despite' introduces."},
+    {"text": "the jury therefore convicted him at once.", "is_correct": false, "why_wrong": "'Therefore' expresses a result that follows naturally from the evidence. 'Despite' requires an outcome that goes against the evidence, so this option does not fit the structure."},
+    {"text": "the jury remained unconvinced.", "is_correct": true, "why_wrong": null},
+    {"text": "the evidence was later destroyed.", "is_correct": false, "why_wrong": "This introduces a new event unrelated to the jury's response, so it does not complete the contrast set up by the opening phrase."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive phrases with 'despite' and contrast within the main clause",
+  "connector": "despite",
+  "explanation": "The opening phrase 'Despite' signals a concession, so the main clause must describe an outcome that contrasts with the strong evidence. Learners often pick a result clause with a cause connector such as 'therefore', because in their first language a concession and a result can be expressed with similar structures; here the concessive meaning must be kept explicit.",
+  "translation": "Попри переконливі докази проти нього, присяжні залишилися непереконаними."
+}
