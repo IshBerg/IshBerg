@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["A", "G", "R", "E", "E", "X", "Q", "W"],
+    ["L", "B", "I", "D", "K", "Z", "P", "R"],
+    ["M", "T", "G", "V", "J", "Y", "K", "O"],
+    ["C", "P", "H", "Q", "X", "D", "W", "N"],
+    ["Y", "R", "T", "B", "F", "U", "Z", "G"],
+    ["J", "M", "K", "F", "V", "L", "Q", "D"],
+    ["K", "S", "U", "R", "E", "J", "Z", "H"],
+    ["P", "X", "Q", "L", "Z", "M", "B", "A"]
+  ],
+  "words_to_find": ["AGREE", "WRONG", "RIGHT", "SURE"],
+  "word_positions": [
+    {"word": "AGREE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WRONG", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "RIGHT", "start_row": 0, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "SURE", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Agreement and Disagreement"
+}

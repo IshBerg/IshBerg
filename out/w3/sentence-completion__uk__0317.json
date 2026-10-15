@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has finished the report,",
+  "correct_completion": "hasn't she?",
+  "full_sentence": "She has finished the report, hasn't she?",
+  "acceptable_variants": ["isn't it?", "hasn't she, right?"],
+  "options": [
+    {"text": "doesn't she?", "is_correct": false, "why_wrong": "'Doesn't' is the auxiliary for the simple present, but the statement uses the present perfect 'has', so the tag must repeat 'has'."},
+    {"text": "isn't she?", "is_correct": false, "why_wrong": "'Isn't' is built on the verb 'be', but the statement uses 'has' as its auxiliary, so the tag must match 'has'."},
+    {"text": "hasn't she?", "is_correct": true, "why_wrong": null},
+    {"text": "has she?", "is_correct": false, "why_wrong": "A tag question after a positive statement must be negative; 'has she?' is positive and does not contrast with the statement."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Question tags with the auxiliary from the main clause",
+  "connector": "tag question",
+  "explanation": "A tag question repeats the auxiliary of the main clause and reverses its polarity. Ukrainian speakers often add one fixed question word such as 'right' for every statement, because Ukrainian does not build tags by repeating the auxiliary verb.",
+  "translation": "Вона закінчила звіт, правда ж?"
+}

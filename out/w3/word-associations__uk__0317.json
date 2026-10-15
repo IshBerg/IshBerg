@@ -1,0 +1,14 @@
+{
+  "trigger_word": "quill",
+  "all_words": [
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Молоток є інструментом для ударів і не пов'язаний із письмом пером, тому асоціації немає."},
+    {"word": "ink", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Чорнило наносили пером на папір, тому це слово має пряме смислове зв'язування з písовим інструментом."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед є сучасним транспортним засобом і не стосується старовинного письма."},
+    {"word": "parchment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Пергамент був поверхнею для письма, на якій працювали з пером; це тематичний зв'язок."},
+    {"word": "anvil", "is_associated": false, "association_type": "NONE", "explanation": "Ковадло використовують у коваль­стві, тому воно не має зв'язку з письмом."},
+    {"word": "feather", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Перо птаха було матеріалом, з якого виготовляли письмовий інструмент; це смисловий зв'язок."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Асоціації цього слова стосуються старовинного письма: чорнило, пергамент і пташине перо, тоді як молоток, велосипед і ковадло належать до інших сфер."
+}

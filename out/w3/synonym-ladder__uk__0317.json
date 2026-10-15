@@ -1,0 +1,13 @@
+{
+  "start_word": "whisper",
+  "end_word": "shout",
+  "ladder_steps": [
+    {"word": "whisper", "translation": "шепотіти", "intensity_level": 1},
+    {"word": "murmur", "translation": "бурмотіти", "intensity_level": 2},
+    {"word": "speak", "translation": "говорити", "intensity_level": 3},
+    {"word": "bellow", "translation": "горлати", "intensity_level": 4},
+    {"word": "shout", "translation": "кричати", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Verbs of speaking form a ladder along one dimension, loudness, from the quietest to the loudest, with each step noticeably louder than the one before."
+}
