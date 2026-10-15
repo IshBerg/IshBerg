@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["E", "S", "S", "A", "Y", "X", "T"],
+    ["K", "M", "B", "L", "W", "J", "H"],
+    ["C", "Z", "Q", "V", "R", "U", "E"],
+    ["Q", "P", "O", "I", "N", "T", "S"],
+    ["G", "D", "K", "W", "F", "A", "I"],
+    ["M", "J", "L", "Y", "E", "B", "S"],
+    ["D", "R", "A", "F", "T", "K", "N"]
+  ],
+  "words_to_find": ["ESSAY", "THESIS", "DRAFT", "POINT"],
+  "word_positions": [
+    {"word": "ESSAY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THESIS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "DRAFT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "POINT", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}
