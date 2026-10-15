@@ -1,0 +1,13 @@
+{
+  "start_word": "exact",
+  "end_word": "vague",
+  "ladder_steps": [
+    {"word": "exact", "translation": "tam", "intensity_level": 1},
+    {"word": "precise", "translation": "kesin", "intensity_level": 2},
+    {"word": "approximate", "translation": "yaklaşık", "intensity_level": 3},
+    {"word": "rough", "translation": "kaba", "intensity_level": 4},
+    {"word": "vague", "translation": "belirsiz", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Precision words form a scale from completely exact to completely vague, and each step is less precise than the one before."
+}

@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R", "O", "B", "O", "T", "X", "K", "Q", "D"],
+    ["H", "L", "V", "W", "J", "Z", "C", "P", "A"],
+    ["F", "K", "Y", "G", "N", "B", "O", "M", "T"],
+    ["Q", "U", "S", "L", "X", "H", "D", "W", "A"],
+    ["Z", "P", "T", "K", "V", "J", "E", "R", "Y"],
+    ["B", "M", "G", "U", "D", "W", "Q", "L", "X"],
+    ["J", "S", "Y", "F", "R", "K", "P", "T", "V"],
+    ["Q", "X", "W", "Z", "N", "E", "H", "G", "B"],
+    ["M", "A", "C", "H", "I", "N", "E", "P", "Z"]
+  ],
+  "words_to_find": ["ROBOT", "DATA", "CODE", "FUTURE", "MACHINE"],
+  "word_positions": [
+    {"word": "ROBOT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DATA", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CODE", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "FUTURE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MACHINE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "AI and the Future"
+}
