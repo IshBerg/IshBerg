@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she was very tired,",
+  "correct_completion": "she finished her homework.",
+  "full_sentence": "Although she was very tired, she finished her homework.",
+  "acceptable_variants": ["she still finished her homework.", "she did her homework anyway."],
+  "options": [
+    {"text": "so she went to bed early.", "is_correct": false, "why_wrong": "This shows a result of tiredness, but 'although' needs a clause that contrasts with the tiredness."},
+    {"text": "she was sleeping on the sofa.", "is_correct": false, "why_wrong": "This continues the idea of tiredness instead of providing the contrasting action expected after 'although'."},
+    {"text": "it was already dark outside.", "is_correct": false, "why_wrong": "This adds a fact about the time but does not provide the contrast that 'although' requires."},
+    {"text": "she finished her homework.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Polish speakers may find this pattern familiar because Polish uses a similar connector in the same position, but they should still check the verb tense that follows.",
+  "translation": "Chociaż była bardzo zmęczona, odrobiła pracę domową."
+}
