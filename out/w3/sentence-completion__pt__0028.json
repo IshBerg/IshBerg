@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The shop was closed when we arrived, so",
+  "correct_completion": "it must have closed early.",
+  "full_sentence": "The shop was closed when we arrived, so it must have closed early.",
+  "acceptable_variants": ["it might have closed early.", "it had probably closed early."],
+  "options": [
+    {"text": "we bought some bread.", "is_correct": false, "why_wrong": "This describes an action, but it does not explain or draw a conclusion about why the shop was closed."},
+    {"text": "it was a Tuesday.", "is_correct": false, "why_wrong": "A day of the week is a fact, not a logical conclusion drawn from the closed shop, so it does not complete the reasoning."},
+    {"text": "it must have closed early.", "is_correct": true, "why_wrong": null},
+    {"text": "we should have gone earlier.", "is_correct": false, "why_wrong": "This is a criticism of our own behaviour, not speculation about the shop. It does not explain the closed door."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal perfect for speculation: must have + past participle",
+  "connector": "so",
+  "explanation": "After 'so', we need a conclusion. The modal perfect 'must have' + past participle shows a logical deduction about a past event. Speakers often use a simple past form here, but the modal perfect expresses how sure the speaker is.",
+  "translation": "A loja estava fechada quando chegamos, então ela deve ter fechado mais cedo."
+}
