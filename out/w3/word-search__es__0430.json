@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "O", "O", "T", "H", "Q", "Z", "W", "A"],
+    ["K", "P", "M", "J", "V", "X", "G", "Y", "C"],
+    ["D", "W", "Q", "H", "Z", "B", "T", "R", "C"],
+    ["Z", "F", "J", "K", "N", "I", "P", "V", "U"],
+    ["M", "X", "B", "G", "L", "Q", "W", "K", "R"],
+    ["P", "Y", "H", "E", "T", "J", "M", "F", "A"],
+    ["R", "S", "D", "V", "K", "Z", "Q", "N", "C"],
+    ["W", "I", "X", "L", "O", "B", "G", "E", "Y"],
+    ["F", "R", "N", "U", "A", "N", "C", "E", "J"]
+  ],
+  "words_to_find": ["BOOTH", "ACCURACY", "FIDELITY", "NUANCE"],
+  "word_positions": [
+    {"word": "BOOTH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ACCURACY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "FIDELITY", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "NUANCE", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}
