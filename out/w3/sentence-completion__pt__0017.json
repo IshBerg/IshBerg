@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the train was delayed for hours,",
+  "correct_completion": "the passengers stayed calm and kept chatting.",
+  "full_sentence": "Even though the train was delayed for hours, the passengers stayed calm and kept chatting.",
+  "acceptable_variants": ["the passengers remained patient.", "most of them still enjoyed the trip."],
+  "options": [
+    {"text": "so the passengers complained to the staff.", "is_correct": false, "why_wrong": "'So' marks a result, not a contrast. The stem needs a clause that goes against the expectation created by 'even though'."},
+    {"text": "the passengers stayed calm and kept chatting.", "is_correct": true, "why_wrong": null},
+    {"text": "the train was very crowded.", "is_correct": false, "why_wrong": "This adds information about the train, but it does not provide the contrasting reaction expected after 'even though'."},
+    {"text": "because the delay was announced early.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a concession. It would not complete a sentence that begins with 'even though'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the main clause should express a result that goes against what we would expect. Speakers whose first language uses the same clause order for cause and concession may mix up the connector and the result clause.",
+  "translation": "Mesmo que o trem tenha atrasado por horas, os passageiros permaneceram calmos e continuaram conversando."
+}
