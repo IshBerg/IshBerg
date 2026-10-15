@@ -1,0 +1,14 @@
+{
+  "trigger_word": "blog",
+  "all_words": [
+    {"word": "writer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El escritor es la persona que crea el contenido de un blog."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "El árbol no tiene ninguna relación con un blog ni con la escritura en internet."},
+    {"word": "post", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión 'blog post' significa una entrada o artículo publicado en un blog."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El zapato es un objeto de vestir y no tiene relación con los blogs."},
+    {"word": "comment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los comentarios son parte habitual de un blog, donde los lectores escriben su opinión."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "El pan es un alimento y no está relacionado con los blogs."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'blog' son personas, textos y elementos propios de la página, mientras que árbol, zapato y pan no tienen relación con el tema."
+}
