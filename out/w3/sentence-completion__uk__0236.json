@@ -1,0 +1,21 @@
+{
+  "sentence_stem": "Had the author not foreshadowed the betrayal in the opening chapter,",
+  "correct_completion": "the final twist would have felt arbitrary to readers.",
+  "full_sentence": "Had the author not foreshadowed the betrayal in the opening chapter, the final twist would have felt arbitrary to readers.",
+  "acceptable_variants": [
+    "the ending would have seemed unearned to most readers.",
+    "readers would have been left confused by the sudden reversal."
+  ],
+  "options": [
+    {"text": "the final twist was arbitrary.", "is_correct": false, "why_wrong": "The simple past does not express the hypothetical consequence of an unrealized past condition. The inverted 'Had' structure requires a conditional main clause."},
+    {"text": "the final twist would have felt arbitrary to readers.", "is_correct": true, "why_wrong": null},
+    {"text": "the twist was foreshadowed by the narrator.", "is_correct": false, "why_wrong": "This reports an event as already happening, which contradicts the hypothetical 'had not' in the stem. It does not complete the conditional."},
+    {"text": "so the twist was not arbitrary.", "is_correct": false, "why_wrong": "'So' signals a result of a stated fact, not a hypothetical. The stem sets up an unrealized condition, which needs a conditional consequence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and a would have consequence clause",
+  "connector": "had",
+  "explanation": "Inverted conditionals drop 'if' and move 'had' to the front, so the main clause must use would have plus a past participle to describe the hypothetical result. Ukrainian speakers often express this kind of unreal past meaning with a single past-tense form, so the consequence clause here needs the full would have structure.",
+  "translation": "Якби автор не передбачив зраду в першому розділі, фінальний поворот сюжету здався б читачам безпідставним."
+}
