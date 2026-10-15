@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the results were promising,",
+  "correct_completion": "further research is needed before any conclusions can be drawn.",
+  "full_sentence": "Although the results were promising, further research is needed before any conclusions can be drawn.",
+  "acceptable_variants": ["the sample was still too small to be sure.", "some reviewers still raised doubts about the method."],
+  "options": [
+    {"text": "so the study was cancelled immediately.", "is_correct": false, "why_wrong": "'Although' signals contrast, but this option gives a consequence, so it does not complete the logic of the stem."},
+    {"text": "the researchers were very happy.", "is_correct": false, "why_wrong": "This continues the positive tone instead of contrasting with it, which 'although' requires."},
+    {"text": "further research is needed before any conclusions can be drawn.", "is_correct": true, "why_wrong": null},
+    {"text": "the data was collected in 2020.", "is_correct": false, "why_wrong": "This adds background information but does not give the contrasting main clause that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and passive structures",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first clause. Here the promising results are contrasted with a need for more research, expressed with the passive forms 'is needed' and 'can be drawn'. Ukrainian speakers may choose a consequence connector such as 'so' in this position, so check that the second clause contrasts rather than follows logically.",
+  "translation": "Хоча результати були обнадійливими, перш ніж робити будь-які висновки, потрібні подальші дослідження."
+}
