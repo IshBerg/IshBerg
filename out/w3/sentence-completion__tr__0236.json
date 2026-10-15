@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the evidence seemed convincing,",
+  "correct_completion": "the judge refused to reach a verdict.",
+  "full_sentence": "Although the evidence seemed convincing, the judge refused to reach a verdict.",
+  "acceptable_variants": ["the judge still withheld a decision.", "the judge nevertheless postponed the ruling."],
+  "options": [
+    {"text": "so the judge reached a verdict at once.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause. A quick verdict would be a consequence of the evidence, which 'although' does not introduce."},
+    {"text": "the case was heard in the morning.", "is_correct": false, "why_wrong": "This gives a timing detail but does not complete the contrast that 'although' sets up."},
+    {"text": "the judge refused to reach a verdict.", "is_correct": true, "why_wrong": null},
+    {"text": "the courtroom was very crowded.", "is_correct": false, "why_wrong": "This adds background information but does not provide the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and contrastive main clauses",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must present a result that runs against the expectation set by the first clause. Learners who think in terms of cause often choose a result that follows naturally, which is a common mistake with concessive connectors.",
+  "translation": "Kanıtlar inandırıcı görünmesine rağmen, hakim bir karara varmayı reddetti."
+}
