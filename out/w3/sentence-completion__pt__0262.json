@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been consulted earlier,",
+  "correct_completion": "the proposal would have been substantially revised.",
+  "full_sentence": "Had the committee been consulted earlier, the proposal would have been substantially revised.",
+  "acceptable_variants": ["the proposal would have been far less controversial.", "many of the errors would have been avoided."],
+  "options": [
+    {"text": "so the proposal was rejected outright.", "is_correct": false, "why_wrong": "'So' introduces a simple past result, but the inverted 'Had' clause requires a counterfactual result with 'would have' plus a past participle."},
+    {"text": "the proposal is being revised right now.", "is_correct": false, "why_wrong": "The present continuous does not match the past hypothetical condition set by 'Had ... been consulted'."},
+    {"text": "the proposal would have been substantially revised.", "is_correct": true, "why_wrong": null},
+    {"text": "we have consulted the committee twice.", "is_correct": false, "why_wrong": "This states a real fact in the present perfect and does not give the hypothetical result that the inverted conditional requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'If the committee had been consulted'. The main clause must therefore express a past hypothetical result using 'would have' plus a past participle.",
+  "translation": "Se o comitê tivesse sido consultado antes, a proposta teria sido substancialmente revisada."
+}
