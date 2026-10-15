@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Given that the sample size was relatively small,",
+  "correct_completion": "the authors urged caution before generalizing their findings.",
+  "full_sentence": "Given that the sample size was relatively small, the authors urged caution before generalizing their findings.",
+  "acceptable_variants": ["the authors acknowledged the limitations of their methodology.", "the conclusions were presented as tentative rather than definitive."],
+  "options": [
+    {"text": "the authors were able to generalize their findings to the whole population.", "is_correct": false, "why_wrong": "A small sample weakens generalization, so this conclusion contradicts the logic set up by 'given that'."},
+    {"text": "the results were consequently proven beyond all doubt.", "is_correct": false, "why_wrong": "This overstates the claim. A small sample cannot establish results beyond all doubt."},
+    {"text": "the authors urged caution before generalizing their findings.", "is_correct": true, "why_wrong": null},
+    {"text": "the sample was collected from three different countries.", "is_correct": false, "why_wrong": "This adds an unrelated detail and does not draw a logical conclusion from the small sample size."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participial premise with 'given that' and a logical conclusion",
+  "connector": "given that",
+  "explanation": "'Given that' introduces a premise, so the completion must draw a logical conclusion from that premise. Here, a small sample size calls for cautious interpretation of the results.",
+  "translation": "Ponieważ próba badawcza była stosunkowo mała, autorzy zalecali ostrożność przed uogólnianiem swoich wyników."
+}
