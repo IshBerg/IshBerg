@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister, who lives in Kraków,",
+  "correct_completion": "is a doctor at the local hospital.",
+  "full_sentence": "My sister, who lives in Kraków, is a doctor at the local hospital.",
+  "acceptable_variants": ["works as a doctor at the local hospital.", "has worked at the local hospital for five years."],
+  "options": [
+    {"text": "which is a very old city.", "is_correct": false, "why_wrong": "'Which' refers to things, not to the sister, and this creates a second relative clause with no main verb for her."},
+    {"text": "who is a doctor at the local hospital.", "is_correct": false, "why_wrong": "This repeats the relative pronoun for the same noun, so the sentence has two relative clauses and no main verb for the subject."},
+    {"text": "is a doctor at the local hospital.", "is_correct": true, "why_wrong": null},
+    {"text": "that she likes to read books.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining clause, and this completion gives an unrelated detail instead of the sister's job."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who'",
+  "connector": "who",
+  "explanation": "A non-defining relative clause is set off by commas and adds extra information about a noun that is already clear. It uses 'who' for people and does not use 'that'. After the clause, the sentence still needs a main verb for the subject, so the completion must be a main clause with a finite verb.",
+  "translation": "Moja siostra, która mieszka w Krakowie, jest lekarką w miejscowym szpitalu."
+}
