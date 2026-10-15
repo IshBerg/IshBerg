@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had the advert appeared online",
+  "correct_completion": "when the product sold out.",
+  "full_sentence": "Hardly had the advert appeared online when the product sold out.",
+  "acceptable_variants": ["when the stock was exhausted.", "when the first complaints arrived."],
+  "options": [
+    {"text": "because the product sold out.", "is_correct": false, "why_wrong": "'Because' expresses cause, but the fixed structure 'hardly ... when' links two events that happen almost at the same moment."},
+    {"text": "than the product sold out.", "is_correct": false, "why_wrong": "'Than' belongs to comparatives. The structure after 'hardly' requires 'when', not 'than'."},
+    {"text": "when the product sold out.", "is_correct": true, "why_wrong": null},
+    {"text": "so the product sold out.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not fit the fixed 'hardly ... when' sequence of two closely timed events."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Inversion after the negative adverbial 'hardly' with the fixed 'when' clause",
+  "connector": "hardly ... when",
+  "explanation": "After a negative adverbial such as 'hardly', English requires subject-auxiliary inversion, so the auxiliary 'had' comes before the subject 'the advert'. The fixed pattern pairs this with 'when' to show that the second event followed immediately. Learners whose first language is Polish often keep normal word order here, because Polish marks emphasis differently and does not use this inversion.",
+  "translation": "Ledwo reklama pojawiła się w internecie, a produkt już został wyprzedany."
+}
