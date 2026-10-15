@@ -1,0 +1,14 @@
+{
+  "trigger_word": "court",
+  "all_words": [
+    {"word": "judge", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Sędzia pracuje w sądzie i wydaje wyroki, więc jest bezpośrednio związany z sądem."},
+    {"word": "lawyer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Prawnik reprezentuje strony w sprawach sądowych, więc należy do tematu sądu."},
+    {"word": "sunflower", "is_associated": false, "association_type": "NONE", "explanation": "Słonecznik to roślina i nie ma żadnego związku z sądami ani prawem."},
+    {"word": "verdict", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Werdykt to decyzja ogłoszona przez ławę przysięgłych lub sędziego na sali sądowej."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower jest środkiem transportu i nie kojarzy się z sądem."},
+    {"word": "trial", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Rzeczownik 'trial' łączy się z 'court' w wyrażeniu 'court trial', czyli proces sądowy."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'court' kojarzy się z sędzią, prawnikiem, werdyktem i procesem, a słonecznik oraz rower nie mają z sądem nic wspólnego."
+}

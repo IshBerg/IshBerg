@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "T", "O", "R", "M", "A", "B", "C", "F"],
+    ["D", "E", "G", "H", "J", "K", "N", "P", "L"],
+    ["Q", "W", "E", "R", "T", "Y", "U", "O", "O"],
+    ["V", "B", "N", "M", "K", "L", "D", "Z", "O"],
+    ["H", "X", "C", "V", "B", "A", "G", "Y", "D"],
+    ["J", "A", "K", "L", "N", "P", "Q", "W", "E"],
+    ["Z", "X", "I", "R", "T", "Y", "U", "I", "O"],
+    ["C", "F", "O", "L", "M", "N", "P", "R", "S"],
+    ["G", "T", "H", "J", "K", "L", "M", "N", "B"]
+  ],
+  "words_to_find": ["STORM", "FLOOD", "HAIL", "TORNADO"],
+  "word_positions": [
+    {"word": "STORM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FLOOD", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "HAIL", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TORNADO", "start_row": 8, "start_col": 1, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Extreme Weather"
+}
