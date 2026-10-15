@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I was very busy this week,",
+  "correct_completion": "I still found time to answer your message.",
+  "full_sentence": "Although I was very busy this week, I still found time to answer your message.",
+  "acceptable_variants": ["I still replied to your email.", "I managed to write back today."],
+  "options": [
+    {"text": "so I stayed at home all day.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. 'Although' needs a clause that shows contrast with the first part."},
+    {"text": "I still found time to answer your message.", "is_correct": true, "why_wrong": null},
+    {"text": "I was tired on Monday.", "is_correct": false, "why_wrong": "This adds a detail about the week, but it does not show the contrast that 'although' requires."},
+    {"text": "my computer was broken.", "is_correct": false, "why_wrong": "This gives a reason for not replying, which does not contrast with being busy."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a result that contrasts with the first clause. Learners often add 'but' after 'although', which creates a double contrast and should be avoided.",
+  "translation": "Embora eu tenha estado muito ocupado esta semana, ainda arranjei tempo para responder à sua mensagem."
+}

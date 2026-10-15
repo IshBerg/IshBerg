@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "H", "E", "S", "I", "S", "K", "J"],
+    ["D", "Q", "W", "B", "Z", "L", "P", "U"],
+    ["E", "X", "N", "C", "G", "T", "A", "R"],
+    ["F", "V", "I", "V", "A", "K", "Q", "Y"],
+    ["E", "J", "R", "S", "L", "B", "W", "H"],
+    ["N", "Z", "K", "P", "F", "Y", "X", "C"],
+    ["S", "M", "E", "T", "H", "O", "D", "G"],
+    ["E", "R", "B", "Q", "V", "L", "A", "Z"]
+  ],
+  "words_to_find": ["THESIS", "JURY", "DEFENSE", "METHOD", "VIVA"],
+  "word_positions": [
+    {"word": "THESIS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "JURY", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "DEFENSE", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "METHOD", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "VIVA", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Academic Thesis Defense"
+}
