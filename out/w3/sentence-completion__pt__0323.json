@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The book, which my teacher recommended,",
+  "correct_completion": "is very difficult to understand.",
+  "full_sentence": "The book, which my teacher recommended, is very difficult to understand.",
+  "acceptable_variants": ["is a very interesting novel.", "has a surprising ending."],
+  "options": [
+    {"text": "that is on the table.", "is_correct": false, "why_wrong": "A non-defining clause after a comma uses 'which' or 'who', never 'that'. The sentence also needs a main verb describing the book."},
+    {"text": "and I forgot the title.", "is_correct": false, "why_wrong": "The stem already contains a complete relative clause, so adding 'and' here creates an ungrammatical structure that does not describe the book."},
+    {"text": "is very difficult to understand.", "is_correct": true, "why_wrong": null},
+    {"text": "who was born in 1990.", "is_correct": false, "why_wrong": "'Who' refers to people, not to a book. A book needs 'which' in a relative clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Non-defining relative clauses with 'which' between commas",
+  "connector": "which",
+  "explanation": "A non-defining relative clause adds extra information about a noun that is already identified, and it is separated by commas. The main clause after the comma must still contain a verb that describes the noun.",
+  "translation": "O livro, que meu professor recomendou, é muito difícil de entender."
+}
