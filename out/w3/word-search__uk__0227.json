@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["A", "B", "D", "G", "H", "K", "P", "Q", "T", "R"],
+    ["J", "L", "M", "N", "S", "U", "V", "W", "E", "X"],
+    ["Q", "F", "A", "M", "I", "N", "E", "C", "K", "P"],
+    ["W", "B", "D", "G", "H", "J", "Y", "K", "L", "Q"],
+    ["A", "P", "Z", "X", "B", "C", "U", "V", "Y", "T"],
+    ["S", "K", "R", "Q", "L", "D", "M", "N", "G", "F"],
+    ["T", "B", "H", "E", "W", "J", "P", "X", "R", "Z"],
+    ["E", "G", "D", "K", "S", "V", "A", "L", "E", "Q"],
+    ["M", "H", "B", "F", "T", "Q", "W", "J", "N", "P"],
+    ["E", "N", "O", "Z", "O", "K", "X", "B", "E", "M"]
+  ],
+  "words_to_find": ["FAMINE", "ENERGY", "RECYCLE", "OZONE", "WASTE"],
+  "word_positions": [
+    {"word": "FAMINE", "start_row": 2, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "ENERGY", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"},
+    {"word": "RECYCLE", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "OZONE", "start_row": 9, "start_col": 4, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "WASTE", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Global Challenges"
+}

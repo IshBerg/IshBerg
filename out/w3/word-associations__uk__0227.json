@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Плита є одним із основних предметів кухні, і на ній готують їжу."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Жирафа не має жодного зв'язку з кухнею, це тварина, яка живе в саванах."},
+    {"word": "fridge", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Холодильник є типовим предметом кухні для зберігання продуктів."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора є природною формою рельєфу і не пов'язана з кухнею."},
+    {"word": "kitten", "is_associated": true, "association_type": "PHONETIC", "explanation": "Слово 'kitten' звучить схоже на 'kitchen', тому це фонетичний зв'язок, а не тематичний."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Пустеля є природним ландшафтом і жодним чином не стосується кухні."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова належать до теми кухні (stove, fridge) або мають схоже звучання (kitten), тоді як решта слів не стосується ні кухні, ні звукової схожості з нею."
+}
