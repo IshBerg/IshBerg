@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "topical, relevant, current"},
+    {"word": "фактичний", "transliteration": "faktychnyi", "meaning": "actual, factual, real"},
+    {"word": "ефективний", "transliteration": "efektyvnyi", "meaning": "effective"},
+    {"word": "коментар", "transliteration": "komentar", "meaning": "comment, remark"}
+  ],
+  "english_words": ["actual", "comment", "topical", "effective"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin and French, so the written forms stayed close. Over time the Ukrainian adjective for topical or relevant drifted in meaning, so it now looks almost identical to English actual.",
+  "false_friend_warning": "The Ukrainian word aktualnyi looks like English 'actual', but it means 'topical' or 'relevant'; the Ukrainian word for 'actual' is faktychnyi, so learners should not translate 'actual' with aktualnyi."
+}
