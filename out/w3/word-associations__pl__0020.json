@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Piekarnik to urządzenie, które znajduje się w typowej kuchni i służy do gotowania."},
+    {"word": "wardrobe", "is_associated": false, "association_type": "NONE", "explanation": "Szafa na ubrania należy do sypialni lub przedpokoju, a nie do kuchni."},
+    {"word": "recipe", "is_associated": true, "association_type": "THEMATIC", "explanation": "Przepis jest instrukcją gotowania, więc naturalnie pojawia się w kontekście kuchni."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Sofa jest meblem do salonu i nie ma bezpośredniego związku z kuchnią."},
+    {"word": "fridge", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Lodówka jest częścią wyposażenia kuchni i często występuje razem z tym słowem w połączeniach."},
+    {"word": "kitten", "is_associated": true, "association_type": "PHONETIC", "explanation": "Słowo 'kitten' brzmi podobnie do pierwszych sylab słowa 'kitchen', co tworzy skojarzenie dźwiękowe."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'kitchen' wiąże się z urządzeniami i czynnościami związanymi z gotowaniem, a także z podobnie brzmiącymi słowami, natomiast meble z innych pomieszczeń nie pasują."
+}

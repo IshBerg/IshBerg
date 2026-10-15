@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied all night,",
+  "correct_completion": "she still failed the test.",
+  "full_sentence": "Despite having studied all night, she still failed the test.",
+  "acceptable_variants": ["she nevertheless failed the test.", "she still did not pass."],
+  "options": [
+    {"text": "so she was extremely tired.", "is_correct": false, "why_wrong": "'Despite' signals contrast, not a result. This option expresses a consequence, which does not fit the concessive meaning."},
+    {"text": "she still failed the test.", "is_correct": true, "why_wrong": null},
+    {"text": "she had not studied at all.", "is_correct": false, "why_wrong": "This contradicts the stem, which states that she studied all night."},
+    {"text": "the test was on a Monday.", "is_correct": false, "why_wrong": "This is an irrelevant detail that does not complete the contrast introduced by 'despite'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive expressions with 'despite' followed by a gerund",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a fact that contrasts with the main clause, so the main clause must describe an unexpected outcome. Polish speakers often choose a clause-based structure with a subordinator here, but English uses 'despite' with a gerund phrase and no conjunction before the subject of the main clause.",
+  "translation": "Mimo że uczyła się całą noc, i tak nie zdała testu."
+}
