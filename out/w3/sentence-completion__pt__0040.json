@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I might have passed the exam.", "I would have got a better grade."],
+  "options": [
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "This uses a future form for a plan, but the stem describes an unreal past situation, so the result must use 'would have' plus the past participle."},
+    {"text": "I passed the exam yesterday.", "is_correct": false, "why_wrong": "This states a real past fact. The stem is hypothetical, so the result should describe what would have happened."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I would pass the exam now.", "is_correct": false, "why_wrong": "This mixes a past condition with a present result. The stem refers only to the past, so the result should also refer to the past."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: 'if' + past perfect, 'would have' + past participle",
+  "connector": "if",
+  "explanation": "Students should match the past perfect in the condition with 'would have' plus the past participle in the result. Learners often copy the tense of their native language directly, so they need to practise the full structure.",
+  "translation": "Se eu tivesse estudado mais, eu teria passado no exame."
+}
