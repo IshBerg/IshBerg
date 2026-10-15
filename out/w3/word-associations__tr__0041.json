@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "cloud", "is_associated": true, "association_type": "THEMATIC", "explanation": "Yağmur bulutlardan düşer, bu yüzden 'cloud' (bulut) yağmurla aynı konuya aittir."},
+    {"word": "umbrella", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yağmur yağarken insanlar şemsiye kullanır; bu anlam olarak doğrudan yağmurla ilgilidir."},
+    {"word": "wet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yağmur altında kalan şey ıslanır, yani 'wet' (ıslak) yağmurun doğal sonucudur."},
+    {"word": "book", "is_associated": false, "association_type": "NONE", "explanation": "Kitap yağmurla bir ilişkisi olmayan bir nesnedir; hava olayıyla bağlantısı yoktur."},
+    {"word": "red", "is_associated": false, "association_type": "NONE", "explanation": "Kırmızı bir renktir ve yağmurla doğrudan bir ilişkisi yoktur."},
+    {"word": "horse", "is_associated": false, "association_type": "NONE", "explanation": "At bir hayvandır ve yağmur ile ilgili bir kavram değildir."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Rain' kelimesi bulut, şemsiye ve ıslaklık gibi hava olayının parçalarıyla ilişkilidir; diğer kelimeler farklı konulara aittir."
+}
