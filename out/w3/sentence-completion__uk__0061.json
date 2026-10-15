@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Right now, my sister",
+  "correct_completion": "is studying in the library for her English exam.",
+  "full_sentence": "Right now, my sister is studying in the library for her English exam.",
+  "acceptable_variants": ["is reading a book at home for pleasure.", "is preparing for her English exam."],
+  "options": [
+    {"text": "studies every day at seven in the morning.", "is_correct": false, "why_wrong": "This describes a habit, which uses the simple present, not an action happening right now."},
+    {"text": "studied in the library yesterday.", "is_correct": false, "why_wrong": "'Yesterday' points to the past, but the sentence needs an action happening at this moment."},
+    {"text": "is studying in the library for her English exam.", "is_correct": true, "why_wrong": null},
+    {"text": "will study if she finishes her lunch.", "is_correct": false, "why_wrong": "This is a future condition, so it does not describe the action happening right now."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present continuous for actions happening now",
+  "connector": "right now",
+  "explanation": "The stem sets a time of now, so the completion needs the present continuous form of the verb, with the auxiliary is and the -ing form. Learners who think in terms of habits may choose the simple present, but it does not fit this moment.",
+  "translation": "Зараз моя сестра вивчає англійську в бібліотеці перед іспитом."
+}
