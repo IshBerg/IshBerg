@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I enjoy my job very much,",
+  "correct_completion": "I would like to apply for a new position.",
+  "full_sentence": "Although I enjoy my job very much, I would like to apply for a new position.",
+  "acceptable_variants": ["I would still like to apply for a new position.", "I am looking for more challenges."],
+  "options": [
+    {"text": "so I am writing to ask for a pay rise.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. 'Although' needs a clause that contrasts with the first part of the sentence."},
+    {"text": "I have worked here for five years.", "is_correct": false, "why_wrong": "This gives background information but does not show the contrast expected after 'although'."},
+    {"text": "I would like to apply for a new position.", "is_correct": true, "why_wrong": null},
+    {"text": "the letter was sent yesterday.", "is_correct": false, "why_wrong": "This is unrelated to the contrast started by 'although' and does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners whose first language uses one general connector for both contrast and addition often need to practise choosing a contrasting clause after 'although'.",
+  "translation": "Embora eu goste muito do meu trabalho, gostaria de me candidatar a uma nova vaga."
+}
