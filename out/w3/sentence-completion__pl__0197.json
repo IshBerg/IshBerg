@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "the manager sent it to the board before lunch.",
+  "full_sentence": "Having finished the report, the manager sent it to the board before lunch.",
+  "acceptable_variants": ["the manager then delivered it to the board before lunch.", "the manager called the board to present it before lunch."],
+  "options": [
+    {"text": "the board finished the report before lunch.", "is_correct": false, "why_wrong": "The participle clause 'Having finished the report' must refer to the main subject. Here the board would be the one finishing, which makes the sentence illogical."},
+    {"text": "the report was sent to the board before lunch.", "is_correct": false, "why_wrong": "The report cannot be the one that finished itself, so the subject of the participle clause does not match the main clause."},
+    {"text": "the manager sent it to the board before lunch.", "is_correct": true, "why_wrong": null},
+    {"text": "to send it to the board before lunch.", "is_correct": false, "why_wrong": "This is an infinitive fragment with no finite verb after the comma, so it cannot complete the sentence as a main clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses with a matching subject",
+  "connector": "having finished",
+  "explanation": "A participle clause at the start of a sentence describes an action completed before the main action. Its implied subject must be the same as the subject of the main clause, which is the manager in this case.",
+  "translation": "Skończywszy raport, menedżer wysłał go do zarządu przed lunchem."
+}
