@@ -1,0 +1,20 @@
+{
+  "title": "My Street",
+  "text": "I live on a small street near a park. There is a bakery on the corner. The baker is very friendly and sells fresh bread every morning.\n\nAcross the street, there is a school. Children play in the yard after lunch. My neighbor has a big dog, and it likes to play with the children.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the bakery?", "options": ["On the corner", "In the park", "Across the street", "Next to the school"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is across the street?", "options": ["A park", "A bakery", "A school", "A river"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer probably feel about the neighborhood?", "options": ["They like it", "They want to move away", "They are angry about it", "They do not know it well"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why is the baker probably popular with people in the street?", "options": ["He is rude to customers", "He sells fresh bread and is friendly", "He closes the shop early", "He does not sell bread"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "bakery", "translation": "padaria", "definition": "a shop that sells bread and cakes"},
+    {"word": "corner", "translation": "esquina", "definition": "the place where two streets meet"},
+    {"word": "friendly", "translation": "simpático", "definition": "kind and pleasant to other people"},
+    {"word": "school", "translation": "escola", "definition": "a place where children go to learn"}
+  ],
+  "paragraph_translations": [
+    "Eu moro em uma rua pequena perto de um parque. Há uma padaria na esquina. O padeiro é muito simpático e vende pão fresco todas as manhãs.",
+    "Do outro lado da rua, há uma escola. As crianças brincam no pátio depois do almoço. Meu vizinho tem um cachorro grande, e ele gosta de brincar com as crianças."
+  ]
+}

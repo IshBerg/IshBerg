@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hand",
+  "all_words": [
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku z dłonią ani z jej częściami, ani w typowych zwrotach."},
+    {"word": "finger", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Palec jest częścią dłoni, więc znaczeniowo jest z nią bezpośrednio powiązany."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Okno nie jest związane z dłonią ani pod względem znaczenia, ani kontekstu użycia."},
+    {"word": "glove", "is_associated": true, "association_type": "THEMATIC", "explanation": "Rękawica jest ubraniem noszonym na dłoni, więc należy do tego samego tematu."},
+    {"word": "shake", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'shake' tworzy utarte połączenie 'shake hands', czyli podać komuś rękę."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Stół nie łączy się z dłonią ani w znaczeniu, ani w typowych zwrotach."}
+  ],
+  "correct_indices": [1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'hand' dotyczą jej części, rzeczy noszonych na dłoni oraz typowych wyrażeń z tym słowem."
+}

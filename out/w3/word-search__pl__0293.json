@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R", "U", "L", "E", "K", "P", "M", "Z"],
+    ["Q", "X", "D", "H", "F", "B", "U", "J"],
+    ["A", "V", "N", "C", "G", "Z", "S", "K"],
+    ["O", "I", "P", "W", "Q", "D", "T", "V"],
+    ["B", "J", "F", "H", "M", "X", "R", "Q"],
+    ["E", "D", "L", "A", "W", "P", "K", "N"],
+    ["Y", "C", "G", "Q", "V", "F", "X", "Z"],
+    ["K", "P", "Z", "W", "B", "H", "J", "C"]
+  ],
+  "words_to_find": ["RULE", "MUST", "LAW", "OBEY"],
+  "word_positions": [
+    {"word": "RULE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MUST", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "LAW", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "OBEY", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Rules and Obligation"
+}
