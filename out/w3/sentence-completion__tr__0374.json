@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem seemed simple at first,",
+  "correct_completion": "its meaning was hidden deep inside.",
+  "full_sentence": "Although the poem seemed simple at first, its meaning was hidden deep inside.",
+  "acceptable_variants": ["its meaning was still difficult to find.", "readers found its deeper message only after several readings."],
+  "options": [
+    {"text": "so the teacher read it twice.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast with the first clause."},
+    {"text": "the poem was written in 1900.", "is_correct": false, "why_wrong": "This adds a fact about the poem but does not create the contrast that 'although' requires."},
+    {"text": "its meaning was hidden deep inside.", "is_correct": true, "why_wrong": null},
+    {"text": "because the poet was very old.", "is_correct": false, "why_wrong": "'Because' signals cause, and it does not contrast with the first part of the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a contrast with the first clause. Here the poem looks simple, so the completion must show that its meaning is not simple. Students often confuse 'although' with 'because', which signals cause instead of contrast.",
+  "translation": "Şiir ilk bakışta basit görünmesine rağmen, anlamı derinlerde gizliydi."
+}
