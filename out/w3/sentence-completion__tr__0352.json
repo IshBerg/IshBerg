@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people support online voting,",
+  "correct_completion": "critics warn that it may be insecure.",
+  "full_sentence": "Although many people support online voting, critics warn that it may be insecure.",
+  "acceptable_variants": ["critics still question its security.", "opponents raise concerns about possible fraud."],
+  "options": [
+    {"text": "so online voting is always safe.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' needs a contrast with the first clause, not a consequence."},
+    {"text": "because it is fast and easy.", "is_correct": false, "why_wrong": "'Because' gives a reason, which does not contrast with the support mentioned in the first clause."},
+    {"text": "critics warn that it may be insecure.", "is_correct": true, "why_wrong": null},
+    {"text": "online voting is popular in many countries.", "is_correct": false, "why_wrong": "This adds a supporting fact instead of a contrasting idea, so it repeats the first clause rather than opposing it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show contrast with the first clause. Turkish speakers often reach for a reason or result connector here, but English concessive structures need an opposing idea that follows the concession.",
+  "translation": "Pek çok insan çevrimiçi oylamayı destekler de, eleştirmenler bunun güvenli olmayabileceği konusunda uyarıda bulunuyor."
+}
