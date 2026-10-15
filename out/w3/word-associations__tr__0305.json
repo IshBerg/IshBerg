@@ -1,0 +1,14 @@
+{
+  "trigger_word": "nervous",
+  "all_words": [
+    {"word": "worried", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Worried' ve 'nervous' benzer bir duyguyu anlatır: endişe ve huzursuzluk."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "'Banana' bir meyvedir ve duygularla ilgisi yoktur, bu yüzden 'nervous' ile ilişkili değildir."},
+    {"word": "shaky", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Shaky' sık sık 'nervous' ile birlikte kullanılır; örneğin titreyen bir ses ya da el gerginlikten dolayı 'shaky' olabilir."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "'Window' bir ev eşyasıdır ve gerginlik duygusuyla bir bağlantısı yoktur."},
+    {"word": "sweaty", "is_associated": true, "association_type": "THEMATIC", "explanation": "Terlemek gerginlik anında görülen fiziksel bir tepkidir, bu yüzden 'sweaty' konu olarak 'nervous' ile ilgilidir."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "'Pencil' bir kırtasiye malzemesidir ve 'nervous' ile ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bu egzersizde 'nervous' kelimesiyle anlam, sık kullanılan birliktelik veya konu olarak ilişkili olan kelimeler seçilmelidir; diğerleri bu duyguyla bağlantılı değildir."
+}

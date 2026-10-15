@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother",
+  "correct_completion": "always plays football on Sundays.",
+  "full_sentence": "My brother always plays football on Sundays.",
+  "acceptable_variants": ["usually plays football on Sundays.", "often plays football on Sundays."],
+  "options": [
+    {"text": "plays always football on Sundays.", "is_correct": false, "why_wrong": "The adverb of frequency is placed after the main verb. In English it goes before the main verb: 'always plays'."},
+    {"text": "always plays football on Sundays.", "is_correct": true, "why_wrong": null},
+    {"text": "football always plays on Sundays.", "is_correct": false, "why_wrong": "The subject and verb must stay together, and the adverb must sit between the subject and the main verb, not after the object."},
+    {"text": "always football plays on Sundays.", "is_correct": false, "why_wrong": "The object 'football' cannot come before the verb. The order must be subject, adverb, verb, object."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Adverbs of frequency: position before the main verb",
+  "connector": "always",
+  "explanation": "Adverbs of frequency such as always, usually and often normally go before the main verb but after the verb to be. Turkish speakers may place the adverb at the end of the clause because Turkish word order is more flexible, but English requires the adverb before the verb.",
+  "translation": "Ağabeyim her zaman pazar günleri futbol oynar."
+}
