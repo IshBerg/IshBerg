@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Once the questionnaires had been returned,",
+  "correct_completion": "the responses were coded and analysed.",
+  "full_sentence": "Once the questionnaires had been returned, the responses were coded and analysed.",
+  "acceptable_variants": ["the responses were then coded and analysed.", "the data were coded and analysed."],
+  "options": [
+    {"text": "the researchers analysing the responses.", "is_correct": false, "why_wrong": "This is a noun phrase with an -ing form and no finite verb, so it cannot complete the main clause."},
+    {"text": "the responses were coded and analysed.", "is_correct": true, "why_wrong": null},
+    {"text": "the responses have been coding and analysing.", "is_correct": false, "why_wrong": "The passive needs 'be' followed by past participles. The -ing forms here remove the passive meaning and make the sentence ungrammatical."},
+    {"text": "the responses were code and analyse.", "is_correct": false, "why_wrong": "After 'were' a past participle is required, so 'code' and 'analyse' must become 'coded' and 'analysed'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Passive voice with past participles in report writing",
+  "connector": "once",
+  "explanation": "The stem describes an earlier completed step, so the main clause should describe the process without naming the agent, which is typical of academic reports. Polish speakers often build the passive with a simple past of the wrong verb form, because Polish passive constructions are formed differently, so the English past participle after 'were' needs deliberate practice.",
+  "translation": "Gdy kwestionariusze zostały zwrócone, odpowiedzi zostały zakodowane i przeanalizowane."
+}
