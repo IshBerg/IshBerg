@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the report, she sent it to her manager.",
+  "acceptable_variants": ["she emailed the final version to her boss.", "she handed it in to the committee."],
+  "options": [
+    {"text": "she was reading the report yesterday.", "is_correct": false, "why_wrong": "This describes an earlier activity, but the perfect participle requires the main action to come after finishing the report."},
+    {"text": "the report was finished by tomorrow.", "is_correct": false, "why_wrong": "The passive makes the report the subject, which breaks the link with the participle, whose subject must be the person who finished it."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "she will finish the report next week.", "is_correct": false, "why_wrong": "The future tense conflicts with the perfect participle, which shows that finishing happened before the main action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect participle clauses showing an action completed before the main verb",
+  "connector": "having finished",
+  "explanation": "The perfect participle 'having finished' shows an action completed before the main verb. The main clause must therefore describe what the same subject did next, so future or passive main clauses do not fit.",
+  "translation": "Después de terminar el informe, ella lo envió a su jefe."
+}
