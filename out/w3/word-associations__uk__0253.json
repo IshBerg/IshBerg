@@ -1,0 +1,14 @@
+{
+  "trigger_word": "lecture",
+  "all_words": [
+    {"word": "professor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Викладач, який читає лекцію, є одним із головних учасників цього заходу."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Жирафа є твариною і не має жодного відношення до лекцій."},
+    {"word": "notebook", "is_associated": true, "association_type": "THEMATIC", "explanation": "Зошит є типовим приладдям студента, який конспектує лекцію."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Трактор є сільськогосподарською технікою і не пов'язаний з навчальними заходами."},
+    {"word": "university", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Лекції зазвичай відбуваються в університеті, і словосполучення 'university lecture' є поширеним."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Вулкан є природним утворенням і не має зв'язку з лекціями."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово lecture асоціюється з учасниками та місцем навчання (professor, university) і з навчальним приладдям (notebook), тоді як giraffe, tractor і volcano не мають до теми жодного стосунку."
+}

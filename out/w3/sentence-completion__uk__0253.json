@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did she pass the exam,",
+  "correct_completion": "but she also earned a scholarship.",
+  "full_sentence": "Not only did she pass the exam, but she also earned a scholarship.",
+  "acceptable_variants": ["but she also received a prize.", "but she also won a place in the honors program."],
+  "options": [
+    {"text": "and she also earned a scholarship.", "is_correct": false, "why_wrong": "'Not only' must be followed by 'but also' to complete the structure; 'and' does not balance it."},
+    {"text": "so she was very tired.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem requires an additional positive point introduced by 'but also'."},
+    {"text": "but she also earned a scholarship.", "is_correct": true, "why_wrong": null},
+    {"text": "but she also failed the second test.", "is_correct": false, "why_wrong": "'Not only ... but also' adds a second point of the same kind, so a failure does not fit the emphasis."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Inversion after 'Not only' with the auxiliary 'did'",
+  "connector": "not only",
+  "explanation": "After 'Not only', English uses subject-auxiliary inversion ('did she pass') and then 'but also' to add a second, stronger point. The completion must keep the same positive meaning as the first clause.",
+  "translation": "Вона не лише склала іспит, а й отримала стипендію."
+}
