@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R", "I", "V", "E", "R", "K", "P", "O"],
+    ["M", "Z", "T", "Y", "H", "B", "F", "C"],
+    ["W", "Q", "X", "L", "J", "D", "G", "E"],
+    ["Q", "V", "H", "A", "S", "K", "T", "A"],
+    ["B", "Z", "M", "K", "F", "Y", "R", "N"],
+    ["P", "W", "C", "E", "G", "Q", "J", "L"],
+    ["X", "B", "I", "S", "L", "A", "N", "D"],
+    ["H", "K", "T", "F", "W", "V", "Z", "C"]
+  ],
+  "words_to_find": ["RIVER", "OCEAN", "ISLAND", "LAKE"],
+  "word_positions": [
+    {"word": "RIVER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "OCEAN", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ISLAND", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "LAKE", "start_row": 2, "start_col": 3, "direction": "VERTICAL"}
+  ],
+  "topic": "Geography Vocabulary"
+}

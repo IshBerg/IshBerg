@@ -1,0 +1,14 @@
+{
+  "trigger_word": "swimming",
+  "all_words": [
+    {"word": "pool", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A palavra swimming pool é uma expressão muito comum, pois a natação acontece principalmente em piscinas."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "A guitarra é um instrumento musical e não tem nenhuma relação com a natação."},
+    {"word": "water", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A natação acontece dentro da água, por isso as duas palavras têm um significado muito próximo."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "O pão é um alimento e não se relaciona com a prática da natação."},
+    {"word": "towel", "is_associated": true, "association_type": "THEMATIC", "explanation": "A toalha é um objeto que as pessoas usam depois de nadar, por isso faz parte do mesmo contexto."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "A montanha é um lugar de relevo terrestre e não tem ligação com a natação."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a swimming se referem ao lugar, ao elemento e aos objetos usados na natação."
+}

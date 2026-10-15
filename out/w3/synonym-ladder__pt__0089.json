@@ -1,0 +1,13 @@
+{
+  "start_word": "dry",
+  "end_word": "soaked",
+  "ladder_steps": [
+    {"word": "dry", "translation": "seco", "intensity_level": 1},
+    {"word": "damp", "translation": "ligeiramente úmido", "intensity_level": 2},
+    {"word": "moist", "translation": "úmido", "intensity_level": 3},
+    {"word": "wet", "translation": "molhado", "intensity_level": 4},
+    {"word": "soaked", "translation": "encharcado", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words form a ladder along one dimension, the amount of water, from completely dry to fully soaked, each step a little wetter than the last."
+}
