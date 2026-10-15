@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "current, relevant"},
+    {"word": "конкретний", "transliteration": "konkretnyi", "meaning": "specific, particular"},
+    {"word": "експертиза", "transliteration": "ekspertyza", "meaning": "expert examination, professional assessment"}
+  ],
+  "english_words": ["specific", "expert examination", "factory", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words share Latin or European roots with their English look-alikes, so the spelling stayed close, but the meanings drifted apart over time. Each English look-alike carries a different sense from the one the student expects.",
+  "false_friend_warning": "Warning: the Ukrainian word transliterated as 'aktualnyi' looks like the English word 'actual', but it means 'current' or 'relevant', not 'real' or 'in fact'. Learners often write 'the actual situation' when they mean 'the current situation'."
+}

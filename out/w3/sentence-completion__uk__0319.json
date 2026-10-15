@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is a beautiful day,",
+  "correct_completion": "isn't it?",
+  "full_sentence": "It is a beautiful day, isn't it?",
+  "acceptable_variants": ["isn't it lovely?"],
+  "options": [
+    {"text": "is it?", "is_correct": false, "why_wrong": "The stem is positive, so the tag must be negative. 'Is it?' has the wrong polarity."},
+    {"text": "isn't it?", "is_correct": true, "why_wrong": null},
+    {"text": "doesn't it?", "is_correct": false, "why_wrong": "The stem uses the verb 'is', so the tag must repeat the auxiliary 'is'. 'Doesn't' uses the wrong auxiliary."},
+    {"text": "was it?", "is_correct": false, "why_wrong": "The stem is in the present tense, so the tag must be in the present tense too. 'Was' is past."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Tag questions with 'be' in the present simple",
+  "connector": "tag question",
+  "explanation": "A positive statement takes a negative tag. The tag repeats the auxiliary from the statement, here 'is', and uses the negative form 'isn't' with the pronoun 'it'.",
+  "translation": "Гарний сьогодні день, правда ж?"
+}
