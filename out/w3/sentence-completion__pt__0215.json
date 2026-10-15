@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Notwithstanding the mounting evidence to the contrary,",
+  "correct_completion": "the committee stood by its original verdict.",
+  "full_sentence": "Notwithstanding the mounting evidence to the contrary, the committee stood by its original verdict.",
+  "acceptable_variants": ["the committee maintained its original verdict.", "the committee refused to revise its judgment."],
+  "options": [
+    {"text": "the committee had already considered the matter.", "is_correct": false, "why_wrong": "This gives background information but does not express the contrast that 'notwithstanding' requires."},
+    {"text": "the evidence was submitted in writing.", "is_correct": false, "why_wrong": "This describes the evidence rather than an action that contrasts with it."},
+    {"text": "the committee stood by its original verdict.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee reversed its verdict entirely.", "is_correct": false, "why_wrong": "A reversal would follow naturally from the evidence, so it does not show the persistence that the concessive connector signals."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Formal concessive connector 'notwithstanding'",
+  "connector": "notwithstanding",
+  "explanation": "'Notwithstanding' is a formal concessive connector: it introduces a fact that holds despite opposing evidence, so the second clause must show the committee persisting. Portuguese speakers may find this formal register less familiar, so it is worth practising in written contexts.",
+  "translation": "Apesar das crescentes evidências em contrário, a comissão manteve seu veredito original."
+}
