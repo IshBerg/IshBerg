@@ -1,0 +1,14 @@
+{
+  "trigger_word": "thanks",
+  "all_words": [
+    {"word": "gift", "is_associated": true, "association_type": "THEMATIC", "explanation": "«Gift» está relacionado con «thanks» porque a menudo damos las gracias cuando recibimos un regalo."},
+    {"word": "sorry", "is_associated": true, "association_type": "SEMANTIC", "explanation": "«Sorry» tiene un significado parecido a «thanks», porque ambas palabras son expresiones de cortesía que usamos en conversaciones diarias."},
+    {"word": "please", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "«Please» aparece con frecuencia junto a «thanks» en frases educadas como «thanks» y «please» al pedir algo."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "«Table» no tiene ninguna relación con «thanks»: es un mueble, no una expresión de cortesía."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "«Rain» no está relacionado con «thanks»: es un fenómeno del clima."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "«Shoe» no está relacionado con «thanks»: es una prenda de vestir."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con «thanks» pertenecen al mundo de la cortesía y de los regalos; los sustantivos cotidianos sin relación con ese tema no están asociados."
+}
