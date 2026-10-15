@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the sample size was small,",
+  "correct_completion": "the findings still offer useful insight into the topic.",
+  "full_sentence": "Although the sample size was small, the findings still offer useful insight into the topic.",
+  "acceptable_variants": ["the results remain valuable for future research.", "the conclusions are still worth considering."],
+  "options": [
+    {"text": "the researchers therefore concluded that the effect was caused by age.", "is_correct": false, "why_wrong": "'Therefore' presents a result, but 'although' needs a clause that contrasts with the small sample."},
+    {"text": "the study was published in a journal last year.", "is_correct": false, "why_wrong": "This gives a publication fact and does not contrast with the sample size."},
+    {"text": "the findings still offer useful insight into the topic.", "is_correct": true, "why_wrong": null},
+    {"text": "the sample included only students from one university.", "is_correct": false, "why_wrong": "This repeats the limitation instead of providing the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in academic writing",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a point that contrasts with the limitation in the first part. Academic articles often use this pattern to acknowledge a weakness and still defend the value of the results.",
+  "translation": "Embora o tamanho da amostra tenha sido pequeno, os resultados ainda oferecem percepções úteis sobre o tema."
+}
