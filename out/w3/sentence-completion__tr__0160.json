@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the traffic,",
+  "correct_completion": "I would have left home earlier.",
+  "full_sentence": "If I had known about the traffic, I would have left home earlier.",
+  "acceptable_variants": ["I would have taken the bus instead.", "I would have arrived on time."],
+  "options": [
+    {"text": "I will leave home earlier tomorrow.", "is_correct": false, "why_wrong": "'Will' describes a future plan, but a third conditional describes an imagined past result using 'would have'."},
+    {"text": "I would have left home earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "I left home earlier yesterday.", "is_correct": false, "why_wrong": "This states a real past event rather than the imagined result of a past condition."},
+    {"text": "I have left home earlier before.", "is_correct": false, "why_wrong": "The present perfect does not express an imagined past result, and this form is ungrammatical here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: if + past perfect, would have + past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined past result. The main clause needs 'would have' followed by a past participle. Learners whose first language has no separate form for unreal past situations often choose a simple past or a 'will' form instead.",
+  "translation": "Trafik hakkında bilseydim, evden daha erken çıkardım."
+}

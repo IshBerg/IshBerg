@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["K", "I", "N", "D", "Q", "R", "H"],
+    ["B", "T", "F", "Z", "J", "P", "O"],
+    ["V", "C", "X", "K", "U", "W", "M"],
+    ["G", "Y", "R", "H", "S", "N", "E"],
+    ["W", "E", "L", "L", "M", "B", "Q"],
+    ["J", "Z", "P", "O", "C", "F", "R"],
+    ["U", "N", "E", "A", "S", "Y", "K"]
+  ],
+  "words_to_find": ["KIND", "HOME", "WELL", "EASY"],
+  "word_positions": [
+    {"word": "KIND", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOME", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "WELL", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EASY", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Compound Adjectives"
+}
