@@ -1,0 +1,23 @@
+{
+  "central_word": "afraid",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "неспокійний", "nuance": "a vague feeling that something is wrong"},
+    {"word": "nervous", "intensity": 2, "translation": "нервовий", "nuance": "tense anticipation before an event"},
+    {"word": "anxious", "intensity": 3, "translation": "тривожний", "nuance": "persistent worry about the future"},
+    {"word": "frightened", "intensity": 4, "translation": "переляканий", "nuance": "sudden fear caused by a specific threat"},
+    {"word": "terrified", "intensity": 5, "translation": "жахливо наляканий", "nuance": "overwhelming fear that paralyses the person"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express fear with increasing intensity, from a vague unease to overwhelming terror.",
+  "usage_notes": [
+    {"word1": "nervous", "word2": "anxious", "difference": "'Nervous' usually describes tension about an immediate event, while 'anxious' describes a longer-lasting worry about what may happen."}
+  ],
+  "translations": {
+    "uneasy": "неспокійний",
+    "nervous": "нервовий",
+    "anxious": "тривожний",
+    "frightened": "переляканий",
+    "terrified": "жахливо наляканий"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "whisper",
+  "all_words": [
+    {"word": "soft", "is_associated": true, "association_type": "SEMANTIC", "explanation": "М'який: шепіт зазвичай тихий і м'який, тому це слово пов'язане за змістом із шепотом."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "Грім — дуже гучний звук, протилежний шепоту, тому не пов'язаний із ним."},
+    {"word": "library", "is_associated": true, "association_type": "THEMATIC", "explanation": "Бібліотека — місце, де люди шепочуть, щоб не заважати іншим."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Молоток — інструмент, який створює сильний шум і не має зв'язку з шепотом."},
+    {"word": "secret", "is_associated": true, "association_type": "THEMATIC", "explanation": "Таємниця — це те, чим часто діляться пошепки, тому слова пов'язані за темою."},
+    {"word": "quiet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Тихий — близьке за значенням слово до шепоту, описує слабкий звук."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з шепотом, описують тихі звуки, місця тиші та таємниці, якими діляться пошепки."
+}
