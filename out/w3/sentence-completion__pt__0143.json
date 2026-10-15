@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have had this bike",
+  "correct_completion": "for two years.",
+  "full_sentence": "I have had this bike for two years.",
+  "acceptable_variants": ["for almost two years.", "for a long time."],
+  "options": [
+    {"text": "since two years.", "is_correct": false, "why_wrong": "'Since' is used with a starting point in time, such as 'since 2020', not with a period of time like 'two years'."},
+    {"text": "two years ago.", "is_correct": false, "why_wrong": "'Ago' counts back from now and is used with the past simple, so it does not fit the present perfect."},
+    {"text": "for two years.", "is_correct": true, "why_wrong": null},
+    {"text": "during two years.", "is_correct": false, "why_wrong": "'During' is used with a specific event or period, not to show how long a state has continued."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'for' to show duration up to now",
+  "connector": "for",
+  "explanation": "The present perfect shows an action or state that started in the past and continues now. 'For' is used with a period of time, while 'since' is used with a starting point. Portuguese speakers may be tempted to use the present tense here because their language often uses the present for actions that started in the past.",
+  "translation": "Eu tenho esta bicicleta há dois anos."
+}
