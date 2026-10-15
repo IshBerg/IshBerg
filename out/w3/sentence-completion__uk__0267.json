@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would be working as an engineer now.",
+  "full_sentence": "If I had studied harder last year, I would be working as an engineer now.",
+  "acceptable_variants": ["I would have a better job now.", "I would earn more money today."],
+  "options": [
+    {"text": "I can speak English now.", "is_correct": false, "why_wrong": "A present ability does not match the mixed conditional result, which requires 'would' plus a present result."},
+    {"text": "I will get a good job tomorrow.", "is_correct": false, "why_wrong": "'Will' with 'tomorrow' does not complete a mixed conditional, which describes a present result of a past condition."},
+    {"text": "I would be working as an engineer now.", "is_correct": true, "why_wrong": null},
+    {"text": "I worked as an engineer last year.", "is_correct": false, "why_wrong": "The past simple describes what really happened, not the imagined present result that the mixed conditional expresses."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditional: if + past perfect, would + base verb for a present result",
+  "connector": "if",
+  "explanation": "The stem uses 'if' with a past perfect form to describe an unreal past condition. The result clause refers to the present, so it needs 'would' plus a base verb with a present time reference.",
+  "translation": "Якби я краще вчився минулого року, зараз я працював би інженером."
+}
