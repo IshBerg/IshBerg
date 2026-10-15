@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the train arrives tomorrow morning,",
+  "correct_completion": "we will have finished the presentation.",
+  "full_sentence": "By the time the train arrives tomorrow morning, we will have finished the presentation.",
+  "acceptable_variants": ["we will have completed the slides.", "we will already have finished the presentation."],
+  "options": [
+    {"text": "we finish the presentation.", "is_correct": false, "why_wrong": "The simple present does not show completion before a future point. The main clause needs 'will have' plus the past participle."},
+    {"text": "we are finishing the presentation.", "is_correct": false, "why_wrong": "The continuous form describes an action in progress, not one completed by a future deadline."},
+    {"text": "we will have finished the presentation.", "is_correct": true, "why_wrong": null},
+    {"text": "we finished the presentation yesterday.", "is_correct": false, "why_wrong": "The past simple refers to a finished past time, so it cannot describe completion before a future moment."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect in main clauses after 'by the time'",
+  "connector": "by the time",
+  "explanation": "After 'by the time', the time clause uses a present tense for a future event. The main clause uses the future perfect to show that the action will be completed before that point. Learners whose first language does not separate completion from the simple future often drop the perfect and use a simple future instead.",
+  "translation": "Zanim pociąg przyjedzie jutro rano, zdążymy już skończyć prezentację."
+}
