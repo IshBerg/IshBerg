@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "X", "K", "M", "Q", "E"],
+    ["A", "B", "C", "D", "F", "G", "H", "J", "K", "V"],
+    ["W", "Z", "X", "U", "I", "Q", "W", "Y", "Z", "E"],
+    ["Q", "W", "T", "H", "E", "N", "Z", "X", "Y", "N"],
+    ["K", "M", "J", "V", "B", "D", "F", "G", "H", "T"],
+    ["P", "A", "C", "I", "U", "Q", "Z", "K", "M", "O"],
+    ["A", "L", "B", "C", "D", "F", "G", "H", "J", "K"],
+    ["W", "Q", "O", "Z", "X", "C", "V", "B", "N", "M"],
+    ["R", "S", "Y", "T", "U", "I", "O", "P", "A", "D"],
+    ["F", "G", "H", "J", "K", "R", "E", "T", "A", "L"]
+  ],
+  "words_to_find": ["STORY", "EVENT", "PLOT", "LATER", "THEN"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EVENT", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "PLOT", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LATER", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "THEN", "start_row": 3, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Narrating Events"
+}
