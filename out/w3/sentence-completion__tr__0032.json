@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bridge was built without proper tests, so the engineers",
+  "correct_completion": "should have checked the design more carefully.",
+  "full_sentence": "The bridge was built without proper tests, so the engineers should have checked the design more carefully.",
+  "acceptable_variants": ["ought to have tested the plans more thoroughly.", "should have reviewed the calculations earlier."],
+  "options": [
+    {"text": "will check the design tomorrow.", "is_correct": false, "why_wrong": "This uses a future form, but the stem describes a past mistake. Criticism of a past action needs a modal perfect."},
+    {"text": "are testing a new bridge now.", "is_correct": false, "why_wrong": "The present continuous does not match the past construction described in the stem, and it does not criticise a past failure."},
+    {"text": "should have checked the design more carefully.", "is_correct": true, "why_wrong": null},
+    {"text": "must have been sleeping at the time.", "is_correct": false, "why_wrong": "This is a speculation about a past state. It does not criticise the engineers' work, so it does not complete the logic of the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfects for criticism of past actions (should have + past participle)",
+  "connector": "so",
+  "explanation": "'Should have' plus a past participle criticises a past action that did not happen. Turkish speakers often use a simple past or a plain conditional here because Turkish marks evidence and past actions with a different system of suffixes, so learners should practise the full English pattern.",
+  "translation": "Köprü uygun testler yapılmadan inşa edildi, bu yüzden mühendisler tasarımı daha dikkatli kontrol etmeliydi."
+}

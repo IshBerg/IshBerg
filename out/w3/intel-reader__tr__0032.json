@@ -1,0 +1,20 @@
+{
+  "title": "Mert Visits the Museum",
+  "text": "Mert wants to visit the museum. He opens the city map. The museum is on Green Street, next to the library. He needs bus number seven.\n\nThe bus timetable is at the stop. Bus number seven leaves at 10:15. The next bus leaves at 10:30. Mert arrives at the stop at 10:10, so he waits for the bus.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Mert want to visit?", "options": ["a museum", "a library", "a park", "a train station"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What time does bus number seven leave?", "options": ["10:30", "10:15", "10:10", "9:45"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Mert open the city map?", "options": ["He wants to buy a bus ticket.", "He wants to call his friend.", "He wants to find the museum.", "He wants to read a book."], "correct_index": 2, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does Mert wait at the bus stop?", "options": ["The bus leaves at 9:45.", "He does not have a map.", "The museum is closed.", "He arrives before the bus leaves."], "correct_index": 3, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "museum", "translation": "müze", "definition": "a building where people can see art, history, or science objects"},
+    {"word": "timetable", "translation": "sefer saatleri çizelgesi", "definition": "a list that shows the times when buses or trains leave and arrive"},
+    {"word": "stop", "translation": "durak", "definition": "a place on the street where buses wait for passengers"},
+    {"word": "waits", "translation": "bekler", "definition": "stays in one place until something happens or someone arrives"}
+  ],
+  "paragraph_translations": [
+    "Mert müzeyi ziyaret etmek istiyor. Şehir haritasını açar. Müze Yeşil Sokak'ta, kütüphanenin yanında. Yedinci numaralı otobüse ihtiyacı var.",
+    "Otobüs sefer saatleri çizelgesi durakta. Yedi numaralı otobüs saat 10.15'te kalkar. Bir sonraki otobüs 10.30'da kalkar. Mert durağa 10.10'da gelir, bu yüzden otobüsü bekler."
+  ]
+}
