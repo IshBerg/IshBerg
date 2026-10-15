@@ -1,0 +1,14 @@
+{
+  "trigger_word": "keyboard",
+  "all_words": [
+    {"word": "mouse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O mouse é outro dispositivo de entrada usado junto com o teclado no computador."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "A bicicleta não tem relação com teclados nem com computadores."},
+    {"word": "screen", "is_associated": true, "association_type": "THEMATIC", "explanation": "A tela costuma ser usada ao mesmo tempo que o teclado, por isso aparecem juntos no mesmo contexto."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "A cenoura é um alimento e não tem nenhuma ligação com teclados."},
+    {"word": "type", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês se diz 'type on a keyboard', ou seja, digitar no teclado, uma combinação muito comum."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "O travesseiro não tem relação com o teclado nem com a tecnologia."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'keyboard' se associa a outros dispositivos de computador, à tela e à ação de digitar, enquanto os demais termos pertencem a outros contextos."
+}
