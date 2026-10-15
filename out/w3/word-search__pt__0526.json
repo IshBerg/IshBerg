@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["X", "R", "D", "Q", "V", "Z", "K", "W", "C"],
+    ["H", "O", "P", "I", "N", "F", "Y", "B", "L"],
+    ["M", "B", "J", "U", "G", "X", "Q", "E", "O"],
+    ["P", "O", "W", "S", "A", "I", "N", "H", "U"],
+    ["K", "T", "Z", "Y", "E", "V", "T", "J", "D"],
+    ["Q", "W", "F", "B", "R", "H", "U", "A", "N"],
+    ["C", "G", "Y", "X", "K", "P", "O", "Z", "L"],
+    ["R", "E", "M", "O", "T", "E", "V", "I", "Q"],
+    ["B", "N", "S", "D", "K", "W", "A", "F", "G"]
+  ],
+  "words_to_find": ["ROBOT", "DIGITAL", "REMOTE", "CLOUD"],
+  "word_positions": [
+    {"word": "ROBOT", "start_row": 0, "start_col": 1, "direction": "VERTICAL"},
+    {"word": "DIGITAL", "start_row": 0, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "REMOTE", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLOUD", "start_row": 0, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "The Future of Work and Technology"
+}
