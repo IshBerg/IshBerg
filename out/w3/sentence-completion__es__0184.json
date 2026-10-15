@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the manager apologise,",
+  "correct_completion": "but she also offered a full refund to every customer.",
+  "full_sentence": "Not only did the manager apologise, but she also offered a full refund to every customer.",
+  "acceptable_variants": ["but she also called each affected customer personally.", "but she also promised a formal investigation."],
+  "options": [
+    {"text": "she also refused to meet the complainants.", "is_correct": false, "why_wrong": "The structure 'not only ... but also' requires a parallel positive addition. A refusal contradicts the pattern the sentence sets up."},
+    {"text": "but she also offered a full refund to every customer.", "is_correct": true, "why_wrong": null},
+    {"text": "so the customers stayed silent.", "is_correct": false, "why_wrong": "'So' introduces a result, not an additional item in a 'not only ... but also' pair."},
+    {"text": "though the refund was small.", "is_correct": false, "why_wrong": "'Though' introduces contrast, which does not complete the additive correlative pair 'not only ... but also'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Correlative conjunction 'not only ... but also' with subject-auxiliary inversion",
+  "connector": "not only ... but also",
+  "explanation": "When a sentence begins with 'not only', the auxiliary verb comes before the subject in the first clause. The second clause must add a parallel positive action introduced by 'but also'. Learners whose first language does not invert the auxiliary here often place the subject first in the initial clause.",
+  "translation": "No solo se disculpó la directora, sino que también ofreció un reembolso completo a cada cliente."
+}
