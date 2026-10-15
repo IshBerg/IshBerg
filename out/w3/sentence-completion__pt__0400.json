@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the restaurant is full,",
+  "correct_completion": "we will wait outside for a table.",
+  "full_sentence": "If the restaurant is full, we will wait outside for a table.",
+  "acceptable_variants": ["we will come back later.", "we will choose another restaurant."],
+  "options": [
+    {"text": "we ordered dessert first.", "is_correct": false, "why_wrong": "A full restaurant does not lead to ordering dessert, so this does not complete the result clause of the conditional."},
+    {"text": "the menu is in English.", "is_correct": false, "why_wrong": "This describes the menu but does not give a result that depends on the condition."},
+    {"text": "we will wait outside for a table.", "is_correct": true, "why_wrong": null},
+    {"text": "we are very hungry now.", "is_correct": false, "why_wrong": "This describes a feeling, not an action that follows from the condition in the first clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "The 'if' clause sets a possible condition, and the main clause uses 'will' plus a verb to show the likely result.",
+  "translation": "Se o restaurante estiver cheio, vamos esperar do lado de fora por uma mesa."
+}
