@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "cook", "is_associated": true, "association_type": "THEMATIC", "explanation": "Кухар готує їжу, тому це слово належить до теми кухні."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не має прямого зв'язку з кухнею."},
+    {"word": "spoon", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ложка є кухонним приладдям, яким їдять і готують."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не пов'язана з кухнею."},
+    {"word": "fridge", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Холодильник стоїть на кухні і зберігає продукти."},
+    {"word": "bed", "is_associated": false, "association_type": "NONE", "explanation": "Ліжко є меблями для спальні, а не для кухні."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово kitchen пов'язане з приготуванням їжі, посудом і кухонною технікою, а гори, річки та ліжка до кухні не належать."
+}

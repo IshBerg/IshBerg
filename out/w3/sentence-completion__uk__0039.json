@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The laptop, which I bought last month,",
+  "correct_completion": "has already stopped working.",
+  "full_sentence": "The laptop, which I bought last month, has already stopped working.",
+  "acceptable_variants": ["has already broken down.", "stopped working already."],
+  "options": [
+    {"text": "is having stopped working.", "is_correct": false, "why_wrong": "This form is not valid here. The sentence needs a single finite verb in the present perfect, such as 'has stopped'."},
+    {"text": "has already stopped working.", "is_correct": true, "why_wrong": null},
+    {"text": "which has already stopped working.", "is_correct": false, "why_wrong": "A second relative clause leaves the sentence without a main verb, because the first clause already has its own verb."},
+    {"text": "stopping working already.", "is_correct": false, "why_wrong": "A participle phrase cannot act as the main verb of the sentence, so the sentence needs a finite verb."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clauses with 'which' and the main verb that follows them",
+  "connector": "which",
+  "explanation": "The relative clause 'which I bought last month' is placed between commas and does not carry the main verb. The main clause needs one finite present perfect verb to describe the current state of the laptop.",
+  "translation": "Ноутбук, який я купив минулого місяця, вже перестав працювати."
+}
