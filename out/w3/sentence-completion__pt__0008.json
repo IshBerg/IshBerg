@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the first proposal was rejected by the board,",
+  "correct_completion": "the team revised it and resubmitted it within a week.",
+  "full_sentence": "Although the first proposal was rejected by the board, the team revised it and resubmitted it within a week.",
+  "acceptable_variants": ["the team still refused to abandon the idea.", "the authors did not give up on the project."],
+  "options": [
+    {"text": "so the team stopped working on it.", "is_correct": false, "why_wrong": "'So' signals a result, and stopping would be the expected consequence of rejection. 'Although' requires a contrast, so the main clause must show the opposite outcome."},
+    {"text": "the board members were all present at the vote.", "is_correct": false, "why_wrong": "This adds background detail but does not give the contrasting main clause that 'although' requires."},
+    {"text": "the team revised it and resubmitted it within a week.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee will meet again in June.", "is_correct": false, "why_wrong": "This is a future event unrelated to the team's response, so it does not complete the contrast opened by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show contrast with the subordinate clause. The rejection is the expected obstacle, so the continuation should show persistence rather than the expected result of giving up, or unrelated information.",
+  "translation": "Embora a primeira proposta tenha sido rejeitada pelo conselho, a equipe a revisou e a reenviou dentro de uma semana."
+}

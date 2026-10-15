@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pontes costumam ser construídas sobre rios, que são o obstáculo mais comum que elas atravessam."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piano é um instrumento musical e não tem nenhuma ligação com construção ou travessia."},
+    {"word": "engineer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Engenheiros projetam e constroem pontes, então o tema da engenharia civil liga as duas palavras."},
+    {"word": "candle", "is_associated": false, "association_type": "NONE", "explanation": "Vela pertence ao campo da iluminação e não tem vínculo com pontes."},
+    {"word": "toll", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Toll bridge' é uma combinação comum que significa ponte com pedágio."},
+    {"word": "span", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O vão (span) é a distância entre os apoios de uma ponte, um termo técnico diretamente ligado a ela."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'bridge' associa-se a rios, engenheiros, pedágios e vãos, enquanto piano e vela não têm relação com travessias ou construção."
+}
