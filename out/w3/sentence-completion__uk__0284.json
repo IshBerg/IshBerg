@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My friend Tom",
+  "correct_completion": "is very tall.",
+  "full_sentence": "My friend Tom is very tall.",
+  "acceptable_variants": ["is very tall and friendly.", "is tall for his age."],
+  "options": [
+    {"text": "are very tall.", "is_correct": false, "why_wrong": "Tom is one person, so the singular form 'is' is needed, not 'are'."},
+    {"text": "is very tall.", "is_correct": true, "why_wrong": null},
+    {"text": "am very tall.", "is_correct": false, "why_wrong": "'Am' is used only with 'I', not with a third person subject like Tom."},
+    {"text": "be very tall.", "is_correct": false, "why_wrong": "A sentence with a subject like Tom needs a finite form of 'to be', so the base form 'be' cannot stand alone here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verb 'to be' with a third person singular subject",
+  "connector": "none",
+  "explanation": "The subject Tom is singular, so it takes the form 'is'. Ukrainian speakers often leave out a form of 'to be' in the present tense, but English always requires it with a subject and an adjective.",
+  "translation": "Мій друг Том дуже високий."
+}
