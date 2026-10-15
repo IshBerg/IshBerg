@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister, who lives in Lisbon,",
+  "correct_completion": "is coming to visit us next week.",
+  "full_sentence": "My sister, who lives in Lisbon, is coming to visit us next week.",
+  "acceptable_variants": ["is planning to visit us next week.", "will visit us next week."],
+  "options": [
+    {"text": "which is a very old city.", "is_correct": false, "why_wrong": "'Which' refers to things, not people, and the sentence is about the sister. The phrase also does not complete the main clause."},
+    {"text": "that we met at school last year.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining relative clause after a comma. Non-defining clauses use 'who' or 'which'."},
+    {"text": "is coming to visit us next week.", "is_correct": true, "why_wrong": null},
+    {"text": "she is coming to visit us next week.", "is_correct": false, "why_wrong": "Adding a second subject after the relative clause creates a double subject. The main clause already has its subject, 'My sister'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "A non-defining relative clause adds extra information about a person who is already identified, so it is set off with commas and introduced by 'who'. The main verb must then follow directly after the closing comma, with no new subject. Portuguese speakers may repeat the subject after a clause like this, because Portuguese often allows the subject to be dropped and the verb ending alone shows the person.",
+  "translation": "Minha irmã, que mora em Lisboa, vem nos visitar na próxima semana."
+}
