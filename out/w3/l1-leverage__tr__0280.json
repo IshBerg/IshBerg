@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ekonomi", "transliteration": "ekonomi", "meaning": "economy"},
+    {"word": "demokrasi", "transliteration": "demokrasi", "meaning": "democracy"},
+    {"word": "enerji", "transliteration": "enerji", "meaning": "energy"},
+    {"word": "globalizasyon", "transliteration": "globalizasyon", "meaning": "globalization"}
+  ],
+  "english_words": ["democracy", "globalization", "economy", "energy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "All four words entered Turkish from Western European languages, mainly French, while English took them from Greek or Latin roots, so the forms stayed close and the meanings match.",
+  "false_friend_warning": null
+}
