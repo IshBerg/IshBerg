@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "Piekarnik to typowe urządzenie w kuchni, więc jest z nią powiązany tematycznie."},
+    {"word": "saddle", "is_associated": false, "association_type": "NONE", "explanation": "Siodło kojarzy się z jazdą konną, a nie z kuchnią, więc nie jest powiązane z tym słowem."},
+    {"word": "recipe", "is_associated": true, "association_type": "THEMATIC", "explanation": "Przepis jest ściśle związany z gotowaniem, a gotowanie odbywa się w kuchni."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino może stać w salonie, ale nie ma żadnego związku z kuchnią."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Zlew to element wyposażenia kuchni, a 'kitchen sink' to utrwalone połączenie wyrazowe."},
+    {"word": "fog", "is_associated": false, "association_type": "NONE", "explanation": "Mgła to zjawisko pogodowe i nie ma związku z wnętrzem kuchni."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'kitchen' kojarzy się z wyposażeniem kuchni oraz z czynnościami i pojęciami związanymi z gotowaniem."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the report was widely praised,",
+  "correct_completion": "the committee rejected its main recommendations.",
+  "full_sentence": "Although the report was widely praised, the committee rejected its main recommendations.",
+  "acceptable_variants": ["the committee still rejected its main recommendations.", "the committee nevertheless ignored most of its findings."],
+  "options": [
+    {"text": "the committee therefore adopted every recommendation.", "is_correct": false, "why_wrong": "'Therefore' expresses a logical result. 'Although' requires a contrast with the praise, not a consequence of it."},
+    {"text": "the committee rejected its main recommendations.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was published in March.", "is_correct": false, "why_wrong": "This is a neutral fact that does not contrast with the praise, so it does not complete the concessive meaning."},
+    {"text": "the committee was praised for its speed.", "is_correct": false, "why_wrong": "This repeats the idea of praise instead of contrasting with it, so it does not complete the concessive meaning."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show contrast with the first part of the sentence. Here the positive reception of the report is contrasted with the committee rejecting its recommendations. Polish learners sometimes treat concessive clauses like simple cause clauses, so they may choose a result connector such as 'therefore' by mistake.",
+  "translation": "Mimo że raport był powszechnie chwalony, komisja odrzuciła jego główne zalecenia."
+}
