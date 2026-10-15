@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the box was heavy,",
+  "correct_completion": "she carried it upstairs alone.",
+  "full_sentence": "Although the box was heavy, she carried it upstairs alone.",
+  "acceptable_variants": ["she managed to lift it.", "she still moved it to the kitchen."],
+  "options": [
+    {"text": "so she asked her brother for help.", "is_correct": false, "why_wrong": "'Although' shows contrast, not result. A clause starting with 'so' expresses a result and does not complete the contrast."},
+    {"text": "it was a very red box.", "is_correct": false, "why_wrong": "This adds a detail about the box but does not complete the contrast that 'although' requires."},
+    {"text": "she carried it upstairs alone.", "is_correct": true, "why_wrong": null},
+    {"text": "because it was empty.", "is_correct": false, "why_wrong": "'Because' gives a reason, which does not fit after 'although', since 'although' introduces an unexpected result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show something unexpected, contrasting with the first part. Learners often mix up 'although' with 'because', which gives a reason instead of a contrast.",
+  "translation": "Embora a caixa fosse pesada, ela a carregou escada acima sozinha."
+}

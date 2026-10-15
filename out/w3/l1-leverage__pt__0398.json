@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch (for example, a TV show)"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend or plan to do something"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"},
+    {"word": "esposa", "transliteration": "esposa", "meaning": "wife"}
+  ],
+  "english_words": ["bookshop", "wife", "watch", "intend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Several Portuguese verbs and nouns look like English words but come from a different Latin root or have shifted meaning over time, so their forms stayed close while their meanings separated.",
+  "false_friend_warning": "The Portuguese verb that looks like 'assist' means 'to watch', as in watching TV, not to help someone. The Portuguese verb that looks like 'pretend' means 'to intend', so do not use 'pretend' for a plan. The Portuguese word that looks like 'library' means a bookshop, where you buy books, not a place to borrow them."
+}

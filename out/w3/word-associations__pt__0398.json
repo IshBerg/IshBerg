@@ -1,0 +1,14 @@
+{
+  "trigger_word": "name",
+  "all_words": [
+    {"word": "hello", "is_associated": true, "association_type": "THEMATIC", "explanation": "Quando nos apresentamos, normalmente dizemos 'hello' antes de falar o nosso nome."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "A palavra 'table' (mesa) não tem nenhuma relação com apresentar o próprio nome."},
+    {"word": "surname", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O sobrenome é uma parte do nome completo de uma pessoa, por isso tem um significado relacionado."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "A palavra 'cloud' (nuvem) não se relaciona com o nome de uma pessoa."},
+    {"word": "age", "is_associated": true, "association_type": "THEMATIC", "explanation": "Em uma apresentação pessoal, costumamos dizer o nome e também a idade."},
+    {"word": "my", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'my name' (meu nome) é uma combinação muito comum para se apresentar."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'name' se associa com cumprimentos, sobrenome, idade e a expressão 'my name', enquanto 'table' e 'cloud' não têm relação com o tema."
+}
