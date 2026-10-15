@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee acted sooner,",
+  "correct_completion": "the scandal might never have reached the press.",
+  "full_sentence": "Had the committee acted sooner, the scandal might never have reached the press.",
+  "acceptable_variants": ["the scandal would probably have been contained.", "the story could have been suppressed before publication."],
+  "options": [
+    {"text": "the scandal reaches the press.", "is_correct": false, "why_wrong": "The inverted 'had acted' requires a past-perfect hypothetical result. A present-tense verb breaks the third conditional structure."},
+    {"text": "the scandal might never have reached the press.", "is_correct": true, "why_wrong": null},
+    {"text": "the scandal would reach the press.", "is_correct": false, "why_wrong": "This mixes conditional forms. Without 'have' after 'would', the result does not match the past hypothetical condition set by 'had acted'."},
+    {"text": "so the scandal did reach the press.", "is_correct": false, "why_wrong": "'So' signals a real result, and the indicative past contradicts the hypothetical meaning the inverted structure creates."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and modal perfect results",
+  "connector": "had + subject (inversion of 'if')",
+  "explanation": "Inversion replaces 'if' with 'had' before the subject. The main clause then needs a modal perfect form, such as 'might have', to express an unreal past result. Polish speakers may expect a simple conditional here, but English requires the perfect infinitive after the modal.",
+  "translation": "Gdyby komisja zadziałała wcześniej, skandal mógłby nigdy nie dotrzeć do prasy."
+}
