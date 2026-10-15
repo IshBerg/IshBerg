@@ -1,0 +1,23 @@
+{
+  "central_word": "hungry",
+  "chain_words": [
+    {"word": "peckish", "intensity": 1, "translation": "biraz acıkmış", "nuance": "slightly hungry, wanting a small snack"},
+    {"word": "hungry", "intensity": 2, "translation": "aç", "nuance": "general need for food"},
+    {"word": "starving", "intensity": 3, "translation": "çok aç", "nuance": "very strong hunger, often used informally"},
+    {"word": "famished", "intensity": 4, "translation": "açlıktan bitkin", "nuance": "extremely hungry and weak"},
+    {"word": "ravenous", "intensity": 5, "translation": "kurt gibi aç", "nuance": "overwhelming hunger"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe the feeling of wanting food, from a slight appetite to an overwhelming need to eat.",
+  "usage_notes": [
+    {"word1": "hungry", "word2": "starving", "difference": "'Hungry' describes a normal need for food; 'starving' is much stronger and is often used informally to mean very hungry, not literally dying of hunger."}
+  ],
+  "translations": {
+    "peckish": "biraz acıkmış",
+    "hungry": "aç",
+    "starving": "çok aç",
+    "famished": "açlıktan bitkin",
+    "ravenous": "kurt gibi aç"
+  }
+}

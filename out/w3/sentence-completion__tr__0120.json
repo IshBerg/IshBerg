@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will watch a movie inside.", "we will cancel the picnic."],
+  "options": [
+    {"text": "we went to the park last week.", "is_correct": false, "why_wrong": "The first conditional describes a possible future result, so this past-tense clause does not fit after the 'if' clause."},
+    {"text": "it rained yesterday.", "is_correct": false, "why_wrong": "This describes a past event and does not give a future result for the 'if' clause."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we stayed at home yesterday.", "is_correct": false, "why_wrong": "A past tense is not used for the result of a first conditional; the main clause needs 'will' plus the base verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "In the first conditional, the if-clause uses the present simple for a possible future event, and the main clause uses will plus the base verb for the result. Learners may be tempted to use a past form in the result clause, but English requires a future form there.",
+  "translation": "Yarın yağmur yağarsa evde kalacağız."
+}

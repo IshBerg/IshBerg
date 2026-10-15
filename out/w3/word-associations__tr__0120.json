@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ocean",
+  "all_words": [
+    {"word": "wave", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dalgalar okyanusta çok sık görülür, bu yüzden anlamsal olarak ilişkilidirler."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Plaj okyanusun kıyısıdır ve genellikle birlikte düşünülür."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ bir kara parçasıdır ve okyanusla doğrudan bir ilgisi yoktur."},
+    {"word": "fish", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Balıklar okyanusta yaşar, bu yüzden bu kelimeler anlamsal olarak bağlantılıdır."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Çöl kuru bir kara parçasıdır ve okyanusla ilgili değildir."},
+    {"word": "ship", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Gemi okyanusta yol alır ve 'ocean ship' gibi birlikte kullanılabilir."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Okyanus kelimesi dalga, plaj, balık ve gemi gibi kelimelerle ilişkilidir; dağ ve çöl ise bu alanla ilgili değildir."
+}
