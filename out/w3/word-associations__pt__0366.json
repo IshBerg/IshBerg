@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Enfermeira é uma profissional que trabalha em hospitais, por isso está diretamente ligada à palavra 'hospital'."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bicicleta não tem relação com hospitais, nem pelo significado nem pelo uso habitual."},
+    {"word": "patient", "is_associated": true, "association_type": "THEMATIC", "explanation": "Paciente é a pessoa que recebe tratamento em um hospital, então pertence ao mesmo tema."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Jardim não tem ligação com hospitais; é um espaço normalmente associado a casas ou parques."},
+    {"word": "ward", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Ward' (enfermaria) forma a expressão comum 'hospital ward', por isso aparece junto da palavra."},
+    {"word": "gloves", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Luvas descartáveis são usadas por equipes de saúde nos hospitais, então se relacionam ao termo."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'hospital' são pessoas, objetos e expressões ligadas ao cuidado de saúde e ao ambiente hospitalar; as demais não têm relação com esse contexto."
+}

@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["N", "O", "V", "E", "L", "K", "Z", "J", "P"],
+    ["B", "Q", "W", "K", "R", "Z", "F", "X", "L"],
+    ["C", "J", "D", "W", "K", "F", "Y", "U", "O"],
+    ["G", "H", "J", "K", "Q", "W", "P", "Z", "T"],
+    ["T", "V", "B", "N", "X", "Z", "R", "Q", "W"],
+    ["Y", "H", "K", "J", "D", "F", "O", "Q", "Z"],
+    ["P", "O", "E", "M", "T", "W", "S", "Z", "K"],
+    ["X", "Q", "Z", "M", "J", "K", "E", "W", "B"],
+    ["V", "J", "Q", "X", "E", "K", "Z", "W", "B"]
+  ],
+  "words_to_find": ["NOVEL", "PLOT", "THEME", "PROSE", "POEM"],
+  "word_positions": [
+    {"word": "NOVEL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PLOT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "THEME", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PROSE", "start_row": 3, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "POEM", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Advanced Literature"
+}
