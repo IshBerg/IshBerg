@@ -1,0 +1,14 @@
+{
+  "trigger_word": "umbrella",
+  "all_words": [
+    {"word": "rain", "is_associated": true, "association_type": "THEMATIC", "explanation": "Şemsiye genellikle yağmurlu havada kullanılır, bu yüzden 'rain' kelimesi şemsiyeyle tematik olarak bağlantılıdır."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "'Bread' yani 'ekmek' şemsiyeyle ilgili değildir; mutfakla ilgili bir kelimedir ve hava durumuyla bağlantısı yoktur."},
+    {"word": "open", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Open an umbrella' yani 'şemsiye açmak' yaygın bir kullanımdır, bu yüzden 'open' kelimesi şemsiyeyle birlikte kullanılır."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "'River' yani 'nehir' şemsiyeyle bir bağlantı taşımaz; doğada yer alan farklı bir kavramdır."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "'Pencil' yani 'kalem' okul eşyasıdır ve şemsiyeyle anlam ya da kullanım bakımından ilişkili değildir."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "'Table' yani 'masa' ev eşyasıdır; şemsiyeyle bir anlam ya da kullanım ilişkisi yoktur."}
+  ],
+  "correct_indices": [0, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Şemsiye yağmurdan korunmak için kullanılır; bu nedenle 'rain' ile tematik, 'open' ile ise kullanım bakımından bağlantılıdır."
+}
