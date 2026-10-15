@@ -1,0 +1,14 @@
+{
+  "trigger_word": "spider",
+  "all_words": [
+    {"word": "web", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La palabra 'web' forma la expresión 'spider web', que significa telaraña, y es la casa típica de una araña."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "La palabra 'spoon' es una cuchara, un objeto de la cocina que no tiene relación con las arañas."},
+    {"word": "fly", "is_associated": true, "association_type": "THEMATIC", "explanation": "La mosca es una presa común de las arañas, por eso aparece en el mismo tema de los insectos y la caza."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "La palabra 'bread' significa pan, que pertenece al tema de la comida y no tiene conexión con las arañas."},
+    {"word": "legs", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Las arañas tienen ocho patas, así que 'legs' está directamente relacionada con su cuerpo."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "La palabra 'cloud' significa nube, que está en el cielo y no tiene relación con las arañas."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'spider' son las que describen su casa, su presa o su cuerpo. Las demás pertenecen a otros temas, como la cocina o el cielo."
+}
