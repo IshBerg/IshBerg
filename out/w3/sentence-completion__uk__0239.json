@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Given the limited sample size,",
+  "correct_completion": "the findings should be interpreted with caution.",
+  "full_sentence": "Given the limited sample size, the findings should be interpreted with caution.",
+  "acceptable_variants": ["the results call for cautious interpretation.", "the conclusions must be treated tentatively."],
+  "options": [
+    {"text": "the findings are definitely conclusive.", "is_correct": false, "why_wrong": "Calling the findings definitely conclusive contradicts the hedged, cautious tone that a limited sample size requires."},
+    {"text": "the study was completed within one week.", "is_correct": false, "why_wrong": "The completion gives a fact about timing, which does not respond to the point about sample size."},
+    {"text": "the findings should be interpreted with caution.", "is_correct": true, "why_wrong": null},
+    {"text": "the sample was enormous and fully representative.", "is_correct": false, "why_wrong": "This contradicts the stem, which already states that the sample size is limited."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Hedging with 'should' and cautious evaluative language after a limiting prepositional phrase",
+  "connector": "given",
+  "explanation": "The phrase 'Given the limited sample size' introduces a constraint, so the main clause must qualify the strength of the claims. A modal of obligation with a cautious verb such as 'interpreted' signals this hedging.",
+  "translation": "Зважаючи на обмежений обсяг вибірки, результати слід інтерпретувати з обережністю."
+}
