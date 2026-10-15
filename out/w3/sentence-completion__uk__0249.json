@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known the consequences,",
+  "correct_completion": "she would never have signed the contract.",
+  "full_sentence": "Had she known the consequences, she would never have signed the contract.",
+  "acceptable_variants": ["she would have refused the offer.", "she would have hesitated much longer."],
+  "options": [
+    {"text": "she signs the contract tomorrow.", "is_correct": false, "why_wrong": "The present tense does not fit a hypothetical past condition introduced by 'had' in a third conditional sentence."},
+    {"text": "she would never have signed the contract.", "is_correct": true, "why_wrong": null},
+    {"text": "she will sign the contract.", "is_correct": false, "why_wrong": "The future tense ignores the hypothetical past condition set by the stem."},
+    {"text": "she had signed the contract yesterday.", "is_correct": false, "why_wrong": "This reports a past fact rather than the imagined result of a condition that did not happen."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' and 'would have'",
+  "connector": "had",
+  "explanation": "In the third conditional, the inverted 'had' clause describes an unreal past condition, and the main clause uses 'would have' with a past participle to show the imagined result.",
+  "translation": "Якби вона знала про наслідки, вона ніколи б не підписала контракт."
+}
