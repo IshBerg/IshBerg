@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["N", "E", "W", "S", "X", "B", "S"],
+    ["K", "J", "M", "D", "L", "Q", "T"],
+    ["P", "Z", "H", "G", "V", "W", "O"],
+    ["A", "F", "Y", "C", "U", "N", "R"],
+    ["P", "K", "B", "I", "J", "X", "Y"],
+    ["E", "M", "D", "Q", "W", "G", "Z"],
+    ["R", "E", "P", "O", "R", "T", "K"]
+  ],
+  "words_to_find": ["NEWS", "STORY", "PAPER", "REPORT"],
+  "word_positions": [
+    {"word": "NEWS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STORY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PAPER", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "REPORT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Reporting News"
+}

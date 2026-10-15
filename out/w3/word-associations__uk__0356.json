@@ -1,0 +1,14 @@
+{
+  "trigger_word": "root",
+  "all_words": [
+    {"word": "prefix", "is_associated": true, "association_type": "THEMATIC", "explanation": "Префікс є частиною будови слова, тому він тематично пов'язаний з коренем слова."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Стілець не має жодного зв'язку з походженням чи будовою слів."},
+    {"word": "Latin", "is_associated": true, "association_type": "THEMATIC", "explanation": "Багато англійських коренів походять з латини, тому слово Latin тематично пов'язане з темою."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "Океан не стосується етимології і походження слів, тому зв'язку немає."},
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Дерево є образною метафорою: корінь, стовбур і гілки відповідають частинам слова."},
+    {"word": "word", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення root word (слово-корінь) є усталеним поєднанням."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з root, стосуються будови слів і їх походження, а не випадкових предметів."
+}
