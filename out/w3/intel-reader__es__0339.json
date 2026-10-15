@@ -1,0 +1,19 @@
+{
+  "title": "Weather Today and Yesterday",
+  "text": "Today the weather is very nice. The sun is shining and the sky is blue. It is warm, so I wear a T-shirt.\n\nYesterday it was cold and it rained all day. I took my umbrella to school. Tomorrow, the weather will be windy.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the weather like today?", "options": ["Sunny and warm", "Snowy and cold", "Rainy and windy", "Foggy and dark"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What did the speaker take to school yesterday?", "options": ["A jacket", "An umbrella", "A hat", "A bicycle"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does the speaker wear a T-shirt today?", "options": ["Because the weather is warm", "Because it is raining", "Because it is snowing", "Because it is night"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of day was yesterday compared with today?", "options": ["Yesterday was colder and wetter", "Yesterday was warmer and sunnier", "Both days were the same", "Yesterday was hotter"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "shining", "translation": "brillando", "definition": "giving out light, as the sun does"},
+    {"word": "umbrella", "translation": "paraguas", "definition": "an object you hold over your head to stay dry"},
+    {"word": "windy", "translation": "ventoso", "definition": "when there is a lot of wind outside"}
+  ],
+  "paragraph_translations": [
+    "Hoy el clima está muy agradable. El sol brilla y el cielo es azul. Hace calor, así que llevo una camiseta.",
+    "Ayer hizo frío y llovió todo el día. Llevé mi paraguas a la escuela. Mañana el clima será ventoso."
+  ]
+}
