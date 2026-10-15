@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pasta", "transliteration": "pasta", "meaning": "folder (for keeping papers or files)"},
+    {"word": "forno", "transliteration": "forno", "meaning": "oven"},
+    {"word": "prato", "transliteration": "prato", "meaning": "dish or plate"},
+    {"word": "massa", "transliteration": "massa", "meaning": "dough"}
+  ],
+  "english_words": ["dish", "folder", "dough", "oven"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Portuguese word and the English word 'pasta' look identical because both come from an old root meaning paste or dough, but over time the meanings split into different senses.",
+  "false_friend_warning": "Be careful: the Portuguese word pasta (spelled pasta) means a folder for papers, while English speakers use the word pasta for noodles, so a student may wrongly think it is a food word in a recipe."
+}

@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["R", "O", "B", "O", "T", "X", "D", "Q", "F", "R"],
+    ["U", "W", "V", "N", "Y", "C", "H", "J", "B", "E"],
+    ["G", "P", "Z", "Q", "A", "F", "T", "D", "X", "M"],
+    ["K", "W", "S", "Y", "C", "N", "B", "V", "H", "O"],
+    ["J", "Q", "D", "K", "F", "X", "A", "M", "R", "T"],
+    ["V", "B", "H", "Z", "I", "Y", "C", "N", "W", "E"],
+    ["F", "D", "G", "T", "Q", "L", "J", "X", "K", "Y"],
+    ["A", "R", "N", "E", "V", "Z", "L", "H", "P", "D"],
+    ["Q", "W", "X", "K", "J", "B", "Y", "U", "M", "I"],
+    ["A", "L", "G", "O", "R", "I", "T", "H", "M", "Z"]
+  ],
+  "words_to_find": ["ROBOT", "REMOTE", "UPSKILL", "ALGORITHM"],
+  "word_positions": [
+    {"word": "ROBOT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REMOTE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "UPSKILL", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ALGORITHM", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "The Future of Work and Technology"
+}
