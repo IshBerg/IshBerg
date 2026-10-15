@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["L", "A", "P", "T", "O", "P", "Q", "W", "M"],
+    ["K", "J", "B", "D", "F", "Z", "P", "R", "O"],
+    ["N", "B", "V", "Q", "W", "X", "H", "T", "U"],
+    ["D", "G", "J", "K", "L", "N", "O", "Y", "S"],
+    ["P", "Z", "W", "U", "E", "V", "N", "R", "E"],
+    ["H", "C", "K", "E", "Y", "M", "E", "A", "B"],
+    ["T", "G", "R", "I", "L", "D", "W", "Q", "F"],
+    ["Y", "C", "X", "M", "B", "A", "K", "P", "T"],
+    ["S", "U", "H", "F", "Z", "V", "X", "Y", "Q"]
+  ],
+  "words_to_find": ["LAPTOP", "MOUSE", "SCREEN", "PHONE"],
+  "word_positions": [
+    {"word": "LAPTOP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MOUSE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SCREEN", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "PHONE", "start_row": 1, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Technology"
+}

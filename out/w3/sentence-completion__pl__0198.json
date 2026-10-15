@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she handed it to her manager.",
+  "full_sentence": "Having finished the report, she handed it to her manager.",
+  "acceptable_variants": ["she sent it to the client.", "she then gave it to her manager for review."],
+  "options": [
+    {"text": "so she was very tired.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not complete the participle clause. A result cannot be linked to the finished action in this way."},
+    {"text": "she handed it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "the manager was pleased with it.", "is_correct": false, "why_wrong": "The participle 'Having finished' must refer to the subject of the main clause. Here the manager would be the person who finished the report, which is illogical."},
+    {"text": "it was still on her desk.", "is_correct": false, "why_wrong": "This describes a state, but the main clause should show the action that follows the completed one."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect participle clauses: the implied subject must match the subject of the main clause",
+  "connector": "having finished",
+  "explanation": "A perfect participle clause such as 'Having finished the report' describes an action completed before the main action. Its implied subject must be the subject of the main clause, so the completion has to be an action that she performs next. Polish speakers may try to translate this structure word for word with a full subordinate clause, which is less natural in English.",
+  "translation": "Skończywszy raport, przekazała go swojemu kierownikowi."
+}
