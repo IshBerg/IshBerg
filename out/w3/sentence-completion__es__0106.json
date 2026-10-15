@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you can enter the country,",
+  "correct_completion": "you have to show your passport.",
+  "full_sentence": "Before you can enter the country, you have to show your passport.",
+  "acceptable_variants": ["you need to show your passport.", "you must show your passport."],
+  "options": [
+    {"text": "so you can enter quickly.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem needs a required action after 'before'."},
+    {"text": "you have to show your passport.", "is_correct": true, "why_wrong": null},
+    {"text": "you could take a photo of the sign.", "is_correct": false, "why_wrong": "This is optional, so it does not complete a requirement for entering the country."},
+    {"text": "you don't have to stop at the desk.", "is_correct": false, "why_wrong": "This removes a requirement, but the stem calls for a required action before entering."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Have to for obligation after the time clause with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', we need a clause that states a required action. 'Have to' expresses an obligation, so the completion must show something that is necessary.",
+  "translation": "Antes de poder entrar al país, tienes que mostrar tu pasaporte."
+}

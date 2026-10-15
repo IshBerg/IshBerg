@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "familia", "transliteration": "familia", "meaning": "family"},
+    {"word": "amigo", "transliteration": "amigo", "meaning": "friend"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive (easily hurt or moved emotionally)"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"}
+  ],
+  "english_words": ["sensitive", "pregnant", "family", "friend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages come from the same Latin roots, so many words look alike. Over time, though, some words changed meaning in one language and not the other, so the forms stay close while the meanings differ.",
+  "false_friend_warning": "The Spanish adjective that looks like the English word 'sensible' means 'sensitive' (easily hurt or moved emotionally), not 'reasonable'."
+}
