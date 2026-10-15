@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["N", "E", "W", "S", "K", "L", "M", "S"],
+    ["P", "A", "B", "C", "D", "F", "G", "T"],
+    ["R", "J", "T", "O", "D", "A", "Y", "O"],
+    ["E", "H", "K", "L", "N", "Q", "V", "R"],
+    ["S", "B", "C", "W", "X", "Z", "P", "Y"],
+    ["S", "D", "F", "G", "H", "J", "K", "L"],
+    ["R", "E", "P", "O", "R", "T", "U", "V"],
+    ["W", "X", "Y", "Z", "Q", "A", "B", "C"]
+  ],
+  "words_to_find": ["NEWS", "PRESS", "REPORT", "STORY", "TODAY"],
+  "word_positions": [
+    {"word": "NEWS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PRESS", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "REPORT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STORY", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "TODAY", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Reporting News"
+}

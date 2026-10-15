@@ -1,0 +1,13 @@
+{
+  "start_word": "trivial",
+  "end_word": "critical",
+  "ladder_steps": [
+    {"word": "trivial", "translation": "önemsiz", "intensity_level": 1},
+    {"word": "minor", "translation": "küçük", "intensity_level": 2},
+    {"word": "significant", "translation": "önemli", "intensity_level": 3},
+    {"word": "major", "translation": "büyük", "intensity_level": 4},
+    {"word": "critical", "translation": "kritik", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "The words form a ladder of importance, from something that barely matters to something that is essential, with each step carrying more weight than the one before."
+}

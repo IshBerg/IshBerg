@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister, who works as a nurse,",
+  "correct_completion": "has just moved to Istanbul.",
+  "full_sentence": "My sister, who works as a nurse, has just moved to Istanbul.",
+  "acceptable_variants": ["has recently settled in Istanbul.", "is now living in Istanbul."],
+  "options": [
+    {"text": "so I cannot visit her often.", "is_correct": false, "why_wrong": "A non-defining clause adds extra information about the subject. It does not state a result of the first clause."},
+    {"text": "has just moved to Istanbul.", "is_correct": true, "why_wrong": null},
+    {"text": "because she likes the city.", "is_correct": false, "why_wrong": "'Because' introduces a reason, but the sentence needs a main clause that tells us what happened to the sister."},
+    {"text": "and the hospital was far away.", "is_correct": false, "why_wrong": "This adds a detail about the hospital, not about the sister, so it does not complete the sentence about her."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who'",
+  "connector": "who",
+  "explanation": "A non-defining clause sits between commas and gives extra information about a person already identified. The main clause after the comma must then state the main action, and learners whose first language places extra information before the main verb often attach the wrong clause here.",
+  "translation": "Hemşire olarak çalışan kız kardeşim az önce İstanbul'a taşındı."
+}

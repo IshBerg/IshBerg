@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Benzetme, 'like' ya da 'as' ile iki şeyi karşılaştıran bir figür olduğu için metaforla yakından ilişkilidir."},
+    {"word": "spreadsheet", "is_associated": false, "association_type": "NONE", "explanation": "Elektronik tablo, edebi bir figür olan metaforla hiçbir anlam ya da kullanım bağı taşımaz."},
+    {"word": "imagery", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Betimleyici imgeler, metaforların okuyucuda zihinsel resim oluşturmasını sağlayan başlıca araçlarından biridir."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktör, tarım makinesi olarak edebi dil ve figürlerle ilgisi olmayan bir sözcüktür."},
+    {"word": "figurative", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Figurative language' ifadesi, metaforun bağlı olduğu kullanım alanını doğrudan tanımladığı için sık birlikte geçer."},
+    {"word": "ballet", "is_associated": false, "association_type": "NONE", "explanation": "Bale, dans sanatıdır ve metafor kavramıyla doğrudan bir kavramsal bağı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Metafor, benzetme ve imge gibi edebi figürlerle ve figüratif dil kavramıyla ilişkilidir. Tablo, traktör ve bale gibi sözcükler ise edebi dil alanının dışında kalır."
+}
