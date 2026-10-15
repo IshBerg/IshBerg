@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the fact that the project was behind schedule,",
+  "correct_completion": "the team decided to keep the original launch date.",
+  "full_sentence": "Despite the fact that the project was behind schedule, the team decided to keep the original launch date.",
+  "acceptable_variants": ["the team still decided to keep the original launch date.", "the team refused to change the original launch date."],
+  "options": [
+    {"text": "the team decided to delay the launch.", "is_correct": false, "why_wrong": "This is a logical consequence of being behind schedule, not a contrast. 'Despite the fact that' needs a main clause that goes against the first part."},
+    {"text": "the team celebrated the early completion.", "is_correct": false, "why_wrong": "This contradicts the stem, because a project that is behind schedule has not been completed early."},
+    {"text": "the team decided to keep the original launch date.", "is_correct": true, "why_wrong": null},
+    {"text": "so the team had to work overtime.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'despite the fact that' requires a contrasting main clause, not a consequence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'despite the fact that'",
+  "connector": "despite the fact that",
+  "explanation": "'Despite the fact that' introduces a concession, so the main clause must contrast with the difficulty named in the first part. Learners often add a result connector such as 'so' here, because a consequence marker is a common way to link two clauses in many first languages. English needs a contrasting main clause after a concessive linker.",
+  "translation": "Apesar de o projeto estar atrasado em relação ao cronograma, a equipe decidiu manter a data original de lançamento."
+}
