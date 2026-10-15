@@ -1,0 +1,14 @@
+{
+  "trigger_word": "journal",
+  "all_words": [
+    {"word": "article", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dergi, akademik makaleler yayımlar; bu yüzden makale ile doğrudan anlamsal bağlantısı vardır."},
+    {"word": "citation", "is_associated": true, "association_type": "THEMATIC", "explanation": "Akademik dergilerdeki makaleler kaynak gösterimi (atıf) içerir; bu, akademik yayıncılık temasının bir parçasıdır."},
+    {"word": "editor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dergilerde editörler ve yayın kurulu, gönderilen makaleleri değerlendirir."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "Gök gürültüsü akademik dergilerle ilgili bir kavram değildir; aralarında bir ilişki yoktur."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Halı, dergi ve akademik yayıncılıkla ilgili değildir; bağlantısı yoktur."},
+    {"word": "subscription", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Subscribe to a journal' yaygın bir kalıptır; dergiye abone olmak anlamına gelir."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Dergi kelimesiyle ilişkili olanlar akademik yayıncılık terimleridir; günlük hayattaki nesneler ise ilişkisizdir."
+}

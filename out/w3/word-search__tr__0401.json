@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["P", "A", "S", "T", "I", "C", "H", "E"],
+    ["M", "J", "K", "B", "D", "W", "Z", "C"],
+    ["I", "X", "V", "B", "Q", "K", "D", "O"],
+    ["R", "S", "A", "T", "I", "R", "E", "L"],
+    ["O", "F", "U", "W", "J", "Z", "P", "L"],
+    ["N", "H", "Q", "B", "X", "M", "T", "A"],
+    ["Y", "N", "O", "V", "E", "L", "K", "G"],
+    ["D", "W", "Z", "Q", "F", "J", "H", "E"]
+  ],
+  "words_to_find": ["PASTICHE", "IRONY", "COLLAGE", "SATIRE", "NOVEL"],
+  "word_positions": [
+    {"word": "PASTICHE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "COLLAGE", "start_row": 1, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SATIRE", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "NOVEL", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Postmodern and Experimental Literature"
+}

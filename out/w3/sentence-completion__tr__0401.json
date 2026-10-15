@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the soup was very hot,",
+  "correct_completion": "we waited a few minutes before eating it.",
+  "full_sentence": "Because the soup was very hot, we waited a few minutes before eating it.",
+  "acceptable_variants": ["we let it cool down first.", "we waited until it was cooler."],
+  "options": [
+    {"text": "the menu was on the table.", "is_correct": false, "why_wrong": "This states a fact about the table, not a result of the soup being hot."},
+    {"text": "we ate it immediately.", "is_correct": false, "why_wrong": "Eating very hot soup immediately contradicts the cause given in the stem, so it does not complete the logic."},
+    {"text": "we waited a few minutes before eating it.", "is_correct": true, "why_wrong": null},
+    {"text": "however, the soup was cold.", "is_correct": false, "why_wrong": "'However' cannot follow 'because' in this structure, and the idea of cold soup contradicts the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the stem gives the cause, so the completion must give the logical result of that cause. Learners should check that the main clause follows naturally from the reason and does not add a contrasting connector.",
+  "translation": "Çorba çok sıcak olduğu için, onu yemeden önce birkaç dakika bekledik."
+}
