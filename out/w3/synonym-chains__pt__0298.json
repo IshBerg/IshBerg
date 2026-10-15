@@ -1,0 +1,17 @@
+{
+  "central_word": "likely",
+  "chain_words": [
+    {"word": "conceivable", "intensity": 1, "translation": "concebível", "nuance": "possible in theory, with very little support"},
+    {"word": "possible", "intensity": 2, "translation": "possível", "nuance": "could happen, with no strong evidence either way"},
+    {"word": "likely", "intensity": 3, "translation": "provável", "nuance": "expected, based on some reasonable evidence"},
+    {"word": "probable", "intensity": 4, "translation": "muito provável", "nuance": "more formal, supported by strong evidence"},
+    {"word": "certain", "intensity": 5, "translation": "certo", "nuance": "no real doubt about the outcome"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express how likely something is, from barely imaginable to completely sure. Academic writers choose among them to hedge their claims precisely.",
+  "usage_notes": [
+    {"word1": "possible", "word2": "likely", "difference": "'Possible' means something may happen with little evidence; 'likely' means there is good reason to expect it."}
+  ],
+  "translations": {"conceivable": "concebível", "possible": "possível", "likely": "provável", "probable": "muito provável", "certain": "certo"}
+}

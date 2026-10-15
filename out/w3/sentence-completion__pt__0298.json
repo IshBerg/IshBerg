@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My keys are",
+  "correct_completion": "on the table.",
+  "full_sentence": "My keys are on the table.",
+  "acceptable_variants": ["in my bag.", "next to the phone."],
+  "options": [
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a time word, so it does not tell where the keys are."},
+    {"text": "and I am happy.", "is_correct": false, "why_wrong": "This describes a feeling, not a place."},
+    {"text": "on the table.", "is_correct": true, "why_wrong": null},
+    {"text": "very big.", "is_correct": false, "why_wrong": "This describes size, not location."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: on, in and next to",
+  "connector": "on",
+  "explanation": "The stem needs a phrase that tells the place where the keys are. English uses 'on' for a surface, so a place phrase with 'on' completes the sentence logically. Learners often need to treat 'on', 'in' and 'under' as separate choices, because one preposition may be used for several places in their first language.",
+  "translation": "Minhas chaves estão em cima da mesa."
+}
