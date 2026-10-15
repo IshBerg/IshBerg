@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"},
+    {"word": "eventual", "transliteration": "eventual", "meaning": "occasional"}
+  ],
+  "english_words": ["occasional", "watch", "bookshop", "intend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Portuguese words look like English words, but their meanings differ. Learners who trust the similar spelling will translate them literally and choose the wrong English word.",
+  "false_friend_warning": "Portuguese learners often assume that the verb meaning 'to watch' (transliterated as assistir) means 'to assist', and that the verb meaning 'to intend' (transliterated as pretender) means 'to pretend'. Check the meaning before you trust a similar spelling."
+}

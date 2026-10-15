@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The witness denied",
+  "correct_completion": "having seen the car that night.",
+  "full_sentence": "The witness denied having seen the car that night.",
+  "acceptable_variants": ["having been near the car that night.", "being anywhere near the car that night."],
+  "options": [
+    {"text": "to see the car that night.", "is_correct": false, "why_wrong": "'Deny' is followed by a gerund (the -ing form), not an infinitive."},
+    {"text": "and he will see it tomorrow.", "is_correct": false, "why_wrong": "A future tense does not fit a report of a past denial. The completion must describe what was denied."},
+    {"text": "having seen the car that night.", "is_correct": true, "why_wrong": null},
+    {"text": "so the police arrested him.", "is_correct": false, "why_wrong": "This states a result, but 'denied' needs a completion that names the action being denied."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Reporting verbs followed by gerunds (deny + -ing form)",
+  "connector": "denied",
+  "explanation": "The verb 'deny' is followed by a gerund, so the completion must be an -ing form that names the action that was denied. Portuguese speakers often transfer an infinitive pattern to this verb, so the gerund form needs to be learned as a fixed pattern.",
+  "translation": "A testemunha negou ter visto o carro naquela noite."
+}
