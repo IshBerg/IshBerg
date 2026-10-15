@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The evidence was overwhelming;",
+  "correct_completion": "nevertheless, the jury hesitated before reaching a verdict.",
+  "full_sentence": "The evidence was overwhelming; nevertheless, the jury hesitated before reaching a verdict.",
+  "acceptable_variants": ["however, the jury hesitated before reaching a verdict.", "yet the jury hesitated before deciding."],
+  "options": [
+    {"text": "consequently, the jury reached a verdict at once.", "is_correct": false, "why_wrong": "'Consequently' signals a result that follows from the evidence, not the contrast the stem implies."},
+    {"text": "the jury had already heard the testimony.", "is_correct": false, "why_wrong": "This adds background information but does not complete a contrast with the claim that the evidence was overwhelming."},
+    {"text": "nevertheless, the jury hesitated before reaching a verdict.", "is_correct": true, "why_wrong": null},
+    {"text": "in addition, the jury reached a verdict quickly.", "is_correct": false, "why_wrong": "'In addition' adds information in the same direction, so it cannot express the expected contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive discourse markers (nevertheless, however, yet) joining two independent clauses",
+  "connector": "nevertheless",
+  "explanation": "The stem sets up strong evidence, so the continuation must express a contrasting outcome. Learners often choose a result marker here, which makes the sentence illogical because the second clause runs against what the first one leads the reader to expect.",
+  "translation": "La evidencia era abrumadora; sin embargo, el jurado dudó antes de emitir un veredicto."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "familia", "transliteration": "familia", "meaning": "family"},
+    {"word": "mamá", "transliteration": "mama", "meaning": "mom"},
+    {"word": "papá", "transliteration": "papa", "meaning": "dad"},
+    {"word": "bebé", "transliteration": "bebe", "meaning": "baby"}
+  ],
+  "english_words": ["mom", "baby", "family", "dad"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each of these pairs has the same meaning in both languages and a similar form, because both languages inherited or borrowed the words from Latin and from shared baby-talk roots. Students can rely on the resemblance to recall the English word.",
+  "false_friend_warning": null
+}
