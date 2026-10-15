@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The roof was leaking badly, so",
+  "correct_completion": "we had it repaired by a professional.",
+  "full_sentence": "The roof was leaking badly, so we had it repaired by a professional.",
+  "acceptable_variants": ["we got it repaired by a professional.", "we arranged for a professional to repair it."],
+  "options": [
+    {"text": "we repaired it ourselves last night.", "is_correct": false, "why_wrong": "This is grammatical, but it says the speakers did the work themselves. The causative 'have something done' shows that someone else does the action."},
+    {"text": "the roof repaired itself.", "is_correct": false, "why_wrong": "A roof cannot repair itself, so this does not make sense as a result of the leak."},
+    {"text": "we had it repaired by a professional.", "is_correct": true, "why_wrong": null},
+    {"text": "we had repaired the roof.", "is_correct": false, "why_wrong": "The past perfect 'had repaired' describes the speakers doing the repair, not arranging for someone else to do it with the pattern 'had it repaired'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have something done'",
+  "connector": "so",
+  "explanation": "'Have something done' shows that the subject arranges for someone else to perform the action. The structure is have + object + past participle, so 'had it repaired' is correct here.",
+  "translation": "Дах сильно протікав, тож ми замовили його ремонт у фахівця."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "The Weather Today and Yesterday",
+  "text": "Today the weather is very nice. The sun is shining and the sky is blue. It is warm and there is no wind. It is a good day for a walk.\n\nYesterday it was cold and rainy. There were many clouds all day. It was windy too. Tomorrow it will be cloudy, but it will not rain.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the weather like today?", "options": ["Cold and snowy", "Sunny and warm", "Windy and rainy", "Dark and foggy"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What was the weather like yesterday?", "options": ["Hot and sunny", "Cold and rainy", "Warm and calm", "Clear and dry"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why is today a good day for a walk?", "options": ["It is comfortable outside", "It is snowing heavily", "It is too dark to see", "Walking is not allowed"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about tomorrow?", "options": ["It will probably be sunny and hot", "It will probably not rain, so umbrellas are not needed", "It will be snowing all day", "The sky will be completely clear"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "shining", "translation": "сяє", "definition": "giving out bright light"},
+    {"word": "cloudy", "translation": "хмарний", "definition": "with many clouds in the sky"},
+    {"word": "windy", "translation": "вітряний", "definition": "with a lot of wind"},
+    {"word": "warm", "translation": "теплий", "definition": "a little hot in a pleasant way"}
+  ],
+  "paragraph_translations": [
+    "Сьогодні погода дуже гарна. Сонце сяє, а небо блакитне. Тепло, і вітру немає. Це гарний день для прогулянки.",
+    "Вчора було холодно і дощово. Цілий день було багато хмар. Також було вітряно. Завтра буде хмарно, але дощу не буде."
+  ]
+}
