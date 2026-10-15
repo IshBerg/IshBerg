@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "R", "A", "V", "E", "Q", "K", "Z", "W", "P"],
+    ["H", "J", "M", "T", "O", "X", "L", "G", "D", "E"],
+    ["E", "N", "S", "U", "R", "K", "O", "A", "I", "R"],
+    ["Y", "F", "B", "C", "H", "V", "P", "Z", "W", "M"],
+    ["C", "K", "Y", "P", "L", "T", "F", "W", "Q", "I"],
+    ["X", "A", "G", "H", "N", "J", "U", "R", "S", "T"],
+    ["M", "B", "N", "E", "V", "Z", "Q", "O", "D", "K"],
+    ["F", "W", "C", "D", "Y", "H", "K", "L", "P", "X"],
+    ["G", "E", "J", "Q", "I", "U", "A", "V", "B", "Z"],
+    ["R", "K", "Y", "S", "L", "D", "F", "M", "W", "H"]
+  ],
+  "words_to_find": ["BRAVE", "PERMIT", "ENSURE", "CANDID", "RECENT"],
+  "word_positions": [
+    {"word": "BRAVE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PERMIT", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "ENSURE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CANDID", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "RECENT", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists A and B"
+}

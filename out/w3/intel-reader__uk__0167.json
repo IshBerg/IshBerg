@@ -1,0 +1,20 @@
+{
+  "title": "A Reply to a Job Email",
+  "text": "Dear Ms. Brown,\nThank you for your email about the job vacancy. I am writing to confirm that I would like to attend an interview on Monday at 10 a.m. Please let me know if this time is still possible for you. I have attached my CV for your review.\n\nI am available in the morning, but I cannot come on Friday because of a conference. If this time does not suit you, I am happy to choose another day next week. Thank you for your time and consideration. Kind regards, Anna Lee.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What time is the interview proposed for?", "options": ["Monday at 10 a.m.", "Friday at 10 a.m.", "Monday at 2 p.m.", "Tuesday at 10 a.m."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Why can the writer not come on Friday?", "options": ["She is ill", "She is on holiday", "She has another interview", "She has a conference"], "correct_index": 3, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What is the writer's attitude toward the interview?", "options": ["Polite and cooperative", "Rude and impatient", "Uninterested and careless", "Confused and unsure"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can the reader infer about the recipient of the email?", "options": ["They are a student", "They are the writer's friend", "They are a hiring manager", "They are a doctor"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "vacancy", "translation": "вакансія", "definition": "a job that is available for someone to apply for"},
+    {"word": "confirm", "translation": "підтверджувати", "definition": "to say or show that something is certain"},
+    {"word": "suit", "translation": "підходити", "definition": "to be convenient or acceptable for someone"},
+    {"word": "attached", "translation": "доданий", "definition": "sent together with an email as an extra file"}
+  ],
+  "paragraph_translations": [
+    "Шановна пані Браун, дякую за ваш лист щодо вакансії. Пишу, щоб підтвердити, що я хотіла б прийти на співбесіду в понеділок о 10:00. Будь ласка, дайте мені знати, чи цей час для вас ще підходить. Я додала своє резюме до листа для розгляду.",
+    "Я вільна вранці, але не можу прийти в п'ятницю через конференцію. Якщо цей час вам не підходить, я з радістю обрала б інший день наступного тижня. Дякую за ваш час і увагу. З повагою, Анна Лі."
+  ]
+}
