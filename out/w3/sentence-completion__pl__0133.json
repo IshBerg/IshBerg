@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you mix red and blue paint,",
+  "correct_completion": "you get purple.",
+  "full_sentence": "If you mix red and blue paint, you get purple.",
+  "acceptable_variants": ["you make purple.", "the result is purple."],
+  "options": [
+    {"text": "you will get green.", "is_correct": false, "why_wrong": "Green is not made by mixing red and blue. Also, 'will' belongs to the first conditional, which is used for possible future results, not general facts."},
+    {"text": "you get purple.", "is_correct": true, "why_wrong": null},
+    {"text": "you would get purple.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional, which describes imaginary situations. A general fact uses the present simple in both clauses."},
+    {"text": "you mixed them yesterday.", "is_correct": false, "why_wrong": "The past tense describes a finished event and does not express the general result of mixing colors."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional for general truths (if + present simple, present simple)",
+  "connector": "if",
+  "explanation": "The zero conditional uses the present simple in both clauses to describe facts that are always true when the condition happens. Learners often add 'will' here because they link if-clauses with the future, but this sentence describes a general fact.",
+  "translation": "Jeśli zmieszasz czerwoną i niebieską farbę, otrzymasz fioletowy kolor."
+}
