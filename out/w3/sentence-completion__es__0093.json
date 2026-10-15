@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were cooking dinner,",
+  "correct_completion": "the power suddenly went out.",
+  "full_sentence": "While we were cooking dinner, the power suddenly went out.",
+  "acceptable_variants": ["the phone rang loudly.", "our neighbour knocked on the door."],
+  "options": [
+    {"text": "we eat dinner at seven every day.", "is_correct": false, "why_wrong": "This uses the simple present for a habit. The sentence needs a past event that interrupts the action already in progress."},
+    {"text": "we are going to bed early tomorrow.", "is_correct": false, "why_wrong": "This describes a future plan. After 'while' with a past action, the sentence needs a past event."},
+    {"text": "the power suddenly went out.", "is_correct": true, "why_wrong": null},
+    {"text": "the kitchen was very clean.", "is_correct": false, "why_wrong": "This describes a past state but does not interrupt the action. The sentence needs a sudden event."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous with 'while' for an action interrupted by a sudden event",
+  "connector": "while",
+  "explanation": "The past continuous describes an action in progress at a past moment, and 'while' introduces that longer action. The simple past describes the sudden event that interrupts it. Spanish speakers may use the simple past for both actions, because English separates ongoing and completed past actions more clearly.",
+  "translation": "Mientras cocinábamos la cena, se fue la luz de repente."
+}

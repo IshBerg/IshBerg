@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "generoso", "transliteration": "generoso", "meaning": "generous"},
+    {"word": "nervioso", "transliteration": "nervioso", "meaning": "nervous"},
+    {"word": "honesto", "transliteration": "honesto", "meaning": "honest"},
+    {"word": "paciente", "transliteration": "paciente", "meaning": "patient"}
+  ],
+  "english_words": ["nervous", "generous", "patient", "honest"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "All four adjectives come from Latin roots shared by English and Spanish, so their spelling and meaning stay close across the two languages. The English words are shuffled, so the learner must match by meaning rather than by position.",
+  "false_friend_warning": null
+}
