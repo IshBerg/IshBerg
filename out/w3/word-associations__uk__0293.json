@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Порівняння є близьким за значенням до метафори, обидва є засобами образної мови."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Двигун не має жодного відношення до літературних засобів і образної мови."},
+    {"word": "poetry", "is_associated": true, "association_type": "THEMATIC", "explanation": "У поезії часто використовують метафори, тому це слово пов'язане з темою."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим є предметом побуту і не належить до риторики чи літератури."},
+    {"word": "imagery", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Образність створюється за допомогою метафор, тому це слово тісно пов'язане з темою."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не має жодного зв'язку з літературними засобами."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з metaphor, стосуються літературних засобів і образної мови, а решта слів належать до інших сфер життя."
+}
