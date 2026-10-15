@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["L", "E", "A", "S", "H", "K", "V", "P", "Z"],
+    ["X", "Q", "D", "R", "M", "N", "E", "J", "Y"],
+    ["B", "F", "G", "H", "J", "K", "T", "L", "P"],
+    ["D", "S", "Y", "U", "I", "O", "R", "A", "E"],
+    ["C", "W", "M", "N", "Q", "P", "X", "D", "K"],
+    ["F", "A", "Z", "K", "W", "Q", "G", "L", "M"],
+    ["G", "H", "T", "J", "K", "L", "W", "N", "B"],
+    ["P", "D", "S", "U", "V", "O", "Y", "R", "Q"],
+    ["K", "P", "Q", "W", "B", "F", "T", "Z", "N"]
+  ],
+  "words_to_find": ["LEASH", "VET", "CAT", "BOWL"],
+  "word_positions": [
+    {"word": "LEASH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VET", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "CAT", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BOWL", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Pets and Caring for Animals"
+}

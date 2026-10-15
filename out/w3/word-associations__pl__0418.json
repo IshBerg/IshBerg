@@ -1,0 +1,14 @@
+{
+  "trigger_word": "recycling",
+  "all_words": [
+    {"word": "bin", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kosz na śmieci jest częścią segregacji odpadów, więc należy do tematu recyklingu."},
+    {"word": "pizza", "is_associated": false, "association_type": "NONE", "explanation": "Pizza nie ma związku z recyklingiem ani z ochroną środowiska."},
+    {"word": "plastic", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Plastik to materiał, który bardzo często poddaje się recyklingowi."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Krzesło nie jest powiązane z recyklingiem."},
+    {"word": "bottle", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Połączenie recycle a bottle jest typowe w języku angielskim."},
+    {"word": "sea", "is_associated": false, "association_type": "NONE", "explanation": "Morze nie jest bezpośrednio związane z recyklingiem jako działaniem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z recycling dotyczą segregacji odpadów i ochrony środowiska; pizza, krzesło i morze do tematu nie należą."
+}
