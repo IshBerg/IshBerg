@@ -1,0 +1,23 @@
+{
+  "central_word": "scared",
+  "chain_words": [
+    {"word": "worried", "intensity": 1, "translation": "занепокоєний", "nuance": "a slight feeling that something bad might happen"},
+    {"word": "afraid", "intensity": 2, "translation": "боязкий", "nuance": "feeling fear about something specific"},
+    {"word": "scared", "intensity": 3, "translation": "наляканий", "nuance": "general feeling of fear"},
+    {"word": "frightened", "intensity": 4, "translation": "переляканий", "nuance": "sudden and strong fear"},
+    {"word": "terrified", "intensity": 5, "translation": "охоплений жахом", "nuance": "extreme fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express fear but with different intensities, from a mild worry to extreme terror.",
+  "usage_notes": [
+    {"word1": "afraid", "word2": "scared", "difference": "'Afraid' is often used with a specific object or fear, such as 'afraid of dogs'; 'scared' is more general and emotional."}
+  ],
+  "translations": {
+    "worried": "занепокоєний",
+    "afraid": "боязкий",
+    "scared": "наляканий",
+    "frightened": "переляканий",
+    "terrified": "охоплений жахом"
+  }
+}
