@@ -1,0 +1,14 @@
+{
+  "trigger_word": "career",
+  "all_words": [
+    {"word": "promotion", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Promoção é uma etapa comum no desenvolvimento de uma carreira profissional."},
+    {"word": "interview", "is_associated": true, "association_type": "THEMATIC", "explanation": "A entrevista de emprego é uma etapa típica no início de uma carreira."},
+    {"word": "salary", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O salário é a remuneração que a pessoa recebe ao longo da carreira."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Vulcão não tem relação com o mundo profissional nem com carreira."},
+    {"word": "training", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Formação aparece com frequência em expressões como 'career training', por isso se associa à palavra."},
+    {"word": "recipe", "is_associated": false, "association_type": "NONE", "explanation": "Receita culinária pertence ao universo da cozinha e não se relaciona com carreira."}
+  ],
+  "correct_indices": [0, 1, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'career' falam de progresso, emprego e formação profissional, enquanto as demais pertencem a temas sem relação com o trabalho."
+}
