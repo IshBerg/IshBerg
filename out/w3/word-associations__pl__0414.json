@@ -1,0 +1,14 @@
+{
+  "trigger_word": "volunteer",
+  "all_words": [
+    {"word": "anchor", "is_associated": false, "association_type": "NONE", "explanation": "Kotwica jest związana z żeglugą, a nie z wolontariatem, więc nie ma tu bezpośredniego powiązania."},
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Działalność charytatywna polega na pomaganiu innym bez wynagrodzenia, dlatego bezpośrednio łączy się z wolontariatem."},
+    {"word": "pension", "is_associated": false, "association_type": "NONE", "explanation": "Emerytura dotyczy zabezpieczenia finansowego po zakończeniu pracy i nie ma związku z wolontariatem nastolatków."},
+    {"word": "community", "is_associated": true, "association_type": "THEMATIC", "explanation": "Społeczność to środowisko, w którym odbywa się wolontariat, więc słowo jest tematycznie powiązane."},
+    {"word": "donate", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Przekazywanie darowizn i pomoc innym są częścią idei wolontariatu, stąd to słowo znaczeniowo się z nim łączy."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktor jest maszyną rolniczą i nie ma żadnego związku z wolontariatem młodzieży."}
+  ],
+  "correct_indices": [1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'volunteer' wiąże się z pomocą, społecznością i darowiznami, natomiast pozostałe słowa należą do zupełnie innych dziedzin."
+}

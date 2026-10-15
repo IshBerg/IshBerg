@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "A", "T", "H", "Q", "W", "D", "B", "M"],
+    ["K", "J", "F", "L", "O", "P", "G", "V", "U"],
+    ["S", "N", "Y", "R", "D", "L", "K", "B", "S"],
+    ["Z", "C", "H", "O", "U", "T", "P", "W", "I"],
+    ["G", "D", "I", "X", "M", "Q", "F", "J", "C"],
+    ["L", "P", "V", "E", "K", "N", "W", "S", "D"],
+    ["Y", "B", "T", "K", "N", "Z", "L", "G", "H"],
+    ["M", "R", "Q", "X", "W", "C", "O", "D", "F"],
+    ["A", "J", "K", "P", "T", "U", "E", "Y", "Z"]
+  ],
+  "words_to_find": ["MATH", "MUSIC", "SCIENCE", "ART"],
+  "word_positions": [
+    {"word": "MATH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MUSIC", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SCIENCE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ART", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "School Subjects"
+}
