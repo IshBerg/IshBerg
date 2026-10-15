@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The children found three mice in the kitchen, so",
+  "correct_completion": "they called their mother.",
+  "full_sentence": "The children found three mice in the kitchen, so they called their mother.",
+  "acceptable_variants": ["they told their dad.", "they climbed onto a chair."],
+  "options": [
+    {"text": "they were not hungry.", "is_correct": false, "why_wrong": "'So' introduces a result of the first clause. Being hungry has no link to finding mice, so this option does not complete the logic."},
+    {"text": "the mice were very small.", "is_correct": false, "why_wrong": "This describes the mice but does not give the action or result expected after 'so'."},
+    {"text": "they called their mother.", "is_correct": true, "why_wrong": null},
+    {"text": "they ate three mouses.", "is_correct": false, "why_wrong": "The plural of 'mouse' is irregular: it is 'mice', not 'mouses'. The option is also not a logical result of finding mice."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' and the irregular plural 'mice'",
+  "connector": "so",
+  "explanation": "After 'so', the sentence gives the result of the situation in the first clause. Note that the plural of 'mouse' is irregular, so 'mice' is used instead of adding -s. Spanish speakers may expect a regular plural ending here, so this form needs to be memorised.",
+  "translation": "Los niños encontraron tres ratones en la cocina, así que llamaron a su madre."
+}
