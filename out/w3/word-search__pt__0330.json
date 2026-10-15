@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R", "O", "B", "O", "T", "X", "Q", "Z", "D"],
+    ["K", "W", "M", "F", "J", "G", "Y", "P", "R"],
+    ["V", "H", "S", "Q", "X", "K", "L", "N", "O"],
+    ["W", "T", "F", "Z", "B", "M", "J", "A", "N"],
+    ["C", "U", "D", "Y", "R", "K", "Q", "F", "E"],
+    ["Z", "H", "M", "G", "X", "W", "B", "J", "K"],
+    ["F", "K", "I", "V", "Q", "N", "T", "L", "D"],
+    ["G", "Y", "X", "P", "M", "S", "Q", "W", "Z"],
+    ["J", "Q", "D", "W", "L", "A", "S", "E", "R"]
+  ],
+  "words_to_find": ["ROBOT", "DRONE", "CHIP", "LASER"],
+  "word_positions": [
+    {"word": "ROBOT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DRONE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CHIP", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LASER", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Future Technology"
+}
