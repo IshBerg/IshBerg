@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many students studied hard,",
+  "correct_completion": "a few of them still failed the test.",
+  "full_sentence": "Although many students studied hard, a few of them still failed the test.",
+  "acceptable_variants": ["a few of them still did not pass.", "some of them still got low marks."],
+  "options": [
+    {"text": "so all of them passed easily.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast with the first clause."},
+    {"text": "all of them got top marks.", "is_correct": false, "why_wrong": "This continues the expected result of hard study instead of contrasting with it."},
+    {"text": "a few of them still failed the test.", "is_correct": true, "why_wrong": null},
+    {"text": "none of them wanted to study.", "is_correct": false, "why_wrong": "This contradicts the first clause, which says the students studied hard, so it is not a logical contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and quantifiers (many, a few)",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part of the sentence. The quantifier 'a few' contrasts with 'many' in the stem.",
+  "translation": "Embora muitos alunos tenham estudado muito, poucos deles ainda foram reprovados na prova."
+}
