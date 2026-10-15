@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While she was reading in the park,",
+  "correct_completion": "it suddenly started to rain.",
+  "full_sentence": "While she was reading in the park, it suddenly started to rain.",
+  "acceptable_variants": ["it started to rain.", "a dog ran past her."],
+  "options": [
+    {"text": "she was sleeping on the bench.", "is_correct": false, "why_wrong": "Both clauses would describe two ongoing actions at the same time. The main clause needs a sudden event that interrupts the action in progress."},
+    {"text": "she finished her book yesterday.", "is_correct": false, "why_wrong": "This is a past simple event, but 'yesterday' does not connect to the moment described by 'while'. The sentence needs an event happening during her reading."},
+    {"text": "it suddenly started to rain.", "is_correct": true, "why_wrong": null},
+    {"text": "the weather was very nice.", "is_correct": false, "why_wrong": "This describes background, but it is not a sudden event. After 'while' with the past continuous, the main clause usually gives an interrupting action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous with 'while' and past simple for an interrupting event",
+  "connector": "while",
+  "explanation": "'While' with the past continuous describes an action in progress. The main clause usually uses the past simple for a sudden event that interrupts that action. Portuguese speakers may find this pattern harder because Portuguese uses the imperfect and the preterite with different rules, so they may use the simple past in both clauses.",
+  "translation": "Enquanto ela lia no parque, de repente começou a chover."
+}
