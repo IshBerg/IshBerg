@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I forgot my keys, so",
+  "correct_completion": "I had to wait outside the house for an hour.",
+  "full_sentence": "Yesterday I forgot my keys, so I had to wait outside the house for an hour.",
+  "acceptable_variants": ["I climbed through the window.", "I called my brother to open the door."],
+  "options": [
+    {"text": "I wrote a long letter to my aunt.", "is_correct": false, "why_wrong": "This is an unrelated action. It does not show a result of forgetting the keys."},
+    {"text": "I went to bed early and slept well.", "is_correct": false, "why_wrong": "This does not follow from forgetting the keys. The connector 'so' needs a result of the first clause."},
+    {"text": "I had to wait outside the house for an hour.", "is_correct": true, "why_wrong": null},
+    {"text": "I bought a new pair of shoes.", "is_correct": false, "why_wrong": "This is a separate purchase with no link to the missing keys, so it does not complete the cause and effect."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple with 'so' to show a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that states the result of the first clause. Here the result of forgetting the keys is waiting outside the house, using the past simple form of 'have'.",
+  "translation": "Вчора я забув ключі, тому мені довелося годину чекати біля будинку."
+}
