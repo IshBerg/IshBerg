@@ -1,0 +1,20 @@
+{
+  "title": "Two Movie Reviews",
+  "text": "Sam watched a new film about a dog last night. He wrote a review on his blog. He said the story was funny and the actors were good. He gave the film three stars out of five.\n\nMaria read Sam's review on Monday. She does not like comedies, so she chose a different film. She watched a science film on Friday. She said the ending was surprising, and she wrote a review too.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How many stars did Sam give the film?", "options": ["Two", "Three", "Four", "Five"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What kind of film did Maria watch on Friday?", "options": ["a comedy", "a science film", "a cartoon", "a horror film"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why did Maria not watch Sam's film?", "options": ["She does not like comedies", "She was too busy to watch films", "She did not know about the film", "She did not like Sam"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How do you think Sam feels about the film?", "options": ["He enjoyed it, but not completely", "He hated it completely", "He did not watch it all", "He was angry about the actors"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "review", "translation": "recenzja", "definition": "a written opinion about a film, book, or place"},
+    {"word": "funny", "translation": "zabawny", "definition": "making you laugh"},
+    {"word": "actors", "translation": "aktorzy", "definition": "people who perform in films or plays"},
+    {"word": "ending", "translation": "zakończenie", "definition": "the last part of a story"}
+  ],
+  "paragraph_translations": [
+    "Sam obejrzał wczoraj wieczorem nowy film o psie. Napisał recenzję na swoim blogu. Powiedział, że historia była zabawna, a aktorzy dobrzy. Dał temu filmowi trzy gwiazdki na pięć.",
+    "Maria przeczytała recenzję Sama w poniedziałek. Nie lubi komedii, więc wybrała inny film. W piątek obejrzała film science fiction. Powiedziała, że zakończenie było zaskakujące, i też napisała recenzję."
+  ]
+}

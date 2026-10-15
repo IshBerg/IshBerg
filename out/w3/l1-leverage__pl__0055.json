@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ekspedient", "transliteration": "ekspedient", "meaning": "shop assistant"},
+    {"word": "dentysta", "transliteration": "dentysta", "meaning": "dentist"},
+    {"word": "kucharz", "transliteration": "kucharz", "meaning": "cook"},
+    {"word": "kierowca", "transliteration": "kierowca", "meaning": "driver"}
+  ],
+  "english_words": ["dentist", "cook", "shop assistant", "driver"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "The Polish word looks similar to an English word, but its meaning is different. Learners should check the meaning rather than translate the form directly.",
+  "false_friend_warning": "The Polish word ekspedient looks like the English word expedient, which means useful or convenient, but it means a shop assistant."
+}

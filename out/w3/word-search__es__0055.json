@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "A", "R", "E", "E", "R", "K", "T", "W", "P"],
+    ["H", "J", "L", "Q", "Z", "B", "M", "V", "Y", "R"],
+    ["O", "D", "N", "A", "C", "F", "G", "U", "T", "O"],
+    ["F", "R", "K", "W", "S", "P", "L", "D", "H", "M"],
+    ["R", "W", "I", "Q", "X", "Z", "K", "J", "V", "I"],
+    ["E", "A", "Y", "G", "C", "N", "P", "X", "Q", "S"],
+    ["F", "T", "B", "L", "I", "D", "U", "M", "Z", "E"],
+    ["F", "O", "K", "V", "S", "N", "R", "Y", "W", "A"],
+    ["U", "I", "P", "C", "E", "L", "H", "J", "D", "G"],
+    ["S", "T", "Q", "X", "R", "E", "D", "R", "O", "B"]
+  ],
+  "words_to_find": ["CAREER", "PROMISE", "ORIGIN", "BORDER", "SUFFER"],
+  "word_positions": [
+    {"word": "CAREER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PROMISE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "ORIGIN", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BORDER", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SUFFER", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}
