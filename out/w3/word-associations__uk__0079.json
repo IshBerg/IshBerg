@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ball",
+  "all_words": [
+    {"word": "kick", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово kick часто поєднується з ball у виразі kick a ball (вдарити м'яч), тому це колокація."},
+    {"word": "bed", "is_associated": false, "association_type": "NONE", "explanation": "Ліжко не пов'язане з м'ячем чи грою, тому воно не асоціюється з ball."},
+    {"word": "toy", "is_associated": true, "association_type": "SEMANTIC", "explanation": "М'яч є іграшкою, тому ці слова семантично пов'язані."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Хмара не має стосунку до м'яча чи іграшок, тому це слово не асоціюється з ним."},
+    {"word": "tall", "is_associated": true, "association_type": "PHONETIC", "explanation": "Слово tall римується з ball, тому воно фонетично пов'язане з ним."},
+    {"word": "game", "is_associated": true, "association_type": "THEMATIC", "explanation": "М'яч використовують під час гри, тому ці слова належать до однієї теми."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово ball асоціюється з іграми, іграшками, спортивними діями та римою tall, але не з побутовими речами, такими як ліжко."
+}
