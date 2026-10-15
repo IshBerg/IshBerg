@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I don't know what time",
+  "correct_completion": "the train leaves.",
+  "full_sentence": "I don't know what time the train leaves.",
+  "acceptable_variants": ["the last train arrives.", "the train departs."],
+  "options": [
+    {"text": "does the train leave?", "is_correct": false, "why_wrong": "Inside a clause like this, the question form is not used. The subject comes before the verb and the question word order and 'does' are removed."},
+    {"text": "the train leaves.", "is_correct": true, "why_wrong": null},
+    {"text": "the train to the city.", "is_correct": false, "why_wrong": "This gives a noun phrase but no verb, so the clause is incomplete and does not express the time of the train."},
+    {"text": "is the train leaving?", "is_correct": false, "why_wrong": "This keeps the question form of a direct question, which is incorrect after 'I don't know what time' because the clause must use statement word order."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with 'what time': statement word order after the question word",
+  "connector": "what time",
+  "explanation": "After 'I don't know what time', the clause keeps normal statement order, so the subject comes before the verb and no auxiliary is used. Learners whose first language uses flexible question order often keep the question form here, but in English the embedded clause must sound like a statement.",
+  "translation": "Não sei a que horas o trem parte."
+}

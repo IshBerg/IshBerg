@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"},
+    {"word": "farmácia", "transliteration": "farmacia", "meaning": "pharmacy"},
+    {"word": "estação", "transliteration": "estacao", "meaning": "station"},
+    {"word": "praça", "transliteration": "praca", "meaning": "square"}
+  ],
+  "english_words": ["square", "bookshop", "station", "pharmacy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Portuguese and English share many Latin-based words, so look-alike words are common. Some of these look-alikes point to a different place in town, which is why learners must check meaning rather than trust the spelling.",
+  "false_friend_warning": "The Portuguese word that looks like the English word 'library' actually means 'bookshop', so Portuguese speakers may wrongly translate it as 'library'."
+}
