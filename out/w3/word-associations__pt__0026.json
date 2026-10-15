@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "luggage", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A bagagem é transportada e despachada no aeroporto, por isso está diretamente ligada a ele."},
+    {"word": "bakery", "is_associated": false, "association_type": "NONE", "explanation": "A padaria é um estabelecimento comercial comum na cidade e não tem relação específica com o aeroporto."},
+    {"word": "runway", "is_associated": true, "association_type": "THEMATIC", "explanation": "A pista de decolagem e pouso faz parte da estrutura do aeroporto e pertence ao mesmo tema."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "O vulcão é um fenômeno geológico e não tem nenhuma ligação com a viagem aérea."},
+    {"word": "passport", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "O passaporte é exigido no controle de passaportes do aeroporto, por isso as duas palavras aparecem juntas com frequência."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "O piano é um instrumento musical e não tem qualquer relação com aeroportos ou viagens."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao aeroporto se referem a viagem, bagagem, pista e documentos; padaria, vulcão e piano não pertencem a esse contexto."
+}

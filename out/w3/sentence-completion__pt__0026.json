@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the report was published last year,",
+  "correct_completion": "its conclusions are still widely cited.",
+  "full_sentence": "Although the report was published last year, its conclusions are still widely cited.",
+  "acceptable_variants": ["its conclusions remain influential.", "researchers still refer to it."],
+  "options": [
+    {"text": "so the findings were ignored by everyone.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. 'Although' requires a clause that contrasts with the first part."},
+    {"text": "its conclusions are still widely cited.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was written in English.", "is_correct": false, "why_wrong": "This adds a neutral fact about language and does not set up a contrast with the first clause."},
+    {"text": "the authors were asked to present it at a conference.", "is_correct": false, "why_wrong": "This describes an event but does not express the contrast that 'although' introduces."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in passive reporting contexts",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the concession. Learners from languages that rely on word order or coordination may add a neutral detail instead of a contrasting statement.",
+  "translation": "Embora o relatório tenha sido publicado no ano passado, suas conclusões ainda são amplamente citadas."
+}
