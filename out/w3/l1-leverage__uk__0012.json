@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "телефон", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "музей", "transliteration": "muzei", "meaning": "museum"},
+    {"word": "проблема", "transliteration": "problema", "meaning": "problem"},
+    {"word": "інформація", "transliteration": "informatsiia", "meaning": "information"}
+  ],
+  "english_words": ["problem", "telephone", "information", "museum"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both the Ukrainian word (transliterated telefon) and the English word telephone come from the same Greek roots, so the spelling and sound stayed close. The same pattern holds for the other three pairs, which were borrowed through Latin or Greek.",
+  "false_friend_warning": null
+}

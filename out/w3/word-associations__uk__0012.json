@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "THEMATIC", "explanation": "Плита є основним предметом кухні, де готують їжу."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гори не пов'язані з кухнею ані змістом, ані звичним вживанням."},
+    {"word": "recipe", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Рецепт описує, як приготувати страву, тож він семантично пов'язаний із кухнею."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Пустеля є природним середовищем без жодного зв'язку з кухнею."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'kitchen sink' (кухонна мийка) є усталеним і часто вживається."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Міст не має жодного відношення до приготування їжі чи кухонного приладдя."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'kitchen' асоціюється з приладдям, стравами та процесом приготування їжі. Правильні слова належать до цієї тематики, а неправильні — ні."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the traffic,",
+  "correct_completion": "I would have left home earlier.",
+  "full_sentence": "If I had known about the traffic, I would have left home earlier.",
+  "acceptable_variants": ["I would have taken the train instead.", "I might have left home earlier."],
+  "options": [
+    {"text": "I will leave home earlier.", "is_correct": false, "why_wrong": "The future form 'will' does not fit an unreal past condition. The stem describes a past situation that did not happen, so the result needs 'would have' plus a past participle."},
+    {"text": "I would leave home earlier.", "is_correct": false, "why_wrong": "'Would leave' refers to a present or future hypothetical. The stem refers to the past, so 'would have left' is required."},
+    {"text": "I would have left home earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "I left home earlier yesterday.", "is_correct": false, "why_wrong": "The simple past describes an actual past event. It does not express the hypothetical result of an unreal condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional (unreal past): would have plus past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an unreal past situation. The if-clause uses the past perfect, and the main clause uses would have plus the past participle. Ukrainian speakers may be tempted to use a simple conditional form here, because Ukrainian marks the conditional with one particle attached to the past-tense verb in both clauses, so English requires a clearer split between the two forms.",
+  "translation": "Якби я знав про пробки на дорогах, я б вийшов з дому раніше."
+}
