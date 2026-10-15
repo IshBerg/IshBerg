@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If we want to make a salad,",
+  "correct_completion": "we need tomatoes and cucumbers.",
+  "full_sentence": "If we want to make a salad, we need tomatoes and cucumbers.",
+  "acceptable_variants": ["we have to buy some vegetables.", "we should go to the shop."],
+  "options": [
+    {"text": "we went to the cinema.", "is_correct": false, "why_wrong": "The past tense does not fit a present condition, and a trip to the cinema does not describe what a salad needs."},
+    {"text": "we need tomatoes and cucumbers.", "is_correct": true, "why_wrong": null},
+    {"text": "the shop is closed on Sundays.", "is_correct": false, "why_wrong": "This gives a fact about the shop, not the ingredients needed for the salad."},
+    {"text": "the salad was very tasty.", "is_correct": false, "why_wrong": "This describes a result that has already happened, not what the condition requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional with 'if' and a present result",
+  "connector": "if",
+  "explanation": "The stem uses 'if' with a present verb to describe a general condition. The main clause should give the present result of that condition, such as what is needed.",
+  "translation": "Jeśli chcemy zrobić sałatkę, potrzebujemy pomidorów i ogórków."
+}
