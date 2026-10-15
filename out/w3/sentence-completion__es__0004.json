@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been informed of the delay,",
+  "correct_completion": "the passengers returned to the waiting room.",
+  "full_sentence": "Having been informed of the delay, the passengers returned to the waiting room.",
+  "acceptable_variants": ["they returned to the waiting room.", "the passengers went back to the waiting room."],
+  "options": [
+    {"text": "the passengers returning to the waiting room.", "is_correct": false, "why_wrong": "This creates a fragment with no finite main verb, so the sentence is incomplete as a main clause."},
+    {"text": "the passengers were returning to the waiting room yesterday.", "is_correct": false, "why_wrong": "'Yesterday' conflicts with the perfect participle, which describes an action completed just before the main action."},
+    {"text": "the passengers returned to the waiting room.", "is_correct": true, "why_wrong": null},
+    {"text": "to return to the waiting room.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the main verb of the sentence, so the passengers' action is not expressed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect passive participle clauses",
+  "connector": "Having been",
+  "explanation": "The perfect passive participle 'Having been informed' expresses an action completed before the main verb. English then requires a finished main clause with a finite verb after the comma. Speakers may be tempted to use a gerund or a progressive form here, but the main verb must be in the simple past to show the sequence of events.",
+  "translation": "Habiendo sido informados del retraso, los pasajeros regresaron a la sala de espera."
+}
