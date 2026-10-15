@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied for weeks,",
+  "correct_completion": "she still felt unprepared for the exam.",
+  "full_sentence": "Despite having studied for weeks, she still felt unprepared for the exam.",
+  "acceptable_variants": ["she still struggled with some questions.", "she nevertheless felt anxious before the test."],
+  "options": [
+    {"text": "so she passed the exam easily.", "is_correct": false, "why_wrong": "'So' expresses a result that follows naturally, but 'despite' requires an outcome that contrasts with the preparation."},
+    {"text": "she has studied a lot of history.", "is_correct": false, "why_wrong": "This adds a fact about her studies but does not provide the contrasting outcome that 'despite' requires."},
+    {"text": "she still felt unprepared for the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "because the exam was easy.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' followed by a gerund phrase, with a contrasting main clause",
+  "connector": "despite",
+  "explanation": "'Despite' is followed by a noun phrase or a gerund, not by a full clause, and the main clause must show an outcome that contrasts with the expected result. Learners often confuse 'despite' with 'although' because the two connectors follow different grammatical patterns, so they may add a full clause after 'despite'.",
+  "translation": "Mimo że uczyła się przez tygodnie, nadal czuła się nieprzygotowana do egzaminu."
+}
