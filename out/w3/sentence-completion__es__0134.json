@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If she had studied harder,",
+  "correct_completion": "she would have passed the exam.",
+  "full_sentence": "If she had studied harder, she would have passed the exam.",
+  "acceptable_variants": ["she would have got a better grade.", "she would have succeeded."],
+  "options": [
+    {"text": "she will pass the exam next year.", "is_correct": false, "why_wrong": "'Will' points to a real future plan. The third conditional describes an imagined past situation and its imagined past result."},
+    {"text": "she would pass the exam now.", "is_correct": false, "why_wrong": "This mixes a past condition with a present result. The third conditional needs 'would have' plus a past participle for the result."},
+    {"text": "she has passed the exam already.", "is_correct": false, "why_wrong": "The present perfect describes a real completed action, not an imagined past result that did not happen."},
+    {"text": "she would have passed the exam.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: 'if' with past perfect, followed by 'would have' and a past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined past result. The if-clause uses the past perfect, and the result clause uses would have plus the past participle.",
+  "translation": "Si ella hubiera estudiado más, habría aprobado el examen."
+}
