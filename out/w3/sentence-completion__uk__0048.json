@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although my brother is only six years old,",
+  "correct_completion": "he can swim very well.",
+  "full_sentence": "Although my brother is only six years old, he can swim very well.",
+  "acceptable_variants": ["he can already ride a bike.", "he is able to swim very well."],
+  "options": [
+    {"text": "he can to swim very well.", "is_correct": false, "why_wrong": "After 'can', we use the base verb without 'to', so 'can swim' is correct."},
+    {"text": "he cans swim very well.", "is_correct": false, "why_wrong": "The modal verb 'can' never adds an -s, even with 'he' or 'she'."},
+    {"text": "he can swim very well.", "is_correct": true, "why_wrong": null},
+    {"text": "he can swimming very well.", "is_correct": false, "why_wrong": "After 'can', we use the base verb, not the -ing form."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Can for ability, with 'although' showing contrast",
+  "connector": "although",
+  "explanation": "After 'although', the clause shows a contrast with the young age. The modal verb 'can' is followed by the base form of the verb.",
+  "translation": "Хоча мій брат має лише шість років, він дуже добре плаває."
+}
