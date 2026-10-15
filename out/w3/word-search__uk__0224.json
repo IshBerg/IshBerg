@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["W", "E", "L", "L", "K", "Q", "H"],
+    ["B", "R", "T", "U", "Z", "X", "I"],
+    ["C", "V", "N", "M", "D", "J", "G"],
+    ["S", "P", "Q", "W", "Y", "K", "H"],
+    ["E", "R", "L", "O", "N", "G", "V"],
+    ["L", "B", "M", "D", "C", "Z", "J"],
+    ["F", "A", "S", "T", "R", "K", "Y"]
+  ],
+  "words_to_find": ["WELL", "HIGH", "FAST", "SELF", "LONG"],
+  "word_positions": [
+    {"word": "WELL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HIGH", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "FAST", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SELF", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "LONG", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Compound Adjectives"
+}
