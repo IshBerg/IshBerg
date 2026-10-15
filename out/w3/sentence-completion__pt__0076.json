@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When we arrived at the station, the train",
+  "correct_completion": "was already gone.",
+  "full_sentence": "When we arrived at the station, the train was already gone.",
+  "acceptable_variants": ["had already left.", "was no longer at the platform."],
+  "options": [
+    {"text": "were very happy.", "is_correct": false, "why_wrong": "'Were' does not agree with the singular subject 'the train'. Use 'was' with a singular subject."},
+    {"text": "was on the table.", "is_correct": false, "why_wrong": "This is grammatically correct but illogical, because a train cannot be on a table at a station."},
+    {"text": "is a very big animal.", "is_correct": false, "why_wrong": "This uses the wrong tense for the past story and the meaning does not fit a train at a station."},
+    {"text": "was already gone.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple 'was' with a singular subject",
+  "connector": "when",
+  "explanation": "The stem describes an event in the past, so the completion needs a past simple form that agrees with the singular subject. Learners often confuse the singular and plural forms of 'was' and 'were', so check the subject first.",
+  "translation": "Quando chegamos à estação, o trem já tinha ido embora."
+}
