@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ledger",
+  "all_words": [
+    {"word": "audit", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Audyt to formalne sprawdzenie ksiąg rachunkowych, czyli właśnie ledgerów, przeprowadzane przez niezależnego biegłego."},
+    {"word": "debit", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Debet to zapis po jednej ze stron księgi (ledger), obok kredytu, czyli drugiej strony wpisu."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Lodowiec to pojęcie z geografii i nie ma żadnego związku z księgowością ani z ledgerem."},
+    {"word": "balance", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ledger balance (saldo księgi) to utarte połączenie w języku finansowym, więc słowo balance często towarzyszy ledgerowi."},
+    {"word": "tapestry", "is_associated": false, "association_type": "NONE", "explanation": "Gobelin to dzieło sztuki tkanej i nie należy do słownictwa księgowego, więc nie jest powiązany z ledgerem."},
+    {"word": "wrench", "is_associated": false, "association_type": "NONE", "explanation": "Klucz płaski to narzędzie mechaniczne, bez związku z finansami czy księgowością."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Ledger to księga rachunkowa, więc powiązane słowa pochodzą z języka księgowości i finansów: audit, debit oraz zwrot kolokacyjny balance."
+}
