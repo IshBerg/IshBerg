@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "батон", "transliteration": "baton", "meaning": "loaf of white bread"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, up to date"}
+  ],
+  "english_words": ["factory", "relevant", "shop", "loaf"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Ukrainian and English forms come from related sources, so the spelling looks close, but their meanings drifted apart over time.",
+  "false_friend_warning": "Watch out: the Ukrainian word 'mahazyn' looks like the English word 'magazine', but it means a shop, while 'magazine' means a printed periodical such as a monthly publication."
+}
