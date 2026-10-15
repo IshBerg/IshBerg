@@ -1,0 +1,14 @@
+{
+  "trigger_word": "lion",
+  "all_words": [
+    {"word": "jungle", "is_associated": true, "association_type": "THEMATIC", "explanation": "Джунглі є природним середовищем проживання лева, тому це слово тематично пов'язане з ним."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець не має жодного зв'язку з дикими тваринами."},
+    {"word": "roar", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Лев реве, тому слово «рев» часто поєднується з цією твариною."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Хліб є їжею і не пов'язаний із дикою природою."},
+    {"word": "king", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Лева часто називають царем звірів, тому слово «король» семантично пов'язане з ним."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Вікно є предметом побуту і не має зв'язку з левом."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з левом, стосуються його природного середовища, звуків і символічного статусу, а предмети побуту з ним не пов'язані."
+}

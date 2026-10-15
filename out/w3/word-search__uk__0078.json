@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "W", "I", "M", "K", "B", "Q", "T", "R"],
+    ["D", "A", "N", "E", "P", "U", "Z", "X", "V"],
+    ["B", "R", "T", "N", "Q", "J", "D", "F", "C"],
+    ["M", "L", "Z", "P", "W", "E", "K", "V", "H"],
+    ["R", "U", "D", "N", "Q", "Y", "X", "B", "E"],
+    ["K", "P", "Z", "F", "H", "O", "L", "W", "S"],
+    ["V", "J", "L", "Q", "N", "G", "Z", "D", "S"],
+    ["T", "O", "M", "R", "E", "A", "X", "P", "Y"],
+    ["G", "K", "W", "B", "U", "D", "N", "Q", "J"]
+  ],
+  "words_to_find": ["SWIM", "GOLF", "CHESS", "YOGA"],
+  "word_positions": [
+    {"word": "SWIM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GOLF", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "CHESS", "start_row": 2, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "YOGA", "start_row": 4, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Hobbies and Sports"
+}
