@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I wanted to go to the park, but",
+  "correct_completion": "it was raining.",
+  "full_sentence": "I wanted to go to the park, but it was raining.",
+  "acceptable_variants": ["the park was closed.", "I stayed at home."],
+  "options": [
+    {"text": "I went to the park with my friend.", "is_correct": false, "why_wrong": "This continues the same idea without any contrast. 'But' needs a clause that shows the opposite of what the speaker wanted."},
+    {"text": "so I went to the park.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. Use 'but' here to show that something stopped the plan."},
+    {"text": "it was raining.", "is_correct": true, "why_wrong": null},
+    {"text": "and I like parks.", "is_correct": false, "why_wrong": "'And' adds more information but does not show contrast. This clause does not explain why the plan did not happen."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "'But' introduces a contrast with the wish in the first part of the sentence, so we need a clause that gives the obstacle. Ukrainian speakers sometimes choose a simple result link here because their first language often uses one connector for both cause and contrast.",
+  "translation": "Я хотів піти в парк, але йшов дощ."
+}

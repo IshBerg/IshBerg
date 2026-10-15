@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "I", "L", "I", "N", "G", "U", "A", "L", "T"],
+    ["X", "Q", "P", "K", "Z", "J", "V", "W", "H", "R"],
+    ["D", "M", "C", "O", "B", "W", "Y", "F", "K", "A"],
+    ["I", "H", "E", "Q", "U", "Z", "P", "X", "V", "N"],
+    ["A", "G", "L", "O", "S", "S", "A", "R", "Y", "S"],
+    ["L", "J", "K", "W", "B", "F", "H", "C", "M", "L"],
+    ["O", "R", "Z", "D", "Q", "V", "Y", "P", "X", "A"],
+    ["G", "S", "K", "M", "W", "H", "C", "B", "F", "T"],
+    ["U", "Z", "Q", "P", "I", "D", "K", "X", "J", "E"],
+    ["E", "A", "V", "C", "T", "N", "E", "U", "L", "F"]
+  ],
+  "words_to_find": ["BILINGUAL", "TRANSLATE", "DIALOGUE", "GLOSSARY", "FLUENT"],
+  "word_positions": [
+    {"word": "BILINGUAL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRANSLATE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "DIALOGUE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "GLOSSARY", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "FLUENT", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Facilitating Multilingual Discourse"
+}
