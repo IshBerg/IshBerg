@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "A", "T", "X", "Q", "Z", "K", "M", "J", "G"],
+    ["R", "B", "L", "F", "W", "S", "V", "Y", "O", "Q"],
+    ["U", "H", "K", "N", "D", "Z", "X", "A", "W", "L"],
+    ["B", "M", "O", "J", "F", "Q", "T", "V", "R", "G"],
+    ["K", "W", "Y", "R", "L", "C", "N", "X", "U", "I"],
+    ["Z", "V", "B", "M", "S", "D", "H", "J", "Q", "P"],
+    ["F", "L", "W", "T", "Y", "E", "K", "V", "N", "X"],
+    ["P", "S", "G", "K", "L", "Y", "U", "B", "C", "M"],
+    ["H", "W", "J", "F", "Q", "T", "R", "E", "Z", "A"],
+    ["Y", "N", "V", "U", "C", "K", "P", "G", "O", "D"]
+  ],
+  "words_to_find": ["CAT", "DOG", "HORSE", "PIG", "GOAT"],
+  "word_positions": [
+    {"word": "CAT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DOG", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "HORSE", "start_row": 2, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "PIG", "start_row": 5, "start_col": 9, "direction": "VERTICAL_UP"},
+    {"word": "GOAT", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"}
+  ],
+  "topic": "Pets and Farm Animals"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee really needed",
+  "correct_completion": "was a clear budget and a realistic timeline.",
+  "full_sentence": "What the committee really needed was a clear budget and a realistic timeline.",
+  "acceptable_variants": ["what it needed was a clear budget.", "what mattered most was a realistic timeline."],
+  "options": [
+    {"text": "they often ignored the budget.", "is_correct": false, "why_wrong": "This is a complete clause with its own subject and verb, so it cannot follow the 'what' clause without a linking verb such as 'was'."},
+    {"text": "a clear budget and a realistic timeline.", "is_correct": false, "why_wrong": "A noun phrase without a verb cannot complete a pseudo-cleft sentence; the structure needs 'was' or 'is' before the focus."},
+    {"text": "was a clear budget and a realistic timeline.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee's budget was approved.", "is_correct": false, "why_wrong": "This is a complete clause that describes an event, but it does not tell us what the committee needed, so it does not complete the 'what' structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Pseudo-cleft (wh-cleft) sentences introduced by 'what'",
+  "connector": "what",
+  "explanation": "A 'what' clause followed by a form of 'be' places the focus on the information that comes after the verb. Polish speakers often use a word order that puts the focus at the start of the sentence, so they may be tempted to omit the linking verb, but English needs 'was' or 'is' to link the two parts.",
+  "translation": "Czego komisja naprawdę potrzebowała, to przejrzysty budżet i realistyczny harmonogram."
+}
