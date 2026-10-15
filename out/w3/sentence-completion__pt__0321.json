@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The grass is wet this morning, so it must have",
+  "correct_completion": "rained during the night.",
+  "full_sentence": "The grass is wet this morning, so it must have rained during the night.",
+  "acceptable_variants": ["rained heavily during the night.", "been raining during the night."],
+  "options": [
+    {"text": "rains during the night.", "is_correct": false, "why_wrong": "'Must have' is followed by a past participle, so the present simple 'rains' cannot follow it."},
+    {"text": "to rain during the night.", "is_correct": false, "why_wrong": "'Must have' is followed directly by a past participle, not by an infinitive with 'to'."},
+    {"text": "rained during the night.", "is_correct": true, "why_wrong": null},
+    {"text": "rain during the night.", "is_correct": false, "why_wrong": "The base form 'rain' does not express a past deduction. After 'must have' the verb needs the past participle 'rained'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal perfect for past deduction: must have + past participle",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a logical conclusion drawn from the wet grass. 'Must have' plus a past participle shows that the speaker is almost certain about a past event. Learners whose first language has no separate modal perfect structure often use a simple past or a present form here, so this pattern needs focused practice.",
+  "translation": "A grama está molhada esta manhã, então deve ter chovido durante a noite."
+}
