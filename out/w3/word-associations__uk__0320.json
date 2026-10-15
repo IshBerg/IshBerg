@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pun",
+  "all_words": [
+    {"word": "ambiguity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Неоднозначність є смисловою основою каламбуру, адже одне слово або фраза мають два можливі значення."},
+    {"word": "joke", "is_associated": true, "association_type": "THEMATIC", "explanation": "Жарт тематично пов'язаний із каламбуром, оскільки каламбур є різновидом гумору."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик не має жодного зв'язку з каламбурами ні за змістом, ні за темою, ні в усталених словосполученнях."},
+    {"word": "homophone", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Омофон — слово, яке звучить так само, як інше, але має інше значення; на цьому часто будується каламбур."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим не пов'язаний із каламбурами ні за значенням, ні за темою, ні в усталених англійських словосполученнях."},
+    {"word": "groan", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'groan at a pun' (стогнати від каламбуру) є усталеним в англійській мові і описує типову реакцію на каламбур."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з pun, стосуються його смислової природи (ambiguity, homophone), гумористичного контексту (joke) або усталеної реакції на нього (groan); решта слів належать до зовсім інших сфер."
+}
