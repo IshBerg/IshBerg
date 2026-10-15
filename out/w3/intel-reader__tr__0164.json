@@ -1,0 +1,20 @@
+{
+  "title": "A Request for a Meeting",
+  "text": "Dear Mr. Brown, I am writing to ask for a meeting about our new project. Could we meet next Tuesday at 10 a.m.? I would be happy to come to your office.\n\nPlease let me know if this time is good for you. If Tuesday does not work, I can also meet on Thursday afternoon. Thank you for your time. I look forward to hearing from you.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "When does the writer want to meet Mr. Brown?", "options": ["Next Tuesday at 10 a.m.", "Next Friday at noon", "Tomorrow at 5 p.m.", "Next Monday at 9 a.m."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "According to paragraph two, what can the writer do if Tuesday does not work?", "options": ["Meet on Thursday afternoon", "Send the project by email", "Cancel the project", "Call the manager"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What is the writer's relationship to Mr. Brown most likely?", "options": ["A business colleague or client", "A close family member", "A school friend", "A neighbour"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does the writer say 'I look forward to hearing from you'?", "options": ["To politely ask for a reply", "To say goodbye for good", "To complain about a late meeting", "To ask for money"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "project", "translation": "proje", "definition": "a planned piece of work that has a clear goal"},
+    {"word": "meeting", "translation": "toplantı", "definition": "an event where people come together to discuss something"},
+    {"word": "office", "translation": "ofis", "definition": "a room or building where people do their work"},
+    {"word": "afternoon", "translation": "öğleden sonra", "definition": "the part of the day between noon and evening"}
+  ],
+  "paragraph_translations": [
+    "Sayın Bay Brown, yeni projemiz hakkında bir toplantı yapmak için yazıyorum. Gelecek salı günü saat 10.00'da görüşebilir miyiz? Ofisinize gelmekten memnuniyet duyarım.",
+    "Bu zamanın sizin için uygun olup olmadığını lütfen bana bildirin. Salı günü olmazsa, perşembe öğleden sonra da görüşebilirim. Zaman ayırdığınız için teşekkür ederim. Yanıtınızı bekliyorum."
+  ]
+}

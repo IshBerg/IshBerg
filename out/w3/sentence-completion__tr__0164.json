@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I hope",
+  "correct_completion": "to finish the report by Friday.",
+  "full_sentence": "I hope to finish the report by Friday.",
+  "acceptable_variants": ["to submit the report on time.", "to complete the draft by Friday."],
+  "options": [
+    {"text": "finishing the report by Friday.", "is_correct": false, "why_wrong": "'Hope' is followed by a to-infinitive, not a gerund (-ing form)."},
+    {"text": "to finish the report by Friday.", "is_correct": true, "why_wrong": null},
+    {"text": "finish the report by Friday.", "is_correct": false, "why_wrong": "A bare infinitive without 'to' is ungrammatical after 'hope'."},
+    {"text": "I am finishing the report by Friday.", "is_correct": false, "why_wrong": "The stem already contains the verb 'hope', so a second finite verb cannot follow it directly."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbs followed by infinitives: hope + to-infinitive",
+  "connector": "hope",
+  "explanation": "The verb 'hope' is followed by a to-infinitive. Learners may expect a gerund here, because many verbs of wanting and planning follow a different pattern, so the to-infinitive after 'hope' must be learned as a fixed pattern.",
+  "translation": "Umarım raporu Cuma gününe kadar bitirebilirim."
+}
