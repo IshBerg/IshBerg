@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "park", "transliteration": "park", "meaning": "park"},
+    {"word": "piknik", "transliteration": "piknik", "meaning": "picnic"},
+    {"word": "kamp", "transliteration": "kamp", "meaning": "camp"},
+    {"word": "sezon", "transliteration": "sezon", "meaning": "season"}
+  ],
+  "english_words": ["season", "camp", "park", "picnic"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words were borrowed from English into Turkish, so the forms stayed close to the English originals and the meanings match.",
+  "false_friend_warning": null
+}
