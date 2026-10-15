@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although he had studied hard,",
+  "correct_completion": "he still failed the exam.",
+  "full_sentence": "Although he had studied hard, he still failed the exam.",
+  "acceptable_variants": ["he still did not pass the exam.", "he got a low score anyway."],
+  "options": [
+    {"text": "so he passed the exam easily.", "is_correct": false, "why_wrong": "'So' expresses a result, which does not match the contrast introduced by 'although'."},
+    {"text": "because the exam was easy.", "is_correct": false, "why_wrong": "'Because' gives a reason, but the sentence needs a contrast after 'although'."},
+    {"text": "he still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "he had also bought a new book.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not complete the contrast expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a result that goes against what we expect from the first clause. Learners often add a 'so' or 'because' clause by mistake, which signals cause instead of contrast.",
+  "translation": "Хоча він дуже старанно вчився, він все одно провалив іспит."
+}

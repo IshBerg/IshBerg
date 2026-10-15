@@ -1,0 +1,14 @@
+{
+  "trigger_word": "billboard",
+  "all_words": [
+    {"word": "poster", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Постер і білборд обидва є великими рекламними зображеннями, які використовують для показу реклами."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Скрипка є музичним інструментом і не має жодного відношення до реклами на вулицях."},
+    {"word": "highway", "is_associated": true, "association_type": "THEMATIC", "explanation": "Білборди часто стоять уздовж автомагістралей, щоб водії бачили рекламу з дороги."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик є природним утворенням із криги і не пов'язаний з рекламними конструкціями."},
+    {"word": "advert", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Advert є скороченням від advertisement, тобто рекламою, яку часто показують на білбордах."},
+    {"word": "oven", "is_associated": false, "association_type": "NONE", "explanation": "Духовка є кухонним приладом і не пов'язана з рекламою чи вуличними конструкціями."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з білбордом, належать до світу зовнішньої реклами: постер, автомагістраль і реклама. Скрипка, льодовик і духовка до неї не належать."
+}

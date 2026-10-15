@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["A", "I", "R", "P", "O", "R", "T", "M", "W", "Q"],
+    ["B", "N", "D", "K", "G", "Y", "U", "E", "F", "L"],
+    ["C", "P", "J", "W", "V", "X", "D", "B", "S", "H"],
+    ["N", "M", "A", "Q", "R", "F", "I", "L", "K", "O"],
+    ["G", "D", "Y", "S", "U", "V", "W", "N", "J", "T"],
+    ["X", "B", "F", "H", "S", "Q", "Z", "K", "R", "E"],
+    ["M", "V", "Y", "G", "C", "P", "U", "D", "H", "L"],
+    ["K", "Y", "W", "B", "E", "F", "O", "T", "U", "A"],
+    ["J", "G", "N", "L", "Z", "Y", "X", "R", "E", "D"],
+    ["T", "E", "K", "C", "I", "T", "F", "W", "T", "Q"]
+  ],
+  "words_to_find": ["AIRPORT", "PASSPORT", "HOTEL", "TICKET"],
+  "word_positions": [
+    {"word": "AIRPORT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PASSPORT", "start_row": 2, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "HOTEL", "start_row": 2, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "TICKET", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Travel Experiences"
+}
