@@ -1,0 +1,14 @@
+{
+  "trigger_word": "cow",
+  "all_words": [
+    {"word": "milk", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Cow' ve 'milk' sık sık birlikte kullanılır, çünkü inek süt verir (cow's milk = inek sütü)."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "Bilgisayarın ineklerle bir ilgisi yoktur, çiftlik hayvanlarıyla bağlantılı değildir."},
+    {"word": "farm", "is_associated": true, "association_type": "THEMATIC", "explanation": "İnekler genellikle çiftlikte yaşar, bu yüzden konu olarak birbirleriyle bağlantılıdırlar."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Ayakkabının ineğle bir bağlantısı yoktur."},
+    {"word": "grass", "is_associated": true, "association_type": "THEMATIC", "explanation": "İnekler çimen yer, bu yüzden 'grass' konuyla ilgilidir."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kalemin ineklerle ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Sığır (cow) kelimesiyle ilgili olanlar süt, çiftlik ve çimen gibi inek hayatına ait kelimelerdir; bilgisayar, ayakkabı ve kalem ise ilgisizdir."
+}
