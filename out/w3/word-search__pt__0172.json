@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "H", "R", "A", "S", "E", "I"],
+    ["Y", "K", "W", "Z", "T", "G", "D"],
+    ["C", "L", "A", "U", "S", "E", "I"],
+    ["F", "J", "Q", "X", "V", "K", "O"],
+    ["Z", "P", "H", "W", "E", "Y", "M"],
+    ["N", "O", "U", "N", "R", "J", "T"],
+    ["L", "M", "D", "F", "B", "Q", "S"]
+  ],
+  "words_to_find": ["PHRASE", "IDIOM", "CLAUSE", "NOUN", "VERB"],
+  "word_positions": [
+    {"word": "PHRASE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IDIOM", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "CLAUSE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NOUN", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VERB", "start_row": 3, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}
