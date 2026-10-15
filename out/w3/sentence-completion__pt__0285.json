@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you cross the road,",
+  "correct_completion": "look left and right.",
+  "full_sentence": "Before you cross the road, look left and right.",
+  "acceptable_variants": ["stop and wait for the light.", "use the crosswalk."],
+  "options": [
+    {"text": "you can sleep here.", "is_correct": false, "why_wrong": "This is grammatical, but sleeping in the road does not follow logically from 'before you cross'."},
+    {"text": "buy some bread.", "is_correct": false, "why_wrong": "This is a clear imperative, but it has no connection to crossing the road."},
+    {"text": "look left and right.", "is_correct": true, "why_wrong": null},
+    {"text": "close the door, please.", "is_correct": false, "why_wrong": "This is an imperative with 'please', but it describes an unrelated action and does not fit the context of crossing the road."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Imperatives (base form of the verb) after the connector 'before'",
+  "connector": "before",
+  "explanation": "After 'before', the main clause gives an instruction that should happen first in logical order. Imperatives use the base form of the verb with no subject. Portuguese speakers sometimes add a subject or change the verb form after the connector, but English imperatives never include a subject.",
+  "translation": "Antes de atravessar a rua, olhe para a esquerda e para a direita."
+}

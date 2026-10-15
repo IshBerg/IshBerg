@@ -1,0 +1,14 @@
+{
+  "trigger_word": "surgeon",
+  "all_words": [
+    {"word": "scalpel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bisturi é o instrumento cirúrgico principal usado pelo cirurgião, por isso está semanticamente ligado ao termo."},
+    {"word": "operation", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'perform an operation' é uma colocação típica da medicina, por isso a palavra se liga ao cirurgião de forma colocacional."},
+    {"word": "scrub", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Scrub in' significa preparar-se para entrar na sala de cirurgia, uma colocação específica da prática cirúrgica."},
+    {"word": "rudder", "is_associated": false, "association_type": "NONE", "explanation": "Leme é um termo da navegação e não tem relação com a cirurgia."},
+    {"word": "lettuce", "is_associated": false, "association_type": "NONE", "explanation": "Alface é um vegetal sem qualquer ligação com a medicina ou a cirurgia."},
+    {"word": "anvil", "is_associated": false, "association_type": "NONE", "explanation": "Bigorna é uma ferramenta de ferreiro e não se relaciona com o trabalho cirúrgico."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'surgeon' associa-se a instrumentos, procedimentos e práticas da sala de cirurgia; palavras de outras áreas, como náutica, culinária ou ofícios manuais, não formam associações."
+}
