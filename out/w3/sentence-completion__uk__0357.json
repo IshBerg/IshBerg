@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the author presents a compelling case for reform,",
+  "correct_completion": "several of her claims remain insufficiently supported by evidence.",
+  "full_sentence": "Although the author presents a compelling case for reform, several of her claims remain insufficiently supported by evidence.",
+  "acceptable_variants": ["some of her key arguments still lack solid evidence.", "a number of her points are still open to serious doubt."],
+  "options": [
+    {"text": "so her argument is entirely convincing.", "is_correct": false, "why_wrong": "'Although' introduces contrast, so the completion must go against the first clause. 'So' signals a logical result that agrees with the praise, which breaks the concessive structure."},
+    {"text": "the reform would cost a great deal of money.", "is_correct": false, "why_wrong": "This adds a new point about cost but does not contrast with the strength of the case, so 'although' has no contrast to mark."},
+    {"text": "several of her claims remain insufficiently supported by evidence.", "is_correct": true, "why_wrong": null},
+    {"text": "she has organized the essay into three parts.", "is_correct": false, "why_wrong": "This describes the essay's structure, which is unrelated to the contrast that 'although' sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that contrasts with the strong case described in the first part. The correct option names a limitation, while the other options either show a result or add unrelated information. Ukrainian speakers sometimes add a contrast word such as 'but' after 'although', which creates a double contrast and is incorrect in English.",
+  "translation": "Хоча авторка переконливо обґрунтовує потребу в реформі, кілька її тверджень досі недостатньо підкріплені доказами."
+}

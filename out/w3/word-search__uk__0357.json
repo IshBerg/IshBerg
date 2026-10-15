@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R", "E", "P", "O", "R", "T", "E", "R"],
+    ["X", "B", "K", "L", "Q", "J", "W", "Z"],
+    ["N", "G", "L", "H", "T", "P", "D", "C"],
+    ["E", "K", "B", "Q", "J", "V", "F", "A"],
+    ["W", "Z", "V", "I", "D", "E", "O", "M"],
+    ["S", "K", "P", "L", "H", "X", "Q", "E"],
+    ["Q", "W", "T", "N", "B", "G", "K", "R"],
+    ["J", "Z", "S", "T", "O", "R", "Y", "A"]
+  ],
+  "words_to_find": ["REPORTER", "NEWS", "STORY", "CAMERA", "VIDEO"],
+  "word_positions": [
+    {"word": "REPORTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NEWS", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "STORY", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "CAMERA", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "VIDEO", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Reporting News"
+}
