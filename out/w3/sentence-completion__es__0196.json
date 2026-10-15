@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been better informed,",
+  "correct_completion": "the proposal would almost certainly have been rejected.",
+  "full_sentence": "Had the committee been better informed, the proposal would almost certainly have been rejected.",
+  "acceptable_variants": ["the proposal would probably have been turned down.", "it would have been voted down."],
+  "options": [
+    {"text": "the proposal would be rejected yesterday.", "is_correct": false, "why_wrong": "'Yesterday' conflicts with the present-tense verb form, and the structure does not express a hypothetical past result."},
+    {"text": "they would reject the proposal now.", "is_correct": false, "why_wrong": "The present conditional 'now' does not match the past condition in the inverted if-clause, which refers to a hypothetical past situation."},
+    {"text": "the proposal would almost certainly have been rejected.", "is_correct": true, "why_wrong": null},
+    {"text": "they had rejected the proposal before.", "is_correct": false, "why_wrong": "The past perfect describes a completed earlier event, not the hypothetical result of the condition given in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and a past participle in the main clause",
+  "connector": "had",
+  "explanation": "The stem uses an inverted third conditional, so the main clause must use 'would have' followed by a past participle to describe an imagined past outcome. Options that use present or future forms do not match this structure. Learners often transfer sentence order and tense choices too literally from their first language, so they should check the auxiliary and the participle carefully.",
+  "translation": "Si el comité hubiera estado mejor informado, la propuesta casi con seguridad habría sido rechazada."
+}
