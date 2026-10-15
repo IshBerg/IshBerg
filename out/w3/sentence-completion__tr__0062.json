@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is raining now,",
+  "correct_completion": "so we are taking our umbrellas.",
+  "full_sentence": "It is raining now, so we are taking our umbrellas.",
+  "acceptable_variants": ["so we are wearing our raincoats.", "so we are carrying umbrellas with us."],
+  "options": [
+    {"text": "the sun is shining brightly.", "is_correct": false, "why_wrong": "This contradicts the stem, which says it is raining. 'So' needs a logical result of the rain."},
+    {"text": "we were sleeping at noon.", "is_correct": false, "why_wrong": "'Were sleeping' is past tense, but the stem describes the present, and it gives no result of the rain."},
+    {"text": "we are taking our umbrellas.", "is_correct": true, "why_wrong": null},
+    {"text": "I am going to the beach.", "is_correct": false, "why_wrong": "A beach trip does not follow logically from rain. 'So' needs a result that matches the weather."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present continuous with 'so' to show a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a result of the first part of the sentence. The present continuous describes what people are doing now, and it fits the present rain.",
+  "translation": "Şu anda yağmur yağıyor, bu yüzden şemsiyelerimizi alıyoruz."
+}

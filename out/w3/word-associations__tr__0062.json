@@ -1,0 +1,14 @@
+{
+  "trigger_word": "apple",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Elmalar ağaçta yetişir."},
+    {"word": "juice", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Elma suyu sık kullanılan bir ifadedir."},
+    {"word": "house", "is_associated": false, "association_type": "NONE", "explanation": "Ev ile elma arasında doğrudan bir bağlantı yoktur."},
+    {"word": "pen", "is_associated": false, "association_type": "NONE", "explanation": "Kalem ile elma arasında bir ilişki yoktur."},
+    {"word": "red", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Birçok elma kırmızıdır, bu yüzden renk olarak ilişkilidir."},
+    {"word": "bed", "is_associated": false, "association_type": "NONE", "explanation": "Yatak ile elma arasında bir bağlantı yoktur."}
+  ],
+  "correct_indices": [0, 1, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Elma ile ilgili kelimeler ağaç, içecek ve renk gibi doğrudan ilişkilerle bağlantılıdır; diğer kelimelerin elma ile bir bağı yoktur."
+}
