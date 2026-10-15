@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "O", "U", "R", "C", "E", "X"],
+    ["K", "B", "J", "W", "Q", "F", "Z"],
+    ["M", "A", "D", "H", "V", "L", "C"],
+    ["E", "Q", "N", "B", "K", "Y", "I"],
+    ["R", "P", "U", "G", "W", "Z", "T"],
+    ["G", "D", "A", "L", "F", "S", "E"],
+    ["E", "T", "H", "E", "M", "E", "Q"]
+  ],
+  "words_to_find": ["SOURCE", "MERGE", "CITE", "THEME"],
+  "word_positions": [
+    {"word": "SOURCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MERGE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "CITE", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "THEME", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Synthesizing Sources"
+}

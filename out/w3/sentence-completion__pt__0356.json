@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the novel is written in a realist style,",
+  "correct_completion": "its narrator often breaks into the story to address the reader directly.",
+  "full_sentence": "Although the novel is written in a realist style, its narrator often breaks into the story to address the reader directly.",
+  "acceptable_variants": ["its narrator sometimes comments on the characters.", "the narrator occasionally speaks to the reader."],
+  "options": [
+    {"text": "so the author uses only short sentences.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. 'Although' needs a clause that contrasts with the first part of the sentence."},
+    {"text": "its narrator often breaks into the story to address the reader directly.", "is_correct": true, "why_wrong": null},
+    {"text": "the reader is never addressed at all.", "is_correct": false, "why_wrong": "This is consistent with a realist style rather than contrasting with it, so it does not complete the concessive structure."},
+    {"text": "the novel was first published in 1850.", "is_correct": false, "why_wrong": "This adds a historical fact but does not provide the contrast expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a contrast with the expected behaviour described in the first clause. Here, the narrator's direct address breaks the conventions of realism.",
+  "translation": "Embora o romance seja escrito em estilo realista, seu narrador frequentemente interrompe a história para se dirigir diretamente ao leitor."
+}
