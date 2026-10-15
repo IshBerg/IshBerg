@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at the children,",
+  "correct_completion": "they are playing in the park.",
+  "full_sentence": "Look at the children, they are playing in the park.",
+  "acceptable_variants": ["they are having fun in the park.", "they are running around in the garden."],
+  "options": [
+    {"text": "she is playing in the park.", "is_correct": false, "why_wrong": "'The children' is plural, so the pronoun must be 'they', not 'she'."},
+    {"text": "they are playing in the park.", "is_correct": true, "why_wrong": null},
+    {"text": "it is playing in the park.", "is_correct": false, "why_wrong": "'It' refers to things or animals, and it does not match a group of children."},
+    {"text": "they is playing in the park.", "is_correct": false, "why_wrong": "The plural subject 'they' needs the plural verb 'are', not 'is'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Plural subjects with irregular plural nouns and matching verb agreement",
+  "connector": "they",
+  "explanation": "The noun 'children' is an irregular plural, so the following pronoun and verb must also be plural. Learners often keep a singular pronoun or verb after an irregular plural noun, so it helps to check agreement with the plural form.",
+  "translation": "Çocuklara bak, parkta oynuyorlar."
+}
