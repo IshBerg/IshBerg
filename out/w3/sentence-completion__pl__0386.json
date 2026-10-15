@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If we need eggs for the cake,",
+  "correct_completion": "we should buy some at the shop.",
+  "full_sentence": "If we need eggs for the cake, we should buy some at the shop.",
+  "acceptable_variants": ["we need to buy some at the shop.", "we must go to the shop and get them."],
+  "options": [
+    {"text": "the cake is very big.", "is_correct": false, "why_wrong": "This describes the cake, but the main clause needs an action we take when we need eggs."},
+    {"text": "we have a lot of milk.", "is_correct": false, "why_wrong": "This talks about milk, not eggs, so it does not complete the condition set by 'if'."},
+    {"text": "we should buy some at the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "the eggs are in the fridge.", "is_correct": false, "why_wrong": "This is a fact about where the eggs are. The result after 'if' should be an action we take."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "The 'if' clause describes a real possible situation, so the main clause should say what to do in that case. English uses 'should' plus the base verb here. Speakers of other languages often use a plain present verb in this position, which sounds unnatural in English.",
+  "translation": "Jeśli potrzebujemy jajek do ciasta, powinniśmy kupić trochę w sklepie."
+}
