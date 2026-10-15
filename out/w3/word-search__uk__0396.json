@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "I", "N", "T", "Z", "L", "T"],
+    ["C", "B", "V", "F", "K", "P", "O"],
+    ["U", "D", "J", "W", "G", "Q", "N"],
+    ["E", "X", "H", "M", "B", "Z", "E"],
+    ["Q", "I", "R", "O", "N", "Y", "K"],
+    ["P", "L", "A", "F", "T", "V", "W"],
+    ["S", "A", "R", "C", "A", "S", "M"]
+  ],
+  "words_to_find": ["HINT", "TONE", "IRONY", "SARCASM", "CUE"],
+  "word_positions": [
+    {"word": "HINT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TONE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "SARCASM", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CUE", "start_row": 1, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Understanding Implicit Meanings"
+}

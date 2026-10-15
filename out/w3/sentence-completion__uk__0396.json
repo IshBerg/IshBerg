@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Sorry, I can't come to the party tonight because",
+  "correct_completion": "I have to work late.",
+  "full_sentence": "Sorry, I can't come to the party tonight because I have to work late.",
+  "acceptable_variants": ["I have an exam tomorrow.", "my mom needs help at home."],
+  "options": [
+    {"text": "I like parties very much.", "is_correct": false, "why_wrong": "This is a true feeling about parties, but it does not explain why the speaker cannot come."},
+    {"text": "yesterday was my birthday.", "is_correct": false, "why_wrong": "This is a fact about the past, but 'because' needs a reason that connects to tonight."},
+    {"text": "I have to work late.", "is_correct": true, "why_wrong": null},
+    {"text": "let's meet on Sunday instead.", "is_correct": false, "why_wrong": "This is a suggestion, not a reason. 'Because' must be followed by a clause that gives the cause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part of the sentence. A subject and a verb must follow, such as 'I have to work late'. Many learners confuse 'because' with 'because of', which must be followed by a noun phrase instead.",
+  "translation": "Вибач, сьогодні я не можу прийти на вечірку, тому що мені треба працювати допізна."
+}
