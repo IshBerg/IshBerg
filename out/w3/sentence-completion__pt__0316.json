@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He told me that he",
+  "correct_completion": "had already finished the report.",
+  "full_sentence": "He told me that he had already finished the report.",
+  "acceptable_variants": ["had finished the report.", "had already completed the report."],
+  "options": [
+    {"text": "has already finished the report.", "is_correct": false, "why_wrong": "After a past reporting verb such as 'told', the present perfect shifts back to the past perfect, so 'has' is not used here."},
+    {"text": "will finish the report tomorrow.", "is_correct": false, "why_wrong": "In reported speech, 'will' shifts to 'would', and 'tomorrow' must change to a time relative to the past, such as 'the next day'."},
+    {"text": "had already finished the report.", "is_correct": true, "why_wrong": null},
+    {"text": "finished the report yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is not updated to the reported time, and the simple past does not show the earlier action that the past perfect shows."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Backshift in reported statements (present perfect to past perfect)",
+  "connector": "that",
+  "explanation": "When a statement is reported after a past verb such as 'told', the tense usually moves one step back in time. Here the present perfect becomes the past perfect, and the time expression is adjusted to fit the reporting moment. Learners whose first language does not shift tenses in this way often keep the original tense, so the backshift needs deliberate practice.",
+  "translation": "Ele me disse que já tinha terminado o relatório."
+}

@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "O", "T", "E", "L", "K", "T"],
+    ["Q", "J", "R", "N", "F", "Z", "O"],
+    ["G", "B", "V", "W", "Y", "C", "U"],
+    ["U", "L", "S", "J", "D", "N", "R"],
+    ["I", "T", "Q", "V", "B", "F", "K"],
+    ["D", "M", "A", "P", "W", "J", "Q"],
+    ["E", "P", "H", "O", "T", "O", "M"]
+  ],
+  "words_to_find": ["HOTEL", "TOUR", "MAP", "GUIDE", "PHOTO"],
+  "word_positions": [
+    {"word": "HOTEL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TOUR", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "MAP", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "GUIDE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "PHOTO", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Brochures"
+}

@@ -1,0 +1,23 @@
+{
+  "central_word": "oppose",
+  "chain_words": [
+    {"word": "question", "intensity": 1, "translation": "questionar", "nuance": "to express doubt about the accuracy of a claim"},
+    {"word": "dispute", "intensity": 2, "translation": "disputar", "nuance": "to argue against a claim"},
+    {"word": "challenge", "intensity": 3, "translation": "desafiar", "nuance": "to call a claim forcefully into question"},
+    {"word": "contest", "intensity": 4, "translation": "impugnar", "nuance": "to oppose formally or through an official process"},
+    {"word": "refute", "intensity": 5, "translation": "refutar", "nuance": "to prove a claim false with evidence or argument"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express opposition to a claim, but they differ in strength, from simply raising doubt to proving the claim wrong.",
+  "usage_notes": [
+    {"word1": "dispute", "word2": "refute", "difference": "'Dispute' means to argue against a claim, while 'refute' means to prove that the claim is false, usually with evidence or a strong argument."}
+  ],
+  "translations": {
+    "question": "questionar",
+    "dispute": "disputar",
+    "challenge": "desafiar",
+    "contest": "impugnar",
+    "refute": "refutar"
+  }
+}
