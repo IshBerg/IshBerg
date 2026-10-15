@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "kontrol etmek", "transliteration": "kontrol etmek", "meaning": "to check"},
+    {"word": "kopyalamak", "transliteration": "kopyalamak", "meaning": "to copy"},
+    {"word": "ziyaret etmek", "transliteration": "ziyaret etmek", "meaning": "to visit"},
+    {"word": "tamir etmek", "transliteration": "tamir etmek", "meaning": "to repair"}
+  ],
+  "english_words": ["visit", "repair", "check", "copy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Turkish verb kontrol etmek was borrowed from the English word control, but its meaning narrowed to checking something, so the look-alike English word now has a different sense.",
+  "false_friend_warning": "Trap: the Turkish phrase kontrol etmek looks like the English word control, but it means to check, not to control. Use the English word check for this meaning."
+}
