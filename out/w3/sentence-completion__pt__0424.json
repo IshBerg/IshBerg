@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Since you did not send the payment,",
+  "correct_completion": "we have to cancel your order.",
+  "full_sentence": "Since you did not send the payment, we have to cancel your order.",
+  "acceptable_variants": ["we must cancel your order.", "we are unable to keep your order."],
+  "options": [
+    {"text": "we will be happy to help you.", "is_correct": false, "why_wrong": "This is a polite offer. It does not follow as a result of the missing payment."},
+    {"text": "we have to cancel your order.", "is_correct": true, "why_wrong": null},
+    {"text": "the payment was received yesterday.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the payment was not sent."},
+    {"text": "the letter was written in English.", "is_correct": false, "why_wrong": "This describes the letter itself, not a result of the payment problem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'since'",
+  "connector": "since",
+  "explanation": "'Since' introduces the reason, so the second clause must give the result of that reason. Portuguese speakers may choose a polite offer or an unrelated fact here, but the result must follow logically from the missing payment.",
+  "translation": "Como você não enviou o pagamento, temos que cancelar seu pedido."
+}
