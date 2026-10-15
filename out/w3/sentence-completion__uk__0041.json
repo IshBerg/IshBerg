@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I wish I",
+  "correct_completion": "had studied harder for the exam.",
+  "full_sentence": "I wish I had studied harder for the exam.",
+  "acceptable_variants": ["had prepared better for the exam.", "had not missed so many lessons."],
+  "options": [
+    {"text": "studied harder for the exam.", "is_correct": false, "why_wrong": "After 'wish' expressing a past regret we need the past perfect 'had studied', not the simple past."},
+    {"text": "had studied harder for the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "will study harder for the exam.", "is_correct": false, "why_wrong": "'Will' is used for future wishes about things that can still change. The sentence expresses a regret about the past."},
+    {"text": "have studied harder for the exam.", "is_correct": false, "why_wrong": "The present perfect does not express a past regret after 'wish'. The past perfect is needed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Wish + past perfect for regrets about the past",
+  "connector": "wish",
+  "explanation": "After 'wish' used to express regret about the past, English needs the past perfect. Ukrainian speakers may find the tense choice difficult because the English past perfect has no direct equivalent in everyday speech, so the pattern should be practised as a fixed frame.",
+  "translation": "Шкода, що я не готувався до іспиту старанніше."
+}
