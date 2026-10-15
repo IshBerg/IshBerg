@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["Z", "K", "Q", "X", "M", "B", "N", "P", "C", "W"],
+    ["F", "R", "I", "E", "N", "D", "K", "Z", "X", "Q"],
+    ["B", "C", "M", "P", "R", "J", "W", "G", "T", "V"],
+    ["A", "D", "L", "K", "Z", "Q", "X", "N", "U", "P"],
+    ["S", "F", "Y", "O", "C", "B", "M", "R", "W", "H"],
+    ["J", "P", "N", "D", "V", "K", "Y", "A", "T", "E"],
+    ["G", "H", "Q", "W", "R", "E", "C", "I", "S", "O"],
+    ["X", "Z", "B", "F", "K", "P", "D", "M", "U", "A"],
+    ["Y", "L", "I", "M", "A", "F", "Q", "N", "R", "X"],
+    ["K", "G", "D", "Z", "B", "J", "P", "W", "T", "C"]
+  ],
+  "words_to_find": ["FRIEND", "LOVE", "TRUST", "FAMILY", "HUG"],
+  "word_positions": [
+    {"word": "FRIEND", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LOVE", "start_row": 3, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "TRUST", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"},
+    {"word": "FAMILY", "start_row": 8, "start_col": 5, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "HUG", "start_row": 4, "start_col": 9, "direction": "DIAGONAL_UP_LEFT"}
+  ],
+  "topic": "Relationships"
+}

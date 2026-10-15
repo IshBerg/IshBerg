@@ -1,0 +1,14 @@
+{
+  "trigger_word": "calendar",
+  "all_words": [
+    {"word": "month", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Місяць є одиницею часу, яку показує календар, тому слова близькі за значенням."},
+    {"word": "fork", "is_associated": false, "association_type": "NONE", "explanation": "Виделка є предметом посуду і не має відношення до календаря."},
+    {"word": "date", "is_associated": true, "association_type": "THEMATIC", "explanation": "Дата записується в календарі, тому ці слова тематично пов'язані."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Хмара є природним явищем і не пов'язана з календарем."},
+    {"word": "week", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Тиждень є часовим проміжком, який відображається в календарі."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Черевик є частиною одягу і не має стосунку до календаря."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'calendar' асоціюється з одиницями часу, які він показує, та з записом дат; речі, не пов'язані з часом, таких асоціацій не мають."
+}

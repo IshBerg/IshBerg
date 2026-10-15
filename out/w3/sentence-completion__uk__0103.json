@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Mount Everest is the highest mountain on Earth, so",
+  "correct_completion": "climbers need special equipment to reach its top.",
+  "full_sentence": "Mount Everest is the highest mountain on Earth, so climbers need special equipment to reach its top.",
+  "acceptable_variants": ["climbers must prepare carefully before they start.", "expeditions there are very difficult and expensive."],
+  "options": [
+    {"text": "it is the smallest mountain in the region.", "is_correct": false, "why_wrong": "This contradicts the superlative 'highest' stated in the first part of the sentence."},
+    {"text": "climbers need special equipment to reach its top.", "is_correct": true, "why_wrong": null},
+    {"text": "the mountain is made of soft sand.", "is_correct": false, "why_wrong": "This gives a fact about the material, but it does not follow as a result of the mountain being the highest."},
+    {"text": "the weather there is always warm and sunny.", "is_correct": false, "why_wrong": "This is unrelated to the result of being the highest mountain, and it does not complete the 'so' clause logically."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Superlative adjectives followed by a result clause introduced by 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a result that follows from the first clause. Because the mountain is the highest, the result is that climbers need special equipment. Ukrainian speakers may find the -est ending on adjectives unfamiliar at first, so they should practise linking the superlative in the first clause with a logical consequence in the second.",
+  "translation": "Еверест — найвища гора на Землі, тому альпіністам потрібне спеціальне спорядження, щоб дістатися її вершини."
+}
