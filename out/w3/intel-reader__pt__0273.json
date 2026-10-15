@@ -1,0 +1,20 @@
+{
+  "title": "My Home",
+  "text": "This is my house. It is small and blue. There is a big table in the kitchen. There are four chairs around the table. The sofa is in the living room.\n\nMy bed is in the bedroom. It is soft and warm. There is a lamp next to the bed. I read a book before I sleep. I like my house very much.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is the house?", "options": ["Red", "Blue", "Green", "White"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How many chairs are around the table?", "options": ["Two", "Three", "Four", "Six"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Where is the speaker most likely when reading a book before sleep?", "options": ["In the kitchen", "In the bedroom", "In the garden", "In the bathroom"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does the speaker feel about the house?", "options": ["They do not like it", "They like it very much", "They are angry about it", "They want to move"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "kitchen", "translation": "cozinha", "definition": "the room where food is cooked"},
+    {"word": "sofa", "translation": "sofá", "definition": "a long soft seat for two or more people"},
+    {"word": "lamp", "translation": "abajur", "definition": "a light that stands on a table or next to a bed"},
+    {"word": "soft", "translation": "macio", "definition": "not hard; easy to touch or press"}
+  ],
+  "paragraph_translations": [
+    "Esta é a minha casa. Ela é pequena e azul. Há uma mesa grande na cozinha. Há quatro cadeiras em volta da mesa. O sofá está na sala de estar.",
+    "A minha cama está no quarto. Ela é macia e quentinha. Há um abajur ao lado da cama. Eu leio um livro antes de dormir. Eu gosto muito da minha casa."
+  ]
+}
