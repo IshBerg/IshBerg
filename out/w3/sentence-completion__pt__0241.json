@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I really like coffee,",
+  "correct_completion": "but I don't like tea.",
+  "full_sentence": "I really like coffee, but I don't like tea.",
+  "acceptable_variants": ["but I do not like tea.", "but I don't like green tea."],
+  "options": [
+    {"text": "and I likes tea.", "is_correct": false, "why_wrong": "After 'I', the verb 'like' has no -s. 'Likes' is used only with he, she and it."},
+    {"text": "but I don't like tea.", "is_correct": true, "why_wrong": null},
+    {"text": "so I drinks tea.", "is_correct": false, "why_wrong": "After 'I', use 'drink', not 'drinks'. Also, 'so' shows a result, not a contrast with coffee."},
+    {"text": "because tea is hot.", "is_correct": false, "why_wrong": "'Because' gives a reason, but the sentence needs a contrast with the coffee the speaker likes."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present simple: like and don't like, with 'but' for contrast",
+  "connector": "but",
+  "explanation": "'But' introduces a contrast with the first clause. In negative present simple sentences, English uses the auxiliary 'do' with the base verb, so 'don't like' is correct. Portuguese speakers often forget the auxiliary in negatives because Portuguese negation needs no 'do'.",
+  "translation": "Eu realmente gosto de café, mas não gosto de chá."
+}
