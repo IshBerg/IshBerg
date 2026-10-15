@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she was tired,",
+  "correct_completion": "she finished her homework.",
+  "full_sentence": "Although she was tired, she finished her homework.",
+  "acceptable_variants": ["she still finished her homework.", "she worked hard anyway."],
+  "options": [
+    {"text": "so she went to bed early.", "is_correct": false, "why_wrong": "'So' introduces a result. 'Although' introduces a contrast, so this option does not fit."},
+    {"text": "she slept all day.", "is_correct": false, "why_wrong": "This follows naturally from being tired, so it shows a cause, not a contrast."},
+    {"text": "she finished her homework.", "is_correct": true, "why_wrong": null},
+    {"text": "it was a Monday.", "is_correct": false, "why_wrong": "This adds a fact about the day but does not give the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners often confuse this connector with 'because', which shows cause instead.",
+  "translation": "Yorgun olmasına rağmen ödevini bitirdi."
+}
