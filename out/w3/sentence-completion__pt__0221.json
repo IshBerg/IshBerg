@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the decision would have been reversed.",
+  "full_sentence": "Had the committee been informed earlier, the decision would have been reversed.",
+  "acceptable_variants": ["the outcome would have been different.", "the members could have changed their vote."],
+  "options": [
+    {"text": "the decision is reversed every year.", "is_correct": false, "why_wrong": "The present tense 'is' does not match the past hypothetical set up by 'had been informed'."},
+    {"text": "the decision would have been reversed.", "is_correct": true, "why_wrong": null},
+    {"text": "so the decision will be reversed tomorrow.", "is_correct": false, "why_wrong": "'So' expresses a result, not the hypothetical consequence required here, and 'will' does not fit a past unreal condition."},
+    {"text": "unless the vote was delayed.", "is_correct": false, "why_wrong": "'Unless' introduces a new condition rather than completing the imagined result of 'had been informed'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' in the if-clause",
+  "connector": "had",
+  "explanation": "The inverted 'had' clause replaces 'if' and sets up an unreal past condition. The main clause must use 'would have' plus a past participle to show the imagined result.",
+  "translation": "Se o comitê tivesse sido informado antes, a decisão teria sido revertida."
+}
