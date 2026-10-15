@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is a big garden behind our house,",
+  "correct_completion": "where we play football every weekend.",
+  "full_sentence": "There is a big garden behind our house, where we play football every weekend.",
+  "acceptable_variants": ["where we play football on Sundays.", "where we often play games after school."],
+  "options": [
+    {"text": "where we plays football every weekend.", "is_correct": false, "why_wrong": "The pronoun 'we' takes the base verb form 'play'. The -s ending is used only with he, she, and it."},
+    {"text": "where we are play football every weekend.", "is_correct": false, "why_wrong": "'Are' cannot be followed directly by a base verb here. The sentence needs a simple present verb form."},
+    {"text": "where we played football yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is past, but 'every weekend' describes a habit in the present, so the past simple does not fit the stem."},
+    {"text": "where we play football every weekend.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "There is + relative clause with 'where' and present simple with 'we'",
+  "connector": "where",
+  "explanation": "'Where' introduces a clause that describes the garden. With 'we', the present simple uses the base verb without an -s ending. Spanish speakers may add an extra auxiliary verb here, because Spanish verb endings already show the subject and the extra verb is not needed.",
+  "translation": "Hay un jardín grande detrás de nuestra casa, donde jugamos al fútbol todos los fines de semana."
+}
