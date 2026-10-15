@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "H", "O", "U", "L", "D", "Q", "W", "E", "T"],
+    ["X", "M", "Z", "K", "P", "V", "J", "F", "G", "R"],
+    ["B", "N", "A", "C", "W", "Q", "T", "Z", "H", "Y"],
+    ["R", "U", "O", "P", "G", "L", "W", "D", "A", "M"],
+    ["K", "E", "F", "V", "Z", "N", "H", "J", "B", "C"],
+    ["Y", "W", "S", "G", "P", "K", "L", "Z", "X", "V"],
+    ["C", "Q", "D", "T", "I", "N", "B", "F", "L", "H"],
+    ["S", "L", "E", "E", "P", "I", "G", "M", "Q", "A"],
+    ["V", "Z", "J", "K", "W", "R", "Y", "O", "N", "D"],
+    ["G", "F", "A", "X", "B", "D", "C", "Q", "W", "E"]
+  ],
+  "words_to_find": ["SHOULD", "TRY", "REST", "DRINK", "SLEEP"],
+  "word_positions": [
+    {"word": "SHOULD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "REST", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DRINK", "start_row": 9, "start_col": 5, "direction": "VERTICAL_UP"},
+    {"word": "SLEEP", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Giving Advice"
+}

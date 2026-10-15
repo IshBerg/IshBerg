@@ -1,0 +1,14 @@
+{
+  "codename": "PRINT TRAIL",
+  "briefing": "Agent, intercepted newsroom files hide a hidden story. Match each English media word to its Ukrainian meaning to trace the leak before the edition goes to press.",
+  "connection_mode": "vocabulary",
+  "difficulty": "hard",
+  "pairs": [
+    {"left": "headline", "right": "заголовок", "left_style": "newspaper", "right_style": "handwritten"},
+    {"left": "editor", "right": "редактор", "left_style": "photo", "right_style": "official"},
+    {"left": "reporter", "right": "репортер", "left_style": "document", "right_style": "photo"},
+    {"left": "article", "right": "стаття", "left_style": "handwritten", "right_style": "newspaper"},
+    {"left": "broadcast", "right": "трансляція", "left_style": "official", "right_style": "document"},
+    {"left": "source", "right": "джерело", "left_style": "photo", "right_style": "handwritten"}
+  ]
+}
