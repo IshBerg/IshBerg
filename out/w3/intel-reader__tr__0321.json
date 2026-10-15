@@ -1,0 +1,20 @@
+{
+  "title": "My Family's Jobs",
+  "text": "My sister is a doctor. She works at a big hospital in the city. She helps sick people every day. She starts work at eight in the morning.\n\nMy brother is a teacher. He teaches English at a school near our house. He likes his students very much. He finishes work at three in the afternoon.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is my sister's job?", "options": ["A nurse", "A doctor", "A teacher", "A driver"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does my brother teach?", "options": ["Math", "Music", "English", "Science"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can we guess about my sister's job?", "options": ["It is hard work that helps other people", "It is boring and she does not like it", "It takes only one hour a day", "It is done mostly at home"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of teacher is my brother most likely?", "options": ["A kind teacher who cares about students", "An angry teacher who shouts at students", "A teacher who does not like his job", "A teacher who works late every night"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "hospital", "translation": "hastane", "definition": "a building where sick people receive medical care"},
+    {"word": "sick", "translation": "hasta", "definition": "not well; ill"},
+    {"word": "students", "translation": "öğrenciler", "definition": "people who are learning at a school or university"},
+    {"word": "teaches", "translation": "öğretiyor", "definition": "helps people learn a subject"}
+  ],
+  "paragraph_translations": [
+    "Kız kardeşim doktor. Şehirde büyük bir hastanede çalışıyor. Her gün hasta insanlara yardım ediyor. Sabah sekizde işe başlıyor.",
+    "Erkek kardeşim öğretmen. Evimizin yakınındaki bir okulda İngilizce öğretiyor. Öğrencilerini çok seviyor. Öğleden sonra üçte işini bitiriyor."
+  ]
+}

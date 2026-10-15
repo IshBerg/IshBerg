@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Her phone has been switched off all day, so",
+  "correct_completion": "she must have forgotten to charge it.",
+  "full_sentence": "Her phone has been switched off all day, so she must have forgotten to charge it.",
+  "acceptable_variants": ["she might have run out of battery.", "she must have left it at home."],
+  "options": [
+    {"text": "she has been talking on the phone all day.", "is_correct": false, "why_wrong": "This contradicts the stem: a phone that is switched off cannot be used for calls."},
+    {"text": "she will have finished her homework by tonight.", "is_correct": false, "why_wrong": "This describes a future completion and does not explain why the phone is switched off."},
+    {"text": "she must have forgotten to charge it.", "is_correct": true, "why_wrong": null},
+    {"text": "she should buy a new phone immediately.", "is_correct": false, "why_wrong": "This gives advice rather than a logical deduction about the past reason for the phone being off."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal perfect of deduction: must have + past participle",
+  "connector": "so",
+  "explanation": "The modal 'must have' with a past participle expresses a logical conclusion about a past event, based on evidence in the present. Learners whose first language expresses inferred past through a different grammatical system often choose a simple past or a plain future form here, so the modal perfect needs focused practice.",
+  "translation": "Telefonu bütün gün kapalıydı, bu yüzden şarjı takmayı unutmuş olmalı."
+}
