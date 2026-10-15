@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I might have passed the exam.", "I could have passed the exam."],
+  "options": [
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "This is a future statement. The stem is about a past situation that did not happen, so it needs a third conditional result."},
+    {"text": "I passed the exam yesterday.", "is_correct": false, "why_wrong": "This states a real past event. The stem is hypothetical, so the result must describe what would have happened."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I would pass the exam every day.", "is_correct": false, "why_wrong": "'Every day' describes a repeated habit, which does not match the single past result the stem requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if' and 'would have' + past participle",
+  "connector": "if",
+  "explanation": "The third conditional talks about an imagined past situation and its imagined result. The result clause uses would have plus a past participle.",
+  "translation": "Gdybym uczył się ciężej, zdałbym egzamin."
+}
