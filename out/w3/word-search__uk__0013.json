@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["A", "D", "V", "E", "R", "T", "X", "B"],
+    ["K", "Q", "Z", "W", "J", "U", "S", "R"],
+    ["H", "F", "C", "Y", "K", "M", "L", "A"],
+    ["P", "O", "S", "T", "E", "R", "O", "N"],
+    ["V", "B", "L", "Q", "Z", "X", "G", "D"],
+    ["C", "N", "H", "J", "W", "B", "A", "Y"],
+    ["M", "E", "D", "I", "A", "F", "N", "T"],
+    ["O", "K", "X", "Z", "Q", "P", "V", "L"]
+  ],
+  "words_to_find": ["ADVERT", "POSTER", "BRAND", "SLOGAN", "MEDIA"],
+  "word_positions": [
+    {"word": "ADVERT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "POSTER", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BRAND", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SLOGAN", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "MEDIA", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Media and Advertising"
+}
