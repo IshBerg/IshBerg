@@ -1,0 +1,14 @@
+{
+  "trigger_word": "meeting",
+  "all_words": [
+    {"word": "agenda", "is_associated": true, "association_type": "THEMATIC", "explanation": "Порядок денний — це перелік питань, які обговорюють на зустрічі, тому слово тематично пов'язане з нею."},
+    {"word": "spreadsheet", "is_associated": false, "association_type": "NONE", "explanation": "Електронна таблиця є інструментом для роботи з даними і не належить до самої зустрічі як такої."},
+    {"word": "chair", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення to chair a meeting означає вести зустріч, тому це усталена колокація."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не має жодного змістового чи тематичного зв'язку з діловими зустрічами."},
+    {"word": "minutes", "is_associated": true, "association_type": "THEMATIC", "explanation": "Протокол (minutes) — офіційний запис того, що було сказано й вирішено на зустрічі, тому слово тематично пов'язане."},
+    {"word": "invoice", "is_associated": false, "association_type": "NONE", "explanation": "Рахунок-фактура стосується оплати товарів чи послуг, а не проведення зустрічей."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово meeting пов'язане з порядком денним, головуванням і протоколом — складовими ділового засідання; слова spreadsheet, mountain та invoice до зустрічі не належать."
+}
