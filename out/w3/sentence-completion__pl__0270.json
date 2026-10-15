@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been consulted earlier,",
+  "correct_completion": "the project would have avoided these delays.",
+  "full_sentence": "Had the committee been consulted earlier, the project would have avoided these delays.",
+  "acceptable_variants": ["the project would have been on schedule.", "we would have avoided these delays."],
+  "options": [
+    {"text": "the project would be finished by now.", "is_correct": false, "why_wrong": "This mixes time references. 'By now' signals the present, but the stem refers to a past condition and needs a past result."},
+    {"text": "the project would have avoided these delays.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee had not been asked anything.", "is_correct": false, "why_wrong": "This repeats the idea of the stem but does not give the result clause the 'would have' structure that the inverted conditional requires."},
+    {"text": "delays were what the committee wanted.", "is_correct": false, "why_wrong": "This states what the committee wanted. It does not form a conditional result linked to the earlier consultation."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had + subject + past participle'",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'If + subject + had + past participle'. The main clause must then use 'would have' plus a past participle to express a past result that did not happen.",
+  "translation": "Gdyby komisję skonsultowano wcześniej, projekt uniknąłby tych opóźnień."
+}
