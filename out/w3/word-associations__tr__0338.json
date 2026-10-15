@@ -1,0 +1,14 @@
+{
+  "trigger_word": "coffee",
+  "all_words": [
+    {"word": "cup", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kahve genellikle bir fincanda servis edilir, bu yüzden fincan kahveyle doğrudan ilişkilidir."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ ile kahve arasında doğrudan bir bağlantı yoktur, bu yüzden bu kelime ilişkili değildir."},
+    {"word": "black", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Black coffee' (sütsüz, sade kahve) yaygın bir ifadedir; bu yüzden 'black' kahve ile birlikte kullanılır."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kalem bir yazı aracıdır ve kahveyle ilgisi yoktur."},
+    {"word": "milk", "is_associated": true, "association_type": "THEMATIC", "explanation": "Sütlü kahve çok yaygındır; süt kahveyle sık sık birlikte düşünülür."},
+    {"word": "bus", "is_associated": false, "association_type": "NONE", "explanation": "Otobüs ile kahve arasında doğrudan bir ilişki yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Coffee' kelimesi fincan, süt ve 'black coffee' gibi ifadelerle ilişkilidir; diğer kelimelerin kahveyle bağlantısı yoktur."
+}
