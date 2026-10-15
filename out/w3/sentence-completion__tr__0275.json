@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the team really needed",
+  "correct_completion": "was a clear plan before the deadline.",
+  "full_sentence": "What the team really needed was a clear plan before the deadline.",
+  "acceptable_variants": ["was a clear, workable plan before the deadline.", "was a plan that everyone could follow."],
+  "options": [
+    {"text": "a clear plan before the deadline.", "is_correct": false, "why_wrong": "The linking verb 'was' is missing, so the pseudo-cleft structure is incomplete."},
+    {"text": "was a clear plan before the deadline.", "is_correct": true, "why_wrong": null},
+    {"text": "the team had finished the report early.", "is_correct": false, "why_wrong": "This is a complete clause that does not follow the 'what' clause with a linking verb, so the focus structure breaks."},
+    {"text": "they could not decide on a plan.", "is_correct": false, "why_wrong": "This describes a problem but does not name what was needed, so it does not complete the pseudo-cleft."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft sentences: 'what' clause + linking verb + focused element",
+  "connector": "what",
+  "explanation": "A pseudo-cleft sentence begins with 'what' followed by a clause, then a linking verb such as 'was', then the focused element. Turkish speakers often drop the linking verb because Turkish marks focus with word order and suffixes instead.",
+  "translation": "Ekibin gerçekten ihtiyacı olan şey, son teslim tarihinden önce net bir plandı."
+}

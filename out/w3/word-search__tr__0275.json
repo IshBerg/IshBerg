@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "Q", "B", "J", "X", "F"],
+    ["H", "U", "C", "L", "N", "G", "K", "W", "Q", "Z"],
+    ["A", "F", "S", "K", "U", "Q", "W", "T", "X", "M"],
+    ["P", "D", "Y", "B", "J", "K", "W", "O", "Z", "C"],
+    ["P", "M", "G", "U", "A", "X", "Z", "L", "Q", "W"],
+    ["E", "K", "J", "W", "L", "R", "F", "D", "Y", "B"],
+    ["N", "T", "Q", "S", "M", "F", "C", "Z", "K", "U"],
+    ["E", "Y", "R", "B", "Q", "J", "W", "G", "F", "A"],
+    ["D", "C", "V", "I", "Q", "K", "Z", "U", "N", "Y"],
+    ["B", "X", "Y", "Z", "P", "E", "V", "E", "N", "T"]
+  ],
+  "words_to_find": ["STORY", "TOLD", "TRIP", "HAPPENED", "EVENT"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TOLD", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "TRIP", "start_row": 6, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "HAPPENED", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "EVENT", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Narrating Events"
+}
