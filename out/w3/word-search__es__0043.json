@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "R", "E", "M", "I", "S", "E", "X", "Q", "F"],
+    ["K", "V", "N", "D", "H", "W", "Z", "T", "J", "A"],
+    ["B", "U", "R", "S", "F", "P", "M", "G", "E", "L"],
+    ["L", "Y", "D", "N", "W", "K", "R", "Q", "H", "L"],
+    ["T", "O", "H", "V", "X", "B", "D", "S", "U", "A"],
+    ["M", "R", "G", "Q", "A", "N", "F", "W", "P", "C"],
+    ["E", "J", "K", "I", "T", "V", "L", "D", "R", "Y"],
+    ["Y", "N", "U", "H", "C", "X", "B", "O", "K", "Z"],
+    ["W", "G", "Q", "A", "T", "F", "S", "R", "D", "V"],
+    ["Z", "U", "X", "P", "E", "M", "I", "A", "L", "C"]
+  ],
+  "words_to_find": ["PREMISE", "FALLACY", "LOGIC", "CLAIM"],
+  "word_positions": [
+    {"word": "PREMISE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FALLACY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "LOGIC", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CLAIM", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Precision Vocabulary for Argumentation"
+}
