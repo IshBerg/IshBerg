@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "With the budget approved,",
+  "correct_completion": "the department began hiring new staff.",
+  "full_sentence": "With the budget approved, the department began hiring new staff.",
+  "acceptable_variants": ["the department was able to recruit new staff.", "the department could finally expand its team."],
+  "options": [
+    {"text": "the department hiring new staff.", "is_correct": false, "why_wrong": "A participle phrase on its own cannot serve as the main clause, so the sentence remains a fragment."},
+    {"text": "the department began hiring new staff.", "is_correct": true, "why_wrong": null},
+    {"text": "to hire new staff.", "is_correct": false, "why_wrong": "An infinitive phrase has no subject and no finite verb, so it cannot complete the main clause."},
+    {"text": "since the department began hiring new staff.", "is_correct": false, "why_wrong": "'Since' adds a second subordinator after the absolute phrase, so the sentence has no main clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Absolute phrases with a noun and past participle, followed by a main clause",
+  "connector": "with",
+  "explanation": "The opening 'with' phrase is an absolute structure: a noun followed by a past participle that adds background to the main clause. The main clause must then have its own subject and finite verb. Polish speakers may add a second connector or leave out the main clause, because Polish often expresses the same background with a full subordinate clause.",
+  "translation": "Po zatwierdzeniu budżetu dział zaczął zatrudniać nowych pracowników."
+}
