@@ -1,0 +1,14 @@
+{
+  "codename": "BLUE CRUMB",
+  "briefing": "Agent, we have intercepted a secret menu from an enemy cafe. Decode each English word by matching it with its Turkish code before the mission window closes.",
+  "connection_mode": "vocabulary",
+  "difficulty": "medium",
+  "pairs": [
+    {"left": "menu", "right": "menü", "left_style": "document", "right_style": "handwritten"},
+    {"left": "soup", "right": "çorba", "left_style": "photo", "right_style": "document"},
+    {"left": "bill", "right": "hesap", "left_style": "newspaper", "right_style": "official"},
+    {"left": "waiter", "right": "garson", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "dessert", "right": "tatlı", "left_style": "official", "right_style": "newspaper"},
+    {"left": "drink", "right": "içecek", "left_style": "document", "right_style": "official"}
+  ]
+}
