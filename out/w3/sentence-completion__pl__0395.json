@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the cat sees the mouse,",
+  "correct_completion": "it will run after it.",
+  "full_sentence": "If the cat sees the mouse, it will run after it.",
+  "acceptable_variants": ["it will chase it.", "it will jump up."],
+  "options": [
+    {"text": "the mouse sleeps in the house.", "is_correct": false, "why_wrong": "This describes a state. It is not a result that follows from the condition 'if the cat sees the mouse'."},
+    {"text": "it will run after it.", "is_correct": true, "why_wrong": null},
+    {"text": "the cat is a black cat.", "is_correct": false, "why_wrong": "This gives a fact about the cat, but it is not a result of seeing the mouse, so it does not complete the 'if' clause."},
+    {"text": "it will sing a song.", "is_correct": false, "why_wrong": "A cat singing a song is not a likely result of seeing a mouse, so the sentence needs a logical consequence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "The 'if' clause describes a possible situation, and the main clause with 'will' gives the likely result of that situation.",
+  "translation": "Jeśli kot zobaczy mysz, pobiegnie za nią."
+}
