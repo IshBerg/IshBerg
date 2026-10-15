@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the bus is late,",
+  "correct_completion": "we will take a taxi.",
+  "full_sentence": "If the bus is late, we will take a taxi.",
+  "acceptable_variants": ["we will wait for the next bus.", "we will walk to the station."],
+  "options": [
+    {"text": "the bus was yellow.", "is_correct": false, "why_wrong": "The colour of the bus does not answer the condition; 'if' needs a result that depends on the bus being late."},
+    {"text": "we arrived early yesterday.", "is_correct": false, "why_wrong": "This is a past event and does not follow from a condition about the present bus being late."},
+    {"text": "we will take a taxi.", "is_correct": true, "why_wrong": null},
+    {"text": "the timetable is on the wall.", "is_correct": false, "why_wrong": "This describes a fact about the station, not a result that depends on the bus being late."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause uses 'will' to show a likely future result. The result must depend on the condition in the first part.",
+  "translation": "Jeśli autobus się spóźni, weźmiemy taksówkę."
+}
