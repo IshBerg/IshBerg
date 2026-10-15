@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["A", "U", "T", "H", "O", "R", "Q", "M"],
+    ["K", "D", "B", "W", "J", "X", "G", "E"],
+    ["F", "V", "L", "Z", "Y", "Q", "E", "T"],
+    ["W", "M", "D", "K", "S", "B", "N", "A"],
+    ["S", "A", "T", "I", "R", "E", "R", "P"],
+    ["J", "Q", "X", "L", "U", "F", "E", "H"],
+    ["C", "H", "A", "P", "T", "E", "R", "O"],
+    ["V", "N", "Z", "B", "Y", "D", "W", "R"]
+  ],
+  "words_to_find": ["AUTHOR", "METAPHOR", "SATIRE", "CHAPTER", "GENRE"],
+  "word_positions": [
+    {"word": "AUTHOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "METAPHOR", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SATIRE", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHAPTER", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GENRE", "start_row": 1, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Advanced Literature"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "camera",
+  "all_words": [
+    {"word": "lens", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A lente é a parte da câmera que captura a luz e forma a imagem, por isso as duas palavras têm um significado relacionado."},
+    {"word": "surveillance", "is_associated": true, "association_type": "THEMATIC", "explanation": "Câmeras são muito usadas em vigilância, e a palavra pertence ao mesmo tema de privacidade e segurança."},
+    {"word": "footage", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "As câmeras gravam imagens, e a expressão 'security footage' (imagens de segurança) é muito comum."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Pão não tem nenhuma relação com câmeras."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rio não tem nenhuma relação com câmeras."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Cadeira não tem nenhuma relação com câmeras."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'camera' são partes da câmera, usos dela ou expressões comuns com ela, enquanto as outras não têm relação com o tema."
+}
