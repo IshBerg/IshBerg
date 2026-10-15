@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the story was very long,",
+  "correct_completion": "I finished reading it.",
+  "full_sentence": "Although the story was very long, I finished reading it.",
+  "acceptable_variants": ["I still enjoyed every page.", "I still read the whole story."],
+  "options": [
+    {"text": "so I stopped reading it.", "is_correct": false, "why_wrong": "'Although' indicates contrast, not result. 'So' would show a result, which does not fit this connector."},
+    {"text": "I finished reading it.", "is_correct": true, "why_wrong": null},
+    {"text": "the characters were funny.", "is_correct": false, "why_wrong": "This describes the story but does not give a contrasting action expected after 'although'."},
+    {"text": "it was on the table.", "is_correct": false, "why_wrong": "This gives a location, not a contrasting idea that completes the sentence after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners often use 'so' by mistake, because 'so' signals a result instead of a contrast.",
+  "translation": "Hikaye çok uzun olmasına rağmen onu okumayı bitirdim."
+}

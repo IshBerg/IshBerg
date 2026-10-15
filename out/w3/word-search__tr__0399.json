@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "Q", "Z", "K", "L"],
+    ["P", "F", "W", "B", "R", "T", "H", "G", "J", "E"],
+    ["V", "K", "I", "Y", "M", "O", "I", "D", "I", "X"],
+    ["A", "S", "R", "D", "H", "W", "U", "P", "B", "I"],
+    ["T", "G", "Q", "N", "E", "A", "Z", "K", "R", "C"],
+    ["M", "B", "S", "F", "J", "L", "V", "Y", "W", "O"],
+    ["X", "C", "S", "Q", "R", "E", "I", "P", "Z", "N"],
+    ["H", "J", "O", "K", "F", "M", "B", "T", "D", "A"],
+    ["W", "N", "L", "U", "Z", "R", "Q", "G", "Y", "S"],
+    ["E", "K", "G", "A", "T", "D", "P", "C", "V", "H"]
+  ],
+  "words_to_find": ["NUANCE", "LEXICON", "FIDELITY", "GLOSS", "IDIOM"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEXICON", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "FIDELITY", "start_row": 1, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "GLOSS", "start_row": 9, "start_col": 2, "direction": "VERTICAL_UP"},
+    {"word": "IDIOM", "start_row": 2, "start_col": 8, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Literary Translation"
+}
