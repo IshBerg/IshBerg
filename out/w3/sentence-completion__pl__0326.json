@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He might have missed the bus because",
+  "correct_completion": "he woke up late.",
+  "full_sentence": "He might have missed the bus because he woke up late.",
+  "acceptable_variants": ["he forgot to set his alarm.", "his alarm clock did not ring."],
+  "options": [
+    {"text": "he has a new bicycle.", "is_correct": false, "why_wrong": "This gives a fact about a bicycle, which is not a reason for missing the bus."},
+    {"text": "he woke up late.", "is_correct": true, "why_wrong": null},
+    {"text": "the bus was yellow.", "is_correct": false, "why_wrong": "This describes the bus, but it does not explain why the person missed it."},
+    {"text": "he likes buses very much.", "is_correct": false, "why_wrong": "A liking for buses does not explain missing one, so the clause does not give a cause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfect 'might have + past participle' with 'because' to give a cause",
+  "connector": "because",
+  "explanation": "The modal perfect 'might have missed' speculates about a past event, and 'because' introduces the cause of that event. The completion must give a reason, not a description of the bus or a general preference.",
+  "translation": "Mógł spóźnić się na autobus, ponieważ obudził się późno."
+}

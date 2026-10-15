@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "Piekarnik jest typowym urządzeniem znajdującym się w kuchni."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma bezpośredniego związku z kuchnią ani z czynnościami w niej wykonywanymi."},
+    {"word": "knife", "is_associated": true, "association_type": "THEMATIC", "explanation": "Nóż to podstawowe narzędzie kuchenne używane do krojenia jedzenia."},
+    {"word": "cook", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gotować to czynność, która odbywa się przede wszystkim w kuchni."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Pustynia nie kojarzy się z kuchnią ani z przygotowywaniem posiłków."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka nie ma żadnego związku z kuchnią ani z domowymi sprzętami."}
+  ],
+  "correct_indices": [0, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo kitchen kojarzy się z urządzeniami, narzędziami i czynnościami związanymi z przygotowywaniem jedzenia, a słowa spoza tego obszaru nie są z nim powiązane."
+}
