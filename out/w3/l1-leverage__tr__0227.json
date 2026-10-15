@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "şekil", "transliteration": "sekil", "meaning": "shape"},
+    {"word": "kare", "transliteration": "kare", "meaning": "square"},
+    {"word": "üçgen", "transliteration": "ucgen", "meaning": "triangle"},
+    {"word": "daire", "transliteration": "daire", "meaning": "circle"}
+  ],
+  "english_words": ["square", "shape", "circle", "triangle"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Turkish borrowed some of its geometry vocabulary from other languages, so learners may recognise these words, but the trap is that the Turkish word for circle is also used in everyday speech for a flat or office, which can mislead learners in a different context.",
+  "false_friend_warning": "The Turkish word daire usually means circle, but in everyday speech it often means apartment or office, so learners who hear it while talking about housing may think of a home rather than a shape. Check the context before matching it to circle."
+}
