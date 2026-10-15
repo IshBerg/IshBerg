@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because it is my birthday on Saturday,",
+  "correct_completion": "I would like to invite you to my party.",
+  "full_sentence": "Because it is my birthday on Saturday, I would like to invite you to my party.",
+  "acceptable_variants": ["I'd like to invite you to my party.", "I want to invite you to my party."],
+  "options": [
+    {"text": "I went to school yesterday.", "is_correct": false, "why_wrong": "This is grammatically correct, but it does not connect logically to the birthday as a reason for the invitation."},
+    {"text": "my brother likes football.", "is_correct": false, "why_wrong": "This is a separate fact that does not complete the reason-and-result relationship started by 'because'."},
+    {"text": "I would like to invite you to my party.", "is_correct": true, "why_wrong": null},
+    {"text": "the weather is very cold.", "is_correct": false, "why_wrong": "This describes the weather, but it does not give the result of the birthday reason."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses of reason with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the reason, and the main clause must give the result. Here the birthday is the reason, so the result is an invitation.",
+  "translation": "Cumartesi günü doğum günüm olduğu için, sizi partime davet etmek istiyorum."
+}
