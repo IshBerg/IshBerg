@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "R", "A", "I", "N", "Q", "M", "B"],
+    ["K", "X", "D", "F", "H", "L", "W", "U"],
+    ["G", "Y", "E", "Z", "J", "V", "O", "S"],
+    ["C", "D", "R", "F", "K", "M", "T", "Z"],
+    ["Q", "P", "L", "A", "N", "E", "A", "Y"],
+    ["V", "B", "H", "J", "R", "U", "X", "W"],
+    ["M", "O", "P", "Q", "S", "D", "I", "K"],
+    ["B", "O", "A", "T", "L", "F", "W", "E"]
+  ],
+  "words_to_find": ["TRAIN", "BUS", "PLANE", "TAXI", "BOAT"],
+  "word_positions": [
+    {"word": "TRAIN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BUS", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "PLANE", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "TAXI", "start_row": 3, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BOAT", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Travel and Transport"
+}

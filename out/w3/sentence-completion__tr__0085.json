@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "This book is more interesting than",
+  "correct_completion": "the film I watched yesterday.",
+  "full_sentence": "This book is more interesting than the film I watched yesterday.",
+  "acceptable_variants": ["the one I read last year.", "the film my friend recommended."],
+  "options": [
+    {"text": "the most interesting film I watched.", "is_correct": false, "why_wrong": "'The most interesting' is a superlative. After 'than' we need a comparative structure, not a superlative."},
+    {"text": "interesting than the film yesterday.", "is_correct": false, "why_wrong": "'More' is missing. Longer adjectives like 'interesting' need 'more' to form a comparative."},
+    {"text": "the film I watched yesterday.", "is_correct": true, "why_wrong": null},
+    {"text": "as interesting as the film I watched yesterday.", "is_correct": false, "why_wrong": "The pattern 'more ... than' does not combine with 'as ... as'. Use one comparison pattern at a time."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Comparatives with 'more ... than'",
+  "connector": "than",
+  "explanation": "After 'more' and an adjective, 'than' introduces the thing being compared. The completion must be a noun phrase that can be compared with 'this book'. Turkish speakers may drop 'more' because Turkish shows comparison with a suffix on the adjective, so they can forget that English needs a separate word.",
+  "translation": "Bu kitap, dün izlediğim filmden daha ilginç."
+}

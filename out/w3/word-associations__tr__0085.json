@@ -1,0 +1,14 @@
+{
+  "trigger_word": "breakfast",
+  "all_words": [
+    {"word": "cereal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gevrek, kahvaltıda en sık yenen besinlerden biri olduğu için doğrudan kahvaltıyla ilişkilidir."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ, kahvaltı ile hiçbir anlam ya da kullanım bağlantısı taşımayan bir kelimedir."},
+    {"word": "toast", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Tost, kahvaltıda sıkça yenen bir ekmek türüdür."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitar bir müzik aletidir ve kahvaltı ile bir ilgisi yoktur."},
+    {"word": "morning", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kahvaltı genellikle sabahın erken saatlerinde yapıldığı için bu kelime tematik olarak bağlantılıdır."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Nehir doğal bir coğrafi unsurdur ve kahvaltı ile ilişkili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kahvaltı kelimesiyle ilişkili olanlar, kahvaltıda yenen besinler ve kahvaltının yapıldığı zaman dilimidir."
+}
