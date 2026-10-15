@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "O", "V", "E", "R", "T", "Y", "K", "N", "E"],
+    ["M", "B", "D", "Z", "F", "G", "H", "J", "X", "Q"],
+    ["K", "P", "V", "H", "T", "L", "A", "E", "W", "U"],
+    ["J", "Q", "N", "R", "Y", "D", "B", "M", "F", "A"],
+    ["X", "U", "Z", "G", "P", "K", "W", "V", "R", "L"],
+    ["B", "D", "S", "F", "H", "N", "Q", "C", "M", "I"],
+    ["R", "G", "S", "T", "V", "J", "X", "P", "Z", "T"],
+    ["Q", "W", "A", "K", "I", "D", "U", "F", "H", "Y"],
+    ["M", "T", "L", "B", "R", "C", "N", "G", "V", "R"],
+    ["O", "K", "C", "Y", "W", "Q", "E", "X", "P", "F"]
+  ],
+  "words_to_find": ["POVERTY", "EQUALITY", "JUSTICE", "CLASS", "WEALTH"],
+  "word_positions": [
+    {"word": "POVERTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EQUALITY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "JUSTICE", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CLASS", "start_row": 9, "start_col": 2, "direction": "VERTICAL_UP"},
+    {"word": "WEALTH", "start_row": 2, "start_col": 8, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Society and Inequality"
+}
