@@ -1,0 +1,14 @@
+{
+  "trigger_word": "plot",
+  "all_words": [
+    {"word": "character", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Postacie są kluczowym elementem fabuły i często ją napędzają."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma żadnego związku z fabułą opowiadania; to przedmiot z innego kontekstu."},
+    {"word": "twist", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Połączenie 'plot twist' (zwrot akcji) jest typowym zestawieniem słów w języku angielskim."},
+    {"word": "pepper", "is_associated": false, "association_type": "NONE", "explanation": "Pieprz to przyprawa i nie ma związku z fabułą ani opowiadaniem."},
+    {"word": "ending", "is_associated": true, "association_type": "THEMATIC", "explanation": "Zakończenie jest tematycznie powiązane z fabułą, ponieważ ją domyka."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Okno to zwykły przedmiot codziennego użytku, który nie należy do świata fabuły utworu."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzenia ze słowem 'plot' dotyczą elementów budowy fabuły opowiadania, natomiast przedmioty codzienne bez związku z literaturą nie są powiązane."
+}
