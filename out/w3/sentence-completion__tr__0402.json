@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the soup was very hot,",
+  "correct_completion": "we ate it slowly.",
+  "full_sentence": "Although the soup was very hot, we ate it slowly.",
+  "acceptable_variants": ["we still enjoyed the meal.", "we waited a little before eating it."],
+  "options": [
+    {"text": "so we ordered another soup.", "is_correct": false, "why_wrong": "'Although' shows contrast, not result. 'So' introduces a result, which does not fit the contrast."},
+    {"text": "it was served in a red bowl.", "is_correct": false, "why_wrong": "This adds a detail about the bowl but does not complete the contrast started by 'although'."},
+    {"text": "we ate it slowly.", "is_correct": true, "why_wrong": null},
+    {"text": "the menu had many choices.", "is_correct": false, "why_wrong": "This describes the menu, but it does not give the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a main clause that shows contrast with the first part of the sentence. Learners often pick a result clause with 'so' because the two ideas feel connected, but the contrast is the point here.",
+  "translation": "Çorba çok sıcak olmasına rağmen, onu yavaş yavaş yedik."
+}
