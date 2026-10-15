@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "шоколад", "transliteration": "shokolad", "meaning": "chocolate"},
+    {"word": "банан", "transliteration": "banan", "meaning": "banana"},
+    {"word": "ресторан", "transliteration": "restoran", "meaning": "restaurant"},
+    {"word": "салат", "transliteration": "salat", "meaning": "salad"}
+  ],
+  "english_words": ["salad", "restaurant", "chocolate", "banana"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same sources, so the forms stayed close.",
+  "false_friend_warning": null
+}

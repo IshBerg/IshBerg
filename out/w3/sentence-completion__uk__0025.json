@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The new data were collected from over two thousand households,",
+  "correct_completion": "which allowed the researchers to draw more reliable conclusions.",
+  "full_sentence": "The new data were collected from over two thousand households, which allowed the researchers to draw more reliable conclusions.",
+  "acceptable_variants": ["so the researchers could draw more reliable conclusions.", "and this made the results more trustworthy."],
+  "options": [
+    {"text": "by a team of volunteers in the north.", "is_correct": false, "why_wrong": "This adds detail about who collected the data, but it does not explain what the data made possible for the argument."},
+    {"text": "which allowed the researchers to draw more reliable conclusions.", "is_correct": true, "why_wrong": null},
+    {"text": "although nobody had asked for it.", "is_correct": false, "why_wrong": "'Although' signals contrast, but the stem sets up no expectation for this clause to contrast with."},
+    {"text": "so the report was never published.", "is_correct": false, "why_wrong": "This gives a negative result that does not follow from the stem, which describes data being collected for a study."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Passive voice in reports: 'were collected' followed by a result clause",
+  "connector": "which",
+  "explanation": "The first clause uses a passive form ('were collected'), so the completion must explain the logical effect of the data collection. Ukrainian speakers may prefer an active subject here, but English reports often keep the passive for the method being described.",
+  "translation": "Нові дані були зібрані з понад двох тисяч домогосподарств, що дало змогу дослідникам зробити більш надійні висновки."
+}
