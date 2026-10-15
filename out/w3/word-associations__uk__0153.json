@@ -1,0 +1,14 @@
+{
+  "trigger_word": "money",
+  "all_words": [
+    {"word": "wallet", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гаманець є місцем, де люди носять гроші, тому це слово тематично пов'язане з 'money'."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не пов'язаний з грошима; це слово належить до іншої теми, транспорту."},
+    {"word": "coin", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Монета є одним із видів грошей, тому між словами є пряме смислове зв'язок."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Сад не має жодного стосунку до грошей, тож це слово не асоціюється з 'money'."},
+    {"word": "bank", "is_associated": true, "association_type": "THEMATIC", "explanation": "Банк є місцем, де зберігають гроші, тому слова тематично пов'язані."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Подушка не має стосунку до грошей; це слово з теми сну та спальні."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'money' асоціюється з предметами і місцями, пов'язаними з грошима: гаманцем, монетою і банком. Слова про транспорт, сад і спальню до нього не належать."
+}
