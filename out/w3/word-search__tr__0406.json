@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "E", "M", "O", "I", "R", "Q", "W", "A"],
+    ["X", "E", "K", "L", "P", "J", "U", "Z", "N"],
+    ["B", "F", "S", "H", "R", "K", "W", "P", "E"],
+    ["G", "D", "H", "S", "T", "L", "Q", "F", "C"],
+    ["J", "K", "M", "X", "A", "R", "Z", "L", "D"],
+    ["W", "P", "B", "N", "G", "Y", "H", "K", "O"],
+    ["V", "O", "I", "C", "E", "R", "L", "Q", "T"],
+    ["S", "D", "F", "G", "H", "J", "K", "L", "E"],
+    ["N", "A", "R", "R", "A", "T", "I", "V", "E"]
+  ],
+  "words_to_find": ["MEMOIR", "ESSAY", "ANECDOTE", "VOICE", "NARRATIVE"],
+  "word_positions": [
+    {"word": "MEMOIR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSAY", "start_row": 1, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "ANECDOTE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "VOICE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NARRATIVE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Memoir and Creative Nonfiction"
+}

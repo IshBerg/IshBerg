@@ -1,0 +1,14 @@
+{
+  "trigger_word": "novel",
+  "all_words": [
+    {"word": "chapter", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Chapter, bölüm anlamına gelir ve bir romanın doğrudan parçasıdır."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktör tarımda kullanılan bir araçtır ve roman ile anlamsal bir bağı yoktur."},
+    {"word": "plot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Plot, olay örgüsü demektir ve roman türünün temel unsurlarındandır."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Mutfak bir ev mekânıdır, edebi bir türle ilgili değildir."},
+    {"word": "author", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yazar, romanı yazan kişidir ve bu nedenle romanla doğrudan ilişkilidir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık yatakta kullanılan bir eşyadır ve romanla bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bir romanla ilgili kelimeler, romanın yapısını (bölüm, olay örgüsü) ve yazarını çağrıştırır; diğer kelimeler ise günlük nesneler veya araçlardır."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She was tired,",
+  "correct_completion": "so she went to bed early.",
+  "full_sentence": "She was tired, so she went to bed early.",
+  "acceptable_variants": ["so she stopped reading her book.", "so she decided to sleep on the sofa."],
+  "options": [
+    {"text": "so she went to the cinema.", "is_correct": false, "why_wrong": "Going to the cinema is not a logical result of being tired, so it does not fit the connector 'so'."},
+    {"text": "so she ate a big breakfast.", "is_correct": false, "why_wrong": "Eating breakfast does not follow from being tired, so the result is illogical here."},
+    {"text": "so she was not tired at all.", "is_correct": false, "why_wrong": "This contradicts the stem, which says she was tired, so it cannot be the result."},
+    {"text": "so she went to bed early.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result that follows from the first clause. Turkish speakers often rely on a suffix to show cause and effect, but in English a separate connector word is needed, and it must be followed by a full clause with a subject and verb.",
+  "translation": "Çok yorgundu, bu yüzden erken yatağa gitti."
+}
