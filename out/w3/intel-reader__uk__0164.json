@@ -1,0 +1,20 @@
+{
+  "title": "A Formal Email",
+  "text": "Dear Mr. Brown, thank you for your email of 3 March. I am writing to confirm our meeting next Monday at 10 a.m. in Room 204. Please bring the printed report with you.\n\nIf you cannot attend, please let me know by Friday. I look forward to meeting you. Kind regards, Anna Smith.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "When is the meeting?", "options": ["On Monday at 10 a.m.", "On Friday at 2 p.m.", "On Monday at 3 p.m.", "On Tuesday at 10 a.m."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "By when should Mr. Brown reply if he cannot attend?", "options": ["By Friday", "By Monday", "By Sunday", "By 10 a.m."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why is the writer sending this email?", "options": ["To confirm a meeting", "To ask for a job", "To complain about a bill", "To invite Mr. Brown to lunch"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is the most likely relationship between the writer and Mr. Brown?", "options": ["A business contact", "A close family member", "A school friend", "A neighbour"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "confirm", "translation": "підтверджувати", "definition": "to say that something is certain or correct"},
+    {"word": "attend", "translation": "бути присутнім", "definition": "to be present at an event or meeting"},
+    {"word": "printed", "translation": "друкований", "definition": "produced on paper using a printer"},
+    {"word": "report", "translation": "звіт", "definition": "a written document that gives information about something"}
+  ],
+  "paragraph_translations": [
+    "Шановний пане Браун, дякую за ваш лист від 3 березня. Я пишу, щоб підтвердити нашу зустріч у наступний понеділок о 10:00 у кабінеті 204. Будь ласка, принесіть із собою друкований звіт.",
+    "Якщо ви не зможете бути присутнім, будь ласка, повідомте мене до п'ятниці. Із нетерпінням чекаю на зустріч з вами. З повагою, Анна Сміт."
+  ]
+}
