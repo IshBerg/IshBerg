@@ -1,0 +1,14 @@
+{
+  "trigger_word": "lighthouse",
+  "all_words": [
+    {"word": "beacon", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сигнальний вогонь і маяк за змістом близькі: обидва є джерелом світла, що вказує шлях у темряві."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно є музичним інструментом і не має жодного змістового чи тематичного зв'язку з маяком."},
+    {"word": "keeper", "is_associated": true, "association_type": "THEMATIC", "explanation": "Смотритель маяка є типовим персонажем, який доглядає за світлом, тому слово тематично пов'язане з маяком."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик є великою крижаною масою і не пов'язаний з маяком ні за змістом, ні за контекстом."},
+    {"word": "shore", "is_associated": true, "association_type": "THEMATIC", "explanation": "Берег є місцем, де зазвичай стоїть маяк, тому слово тематично пов'язане з ним."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Скрипка є музичним інструментом і не має відношення до маяка чи морського життя."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова маяк пов'язані зі світлом, морем і людиною, яка його доглядає; музичні інструменти та льодовик до цього кола не належать."
+}

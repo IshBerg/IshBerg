@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "O", "N", "E", "K", "S", "J", "V"],
+    ["Q", "W", "B", "Z", "M", "A", "P", "O"],
+    ["X", "D", "G", "L", "H", "T", "F", "I"],
+    ["I", "R", "O", "N", "Y", "I", "B", "C"],
+    ["Z", "K", "W", "D", "V", "R", "Q", "E"],
+    ["J", "M", "S", "H", "L", "E", "X", "G"],
+    ["N", "U", "A", "N", "C", "E", "Z", "K"],
+    ["P", "B", "Y", "W", "T", "D", "M", "L"]
+  ],
+  "words_to_find": ["TONE", "VOICE", "IRONY", "SATIRE", "NUANCE"],
+  "word_positions": [
+    {"word": "TONE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VOICE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SATIRE", "start_row": 0, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "NUANCE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Cross-Genre Style Adaptation"
+}

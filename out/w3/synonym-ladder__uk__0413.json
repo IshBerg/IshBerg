@@ -1,0 +1,13 @@
+{
+  "start_word": "whisper",
+  "end_word": "shout",
+  "ladder_steps": [
+    {"word": "whisper", "translation": "шепотіти", "intensity_level": 1},
+    {"word": "murmur", "translation": "бурмотіти", "intensity_level": 2},
+    {"word": "talk", "translation": "говорити", "intensity_level": 3},
+    {"word": "call", "translation": "гукати", "intensity_level": 4},
+    {"word": "shout", "translation": "кричати", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Speaking words form a ladder from the quietest possible voice to the loudest, with each step louder than the last."
+}

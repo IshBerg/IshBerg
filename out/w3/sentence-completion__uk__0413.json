@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The little girl was scared, so",
+  "correct_completion": "she hid under the bed.",
+  "full_sentence": "The little girl was scared, so she hid under the bed.",
+  "acceptable_variants": ["she ran to her mother.", "she closed her eyes and held her teddy bear."],
+  "options": [
+    {"text": "she laughed at the joke.", "is_correct": false, "why_wrong": "This shows a happy reaction, which does not follow from being scared. 'So' needs a result that matches the first part."},
+    {"text": "she wanted to go to school.", "is_correct": false, "why_wrong": "This is a plan that has nothing to do with being scared, so it is not a result of the feeling in the stem."},
+    {"text": "the story was very long.", "is_correct": false, "why_wrong": "This comments on the story but does not describe what the girl does because she is scared."},
+    {"text": "she hid under the bed.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. Being scared leads to hiding, so the second part must describe a natural reaction to fear. Ukrainian speakers may place the cause and the result in the same order, but English requires a comma before 'so' in this structure.",
+  "translation": "Дівчинка злякалася, тому сховалася під ліжко."
+}
