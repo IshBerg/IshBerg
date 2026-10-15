@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "diccionario", "transliteration": "diccionario", "meaning": "dictionary"},
+    {"word": "calculadora", "transliteration": "calculadora", "meaning": "calculator"},
+    {"word": "papel", "transliteration": "papel", "meaning": "paper"},
+    {"word": "globo", "transliteration": "globo", "meaning": "globe"}
+  ],
+  "english_words": ["globe", "paper", "calculator", "dictionary"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each of these English and Spanish pairs comes from the same Latin or Greek source, which is why the spellings stayed close in both languages. The main differences are small changes in endings and spelling.",
+  "false_friend_warning": null
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the board been aware of the deficit,",
+  "correct_completion": "it would have delayed the merger.",
+  "full_sentence": "Had the board been aware of the deficit, it would have delayed the merger.",
+  "acceptable_variants": ["the board would have postponed the merger.", "the merger would have been put on hold."],
+  "options": [
+    {"text": "so the merger was approved in March.", "is_correct": false, "why_wrong": "This states an actual past outcome. The inverted conditional requires a hypothetical result."},
+    {"text": "the deficit was discovered by an auditor.", "is_correct": false, "why_wrong": "This describes a different event and does not give the consequence that the inverted clause requires."},
+    {"text": "it would have delayed the merger.", "is_correct": true, "why_wrong": null},
+    {"text": "it was aware of the deficit already.", "is_correct": false, "why_wrong": "This repeats the condition in the past tense instead of giving its consequence, since the inverted clause already states it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle) with a would have main clause",
+  "connector": "had",
+  "explanation": "The inverted form 'Had the board been aware' replaces 'If the board had been aware', so the main clause needs 'would have' followed by a past participle. Learners often use a simple conditional in the main clause, because Spanish conditionals are not formed by inverting the clause in the same way.",
+  "translation": "Si la junta hubiera conocido el déficit, habría retrasado la fusión."
+}
