@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly"},
+    {"word": "wakat", "transliteration": "wakat", "meaning": "vacancy"}
+  ],
+  "english_words": ["possibly", "vacancy", "current", "nice"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Polish words look like English words, but they do not share the same meaning, so learners often translate them wrongly. Each one needs a different English word.",
+  "false_friend_warning": "The Polish word 'aktualny' looks like the English word 'actual', but it means 'current' or 'up to date'. 'Actual' is a false friend and should not be used for this meaning."
+}

@@ -1,0 +1,32 @@
+{
+  "collocation_type": "VERB_ADVERB",
+  "base_word": "test",
+  "collocate": "rigorously",
+  "full_collocation": "test rigorously",
+  "options": ["rigorously", "strictly", "severely", "heavily"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "strictly", "reason": "We don't say 'test strictly' for scientific testing. 'Strictly' means according to exact rules or limits, as in 'strictly forbidden'."},
+    {"word": "severely", "reason": "We don't say 'test severely'. 'Severely' describes something bad or serious, as in 'severely damaged'."},
+    {"word": "heavily", "reason": "We don't say 'test heavily'. 'Heavily' is used with rain, drinking or relying on something, not with testing."}
+  ],
+  "example_sentence": "The new drug was tested ___ before it was approved.",
+  "gap_position": 5,
+  "translation": "testować rygorystycznie",
+  "l1_interference": "Polscy uczący się często stawiają przysłówek przed czasownikiem, mówiąc 'rigorously test' zamiast poprawnego 'test rigorously', bo w języku polskim przysłówek zwykle stoi przed czasownikiem.",
+  "common_mistake": "strictly test",
+  "explanation": "In scientific English, 'rigorously' is the adverb that describes how a test is carried out: thoroughly, with careful and strict methods. It usually comes after the verb.",
+  "related_collocations": [
+    {"collocation": "analyse carefully", "translation": "analizować dokładnie", "example": "The team analysed the data carefully."},
+    {"collocation": "replicate independently", "translation": "powtórzyć niezależnie", "example": "Other labs must replicate the results independently."},
+    {"collocation": "publish openly", "translation": "publikować otwarcie", "example": "Researchers should publish their methods openly."}
+  ],
+  "memory_tip": "RIGOROUSLY = with thorough, strict method (test, check, review) | STRICTLY = according to exact rules or limits",
+  "matching_pairs": [
+    {"left": "analyse", "right": "carefully"},
+    {"left": "reason", "right": "logically"},
+    {"left": "measure", "right": "precisely"},
+    {"left": "argue", "right": "persuasively"},
+    {"left": "confirm", "right": "independently"}
+  ]
+}
