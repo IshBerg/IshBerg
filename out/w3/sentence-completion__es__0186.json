@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Notwithstanding the considerable opposition from the board,",
+  "correct_completion": "the proposal was ultimately approved.",
+  "full_sentence": "Notwithstanding the considerable opposition from the board, the proposal was ultimately approved.",
+  "acceptable_variants": ["the proposal nevertheless went ahead.", "the plan was ultimately adopted."],
+  "options": [
+    {"text": "the proposal was therefore abandoned.", "is_correct": false, "why_wrong": "'Therefore' signals a consequence of the opposition, but 'notwithstanding' signals a concession, so the result must contrast with the opposition."},
+    {"text": "the proposal was ultimately approved.", "is_correct": true, "why_wrong": null},
+    {"text": "the board's opposition was widely reported.", "is_correct": false, "why_wrong": "This repeats the idea of opposition rather than providing the outcome that contrasts with it."},
+    {"text": "the committee had already rejected the plan.", "is_correct": false, "why_wrong": "This describes an earlier event and does not express a concession that overcomes the opposition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive prepositional phrase 'notwithstanding' followed by a main clause",
+  "connector": "notwithstanding",
+  "explanation": "'Notwithstanding' introduces a concession, so the main clause must report a result that goes against the opposition described in the stem. Spanish speakers may expect a cause-and-effect pattern here because Spanish often links such ideas with a simple consequence marker, but English requires a contrasting outcome.",
+  "translation": "A pesar de la considerable oposición de la junta, la propuesta fue finalmente aprobada."
+}

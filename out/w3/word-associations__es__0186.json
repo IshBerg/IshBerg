@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El río es el obstáculo que el puente permite cruzar, por eso ambas palabras pertenecen al mismo campo semántico."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "La nube pertenece al cielo y no tiene ninguna relación con la construcción o el uso de puentes."},
+    {"word": "burn", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés existe la expresión idiomática 'burn bridges', que significa destruir relaciones o posibilidades, así que se asocia por colocación."},
+    {"word": "tunnel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El túnel es otra estructura que sirve para cruzar obstáculos como montañas o ríos, igual que el puente."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "El piano es un instrumento musical y no guarda relación con puentes ni con su significado."},
+    {"word": "letter", "is_associated": false, "association_type": "NONE", "explanation": "La carta es un objeto de comunicación escrita y no se relaciona con el concepto de puente."}
+  ],
+  "correct_indices": [0, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'bridge' se asocia con palabras de cruce de obstáculos (river, tunnel) y con una expresión idiomática (burn). Las palabras no asociadas no comparten ni significado ni uso con el puente."
+}
