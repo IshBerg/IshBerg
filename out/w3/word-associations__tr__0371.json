@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "evidence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kanıt, bir tartışmada argümanı destekleyen temel unsurdur."},
+    {"word": "debate", "is_associated": true, "association_type": "THEMATIC", "explanation": "Tartışma, argümanların sunulduğu ve karşılaştırıldığı ortamdır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ, argüman kavramıyla ilgili değildir; tartışmayla bir bağlantısı yoktur."},
+    {"word": "rebuttal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Çürütme, bir argümana karşı verilen yanıttır ve tartışmalarda sık kullanılır."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Çöl, argüman kavramıyla doğrudan ilişkili değildir."},
+    {"word": "claim", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Iddia, 'make a claim' kalıbında argümanın temelini oluşturduğu için birlikte kullanılır."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Argüman kelimesiyle ilişkili kavramlar, tartışma sürecinin kanıt, iddia ve çürütme gibi unsurlarını kapsar; dağ ve çöl ise bu alanla ilgisizdir."
+}

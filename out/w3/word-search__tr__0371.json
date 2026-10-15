@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "R", "I", "D", "G", "E", "Q", "W", "K", "L"],
+    ["M", "A", "P", "S", "T", "O", "Y", "U", "H", "E"],
+    ["D", "Z", "N", "B", "R", "K", "J", "V", "G", "X"],
+    ["P", "I", "C", "Q", "F", "W", "S", "O", "A", "I"],
+    ["H", "K", "A", "X", "T", "Y", "B", "D", "M", "C"],
+    ["G", "J", "W", "L", "P", "N", "R", "S", "Z", "O"],
+    ["V", "Q", "F", "U", "E", "I", "E", "K", "M", "N"],
+    ["T", "B", "G", "H", "W", "C", "D", "U", "Q", "P"],
+    ["R", "Y", "S", "F", "K", "J", "T", "G", "L", "A"],
+    ["A", "N", "W", "Z", "O", "X", "D", "R", "E", "F"]
+  ],
+  "words_to_find": ["BRIDGE", "LEXICON", "DIALECT", "FLUENT"],
+  "word_positions": [
+    {"word": "BRIDGE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEXICON", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "DIALECT", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FLUENT", "start_row": 9, "start_col": 9, "direction": "DIAGONAL_UP_LEFT"}
+  ],
+  "topic": "Facilitating Multilingual Discourse"
+}
