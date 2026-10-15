@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "I", "S", "H", "K", "S", "F", "Q", "Z", "T"],
+    ["B", "N", "R", "E", "J", "U", "Q", "X", "V", "D"],
+    ["W", "K", "Y", "L", "A", "P", "Z", "F", "G", "R"],
+    ["T", "O", "M", "Q", "B", "P", "X", "H", "L", "Y"],
+    ["D", "C", "U", "F", "T", "O", "W", "Z", "K", "N"],
+    ["A", "V", "E", "L", "R", "S", "M", "J", "P", "C"],
+    ["G", "H", "Q", "T", "D", "E", "Y", "W", "F", "I"],
+    ["B", "X", "K", "Z", "N", "Q", "T", "R", "W", "G"],
+    ["F", "L", "Y", "D", "S", "H", "P", "Z", "E", "A"],
+    ["Q", "V", "E", "C", "N", "A", "H", "C", "T", "M"]
+  ],
+  "words_to_find": ["WISH", "MAGIC", "WOULD", "CHANCE", "SUPPOSE"],
+  "word_positions": [
+    {"word": "WISH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MAGIC", "start_row": 9, "start_col": 9, "direction": "VERTICAL_UP"},
+    {"word": "WOULD", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CHANCE", "start_row": 9, "start_col": 7, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SUPPOSE", "start_row": 0, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Hypothetical Situations"
+}

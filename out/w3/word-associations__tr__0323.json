@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık, edebi bir kavram değildir ve 'metaphor' ile anlamsal ya da tematik bir ilişkisi yoktur."},
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Simile' (benzetme), iki şeyi 'like' ya da 'as' ile karşılaştıran ve 'metaphor' ile yakından ilişkili bir söz sanatıdır."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Motor, teknik bir nesnedir ve edebi ya da retorik bir terim olan 'metaphor' ile bağlantısı yoktur."},
+    {"word": "imagery", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Imagery' (imge kullanımı), metaforların zihinde canlı resimler oluşturmak için kullanıldığı edebi bağlamda tematik olarak ilgilidir."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet günlük bir ulaşım aracıdır ve edebi retorik kavramlarıyla hiçbir bağı yoktur."},
+    {"word": "figurative", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Figurative' (mecazi), kelimenin gerçek anlamından farklı, düz olmayan bir kullanımı ifade ettiği için 'metaphor' ile anlamca ilişkilidir."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Metaphor' kelimesi; benzetme, imge ve mecazi anlam gibi edebi ve retorik kavramlarla ilişkilidir, günlük nesneler ise bu alanın dışında kalır."
+}

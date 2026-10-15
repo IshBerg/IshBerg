@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister, who lives in London,",
+  "correct_completion": "is visiting us this weekend.",
+  "full_sentence": "My sister, who lives in London, is visiting us this weekend.",
+  "acceptable_variants": ["is coming to stay with us next week.", "will arrive at our house on Friday."],
+  "options": [
+    {"text": "that I told you about yesterday.", "is_correct": false, "why_wrong": "Non-defining clauses set off by commas use 'who' or 'which', not 'that'. The clause also gives no main verb for the sentence."},
+    {"text": "is visiting us this weekend.", "is_correct": true, "why_wrong": null},
+    {"text": "lives in the house.", "is_correct": false, "why_wrong": "This repeats the verb 'lives' already used in the relative clause, so the sentence becomes ungrammatical."},
+    {"text": "who is my best friend.", "is_correct": false, "why_wrong": "Adding a second 'who' creates another relative clause without a main verb for the subject 'My sister'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "After a non-defining relative clause, the main clause must still have its own subject and verb. The verb in the main clause must agree with the subject and express the main action.",
+  "translation": "Londra'da yaşayan kız kardeşim bu hafta sonu bizi ziyaret ediyor."
+}
