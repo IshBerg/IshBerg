@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child,",
+  "correct_completion": "I used to live in a small village.",
+  "full_sentence": "When I was a child, I used to live in a small village.",
+  "acceptable_variants": ["I used to live in a small village by the sea.", "I would live in a small village."],
+  "options": [
+    {"text": "I am going to a big city tomorrow.", "is_correct": false, "why_wrong": "This uses a future form, which does not describe a past habit. 'Used to' describes a past habit or state that no longer continues."},
+    {"text": "I have lived in a city since 2010.", "is_correct": false, "why_wrong": "The present perfect describes a period that continues up to now, not a past habit that has stopped."},
+    {"text": "I used to live in a small village.", "is_correct": true, "why_wrong": null},
+    {"text": "I use to live in a small village.", "is_correct": false, "why_wrong": "The form is wrong. After 'used to' the verb 'use' must be written with a final 'd' as 'used', so the correct form is 'used to'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Used to for past habits and states",
+  "connector": "when",
+  "explanation": "After a time clause that describes childhood, the sentence needs a past habit or state that no longer happens. 'Used to' with the base verb expresses this, and the other options describe the present, the future or a time that continues now.",
+  "translation": "Ben çocukken küçük bir köyde yaşardım."
+}
