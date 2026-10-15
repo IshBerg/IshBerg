@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "actual", "transliteration": "actual", "meaning": "current or present (not 'actual' in the English sense)"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive (not 'sensible' in the English sense)"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop (not 'library')"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant (not 'embarrassed')"}
+  ],
+  "english_words": ["pregnant", "current", "bookshop", "sensitive"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words look almost identical in both languages because they share Latin roots, so English speakers may assume they mean the same thing. Their meanings in the two languages have drifted apart over time.",
+  "false_friend_warning": "Each of these words looks like an English word but means something different. Students should not translate them literally, because using the English meaning will produce incorrect sentences."
+}

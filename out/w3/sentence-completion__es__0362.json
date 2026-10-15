@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though public transport is cheap,",
+  "correct_completion": "many people still prefer to drive.",
+  "full_sentence": "Even though public transport is cheap, many people still prefer to drive.",
+  "acceptable_variants": ["many people still choose their cars.", "driving remains popular among commuters."],
+  "options": [
+    {"text": "so people walk to work.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'even though' needs a contrast with the first part of the sentence."},
+    {"text": "buses are full every morning.", "is_correct": false, "why_wrong": "This adds a fact about buses but does not contrast with the idea that transport is cheap."},
+    {"text": "many people still prefer to drive.", "is_correct": true, "why_wrong": null},
+    {"text": "the city has many roads.", "is_correct": false, "why_wrong": "This adds a fact about the city but does not create the expected contrast after 'even though'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the main clause must show a contrast with the first part. Here, the low price of transport is contrasted with a preference that goes against the expected choice.",
+  "translation": "Aunque el transporte público es barato, muchas personas todavía prefieren conducir."
+}

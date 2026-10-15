@@ -1,0 +1,20 @@
+{
+  "title": "Tom Has a Cold",
+  "text": "Tom has a cold. He feels tired and he has a headache. He stays in bed and drinks hot tea. The doctor says he needs rest.\n\nThe next day, Tom feels better. He eats soup for lunch. He goes to the park with his dog. He is happy because he is not sick anymore.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Tom have?", "options": ["A cold", "A toothache", "A broken arm", "A fever"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Tom eat for lunch?", "options": ["Soup", "Rice", "Bread", "Fish"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Tom stay in bed?", "options": ["He is sick", "He wants to play", "He is at school", "He is on vacation"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we say about Tom at the end of the story?", "options": ["He is still ill", "He is well again", "He is at the hospital", "He is at school"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "cold", "translation": "resfriado", "definition": "an illness that makes your nose run and makes you cough"},
+    {"word": "tired", "translation": "cansado", "definition": "wanting to sleep or rest because you have no energy"},
+    {"word": "doctor", "translation": "médico", "definition": "a person who helps sick people and tells them how to get better"},
+    {"word": "better", "translation": "mejor", "definition": "more healthy after being sick"}
+  ],
+  "paragraph_translations": [
+    "Tom tiene un resfriado. Se siente cansado y tiene dolor de cabeza. Se queda en la cama y bebe té caliente. El médico dice que necesita descanso.",
+    "Al día siguiente, Tom se siente mejor. Almuerza sopa. Va al parque con su perro. Está contento porque ya no está enfermo."
+  ]
+}
