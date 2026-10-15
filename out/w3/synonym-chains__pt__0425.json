@@ -1,0 +1,17 @@
+{
+  "central_word": "happy",
+  "chain_words": [
+    {"word": "content", "intensity": 1, "translation": "contente", "nuance": "mild satisfaction"},
+    {"word": "pleased", "intensity": 2, "translation": "satisfeito", "nuance": "slightly more active happiness"},
+    {"word": "happy", "intensity": 3, "translation": "feliz", "nuance": "general positive emotion"},
+    {"word": "delighted", "intensity": 4, "translation": "encantado", "nuance": "great pleasure"},
+    {"word": "ecstatic", "intensity": 5, "translation": "extasiado", "nuance": "overwhelming joy"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express happiness but with different intensities, from calm contentment to overwhelming joy.",
+  "usage_notes": [
+    {"word1": "pleased", "word2": "delighted", "difference": "'Pleased' describes mild satisfaction with something that happened; 'delighted' shows much stronger, more intense pleasure."}
+  ],
+  "translations": {"content": "contente", "pleased": "satisfeito", "happy": "feliz", "delighted": "encantado", "ecstatic": "extasiado"}
+}

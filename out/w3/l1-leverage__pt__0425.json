@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "animal", "transliteration": "animal", "meaning": "animal"},
+    {"word": "música", "transliteration": "musica", "meaning": "music"},
+    {"word": "rádio", "transliteration": "radio", "meaning": "radio"},
+    {"word": "tigre", "transliteration": "tigre", "meaning": "tiger"}
+  ],
+  "english_words": ["music", "tiger", "animal", "radio"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "All four words were borrowed from the same Latin or Greek sources, so the English and Portuguese spellings stayed close and the meanings match.",
+  "false_friend_warning": null
+}
