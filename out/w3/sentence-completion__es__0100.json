@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom has already",
+  "correct_completion": "finished his homework.",
+  "full_sentence": "Tom has already finished his homework.",
+  "acceptable_variants": ["done his homework.", "completed his homework."],
+  "options": [
+    {"text": "yet finished his homework.", "is_correct": false, "why_wrong": "'Yet' is not placed between 'has' and the past participle in a positive sentence. It goes at the end of negatives and questions."},
+    {"text": "finished his homework yesterday.", "is_correct": false, "why_wrong": "'Yesterday' needs the past simple, not the present perfect, so it cannot follow this stem."},
+    {"text": "finished his homework.", "is_correct": true, "why_wrong": null},
+    {"text": "is finishing his homework.", "is_correct": false, "why_wrong": "The present continuous cannot follow 'has already'. The structure needs 'has' plus a past participle."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'already' in positive sentences",
+  "connector": "already",
+  "explanation": "In positive present perfect sentences, 'already' goes between the auxiliary 'has' and the past participle. Learners whose first language has no separate perfect tense often use the simple past here, but English present perfect links a finished action to the present moment.",
+  "translation": "Tom ya terminó su tarea."
+}

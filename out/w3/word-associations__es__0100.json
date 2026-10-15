@@ -1,0 +1,14 @@
+{
+  "trigger_word": "phone",
+  "all_words": [
+    {"word": "call", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se hace una llamada (call) con el teléfono; es una combinación de palabras muy habitual."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "La zanahoria es un alimento y no tiene ninguna relación con el teléfono."},
+    {"word": "battery", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La batería es una parte necesaria del teléfono móvil, por eso el significado está relacionado."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "El árbol no tiene ninguna conexión con el teléfono."},
+    {"word": "screen", "is_associated": true, "association_type": "THEMATIC", "explanation": "La pantalla es una de las partes principales del teléfono, así que pertenece al mismo tema."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El zapato es una prenda de vestir y no se relaciona con el teléfono."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con el teléfono son partes del aparato y acciones que se hacen con él; las demás no tienen conexión."
+}

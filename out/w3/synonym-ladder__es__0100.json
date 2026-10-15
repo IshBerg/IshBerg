@@ -1,0 +1,13 @@
+{
+  "start_word": "empty",
+  "end_word": "full",
+  "ladder_steps": [
+    {"word": "empty", "translation": "vacía", "intensity_level": 1},
+    {"word": "low", "translation": "baja", "intensity_level": 2},
+    {"word": "half", "translation": "media", "intensity_level": 3},
+    {"word": "high", "translation": "alta", "intensity_level": 4},
+    {"word": "full", "translation": "llena", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Battery charge levels form a ladder from empty to full, each step higher than the last."
+}
