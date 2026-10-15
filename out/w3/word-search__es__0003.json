@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["X", "B", "R", "A", "N", "D", "Q", "W", "K", "P"],
+    ["J", "L", "F", "H", "G", "U", "T", "Y", "O", "C"],
+    ["M", "K", "Z", "V", "P", "H", "Q", "S", "S", "X"],
+    ["B", "W", "N", "C", "R", "K", "T", "D", "L", "E"],
+    ["R", "G", "Q", "J", "F", "E", "Z", "M", "O", "A"],
+    ["E", "Y", "L", "S", "R", "D", "N", "W", "G", "K"],
+    ["W", "P", "C", "F", "T", "J", "K", "U", "A", "B"],
+    ["E", "H", "X", "Q", "L", "M", "V", "G", "N", "R"],
+    ["I", "O", "B", "D", "T", "X", "S", "Z", "K", "P"],
+    ["V", "Q", "A", "I", "D", "E", "M", "Z", "T", "L"]
+  ],
+  "words_to_find": ["BRAND", "SLOGAN", "MEDIA", "POSTER", "VIEWER"],
+  "word_positions": [
+    {"word": "BRAND", "start_row": 0, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "SLOGAN", "start_row": 2, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "MEDIA", "start_row": 9, "start_col": 6, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "POSTER", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "VIEWER", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Media and Advertising"
+}
