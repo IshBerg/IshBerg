@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hypothesis",
+  "all_words": [
+    {"word": "theory", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bu kelime hypothesis ile yakın anlamlıdır; ikisi de bir açıklamayı ifade eder, ama teori daha kapsamlı ve kanıtlanmış bir yapıdır."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet bilimsel düşünce ya da akademik araştırma ile hiçbir ilgisi olmayan somut bir nesnedir."},
+    {"word": "experiment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Deney, bir hipotezi sınamak için yapılan başlıca yöntemdir, bu yüzden aynı akademik konuya aittir."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sandviç günlük yiyecek olup bilimsel bir kavramla ilişkisi yoktur."},
+    {"word": "test", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "İngilizcede 'test a hypothesis' yaygın bir eş dizimdir; bir hipotezi sınamak anlamına gelir."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitar müzik aletidir ve akademik bir kavram olan hipotezle bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Hypothesis kelimesi açıklama, deney ve sınama gibi bilimsel araştırma kavramlarıyla ilişkilidir; günlük nesneler ise bu alana ait değildir."
+}
