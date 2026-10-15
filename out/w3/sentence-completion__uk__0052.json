@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Every morning, I eat",
+  "correct_completion": "an apple before school.",
+  "full_sentence": "Every morning, I eat an apple before school.",
+  "acceptable_variants": ["an egg for breakfast.", "an orange after lunch."],
+  "options": [
+    {"text": "a apple before school.", "is_correct": false, "why_wrong": "'A' is used before consonant sounds. 'Apple' begins with a vowel sound, so it needs 'an'. Ukrainian has no articles, so this error is common."},
+    {"text": "apple before school.", "is_correct": false, "why_wrong": "A singular countable noun needs an article such as 'a' or 'an' in this sentence. Ukrainian speakers often drop articles for this reason."},
+    {"text": "an apple before school.", "is_correct": true, "why_wrong": null},
+    {"text": "an apples before school.", "is_correct": false, "why_wrong": "'An' goes only with singular nouns, and 'apples' is plural here. Use 'apples' without an article for plural nouns in general statements."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indefinite articles 'a' and 'an' with singular countable nouns",
+  "connector": "a / an",
+  "explanation": "Use 'an' before a singular countable noun that begins with a vowel sound. Ukrainian has no articles, so learners often drop them or choose the wrong form.",
+  "translation": "Кожного ранку я їм яблуко перед школою."
+}

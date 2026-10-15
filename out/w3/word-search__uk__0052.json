@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["O", "P", "I", "N", "I", "O", "N"],
+    ["K", "Q", "X", "S", "T", "Z", "J"],
+    ["C", "H", "A", "R", "G", "U", "E"],
+    ["L", "V", "F", "B", "N", "Y", "K"],
+    ["A", "I", "D", "O", "U", "B", "T"],
+    ["I", "E", "P", "J", "Z", "S", "R"],
+    ["M", "W", "H", "G", "L", "A", "Y"]
+  ],
+  "words_to_find": ["OPINION", "CLAIM", "ARGUE", "DOUBT", "VIEW"],
+  "word_positions": [
+    {"word": "OPINION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAIM", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "ARGUE", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "DOUBT", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "VIEW", "start_row": 3, "start_col": 1, "direction": "VERTICAL"}
+  ],
+  "topic": "Opinion Language and Stance"
+}
