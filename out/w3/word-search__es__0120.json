@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["I", "D", "I", "O", "M", "X", "P"],
+    ["S", "K", "Q", "W", "Z", "V", "H"],
+    ["L", "B", "J", "F", "X", "T", "R"],
+    ["A", "Z", "K", "Q", "M", "V", "A"],
+    ["N", "W", "P", "X", "J", "Q", "S"],
+    ["G", "V", "B", "K", "T", "L", "E"],
+    ["O", "R", "I", "G", "I", "N", "Z"]
+  ],
+  "words_to_find": ["IDIOM", "PHRASE", "ORIGIN", "SLANG"],
+  "word_positions": [
+    {"word": "IDIOM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PHRASE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ORIGIN", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLANG", "start_row": 1, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Idiomatic Expressions and Their Origins"
+}
