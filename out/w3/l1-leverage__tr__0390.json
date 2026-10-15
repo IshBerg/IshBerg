@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pasta", "transliteration": "pasta", "meaning": "cake"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "friendly"},
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current"},
+    {"word": "kalem", "transliteration": "kalem", "meaning": "pencil"}
+  ],
+  "english_words": ["pencil", "current", "cake", "friendly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Turkish borrowed several of these words from European languages, so the spelling matches English in some cases. Over time the Turkish meanings changed, so the same spelling now points to a different English meaning.",
+  "false_friend_warning": "The Turkish word that looks exactly like the English word 'pasta' means 'cake' in Turkish, not the noodle dish. A Turkish speaker who asks for 'pasta' in an English-speaking place may be understood as ordering noodles."
+}
