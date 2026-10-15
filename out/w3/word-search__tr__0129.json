@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["M", "E", "T", "A", "P", "H", "O", "R"],
+    ["Q", "W", "K", "N", "U", "O", "V", "L"],
+    ["Z", "B", "J", "A", "N", "M", "D", "F"],
+    ["K", "X", "L", "G", "E", "O", "T", "W"],
+    ["B", "Q", "H", "R", "F", "N", "J", "C"],
+    ["D", "V", "S", "A", "K", "Y", "Z", "U"],
+    ["W", "P", "F", "M", "B", "M", "X", "Q"],
+    ["I", "R", "O", "N", "Y", "T", "K", "A"]
+  ],
+  "words_to_find": ["METAPHOR", "ANAGRAM", "PUN", "HOMONYM", "IRONY"],
+  "word_positions": [
+    {"word": "METAPHOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ANAGRAM", "start_row": 0, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "PUN", "start_row": 0, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "HOMONYM", "start_row": 0, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Wordplay, Puns and Double Meaning"
+}
