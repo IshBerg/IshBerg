@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "журнал", "transliteration": "zhurnal", "meaning": "magazine (printed periodical)"},
+    {"word": "миска", "transliteration": "myska", "meaning": "bowl"},
+    {"word": "пилосос", "transliteration": "pylosos", "meaning": "vacuum cleaner"}
+  ],
+  "english_words": ["magazine", "vacuum cleaner", "shop", "bowl"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both words descend from the Arabic word for storehouse, which reached Ukrainian through French and Russian, so the forms stayed close. English 'magazine' later narrowed to mean a printed periodical, while the Ukrainian word kept the older sense of a shop.",
+  "false_friend_warning": "The Ukrainian word 'mahazyn' looks like the English word 'magazine', but it means 'shop'; in English, 'magazine' refers to a printed periodical, so this is a false friend."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the proposal would probably have been approved.",
+  "full_sentence": "Had the committee been informed earlier, the proposal would probably have been approved.",
+  "acceptable_variants": ["the proposal would likely have passed.", "the decision would have been different."],
+  "options": [
+    {"text": "the proposal is approved now.", "is_correct": false, "why_wrong": "This is a present-tense statement and does not complete the past unreal conditional started by 'Had ... been informed'."},
+    {"text": "so the proposal was never approved.", "is_correct": false, "why_wrong": "'So' introduces a consequence of a real fact, not a hypothetical result, so it does not complete an inverted conditional."},
+    {"text": "the proposal would probably have been approved.", "is_correct": true, "why_wrong": null},
+    {"text": "the proposal will be approved tomorrow.", "is_correct": false, "why_wrong": "A future-tense completion does not match the past hypothetical meaning of the inverted conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and a conditional perfect in the main clause",
+  "connector": "had (inverted if)",
+  "explanation": "In an inverted conditional, 'had' moves to the front and replaces 'if'. The main clause then needs a conditional perfect ('would have' plus a past participle) to express an unreal past result. Ukrainian expresses unreal past meaning with a past verb plus a separate conditional particle, so learners may leave the main verb in a simple form or use a simple future; the conditional perfect is the target here.",
+  "translation": "Якби комітет був поінформований раніше, пропозицію, ймовірно, схвалили б."
+}
