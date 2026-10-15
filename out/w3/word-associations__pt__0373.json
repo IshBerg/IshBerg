@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pollution",
+  "all_words": [
+    {"word": "smoke", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A fumaça é uma das principais formas de poluição do ar, por isso está diretamente ligada ao tema."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "O piano é um instrumento musical e não tem relação com a poluição."},
+    {"word": "air", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Forma a expressão 'air pollution' (poluição do ar), uma combinação muito comum em inglês."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "A ponte é uma construção e não se relaciona com a poluição."},
+    {"word": "recycling", "is_associated": true, "association_type": "THEMATIC", "explanation": "A reciclagem é uma das principais ações para reduzir a poluição, por isso pertence ao mesmo tema."},
+    {"word": "sugar", "is_associated": false, "association_type": "NONE", "explanation": "O açúcar é um alimento e não tem relação com a poluição."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'pollution' incluem fenômenos que causam poluição, expressões comuns com o termo e ações que a combatem."
+}

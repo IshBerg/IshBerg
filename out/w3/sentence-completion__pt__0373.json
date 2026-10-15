@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poet used simple words,",
+  "correct_completion": "the poem moved every reader deeply.",
+  "full_sentence": "Although the poet used simple words, the poem moved every reader deeply.",
+  "acceptable_variants": ["the poem still moved every reader deeply.", "the verses nevertheless left a lasting impression."],
+  "options": [
+    {"text": "so the poem was very short.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' sets up a contrast, so this result does not fit the connector."},
+    {"text": "because the verses rhyme in pairs.", "is_correct": false, "why_wrong": "'Because' introduces a cause. 'Although' requires a contrast, so this clause clashes with the connector."},
+    {"text": "the poem moved every reader deeply.", "is_correct": true, "why_wrong": null},
+    {"text": "the book was printed in 1990.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not express the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the clause must contrast with the first part of the sentence. Simple words usually suggest a modest effect, so a strong emotional impact completes the contrast. Portuguese speakers may reach for a cause connector here because the two ideas feel related, but English 'although' always marks concession, not reason.",
+  "translation": "Embora o poeta tenha usado palavras simples, o poema emocionou profundamente todos os leitores."
+}
