@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother is very busy at work, so",
+  "correct_completion": "he rarely has time to visit us.",
+  "full_sentence": "My brother is very busy at work, so he rarely has time to visit us.",
+  "acceptable_variants": ["he seldom has time to visit us.", "he hardly ever has time to visit us."],
+  "options": [
+    {"text": "he always has time to visit us.", "is_correct": false, "why_wrong": "This contradicts the stem, because being very busy makes frequent visits unlikely, not guaranteed."},
+    {"text": "he likes to play football.", "is_correct": false, "why_wrong": "This gives a hobby, but it does not follow as a result of being busy at work."},
+    {"text": "he rarely has time to visit us.", "is_correct": true, "why_wrong": null},
+    {"text": "he buys us lunch every day.", "is_correct": false, "why_wrong": "This is a habit that does not follow from being busy, so it does not complete the logic after 'so'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Adverbs of frequency: position before the main verb",
+  "connector": "so",
+  "explanation": "Rarely means almost never, and it fits after 'so' as the result of being busy. The frequency adverb goes before the main verb 'has', not at the end of the clause. Polish speakers may place such adverbs in a different position, so this word order needs practice.",
+  "translation": "Mój brat jest bardzo zajęty w pracy, więc rzadko ma czas, żeby nas odwiedzić."
+}
