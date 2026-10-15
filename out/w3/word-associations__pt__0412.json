@@ -1,0 +1,14 @@
+{
+  "trigger_word": "gift",
+  "all_words": [
+    {"word": "box", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Gift box' é uma caixa para presentes, por isso a palavra forma uma expressão comum em inglês."},
+    {"word": "cat", "is_associated": false, "association_type": "NONE", "explanation": "Gato não tem relação com presentes."},
+    {"word": "ribbon", "is_associated": true, "association_type": "THEMATIC", "explanation": "A fita costuma enfeitar os presentes."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Carro não tem relação com presentes."},
+    {"word": "card", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O cartão costuma acompanhar o presente, por exemplo com uma mensagem de agradecimento."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Mesa não tem relação com presentes."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'gift' são as que aparecem junto com presentes: caixa, fita e cartão. As outras palavras não têm relação com o tema."
+}

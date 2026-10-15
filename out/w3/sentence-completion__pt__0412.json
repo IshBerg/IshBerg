@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the hotel was expensive,",
+  "correct_completion": "the room was clean and comfortable.",
+  "full_sentence": "Although the hotel was expensive, the room was clean and comfortable.",
+  "acceptable_variants": ["the staff was friendly.", "we still enjoyed our stay."],
+  "options": [
+    {"text": "so we booked it again.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast with the first part of the sentence."},
+    {"text": "it was located near the beach.", "is_correct": false, "why_wrong": "This adds a fact about the location but does not give the contrast expected after 'although'."},
+    {"text": "the room was clean and comfortable.", "is_correct": true, "why_wrong": null},
+    {"text": "we always stay there in summer.", "is_correct": false, "why_wrong": "This describes a habit and does not contrast with the high price mentioned at the start."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. A high price is followed by a positive quality, which is the expected contrast.",
+  "translation": "Embora o hotel fosse caro, o quarto era limpo e confortável."
+}
