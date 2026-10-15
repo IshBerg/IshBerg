@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The hotel is very close to the beach, so",
+  "correct_completion": "guests can walk there in five minutes.",
+  "full_sentence": "The hotel is very close to the beach, so guests can walk there in five minutes.",
+  "acceptable_variants": ["guests can reach it on foot.", "guests often go swimming in the morning."],
+  "options": [
+    {"text": "guests must pay extra for parking.", "is_correct": false, "why_wrong": "This is a cost, but it does not follow from the hotel being close to the beach. 'So' needs a result that comes from the location."},
+    {"text": "guests can walk there in five minutes.", "is_correct": true, "why_wrong": null},
+    {"text": "however, the rooms are very big.", "is_correct": false, "why_wrong": "'However' introduces a contrast, but 'so' introduces a result, so the connector and the meaning do not match."},
+    {"text": "the hotel was built in 1990.", "is_correct": false, "why_wrong": "This is a historical fact. It is not a result of the hotel's position near the beach."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result of the first clause. Here the short distance to the beach is the cause, so the completion should describe what guests can do because of it. Polish speakers sometimes confuse 'so' with 'because' or 'however', so it helps to check whether the second clause is a result or a contrast.",
+  "translation": "Hotel jest bardzo blisko plaży, więc goście mogą tam dojść w pięć minut."
+}
