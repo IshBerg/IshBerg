@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee finally decided",
+  "correct_completion": "was far less controversial than anyone had predicted.",
+  "full_sentence": "What the committee finally decided was far less controversial than anyone had predicted.",
+  "acceptable_variants": ["was much less contentious than most observers expected.", "turned out to be a surprisingly calm compromise."],
+  "options": [
+    {"text": "that the meeting would end early.", "is_correct": false, "why_wrong": "A 'that'-clause here does not supply a predicate for the subject 'What the committee finally decided', so the sentence never reaches a main verb."},
+    {"text": "the members of the committee, who were tired.", "is_correct": false, "why_wrong": "This adds more people instead of completing the nominal subject, and no verb follows that could link it to the subject."},
+    {"text": "was far less controversial than anyone had predicted.", "is_correct": true, "why_wrong": null},
+    {"text": "decided it on Tuesday morning.", "is_correct": false, "why_wrong": "'It' has no clear referent, and this gives a time detail instead of the evaluative predicate the nominal clause requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Wh-nominal clauses functioning as sentence subjects",
+  "connector": "what",
+  "explanation": "A 'what'-clause that acts as the subject must be followed by a finite verb and its predicate. Portuguese speakers may find this structure unusual because Portuguese often places the subject after the verb, so the English subject needs its verb to come immediately after the whole nominal clause.",
+  "translation": "O que o comitê finalmente decidiu foi muito menos polêmico do que todos haviam previsto."
+}
