@@ -1,0 +1,32 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "jam",
+  "collocate": "traffic",
+  "full_collocation": "traffic jam",
+  "options": ["road", "car", "traffic", "street"],
+  "correct_index": 2,
+  "distractors": [
+    {"word": "road", "reason": "'Road jam' is not a standard collocation. English names the blocked vehicles as 'traffic' and the blockage as a 'jam'."},
+    {"word": "car", "reason": "'Car jam' is unusual. The noun that describes the vehicles stuck in the jam is 'traffic'."},
+    {"word": "street", "reason": "'Street jam' is not used. A blockage on any road is a 'traffic jam', whatever the road is called."}
+  ],
+  "example_sentence": "We were stuck in a ___ jam on the motorway.",
+  "gap_position": 5,
+  "translation": "затор на дорозі",
+  "l1_interference": "В українській мові слово 'пробка' означає і корок, і затор на дорозі, тому українці можуть переносити це значення на англійську й шукати просте слово для 'jam'. В англійській правильна пара — 'traffic jam', де перший іменник уточнює, що саме застрягло.",
+  "common_mistake": "road jam",
+  "explanation": "In English noun compounds the first noun modifies the second. 'Jam' is the head noun, and 'traffic' specifies what kind of jam it is. Ukrainian speakers may look for a single general noun or try to reuse the familiar 'cork' meaning, which does not work in this compound.",
+  "matching_pairs": [
+    {"left": "bus", "right": "stop"},
+    {"left": "credit", "right": "card"},
+    {"left": "fire", "right": "alarm"},
+    {"left": "weather", "right": "forecast"},
+    {"left": "dress", "right": "code"}
+  ],
+  "related_collocations": [
+    {"collocation": "traffic light", "translation": "світлофор", "example": "Stop when the traffic light turns red."},
+    {"collocation": "road map", "translation": "дорожня карта", "example": "We checked the road map before the trip."},
+    {"collocation": "rush hour", "translation": "час пік", "example": "Avoid driving through the city during rush hour."}
+  ],
+  "memory_tip": "TRAFFIC JAM = the vehicles that block the road | In noun compounds, the first noun describes the second: 'traffic jam', 'fire alarm', 'bus stop'"
+}
