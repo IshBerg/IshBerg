@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The director told the journalists that",
+  "correct_completion": "the film would be released in May.",
+  "full_sentence": "The director told the journalists that the film would be released in May.",
+  "acceptable_variants": ["the film was going to be released in May.", "the release of the film was set for May."],
+  "options": [
+    {"text": "the film will be released in May.", "is_correct": false, "why_wrong": "After a past reporting verb such as 'told', the future 'will' normally shifts back to 'would' in reported speech."},
+    {"text": "the film would be released in May.", "is_correct": true, "why_wrong": null},
+    {"text": "would the film be released in May?", "is_correct": false, "why_wrong": "A reported question needs statement word order and no question mark; a reported statement cannot keep the question form."},
+    {"text": "the film releasing in May.", "is_correct": false, "why_wrong": "This clause has no finite verb, so it cannot complete the reported statement introduced by 'that'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Backshift of tenses in reported speech after a past reporting verb",
+  "connector": "that",
+  "explanation": "When the reporting verb is in the past, the verb in the reported clause usually moves one step back in time, so the future form becomes a conditional form. Portuguese speakers may transfer the future tense directly, because their first language does not always apply this shift in the same way.",
+  "translation": "O diretor disse aos jornalistas que o filme seria lançado em maio."
+}
