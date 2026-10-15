@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had listened to my advice,",
+  "correct_completion": "I would not have made that mistake.",
+  "full_sentence": "If only I had listened to my advice, I would not have made that mistake.",
+  "acceptable_variants": ["I wouldn't have made that mistake.", "I would have avoided this problem."],
+  "options": [
+    {"text": "I will make that mistake again.", "is_correct": false, "why_wrong": "'Will' points to the future. 'If only' with a past form expresses regret about the past, so a past conditional is needed."},
+    {"text": "I don't make mistakes like that.", "is_correct": false, "why_wrong": "This is a present general statement. It does not express regret about a past action."},
+    {"text": "I would not have made that mistake.", "is_correct": true, "why_wrong": null},
+    {"text": "I made that mistake yesterday.", "is_correct": false, "why_wrong": "This reports a real past event. It does not express an unreal wish or regret."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Wishes about the past with 'if only' plus past perfect and 'would have'",
+  "connector": "if only",
+  "explanation": "After 'if only', the past perfect expresses a wish about something that did not happen. The main clause then uses 'would have' plus a past participle to show the imagined result. Learners often use a simple past or a present form here because the regret concerns the past, so the past perfect and 'would have' are required. Turkish speakers may also be tempted to use a simple past in the main clause, because they map the regret directly onto one past tense.",
+  "translation": "Keşke tavsiyeme kulak verseydim, o hatayı yapmazdım."
+}
