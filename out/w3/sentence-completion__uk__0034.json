@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she was very tired,",
+  "correct_completion": "she finished the report before midnight.",
+  "full_sentence": "Although she was very tired, she finished the report before midnight.",
+  "acceptable_variants": ["she still finished the report before midnight.", "she managed to finish the report anyway."],
+  "options": [
+    {"text": "so she went to bed early.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. 'Although' needs a clause that goes against the expectation set by the first part."},
+    {"text": "she had to skip lunch again.", "is_correct": false, "why_wrong": "This gives another cause of tiredness, so it repeats the first clause instead of contrasting with it."},
+    {"text": "she finished the report before midnight.", "is_correct": true, "why_wrong": null},
+    {"text": "she always drinks a lot of coffee.", "is_correct": false, "why_wrong": "This states a habit, not an action that contrasts with being tired, so 'although' has no clear opposition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. Learners may choose a result or cause clause here, but the concessive meaning requires an action that is unexpected given the first part.",
+  "translation": "Хоча вона була дуже втомлена, вона закінчила звіт до півночі."
+}
