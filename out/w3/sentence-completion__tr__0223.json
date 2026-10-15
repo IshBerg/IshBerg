@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The evidence suggests, though it would be premature to state this outright, that",
+  "correct_completion": "the policy may have had some effect.",
+  "full_sentence": "The evidence suggests, though it would be premature to state this outright, that the policy may have had some effect.",
+  "acceptable_variants": ["the policy might have had a modest effect.", "the policy could have contributed to the change."],
+  "options": [
+    {"text": "the policy has definitely failed.", "is_correct": false, "why_wrong": "This states a certain conclusion, which contradicts the hedge 'premature to state this outright'."},
+    {"text": "the policy may have had some effect.", "is_correct": true, "why_wrong": null},
+    {"text": "the policy had no effect whatsoever.", "is_correct": false, "why_wrong": "This is an absolute claim. The stem signals tentative judgement, and the evidence is described as suggestive, not conclusive."},
+    {"text": "the policy is clearly the only cause.", "is_correct": false, "why_wrong": "This removes all hedging and claims certainty, which the stem explicitly avoids."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Epistemic modals and hedging language (may have, suggest, premature)",
+  "connector": "that",
+  "explanation": "The stem uses hedging to signal tentative judgement, so the completion must keep a modal of possibility and avoid absolute claims. Turkish speakers often translate tentative meaning directly, which can produce overly certain English, so students should match the strength of the modal to the strength of the evidence.",
+  "translation": "Kanıtlar, bunu kesin bir dille söylemek erken olsa da, politikanın bir miktar etkisi olmuş olabileceğini göstermektedir."
+}
