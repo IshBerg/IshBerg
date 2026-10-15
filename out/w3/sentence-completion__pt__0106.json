@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was cooking dinner,",
+  "correct_completion": "the phone rang suddenly.",
+  "full_sentence": "While I was cooking dinner, the phone rang suddenly.",
+  "acceptable_variants": ["the doorbell rang.", "someone knocked on the door."],
+  "options": [
+    {"text": "I cook dinner every day.", "is_correct": false, "why_wrong": "This uses the simple present for a routine. The stem needs the past continuous to describe an action in progress in the past."},
+    {"text": "the phone rang suddenly.", "is_correct": true, "why_wrong": null},
+    {"text": "the phone has rung.", "is_correct": false, "why_wrong": "The present perfect does not match the past time frame set by 'while I was cooking'."},
+    {"text": "I will cook dinner later.", "is_correct": false, "why_wrong": "This uses the future, but the stem describes a past action in progress, so it does not complete the sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous with 'while' for an action in progress, interrupted by a past simple action",
+  "connector": "while",
+  "explanation": "'While' introduces the longer past action in progress, which takes the past continuous. The second clause uses the past simple for the sudden, shorter event that interrupts it.",
+  "translation": "Enquanto eu estava cozinhando o jantar, o telefone tocou de repente."
+}
