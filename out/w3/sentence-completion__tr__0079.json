@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday it rained all day, so",
+  "correct_completion": "we stayed at home and watched a film.",
+  "full_sentence": "Yesterday it rained all day, so we stayed at home and watched a film.",
+  "acceptable_variants": ["we stayed inside and cleaned the house.", "we stayed at home and played games."],
+  "options": [
+    {"text": "we walked to the park.", "is_correct": false, "why_wrong": "Walking to the park does not follow logically from heavy rain all day. 'So' needs a result that makes sense after the cause."},
+    {"text": "we will go to the park tomorrow.", "is_correct": false, "why_wrong": "This uses 'will' (future), but the sentence is about yesterday, so the past simple is needed."},
+    {"text": "we stayed at home and watched a film.", "is_correct": true, "why_wrong": null},
+    {"text": "the park was very big.", "is_correct": false, "why_wrong": "This describes the park but does not give a result of the rain, so it does not complete the cause-and-result pattern of 'so'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple regular verbs (stayed, watched) after 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result: because it rained all day, the speaker stayed at home. The verbs 'stayed' and 'watched' are regular past simple forms made by adding -ed. Turkish speakers may use a present or future form here, but the story is in the past, so the past simple is needed.",
+  "translation": "Dün bütün gün yağmur yağdı, bu yüzden evde kaldık ve bir film izledik."
+}

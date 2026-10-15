@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ball",
+  "all_words": [
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kalem ile top arasında anlamlı bir bağlantı yoktur; kalem yazı yazmak için kullanılır."},
+    {"word": "kick", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Kick a ball' (topa vurmak) çok sık kullanılan bir birlikte kullanım olduğu için eş-dizimsel bir bağlantıdır."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Nehir ile top arasında doğrudan bir ilişki yoktur."},
+    {"word": "game", "is_associated": true, "association_type": "THEMATIC", "explanation": "Top birçok oyunun önemli bir parçasıdır, bu nedenle konu olarak ilişkilidir."},
+    {"word": "football", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Futbol topla oynanan bir spordur, bu nedenle anlamca yakın bir kelimedir."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Kaşık ile top arasında bir bağlantı yoktur; kaşık mutfakta kullanılır."}
+  ],
+  "correct_indices": [1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Top kelimesi oyunlar, sporlar ve top ile yapılan eylemlerle ilişkilidir; kalem, nehir ve kaşık ise ilgisizdir."
+}
