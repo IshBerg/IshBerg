@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hair",
+  "all_words": [
+    {"word": "brown", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kahverengi, saç rengini anlatmak için en sık kullanılan renklerden biridir, bu yüzden anlamsal bir bağlantı var."},
+    {"word": "tall", "is_associated": false, "association_type": "NONE", "explanation": "Uzun, insanın boyuyla ilgilidir, saçla ilgili değildir."},
+    {"word": "comb", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Saçını taramak yaygın bir ifadedir; 'comb your hair' sık kullanılan bir eşleşmedir."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisikletin saçla bir ilgisi yoktur."},
+    {"word": "curly", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kıvırcık, saçın şeklini anlatan bir sıfattır."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Pencerenin saçla bir ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bu kelimelerin bir kısmı saçın rengini, şeklini ve bakımını anlatır; diğerleri bu konuyla ilgisizdir."
+}
