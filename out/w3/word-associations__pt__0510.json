@@ -1,0 +1,14 @@
+{
+  "trigger_word": "map",
+  "all_words": [
+    {"word": "road", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'road map' (mapa de estradas) é muito comum em inglês."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Sapato não tem relação com mapas."},
+    {"word": "compass", "is_associated": true, "association_type": "THEMATIC", "explanation": "A bússola é um instrumento usado junto com o mapa para encontrar direções."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piano é um instrumento musical e não se relaciona com mapas."},
+    {"word": "city", "is_associated": true, "association_type": "THEMATIC", "explanation": "Muitos mapas mostram cidades, então esta palavra pertence ao mesmo tema."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Colher é um utensílio de cozinha e não tem relação com mapas."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'map' são lugares, instrumentos de orientação e combinações habituais com a palavra; as outras não têm relação com mapas."
+}
