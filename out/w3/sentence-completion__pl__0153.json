@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you want to pass the exam,",
+  "correct_completion": "you need to study every day.",
+  "full_sentence": "If you want to pass the exam, you need to study every day.",
+  "acceptable_variants": ["you should practise speaking English often.", "you must do all the homework."],
+  "options": [
+    {"text": "you can watch TV all night.", "is_correct": false, "why_wrong": "This is a possible action, but it does not help with the condition 'pass the exam', so it does not complete the logic of the sentence."},
+    {"text": "you should have studied yesterday.", "is_correct": false, "why_wrong": "'Should have' expresses regret about the past. A first conditional sentence with 'if' + present simple needs a present or future result."},
+    {"text": "you need to study every day.", "is_correct": true, "why_wrong": null},
+    {"text": "you passed it last year.", "is_correct": false, "why_wrong": "This is in the past and does not follow the structure 'if + present simple, present result' needed after 'if'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional: 'if' + present simple, followed by a present or modal result",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause needs a present result or a modal verb such as 'need to' or 'must'. Polish speakers sometimes use a future form in the 'if' clause because their first language often allows future forms in conditional clauses; in English the present simple is used in the 'if' clause, and the future goes only in the main clause.",
+  "translation": "Jeśli chcesz zdać egzamin, musisz uczyć się każdego dnia."
+}
