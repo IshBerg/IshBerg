@@ -1,0 +1,21 @@
+{
+  "sentence_stem": "My neighbour,",
+  "correct_completion": "who is a retired teacher, often helps me with my garden.",
+  "full_sentence": "My neighbour, who is a retired teacher, often helps me with my garden.",
+  "acceptable_variants": [
+    "who has lived here for thirty years, is very friendly.",
+    "who is a retired teacher, always lends me his tools."
+  ],
+  "options": [
+    {"text": "that often helps me with my garden.", "is_correct": false, "why_wrong": "Non-defining clauses do not use 'that'; use 'who' for people."},
+    {"text": "which is a retired teacher.", "is_correct": false, "why_wrong": "'Which' refers to things or animals, not to a person."},
+    {"text": "who is a retired teacher, often helps me with my garden.", "is_correct": true, "why_wrong": null},
+    {"text": "is a retired teacher, often helps me with my garden.", "is_correct": false, "why_wrong": "The subject and verb are separated by a comma with no relative pronoun, so the clause is ungrammatical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "A non-defining relative clause adds extra information about a person who is already identified, so it is set off by commas and introduced by 'who' rather than 'that'. Turkish speakers may find this comma-separated structure unfamiliar because Turkish usually places such information in a participle phrase before the noun.",
+  "translation": "Komşum, emekli bir öğretmen olan, bahçemde sık sık bana yardım eder."
+}
