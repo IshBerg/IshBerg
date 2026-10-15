@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pencil",
+  "all_words": [
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ołówkiem pisze się na papierze, więc to słowo jest tematycznie związane z ołówkiem."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banan nie ma związku z ołówkiem ani z przyborami szkolnymi."},
+    {"word": "eraser", "is_associated": true, "association_type": "THEMATIC", "explanation": "Gumka służy do ścierania ołówka, więc jest z nim ściśle związana."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka to element przyrody i nie ma związku z ołówkiem."},
+    {"word": "sharpener", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Temperówka tworzy stałe połączenie z ołówkiem: pencil sharpener."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Krzesło to mebel w klasie, ale nie ma bezpośredniego związku z ołówkiem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z ołówkiem to przybory szkolne i ich stałe połączenia, a pozostałe słowa nie mają z nim związku."
+}
