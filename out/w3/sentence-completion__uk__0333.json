@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother, who lives in Lviv,",
+  "correct_completion": "is a talented musician.",
+  "full_sentence": "My brother, who lives in Lviv, is a talented musician.",
+  "acceptable_variants": ["works as a doctor.", "is a kind and hard-working person."],
+  "options": [
+    {"text": "that plays the guitar every day.", "is_correct": false, "why_wrong": "Non-defining clauses after a comma do not use 'that'; they use 'who' or 'which', and the stem already contains a clause with 'who'."},
+    {"text": "because he is very busy.", "is_correct": false, "why_wrong": "'Because' introduces a reason, but the stem needs a main clause that describes the brother."},
+    {"text": "is a talented musician.", "is_correct": true, "why_wrong": null},
+    {"text": "so we visit him often.", "is_correct": false, "why_wrong": "'So' introduces a result and switches the subject to 'we', which does not continue the description of the brother."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and the main clause that follows the comma",
+  "connector": "who",
+  "explanation": "A non-defining clause adds extra information about a noun and is separated by commas. After the comma, the sentence needs a main clause with a verb that describes the subject. Ukrainian speakers sometimes use 'that' in this position because Ukrainian does not separate these clause types the same way, so it is useful to practise 'who' and 'which' after commas.",
+  "translation": "Мій брат, який живе у Львові, — талановитий музикант."
+}
