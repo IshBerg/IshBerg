@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["M","I","L","K","X","Q","Z","C"],
+    ["B","D","F","J","N","V","W","A"],
+    ["G","H","Y","P","Q","T","X","K"],
+    ["J","M","Z","V","W","E","L","E"],
+    ["S","O","U","P","K","A","N","B"],
+    ["D","F","G","H","Y","Q","X","Z"],
+    ["V","R","I","C","E","M","J","W"],
+    ["K","L","P","T","Y","Q","B","N"]
+  ],
+  "words_to_find": ["MILK", "CAKE", "SOUP", "RICE", "TEA"],
+  "word_positions": [
+    {"word": "MILK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CAKE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SOUP", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RICE", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "TEA", "start_row": 2, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Food and Drinks"
+}
