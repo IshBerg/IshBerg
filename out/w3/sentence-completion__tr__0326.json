@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My grandmother, who lives in Izmir,",
+  "correct_completion": "is a retired teacher.",
+  "full_sentence": "My grandmother, who lives in Izmir, is a retired teacher.",
+  "acceptable_variants": ["is a retired teacher who loves reading.", "is a retired teacher and enjoys gardening."],
+  "options": [
+    {"text": "which is a retired teacher.", "is_correct": false, "why_wrong": "This creates a second relative pronoun, which is ungrammatical here, and 'which' refers to things, not people."},
+    {"text": "is a retired teacher.", "is_correct": true, "why_wrong": null},
+    {"text": "that she was a teacher.", "is_correct": false, "why_wrong": "'That' is not used to introduce a non-defining clause after a comma, and the clause does not form a main verb for the sentence."},
+    {"text": "she teaches at a school.", "is_correct": false, "why_wrong": "This adds a second subject, 'she', after the relative clause, creating an ungrammatical double subject."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' set off by commas",
+  "connector": "who",
+  "explanation": "A non-defining relative clause adds extra information about a person who is already identified, so it is set off by commas and the main verb follows the clause directly. Turkish speakers often find this difficult because Turkish forms relative meaning with participles rather than relative pronouns, so they may add an extra pronoun or leave out the commas.",
+  "translation": "İzmir'de yaşayan büyükannem emekli bir öğretmen."
+}
