@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the report should have been finished last week,",
+  "correct_completion": "it still has not been submitted.",
+  "full_sentence": "Although the report should have been finished last week, it still has not been submitted.",
+  "acceptable_variants": ["it has still not been handed in.", "it is still waiting to be submitted."],
+  "options": [
+    {"text": "so it was submitted on time.", "is_correct": false, "why_wrong": "'Although' signals contrast, not result. 'So' would mean the report was submitted on time, which conflicts with the first clause."},
+    {"text": "it must have been completed by now.", "is_correct": false, "why_wrong": "This is a deduction about the present and does not contrast with the expectation in the first clause."},
+    {"text": "it still has not been submitted.", "is_correct": true, "why_wrong": null},
+    {"text": "the team was very happy about it.", "is_correct": false, "why_wrong": "This adds an unrelated emotion and does not provide the contrasting fact expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and the modal perfect 'should have + past participle'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part. The modal perfect 'should have been finished' describes an expected past action that did not happen, so the contrast is with the report still being unfinished or unsubmitted.",
+  "translation": "Rapor geçen hafta bitmiş olmalıydı, yine de hâlâ teslim edilmedi."
+}
