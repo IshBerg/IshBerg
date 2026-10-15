@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "product",
+  "collocate": "review",
+  "full_collocation": "product review",
+  "options": ["product", "production", "productive", "products"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "production", "reason": "'Production' is a different noun meaning the making of goods. We don't say 'production review' for a customer's opinion."},
+    {"word": "productive", "reason": "'Productive' is an adjective meaning efficient or useful. A noun is needed before 'review' here."},
+    {"word": "products", "reason": "'Products' is plural. In a compound noun the first noun stays singular: 'product review', not 'products review'."}
+  ],
+  "example_sentence": "I read a ___ review before I bought the new phone.",
+  "gap_position": 3,
+  "translation": "відгук про товар",
+  "l1_interference": "Українці часто перекладають дослівно 'огляд товару' і можуть сказати 'review product'. В англійській перший іменник описує другий, тому правильно 'product review'.",
+  "common_mistake": "review product",
+  "explanation": "In English compound nouns, the first noun describes the second: a product review is a review of a product. The first noun usually stays singular.",
+  "related_collocations": [
+    {"collocation": "customer review", "translation": "відгук покупця", "example": "The customer review said the shoes were very comfortable."},
+    {"collocation": "book review", "translation": "рецензія на книгу", "example": "I wrote a book review for my English class."},
+    {"collocation": "film review", "translation": "рецензія на фільм", "example": "The film review was positive, so we went to the cinema."}
+  ],
+  "memory_tip": "FIRST NOUN = describes the SECOND NOUN | product review = a review OF a product | review product = wrong order"
+}
