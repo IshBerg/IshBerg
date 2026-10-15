@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the little spider was tired,",
+  "correct_completion": "it kept climbing up the water spout.",
+  "full_sentence": "Although the little spider was tired, it kept climbing up the water spout.",
+  "acceptable_variants": ["it still climbed up the spout again.", "it never gave up."],
+  "options": [
+    {"text": "so it fell down to the ground.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast, so it does not complete the contrast started by 'although'."},
+    {"text": "it kept climbing up the water spout.", "is_correct": true, "why_wrong": null},
+    {"text": "the rain came and washed it away.", "is_correct": false, "why_wrong": "This describes an event, but it does not show the spider's contrasting action after 'although'."},
+    {"text": "the spider was very small.", "is_correct": false, "why_wrong": "This adds information about the spider but does not provide the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause showing an action that contrasts with the tiredness in the first part of the sentence. Learners may be tempted to choose a result clause, because in some languages the same contrast is expressed with a simple connector that sounds like a cause.",
+  "translation": "Aunque la pequeña araña estaba cansada, siguió subiendo por el caño."
+}
