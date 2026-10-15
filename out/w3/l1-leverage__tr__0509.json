@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "prenses", "transliteration": "prenses", "meaning": "princess"},
+    {"word": "orkestra", "transliteration": "orkestra", "meaning": "orchestra"},
+    {"word": "müzik", "transliteration": "muzik", "meaning": "music"},
+    {"word": "maske", "transliteration": "maske", "meaning": "mask"}
+  ],
+  "english_words": ["orchestra", "mask", "princess", "music"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same European sources, so the forms stayed close while the meanings stayed the same.",
+  "false_friend_warning": null
+}
