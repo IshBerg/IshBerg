@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Last summer, when we visited Istanbul,",
+  "correct_completion": "we saw many beautiful mosques.",
+  "full_sentence": "Last summer, when we visited Istanbul, we saw many beautiful mosques.",
+  "acceptable_variants": ["we visited the Blue Mosque.", "we enjoyed the old bazaars."],
+  "options": [
+    {"text": "we seed many beautiful mosques.", "is_correct": false, "why_wrong": "'See' is irregular, so its past simple form is 'saw', not 'seed'."},
+    {"text": "we see many beautiful mosques.", "is_correct": false, "why_wrong": "The present simple does not match the finished past time signalled by 'last summer'."},
+    {"text": "we have saw many beautiful mosques.", "is_correct": false, "why_wrong": "With a finished past time we use the past simple 'saw' alone, and the perfect form would need 'seen', not 'saw'."},
+    {"text": "we saw many beautiful mosques.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past simple of the irregular verb 'see' after a 'when' clause",
+  "connector": "when",
+  "explanation": "The stem refers to a finished trip at a specific past time, so the main clause needs the past simple of an irregular verb. Learners often add a regular -ed ending to irregular verbs, or mix the past simple with the past participle. Each irregular verb must be learned in its past simple form, and the form does not follow a pattern.",
+  "translation": "Geçen yaz İstanbul'u ziyaret ettiğimizde birçok güzel cami gördük."
+}
