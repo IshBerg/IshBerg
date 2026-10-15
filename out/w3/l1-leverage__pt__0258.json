@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "delegado", "transliteration": "delegado", "meaning": "police detective or police chief"},
+    {"word": "polícia", "transliteration": "policia", "meaning": "police"},
+    {"word": "testemunha", "transliteration": "testemunha", "meaning": "witness"},
+    {"word": "roubo", "transliteration": "roubo", "meaning": "robbery or theft"}
+  ],
+  "english_words": ["witness", "theft", "detective", "police"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Portuguese word for police detective is a false friend: its spelling is close to the English word delegate, but its meaning is a police official, not a representative.",
+  "false_friend_warning": "Be careful: the Portuguese word transliterated as delegado looks like the English word delegate, but it means a police detective or chief, not a person who represents others."
+}

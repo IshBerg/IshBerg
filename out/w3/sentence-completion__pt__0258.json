@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The report on climate change,",
+  "correct_completion": "the committee will review it next week.",
+  "full_sentence": "The report on climate change, the committee will review it next week.",
+  "acceptable_variants": ["the committee will evaluate it next week.", "next week the committee will review it."],
+  "options": [
+    {"text": "the committee reviewed it yesterday.", "is_correct": false, "why_wrong": "This describes a past action, which does not match the intended context of an upcoming review."},
+    {"text": "we have reviewed it so far.", "is_correct": false, "why_wrong": "The present perfect describes a past experience, not a planned future review by a committee."},
+    {"text": "should the committee review it next week.", "is_correct": false, "why_wrong": "The word order is wrong: this is a question-style inversion, not a statement completing the fronted topic."},
+    {"text": "the committee will review it next week.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Fronted topic followed by a main clause with a pronoun reference",
+  "connector": "topic fronting",
+  "explanation": "In a fronted structure, the topic comes first and the main clause must restate the subject and refer back to the topic with a pronoun such as 'it'. Speakers whose first language allows flexible word order often place the subject or verb in the wrong position here, so the statement word order needs focused practice.",
+  "translation": "O relatório sobre mudanças climáticas, o comitê vai analisá-lo na próxima semana."
+}
