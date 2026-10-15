@@ -1,0 +1,20 @@
+{
+  "title": "My Small Flat",
+  "text": "I live in a small flat in the city. It has a living room, a bedroom, a kitchen, and a bathroom. In the living room there is a big sofa and a table. My bed is in the bedroom.\n\nThe kitchen has a fridge and a stove. I like my flat because it is warm and quiet. My cat sleeps on a chair near the window. There is also a lamp next to my bed.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is in the living room?", "options": ["A big sofa and a table", "A bed and a fridge", "A stove and a sink", "A lamp and a bath"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does the kitchen have?", "options": ["A sofa and a bed", "A window and a chair", "A fridge and a stove", "A bath and a sink"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can we infer about the narrator's cat?", "options": ["It feels comfortable by the window", "It does not like the flat", "It lives outside the flat", "It sleeps in the kitchen"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Where does the narrator probably read at night?", "options": ["In bed, next to the lamp", "In the kitchen, on the stove", "In the bathroom, near the sink", "Outside, under the window"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "sofa", "translation": "диван", "definition": "a long soft seat for two or more people"},
+    {"word": "fridge", "translation": "холодильник", "definition": "a cold box that keeps food fresh"},
+    {"word": "window", "translation": "вікно", "definition": "an opening in a wall that lets in light and air"},
+    {"word": "lamp", "translation": "лампа", "definition": "a light that you can move or place on a table"}
+  ],
+  "paragraph_translations": [
+    "Я живу в маленькій квартирі в місті. У ній є вітальня, спальня, кухня та ванна кімната. У вітальні є великий диван і стіл. Моє ліжко стоїть у спальні.",
+    "На кухні є холодильник і плита. Мені подобається моя квартира, бо в ній тепло і тихо. Мій кіт спить на стільці біля вікна. Поруч з моїм ліжком також є лампа."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed of the risks in advance,",
+  "correct_completion": "it would have reconsidered the proposal.",
+  "full_sentence": "Had the committee been informed of the risks in advance, it would have reconsidered the proposal.",
+  "acceptable_variants": ["it would have rejected the proposal outright.", "it might have reconsidered the proposal."],
+  "options": [
+    {"text": "the proposal would be accepted immediately.", "is_correct": false, "why_wrong": "This mixes a present result with a past condition; the third conditional needs 'would have' to match 'had been informed'."},
+    {"text": "it reconsidered the proposal yesterday.", "is_correct": false, "why_wrong": "The simple past reports a fact, but the inverted conditional requires a hypothetical result."},
+    {"text": "it would have reconsidered the proposal.", "is_correct": true, "why_wrong": null},
+    {"text": "the members will reconsider the proposal.", "is_correct": false, "why_wrong": "The future tense does not express an unreal past condition, so it breaks the conditional structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' before the subject",
+  "connector": "had",
+  "explanation": "The stem is an inverted third conditional: 'had' moves before the subject instead of 'if'. The main clause needs 'would have' plus a past participle to match the unreal past condition. Ukrainian speakers often reach for a simple past or a bare conditional here, because the Ukrainian conditional is built with a separate particle rather than a perfect auxiliary, so the English 'would have' pattern needs explicit practice.",
+  "translation": "Якби комітет був заздалегідь поінформований про ризики, він би переглянув пропозицію."
+}
