@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied all night,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Despite having studied all night, she still failed the exam.",
+  "acceptable_variants": ["she did not pass the exam.", "the exam still proved too difficult for her."],
+  "options": [
+    {"text": "so she passed with ease.", "is_correct": false, "why_wrong": "'So' introduces a result that matches the effort, but 'despite' requires a contrasting outcome."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she was studying again.", "is_correct": false, "why_wrong": "This describes an action that continues the previous one rather than contrasting with it."},
+    {"text": "because the teacher was very strict.", "is_correct": false, "why_wrong": "'Because' gives a reason, which conflicts with 'despite', a concessive expression that signals a contrast."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive phrases with 'despite'",
+  "connector": "despite",
+  "explanation": "After 'despite' and a phrase with a verb in the -ing form, the main clause must show an outcome that contrasts with the effort. Speakers whose first language uses a similar concessive structure sometimes add 'but' after the introductory phrase, which is incorrect in English.",
+  "translation": "A pesar de haber estudiado toda la noche, todavía suspendió el examen."
+}

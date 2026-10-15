@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El horno es un electrodoméstico que normalmente se encuentra en la cocina."},
+    {"word": "recipe", "is_associated": true, "association_type": "THEMATIC", "explanation": "Una receta es un texto que explica cómo preparar comida, así que pertenece al mismo tema que la cocina."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Una montaña no tiene relación con la cocina ni con los objetos que se usan para cocinar."},
+    {"word": "knife", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El cuchillo es una herramienta que se usa habitualmente para preparar alimentos en la cocina."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "El violín es un instrumento musical y no tiene ninguna relación con la cocina."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El fregadero forma parte de la cocina, y 'kitchen sink' es una combinación frecuente en inglés."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'kitchen' se relacionan con ella por significado, tema o combinación frecuente, mientras que las demás no tienen relación con la cocina."
+}
