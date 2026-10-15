@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The room is very small, but",
+  "correct_completion": "it has a big window.",
+  "full_sentence": "The room is very small, but it has a big window.",
+  "acceptable_variants": ["it is very bright.", "it has a large window."],
+  "options": [
+    {"text": "we like to play outside.", "is_correct": false, "why_wrong": "This does not describe the room, so it does not complete the contrast started by 'but'."},
+    {"text": "the room is small too.", "is_correct": false, "why_wrong": "This repeats the idea of the first clause instead of giving a contrast."},
+    {"text": "it has a big window.", "is_correct": true, "why_wrong": null},
+    {"text": "the door is blue.", "is_correct": false, "why_wrong": "This adds a detail about the room but does not contrast with its small size."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the first part of the sentence. A big window is a positive contrast to a small room.",
+  "translation": "Pokój jest bardzo mały, ale ma duże okno."
+}
