@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday my brother asked me for help,",
+  "correct_completion": "so I helped him with his homework.",
+  "full_sentence": "Yesterday my brother asked me for help, so I helped him with his homework.",
+  "acceptable_variants": ["so I decided to help him.", "and I helped him finish it."],
+  "options": [
+    {"text": "so I cooked dinner for everyone.", "is_correct": false, "why_wrong": "Cooking dinner does not respond to his request. After 'so', the clause should show what the speaker did because of the request."},
+    {"text": "so I helped him with his homework.", "is_correct": true, "why_wrong": null},
+    {"text": "and he wants to play football today.", "is_correct": false, "why_wrong": "This adds a new wish from the brother but does not answer the request for help."},
+    {"text": "I played tennis after school.", "is_correct": false, "why_wrong": "This describes another past event but does not connect to the request for help."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple regular verbs (-ed) in cause-and-effect sentences",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. Regular past verbs add -ed, as in 'asked' and 'helped'. Portuguese speakers sometimes forget to add -ed to regular verbs, because Portuguese verb endings change in a different way.",
+  "translation": "Ontem meu irmão me pediu ajuda, então eu o ajudei com a lição de casa."
+}

@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "C", "H", "O", "O", "L", "B", "Q", "W", "E"],
+    ["J", "K", "M", "T", "V", "U", "D", "A", "G", "F"],
+    ["P", "X", "J", "Q", "W", "Z", "K", "V", "N", "G"],
+    ["A", "D", "F", "Y", "M", "T", "U", "H", "Q", "K"],
+    ["R", "E", "Z", "R", "X", "C", "V", "B", "L", "P"],
+    ["K", "J", "W", "A", "Q", "S", "Z", "M", "G", "F"],
+    ["X", "V", "K", "R", "T", "Q", "W", "D", "Z", "Y"],
+    ["G", "H", "J", "B", "N", "W", "Y", "Q", "D", "T"],
+    ["Z", "Q", "X", "I", "K", "M", "P", "R", "V", "J"],
+    ["W", "E", "N", "L", "T", "Y", "P", "O", "H", "S"]
+  ],
+  "words_to_find": ["SCHOOL", "PARK", "BANK", "LIBRARY", "SHOP"],
+  "word_positions": [
+    {"word": "SCHOOL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARK", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "BANK", "start_row": 0, "start_col": 6, "direction": "DIAGONAL_DOWN"},
+    {"word": "LIBRARY", "start_row": 9, "start_col": 3, "direction": "VERTICAL_UP"},
+    {"word": "SHOP", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Places in Town"
+}
