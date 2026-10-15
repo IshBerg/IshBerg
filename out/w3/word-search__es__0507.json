@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["I", "N", "T", "E", "R", "P", "R", "E", "T", "G"],
+    ["K", "A", "W", "D", "Q", "M", "F", "J", "X", "L"],
+    ["Z", "V", "C", "H", "K", "U", "B", "P", "D", "O"],
+    ["F", "Y", "L", "E", "C", "N", "A", "U", "N", "S"],
+    ["W", "J", "R", "T", "Q", "X", "Z", "K", "M", "S"],
+    ["B", "G", "Q", "H", "V", "R", "F", "T", "W", "A"],
+    ["H", "O", "P", "Z", "D", "L", "K", "Y", "C", "R"],
+    ["M", "N", "O", "J", "E", "S", "Q", "B", "G", "Y"],
+    ["X", "D", "V", "T", "L", "W", "K", "F", "Q", "P"],
+    ["J", "Z", "N", "M", "H", "I", "E", "D", "S", "C"]
+  ],
+  "words_to_find": ["INTERPRET", "GLOSSARY", "BOOTH", "NUANCE"],
+  "word_positions": [
+    {"word": "INTERPRET", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLOSSARY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "BOOTH", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "NUANCE", "start_row": 3, "start_col": 8, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}
