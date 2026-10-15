@@ -1,0 +1,20 @@
+{
+  "title": "A Letter from London",
+  "text": "Hi Anna, thanks for your email! I am happy to hear from you. I am in London now. The weather is cold and rainy, but the city is great. I visit museums every day.\n\nNext week I am free on Monday. Can we meet for lunch? There is a nice cafe near my hotel. Please write back soon. Love, Tom.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is Tom now?", "options": ["In Paris", "In London", "At home", "In New York"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Which day is Tom free next week?", "options": ["Tuesday", "Friday", "Monday", "Sunday"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Tom feel about Anna's email?", "options": ["He is angry with her", "He is happy to hear from her", "He is bored", "He is sorry about it"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does Tom want to meet for lunch?", "options": ["He wants to buy a hotel", "He wants to leave London", "He wants to go to work", "He wants to see her and talk"], "correct_index": 3, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "weather", "translation": "погода", "definition": "the conditions outside, such as rain, sun or cold"},
+    {"word": "museums", "translation": "музеї", "definition": "buildings where people can look at art or old objects"},
+    {"word": "cafe", "translation": "кафе", "definition": "a small place where you can buy drinks and simple food"},
+    {"word": "hotel", "translation": "готель", "definition": "a place where you pay to stay for a few nights"}
+  ],
+  "paragraph_translations": [
+    "Привіт, Анна, дякую за твій лист! Я радий отримати від тебе звістку. Зараз я в Лондоні. Погода холодна й дощова, але місто чудове. Щодня я відвідую музеї.",
+    "Наступного тижня я вільний у понеділок. Чи можемо ми зустрітися на обід? Поруч із моїм готелем є гарне кафе. Будь ласка, напиши мені незабаром. З любов'ю, Том."
+  ]
+}

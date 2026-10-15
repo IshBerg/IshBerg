@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you drive a car,",
+  "correct_completion": "you must fasten your seatbelt.",
+  "full_sentence": "Before you drive a car, you must fasten your seatbelt.",
+  "acceptable_variants": ["you have to fasten your seatbelt.", "you must wear your seatbelt."],
+  "options": [
+    {"text": "you can fasten your seatbelt if you like.", "is_correct": false, "why_wrong": "'Can' expresses permission, not a strong obligation. Here the rule is required by law."},
+    {"text": "you mustn't fasten your seatbelt.", "is_correct": false, "why_wrong": "'Mustn't' expresses prohibition, which is the opposite of what the rule requires."},
+    {"text": "you must fasten your seatbelt.", "is_correct": true, "why_wrong": null},
+    {"text": "you had to fasten it yesterday.", "is_correct": false, "why_wrong": "'Had to' describes a past obligation, but the sentence describes a general rule in the present."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal verb 'must' for obligations",
+  "connector": "before",
+  "explanation": "The stem sets up a general rule for drivers, so we need a modal of obligation. 'Must' expresses a strong obligation. Learners often confuse 'must' with 'can', which only gives permission.",
+  "translation": "Перед тим як керувати автомобілем, ви мусите пристебнути ремінь безпеки."
+}
