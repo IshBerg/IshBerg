@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Built more than two hundred years ago,",
+  "correct_completion": "the bridge is still used by thousands of cars each day.",
+  "full_sentence": "Built more than two hundred years ago, the bridge is still used by thousands of cars each day.",
+  "acceptable_variants": ["the bridge carries thousands of cars every day.", "thousands of cars still cross it each day."],
+  "options": [
+    {"text": "the mayor opened a new museum nearby.", "is_correct": false, "why_wrong": "The participle clause 'built' refers to the bridge, but the main clause subject would then be the mayor. This is a misrelated participle."},
+    {"text": "the children played near the river in summer.", "is_correct": false, "why_wrong": "This gives no information about the bridge, so it does not complete the sentence logically."},
+    {"text": "the bridges in the region were all destroyed.", "is_correct": false, "why_wrong": "The plural subject does not match the single bridge described in the stem."},
+    {"text": "the bridge is still used by thousands of cars each day.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past participle clauses with the subject matching the main clause",
+  "connector": "built",
+  "explanation": "The past participle clause describes the bridge, so the main clause must have the bridge as its subject and say something about it now.",
+  "translation": "Zbudowany ponad dwieście lat temu, most jest nadal używany przez tysiące samochodów każdego dnia."
+}
