@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother",
+  "correct_completion": "is ten years old.",
+  "full_sentence": "My brother is ten years old.",
+  "acceptable_variants": ["is at school.", "is a student."],
+  "options": [
+    {"text": "are ten years old.", "is_correct": false, "why_wrong": "'My brother' is a singular subject, so it needs the singular form 'is', not the plural 'are'."},
+    {"text": "is ten years old.", "is_correct": true, "why_wrong": null},
+    {"text": "am ten years old.", "is_correct": false, "why_wrong": "'Am' is used only with the subject 'I'. It cannot follow 'my brother'."},
+    {"text": "be ten years old.", "is_correct": false, "why_wrong": "After a subject, the verb must be a finite form such as 'is'. The base form 'be' cannot stand alone here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "The verb 'to be' in the present simple with third person singular subjects",
+  "connector": "is",
+  "explanation": "The subject 'my brother' is third person singular, so the verb 'to be' takes the form 'is'. Ukrainian speakers often leave out the verb entirely in present-tense sentences because Ukrainian does not use a separate linking verb for age, so they should always include 'is' in English.",
+  "translation": "Мій брат має десять років."
+}
