@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "демократія", "transliteration": "demokratiia", "meaning": "democracy"},
+    {"word": "діалог", "transliteration": "dialoh", "meaning": "dialogue"},
+    {"word": "інформація", "transliteration": "informatsiia", "meaning": "information"},
+    {"word": "аргумент", "transliteration": "arhument", "meaning": "argument"}
+  ],
+  "english_words": ["argument", "democracy", "dialogue", "information"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin and Greek through European academic and political vocabulary, so the forms stayed close in spelling and meaning.",
+  "false_friend_warning": null
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While I was cooking dinner, the phone rang.",
+  "acceptable_variants": ["the doorbell rang.", "my brother came home."],
+  "options": [
+    {"text": "I will cook it tomorrow.", "is_correct": false, "why_wrong": "The future tense does not match the past action of cooking that is in progress in the stem."},
+    {"text": "I cooked the dinner yesterday.", "is_correct": false, "why_wrong": "This is a finished action on another day. 'While' needs an action that was in progress at a specific past moment."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "I cook dinner every day.", "is_correct": false, "why_wrong": "The present simple describes a habit, so it cannot complete a past situation that was happening at one moment."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous for the background action with 'while', and past simple for the interrupting action",
+  "connector": "while",
+  "explanation": "The past continuous describes an action in progress, and the past simple describes a short action that interrupts it. The completion must use the past simple for the interruption.",
+  "translation": "Поки я готував вечерю, задзвонив телефон."
+}
