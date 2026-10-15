@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "A", "K", "E", "X", "Q", "Z", "J", "W"],
+    ["B", "R", "D", "F", "H", "L", "Y", "N", "P"],
+    ["G", "J", "L", "C", "V", "W", "T", "U", "Q"],
+    ["D", "I", "H", "O", "B", "Y", "A", "F", "Z"],
+    ["S", "O", "W", "D", "F", "U", "K", "P", "M"],
+    ["H", "E", "Q", "T", "R", "E", "E", "G", "B"],
+    ["V", "M", "N", "C", "I", "L", "R", "D", "W"],
+    ["K", "J", "P", "S", "Y", "U", "F", "A", "T"],
+    ["Z", "Q", "D", "X", "E", "M", "B", "O", "C"]
+  ],
+  "words_to_find": ["MAKE", "TAKE", "SENSE", "CARE"],
+  "word_positions": [
+    {"word": "MAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TAKE", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SENSE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CARE", "start_row": 8, "start_col": 8, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}

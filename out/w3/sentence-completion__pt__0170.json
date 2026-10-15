@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rarely have we seen",
+  "correct_completion": "such a dramatic drop in street crime.",
+  "full_sentence": "Rarely have we seen such a dramatic drop in street crime.",
+  "acceptable_variants": ["such a significant fall in street crime.", "such a clear improvement in public safety."],
+  "options": [
+    {"text": "a dramatic drop in street crime was seen.", "is_correct": false, "why_wrong": "The stem already contains the inverted auxiliary 'have we seen'. Adding a passive clause breaks the structure and makes the sentence ungrammatical."},
+    {"text": "we have seen such a dramatic drop.", "is_correct": false, "why_wrong": "The stem already supplies the subject and verb in inverted order. Repeating 'we have seen' makes the completion redundant."},
+    {"text": "such a dramatic drop in street crime.", "is_correct": true, "why_wrong": null},
+    {"text": "such a dramatic drop in street crime we saw.", "is_correct": false, "why_wrong": "The stem already uses the inverted verb 'have we seen'. Placing the object first and then repeating the subject and verb is not a valid word order here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after the adverb 'rarely' (auxiliary before subject)",
+  "connector": "rarely",
+  "explanation": "After a negative adverb placed at the start of a sentence, the auxiliary verb must come before the subject. The completion should therefore be the object phrase alone, without repeating the subject or verb.",
+  "translation": "Raramente vimos uma queda tão dramática na criminalidade de rua."
+}
