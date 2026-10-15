@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the train was late,",
+  "correct_completion": "we arrived at the meeting on time.",
+  "full_sentence": "Although the train was late, we arrived at the meeting on time.",
+  "acceptable_variants": ["we still arrived at the meeting on time.", "we made it to the meeting anyway."],
+  "options": [
+    {"text": "so we missed the meeting.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast. The sentence would need 'because' or 'so' with a different structure."},
+    {"text": "because it was raining.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast. Using it after 'although' creates a clash between the two connectors."},
+    {"text": "we arrived at the meeting on time.", "is_correct": true, "why_wrong": null},
+    {"text": "and the platform was empty.", "is_correct": false, "why_wrong": "This adds a detail, but 'and' does not express the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a result that goes against the expectation set by the first clause. Learners whose first language uses a single conjunction for both cause and concession often choose a cause connector here, so the contrast must be checked before the ending is chosen.",
+  "translation": "Mimo że pociąg się spóźniał, dotarliśmy na spotkanie na czas."
+}

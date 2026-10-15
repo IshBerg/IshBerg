@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "metafora", "transliteration": "metafora", "meaning": "metaphor"},
+    {"word": "ironia", "transliteration": "ironia", "meaning": "irony"},
+    {"word": "symbol", "transliteration": "symbol", "meaning": "symbol"},
+    {"word": "narrator", "transliteration": "narrator", "meaning": "narrator"}
+  ],
+  "english_words": ["symbol", "narrator", "metaphor", "irony"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these literary terms from the same Greek and Latin sources, so the forms stayed close and the meanings match exactly.",
+  "false_friend_warning": null
+}
