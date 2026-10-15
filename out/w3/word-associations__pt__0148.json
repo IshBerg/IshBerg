@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O trovão é o som que acompanha o relâmpago durante uma tempestade."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sanduíche não tem relação com tempestades; é apenas um alimento."},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "O guarda-chuva é o objeto que as pessoas usam quando há chuva forte durante uma tempestade."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "O tapete é um item de casa e não tem ligação com o clima."},
+    {"word": "lightning", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O relâmpago é o clarão elétrico que aparece no céu durante uma tempestade."},
+    {"word": "wind", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "O vento forte costuma acompanhar as tempestades, por isso as duas palavras aparecem juntas."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas se relacionam a fenômenos ou situações típicas de uma tempestade, enquanto as demais não têm ligação com o clima."
+}

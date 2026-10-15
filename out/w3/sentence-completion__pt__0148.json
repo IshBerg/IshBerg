@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "By the time we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had already gone.", "the train had already departed."],
+  "options": [
+    {"text": "the train will already leave.", "is_correct": false, "why_wrong": "The future tense does not fit a past narrative. The arrival is in the past, so the train's departure must also be placed in the past, before the arrival."},
+    {"text": "we have already missed it.", "is_correct": false, "why_wrong": "The present perfect connects to the present. The stem sets a past reference point with 'by the time', so the past perfect is needed."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null},
+    {"text": "the train was leaving at noon.", "is_correct": false, "why_wrong": "This describes a past event, but it does not show that the train left before we arrived, so it does not complete the sequence the stem sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past perfect for an action completed before a past reference point",
+  "connector": "by the time",
+  "explanation": "The stem sets a past reference point with 'by the time', so the completion must describe an action that was already finished before that point. The past perfect 'had left' shows the earlier action. Portuguese speakers often use a simple past here because the pluperfect is less common in everyday speech.",
+  "translation": "Quando chegamos à estação, o trem já tinha partido."
+}
