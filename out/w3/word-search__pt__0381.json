@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["N", "O", "V", "E", "L", "Q", "Z", "P"],
+    ["B", "K", "W", "D", "J", "A", "X", "L"],
+    ["T", "C", "G", "S", "K", "D", "F", "O"],
+    ["H", "M", "J", "Q", "W", "Z", "R", "T"],
+    ["E", "B", "K", "U", "L", "D", "Q", "V"],
+    ["M", "Z", "I", "R", "O", "N", "Y", "W"],
+    ["E", "K", "P", "B", "T", "G", "H", "S"],
+    ["A", "D", "F", "Q", "X", "K", "L", "Z"]
+  ],
+  "words_to_find": ["NOVEL", "PLOT", "IRONY", "THEME"],
+  "word_positions": [
+    {"word": "NOVEL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PLOT", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "THEME", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Classic Literature Analysis"
+}
