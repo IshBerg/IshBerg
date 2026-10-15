@@ -1,0 +1,14 @@
+{
+  "trigger_word": "card",
+  "all_words": [
+    {"word": "picture", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Os cartões didáticos geralmente têm uma figura para ajudar a lembrar a palavra, por isso 'picture' se relaciona com 'card'."},
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "Os cartões são normalmente feitos de papel, então pertencem ao mesmo tema."},
+    {"word": "cat", "is_associated": false, "association_type": "NONE", "explanation": "O gato é um animal e não tem nenhuma relação com cartões."},
+    {"word": "word", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se diz 'word card' (cartão de palavra), uma combinação muito comum nas aulas de inglês."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "O rio é um lugar natural e não se relaciona com cartões de estudo."},
+    {"word": "sun", "is_associated": false, "association_type": "NONE", "explanation": "O sol é um astro e não tem relação com cartões."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'card' são coisas que aparecem ou se usam nos cartões didáticos; as outras não têm relação com eles."
+}
