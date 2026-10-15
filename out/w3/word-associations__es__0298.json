@@ -1,0 +1,14 @@
+{
+  "trigger_word": "recycling",
+  "all_words": [
+    {"word": "bin", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Recycling bin' es una combinación muy común en inglés para el contenedor donde se tiran los materiales reciclables."},
+    {"word": "castle", "is_associated": false, "association_type": "NONE", "explanation": "Un castillo no tiene ninguna relación con el reciclaje ni con la protección del medio ambiente."},
+    {"word": "plastic", "is_associated": true, "association_type": "THEMATIC", "explanation": "El plástico es uno de los materiales más importantes que se reciclan, por eso está directamente relacionado con el tema."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Un volcán es un fenómeno natural que no tiene relación con el reciclaje."},
+    {"word": "charity", "is_associated": false, "association_type": "NONE", "explanation": "La caridad pertenece al ámbito de la ayuda social, no al reciclaje, así que no está asociada directamente."},
+    {"word": "waste", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Reciclar consiste en reutilizar residuos, así que 'waste' (residuos) tiene un significado muy cercano al tema."}
+  ],
+  "correct_indices": [0, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'recycling' se refieren a materiales, residuos y contenedores, mientras que las demás pertenecen a otros campos como la geografía, la historia o la ayuda social."
+}
