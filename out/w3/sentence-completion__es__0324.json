@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am sorry I could not reply sooner",
+  "correct_completion": "because I was very busy at work.",
+  "full_sentence": "I am sorry I could not reply sooner because I was very busy at work.",
+  "acceptable_variants": ["because I had a lot of work.", "because my work was very busy this week."],
+  "options": [
+    {"text": "so I went to the beach.", "is_correct": false, "why_wrong": "'So' introduces a result, and going to the beach does not explain why the reply was late."},
+    {"text": "and I like pizza.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not explain the delay in replying."},
+    {"text": "because I was very busy at work.", "is_correct": true, "why_wrong": null},
+    {"text": "but I am happy now.", "is_correct": false, "why_wrong": "'But' shows contrast, and this sentence does not give the reason for the delay."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part of the sentence. Here the reason is the work the writer had to do.",
+  "translation": "Lamento no haber respondido antes porque estuve muy ocupado en el trabajo."
+}
