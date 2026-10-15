@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Jack fell down and broke his crown because",
+  "correct_completion": "he was running up the hill too fast.",
+  "full_sentence": "Jack fell down and broke his crown because he was running up the hill too fast.",
+  "acceptable_variants": ["he slipped on the wet grass.", "he did not look where he was going."],
+  "options": [
+    {"text": "he was very happy.", "is_correct": false, "why_wrong": "Feeling happy does not cause a fall, so 'because' needs a real cause for Jack falling down."},
+    {"text": "it was sunny that day.", "is_correct": false, "why_wrong": "The weather is not a cause of Jack falling down, so this does not complete the cause and effect link."},
+    {"text": "he was running up the hill too fast.", "is_correct": true, "why_wrong": null},
+    {"text": "Jill had a bucket of water.", "is_correct": false, "why_wrong": "Jill's bucket is a fact about Jill, not a reason for Jack's fall, so it does not explain the result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a full clause with a subject and a verb that gives the reason for the first part of the sentence. Turkish speakers may find this natural, but English needs a complete clause after 'because', not a noun phrase alone.",
+  "translation": "Jack düştü ve kafasını yaraladı, çünkü tepeye çok hızlı koşuyordu."
+}
