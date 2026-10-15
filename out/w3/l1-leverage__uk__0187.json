@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "current, topical, relevant"},
+    {"word": "експерт", "transliteration": "ekspert", "meaning": "expert, specialist"},
+    {"word": "фактичний", "transliteration": "faktychnyi", "meaning": "actual, real, based on facts"},
+    {"word": "дискусія", "transliteration": "dyskusiia", "meaning": "discussion, debate"}
+  ],
+  "english_words": ["actual", "discussion", "current", "expert"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Ukrainian word 'aktualnyi' looks close to the English word 'actual' because both descend from the same Latin root, yet its meaning has shifted to 'current' or 'topical'. The Ukrainian word 'faktychnyi' is the true equivalent of 'actual', so the two Ukrainian words must be kept apart when translating.",
+  "false_friend_warning": "The Ukrainian word transliterated as 'aktualnyi' looks like the English word 'actual' but means 'current' or 'topical', so in professional English it must be translated as 'current' and never as 'actual'."
+}
