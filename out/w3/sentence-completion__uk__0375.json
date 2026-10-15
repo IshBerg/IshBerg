@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the story seemed short at first,",
+  "correct_completion": "its ending was surprisingly complex.",
+  "full_sentence": "Although the story seemed short at first, its ending was surprisingly complex.",
+  "acceptable_variants": ["its final twist changed the whole meaning.", "the last pages revealed a hidden conflict."],
+  "options": [
+    {"text": "so the author added a long introduction.", "is_correct": false, "why_wrong": "'So' expresses a result, but 'although' requires a contrast with the first clause."},
+    {"text": "because the characters were tired.", "is_correct": false, "why_wrong": "'Because' expresses cause, not contrast, so it does not fit after 'although'."},
+    {"text": "the author used many chapters.", "is_correct": false, "why_wrong": "This adds information about the story but does not contrast with the first part of the sentence."},
+    {"text": "its ending was surprisingly complex.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first clause. Here the story seems short, so the completion must show that the ending is more complex than that first impression suggests. Students often confuse 'although' with 'because', which signals cause instead of contrast.",
+  "translation": "Хоча спочатку здавалося, що оповідання коротке, його кінцівка виявилася напрочуд складною."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "debate",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Аргумент є основною частиною будь-якої дискусії, тому це слово має близьке значення з словом debate."},
+    {"word": "chair", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'chair a debate' означає вести дебати, тому слово часто використовується разом із debate."},
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Під час дебатів учасники наводять докази, щоб підтвердити свою позицію, тож це слово належить до тієї самої теми."},
+    {"word": "rainbow", "is_associated": false, "association_type": "NONE", "explanation": "Веселка не має жодного зв'язку з дебатами ні за змістом, ні за вживанням."},
+    {"word": "opponent", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Опонент є учасником дебатів, який відстоює протилежну точку зору, тому слово пов'язане за змістом."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим не належить до теми дебатів і не має з нею смислового зв'язку."}
+  ],
+  "correct_indices": [0, 1, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з debate, стосуються аргументів, доказів, учасників і ведучого дискусії. Слова rainbow і carpet не пов'язані з темою дебатів."
+}
