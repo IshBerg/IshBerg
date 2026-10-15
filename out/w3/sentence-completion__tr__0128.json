@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The café where we met last year",
+  "correct_completion": "is closed now.",
+  "full_sentence": "The café where we met last year is closed now.",
+  "acceptable_variants": ["is now closed.", "has been closed since last month."],
+  "options": [
+    {"text": "we met last year.", "is_correct": false, "why_wrong": "This repeats the relative clause and gives no main verb for the subject 'the café', so the sentence stays incomplete."},
+    {"text": "who works there every day.", "is_correct": false, "why_wrong": "'Who' refers to people, not places. The stem refers to a café, so 'who' does not fit."},
+    {"text": "is closed now.", "is_correct": true, "why_wrong": null},
+    {"text": "which we loved very much.", "is_correct": false, "why_wrong": "This relative clause adds information about the café but does not give the main verb the sentence needs."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clauses with 'where' for places",
+  "connector": "where",
+  "explanation": "After the relative clause introduced by 'where', the sentence still needs a main verb whose subject is 'the café'. 'Where' is used for places, so the clause describes the place where the meeting happened. Students should not add a second relative pronoun or repeat the clause.",
+  "translation": "Geçen yıl buluştuğumuz kafe şimdi kapalı."
+}
