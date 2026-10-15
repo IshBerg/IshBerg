@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "família", "transliteration": "familia", "meaning": "family"},
+    {"word": "animal", "transliteration": "animal", "meaning": "animal"},
+    {"word": "hospital", "transliteration": "hospital", "meaning": "hospital"},
+    {"word": "problema", "transliteration": "problema", "meaning": "problem"}
+  ],
+  "english_words": ["hospital", "family", "problem", "animal"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin, so the spelling and meaning stayed close. The Portuguese word and the English word share the same root.",
+  "false_friend_warning": null
+}
