@@ -1,0 +1,23 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["H", "E", "A", "L", "T", "H", "X", "Q"],
+    ["B", "M", "K", "P", "J", "W", "D", "S"],
+    ["F", "C", "V", "Z", "N", "A", "G", "L"],
+    ["Y", "O", "G", "A", "X", "L", "Q", "E"],
+    ["R", "T", "H", "B", "F", "K", "V", "E"],
+    ["U", "Z", "Q", "M", "C", "Y", "J", "P"],
+    ["N", "W", "X", "D", "I", "E", "T", "O"],
+    ["K", "S", "A", "F", "R", "Z", "B", "M"]
+  ],
+  "words_to_find": ["HEALTH", "SLEEP", "YOGA", "RUN", "DIET", "WALK"],
+  "word_positions": [
+    {"word": "HEALTH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLEEP", "start_row": 1, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "YOGA", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RUN", "start_row": 4, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "DIET", "start_row": 6, "start_col": 3, "direction": "HORIZONTAL"},
+    {"word": "WALK", "start_row": 1, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Health and Fitness"
+}
