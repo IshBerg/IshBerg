@@ -1,0 +1,23 @@
+{
+  "central_word": "afraid",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "неспокійний", "nuance": "a vague feeling that something is not quite right"},
+    {"word": "worried", "intensity": 2, "translation": "занепокоєний", "nuance": "concern about a specific problem or possible outcome"},
+    {"word": "anxious", "intensity": 3, "translation": "тривожний", "nuance": "persistent nervousness about what might happen"},
+    {"word": "frightened", "intensity": 4, "translation": "наляканий", "nuance": "fear caused by a immediate threat"},
+    {"word": "terrified", "intensity": 5, "translation": "перелаканий", "nuance": "overwhelming fear that is hard to control"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express fear or unease, but they differ in intensity, from a vague sense of unease to overwhelming terror.",
+  "usage_notes": [
+    {"word1": "worried", "word2": "anxious", "difference": "'Worried' usually refers to a specific concern, while 'anxious' describes a more persistent and general sense of unease about the future."}
+  ],
+  "translations": {
+    "uneasy": "неспокійний",
+    "worried": "занепокоєний",
+    "anxious": "тривожний",
+    "frightened": "наляканий",
+    "terrified": "перелаканий"
+  }
+}

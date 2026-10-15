@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She told me that she had finished the report,",
+  "correct_completion": "and she would send it to the manager that evening.",
+  "full_sentence": "She told me that she had finished the report, and she would send it to the manager that evening.",
+  "acceptable_variants": ["and she was going to send it to the manager that evening.", "and she would forward it to the manager that same evening."],
+  "options": [
+    {"text": "and she will send it that evening.", "is_correct": false, "why_wrong": "After a past reporting verb, the future 'will' shifts to 'would' in reported speech, so 'will' is incorrect here."},
+    {"text": "and she sends it every evening.", "is_correct": false, "why_wrong": "The present simple describes a habit, but the sentence reports a specific plan for one evening."},
+    {"text": "and she would send it that evening.", "is_correct": true, "why_wrong": null},
+    {"text": "and she has sent it that evening.", "is_correct": false, "why_wrong": "The present perfect reports a completed action, but the sentence needs a future plan, which takes 'would'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Backshifting the future 'will' to 'would' in reported speech",
+  "connector": "that",
+  "explanation": "The reporting verb 'told' is in the past, so the future in the reported clause moves back one step from 'will' to 'would'. Ukrainian speakers often keep the direct future form here because Ukrainian does not shift tenses in the same way, so this backshift needs deliberate practice.",
+  "translation": "Вона сказала мені, що закінчила звіт, і вона надішле його менеджеру того вечора."
+}
