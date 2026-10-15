@@ -1,0 +1,14 @@
+{
+  "trigger_word": "climate",
+  "all_words": [
+    {"word": "weather", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Clima e tempo são conceitos próximos: o clima é o padrão de longo prazo, enquanto o tempo é a condição do dia a dia."},
+    {"word": "change", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Climate change é a expressão usada para se referir às mudanças globais do clima, por isso as duas palavras aparecem juntas."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "O guarda-chuva é um objeto do cotidiano, mas não tem relação direta com o conceito de clima."},
+    {"word": "glacier", "is_associated": true, "association_type": "THEMATIC", "explanation": "Geleiras são um dos sinais mais visíveis do aquecimento global, por isso aparecem com frequência em discussões sobre o clima."},
+    {"word": "football", "is_associated": false, "association_type": "NONE", "explanation": "O futebol é um esporte e não está ligado ao tema do clima."},
+    {"word": "temperature", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Temperatura é uma medida central do clima, e o aumento da temperatura média é o principal indicador do aquecimento global."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao clima tratam de tempo, mudanças, geleiras e temperatura, enquanto as palavras não associadas pertencem a outros assuntos do dia a dia."
+}
