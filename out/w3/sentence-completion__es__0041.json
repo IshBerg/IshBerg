@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I might have passed the exam.", "I would have done better on the exam."],
+  "options": [
+    {"text": "I would pass the exam now.", "is_correct": false, "why_wrong": "'Would pass now' refers to the present, but the stem describes a past regret about studying."},
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "This is a future plan, not an unreal past result after 'if only'."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I have passed the exam already.", "is_correct": false, "why_wrong": "This states a real completed result, which does not express regret about an unreal past situation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if only' to express past regret",
+  "connector": "if only",
+  "explanation": "After 'if only' with the past perfect, the main clause uses would have plus a past participle to express an unreal past result.",
+  "translation": "Si tan solo hubiera estudiado más, habría aprobado el examen."
+}
