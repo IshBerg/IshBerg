@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I wish I",
+  "correct_completion": "had listened to my teacher's advice.",
+  "full_sentence": "I wish I had listened to my teacher's advice.",
+  "acceptable_variants": ["had followed my teacher's advice.", "had taken my teacher's advice seriously."],
+  "options": [
+    {"text": "have listened to my teacher's advice.", "is_correct": false, "why_wrong": "After 'wish', the present perfect is not used to express regret about the past; the past perfect is needed."},
+    {"text": "listened to my teacher's advice.", "is_correct": false, "why_wrong": "The simple past here describes a present unreal situation, but the sentence expresses regret about a past action."},
+    {"text": "had listened to my teacher's advice.", "is_correct": true, "why_wrong": null},
+    {"text": "would listen to my teacher's advice.", "is_correct": false, "why_wrong": "'Would' here expresses a present or future wish, not regret about a finished past action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Wish with the past perfect to express regret about the past",
+  "connector": "wish",
+  "explanation": "After 'wish', we use the past perfect ('had' plus the past participle) to express regret about a past action that did not happen. The simple past describes a present unreal situation, and the present perfect is not used after 'wish' in this way.",
+  "translation": "Eu queria ter ouvido o conselho do meu professor."
+}
