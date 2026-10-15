@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have taken an earlier train.",
+  "full_sentence": "Had she known about the delay, she would have taken an earlier train.",
+  "acceptable_variants": ["she would have caught an earlier train.", "she would have left sooner."],
+  "options": [
+    {"text": "she takes an earlier train.", "is_correct": false, "why_wrong": "The inverted 'Had' clause signals a hypothetical past condition, so the main clause needs 'would have' plus a past participle, not a present simple form."},
+    {"text": "she will take an earlier train.", "is_correct": false, "why_wrong": "An inverted third conditional does not use a future form in the main clause; it requires 'would have' plus a past participle."},
+    {"text": "she would have taken an earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "she has taken an earlier train.", "is_correct": false, "why_wrong": "The present perfect states a completed fact and does not express the imagined result that the inverted conditional requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had' replacing 'If'",
+  "connector": "had",
+  "explanation": "Inverting 'had' to the start of the clause replaces 'if' and keeps the meaning of an unreal past condition. The main clause must use 'would have' with a past participle to describe the result that did not happen. Learners often transfer the simple tense pattern of their first language here, so they need to focus on the perfect structure.",
+  "translation": "Якби вона знала про затримку, вона б сіла на ранніший потяг."
+}

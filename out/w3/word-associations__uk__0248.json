@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "money", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Банк зберігає гроші клієнтів, тому слово money напряму пов'язане з банком."},
+    {"word": "loan", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Банк видає кредити (loan), тож це одна з його основних фінансових послуг."},
+    {"word": "river", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово bank також означає берег річки, і в англійській мові river bank є усталеним словосполученням."},
+    {"word": "teller", "is_associated": true, "association_type": "THEMATIC", "explanation": "Касир банку (bank teller) працює в банківській установі, тому це слово належить до тієї самої теми."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно є музичним інструментом і не має жодного зв'язку з банком ні за змістом, ні за вживанням."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед належить до транспорту і не пов'язаний з банком ні за значенням, ні за звучанням."}
+  ],
+  "correct_indices": [0, 1, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово bank асоціюється з грошима, кредитами, банківськими співробітниками та берегом річки, а piano і bicycle не мають з ним зв'язку."
+}
