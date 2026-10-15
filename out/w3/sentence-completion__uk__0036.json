@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The book,",
+  "correct_completion": "written in 1990, is still popular today.",
+  "full_sentence": "The book, written in 1990, is still popular today.",
+  "acceptable_variants": ["which was written in 1990, is still popular today.", "published in 1990, remains popular with readers."],
+  "options": [
+    {"text": "it was written in 1990 and is popular.", "is_correct": false, "why_wrong": "The pronoun 'it' repeats the subject 'The book' and creates a broken sentence. A reduced participle clause is more concise."},
+    {"text": "was written in 1990 and still popular.", "is_correct": false, "why_wrong": "This uses a finite verb 'was' after the comma without a clear link to the subject. The reduced form needs the past participle 'written'."},
+    {"text": "written in 1990, is still popular today.", "is_correct": true, "why_wrong": null},
+    {"text": "to be written in 1990, and popular.", "is_correct": false, "why_wrong": "An infinitive does not express a finished past action. The past participle 'written' is needed to describe the book."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past participle clauses for concise writing",
+  "connector": "participle clause",
+  "explanation": "A past participle clause ('written in 1990') can give extra information about the noun before it without a relative pronoun. This makes the sentence shorter and more formal.",
+  "translation": "Книга, написана в 1990 році, досі популярна."
+}
