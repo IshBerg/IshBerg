@@ -1,0 +1,14 @@
+{
+  "trigger_word": "salary",
+  "all_words": [
+    {"word": "wage", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Wage' to pojęcie bliskoznaczne z 'salary', oba oznaczają pieniądze otrzymywane za pracę."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "'Wulkan' nie ma żadnego związku z wynagrodzeniem ani z pracą."},
+    {"word": "payslip", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Payslip', czyli pasek wypłaty, to dokument pokazujący wysokość 'salary' w danym miesiącu."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "'Ogród' nie jest powiązany z tematem wynagrodzeń."},
+    {"word": "bonus", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Bonus' to dodatkowa płatność ponad 'salary', więc należy do tego samego obszaru znaczeniowego."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "'Młotek' to narzędzie i nie ma związku z pensją."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzenia ze słowem 'salary' obejmują synonimy i pojęcia z obszaru wynagrodzeń, natomiast pozostałe słowa nie mają z nim żadnego powiązania."
+}
