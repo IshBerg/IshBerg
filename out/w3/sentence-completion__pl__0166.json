@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were more organised,",
+  "correct_completion": "I would have finished the report yesterday.",
+  "full_sentence": "If I were more organised, I would have finished the report yesterday.",
+  "acceptable_variants": ["I would have completed it before the deadline.", "I would have sent it to my boss yesterday."],
+  "options": [
+    {"text": "I will finish the report tomorrow.", "is_correct": false, "why_wrong": "A future form does not give the past result that a mixed conditional needs, because the sentence refers to yesterday."},
+    {"text": "I would have finished the report yesterday.", "is_correct": true, "why_wrong": null},
+    {"text": "so I finished it on time.", "is_correct": false, "why_wrong": "'So' shows a real cause and effect, but the sentence needs an imagined past result after the unreal present condition."},
+    {"text": "I was organised last week.", "is_correct": false, "why_wrong": "This describes a past fact, not the imagined result that the 'if' clause introduces."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals (unreal present condition, unreal past result)",
+  "connector": "if",
+  "explanation": "A mixed conditional uses a past simple in the 'if' clause to talk about an unreal present, and would have plus a past participle in the main clause to talk about an unreal past result. Polish speakers often use a simple past form in the result clause because Polish marks conditionals with a particle, so the English would have structure needs practice.",
+  "translation": "Gdybym był bardziej zorganizowany, skończyłbym raport już wczoraj."
+}

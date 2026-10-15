@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, friendly"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "fabryka", "transliteration": "fabryka", "meaning": "factory"}
+  ],
+  "english_words": ["friendly", "possibly", "factory", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Polish word looks like an English word that shares its root, but the Polish form has moved to a different meaning, so the look-alike is misleading. Learners should match each Polish word to its own meaning rather than to the nearest English spelling.",
+  "false_friend_warning": "Watch out: the Polish word that looks like 'actual' means current or up to date, the one that looks like 'sympathetic' means nice or friendly, the one that looks like 'eventually' means possibly, and the one that looks like 'fabric' means factory, so do not translate them by their English look-alikes."
+}
