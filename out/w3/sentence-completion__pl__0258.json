@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are three",
+  "correct_completion": "cats in the garden.",
+  "full_sentence": "There are three cats in the garden.",
+  "acceptable_variants": ["cats outside.", "cats in the yard."],
+  "options": [
+    {"text": "cat in the garden.", "is_correct": false, "why_wrong": "A singular noun is wrong after a number greater than one; 'three' needs a plural noun."},
+    {"text": "cats in the garden.", "is_correct": true, "why_wrong": null},
+    {"text": "catties in the garden.", "is_correct": false, "why_wrong": "This is not a correct plural; the regular plural of 'cat' is 'cats'."},
+    {"text": "cat's in the garden.", "is_correct": false, "why_wrong": "The apostrophe shows possession, not a plural, so this does not fit after 'three'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Regular plural nouns after numbers",
+  "connector": "three",
+  "explanation": "Most English nouns form the plural by adding -s, and the plural is used after a number greater than one. Polish speakers may be tempted to keep the singular form or to over-apply plural endings, because Polish plural endings change with the type of noun."
+  ,"translation": "W ogrodzie są trzy koty."
+}
