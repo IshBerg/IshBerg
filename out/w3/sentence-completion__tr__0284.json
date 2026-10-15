@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you eat,",
+  "correct_completion": "wash your hands.",
+  "full_sentence": "Before you eat, wash your hands.",
+  "acceptable_variants": ["wash your hands first.", "clean your hands."],
+  "options": [
+    {"text": "you go to school.", "is_correct": false, "why_wrong": "This is a statement about going to school, not the action expected before eating."},
+    {"text": "the food is hot.", "is_correct": false, "why_wrong": "This describes the food, but it does not give the instruction the stem asks for."},
+    {"text": "wash your hands.", "is_correct": true, "why_wrong": null},
+    {"text": "you are very happy.", "is_correct": false, "why_wrong": "This describes a feeling and does not complete the instruction that 'before' introduces."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Imperatives after a time clause with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', use the imperative form, which is the base verb without a subject, to give an instruction. Speakers who think in a language that often states the subject may add 'you' in front of the verb, but English imperatives do not state the subject.",
+  "translation": "Yemek yemeden önce ellerini yıka."
+}
