@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bridge had been closed for repairs, so",
+  "correct_completion": "the buses were diverted along the river road.",
+  "full_sentence": "The bridge had been closed for repairs, so the buses were diverted along the river road.",
+  "acceptable_variants": ["the drivers were sent on a longer route.", "the traffic was redirected to the old road."],
+  "options": [
+    {"text": "the buses diverted themselves by accident.", "is_correct": false, "why_wrong": "Buses cannot choose their own route, so the passive 'were diverted' is needed to show that someone else redirected them."},
+    {"text": "the buses had been diverting for weeks.", "is_correct": false, "why_wrong": "The past perfect continuous describes a long duration, but the stem asks for the immediate result of the closure."},
+    {"text": "the buses were diverted along the river road.", "is_correct": true, "why_wrong": null},
+    {"text": "the buses will be diverted if repairs finish.", "is_correct": false, "why_wrong": "The conditional with 'if' describes a future possibility, not the direct result that 'so' introduces."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive voice after 'so' to show a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the direct result of the first part. The passive form shows that the buses were redirected by someone else, not that they chose the route.",
+  "translation": "Міст закрили на ремонт, тому автобуси було переспрямовано вздовж річкової дороги."
+}
