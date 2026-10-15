@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee consulted the staff earlier,",
+  "correct_completion": "the proposal would have been far more realistic.",
+  "full_sentence": "Had the committee consulted the staff earlier, the proposal would have been far more realistic.",
+  "acceptable_variants": ["the proposal would be far more realistic today.", "the project would have avoided many costly errors."],
+  "options": [
+    {"text": "the staff proposed a more realistic plan.", "is_correct": false, "why_wrong": "This is a simple past statement. It does not complete the conditional structure started by 'had'."},
+    {"text": "the proposal would have been far more realistic.", "is_correct": true, "why_wrong": null},
+    {"text": "the proposal will be far more realistic.", "is_correct": false, "why_wrong": "'Will' belongs to real future conditions. A hypothetical past condition needs 'would have' plus a past participle in the main clause."},
+    {"text": "the committee would consult the staff now.", "is_correct": false, "why_wrong": "The stem refers to a past condition, so the result must also refer to the past. 'Would consult now' gives a present result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and 'would have'",
+  "connector": "had",
+  "explanation": "Inverted third conditionals drop 'if' and move 'had' to the front of the sentence. The main clause then needs 'would have' plus a past participle to express a hypothetical past result. Learners may reach for a simple conditional with 'would' alone, because they do not separate the perfect form in the same way.",
+  "translation": "Gdyby komisja wcześniej skonsultowała się z pracownikami, propozycja byłaby znacznie bardziej realistyczna."
+}
