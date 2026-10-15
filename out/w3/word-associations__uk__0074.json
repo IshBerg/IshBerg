@@ -1,0 +1,14 @@
+{
+  "trigger_word": "weekend",
+  "all_words": [
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець не пов'язаний із вихідними днями; це предмет для письма та навчання."},
+    {"word": "Saturday", "is_associated": true, "association_type": "THEMATIC", "explanation": "Субота є одним із днів вихідних, тому це слово тісно пов'язане з 'weekend'."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Ложка є кухонним приладдям і не має прямого зв'язку з вихідними."},
+    {"word": "relax", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Відпочивати є головною ідеєю вихідних, тому це семантичний зв'язок."},
+    {"word": "holiday", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово 'holiday' означає відпочинок або свято, тому воно за змістом пов'язане з вихідними."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Клавіатура стосується роботи з комп'ютером і не пов'язана з відпочинком на вихідних."}
+  ],
+  "correct_indices": [1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'weekend' пов'язане з відпочинком, днями тижня та дозвіллям; предмети на кшталт олівця чи ложки до цього поля не належать."
+}

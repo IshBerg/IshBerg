@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The mice ate all the cheese, so",
+  "correct_completion": "the farmer bought a new trap.",
+  "full_sentence": "The mice ate all the cheese, so the farmer bought a new trap.",
+  "acceptable_variants": ["the farmer set a trap in the kitchen.", "the farmer went to the shop for a cat."],
+  "options": [
+    {"text": "the farmer was very happy.", "is_correct": false, "why_wrong": "This is an emotional reaction that does not follow logically from the mice eating the cheese, which is a problem. 'So' needs a result that responds to the problem."},
+    {"text": "the children went to the park.", "is_correct": false, "why_wrong": "This is an unrelated action. After 'so', the sentence needs a result of the first clause, and the children are not connected to the mice or the cheese."},
+    {"text": "the farmer bought a new trap.", "is_correct": true, "why_wrong": null},
+    {"text": "the sheep were in the field.", "is_correct": false, "why_wrong": "This gives a location that has no link to the cheese. It does not show a result of the mice's action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' and the plural noun 'mice'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the logical result of the first part of the sentence. Here the mice caused a problem, so the next clause should describe a response to that problem.",
+  "translation": "Миші з'їли весь сир, тому фермер купив нову пастку."
+}
