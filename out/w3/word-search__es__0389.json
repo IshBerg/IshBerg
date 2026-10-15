@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "H", "E", "S", "I", "S", "X", "E"],
+    ["A", "K", "M", "P", "D", "W", "B", "V"],
+    ["D", "Q", "R", "L", "E", "Y", "T", "I"],
+    ["V", "J", "I", "U", "F", "H", "Z", "D"],
+    ["I", "X", "G", "A", "E", "K", "M", "E"],
+    ["S", "P", "O", "C", "N", "T", "Q", "N"],
+    ["O", "F", "R", "B", "S", "V", "L", "C"],
+    ["R", "G", "W", "Y", "E", "U", "H", "E"]
+  ],
+  "words_to_find": ["THESIS", "EVIDENCE", "ADVISOR", "DEFENSE", "RIGOR"],
+  "word_positions": [
+    {"word": "THESIS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ADVISOR", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "DEFENSE", "start_row": 1, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "RIGOR", "start_row": 2, "start_col": 2, "direction": "VERTICAL"}
+  ],
+  "topic": "Academic Thesis Defense"
+}
