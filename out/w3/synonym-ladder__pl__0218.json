@@ -1,0 +1,13 @@
+{
+  "start_word": "clean",
+  "end_word": "toxic",
+  "ladder_steps": [
+    {"word": "clean", "translation": "czysty", "intensity_level": 1},
+    {"word": "dusty", "translation": "zakurzony", "intensity_level": 2},
+    {"word": "dirty", "translation": "brudny", "intensity_level": 3},
+    {"word": "polluted", "translation": "zanieczyszczony", "intensity_level": 4},
+    {"word": "toxic", "translation": "toksyczny", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words form a ladder of increasing contamination, from clean air or water to dangerously poisonous conditions, a common theme in global challenges."
+}

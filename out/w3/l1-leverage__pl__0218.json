@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pies", "transliteration": "pies", "meaning": "dog"},
+    {"word": "kot", "transliteration": "kot", "meaning": "cat"},
+    {"word": "krowa", "transliteration": "krowa", "meaning": "cow"},
+    {"word": "koza", "transliteration": "koza", "meaning": "goat"}
+  ],
+  "english_words": ["cat", "goat", "dog", "cow"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Polish word for dog looks like the English word 'pie', and the Polish word for cat looks like the English word 'cot', a small bed. Learners who trust the look of the word rather than its meaning will match them wrongly.",
+  "false_friend_warning": "The Polish word 'pies' (transliterated as pies) looks like the English word 'pie' but means dog, so students may pick 'pie' by mistake. The Polish word 'kot' resembles 'cot' but means cat."
+}

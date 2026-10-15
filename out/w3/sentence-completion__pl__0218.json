@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have taken the earlier train.",
+  "full_sentence": "Had she known about the delay, she would have taken the earlier train.",
+  "acceptable_variants": ["she would've taken the earlier train.", "she would have chosen the earlier train."],
+  "options": [
+    {"text": "she would take the earlier train.", "is_correct": false, "why_wrong": "The inverted 'Had' clause refers to an unreal past, so the main clause needs 'would have' plus a past participle, not a present conditional."},
+    {"text": "she would have taken the earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "she has taken the earlier train.", "is_correct": false, "why_wrong": "The present perfect describes a completed action with present relevance and cannot complete an unreal past conditional."},
+    {"text": "she will have taken the earlier train.", "is_correct": false, "why_wrong": "The future perfect does not fit an unreal past condition introduced by the inverted 'Had'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had' and 'would have'",
+  "connector": "had",
+  "explanation": "In inverted conditionals, 'Had' replaces 'If she had known', so the main clause needs 'would have' plus a past participle to describe an unreal past. Speakers whose first language uses a simple past form for hypotheticals often drop the 'have' here, so check the auxiliary carefully.",
+  "translation": "Gdyby wiedziała o opóźnieniu, wzięłaby wcześniejszy pociąg."
+}
