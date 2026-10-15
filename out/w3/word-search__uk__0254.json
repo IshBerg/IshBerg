@@ -1,0 +1,24 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["L", "E", "T", "S", "Q", "K", "P", "J", "W"],
+    ["Z", "X", "N", "V", "B", "G", "F", "M", "H"],
+    ["I", "U", "C", "O", "R", "Q", "D", "A", "Y"],
+    ["N", "D", "F", "U", "P", "Z", "K", "Y", "X"],
+    ["W", "O", "E", "C", "H", "L", "J", "B", "V"],
+    ["K", "M", "Q", "A", "L", "P", "N", "E", "T"],
+    ["Z", "F", "G", "A", "U", "K", "W", "D", "C"],
+    ["P", "Q", "H", "V", "T", "R", "Y", "B", "G"],
+    ["X", "S", "K", "L", "O", "U", "A", "I", "D"]
+  ],
+  "words_to_find": ["LETS", "IDEA", "MAYBE", "TRY", "SHALL", "WHY"],
+  "word_positions": [
+    {"word": "LETS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IDEA", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MAYBE", "start_row": 1, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "TRY", "start_row": 7, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "SHALL", "start_row": 8, "start_col": 1, "direction": "DIAGONAL_UP"},
+    {"word": "WHY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Making Suggestions"
+}
