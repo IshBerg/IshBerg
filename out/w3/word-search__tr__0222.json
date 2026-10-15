@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "M", "A", "I", "L", "X", "J", "K", "H"],
+    ["B", "C", "D", "F", "G", "N", "P", "R", "E"],
+    ["T", "V", "W", "X", "Z", "Q", "J", "M", "L"],
+    ["T", "B", "Z", "D", "F", "J", "K", "G", "L"],
+    ["Q", "H", "C", "D", "Y", "F", "G", "X", "O"],
+    ["M", "N", "A", "L", "P", "R", "S", "D", "V"],
+    ["W", "Z", "P", "N", "T", "K", "O", "B", "J"],
+    ["F", "E", "G", "H", "K", "I", "O", "Q", "M"],
+    ["R", "B", "C", "D", "F", "S", "N", "Z", "X"]
+  ],
+  "words_to_find": ["EMAIL", "HELLO", "THANKS", "REPLY", "SOON"],
+  "word_positions": [
+    {"word": "EMAIL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HELLO", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "THANKS", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "REPLY", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "SOON", "start_row": 5, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Informal Emails"
+}

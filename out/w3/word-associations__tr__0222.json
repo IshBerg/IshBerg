@@ -1,0 +1,14 @@
+{
+  "trigger_word": "clear",
+  "all_words": [
+    {"word": "transparent", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Transparent ve clear, şeffaf ya da net anlamında yakın anlamlı kelimelerdir."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Muz kelimesinin clear ile hiçbir anlam ya da kullanım ilişkisi yoktur."},
+    {"word": "obvious", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Obvious, bir şeyin açık ve kolay anlaşılır olduğunu anlatır; bu da clear ile anlam olarak yakındır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ kelimesi clear kavramı ile ne anlam ne de kullanım bakımından ilgilidir."},
+    {"word": "sky", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Clear sky (açık gökyüzü) yaygın bir kalıp olduğu için sky kelimesi clear ile birlikte kullanılır."},
+    {"word": "year", "is_associated": true, "association_type": "PHONETIC", "explanation": "Year kelimesi clear ile son ses bakımından rima oluşturur, bu yüzden sesçil bir çağrışım yaratır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Clear kelimesiyle ilişkili kelimeler anlam yakınlığı, yaygın birlikte kullanımlar ve ses benzerliği üzerinden seçilmiştir."
+}

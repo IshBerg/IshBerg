@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not until the last chapter was finished",
+  "correct_completion": "did the author reveal the murderer's identity.",
+  "full_sentence": "Not until the last chapter was finished did the author reveal the murderer's identity.",
+  "acceptable_variants": ["did the novelist finally name the killer.", "did the writer at last disclose who the murderer was."],
+  "options": [
+    {"text": "the author finally revealed the murderer's identity.", "is_correct": false, "why_wrong": "After 'not until', English requires subject-auxiliary inversion, so 'did the author' must follow. This statement keeps the normal word order and is ungrammatical here."},
+    {"text": "the final chapter was very long.", "is_correct": false, "why_wrong": "This adds a description but does not provide the inverted main clause that 'not until' requires."},
+    {"text": "did the author finally reveal the murderer's identity.", "is_correct": true, "why_wrong": null},
+    {"text": "the reader had already guessed the ending.", "is_correct": false, "why_wrong": "This is a plain statement with normal word order, so it does not fit the inversion needed after 'not until'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion after the negative time expression 'not until'",
+  "connector": "not until",
+  "explanation": "When a sentence begins with 'not until' followed by a clause, the main clause must use inverted word order with an auxiliary verb. Learners should check that the auxiliary comes before the subject in the main clause.",
+  "translation": "Yalnızca son bölüm bitince yazar katilin kimliğini açıkladı."
+}
