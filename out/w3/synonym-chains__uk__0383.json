@@ -1,0 +1,23 @@
+{
+  "central_word": "unhappy",
+  "chain_words": [
+    {"word": "displeased", "intensity": 1, "translation": "невдоволений", "nuance": "mild disapproval of something"},
+    {"word": "dissatisfied", "intensity": 2, "translation": "незадоволений", "nuance": "not meeting one's expectations"},
+    {"word": "unhappy", "intensity": 3, "translation": "нещасливий", "nuance": "general feeling of sadness or discontent"},
+    {"word": "indignant", "intensity": 4, "translation": "обурений", "nuance": "anger at something seen as unfair"},
+    {"word": "outraged", "intensity": 5, "translation": "вкрай обурений", "nuance": "very strong anger and shock at a serious wrong"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express negative feeling about something, from mild disapproval to strong anger at a serious wrong.",
+  "usage_notes": [
+    {"word1": "dissatisfied", "word2": "outraged", "difference": "'Dissatisfied' describes a calm failure to meet expectations, while 'outraged' describes strong anger and is more typical of a serious complaint."}
+  ],
+  "translations": {
+    "displeased": "невдоволений",
+    "dissatisfied": "незадоволений",
+    "unhappy": "нещасливий",
+    "indignant": "обурений",
+    "outraged": "вкрай обурений"
+  }
+}

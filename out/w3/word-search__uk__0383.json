@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "H", "E", "M", "E", "Q", "W", "K", "J", "P"],
+    ["B", "C", "D", "F", "G", "V", "Z", "X", "L", "A"],
+    ["H", "P", "K", "N", "Q", "W", "U", "O", "S", "E"],
+    ["A", "D", "G", "J", "B", "S", "T", "Z", "I", "R"],
+    ["C", "E", "F", "L", "K", "Y", "N", "W", "H", "X"],
+    ["P", "Q", "R", "V", "T", "M", "X", "D", "A", "Z"],
+    ["G", "K", "W", "E", "H", "B", "Q", "F", "U", "C"],
+    ["J", "A", "S", "M", "D", "O", "P", "V", "E", "N"],
+    ["Z", "F", "B", "U", "C", "L", "K", "W", "Q", "H"],
+    ["Y", "N", "O", "R", "I", "T", "G", "A", "D", "S"]
+  ],
+  "words_to_find": ["THEME", "PLOT", "IRONY", "SYMBOL"],
+  "word_positions": [
+    {"word": "THEME", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PLOT", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "IRONY", "start_row": 9, "start_col": 4, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SYMBOL", "start_row": 3, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Literary Analysis (HOTS)"
+}
