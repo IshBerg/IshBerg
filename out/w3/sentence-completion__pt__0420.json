@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you book before the end of the month,",
+  "correct_completion": "you will get a discount on your trip.",
+  "full_sentence": "If you book before the end of the month, you will get a discount on your trip.",
+  "acceptable_variants": ["you will pay less for your trip.", "you can save money on your trip."],
+  "options": [
+    {"text": "you got a discount last year.", "is_correct": false, "why_wrong": "The stem is a condition about the future, so the completion must describe a possible future result, not a past event."},
+    {"text": "the hotel is near the beach.", "is_correct": false, "why_wrong": "This describes the hotel but does not complete the result that the 'if' clause introduces."},
+    {"text": "you will get a discount on your trip.", "is_correct": true, "why_wrong": null},
+    {"text": "the tickets are sold out now.", "is_correct": false, "why_wrong": "This is a present fact about the tickets, not the result that depends on booking early."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "The connector 'if' introduces a condition, so the completion must give the result that depends on that condition. In the first conditional, this result is usually a future action with 'will'.",
+  "translation": "Se você reservar antes do fim do mês, você terá desconto na sua viagem."
+}
