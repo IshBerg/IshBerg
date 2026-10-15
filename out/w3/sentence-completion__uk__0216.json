@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What surprised the committee most was",
+  "correct_completion": "that the proposal had been rejected without discussion.",
+  "full_sentence": "What surprised the committee most was that the proposal had been rejected without discussion.",
+  "acceptable_variants": ["the fact that the proposal had been rejected without discussion.", "how readily the proposal had been rejected without discussion."],
+  "options": [
+    {"text": "because the proposal had been rejected without discussion.", "is_correct": false, "why_wrong": "'Because' introduces an adverbial cause, but 'was' needs a nominal complement that names what surprised the committee."},
+    {"text": "the proposal, which had been rejected without discussion.", "is_correct": false, "why_wrong": "The relative clause is left unfinished and has no main verb, so the sentence cannot be completed grammatically."},
+    {"text": "that the proposal had been rejected without discussion.", "is_correct": true, "why_wrong": null},
+    {"text": "so the proposal had been rejected without discussion.", "is_correct": false, "why_wrong": "'So' introduces a result clause, which cannot function as the complement of 'was' here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Nominal that-clauses as subject complements after a copular verb",
+  "connector": "that",
+  "explanation": "After a copular verb such as 'was', a that-clause can act as a noun phrase that names the thing being described. The clause must be complete and express the content of the surprise.",
+  "translation": "Найбільше здивувало комітет те, що пропозицію відхилили без обговорення."
+}

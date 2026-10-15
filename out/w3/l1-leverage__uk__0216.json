@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "лама", "transliteration": "lama", "meaning": "llama"},
+    {"word": "пудель", "transliteration": "pudel", "meaning": "poodle"},
+    {"word": "канарка", "transliteration": "kanarka", "meaning": "canary"},
+    {"word": "мустанг", "transliteration": "mustang", "meaning": "mustang"}
+  ],
+  "english_words": ["poodle", "canary", "mustang", "llama"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these animal names from the same foreign sources, so the spelling and sound stayed close in each language. This is a true cognate pattern, and the meanings match exactly.",
+  "false_friend_warning": null
+}
