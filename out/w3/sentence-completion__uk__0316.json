@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "You have finished the report,",
+  "correct_completion": "haven't you?",
+  "full_sentence": "You have finished the report, haven't you?",
+  "acceptable_variants": ["have you not?", "haven't you already?"],
+  "options": [
+    {"text": "don't you?", "is_correct": false, "why_wrong": "The main verb 'have' is an auxiliary here, so the tag must repeat 'have', not 'do'."},
+    {"text": "haven't you?", "is_correct": true, "why_wrong": null},
+    {"text": "didn't you?", "is_correct": false, "why_wrong": "The statement uses the present perfect, so the tag needs the present form 'haven't', not the past form 'didn't'."},
+    {"text": "aren't you?", "is_correct": false, "why_wrong": "'Aren't' is the negative form of 'be', but the sentence uses 'have', so the auxiliary must match 'have'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Tag questions that repeat the auxiliary verb of the main clause, with opposite polarity",
+  "connector": "tag question",
+  "explanation": "A positive statement takes a negative tag, and the auxiliary in the tag must match the auxiliary in the statement. Speakers of Ukrainian often form a single question word such as 'right?' for every situation, but English requires the matching auxiliary verb instead.",
+  "translation": "Ти вже закінчив звіт, чи не так?"
+}

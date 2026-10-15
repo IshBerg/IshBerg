@@ -1,0 +1,20 @@
+{
+  "title": "Tom and His Sports",
+  "text": "Tom likes football. He plays football on Saturday with his friends. They play in the park. Tom is a good player.\n\nTom also likes swimming. He swims in the pool on Monday and Wednesday. After swimming, he is very hungry. He eats an apple.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What sport does Tom play with his friends?", "options": ["Football", "Swimming", "Tennis", "Basketball"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "On which days does Tom swim?", "options": ["Saturday and Sunday", "Tuesday and Thursday", "Monday and Wednesday", "Friday only"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why is Tom hungry after swimming?", "options": ["He uses a lot of energy", "He ate too much breakfast", "He does not like apples", "He stayed in the pool all day"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Tom probably feel about sport?", "options": ["He hates it", "He is bored by it", "He never does it", "He enjoys it"], "correct_index": 3, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "football", "translation": "футбол", "definition": "a team sport played with a round ball and two goals"},
+    {"word": "swimming", "translation": "плавання", "definition": "the activity of moving through water using your body"},
+    {"word": "pool", "translation": "басейн", "definition": "a place with water where people swim"},
+    {"word": "park", "translation": "парк", "definition": "a public green area where people walk and play"}
+  ],
+  "paragraph_translations": [
+    "Том любить футбол. Він грає у футбол у суботу зі своїми друзями. Вони грають у парку. Том — добрий гравець.",
+    "Том також любить плавання. Він плаває в басейні в понеділок і середу. Після плавання він дуже голодний. Він їсть яблуко."
+  ]
+}
