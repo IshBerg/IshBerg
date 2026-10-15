@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the essay argues that cities should have more parks,",
+  "correct_completion": "the author does not explain how the cities would pay for them.",
+  "full_sentence": "Although the essay argues that cities should have more parks, the author does not explain how the cities would pay for them.",
+  "acceptable_variants": ["the writer never mentions the cost of building them.", "the essay leaves out the question of money."],
+  "options": [
+    {"text": "so the author gives a clear budget plan.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. After 'although' the sentence needs a clause that goes against the expected support for the argument."},
+    {"text": "the author does not explain how the cities would pay for them.", "is_correct": true, "why_wrong": null},
+    {"text": "the essay was published in a local newspaper.", "is_correct": false, "why_wrong": "This adds neutral information about publication and does not contrast with the argument in the stem."},
+    {"text": "many people agree with the main idea.", "is_correct": false, "why_wrong": "This supports the argument rather than contrasting with it, so it does not complete the concessive structure."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. The essay is strong in its claim, so the correct clause points out a weakness that goes against that strength.",
+  "translation": "Chociaż esej dowodzi, że miasta powinny mieć więcej parków, autor nie wyjaśnia, jak miasta miałyby za nie zapłacić."
+}
