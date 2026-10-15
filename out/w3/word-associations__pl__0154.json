@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Grzmot towarzyszy burzy, a słowa 'thunder' i 'storm' często łączą się w jedno pojęcie: thunderstorm."},
+    {"word": "lightning", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Błyskawica jest jednym z najbardziej charakterystycznych zjawisk podczas burzy, więc znaczenie obu słów jest ściśle powiązane."},
+    {"word": "sunscreen", "is_associated": false, "association_type": "NONE", "explanation": "Krem przeciwsłoneczny kojarzy się z upałem i słońcem, a nie z burzą, więc nie należy do tego skojarzenia."},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Parasol to przedmiot, którego używamy podczas deszczu towarzyszącego burzy, dlatego łączy się z tematem burzy."},
+    {"word": "calculator", "is_associated": false, "association_type": "NONE", "explanation": "Kalkulator nie ma żadnego związku z pogodą ani z burzą, więc nie pasuje do tego hasła."},
+    {"word": "flood", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Powódź bywa skutkiem silnych burz i ulewnych deszczy, więc znaczeniowo jest blisko powiązana z burzą."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'storm' kojarzy się z pogodą: z dźwiękami, zjawiskami i skutkami burzy, a nie z przedmiotami pozbawionymi związku z pogodą."
+}
