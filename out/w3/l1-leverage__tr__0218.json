@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "at", "transliteration": "at", "meaning": "horse"},
+    {"word": "fare", "transliteration": "fare", "meaning": "mouse"},
+    {"word": "kurt", "transliteration": "kurt", "meaning": "wolf"},
+    {"word": "dana", "transliteration": "dana", "meaning": "calf"}
+  ],
+  "english_words": ["wolf", "calf", "horse", "mouse"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Turkish words are written in a way that looks like familiar English words, but the shared form is only coincidental and the meanings are different.",
+  "false_friend_warning": "The Turkish word 'at' looks like the English preposition 'at' but means horse; the Turkish word 'fare' looks like the English 'fare', meaning a ticket price, but means mouse; and the Turkish word 'kurt' sounds like the English 'curt' but means wolf."
+}
