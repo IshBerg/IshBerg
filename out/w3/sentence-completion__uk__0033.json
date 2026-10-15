@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He told the manager that he",
+  "correct_completion": "had finished the report the day before.",
+  "full_sentence": "He told the manager that he had finished the report the day before.",
+  "acceptable_variants": ["had already finished the report before the meeting.", "had completed the report the previous day."],
+  "options": [
+    {"text": "will finish the report yesterday.", "is_correct": false, "why_wrong": "Reported speech moves the future back, so 'will' becomes 'would', and 'yesterday' does not match a future action."},
+    {"text": "finishes the report every day.", "is_correct": false, "why_wrong": "The present simple describes a habit, not one completed action before the reported moment."},
+    {"text": "had finished the report the day before.", "is_correct": true, "why_wrong": null},
+    {"text": "has been finishing the report.", "is_correct": false, "why_wrong": "After a past reporting verb, the present perfect should move back to the past perfect, so 'has' is incorrect here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Tense backshift in reported speech after a past reporting verb",
+  "connector": "that",
+  "explanation": "After the past reporting verb 'told', the verb in the reported clause moves one step back in time. The present perfect becomes the past perfect, so 'had finished' is needed to report a completed action before the moment of speaking. Ukrainian speakers often keep the simple past here because Ukrainian has no separate past perfect tense.",
+  "translation": "Він сказав менеджеру, що закінчив звіт напередодні."
+}
