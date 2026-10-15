@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "lektor", "transliteration": "lektor", "meaning": "narrator, voice-over speaker"},
+    {"word": "dentysta", "transliteration": "dentysta", "meaning": "dentist"},
+    {"word": "kucharz", "transliteration": "kucharz", "meaning": "cook"},
+    {"word": "policjant", "transliteration": "policjant", "meaning": "police officer"}
+  ],
+  "english_words": ["cook", "narrator", "police officer", "dentist"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Polish word looks similar to the English word lecturer, but it does not mean the same thing. Learners should not translate it directly.",
+  "false_friend_warning": "The Polish word lektor looks like the English word lecturer, but it means a narrator or voice-over speaker, not a university teacher."
+}
