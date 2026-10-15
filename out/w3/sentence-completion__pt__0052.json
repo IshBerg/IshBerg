@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I need a pen, so",
+  "correct_completion": "I will buy one at the shop.",
+  "full_sentence": "I need a pen, so I will buy one at the shop.",
+  "acceptable_variants": ["I will get one tomorrow.", "I will borrow one from my friend."],
+  "options": [
+    {"text": "I already have a pen.", "is_correct": false, "why_wrong": "This contradicts 'I need a pen', so it cannot follow 'so' as a result."},
+    {"text": "I will buy an egg at the shop.", "is_correct": false, "why_wrong": "'An egg' is a different noun. The completion must refer back to the pen, so 'one' is needed."},
+    {"text": "I will buy one at the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "I am an artist.", "is_correct": false, "why_wrong": "This gives unrelated information and does not show the result of needing a pen."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Using 'one' to replace a countable noun after 'a'",
+  "connector": "so",
+  "explanation": "After 'so', we need a result of the need. English uses 'one' to replace a countable noun already mentioned, instead of repeating it. Portuguese speakers may be tempted to repeat the noun here, but English avoids that repetition.",
+  "translation": "Eu preciso de uma caneta, então vou comprar uma na loja."
+}
