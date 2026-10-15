@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "red", "transliteration": "red", "meaning": "refusal (rejection of a request or permission)"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "nice, likeable"},
+    {"word": "tablo", "transliteration": "tablo", "meaning": "painting or picture"},
+    {"word": "pardon", "transliteration": "pardon", "meaning": "excuse me, sorry"}
+  ],
+  "english_words": ["painting", "excuse me", "nice", "refusal"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Turkish words look and sound like English words, but over time their meanings moved in a different direction. Words that are borrowed into a language often keep their form while their meaning shifts, so the resemblance can mislead learners.",
+  "false_friend_warning": "Watch out for false friends: the Turkish word that looks like English 'red' means a refusal, not the colour, and the Turkish word that looks like 'table' means a painting, not furniture."
+}
