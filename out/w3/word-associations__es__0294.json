@@ -1,0 +1,14 @@
+{
+  "trigger_word": "volunteer",
+  "all_words": [
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La palabra 'charity' (organización benéfica) describe el tipo de entidad donde una persona voluntaria suele ayudar, por eso está semánticamente relacionada."},
+    {"word": "submarine", "is_associated": false, "association_type": "NONE", "explanation": "La palabra 'submarine' (submarino) no tiene ninguna relación con el trabajo voluntario, así que no está asociada."},
+    {"word": "community", "is_associated": true, "association_type": "THEMATIC", "explanation": "La palabra 'community' (comunidad) pertenece al mismo tema social: los voluntarios suelen trabajar para ayudar a su comunidad."},
+    {"word": "pizza", "is_associated": false, "association_type": "NONE", "explanation": "La palabra 'pizza' no tiene relación con el voluntariado, por lo que no está asociada con la palabra clave."},
+    {"word": "unpaid", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión 'unpaid work' (trabajo no remunerado) es una colocación habitual que describe el voluntariado, así que está asociada."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La palabra 'mountain' (montaña) no está relacionada con el voluntariado ni forma colocaciones habituales con él."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'volunteer' se asocia con organizaciones sociales, con la comunidad y con la idea de trabajar sin cobrar, mientras que los demás términos pertenecen a otros campos."
+}
