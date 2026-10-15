@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "plane", "is_associated": true, "association_type": "THEMATIC", "explanation": "Avião é o principal meio de transporte usado em aeroportos."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Árvore não tem ligação com aeroportos, por isso não está associada à palavra."},
+    {"word": "suitcase", "is_associated": true, "association_type": "THEMATIC", "explanation": "Malas de viagem são levadas e despachadas no aeroporto."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Pão não tem relação com viagens nem com aeroportos."},
+    {"word": "ticket", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Passagem aérea é necessária para embarcar no avião, por isso se combina com aeroporto."},
+    {"word": "flower", "is_associated": false, "association_type": "NONE", "explanation": "Flor não tem ligação com aeroportos."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Palavras ligadas a aeroporto são as que se usam em viagens de avião, como avião, mala e passagem."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She wanted to buy the car, but",
+  "correct_completion": "she did not have enough money.",
+  "full_sentence": "She wanted to buy the car, but she did not have enough money.",
+  "acceptable_variants": ["she could not afford it.", "the price was too high."],
+  "options": [
+    {"text": "she bought it right away.", "is_correct": false, "why_wrong": "This does not contrast with 'wanted'. 'But' signals an obstacle or a different outcome."},
+    {"text": "so she bought it yesterday.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. The connector 'but' needs an obstacle."},
+    {"text": "she did not have enough money.", "is_correct": true, "why_wrong": null},
+    {"text": "it was a very red car.", "is_correct": false, "why_wrong": "This adds a description of the car but does not complete the contrast that 'but' sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "'But' introduces a contrast with the first clause, so the completion must give an obstacle or a different outcome.",
+  "translation": "Ela queria comprar o carro, mas não tinha dinheiro suficiente."
+}

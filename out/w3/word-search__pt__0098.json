@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R", "E", "C", "Y", "C", "L", "E", "K", "T"],
+    ["Q", "M", "D", "J", "B", "Z", "X", "P", "R"],
+    ["V", "O", "G", "H", "U", "S", "I", "L", "E"],
+    ["N", "F", "K", "Q", "O", "D", "Y", "A", "E"],
+    ["W", "B", "X", "M", "I", "C", "V", "N", "Z"],
+    ["F", "A", "P", "S", "K", "D", "G", "T", "Y"],
+    ["U", "J", "T", "L", "E", "A", "R", "T", "H"],
+    ["B", "X", "Q", "E", "N", "W", "O", "S", "M"],
+    ["D", "Z", "V", "C", "R", "I", "F", "K", "W"]
+  ],
+  "words_to_find": ["RECYCLE", "TREE", "WATER", "EARTH", "PLANT"],
+  "word_positions": [
+    {"word": "RECYCLE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TREE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "WATER", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "EARTH", "start_row": 6, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "PLANT", "start_row": 1, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Environment"
+}
