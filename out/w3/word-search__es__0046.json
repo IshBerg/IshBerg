@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R","E","W","O","R","D","I","N","G"],
+    ["Q","Z","A","V","B","X","K","L","P"],
+    ["S","H","W","Q","J","D","F","T","E"],
+    ["Y","B","K","M","G","L","V","T","C"],
+    ["N","G","I","S","T","P","A","Z","X"],
+    ["O","U","D","H","R","T","Q","Z","M"],
+    ["N","L","P","W","S","K","X","D","R"],
+    ["Y","C","J","E","V","B","H","G","Q"],
+    ["M","F","R","U","Y","L","Z","W","K"]
+  ],
+  "words_to_find": ["REWORDING", "SYNONYM", "RESTATE", "GIST"],
+  "word_positions": [
+    {"word": "REWORDING", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SYNONYM", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "RESTATE", "start_row": 8, "start_col": 2, "direction": "DIAGONAL_UP"},
+    {"word": "GIST", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Restatement: Equivalent Meanings"
+}

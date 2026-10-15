@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have got a headache, so",
+  "correct_completion": "I am going to take a rest.",
+  "full_sentence": "I have got a headache, so I am going to take a rest.",
+  "acceptable_variants": ["I am going to lie down.", "I will go to bed early."],
+  "options": [
+    {"text": "I has got to go to school.", "is_correct": false, "why_wrong": "With 'I', the verb is 'have', not 'has', and going to school does not show the result of having a headache."},
+    {"text": "I am going to the cinema yesterday.", "is_correct": false, "why_wrong": "'Am going' refers to the future, but 'yesterday' refers to the past, so the tenses do not match."},
+    {"text": "I am going to take a rest.", "is_correct": true, "why_wrong": null},
+    {"text": "I are going to the park.", "is_correct": false, "why_wrong": "With 'I', the verb must be 'am', not 'are', and going to the park does not fit a headache."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Have got for states, with 'so' showing the result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. A headache is a reason to rest, so the correct result is the action of resting.",
+  "translation": "Tengo dolor de cabeza, así que voy a descansar."
+}
