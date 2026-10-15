@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are many apples in the box, so",
+  "correct_completion": "we can make a pie.",
+  "full_sentence": "There are many apples in the box, so we can make a pie.",
+  "acceptable_variants": ["we can bake a cake.", "we can share them with friends."],
+  "options": [
+    {"text": "the box is empty.", "is_correct": false, "why_wrong": "This contradicts 'there are many apples', so it cannot be the result of that fact."},
+    {"text": "the apples are blue.", "is_correct": false, "why_wrong": "The colour of the apples does not follow logically from how many of them there are."},
+    {"text": "we can make a pie.", "is_correct": true, "why_wrong": null},
+    {"text": "there is no apple at all.", "is_correct": false, "why_wrong": "This contradicts 'there are many apples' in the first part of the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "There is / there are with the connector 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result that follows logically from the first part of the sentence. Check that the result matches the information given before the connector.",
+  "translation": "В коробці багато яблук, тож ми можемо спекти пиріг."
+}
