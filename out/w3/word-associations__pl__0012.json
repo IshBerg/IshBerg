@@ -1,0 +1,14 @@
+{
+  "trigger_word": "newspaper",
+  "all_words": [
+    {"word": "headline", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Nagłówek to tytuł artykułu w gazecie, czyli element, który bezpośrednio należy do pojęcia gazety."},
+    {"word": "editor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Redaktor pracuje przy tworzeniu gazety, więc łączy się z nią tematycznie."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku z gazetą ani z prasą."},
+    {"word": "journalist", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dziennikarz pisze artykuły do gazet, więc to bliskie znaczeniowo słowo."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Silnik nie ma związku z drukowaniem ani publikowaniem gazet."},
+    {"word": "column", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słowo 'column' tworzy typowe połączenie 'newspaper column', czyli stały felieton w gazecie."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'newspaper' kojarzy się z elementami wydawania gazety, pracownikami redakcji oraz stałymi rubrykami, a nie z przyrodą czy mechaniką."
+}
