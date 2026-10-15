@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "loan", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kredi, bankanın müşterilere verdiği temel finansal ürünlerden biridir, bu yüzden 'bank' kelimesiyle doğrudan ilişkilidir."},
+    {"word": "river", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'River bank' sık kullanılan bir kalıp olup 'bank' kelimesinin nehir kıyısı anlamıyla bağlantılıdır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ ne para anlamıyla ne de kıyı anlamıyla ilgilidir, bu yüzden 'bank' ile bir bağlantısı yoktur."},
+    {"word": "teller", "is_associated": true, "association_type": "THEMATIC", "explanation": "Veznedar, banka işlemlerinde çalışan bir personeldir ve bu tema bankacılık alanına aittir."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kalem ne bankacılıkla ne de nehir kıyısıyla ilgilidir, bu nedenle bağlantı yoktur."},
+    {"word": "vault", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kasa, bankada değerli eşyaların saklandığı güvenli odadır ve anlam olarak bankayla yakından ilişkilidir."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Bank' kelimesinin çağrışımları iki ana anlamdan gelir: finansal kurum anlamı ve nehir kıyısı anlamı. Bu nedenle kredi, kasa ve veznedar gibi bankacılık kavramları ile 'river bank' kalıbı ilişkilidir, dağ ve kalem ise değildir."
+}

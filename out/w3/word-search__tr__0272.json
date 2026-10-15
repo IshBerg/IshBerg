@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "R", "Y", "X", "M", "Q", "R"],
+    ["A", "B", "C", "F", "G", "J", "E"],
+    ["S", "H", "O", "U", "L", "D", "S"],
+    ["P", "W", "V", "Z", "Q", "N", "T"],
+    ["X", "K", "B", "M", "Y", "C", "W"],
+    ["D", "R", "I", "N", "K", "G", "F"],
+    ["L", "O", "P", "A", "V", "Z", "H"]
+  ],
+  "words_to_find": ["TRY", "REST", "DRINK", "SHOULD"],
+  "word_positions": [
+    {"word": "TRY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REST", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "DRINK", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SHOULD", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Giving Advice"
+}
