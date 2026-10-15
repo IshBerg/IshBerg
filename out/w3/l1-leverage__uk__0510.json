@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "каша", "transliteration": "kasha", "meaning": "porridge"},
+    {"word": "сон", "transliteration": "son", "meaning": "dream"},
+    {"word": "батон", "transliteration": "baton", "meaning": "loaf of bread"},
+    {"word": "лук", "transliteration": "luk", "meaning": "onion"}
+  ],
+  "english_words": ["onion", "loaf", "porridge", "dream"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Ukrainian words look or sound almost identical to English words, so a learner may guess their meaning from the spelling or sound. The look-alike English words have unrelated meanings, which is why the match has to be learned rather than guessed.",
+  "false_friend_warning": "Be careful: several Ukrainian words look like English words but mean something else. The English words cash, son, baton and luck are false friends for the Ukrainian words that mean porridge, dream, loaf and onion."
+}
