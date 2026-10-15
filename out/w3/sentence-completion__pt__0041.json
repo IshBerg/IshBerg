@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I might have passed the exam.", "I could have passed the exam."],
+  "options": [
+    {"text": "I passed the exam easily.", "is_correct": false, "why_wrong": "This states a past fact. 'If only' expresses an unreal past situation, so the result must be imagined, not real."},
+    {"text": "I will study harder tomorrow.", "is_correct": false, "why_wrong": "This is a future plan. A regret about the past needs a result that did not happen in the past."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I studied harder yesterday.", "is_correct": false, "why_wrong": "This is a past fact that the speaker did not do, so it does not complete the unreal result that 'if only' introduces."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if only' for past regrets",
+  "connector": "if only",
+  "explanation": "'If only' plus the past perfect expresses a regret about the past. The main clause uses 'would have' plus the past participle to show the result that did not happen.",
+  "translation": "Se eu tivesse estudado mais, eu teria passado no exame."
+}
