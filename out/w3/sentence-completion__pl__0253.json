@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I like football, but",
+  "correct_completion": "I don't like basketball.",
+  "full_sentence": "I like football, but I don't like basketball.",
+  "acceptable_variants": ["I don't like basketball at all.", "I do not enjoy basketball."],
+  "options": [
+    {"text": "I like basketball too.", "is_correct": false, "why_wrong": "'But' signals a contrast, so this sentence repeats the first idea instead of contrasting with it. Use 'and' to add a similar idea."},
+    {"text": "I don't like basketball.", "is_correct": true, "why_wrong": null},
+    {"text": "basketball is my favourite game.", "is_correct": false, "why_wrong": "This gives a positive opinion, but 'but' needs a clause that shows a different or opposite feeling."},
+    {"text": "I play basketball every day.", "is_correct": false, "why_wrong": "This states an activity, not a feeling or opinion, so it does not show the contrast that 'but' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Using 'but' to show contrast in likes and dislikes",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that shows a different opinion from the first part. Polish speakers often use a word for 'and' here, but English needs a contrastive connector to show a different feeling.",
+  "translation": "Lubię piłkę nożną, ale nie lubię koszykówki."
+}
