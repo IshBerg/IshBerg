@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What surprised me most about the new policy",
+  "correct_completion": "was how quickly the staff adapted to it.",
+  "full_sentence": "What surprised me most about the new policy was how quickly the staff adapted to it.",
+  "acceptable_variants": ["was the speed with which the staff adapted to it.", "was that the staff adapted to it so quickly."],
+  "options": [
+    {"text": "the staff adapted to it quickly.", "is_correct": false, "why_wrong": "The linking verb 'was' is missing, so the 'what' clause has no verb connecting it to its focus."},
+    {"text": "was how quickly the staff adapted to it.", "is_correct": true, "why_wrong": null},
+    {"text": "it was the staff who adapted quickly.", "is_correct": false, "why_wrong": "This starts a second cleft structure inside the first one. A pseudo-cleft with 'what' needs a single focus after 'was', not a new 'it was' clause."},
+    {"text": "quickly adapted by the staff.", "is_correct": false, "why_wrong": "There is no 'was' before this phrase, so the stem stays incomplete and the focus structure is not formed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft sentences with 'what' clauses and the linking verb 'was'",
+  "connector": "what",
+  "explanation": "The stem opens a pseudo-cleft: a 'what' clause followed by a linking verb and then the focus. The linking verb must agree with the tense of the sentence and must come before the focus. Ukrainian speakers often drop the linking verb because Ukrainian frequently omits the copula in present-tense sentences, so they should keep 'was' in this pattern.",
+  "translation": "Найбільше мене здивувало в новій політиці те, як швидко персонал до неї пристосувався."
+}
