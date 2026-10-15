@@ -1,0 +1,19 @@
+{
+  "sentence_stem": "I have never seen snow,",
+  "correct_completion": "so I am really excited about my trip to the mountains.",
+  "full_sentence": "I have never seen snow, so I am really excited about my trip to the mountains.",
+  "acceptable_variants": ["so I can't wait to see it for the first time.", "so I am looking forward to the winter holidays."],
+  "options": [
+    {"text": "so I saw it yesterday.", "is_correct": false, "why_wrong": "A finished past time expression contradicts 'have never seen', which describes life experience up to now."},
+    {"text": "so I am really excited about my trip to the mountains.", "is_correct": true, "why_wrong": null},
+    {"text": "so I have seen it many times.", "is_correct": false, "why_wrong": "This contradicts the stem, because 'never' means the speaker has no experience of seeing snow."},
+    {"text": "so I will go to school tomorrow.", "is_correct": false, "why_wrong": "This does not logically follow from the stem, which is about lacking experience of snow, not about school."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present perfect with 'never' for life experience up to now",
+  "connector": "so",
+  "explanation": "'Have never seen' is the present perfect used for experience up to now. The second clause with 'so' shows the logical result of that lack of experience, which is excitement about the trip. Options with a finished past time expression or with 'have seen' contradict the stem."
+  ,
+  "translation": "Я ще ніколи не бачив(ла) снігу, тому дуже чекаю на поїздку в гори."
+}
