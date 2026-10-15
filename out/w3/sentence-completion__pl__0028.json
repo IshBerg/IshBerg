@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the results were carefully checked,",
+  "correct_completion": "several errors were still found in the data.",
+  "full_sentence": "Although the results were carefully checked, several errors were still found in the data.",
+  "acceptable_variants": ["several mistakes were nevertheless discovered in the data.", "some errors were still found in the data."],
+  "options": [
+    {"text": "the team checked the results again.", "is_correct": false, "why_wrong": "This adds a new action but does not give the unexpected outcome that the contrast with 'although' requires."},
+    {"text": "so the report was published early.", "is_correct": false, "why_wrong": "'So' signals a result, which conflicts with the contrast introduced by 'although'."},
+    {"text": "several errors were still found in the data.", "is_correct": true, "why_wrong": null},
+    {"text": "the data was being checked by someone.", "is_correct": false, "why_wrong": "This repeats the idea of checking instead of giving an outcome that contrasts with the first clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'although' followed by a passive verb ('were found')",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show an outcome that contrasts with what the first clause leads us to expect. In reports, the passive is used to focus on the result rather than on who did the checking. Polish speakers may choose a cause-based connector here, because Polish contrast and cause structures are easy to confuse when translated word for word.",
+  "translation": "Chociaż wyniki zostały starannie sprawdzone, w danych wciąż znaleziono kilka błędów."
+}
