@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "actualidad", "transliteration": "actualidad", "meaning": "current affairs"},
+    {"word": "asistencia", "transliteration": "asistencia", "meaning": "attendance"},
+    {"word": "realización", "transliteration": "realizacion", "meaning": "accomplishment"},
+    {"word": "discusión", "transliteration": "discusion", "meaning": "argument"}
+  ],
+  "english_words": ["accomplishment", "current affairs", "argument", "attendance"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These abstract nouns share a Latin root with their English counterparts, but the Spanish forms have shifted meaning over time, so the close spelling misleads.",
+  "false_friend_warning": "The Spanish noun for current affairs looks like the English word 'actuality', but actuality means reality or what is real; the Spanish noun for attendance looks like 'assistance', which means help; and the Spanish noun for an argument looks like 'discussion', which means a conversation."
+}
