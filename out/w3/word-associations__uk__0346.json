@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hand",
+  "all_words": [
+    {"word": "finger", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Палець є частиною руки, тому це семантичний зв'язок."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Стіл не пов'язаний з рукою ні значенням, ні темою."},
+    {"word": "glove", "is_associated": true, "association_type": "THEMATIC", "explanation": "Рукавичку одягають на руку, тому це тематичний зв'язок."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Взуття одягають на ногу, а не на руку."},
+    {"word": "wrist", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Зап'ястя є частиною руки між кистю і передпліччям."},
+    {"word": "clap", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ми плескаємо в долоні, тому це слово часто поєднується з руками (clap hands)."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово hand пов'язане з частинами руки, предметами, які одягають на руки, та діями, які виконують руками."
+}
