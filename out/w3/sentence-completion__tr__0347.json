@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the article presents a convincing argument,",
+  "correct_completion": "several of its central claims rest on limited evidence.",
+  "full_sentence": "Although the article presents a convincing argument, several of its central claims rest on limited evidence.",
+  "acceptable_variants": ["some of its evidence is weak.", "its reasoning still leaves important questions open."],
+  "options": [
+    {"text": "so readers should accept every conclusion.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' sets up a contrast. The completion should show a reservation, not a conclusion."},
+    {"text": "several of its central claims rest on limited evidence.", "is_correct": true, "why_wrong": null},
+    {"text": "because its title is very clear.", "is_correct": false, "why_wrong": "'Because' introduces a cause, and a comment about the title does not contrast with the strength of the argument."},
+    {"text": "the article is written in English.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not contrast with the convincing argument named in the first part."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in academic reading",
+  "connector": "although",
+  "explanation": "After 'although', the completion must show a contrast with the convincing argument. Learners often choose a result or cause structure here, so the contrast must be signalled clearly by the main clause.",
+  "translation": "Makale ikna edici bir argüman sunsa da, merkezi iddialarının birçoğu sınırlı kanıtlara dayanmaktadır."
+}
