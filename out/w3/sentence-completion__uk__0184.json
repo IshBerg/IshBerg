@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By next June,",
+  "correct_completion": "she will have been teaching at this school for ten years.",
+  "full_sentence": "By next June, she will have been teaching at this school for ten years.",
+  "acceptable_variants": ["she will have taught at this school for ten years.", "she will have been working at this school for ten years."],
+  "options": [
+    {"text": "she teaches at this school for ten years.", "is_correct": false, "why_wrong": "The simple present describes a routine or a fixed state, not an ongoing action that will continue up to a future point."},
+    {"text": "she will have been teaching at this school for ten years.", "is_correct": true, "why_wrong": null},
+    {"text": "she has been teaching at this school for ten years.", "is_correct": false, "why_wrong": "The present perfect continuous looks back from the present. The stem requires a future viewpoint, so 'will have been' is needed."},
+    {"text": "she will teach at this school for ten years.", "is_correct": false, "why_wrong": "The simple future does not show that the action will be in progress up to the future point and emphasise its duration."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect continuous with 'by' plus a future time expression",
+  "connector": "by",
+  "explanation": "The connector 'by' sets a future deadline, so the main clause needs the future perfect continuous: will have been plus the -ing form. This structure stresses that the action will be in progress up to that deadline. Ukrainian speakers often choose a simple future here because Ukrainian expresses this duration with a different verb form and no separate perfect auxiliary, so the will-have-been pattern needs deliberate practice.",
+  "translation": "До наступного червня вона вже десять років викладатиме в цій школі."
+}
