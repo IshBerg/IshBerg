@@ -1,0 +1,14 @@
+{
+  "trigger_word": "apple",
+  "all_words": [
+    {"word": "fruit", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La manzana es una fruta, así que las dos palabras pertenecen a la misma categoría."},
+    {"word": "tree", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las manzanas crecen en un árbol, así que las dos palabras pertenecen al mismo tema."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Un coche no tiene ninguna relación con la manzana."},
+    {"word": "pie", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Apple pie' es una tarta de manzana; las dos palabras se usan juntas con frecuencia."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Una silla no tiene ninguna relación con la manzana."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Un zapato no tiene ninguna relación con la manzana."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'apple' pertenecen a su misma categoría (fruit), al lugar donde crece (tree) o forman combinaciones habituales (apple pie)."
+}
