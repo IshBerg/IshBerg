@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We should take umbrellas because",
+  "correct_completion": "it is going to rain this afternoon.",
+  "full_sentence": "We should take umbrellas because it is going to rain this afternoon.",
+  "acceptable_variants": ["it will probably rain later today.", "the forecast says it will rain this afternoon."],
+  "options": [
+    {"text": "we were going to the shop.", "is_correct": false, "why_wrong": "This describes a past shopping trip, which gives no reason for taking umbrellas now."},
+    {"text": "the sky is very blue today.", "is_correct": false, "why_wrong": "A blue sky suggests fine weather, so it gives no reason to carry umbrellas."},
+    {"text": "it is going to rain this afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "umbrellas are on sale.", "is_correct": false, "why_wrong": "A sale is not a weather reason, so it does not explain why umbrellas are needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses of reason with 'because' and future prediction with 'going to'",
+  "connector": "because",
+  "explanation": "'Because' introduces a reason, so the completion must explain why umbrellas are needed. A prediction with 'going to' gives that reason. Ukrainian speakers may need to remember that English uses a full clause after 'because', not a noun phrase alone.",
+  "translation": "Ми повинні взяти парасольки, тому що сьогодні вдень піде дощ."
+}
