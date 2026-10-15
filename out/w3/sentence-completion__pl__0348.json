@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the rapid growth of online shopping,",
+  "correct_completion": "many small shops continue to attract customers.",
+  "full_sentence": "Despite the rapid growth of online shopping, many small shops continue to attract customers.",
+  "acceptable_variants": ["many small shops still do well.", "local stores keep their loyal customers."],
+  "options": [
+    {"text": "so many shops have closed.", "is_correct": false, "why_wrong": "'So' shows a result that follows naturally. 'Despite' needs a contrasting result, so this does not complete the logic."},
+    {"text": "the shops have more products.", "is_correct": false, "why_wrong": "This adds information but does not contrast with the growth of online shopping, so the 'despite' structure is not completed."},
+    {"text": "many small shops continue to attract customers.", "is_correct": true, "why_wrong": null},
+    {"text": "online shops are cheaper.", "is_correct": false, "why_wrong": "This gives a reason for online shopping rather than a contrasting outcome, so it does not match the expected contrast after 'despite'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'despite' followed by a main clause",
+  "connector": "despite",
+  "explanation": "'Despite' introduces an idea that runs against what we would expect, so the main clause must show a contrasting result. Learners often reach for a result or reason connector here because it feels more natural in their first language. In English, 'despite' requires a main clause that contrasts with the first part of the sentence.",
+  "translation": "Mimo szybkiego wzrostu zakupów online wiele małych sklepów nadal przyciąga klientów."
+}
