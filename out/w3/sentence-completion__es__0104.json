@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will take the bus instead.", "we will cancel the picnic."],
+  "options": [
+    {"text": "we went to the beach yesterday.", "is_correct": false, "why_wrong": "This is a past event, not a future result, so it does not complete a first conditional sentence."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we would have gone shopping.", "is_correct": false, "why_wrong": "'Would have' is a third conditional form for unreal past situations, not a real future possibility."},
+    {"text": "we stayed at home last week.", "is_correct": false, "why_wrong": "This describes a past action, so it does not give the future result that the 'if' clause needs."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional: if + present simple, will + base verb",
+  "connector": "if",
+  "explanation": "The first conditional describes a real possible future situation. After 'if' we use the present simple, even when the meaning is about the future, and the main clause uses 'will' plus the base verb. Spanish speakers often expect a future tense inside the 'if' clause, so remember that English keeps the present form there.",
+  "translation": "Si llueve mañana, nos quedaremos en casa."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "broom",
+  "all_words": [
+    {"word": "sweep", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Con una escoba se barre el suelo, por eso 'sweep' se asocia directamente con 'broom'."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "El piano es un instrumento musical y no tiene ninguna relación con la escoba."},
+    {"word": "floor", "is_associated": true, "association_type": "THEMATIC", "explanation": "La escoba se usa para limpiar el suelo, así que 'floor' pertenece al mismo tema de las tareas de la casa."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña no tiene relación con las tareas domésticas ni con el uso de la escoba."},
+    {"word": "dust", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La escoba sirve para quitar el polvo, por eso 'dust' está relacionado con ella en significado."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "El sofá es un mueble de la casa, pero no se limpia con escoba, así que no hay una asociación directa."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'broom' se relacionan con la limpieza de la casa; las demás no tienen que ver con esta tarea."
+}
