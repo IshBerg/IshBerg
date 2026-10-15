@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "O", "R", "D", "K", "Q", "J", "V", "B", "L"],
+    ["A", "X", "Z", "M", "H", "P", "F", "C", "U", "I"],
+    ["Q", "W", "B", "R", "K", "D", "G", "S", "Y", "N"],
+    ["S", "H", "L", "V", "X", "C", "M", "O", "P", "E"],
+    ["F", "T", "Z", "K", "W", "B", "J", "N", "Q", "R"],
+    ["G", "E", "O", "H", "V", "D", "L", "X", "M", "W"],
+    ["K", "L", "P", "R", "D", "J", "Z", "Q", "H", "W"],
+    ["B", "T", "N", "F", "Y", "A", "X", "K", "V", "O"],
+    ["M", "I", "X", "U", "C", "R", "H", "P", "Z", "L"],
+    ["Q", "T", "J", "E", "G", "A", "P", "S", "M", "D"]
+  ],
+  "words_to_find": ["WORD", "LINE", "STORY", "TITLE", "PAGE"],
+  "word_positions": [
+    {"word": "WORD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LINE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "STORY", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TITLE", "start_row": 9, "start_col": 1, "direction": "VERTICAL_UP"},
+    {"word": "PAGE", "start_row": 9, "start_col": 6, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Short Paragraphs"
+}

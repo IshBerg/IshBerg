@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the poet describe the storm,",
+  "correct_completion": "but she also captured its silence.",
+  "full_sentence": "Not only did the poet describe the storm, but she also captured its silence.",
+  "acceptable_variants": ["but she also described the calm that followed.", "but she also conveyed its emotional power."],
+  "options": [
+    {"text": "so the readers were scared.", "is_correct": false, "why_wrong": "'So' introduces a result. The 'not only ... but also' pattern needs a parallel addition, not a consequence."},
+    {"text": "but she also captured its silence.", "is_correct": true, "why_wrong": null},
+    {"text": "although the storm was short.", "is_correct": false, "why_wrong": "'Although' introduces a contrast and does not complete the 'not only ... but also' pattern."},
+    {"text": "because she had no paper.", "is_correct": false, "why_wrong": "'Because' gives a reason. The pattern requires a second action that is added in parallel to the first."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Correlative 'not only ... but also' with subject-auxiliary inversion",
+  "connector": "not only ... but also",
+  "explanation": "The structure 'not only' links two parallel actions. After it, the auxiliary 'did' comes before the subject, and the second clause continues with 'but also' and a normal subject-verb order.",
+  "translation": "Não apenas o poeta descreveu a tempestade, mas ela também captou o seu silêncio."
+}

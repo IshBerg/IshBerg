@@ -1,0 +1,14 @@
+{
+  "trigger_word": "meeting",
+  "all_words": [
+    {"word": "agenda", "is_associated": true, "association_type": "THEMATIC", "explanation": "A agenda é a lista de tópicos de uma reunião, por isso pertence ao mesmo tema."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "A banana não tem nenhuma relação com reuniões, nem em significado nem em uso comum."},
+    {"word": "minutes", "is_associated": true, "association_type": "THEMATIC", "explanation": "As minutes são o registro escrito do que foi discutido em uma reunião, por isso estão ligadas ao tema."},
+    {"word": "tiger", "is_associated": false, "association_type": "NONE", "explanation": "O tigre não tem relação com reuniões, nem por significado nem por contexto."},
+    {"word": "board", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês, 'board meeting' é uma expressão comum para reunião de diretoria, por isso a ligação é colocacional."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "O travesseiro não tem nenhuma relação com reuniões, nem em significado nem em expressões comuns."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'meeting' se relacionam com ela por tema ou por expressão fixa em inglês; as demais não têm nenhuma dessas relações."
+}
