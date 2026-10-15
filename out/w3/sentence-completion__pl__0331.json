@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother,",
+  "correct_completion": "who lives in London, is a doctor.",
+  "full_sentence": "My brother, who lives in London, is a doctor.",
+  "acceptable_variants": ["who lives in London, works as a doctor.", "who lives in London, is a physician."],
+  "options": [
+    {"text": "that lives in London, is a doctor.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining relative clause set off by commas. Use 'who' for people."},
+    {"text": "which lives in London, is a doctor.", "is_correct": false, "why_wrong": "'Which' refers to things, not people. A person is referred to with 'who'."},
+    {"text": "who lives in London, is a doctor.", "is_correct": true, "why_wrong": null},
+    {"text": "he lives in London and he is a doctor.", "is_correct": false, "why_wrong": "This creates a comma splice: two full clauses are joined only by a comma, and no relative pronoun connects them to the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who'",
+  "connector": "who",
+  "explanation": "A non-defining clause adds extra information about a person we have already identified, so it is set off with commas. For people, the relative pronoun is 'who'.",
+  "translation": "Mój brat, który mieszka w Londynie, jest lekarzem."
+}

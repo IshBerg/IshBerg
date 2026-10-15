@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "konkretny", "transliteration": "konkretny", "meaning": "specific"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "likeable"},
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly"}
+  ],
+  "english_words": ["possibly", "specific", "likeable", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Polish words come from Latin-based vocabulary shared with English, so their forms look alike, but their meanings have drifted apart over time.",
+  "false_friend_warning": "The Polish word for 'specific' looks like English 'concrete', but 'concrete' means material or tangible, not specific. Other words in this set also look like English words with different meanings, such as 'sympathetic' (not 'likeable'), 'actual' (not 'current') and 'eventually' (not 'possibly')."
+}
