@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "argument", "transliteration": "argument", "meaning": "a reason given to support a point of view"},
+    {"word": "dyskusja", "transliteration": "dyskusja", "meaning": "a conversation in which people exchange opinions"},
+    {"word": "opinia", "transliteration": "opinia", "meaning": "a view or judgment about something"},
+    {"word": "demokracja", "transliteration": "demokracja", "meaning": "a system of government based on elected representatives"}
+  ],
+  "english_words": ["opinion", "democracy", "argument", "discussion"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same classical source, so the forms stayed close and the meanings remained the same.",
+  "false_friend_warning": null
+}
