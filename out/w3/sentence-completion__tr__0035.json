@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The director admitted that",
+  "correct_completion": "the film had cost much more than planned.",
+  "full_sentence": "The director admitted that the film had cost much more than planned.",
+  "acceptable_variants": ["the film cost much more than planned.", "the film had been far more expensive than expected."],
+  "options": [
+    {"text": "the film costs much more than planned.", "is_correct": false, "why_wrong": "After a past reporting verb such as 'admitted', the present simple usually shifts back to the past simple or past perfect in reported speech."},
+    {"text": "the film will cost much more than planned.", "is_correct": false, "why_wrong": "The future is backshifted to 'would' in reported speech after a past reporting verb, so 'will' does not fit here."},
+    {"text": "the film had cost much more than planned.", "is_correct": true, "why_wrong": null},
+    {"text": "to cost much more than planned.", "is_correct": false, "why_wrong": "This is an infinitive without a subject and verb, so it cannot complete the reported clause after 'that'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Backshift of tenses in reported speech after a past reporting verb",
+  "connector": "that",
+  "explanation": "The reporting verb 'admitted' is in the past, so the reported clause moves one tense back. The past perfect here shows that the cost happened before the admission. Turkish speakers may find this hard because Turkish reports speech with different verb endings and does not backshift tenses in the same way.",
+  "translation": "Yönetmen, filmin planlanandan çok daha fazla maliyetli olduğunu kabul etti."
+}
