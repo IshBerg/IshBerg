@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am sorry I did not reply sooner because",
+  "correct_completion": "I was very busy this week.",
+  "full_sentence": "I am sorry I did not reply sooner because I was very busy this week.",
+  "acceptable_variants": ["I had a lot of work this week.", "I was on holiday for a few days."],
+  "options": [
+    {"text": "I am happy to hear from you.", "is_correct": false, "why_wrong": "This is a positive reaction, but 'because' needs a clause that gives the reason for the late reply."},
+    {"text": "I was very busy this week.", "is_correct": true, "why_wrong": null},
+    {"text": "I like your new photos.", "is_correct": false, "why_wrong": "This is a friendly comment, but it does not explain why the reply was late."},
+    {"text": "let's meet at the park.", "is_correct": false, "why_wrong": "This is a suggestion for the future, not a reason for the delay."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses of reason with 'because' in an apology",
+  "connector": "because",
+  "explanation": "After 'because', we need a full clause that gives the reason for the situation in the first part of the sentence. Learners should use a subject and a verb after the connector rather than a noun phrase or a suggestion.",
+  "translation": "Lo siento no haber respondido antes porque estuve muy ocupado esta semana."
+}

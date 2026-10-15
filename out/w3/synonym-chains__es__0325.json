@@ -1,0 +1,23 @@
+{
+  "central_word": "claim",
+  "chain_words": [
+    {"word": "suggest", "intensity": 1, "translation": "sugerir", "nuance": "present an idea softly, leaving room for doubt"},
+    {"word": "propose", "intensity": 2, "translation": "proponer", "nuance": "put forward an idea for others to consider"},
+    {"word": "argue", "intensity": 3, "translation": "argumentar", "nuance": "support a position with reasons"},
+    {"word": "assert", "intensity": 4, "translation": "afirmar", "nuance": "state a claim firmly and confidently"},
+    {"word": "insist", "intensity": 5, "translation": "insistir", "nuance": "refuse to accept any objection to a claim"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express putting forward a view in discussion, but they differ in how strongly the speaker commits to it, from a tentative suggestion to an emphatic insistence.",
+  "usage_notes": [
+    {"word1": "assert", "word2": "argue", "difference": "'Assert' presents a claim confidently as true, while 'argue' implies giving reasons and evidence to support a position."}
+  ],
+  "translations": {
+    "suggest": "sugerir",
+    "propose": "proponer",
+    "argue": "argumentar",
+    "assert": "afirmar",
+    "insist": "insistir"
+  }
+}
