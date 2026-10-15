@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "A", "P", "P", "Y", "K", "Q"],
+    ["B", "T", "W", "E", "J", "U", "Z"],
+    ["M", "R", "I", "X", "O", "F", "S"],
+    ["A", "N", "G", "R", "Y", "U", "A"],
+    ["W", "K", "V", "E", "I", "Z", "D"],
+    ["Q", "C", "A", "L", "M", "T", "J"],
+    ["X", "B", "N", "O", "P", "R", "E"]
+  ],
+  "words_to_find": ["HAPPY", "SAD", "ANGRY", "CALM"],
+  "word_positions": [
+    {"word": "HAPPY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SAD", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ANGRY", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CALM", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Basic Feelings"
+}

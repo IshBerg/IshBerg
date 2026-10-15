@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The company reduced its prices;",
+  "correct_completion": "as a result, sales increased sharply.",
+  "full_sentence": "The company reduced its prices; as a result, sales increased sharply.",
+  "acceptable_variants": ["consequently, sales increased sharply.", "so sales rose sharply."],
+  "options": [
+    {"text": "however, sales increased sharply.", "is_correct": false, "why_wrong": "'However' signals contrast, but the stem describes a cause, and a price cut would normally be expected to raise sales, not contradict it."},
+    {"text": "as a result, sales increased sharply.", "is_correct": true, "why_wrong": null},
+    {"text": "in addition, it hired more staff.", "is_correct": false, "why_wrong": "'In addition' adds a separate piece of information, but it does not show the consequence of the price cut."},
+    {"text": "nevertheless, customers stayed away.", "is_correct": false, "why_wrong": "'Nevertheless' introduces an unexpected result, which does not fit the logical effect of lower prices."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause-effect linking adverbials",
+  "connector": "as a result",
+  "explanation": "'As a result' introduces the effect of the action in the first clause. Turkish speakers may sometimes place a cause-effect link inside a subordinate structure, so it is useful to practise the separate sentence-linking pattern with a semicolon and a comma.",
+  "translation": "Şirket fiyatlarını düşürdü; bunun sonucunda satışlar keskin biçimde arttı."
+}

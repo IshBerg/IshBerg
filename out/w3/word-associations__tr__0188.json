@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poster",
+  "all_words": [
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Ağaç, reklam afişiyle doğrudan bir ilişkisi olmayan doğal bir nesnedir, bu yüzden bu kelime poster ile ilişkili değildir."},
+    {"word": "slogan", "is_associated": true, "association_type": "THEMATIC", "explanation": "Slogan, afişlerde ürünü akılda kalıcı biçimde tanıtmak için kullanılan kısa bir cümledir."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmek bir gıda maddesidir ve reklam afişleriyle ilgili bir konuda yer almaz."},
+    {"word": "logo", "is_associated": true, "association_type": "THEMATIC", "explanation": "Logo, afişlerde markayı hemen tanıtmak için kullanılan görsel bir işarettir."},
+    {"word": "billboard", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Billboard, poster ile aynı amaçla kullanılan büyük bir reklam panosudur, bu yüzden anlamca yakındır."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kurşun kalem yazmak ve çizmek için kullanılır, ancak poster ile doğrudan ilişkili bir kelime değildir."}
+  ],
+  "correct_indices": [1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Posterle ilişkili kelimeler reklam, tanıtım ve görsel iletişimle ilgilidir; ilişkisiz kelimeler ise bu konuyla bağlantılı değildir."
+}
