@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pansiyon", "transliteration": "pansiyon", "meaning": "guesthouse"},
+    {"word": "vagon", "transliteration": "vagon", "meaning": "train carriage"},
+    {"word": "otogar", "transliteration": "otogar", "meaning": "bus terminal"},
+    {"word": "bilet", "transliteration": "bilet", "meaning": "ticket"}
+  ],
+  "english_words": ["bus terminal", "ticket", "guesthouse", "train carriage"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Turkish has borrowed many travel words from European languages, so some Turkish forms look close to English words while their meanings can differ.",
+  "false_friend_warning": "The Turkish word pansiyon looks like the English word 'pension', but it means a guesthouse, not a retirement payment, so students should not translate it as pension."
+}
