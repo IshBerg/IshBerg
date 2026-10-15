@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Feeling tired after a long day at work,",
+  "correct_completion": "she sat down on the sofa and closed her eyes.",
+  "full_sentence": "Feeling tired after a long day at work, she sat down on the sofa and closed her eyes.",
+  "acceptable_variants": ["she made herself a cup of tea and rested.", "she went straight to bed."],
+  "options": [
+    {"text": "she made herself a cup of tea and rested.", "is_correct": false, "why_wrong": "This is a reasonable action, but the participle clause describes tiredness, so the main clause should show a result of that tiredness in the same subject."},
+    {"text": "she sat down on the sofa and closed her eyes.", "is_correct": true, "why_wrong": null},
+    {"text": "the sofa was very comfortable.", "is_correct": false, "why_wrong": "This describes the sofa rather than an action by the subject, so it does not complete the participle clause."},
+    {"text": "the television was turned on in the living room.", "is_correct": false, "why_wrong": "The participle clause refers to the subject, so the main clause must describe what she did, not what happened to another object."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with a subject that matches the main clause",
+  "connector": "feeling",
+  "explanation": "A participle clause at the start of a sentence must refer to the same subject as the main clause. Here, the person who feels tired is the same person who sits down, so the main clause must describe her action.",
+  "translation": "Czując się zmęczona po długim dniu w pracy, usiadła na kanapie i zamknęła oczy."
+}
