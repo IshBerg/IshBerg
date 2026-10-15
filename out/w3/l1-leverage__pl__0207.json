@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "syn", "transliteration": "syn", "meaning": "son"},
+    {"word": "córka", "transliteration": "corka", "meaning": "daughter"},
+    {"word": "brat", "transliteration": "brat", "meaning": "brother"},
+    {"word": "kuzyn", "transliteration": "kuzyn", "meaning": "cousin"}
+  ],
+  "english_words": ["cousin", "son", "daughter", "brother"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These family words are native to each language and have no shared origin, so each pairing must be learned by meaning rather than by sound.",
+  "false_friend_warning": "The Polish word 'syn' (meaning son) sounds almost the same as the English word 'sin', which means a wrong action against moral or religious rules, so learners may confuse the two when they hear them."
+}

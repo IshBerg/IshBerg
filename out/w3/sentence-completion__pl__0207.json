@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The last guest having left,",
+  "correct_completion": "the host closed the door and turned off the lights.",
+  "full_sentence": "The last guest having left, the host closed the door and turned off the lights.",
+  "acceptable_variants": ["the host finally locked up for the night.", "the host turned off the lights and went to bed."],
+  "options": [
+    {"text": "so the host closed the door.", "is_correct": false, "why_wrong": "Adding 'so' turns the sentence into a cause-effect link; an absolute clause expresses background circumstance without a linking word."},
+    {"text": "the host was closing the door.", "is_correct": false, "why_wrong": "The continuous form describes an action in progress, but the perfect participle 'having left' signals an action completed before the main clause."},
+    {"text": "the host closed the door and turned off the lights.", "is_correct": true, "why_wrong": null},
+    {"text": "and the host, closing the door.", "is_correct": false, "why_wrong": "This has no finite main clause, so the participle 'closing' cannot stand alone as the predicate."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Absolute participle clauses with a perfect participle",
+  "connector": "having left",
+  "explanation": "The perfect participle clause 'having left' has its own implied subject, 'the last guest', so the main clause needs a new subject, 'the host'. Learners often add a linking word or repeat a finite verb pattern, which breaks the structure.",
+  "translation": "Gdy ostatni gość już wyszedł, gospodarz zamknął drzwi i zgasił światła."
+}
