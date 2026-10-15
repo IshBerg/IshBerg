@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "evidence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Evidence é o que se usa para sustentar um argumento, por isso está diretamente ligado ao conceito."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "O pôr do sol não tem relação com discutir ou defender uma ideia."},
+    {"word": "rebuttal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Uma refutação é a resposta a um argumento, então pertence ao mesmo campo de debate."},
+    {"word": "pancake", "is_associated": false, "association_type": "NONE", "explanation": "Panqueca é uma comida sem nenhuma ligação com debates ou discussões."},
+    {"word": "claim", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Na combinação 'make a claim', a palavra forma uma expressão comum com argumento no contexto de debate."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bicicleta não tem qualquer relação com o universo de argumentação e persuasão."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Um argumento está ligado às palavras que o sustentam, o refutam ou o formulam em debate; as demais palavras pertencem a outros contextos."
+}
