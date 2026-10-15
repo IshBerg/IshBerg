@@ -1,0 +1,17 @@
+{
+  "central_word": "fear",
+  "chain_words": [
+    {"word": "concern", "intensity": 1, "translation": "inquietud", "nuance": "mild worry about a possible problem"},
+    {"word": "apprehension", "intensity": 2, "translation": "aprensión", "nuance": "anxious expectation of something unpleasant"},
+    {"word": "worry", "intensity": 3, "translation": "preocupación", "nuance": "ongoing unease about something that matters"},
+    {"word": "fear", "intensity": 4, "translation": "miedo", "nuance": "strong feeling caused by a real or perceived threat"},
+    {"word": "terror", "intensity": 5, "translation": "terror", "nuance": "extreme fear that overwhelms a person"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express a negative response to a possible threat, but they differ in intensity, from mild concern to overwhelming terror.",
+  "usage_notes": [
+    {"word1": "worry", "word2": "fear", "difference": "'Worry' describes a continuing feeling of unease about something that may happen, while 'fear' describes a stronger reaction to a specific danger."}
+  ],
+  "translations": {"concern": "inquietud", "apprehension": "aprensión", "worry": "preocupación", "fear": "miedo", "terror": "terror"}
+}

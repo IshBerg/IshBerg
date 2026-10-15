@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "Yesterday, my brother and I",
+  "correct_completion": "were at home all day.",
+  "full_sentence": "Yesterday, my brother and I were at home all day.",
+  "acceptable_variants": ["were home all day.", "were indoors all day."],
+  "options": [
+    {"text": "was at home all day.", "is_correct": false, "why_wrong": "'My brother and I' is plural, so the past form of 'to be' must be 'were', not 'was'."},
+    {"text": "are at home all day.", "is_correct": false, "why_wrong": "'Yesterday' refers to the past, so the present form 'are' cannot be used."},
+    {"text": "were at home all day.", "is_correct": true, "why_wrong": null},
+    {"text": "be at home all day.", "is_correct": false, "why_wrong": "The base form 'be' cannot stand alone as the main verb of a past sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past simple of 'to be' with plural subjects",
+  "connector": "and",
+  "explanation": "The subject 'my brother and I' is plural, so the past form of 'to be' must be 'were'. Learners may expect one past form for every subject, but English matches the verb to the number of the subject."
+}
