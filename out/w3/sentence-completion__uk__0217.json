@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What puzzled the investigators most",
+  "correct_completion": "was not the theft itself but the precision with which it had been planned.",
+  "full_sentence": "What puzzled the investigators most was not the theft itself but the precision with which it had been planned.",
+  "acceptable_variants": ["was the precision with which the theft had been planned.", "was how carefully the theft had been planned."],
+  "options": [
+    {"text": "the thief had apparently left through the open window.", "is_correct": false, "why_wrong": "This narrates an event, so the clause does not name what puzzled the investigators."},
+    {"text": "was not the theft itself but the precision with which it had been planned.", "is_correct": true, "why_wrong": null},
+    {"text": "was the colour of the thief's coat.", "is_correct": false, "why_wrong": "This is a trivial detail that would not puzzle experienced investigators."},
+    {"text": "is why nobody reported the missing equipment earlier.", "is_correct": false, "why_wrong": "This shifts the puzzle to the delayed report, which the stem does not mention."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Wh-nominal clauses functioning as the subject of a cleft-style sentence",
+  "connector": "what",
+  "explanation": "A wh-nominal clause such as 'what puzzled the investigators most' works as a noun phrase, so the verb that follows must express what the clause identifies. The contrast 'not ... but' then names the real focus of the puzzle.",
+  "translation": "Найбільше слідчих збентежило не саме викрадення, а та ретельність, з якою його спланували."
+}
