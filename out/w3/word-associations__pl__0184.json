@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ocean",
+  "all_words": [
+    {"word": "wave", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Fala to ruch wody, który jest typowy dla oceanu, więc słowa są blisko znaczeniowo."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Plaża leży na brzegu oceanu i często razem z nim występuje w opisach wakacji."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra to ląd wyniesiony ponad poziom terenu, nie ma żadnego związku z oceanem."},
+    {"word": "fish", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ryby żyją w oceanie, więc są jego naturalnym elementem."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Pustynia jest suchym miejscem bez wody, więc jest przeciwieństwem oceanu."},
+    {"word": "ship", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Statki pływają po oceanie i w języku angielskim często łączą się z tym słowem."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z oceanem dotyczą wody, życia morskiego, wybrzeża lub żeglugi, natomiast słowa z lądu i pustyni nie mają z nim związku."
+}
