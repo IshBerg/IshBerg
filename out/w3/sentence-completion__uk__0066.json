@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Do you know",
+  "correct_completion": "what time the bank opens?",
+  "full_sentence": "Do you know what time the bank opens?",
+  "acceptable_variants": ["what time the bank closes?", "when the bank opens?"],
+  "options": [
+    {"text": "what time does the bank open?", "is_correct": false, "why_wrong": "This uses direct question word order. After 'do you know', the subject comes before the verb."},
+    {"text": "what time the bank opens?", "is_correct": true, "why_wrong": null},
+    {"text": "the bank opens what time?", "is_correct": false, "why_wrong": "Question words must come first, so this word order is not a valid question."},
+    {"text": "where the bank opens?", "is_correct": false, "why_wrong": "'Where' asks about a place, but the stem asks about a time."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with wh-words",
+  "connector": "what time",
+  "explanation": "After a phrase like 'do you know', a wh-word introduces an indirect question. The subject comes before the verb, so the word order is the same as in a statement.",
+  "translation": "Чи знаєте ви, о котрій годині відкривається банк?"
+}
