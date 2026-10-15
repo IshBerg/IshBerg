@@ -1,0 +1,14 @@
+{
+  "trigger_word": "message",
+  "all_words": [
+    {"word": "send", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se dice 'enviar un mensaje', por eso 'send' es una combinación frecuente con la palabra clave."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Una montaña no tiene ninguna relación con los mensajes de texto."},
+    {"word": "reply", "is_associated": true, "association_type": "THEMATIC", "explanation": "Responder es parte natural de una conversación por mensajes, por eso pertenece al mismo tema."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Un río no se relaciona con los mensajes de texto."},
+    {"word": "keyboard", "is_associated": true, "association_type": "THEMATIC", "explanation": "Para escribir un mensaje en el teléfono se usa el teclado, así que pertenece al mismo tema."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Un plátano no tiene relación con enviar mensajes."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas se relacionan con mensajes por la acción de enviarlos, responderlos o escribirlos; las demás no tienen esa relación."
+}

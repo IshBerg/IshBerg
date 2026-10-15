@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "plato", "transliteration": "plato", "meaning": "dish (a prepared food or course)"},
+    {"word": "cena", "transliteration": "cena", "meaning": "dinner (the evening meal)"},
+    {"word": "vaso", "transliteration": "vaso", "meaning": "glass (a container for drinking)"},
+    {"word": "pastel", "transliteration": "pastel", "meaning": "cake (a sweet baked dessert)"}
+  ],
+  "english_words": ["glass", "cake", "dish", "dinner"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Spanish words look like English words that have a different meaning, so the similar spelling can mislead learners at a restaurant.",
+  "false_friend_warning": "The Spanish word for dish looks like English 'plate' but means a dish or course of food, not the flat object you eat from. Similarly, the Spanish word for cake looks like English 'pastel', which is a pale color in English."
+}
