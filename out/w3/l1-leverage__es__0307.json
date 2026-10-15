@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive (easily affected by something)"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present-day"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend, to be present at"},
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold (illness)"}
+  ],
+  "english_words": ["current", "having a cold", "sensitive", "to attend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Spanish words look like English words of the same form, but their meanings have shifted differently in each language over time.",
+  "false_friend_warning": "The Spanish word 'sensible' looks like English 'sensible', but it means 'sensitive' in English, while English 'sensible' means reasonable. Similarly, 'actual' means 'current' in Spanish, not 'real' as in English."
+}
