@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["K", "W", "Q", "Z", "N", "H", "X", "V", "J", "P"],
+    ["R", "E", "B", "U", "T", "T", "A", "L", "Y", "R"],
+    ["G", "E", "T", "A", "B", "E", "D", "M", "O", "E"],
+    ["F", "P", "K", "S", "W", "Q", "N", "B", "T", "M"],
+    ["H", "A", "V", "D", "R", "X", "Z", "U", "K", "I"],
+    ["C", "N", "L", "J", "Q", "W", "F", "Y", "A", "S"],
+    ["I", "B", "N", "L", "X", "H", "K", "P", "T", "E"],
+    ["G", "D", "W", "Q", "A", "F", "J", "M", "S", "V"],
+    ["O", "Z", "R", "X", "K", "C", "V", "U", "N", "J"],
+    ["L", "H", "W", "Q", "P", "B", "Y", "T", "G", "D"]
+  ],
+  "words_to_find": ["REBUTTAL", "PREMISE", "FALLACY", "DEBATE", "LOGIC"],
+  "word_positions": [
+    {"word": "REBUTTAL", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PREMISE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "FALLACY", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DEBATE", "start_row": 2, "start_col": 6, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "LOGIC", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Native-Level Debate and Rebuttal"
+}
