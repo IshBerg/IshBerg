@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Of all the mountains we climbed,",
+  "correct_completion": "this one was the highest.",
+  "full_sentence": "Of all the mountains we climbed, this one was the highest.",
+  "acceptable_variants": ["this one was the most challenging.", "this one had the best view."],
+  "options": [
+    {"text": "we were very tired at the end.", "is_correct": false, "why_wrong": "This describes how we felt, but it does not complete the comparison that 'of all' introduces."},
+    {"text": "we took a lot of photos.", "is_correct": false, "why_wrong": "This describes an activity and does not compare the mountains, so it does not fit the 'of all' structure."},
+    {"text": "this one was the highest.", "is_correct": true, "why_wrong": null},
+    {"text": "we had a picnic at the top.", "is_correct": false, "why_wrong": "This describes an event at one place and does not compare the mountains with each other."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Superlative adjectives with 'the' after 'of all'",
+  "connector": "of all",
+  "explanation": "After 'of all', we need a superlative that compares the mountains. The structure is 'of all + group + the + superlative adjective'.",
+  "translation": "Tırmandığımız tüm dağlar arasında bu, en yüksek olanıydı."
+}
