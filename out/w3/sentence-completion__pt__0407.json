@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you bake the cake,",
+  "correct_completion": "preheat the oven to 180 degrees.",
+  "full_sentence": "Before you bake the cake, preheat the oven to 180 degrees.",
+  "acceptable_variants": ["grease the baking tin first.", "mix the flour and eggs first."],
+  "options": [
+    {"text": "you can eat it right away.", "is_correct": false, "why_wrong": "Eating the cake is impossible before it is baked, so this does not follow the time sequence set by 'before'."},
+    {"text": "preheat the oven to 180 degrees.", "is_correct": true, "why_wrong": null},
+    {"text": "the cake was eaten yesterday.", "is_correct": false, "why_wrong": "This is a past event, but 'before you bake' describes the steps that come before baking in the same recipe."},
+    {"text": "we turn the oven off first.", "is_correct": false, "why_wrong": "Turning the oven off contradicts the preparation needed before baking a cake."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time sequence with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', the sentence must describe a step that happens earlier in the process. Learners should check the logical order of the recipe steps rather than only the grammar of the clause.",
+  "translation": "Antes de assar o bolo, pré-aqueça o forno a 180 graus."
+}
