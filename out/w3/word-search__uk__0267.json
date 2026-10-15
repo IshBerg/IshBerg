@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E", "A", "S", "T", "E", "R", "M", "K", "U", "G"],
+    ["B", "O", "L", "R", "Y", "D", "U", "W", "Z", "I"],
+    ["H", "J", "N", "P", "V", "C", "M", "Q", "S", "F"],
+    ["K", "W", "E", "O", "G", "L", "Z", "B", "X", "T"],
+    ["P", "U", "I", "N", "S", "H", "F", "J", "Q", "V"],
+    ["W", "A", "K", "M", "E", "T", "O", "R", "G", "L"],
+    ["Y", "B", "R", "C", "D", "N", "I", "P", "X", "U"],
+    ["Z", "V", "N", "T", "K", "S", "H", "L", "Q", "M"],
+    ["O", "A", "B", "D", "Y", "F", "R", "I", "W", "J"],
+    ["D", "G", "X", "P", "L", "M", "E", "K", "A", "C"]
+  ],
+  "words_to_find": ["EASTER", "GIFT", "PARTY", "DANCE", "CAKE"],
+  "word_positions": [
+    {"word": "EASTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GIFT", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "PARTY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DANCE", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "CAKE", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Holidays Around the World"
+}
