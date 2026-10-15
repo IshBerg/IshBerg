@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "R", "E", "E", "A", "B", "C", "D", "S"],
+    ["F", "G", "H", "J", "K", "L", "M", "P", "U"],
+    ["Q", "W", "R", "T", "Y", "U", "I", "O", "N"],
+    ["Z", "X", "C", "V", "B", "N", "M", "L", "K"],
+    ["R", "A", "P", "F", "S", "D", "G", "H", "J"],
+    ["W", "O", "A", "L", "K", "J", "H", "G", "F"],
+    ["M", "E", "C", "B", "N", "V", "X", "Z", "Q"],
+    ["L", "P", "Q", "K", "M", "N", "B", "V", "C"],
+    ["D", "F", "G", "H", "J", "K", "L", "Z", "X"]
+  ],
+  "words_to_find": ["TREE", "SUN", "ROCK", "LEAF"],
+  "word_positions": [
+    {"word": "TREE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SUN", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "ROCK", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LEAF", "start_row": 7, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Nature and Environment"
+}

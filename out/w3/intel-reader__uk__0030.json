@@ -1,0 +1,20 @@
+{
+  "title": "Getting Around the City",
+  "text": "A metro map shows the lines and stations in a city. Each line has a color. The colors help you find your way. A green line is often the fastest route.\n\nA train timetable shows when the trains leave. Read the times in the first row. The train to the airport leaves at 6:40. Please arrive at the station ten minutes before.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What do the colors on a metro map help you do?", "options": ["Find your way", "Buy tickets", "Pay for food", "Watch the trains"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "When does the train to the airport leave?", "options": ["6:04", "6:40", "7:10", "8:06"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why should you arrive at the station ten minutes early?", "options": ["So you do not miss the train", "Because the airport is closed", "Because the timetable is wrong", "So you can change the colors"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can you infer about a green line on a metro map?", "options": ["It is probably a faster route", "It is a train that is always late", "It is a station with no trains", "It is a ticket for the bus"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "metro", "translation": "метро", "definition": "an underground railway system in a city"},
+    {"word": "timetable", "translation": "розклад руху", "definition": "a list that shows when trains or buses leave"},
+    {"word": "station", "translation": "станція", "definition": "a place where trains stop so people can get on or off"},
+    {"word": "route", "translation": "маршрут", "definition": "the way you travel from one place to another"}
+  ],
+  "paragraph_translations": [
+    "Карта метро показує лінії та станції в місті. Кожна лінія має свій колір. Кольори допомагають знайти дорогу. Зелена лінія часто є найшвидшим маршрутом.",
+    "Розклад руху потягів показує, коли вони відправляються. Читайте час у першому рядку. Потяг до аеропорту відправляється о 6:40. Будь ласка, прибувайте на станцію за десять хвилин до відправлення."
+  ]
+}

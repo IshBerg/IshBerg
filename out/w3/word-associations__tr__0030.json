@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "THEMATIC", "explanation": "Köprüler çoğunlukla nehirlerin üzerine inşa edilir, bu yüzden 'river' köprü temasıyla ilgilidir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastığın köprüyle hiçbir anlamsal veya tematik bağı yoktur; ev eşyasıdır."},
+    {"word": "build", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Build a bridge' yaygın bir eşdizimdir; iki kelime birlikte sıkça kullanılır."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "Lamba bir aydınlatma aracıdır ve köprü kavramıyla bir ilişkisi yoktur."},
+    {"word": "fridge", "is_associated": true, "association_type": "PHONETIC", "explanation": "'Fridge' kelimesi 'bridge' ile sesteş benzer bir telaffuza sahiptir, bu yüzden sesbilimsel olarak ilişkilidir."},
+    {"word": "tunnel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Tünel de köprü gibi ulaşım yapılarından biridir ve aynı tema içinde yer alır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Köprüyle ilgili kelimeler yapısı, kullanımı, çevresi veya telaffuz benzerliği yoluyla bağlantılıdır; ilgisiz olanlar ise farklı bir konuya aittir."
+}
