@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Notwithstanding the mounting evidence against it,",
+  "correct_completion": "the committee refused to revise its original verdict.",
+  "full_sentence": "Notwithstanding the mounting evidence against it, the committee refused to revise its original verdict.",
+  "acceptable_variants": ["the committee still held to its original verdict.", "the committee declined to change its original verdict."],
+  "options": [
+    {"text": "the committee accordingly revised its original verdict.", "is_correct": false, "why_wrong": "'Accordingly' signals a logical consequence, which conflicts with the concessive meaning of 'notwithstanding'."},
+    {"text": "the evidence was therefore dismissed as irrelevant.", "is_correct": false, "why_wrong": "'Therefore' expresses cause and effect, but the stem requires a contrast rather than a result."},
+    {"text": "the committee refused to revise its original verdict.", "is_correct": true, "why_wrong": null},
+    {"text": "the verdict became increasingly unpopular with the public.", "is_correct": false, "why_wrong": "This describes a further development but does not contrast with the evidence named in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive connectors such as 'notwithstanding'",
+  "connector": "notwithstanding",
+  "explanation": "'Notwithstanding' introduces a concession, so the main clause must express a position that runs against the evidence named in the stem. A result connector such as 'accordingly' or 'therefore' fits cause and effect, not concession. Learners may be tempted to choose a consequence structure here, so it helps to check first whether the clause contrasts with the stem.",
+  "translation": "Apesar das provas cada vez mais numerosas contra ela, o comitê se recusou a rever seu veredito original."
+}
