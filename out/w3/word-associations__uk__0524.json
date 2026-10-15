@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bird",
+  "all_words": [
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Машина не пов'язана з птахами: це різні теми, тому це слово не підходить."},
+    {"word": "fly", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Птахи літають: дієслово fly часто стоїть поруч зі словом bird."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Стіл не має жодного зв'язку з птахами."},
+    {"word": "nest", "is_associated": true, "association_type": "THEMATIC", "explanation": "Пташине гніздо належить до теми птахів, тому це тематичний зв'язок."},
+    {"word": "wing", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Крило є частиною тіла птаха, тому ці слова пов'язані за значенням."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Ложка не пов'язана з птахами ні за значенням, ні за темою."}
+  ],
+  "correct_indices": [1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово bird пов'язане з польотом, гніздом і крилами, а предмети побуту, як car, table і spoon, до нього не належать."
+}

@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["I", "R", "O", "N", "Y", "X", "S"],
+    ["K", "B", "Q", "D", "W", "Z", "I"],
+    ["T", "F", "P", "L", "O", "T", "M"],
+    ["O", "J", "V", "H", "C", "U", "I"],
+    ["N", "G", "S", "R", "K", "D", "L"],
+    ["E", "W", "B", "T", "X", "F", "E"],
+    ["I", "M", "A", "G", "E", "R", "Y"]
+  ],
+  "words_to_find": ["IRONY", "SIMILE", "IMAGERY", "TONE", "PLOT"],
+  "word_positions": [
+    {"word": "IRONY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SIMILE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "IMAGERY", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TONE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "PLOT", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Classic Fiction: Style and Technique"
+}
