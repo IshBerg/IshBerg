@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["B", "I", "A", "S", "K", "Q", "W", "S"],
+    ["D", "F", "L", "X", "H", "Z", "J", "O"],
+    ["T", "G", "N", "M", "R", "P", "C", "U"],
+    ["R", "V", "K", "Y", "B", "W", "Z", "R"],
+    ["U", "L", "Q", "F", "N", "D", "X", "C"],
+    ["T", "J", "S", "W", "Z", "G", "B", "E"],
+    ["H", "M", "E", "D", "I", "A", "Q", "K"],
+    ["P", "X", "V", "L", "O", "N", "Y", "W"]
+  ],
+  "words_to_find": ["BIAS", "SOURCE", "MEDIA", "TRUTH"],
+  "word_positions": [
+    {"word": "BIAS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SOURCE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "MEDIA", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "TRUTH", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Media Literacy and Discourse Analysis"
+}
