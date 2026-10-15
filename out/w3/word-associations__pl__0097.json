@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lekarze zwykle pracują w szpitalu, więc te słowa należą do tego samego tematu."},
+    {"word": "pilot", "is_associated": false, "association_type": "NONE", "explanation": "Pilot pracuje w samolocie, a nie w medycynie, więc nie kojarzy się z lekarzem."},
+    {"word": "stethoscope", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Stetoskop to narzędzie, którego lekarz używa do badania pacjenta."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitara nie ma żadnego związku z pracą lekarza."},
+    {"word": "medicine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Lekarz przepisuje leki pacjentom, dlatego słowa łączą się w typowe wyrażenia."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Most nie jest związany z zawodem lekarza ani z medycyną."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo doctor kojarzy się z medycyną, szpitalem i narzędziami lekarza, a nie z przedmiotami z innych dziedzin."
+}

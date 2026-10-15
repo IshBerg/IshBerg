@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is a big test tomorrow, so",
+  "correct_completion": "I am studying tonight.",
+  "full_sentence": "There is a big test tomorrow, so I am studying tonight.",
+  "acceptable_variants": ["I am revising my notes.", "I am going to bed early."],
+  "options": [
+    {"text": "I am going to the beach.", "is_correct": false, "why_wrong": "This does not follow as a logical result of having a test tomorrow."},
+    {"text": "I am studying tonight.", "is_correct": true, "why_wrong": null},
+    {"text": "there are many books at school.", "is_correct": false, "why_wrong": "This describes the school but does not show a result of the test."},
+    {"text": "the test is in room five.", "is_correct": false, "why_wrong": "This gives a location, not a reaction to the test."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'so' after 'there is' sentences",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part of the sentence. Polish speakers may expect a reason clause here, but English 'so' introduces the effect.",
+  "translation": "Jutro jest ważny sprawdzian, więc dziś wieczorem się uczę."
+}
