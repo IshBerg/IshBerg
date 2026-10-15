@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were a bird,",
+  "correct_completion": "I would fly over the mountains.",
+  "full_sentence": "If I were a bird, I would fly over the mountains.",
+  "acceptable_variants": ["I would travel far away.", "I would sing in the trees."],
+  "options": [
+    {"text": "I would have flown over the mountains yesterday.", "is_correct": false, "why_wrong": "This uses a past perfect conditional about a finished past event, but the stem describes an unreal present situation."},
+    {"text": "I am flying over the mountains now.", "is_correct": false, "why_wrong": "This describes a real present action, not a hypothetical one. The stem 'if I were' requires an unreal condition."},
+    {"text": "I would fly over the mountains.", "is_correct": true, "why_wrong": null},
+    {"text": "I flew over the mountains last year.", "is_correct": false, "why_wrong": "The simple past describes a real past event and does not fit the hypothetical structure started by 'if'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'were' in hypothetical clauses",
+  "connector": "if",
+  "explanation": "The second conditional describes an unreal present situation. After 'if I were', the main clause uses 'would' followed by the base verb.",
+  "translation": "Якби я був птахом, я б літав над горами."
+}
