@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because my phone battery was dead,",
+  "correct_completion": "I could not reply to your message.",
+  "full_sentence": "Because my phone battery was dead, I could not reply to your message.",
+  "acceptable_variants": ["I could not answer your text.", "I did not send a reply."],
+  "options": [
+    {"text": "I will buy a new phone tomorrow.", "is_correct": false, "why_wrong": "This is a possible future plan, but it does not follow as a result of the battery being dead in this sentence."},
+    {"text": "so I went to the cinema.", "is_correct": false, "why_wrong": "Going to the cinema is not a logical result of a dead battery, and 'so' does not fit after 'because' here."},
+    {"text": "I could not reply to your message.", "is_correct": true, "why_wrong": null},
+    {"text": "my friend called me twice.", "is_correct": false, "why_wrong": "This describes a different event and does not follow logically from the battery being dead."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "The word 'because' introduces the reason, so the main clause must give the result of that reason. The result must logically follow from the cause in the first part.",
+  "translation": "Porque a bateria do meu celular estava descarregada, não consegui responder à sua mensagem."
+}
