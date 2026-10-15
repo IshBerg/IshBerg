@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister is",
+  "correct_completion": "an engineer.",
+  "full_sentence": "My sister is an engineer.",
+  "acceptable_variants": ["an engineer at a large company.", "an engineer who designs bridges."],
+  "options": [
+    {"text": "a engineer.", "is_correct": false, "why_wrong": "Use 'an' before a word that begins with a vowel sound, so 'an engineer' is correct."},
+    {"text": "engineer.", "is_correct": false, "why_wrong": "A singular countable noun needs an article such as 'a' or 'an' before it."},
+    {"text": "an engineer.", "is_correct": true, "why_wrong": null},
+    {"text": "an engineers.", "is_correct": false, "why_wrong": "'An' is used only with singular nouns, and 'engineers' is plural."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indefinite articles 'a' and 'an' with singular countable nouns",
+  "connector": "a / an",
+  "explanation": "'An' is used before a singular countable noun that begins with a vowel sound, so 'engineer' takes 'an'. Learners whose first language has no indefinite article may drop the article or choose 'a' by habit, so it helps to check the first sound of the noun.",
+  "translation": "Minha irmã é engenheira."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "esgotado", "transliteration": "esgotado", "meaning": "sold out (no longer available in a shop)"},
+    {"word": "caro", "transliteration": "caro", "meaning": "expensive"},
+    {"word": "loja", "transliteration": "loja", "meaning": "shop"},
+    {"word": "barato", "transliteration": "barato", "meaning": "cheap"}
+  ],
+  "english_words": ["shop", "sold out", "cheap", "expensive"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Portuguese word 'esgotado' looks like the English word 'exhausted' because both come from Latin roots meaning drained or used up. In Portuguese, however, the word is used for goods that have run out of stock, so its everyday meaning in a shop is 'sold out'.",
+  "false_friend_warning": "Watch out: the Portuguese word 'esgotado' looks like the English word 'exhausted', but it means 'sold out', so do not translate it as 'exhausted' when talking about a product in a shop."
+}
