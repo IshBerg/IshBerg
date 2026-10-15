@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "T", "A", "R", "Q", "P", "G"],
+    ["H", "E", "L", "P", "U", "N", "O"],
+    ["V", "Z", "C", "W", "B", "J", "O"],
+    ["Y", "M", "K", "X", "O", "Z", "D"],
+    ["R", "A", "T", "E", "O", "V", "C"],
+    ["W", "Q", "J", "S", "K", "F", "N"],
+    ["F", "I", "L", "M", "U", "A", "Y"]
+  ],
+  "words_to_find": ["STAR", "GOOD", "RATE", "BOOK", "FILM"],
+  "word_positions": [
+    {"word": "STAR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GOOD", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "RATE", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BOOK", "start_row": 2, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "FILM", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Reviews"
+}

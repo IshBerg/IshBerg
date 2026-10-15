@@ -1,0 +1,13 @@
+{
+  "start_word": "cold",
+  "end_word": "hot",
+  "ladder_steps": [
+    {"word": "cold", "translation": "soğuk", "intensity_level": 1},
+    {"word": "chilly", "translation": "serin", "intensity_level": 2},
+    {"word": "mild", "translation": "ılıman", "intensity_level": 3},
+    {"word": "warm", "translation": "ılık", "intensity_level": 4},
+    {"word": "hot", "translation": "sıcak", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Temperature words form a ladder from coldest to hottest. 'Chilly' is slightly less cold than 'cold', 'mild' sits in the middle, 'warm' is pleasant heat, and 'hot' is the strongest step. Each step is a little warmer than the last."
+}
