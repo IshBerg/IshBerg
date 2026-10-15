@@ -1,0 +1,14 @@
+{
+  "trigger_word": "novel",
+  "all_words": [
+    {"word": "chapter", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Rozdział jest częścią powieści, więc słowa te dotyczą tej samej dziedziny literatury."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Ryba nie ma żadnego związku z powieścią ani z literaturą."},
+    {"word": "author", "is_associated": true, "association_type": "THEMATIC", "explanation": "Autor to osoba, która napisała powieść, więc słowo pasuje do tematu literatury."},
+    {"word": "plot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Fabuła to główny wątek powieści, czyli to, co się w niej dzieje."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Stół nie jest związany z powieściami ani z tematyką literacką."},
+    {"word": "stadium", "is_associated": false, "association_type": "NONE", "explanation": "Stadion jest miejscem sportowych wydarzeń i nie ma związku z powieścią."}
+  ],
+  "correct_indices": [0, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z hasłem 'novel' dotyczą książek, pisania i struktury opowieści, a pozostałe słowa należą do zupełnie innych dziedzin."
+}
