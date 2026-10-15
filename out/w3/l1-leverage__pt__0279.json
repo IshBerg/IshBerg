@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "eventual", "transliteration": "eventual", "meaning": "occasional, possible"},
+    {"word": "sensível", "transliteration": "sensivel", "meaning": "sensitive (easily affected or emotional)"},
+    {"word": "compromisso", "transliteration": "compromisso", "meaning": "appointment, engagement"},
+    {"word": "prejudicar", "transliteration": "prejudicar", "meaning": "to harm, to damage"}
+  ],
+  "english_words": ["appointment", "harm", "sensitive", "occasional"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words look alike because both languages drew on Latin, but their meanings drifted apart over time, so the shared form hides different meanings.",
+  "false_friend_warning": "The Portuguese word 'eventual' looks like the English word 'eventual', but it means 'occasional' or 'possible', while English 'eventual' means 'final, happening in the end'. Likewise, the Portuguese 'compromisso' means 'appointment', not 'compromise'."
+}
