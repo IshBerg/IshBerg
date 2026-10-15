@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice"},
+    {"word": "fabryka", "transliteration": "fabryka", "meaning": "factory"}
+  ],
+  "english_words": ["nice", "factory", "current", "possibly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Polish word looks like an English word that shares a Latin root, so learners are tempted to read the English lookalike. The lookalike and the real meaning diverge: the Polish word for 'current' resembles English 'actual', the Polish word for 'possibly' resembles 'eventually', the Polish word for 'nice' resembles 'sympathetic', and the Polish word for 'factory' resembles 'fabric'.",
+  "false_friend_warning": "Do not translate by sound: the Polish word for 'current' does not mean English 'actual', the Polish word for 'possibly' does not mean English 'eventually', the Polish word for 'nice' does not mean English 'sympathetic', and the Polish word for 'factory' does not mean English 'fabric'."
+}
