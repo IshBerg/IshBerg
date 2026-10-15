@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El paraguas está relacionado con la lluvia porque se usa para protegerse de ella."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "El escritorio no tiene ninguna relación con la lluvia."},
+    {"word": "storm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La tormenta es un fenómeno meteorológico que suele traer lluvia intensa."},
+    {"word": "sugar", "is_associated": false, "association_type": "NONE", "explanation": "El azúcar no guarda relación con la lluvia ni con el clima."},
+    {"word": "heavy", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Heavy forma la colocación 'heavy rain' (lluvia intensa), muy común en inglés escrito."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Las nubes son la fuente de la lluvia, por eso están asociadas a ella."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'rain' son semánticas (umbrella, storm, cloud) o colocacionales (heavy rain); desk y sugar no tienen relación con ella."
+}
