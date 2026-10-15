@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hello",
+  "all_words": [
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "La palabra 'mesa' no tiene ninguna relación con el saludo 'hello'; es un objeto de la casa sin conexión con las salutaciones."},
+    {"word": "hi", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Hi' es otra forma informal de saludar, así que su significado es muy parecido al de 'hello'."},
+    {"word": "wave", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Wave hello' (saludar con la mano) es una combinación muy común en inglés, por eso se asocia con 'hello'."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "La palabra 'nube' no se usa al saludar y no tiene relación con 'hello'."},
+    {"word": "morning", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Good morning' (buenos días) es un saludo habitual, así que 'morning' se asocia con 'hello' en la forma de saludar."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "El 'lápiz' es un objeto para escribir y no tiene ninguna conexión con el saludo 'hello'."}
+  ],
+  "correct_indices": [1, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'hello' se asocia con otros saludos, con gestos de saludo y con fórmulas de saludo como 'good morning'; los objetos cotidianos no tienen relación con ella."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Our Jobs",
+  "text": "My name is Anna. I am a doctor. I work in a big hospital in the city. I help sick people every day.\n\nMy brother Tom is a teacher. He works at a school near our house. He teaches English to children. He likes his job very much.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is Anna's job?", "options": ["A teacher", "A doctor", "A nurse", "A driver"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where does Tom work?", "options": ["In a hospital", "At a school", "In an office", "At a station"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Anna probably feel about her job?", "options": ["She is happy to help people", "She does not like sick people", "She wants a new job", "She works at night"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does Tom probably enjoy his work?", "options": ["He likes children and his job", "He wants to be a doctor", "He does not like school", "He works far from home"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "doctor", "translation": "lekarz", "definition": "a person who treats sick people"},
+    {"word": "hospital", "translation": "szpital", "definition": "a building where sick people receive medical care"},
+    {"word": "teacher", "translation": "nauczyciel", "definition": "a person who teaches people in a school"},
+    {"word": "children", "translation": "dzieci", "definition": "young boys and girls"}
+  ],
+  "paragraph_translations": [
+    "Mam na imię Anna. Jestem lekarką. Pracuję w dużym szpitalu w mieście. Każdego dnia pomagam chorym ludziom.",
+    "Mój brat Tom jest nauczycielem. Pracuje w szkole niedaleko naszego domu. Uczy angielskiego dzieci. Bardzo lubi swoją pracę."
+  ]
+}
