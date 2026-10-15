@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend or plan to do something"},
+    {"word": "eventual", "transliteration": "eventual", "meaning": "occasional, happening now and then"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current or present"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch (a show, a film, a match)"}
+  ],
+  "english_words": ["current", "watch", "intend", "occasional"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These pairs look alike because both languages inherited the words from Latin, but over time their meanings drifted apart in each language.",
+  "false_friend_warning": "Learners often assume that a Portuguese word and its English lookalike share the same meaning, but the English word can mean something quite different, so the dictionary should be checked before using it."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was raining, so",
+  "correct_completion": "we took our umbrellas.",
+  "full_sentence": "It was raining, so we took our umbrellas.",
+  "acceptable_variants": ["we stayed inside.", "we brought our coats."],
+  "options": [
+    {"text": "but we took our umbrellas.", "is_correct": false, "why_wrong": "'But' shows contrast, while the rain is the reason for taking umbrellas, so a contrast connector does not fit."},
+    {"text": "because we took our umbrellas.", "is_correct": false, "why_wrong": "'So' already introduces the result, so adding 'because' creates a double connector and makes the sentence ungrammatical."},
+    {"text": "we took our umbrellas.", "is_correct": true, "why_wrong": null},
+    {"text": "although we took our umbrellas.", "is_correct": false, "why_wrong": "'Although' introduces contrast, not a result, so it cannot follow 'so' in this sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so'",
+  "connector": "so",
+  "explanation": "The connector 'so' introduces a result. After it we need a clause that describes what happened because of the rain. Learners sometimes add a second connector such as 'because', which is incorrect.",
+  "translation": "Estava chovendo, então pegamos nossos guarda-chuvas."
+}
