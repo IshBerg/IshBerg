@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report late at night,",
+  "correct_completion": "she sent it to her manager before going to bed.",
+  "full_sentence": "Having finished the report late at night, she sent it to her manager before going to bed.",
+  "acceptable_variants": ["she emailed it to her manager and then went to sleep.", "she submitted it to her manager before midnight."],
+  "options": [
+    {"text": "she was sending it to her manager before going to bed.", "is_correct": false, "why_wrong": "The past continuous describes an action in progress, but the participle clause shows a finished action that came first, so the simple past is needed."},
+    {"text": "she will send it to her manager tomorrow morning.", "is_correct": false, "why_wrong": "The future tense conflicts with the participle clause, which places the finishing of the report before the main action in the past."},
+    {"text": "she sent it to her manager before going to bed.", "is_correct": true, "why_wrong": null},
+    {"text": "she has sent it to her manager yesterday.", "is_correct": false, "why_wrong": "The present perfect cannot be used with a specific past time such as 'yesterday'. The simple past is correct."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses showing an earlier completed action",
+  "connector": "having finished",
+  "explanation": "A perfect participle clause such as 'having finished' shows that its action happened before the main clause. The main clause must therefore be in a past form that follows the completed action.",
+  "translation": "Raporu geç saatte bitirdikten sonra, yatmadan önce müdürüne gönderdi."
+}

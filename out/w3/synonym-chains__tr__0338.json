@@ -1,0 +1,17 @@
+{
+  "central_word": "big",
+  "chain_words": [
+    {"word": "sizeable", "intensity": 1, "translation": "oldukça büyük", "nuance": "noticeably large, but not extreme"},
+    {"word": "large", "intensity": 2, "translation": "büyük", "nuance": "neutral description of size"},
+    {"word": "huge", "intensity": 3, "translation": "çok büyük", "nuance": "much bigger than usual"},
+    {"word": "enormous", "intensity": 4, "translation": "devasa", "nuance": "very great in size or amount"},
+    {"word": "gigantic", "intensity": 5, "translation": "dev gibi, muazzam", "nuance": "extremely large, beyond ordinary expectation"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe great size, from noticeably big to extremely large. Each step adds more emphasis than the one before.",
+  "usage_notes": [
+    {"word1": "large", "word2": "huge", "difference": "'Large' is a neutral description of size, while 'huge' suggests that something is much bigger than expected."}
+  ],
+  "translations": {"sizeable": "oldukça büyük", "large": "büyük", "huge": "çok büyük", "enormous": "devasa", "gigantic": "dev gibi, muazzam"}
+}
