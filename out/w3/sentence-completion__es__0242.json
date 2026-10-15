@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Maria is my best friend and",
+  "correct_completion": "she lives next to my house.",
+  "full_sentence": "Maria is my best friend and she lives next to my house.",
+  "acceptable_variants": ["she lives close to my house.", "she lives across the street from me."],
+  "options": [
+    {"text": "me lives next to my house.", "is_correct": false, "why_wrong": "'Me' is an object pronoun and cannot be the subject of a verb. The subject must be 'she' for Maria."},
+    {"text": "her lives next to my house.", "is_correct": false, "why_wrong": "'Her' is an object or possessive form, not a subject pronoun. A subject pronoun is needed before the verb 'lives'."},
+    {"text": "she lives next to my house.", "is_correct": true, "why_wrong": null},
+    {"text": "it live next to my house.", "is_correct": false, "why_wrong": "'It' refers to things, not people, and 'live' does not agree with a third-person singular subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject pronoun 'she' with a third-person singular verb",
+  "connector": "and",
+  "explanation": "The second clause needs a subject pronoun that refers back to Maria and agrees with the verb. Spanish speakers often omit subject pronouns because Spanish verb endings already show the subject, so English learners may leave the subject out or choose an object form.",
+  "translation": "Maria es mi mejor amiga y vive al lado de mi casa."
+}

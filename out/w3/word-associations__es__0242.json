@@ -1,0 +1,14 @@
+{
+  "trigger_word": "experiment",
+  "all_words": [
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los experimentos científicos se realizan normalmente en un laboratorio, por eso ambas palabras pertenecen al mismo contexto."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Antes de realizar un experimento se formula una hipótesis que se pone a prueba."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "El sándwich no tiene ninguna relación con la investigación científica ni con los experimentos."},
+    {"word": "conduct", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés se dice 'conduct an experiment' para indicar que se realiza un experimento, así que forman una colocación habitual."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "La guitarra es un instrumento musical y no guarda relación con los experimentos."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "La puesta de sol es un fenómeno natural que no se asocia con la idea de un experimento."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'experiment' pertenecen al entorno científico, ya sea por el contexto, por la lógica de la investigación o por la colocación habitual 'conduct an experiment'. Las demás palabras no tienen relación con la ciencia."
+}
