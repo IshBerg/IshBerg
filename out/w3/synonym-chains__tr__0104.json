@@ -1,0 +1,17 @@
+{
+  "central_word": "good",
+  "chain_words": [
+    {"word": "okay", "intensity": 1, "translation": "tamam", "nuance": "acceptable, but not especially nice"},
+    {"word": "good", "intensity": 2, "translation": "iyi", "nuance": "clearly positive"},
+    {"word": "great", "intensity": 3, "translation": "harika", "nuance": "very good, with enthusiasm"},
+    {"word": "excellent", "intensity": 4, "translation": "mükemmel", "nuance": "of very high quality"},
+    {"word": "perfect", "intensity": 5, "translation": "kusursuz", "nuance": "with no faults at all"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe something as positive, but they increase in strength from merely acceptable to completely ideal.",
+  "usage_notes": [
+    {"word1": "good", "word2": "great", "difference": "'Good' is a general positive judgement; 'great' is stronger and shows more enthusiasm."}
+  ],
+  "translations": {"okay": "tamam", "good": "iyi", "great": "harika", "excellent": "mükemmel", "perfect": "kusursuz"}
+}

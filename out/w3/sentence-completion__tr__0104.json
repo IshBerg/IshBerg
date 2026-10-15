@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Of all the mountains we visited,",
+  "correct_completion": "this one was the highest.",
+  "full_sentence": "Of all the mountains we visited, this one was the highest.",
+  "acceptable_variants": ["this one was the tallest.", "this one was the most impressive."],
+  "options": [
+    {"text": "we took many photos along the way.", "is_correct": false, "why_wrong": "This describes the trip but does not compare the mountains with each other, so the superlative structure is not completed."},
+    {"text": "the trail was very long.", "is_correct": false, "why_wrong": "This is a general description of one trail. It does not compare the mountains, so the superlative link is missing."},
+    {"text": "this one was the highest.", "is_correct": true, "why_wrong": null},
+    {"text": "it was more high than the others.", "is_correct": false, "why_wrong": "'More high' is ungrammatical here. When comparing three or more items, the superlative form 'the highest' is required."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Superlative adjectives with 'the' for comparing three or more items",
+  "connector": "of all",
+  "explanation": "The phrase 'of all the mountains' compares one item against every other item in a group of three or more. Superlative adjectives such as 'the highest' express that comparison, and learners often forget the word 'the' before them.",
+  "translation": "Ziyaret ettiğimiz bütün dağlar arasında bu en yüksek olanıydı."
+}
