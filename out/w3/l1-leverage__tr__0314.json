@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current, up to date"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likeable, pleasant"},
+    {"word": "fabrika", "transliteration": "fabrika", "meaning": "factory"},
+    {"word": "konferans", "transliteration": "konferans", "meaning": "lecture, talk"}
+  ],
+  "english_words": ["lecture", "likeable", "current", "factory"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The English word 'actual' looks similar to the Turkish word in this set but means 'real or true' in English, so the look-alike is not a reliable guide to meaning.",
+  "false_friend_warning": "The Turkish word looks like the English word 'actual', but it means 'current' or 'up to date'. Learners who translate it as 'actual' will choose the wrong English word."
+}

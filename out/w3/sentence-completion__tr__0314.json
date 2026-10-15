@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It's a beautiful day today,",
+  "correct_completion": "isn't it?",
+  "full_sentence": "It's a beautiful day today, isn't it?",
+  "acceptable_variants": ["is it not?", "right?"],
+  "options": [
+    {"text": "is it?", "is_correct": false, "why_wrong": "After a positive statement like 'It's', the tag must be negative: 'isn't it?'."},
+    {"text": "isn't it?", "is_correct": true, "why_wrong": null},
+    {"text": "doesn't it?", "is_correct": false, "why_wrong": "The tag must repeat the auxiliary 'is' from the statement, not use 'does'."},
+    {"text": "isn't she?", "is_correct": false, "why_wrong": "The pronoun in the tag must refer to the subject of the statement, which is 'it', not 'she'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Tag questions with the auxiliary verb and matching pronoun",
+  "connector": "tag question",
+  "explanation": "A tag question repeats the auxiliary verb of the statement in the opposite form, and uses a pronoun for the same subject. Learners may use one fixed tag for every sentence, because many languages have a single question particle, but English tags must match the verb and subject.",
+  "translation": "Bugün hava çok güzel, değil mi?"
+}

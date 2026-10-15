@@ -1,0 +1,23 @@
+{
+  "central_word": "afraid",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "huzursuz", "nuance": "mild worry that something may be wrong"},
+    {"word": "worried", "intensity": 2, "translation": "endişeli", "nuance": "concerned about a possible problem"},
+    {"word": "anxious", "intensity": 3, "translation": "kaygılı", "nuance": "persistent nervousness about the future"},
+    {"word": "scared", "intensity": 4, "translation": "korkmuş", "nuance": "fear caused by a specific threat"},
+    {"word": "terrified", "intensity": 5, "translation": "dehşete düşmüş", "nuance": "extreme fear, overwhelming panic"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express fear or worry but with different intensities, from mild unease to overwhelming panic.",
+  "usage_notes": [
+    {"word1": "scared", "word2": "terrified", "difference": "'Scared' describes a normal fear of something specific; 'terrified' suggests a much stronger fear that can paralyse a person."}
+  ],
+  "translations": {
+    "uneasy": "huzursuz",
+    "worried": "endişeli",
+    "anxious": "kaygılı",
+    "scared": "korkmuş",
+    "terrified": "dehşete düşmüş"
+  }
+}
