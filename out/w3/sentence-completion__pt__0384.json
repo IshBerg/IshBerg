@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Little Miss Muffet was eating her curds and whey when",
+  "correct_completion": "a big spider sat down beside her.",
+  "full_sentence": "Little Miss Muffet was eating her curds and whey when a big spider sat down beside her.",
+  "acceptable_variants": ["a large spider came and sat beside her.", "a big spider suddenly sat down next to her."],
+  "options": [
+    {"text": "so she went to bed early.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'when' needs a clause describing an event that happens at that moment."},
+    {"text": "a big spider sat down beside her.", "is_correct": true, "why_wrong": null},
+    {"text": "she never eats curds and whey.", "is_correct": false, "why_wrong": "This is a general statement about habits, not an event happening at the same moment, so it does not fit after 'when'."},
+    {"text": "the sun was shining brightly.", "is_correct": false, "why_wrong": "This describes the background, not a sudden event that interrupts her eating."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Temporal clauses with 'when' describing a sudden event that interrupts an ongoing action",
+  "connector": "when",
+  "explanation": "After 'when', we need a clause that describes a sudden event interrupting the action in the first part of the sentence, with the past continuous describing the ongoing action.",
+  "translation": "A Pequena Miss Muffet estava comendo coalhada e soro quando uma aranha grande sentou ao lado dela."
+}
