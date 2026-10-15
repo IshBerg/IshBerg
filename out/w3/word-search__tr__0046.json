@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "Y", "N", "O", "N", "Y", "M", "Q", "R"],
+    ["K", "L", "P", "Z", "V", "J", "S", "X", "E"],
+    ["R", "T", "N", "B", "H", "W", "U", "Q", "S"],
+    ["F", "E", "D", "K", "Y", "G", "M", "J", "T"],
+    ["Z", "P", "W", "C", "L", "N", "M", "V", "A"],
+    ["X", "B", "Q", "O", "F", "H", "A", "K", "T"],
+    ["D", "G", "L", "V", "R", "N", "R", "Q", "E"],
+    ["M", "H", "J", "T", "P", "D", "Y", "B", "W"],
+    ["C", "L", "A", "R", "I", "F", "Y", "Z", "K"]
+  ],
+  "words_to_find": ["SYNONYM", "RESTATE", "REWORD", "SUMMARY", "CLARIFY"],
+  "word_positions": [
+    {"word": "SYNONYM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RESTATE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "REWORD", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SUMMARY", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "CLARIFY", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Restatement: Equivalent Meanings"
+}
