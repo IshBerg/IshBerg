@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The evidence was far from conclusive; nevertheless,",
+  "correct_completion": "the committee approved the proposal.",
+  "full_sentence": "The evidence was far from conclusive; nevertheless, the committee approved the proposal.",
+  "acceptable_variants": ["the committee still approved the proposal.", "the proposal nonetheless passed the committee."],
+  "options": [
+    {"text": "consequently, the committee rejected the proposal.", "is_correct": false, "why_wrong": "'Consequently' signals a result that follows from the evidence, so it does not create the concessive contrast that 'nevertheless' requires."},
+    {"text": "the committee approved the proposal.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee rejected the proposal without discussion.", "is_correct": false, "why_wrong": "Rejection would follow naturally from inconclusive evidence, so it would not signal the contrast that 'nevertheless' introduces."},
+    {"text": "the evidence was clearly presented to everyone.", "is_correct": false, "why_wrong": "This restates the evidence rather than giving the contrasting outcome that 'nevertheless' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive discourse markers: 'nevertheless'",
+  "connector": "nevertheless",
+  "explanation": "After 'nevertheless', the second clause must present an outcome that runs against what the first clause leads the reader to expect. Here weak evidence would normally suggest rejection, so approval is the contrast.",
+  "translation": "Dowody były dalekie od przekonujących; mimo to komisja zatwierdziła propozycję."
+}
