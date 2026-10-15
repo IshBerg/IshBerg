@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P","L","A","N","E","T","X","Q","W","S"],
+    ["K","B","D","F","G","H","J","L","Z","T"],
+    ["Y","C","V","M","U","W","Z","Q","N","A"],
+    ["H","E","K","D","I","A","F","P","G","R"],
+    ["M","J","K","Q","V","X","Y","L","W","Z"],
+    ["T","O","B","C","H","F","M","D","K","I"],
+    ["I","D","O","F","Q","S","P","J","N","V"],
+    ["B","K","L","N","R","G","T","W","C","E"],
+    ["R","A","U","Y","Z","M","H","F","Q","K"],
+    ["O","B","D","F","G","E","C","A","P","S"]
+  ],
+  "words_to_find": ["PLANET", "STAR", "MOON", "SPACE", "ORBIT"],
+  "word_positions": [
+    {"word": "PLANET", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STAR", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "MOON", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SPACE", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "ORBIT", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Science and Space"
+}
