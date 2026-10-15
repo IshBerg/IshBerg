@@ -1,0 +1,14 @@
+{
+  "trigger_word": "Christmas",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "THEMATIC", "explanation": "A árvore de Natal é um dos símbolos mais conhecidos da data, por isso as duas palavras pertencem ao mesmo tema."},
+    {"word": "gift", "is_associated": true, "association_type": "SEMANTIC", "explanation": "No Natal as pessoas trocam presentes, então 'gift' está diretamente ligada ao significado da festa."},
+    {"word": "star", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Christmas star' é uma expressão comum em inglês para a estrela que fica no topo da árvore."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "A mesa de escritório não tem nenhuma relação com o Natal."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "O peixe não é um símbolo do Natal, portanto não está associado à palavra."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "O sapato não é um símbolo tradicional do Natal, embora as meias sejam; por isso não está associado."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'Christmas' se associa a símbolos da festa, como a árvore, os presentes e a estrela, enquanto objetos do dia a dia não se relacionam com ela."
+}
