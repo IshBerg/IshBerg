@@ -1,0 +1,14 @@
+{
+  "trigger_word": "homework",
+  "all_words": [
+    {"word": "worksheet", "is_associated": true, "association_type": "THEMATIC", "explanation": "La hoja de ejercicios es un recurso habitual para hacer los deberes en casa, por eso está relacionada temáticamente."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Un volcán no tiene ninguna relación con los deberes ni con el estudio en casa."},
+    {"word": "tutor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un tutor es la persona que ayuda a un estudiante con sus deberes, por eso está semánticamente ligado a ellos."},
+    {"word": "saxophone", "is_associated": false, "association_type": "NONE", "explanation": "El saxofón pertenece al mundo de la música y no se relaciona con los deberes."},
+    {"word": "notebook", "is_associated": true, "association_type": "THEMATIC", "explanation": "El cuaderno es el material donde el estudiante escribe sus deberes, así que está relacionado con el tema."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Un glaciar no tiene relación alguna con los deberes escolares."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a los deberes se relacionan con el material de estudio y con la ayuda académica en casa, mientras que las demás pertenecen a campos sin relación."
+}

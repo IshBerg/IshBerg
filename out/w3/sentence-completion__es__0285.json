@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rather than confirming the original hypothesis,",
+  "correct_completion": "the data revealed an unexpected pattern that demanded a new explanation.",
+  "full_sentence": "Rather than confirming the original hypothesis, the data revealed an unexpected pattern that demanded a new explanation.",
+  "acceptable_variants": ["the results pointed instead to an alternative mechanism.", "the study identified a pattern that the theory had not predicted."],
+  "options": [
+    {"text": "the authors repeated the same experiment three times.", "is_correct": false, "why_wrong": "'Rather than' sets up a contrast with confirming the hypothesis. Repeating the experiment does not describe a contrasting finding, so it does not complete the structure."},
+    {"text": "the data revealed an unexpected pattern that demanded a new explanation.", "is_correct": true, "why_wrong": null},
+    {"text": "the hypothesis was confirmed by every reviewer.", "is_correct": false, "why_wrong": "This restates the outcome that 'rather than' rules out, so it contradicts the stem."},
+    {"text": "the journal decided to publish the article quickly.", "is_correct": false, "why_wrong": "This describes publication rather than a research finding, so it does not contrast with confirming the hypothesis."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive 'rather than' followed by an alternative research finding",
+  "connector": "rather than",
+  "explanation": "'Rather than' contrasts two options, so the completion must describe the alternative outcome, not the one being rejected. Spanish speakers may read 'rather than' as a simple addition and choose a continuation that repeats the rejected outcome, but the structure requires a contrasting result.",
+  "translation": "En lugar de confirmar la hipótesis original, los datos revelaron un patrón inesperado que exigía una nueva explicación."
+}
