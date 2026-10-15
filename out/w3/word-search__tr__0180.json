@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "A", "N", "D", "X", "O", "H"],
+    ["K", "T", "P", "Q", "W", "B", "E"],
+    ["L", "S", "J", "Z", "R", "M", "A"],
+    ["E", "U", "C", "K", "P", "V", "D"],
+    ["G", "A", "R", "M", "S", "W", "Y"],
+    ["F", "I", "O", "L", "X", "K", "Q"],
+    ["B", "Z", "E", "Y", "E", "J", "N"]
+  ],
+  "words_to_find": ["HAND", "HEAD", "ARM", "LEG", "EYE"],
+  "word_positions": [
+    {"word": "HAND", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HEAD", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ARM", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "LEG", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "EYE", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Basic Body Parts"
+}

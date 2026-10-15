@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rocket",
+  "all_words": [
+    {"word": "launch", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Rocket launch' ortak bir kullanımdır; roketler fırlatılarak uzaya gönderilir."},
+    {"word": "cake", "is_associated": false, "association_type": "NONE", "explanation": "Pasta uzay ve roketlerle ilgili bir kelime değildir, bu yüzden bağlantısı yoktur."},
+    {"word": "astronaut", "is_associated": true, "association_type": "THEMATIC", "explanation": "Astronotlar roketlerle uzaya giden kişilerdir, bu yüzden konu ile ilgilidir."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Nehir uzay bilimi ile ilgili bir kavram değildir."},
+    {"word": "fuel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yakıt, roketin çalışması ve uçması için gereklidir."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Ayakkabı uzay yolculuğu ile ilgili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Roketle ilgili kelimeler uzay yolculuğu, yakıt ve fırlatma süreçlerinden gelir; ilgisiz kelimeler ise günlük hayattan seçilmiştir."
+}
