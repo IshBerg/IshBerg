@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sałata", "transliteration": "sałata", "meaning": "lettuce"},
+    {"word": "cebula", "transliteration": "cebula", "meaning": "onion"},
+    {"word": "gruszka", "transliteration": "gruszka", "meaning": "pear"},
+    {"word": "pomidor", "transliteration": "pomidor", "meaning": "tomato"}
+  ],
+  "english_words": ["pear", "lettuce", "tomato", "onion"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Polish word for lettuce looks like the English word 'salad', but the two words are not related in meaning. The other three words are ordinary vocabulary for vegetables and fruit that learners can recall directly.",
+  "false_friend_warning": "The Polish word sałata looks like the English word 'salad', but it means 'lettuce', the leafy green vegetable. Learners should use 'salad' only for a mixed dish of vegetables, and 'lettuce' for the leaves themselves."
+}

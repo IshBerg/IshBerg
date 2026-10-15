@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee considered the evidence more carefully,",
+  "correct_completion": "the verdict would have been different.",
+  "full_sentence": "Had the committee considered the evidence more carefully, the verdict would have been different.",
+  "acceptable_variants": ["the verdict might have changed.", "the outcome could have been different."],
+  "options": [
+    {"text": "the members were announced last week.", "is_correct": false, "why_wrong": "This states an unrelated fact. The inverted conditional needs a main clause describing the unreal past result with 'would have'."},
+    {"text": "so the verdict was reached quickly.", "is_correct": false, "why_wrong": "'So' signals a real cause and result, not a hypothetical outcome of a condition that did not happen."},
+    {"text": "the verdict would have been different.", "is_correct": true, "why_wrong": null},
+    {"text": "although the verdict was unchanged.", "is_correct": false, "why_wrong": "'Although' sets up a contrast with a real fact, but the stem already sets up an unreal past condition, so this does not complete it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "The stem is an inverted third conditional: 'Had' replaces 'If', and the subject and verb swap places. The main clause must use 'would have' with a past participle to describe the unreal past result. Learners often keep an 'if' pattern or use a simple past verb here, so it helps to remember the inverted structure as a whole.",
+  "translation": "Gdyby komisja dokładniej rozpatrzyła dowody, werdykt byłby inny."
+}
