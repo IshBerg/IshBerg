@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "O", "O", "T", "H", "K", "F", "Q", "W", "N"],
+    ["R", "H", "E", "T", "O", "R", "I", "C", "Z", "U"],
+    ["G", "M", "P", "V", "J", "B", "D", "K", "X", "A"],
+    ["Q", "L", "W", "F", "U", "Z", "E", "H", "R", "N"],
+    ["A", "T", "O", "N", "G", "D", "L", "P", "V", "C"],
+    ["B", "J", "K", "S", "M", "Y", "I", "F", "Q", "E"],
+    ["W", "X", "C", "H", "S", "L", "T", "G", "Z", "U"],
+    ["D", "R", "I", "O", "E", "A", "Y", "N", "M", "Q"],
+    ["L", "S", "V", "K", "T", "G", "R", "B", "J", "F"],
+    ["P", "C", "X", "W", "H", "M", "D", "Y", "N", "E"]
+  ],
+  "words_to_find": ["BOOTH", "NUANCE", "GLOSSARY", "FIDELITY", "RHETORIC"],
+  "word_positions": [
+    {"word": "BOOTH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NUANCE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "GLOSSARY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FIDELITY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "RHETORIC", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}
