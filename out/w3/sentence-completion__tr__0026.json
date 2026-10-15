@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The new evidence was examined carefully,",
+  "correct_completion": "and the report was revised before publication.",
+  "full_sentence": "The new evidence was examined carefully, and the report was revised before publication.",
+  "acceptable_variants": ["and the findings were then published.", "and a summary was written for the board."],
+  "options": [
+    {"text": "it was obvious that the committee was tired.", "is_correct": false, "why_wrong": "This adds an unrelated opinion. The stem describes a process, so the completion should continue the passive sequence about the evidence and the report."},
+    {"text": "and the report was revised before publication.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee examining it wrote a long report.", "is_correct": false, "why_wrong": "This switches to active voice with a new subject, which breaks the passive focus on the evidence set up by the stem."},
+    {"text": "the evidence had been found by a student.", "is_correct": false, "why_wrong": "The stem already states that the evidence was examined. This repeats the idea with a different agent and does not complete the report process."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Passive voice for describing a process in reports",
+  "connector": "and",
+  "explanation": "The stem uses a passive verb to describe a process. The completion should follow the same passive pattern and show the next step in the process, with the report as the new grammatical subject. Learners whose first language does not mark voice in the same way may choose an active clause here, which shifts the focus away from the evidence.",
+  "translation": "Yeni kanıt dikkatle incelendi ve rapor yayımlanmadan önce revize edildi."
+}
