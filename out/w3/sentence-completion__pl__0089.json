@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There isn't much sugar left, so",
+  "correct_completion": "we need to buy some more.",
+  "full_sentence": "There isn't much sugar left, so we need to buy some more.",
+  "acceptable_variants": ["we should buy more sugar.", "we have to go to the shop for sugar."],
+  "options": [
+    {"text": "we have a lot of sugar.", "is_correct": false, "why_wrong": "This contradicts the stem, which says there is not much sugar left. It also does not give a result of the shortage."},
+    {"text": "we need to buy many more.", "is_correct": false, "why_wrong": "'Many' is used with countable nouns. Sugar is uncountable, so 'much' or 'some' is needed."},
+    {"text": "we need to buy some more.", "is_correct": true, "why_wrong": null},
+    {"text": "we need to buy a few.", "is_correct": false, "why_wrong": "'A few' is used with countable nouns. Sugar is uncountable, so 'a little' or 'some' is needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifiers with uncountable nouns (some, much, many, a few, a little)",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. Not much sugar is left, so the result is that we must buy more. Use 'some' with uncountable nouns like 'sugar', and 'much' in negatives and questions. Polish speakers often choose 'many' here because the Polish word for both 'many' and 'much' is the same, so the difference between countable and uncountable nouns needs extra attention.",
+  "translation": "Nie zostało dużo cukru, więc musimy kupić jeszcze trochę."
+}

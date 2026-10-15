@@ -1,0 +1,14 @@
+{
+  "trigger_word": "breakfast",
+  "all_words": [
+    {"word": "coffee", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kawa jest typowym napojem podawanym na śniadanie, więc łączy się z tym posiłkiem tematycznie."},
+    {"word": "bus", "is_associated": false, "association_type": "NONE", "explanation": "Autobus należy do środków transportu i nie ma związku ze śniadaniem."},
+    {"word": "egg", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Jajko jest produktem spożywczym, który często je się na śniadanie, więc znaczeniowo jest blisko związane z tym słowem."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino to instrument muzyczny i nie jest powiązane z jedzeniem ani z porankiem."},
+    {"word": "toast", "is_associated": true, "association_type": "THEMATIC", "explanation": "Grzanki są popularnym dodatkiem do śniadania, więc łączą się z tym posiłkiem."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka to element przyrody i nie ma żadnego związku z posiłkiem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'breakfast' kojarzy się z jedzeniem i napojami, które podaje się rano. Pozostałe słowa nie mają z nim związku."
+}
