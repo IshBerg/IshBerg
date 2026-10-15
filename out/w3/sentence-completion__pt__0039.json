@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The book, written in 1950,",
+  "correct_completion": "is still widely read today.",
+  "full_sentence": "The book, written in 1950, is still widely read today.",
+  "acceptable_variants": ["remains widely read today.", "continues to be read by many people."],
+  "options": [
+    {"text": "which is still widely read today.", "is_correct": false, "why_wrong": "A participle clause already modifies the noun, so adding 'which is' creates a second verb and a redundant structure in concise writing."},
+    {"text": "reading it widely today.", "is_correct": false, "why_wrong": "A gerund does not supply a finite verb, so the sentence has no main verb for the subject 'the book'."},
+    {"text": "is still widely read today.", "is_correct": true, "why_wrong": null},
+    {"text": "it was written by a famous author.", "is_correct": false, "why_wrong": "'It' repeats the subject 'the book', creating a redundant double subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past participle clauses that reduce relative clauses",
+  "connector": "participle clause",
+  "explanation": "The past participle 'written' reduces the relative clause 'which was written in 1950', so the main verb of the sentence must come directly after the participle clause. Portuguese speakers may add a second verb or repeat the subject, because Portuguese relative structures are often more explicit and do not reduce clauses in the same way.",
+  "translation": "O livro, escrito em 1950, ainda é amplamente lido hoje."
+}
