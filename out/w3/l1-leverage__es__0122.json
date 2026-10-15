@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "actualmente", "transliteration": "actualmente", "meaning": "currently"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive"},
+    {"word": "eventualmente", "transliteration": "eventualmente", "meaning": "possibly"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend"}
+  ],
+  "english_words": ["sensitive", "attend", "currently", "possibly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These four words look almost identical to English words, but their meanings have shifted in each language, so the similarity in form misleads learners. Some of these shared forms come from common Latin roots, while others are simply coincidence.",
+  "false_friend_warning": "Warning: an English word that looks like 'actual' does not mean 'actual' here, since the match means 'currently'; an English-looking word 'sensible' means 'sensitive'; 'eventual' means 'possibly'; and 'assist' means 'to attend', so these look-alikes are false friends that can mislead learners."
+}

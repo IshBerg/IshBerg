@@ -1,0 +1,20 @@
+{
+  "title": "My Room",
+  "text": "This is my room. It is small but very bright. The walls are blue, and there is a big window. My bed is next to the window.\n\nMy desk is near the door. It is brown and it has a red lamp. I read books at my desk every evening. My cat sleeps on the bed.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color are the walls in the room?", "options": ["Blue", "White", "Green", "Yellow"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What color is the lamp on the desk?", "options": ["Red", "Blue", "Black", "White"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why is the room bright?", "options": ["It has a big window", "It has many lamps", "It is painted yellow", "It is on the top floor"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What does the writer probably like to do in the evening?", "options": ["Read books", "Cook dinner", "Watch television", "Go swimming"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "bright", "translation": "luminoso", "definition": "full of light, not dark"},
+    {"word": "window", "translation": "ventana", "definition": "an opening in a wall that lets in light and air"},
+    {"word": "desk", "translation": "escritorio", "definition": "a table where you work, read or write"},
+    {"word": "lamp", "translation": "lámpara", "definition": "an object that gives light"}
+  ],
+  "paragraph_translations": [
+    "Esta es mi habitación. Es pequeña pero muy luminosa. Las paredes son azules y hay una ventana grande. Mi cama está al lado de la ventana.",
+    "Mi escritorio está cerca de la puerta. Es marrón y tiene una lámpara roja. Leo libros en mi escritorio todas las noches. Mi gato duerme en la cama."
+  ]
+}
