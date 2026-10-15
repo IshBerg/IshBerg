@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the test was difficult,",
+  "correct_completion": "she finished it in time.",
+  "full_sentence": "Although the test was difficult, she finished it in time.",
+  "acceptable_variants": ["she still finished it on time.", "she managed to pass with a good score."],
+  "options": [
+    {"text": "so she stayed up late to study.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. The stem needs a clause that contrasts with 'although'."},
+    {"text": "the test was on Monday.", "is_correct": false, "why_wrong": "This gives a fact about timing but does not contrast with the difficulty of the test."},
+    {"text": "she finished it in time.", "is_correct": true, "why_wrong": null},
+    {"text": "she was tired because of the rain.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast, so it does not complete the pattern started by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners often confuse this pattern with cause-and-effect sentences, where the second clause explains why something happened.",
+  "translation": "Sınav zor olmasına rağmen, o sınavı zamanında bitirdi."
+}
