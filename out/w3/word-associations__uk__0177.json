@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "flight", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Рейс — це те, заради чого люди приходять в аеропорт."},
+    {"word": "luggage", "is_associated": true, "association_type": "THEMATIC", "explanation": "В аеропорту пасажири здають або забирають багаж."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Дерево не пов'язане з аеропортом, тому це слово не підходить."},
+    {"word": "ticket", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово 'airline ticket' є усталеним словосполученням, тож квиток пов'язаний з аеропортом."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Кухня не має прямого зв'язку з аеропортом."},
+    {"word": "passport", "is_associated": true, "association_type": "THEMATIC", "explanation": "Паспорт потрібен для проходження паспортного контролю в аеропорту."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з аеропортом, — рейс, багаж, квиток і паспорт; дерево і кухня належать до інших тем."
+}

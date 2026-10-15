@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R", "O", "U", "T", "E", "Q", "K", "H"],
+    ["M", "P", "W", "J", "Z", "C", "V", "O"],
+    ["B", "L", "D", "N", "F", "S", "Y", "T"],
+    ["A", "T", "O", "U", "R", "G", "W", "E"],
+    ["G", "Z", "K", "P", "M", "J", "X", "L"],
+    ["Q", "W", "F", "H", "C", "V", "B", "D"],
+    ["X", "N", "T", "R", "Y", "L", "M", "P"],
+    ["E", "J", "A", "S", "W", "D", "G", "K"]
+  ],
+  "words_to_find": ["ROUTE", "HOTEL", "TOUR", "BAG"],
+  "word_positions": [
+    {"word": "ROUTE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOTEL", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "TOUR", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "BAG", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists A and B"
+}
