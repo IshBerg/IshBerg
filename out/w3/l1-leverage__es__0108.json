@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hotel", "transliteration": "hotel", "meaning": "a building where paying guests can stay overnight"},
+    {"word": "taxi", "transliteration": "taxi", "meaning": "a car with a driver that carries passengers for money"},
+    {"word": "museo", "transliteration": "museo", "meaning": "a building where objects of art or history are displayed"},
+    {"word": "turista", "transliteration": "turista", "meaning": "a person who travels to visit another place for pleasure"}
+  ],
+  "english_words": ["tourist", "museum", "hotel", "taxi"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from the same source, so the forms stayed close.",
+  "false_friend_warning": null
+}

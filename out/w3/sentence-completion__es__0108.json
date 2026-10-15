@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The café near my office,",
+  "correct_completion": "which serves the best coffee in town.",
+  "full_sentence": "The café near my office, which serves the best coffee in town.",
+  "acceptable_variants": ["which has the best coffee in town.", "which is my favorite place for lunch."],
+  "options": [
+    {"text": "who serves the best coffee in town.", "is_correct": false, "why_wrong": "'Who' refers to people, but 'the café' is a place, so it needs 'which' or 'where'."},
+    {"text": "which serve the best coffee in town.", "is_correct": false, "why_wrong": "The verb must agree with the singular 'the café', so it should be 'serves', not 'serve'."},
+    {"text": "which serves the best coffee in town.", "is_correct": true, "why_wrong": null},
+    {"text": "whom I visit every morning.", "is_correct": false, "why_wrong": "'Whom' is used for people, not for a place like a café, so it does not fit here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative pronouns 'which' and 'who' with non-person and person antecedents",
+  "connector": "which",
+  "explanation": "The antecedent is a place, so the relative pronoun must be 'which' or 'where', and the verb must agree with the singular noun. Spanish speakers often use one relative word for every situation, so they should remember that 'which' is used for things and 'who' is used for people.",
+  "translation": "El café cerca de mi oficina, que sirve el mejor café de la ciudad."
+}
