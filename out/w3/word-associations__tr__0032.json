@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bicycle",
+  "all_words": [
+    {"word": "wheel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Bisikletin iki tekeri vardır ve bu kelime bisiklet konusuna aittir."},
+    {"word": "pedal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pedal, bisikleti süren parçadır, bu yüzden anlamı bisikletle doğrudan bağlantılıdır."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bir müzik aletidir ve bisikletle ne anlam ne de konu bakımından ilgisi vardır."},
+    {"word": "helmet", "is_associated": true, "association_type": "THEMATIC", "explanation": "Bisiklet sürerken kask takmak önemlidir, bu yüzden kask bisiklet konusuna aittir."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Bulut gökyüzüyle ilgilidir ve bisikletle bir bağlantısı yoktur."},
+    {"word": "ride", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Ride a bicycle' ifadesi İngilizcede yaygın bir kalıptır, bu yüzden iki kelime sık birlikte kullanılır."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bisiklet kelimesiyle ilgili olanlar bisikletin parçaları, koruyucu ekipmanı ve sürme eylemi ile ilgilidir; piyano ve bulut ise bu konuyla ilgisizdir."
+}
