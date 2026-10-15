@@ -1,0 +1,14 @@
+{
+  "trigger_word": "however",
+  "all_words": [
+    {"word": "nevertheless", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово 'nevertheless' має майже те саме значення, що й 'however': воно теж вводить протиставлення або несподівану думку."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не має жодного зв'язку зі значенням протиставлення, тому з 'however' не асоціюється."},
+    {"word": "contrast", "is_associated": true, "association_type": "THEMATIC", "explanation": "Слово 'contrast' тематично пов'язане з 'however', адже цей прислівник використовують саме для того, щоб показати контраст між ідеями."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "Захід сонця не стосується логічного зв'язку між думками, тож з 'however' не асоціюється."},
+    {"word": "although", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово 'although' теж виражає протиставлення, тому його часто порівнюють із 'however', хоча граматично вони використовуються по-різному."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець не стосується ні протиставлення, ні логічного зв'язку, тому з 'however' не пов'язаний."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'However' вказує на контраст або протиставлення з попередньою думкою, тому асоціюються слова з таким самим логічним значенням."
+}
