@@ -1,0 +1,14 @@
+{
+  "trigger_word": "automation",
+  "all_words": [
+    {"word": "robot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un robot es una máquina que realiza tareas de forma automática, por eso está directamente relacionado con la automatización."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Un plátano no tiene ninguna relación con la automatización ni con el mundo laboral."},
+    {"word": "workforce", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Workforce aparece con frecuencia en la expresión 'automation of the workforce', por lo que forma una colocación habitual."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "El piano es un instrumento musical y no guarda relación con la automatización."},
+    {"word": "algorithm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un algoritmo es un conjunto de instrucciones que permite a las máquinas automatizar procesos."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "Una tetera es un electrodoméstico de cocina y no está relacionada con el tema."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra automation se asocia con términos de tecnología y trabajo (robot, algorithm) y con colocaciones del mundo laboral (workforce), mientras que banana, piano y kettle no tienen relación con el tema."
+}
