@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem seems simple at first,",
+  "correct_completion": "its deeper meaning only appears after several readings.",
+  "full_sentence": "Although the poem seems simple at first, its deeper meaning only appears after several readings.",
+  "acceptable_variants": ["its meaning becomes clear only after several readings.", "many readers still discover new layers in it."],
+  "options": [
+    {"text": "so the poem is easy to memorise.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast; after 'although' the clause must oppose the first part of the sentence."},
+    {"text": "it has exactly four stanzas.", "is_correct": false, "why_wrong": "This adds neutral structural information but does not contrast with the idea that the poem seems simple."},
+    {"text": "readers usually find it boring.", "is_correct": false, "why_wrong": "This continues the idea of simplicity instead of expressing the contrast that 'although' requires."},
+    {"text": "its deeper meaning only appears after several readings.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must present a point that contrasts with the first part of the sentence. Portuguese speakers may be tempted to use a result pattern here because Portuguese often links clauses with similar connectors, but English 'although' always signals contrast.",
+  "translation": "Embora o poema pareça simples à primeira vista, seu significado mais profundo só aparece depois de várias leituras."
+}
