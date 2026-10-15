@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "W", "E", "E", "P", "K", "R", "D"],
+    ["B", "Q", "N", "Z", "F", "J", "X", "U"],
+    ["L", "Y", "O", "M", "G", "V", "H", "S"],
+    ["P", "R", "D", "W", "K", "Q", "B", "T"],
+    ["Z", "X", "F", "A", "J", "N", "M", "V"],
+    ["L", "O", "G", "S", "Y", "T", "Q", "W"],
+    ["R", "K", "D", "H", "E", "B", "F", "Z"],
+    ["C", "L", "E", "A", "N", "X", "P", "M"]
+  ],
+  "words_to_find": ["SWEEP", "DUST", "CLEAN", "WASH"],
+  "word_positions": [
+    {"word": "SWEEP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DUST", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "CLEAN", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WASH", "start_row": 3, "start_col": 3, "direction": "VERTICAL"}
+  ],
+  "topic": "Household Chores"
+}
