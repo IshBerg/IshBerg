@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "luggage", "is_associated": true, "association_type": "THEMATIC", "explanation": "Багаж є частиною подорожі, і в аеропорту ми його здаємо або забираємо."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Риба не пов'язана з аеропортом: у ньому немає нічого спільного з рибою."},
+    {"word": "plane", "is_associated": true, "association_type": "THEMATIC", "explanation": "Літаки летять з аеропорту і прилітають до нього."},
+    {"word": "forest", "is_associated": false, "association_type": "NONE", "explanation": "Ліс не має відношення до аеропорту, це природне місце, а не транспортний вузол."},
+    {"word": "gate", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "У аеропорту є вихід на посадку, який у англійській мові називають 'gate'."},
+    {"word": "ticket", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Квиток необхідний, щоб пройти в аеропорт і сісти на літак (airport ticket, plane ticket)."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'airport' асоціюється з подорожжю: багажем, літаком, виходом на посадку і квитком, а риба та ліс до нього не належать."
+}
