@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "E", "T", "A", "P", "H", "O", "R", "I"],
+    ["K", "Q", "W", "Z", "J", "V", "B", "X", "D"],
+    ["S", "Y", "F", "G", "L", "N", "C", "K", "I"],
+    ["Q", "A", "W", "Z", "B", "X", "V", "J", "O"],
+    ["G", "K", "T", "F", "Y", "P", "U", "N", "M"],
+    ["Q", "W", "Z", "I", "X", "B", "V", "J", "F"],
+    ["C", "K", "G", "Y", "R", "L", "W", "Z", "Q"],
+    ["N", "X", "F", "B", "J", "E", "V", "K", "G"],
+    ["S", "I", "M", "I", "L", "E", "Q", "Z", "W"]
+  ],
+  "words_to_find": ["METAPHOR", "IDIOM", "SATIRE", "SIMILE", "PUN"],
+  "word_positions": [
+    {"word": "METAPHOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IDIOM", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SATIRE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SIMILE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PUN", "start_row": 4, "start_col": 5, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Idioms and Figurative Language in the Media"
+}
