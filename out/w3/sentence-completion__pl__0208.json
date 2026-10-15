@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not once did the committee admit its mistake,",
+  "correct_completion": "and it never apologised to the families affected.",
+  "full_sentence": "Not once did the committee admit its mistake, and it never apologised to the families affected.",
+  "acceptable_variants": ["and the families still waited for an apology.", "and it rejected every request for accountability."],
+  "options": [
+    {"text": "and it never apologised to the families affected.", "is_correct": true, "why_wrong": null},
+    {"text": "so the families were pleased with the outcome.", "is_correct": false, "why_wrong": "The fronted negative 'Not once' signals a critical tone. A pleased outcome contradicts the emphasis on the committee's failure."},
+    {"text": "because the meeting took place in the morning.", "is_correct": false, "why_wrong": "This gives an unrelated cause. It does not complete the emphatic negative stated in the stem."},
+    {"text": "although it had admitted the error earlier.", "is_correct": false, "why_wrong": "This contradicts the stem, which states that the committee never admitted its mistake."}
+  ],
+  "correct_index": 0,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Fronted negative adverbial with subject-auxiliary inversion",
+  "connector": "not once",
+  "explanation": "A fronted negative adverbial such as 'Not once' requires inversion of the auxiliary and subject, and the main clause must continue the same negative meaning.",
+  "translation": "Ani razu komisja nie przyznała się do swojego błędu i nigdy nie przeprosiła rodzin, których to dotknęło."
+}
