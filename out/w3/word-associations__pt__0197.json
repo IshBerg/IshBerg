@@ -1,0 +1,14 @@
+{
+  "trigger_word": "court",
+  "all_words": [
+    {"word": "judge", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um juiz trabalha em um tribunal e decide casos, por isso está diretamente ligado ao sentido de 'court'."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banana é uma fruta e não tem nenhuma relação com tribunais ou processos judiciais."},
+    {"word": "lawyer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um advogado representa pessoas em um tribunal, então a palavra pertence ao mesmo campo de sentido."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Cozinha é um cômodo da casa e não se relaciona com o sistema judicial."},
+    {"word": "verdict", "is_associated": true, "association_type": "THEMATIC", "explanation": "O veredito é a decisão final tomada em um tribunal, por isso aparece no mesmo tema de julgamento."},
+    {"word": "courage", "is_associated": true, "association_type": "PHONETIC", "explanation": "Courage tem som parecido com 'court' (tribunal), mas não há relação de sentido entre as duas palavras."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'court' vêm do campo do sistema judicial (juiz, advogado, veredito) ou têm som parecido (courage); as demais não têm relação."
+}
