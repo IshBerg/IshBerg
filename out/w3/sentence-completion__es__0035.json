@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the bus was late,",
+  "correct_completion": "we missed the start of the film.",
+  "full_sentence": "Because the bus was late, we missed the start of the film.",
+  "acceptable_variants": ["we arrived after the movie had begun.", "we had to wait for the next show."],
+  "options": [
+    {"text": "we ate dinner at home.", "is_correct": false, "why_wrong": "This does not follow from the bus being late. The cause and effect link is missing."},
+    {"text": "the cinema was closed on Sundays.", "is_correct": false, "why_wrong": "This is an unrelated fact and is not a result of the bus being late."},
+    {"text": "we missed the start of the film.", "is_correct": true, "why_wrong": null},
+    {"text": "the film was very funny.", "is_correct": false, "why_wrong": "This describes the film itself, not a result of the late bus."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the cause, so the main clause must give the result of that cause. A late bus leads to arriving late and missing part of the event.",
+  "translation": "Como el autobús llegó tarde, nos perdimos el inicio de la película."
+}
