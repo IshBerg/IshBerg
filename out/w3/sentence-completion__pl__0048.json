@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I don't like coffee, so",
+  "correct_completion": "I usually drink tea in the morning.",
+  "full_sentence": "I don't like coffee, so I usually drink tea in the morning.",
+  "acceptable_variants": ["I drink juice instead.", "I choose water in the morning."],
+  "options": [
+    {"text": "I drink coffee every day.", "is_correct": false, "why_wrong": "This contradicts the first part, because the stem says the speaker does not like coffee."},
+    {"text": "I like coffee very much.", "is_correct": false, "why_wrong": "This contradicts 'I don't like coffee' in the stem and does not give a logical result."},
+    {"text": "I usually drink tea in the morning.", "is_correct": true, "why_wrong": null},
+    {"text": "I am not hungry now.", "is_correct": false, "why_wrong": "This is a true statement but it is unrelated to coffee, so it does not complete the logical result of the first part."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present Simple with 'like' and 'don't like' and the connector 'so'",
+  "connector": "so",
+  "explanation": "The stem gives a negative preference with 'don't like'. 'So' introduces the logical result, which should be a habit in the Present Simple. Learners often add 'do' or 'does' to the main verb in negative sentences, so 'don't drink' is correct, while the affirmative form needs the base verb for I and plural subjects.",
+  "translation": "Nie lubię kawy, więc zazwyczaj piję herbatę rano."
+}
