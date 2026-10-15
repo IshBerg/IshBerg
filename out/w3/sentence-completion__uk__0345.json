@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were you,",
+  "correct_completion": "I would apologise to her today.",
+  "full_sentence": "If I were you, I would apologise to her today.",
+  "acceptable_variants": ["I would talk to her before the party.", "I would call her this evening."],
+  "options": [
+    {"text": "I would apologise to her today.", "is_correct": true, "why_wrong": null},
+    {"text": "I apologised to her yesterday.", "is_correct": false, "why_wrong": "The stem uses the second conditional, which needs 'would' plus the base verb, not a past simple verb."},
+    {"text": "I will apologise to her today.", "is_correct": false, "why_wrong": "The stem uses the subjunctive 'were' for an imagined situation, so the main clause should use 'would', not 'will'."},
+    {"text": "I have apologised to her already.", "is_correct": false, "why_wrong": "The present perfect describes a completed action and does not fit an imagined advice situation."}
+  ],
+  "correct_index": 0,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Second conditional and the subjunctive 'were' in advice",
+  "connector": "if I were you",
+  "explanation": "The subjunctive form 'were' is used for all persons in imagined situations, and the main clause uses 'would' plus the base verb. Learners should keep the main clause in the same conditional pattern as the stem.",
+  "translation": "На твоєму місці я б вибачився перед нею сьогодні."
+}
