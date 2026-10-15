@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "R", "A", "G", "O", "N", "Q", "W", "K"],
+    ["X", "Z", "B", "F", "L", "P", "M", "J", "I"],
+    ["C", "U", "V", "Y", "P", "K", "T", "R", "N"],
+    ["H", "A", "E", "O", "Z", "J", "Q", "M", "G"],
+    ["B", "F", "S", "D", "W", "R", "X", "N", "V"],
+    ["Y", "K", "J", "T", "L", "P", "Z", "Q", "B"],
+    ["M", "V", "R", "U", "L", "F", "N", "D", "Y"],
+    ["G", "B", "W", "H", "K", "E", "A", "P", "T"],
+    ["Q", "N", "W", "I", "T", "C", "H", "Z", "F"]
+  ],
+  "words_to_find": ["DRAGON", "KING", "CASTLE", "WITCH"],
+  "word_positions": [
+    {"word": "DRAGON", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "KING", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CASTLE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WITCH", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Folk Tales"
+}
