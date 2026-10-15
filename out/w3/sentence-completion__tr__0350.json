@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the sample size was small,",
+  "correct_completion": "the authors nonetheless drew a clear conclusion from the data.",
+  "full_sentence": "Although the sample size was small, the authors nonetheless drew a clear conclusion from the data.",
+  "acceptable_variants": ["the authors nevertheless presented their findings with confidence.", "the authors still reported their findings with confidence."],
+  "options": [
+    {"text": "so the authors drew no conclusions at all.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. The stem requires a clause that contrasts with the small sample size."},
+    {"text": "the authors collected the data in 2019.", "is_correct": false, "why_wrong": "This adds a date but does not contrast with the first clause."},
+    {"text": "the authors nonetheless drew a clear conclusion from the data.", "is_correct": true, "why_wrong": null},
+    {"text": "the sample size was also small in the control group.", "is_correct": false, "why_wrong": "This repeats the first clause instead of contrasting with it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show contrast with the first part of the sentence. Learners often use 'so' or 'because' here, which signal cause and effect instead of contrast. Adverbs such as 'nonetheless' or 'nevertheless' help make the contrast clear in formal academic writing.",
+  "translation": "Örneklem büyüklüğü küçük olmasına rağmen, yazarlar verilerden yine de net bir sonuç çıkardı."
+}
