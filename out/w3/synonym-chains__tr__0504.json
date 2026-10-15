@@ -1,0 +1,17 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "unhappy", "intensity": 1, "translation": "mutsuz", "nuance": "not happy, a mild feeling"},
+    {"word": "sad", "intensity": 2, "translation": "üzgün", "nuance": "feeling sorrow, the basic word"},
+    {"word": "upset", "intensity": 3, "translation": "üzülmüş", "nuance": "troubled or hurt by something that happened"},
+    {"word": "miserable", "intensity": 4, "translation": "perişan", "nuance": "very unhappy for a long time"},
+    {"word": "heartbroken", "intensity": 5, "translation": "kalbi kırık", "nuance": "extremely sad, usually after a loss"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express unhappiness, but with different strength, from a mild not-happy feeling to deep heartbreak.",
+  "usage_notes": [
+    {"word1": "sad", "word2": "unhappy", "difference": "'Sad' describes a feeling of sorrow; 'unhappy' is a weaker, more general word that just means not happy."}
+  ],
+  "translations": {"unhappy": "mutsuz", "sad": "üzgün", "upset": "üzülmüş", "miserable": "perişan", "heartbroken": "kalbi kırık"}
+}
