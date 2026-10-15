@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee finally approved was not the original budget,",
+  "correct_completion": "but a smaller plan that addressed the main concerns.",
+  "full_sentence": "What the committee finally approved was not the original budget, but a smaller plan that addressed the main concerns.",
+  "acceptable_variants": ["but rather a revised proposal with fewer costs.", "but a simpler version of the project."],
+  "options": [
+    {"text": "but a smaller plan that addressed the main concerns.", "is_correct": true, "why_wrong": null},
+    {"text": "it was the budget that everyone had expected.", "is_correct": false, "why_wrong": "This repeats a cleft structure but contradicts the contrast set up by 'not'; the approved item must differ from the original budget."},
+    {"text": "that the committee rejected the entire project.", "is_correct": false, "why_wrong": "This contradicts the sentence stem, which states that something was approved."},
+    {"text": "and the members were very satisfied with it.", "is_correct": false, "why_wrong": "This adds an opinion but does not complete the contrast required by 'was not ... but'."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Pseudo-cleft structure with 'what' and a 'not ... but' contrast",
+  "connector": "not ... but",
+  "explanation": "The stem opens a pseudo-cleft with 'what', so the completion must provide the contrasting replacement introduced by 'but'. Portuguese speakers often write a complete clause right after the 'not' phrase, but English requires a parallel noun phrase or 'but' construction to balance the sentence.",
+  "translation": "O que o comitê finalmente aprovou não foi o orçamento original, mas um plano menor que tratou das principais preocupações."
+}

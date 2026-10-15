@@ -1,0 +1,17 @@
+{
+  "central_word": "lie",
+  "chain_words": [
+    {"word": "fib", "intensity": 1, "translation": "mentirinha", "nuance": "small, harmless untruth, often about something minor"},
+    {"word": "untruth", "intensity": 2, "translation": "inverdade", "nuance": "neutral statement that is not true"},
+    {"word": "falsehood", "intensity": 3, "translation": "falsidade", "nuance": "formal word for a false statement"},
+    {"word": "deception", "intensity": 4, "translation": "engano", "nuance": "intentional act meant to mislead people"},
+    {"word": "fabrication", "intensity": 5, "translation": "fabricação", "nuance": "invented story created to deceive, often with serious consequences"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe something that is not true, from a minor untruth to a deliberately invented story.",
+  "usage_notes": [
+    {"word1": "fib", "word2": "fabrication", "difference": "'Fib' describes a small, usually harmless untruth, while 'fabrication' describes a carefully invented story meant to deceive people."}
+  ],
+  "translations": {"fib": "mentirinha", "untruth": "inverdade", "falsehood": "falsidade", "deception": "engano", "fabrication": "fabricação"}
+}
