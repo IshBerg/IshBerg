@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she was tired,",
+  "correct_completion": "she finished her homework.",
+  "full_sentence": "Although she was tired, she finished her homework.",
+  "acceptable_variants": ["she still did her homework.", "she completed all her exercises."],
+  "options": [
+    {"text": "so she went to bed early.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast with the first clause."},
+    {"text": "she finished her homework.", "is_correct": true, "why_wrong": null},
+    {"text": "she was very hungry.", "is_correct": false, "why_wrong": "This describes another feeling but does not contrast with being tired."},
+    {"text": "it was Monday.", "is_correct": false, "why_wrong": "This adds a time detail but does not provide the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first clause. Spanish speakers may add a result word such as 'so' here, because Spanish often joins clauses with the same connectors for cause and result.",
+  "translation": "Aunque estaba cansada, terminó su tarea."
+}
