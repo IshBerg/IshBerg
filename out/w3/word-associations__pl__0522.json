@@ -1,0 +1,14 @@
+{
+  "trigger_word": "spider",
+  "all_words": [
+    {"word": "web", "is_associated": true, "association_type": "THEMATIC", "explanation": "Pajęczyna to sieć, którą pająk buduje, więc słowa 'spider' i 'web' są ze sobą ściśle związane."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Samochód nie ma żadnego związku z pająkami."},
+    {"word": "rain", "is_associated": true, "association_type": "THEMATIC", "explanation": "W znanej piosence o pająku, 'Itsy Bitsy Spider', pająk wspina się z powrotem po ścianie, gdy przychodzi deszcz."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Ryba nie ma związku z pająkiem w tej rymowance."},
+    {"word": "legs", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Pająki mają osiem nóg; wyrażenie 'eight legs' często pojawia się razem z pająkami."},
+    {"word": "cup", "is_associated": false, "association_type": "NONE", "explanation": "Kubek nie jest powiązany z pająkami."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'spider' to te, które dotyczą pajęczyny, deszczu z rymowanki oraz nóg pająka."
+}

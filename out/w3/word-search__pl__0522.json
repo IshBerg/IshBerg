@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "V", "I", "D", "E", "N", "C", "E", "S"],
+    ["Q", "W", "K", "J", "B", "Z", "F", "P", "A"],
+    ["T", "J", "X", "Q", "W", "B", "N", "R", "M"],
+    ["W", "H", "Z", "F", "K", "Q", "B", "G", "P"],
+    ["Q", "W", "E", "Z", "J", "F", "K", "B", "L"],
+    ["K", "X", "B", "O", "N", "Z", "J", "W", "E"],
+    ["P", "Z", "F", "K", "R", "M", "Q", "W", "V"],
+    ["F", "K", "B", "Q", "N", "Y", "W", "V", "X"],
+    ["D", "A", "T", "A", "K", "Q", "W", "Z", "J"]
+  ],
+  "words_to_find": ["EVIDENCE", "SAMPLE", "THEORY", "DATA"],
+  "word_positions": [
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SAMPLE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "THEORY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DATA", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Science, Research and Evidence"
+}
