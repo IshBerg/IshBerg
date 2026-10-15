@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am tired today,",
+  "correct_completion": "so I am going to bed early.",
+  "full_sentence": "I am tired today, so I am going to bed early.",
+  "acceptable_variants": ["so I will sleep early.", "so I am going home soon."],
+  "options": [
+    {"text": "but I am going to the park.", "is_correct": false, "why_wrong": "'But' shows contrast, while the stem is a reason that leads to a result. The sentence needs a result of being tired."},
+    {"text": "so I am going to bed early.", "is_correct": true, "why_wrong": null},
+    {"text": "because I went to school.", "is_correct": false, "why_wrong": "'Because' introduces a reason before the result. After 'tired today', the sentence needs a result, not another reason."},
+    {"text": "and my dog is happy.", "is_correct": false, "why_wrong": "This adds unrelated information but does not show the result of being tired."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so'",
+  "connector": "so",
+  "explanation": "The stem gives a reason, and the completion must show the result of that reason. The connector 'so' introduces the result. Learners often choose a contrast connector here, but the sentence needs a result.",
+  "translation": "Estoy cansado hoy, así que me voy a dormir temprano."
+}
