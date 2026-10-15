@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poverty",
+  "all_words": [
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La caridad es una respuesta habitual a la pobreza, porque consiste en ayudar a quien no tiene recursos."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña no tiene relación con el concepto de pobreza y no aparece en este contexto."},
+    {"word": "welfare", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El welfare (ayuda social) es el conjunto de prestaciones públicas dirigidas a personas en situación de pobreza."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta no tiene ninguna conexión semántica ni temática con la pobreza."},
+    {"word": "shelter", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un refugio o albergue es un recurso típico para personas sin hogar a causa de la pobreza."},
+    {"word": "line", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Poverty line' (línea de pobreza) es una colocación habitual que define el umbral mínimo de ingresos."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'poverty' se relacionan con la ayuda social, la vivienda y la medición económica, mientras que las demás no tienen conexión con el tema."
+}
