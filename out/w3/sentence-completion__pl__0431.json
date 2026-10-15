@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the message was short,",
+  "correct_completion": "it made me feel better.",
+  "full_sentence": "Although the message was short, it made me feel better.",
+  "acceptable_variants": ["it still made my day.", "I still smiled."],
+  "options": [
+    {"text": "so I did not reply at all.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. After 'although', the sentence needs a clause that contrasts with the first part."},
+    {"text": "I wrote it on my phone.", "is_correct": false, "why_wrong": "This adds a detail about the message but does not express the contrast expected after 'although'."},
+    {"text": "it made me feel better.", "is_correct": true, "why_wrong": null},
+    {"text": "it took me a long time to type.", "is_correct": false, "why_wrong": "This describes the effort but does not provide the contrasting result that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners often pick a result clause with 'so' because it feels like a simple logical link.",
+  "translation": "Chociaż wiadomość była krótka, sprawiła, że poczułem się lepiej."
+}
