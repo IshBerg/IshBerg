@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "They haven't arrived yet, so",
+  "correct_completion": "we are still waiting for them in the lobby.",
+  "full_sentence": "They haven't arrived yet, so we are still waiting for them in the lobby.",
+  "acceptable_variants": ["we decided to wait a little longer.", "we are still expecting them."],
+  "options": [
+    {"text": "we have already eaten dinner together.", "is_correct": false, "why_wrong": "This describes an unrelated action and does not follow from the fact that they have not arrived."},
+    {"text": "we are still waiting for them in the lobby.", "is_correct": true, "why_wrong": null},
+    {"text": "they have just finished their meeting.", "is_correct": false, "why_wrong": "This contradicts the first clause, because the stem says they have not arrived yet."},
+    {"text": "we have never met them before.", "is_correct": false, "why_wrong": "This is not a result of the missing arrival, so it does not complete the cause and effect in the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect negative with 'yet' followed by a result clause introduced by 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. The present perfect with 'yet' shows that the event has not happened up to now, so the correct completion must describe what follows from that delay.",
+  "translation": "Jeszcze nie przyjechali, więc nadal czekamy na nich w holu."
+}
