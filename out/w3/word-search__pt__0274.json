@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "X", "Q", "J", "T"],
+    ["K", "M", "P", "Z", "F", "L", "V", "C", "H"],
+    ["W", "E", "N", "T", "B", "R", "K", "Q", "E"],
+    ["Z", "J", "F", "M", "L", "P", "Y", "X", "N"],
+    ["B", "K", "Q", "L", "V", "W", "E", "J", "C"],
+    ["P", "E", "M", "F", "R", "Z", "N", "K", "V"],
+    ["L", "T", "G", "V", "P", "N", "D", "F", "R"],
+    ["X", "Q", "R", "A", "Z", "K", "E", "M", "T"],
+    ["M", "P", "J", "Y", "N", "L", "D", "Z", "Q"]
+  ],
+  "words_to_find": ["STORY", "THEN", "WENT", "BEGAN", "ENDED"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THEN", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "WENT", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BEGAN", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ENDED", "start_row": 4, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Narrating Events"
+}

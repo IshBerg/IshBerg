@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat ice above zero degrees,",
+  "correct_completion": "it melts.",
+  "full_sentence": "If you heat ice above zero degrees, it melts.",
+  "acceptable_variants": ["it becomes water.", "it turns into liquid."],
+  "options": [
+    {"text": "it would be frozen forever.", "is_correct": false, "why_wrong": "'Would' belongs to hypothetical second conditional sentences. Zero conditional describes a general fact that is always true."},
+    {"text": "it melts.", "is_correct": true, "why_wrong": null},
+    {"text": "it has melted yesterday.", "is_correct": false, "why_wrong": "A past perfect result does not fit a general present fact. The zero conditional uses the present simple in both clauses."},
+    {"text": "so it will melt tomorrow.", "is_correct": false, "why_wrong": "'Will' is used in first conditional sentences about a specific future event. Zero conditional expresses general truths."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional for general scientific facts",
+  "connector": "if",
+  "explanation": "The zero conditional uses the present simple in both the if-clause and the main clause to describe facts that are always true under the same conditions.",
+  "translation": "Se você aquecer gelo acima de zero grau, ele derrete."
+}
