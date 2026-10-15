@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poverty",
+  "all_words": [
+    {"word": "hardship", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Hardship é um sinônimo próximo de pobreza, pois descreve a dificuldade de vida causada pela falta de recursos."},
+    {"word": "charity", "is_associated": true, "association_type": "THEMATIC", "explanation": "Caridade é um tema ligado à pobreza, porque é uma das respostas sociais para ajudar quem vive em situação de miséria."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanha não tem relação de sentido nem de tema com pobreza; é um substantivo sobre geografia."},
+    {"word": "deprivation", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Privação significa a falta de bens essenciais, que é justamente o núcleo do conceito de pobreza."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Violão não tem nenhuma ligação com pobreza, nem por sentido, nem por tema, nem em expressões comuns."},
+    {"word": "trap", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês, poverty trap (armadilha da pobreza) é uma colocação fixa usada em economia e sociologia."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a poverty ligam-se por sentido (hardship, deprivation), por tema social (charity) ou por colocação fixa (trap); as palavras não associadas pertencem a campos semânticos totalmente diferentes."
+}
