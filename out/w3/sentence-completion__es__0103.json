@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it doesn't rain tomorrow,",
+  "correct_completion": "we will go to the beach.",
+  "full_sentence": "If it doesn't rain tomorrow, we will go to the beach.",
+  "acceptable_variants": ["we are going to visit the beach.", "we will have a picnic outside."],
+  "options": [
+    {"text": "we would go to the beach.", "is_correct": false, "why_wrong": "This is the second conditional, used for unreal or unlikely situations; a real possibility tomorrow takes 'will'."},
+    {"text": "we will go to the beach.", "is_correct": true, "why_wrong": null},
+    {"text": "we went to the beach yesterday.", "is_correct": false, "why_wrong": "The past simple refers to a finished past event, so it cannot complete a future result after 'if'."},
+    {"text": "we have gone to the beach before.", "is_correct": false, "why_wrong": "The present perfect describes past experience and does not give a future result after 'if'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional: 'if' with present simple, followed by 'will' and the base verb",
+  "connector": "if",
+  "explanation": "The stem describes a real possibility in the future, so the main clause uses 'will' followed by the base verb. Learners often use the present simple in the main clause, or switch to the second conditional. In the first conditional, the if-clause uses the present simple even when it refers to tomorrow, because the future is expressed by 'will' in the result clause.",
+  "translation": "Si mañana no llueve, iremos a la playa."
+}
