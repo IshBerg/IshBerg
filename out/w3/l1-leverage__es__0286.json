@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "éxito", "transliteration": "éxito", "meaning": "success"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend"},
+    {"word": "argumento", "transliteration": "argumento", "meaning": "reasoning, line of thought"},
+    {"word": "carácter", "transliteration": "carácter", "meaning": "personality"}
+  ],
+  "english_words": ["reasoning", "personality", "attend", "success"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages drew on similar Latin roots, but over time each language shifted the meanings in a different direction, so the forms look close while the meanings differ.",
+  "false_friend_warning": "Beware of false friends: a Spanish word that looks like the English word 'exit' means 'success', a Spanish word that looks like 'assist' means 'to attend', and a Spanish word that looks like 'argument' means 'reasoning'. Match by meaning, never by how the word looks."
+}

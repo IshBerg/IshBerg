@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the study's sample was small,",
+  "correct_completion": "its findings still offer useful insights for future research.",
+  "full_sentence": "Although the study's sample was small, its findings still offer useful insights for future research.",
+  "acceptable_variants": ["its results remain informative for later studies.", "the findings are nonetheless valuable."],
+  "options": [
+    {"text": "the researchers therefore abandoned the project entirely.", "is_correct": false, "why_wrong": "'Therefore' signals a result, but 'although' requires a concession that contrasts with the small sample."},
+    {"text": "its findings still offer useful insights for future research.", "is_correct": true, "why_wrong": null},
+    {"text": "the sample was drawn from three separate universities.", "is_correct": false, "why_wrong": "This adds a detail about the sample but does not provide the contrast expected after 'although'."},
+    {"text": "the study was published in a major journal.", "is_correct": false, "why_wrong": "This adds information about publication, not the concessive contrast that the stem requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'although' in academic hedging",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the limitation given in the first part of the sentence. Academic writers often use this pattern to acknowledge a weakness while still stressing the value of the work.",
+  "translation": "Aunque la muestra del estudio era pequeña, sus hallazgos siguen ofreciendo ideas útiles para futuras investigaciones."
+}
