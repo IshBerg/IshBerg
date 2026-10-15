@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "таксі", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "метро", "transliteration": "metro", "meaning": "metro (underground railway)"},
+    {"word": "автобус", "transliteration": "avtobus", "meaning": "bus"},
+    {"word": "готель", "transliteration": "hotel", "meaning": "hotel"}
+  ],
+  "english_words": ["hotel", "bus", "metro", "taxi"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these transport and travel words from the same international sources, so the forms stayed close and the meanings match.",
+  "false_friend_warning": null
+}

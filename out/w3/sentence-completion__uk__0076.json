@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday the streets were wet because",
+  "correct_completion": "it rained all night.",
+  "full_sentence": "Yesterday the streets were wet because it rained all night.",
+  "acceptable_variants": ["there was heavy rain in the night.", "it was raining all night."],
+  "options": [
+    {"text": "so we went to the cinema.", "is_correct": false, "why_wrong": "'Because' introduces a reason, not a result. 'So' introduces a result, so this does not fit after 'because'."},
+    {"text": "it rained all night.", "is_correct": true, "why_wrong": null},
+    {"text": "the sun was shining brightly.", "is_correct": false, "why_wrong": "This describes the weather but does not explain why the streets were wet; 'because' needs a reason."},
+    {"text": "we were very happy.", "is_correct": false, "why_wrong": "This gives a feeling, not a reason for the wet streets."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past Simple: was / were with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a reason that explains the first part of the sentence. Learners sometimes choose a result clause with 'so', which reverses the logic of the connector.",
+  "translation": "Вчора вулиці були мокрі, тому що всю ніч ішов дощ."
+}
