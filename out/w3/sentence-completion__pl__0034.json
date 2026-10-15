@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Unlike the other witnesses,",
+  "correct_completion": "she told the court that she had seen nothing.",
+  "full_sentence": "Unlike the other witnesses, she told the court that she had seen nothing.",
+  "acceptable_variants": ["she testified that she had not seen anything.", "she stated in court that she saw nothing."],
+  "options": [
+    {"text": "she said that she had seen everything.", "is_correct": false, "why_wrong": "This uses reported speech but describes a similar kind of testimony, so it does not contrast with the other witnesses."},
+    {"text": "she told the court that she had seen nothing.", "is_correct": true, "why_wrong": null},
+    {"text": "all of the witnesses were very tired.", "is_correct": false, "why_wrong": "This states another fact but does not contrast a witness's account with the others."},
+    {"text": "the court was adjourned until Monday.", "is_correct": false, "why_wrong": "This is an unrelated event and does not complete the contrast set up by 'unlike'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'unlike' followed by a reported statement using 'told ... that'",
+  "connector": "unlike",
+  "explanation": "After 'unlike', we need a clause that contrasts with the group described in the first part. The reporting verb 'told' introduces a reported statement, which sets the witness's account against the others.",
+  "translation": "W przeciwieństwie do innych świadków, ona powiedziała sądowi, że nic nie widziała."
+}

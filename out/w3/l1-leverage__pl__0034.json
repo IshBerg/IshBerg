@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "kot", "transliteration": "kot", "meaning": "cat"},
+    {"word": "wilk", "transliteration": "wilk", "meaning": "wolf"},
+    {"word": "lis", "transliteration": "lis", "meaning": "fox"},
+    {"word": "sowa", "transliteration": "sowa", "meaning": "owl"}
+  ],
+  "english_words": ["owl", "cat", "fox", "wolf"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Polish word for cat and the English word 'cot' look alike by chance, because they come from different sources and developed different meanings. The similarity in form does not show a shared meaning.",
+  "false_friend_warning": "Warning: the Polish word 'kot' (transliteration: kot) means cat, but it looks similar to the English word 'cot', which means a baby's bed. Do not translate 'kot' as 'cot' in English; use 'cat' instead."
+}
