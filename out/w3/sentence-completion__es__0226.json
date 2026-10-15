@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the students found most difficult",
+  "correct_completion": "was the timing of the presentations.",
+  "full_sentence": "What the students found most difficult was the timing of the presentations.",
+  "acceptable_variants": ["was keeping to the time limit.", "was managing the time for each speaker."],
+  "options": [
+    {"text": "they found the presentations easy.", "is_correct": false, "why_wrong": "This is a complete clause, but a pseudo-cleft needs 'was' followed by the element that answers the 'What' clause."},
+    {"text": "because they had no time to prepare.", "is_correct": false, "why_wrong": "'Because' introduces a reason. The stem needs a complement that identifies what the students found difficult."},
+    {"text": "was the timing of the presentations.", "is_correct": true, "why_wrong": null},
+    {"text": "although they had practiced a lot.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, but the stem needs a complement naming the difficulty."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Pseudo-cleft sentences with a 'What' clause followed by 'was'",
+  "connector": "what",
+  "explanation": "A pseudo-cleft sentence starts with a 'What' clause and continues with 'was' plus the element that answers it. The completion must name the difficulty.",
+  "translation": "Lo que los estudiantes encontraron más difícil fue la programación de las presentaciones."
+}
