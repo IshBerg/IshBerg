@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee examined the evidence more carefully,",
+  "correct_completion": "the scandal would have been avoided entirely.",
+  "full_sentence": "Had the committee examined the evidence more carefully, the scandal would have been avoided entirely.",
+  "acceptable_variants": ["the scandal might never have occurred.", "the damage to its reputation would have been prevented."],
+  "options": [
+    {"text": "the scandal happens every single year.", "is_correct": false, "why_wrong": "The stem describes a past hypothetical, so a present habitual statement does not complete the conditional logic."},
+    {"text": "the scandal would have been avoided entirely.", "is_correct": true, "why_wrong": null},
+    {"text": "the scandal will be avoided by the committee.", "is_correct": false, "why_wrong": "A future passive does not match the unreal past condition introduced by the inverted 'had' structure."},
+    {"text": "the committee was examining the evidence again.", "is_correct": false, "why_wrong": "This describes an action rather than the result of the unreal condition, so it does not complete the conditional sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditional with 'had' and a perfect conditional in the main clause",
+  "connector": "had",
+  "explanation": "The inverted 'Had ... examined' structure expresses a past hypothetical, so the main clause must use a conditional perfect form to show a result that did not happen. Learners may be tempted to choose a present or future form here, but the stem refers to a past condition.",
+  "translation": "Si el comité hubiera examinado las pruebas con más cuidado, el escándalo se habría evitado por completo."
+}
