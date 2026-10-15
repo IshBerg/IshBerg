@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "O", "N", "E", "Y", "Q", "W", "X", "S"],
+    ["K", "B", "J", "Z", "F", "L", "H", "P", "A"],
+    ["R", "T", "S", "P", "E", "N", "D", "M", "V"],
+    ["G", "W", "Q", "K", "J", "Y", "B", "C", "E"],
+    ["C", "H", "L", "Q", "W", "T", "Z", "F", "K"],
+    ["F", "O", "U", "R", "G", "H", "K", "Z", "L"],
+    ["J", "X", "I", "K", "S", "W", "Q", "B", "M"],
+    ["Y", "D", "F", "N", "Z", "P", "K", "L", "T"],
+    ["W", "A", "E", "P", "S", "K", "Z", "L", "Q"]
+  ],
+  "words_to_find": ["MONEY", "SAVE", "SPEND", "COINS"],
+  "word_positions": [
+    {"word": "MONEY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SAVE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SPEND", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "COINS", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"}
+  ],
+  "topic": "Pocket Money"
+}

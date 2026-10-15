@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Far from being a mere formality,",
+  "correct_completion": "the review process exposed several serious flaws in the methodology.",
+  "full_sentence": "Far from being a mere formality, the review process exposed several serious flaws in the methodology.",
+  "acceptable_variants": ["the review process revealed a number of serious weaknesses.", "the review turned out to be a thorough examination."],
+  "options": [
+    {"text": "the committee approved it without further discussion.", "is_correct": false, "why_wrong": "This implies the review was only a formality, which directly contradicts the stem."},
+    {"text": "as a result, the budget was reduced.", "is_correct": false, "why_wrong": "The stem sets up a contrast, not a consequence. 'As a result' signals cause and effect, so it does not complete the contrast."},
+    {"text": "the review process exposed several serious flaws in the methodology.", "is_correct": true, "why_wrong": null},
+    {"text": "it was scheduled for the following Tuesday.", "is_correct": false, "why_wrong": "This gives a date, which does not complete the contrast set up by the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'far from being' followed by a substantive clause",
+  "connector": "far from",
+  "explanation": "The stem negates a formality, so the completion must present something substantive that contrasts with it. Learners should look for a clause that reveals a real outcome rather than one that confirms the formality.",
+  "translation": "Daleko od bycia zwykłą formalnością, proces recenzji ujawnił kilka poważnych błędów w metodologii."
+}
