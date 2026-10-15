@@ -1,0 +1,14 @@
+{
+  "trigger_word": "desert",
+  "all_words": [
+    {"word": "sand", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Çöl, kum tepeleri ve kumla kaplı geniş alanlarla anılan bir coğrafi yerdir."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet bir ulaşım aracıdır ve çöl coğrafyası ile doğrudan bir ilişkisi yoktur."},
+    {"word": "camel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Deve, sıcak ve kuru çöl ortamında yaşamaya uyum sağlamış bir hayvandır."},
+    {"word": "soup", "is_associated": false, "association_type": "NONE", "explanation": "Çorba bir yiyecektir ve çölün doğal özellikleriyle bir bağlantısı yoktur."},
+    {"word": "dune", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kum tepesi, rüzgârın kumdan oluşturduğu ve çölde sık görülen bir yer şeklidir."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kurşun kalem bir yazı aracıdır ve çöl ile ilgili bir kavram değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Çöl kavramı kum, kum tepeleri ve deve gibi kuraklık koşullarına ait doğal unsurlarla ilişkilidir; bisiklet, çorba ve kalem bu temaya ait değildir."
+}

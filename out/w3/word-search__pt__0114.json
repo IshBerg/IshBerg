@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["A", "N", "G", "R", "Y", "Q", "W", "K", "G"],
+    ["B", "O", "D", "X", "P", "U", "V", "Z", "L"],
+    ["F", "H", "S", "J", "M", "T", "Y", "W", "A"],
+    ["K", "P", "N", "Q", "X", "B", "C", "V", "D"],
+    ["C", "F", "G", "H", "J", "K", "Z", "X", "D"],
+    ["P", "A", "R", "Y", "Q", "S", "U", "E", "W"],
+    ["O", "X", "L", "K", "Z", "N", "R", "B", "Q"],
+    ["V", "G", "Y", "M", "D", "I", "W", "Z", "K"],
+    ["J", "U", "F", "Q", "T", "H", "C", "N", "S"]
+  ],
+  "words_to_find": ["ANGRY", "GLAD", "CALM", "TIRED"],
+  "word_positions": [
+    {"word": "ANGRY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLAD", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CALM", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TIRED", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Nuanced Synonyms"
+}
