@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the map showed a short route,",
+  "correct_completion": "we walked along the river instead.",
+  "full_sentence": "Although the map showed a short route, we walked along the river instead.",
+  "acceptable_variants": ["we chose the longer path by the river.", "we took a different road that followed the water."],
+  "options": [
+    {"text": "so we took the bus instead.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. The sentence needs a clause that contrasts with the short route after 'although'."},
+    {"text": "the bus was late as usual.", "is_correct": false, "why_wrong": "This adds a detail about the bus but does not contrast with the route described in the first part."},
+    {"text": "we walked along the river instead.", "is_correct": true, "why_wrong": null},
+    {"text": "it was a very long map.", "is_correct": false, "why_wrong": "This describes the map, but it does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Turkish speakers often use a single clause for both ideas, so the contrast must be stated in its own clause in English.",
+  "translation": "Harita kısa bir yol gösterse de, bunun yerine nehir boyunca yürüdük."
+}

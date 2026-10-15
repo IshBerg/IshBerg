@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Hemşire, hastanede çalışan bir sağlık personelidir, bu yüzden hastane kavramıyla doğrudan ilişkilidir."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Yanardağ bir jeolojik oluşumdur ve hastane ile bir ilgisi yoktur."},
+    {"word": "surgery", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ameliyat, hastanede yapılan tıbbi bir işlemdir ve bu nedenle hastane ile anlam olarak bağlantılıdır."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Keman bir müzik aletidir ve hastane kavramıyla ilgisi yoktur."},
+    {"word": "consent", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Hastanede hasta onayı, yani 'informed consent' ifadesi, sık kullanılan bir birlikteliktir."},
+    {"word": "harbor", "is_associated": false, "association_type": "NONE", "explanation": "Liman deniz taşımacılığıyla ilgilidir ve hastane ile bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "İlişkili kelimeler hastanedeki kişileri, işlemleri ve yaygın kullanılan ifadeleri kapsar; diğer kelimeler farklı alanlara aittir."
+}
