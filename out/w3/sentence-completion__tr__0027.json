@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the results were widely cited in the press,",
+  "correct_completion": "they were never independently verified.",
+  "full_sentence": "Although the results were widely cited in the press, they were never independently verified.",
+  "acceptable_variants": ["no independent team had confirmed them.", "they had not been checked by independent researchers."],
+  "options": [
+    {"text": "so the journal retracted the article.", "is_correct": false, "why_wrong": "'Although' signals contrast, while 'so' signals a result. Combining them breaks the logic, and a retraction is not the contrast the sentence needs."},
+    {"text": "the report was written in English.", "is_correct": false, "why_wrong": "This adds an unrelated detail. It does not complete the contrast started by 'although'."},
+    {"text": "they were never independently verified.", "is_correct": true, "why_wrong": null},
+    {"text": "and they were cited in the press.", "is_correct": false, "why_wrong": "This repeats the first clause. The coordinator 'and' adds no contrast, so it does not complete the concessive structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and passive voice in reports",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show contrast with the first clause. The passive 'were cited' sets up a positive fact, and the passive 'were never verified' presents the opposite. Turkish speakers sometimes add a second contrast marker such as 'but' after 'although'; in English, one contrast marker per sentence is enough.",
+  "translation": "Sonuçlar basında geniş ölçüde alıntılanmasına rağmen, bağımsız olarak hiçbir zaman doğrulanmadı."
+}

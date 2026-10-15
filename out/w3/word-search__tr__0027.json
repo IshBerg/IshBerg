@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["D", "O", "C", "T", "O", "R", "W", "Z", "K", "M"],
+    ["B", "L", "E", "V", "J", "F", "Q", "H", "Y", "G"],
+    ["P", "C", "A", "W", "T", "S", "D", "O", "B", "N"],
+    ["K", "R", "E", "L", "M", "Y", "F", "Z", "V", "U"],
+    ["T", "H", "I", "Q", "G", "O", "X", "W", "L", "R"],
+    ["S", "B", "K", "E", "Y", "D", "J", "P", "C", "S"],
+    ["M", "I", "Q", "W", "N", "T", "A", "X", "K", "E"],
+    ["H", "Z", "C", "L", "V", "O", "G", "D", "Y", "F"],
+    ["V", "J", "B", "K", "S", "E", "N", "U", "I", "T"],
+    ["Q", "W", "R", "T", "L", "D", "N", "I", "A", "P"]
+  ],
+  "words_to_find": ["DOCTOR", "NURSE", "SICK", "PAIN"],
+  "word_positions": [
+    {"word": "DOCTOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NURSE", "start_row": 2, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SICK", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PAIN", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Health and Illness"
+}
