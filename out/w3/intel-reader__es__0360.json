@@ -1,0 +1,20 @@
+{
+  "title": "Maria Is Sick",
+  "text": "Maria has a cold. She has a sore throat and a headache. She stays at home and rests for two days.\n\nHer friend Juan brings her soup and tea. He tells her to drink a lot of water and get some sleep. After two days, Maria feels better.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What illness does Maria have?", "options": ["A cold", "A broken arm", "A toothache", "The flu"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Juan bring Maria?", "options": ["Soup and tea", "Medicine and bread", "Fruit and milk", "A book and a pen"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Maria stay at home?", "options": ["She feels sick", "She wants to go shopping", "She has a new job", "She is on holiday"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about Juan?", "options": ["He is a good friend", "He is a doctor at the hospital", "He does not like Maria", "He is Maria's teacher"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "cold", "translation": "resfriado", "definition": "an illness that makes your nose run and makes you cough"},
+    {"word": "headache", "translation": "dolor de cabeza", "definition": "a pain in your head"},
+    {"word": "rests", "translation": "descansa", "definition": "stops working or moving to get energy back"},
+    {"word": "sleep", "translation": "sueño", "definition": "the time when you close your eyes and your body rests"}
+  ],
+  "paragraph_translations": [
+    "María tiene un resfriado. Tiene dolor de garganta y dolor de cabeza. Se queda en casa y descansa durante dos días.",
+    "Su amigo Juan le trae sopa y té. Él le dice que beba mucha agua y que duerma bien. Después de dos días, María se siente mejor."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "artículo", "transliteration": "artículo", "meaning": "article"},
+    {"word": "información", "transliteration": "información", "meaning": "information"},
+    {"word": "editor", "transliteration": "editor", "meaning": "editor"},
+    {"word": "reportero", "transliteration": "reportero", "meaning": "reporter"}
+  ],
+  "english_words": ["editor", "reporter", "article", "information"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin roots, so the forms stayed close and the meanings match in English and in the Spanish words.",
+  "false_friend_warning": null
+}
