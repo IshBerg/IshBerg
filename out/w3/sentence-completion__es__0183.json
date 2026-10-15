@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the project would have been saved.",
+  "full_sentence": "Had the committee been informed earlier, the project would have been saved.",
+  "acceptable_variants": ["the project would have survived.", "it would have been rescued."],
+  "options": [
+    {"text": "the project would be saved now.", "is_correct": false, "why_wrong": "The time reference does not match the past condition 'had been informed', which points to a past result."},
+    {"text": "so the project was cancelled.", "is_correct": false, "why_wrong": "'So' introduces a real consequence, not a hypothetical result of an unrealised past condition."},
+    {"text": "the project would have been saved.", "is_correct": true, "why_wrong": null},
+    {"text": "the project will have been saved.", "is_correct": false, "why_wrong": "'Will have been' refers to a future completion and does not match the hypothetical past condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' replacing 'if'",
+  "connector": "had",
+  "explanation": "In an inverted third conditional, 'had' at the start replaces 'if', and the main clause uses 'would have' with a past participle. Learners whose first language has no direct equivalent of this inversion often drop the perfect form, so the main clause needs the full 'would have' structure.",
+  "translation": "Si el comité hubiera sido informado antes, el proyecto se habría salvado."
+}
