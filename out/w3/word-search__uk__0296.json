@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["E", "D", "I", "S", "O", "N", "B"],
+    ["M", "P", "U", "K", "Z", "F", "E"],
+    ["V", "X", "Q", "W", "Y", "O", "L"],
+    ["G", "H", "J", "C", "K", "R", "L"],
+    ["T", "E", "S", "L", "A", "D", "Y"],
+    ["Q", "W", "V", "X", "Z", "P", "Y"],
+    ["Z", "J", "Q", "V", "X", "K", "W"]
+  ],
+  "words_to_find": ["EDISON", "BELL", "FORD", "TESLA"],
+  "word_positions": [
+    {"word": "EDISON", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BELL", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "FORD", "start_row": 1, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "TESLA", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Famous Inventors"
+}

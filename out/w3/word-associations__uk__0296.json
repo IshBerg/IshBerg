@@ -1,0 +1,14 @@
+{
+  "trigger_word": "slang",
+  "all_words": [
+    {"word": "jargon", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Жаргон — близьке за значенням слово: це також неформальна або спеціальна мова, що відрізняється від стандартної."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик — географічний термін, він не має жодного зв'язку зі сленгом чи мовними регістрами."},
+    {"word": "colloquial", "is_associated": true, "association_type": "THEMATIC", "explanation": "Розмовний — належить до тієї самої теми мовних регістрів, що й сленг, і описує неформальний стиль мовлення."},
+    {"word": "mortgage", "is_associated": false, "association_type": "NONE", "explanation": "Іпотека — фінансовий термін, тож вона не пов'язана зі сленгом ні за змістом, ні за темою."},
+    {"word": "informal", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "«Informal slang» (неформальний сленг) — природне словосполучення, яке часто вживається в англійській мові."},
+    {"word": "pebble", "is_associated": false, "association_type": "NONE", "explanation": "Галька — предмет природи, який не має ні семантичного, ні тематичного зв'язку зі сленгом."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово «slang» пов'язане з неформальними мовними регістрами: з ним природно співвідносяться «jargon», «colloquial» та словосполучення «informal slang», тоді як інші слова належать до зовсім інших тем."
+}
