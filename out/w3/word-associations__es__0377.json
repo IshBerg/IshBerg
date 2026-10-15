@@ -1,0 +1,14 @@
+{
+  "trigger_word": "permission",
+  "all_words": [
+    {"word": "allow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Allow' significa permitir; es el verbo relacionado con 'permission' (permiso)."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "'Table' (mesa) no tiene ninguna relación con pedir o dar permiso."},
+    {"word": "ask", "is_associated": true, "association_type": "THEMATIC", "explanation": "Para pedir permiso en inglés se usa 'ask', por ejemplo: 'ask for permission'."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "'Window' (ventana) es un objeto de la casa y no se relaciona con el permiso."},
+    {"word": "may", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'May I...?' es una forma común y educada de pedir permiso en inglés."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "'Fish' (pez) no tiene relación con el tema de pedir permiso."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'permission' se asocia con verbos y expresiones para pedir o dar permiso: allow, ask y may."
+}
