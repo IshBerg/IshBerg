@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "A", "L", "T", "Z", "J", "M"],
+    ["K", "P", "E", "W", "D", "Y", "I"],
+    ["R", "B", "G", "N", "V", "F", "L"],
+    ["T", "Q", "G", "H", "W", "Z", "K"],
+    ["Y", "M", "D", "F", "J", "Q", "V"],
+    ["X", "C", "A", "K", "E", "R", "P"],
+    ["N", "W", "U", "B", "Q", "D", "H"]
+  ],
+  "words_to_find": ["SALT", "MILK", "CAKE", "EGG"],
+  "word_positions": [
+    {"word": "SALT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MILK", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "CAKE", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "EGG", "start_row": 1, "start_col": 2, "direction": "VERTICAL"}
+  ],
+  "topic": "Recipes"
+}

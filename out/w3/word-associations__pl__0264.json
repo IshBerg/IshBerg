@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hedge",
+  "all_words": [
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "Ocean nie ma związku z hedgingiem ani z żywopłotem w znaczeniu dosłownym ani przenośnym, więc nie jest skojarzeniem."},
+    {"word": "fence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Żywopłot i ogrodzenie pełnią podobną funkcję granicy, dlatego słowa są znaczeniowo powiązane."},
+    {"word": "claim", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "W języku akademickim mówi się 'hedge a claim', czyli łagodzić twierdzenie, więc to typowe połączenie wyrazowe."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Pustynia nie ma żadnego związku z żywopłotem ani z asekurowaniem wypowiedzi."},
+    {"word": "perhaps", "is_associated": true, "association_type": "THEMATIC", "explanation": "Perhaps jest typowym wyrazem asekuracji języka akademickiego, więc należy do tego samego tematu co hedging."},
+    {"word": "fork", "is_associated": false, "association_type": "NONE", "explanation": "Widelec nie ma związku ani z żywopłotem, ani z asekuracją wypowiedzi."}
+  ],
+  "correct_indices": [1, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo hedge ma dwa znaczenia: dosłowne (żywopłot, czyli roślinna granica) i przenośne (asekuracja wypowiedzi). Skojarzenia obejmują oba te znaczenia, a wyrazy niezwiązane z żadnym z nich są odrzucane."
+}
