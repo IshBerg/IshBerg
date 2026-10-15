@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Notwithstanding the mounting evidence to the contrary,",
+  "correct_completion": "the minister maintained that the policy had been an unqualified success.",
+  "full_sentence": "Notwithstanding the mounting evidence to the contrary, the minister maintained that the policy had been an unqualified success.",
+  "acceptable_variants": ["the minister insisted, nonetheless, that the policy had been an unqualified success.", "the minister remained steadfast in his conviction that the programme had succeeded."],
+  "options": [
+    {"text": "the minister conceded that the policy had failed.", "is_correct": false, "why_wrong": "This concedes the point the evidence already supports, so it does not provide the contrast that 'notwithstanding' requires."},
+    {"text": "consequently, the policy was extended for a decade.", "is_correct": false, "why_wrong": "'Consequently' signals a result, but 'notwithstanding' requires a clause that opposes the preceding evidence."},
+    {"text": "the minister was reluctant to comment on the matter.", "is_correct": false, "why_wrong": "This describes hesitation rather than an assertion that contrasts with the evidence."},
+    {"text": "the minister maintained that the policy had been an unqualified success.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive connectors in formal register: 'notwithstanding' with a contrasting main clause",
+  "connector": "notwithstanding",
+  "explanation": "'Notwithstanding' introduces a concessive contrast in formal writing. The main clause must assert something that stands against the evidence named in the stem. Learners often reach for a result connector such as 'consequently' here, which breaks the contrast.",
+  "translation": "Aksi yöndeki artan kanıtlara rağmen bakan, politikanın koşulsuz bir başarı olduğunu savunmaya devam etti."
+}
