@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We have got a test tomorrow, so",
+  "correct_completion": "we have got to study tonight.",
+  "full_sentence": "We have got a test tomorrow, so we have got to study tonight.",
+  "acceptable_variants": ["we have to revise the lessons tonight.", "we have got to review our notes tonight."],
+  "options": [
+    {"text": "we have got a holiday.", "is_correct": false, "why_wrong": "A holiday is not a reason for the test-related action, so the 'so' clause does not connect logically with the first part."},
+    {"text": "we have got to study tonight.", "is_correct": true, "why_wrong": null},
+    {"text": "we has got to study tonight.", "is_correct": false, "why_wrong": "The subject 'we' takes 'have got', not 'has got'; 'has got' is only used with he, she and it."},
+    {"text": "we have got a red car.", "is_correct": false, "why_wrong": "This is unrelated to the test, so it does not give the result that 'so' needs."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Have got to for obligation after a cause clause",
+  "connector": "so",
+  "explanation": "After 'so', the sentence needs the result of the first clause. 'Have got to' expresses obligation, and it must agree with the subject 'we'.",
+  "translation": "Mamy jutro sprawdzian, więc musimy się dziś uczyć."
+}

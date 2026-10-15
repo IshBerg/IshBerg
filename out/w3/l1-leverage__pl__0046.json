@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "bluza", "transliteration": "bluza", "meaning": "sweatshirt"},
+    {"word": "aktualnie", "transliteration": "aktualnie", "meaning": "currently"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "friendly, nice"},
+    {"word": "łazienka", "transliteration": "lazienka", "meaning": "bathroom"}
+  ],
+  "english_words": ["friendly", "bathroom", "sweatshirt", "currently"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each of these Polish words looks similar to an English word such as 'blouse', 'actually', 'sympathetic' or 'lazy', but its real meaning is different, so students must learn the English meaning rather than guess from the form.",
+  "false_friend_warning": "The Polish word 'bluza' (bluza) looks like the English 'blouse' but means a sweatshirt; 'aktualnie' looks like 'actually' but means 'currently'; 'sympatyczny' looks like 'sympathetic' but means friendly or nice."
+}
