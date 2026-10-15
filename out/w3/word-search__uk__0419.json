@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["D", "I", "P", "L", "O", "M", "A", "T", "X", "T"],
+    ["Q", "K", "S", "U", "M", "M", "I", "T", "Z", "R"],
+    ["B", "W", "F", "J", "G", "C", "H", "P", "N", "E"],
+    ["E", "L", "D", "V", "R", "K", "Q", "W", "X", "A"],
+    ["J", "M", "Z", "C", "F", "Y", "H", "B", "U", "T"],
+    ["G", "N", "B", "O", "P", "L", "D", "K", "C", "Y"],
+    ["R", "Z", "W", "A", "X", "Q", "V", "F", "S", "G"],
+    ["K", "H", "J", "U", "S", "T", "L", "N", "Q", "D"],
+    ["P", "V", "C", "X", "L", "S", "W", "E", "R", "M"],
+    ["E", "N", "V", "O", "Y", "K", "Y", "H", "Z", "N"]
+  ],
+  "words_to_find": ["DIPLOMAT", "TREATY", "EMBASSY", "SUMMIT", "ENVOY"],
+  "word_positions": [
+    {"word": "DIPLOMAT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TREATY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "EMBASSY", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SUMMIT", "start_row": 1, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "ENVOY", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "International Relations and Diplomacy"
+}

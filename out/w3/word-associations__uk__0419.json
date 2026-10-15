@@ -1,0 +1,14 @@
+{
+  "trigger_word": "debate",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Аргумент є центральною частиною дебатів, тому ці слова мають близьке значення."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Вулкан не має жодного зв’язку з дебатами або обговоренням."},
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Докази використовують у дебатах, щоб підтримати свою позицію."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Бутерброд не пов’язаний з дебатами або суперечками."},
+    {"word": "opponent", "is_associated": true, "association_type": "THEMATIC", "explanation": "Опонент — це людина, з якою сперечаються під час дебатів."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Подушка не має відношення до дебатів."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово debate пов’язане зі сперечанням, аргументами і доказами, тому асоціації стосуються саме цих понять."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you bake the cake,",
+  "correct_completion": "preheat the oven.",
+  "full_sentence": "Before you bake the cake, preheat the oven.",
+  "acceptable_variants": ["turn on the oven.", "grease the pan."],
+  "options": [
+    {"text": "eat the cake.", "is_correct": false, "why_wrong": "Eating the cake happens after it is baked, so it cannot come before baking."},
+    {"text": "preheat the oven.", "is_correct": true, "why_wrong": null},
+    {"text": "the cake was delicious.", "is_correct": false, "why_wrong": "This describes the result of baking, which happens after the cake is made, not before."},
+    {"text": "throw the eggs away.", "is_correct": false, "why_wrong": "This would waste an ingredient the recipe needs, so it is not a step before baking."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', we need an action that must be done first in the recipe. Ukrainian speakers sometimes mix up the order of steps because their first language often places the time clause at the end of the sentence.",
+  "translation": "Перш ніж випікати торт, розігрійте духовку."
+}
