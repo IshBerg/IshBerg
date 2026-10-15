@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will cancel the picnic.", "we will watch a film indoors."],
+  "options": [
+    {"text": "we would stay at home.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional, used for unreal or unlikely situations. The first conditional uses 'will' for real future possibilities."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we stayed at home yesterday.", "is_correct": false, "why_wrong": "This is a past simple sentence about a finished event. It does not complete a condition about tomorrow."},
+    {"text": "we have stayed at home already.", "is_correct": false, "why_wrong": "The present perfect describes a completed past action. It does not fit a future result after 'if'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional: if + present simple, will + base verb",
+  "connector": "if",
+  "explanation": "The first conditional describes a real possibility in the future. After 'if' we use the present simple for the future condition, and the main clause uses 'will' plus the base verb. Portuguese speakers often use a present tense form in the main clause because Portuguese has a different future structure, so this English pattern needs practice.",
+  "translation": "Se chover amanhã, nós vamos ficar em casa."
+}

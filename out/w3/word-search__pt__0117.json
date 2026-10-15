@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["F", "O", "R", "M", "A", "L", "I", "S"],
+    ["K", "W", "P", "Q", "Z", "J", "N", "L"],
+    ["D", "H", "X", "Y", "V", "C", "F", "A"],
+    ["C", "A", "S", "U", "A", "L", "O", "N"],
+    ["T", "B", "K", "W", "E", "D", "R", "G"],
+    ["P", "Q", "Z", "H", "J", "X", "M", "V"],
+    ["W", "Y", "B", "K", "T", "N", "A", "E"],
+    ["Q", "J", "G", "H", "Z", "R", "L", "O"]
+  ],
+  "words_to_find": ["FORMAL", "CASUAL", "SLANG", "INFORMAL"],
+  "word_positions": [
+    {"word": "FORMAL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CASUAL", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLANG", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "INFORMAL", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Register Spectrum: Formal to Colloquial"
+}
