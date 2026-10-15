@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had we sat down to eat,",
+  "correct_completion": "when the phone started ringing.",
+  "full_sentence": "Hardly had we sat down to eat, when the phone started ringing.",
+  "acceptable_variants": ["when someone knocked at the door.", "when the doorbell rang."],
+  "options": [
+    {"text": "than the phone started ringing.", "is_correct": false, "why_wrong": "'Than' belongs with comparatives, not with the 'hardly ... when' pattern."},
+    {"text": "when the phone started ringing.", "is_correct": true, "why_wrong": null},
+    {"text": "because the phone was ringing.", "is_correct": false, "why_wrong": "'Because' gives a cause, but 'hardly ... when' expresses an event that happened immediately after another."},
+    {"text": "so the phone kept ringing.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not fit the immediate-sequence meaning of 'hardly ... when'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Negative inversion with 'hardly ... when'",
+  "connector": "hardly ... when",
+  "explanation": "After a negative adverb such as 'hardly' placed at the start, the auxiliary verb comes before the subject. The clause after 'hardly' must be followed by 'when' to show that the second event happened immediately after the first.",
+  "translation": "Daha yemek yemek için oturmuştuk ki telefon çalmaya başladı."
+}
