@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am writing to complain about the damaged parcel because",
+  "correct_completion": "it arrived with a broken box and missing items.",
+  "full_sentence": "I am writing to complain about the damaged parcel because it arrived with a broken box and missing items.",
+  "acceptable_variants": ["the box was broken when it came.", "some items were missing from the order."],
+  "options": [
+    {"text": "I would be grateful if you could look into this.", "is_correct": false, "why_wrong": "This is a polite request, not a reason. 'Because' needs a clause that explains the complaint."},
+    {"text": "Dear Sir or Madam, thank you for your help.", "is_correct": false, "why_wrong": "This is a greeting and thanks, not a reason for the complaint."},
+    {"text": "although the delivery was on time.", "is_correct": false, "why_wrong": "'Although' shows contrast, but 'because' needs a reason that supports the complaint."},
+    {"text": "it arrived with a broken box and missing items.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because' in formal letters",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the complaint. In formal letters, writers state the problem clearly and then explain what went wrong.",
+  "translation": "Hasarlı paketle ilgili şikayette bulunmak için yazıyorum, çünkü paket kırık bir kutuyla geldi ve bazı ürünler eksikti."
+}
