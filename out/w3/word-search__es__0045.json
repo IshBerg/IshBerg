@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "Y", "N", "O", "N", "Y", "M", "R"],
+    ["K", "L", "M", "N", "P", "Q", "V", "E"],
+    ["R", "E", "W", "O", "R", "D", "X", "S"],
+    ["J", "K", "H", "F", "B", "Z", "Y", "T"],
+    ["G", "P", "Q", "W", "C", "L", "N", "A"],
+    ["I", "D", "R", "M", "V", "K", "J", "T"],
+    ["S", "Q", "X", "Z", "H", "B", "F", "E"],
+    ["T", "W", "L", "J", "D", "P", "K", "Q"]
+  ],
+  "words_to_find": ["SYNONYM", "RESTATE", "REWORD", "GIST"],
+  "word_positions": [
+    {"word": "SYNONYM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RESTATE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "REWORD", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GIST", "start_row": 4, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Restatement: Equivalent Meanings"
+}
