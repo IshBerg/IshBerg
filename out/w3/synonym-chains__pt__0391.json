@@ -1,0 +1,17 @@
+{
+  "central_word": "poor",
+  "chain_words": [
+    {"word": "poor", "intensity": 1, "translation": "pobre", "nuance": "general lack of money or wealth"},
+    {"word": "needy", "intensity": 2, "translation": "necessitado", "nuance": "in need of help or support"},
+    {"word": "impoverished", "intensity": 3, "translation": "empobrecido", "nuance": "made poor by long-term conditions or loss"},
+    {"word": "destitute", "intensity": 4, "translation": "na miséria", "nuance": "lacking the basic necessities of life"},
+    {"word": "penniless", "intensity": 5, "translation": "sem um tostão", "nuance": "having no money at all"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe a lack of money and resources, with increasing severity from a general shortage to having nothing at all.",
+  "usage_notes": [
+    {"word1": "poor", "word2": "destitute", "difference": "'Poor' describes a general shortage of money; 'destitute' describes a severe state in which basic necessities are missing."}
+  ],
+  "translations": {"poor": "pobre", "needy": "necessitado", "impoverished": "empobrecido", "destitute": "na miséria", "penniless": "sem um tostão"}
+}

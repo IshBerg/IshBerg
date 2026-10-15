@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I'm sorry I didn't reply sooner because",
+  "correct_completion": "I was busy with work all week.",
+  "full_sentence": "I'm sorry I didn't reply sooner because I was busy with work all week.",
+  "acceptable_variants": ["I had a lot of work to finish.", "my phone battery was dead all week."],
+  "options": [
+    {"text": "so I was busy with work all week.", "is_correct": false, "why_wrong": "'So' expresses a result and cannot follow 'because'. Use one connector to introduce the reason."},
+    {"text": "but I have been very busy.", "is_correct": false, "why_wrong": "'But' introduces contrast, not a reason, so it does not explain the delay."},
+    {"text": "I was busy with work all week.", "is_correct": true, "why_wrong": null},
+    {"text": "and I was thinking about the weekend.", "is_correct": false, "why_wrong": "'And' cannot follow 'because' directly, and the clause does not explain why the reply was late."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses of reason with 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason for the delay, so the completion must be a full clause that gives that reason. Portuguese speakers may be tempted to add a second connector such as 'so' after 'because', but English allows only one connector for each reason.",
+  "translation": "Desculpe por não ter respondido antes, porque estive ocupado com o trabalho a semana toda."
+}
