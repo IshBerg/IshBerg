@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is a lot of food in the fridge, but",
+  "correct_completion": "I am still hungry.",
+  "full_sentence": "There is a lot of food in the fridge, but I am still hungry.",
+  "acceptable_variants": ["we are still hungry.", "I still want a snack."],
+  "options": [
+    {"text": "there is a cat in the kitchen.", "is_correct": false, "why_wrong": "This adds an unrelated fact about the kitchen; it does not contrast with the food in the fridge."},
+    {"text": "so I am full now.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast; the sentence needs a contrast after 'but'."},
+    {"text": "I am still hungry.", "is_correct": true, "why_wrong": null},
+    {"text": "the fridge is very cold.", "is_correct": false, "why_wrong": "This describes the fridge but does not create a contrast with the amount of food."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' after 'there is' sentences",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that shows contrast with the first part of the sentence. The first clause says there is plenty of food, so the second clause should express the opposite result.",
+  "translation": "Há muita comida na geladeira, mas ainda estou com fome."
+}
