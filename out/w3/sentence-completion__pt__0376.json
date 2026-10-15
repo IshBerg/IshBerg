@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My dog is very small, but",
+  "correct_completion": "it is very strong.",
+  "full_sentence": "My dog is very small, but it is very strong.",
+  "acceptable_variants": ["it can run very fast.", "it is very brave."],
+  "options": [
+    {"text": "it is very small too.", "is_correct": false, "why_wrong": "Saying it is also small repeats the first clause. 'But' needs a different idea that contrasts with it."},
+    {"text": "because it eats a lot.", "is_correct": false, "why_wrong": "'Because' introduces a reason, not a contrast, so it does not fit after 'but'."},
+    {"text": "it is very strong.", "is_correct": true, "why_wrong": null},
+    {"text": "and it has a red collar.", "is_correct": false, "why_wrong": "'And' adds information, but 'but' needs a contrasting idea, not an addition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "'But' connects two ideas that contrast with each other. Here the second part contrasts with 'very small', so the completion should describe a positive quality that is unexpected for a small dog.",
+  "translation": "Meu cachorro é muito pequeno, mas é muito forte."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "O hospital é o local de trabalho típico do médico, por isso há uma ligação temática direta."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "A guitarra não tem nenhuma relação com a profissão de médico, por isso não está associada."},
+    {"word": "patient", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O paciente é a pessoa que o médico examina e trata, uma ligação de significado muito forte."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "O trator é usado na agricultura e não tem qualquer relação com a medicina."},
+    {"word": "prescription", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Médicos costumam escrever uma receita, colocação comum ligada à profissão de médico."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "O vulcão não tem nenhuma relação com a medicina ou com o trabalho do médico."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Todas as palavras associadas se ligam ao trabalho do médico: o local onde ele atua, as pessoas que atende e os documentos que ele emite."
+}

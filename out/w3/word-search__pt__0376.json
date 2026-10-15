@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["I", "R", "O", "N", "Y", "K", "T"],
+    ["A", "Q", "D", "L", "H", "V", "R"],
+    ["B", "W", "E", "J", "U", "E", "O"],
+    ["C", "Z", "X", "G", "K", "R", "P"],
+    ["M", "O", "T", "I", "F", "S", "E"],
+    ["N", "D", "A", "W", "Y", "E", "L"],
+    ["F", "U", "Q", "B", "J", "H", "X"]
+  ],
+  "words_to_find": ["IRONY", "TROPE", "MOTIF", "ODE", "VERSE"],
+  "word_positions": [
+    {"word": "IRONY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TROPE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "MOTIF", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ODE", "start_row": 0, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "VERSE", "start_row": 1, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Literary Criticism and Theory"
+}
