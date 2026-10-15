@@ -1,0 +1,13 @@
+{
+  "start_word": "small",
+  "end_word": "huge",
+  "ladder_steps": [
+    {"word": "small", "translation": "mały", "intensity_level": 1},
+    {"word": "medium", "translation": "średni", "intensity_level": 2},
+    {"word": "big", "translation": "duży", "intensity_level": 3},
+    {"word": "large", "translation": "bardzo duży", "intensity_level": 4},
+    {"word": "huge", "translation": "ogromny", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Size words form a ladder from smallest to largest, each step bigger than the last."
+}
