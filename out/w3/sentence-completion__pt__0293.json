@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother is a teacher, and",
+  "correct_completion": "he works at a school.",
+  "full_sentence": "My brother is a teacher, and he works at a school.",
+  "acceptable_variants": ["he teaches English.", "he is at school every day."],
+  "options": [
+    {"text": "she likes music.", "is_correct": false, "why_wrong": "'She' refers to a female person, but the sentence is about the brother, so the subject must be 'he'."},
+    {"text": "I work at a school.", "is_correct": false, "why_wrong": "'I' changes the subject to the speaker, but the sentence continues the description of the brother."},
+    {"text": "they are very kind.", "is_correct": false, "why_wrong": "'They' is plural, but the brother is one person, so the subject must be singular."},
+    {"text": "he works at a school.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject pronouns 'he', 'she', 'I', and 'they' matching the person in the sentence",
+  "connector": "and",
+  "explanation": "The second clause continues about the same person, so the subject pronoun must be 'he' to match 'my brother'. Choose the pronoun that refers back to the person already named.",
+  "translation": "Meu irmão é professor, e ele trabalha em uma escola."
+}
