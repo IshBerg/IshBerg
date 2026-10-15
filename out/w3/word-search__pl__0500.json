@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["D", "E", "A", "R", "X", "Q", "L"],
+    ["P", "H", "K", "Z", "W", "Y", "E"],
+    ["D", "F", "G", "H", "J", "K", "T"],
+    ["A", "L", "P", "Q", "M", "X", "T"],
+    ["T", "B", "C", "N", "V", "R", "E"],
+    ["E", "W", "Z", "K", "J", "F", "R"],
+    ["R", "E", "G", "A", "R", "D", "S"]
+  ],
+  "words_to_find": ["DEAR", "LETTER", "DATE", "REGARDS"],
+  "word_positions": [
+    {"word": "DEAR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LETTER", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "DATE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "REGARDS", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Formal Letters"
+}
