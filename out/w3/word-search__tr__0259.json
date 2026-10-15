@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "X", "Q", "Z", "W", "P"],
+    ["J", "K", "M", "N", "V", "W", "F", "G", "L", "Z"],
+    ["B", "C", "D", "F", "G", "H", "K", "O", "J", "Q"],
+    ["M", "N", "V", "W", "X", "Y", "T", "Z", "A", "B"],
+    ["C", "D", "F", "G", "H", "J", "K", "L", "M", "N"],
+    ["A", "B", "D", "N", "E", "F", "G", "H", "J", "K"],
+    ["L", "M", "P", "Q", "R", "S", "T", "U", "V", "O"],
+    ["W", "X", "Y", "Z", "A", "B", "C", "D", "E", "R"],
+    ["F", "G", "H", "I", "J", "K", "L", "M", "N", "E"],
+    ["A", "B", "C", "D", "E", "F", "G", "I", "J", "H"]
+  ],
+  "words_to_find": ["STORY", "PLOT", "HERO", "END"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PLOT", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "HERO", "start_row": 9, "start_col": 9, "direction": "VERTICAL_UP"},
+    {"word": "END", "start_row": 5, "start_col": 4, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Short Stories"
+}

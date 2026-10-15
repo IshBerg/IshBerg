@@ -1,0 +1,14 @@
+{
+  "trigger_word": "caveat",
+  "all_words": [
+    {"word": "warning", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bir 'caveat' bir uyarı niteliği taşır; okuyucuya iddianın sınırlarını hatırlatan bir ifadedir, bu yüzden 'warning' ile anlam olarak bağlantılıdır."},
+    {"word": "avalanche", "is_associated": false, "association_type": "NONE", "explanation": "Çığ doğal bir afet olarak tanımlanır ve akademik çekinceler ya da ihtiyatlı ifadelerle hiçbir ilgisi yoktur."},
+    {"word": "limitation", "is_associated": true, "association_type": "THEMATIC", "explanation": "Akademik metinlerde 'caveat' sıklıkla çalışmanın sınırlılıklarını (limitations) belirtmek için kullanılır; aynı tematik bağlamı paylaşırlar."},
+    {"word": "marble", "is_associated": false, "association_type": "NONE", "explanation": "Mermer bir yapı taşıdır ve bilimsel tartışmalarda ya da ihtiyatlı dilde bir karşılığı olmayan somut bir malzemedir."},
+    {"word": "qualification", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Qualification' bir iddiayı sınırlandırmak ya da şartlandırmak anlamına gelir; bu, 'caveat' ile aynı işlevi taşıyan bir kelimedir."},
+    {"word": "pepper", "is_associated": false, "association_type": "NONE", "explanation": "Biber bir baharattır ve akademik dilde ihtiyat ifade eden kelimelerle bir ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Caveat' ile ilişkili kelimeler uyarı, sınırlılık ve niteleme anlamlarını taşır; diğer kelimeler farklı alanlara aittir."
+}
