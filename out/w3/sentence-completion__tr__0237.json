@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only had the results been disappointing,",
+  "correct_completion": "but the funding was also withdrawn.",
+  "full_sentence": "Not only had the results been disappointing, but the funding was also withdrawn.",
+  "acceptable_variants": ["but the project was also cancelled.", "but the team was also left without support."],
+  "options": [
+    {"text": "and the funding was withdrawn.", "is_correct": false, "why_wrong": "'And' simply adds a point and does not complete the correlative pattern 'not only ... but also'."},
+    {"text": "because the funding was withdrawn.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'not only ... but also' requires two additional points of the same kind."},
+    {"text": "so the funding was withdrawn.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not fit the additive meaning of the stem."},
+    {"text": "but the funding was also withdrawn.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after 'Not only' with the correlative 'but also'",
+  "connector": "not only ... but also",
+  "explanation": "After 'Not only', the auxiliary verb comes before the subject, which creates inversion for emphasis. The second clause must be introduced by 'but also' to complete the pattern. Learners often replace this with a simple linking word, which removes the emphatic effect.",
+  "translation": "Sonuçlar yalnızca hayal kırıklığı yaratmakla kalmamış, fon da geri çekilmişti."
+}
