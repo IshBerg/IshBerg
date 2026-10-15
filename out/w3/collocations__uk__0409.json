@@ -1,0 +1,32 @@
+{
+  "collocation_type": "ADJ_NOUN",
+  "base_word": "heavy",
+  "collocate": "traffic",
+  "full_collocation": "heavy traffic",
+  "options": ["heavy", "big", "strong", "fast"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "big", "reason": "We don't say 'big traffic'. English uses 'heavy' for a large amount of traffic."},
+    {"word": "strong", "reason": "We don't say 'strong traffic'. 'Strong' describes force or power, like a strong wind."},
+    {"word": "fast", "reason": "We don't say 'fast traffic'. 'Fast' describes speed, not the amount of cars on the road."}
+  ],
+  "example_sentence": "There is ___ on the main road, so drive slowly.",
+  "gap_position": 3,
+  "translation": "густий транспортний потік",
+  "l1_interference": "Носії української мови часто кажуть 'big traffic', бо 'великий' перекладають як 'big'. В англійській для великої кількості машин використовують 'heavy traffic'.",
+  "common_mistake": "big traffic",
+  "explanation": "In English, 'heavy' is used with traffic, rain, and snow to describe a large amount or a high level of something. 'Big' describes physical size, not quantity.",
+  "related_collocations": [
+    {"collocation": "busy street", "translation": "жвава вулиця", "example": "This is a busy street, so be careful when you cross."},
+    {"collocation": "narrow street", "translation": "вузька вулиця", "example": "Turn left into the narrow street after the bank."},
+    {"collocation": "main road", "translation": "головна дорога", "example": "Go straight until you reach the main road."}
+  ],
+  "matching_pairs": [
+    {"left": "heavy", "right": "traffic"},
+    {"left": "main", "right": "road"},
+    {"left": "busy", "right": "street"},
+    {"left": "narrow", "right": "street"},
+    {"left": "tall", "right": "building"}
+  ],
+  "memory_tip": "HEAVY = a large amount (traffic, rain, snow) | BIG = a large physical size (building, dog, room)"
+}
