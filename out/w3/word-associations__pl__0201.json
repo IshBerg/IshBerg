@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Parasolka kojarzy się z deszczem, bo ludzie jej używają, gdy pada."},
+    {"word": "storm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Burza i deszcz to zjawiska pogodowe, które często występują razem."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Pustynia to bardzo suche miejsce, gdzie deszcz pada rzadko, więc to słowo nie jest powiązane z 'rain'."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka nie ma żadnego związku z deszczem."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Z chmur pada deszcz, więc oba słowa są silnie powiązane znaczeniowo."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino nie jest związane z pogodą ani z deszczem."}
+  ],
+  "correct_indices": [0, 1, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'rain' kojarzy się z pogodą (storm, cloud) oraz z przedmiotami używanymi podczas deszczu (umbrella), a pozostałe słowa nie mają z nim związku."
+}
