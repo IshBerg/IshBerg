@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Some readers prefer the original ending, while others",
+  "correct_completion": "prefer the revised one, which feels more hopeful.",
+  "full_sentence": "Some readers prefer the original ending, while others prefer the revised one, which feels more hopeful.",
+  "acceptable_variants": ["do so, because it feels more hopeful.", "favour the revised version."],
+  "options": [
+    {"text": "so did the critics.", "is_correct": false, "why_wrong": "'So did' signals agreement with the previous clause, but 'while' sets up a contrast between the two groups of readers."},
+    {"text": "the novel was published in 1998.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not complete the contrast that 'while' introduces."},
+    {"text": "prefer the revised one, which feels more hopeful.", "is_correct": true, "why_wrong": null},
+    {"text": "both endings were written by the author.", "is_correct": false, "why_wrong": "This describes the endings but does not give the contrasting preference that the sentence requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Ellipsis of a repeated verb phrase after 'while' in contrastive clauses",
+  "connector": "while",
+  "explanation": "After 'while', the second clause contrasts with the first. The verb phrase 'prefer' is omitted in the second clause, so the completion must supply a different preference for the contrast to be clear, and 'others' needs an opposite choice.",
+  "translation": "Alguns leitores preferem o final original, enquanto outros preferem o revisado, que parece mais esperançoso."
+}
