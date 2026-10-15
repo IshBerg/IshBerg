@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "demokrasi", "transliteration": "demokrasi", "meaning": "democracy"},
+    {"word": "analiz", "transliteration": "analiz", "meaning": "analysis"},
+    {"word": "kriz", "transliteration": "kriz", "meaning": "crisis"},
+    {"word": "istatistik", "transliteration": "istatistik", "meaning": "statistics"}
+  ],
+  "english_words": ["crisis", "democracy", "statistics", "analysis"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same source, so the forms stayed close. The learner can recognise each pair from its shared spelling and sound, and the meaning is the same in both languages.",
+  "false_friend_warning": null
+}

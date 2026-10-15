@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the newspaper article seemed objective,",
+  "correct_completion": "its headline clearly favoured one political party.",
+  "full_sentence": "Although the newspaper article seemed objective, its headline clearly favoured one political party.",
+  "acceptable_variants": ["its tone was nonetheless strongly biased in favour of one side.", "its headline nonetheless leaned toward one party."],
+  "options": [
+    {"text": "the reporter gathered all the facts from several sources.", "is_correct": false, "why_wrong": "This continues the idea of objectivity instead of contrasting with it, so 'although' has no contrast to mark."},
+    {"text": "its headline clearly favoured one political party.", "is_correct": true, "why_wrong": null},
+    {"text": "readers therefore trusted every word of it.", "is_correct": false, "why_wrong": "'Therefore' expresses a result, not a contrast, so it does not fit the concessive structure started by 'although'."},
+    {"text": "the article was printed on the front page.", "is_correct": false, "why_wrong": "This adds a neutral fact that does not contrast with the apparent objectivity of the article."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in academic reporting",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that contrasts with the first part, which says the article seemed objective. The correct option reveals bias, while the other options continue the idea of objectivity or add a result or neutral fact. Speakers of languages with a similar concessive structure may still add a second contrast word, which is incorrect in English.",
+  "translation": "Haber yazısı tarafsız görünmesine rağmen, başlığı açıkça bir siyasi partiyi destekliyordu."
+}

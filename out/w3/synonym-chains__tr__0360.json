@@ -1,0 +1,17 @@
+{
+  "central_word": "likely",
+  "chain_words": [
+    {"word": "possible", "intensity": 1, "translation": "mümkün", "nuance": "can happen, but with little evidence behind it"},
+    {"word": "plausible", "intensity": 2, "translation": "inandırıcı", "nuance": "reasonable and believable, though not yet proven"},
+    {"word": "likely", "intensity": 3, "translation": "muhtemel", "nuance": "more probable than not, based on what we know"},
+    {"word": "probable", "intensity": 4, "translation": "olası", "nuance": "formal, strongly supported by evidence"},
+    {"word": "certain", "intensity": 5, "translation": "kesin", "nuance": "no real doubt remains"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express degrees of likelihood, from something that might happen to something that is almost guaranteed.",
+  "usage_notes": [
+    {"word1": "likely", "word2": "probable", "difference": "'Likely' is the everyday choice and is used in most contexts; 'probable' is more formal and is often used in academic writing with strong evidential support."}
+  ],
+  "translations": {"possible": "mümkün", "plausible": "inandırıcı", "likely": "muhtemel", "probable": "olası", "certain": "kesin"}
+}

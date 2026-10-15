@@ -1,0 +1,20 @@
+{
+  "title": "Sick at Home",
+  "text": "Maria has a cold. She has a sore throat and a headache. She stays at home and drinks hot tea. She goes to bed early.\n\nHer brother Ali is sick too. He has a fever. He takes medicine from the doctor. After three days, Ali feels better.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Maria have?", "options": ["A cold", "A broken arm", "A toothache", "A stomach ache"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Ali have?", "options": ["A fever", "A cut on his hand", "A headache", "A cold"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Maria stay at home?", "options": ["She wants to go shopping", "She is on holiday", "She is sick", "She is at school"], "correct_index": 2, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Ali probably feel after three days?", "options": ["Worse", "Better", "Hungry", "Angry"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "cold", "translation": "nezle", "definition": "an illness that makes your nose run and your throat sore"},
+    {"word": "fever", "translation": "ateş", "definition": "a body temperature that is higher than normal when you are ill"},
+    {"word": "doctor", "translation": "doktor", "definition": "a person who treats sick people"},
+    {"word": "medicine", "translation": "ilaç", "definition": "something you take to help you get better when you are ill"}
+  ],
+  "paragraph_translations": [
+    "Maria'nın nezlesi var. Boğazı ağrıyor ve başı da ağrıyor. Evde kalıyor ve sıcak çay içiyor. Erken yatağa gidiyor.",
+    "Erkek kardeşi Ali de hasta. Ateşi var. Doktordan ilaç alıyor. Üç gün sonra Ali kendini daha iyi hissediyor."
+  ]
+}
