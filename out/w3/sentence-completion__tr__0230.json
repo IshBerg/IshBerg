@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only had the novelist rewritten the final chapter,",
+  "correct_completion": "but she had also changed the title.",
+  "full_sentence": "Not only had the novelist rewritten the final chapter, but she had also changed the title.",
+  "acceptable_variants": ["but she had also reconsidered the entire plot.", "but she had also revised the dedication."],
+  "options": [
+    {"text": "and then she left for a holiday.", "is_correct": false, "why_wrong": "Simple coordination does not complete the 'not only ... but also' correlative structure, which requires an additive emphatic continuation."},
+    {"text": "but she had also changed the title.", "is_correct": true, "why_wrong": null},
+    {"text": "so the editor refused the manuscript.", "is_correct": false, "why_wrong": "'So' introduces a result, which conflicts with the additive emphasis set up by 'not only'."},
+    {"text": "although the title remained unchanged.", "is_correct": false, "why_wrong": "'Although' signals concession and contradicts the additive pattern that the stem sets up."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Correlative conjunction 'not only ... but also' with subject-auxiliary inversion",
+  "connector": "not only",
+  "explanation": "After 'not only', the sentence uses inversion, with the auxiliary placed before the subject. The second clause must introduce an additional action marked by 'but also'. Learners may find this structure unfamiliar because it relies on a fixed correlative pair rather than a single connecting word.",
+  "translation": "Romancı yalnızca son bölümü yeniden yazmakla kalmamış, aynı zamanda kitabın başlığını da değiştirmişti."
+}
