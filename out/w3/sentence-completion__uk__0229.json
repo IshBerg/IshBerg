@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Given the limited sample size,",
+  "correct_completion": "the findings should be interpreted with some caution.",
+  "full_sentence": "Given the limited sample size, the findings should be interpreted with some caution.",
+  "acceptable_variants": ["the conclusions must be treated as tentative.", "the results may not generalize widely."],
+  "options": [
+    {"text": "the findings are definitely proven.", "is_correct": false, "why_wrong": "This makes an absolute claim, which contradicts the hedged logic set up by the limited sample size."},
+    {"text": "the findings should be interpreted with some caution.", "is_correct": true, "why_wrong": null},
+    {"text": "we are certain the policy failed.", "is_correct": false, "why_wrong": "Certainty is incompatible with the cautious stance that the limited sample size calls for."},
+    {"text": "the researchers were clearly wrong.", "is_correct": false, "why_wrong": "This is an unhedged verdict on the researchers, while the stem asks for a qualified conclusion about the data."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Hedged modal 'should' used to qualify a conclusion",
+  "connector": "given",
+  "explanation": "The opening phrase introduces a limitation, so the main clause must soften the conclusion with a modal and a cautious expression. Learners often choose a direct, absolute statement here, but academic hedging requires the modal to signal that the claim is provisional.",
+  "translation": "Враховуючи обмежений розмір вибірки, до результатів слід ставитися з певною обережністю."
+}
