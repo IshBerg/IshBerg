@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat water to 100 degrees,",
+  "correct_completion": "it boils.",
+  "full_sentence": "If you heat water to 100 degrees, it boils.",
+  "acceptable_variants": ["it starts to boil.", "it turns into steam."],
+  "options": [
+    {"text": "it would boil.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional, which describes imaginary situations. A general scientific fact uses the present simple in both clauses."},
+    {"text": "it freezes.", "is_correct": false, "why_wrong": "This gives the opposite result. Heating water does not make it freeze."},
+    {"text": "it boils.", "is_correct": true, "why_wrong": null},
+    {"text": "it will boil.", "is_correct": false, "why_wrong": "'Will' is used in the first conditional for a possible future result. A general truth uses the present simple in both clauses, so 'will' is not needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional for general truths (if + present simple, present simple)",
+  "connector": "if",
+  "explanation": "The zero conditional uses the present simple in both clauses to describe facts that are always true when the condition is met. Learners often add 'will' here because the first conditional is taught more often, but this sentence describes a fact, not a future possibility.",
+  "translation": "Якщо ви нагріваєте воду до 100 градусів, вона закипає."
+}

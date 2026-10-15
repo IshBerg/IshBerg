@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "hot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сонце дає тепло, тому слово hot (гарячий) пов'язане з ним за значенням."},
+    {"word": "cup", "is_associated": false, "association_type": "NONE", "explanation": "Чашка не має нічого спільного з сонцем ні за значенням, ні за темою."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Пляж є типовим місцем, де ми засмагаємо під сонцем, тому це тематичний зв'язок."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Взуття не пов'язане з сонцем, тому це слово не належить до цієї групи."},
+    {"word": "light", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сонце є головним джерелом світла, тому слово light (світло) пов'язане з ним."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Стіл не має зв'язку із сонцем, тож це слово не є асоціацією."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані зі сонцем, описують його тепло, світло та місця, де люди проводять час на сонці."
+}

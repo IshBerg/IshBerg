@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "Y", "P", "O", "T", "H", "E", "S", "I", "S"],
+    ["O", "K", "L", "B", "W", "E", "Q", "U", "D", "P"],
+    ["R", "N", "F", "J", "S", "V", "C", "Z", "I", "A"],
+    ["M", "U", "T", "E", "H", "K", "P", "W", "Q", "R"],
+    ["B", "X", "G", "O", "Y", "D", "F", "L", "J", "A"],
+    ["Q", "S", "V", "N", "L", "Z", "W", "E", "K", "D"],
+    ["T", "R", "H", "C", "U", "O", "A", "P", "M", "I"],
+    ["X", "V", "Y", "Q", "B", "J", "G", "F", "N", "G"],
+    ["L", "W", "Z", "K", "P", "R", "D", "Y", "E", "M"],
+    ["J", "U", "Y", "M", "O", "N", "O", "X", "A", "T"]
+  ],
+  "words_to_find": ["HYPOTHESIS", "PARADIGM", "ONTOLOGY", "TAXONOMY"],
+  "word_positions": [
+    {"word": "HYPOTHESIS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARADIGM", "start_row": 1, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "ONTOLOGY", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TAXONOMY", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Specialized Lexis Across Disciplines"
+}
