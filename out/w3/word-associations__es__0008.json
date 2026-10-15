@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "rain", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La lluvia suele acompañar a las tormentas y forma parte de su significado habitual."},
+    {"word": "lightning", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Los relámpagos son el fenómeno eléctrico típico de una tormenta."},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "El paraguas se usa para protegerse de la lluvia que llega con las tormentas."},
+    {"word": "sunscreen", "is_associated": false, "association_type": "NONE", "explanation": "El protector solar se asocia con el sol y el cielo despejado, no con el mal tiempo."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "El desierto se asocia con la sequía y la falta de lluvia, por lo que no evoca tormentas."},
+    {"word": "shelter", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Un refugio es donde uno se protege durante una tormenta; la combinación storm shelter es una colocación habitual en inglés."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas giran en torno al fenómeno de la tormenta o a lo que se hace para protegerse de ella; las no asociadas pertenecen a contextos secos o soleados."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although it is widely believed that the new policy will reduce costs,",
+  "correct_completion": "the initial results suggest otherwise.",
+  "full_sentence": "Although it is widely believed that the new policy will reduce costs, the initial results suggest otherwise.",
+  "acceptable_variants": ["the early data points in a different direction.", "the outcome has so far been disappointing."],
+  "options": [
+    {"text": "so the government has decided to expand it.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast with the belief expressed in the first clause."},
+    {"text": "it has already been implemented in twelve regions.", "is_correct": false, "why_wrong": "This adds information about implementation but does not contrast with the belief in the first clause."},
+    {"text": "the initial results suggest otherwise.", "is_correct": true, "why_wrong": null},
+    {"text": "costs have been rising steadily since 2020.", "is_correct": false, "why_wrong": "This is unrelated to the expected reduction and does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and the impersonal passive 'it is believed that'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first clause. Here the first clause states a widely held belief, so the second clause must present evidence against it. Spanish speakers may be tempted to use a result connector because they map the sentence onto a cause-effect pattern; English 'although' signals concession, not consequence.",
+  "translation": "Aunque se cree ampliamente que la nueva política reducirá los costos, los resultados iniciales sugieren lo contrario."
+}
