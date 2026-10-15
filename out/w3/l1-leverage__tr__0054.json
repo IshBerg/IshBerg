@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "patron", "transliteration": "patron", "meaning": "boss"},
+    {"word": "doktora", "transliteration": "doktora", "meaning": "doctorate (PhD)"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "friendly, nice"},
+    {"word": "kolej", "transliteration": "kolej", "meaning": "high school"}
+  ],
+  "english_words": ["friendly", "high school", "boss", "doctorate"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words were borrowed into Turkish from French or Italian, and their meanings shifted over time, so the English lookalikes now point to different meanings.",
+  "false_friend_warning": "Several of these Turkish words look like English words but mean something different. The Turkish word for 'boss' looks like the English word 'patron', which means a customer or supporter in English. The Turkish word for 'doctorate' looks like the English word 'doctor', which refers to a medical professional, so students may translate it wrongly. The Turkish word for 'high school' looks like the English word 'college', which means a higher education institution."
+}

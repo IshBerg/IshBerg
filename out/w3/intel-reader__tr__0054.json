@@ -1,0 +1,20 @@
+{
+  "title": "A Restaurant Review",
+  "text": "Mia wrote a review of a new restaurant that serves Italian food. She said the pizza was very good and the staff were friendly. The restaurant is near the train station.\n\nHowever, Mia said the waiting time was long. She waited forty minutes for a table. She gave the restaurant four stars out of five.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the new restaurant?", "options": ["Next to the museum", "Near the train station", "In the city park", "Opposite the school"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How many stars did Mia give the restaurant?", "options": ["Two", "Three", "Four", "Five"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why did Mia give four stars and not five?", "options": ["The pizza was cold", "The waiting time was long", "The staff were rude", "The restaurant was closed"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What does Mia probably think of the restaurant?", "options": ["She will probably go back", "She will never go there again", "She does not like the food", "She is angry with the staff"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "review", "translation": "değerlendirme", "definition": "a written opinion about a product, place or service"},
+    {"word": "pizza", "translation": "pizza", "definition": "a flat round bread with cheese and toppings"},
+    {"word": "waiting", "translation": "bekleme", "definition": "spending time until something happens or someone is ready"},
+    {"word": "staff", "translation": "personel", "definition": "the people who work in a place"}
+  ],
+  "paragraph_translations": [
+    "Mia yeni bir İtalyan yemeği sunan restoran hakkında bir değerlendirme yazdı. Pizzanın çok lezzetli olduğunu ve personelin güler yüzlü olduğunu söyledi. Restoran tren istasyonunun yakınında.",
+    "Ama Mia bekleme süresinin uzun olduğunu söyledi. Masa için kırk dakika bekledi. Restorana beş üzerinden dört yıldız verdi."
+  ]
+}

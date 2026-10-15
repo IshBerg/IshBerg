@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you need an umbrella,",
+  "correct_completion": "take one from the hall.",
+  "full_sentence": "If you need an umbrella, take one from the hall.",
+  "acceptable_variants": ["take an umbrella from the hall.", "borrow one from your friend."],
+  "options": [
+    {"text": "I need an umbrella now.", "is_correct": false, "why_wrong": "This repeats the condition instead of giving the result that follows from it."},
+    {"text": "a red car is parked outside.", "is_correct": false, "why_wrong": "This describes a car, which has no logical connection to needing an umbrella."},
+    {"text": "it is a sunny day.", "is_correct": false, "why_wrong": "This describes the weather, but it does not give the action that should follow the condition."},
+    {"text": "take one from the hall.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and a present tense in the if-clause",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause uses an imperative or a simple present to give the result. Turkish speakers may need to focus on this because Turkish marks conditions with a suffix attached to the verb, not with a separate word.",
+  "translation": "Bir şemsiyeye ihtiyacın olursa, koridordan bir tane al."
+}
