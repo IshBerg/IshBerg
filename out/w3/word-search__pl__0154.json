@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["G", "U", "I", "L", "T", "B", "K", "Q", "P"],
+    ["A", "Z", "W", "C", "J", "X", "F", "O", "R"],
+    ["H", "O", "P", "E", "L", "X", "D", "Z", "I"],
+    ["Q", "M", "T", "K", "B", "W", "N", "V", "D"],
+    ["S", "J", "C", "X", "Z", "K", "W", "Q", "E"],
+    ["W", "H", "R", "J", "K", "T", "Z", "C", "F"],
+    ["L", "Q", "A", "X", "G", "D", "Z", "B", "K"],
+    ["X", "T", "K", "M", "P", "Z", "J", "W", "B"],
+    ["C", "J", "W", "Z", "E", "N", "V", "Y", "L"]
+  ],
+  "words_to_find": ["GUILT", "PRIDE", "SHAME", "HOPE", "ENVY"],
+  "word_positions": [
+    {"word": "GUILT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PRIDE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SHAME", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "HOPE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ENVY", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Complex Emotions"
+}
