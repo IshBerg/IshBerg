@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the critics praise the novel,",
+  "correct_completion": "but the public also embraced it.",
+  "full_sentence": "Not only did the critics praise the novel, but the public also embraced it.",
+  "acceptable_variants": ["but the readers also loved it.", "but it also won over the public."],
+  "options": [
+    {"text": "and the novel was also cheap.", "is_correct": false, "why_wrong": "'And' does not create the correlative 'not only ... but also' structure that the stem sets up, and the second clause would be unrelated."},
+    {"text": "because it was published last year.", "is_correct": false, "why_wrong": "'Because' introduces a reason, but the stem requires an addition that completes the correlative pattern."},
+    {"text": "but the public also embraced it.", "is_correct": true, "why_wrong": null},
+    {"text": "so the author became famous overnight.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not complete the 'not only ... but also' pattern started by the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Correlative 'not only ... but also' with subject-auxiliary inversion after a negative adverbial",
+  "connector": "not only ... but also",
+  "explanation": "When a sentence starts with 'not only', the auxiliary verb comes before the subject, and the sentence must continue with a contrasting or additional clause introduced by 'but' and followed by 'also'. Only the option with this structure completes the pattern.",
+  "translation": "Não só os críticos elogiaram o romance, mas o público também o abraçou."
+}
