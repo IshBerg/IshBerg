@@ -1,0 +1,20 @@
+{
+  "title": "Family Jobs",
+  "text": "My mother is a doctor. She works in a hospital. She helps sick people every day. My father is a teacher. He works at a school with children.\n\nMy uncle is a farmer. He works on a farm with animals. He gets up early in the morning. My aunt is a pilot. She flies planes to London.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the mother's job?", "options": ["Doctor", "Teacher", "Farmer", "Pilot"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where does the uncle work?", "options": ["In a hospital", "At a school", "On a farm", "In an airport"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does the uncle probably get up early?", "options": ["Because he has animals to care for", "Because he is a pilot", "Because he likes sleeping late", "Because his school starts early"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about the aunt's job?", "options": ["She works with children.", "She works outside on a farm.", "She travels a lot for work.", "She works in a hospital."], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "hospital", "translation": "szpital", "definition": "a place where sick people are treated"},
+    {"word": "school", "translation": "szkoła", "definition": "a place where children learn"},
+    {"word": "farm", "translation": "farma", "definition": "land where people grow crops or keep animals"},
+    {"word": "early", "translation": "wcześnie", "definition": "before the usual time"}
+  ],
+  "paragraph_translations": [
+    "Moja mama jest lekarką. Pracuje w szpitalu. Każdego dnia pomaga chorym ludziom. Mój tata jest nauczycielem. Pracuje w szkole z dziećmi.",
+    "Mój wujek jest rolnikiem. Pracuje na farmie ze zwierzętami. Wstaje wcześnie rano. Moja ciocia jest pilotką. Lata samolotami do Londynu."
+  ]
+}
