@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been better informed,",
+  "correct_completion": "the proposal would have been rejected outright.",
+  "full_sentence": "Had the committee been better informed, the proposal would have been rejected outright.",
+  "acceptable_variants": ["the proposal would never have passed.", "the members would have voted against it immediately."],
+  "options": [
+    {"text": "so the proposal was accepted.", "is_correct": false, "why_wrong": "'So' introduces a real result of something that actually happened. The stem describes an imagined past condition, so a real result does not fit."},
+    {"text": "the proposal is being rejected now.", "is_correct": false, "why_wrong": "The present continuous describes an ongoing action. It does not complete an inverted third conditional, which needs 'would have' plus a past participle."},
+    {"text": "the proposal would have been rejected outright.", "is_correct": true, "why_wrong": null},
+    {"text": "the proposal will be rejected outright.", "is_correct": false, "why_wrong": "'Will' expresses a future prediction. An imagined past condition requires 'would have' plus a past participle."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "Had the committee been better informed is an inverted third conditional, with the if-clause written without 'if'. The main clause must use would have plus a past participle to express the imagined past result.",
+  "translation": "Якби комітет був краще поінформований, пропозицію було б відхилено одразу."
+}

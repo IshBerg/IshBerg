@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Парасолька потрібна, коли йде дощ, тому це тематичний зв'язок."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Дощ падає з хмар, тому ці слова пов'язані за змістом."},
+    {"word": "sunglasses", "is_associated": false, "association_type": "NONE", "explanation": "Сонцезахисні окуляри пов'язані з сонячною погодою, а не з дощем."},
+    {"word": "puddle", "is_associated": true, "association_type": "THEMATIC", "explanation": "Калюжі утворюються після дощу, тому це тематичний зв'язок."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не має прямого зв'язку з дощем."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець не пов'язаний з дощем ні за змістом, ні за вживанням."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова цієї вправи належать до теми погоди: дощ породжує хмари та калюжі, а також потребу в парасольках."
+}
