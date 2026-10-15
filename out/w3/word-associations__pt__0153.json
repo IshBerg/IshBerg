@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "flight", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O voo é a viagem de avião que começa e termina no aeroporto, por isso as duas palavras têm um significado muito próximo."},
+    {"word": "passport", "is_associated": true, "association_type": "THEMATIC", "explanation": "O passaporte é um documento que o viajante mostra no aeroporto, então pertence ao mesmo tema de viagem."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "O sofá é um móvel de casa e não tem nenhuma relação com o aeroporto."},
+    {"word": "gate", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'airport gate' é muito usada para o portão de embarque, por isso as palavras formam uma colocação comum."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "A cenoura é um alimento e não tem relação com viagens de avião."},
+    {"word": "ticket", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A passagem é o documento que permite embarcar no voo, então está diretamente ligada ao aeroporto."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'airport' pertencem ao universo das viagens de avião, enquanto as outras não têm relação com esse tema."
+}

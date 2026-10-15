@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have got a better grade.", "I would have felt more confident."],
+  "options": [
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "A future form does not complete a third conditional, which needs 'would have' followed by a past participle in the result clause."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I would pass the exam now.", "is_correct": false, "why_wrong": "'Would pass' belongs to the second conditional and refers to the present, but the stem uses 'had studied', which refers to the past."},
+    {"text": "I had passed the exam already.", "is_correct": false, "why_wrong": "This repeats the past perfect instead of using 'would have', which is required for the result clause of a third conditional."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: if + past perfect, would have + past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined result. The if-clause uses the past perfect, and the result clause uses would have plus the past participle. Portuguese speakers often use a simple conditional in both clauses, so they may leave out 'have' in the result clause by mistake.",
+  "translation": "Se eu tivesse estudado mais, teria passado no exame."
+}
