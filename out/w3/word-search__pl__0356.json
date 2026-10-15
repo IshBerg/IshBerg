@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "O", "U", "R", "C", "E", "R"],
+    ["O", "K", "W", "A", "L", "Q", "E"],
+    ["P", "D", "H", "Z", "M", "U", "P"],
+    ["I", "B", "G", "J", "V", "O", "O"],
+    ["N", "F", "Y", "A", "K", "T", "R"],
+    ["I", "W", "D", "L", "S", "E", "T"],
+    ["O", "T", "O", "P", "I", "C", "X"]
+  ],
+  "words_to_find": ["SOURCE", "REPORT", "OPINION", "TOPIC", "QUOTE"],
+  "word_positions": [
+    {"word": "SOURCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REPORT", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "OPINION", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TOPIC", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "QUOTE", "start_row": 1, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Synthesizing Sources"
+}
