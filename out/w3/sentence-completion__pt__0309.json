@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Ana didn't understand the instructions, so",
+  "correct_completion": "I explained them to her again.",
+  "full_sentence": "Ana didn't understand the instructions, so I explained them to her again.",
+  "acceptable_variants": ["I explained them to her once more.", "I went over them with her again."],
+  "options": [
+    {"text": "I explained it to her again.", "is_correct": false, "why_wrong": "'It' refers to one singular thing, but 'instructions' is plural, so 'them' is needed."},
+    {"text": "I explained them to she again.", "is_correct": false, "why_wrong": "'She' is a subject pronoun; after the preposition 'to', English requires the object pronoun 'her'."},
+    {"text": "I explained them to her again.", "is_correct": true, "why_wrong": null},
+    {"text": "I explained them to hers again.", "is_correct": false, "why_wrong": "'Hers' is a possessive pronoun and cannot function as the object of 'to' here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns after prepositions and with plural objects",
+  "connector": "so",
+  "explanation": "After 'so', the main clause shows the result of the first clause: since Ana did not understand, the speaker explained again. The object pronoun must match the plural noun 'instructions' and must follow the preposition 'to'. Portuguese speakers may choose the subject form or the possessive form in this position, but English uses the object form after prepositions.",
+  "translation": "A Ana não entendeu as instruções, então eu as expliquei a ela novamente."
+}

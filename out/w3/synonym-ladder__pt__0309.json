@@ -1,0 +1,13 @@
+{
+  "start_word": "whisper",
+  "end_word": "shout",
+  "ladder_steps": [
+    {"word": "whisper", "translation": "sussurrar", "intensity_level": 1},
+    {"word": "murmur", "translation": "murmurar", "intensity_level": 2},
+    {"word": "speak", "translation": "falar", "intensity_level": 3},
+    {"word": "call", "translation": "chamar", "intensity_level": 4},
+    {"word": "shout", "translation": "gritar", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These verbs describe the loudness of a voice along a single scale, from barely audible speech to a very loud cry, with each step slightly louder than the last."
+}
