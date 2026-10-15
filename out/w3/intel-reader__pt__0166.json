@@ -1,0 +1,20 @@
+{
+  "title": "A Request for a Meeting",
+  "text": "Dear Ms. Brown, I am writing to request a meeting about the new project. The meeting could be on Tuesday or Thursday afternoon. I hope this time is convenient for you.\n\nPlease let me know which day is best for you. You can reply to this email or call me at the office. Thank you for your help. Kind regards, David Green.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "On which days could the meeting be?", "options": ["Monday or Friday", "Tuesday or Thursday", "Wednesday only", "Saturday morning"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How can Ms. Brown reply?", "options": ["By post only", "By visiting the office", "By replying to the email or calling", "She cannot reply"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What is the main purpose of the email?", "options": ["To cancel a project", "To arrange a meeting", "To complain about a bill", "To ask for a job"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does David Green probably feel about the meeting?", "options": ["Worried about it", "Happy to have it", "Angry about it", "Unsure whether it is needed"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "request", "translation": "solicitar", "definition": "to ask politely for something"},
+    {"word": "meeting", "translation": "reunião", "definition": "an event where people come together to discuss something"},
+    {"word": "convenient", "translation": "conveniente", "definition": "suitable and easy for someone to do"},
+    {"word": "reply", "translation": "responder", "definition": "to answer a letter, email, or message"}
+  ],
+  "paragraph_translations": [
+    "Prezada Sra. Brown, escrevo para solicitar uma reunião sobre o novo projeto. A reunião poderia ser na terça ou na quinta à tarde. Espero que este horário seja conveniente para a senhora.",
+    "Por favor, avise-me qual dia é melhor para a senhora. Pode responder a este e-mail ou me ligar no escritório. Obrigado pela sua ajuda. Atenciosamente, David Green."
+  ]
+}

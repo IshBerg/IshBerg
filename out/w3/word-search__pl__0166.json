@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["A", "C", "H", "I", "E", "V", "E", "Q", "B"],
+    ["K", "L", "M", "J", "W", "Y", "Z", "U", "E"],
+    ["P", "Q", "D", "B", "T", "G", "N", "Z", "N"],
+    ["F", "J", "K", "M", "X", "R", "W", "Y", "E"],
+    ["H", "U", "Z", "Q", "E", "V", "D", "L", "F"],
+    ["M", "S", "A", "C", "K", "P", "Y", "X", "I"],
+    ["G", "D", "N", "R", "O", "J", "U", "B", "T"],
+    ["W", "O", "L", "K", "Z", "Q", "A", "H", "M"],
+    ["C", "Y", "D", "E", "V", "E", "L", "O", "P"]
+  ],
+  "words_to_find": ["ACHIEVE", "BENEFIT", "CONCERN", "DEVELOP"],
+  "word_positions": [
+    {"word": "ACHIEVE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BENEFIT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CONCERN", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "DEVELOP", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists A and B"
+}
