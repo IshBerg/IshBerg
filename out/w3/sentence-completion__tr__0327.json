@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The new library,",
+  "correct_completion": "which opened last month, is always crowded.",
+  "full_sentence": "The new library, which opened last month, is always crowded.",
+  "acceptable_variants": ["which opened last month, attracts many students.", "which opened last month, is always busy with visitors."],
+  "options": [
+    {"text": "that opened last month, is always crowded.", "is_correct": false, "why_wrong": "Non-defining clauses cannot use 'that'; use 'which' for things."},
+    {"text": "which opened last month is always crowded.", "is_correct": false, "why_wrong": "A non-defining clause must be enclosed in commas, so the comma after 'month' is missing."},
+    {"text": "which opened last month, is always crowded.", "is_correct": true, "why_wrong": null},
+    {"text": "opened last month, is always crowded.", "is_correct": false, "why_wrong": "The clause has no relative pronoun to introduce the extra information, so the sentence is ungrammatical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'which'",
+  "connector": "which",
+  "explanation": "A non-defining relative clause adds extra information about a noun that is already identified. It uses 'which' or 'who', and it is always separated from the rest of the sentence by commas.",
+  "translation": "Geçen ay açılan yeni kütüphane her zaman kalabalık."
+}
