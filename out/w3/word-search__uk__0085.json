@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R", "A", "I", "N", "K", "T", "E", "C"],
+    ["M", "Q", "B", "J", "S", "F", "Y", "L"],
+    ["P", "H", "X", "V", "U", "G", "R", "O"],
+    ["S", "Z", "A", "E", "N", "K", "T", "U"],
+    ["N", "L", "Q", "F", "J", "B", "M", "D"],
+    ["O", "P", "V", "Y", "H", "X", "C", "G"],
+    ["W", "K", "W", "I", "N", "D", "E", "R"],
+    ["T", "Q", "Z", "L", "A", "J", "F", "V"]
+  ],
+  "words_to_find": ["RAIN", "CLOUD", "SNOW", "WIND", "SUN"],
+  "word_positions": [
+    {"word": "RAIN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLOUD", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SNOW", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "WIND", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "SUN", "start_row": 1, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Weather Descriptions"
+}
