@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["I", "R", "O", "N", "Y", "K", "Q", "W", "J", "N"],
+    ["Z", "X", "B", "D", "F", "G", "H", "K", "L", "O"],
+    ["W", "R", "O", "H", "P", "A", "T", "E", "M", "V"],
+    ["B", "C", "D", "F", "G", "H", "J", "K", "L", "E"],
+    ["S", "M", "N", "Q", "V", "W", "X", "Z", "B", "L"],
+    ["C", "A", "D", "F", "G", "H", "K", "Q", "R", "Y"],
+    ["B", "N", "T", "J", "G", "W", "C", "T", "X", "Z"],
+    ["D", "F", "G", "I", "K", "L", "M", "O", "Q", "R"],
+    ["V", "X", "Z", "B", "R", "C", "D", "L", "Y", "W"],
+    ["Q", "K", "J", "H", "G", "E", "F", "P", "B", "W"]
+  ],
+  "words_to_find": ["IRONY", "NOVEL", "SATIRE", "METAPHOR", "PLOT"],
+  "word_positions": [
+    {"word": "IRONY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NOVEL", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SATIRE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "METAPHOR", "start_row": 2, "start_col": 8, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "PLOT", "start_row": 9, "start_col": 7, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Classic Literature Analysis"
+}
