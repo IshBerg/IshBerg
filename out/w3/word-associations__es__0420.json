@@ -1,0 +1,14 @@
+{
+  "trigger_word": "park",
+  "all_words": [
+    {"word": "bench", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Bench' forma la combinación común 'park bench', el banco que hay en un parque para sentarse."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "La cocina está en una casa o un apartamento, no en un parque, así que no tiene relación con esta palabra."},
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Los árboles son parte típica de un parque, por eso están muy relacionados con el significado de la palabra."},
+    {"word": "airplane", "is_associated": false, "association_type": "NONE", "explanation": "El avión se usa para viajar y no tiene nada que ver con un parque de la vecindad."},
+    {"word": "dog", "is_associated": true, "association_type": "THEMATIC", "explanation": "Mucha gente lleva a su perro al parque para pasear, así que pertenece al mismo tema de la vida en el vecindario."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "El océano es un lugar muy grande y lejano, y no es un espacio típico de un parque del barrio."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'park' se asocia con elementos que hay en un parque, como bancos y árboles, y con actividades de la gente del barrio, como pasear al perro; las demás palabras pertenecen a otros lugares."
+}
