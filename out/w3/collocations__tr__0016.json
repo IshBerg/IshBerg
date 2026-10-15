@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "poll",
+  "collocate": "opinion",
+  "full_collocation": "opinion poll",
+  "options": ["opinion", "vote", "review", "gossip"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "vote", "reason": "'Vote' names an action, not the noun that modifies 'poll'. We do not say 'vote poll' in English."},
+    {"word": "review", "reason": "'Review' is a different kind of text. We say 'product review', not 'review poll'."},
+    {"word": "gossip", "reason": "'Gossip' means informal talk about others. We do not say 'gossip poll' for a survey of public views."}
+  ],
+  "example_sentence": "The newspaper published the results of an opinion poll about the new law.",
+  "gap_position": 7,
+  "translation": "görüş anketi",
+  "l1_interference": "Türkçe konuşanlar bazen İngilizcede de sıfat gibi davranan isim sırasını ters kurar. İngilizcede önce 'opinion' gelir, sonra asıl isim olan 'poll' gelir.",
+  "common_mistake": "poll opinion",
+  "explanation": "In English, the first noun describes the type of the second noun. 'Opinion poll' is a survey of people's views, so 'opinion' comes first and 'poll' is the head noun.",
+  "related_collocations": [
+    {"collocation": "public opinion", "translation": "kamuoyu", "example": "Public opinion changed after the news story."},
+    {"collocation": "opinion leader", "translation": "fikir lideri", "example": "She is an opinion leader in her field."},
+    {"collocation": "poll results", "translation": "anket sonuçları", "example": "The poll results were released on Monday."}
+  ],
+  "memory_tip": "OPINION + POLL: the first noun names the type, the second noun is the thing itself (opinion poll = a poll about opinions)"
+}
