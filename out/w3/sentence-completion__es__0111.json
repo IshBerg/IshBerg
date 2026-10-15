@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat water to 100 degrees,",
+  "correct_completion": "it boils.",
+  "full_sentence": "If you heat water to 100 degrees, it boils.",
+  "acceptable_variants": ["it starts to boil.", "it reaches its boiling point."],
+  "options": [
+    {"text": "it would boil.", "is_correct": false, "why_wrong": "The zero conditional uses the present simple in both clauses. 'Would' belongs to the second conditional, which describes imaginary situations."},
+    {"text": "it boiled last week.", "is_correct": false, "why_wrong": "This describes one past event and does not give the general result of heating water."},
+    {"text": "it boils.", "is_correct": true, "why_wrong": null},
+    {"text": "it is going to boil later.", "is_correct": false, "why_wrong": "'Going to' expresses a plan for a specific future time, but the zero conditional describes facts that are always true."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional for facts that are always true",
+  "connector": "if",
+  "explanation": "The zero conditional uses the present simple in both clauses to describe facts that are always true. Learners often add will or would in the result clause, but here the present simple is correct.",
+  "translation": "Si calientas agua a 100 grados, hierve."
+}
