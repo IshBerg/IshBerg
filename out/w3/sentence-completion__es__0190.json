@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The data appears to support the theory, although",
+  "correct_completion": "it would be premature to draw firm conclusions.",
+  "full_sentence": "The data appears to support the theory, although it would be premature to draw firm conclusions.",
+  "acceptable_variants": ["more replication is needed before any firm claim can be made.", "caution is warranted before accepting the conclusion."],
+  "options": [
+    {"text": "the theory is definitely proven.", "is_correct": false, "why_wrong": "This agrees with the stem and removes the hedge. A concessive clause needs a contrasting claim, and this creates none."},
+    {"text": "it would be premature to draw firm conclusions.", "is_correct": true, "why_wrong": null},
+    {"text": "so the researchers stopped collecting data.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. It does not fit the concessive structure started by 'although'."},
+    {"text": "the sample size was very large.", "is_correct": false, "why_wrong": "This adds a detail about the study but does not form a contrast with the claim in the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and hedged claims",
+  "connector": "although",
+  "explanation": "The connector 'although' introduces a concession, so the second clause must contrast with the supportive evidence in the first clause. A cautious evaluative phrase such as 'premature' signals that the writer withholds full agreement with the claim.",
+  "translation": "Aunque los datos parecen respaldar la teoría, sería prematuro sacar conclusiones firmes."
+}
