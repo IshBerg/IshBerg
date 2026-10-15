@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the sample was small,",
+  "correct_completion": "the findings were still informative.",
+  "full_sentence": "Although the sample was small, the findings were still informative.",
+  "acceptable_variants": ["the results still offered useful insights.", "the researchers still drew meaningful conclusions."],
+  "options": [
+    {"text": "the study was therefore abandoned immediately.", "is_correct": false, "why_wrong": "'Although' signals contrast, and abandoning the study is a conclusion drawn from the small sample rather than a contrast with it."},
+    {"text": "so the results were fully conclusive.", "is_correct": false, "why_wrong": "'So' expresses a result, which conflicts with the contrast set up by 'although' and with the idea of a small sample."},
+    {"text": "the findings were still informative.", "is_correct": true, "why_wrong": null},
+    {"text": "the sample size was typically recorded in the appendix.", "is_correct": false, "why_wrong": "This adds a methodological detail but does not complete the contrast with the smallness of the sample."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a contrast with the first. Portuguese speakers may be tempted to use a result connector here, but English concession requires a contrasting main clause.",
+  "translation": "Embora a amostra fosse pequena, os resultados ainda foram informativos."
+}
