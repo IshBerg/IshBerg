@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["A", "P", "R", "I", "L", "X", "M"],
+    ["B", "D", "T", "O", "K", "Z", "A"],
+    ["J", "Q", "W", "E", "S", "V", "Y"],
+    ["U", "G", "B", "D", "F", "H", "P"],
+    ["L", "J", "U", "N", "E", "W", "Q"],
+    ["Y", "K", "T", "S", "V", "G", "B"],
+    ["M", "A", "R", "C", "H", "X", "D"]
+  ],
+  "words_to_find": ["APRIL", "MAY", "JUNE", "JULY", "MARCH"],
+  "word_positions": [
+    {"word": "APRIL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MAY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "JUNE", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "JULY", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "MARCH", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Months and Dates"
+}
