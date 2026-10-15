@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "акуратний", "transliteration": "akuratnyi", "meaning": "tidy"},
+    {"word": "батон", "transliteration": "baton", "meaning": "loaf of bread"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"}
+  ],
+  "english_words": ["tidy", "factory", "shop", "loaf of bread"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same sources, but over time they drifted to different meanings, so the forms look close while the meanings differ.",
+  "false_friend_warning": "Watch out: the Ukrainian word 'mahazyn' looks like the English word 'magazine', but it means a shop, not a printed publication. Similarly, 'baton' in Ukrainian means a loaf of bread, not a stick used by a conductor or a relay runner."
+}
