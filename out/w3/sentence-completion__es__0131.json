@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "By the time we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had left.", "the train had already gone."],
+  "options": [
+    {"text": "the train leaves every morning.", "is_correct": false, "why_wrong": "The present simple does not fit a past sequence of events anchored by 'by the time' and 'arrived'."},
+    {"text": "we have already bought the tickets.", "is_correct": false, "why_wrong": "The present perfect does not fit a past narrative that is anchored by the past arrival."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null},
+    {"text": "the train will leave in ten minutes.", "is_correct": false, "why_wrong": "The future does not fit here, because the sentence describes something that finished before the past arrival."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past perfect for an action completed before another past action",
+  "connector": "by the time",
+  "explanation": "The past perfect shows which event happened first. The train left before our arrival, so the first event needs the past perfect. Spanish speakers often use a simple past here, but English needs the past perfect to mark the earlier action.",
+  "translation": "Cuando llegamos a la estación, el tren ya había salido."
+}
