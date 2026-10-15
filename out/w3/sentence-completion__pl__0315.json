@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna was not at home when I called, so",
+  "correct_completion": "I left her a message.",
+  "full_sentence": "Anna was not at home when I called, so I left her a message.",
+  "acceptable_variants": ["I left her a voice message.", "I sent her a text."],
+  "options": [
+    {"text": "I left she a message.", "is_correct": false, "why_wrong": "'She' is a subject pronoun. After the verb 'left' we need the object pronoun 'her'."},
+    {"text": "I left me a message for them.", "is_correct": false, "why_wrong": "'Me' refers to the speaker, and 'them' does not refer to Anna. The sentence does not describe the situation."},
+    {"text": "I left her a message.", "is_correct": true, "why_wrong": null},
+    {"text": "I left hers a message.", "is_correct": false, "why_wrong": "'Hers' is a possessive pronoun that stands alone. The object pronoun 'her' is needed before the object 'a message'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns after verbs (me, him, her, us, them)",
+  "connector": "so",
+  "explanation": "After 'so', the clause shows the result of the first part. The verb 'left' needs an indirect object pronoun, which must be in object form. Polish speakers may mix up subject and object forms because Polish uses different case endings, while English relies on word position and a fixed set of object pronouns.",
+  "translation": "Anna nie była w domu, kiedy zadzwoniłem, więc zostawiłem jej wiadomość."
+}

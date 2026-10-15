@@ -1,0 +1,14 @@
+{
+  "trigger_word": "memory",
+  "all_words": [
+    {"word": "brain", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pamięć jest funkcją mózgu, dlatego słowo brain (mózg) jest silnie związane z tym pojęciem."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma żadnego związku z pamięcią i nie pojawia się w kontekście tego pojęcia."},
+    {"word": "remember", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Czasownik remember (pamiętać) opisuje to, co robimy dzięki pamięci, więc jest z nią bezpośrednio powiązany."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Dywan to przedmiot z codziennego życia i nie ma żadnego znaczenia dla pojęcia pamięci."},
+    {"word": "loss", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Połączenie memory loss (utrata pamięci) jest typowym zwrotem w języku angielskim, więc słowo loss często towarzyszy słowu memory."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka to element krajobrazu, który nie ma związku z pamięcią ani z psychologią."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo memory kojarzy się z mózgiem, czynnością pamiętania oraz zwrotem memory loss, natomiast pozostałe słowa pochodzą z innych obszarów życia."
+}

@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "O", "U", "R", "K", "Q", "W", "Z", "B", "P"],
+    ["G", "H", "J", "L", "M", "N", "V", "X", "D", "R"],
+    ["Y", "A", "S", "W", "E", "F", "Q", "C", "K", "I"],
+    ["B", "D", "G", "H", "J", "K", "L", "N", "Z", "C"],
+    ["P", "V", "R", "T", "Y", "U", "I", "O", "A", "E"],
+    ["S", "L", "Q", "X", "C", "R", "B", "Z", "W", "M"],
+    ["M", "K", "R", "T", "H", "E", "G", "J", "Y", "L"],
+    ["N", "A", "Q", "W", "D", "F", "X", "B", "V", "S"],
+    ["T", "Z", "P", "C", "G", "F", "A", "H", "K", "U"],
+    ["J", "E", "W", "Y", "D", "O", "T", "O", "H", "P"]
+  ],
+  "words_to_find": ["TOUR", "PRICE", "MAP", "OFFER", "PHOTO"],
+  "word_positions": [
+    {"word": "TOUR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PRICE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "MAP", "start_row": 6, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "OFFER", "start_row": 9, "start_col": 5, "direction": "VERTICAL_UP"},
+    {"word": "PHOTO", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Brochures"
+}
