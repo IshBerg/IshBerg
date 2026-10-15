@@ -1,0 +1,14 @@
+{
+  "trigger_word": "password",
+  "all_words": [
+    {"word": "encryption", "is_associated": true, "association_type": "THEMATIC", "explanation": "A criptografia é o método que protege senhas e dados pessoais, por isso está tematicamente ligada ao tema da privacidade digital."},
+    {"word": "harvest", "is_associated": false, "association_type": "NONE", "explanation": "A colheita é uma atividade agrícola e não tem relação com senhas ou com a segurança de dados."},
+    {"word": "login", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A palavra login costuma aparecer junto de password em expressões como 'password login', formando uma colocação comum."},
+    {"word": "pebble", "is_associated": false, "association_type": "NONE", "explanation": "A pedrinha é um objeto natural e não tem ligação com senhas ou tecnologia."},
+    {"word": "cipher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Cifra é um código secreto usado para proteger mensagens, o que a aproxima semanticamente de uma senha."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "O trovão é um fenômeno meteorológico e não tem relação com senhas ou segurança digital."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a password pertencem ao campo da segurança digital e da proteção de informações, enquanto as demais pertencem a campos sem relação com esse tema."
+}

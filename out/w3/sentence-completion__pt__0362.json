@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Many students believe that homework is unnecessary;",
+  "correct_completion": "however, teachers argue that it reinforces classroom learning.",
+  "full_sentence": "Many students believe that homework is unnecessary; however, teachers argue that it reinforces classroom learning.",
+  "acceptable_variants": ["but many teachers disagree and say it helps students remember lessons.", "yet teachers often argue that it deepens what is taught in class."],
+  "options": [
+    {"text": "and teachers always agree with them.", "is_correct": false, "why_wrong": "This adds agreement and creates no contrast, so it does not present the opposing view that an opinion essay needs."},
+    {"text": "however, teachers argue that it reinforces classroom learning.", "is_correct": true, "why_wrong": null},
+    {"text": "because schools have no time for it.", "is_correct": false, "why_wrong": "This gives a reason for the students' belief, but it does not present the counterargument the essay structure requires."},
+    {"text": "unless the government changes the law.", "is_correct": false, "why_wrong": "'Unless' sets up a condition, which does not express a counterargument to the students' belief."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive linking with 'however' after a semicolon",
+  "connector": "however",
+  "explanation": "After a semicolon, 'however' introduces a clause that contrasts with the first clause. Learners often write a second clause that agrees with the first, so the essay loses its argument. The completion must present an opposing view.",
+  "translation": "Muitos estudantes acreditam que o dever de casa é desnecessário; no entanto, os professores argumentam que ele reforça o aprendizado em sala de aula."
+}

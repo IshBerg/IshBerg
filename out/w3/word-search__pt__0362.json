@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["N", "E", "U", "R", "A", "L", "K", "Z", "R"],
+    ["Q", "W", "P", "J", "V", "X", "Y", "H", "O"],
+    ["F", "G", "M", "Y", "K", "W", "Z", "J", "B"],
+    ["P", "D", "H", "Q", "S", "V", "X", "T", "O"],
+    ["M", "W", "R", "K", "J", "Z", "C", "V", "T"],
+    ["X", "O", "F", "B", "H", "Q", "O", "Y", "K"],
+    ["R", "K", "D", "P", "G", "T", "D", "V", "Z"],
+    ["V", "Z", "X", "E", "N", "M", "E", "Q", "R"],
+    ["H", "J", "W", "S", "L", "Y", "U", "C", "P"]
+  ],
+  "words_to_find": ["NEURAL", "ROBOT", "MODEL", "CODE"],
+  "word_positions": [
+    {"word": "NEURAL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ROBOT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "MODEL", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CODE", "start_row": 4, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "AI and the Future"
+}
