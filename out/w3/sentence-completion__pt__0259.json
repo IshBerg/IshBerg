@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Homework finished,",
+  "correct_completion": "she went out to play with her friends.",
+  "full_sentence": "Homework finished, she went out to play with her friends.",
+  "acceptable_variants": ["she went outside to play.", "she called her friends to play."],
+  "options": [
+    {"text": "although she had not started it.", "is_correct": false, "why_wrong": "The stem says the homework is finished, so a contrast with not starting it does not fit."},
+    {"text": "so she had done nothing.", "is_correct": false, "why_wrong": "The stem says the homework is finished, so the claim that she did nothing contradicts it."},
+    {"text": "she went out to play with her friends.", "is_correct": true, "why_wrong": null},
+    {"text": "she will finish it tomorrow.", "is_correct": false, "why_wrong": "The stem already states the homework is finished, so a future completion contradicts it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Verbless absolute clauses",
+  "connector": "absolute clause",
+  "explanation": "A verbless absolute clause gives background circumstances before the main clause, here the state of the homework. Portuguese speakers may need extra practice because Portuguese usually expresses such information with a full clause that contains a verb, so the omitted verb can feel unnatural at first.",
+  "translation": "Lição de casa terminada, ela saiu para brincar com as amigas."
+}
