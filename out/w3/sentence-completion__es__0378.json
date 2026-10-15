@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Far from being a mere reflection of reality,",
+  "correct_completion": "the novel constructs a world that challenges our assumptions.",
+  "full_sentence": "Far from being a mere reflection of reality, the novel constructs a world that challenges our assumptions.",
+  "acceptable_variants": ["the novel builds a world that questions our assumptions.", "the novel reshapes how we see reality."],
+  "options": [
+    {"text": "the novel simply copies the events of its time.", "is_correct": false, "why_wrong": "'Far from being' signals contrast with 'a mere reflection'. Copying events repeats the idea the stem rejects."},
+    {"text": "the novel constructs a world that challenges our assumptions.", "is_correct": true, "why_wrong": null},
+    {"text": "the novel was written in a single season.", "is_correct": false, "why_wrong": "This adds an unrelated fact about writing time. The stem needs a contrasting claim about the novel's function."},
+    {"text": "the author never read the earlier novels.", "is_correct": false, "why_wrong": "This is unrelated to the contrast with reality. The stem is about what the work does, not about the author's reading habits."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast introduced by 'far from being'",
+  "connector": "far from being",
+  "explanation": "The opening phrase sets up a contrast with a mere reflection of reality, so the completion must state an active, opposing function of the work.",
+  "translation": "Lejos de ser un simple reflejo de la realidad, la novela construye un mundo que cuestiona nuestras suposiciones."
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Materials Around Me",
+  "text": "This is a wooden chair. Wood is hard and brown. My bed has a soft blanket made of wool. Wool feels warm and soft.\n\nMy cup is made of glass. The glass is smooth and cold. Be careful, because glass can break. The stone path in the garden is rough.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the chair made of?", "options": ["Wood", "Glass", "Wool", "Metal"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is the cup made of?", "options": ["Glass", "Wood", "Wool", "Stone"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why should you be careful with the cup?", "options": ["Because it can break", "Because it is very warm", "Because it is very soft", "Because it is made of wool"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Which material would feel best on a cold night?", "options": ["The wool blanket", "The stone path", "The glass cup", "The wooden chair"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "Wood", "translation": "madera", "definition": "the hard material that trees are made of"},
+    {"word": "soft", "translation": "suave", "definition": "not hard; pleasant to touch"},
+    {"word": "smooth", "translation": "liso", "definition": "flat, with no bumps or rough parts"},
+    {"word": "rough", "translation": "áspero", "definition": "not smooth; has bumps or uneven parts"},
+    {"word": "glass", "translation": "vidrio", "definition": "a hard, clear material that can break"}
+  ],
+  "paragraph_translations": [
+    "Esta es una silla de madera. La madera es dura y marrón. Mi cama tiene una manta suave hecha de lana. La lana se siente cálida y suave.",
+    "Mi taza está hecha de vidrio. El vidrio es liso y frío. Ten cuidado, porque el vidrio puede romperse. El camino de piedra del jardín es áspero."
+  ]
+}
