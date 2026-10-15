@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "A", "S", "S", "P", "O", "R", "T", "X", "J"],
+    ["K", "B", "D", "L", "H", "Q", "W", "F", "Z", "O"],
+    ["C", "G", "V", "B", "K", "N", "Q", "L", "Y", "U"],
+    ["Z", "O", "H", "W", "D", "X", "K", "P", "J", "R"],
+    ["F", "Q", "M", "G", "B", "Z", "V", "W", "L", "N"],
+    ["K", "D", "W", "P", "L", "Y", "G", "Z", "H", "E"],
+    ["Q", "B", "V", "I", "A", "F", "X", "M", "D", "Y"],
+    ["N", "Z", "A", "H", "W", "S", "K", "B", "T", "G"],
+    ["D", "R", "F", "Q", "V", "G", "S", "P", "W", "L"],
+    ["T", "E", "J", "O", "K", "X", "P", "M", "A", "C"]
+  ],
+  "words_to_find": ["PASSPORT", "JOURNEY", "COMPASS", "TRAIL", "CAMP"],
+  "word_positions": [
+    {"word": "PASSPORT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "JOURNEY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "COMPASS", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TRAIL", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "CAMP", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Travel Adventures"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "election",
+  "all_words": [
+    {"word": "ballot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La papeleta de voto es el documento que los votantes usan en una elección, por lo que se relaciona directamente con su significado."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "La jirafa es un animal de la sabana y no tiene ninguna relación con los procesos electorales."},
+    {"word": "campaign", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión 'election campaign' es una colocación habitual, ya que la campaña es la fase previa a la votación."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "El sándwich es un alimento y no guarda relación con las elecciones ni con la política."},
+    {"word": "candidate", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El candidato es la persona que se presenta a la elección, así que el concepto está muy ligado al significado de la palabra."},
+    {"word": "turnout", "is_associated": true, "association_type": "THEMATIC", "explanation": "La participación electoral, o 'turnout', mide cuántas personas acuden a votar, por lo que pertenece al mismo tema."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra election se asocia con el proceso de votación: documentos de voto, candidatos, campañas y participación ciudadana. Los animales y los alimentos no tienen relación con ella."
+}
