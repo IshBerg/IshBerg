@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because my phone battery was dead,",
+  "correct_completion": "I could not reply to your message.",
+  "full_sentence": "Because my phone battery was dead, I could not reply to your message.",
+  "acceptable_variants": ["I could not text you back.", "I was unable to answer your message."],
+  "options": [
+    {"text": "I bought a new phone yesterday.", "is_correct": false, "why_wrong": "This is a separate event. It does not explain the effect that the dead battery caused."},
+    {"text": "my friend sent me a photo.", "is_correct": false, "why_wrong": "This is unrelated to the battery and does not complete the cause and effect idea."},
+    {"text": "I could not reply to your message.", "is_correct": true, "why_wrong": null},
+    {"text": "I answered every message quickly.", "is_correct": false, "why_wrong": "This contradicts the cause. A dead battery prevents the speaker from replying quickly."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the reason. The main clause after the comma must show the result of that reason.",
+  "translation": "Telefonumun pili bittiği için mesajına cevap veremedim."
+}
