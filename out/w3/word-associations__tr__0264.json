@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "librarian", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kütüphaneci, kütüphanenin doğal bir parçasıdır ve anlamsal olarak doğrudan ilişkilidir."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Yanardağ, kütüphane ile hiçbir anlamsal, tematik ya da kullanım bağlantısı taşımaz."},
+    {"word": "silence", "is_associated": true, "association_type": "THEMATIC", "explanation": "Sessizlik, kütüphanelerin tipik atmosferiyle tematik olarak bağlantılıdır."},
+    {"word": "trumpet", "is_associated": false, "association_type": "NONE", "explanation": "Trompet, kütüphane bağlamında ne anlamsal ne de tematik bir çağrışım yapar."},
+    {"word": "shelf", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Raf, 'library shelf' gibi eşdizimli bir kullanımda kütüphane ile sıkça birlikte geçer."},
+    {"word": "stadium", "is_associated": false, "association_type": "NONE", "explanation": "Stadyum, spor ve kalabalık temasıyla kütüphaneden tamamen farklı bir alanı çağrıştırır."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kütüphane kelimesi; kişi, sessizlik ve rafı çağrıştıran sözcüklerle güçlü biçimde ilişkilidir, ancak yanardağ, trompet ve stadyum gibi sözcükler bu ilişkiye girmez."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report early,",
+  "correct_completion": "she submitted it to her manager before lunch.",
+  "full_sentence": "Having finished the report early, she submitted it to her manager before lunch.",
+  "acceptable_variants": ["she handed it in to her manager before lunch.", "she sent it to her manager before lunch."],
+  "options": [
+    {"text": "she submit it to her manager before lunch.", "is_correct": false, "why_wrong": "The main clause needs the past tense 'submitted'; 'submit' is the wrong verb form here."},
+    {"text": "the report was submitted to her manager before lunch.", "is_correct": false, "why_wrong": "The participle clause must describe the same subject. In the passive form the report becomes the subject, so 'having finished' no longer refers to the person who finished it."},
+    {"text": "she submitted it to her manager before lunch.", "is_correct": true, "why_wrong": null},
+    {"text": "she has submitting it to her manager before lunch.", "is_correct": false, "why_wrong": "'Has submitting' is ungrammatical; the correct perfect form is 'has submitted'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect participle clauses ('having + past participle') and matching the subject of the main clause",
+  "connector": "having finished",
+  "explanation": "After a participle clause such as 'Having finished', the main clause subject must be the person who performed the first action. Turkish speakers may be tempted to switch to a passive here because Turkish allows flexible word order and often drops the subject, but English requires a clear shared subject.",
+  "translation": "Raporu erkenden bitirdikten sonra, öğle yemeğinden önce onu müdürüne teslim etti."
+}
