@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "E", "C", "A", "U", "S", "E", "X", "Q", "H"],
+    ["K", "L", "M", "N", "P", "R", "T", "Z", "G", "O"],
+    ["J", "D", "Y", "F", "C", "I", "V", "Q", "A", "W"],
+    ["S", "Y", "B", "K", "M", "G", "L", "P", "H", "E"],
+    ["W", "F", "N", "X", "J", "Z", "D", "T", "U", "V"],
+    ["A", "Q", "I", "O", "L", "S", "R", "N", "M", "E"],
+    ["P", "N", "E", "K", "T", "G", "Y", "H", "C", "R"],
+    ["Z", "L", "D", "U", "M", "O", "F", "Y", "W", "K"],
+    ["Q", "X", "P", "H", "B", "E", "J", "I", "S", "N"],
+    ["A", "G", "R", "L", "I", "M", "O", "T", "U", "B"]
+  ],
+  "words_to_find": ["BECAUSE", "HOWEVER", "AND", "BUT"],
+  "word_positions": [
+    {"word": "BECAUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOWEVER", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "AND", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BUT", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Linking Words and Connectors"
+}

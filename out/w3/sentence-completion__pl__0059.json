@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Right now, my brother",
+  "correct_completion": "is doing his homework in his room.",
+  "full_sentence": "Right now, my brother is doing his homework in his room.",
+  "acceptable_variants": ["is reading a book on the sofa.", "is watching a film in the living room."],
+  "options": [
+    {"text": "does his homework every day.", "is_correct": false, "why_wrong": "'Every day' describes a habit, but the stem says 'right now', which needs the present continuous."},
+    {"text": "is doing his homework in his room.", "is_correct": true, "why_wrong": null},
+    {"text": "did his homework yesterday.", "is_correct": false, "why_wrong": "'Yesterday' points to the past, but 'right now' points to the present."},
+    {"text": "will do his homework tomorrow.", "is_correct": false, "why_wrong": "'Tomorrow' points to the future, but 'right now' describes an action in progress."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present continuous for actions happening at the moment of speaking",
+  "connector": "right now",
+  "explanation": "The time expression 'right now' signals an action in progress, so the present continuous (am/is/are + verb-ing) is needed. Polish speakers may use a simple present form here because Polish has no separate continuous form.",
+  "translation": "Mój brat teraz odrabia pracę domową w swoim pokoju."
+}
