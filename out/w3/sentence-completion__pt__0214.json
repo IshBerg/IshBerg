@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the scandal could have been averted.",
+  "full_sentence": "Had the committee been informed earlier, the scandal could have been averted.",
+  "acceptable_variants": ["the scandal would have been averted.", "the scandal might have been prevented."],
+  "options": [
+    {"text": "the scandal would be averted.", "is_correct": false, "why_wrong": "'Would be' is a present conditional and does not match the past condition 'had been informed'. The third conditional needs a past form after the modal."},
+    {"text": "the scandal could have been averted.", "is_correct": true, "why_wrong": null},
+    {"text": "the scandal was averted by the board.", "is_correct": false, "why_wrong": "The simple past reports a completed fact, but the stem describes an unreal past situation and its imagined result."},
+    {"text": "the scandal is being averted now.", "is_correct": false, "why_wrong": "The present progressive refers to the present and does not complete an inverted past conditional."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and a past participle",
+  "connector": "had (inverted conditional)",
+  "explanation": "The inverted form 'Had ... been' replaces 'If ... had been' in formal register. The main clause must use a modal plus have plus a past participle to express what could have happened.",
+  "translation": "Se o comitê tivesse sido informado mais cedo, o escândalo poderia ter sido evitado."
+}
