@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "At the airport,",
+  "correct_completion": "passengers have to show their passports.",
+  "full_sentence": "At the airport, passengers have to show their passports.",
+  "acceptable_variants": ["passengers must show their passports.", "all passengers have to show their passports."],
+  "options": [
+    {"text": "passengers mustn't show their passports.", "is_correct": false, "why_wrong": "'Mustn't' means that something is forbidden, so this would say passengers are not allowed to show their passports, which does not fit airport checks."},
+    {"text": "passengers have to show their passports.", "is_correct": true, "why_wrong": null},
+    {"text": "passengers must showing their passports.", "is_correct": false, "why_wrong": "After a modal verb, the base verb is used, not the -ing form."},
+    {"text": "passengers had to showed their passports.", "is_correct": false, "why_wrong": "'Had to' is followed by the base verb, not by the past form 'showed'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Obligation with have to",
+  "connector": "at",
+  "explanation": "Have to expresses an obligation that comes from an outside rule, such as airport security, and it is followed by the base verb. Turkish speakers may add an -ing form or a past form after modal expressions, because Turkish attaches suffixes to verbs in a different way from English.",
+  "translation": "Havalimanında yolcuların pasaportlarını göstermeleri gerekir."
+}

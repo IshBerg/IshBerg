@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "H", "E", "O", "R", "E", "M", "C"],
+    ["B", "K", "Q", "W", "D", "F", "J", "A"],
+    ["V", "Z", "X", "P", "L", "G", "H", "T"],
+    ["N", "E", "U", "T", "R", "O", "N", "A"],
+    ["D", "R", "W", "K", "Q", "V", "X", "L"],
+    ["F", "J", "B", "N", "G", "W", "M", "Y"],
+    ["C", "X", "H", "V", "K", "Q", "D", "S"],
+    ["I", "S", "O", "T", "O", "P", "E", "T"]
+  ],
+  "words_to_find": ["THEOREM", "CATALYST", "ISOTOPE", "NEUTRON"],
+  "word_positions": [
+    {"word": "THEOREM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CATALYST", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ISOTOPE", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NEUTRON", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Specialized Lexis Across Disciplines"
+}
