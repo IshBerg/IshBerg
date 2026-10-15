@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had the negotiations begun",
+  "correct_completion": "when the two sides walked out.",
+  "full_sentence": "Hardly had the negotiations begun when the two sides walked out.",
+  "acceptable_variants": ["when the two sides walked out of the room.", "when one of the delegations left the meeting."],
+  "options": [
+    {"text": "because the two sides walked out.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'hardly ... when' links two events that happen one right after the other."},
+    {"text": "so the two sides walked out.", "is_correct": false, "why_wrong": "'So' introduces a result. The structure 'hardly ... when' needs 'when' to join the two events in time."},
+    {"text": "when the two sides walked out.", "is_correct": true, "why_wrong": null},
+    {"text": "than the two sides walked out.", "is_correct": false, "why_wrong": "'Than' is used for comparison, and 'hardly' is paired with 'when', not with 'than'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after 'hardly' with 'when'",
+  "connector": "hardly ... when",
+  "explanation": "After 'hardly', the auxiliary verb comes before the subject ('had the negotiations begun'). The clause is completed with 'when' to show that the second event happened immediately after the first.",
+  "translation": "Mal as negociações tinham começado, quando os dois lados se retiraram."
+}

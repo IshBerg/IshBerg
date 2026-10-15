@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "legume", "transliteration": "legume", "meaning": "vegetable"},
+    {"word": "fruta", "transliteration": "fruta", "meaning": "fruit"},
+    {"word": "cenoura", "transliteration": "cenoura", "meaning": "carrot"},
+    {"word": "uva", "transliteration": "uva", "meaning": "grape"}
+  ],
+  "english_words": ["carrot", "grape", "fruit", "vegetable"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Portuguese word 'legume' is used in everyday speech for vegetables, while the English word 'legume' refers to a plant family such as beans and peas. The two words look the same but come from different meanings in each language.",
+  "false_friend_warning": "Careful: the Portuguese word 'legume' means 'vegetable', but the English word 'legume' means beans, peas and similar plants, so do not choose 'legume' when you want to say 'vegetable' in English."
+}
