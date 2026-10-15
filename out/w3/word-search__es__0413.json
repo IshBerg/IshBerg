@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "W", "I", "M", "K", "P", "X", "R"],
+    ["Q", "B", "J", "H", "T", "L", "N", "E"],
+    ["V", "Z", "F", "O", "U", "A", "W", "A"],
+    ["K", "B", "X", "Q", "J", "Y", "Z", "D"],
+    ["D", "A", "N", "C", "E", "F", "G", "H"],
+    ["L", "P", "O", "V", "R", "I", "A", "K"],
+    ["T", "Q", "W", "Z", "B", "N", "M", "J"],
+    ["U", "S", "X", "R", "K", "D", "E", "P"]
+  ],
+  "words_to_find": ["SWIM", "READ", "DANCE", "GAME", "PLAY"],
+  "word_positions": [
+    {"word": "SWIM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "READ", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "DANCE", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GAME", "start_row": 4, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PLAY", "start_row": 0, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Free Time Activities"
+}
