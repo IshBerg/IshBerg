@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While I was cooking dinner, the phone rang.",
+  "acceptable_variants": ["the doorbell rang.", "someone knocked on the door."],
+  "options": [
+    {"text": "it was a sunny day.", "is_correct": false, "why_wrong": "This adds a description, but it does not give the event that interrupts the continuous action started by 'while'."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "the phone has rung.", "is_correct": false, "why_wrong": "The present perfect does not fit this past narrative. The interrupting event happened at a specific past moment, so the past simple is needed."},
+    {"text": "the phone rings every day.", "is_correct": false, "why_wrong": "The present simple describes habits, not a single past event that interrupted an activity."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous interrupted by past simple",
+  "connector": "while",
+  "explanation": "'While' introduces a longer past action in progress, which takes the past continuous. The short event that interrupts it takes the past simple. Ukrainian speakers may use one past form for both actions because Ukrainian verbs mark aspect directly rather than using separate continuous tenses, so the English progressive must be chosen deliberately.",
+  "translation": "Поки я готувала вечерю, задзвонив телефон."
+}

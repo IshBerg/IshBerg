@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "current, relevant"},
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop, store"},
+    {"word": "артист", "transliteration": "artyst", "meaning": "performer, entertainer"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"}
+  ],
+  "english_words": ["factory", "current", "shop", "performer"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each Ukrainian word looks close to an English word, but the English look-alike has a different meaning. The words reached each language through different routes, so the forms drifted apart while keeping a similar sound or spelling.",
+  "false_friend_warning": "Learners may read the English word 'actual' as the meaning of the Ukrainian word with the transliteration 'aktualnyi', which means current or relevant. In English, 'actual' means real or true, so it is a false friend. The same trap applies to 'magazine', 'artist' and 'fabric', which look like the Ukrainian words 'mahazyn', 'artyst' and 'fabryka' but mean something different."
+}
