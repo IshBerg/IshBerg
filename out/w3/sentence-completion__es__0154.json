@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was not the cost that worried the team, but",
+  "correct_completion": "the lack of time to finish the project.",
+  "full_sentence": "It was not the cost that worried the team, but the lack of time to finish the project.",
+  "acceptable_variants": ["the tight deadline set by the client.", "the risk of losing the contract."],
+  "options": [
+    {"text": "so the team bought more equipment.", "is_correct": false, "why_wrong": "This is a result clause introduced by 'so', which does not complete the contrast set up by 'not... but'."},
+    {"text": "they were worried about the cost.", "is_correct": false, "why_wrong": "This repeats the idea that the stem has already rejected, so it does not create a contrast."},
+    {"text": "the lack of time to finish the project.", "is_correct": true, "why_wrong": null},
+    {"text": "although the budget was small.", "is_correct": false, "why_wrong": "'Although' starts a concessive clause, which does not give the noun phrase that the 'not... but' structure requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Cleft-style contrast with 'It was not... that... but'",
+  "connector": "but",
+  "explanation": "The structure 'It was not X that... but Y' contrasts a rejected cause with the real one. After 'but' we need a noun phrase that names the true focus, not a clause or a repeated idea.",
+  "translation": "No fue el costo lo que preocupó al equipo, sino la falta de tiempo para terminar el proyecto."
+}
