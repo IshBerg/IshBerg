@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the old man had lost everything,",
+  "correct_completion": "he still smiled at the children.",
+  "full_sentence": "Although the old man had lost everything, he still smiled at the children.",
+  "acceptable_variants": ["he still greeted every child who passed.", "the children still loved him."],
+  "options": [
+    {"text": "so he decided to move to the city.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast. This option expresses a consequence instead."},
+    {"text": "he had been a teacher for many years.", "is_correct": false, "why_wrong": "This adds background information but does not contrast with the loss mentioned in the first clause."},
+    {"text": "he still smiled at the children.", "is_correct": true, "why_wrong": null},
+    {"text": "the village was very quiet that night.", "is_correct": false, "why_wrong": "This describes the setting but does not provide the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first part of the sentence. Portuguese speakers may expect a cause or result pattern here, so check that the second clause opposes the difficulty described in the first.",
+  "translation": "Embora o velho tivesse perdido tudo, ele ainda sorria para as crianças."
+}
