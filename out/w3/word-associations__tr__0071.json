@@ -1,0 +1,14 @@
+{
+  "trigger_word": "weekend",
+  "all_words": [
+    {"word": "park", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hafta sonu insanlar genellikle parkta dinlenir veya yürüyüşe çıkar, bu yüzden iki kelime aynı konuya aittir."},
+    {"word": "shark", "is_associated": false, "association_type": "NONE", "explanation": "Köpekbalığı denizde yaşayan bir hayvandır ve hafta sonu kavramıyla hiçbir ilgisi yoktur."},
+    {"word": "picnic", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Go on a picnic' ifadesi hafta sonu aktivitelerinde çok kullanılır, bu yüzden bu iki kelime sık birlikte geçer."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Çekiç bir alet olup hafta sonu eğlenceleriyle ilgili değildir."},
+    {"word": "calendar", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Takvim haftanın ve hafta sonunun gününü gösterir, bu nedenle anlamsal olarak bağlantılıdır."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kurşun kalem yazı yazmak için kullanılır ve hafta sonu kavramıyla bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Hafta sonuyla ilişkili kelimeler dinlenme, eğlence ve zaman takibiyle ilgilidir; diğer kelimeler farklı alanlara aittir."
+}
