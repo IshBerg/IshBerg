@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the manager listened to the team earlier,",
+  "correct_completion": "the project would have finished on time.",
+  "full_sentence": "Had the manager listened to the team earlier, the project would have finished on time.",
+  "acceptable_variants": ["the project would have been completed on time.", "we would not have missed the deadline."],
+  "options": [
+    {"text": "the project would be late now.", "is_correct": false, "why_wrong": "This describes the present, but the inverted conditional 'Had ... listened' refers to a past situation and needs a past-time consequence."},
+    {"text": "the project finishes tomorrow.", "is_correct": false, "why_wrong": "A future time reference does not match a past hypothetical condition about what could have happened."},
+    {"text": "the project would have finished on time.", "is_correct": true, "why_wrong": null},
+    {"text": "the team would finish the project.", "is_correct": false, "why_wrong": "This is a simple conditional, which does not match the past hypothetical set up by 'Had ... listened'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' in the if-clause",
+  "connector": "had",
+  "explanation": "The inverted 'Had + subject + past participle' structure replaces 'If + past perfect', so the main clause needs 'would have + past participle'. Speakers whose first language marks hypothetical meaning with a single conditional form often need extra practice with this two-part structure.",
+  "translation": "Якби менеджер раніше прислухався до команди, проєкт був би завершений вчасно."
+}
