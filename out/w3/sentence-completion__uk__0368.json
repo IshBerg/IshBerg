@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people prefer cars,",
+  "correct_completion": "public transport is better for the environment.",
+  "full_sentence": "Although many people prefer cars, public transport is better for the environment.",
+  "acceptable_variants": ["trains and buses can reduce traffic in big cities.", "we should still consider the benefits of buses."],
+  "options": [
+    {"text": "so they never use buses or trains.", "is_correct": false, "why_wrong": "'Although' signals contrast, not a result. This describes a consequence, which does not fit the connector."},
+    {"text": "public transport is better for the environment.", "is_correct": true, "why_wrong": null},
+    {"text": "because cars are very expensive to buy.", "is_correct": false, "why_wrong": "'Because' introduces a cause. After 'although' we need a contrasting point, not a reason."},
+    {"text": "they often drive to work every day.", "is_correct": false, "why_wrong": "This repeats the preference rather than contrasting with it, so the contrast started by 'although' is not completed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part of the sentence. Learners often confuse 'although' with 'because', so check that the connector matches the meaning.",
+  "translation": "Хоча багато людей віддають перевагу автомобілям, громадський транспорт краще для довкілля."
+}
