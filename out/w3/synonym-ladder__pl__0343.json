@@ -1,0 +1,13 @@
+{
+  "start_word": "doubtful",
+  "end_word": "certain",
+  "ladder_steps": [
+    {"word": "doubtful", "translation": "wątpliwy", "intensity_level": 1},
+    {"word": "possible", "translation": "możliwy", "intensity_level": 2},
+    {"word": "probable", "translation": "prawdopodobny", "intensity_level": 3},
+    {"word": "likely", "translation": "bardzo prawdopodobny", "intensity_level": 4},
+    {"word": "certain", "translation": "pewny", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words form a ladder along the dimension of certainty, from a claim that is hard to believe to a claim that is completely sure, each step slightly more confident than the last."
+}

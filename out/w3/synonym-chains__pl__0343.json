@@ -1,0 +1,17 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "unhappy", "intensity": 1, "translation": "nieszczęśliwy", "nuance": "mildly not happy"},
+    {"word": "sad", "intensity": 2, "translation": "smutny", "nuance": "general feeling of sadness"},
+    {"word": "upset", "intensity": 3, "translation": "zmartwiony", "nuance": "sad and bothered, often by a specific event"},
+    {"word": "miserable", "intensity": 4, "translation": "przygnębiony", "nuance": "very unhappy for a longer time"},
+    {"word": "heartbroken", "intensity": 5, "translation": "złamanego serca", "nuance": "extremely sad, usually after a great loss"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express sadness, but with increasing intensity, from mild unhappiness to deep grief.",
+  "usage_notes": [
+    {"word1": "sad", "word2": "upset", "difference": "'Sad' describes a general feeling, while 'upset' usually describes a reaction to something that has just happened."}
+  ],
+  "translations": {"unhappy": "nieszczęśliwy", "sad": "smutny", "upset": "zmartwiony", "miserable": "przygnębiony", "heartbroken": "złamanego serca"}
+}

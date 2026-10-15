@@ -1,0 +1,14 @@
+{
+  "trigger_word": "seminar",
+  "all_words": [
+    {"word": "discussion", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Seminar i dyskusja to typowe połączenie: na seminariach uczestnicy często prowadzą dyskusję na temat czytanych tekstów."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Wulkan nie ma żadnego związku z seminariami akademickimi, ani znaczeniowego, ani tematycznego."},
+    {"word": "handout", "is_associated": true, "association_type": "THEMATIC", "explanation": "Materiały do rozdania (handout) są typowym elementem seminarium, bo prowadzący przekazuje je uczestnikom."},
+    {"word": "debate", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Debata jest bliskoznacznym pojęciem do dyskusji i często pojawia się w formie zajęć seminaryjnych."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktor to maszyna rolnicza i nie ma związku z seminariami ani z nauką na uczelni."},
+    {"word": "moderator", "is_associated": true, "association_type": "THEMATIC", "explanation": "Moderator to osoba prowadząca dyskusję, a na seminariach często pełni tę rolę prowadzący zajęcia."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo seminar kojarzy się z dyskusją, materiałami i rolą prowadzącego, natomiast wulkan i traktor nie mają związku z zajęciami akademickimi."
+}
