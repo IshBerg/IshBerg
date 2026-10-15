@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I would love to come to your party, so",
+  "correct_completion": "please tell me the time and place.",
+  "full_sentence": "I would love to come to your party, so please tell me the time and place.",
+  "acceptable_variants": ["please send me the address.", "let me know when it starts."],
+  "options": [
+    {"text": "I did not want to go to the party yesterday.", "is_correct": false, "why_wrong": "This talks about a past event that does not respond to the invitation in the stem."},
+    {"text": "the party was on Friday last year.", "is_correct": false, "why_wrong": "This gives unrelated past information and does not ask for the details that 'so' is leading to."},
+    {"text": "I have a cat at home.", "is_correct": false, "why_wrong": "This is a true statement about the speaker, but it has no logical link to accepting the invitation."},
+    {"text": "please tell me the time and place.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clause with 'so' and an imperative request",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. Here the speaker wants to come, so the natural result is a request for practical details. Spanish speakers may place the request before the reason, but in English the reason comes first and the result follows after 'so'.",
+  "translation": "Me encantaría ir a tu fiesta, así que por favor dime la hora y el lugar."
+}

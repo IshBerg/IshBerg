@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["Q", "U", "E", "S", "T", "I", "O", "N", "X", "A"],
+    ["B", "K", "R", "P", "Z", "D", "H", "J", "F", "N"],
+    ["M", "G", "Y", "C", "L", "U", "P", "W", "T", "S"],
+    ["T", "A", "L", "K", "R", "J", "Z", "Q", "D", "W"],
+    ["N", "X", "F", "B", "G", "H", "M", "P", "V", "E"],
+    ["V", "C", "Y", "J", "K", "L", "B", "D", "Q", "R"],
+    ["H", "O", "W", "T", "G", "S", "D", "F", "K", "Z"],
+    ["R", "L", "I", "M", "Y", "Z", "X", "K", "J", "P"],
+    ["D", "F", "G", "C", "K", "B", "W", "T", "L", "H"],
+    ["P", "Z", "K", "J", "E", "Q", "E", "M", "A", "N"]
+  ],
+  "words_to_find": ["QUESTION", "ANSWER", "VOICE", "NAME", "TALK"],
+  "word_positions": [
+    {"word": "QUESTION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ANSWER", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "VOICE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "NAME", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "TALK", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Interview Transcripts"
+}
