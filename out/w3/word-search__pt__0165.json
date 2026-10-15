@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "P", "I", "N", "X", "Q", "R", "H"],
+    ["L", "J", "K", "M", "V", "W", "F", "Y"],
+    ["E", "C", "G", "N", "O", "U", "D", "P"],
+    ["A", "M", "T", "R", "W", "I", "B", "E"],
+    ["K", "F", "V", "S", "Q", "C", "A", "J"],
+    ["T", "A", "B", "L", "O", "I", "D", "N"],
+    ["P", "X", "R", "E", "H", "K", "S", "W"],
+    ["V", "Q", "B", "U", "Z", "Z", "F", "R"]
+  ],
+  "words_to_find": ["SPIN", "HYPE", "TABLOID", "BUZZ", "LEAK"],
+  "word_positions": [
+    {"word": "SPIN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HYPE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "TABLOID", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BUZZ", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "LEAK", "start_row": 1, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Idioms and Figurative Language in the Media"
+}
