@@ -1,0 +1,14 @@
+{
+  "trigger_word": "letter",
+  "all_words": [
+    {"word": "alphabet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O alfabeto é o conjunto de letras de uma língua, por isso se relaciona diretamente com 'letter'."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Cadeira não tem relação com letras; é um móvel para sentar."},
+    {"word": "read", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lemos letras quando lemos palavras e frases, então 'read' faz parte do tema das letras."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Carro é um meio de transporte e não tem relação com letras."},
+    {"word": "word", "is_associated": true, "association_type": "THEMATIC", "explanation": "Uma palavra é formada por letras, então 'word' se liga ao tema das letras."},
+    {"word": "sun", "is_associated": false, "association_type": "NONE", "explanation": "Sol é a estrela que ilumina o dia e não tem relação com letras."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'letter' se ligam ao alfabeto, à leitura e às palavras; as outras não têm relação com letras."
+}
