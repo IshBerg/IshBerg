@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although Tom usually walks to school,",
+  "correct_completion": "he took the bus today.",
+  "full_sentence": "Although Tom usually walks to school, he took the bus today.",
+  "acceptable_variants": ["he rode his bike today.", "he got a ride with his mother."],
+  "options": [
+    {"text": "so he is always late.", "is_correct": false, "why_wrong": "'So' shows a result, but 'although' needs a contrast with the first part of the sentence."},
+    {"text": "because it was raining.", "is_correct": false, "why_wrong": "'Because' gives a reason, which does not match the contrast that 'although' requires."},
+    {"text": "he took the bus today.", "is_correct": true, "why_wrong": null},
+    {"text": "and he is never tired.", "is_correct": false, "why_wrong": "'And' adds extra information but does not create the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Here the habit of walking is contrasted with a different action on this particular day.",
+  "translation": "Хоча Том зазвичай ходить до школи пішки, сьогодні він поїхав автобусом."
+}
