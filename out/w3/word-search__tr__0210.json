@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "O", "U", "S", "E", "K", "J", "Z", "S"],
+    ["Q", "W", "X", "B", "N", "H", "T", "P", "C"],
+    ["E", "D", "K", "V", "G", "Y", "F", "L", "R"],
+    ["B", "M", "J", "P", "Z", "Q", "C", "W", "E"],
+    ["X", "U", "A", "N", "T", "R", "D", "I", "E"],
+    ["K", "S", "G", "I", "V", "B", "Y", "F", "N"],
+    ["H", "Q", "M", "T", "L", "W", "Z", "I", "V"],
+    ["L", "A", "P", "T", "O", "P", "K", "Z", "Y"],
+    ["D", "U", "X", "Q", "R", "N", "H", "G", "B"]
+  ],
+  "words_to_find": ["MOUSE", "SCREEN", "EMAIL", "LAPTOP", "WIFI"],
+  "word_positions": [
+    {"word": "MOUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SCREEN", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "EMAIL", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LAPTOP", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WIFI", "start_row": 3, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Technology and Digital Life"
+}
