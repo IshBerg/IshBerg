@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["W", "O", "L", "F", "X", "Q", "F"],
+    ["Z", "J", "D", "U", "M", "P", "R"],
+    ["B", "V", "S", "Y", "H", "T", "O"],
+    ["E", "K", "Q", "A", "D", "L", "G"],
+    ["A", "K", "I", "N", "G", "U", "Y"],
+    ["R", "M", "P", "S", "B", "Z", "J"],
+    ["Q", "X", "W", "I", "T", "C", "H"]
+  ],
+  "words_to_find": ["WOLF", "FROG", "KING", "BEAR", "WITCH"],
+  "word_positions": [
+    {"word": "WOLF", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FROG", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "KING", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "BEAR", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "WITCH", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Folk Tales"
+}
