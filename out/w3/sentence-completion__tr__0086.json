@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom runs faster than Ali, but",
+  "correct_completion": "Ali swims faster than Tom.",
+  "full_sentence": "Tom runs faster than Ali, but Ali swims faster than Tom.",
+  "acceptable_variants": ["Ali is faster in the pool.", "Ali swims more quickly than Tom."],
+  "options": [
+    {"text": "Tom is the fastest runner in the class.", "is_correct": false, "why_wrong": "This uses a superlative about running only, so it does not contrast with Ali's swimming speed."},
+    {"text": "Ali swims faster than Tom.", "is_correct": true, "why_wrong": null},
+    {"text": "Ali is more tall than Tom.", "is_correct": false, "why_wrong": "'Tall' is a short adjective that takes -er, so 'more tall' is incorrect. It also does not contrast the two speeds."},
+    {"text": "Tom runs as fast as Ali.", "is_correct": false, "why_wrong": "This says the two are equally fast, which repeats the first clause instead of contrasting with it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Comparative adjectives with 'than' after 'but' to show contrast",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the first part. Here the comparison switches from running to swimming and reverses who is faster. Learners often add 'more' to short adjectives, so check the form of the comparative as well.",
+  "translation": "Tom, Ali'den daha hızlı koşar, ama Ali Tom'dan daha hızlı yüzer."
+}
