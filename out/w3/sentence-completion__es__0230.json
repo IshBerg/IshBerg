@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother and I",
+  "correct_completion": "are at school today.",
+  "full_sentence": "My brother and I are at school today.",
+  "acceptable_variants": ["are both at school today.", "are going to school together today."],
+  "options": [
+    {"text": "is at school today.", "is_correct": false, "why_wrong": "'Is' is singular, but the subject 'my brother and I' is plural, so it needs 'are'."},
+    {"text": "am at school today.", "is_correct": false, "why_wrong": "'Am' is used only with 'I', and this subject also includes 'my brother'."},
+    {"text": "are at school today.", "is_correct": true, "why_wrong": null},
+    {"text": "be at school today.", "is_correct": false, "why_wrong": "'Be' is the base form and cannot follow a plural subject in a present simple statement."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verb to be agreement with compound subjects",
+  "connector": "and",
+  "explanation": "A subject joined by 'and' is plural, so the verb to be must take the plural present form. Spanish speakers may choose a singular form after a compound subject, but English requires agreement with the whole subject.",
+  "translation": "Mi hermano y yo estamos en la escuela hoy."
+}

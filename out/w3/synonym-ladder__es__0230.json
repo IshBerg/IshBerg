@@ -1,0 +1,13 @@
+{
+  "start_word": "unlikely",
+  "end_word": "certain",
+  "ladder_steps": [
+    {"word": "unlikely", "translation": "improbable", "intensity_level": 1},
+    {"word": "possible", "translation": "posible", "intensity_level": 2},
+    {"word": "likely", "translation": "verosímil", "intensity_level": 3},
+    {"word": "probable", "translation": "probable", "intensity_level": 4},
+    {"word": "certain", "translation": "seguro", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Probability words form a ladder from least to most likely, each step more confident than the last."
+}
