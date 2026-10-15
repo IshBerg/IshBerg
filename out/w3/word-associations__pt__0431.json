@@ -1,0 +1,14 @@
+{
+  "trigger_word": "song",
+  "all_words": [
+    {"word": "sing", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Podemos dizer 'sing a song' (cantar uma música), por isso 'sing' combina naturalmente com 'song'."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "'Table' (mesa) não tem nenhuma relação com música ou canções."},
+    {"word": "music", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Música e canção pertencem ao mesmo campo de significado: ambas são sons organizados para ouvir."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "'Apple' (maçã) é uma fruta e não está relacionada a canções."},
+    {"word": "dance", "is_associated": true, "association_type": "THEMATIC", "explanation": "Nas músicas de ação (action songs), as crianças dançam e fazem gestos enquanto cantam."},
+    {"word": "long", "is_associated": true, "association_type": "PHONETIC", "explanation": "'Long' (longo) rima com 'song' (canção), então o som das duas palavras é parecido."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'song' (canção) se associa a palavras de música (music, sing), a ações típicas de canções (dance) e a palavras que rimam com ela (long)."
+}
