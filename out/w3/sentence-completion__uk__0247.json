@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied all week,",
+  "correct_completion": "she still failed the test.",
+  "full_sentence": "Despite having studied all week, she still failed the test.",
+  "acceptable_variants": ["she nevertheless failed the exam.", "the test still proved too difficult for her."],
+  "options": [
+    {"text": "so she passed with ease.", "is_correct": false, "why_wrong": "'So' expresses a result that follows naturally, but 'despite' requires a contrast with the preparation."},
+    {"text": "she still failed the test.", "is_correct": true, "why_wrong": null},
+    {"text": "because the test was very easy.", "is_correct": false, "why_wrong": "'Because' introduces a reason, which contradicts the concessive meaning that 'despite' requires."},
+    {"text": "the exam took place on Monday.", "is_correct": false, "why_wrong": "This adds a fact but does not provide the contrasting outcome expected after 'despite'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive expressions with 'despite'",
+  "connector": "despite",
+  "explanation": "After 'despite', the main clause must present an outcome that goes against what the preparation would predict. Learners often choose a result or reason clause here, which breaks the contrast.",
+  "translation": "Незважаючи на те, що весь тиждень вона готувалася, вона все одно провалила іспит."
+}

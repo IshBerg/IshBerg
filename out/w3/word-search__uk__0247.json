@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "E", "N", "U", "Q", "K", "Z", "J", "V", "S"],
+    ["H", "D", "C", "G", "T", "Y", "B", "X", "L", "O"],
+    ["B", "R", "W", "N", "E", "D", "P", "M", "H", "U"],
+    ["F", "I", "Y", "A", "S", "K", "N", "C", "G", "P"],
+    ["T", "Q", "L", "E", "R", "V", "D", "W", "Z", "A"],
+    ["J", "V", "X", "L", "A", "F", "M", "Q", "E", "K"],
+    ["N", "G", "R", "S", "U", "Y", "O", "P", "T", "D"],
+    ["K", "Z", "W", "A", "I", "T", "E", "R", "B", "X"],
+    ["Q", "J", "S", "D", "H", "A", "C", "G", "K", "Y"],
+    ["W", "M", "P", "O", "X", "B", "N", "L", "T", "F"]
+  ],
+  "words_to_find": ["MENU", "SOUP", "BILL", "WAITER", "FORK"],
+  "word_positions": [
+    {"word": "MENU", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SOUP", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "BILL", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WAITER", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "FORK", "start_row": 5, "start_col": 5, "direction": "DIAGONAL_DOWN"}
+  ],
+  "topic": "Ordering Food"
+}
