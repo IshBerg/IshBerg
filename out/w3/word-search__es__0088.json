@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["F", "E", "V", "E", "R", "Q", "Z"],
+    ["B", "L", "T", "S", "D", "W", "P"],
+    ["K", "M", "J", "I", "O", "X", "A"],
+    ["G", "Y", "H", "C", "U", "E", "I"],
+    ["R", "A", "W", "K", "Z", "Q", "N"],
+    ["N", "U", "R", "S", "E", "V", "J"],
+    ["D", "O", "K", "W", "B", "Z", "T"]
+  ],
+  "words_to_find": ["FEVER", "PAIN", "NURSE", "SICK"],
+  "word_positions": [
+    {"word": "FEVER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PAIN", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "NURSE", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SICK", "start_row": 1, "start_col": 3, "direction": "VERTICAL"}
+  ],
+  "topic": "Health and Illness"
+}

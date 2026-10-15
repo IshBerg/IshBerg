@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I went to the shop,",
+  "correct_completion": "and I bought a new bag.",
+  "full_sentence": "Yesterday I went to the shop, and I bought a new bag.",
+  "acceptable_variants": ["and I got a new bag.", "and I found a nice dress."],
+  "options": [
+    {"text": "and I buyed a new bag.", "is_correct": false, "why_wrong": "'Buy' is irregular. The past simple is 'bought', not 'buyed'."},
+    {"text": "and I am buying a new bag.", "is_correct": false, "why_wrong": "The present continuous does not match the past time marker 'Yesterday'."},
+    {"text": "and I bought a new bag.", "is_correct": true, "why_wrong": null},
+    {"text": "but I didn't took anything.", "is_correct": false, "why_wrong": "After 'didn't' the verb must be in its base form: 'didn't take'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past simple of irregular verbs",
+  "connector": "and",
+  "explanation": "Irregular verbs have special past simple forms that do not add -ed. Spanish speakers often regularize past forms and add -ed to every verb, so they need to memorize the irregular forms.",
+  "translation": "Ayer fui a la tienda y compré una bolsa nueva."
+}

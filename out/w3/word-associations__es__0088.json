@@ -1,0 +1,14 @@
+{
+  "trigger_word": "train",
+  "all_words": [
+    {"word": "station", "is_associated": true, "association_type": "THEMATIC", "explanation": "La estación es el lugar donde los trenes paran y los pasajeros suben y bajan."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "La almohada no tiene relación con los trenes; es un objeto de la cama."},
+    {"word": "ticket", "is_associated": true, "association_type": "THEMATIC", "explanation": "El billete es necesario para viajar en tren."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "El jardín no tiene relación con los trenes; es un lugar para plantas y flores."},
+    {"word": "railway", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La vía férrea es el camino por donde circula el tren, así que tiene un significado muy cercano."},
+    {"word": "platform", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El andén es donde los pasajeros esperan el tren; 'train platform' es una combinación típica."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'train' se asocia con lugares, documentos y elementos del viaje ferroviario, pero no con objetos de casa ni de jardinería."
+}
