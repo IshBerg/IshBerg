@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known the full consequences in advance,",
+  "correct_completion": "she would never have signed the contract.",
+  "full_sentence": "Had she known the full consequences in advance, she would never have signed the contract.",
+  "acceptable_variants": ["she would have refused to sign it.", "she would not have agreed to the terms."],
+  "options": [
+    {"text": "she might sign the contract tomorrow.", "is_correct": false, "why_wrong": "The future time reference does not match the past hypothetical set up by 'Had she known'."},
+    {"text": "she will never sign any contract again.", "is_correct": false, "why_wrong": "This uses a future tense, but the inverted third conditional needs a past hypothetical result with 'would have' plus a past participle."},
+    {"text": "she would never have signed the contract.", "is_correct": true, "why_wrong": null},
+    {"text": "she knew the contract was unfair.", "is_correct": false, "why_wrong": "This states a past fact rather than the result of an unreal condition, so it does not complete the conditional started by 'Had she known'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle, then would have + past participle)",
+  "connector": "had",
+  "explanation": "The inverted form 'Had she known' replaces 'If she had known', so the main clause must use 'would have' plus a past participle to express an unreal past result. Portuguese speakers may need extra practice with this structure because the auxiliary inversion is not used in the same way in their first language.",
+  "translation": "Se tivesse conhecido todas as consequências com antecedência, ela nunca teria assinado o contrato."
+}
