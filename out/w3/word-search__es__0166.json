@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["C", "H", "A", "N", "C", "E", "K", "Q", "H"],
+    ["Z", "M", "Y", "L", "W", "G", "J", "V", "A"],
+    ["P", "R", "O", "O", "F", "L", "Q", "W", "B"],
+    ["V", "B", "N", "E", "J", "Z", "X", "M", "I"],
+    ["T", "G", "K", "P", "D", "Y", "U", "N", "T"],
+    ["M", "R", "Q", "L", "R", "B", "C", "F", "H"],
+    ["J", "K", "U", "W", "A", "X", "Z", "P", "T"],
+    ["Q", "V", "G", "S", "F", "M", "N", "D", "Y"],
+    ["L", "E", "V", "O", "T", "G", "J", "Q", "K"]
+  ],
+  "words_to_find": ["CHANCE", "HABIT", "TRUST", "DRAFT", "PROOF"],
+  "word_positions": [
+    {"word": "CHANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HABIT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TRUST", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DRAFT", "start_row": 4, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "PROOF", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists A and B"
+}
