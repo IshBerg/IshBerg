@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "R", "I", "C", "E", "C", "C"],
+    ["K", "D", "T", "Z", "W", "H", "A"],
+    ["J", "Y", "F", "M", "B", "A", "S"],
+    ["C", "O", "I", "N", "V", "N", "H"],
+    ["Q", "Z", "X", "D", "U", "G", "K"],
+    ["W", "S", "A", "L", "E", "E", "R"],
+    ["P", "J", "V", "T", "Q", "B", "Z"]
+  ],
+  "words_to_find": ["PRICE", "CASH", "COIN", "SALE", "CHANGE"],
+  "word_positions": [
+    {"word": "PRICE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CASH", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "COIN", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SALE", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "CHANGE", "start_row": 0, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Shopping and Money"
+}

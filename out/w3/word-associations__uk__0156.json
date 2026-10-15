@@ -1,0 +1,14 @@
+{
+  "trigger_word": "tree",
+  "all_words": [
+    {"word": "leaf", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Листок є частиною дерева, тому слова 'tree' і 'leaf' пов'язані за змістом."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Автомобіль не має відношення до дерев і природи, тому зв'язку між словами немає."},
+    {"word": "forest", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ліс складається з дерев, тому це слово тематично пов'язане з 'tree'."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Хліб є їжею, а не частиною природи чи дерева, тому зв'язку немає."},
+    {"word": "climb", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ми говоримо 'climb a tree' (лізти на дерево), тому це типове словосполучення."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не пов'язаний з деревами, тому він не належить до цієї групи слів."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'tree' пов'язане з частинами дерева, природним середовищем та типовими дієсловами, а предмети побуту і їжа з ним не пов'язані."
+}

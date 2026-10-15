@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "By the time we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had already gone.", "the train had left."],
+  "options": [
+    {"text": "we will catch the train.", "is_correct": false, "why_wrong": "The stem is in the past, so a future verb does not fit the time frame set by 'by the time'."},
+    {"text": "the train is leaving now.", "is_correct": false, "why_wrong": "The present tense does not fit a sentence set in the past, and it does not show an action finished before another past action."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null},
+    {"text": "the train left us behind.", "is_correct": false, "why_wrong": "This is past simple, which does not show the earlier action that the past perfect expresses."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past perfect with 'by the time'",
+  "connector": "by the time",
+  "explanation": "With 'by the time', the past perfect shows which action finished first. The train left before the arrival, so the completion must use had plus the past participle. Speakers whose first language has no separate perfect tense often choose the simple past here, so check the order of the two past actions.",
+  "translation": "Коли ми прибули на вокзал, потяг уже відійшов."
+}
