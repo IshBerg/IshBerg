@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When the bus arrived at the station,",
+  "correct_completion": "we took our bags and got off.",
+  "full_sentence": "When the bus arrived at the station, we took our bags and got off.",
+  "acceptable_variants": ["we picked up our luggage and stepped off.", "we grabbed our bags and left the bus."],
+  "options": [
+    {"text": "it was very cold outside.", "is_correct": false, "why_wrong": "This describes the weather, but it does not continue the sequence of actions that follows 'when'."},
+    {"text": "so we had lunch at home.", "is_correct": false, "why_wrong": "'So' signals a result, but the sentence needs a main action that happens after the time clause introduced by 'when'."},
+    {"text": "we took our bags and got off.", "is_correct": true, "why_wrong": null},
+    {"text": "the driver was sleeping.", "is_correct": false, "why_wrong": "This is background information, not the main action that follows the time clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple irregular verbs (take/took, get/got) in a 'when' time clause",
+  "connector": "when",
+  "explanation": "After 'when', the main clause must describe the action that happens at that moment. Irregular past forms such as 'took' and 'got' are needed here.",
+  "translation": "Otobüs istasyona vardığında, çantalarımızı alıp indik."
+}
