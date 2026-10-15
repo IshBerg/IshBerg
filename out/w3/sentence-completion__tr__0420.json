@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I didn't reply to your text message because",
+  "correct_completion": "my phone battery was dead.",
+  "full_sentence": "I didn't reply to your text message because my phone battery was dead.",
+  "acceptable_variants": ["my phone was off.", "I was busy with work."],
+  "options": [
+    {"text": "I really liked your new photo.", "is_correct": false, "why_wrong": "This is a comment about a photo, not a reason for missing the reply, so it does not complete the 'because' clause."},
+    {"text": "so I was happy to answer.", "is_correct": false, "why_wrong": "'So' cannot follow 'because', and the clause says the speaker was happy to answer, which contradicts not replying."},
+    {"text": "my phone battery was dead.", "is_correct": true, "why_wrong": null},
+    {"text": "I will call you tomorrow.", "is_correct": false, "why_wrong": "This is a future plan, not a reason for the past action, so it does not explain the cause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason for an action. After it, we need a clause that explains why the speaker did not reply, so the completion must give a real cause.",
+  "translation": "Mesajınıza telefonumun şarjı bittiği için cevap vermedim."
+}
