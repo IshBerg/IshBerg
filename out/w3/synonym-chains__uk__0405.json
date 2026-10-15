@@ -1,0 +1,23 @@
+{
+  "central_word": "important",
+  "chain_words": [
+    {"word": "trivial", "intensity": 1, "translation": "тривіальний", "nuance": "so small that it hardly matters"},
+    {"word": "minor", "intensity": 2, "translation": "другорядний", "nuance": "less important than the main issue"},
+    {"word": "notable", "intensity": 3, "translation": "помітний", "nuance": "worth attention and clearly noticeable"},
+    {"word": "significant", "intensity": 4, "translation": "значний", "nuance": "large enough to have a real effect"},
+    {"word": "crucial", "intensity": 5, "translation": "вирішальний", "nuance": "essential, with success or failure depending on it"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These adjectives all describe how much something matters, moving from almost no importance to something on which an outcome depends.",
+  "usage_notes": [
+    {"word1": "significant", "word2": "crucial", "difference": "'Significant' describes a large effect that may be measurable; 'crucial' means something is essential, and the outcome depends on it."}
+  ],
+  "translations": {
+    "trivial": "тривіальний",
+    "minor": "другорядний",
+    "notable": "помітний",
+    "significant": "значний",
+    "crucial": "вирішальний"
+  }
+}

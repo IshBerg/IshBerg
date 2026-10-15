@@ -1,0 +1,14 @@
+{
+  "trigger_word": "journal",
+  "all_words": [
+    {"word": "editor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Редактор працює з рукописами та публікаціями, тому його робота безпосередньо пов'язана з журналом."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Вулкан є природним явищем і не має жодного зв'язку з публікацією журналів."},
+    {"word": "manuscript", "is_associated": true, "association_type": "THEMATIC", "explanation": "Рукопис є текстом, який автор подає до журналу для розгляду та публікації."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Жираф є твариною, яка не має відношення до журналів чи видавничої справи."},
+    {"word": "citation", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Цитування є усталеним терміном у сполученнях, що описують посилання на статті журналу."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Міст є інженерною спорудою, яка не пов'язана з журналами."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова стосуються видавничого процесу журналу, тоді як слова без зв'язку належать до зовсім інших сфер життя."
+}
