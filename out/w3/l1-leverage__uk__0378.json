@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop, store"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "батон", "transliteration": "baton", "meaning": "loaf of bread"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "current, up-to-date"}
+  ],
+  "english_words": ["fabric", "actual", "magazine", "baton"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Ukrainian words look almost identical to their English counterparts because both languages drew on similar sources, but the meanings drifted apart over time, so the forms look alike while the meanings differ.",
+  "false_friend_warning": "The Ukrainian word spelled mahazyn looks like the English word 'magazine', but it means a shop or store; the English 'magazine' is a periodical. Likewise, fabryka means factory, not 'fabric', which means cloth, and aktualnyi means current or up-to-date, not 'actual', which means real."
+}
