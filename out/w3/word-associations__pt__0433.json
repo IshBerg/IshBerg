@@ -1,0 +1,14 @@
+{
+  "trigger_word": "song",
+  "all_words": [
+    {"word": "sing", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Sing' significa cantar, a ação que fazemos com uma música, por isso está diretamente ligada a 'song'."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "'Table' significa mesa e não tem nenhuma relação com músicas."},
+    {"word": "dance", "is_associated": true, "association_type": "THEMATIC", "explanation": "Muitas action songs para crianças têm movimentos de dança, então os dois temas se combinam."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "'Rain' significa chuva e não se relaciona com música nem com canções."},
+    {"word": "music", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Music' é a categoria geral à qual uma song pertence, por isso o significado é muito próximo."},
+    {"word": "clap", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês dizemos 'clap along to a song' (bater palmas acompanhando a música), por isso 'clap' é uma colocação comum com 'song'."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'song' (música) está associada a cantar, à música em si e a movimentos como dançar e bater palmas, que fazem parte das action songs."
+}
