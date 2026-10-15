@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat water to 100 degrees,",
+  "correct_completion": "it boils.",
+  "full_sentence": "If you heat water to 100 degrees, it boils.",
+  "acceptable_variants": ["it starts to boil.", "it turns into steam."],
+  "options": [
+    {"text": "it will boil.", "is_correct": false, "why_wrong": "'Will' is used in the first conditional for a possible future result. A scientific fact that is always true takes the present simple."},
+    {"text": "it boiled yesterday.", "is_correct": false, "why_wrong": "The past simple refers to a finished event in the past, not to a general fact that happens whenever the condition is met."},
+    {"text": "it boils.", "is_correct": true, "why_wrong": null},
+    {"text": "it would boil.", "is_correct": false, "why_wrong": "'Would' is used in the second conditional for imagined or unreal situations, not for general facts."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional with the present simple",
+  "connector": "if",
+  "explanation": "The zero conditional describes facts that are always true when a condition is met. Both clauses use the present simple. Learners whose first language uses a conditional marker in the result clause often add a modal verb here, but English uses the present simple for general truths.",
+  "translation": "Jeśli podgrzejesz wodę do 100 stopni, woda się gotuje."
+}

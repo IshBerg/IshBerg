@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, pleasant, likeable"},
+    {"word": "fabryka", "transliteration": "fabryka", "meaning": "factory"}
+  ],
+  "english_words": ["factory", "nice", "current", "possibly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Polish and English share many Latin and international roots, so some words look alike. Over time, however, their meanings drifted apart, so a familiar-looking word can mean something completely different.",
+  "false_friend_warning": "Watch out for the Polish word that looks like the English word 'actual', but means current or up to date, not real. The Polish word that looks like 'eventually' means possibly or if necessary, not in the end after some time."
+}
