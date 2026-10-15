@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "трагедія", "transliteration": "tragediia", "meaning": "a serious work in which the main character suffers a great loss"},
+    {"word": "метафора", "transliteration": "metafora", "meaning": "a figure of speech that describes one thing as another"},
+    {"word": "іронія", "transliteration": "ironiia", "meaning": "a contrast between what is said and what is meant"},
+    {"word": "драма", "transliteration": "drama", "meaning": "a play or a serious story about human conflict"}
+  ],
+  "english_words": ["irony", "drama", "metaphor", "tragedy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each English word shares its spelling and meaning with its Ukrainian counterpart because both languages inherited these literary terms from Greek and Latin. The English list is shuffled so the matching is not simply in the same order.",
+  "false_friend_warning": null
+}
