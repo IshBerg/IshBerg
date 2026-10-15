@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "V", "I", "D", "E", "N", "C", "E", "K"],
+    ["V", "Q", "X", "H", "B", "W", "Y", "Z", "J"],
+    ["S", "A", "K", "P", "G", "U", "F", "X", "L"],
+    ["A", "M", "R", "D", "Q", "W", "J", "O", "F"],
+    ["M", "D", "Z", "I", "K", "V", "R", "H", "Y"],
+    ["P", "A", "N", "G", "A", "T", "X", "Q", "C"],
+    ["L", "T", "S", "K", "N", "B", "Q", "W", "M"],
+    ["E", "A", "P", "O", "U", "H", "L", "Y", "Z"],
+    ["J", "X", "C", "K", "Q", "F", "W", "E", "D"]
+  ],
+  "words_to_find": ["EVIDENCE", "VARIABLE", "SAMPLE", "CONTROL", "DATA"],
+  "word_positions": [
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VARIABLE", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SAMPLE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "CONTROL", "start_row": 8, "start_col": 2, "direction": "DIAGONAL_UP"},
+    {"word": "DATA", "start_row": 4, "start_col": 1, "direction": "VERTICAL"}
+  ],
+  "topic": "Science, Research and Evidence"
+}

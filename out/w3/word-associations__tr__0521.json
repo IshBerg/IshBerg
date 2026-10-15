@@ -1,0 +1,14 @@
+{
+  "trigger_word": "piano",
+  "all_words": [
+    {"word": "play", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Piano' kelimesi 'play' ile birlikte kullanılır: play the piano (piyano çalmak)."},
+    {"word": "football", "is_associated": false, "association_type": "NONE", "explanation": "Futbol bir spor dalıdır, bir müzik aleti değildir, bu yüzden piyanoyla ilgisi yoktur."},
+    {"word": "music", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Piyano müziğin en önemli aletlerinden biridir, bu yüzden anlamsal olarak bağlantılıdır."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Mutfak yemek yapılan bir yerdir, piyanoyla bir bağlantısı yoktur."},
+    {"word": "keyboard", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Piyanonun tuşları klavye olarak adlandırılır, bu yüzden iki kelime anlamca bağlantılıdır."},
+    {"word": "lesson", "is_associated": true, "association_type": "THEMATIC", "explanation": "Piyano dersi alınır, bu yüzden 'lesson' kelimesi piyano konusuyla tematik olarak ilişkilidir."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Piyano ile ilişkili kelimeler müzik, çalma eylemi, aletin parçaları ve öğrenme sürecidir. Futbol ve mutfak bu konuya ait değildir."
+}
