@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "O médico trabalha principalmente no hospital, por isso as duas palavras estão ligadas ao mesmo ambiente de trabalho."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "A guitarra é um instrumento musical e não tem relação com o trabalho do médico."},
+    {"word": "patient", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "As expressões 'doctor and patient' (médico e paciente) são usadas juntas com frequência."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "O rio é um elemento da natureza e não se relaciona com a profissão de médico."},
+    {"word": "medicine", "is_associated": true, "association_type": "THEMATIC", "explanation": "O médico receita medicamentos aos pacientes, então a palavra 'medicine' está diretamente ligada à profissão."},
+    {"word": "cake", "is_associated": false, "association_type": "NONE", "explanation": "O bolo é um alimento e não tem ligação com a profissão de médico."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'doctor' se associa a lugares, pessoas e produtos ligados ao trabalho médico; as outras palavras pertencem a temas diferentes."
+}
