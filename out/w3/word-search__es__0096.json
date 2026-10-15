@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["W", "O", "O", "D", "X", "B", "G"],
+    ["P", "R", "Q", "U", "Z", "N", "L"],
+    ["Y", "J", "S", "F", "C", "H", "A"],
+    ["C", "Q", "I", "U", "V", "K", "S"],
+    ["J", "D", "L", "W", "B", "P", "S"],
+    ["F", "Z", "K", "N", "Y", "Q", "R"],
+    ["M", "E", "T", "A", "L", "V", "X"]
+  ],
+  "words_to_find": ["WOOD", "GLASS", "SILK", "METAL"],
+  "word_positions": [
+    {"word": "WOOD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLASS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SILK", "start_row": 2, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "METAL", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Materials and Textures"
+}
