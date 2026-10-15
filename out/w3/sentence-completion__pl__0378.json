@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem seems simple at first,",
+  "correct_completion": "its hidden meaning only becomes clear after several readings.",
+  "full_sentence": "Although the poem seems simple at first, its hidden meaning only becomes clear after several readings.",
+  "acceptable_variants": ["its meaning is still deeper than it appears.", "the poet's message is hidden beneath the surface."],
+  "options": [
+    {"text": "so the teacher asked us to read it again.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. 'Although' requires a clause that contrasts with the first part."},
+    {"text": "we wrote a poem about it for homework.", "is_correct": false, "why_wrong": "This is an unrelated action and does not contrast with the idea that the poem seems simple."},
+    {"text": "its hidden meaning only becomes clear after several readings.", "is_correct": true, "why_wrong": null},
+    {"text": "it has four stanzas and a regular rhyme scheme.", "is_correct": false, "why_wrong": "This describes the form of the poem but does not create the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "'Although' introduces a contrast. The first part says the poem seems simple, so the second part must show the opposite: its deeper meaning needs careful reading. Learners often write a result clause here, which is a common error.",
+  "translation": "Chociaż wiersz na początku wydaje się prosty, jego ukryte znaczenie staje się jasne dopiero po kilku czytaniach."
+}
