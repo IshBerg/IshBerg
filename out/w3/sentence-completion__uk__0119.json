@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will not go out.", "we will stay inside."],
+  "options": [
+    {"text": "we would go to the beach.", "is_correct": false, "why_wrong": "'Would' is used for unreal or hypothetical situations. The first conditional describes a real possible future and needs 'will'."},
+    {"text": "we stayed at home yesterday.", "is_correct": false, "why_wrong": "The past simple refers to a finished time in the past, so it does not match the future situation set up by 'tomorrow'."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we have stayed at home.", "is_correct": false, "why_wrong": "The present perfect describes a finished action linked to now. It does not give the future result of the condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional: if + present simple, will + base verb",
+  "connector": "if",
+  "explanation": "The first conditional describes a real and possible future situation. After 'if' English uses the present simple even when the meaning is future, and the main clause uses 'will' with the base verb. Ukrainian speakers often put a future form into the if-clause, which is incorrect in English.",
+  "translation": "Якщо завтра піде дощ, ми залишимося вдома."
+}

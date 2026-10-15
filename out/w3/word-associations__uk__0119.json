@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Медсестра працює в медичному закладі разом із лікарем і допомагає пацієнтам."},
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лікарі зазвичай працюють у лікарні, тому ці слова належать до однієї теми."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Хліб є продуктом харчування і не має прямого зв'язку з роботою лікаря."},
+    {"word": "medicine", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Лікар призначає ліки, тому слово medicine пов'язане зі словом doctor."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець є канцелярським приладдям і не пов'язаний з медициною."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Вікно є частиною будівлі й не має прямого зв'язку зі словом doctor."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова nurse, hospital і medicine пов'язані з роботою лікаря, а bread, pencil і window до неї не належать."
+}

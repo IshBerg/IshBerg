@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["G", "E", "N", "U", "I", "N", "E", "Q", "W", "M"],
+    ["K", "L", "P", "R", "T", "Y", "U", "I", "A", "O"],
+    ["B", "X", "Z", "C", "J", "K", "W", "Q", "H", "D"],
+    ["P", "R", "Z", "X", "Q", "W", "K", "J", "M", "E"],
+    ["T", "Y", "A", "Z", "Q", "X", "W", "K", "J", "S"],
+    ["L", "M", "N", "V", "Q", "X", "Z", "W", "K", "T"],
+    ["Q", "W", "X", "Z", "E", "J", "K", "L", "P", "N"],
+    ["H", "J", "K", "L", "M", "N", "P", "Q", "S", "T"],
+    ["X", "Z", "C", "V", "L", "A", "G", "U", "R", "F"],
+    ["P", "O", "I", "U", "Y", "T", "R", "E", "W", "Q"]
+  ],
+  "words_to_find": ["GENUINE", "MODEST", "BRAVE", "FRUGAL"],
+  "word_positions": [
+    {"word": "GENUINE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MODEST", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "BRAVE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FRUGAL", "start_row": 8, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Nuanced Synonyms"
+}
