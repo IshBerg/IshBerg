@@ -1,0 +1,14 @@
+{
+  "trigger_word": "letter",
+  "all_words": [
+    {"word": "envelope", "is_associated": true, "association_type": "THEMATIC", "explanation": "El 'envelope' (sobre) es el objeto en el que se guarda una carta, por eso está temáticamente relacionado con 'letter'."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "La 'kettle' (tetera) es un objeto de cocina y no tiene ninguna relación con las cartas ni con la escritura."},
+    {"word": "stamp", "is_associated": true, "association_type": "THEMATIC", "explanation": "El 'stamp' (sello postal) se pone en una carta para enviarla, así que pertenece al mismo campo temático."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La 'mountain' (montaña) pertenece al mundo de la naturaleza y no se relaciona con el correo ni con las cartas."},
+    {"word": "dear", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Dear' (estimado) forma parte de la fórmula de saludo de una carta formal, como en 'Dear Sir', por lo que es una colocación habitual con 'letter'."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El 'shoe' (zapato) es una prenda de vestir y no tiene relación con las cartas."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'letter' (carta) se asocia con el sobre, el sello y las fórmulas de saludo como 'Dear'; los objetos de cocina, la naturaleza y la ropa no tienen relación con ella."
+}
