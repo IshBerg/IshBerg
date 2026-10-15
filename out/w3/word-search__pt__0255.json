@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E","A","S","T","E","R","Q","K","X","D"],
+    ["B","N","J","P","T","U","Z","G","M","I"],
+    ["H","R","Y","F","K","Q","X","B","J","W"],
+    ["P","O","D","F","Z","K","T","M","S","A"],
+    ["G","N","L","V","C","W","B","Y","H","L"],
+    ["T","R","X","I","M","Q","F","Z","P","I"],
+    ["S","K","J","U","D","N","V","C","R","G"],
+    ["A","B","W","M","E","A","Y","Q","T","X"],
+    ["E","F","S","K","Z","P","Y","N","U","J"],
+    ["F","G","L","A","V","I","N","R","A","C"]
+  ],
+  "words_to_find": ["EASTER", "DIWALI", "CARNIVAL", "HOLIDAY", "FEAST"],
+  "word_positions": [
+    {"word": "EASTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DIWALI", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "CARNIVAL", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "HOLIDAY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FEAST", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Holidays Around the World"
+}

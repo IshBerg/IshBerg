@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bread",
+  "all_words": [
+    {"word": "butter", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'bread and butter' é muito comum e significa algo básico e essencial, por isso existe uma associação colocacional."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanha não tem relação com pão, nem no sentido literal nem em expressões comuns."},
+    {"word": "loaf", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pão de forma, ou 'loaf', é uma forma específica de pão, por isso há uma associação semântica direta."},
+    {"word": "stone", "is_associated": false, "association_type": "NONE", "explanation": "Pedra não está ligada ao pão, embora seja um alimento duro em algumas expressões populares."},
+    {"word": "toast", "is_associated": true, "association_type": "THEMATIC", "explanation": "Torrada é um tipo de pão preparado e servido à mesa, por isso se relaciona ao tema do pão e do café da manhã."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Deserto não tem nenhuma ligação com pão ou com alimentação comum."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'bread' se associa a termos de alimentação, a expressões idiomáticas como 'bread and butter' e a tipos de pão, enquanto palavras de paisagem ou de objetos sem relação com alimentos não se associam a ela."
+}
