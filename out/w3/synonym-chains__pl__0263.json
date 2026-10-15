@@ -1,0 +1,23 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "unhappy", "intensity": 1, "translation": "niezadowolony", "nuance": "mildly dissatisfied, not fully content"},
+    {"word": "sad", "intensity": 2, "translation": "smutny", "nuance": "general feeling of unhappiness"},
+    {"word": "miserable", "intensity": 3, "translation": "przygnębiony", "nuance": "low spirits that last for a long time"},
+    {"word": "heartbroken", "intensity": 4, "translation": "zrozpaczony", "nuance": "deep sorrow, often after a loss"},
+    {"word": "devastated", "intensity": 5, "translation": "załamany", "nuance": "overwhelming shock and grief"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe unhappiness, moving from mild dissatisfaction to overwhelming grief.",
+  "usage_notes": [
+    {"word1": "sad", "word2": "heartbroken", "difference": "'Sad' describes a general feeling that can have many causes; 'heartbroken' describes intense sorrow that is usually caused by a specific loss or disappointment."}
+  ],
+  "translations": {
+    "unhappy": "niezadowolony",
+    "sad": "smutny",
+    "miserable": "przygnębiony",
+    "heartbroken": "zrozpaczony",
+    "devastated": "załamany"
+  }
+}
