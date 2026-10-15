@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "U", "N", "D", "A", "Y", "Q", "W", "E", "M"],
+    ["K", "P", "L", "R", "T", "Z", "X", "B", "V", "O"],
+    ["T", "U", "E", "S", "D", "A", "Y", "H", "J", "N"],
+    ["G", "Q", "W", "L", "M", "C", "F", "K", "P", "D"],
+    ["F", "B", "C", "H", "G", "J", "K", "L", "Q", "A"],
+    ["X", "R", "M", "Z", "T", "V", "B", "N", "C", "Y"],
+    ["P", "O", "I", "G", "L", "K", "V", "B", "T", "X"],
+    ["W", "N", "Q", "D", "Z", "C", "L", "V", "H", "R"],
+    ["J", "K", "L", "M", "A", "P", "Z", "C", "Q", "W"],
+    ["B", "N", "T", "F", "H", "Y", "X", "Z", "K", "P"]
+  ],
+  "words_to_find": ["SUNDAY", "MONDAY", "TUESDAY", "FRIDAY"],
+  "word_positions": [
+    {"word": "SUNDAY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MONDAY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "TUESDAY", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FRIDAY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"}
+  ],
+  "topic": "Days of the Week"
+}

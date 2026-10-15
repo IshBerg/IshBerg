@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she studied harder,",
+  "correct_completion": "she would have passed the exam.",
+  "full_sentence": "Had she studied harder, she would have passed the exam.",
+  "acceptable_variants": ["she would have got a better grade.", "she might have passed the exam."],
+  "options": [
+    {"text": "she would pass the exam now.", "is_correct": false, "why_wrong": "'Would pass now' describes a present hypothetical. The stem uses 'had' plus a past participle, which refers to an unreal past condition, so the result must also refer to the past."},
+    {"text": "she will pass the exam.", "is_correct": false, "why_wrong": "The future 'will' does not match an unreal past condition. The main clause needs 'would have' plus a past participle."},
+    {"text": "she would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she passed the exam easily.", "is_correct": false, "why_wrong": "The simple past states a real past event. It does not express the unreal result of a condition that did not happen."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' (unreal past)",
+  "connector": "had",
+  "explanation": "In an inverted third conditional, 'had' replaces 'if' and moves before the subject, and the main clause uses would have plus the past participle. Portuguese speakers often lean on a single past conditional form for both clauses, so the English two-part structure needs separate practice.",
+  "translation": "Se ela tivesse estudado mais, teria passado no exame."
+}

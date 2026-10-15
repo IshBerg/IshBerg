@@ -1,0 +1,23 @@
+{
+  "central_word": "worried",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "inquieto", "nuance": "vague feeling that something is not quite right"},
+    {"word": "concerned", "intensity": 2, "translation": "preocupado", "nuance": "caring about a situation that might go wrong"},
+    {"word": "worried", "intensity": 3, "translation": "apreensivo", "nuance": "general feeling of concern about a problem"},
+    {"word": "anxious", "intensity": 4, "translation": "ansioso", "nuance": "persistent nervousness about the future"},
+    {"word": "terrified", "intensity": 5, "translation": "aterrorizado", "nuance": "overwhelming fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express unease about something, but with different intensities, from a faint sense of doubt to overwhelming fear.",
+  "usage_notes": [
+    {"word1": "anxious", "word2": "worried", "difference": "'Worried' usually refers to concern about a specific problem. 'Anxious' describes a deeper and more persistent state of nervousness."}
+  ],
+  "translations": {
+    "uneasy": "inquieto",
+    "concerned": "preocupado",
+    "worried": "apreensivo",
+    "anxious": "ansioso",
+    "terrified": "aterrorizado"
+  }
+}
