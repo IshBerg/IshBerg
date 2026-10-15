@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results appear to suggest a correlation, although",
+  "correct_completion": "causation cannot be established from this data alone.",
+  "full_sentence": "The results appear to suggest a correlation, although causation cannot be established from this data alone.",
+  "acceptable_variants": ["a causal link cannot be confirmed with this evidence alone.", "further research would be needed to confirm the mechanism."],
+  "options": [
+    {"text": "the researchers are certain of their findings.", "is_correct": false, "why_wrong": "This is a strong claim of certainty, which conflicts with the hedged tone of 'appear to suggest' and gives no contrast with the correlation."},
+    {"text": "the results definitely prove that income causes the effect.", "is_correct": false, "why_wrong": "This asserts a firm causal conclusion, so it does not create the concessive contrast that 'although' requires."},
+    {"text": "causation cannot be established from this data alone.", "is_correct": true, "why_wrong": null},
+    {"text": "the sample size was far too small to be useful.", "is_correct": false, "why_wrong": "This is a separate criticism of the method, not a concession that contrasts with the claim of a correlation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'although' combined with hedged academic claims",
+  "connector": "although",
+  "explanation": "After 'although', the clause must concede a limit to the first claim. Academic writers often use this pattern to qualify a correlation without denying it.",
+  "translation": "Sonuçlar bir korelasyon olduğunu öne sürüyor gibi görünse de, yalnızca bu verilerden nedensellik kesin olarak saptanamaz."
+}

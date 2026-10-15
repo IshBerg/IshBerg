@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "fare", "transliteration": "fare", "meaning": "mouse"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "nice"},
+    {"word": "lokal", "transliteration": "lokal", "meaning": "pub"},
+    {"word": "ekran", "transliteration": "ekran", "meaning": "screen"}
+  ],
+  "english_words": ["pub", "mouse", "nice", "screen"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "The Turkish words in this card look like English words but do not share a meaning with them. The resemblance is accidental, so learners cannot rely on form alone.",
+  "false_friend_warning": "Watch out: the Turkish word that resembles the English word 'fare' means 'mouse', not a ticket price. The Turkish word that resembles 'sympathetic' means 'nice', not 'compassionate', so do not translate it by sound."
+}

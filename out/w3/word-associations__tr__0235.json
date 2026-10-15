@@ -1,0 +1,14 @@
+{
+  "trigger_word": "contract",
+  "all_words": [
+    {"word": "signature", "is_associated": true, "association_type": "THEMATIC", "explanation": "İmza, sözleşmenin geçerli olması için atılan ortak bir adımdır; bu yüzden konuyla tematik olarak ilişkilidir."},
+    {"word": "clause", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Madde, sözleşmenin içinde yer alan ve anlamsal olarak ona ait olan bir bölümdür."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "Domatesin sözleşmeyle ne anlamsal ne de kullanım açısından bir bağlantısı vardır."},
+    {"word": "sign", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "İngilizcede 'sign a contract' (sözleşme imzalamak) kalıbı yaygın olarak kullanılır, bu yüzden eş dizimsel bir ilişki vardır."},
+    {"word": "elephant", "is_associated": false, "association_type": "NONE", "explanation": "Filin sözleşmeyle ne anlam ne de tema olarak bir bağlantısı yoktur."},
+    {"word": "contact", "is_associated": true, "association_type": "PHONETIC", "explanation": "Contact, contract ile sesçe benzediği için sesbilimsel olarak ilişkilidir; öğrenciler bu iki kelimeyi karıştırabilir."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Sözleşme kelimesinin çağrışımları tema, anlamsal yakınlık, yaygın kullanım kalıbı ve ses benzerliği üzerinden kurulmuştur; diğerleri bu ilişkilerin hiçbirine girmez."
+}
