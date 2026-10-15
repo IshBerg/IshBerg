@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R","E","V","I","E","W","K","S"],
+    ["Q","O","B","J","D","M","Z","T"],
+    ["L","F","D","H","C","Y","U","A"],
+    ["K","X","W","B","G","N","Q","R"],
+    ["T","E","J","O","V","P","D","S"],
+    ["R","A","T","I","N","G","M","Z"],
+    ["C","U","H","L","F","B","W","Y"],
+    ["P","R","A","I","S","E","K","J"]
+  ],
+  "words_to_find": ["REVIEW", "STARS", "RATING", "PRAISE"],
+  "word_positions": [
+    {"word": "REVIEW", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STARS", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "RATING", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PRAISE", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Reviews"
+}
