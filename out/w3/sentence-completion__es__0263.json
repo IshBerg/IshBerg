@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have got a better grade.", "I would have felt more confident."],
+  "options": [
+    {"text": "I would pass the exam now.", "is_correct": false, "why_wrong": "'Now' places the result in the present, but the stem describes a past condition that did not happen, so a past perfect result is needed."},
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "A future form does not fit a third conditional, which describes an unreal situation in the past."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I passed the exam yesterday.", "is_correct": false, "why_wrong": "This is a simple statement of fact, so it cannot complete a conditional that begins with 'if'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with modal perfect: would have + past participle",
+  "connector": "if",
+  "explanation": "The stem uses the past perfect after 'if' to describe an unreal past condition, so the result clause needs would have plus the past participle. Learners should keep the modal and the perfect form together.",
+  "translation": "Si hubiera estudiado más, habría aprobado el examen."
+}
