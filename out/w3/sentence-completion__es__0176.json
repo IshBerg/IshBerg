@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Under no circumstances",
+  "correct_completion": "should the company disclose its clients' private data to third parties.",
+  "full_sentence": "Under no circumstances should the company disclose its clients' private data to third parties.",
+  "acceptable_variants": ["must the company disclose its clients' private data to third parties.", "should the company ever disclose its clients' private data to third parties."],
+  "options": [
+    {"text": "the company would never disclose its clients' private data to third parties.", "is_correct": false, "why_wrong": "'Never' repeats the negative already implied by the fronted phrase, and the fronted negative still requires inversion, so the subject-auxiliary order here is wrong."},
+    {"text": "the company disclosed its clients' private data to third parties.", "is_correct": false, "why_wrong": "The simple past describes a completed action and does not express the prohibition the stem sets up; the fronted negative phrase also requires an inverted structure."},
+    {"text": "should the company disclose its clients' private data to third parties.", "is_correct": true, "why_wrong": null},
+    {"text": "the company should disclose its clients' private data to third parties.", "is_correct": false, "why_wrong": "Without inversion, this ignores the rule that a fronted negative phrase must be followed by an auxiliary placed before the subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion after fronted negative adverbial phrases",
+  "connector": "under no circumstances",
+  "explanation": "After a fronted negative phrase such as 'under no circumstances', English requires subject-auxiliary inversion, so the auxiliary must come before the subject. Learners often keep the normal subject-verb order because many languages do not require this inversion, so the rule has to be learned explicitly and practised in full sentences.",
+  "translation": "Bajo ninguna circunstancia debería la empresa revelar los datos privados de sus clientes a terceros."
+}
