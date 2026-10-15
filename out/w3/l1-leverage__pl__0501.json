@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"},
+    {"word": "muzeum", "transliteration": "muzeum", "meaning": "museum"},
+    {"word": "park", "transliteration": "park", "meaning": "park"},
+    {"word": "metro", "transliteration": "metro", "meaning": "subway"}
+  ],
+  "english_words": ["metro", "park", "hotel", "museum"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each of these words entered both languages from the same international source, so the spelling and sound stayed close in Polish and English.",
+  "false_friend_warning": null
+}
