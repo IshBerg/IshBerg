@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am hungry, so",
+  "correct_completion": "I order a sandwich from the menu.",
+  "full_sentence": "I am hungry, so I order a sandwich from the menu.",
+  "acceptable_variants": ["I look at the menu and choose a soup.", "I ask the waiter for a salad."],
+  "options": [
+    {"text": "I am not hungry at all.", "is_correct": false, "why_wrong": "This contradicts the stem and does not give a result of being hungry."},
+    {"text": "I order a sandwich from the menu.", "is_correct": true, "why_wrong": null},
+    {"text": "the restaurant is closed today.", "is_correct": false, "why_wrong": "This is a new fact, but it does not follow logically from being hungry."},
+    {"text": "the waiter is very tall.", "is_correct": false, "why_wrong": "This describes the waiter and has no logical link to being hungry."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Connector 'so' introducing a result clause",
+  "connector": "so",
+  "explanation": "'So' introduces a result, so the second part must be a logical consequence of the first part. Learners whose first language uses different word order for result clauses often put the subject in the wrong place after 'so', so check the order of subject and verb.",
+  "translation": "Я голодний, тому замовляю сендвіч з меню."
+}

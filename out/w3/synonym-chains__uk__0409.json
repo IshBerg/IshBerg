@@ -1,0 +1,17 @@
+{
+  "central_word": "challenge",
+  "chain_words": [
+    {"word": "question", "intensity": 1, "translation": "ставити під питання", "nuance": "ask whether something is true or correct"},
+    {"word": "doubt", "intensity": 2, "translation": "сумніватися", "nuance": "feel uncertain about whether a claim is valid"},
+    {"word": "dispute", "intensity": 3, "translation": "оскаржувати", "nuance": "argue formally against a statement or decision"},
+    {"word": "challenge", "intensity": 4, "translation": "заперечувати", "nuance": "openly contest an argument and demand proof"},
+    {"word": "refute", "intensity": 5, "translation": "спростовувати", "nuance": "prove an argument to be false"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "All five words express opposition to a claim, moving from a mild request for clarification to a full proof that the claim is false.",
+  "usage_notes": [
+    {"word1": "dispute", "word2": "challenge", "difference": "'Dispute' often describes a formal disagreement about facts or decisions; 'challenge' is more active and may demand evidence or a response from the other side."}
+  ],
+  "translations": {"question": "ставити під питання", "doubt": "сумніватися", "dispute": "оскаржувати", "challenge": "заперечувати", "refute": "спростовувати"}
+}
