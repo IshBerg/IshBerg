@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before in its history",
+  "correct_completion": "has the city faced such a severe economic crisis.",
+  "full_sentence": "Never before in its history has the city faced such a severe economic crisis.",
+  "acceptable_variants": ["has the city ever endured such a severe downturn.", "has the city ever faced a crisis of this magnitude."],
+  "options": [
+    {"text": "the city has faced such a severe economic crisis.", "is_correct": false, "why_wrong": "After a fronted negative expression such as 'never before', the auxiliary must invert with the subject, so this word order is ungrammatical here."},
+    {"text": "did the city face such a severe economic crisis.", "is_correct": false, "why_wrong": "'Did' signals a simple past event, while the stem needs the present perfect meaning of experience up to now, so the auxiliary is wrong."},
+    {"text": "has the city faced such a severe economic crisis.", "is_correct": true, "why_wrong": null},
+    {"text": "the city faced such a severe economic crisis.", "is_correct": false, "why_wrong": "This is a plain past statement with no inversion, which the fronted negative phrase requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion with fronted negative time expressions and the present perfect",
+  "connector": "never before",
+  "explanation": "Fronting a negative time expression for emphasis triggers inversion of the auxiliary and the subject. Learners often keep the normal statement word order in this position, which sounds unnatural in formal English.",
+  "translation": "Ніколи раніше в своїй історії місто не стикалося з такою серйозною економічною кризою."
+}
