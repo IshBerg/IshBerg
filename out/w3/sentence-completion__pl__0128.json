@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The shop where I buy bread",
+  "correct_completion": "is near my house.",
+  "full_sentence": "The shop where I buy bread is near my house.",
+  "acceptable_variants": ["is on the corner of my street.", "is open every day."],
+  "options": [
+    {"text": "who sells cheap bread.", "is_correct": false, "why_wrong": "'Who' refers to people, but the shop is a place, so the relative pronoun must be 'where' or 'which'."},
+    {"text": "when it is cold.", "is_correct": false, "why_wrong": "'When' refers to time, not to a place. The sentence needs a verb that says where the shop is."},
+    {"text": "is near my house.", "is_correct": true, "why_wrong": null},
+    {"text": "it sells cheap bread.", "is_correct": false, "why_wrong": "The stem already contains a relative clause, so adding a new subject 'it' with a verb creates a run-on sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clause with 'where' to describe a place",
+  "connector": "where",
+  "explanation": "The word 'where' introduces a relative clause that describes a place. After the relative clause, the main verb of the sentence must say something about the shop. Speakers whose first language does not separate place and person relative words often choose a pronoun meant for people, so remember that 'where' is the correct choice for places.",
+  "translation": "Sklep, w którym kupuję chleb, jest blisko mojego domu."
+}
