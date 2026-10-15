@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "atualmente", "transliteration": "atualmente", "meaning": "currently"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend"},
+    {"word": "eventualmente", "transliteration": "eventualmente", "meaning": "possibly, occasionally"}
+  ],
+  "english_words": ["to intend", "possibly", "currently", "to watch"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Portuguese words look close to English words because both languages inherited them from Latin, but over time their meanings drifted apart. The similarity in form is misleading and should not be used to guess the meaning.",
+  "false_friend_warning": "Learners often confuse the English word 'actually' with a similar-looking Portuguese word, which means 'currently' rather than 'in fact', so English 'actually' must not be translated with that word."
+}

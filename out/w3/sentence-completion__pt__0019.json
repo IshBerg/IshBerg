@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the test was difficult,",
+  "correct_completion": "most students passed it comfortably.",
+  "full_sentence": "Even though the test was difficult, most students passed it comfortably.",
+  "acceptable_variants": ["many students still passed it easily.", "most students passed it without much trouble."],
+  "options": [
+    {"text": "the teacher cancelled the class.", "is_correct": false, "why_wrong": "This is an unrelated event. 'Even though' needs a clause that contrasts with the difficulty mentioned in the stem."},
+    {"text": "most students passed it comfortably.", "is_correct": true, "why_wrong": null},
+    {"text": "so nobody needed to study.", "is_correct": false, "why_wrong": "'So' signals a result, which clashes with the concessive connector 'even though'."},
+    {"text": "the test was held in the morning.", "is_correct": false, "why_wrong": "This gives a neutral detail and does not show a contrast with the difficulty described in the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the main clause must show an outcome that goes against the expected effect of the difficulty. Learners sometimes choose a result clause introduced by 'so', which breaks the concessive relation.",
+  "translation": "Mesmo que a prova fosse difícil, a maioria dos alunos foi aprovada com facilidade."
+}
