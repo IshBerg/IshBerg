@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is not much rice in the box, so",
+  "correct_completion": "I need to buy more rice.",
+  "full_sentence": "There is not much rice in the box, so I need to buy more rice.",
+  "acceptable_variants": ["I should go to the shop for more rice.", "I must get another bag of rice."],
+  "options": [
+    {"text": "I will eat all the rice now.", "is_correct": false, "why_wrong": "This does not explain what should happen because of the small amount of rice, so it does not complete the logic of 'so'."},
+    {"text": "I need to buy more rice.", "is_correct": true, "why_wrong": null},
+    {"text": "the rice are very cold.", "is_correct": false, "why_wrong": "'Rice' is uncountable, so it takes a singular verb ('is'), not 'are'. It also does not give a reason or result."},
+    {"text": "I have many rices in my bag.", "is_correct": false, "why_wrong": "'Rice' is uncountable and has no plural form, so 'rices' is not used. It also contradicts the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Uncountable nouns such as 'rice' with 'much' and 'more'",
+  "connector": "so",
+  "explanation": "After 'so', the sentence needs a result that follows logically from the small amount of rice. Uncountable nouns like rice have no plural form and take singular verbs.",
+  "translation": "В коробці залишилося небагато рису, тому мені треба купити ще рису."
+}

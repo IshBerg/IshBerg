@@ -1,0 +1,14 @@
+{
+  "trigger_word": "shower",
+  "all_words": [
+    {"word": "towel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Після душу людина витирається рушником, тому ці слова пов'язані з однією щоденною ситуацією."},
+    {"word": "soap", "is_associated": true, "association_type": "THEMATIC", "explanation": "Мило використовують під час душу, щоб помитися."},
+    {"word": "water", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Душ подає воду, тому слово water має прямий змістовий зв'язок із душем."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно є музичним інструментом і не має відношення до душу."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Бутерброд є їжею і не пов'язаний з душем."},
+    {"word": "calendar", "is_associated": false, "association_type": "NONE", "explanation": "Календар показує дати, але не має прямого зв'язку з душем."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'shower', стосуються того, що потрібно під час або після прийняття душу."
+}
