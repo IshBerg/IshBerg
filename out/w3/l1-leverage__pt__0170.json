@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "eventualmente", "transliteration": "eventualmente", "meaning": "occasionally, possibly"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend, to plan"},
+    {"word": "realizar", "transliteration": "realizar", "meaning": "to carry out, to accomplish"},
+    {"word": "atualmente", "transliteration": "atualmente", "meaning": "currently, at present"}
+  ],
+  "english_words": ["currently", "occasionally", "intend", "carry out"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each Portuguese word looks close to an English word that sounds like it, but the two words have different core meanings. Learners who assume the forms match will choose the wrong English equivalent.",
+  "false_friend_warning": "This card contains four false friends. The Portuguese word that looks like 'eventually' means 'occasionally' or 'possibly', not 'in the end'. The word that looks like 'pretend' means 'intend', not 'make believe'. The word that looks like 'realize' means 'carry out', not 'become aware'. The word that looks like 'actually' means 'currently', not 'in fact'."
+}
