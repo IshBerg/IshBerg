@@ -1,0 +1,14 @@
+{
+  "trigger_word": "swimming",
+  "all_words": [
+    {"word": "pool", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówi się 'swimming pool', czyli basen, więc słowa 'pool' i 'swimming' często występują razem."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitara nie ma nic wspólnego z pływaniem."},
+    {"word": "goggles", "is_associated": true, "association_type": "THEMATIC", "explanation": "Okulary pływackie są używane podczas pływania, więc należą do tego samego tematu."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek jest przyborem szkolnym i nie wiąże się z pływaniem."},
+    {"word": "towel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ręcznik jest potrzebny po pływaniu, więc łączy się z tym tematem."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra to miejsce suche, które nie ma związku z pływaniem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Pływanie łączy się z basenem, okularami pływackimi i ręcznikiem, natomiast gitara, ołówek i góra nie należą do tego tematu."
+}
