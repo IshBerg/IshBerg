@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the cake looked perfect,",
+  "correct_completion": "it was not sweet enough.",
+  "full_sentence": "Although the cake looked perfect, it was not sweet enough.",
+  "acceptable_variants": ["it did not taste good.", "it needed more sugar."],
+  "options": [
+    {"text": "so we did not bake it again.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause or result. This completion gives a result instead of contrasting with the first part."},
+    {"text": "it was not sweet enough.", "is_correct": true, "why_wrong": null},
+    {"text": "it was made with eggs.", "is_correct": false, "why_wrong": "This adds a fact but does not contrast with how the cake looked."},
+    {"text": "we bought some bread.", "is_correct": false, "why_wrong": "This is unrelated to the cake, so it does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners often expect a result clause here, but the connector signals an unexpected difference.",
+  "translation": "Хоча торт виглядав ідеально, він був недостатньо солодким."
+}
