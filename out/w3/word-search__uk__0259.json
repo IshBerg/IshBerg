@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "A", "T", "E", "R", "X", "Q", "J", "Z", "S"],
+    ["B", "K", "Y", "O", "D", "N", "H", "C", "V", "L"],
+    ["G", "P", "M", "U", "W", "A", "Z", "D", "I", "E"],
+    ["N", "O", "R", "X", "L", "B", "Q", "K", "Y", "E"],
+    ["F", "D", "Q", "W", "A", "Z", "C", "M", "J", "P"],
+    ["H", "R", "O", "L", "V", "B", "Y", "X", "G", "N"],
+    ["Q", "Z", "U", "J", "K", "M", "C", "D", "A", "W"],
+    ["E", "S", "P", "I", "H", "V", "N", "Q", "O", "B"],
+    ["G", "Y", "F", "W", "T", "X", "C", "R", "U", "D"],
+    ["J", "A", "Q", "Z", "X", "F", "K", "L", "I", "M"]
+  ],
+  "words_to_find": ["WATER", "SLEEP", "FRUIT", "MILK"],
+  "word_positions": [
+    {"word": "WATER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLEEP", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "FRUIT", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MILK", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Healthy Habits"
+}
