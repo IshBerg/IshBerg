@@ -1,0 +1,17 @@
+{
+  "central_word": "cold",
+  "chain_words": [
+    {"word": "chilly", "intensity": 1, "translation": "fresquito", "nuance": "slightly cool, mildly uncomfortable"},
+    {"word": "cold", "intensity": 2, "translation": "frío", "nuance": "low temperature, clearly uncomfortable"},
+    {"word": "frigid", "intensity": 3, "translation": "gélido", "nuance": "very cold, unpleasantly so"},
+    {"word": "freezing", "intensity": 4, "translation": "glacial", "nuance": "cold enough to make you shiver hard"},
+    {"word": "frozen", "intensity": 5, "translation": "congelado", "nuance": "so cold that something has turned to ice"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe low temperature, rising from a slight chill to a state where water has turned to ice.",
+  "usage_notes": [
+    {"word1": "cold", "word2": "chilly", "difference": "'Cold' describes a clearly low temperature; 'chilly' describes a mild coolness that is only slightly uncomfortable."}
+  ],
+  "translations": {"chilly": "fresquito", "cold": "frío", "frigid": "gélido", "freezing": "glacial", "frozen": "congelado"}
+}

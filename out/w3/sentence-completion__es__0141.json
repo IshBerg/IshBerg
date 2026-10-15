@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The documents had been moved to a safer place,",
+  "correct_completion": "so the records could be checked by the new team.",
+  "full_sentence": "The documents had been moved to a safer place, so the records could be checked by the new team.",
+  "acceptable_variants": ["so the new team could check the records.", "so the files could be reviewed by experts."],
+  "options": [
+    {"text": "and the old building was painted yesterday.", "is_correct": false, "why_wrong": "This adds an unrelated event and does not explain the result of moving the documents."},
+    {"text": "so the records could be checked by the new team.", "is_correct": true, "why_wrong": null},
+    {"text": "although nobody had moved them.", "is_correct": false, "why_wrong": "This contradicts the stem, which already says the documents had been moved."},
+    {"text": "because the team opened the safe.", "is_correct": false, "why_wrong": "This shifts the focus to the team in active voice, while the stem focuses on the documents."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive voice with past perfect and modal 'could'",
+  "connector": "so",
+  "explanation": "The stem uses the past perfect passive, so the completion must show the result of that action. Spanish speakers often prefer an active structure with an unnamed subject, but here the records are the focus, so a passive modal construction fits better.",
+  "translation": "Los documentos se habían trasladado a un lugar más seguro, así que el nuevo equipo podía revisar los registros."
+}
