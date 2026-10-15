@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "at", "transliteration": "at", "meaning": "horse"},
+    {"word": "kedi", "transliteration": "kedi", "meaning": "cat"},
+    {"word": "inek", "transliteration": "inek", "meaning": "cow"},
+    {"word": "koyun", "transliteration": "koyun", "meaning": "sheep"}
+  ],
+  "english_words": ["sheep", "horse", "cow", "cat"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The first Turkish word is spelled exactly like an English word, so it looks like a cognate, but its meaning is completely unrelated. Learners should match words by meaning, not by spelling.",
+  "false_friend_warning": "The Turkish word 'at' looks identical to the English word 'at', which is a preposition, but in Turkish it means 'horse'. English learners who see 'at' in Turkish may wrongly think it refers to a place or a time."
+}

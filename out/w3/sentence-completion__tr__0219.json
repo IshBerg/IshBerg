@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have left home earlier.",
+  "full_sentence": "Had she known about the delay, she would have left home earlier.",
+  "acceptable_variants": ["she would have set off sooner.", "she would have departed earlier."],
+  "options": [
+    {"text": "she leaves home earlier every day.", "is_correct": false, "why_wrong": "The stem describes an unreal past situation, so a present simple verb does not fit the inverted conditional."},
+    {"text": "she will leave home earlier.", "is_correct": false, "why_wrong": "'Will' expresses a real future, but the stem with 'Had' describes an unreal past, which needs 'would have' plus the past participle."},
+    {"text": "she would have left home earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "she has left home earlier.", "is_correct": false, "why_wrong": "The present perfect describes a completed action with a present link, not a hypothetical past result after an inverted conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditionals with 'had' in place of 'if'",
+  "connector": "had",
+  "explanation": "Inverted conditionals drop the word 'if' and move 'had' to the front of the clause. The main clause then needs 'would have' followed by a past participle to express a hypothetical result in the past. Learners whose first language does not separate these past forms clearly often choose a simple tense here.",
+  "translation": "Gecikmeyi bilseydi, evden daha erken çıkmış olurdu."
+}

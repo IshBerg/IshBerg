@@ -1,0 +1,14 @@
+{
+  "trigger_word": "child",
+  "all_words": [
+    {"word": "kid", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Kid' informal bir kelimedir ve 'child' ile aynı anlamı taşır; yalnızca resmiyet düzeyi farklıdır."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "'Engine' motor anlamına gelir; 'child' ile ne anlam ne de resmiyet düzeyi açısından bir ilişkisi vardır."},
+    {"word": "toy", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Toy' oyuncak demektir ve çocuklarla birlikte düşünüldüğü için 'child' ile tematik olarak ilişkilidir."},
+    {"word": "pizza", "is_associated": false, "association_type": "NONE", "explanation": "'Pizza' pizza demektir; 'child' ile ne anlamsal ne de kullanım açısından bir bağlantısı yoktur."},
+    {"word": "childhood", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Early childhood' (erken çocukluk) yaygın bir ifadedir ve 'childhood' kelimesi 'child' ile birlikte sıkça kullanılır."},
+    {"word": "silver", "is_associated": false, "association_type": "NONE", "explanation": "'Silver' gümüş demektir; 'child' ile bir anlam veya kullanım bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Child' kelimesinin resmiyet düzeyi farklı olan eş anlamlısı 'kid' ile, çocuklara ait nesneler ve kavramlarla ve 'early childhood' gibi kalıplarla ilişkisi vardır. Resmi yazıda 'child', gündelik konuşmada 'kid' daha çok tercih edilir."
+}
