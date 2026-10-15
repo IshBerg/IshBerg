@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were walking through the old town,",
+  "correct_completion": "it started to rain.",
+  "full_sentence": "While we were walking through the old town, it started to rain.",
+  "acceptable_variants": ["the phone rang.", "someone called my name."],
+  "options": [
+    {"text": "we will visit the museum tomorrow.", "is_correct": false, "why_wrong": "The future tense does not match the past time frame set by 'while we were walking', so this completion is grammatically wrong here."},
+    {"text": "the hotel was very expensive.", "is_correct": false, "why_wrong": "This describes the hotel rather than an event that happens during the walk, so it does not complete the time relationship that 'while' sets up."},
+    {"text": "it started to rain.", "is_correct": true, "why_wrong": null},
+    {"text": "we are going to stay here.", "is_correct": false, "why_wrong": "The present tense does not fit a sentence set in the past, so 'are going to' clashes with 'were walking'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous with 'while' and past simple for an interrupting action",
+  "connector": "while",
+  "explanation": "'While' introduces a past continuous action that was already in progress. The main clause uses the past simple to show a shorter event that happened during that action.",
+  "translation": "Kiedy szliśmy przez stare miasto, zaczęło padać."
+}

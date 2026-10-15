@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "lokal", "transliteration": "lokal", "meaning": "restaurant or bar"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "friendly, nice"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "akurat", "transliteration": "akurat", "meaning": "exactly, just at that time"}
+  ],
+  "english_words": ["exactly", "possibly", "restaurant", "friendly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Polish words look like English words because both languages borrowed related vocabulary from Latin and French, but over time the meanings drifted apart.",
+  "false_friend_warning": "The Polish word meaning restaurant or bar looks like English 'local', and the Polish word meaning friendly looks like 'sympathetic'. Students who trust the spelling will guess the wrong meaning, so check the Polish meaning before translating."
+}
