@@ -1,0 +1,14 @@
+{
+  "trigger_word": "swim",
+  "all_words": [
+    {"word": "pool", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Swimming pool' es una colocación común: la piscina es el lugar donde se nada."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "La mesa no tiene relación con nadar; es un mueble de la casa."},
+    {"word": "water", "is_associated": true, "association_type": "THEMATIC", "explanation": "Para nadar se necesita agua, así que la palabra pertenece al mismo tema."},
+    {"word": "book", "is_associated": false, "association_type": "NONE", "explanation": "Un libro no tiene relación con nadar."},
+    {"word": "goggles", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las gafas de natación se usan al nadar, por eso están relacionadas con el tema."},
+    {"word": "sky", "is_associated": false, "association_type": "NONE", "explanation": "El cielo no tiene relación con nadar."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'swim' se asocia con el lugar, el agua y el equipo para nadar; las demás palabras no pertenecen a ese tema."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the critic praised the novel's originality,",
+  "correct_completion": "she argued that its plot lacked coherence.",
+  "full_sentence": "Although the critic praised the novel's originality, she argued that its plot lacked coherence.",
+  "acceptable_variants": ["many readers nonetheless found its plot incoherent.", "the reviewer still questioned its structure."],
+  "options": [
+    {"text": "so the novel became a bestseller.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast, so this clause does not fit."},
+    {"text": "she argued that its plot lacked coherence.", "is_correct": true, "why_wrong": null},
+    {"text": "the novel was published in 1920.", "is_correct": false, "why_wrong": "This is a factual detail that does not contrast with the praise in the first clause."},
+    {"text": "because originality is always rewarded.", "is_correct": false, "why_wrong": "'Because' introduces a cause and creates a double connector with 'although', which is ungrammatical here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a main clause that contrasts with the praise in the first part. Spanish speakers may add a contrastive conjunction after 'although' out of habit, which creates a double connector, so the main clause should begin directly with its subject.",
+  "translation": "Aunque la crítica elogió la originalidad de la novela, ella sostuvo que su trama carecía de coherencia."
+}
