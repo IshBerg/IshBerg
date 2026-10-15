@@ -1,0 +1,23 @@
+{
+  "central_word": "hot",
+  "chain_words": [
+    {"word": "warm", "intensity": 1, "translation": "ılık", "nuance": "pleasantly heat, not too strong"},
+    {"word": "hot", "intensity": 2, "translation": "sıcak", "nuance": "high temperature, clearly felt"},
+    {"word": "boiling", "intensity": 3, "translation": "kaynar", "nuance": "extremely hot, like water at 100 degrees"},
+    {"word": "scorching", "intensity": 4, "translation": "yakıcı", "nuance": "so hot it seems to burn"},
+    {"word": "blazing", "intensity": 5, "translation": "alev alev", "nuance": "intensely hot and bright, like a fire"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe high temperature, from a pleasant warmth to an intense, burning heat.",
+  "usage_notes": [
+    {"word1": "warm", "word2": "hot", "difference": "'Warm' describes a pleasant, mild heat that people often enjoy; 'hot' describes a higher temperature that can be uncomfortable."}
+  ],
+  "translations": {
+    "warm": "ılık",
+    "hot": "sıcak",
+    "boiling": "kaynar",
+    "scorching": "yakıcı",
+    "blazing": "alev alev"
+  }
+}

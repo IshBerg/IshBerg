@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hemşire, hastanede hastalarla ilgilenen bir sağlık çalışanıdır, bu yüzden hastane ortamıyla doğrudan ilişkilidir."},
+    {"word": "bed", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Hospital bed' yaygın bir birleşimdir; hastane yatağı bu kelimeyle sık sık birlikte kullanılır."},
+    {"word": "doctor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Doktor hastalığı tedavi eden kişidir ve anlam olarak hastane kavramına çok yakındır."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "Şemsiye yağmurdan korunmak için kullanılır; hastane ile ne anlam ne de kullanım açısından bir bağlantısı yoktur."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmek bir yiyecektir ve hastane kavramıyla hiçbir ilgisi bulunmadığı için ilişkili değildir."},
+    {"word": "ambulance", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ambulans hastaları hastaneye taşıyan araçtır; hastane konusunda tematik olarak güçlü bir bağlantısı vardır."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Hastane ile ilişkili kelimeler sağlık personeli, hastane eşyaları ve hastane hizmetleri alanından gelir; ilişkisiz kelimeler ise günlük yaşamın farklı alanlarına aittir."
+}

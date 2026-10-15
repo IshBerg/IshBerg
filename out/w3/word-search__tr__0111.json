@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "R", "E", "A", "K", "Z", "Q", "P", "M", "D"],
+    ["J", "V", "T", "Y", "N", "S", "D", "W", "C", "G"],
+    ["R", "U", "N", "F", "H", "J", "S", "Z", "C", "Q"],
+    ["P", "W", "E", "X", "D", "F", "B", "G", "A", "M"],
+    ["Y", "K", "D", "B", "J", "Q", "W", "E", "L", "V"],
+    ["H", "J", "T", "X", "P", "Q", "C", "R", "L", "Z"],
+    ["L", "S", "F", "K", "D", "W", "N", "Y", "Q", "A"],
+    ["G", "O", "H", "P", "Z", "M", "R", "K", "T", "B"],
+    ["E", "V", "O", "I", "C", "F", "U", "D", "W", "G"],
+    ["S", "N", "J", "K", "X", "Y", "T", "Z", "U", "L"]
+  ],
+  "words_to_find": ["BREAK", "CALL", "LOOK", "TURN", "RUN"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CALL", "start_row": 2, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "LOOK", "start_row": 6, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TURN", "start_row": 9, "start_col": 6, "direction": "VERTICAL_UP"},
+    {"word": "RUN", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Idioms and Phrasal Verbs"
+}
