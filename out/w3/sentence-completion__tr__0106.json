@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Of all the mountains we climbed,",
+  "correct_completion": "the last one was the most difficult.",
+  "full_sentence": "Of all the mountains we climbed, the last one was the most difficult.",
+  "acceptable_variants": ["the last one was the hardest of them all.", "the last one was the most tiring."],
+  "options": [
+    {"text": "we bought some snacks at the bottom.", "is_correct": false, "why_wrong": "This describes shopping, which does not complete a superlative comparison of the mountains."},
+    {"text": "the weather changed every hour.", "is_correct": false, "why_wrong": "This describes changes in the weather and does not rank the mountains against each other."},
+    {"text": "the last one was the most difficult.", "is_correct": true, "why_wrong": null},
+    {"text": "we took a bus to the station.", "is_correct": false, "why_wrong": "This describes travel to a station and does not compare the mountains."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Superlatives with 'the most' and comparison phrases like 'of all'",
+  "connector": "of all",
+  "explanation": "After 'of all the mountains', we need a superlative that ranks one mountain above the others. Turkish speakers often add a suffix to the adjective to form the superlative, but English uses 'the most' with longer adjectives such as difficult.",
+  "translation": "Tırmandığımız bütün dağlar arasında en zor olan sonuncusuydu."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "lokal", "transliteration": "lokal", "meaning": "bar"},
+    {"word": "otogar", "transliteration": "otogar", "meaning": "bus station"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "nice"},
+    {"word": "pansiyon", "transliteration": "pansiyon", "meaning": "guesthouse"}
+  ],
+  "english_words": ["nice", "guesthouse", "bar", "bus station"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Turkish words entered the language from European languages and kept spellings close to English, but their meanings shifted in Turkish. Learners who rely on the spelling alone will choose the wrong English meaning.",
+  "false_friend_warning": "The Turkish word pansiyon (transliteration) looks like English 'pension', but in Turkish it means a guesthouse or small hotel, while 'pension' in English means a retirement payment. Travellers who expect 'pension' to mean lodging will be confused when booking a room."
+}
