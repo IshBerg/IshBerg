@@ -1,0 +1,20 @@
+{
+  "title": "My Town",
+  "text": "I live in a small town. In the middle of the town there is a big square. There is a post office next to the square. My school is near the post office. Every morning I walk to school.\n\nOn Sunday, my family goes to the zoo. The zoo is far from our house, so we take a bus. We see lions and monkeys. After the zoo, we eat ice cream in the square.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is in the middle of the town?", "options": ["A big square", "A big zoo", "A school", "A bus station"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How does the family go to the zoo?", "options": ["They walk", "They take a bus", "They drive a car", "They take a train"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What kind of day does the family probably have on Sunday?", "options": ["A fun day", "A sad day", "A working day", "A sleepy day"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why do they probably take a bus to the zoo?", "options": ["The zoo is far away", "The zoo is next door", "They do not like walking", "The bus is free for everyone"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "square", "translation": "meydan", "definition": "a large open area in a town, often with buildings around it"},
+    {"word": "post office", "translation": "postane", "definition": "a place where you send letters and parcels"},
+    {"word": "zoo", "translation": "hayvanat bahçesi", "definition": "a place where wild animals are kept so people can see them"},
+    {"word": "school", "translation": "okul", "definition": "a place where children go to learn"}
+  ],
+  "paragraph_translations": [
+    "Küçük bir kasabada yaşıyorum. Kasabanın ortasında büyük bir meydan var. Meydanın yanında bir postane var. Okulum postanenin yakınında. Her sabah okula yürürüm.",
+    "Pazar günü ailem hayvanat bahçesine gider. Hayvanat bahçesi evimizden uzakta, bu yüzden otobüse binderiz. Aslanları ve maymunları görürüz. Hayvanat bahçesinden sonra meydanda dondurma yeriz."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister, who works as a doctor,",
+  "correct_completion": "is coming to visit us next week.",
+  "full_sentence": "My sister, who works as a doctor, is coming to visit us next week.",
+  "acceptable_variants": ["is coming to see us next week.", "will visit us next week."],
+  "options": [
+    {"text": "visiting us next week.", "is_correct": false, "why_wrong": "The main verb 'is' is missing, so the sentence has no finite verb."},
+    {"text": "is coming to visit us next week.", "is_correct": true, "why_wrong": null},
+    {"text": "which we like very much.", "is_correct": false, "why_wrong": "'Which' is used for things, not people. For people, use 'who'."},
+    {"text": "she has many books at home.", "is_correct": false, "why_wrong": "'She' repeats the subject after the non-defining clause, which is ungrammatical here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "A non-defining relative clause is set off by commas and adds extra information about the noun. After it, the sentence still needs its own subject and main verb.",
+  "translation": "Doktor olarak çalışan kız kardeşim gelecek hafta bizi ziyarete geliyor."
+}
