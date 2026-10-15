@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although we were tired,",
+  "correct_completion": "we played football all afternoon.",
+  "full_sentence": "Although we were tired, we played football all afternoon.",
+  "acceptable_variants": ["we still went out to the park.", "we still had a lot of fun."],
+  "options": [
+    {"text": "so we went to bed early.", "is_correct": false, "why_wrong": "'So' shows a result, but 'although' needs a contrast. The two connectors do not fit together here."},
+    {"text": "it was a sunny day.", "is_correct": false, "why_wrong": "This describes the weather but does not complete the contrast started by 'although'."},
+    {"text": "we played football all afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "we were sleeping at that time.", "is_correct": false, "why_wrong": "This continues the idea of tiredness instead of showing a contrasting action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and past simple 'was/were'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part. Spanish speakers may want to use a result connector here, but English needs a contrasting action.",
+  "translation": "Aunque estábamos cansados, jugamos al fútbol toda la tarde."
+}
