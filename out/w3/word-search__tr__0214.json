@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "O", "M", "E", "M", "A", "D", "E", "L"],
+    ["Q", "X", "B", "R", "T", "Z", "P", "W", "O"],
+    ["F", "J", "K", "S", "V", "C", "Y", "U", "N"],
+    ["M", "R", "A", "W", "D", "H", "X", "Q", "G"],
+    ["Y", "P", "E", "T", "B", "N", "J", "O", "S"],
+    ["W", "C", "K", "E", "Z", "H", "V", "L", "R"],
+    ["K", "I", "N", "D", "Q", "W", "Y", "P", "T"],
+    ["B", "U", "X", "C", "M", "G", "R", "S", "K"],
+    ["V", "T", "Z", "A", "F", "E", "Q", "J", "C"]
+  ],
+  "words_to_find": ["HOMEMADE", "LONG", "FREE", "KIND"],
+  "word_positions": [
+    {"word": "HOMEMADE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LONG", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "FREE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "KIND", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Compound Adjectives"
+}
