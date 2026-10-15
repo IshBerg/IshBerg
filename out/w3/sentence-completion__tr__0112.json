@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom has never",
+  "correct_completion": "tried sushi before.",
+  "full_sentence": "Tom has never tried sushi before.",
+  "acceptable_variants": ["eaten sushi before.", "been to a sushi restaurant."],
+  "options": [
+    {"text": "went to Japan last year.", "is_correct": false, "why_wrong": "A finished time expression such as 'last year' requires the past simple, not the present perfect."},
+    {"text": "eats sushi every week.", "is_correct": false, "why_wrong": "After 'has never', the verb must be a past participle. 'Eats' is a present simple form and cannot follow 'has never'."},
+    {"text": "tried sushi before.", "is_correct": true, "why_wrong": null},
+    {"text": "is trying sushi right now.", "is_correct": false, "why_wrong": "'Has never' does not combine with 'right now'. The present perfect describes life experience, not an action happening at this moment."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'never' for life experience",
+  "connector": "never",
+  "explanation": "The word 'never' in a present perfect sentence shows that a life experience has not happened at any time up to now. After 'has never' we need a past participle such as 'tried'. Turkish speakers often use a simple past form here because Turkish has no separate present perfect tense, so this English structure needs deliberate practice.",
+  "translation": "Tom daha önce hiç suşi denemedi."
+}
