@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "text",
+  "collocate": "message",
+  "full_collocation": "text message",
+  "options": ["message", "letter", "note", "call"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "letter", "reason": "We don't say 'text letter'. A letter is a paper message sent by post, not a message sent on a phone."},
+    {"word": "note", "reason": "We don't say 'text note'. A note is a short handwritten piece of paper, not a phone message."},
+    {"word": "call", "reason": "We don't say 'text call'. A call is spoken on the phone, while a text is written."}
+  ],
+  "example_sentence": "Please send me a text ___ when you arrive.",
+  "gap_position": 5,
+  "translation": "wiadomość tekstowa",
+  "l1_interference": "Osoby mówiące po polsku mogą odwrócić kolejność słów i powiedzieć 'message text' zamiast 'text message', ponieważ w języku polskim najpierw stoi rzeczownik główny ('wiadomość'), a przymiotnik po nim.",
+  "common_mistake": "send a text letter",
+  "explanation": "In English, the first noun in a noun-noun compound describes the second one: a 'text message' is a message sent as text. Learners should keep the modifier before the head noun.",
+  "related_collocations": [
+    {"collocation": "phone call", "translation": "połączenie telefoniczne", "example": "I had a phone call from the bank this morning."},
+    {"collocation": "voice message", "translation": "wiadomość głosowa", "example": "He left me a voice message while I was at work."},
+    {"collocation": "traffic jam", "translation": "korek drogowy", "example": "We were stuck in a traffic jam for an hour."}
+  ],
+  "memory_tip": "TEXT + MESSAGE = a written message sent by phone | MESSAGE is the head noun, TEXT describes it"
+}

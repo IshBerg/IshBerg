@@ -1,0 +1,14 @@
+{
+  "trigger_word": "exam",
+  "all_words": [
+    {"word": "test", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Test' es un sinónimo cercano de 'exam'; ambas palabras se refieren a una prueba para evaluar lo que sabes."},
+    {"word": "pencil", "is_associated": true, "association_type": "THEMATIC", "explanation": "El lápiz es un objeto típico del tema de los exámenes, porque muchos estudiantes lo usan para escribir sus respuestas."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "La jirafa no tiene ninguna relación con los exámenes ni con el ambiente escolar."},
+    {"word": "pass", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Pass an exam' (aprobar un examen) es una colocación habitual en inglés."},
+    {"word": "swimming", "is_associated": false, "association_type": "NONE", "explanation": "La natación es una actividad deportiva y no tiene relación con los exámenes."},
+    {"word": "orange", "is_associated": false, "association_type": "NONE", "explanation": "'Orange' es un color o una fruta, y no se relaciona con el concepto de examen."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'exam' pertenecen al ámbito de las pruebas escolares: sinónimos, objetos de estudio y verbos que se usan con 'exam'."
+}
