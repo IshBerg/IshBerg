@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "R", "E", "A", "D", "X", "Q", "M", "W"],
+    ["Z", "O", "H", "N", "S", "J", "U", "I", "G"],
+    ["V", "R", "I", "C", "E", "K", "P", "L", "Y"],
+    ["F", "D", "Q", "W", "B", "M", "S", "K", "R"],
+    ["A", "G", "T", "J", "L", "Q", "Z", "N", "D"],
+    ["C", "P", "X", "V", "U", "W", "B", "O", "T"],
+    ["H", "F", "P", "Y", "I", "R", "M", "Z", "E"],
+    ["N", "S", "D", "L", "K", "C", "G", "J", "A"],
+    ["Q", "W", "U", "X", "E", "H", "V", "B", "O"]
+  ],
+  "words_to_find": ["BREAD", "MILK", "APPLE", "RICE", "TEA"],
+  "word_positions": [
+    {"word": "BREAD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MILK", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "APPLE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "RICE", "start_row": 2, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "TEA", "start_row": 5, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Food and Drinks"
+}
