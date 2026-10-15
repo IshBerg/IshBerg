@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at this,",
+  "correct_completion": "it is a red ball.",
+  "full_sentence": "Look at this, it is a red ball.",
+  "acceptable_variants": ["it is a red toy.", "it is a ball and it is red."],
+  "options": [
+    {"text": "I am happy today.", "is_correct": false, "why_wrong": "This sentence does not describe the object the speaker is pointing at, so it does not complete the stem logically."},
+    {"text": "they are in the box.", "is_correct": false, "why_wrong": "'They' refers to more than one thing, but the stem points at a single object. Use 'it' for one object."},
+    {"text": "it is a red ball.", "is_correct": true, "why_wrong": null},
+    {"text": "we went to school.", "is_correct": false, "why_wrong": "This talks about a past event, which does not match the object being shown in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative pronoun 'this' followed by 'it' to refer back to the same object",
+  "connector": "this",
+  "explanation": "After pointing at something with 'this', we use 'it' to describe the same single object. Portuguese speakers may use 'isto' as a separate pronoun, but in English the second pronoun must match the object's singular form.",
+  "translation": "Olhe para isto, é uma bola vermelha."
+}
