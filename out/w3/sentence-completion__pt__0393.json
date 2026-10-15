@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the train timetable had changed,",
+  "correct_completion": "we checked the new departure times on the board.",
+  "full_sentence": "Because the train timetable had changed, we checked the new departure times on the board.",
+  "acceptable_variants": ["we asked the station staff for the new times.", "we looked up the new schedule online."],
+  "options": [
+    {"text": "the station is closed on Sundays.", "is_correct": false, "why_wrong": "This gives an unrelated fact. It does not respond to the change in the timetable that 'because' introduces."},
+    {"text": "we checked the new departure times on the board.", "is_correct": true, "why_wrong": null},
+    {"text": "the trains are usually very fast.", "is_correct": false, "why_wrong": "This is a general statement about trains, not a result of the timetable change."},
+    {"text": "although we had already bought tickets.", "is_correct": false, "why_wrong": "'Although' signals contrast, but the sentence already uses 'because' for cause, so this continuation does not form a logical completion."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces a cause, so the main clause must describe a reasonable reaction to the timetable change. Portuguese speakers should keep the cause clause first and then state the consequence after the comma.",
+  "translation": "Como o horário dos trens tinha mudado, verificamos os novos horários de partida no quadro."
+}

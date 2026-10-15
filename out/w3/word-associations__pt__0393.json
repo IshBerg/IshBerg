@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poem",
+  "all_words": [
+    {"word": "stanza", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Estrofe é a unidade básica de um poema, por isso está diretamente ligada ao termo."},
+    {"word": "anchor", "is_associated": false, "association_type": "NONE", "explanation": "Âncora é um objeto náutico e não tem nenhuma relação com a poesia."},
+    {"word": "verse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Verso é uma linha de poema, por isso pertence ao mesmo campo semântico da poesia."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Trator pertence ao campo agrícola e não tem qualquer relação com a literatura."},
+    {"word": "rhyme", "is_associated": true, "association_type": "THEMATIC", "explanation": "Rima é um recurso típico da poesia, portanto está tematicamente ligada ao poema."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Glaciar é uma formação geológica e não se relaciona com a literatura."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao poema são termos da sua estrutura e dos seus recursos, enquanto os objetos dos outros campos não têm ligação com a poesia."
+}
