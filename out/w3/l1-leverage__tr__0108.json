@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "otel", "transliteration": "otel", "meaning": "hotel"},
+    {"word": "taksi", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "pasaport", "transliteration": "pasaport", "meaning": "passport"},
+    {"word": "turist", "transliteration": "turist", "meaning": "tourist"}
+  ],
+  "english_words": ["passport", "tourist", "hotel", "taxi"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both the Turkish and English forms of these travel words were borrowed from the same European sources, so the spelling and meaning stayed very close.",
+  "false_friend_warning": null
+}

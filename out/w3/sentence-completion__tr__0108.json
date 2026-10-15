@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were walking to school,",
+  "correct_completion": "it started to rain.",
+  "full_sentence": "While we were walking to school, it started to rain.",
+  "acceptable_variants": ["it suddenly started to rain.", "the sky turned dark and it began to rain."],
+  "options": [
+    {"text": "we ate a big breakfast.", "is_correct": false, "why_wrong": "'Ate' is the simple past. After 'while' we need an action in progress, which uses the past continuous ('were eating')."},
+    {"text": "the school closed yesterday.", "is_correct": false, "why_wrong": "This is a separate finished event with no link to the walking action in progress, so it doesn't complete the sentence."},
+    {"text": "it started to rain.", "is_correct": true, "why_wrong": null},
+    {"text": "my bag is very heavy now.", "is_correct": false, "why_wrong": "The present tense does not match the past continuous action in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous with 'while' for an action in progress interrupted by another event",
+  "connector": "while",
+  "explanation": "After 'while' with a past continuous clause, the main clause usually gives a shorter event that interrupts the action in progress, using the simple past.",
+  "translation": "Okula yürürken yağmur yağmaya başladı."
+}
