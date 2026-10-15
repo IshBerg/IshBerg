@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My friend, who",
+  "correct_completion": "lives in Lviv and speaks three languages.",
+  "full_sentence": "My friend, who lives in Lviv and speaks three languages.",
+  "acceptable_variants": ["works as a doctor in Lviv.", "lives in Lviv and speaks three languages fluently."],
+  "options": [
+    {"text": "which speaks three languages.", "is_correct": false, "why_wrong": "'Which' is used for things and animals, not for a person such as a friend."},
+    {"text": "where lives in Lviv.", "is_correct": false, "why_wrong": "'Where' refers to places, so it cannot replace 'who' for a person."},
+    {"text": "lives in Lviv and speaks three languages.", "is_correct": true, "why_wrong": null},
+    {"text": "it is my favorite book.", "is_correct": false, "why_wrong": "'It' does not refer back to 'friend', and a book is not a person, so the sentence needs a person as the subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clauses with 'who' for people",
+  "connector": "who",
+  "explanation": "'Who' introduces a relative clause about a person. After 'who' we need a verb whose subject is the person, so only the option describing the friend with a verb fits.",
+  "translation": "Мій друг, який живе у Львові і говорить трьома мовами."
+}
