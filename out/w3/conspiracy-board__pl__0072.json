@@ -1,0 +1,13 @@
+{
+  "codename": "SILENT ROUTE",
+  "briefing": "Agent, we have intercepted travel records that must be decoded. Match each evidence card to its partner to reveal the hidden route before the train leaves.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "bus", "right": "autobus", "left_style": "document", "right_style": "handwritten"},
+    {"left": "train", "right": "pociąg", "left_style": "photo", "right_style": "newspaper"},
+    {"left": "ticket", "right": "bilet", "left_style": "official", "right_style": "document"},
+    {"left": "station", "right": "stacja", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "airport", "right": "lotnisko", "left_style": "newspaper", "right_style": "official"}
+  ]
+}

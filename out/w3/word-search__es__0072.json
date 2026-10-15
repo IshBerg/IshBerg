@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["R", "U", "N", "X", "J", "Q", "Z"],
+    ["B", "D", "F", "G", "U", "H", "K"],
+    ["C", "E", "T", "Y", "M", "V", "D"],
+    ["V", "Q", "H", "O", "P", "N", "W"],
+    ["E", "H", "R", "Y", "C", "D", "A"],
+    ["S", "W", "I", "M", "Z", "X", "L"],
+    ["G", "B", "Q", "F", "T", "O", "K"]
+  ],
+  "words_to_find": ["RUN", "JUMP", "SWIM", "WALK"],
+  "word_positions": [
+    {"word": "RUN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "JUMP", "start_row": 0, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "SWIM", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WALK", "start_row": 3, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Action Verbs"
+}
