@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["O", "P", "I", "N", "I", "O", "N", "T"],
+    ["A", "K", "Z", "Q", "J", "W", "P", "H"],
+    ["G", "B", "L", "D", "Y", "X", "R", "I"],
+    ["R", "U", "S", "C", "M", "T", "E", "N"],
+    ["E", "H", "D", "A", "G", "P", "F", "K"],
+    ["E", "O", "Q", "S", "K", "Y", "E", "L"],
+    ["Z", "M", "B", "F", "A", "C", "R", "U"],
+    ["B", "E", "L", "I", "E", "V", "E", "O"]
+  ],
+  "words_to_find": ["OPINION", "THINK", "AGREE", "PREFER", "BELIEVE"],
+  "word_positions": [
+    {"word": "OPINION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THINK", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "AGREE", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "PREFER", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BELIEVE", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Expressing Opinions"
+}

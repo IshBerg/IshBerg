@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "fridge", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lodówka stoi w kuchni, więc należy do tematu kuchni."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Samochód nie ma nic wspólnego z kuchnią; zwykle stoi na zewnątrz domu."},
+    {"word": "spoon", "is_associated": true, "association_type": "THEMATIC", "explanation": "Łyżka to przybór kuchenny, którego używamy przy jedzeniu i gotowaniu."},
+    {"word": "dog", "is_associated": false, "association_type": "NONE", "explanation": "Pies to zwierzę, a nie część wyposażenia kuchni."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówimy 'kitchen sink' (zlew kuchenny), więc te słowa często występują razem."},
+    {"word": "bed", "is_associated": false, "association_type": "NONE", "explanation": "Łóżko stoi w sypialni, a nie w kuchni."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'kitchen' łączy się z przedmiotami i miejscami, które znajdują się w kuchni lub są z nią związane."
+}
