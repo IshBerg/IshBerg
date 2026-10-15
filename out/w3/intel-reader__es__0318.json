@@ -1,0 +1,20 @@
+{
+  "title": "Sam's Weekend",
+  "text": "Sam likes sports. He plays football with his friends on Saturday. They play in the park near his house. Sam is a good player.\n\nOn Sunday, Sam plays the guitar. He practises for one hour. His sister likes to sing with him. They have fun together.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What sport does Sam play on Saturday?", "options": ["Tennis", "Football", "Swimming", "Basketball"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What instrument does Sam play on Sunday?", "options": ["Piano", "Drums", "Guitar", "Violin"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Sam probably feel about his hobbies?", "options": ["He enjoys them", "He does not like them", "He is bored with them", "He is afraid of them"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why do Sam and his sister have fun together?", "options": ["They sing and play music together", "They work in the park", "They do their homework", "They cook dinner"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "park", "translation": "parque", "definition": "a public place with grass and trees where people go to relax or play"},
+    {"word": "player", "translation": "jugador", "definition": "a person who takes part in a game or sport"},
+    {"word": "guitar", "translation": "guitarra", "definition": "a musical instrument with six strings that you play with your fingers"},
+    {"word": "fun", "translation": "diversión", "definition": "enjoyment or pleasure"}
+  ],
+  "paragraph_translations": [
+    "A Sam le gusta el deporte. Juega al fútbol con sus amigos los sábados. Ellos juegan en el parque cerca de su casa. Sam es un buen jugador.",
+    "El domingo, Sam toca la guitarra. Practica durante una hora. A su hermana le gusta cantar con él. Ellos se divierten juntos."
+  ]
+}

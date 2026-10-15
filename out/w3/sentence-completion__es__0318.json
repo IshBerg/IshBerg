@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The comic strip was very funny,",
+  "correct_completion": "so we laughed a lot.",
+  "full_sentence": "The comic strip was very funny, so we laughed a lot.",
+  "acceptable_variants": ["so we laughed until we cried.", "so we read it again."],
+  "options": [
+    {"text": "so we fell asleep.", "is_correct": false, "why_wrong": "Falling asleep is not a natural result of finding a comic strip funny, and the stem points toward laughter."},
+    {"text": "so we laughed a lot.", "is_correct": true, "why_wrong": null},
+    {"text": "so we cried for hours.", "is_correct": false, "why_wrong": "Crying is the opposite of the reaction that a very funny comic strip would cause."},
+    {"text": "because we were very tired.", "is_correct": false, "why_wrong": "'Because' introduces a reason, but the stem already gives the cause, so a result is needed here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "The first part of the sentence gives a cause, so the second part must show its result. English uses 'so' followed by a result clause here. Spanish speakers may reach for 'because' by reflex after describing a cause, but that connector gives the reason again instead of the result.",
+  "translation": "El cómic era muy divertido, así que nos reímos mucho."
+}
