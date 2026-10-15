@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "H", "E", "M", "E", "A", "Z", "K", "Q", "I"],
+    ["B", "C", "D", "F", "G", "J", "W", "X", "V", "R"],
+    ["K", "P", "L", "Q", "Z", "A", "B", "C", "D", "O"],
+    ["Q", "W", "R", "U", "V", "X", "Z", "E", "J", "N"],
+    ["S", "K", "H", "D", "P", "F", "A", "N", "G", "Y"],
+    ["F", "Y", "Q", "X", "B", "J", "W", "O", "Z", "K"],
+    ["D", "G", "M", "L", "V", "P", "R", "T", "C", "H"],
+    ["K", "N", "Q", "B", "W", "Z", "F", "X", "J", "Y"],
+    ["A", "V", "D", "G", "O", "H", "K", "P", "Q", "R"],
+    ["M", "C", "E", "U", "Z", "L", "T", "O", "L", "P"]
+  ],
+  "words_to_find": ["THEME", "IRONY", "SYMBOL", "PLOT", "TONE"],
+  "word_positions": [
+    {"word": "THEME", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SYMBOL", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PLOT", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "TONE", "start_row": 6, "start_col": 7, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Classic Literature Analysis"
+}

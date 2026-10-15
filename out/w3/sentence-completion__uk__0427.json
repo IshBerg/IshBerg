@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The restaurant was very expensive, but",
+  "correct_completion": "the food was really delicious.",
+  "full_sentence": "The restaurant was very expensive, but the food was really delicious.",
+  "acceptable_variants": ["the staff were very friendly.", "the view from the terrace was amazing."],
+  "options": [
+    {"text": "so we ate there every week.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. After a contrast connector like 'but' the sentence needs a clause that goes against the idea of high prices."},
+    {"text": "the restaurant was also very large.", "is_correct": false, "why_wrong": "'Also' adds another similar fact. It does not contrast with the high prices mentioned in the first clause."},
+    {"text": "the food was really delicious.", "is_correct": true, "why_wrong": null},
+    {"text": "we went there for dinner.", "is_correct": false, "why_wrong": "This is a neutral statement about an event. It does not set up a contrast with the high prices."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' after a clause of negative or surprising information",
+  "connector": "but",
+  "explanation": "'But' introduces a clause that contrasts with the first part of the sentence. Here the high price is the negative point, so the completion should describe a positive quality. Ukrainian speakers sometimes use a 'so' structure for this kind of idea because the two languages mark contrast with different connectors in some contexts, so it is useful to practise choosing 'but' deliberately.",
+  "translation": "Ресторан був дуже дорогим, але їжа була справді смачною."
+}
