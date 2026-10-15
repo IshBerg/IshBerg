@@ -1,0 +1,18 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "I"],
+    ["P", "B", "K", "T", "J", "V", "D"],
+    ["G", "L", "O", "S", "S", "Z", "I"],
+    ["Y", "F", "H", "W", "K", "B", "O"],
+    ["S", "O", "U", "R", "C", "E", "M"]
+  ],
+  "words_to_find": ["NUANCE", "IDIOM", "SOURCE", "GLOSS"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IDIOM", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SOURCE", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLOSS", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Literary Translation"
+}
