@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "сенсація", "transliteration": "sensatsiia", "meaning": "sensational news or a scoop"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "current, topical, relevant"},
+    {"word": "фабула", "transliteration": "fabula", "meaning": "the plot of a story"},
+    {"word": "ремарка", "transliteration": "remarka", "meaning": "a stage direction or an aside note"}
+  ],
+  "english_words": ["sensation", "remark", "actual", "fable"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 0},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Ukrainian words were borrowed from European languages, but their meanings shifted in Ukrainian, so the forms look familiar while the senses differ.",
+  "false_friend_warning": "Each Ukrainian word looks like an English word but means something else: the Ukrainian word for 'current or topical' looks like English 'actual', which means 'real', so a Ukrainian speaker may wrongly say 'actual news' for current news. The same trap applies to 'sensation' (sensational news), 'fable' (plot of a story) and 'remark' (stage direction)."
+}
