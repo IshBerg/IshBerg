@@ -1,0 +1,14 @@
+{
+  "trigger_word": "happy",
+  "all_words": [
+    {"word": "smile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Людина, яка почувається щасливою, часто посміхається."},
+    {"word": "joy", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово 'joy' означає радість, тобто має схоже значення зі словом 'happy'."},
+    {"word": "party", "is_associated": true, "association_type": "THEMATIC", "explanation": "На вечірках люди зазвичай веселяться і почуваються щасливими."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Стіл — це меблі, і він не пов'язаний зі значенням слова 'happy'."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Стілець — це предмет меблів, і він не має відношення до щастя."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець — це предмет для письма, і він не пов'язаний зі словом 'happy'."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'happy' пов'язане зі словами, які описують радість, усмішку та веселі події."
+}

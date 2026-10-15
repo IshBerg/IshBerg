@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "Y", "N", "O", "N", "Y", "M", "K", "P", "R"],
+    ["B", "A", "D", "F", "G", "H", "J", "W", "Q", "E"],
+    ["C", "L", "X", "Z", "K", "M", "P", "U", "V", "S"],
+    ["D", "F", "H", "R", "W", "I", "O", "B", "N", "T"],
+    ["G", "J", "P", "E", "L", "K", "U", "X", "Y", "A"],
+    ["E", "C", "N", "E", "S", "S", "E", "Q", "W", "T"],
+    ["M", "N", "O", "P", "R", "T", "Y", "I", "A", "E"],
+    ["H", "G", "V", "K", "L", "D", "B", "S", "Z", "C"],
+    ["Y", "X", "W", "Q", "O", "P", "M", "N", "J", "F"],
+    ["E", "Q", "U", "I", "V", "A", "L", "E", "N", "T"]
+  ],
+  "words_to_find": ["SYNONYM", "RESTATE", "EQUIVALENT", "ESSENCE"],
+  "word_positions": [
+    {"word": "SYNONYM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RESTATE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "EQUIVALENT", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSENCE", "start_row": 5, "start_col": 6, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Restatement: Equivalent Meanings"
+}
