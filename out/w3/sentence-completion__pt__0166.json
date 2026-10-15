@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I wish I",
+  "correct_completion": "had studied harder for the exam.",
+  "full_sentence": "I wish I had studied harder for the exam.",
+  "acceptable_variants": ["had worked harder all semester.", "had prepared better for the exam."],
+  "options": [
+    {"text": "would study harder for the exam.", "is_correct": false, "why_wrong": "'Would' after 'I wish I' expresses a wish about the future or a habit, not regret about a past exam."},
+    {"text": "studied harder for the exam.", "is_correct": false, "why_wrong": "The simple past after 'wish' describes a present situation, so it does not express regret about the past exam."},
+    {"text": "had studied harder for the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "will study harder for the exam.", "is_correct": false, "why_wrong": "'Will' expresses a future plan or hope, so it cannot describe regret about something that already happened."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Wish + past perfect for regret about the past",
+  "connector": "wish",
+  "explanation": "After 'wish', the past perfect expresses regret about a past situation that cannot be changed. Portuguese speakers may be tempted to use a simple past form here, because a regret about the past is built differently in their first language; in English, the past perfect marks an earlier event that is not real.",
+  "translation": "Eu queria ter estudado mais para a prova."
+}
