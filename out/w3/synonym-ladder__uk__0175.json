@@ -1,0 +1,13 @@
+{
+  "start_word": "empty",
+  "end_word": "crowded",
+  "ladder_steps": [
+    {"word": "empty", "translation": "порожній", "intensity_level": 1},
+    {"word": "sparse", "translation": "малолюдний", "intensity_level": 2},
+    {"word": "moderate", "translation": "помірно заповнений", "intensity_level": 3},
+    {"word": "busy", "translation": "людний", "intensity_level": 4},
+    {"word": "crowded", "translation": "переповнений", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe how many people fill a place, from no people at all to too many, each step fuller than the last."
+}

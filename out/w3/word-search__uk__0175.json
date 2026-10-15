@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "E", "T", "A", "P", "H", "O", "R", "K", "H"],
+    ["Q", "W", "B", "X", "J", "U", "D", "C", "V", "E"],
+    ["I", "K", "Z", "F", "U", "G", "S", "P", "W", "A"],
+    ["J", "R", "Q", "B", "H", "V", "M", "X", "T", "D"],
+    ["K", "P", "O", "W", "S", "D", "Z", "B", "Q", "L"],
+    ["F", "G", "C", "N", "V", "T", "K", "Y", "M", "I"],
+    ["B", "X", "L", "H", "Y", "C", "P", "U", "G", "N"],
+    ["W", "D", "F", "M", "L", "Q", "K", "Z", "J", "E"],
+    ["V", "T", "Z", "O", "U", "C", "B", "N", "H", "G"],
+    ["E", "R", "I", "T", "A", "S", "K", "M", "W", "X"]
+  ],
+  "words_to_find": ["METAPHOR", "HEADLINE", "IRONY", "SATIRE"],
+  "word_positions": [
+    {"word": "METAPHOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HEADLINE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SATIRE", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Idioms and Figurative Language in the Media"
+}

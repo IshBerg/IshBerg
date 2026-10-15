@@ -1,0 +1,14 @@
+{
+  "trigger_word": "passport",
+  "all_words": [
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Банан не має жодного зв'язку з паспортом, це просто фрукт."},
+    {"word": "visa", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Віза — це дозвіл на в'їзд у країну, який зазвичай ставиться в паспорт, тому слова близькі за змістом."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно є музичним інструментом і не пов'язане з документами для подорожей."},
+    {"word": "border", "is_associated": true, "association_type": "THEMATIC", "explanation": "Кордон — місце, де перевіряють паспорти, тому це тематичний зв'язок із подорожами."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Сад не пов'язаний з паспортом або перетином кордону."},
+    {"word": "stamp", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення passport stamp означає штамп у паспорті, це усталене поєднання."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово passport пов'язане з документами для подорожей, перевіркою на кордоні та відмітками, які в них ставлять, а предмети з повсякденного життя до нього не належать."
+}
