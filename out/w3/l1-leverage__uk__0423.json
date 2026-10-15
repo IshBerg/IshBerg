@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "журнал", "transliteration": "zhurnal", "meaning": "magazine"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant"},
+    {"word": "гімназія", "transliteration": "himnaziia", "meaning": "secondary school"}
+  ],
+  "english_words": ["secondary school", "shop", "magazine", "relevant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Some Ukrainian words were borrowed from international sources and look close to English words, but over time they took on different meanings in the two languages.",
+  "false_friend_warning": "The Ukrainian word 'mahazyn' looks like the English word 'magazine' but means a shop, so students must not translate it as 'magazine'. The Ukrainian word 'zhurnal' is the one that means magazine."
+}

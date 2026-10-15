@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "E", "L", "L", "O", "Q", "W", "Z", "E", "P"],
+    ["K", "J", "X", "V", "R", "B", "D", "F", "M", "G"],
+    ["T", "Q", "W", "Z", "C", "Y", "U", "P", "A", "X"],
+    ["N", "H", "Z", "O", "R", "K", "Y", "D", "I", "V"],
+    ["B", "G", "A", "F", "T", "Q", "X", "W", "L", "K"],
+    ["P", "Z", "J", "N", "M", "S", "V", "Y", "C", "D"],
+    ["Q", "W", "E", "R", "K", "Z", "X", "B", "U", "A"],
+    ["D", "F", "V", "G", "B", "S", "M", "H", "Z", "T"],
+    ["Y", "O", "P", "L", "E", "W", "G", "J", "N", "C"],
+    ["X", "Q", "M", "D", "K", "R", "E", "T", "A", "L"]
+  ],
+  "words_to_find": ["HELLO", "THANKS", "EMAIL", "LATER"],
+  "word_positions": [
+    {"word": "HELLO", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THANKS", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "EMAIL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "LATER", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Informal Emails"
+}
