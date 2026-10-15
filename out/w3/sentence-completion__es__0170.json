@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the team win the championship,",
+  "correct_completion": "but they also broke the national record.",
+  "full_sentence": "Not only did the team win the championship, but they also broke the national record.",
+  "acceptable_variants": ["but they also set a new national record.", "but they also achieved a record for the nation."],
+  "options": [
+    {"text": "did they celebrate with the fans.", "is_correct": false, "why_wrong": "This is a yes/no question form and does not complete the 'not only ... but also' structure."},
+    {"text": "they celebrated with the fans in the stadium.", "is_correct": false, "why_wrong": "This is a separate statement that ignores the second element of 'not only ... but also', so the correlative structure is left incomplete."},
+    {"text": "so they broke the national record.", "is_correct": false, "why_wrong": "'So' signals a result, but 'not only ... but also' requires an additional element, not a consequence."},
+    {"text": "but they also broke the national record.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Inversion after the negative adverbial 'Not only' with the correlative 'but also'",
+  "connector": "not only",
+  "explanation": "'Not only' at the start of a sentence triggers subject-auxiliary inversion in the first clause, and the second clause must begin with 'but also' to complete the pair. Spanish speakers often expect a single clause without inversion, so they may omit the second element or use a result connector instead.",
+  "translation": "No solo el equipo ganó el campeonato, sino que también batió el récord nacional."
+}
