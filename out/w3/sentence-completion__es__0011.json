@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite years of research,",
+  "correct_completion": "the cause of the disease remains unknown.",
+  "full_sentence": "Despite years of research, the cause of the disease remains unknown.",
+  "acceptable_variants": ["the cause of the illness is still a mystery.", "scientists still cannot explain the disease."],
+  "options": [
+    {"text": "so the researchers stopped working.", "is_correct": false, "why_wrong": "'So' signals a result, but 'despite' requires a contrast with the effort described in the stem."},
+    {"text": "the cause of the disease remains unknown.", "is_correct": true, "why_wrong": null},
+    {"text": "the research was funded by a university.", "is_correct": false, "why_wrong": "This is a neutral fact that does not contrast with the research effort."},
+    {"text": "because the research was very long.", "is_correct": false, "why_wrong": "'Because' introduces a cause, while 'despite' requires a contrast that the stem already sets up."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive preposition 'despite' followed by a noun phrase",
+  "connector": "despite",
+  "explanation": "'Despite' is followed by a noun phrase, and the main clause must show a result that goes against expectations. Learners often add a second connector such as 'but' or 'although' after 'despite', but English uses only one connector to express the contrast.",
+  "translation": "A pesar de años de investigación, la causa de la enfermedad sigue siendo desconocida."
+}
