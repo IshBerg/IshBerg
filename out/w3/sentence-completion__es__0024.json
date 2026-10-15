@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the team trained hard,",
+  "correct_completion": "they lost the final match.",
+  "full_sentence": "Although the team trained hard, they lost the final match.",
+  "acceptable_variants": ["they still lost the final match.", "the result was still a defeat."],
+  "options": [
+    {"text": "so they won the final match.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. After 'although' the clause must contrast with the first part of the sentence."},
+    {"text": "they lost the final match.", "is_correct": true, "why_wrong": null},
+    {"text": "they were training in the gym.", "is_correct": false, "why_wrong": "This continues the first idea instead of contrasting with it."},
+    {"text": "because the coach was absent.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which conflicts with the concessive meaning of 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and contrast",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must express a result that is unexpected given the first clause. Spanish speakers may be tempted to use a connector of cause here, but the concessive meaning requires a contrasting outcome.",
+  "translation": "Aunque el equipo entrenó duro, perdió la final."
+}

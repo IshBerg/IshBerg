@@ -1,0 +1,14 @@
+{
+  "trigger_word": "coffee",
+  "all_words": [
+    {"word": "cup", "is_associated": true, "association_type": "THEMATIC", "explanation": "La taza es el recipiente en el que normalmente se sirve el café, así que pertenece al mismo tema."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "El puente es una estructura para cruzar ríos o carreteras y no tiene ninguna relación con el café."},
+    {"word": "beans", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Los granos de café (coffee beans) forman una combinación frecuente en inglés."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "La almohada se relaciona con el sueño y no con la bebida del café."},
+    {"word": "sugar", "is_associated": true, "association_type": "THEMATIC", "explanation": "El azúcar es un ingrediente que muchas personas añaden al café."},
+    {"word": "espresso", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El espresso es un tipo de café, por lo que su significado está muy cerca de la palabra coffee."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con el café se relacionan por el tipo de bebida, sus ingredientes y los objetos que se usan para servirla."
+}
