@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is widely reported that",
+  "correct_completion": "the company will close two factories next year.",
+  "full_sentence": "It is widely reported that the company will close two factories next year.",
+  "acceptable_variants": ["the company is going to close two factories next year.", "the firm will shut down two factories next year."],
+  "options": [
+    {"text": "to close two factories next year.", "is_correct": false, "why_wrong": "After 'that', a finite clause with its own subject and verb is needed; the infinitive does not fit this reporting structure."},
+    {"text": "the company will close two factories next year.", "is_correct": true, "why_wrong": null},
+    {"text": "closing two factories next year.", "is_correct": false, "why_wrong": "A gerund cannot follow 'that' here; the structure needs a full clause with a subject and a finite verb."},
+    {"text": "will the company close two factories next year?", "is_correct": false, "why_wrong": "A question form cannot follow 'that' in a reported statement; the word order must be that of a statement."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Impersonal passive reporting structures with 'that'",
+  "connector": "that",
+  "explanation": "In reported statements, 'that' introduces a full clause with its own subject and a finite verb. Turkish speakers may find this unusual, because the reporting verb in their language usually comes at the end of the sentence, so the English order needs deliberate practice.",
+  "translation": "Şirketin gelecek yıl iki fabrikasını kapatacağı geniş çapta bildiriliyor."
+}
