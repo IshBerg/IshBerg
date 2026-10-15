@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "Jack and Jill went up the hill",
+  "correct_completion": "to fetch a pail of water.",
+  "full_sentence": "Jack and Jill went up the hill to fetch a pail of water.",
+  "acceptable_variants": ["to get some water from the well.", "to bring back a pail of water."],
+  "options": [
+    {"text": "and the sun was shining brightly.", "is_correct": false, "why_wrong": "This describes the weather, but it does not give the purpose of their trip up the hill."},
+    {"text": "to fetch a pail of water.", "is_correct": true, "why_wrong": null},
+    {"text": "because they were very tired.", "is_correct": false, "why_wrong": "This gives a reason for being tired, not the purpose of going up the hill."},
+    {"text": "so Jack went home early.", "is_correct": false, "why_wrong": "'So' introduces a result, and the sentence says the two went up the hill together, not that Jack went home."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Infinitive of purpose",
+  "connector": "to",
+  "explanation": "The sentence needs a phrase that explains why Jack and Jill went up the hill. English uses 'to' followed by a base verb to show purpose. Polish speakers may expect a clause introduced by a conjunction here, but English usually uses the short infinitive form."
+}

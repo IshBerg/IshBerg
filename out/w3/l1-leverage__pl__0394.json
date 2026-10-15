@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, friendly"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "zezwolenie", "transliteration": "zezwolenie", "meaning": "permission, authorization"}
+  ],
+  "english_words": ["possibly", "permission", "nice", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Polish word looks close to an English word, so learners tend to match by appearance. In this card the look-alike English word has a different meaning, so the correct pair is the English word that carries the same meaning as the Polish word.",
+  "false_friend_warning": "Polish learners often match the adjective meaning 'current, up to date' with 'actual' because the two look alike, but 'actual' means real or existing, so the correct match is 'current'."
+}
