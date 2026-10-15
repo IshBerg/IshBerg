@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because she has got a car,",
+  "correct_completion": "she drives to work every day.",
+  "full_sentence": "Because she has got a car, she drives to work every day.",
+  "acceptable_variants": ["she goes to work by car every day.", "she uses her car to get to work."],
+  "options": [
+    {"text": "she walks to work every day.", "is_correct": false, "why_wrong": "The reason given is that she has a car, so the result should be driving. Walking does not follow from owning a car."},
+    {"text": "she drives to work every day.", "is_correct": true, "why_wrong": null},
+    {"text": "she will not go to work.", "is_correct": false, "why_wrong": "'Because' introduces a reason that leads to a logical result, not a negative one, and the stem does not mention any problem."},
+    {"text": "she has got a big house.", "is_correct": false, "why_wrong": "This adds another fact, but it does not give the result expected after 'because'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because' and have got",
+  "connector": "because",
+  "explanation": "The stem gives a reason with 'because', so the completion must show the logical result of having a car. Learners should check that the result follows naturally from the reason.",
+  "translation": "Bir arabası olduğu için her gün işe arabayla gider."
+}
