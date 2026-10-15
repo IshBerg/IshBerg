@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had he known about the storm,",
+  "correct_completion": "he would have stayed home.",
+  "full_sentence": "Had he known about the storm, he would have stayed home.",
+  "acceptable_variants": ["he might have stayed home.", "he would have cancelled the trip."],
+  "options": [
+    {"text": "he will stay home tomorrow.", "is_correct": false, "why_wrong": "The stem is a past unreal condition with inversion, so the result must be a past conditional, not a future form."},
+    {"text": "he stays home every day.", "is_correct": false, "why_wrong": "This describes a general habit. It does not complete a hypothetical past condition."},
+    {"text": "he would have stayed home.", "is_correct": true, "why_wrong": null},
+    {"text": "he went out anyway.", "is_correct": false, "why_wrong": "This states a past fact. The stem needs a result clause describing what would have happened in the unreal situation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inversion (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "In this inverted third conditional, 'had' replaces 'if', so the subject comes before the participle. The main clause must use 'would have' plus a past participle to describe the unreal result.",
+  "translation": "Fırtına hakkında bilseydi, evde kalırdı."
+}
