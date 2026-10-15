@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "cloud", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La nube está en el cielo cuando llueve, por eso se relaciona con la lluvia."},
+    {"word": "cake", "is_associated": false, "association_type": "NONE", "explanation": "El pastel no tiene ninguna relación con la lluvia."},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "El paraguas se usa para no mojarse cuando llueve."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "El coche no tiene relación con la lluvia."},
+    {"word": "puddle", "is_associated": true, "association_type": "THEMATIC", "explanation": "El charco se forma en el suelo cuando llueve."},
+    {"word": "dog", "is_associated": false, "association_type": "NONE", "explanation": "El perro no tiene relación con la lluvia."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras relacionadas con la lluvia son nube, paraguas y charco; las demás no tienen relación con este tema."
+}

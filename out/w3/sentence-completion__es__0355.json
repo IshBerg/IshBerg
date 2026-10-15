@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Dear Ms. Brown, I am writing because",
+  "correct_completion": "I need some information about the English course.",
+  "full_sentence": "Dear Ms. Brown, I am writing because I need some information about the English course.",
+  "acceptable_variants": ["I would like to ask about the English course.", "I want to ask some questions about the course."],
+  "options": [
+    {"text": "I want to eat lunch with you.", "is_correct": false, "why_wrong": "A formal letter needs a clear, professional reason for writing, and having lunch is too personal for this context."},
+    {"text": "my cat is very hungry.", "is_correct": false, "why_wrong": "This is not a reason for writing a formal letter to a school or company, and it is not connected to the course."},
+    {"text": "I need some information about the English course.", "is_correct": true, "why_wrong": null},
+    {"text": "the weather was nice last week.", "is_correct": false, "why_wrong": "This talks about the weather, which is not a reason for writing to the person, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Using 'because' to give a reason in a formal letter",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the real reason for writing. In formal letters, this reason is usually clear and related to the purpose of the letter.",
+  "translation": "Estimada Sra. Brown, le escribo porque necesito información sobre el curso de inglés."
+}
