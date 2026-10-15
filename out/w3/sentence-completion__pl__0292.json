@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at that tall tree,",
+  "correct_completion": "it is very old.",
+  "full_sentence": "Look at that tall tree, it is very old.",
+  "acceptable_variants": ["it has many big leaves.", "it looks very beautiful."],
+  "options": [
+    {"text": "we are going home now.", "is_correct": false, "why_wrong": "This talks about the speaker's plan, but the stem asks us to describe the tree that 'that' points to."},
+    {"text": "it is very old.", "is_correct": true, "why_wrong": null},
+    {"text": "is this your bag?", "is_correct": false, "why_wrong": "A question does not describe the tree, so it does not complete the sentence about 'that tall tree'."},
+    {"text": "my dog is tired.", "is_correct": false, "why_wrong": "This introduces a different subject and does not give information about the tree."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative words 'this' and 'that' for things that are not near the speaker",
+  "connector": "that",
+  "explanation": "The word 'that' points to one specific tree, so the completion must give a description of that same tree. Notice how the pronoun 'it' refers back to the tree.",
+  "translation": "Spójrz na tamto wysokie drzewo, jest bardzo stare."
+}

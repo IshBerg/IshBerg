@@ -1,0 +1,23 @@
+{
+  "central_word": "afraid",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "niespokojny", "nuance": "slight worry that something may be wrong"},
+    {"word": "worried", "intensity": 2, "translation": "zmartwiony", "nuance": "concern about a problem that may happen"},
+    {"word": "anxious", "intensity": 3, "translation": "zaniepokojony", "nuance": "strong nervous feeling about the future"},
+    {"word": "frightened", "intensity": 4, "translation": "przestraszony", "nuance": "fear caused by a sudden danger"},
+    {"word": "terrified", "intensity": 5, "translation": "przerażony", "nuance": "extreme fear that overwhelms a person"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe fear or worry, but they rise from a slight unease to a fear so strong that it overwhelms a person.",
+  "usage_notes": [
+    {"word1": "worried", "word2": "anxious", "difference": "'Worried' is usually about a specific problem; 'anxious' describes a more lasting nervous feeling that can exist without a clear cause."}
+  ],
+  "translations": {
+    "uneasy": "niespokojny",
+    "worried": "zmartwiony",
+    "anxious": "zaniepokojony",
+    "frightened": "przestraszony",
+    "terrified": "przerażony"
+  }
+}
