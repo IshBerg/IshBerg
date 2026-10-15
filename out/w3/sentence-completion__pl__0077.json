@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The train was late this morning,",
+  "correct_completion": "so we were late for school.",
+  "full_sentence": "The train was late this morning, so we were late for school.",
+  "acceptable_variants": ["so we were all late for class.", "so we were late for our first lesson."],
+  "options": [
+    {"text": "so we were early for school.", "is_correct": false, "why_wrong": "'Early' contradicts the fact that the train was late, so it cannot be the result of a late train."},
+    {"text": "so we were late for school.", "is_correct": true, "why_wrong": null},
+    {"text": "because it was a holiday.", "is_correct": false, "why_wrong": "'Because' introduces a reason, and this clause does not describe a result of the train being late."},
+    {"text": "the station was closed.", "is_correct": false, "why_wrong": "This describes another situation and does not show the result of the train being late."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple of 'be' (was / were) in a cause and result sentence",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the train being late. The subject 'we' takes 'were', while the singular subject 'the train' takes 'was'. Learners often mix these two forms, so check the subject before choosing.",
+  "translation": "Pociąg dziś rano się spóźnił, więc spóźniliśmy się do szkoły."
+}
