@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The newspaper reported that the minister had resigned, although",
+  "correct_completion": "officials have not confirmed the news yet.",
+  "full_sentence": "The newspaper reported that the minister had resigned, although officials have not confirmed the news yet.",
+  "acceptable_variants": ["the government has not yet commented on the story.", "the claim remains unverified by official sources."],
+  "options": [
+    {"text": "officials had confirmed the news.", "is_correct": false, "why_wrong": "Confirmation would support the report rather than contrast with it, so 'although' does not fit here."},
+    {"text": "so the minister is still in office.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast, and the stem requires a concessive clause after 'although'."},
+    {"text": "officials have not confirmed the news yet.", "is_correct": true, "why_wrong": null},
+    {"text": "the newspaper printed a photograph of the building.", "is_correct": false, "why_wrong": "This adds an unrelated detail and does not set up a contrast with the reported resignation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in reported speech",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that contrasts with the reported claim. Here the contrast is that the reported news has not yet been verified by officials. Learners should use the concessive connector explicitly, since English does not allow the contrast to be implied by word order alone.",
+  "translation": "Gazete, bakanın istifa ettiğini bildirdi; ancak yetkililer haberi henüz doğrulamadı."
+}
