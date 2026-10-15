@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'River bank' ifadesinde bu kelime 'bank' ile birlikte kullanılır ve nehir kıyısı anlamını verir."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Bulut, ne bankacılık ne de nehir kıyısı anlamıyla ilgilidir."},
+    {"word": "money", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Para, bankanın temel işlevi olduğu için bu kelimeyle doğrudan anlam ilişkisi vardır."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastığın bankayla ya da nehir kıyısıyla bir bağlantısı yoktur."},
+    {"word": "vault", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kasa, bankalarda değerli eşyaların saklandığı güvenli bölümdür ve bankayla birlikte düşünülür."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Kaşık, bankayla ya da para ile ilgili herhangi bir anlam taşımaz."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Bank' kelimesi hem para kurumu hem de nehir kıyısı anlamına gelir; ilişkili kelimeler bu iki anlamdan birine bağlıdır, diğerleri ise bu alanların dışındadır."
+}

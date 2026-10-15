@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N", "E", "W", "S", "A", "K", "L", "M", "P", "S"],
+    ["B", "Q", "F", "J", "U", "G", "H", "C", "T", "X"],
+    ["Z", "V", "K", "N", "L", "A", "P", "O", "D", "W"],
+    ["M", "G", "H", "F", "B", "C", "R", "U", "K", "Q"],
+    ["J", "V", "Z", "W", "N", "Y", "A", "L", "G", "T"],
+    ["Q", "R", "O", "T", "I", "D", "E", "K", "U", "R"],
+    ["H", "S", "V", "C", "M", "A", "W", "J", "N", "O"],
+    ["F", "L", "B", "K", "G", "Z", "Q", "X", "H", "P"],
+    ["A", "U", "T", "V", "D", "N", "F", "S", "M", "E"],
+    ["C", "I", "L", "W", "Y", "J", "B", "G", "K", "R"]
+  ],
+  "words_to_find": ["NEWS", "REPORT", "STORY", "EDITOR"],
+  "word_positions": [
+    {"word": "NEWS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REPORT", "start_row": 9, "start_col": 9, "direction": "VERTICAL_UP"},
+    {"word": "STORY", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "EDITOR", "start_row": 5, "start_col": 6, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Reporting News"
+}
