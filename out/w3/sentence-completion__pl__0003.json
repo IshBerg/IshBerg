@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been warned about the storm three times,",
+  "correct_completion": "the residents finally evacuated the coastal villages.",
+  "full_sentence": "Having been warned about the storm three times, the residents finally evacuated the coastal villages.",
+  "acceptable_variants": ["the residents eventually left the area.", "the residents finally moved inland."],
+  "options": [
+    {"text": "to evacuate the coastal villages.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the main verb of the sentence. A finite verb is needed after the introductory phrase."},
+    {"text": "the residents finally evacuated the coastal villages.", "is_correct": true, "why_wrong": null},
+    {"text": "the residents evacuating the villages.", "is_correct": false, "why_wrong": "A present participle cannot form the main clause without an auxiliary or finite verb, so the sentence is incomplete."},
+    {"text": "the coastal villages being evacuated.", "is_correct": false, "why_wrong": "A passive participle phrase cannot complete the sentence on its own. The stem already has its perfect passive form, and the main clause needs a finite verb."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect passive participle clauses with 'having been' followed by a finite main clause",
+  "connector": "having been",
+  "explanation": "The stem uses a perfect passive participle phrase that describes an earlier, completed event. The main clause must supply a finite active verb whose subject performs the action. Learners often try a participle or infinitive here, but those forms cannot carry the main verb.",
+  "translation": "Po trzykrotnym ostrzeżeniu o burzy mieszkańcy w końcu ewakuowali nadmorskie wioski."
+}
