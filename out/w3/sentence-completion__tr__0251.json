@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had I known about the traffic,",
+  "correct_completion": "I would have left home earlier.",
+  "full_sentence": "Had I known about the traffic, I would have left home earlier.",
+  "acceptable_variants": ["I would have set off sooner.", "I'd have left home much earlier."],
+  "options": [
+    {"text": "I left home earlier yesterday.", "is_correct": false, "why_wrong": "'Had I known' introduces a hypothetical past condition, so the completion must give its result as a conditional, not a simple past statement."},
+    {"text": "so I should leave now.", "is_correct": false, "why_wrong": "The stem describes past regret. 'Should leave now' is a present recommendation and does not match the past conditional."},
+    {"text": "I would have left home earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "unless I had known.", "is_correct": false, "why_wrong": "'Unless' repeats a condition already expressed by 'had I known' and does not give the result the sentence needs."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had I known",
+  "explanation": "In an inverted third conditional, 'had' replaces 'if' at the start of the clause. The main clause then needs 'would have' plus the past participle to show the imagined result of a past situation.",
+  "translation": "Trafiği bilseydim, evden daha erken çıkardım."
+}

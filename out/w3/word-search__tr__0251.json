@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "O", "L", "F", "A", "B", "C", "D", "E", "F"],
+    ["K", "U", "P", "Z", "H", "Q", "J", "V", "Y", "O"],
+    ["B", "N", "D", "L", "M", "A", "W", "Y", "U", "X"],
+    ["M", "R", "E", "Q", "S", "P", "H", "K", "V", "Z"],
+    ["J", "A", "T", "N", "D", "U", "L", "B", "T", "I"],
+    ["Y", "F", "G", "O", "X", "W", "R", "A", "S", "C"],
+    ["P", "H", "V", "I", "K", "M", "Q", "D", "E", "L"],
+    ["U", "B", "Y", "T", "C", "N", "Z", "J", "R", "A"],
+    ["G", "W", "F", "H", "P", "Y", "B", "L", "O", "K"],
+    ["Q", "S", "V", "G", "N", "I", "K", "E", "F", "D"]
+  ],
+  "words_to_find": ["WOLF", "FOX", "MAGIC", "KING", "FOREST"],
+  "word_positions": [
+    {"word": "WOLF", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FOX", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "MAGIC", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "KING", "start_row": 9, "start_col": 6, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "FOREST", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Folk Tales"
+}
