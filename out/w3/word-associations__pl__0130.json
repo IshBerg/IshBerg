@@ -1,0 +1,14 @@
+{
+  "trigger_word": "wood",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Drewno pochodzi z drzew, więc słowa tree i wood należą do tego samego znaczenia."},
+    {"word": "chair", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówi się wooden chair, czyli drewniane krzesło, więc słowa często występują razem."},
+    {"word": "glass", "is_associated": false, "association_type": "NONE", "explanation": "Szkło to inny materiał i nie ma bezpośredniego związku z drewnem."},
+    {"word": "forest", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las to miejsce, w którym rośnie drewno, więc tematycznie słowa są powiązane."},
+    {"word": "plastic", "is_associated": false, "association_type": "NONE", "explanation": "Plastik jest sztucznym materiałem, który nie ma nic wspólnego z drewnem."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka to element krajobrazu wodnego i nie jest związana z drewnem jako materiałem."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo wood kojarzy się z drzewami, lasami i przedmiotami wykonanymi z drewna, a materiały syntetyczne i elementy wodne do tego zestawu nie należą."
+}
