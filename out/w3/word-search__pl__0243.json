@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["I", "D", "E", "A", "X", "M", "P", "Q", "R", "S"],
+    ["B", "N", "H", "O", "V", "U", "L", "Z", "C", "J"],
+    ["K", "Q", "W", "P", "R", "T", "E", "A", "N", "G"],
+    ["F", "C", "Z", "M", "D", "O", "T", "B", "Y", "H"],
+    ["V", "J", "L", "R", "X", "G", "S", "N", "Q", "C"],
+    ["T", "K", "B", "M", "C", "F", "H", "D", "L", "P"],
+    ["S", "R", "G", "W", "K", "N", "J", "F", "U", "V"],
+    ["M", "E", "Y", "D", "H", "B", "X", "P", "Q", "R"],
+    ["C", "W", "G", "F", "J", "K", "L", "A", "Z", "O"],
+    ["P", "U", "T", "I", "Y", "Q", "K", "L", "A", "W"]
+  ],
+  "words_to_find": ["IDEA", "LETS", "TRY", "WALK"],
+  "word_positions": [
+    {"word": "IDEA", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LETS", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "TRY", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WALK", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Making Suggestions"
+}

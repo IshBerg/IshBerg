@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the editor read the second draft more carefully,",
+  "correct_completion": "she would have noticed the inconsistencies in the plot.",
+  "full_sentence": "Had the editor read the second draft more carefully, she would have noticed the inconsistencies in the plot.",
+  "acceptable_variants": ["she could have spotted the errors earlier.", "she would have caught the plot holes."],
+  "options": [
+    {"text": "she notices the inconsistencies every day.", "is_correct": false, "why_wrong": "The present simple does not fit the unreal past condition introduced by the inverted 'Had'."},
+    {"text": "she will have noticed the inconsistencies.", "is_correct": false, "why_wrong": "The future perfect does not match the hypothetical past; a conditional perfect is required after the inverted 'Had'."},
+    {"text": "she would have noticed the inconsistencies in the plot.", "is_correct": true, "why_wrong": null},
+    {"text": "she had noticed the inconsistencies.", "is_correct": false, "why_wrong": "The past perfect repeats the 'had' pattern and gives the wrong form for the result clause of a third conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had' as a condition",
+  "connector": "had (inversion)",
+  "explanation": "After the inverted 'Had', the main clause needs a conditional perfect to describe what would have happened under an unreal past condition. Polish speakers may default to a simple tense here, because Polish conditional forms are built differently from English ones.",
+  "translation": "Gdyby redaktorka przeczytała drugi szkic uważniej, zauważyłaby niespójności w fabule."
+}
