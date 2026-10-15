@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were the manager,",
+  "correct_completion": "I would review the security policy.",
+  "full_sentence": "If I were the manager, I would review the security policy.",
+  "acceptable_variants": ["I would change the privacy settings.", "I would ask the team to check the system."],
+  "options": [
+    {"text": "I would review the security policy.", "is_correct": true, "why_wrong": null},
+    {"text": "I reviewed the security policy yesterday.", "is_correct": false, "why_wrong": "This is a past action. The second conditional needs 'would' plus the base verb to express an imagined situation."},
+    {"text": "I will review the security policy.", "is_correct": false, "why_wrong": "'Will' is used for real future plans. The imagined situation after 'if I were' needs 'would'."},
+    {"text": "I am reviewing the security policy.", "is_correct": false, "why_wrong": "This describes a real action happening now. It does not match the hypothetical meaning set up by 'if I were'."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'if I were' and 'would' in the main clause",
+  "connector": "if I were",
+  "explanation": "The stem uses the subjunctive 'were' to set up an imagined situation, so the main clause uses 'would' with the base verb. Ukrainian speakers may translate a real conditional and use a future form, which breaks the hypothetical meaning in English.",
+  "translation": "Якби я був менеджером, я б переглянув політику безпеки."
+}
