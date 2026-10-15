@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before in my life,",
+  "correct_completion": "had I seen such a beautiful sunset.",
+  "full_sentence": "Never before in my life, had I seen such a beautiful sunset.",
+  "acceptable_variants": ["had I ever seen such a beautiful sunset.", "had I witnessed such a beautiful sunset."],
+  "options": [
+    {"text": "I had seen such a beautiful sunset.", "is_correct": false, "why_wrong": "After a negative adverbial such as 'never before', English needs subject-auxiliary inversion for emphasis. Normal word order is incorrect here."},
+    {"text": "had I seen such a beautiful sunset.", "is_correct": true, "why_wrong": null},
+    {"text": "I have seen such a beautiful sunset.", "is_correct": false, "why_wrong": "This is grammatically possible, but it has no inversion, so it does not give the emphatic structure the stem requires."},
+    {"text": "did I see such a beautiful sunset.", "is_correct": false, "why_wrong": "'Did' is the wrong auxiliary here. The earlier past event needs the past perfect, so 'had' must be used with inversion."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after negative adverbials with the past perfect",
+  "connector": "never before",
+  "explanation": "After a negative adverbial placed at the start of a clause, English moves the auxiliary 'had' in front of the subject for emphasis. Speakers often keep normal word order by habit, but this structure is required in formal and literary English.",
+  "translation": "Ніколи раніше в житті я не бачив такого прекрасного заходу сонця."
+}
