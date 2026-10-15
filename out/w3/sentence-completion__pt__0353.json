@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although some critics disagree,",
+  "correct_completion": "the evidence strongly supports the author's central claim.",
+  "full_sentence": "Although some critics disagree, the evidence strongly supports the author's central claim.",
+  "acceptable_variants": ["the evidence still supports the author's central claim.", "the author's central claim remains well supported by the evidence."],
+  "options": [
+    {"text": "so the evidence strongly supports the author's central claim.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. The stem requires a clause that contrasts with the critics' disagreement."},
+    {"text": "the evidence strongly supports the author's central claim.", "is_correct": true, "why_wrong": null},
+    {"text": "because the critics had read the whole essay.", "is_correct": false, "why_wrong": "'Because' introduces a reason, which does not complete the contrast set up by 'although'."},
+    {"text": "the essay was published in a academic journal.", "is_correct": false, "why_wrong": "This adds a fact but does not contrast with the critics' disagreement."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show contrast with the first part of the sentence. Learners often use 'so' or 'because' here, which signal cause and effect instead of contrast. In argumentative essays, this structure lets the writer acknowledge opposing views while still defending a claim.",
+  "translation": "Embora alguns críticos discordem, as evidências apoiam fortemente a principal tese do autor."
+}
