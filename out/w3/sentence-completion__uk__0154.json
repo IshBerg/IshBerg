@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has lived in this city",
+  "correct_completion": "for five years.",
+  "full_sentence": "She has lived in this city for five years.",
+  "acceptable_variants": ["since 2015.", "for the last five years."],
+  "options": [
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a finished time, and the present perfect cannot be used with it."},
+    {"text": "when she was a child.", "is_correct": false, "why_wrong": "This points to a finished time in the past, which requires the past simple, not the present perfect."},
+    {"text": "for five years.", "is_correct": true, "why_wrong": null},
+    {"text": "last Monday.", "is_correct": false, "why_wrong": "'Last Monday' is a specific finished point in time, so the present perfect does not fit."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'for' and 'since' to describe a period up to now",
+  "connector": "for",
+  "explanation": "The present perfect with 'for' describes a period that starts in the past and continues up to now. Ukrainian speakers often use a present tense here, because Ukrainian uses present forms for actions that continue up to now, which can lead to the wrong tense in English.",
+  "translation": "Вона живе в цьому місті вже п'ять років."
+}
