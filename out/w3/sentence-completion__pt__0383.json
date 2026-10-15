@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the comic strip was very short,",
+  "correct_completion": "it made me laugh out loud.",
+  "full_sentence": "Although the comic strip was very short, it made me laugh out loud.",
+  "acceptable_variants": ["it still made me laugh.", "it was very funny anyway."],
+  "options": [
+    {"text": "so it made me cry.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast with the first part of the sentence."},
+    {"text": "it made me laugh out loud.", "is_correct": true, "why_wrong": null},
+    {"text": "it was drawn in black and white.", "is_correct": false, "why_wrong": "This describes the comic strip but does not contrast with its short length."},
+    {"text": "the characters were drawn in pencil.", "is_correct": false, "why_wrong": "This adds a detail about the drawing but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first clause. Portuguese speakers may choose a connector that marks cause or result here, so it helps to check that the second clause goes against what the first clause suggests.",
+  "translation": "Embora a tira de quadrinhos fosse muito curta, ela me fez rir alto."
+}
