@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the manager failed to realise",
+  "correct_completion": "was that the whole team had been working on the wrong project.",
+  "full_sentence": "What the manager failed to realise was that the whole team had been working on the wrong project.",
+  "acceptable_variants": ["was that the team had spent months on the wrong project.", "was that nobody had checked the original brief."],
+  "options": [
+    {"text": "the whole team had been working on the wrong project.", "is_correct": false, "why_wrong": "The pseudo-cleft needs a form of 'be' (here 'was') after the 'What' clause to link it to the focus. Without it the sentence is ungrammatical."},
+    {"text": "was going to be discussed at the next meeting.", "is_correct": false, "why_wrong": "This describes a future plan, which does not fit a realisation that the manager missed."},
+    {"text": "was that the whole team had been working on the wrong project.", "is_correct": true, "why_wrong": null},
+    {"text": "was the lack of experience in the team.", "is_correct": false, "why_wrong": "Grammatically acceptable, but it names a cause rather than the thing the manager failed to notice, so it does not complete the meaning of the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft sentences with a 'What' clause and a copular verb",
+  "connector": "what",
+  "explanation": "A pseudo-cleft places the focus after a 'What' clause and links the two with a form of 'be'. Learners whose first language builds this structure differently often omit the linking verb, so keep 'was' in English.",
+  "translation": "O que o gerente não percebeu foi que toda a equipe estava trabalhando no projeto errado."
+}
