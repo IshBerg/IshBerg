@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hipótese", "transliteration": "hipotese", "meaning": "hypothesis; a proposed explanation to be tested"},
+    {"word": "análise", "transliteration": "analise", "meaning": "analysis; a detailed examination of something"},
+    {"word": "paradigma", "transliteration": "paradigma", "meaning": "paradigm; a typical model or framework of thinking"},
+    {"word": "protocolo", "transliteration": "protocolo", "meaning": "protocol; a set of formal rules for a procedure"}
+  ],
+  "english_words": ["protocol", "paradigm", "hypothesis", "analysis"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "All four English words were borrowed from Latin or Greek and keep the same meaning in both languages, so the forms stayed close.",
+  "false_friend_warning": null
+}
