@@ -1,0 +1,14 @@
+{
+  "trigger_word": "phone",
+  "all_words": [
+    {"word": "call", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówi się 'make a call' (zadzwonić), więc to słowo często występuje razem z 'phone' w typowych połączeniach."},
+    {"word": "forest", "is_associated": false, "association_type": "NONE", "explanation": "Las nie ma związku z telefonem; nie łączy się z nim ani znaczeniowo, ani w typowych wyrażeniach."},
+    {"word": "screen", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ekran jest częścią telefonu, więc znaczeniowo jest z nim ściśle powiązany."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Chleb to produkt spożywczy i nie ma żadnego związku z telefonami."},
+    {"word": "charger", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ładowarka jest akcesorium potrzebnym do ładowania telefonu, więc należy do tego samego tematu."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka to jedzenie i nie ma związku z telefonem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'phone' łączy się z innymi słowami na trzy sposoby: przez typowe połączenia wyrazowe, znaczenie oraz temat, czyli wszystko, co dotyczy telefonów i ich używania."
+}
