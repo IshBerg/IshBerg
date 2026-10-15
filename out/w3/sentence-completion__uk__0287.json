@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister",
+  "correct_completion": "is ten years old.",
+  "full_sentence": "My sister is ten years old.",
+  "acceptable_variants": ["is ten years old now.", "is ten."],
+  "options": [
+    {"text": "are ten years old.", "is_correct": false, "why_wrong": "'My sister' is one person, so it takes the singular form 'is', not the plural 'are'."},
+    {"text": "be ten years old.", "is_correct": false, "why_wrong": "'Be' cannot follow the subject directly in a simple present sentence. We need a form of 'be' that matches the subject, such as 'is'."},
+    {"text": "is ten years old.", "is_correct": true, "why_wrong": null},
+    {"text": "am ten years old.", "is_correct": false, "why_wrong": "'Am' is used only with 'I'. With 'my sister' we use 'is'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verb 'to be' with a singular third-person subject (is)",
+  "connector": "is",
+  "explanation": "The subject 'my sister' is singular and in the third person, so the verb 'to be' takes the form 'is'. Ukrainian speakers may forget that English always needs a form of 'be' in this kind of sentence, because the present tense of the verb 'be' is often left out in their first language.",
+  "translation": "Моїй сестрі десять років."
+}
