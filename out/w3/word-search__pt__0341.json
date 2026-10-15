@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["O", "P", "I", "N", "I", "O", "N", "X"],
+    ["M", "T", "Z", "K", "B", "Q", "L", "A"],
+    ["P", "Z", "V", "D", "H", "E", "K", "C"],
+    ["M", "W", "R", "G", "X", "S", "Q", "D"],
+    ["A", "G", "R", "E", "E", "S", "B", "F"],
+    ["T", "L", "N", "K", "F", "A", "Z", "G"],
+    ["I", "D", "E", "A", "Q", "Y", "M", "H"],
+    ["K", "P", "W", "R", "J", "N", "T", "S"]
+  ],
+  "words_to_find": ["OPINION", "ESSAY", "AGREE", "IDEA"],
+  "word_positions": [
+    {"word": "OPINION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSAY", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "AGREE", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IDEA", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Opinion Essays"
+}
