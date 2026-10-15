@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["N", "A", "R", "R", "A", "T", "I", "V", "E"],
+    ["R", "K", "Q", "W", "P", "Z", "J", "X", "L"],
+    ["H", "Y", "F", "D", "K", "V", "Q", "W", "U"],
+    ["E", "J", "B", "R", "P", "L", "Z", "Q", "T"],
+    ["T", "Z", "K", "U", "A", "X", "Y", "L", "B"],
+    ["O", "W", "G", "D", "H", "M", "P", "K", "I"],
+    ["R", "T", "E", "Q", "V", "L", "I", "Z", "A"],
+    ["I", "F", "C", "J", "Y", "W", "D", "N", "S"],
+    ["C", "M", "Q", "L", "K", "U", "X", "P", "G"]
+  ],
+  "words_to_find": ["NARRATIVE", "RHETORIC", "FRAMING", "BIAS"],
+  "word_positions": [
+    {"word": "NARRATIVE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RHETORIC", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "FRAMING", "start_row": 2, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "BIAS", "start_row": 4, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Media Literacy and Discourse Analysis"
+}
