@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "O", "W", "E", "V", "E", "R", "Q", "Z", "M"],
+    ["B", "I", "K", "P", "J", "C", "W", "F", "S", "O"],
+    ["A", "X", "Q", "M", "D", "K", "L", "P", "T", "R"],
+    ["Y", "L", "B", "G", "W", "Z", "N", "C", "K", "E"],
+    ["J", "P", "T", "I", "N", "D", "E", "E", "D", "O"],
+    ["M", "F", "R", "H", "Q", "S", "U", "W", "Z", "V"],
+    ["G", "K", "B", "T", "O", "R", "L", "Y", "P", "E"],
+    ["D", "C", "J", "Q", "W", "U", "N", "M", "A", "R"],
+    ["E", "V", "K", "Z", "F", "L", "G", "S", "X", "D"],
+    ["F", "I", "N", "A", "L", "L", "Y", "H", "Q", "W"]
+  ],
+  "words_to_find": ["HOWEVER", "MOREOVER", "ALTHOUGH", "INDEED", "FINALLY"],
+  "word_positions": [
+    {"word": "HOWEVER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MOREOVER", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "ALTHOUGH", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "INDEED", "start_row": 4, "start_col": 3, "direction": "HORIZONTAL"},
+    {"word": "FINALLY", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Linking Adverbials and Signposting"
+}
