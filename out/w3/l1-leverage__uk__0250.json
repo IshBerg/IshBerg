@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop, store"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, current, up to date"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "кабінет", "transliteration": "kabinet", "meaning": "office, study room"}
+  ],
+  "english_words": ["fabric", "cabinet", "magazine", "actual"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each of these words came into Ukrainian and English from a related source, so the spellings look alike. Over time the meanings drifted apart in each language, so the similar forms now point to different things.",
+  "false_friend_warning": "Be careful: the Ukrainian word that looks like the English word 'magazine' means a shop or store, and the Ukrainian word that looks like 'actual' means relevant or current, so these are false friends for English learners from Ukrainian."
+}

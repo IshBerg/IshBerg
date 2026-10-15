@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known the consequences beforehand,",
+  "correct_completion": "she would never have accepted the offer.",
+  "full_sentence": "Had she known the consequences beforehand, she would never have accepted the offer.",
+  "acceptable_variants": ["she would have declined the proposal.", "she would certainly have refused the invitation."],
+  "options": [
+    {"text": "she accepts the offer every time.", "is_correct": false, "why_wrong": "The present simple does not complete the inverted conditional started by 'had', which requires a hypothetical past result."},
+    {"text": "she will accept it tomorrow.", "is_correct": false, "why_wrong": "A future time reference clashes with the past conditional, because the stem describes a hypothetical past situation."},
+    {"text": "she would never have accepted the offer.", "is_correct": true, "why_wrong": null},
+    {"text": "she had accepted the offer already.", "is_correct": false, "why_wrong": "This states a past fact rather than a hypothetical result, so it does not complete the conditional logic of the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditional clauses with 'had' (third conditional)",
+  "connector": "had",
+  "explanation": "Inverted conditionals drop 'if' and place the auxiliary 'had' before the subject, so the clause is read as a hypothetical past condition. The main clause must then express the imagined past result using 'would have' plus the past participle. Ukrainian speakers may find this inverted word order unfamiliar, because Ukrainian marks hypothetical conditions with a particle rather than with changed word order.",
+  "translation": "Якби вона знала про наслідки заздалегідь, вона ніколи б не погодилася на цю пропозицію."
+}
