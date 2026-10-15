@@ -1,0 +1,23 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "upset", "intensity": 1, "translation": "засмучений", "nuance": "a little unhappy because of something small"},
+    {"word": "sad", "intensity": 2, "translation": "сумний", "nuance": "unhappy, often quiet and low in mood"},
+    {"word": "unhappy", "intensity": 3, "translation": "нещасливий", "nuance": "not happy for a longer time"},
+    {"word": "miserable", "intensity": 4, "translation": "нещасний", "nuance": "very unhappy and uncomfortable"},
+    {"word": "devastated", "intensity": 5, "translation": "спустошений", "nuance": "extremely sad after a very bad event"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express sadness, but with different strength, from a small feeling of being upset to deep sorrow after a terrible event.",
+  "usage_notes": [
+    {"word1": "sad", "word2": "unhappy", "difference": "'Sad' often describes a temporary feeling or a reaction to something; 'unhappy' describes a more general state that can last longer."}
+  ],
+  "translations": {
+    "upset": "засмучений",
+    "sad": "сумний",
+    "unhappy": "нещасливий",
+    "miserable": "нещасний",
+    "devastated": "спустошений"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pencil",
+  "all_words": [
+    {"word": "eraser", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гумка часто лежить поруч з олівцем, і їх використовують разом, коли пишуть і виправляють помилки."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "Океан не пов'язаний з олівцем: це великий водойм, а не предмет для письма."},
+    {"word": "sharpener", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'pencil sharpener' означає точилку для олівця, тому це сильний зв'язок."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Подушка належить до сну і спальні, а не до олівця чи письма."},
+    {"word": "ruler", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лінійка і олівець є шкільним приладдям і часто використовуються разом на уроці математики."},
+    {"word": "paper", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Олівець пишуть на папері, тож ці слова мають пряме змістовне зв'язок."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з олівцем, стосуються письма, шкільного приладдя та словосполучень, а слова ocean і pillow не мають до нього відношення."
+}
