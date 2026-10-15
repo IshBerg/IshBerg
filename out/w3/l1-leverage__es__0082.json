@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold, with a stuffy nose"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "receta", "transliteration": "receta", "meaning": "prescription written by a doctor"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily hurt or upset"}
+  ],
+  "english_words": ["sensitive", "prescription", "cold", "pregnant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Several Spanish and English words look alike because they come from the same Latin or French roots, but over time their meanings drifted apart in each language.",
+  "false_friend_warning": "Watch out: the Spanish word that looks like the English 'constipated' means having a cold, the Spanish word that looks like 'embarrassed' means pregnant, and the Spanish word that looks like 'sensible' means sensitive, not reasonable. Never translate these words literally."
+}
