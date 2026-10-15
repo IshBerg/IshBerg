@@ -1,0 +1,14 @@
+{
+  "trigger_word": "look",
+  "all_words": [
+    {"word": "up", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Look up' é um phrasal verb que significa procurar uma informação, por exemplo em um dicionário."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "'Window' significa janela e não forma nenhum phrasal verb com 'look'."},
+    {"word": "after", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Look after' é um phrasal verb que significa cuidar de alguém ou de algo."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "'Banana' é uma fruta e não tem relação com o verbo 'look' nem com seus phrasal verbs."},
+    {"word": "forward", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Look forward' é uma expressão que significa esperar algo com prazer, muito usada com 'to'."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "'Cloud' significa nuvem e não faz parte de nenhuma combinação comum com 'look'."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'look' se combina com várias partículas para formar phrasal verbs e expressões. As palavras sem relação com esse uso gramatical não devem ser selecionadas."
+}
