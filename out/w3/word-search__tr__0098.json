@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "R", "E", "E", "A", "K", "S", "Q", "R"],
+    ["B", "C", "D", "F", "G", "H", "O", "J", "I"],
+    ["P", "Q", "X", "Y", "K", "W", "I", "Z", "V"],
+    ["N", "B", "C", "D", "G", "H", "L", "K", "E"],
+    ["L", "M", "N", "P", "Q", "W", "Y", "Z", "R"],
+    ["X", "E", "C", "B", "D", "F", "G", "H", "J"],
+    ["K", "L", "A", "M", "N", "P", "Q", "R", "T"],
+    ["V", "W", "X", "F", "Y", "Z", "B", "C", "D"],
+    ["G", "H", "J", "K", "S", "U", "N", "M", "P"]
+  ],
+  "words_to_find": ["TREE", "RIVER", "LEAF", "SOIL", "SUN"],
+  "word_positions": [
+    {"word": "TREE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RIVER", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "LEAF", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SOIL", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SUN", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Environment"
+}
