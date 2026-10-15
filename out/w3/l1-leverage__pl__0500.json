@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "muzeum", "transliteration": "muzeum", "meaning": "museum"},
+    {"word": "piramida", "transliteration": "piramida", "meaning": "pyramid"},
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"},
+    {"word": "park", "transliteration": "park", "meaning": "a public green area with trees and paths"}
+  ],
+  "english_words": ["hotel", "museum", "park", "pyramid"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Polish word has almost the same form and meaning as its English partner, because both languages took the word from a shared source or from each other.",
+  "false_friend_warning": null
+}
