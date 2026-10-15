@@ -1,0 +1,19 @@
+{
+  "sentence_stem": "Not only did the team finish the project early,",
+  "correct_completion": "but they also reduced the costs significantly.",
+  "full_sentence": "Not only did the team finish the project early, but they also reduced the costs significantly.",
+  "acceptable_variants": ["but they also improved the quality of the final report.", "but they also exceeded every target set by the managers."],
+  "options": [
+    {"text": "so they received a bonus.", "is_correct": false, "why_wrong": "'So' introduces a result. The stem uses 'not only', which needs a second emphatic addition, not a consequence."},
+    {"text": "but they also reduced the costs significantly.", "is_correct": true, "why_wrong": null},
+    {"text": "because the manager asked for it.", "is_correct": false, "why_wrong": "'Because' gives a reason. 'Not only ... but also' needs a parallel addition about the same subject."},
+    {"text": "although the budget was small.", "is_correct": false, "why_wrong": "'Although' introduces a concession. 'Not only ... but also' emphasises an additional achievement instead."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Emphatic correlative structure 'not only ... but also' with inversion",
+  "connector": "not only ... but also",
+  "explanation": "The stem uses the correlative pair 'not only' followed by an inverted auxiliary, so the completion must add a second, parallel achievement introduced by 'but also'.",
+  "acceptable_variants": ["but they also improved the quality of the final report.", "but they also exceeded every target set by the managers."],
+  "translation": "Ekip projeyi yalnızca erken bitirmekle kalmadı, aynı zamanda maliyetleri önemli ölçüde de azalttı."
+}
