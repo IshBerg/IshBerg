@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While I was cooking dinner, the phone rang.",
+  "acceptable_variants": ["the doorbell rang.", "my brother came into the kitchen."],
+  "options": [
+    {"text": "I eat dinner at the table.", "is_correct": false, "why_wrong": "The present simple does not fit a past story, and this option does not show an event interrupting the cooking."},
+    {"text": "the dog went to sleep.", "is_correct": false, "why_wrong": "This is a past action, but it does not interrupt the cooking, so the sentence sounds unrelated to the stem."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "the phone has rung.", "is_correct": false, "why_wrong": "The present perfect does not match the past continuous and past simple pattern needed after 'while' in a past story."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous interrupted by past simple",
+  "connector": "while",
+  "explanation": "The past continuous ('was cooking') shows an activity in progress, and the past simple ('rang') shows the sudden action that interrupts it. Learners whose first language uses different tense patterns for this may need extra practice with this structure.",
+  "translation": "Enquanto eu cozinhava o jantar, o telefone tocou."
+}

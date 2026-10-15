@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "esquisito", "transliteration": "esquisito", "meaning": "odd, strange"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current, present"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend, to plan"}
+  ],
+  "english_words": ["to intend", "odd", "to watch", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin, so the forms look alike, but their meanings have drifted apart over time. Learners tend to assume that a word with a similar spelling has the same meaning in English.",
+  "false_friend_warning": "False friend trap: the Portuguese word 'esquisito' (transliteration) looks like the English word 'exquisite', but it means 'odd' or 'strange'. 'Exquisite' means very beautiful or refined."
+}
