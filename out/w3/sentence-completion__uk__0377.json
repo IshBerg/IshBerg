@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem uses simple words,",
+  "correct_completion": "its meaning is very deep.",
+  "full_sentence": "Although the poem uses simple words, its meaning is very deep.",
+  "acceptable_variants": ["its ideas are very complex.", "it hides many strong emotions."],
+  "options": [
+    {"text": "so every reader understands it at once.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. After 'although', the sentence needs an idea that contrasts with simple words."},
+    {"text": "its meaning is very deep.", "is_correct": true, "why_wrong": null},
+    {"text": "because the poet is very famous.", "is_correct": false, "why_wrong": "'Because' gives a reason, not a contrast, so it does not complete the concession set up by 'although'."},
+    {"text": "and it has four lines in each stanza.", "is_correct": false, "why_wrong": "This adds a detail about the poem's form but does not set up a contrast with 'simple words'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Here the simple vocabulary is contrasted with a deeper meaning.",
+  "translation": "Хоча вірш використовує прості слова, його значення дуже глибоке."
+}
