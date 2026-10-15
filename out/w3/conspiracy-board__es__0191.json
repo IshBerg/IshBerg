@@ -1,0 +1,14 @@
+{
+  "codename": "PAPER TRAIL",
+  "briefing": "Agent, a stack of intercepted headlines has surfaced, and each one hides a deliberate message. Match every media term to its Spanish meaning before the story breaks.",
+  "connection_mode": "vocabulary",
+  "difficulty": "hard",
+  "pairs": [
+    {"left": "headline", "right": "titular", "left_style": "document", "right_style": "handwritten"},
+    {"left": "bombshell", "right": "bomba informativa", "left_style": "photo", "right_style": "document"},
+    {"left": "scoop", "right": "exclusiva", "left_style": "newspaper", "right_style": "official"},
+    {"left": "leak", "right": "filtración", "left_style": "official", "right_style": "newspaper"},
+    {"left": "spin", "right": "manipulación informativa", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "cover-up", "right": "encubrimiento", "left_style": "document", "right_style": "official"}
+  ]
+}
