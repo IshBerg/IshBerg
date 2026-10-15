@@ -1,0 +1,13 @@
+{
+  "start_word": "cold",
+  "end_word": "hot",
+  "ladder_steps": [
+    {"word": "cold", "translation": "холодний", "intensity_level": 1},
+    {"word": "cool", "translation": "прохолодний", "intensity_level": 2},
+    {"word": "lukewarm", "translation": "теплуватий", "intensity_level": 3},
+    {"word": "warm", "translation": "теплий", "intensity_level": 4},
+    {"word": "hot", "translation": "гарячий", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Temperature words form a ladder from coldest to hottest, each step slightly warmer than the last."
+}

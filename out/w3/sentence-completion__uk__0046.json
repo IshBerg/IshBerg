@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother doesn't like coffee, so",
+  "correct_completion": "he drinks tea in the morning.",
+  "full_sentence": "My brother doesn't like coffee, so he drinks tea in the morning.",
+  "acceptable_variants": ["he drinks orange juice in the morning.", "he chooses tea instead."],
+  "options": [
+    {"text": "he likes to drink coffee every day.", "is_correct": false, "why_wrong": "This contradicts the stem, which says that he does not like coffee."},
+    {"text": "he is always happy with coffee.", "is_correct": false, "why_wrong": "This contradicts the stem, which says that he does not like coffee."},
+    {"text": "he dislikes tea and water.", "is_correct": false, "why_wrong": "This is a new fact, not a result that follows from his dislike of coffee, so 'so' does not connect it logically."},
+    {"text": "he drinks tea in the morning.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present simple: like and don't like",
+  "connector": "so",
+  "explanation": "'So' introduces a result that follows from the first clause. Because the speaker's brother does not like coffee, the logical result is that he chooses another drink. Ukrainian speakers may mix up the negative forms of like, so it helps to practise 'doesn't like' with third person singular subjects.",
+  "translation": "Мій брат не любить каву, тому вранці п'є чай."
+}
