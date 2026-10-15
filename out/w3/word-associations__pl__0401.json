@@ -1,0 +1,14 @@
+{
+  "trigger_word": "summary",
+  "all_words": [
+    {"word": "paraphrase", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Parafraza jest ściśle związana z podsumowaniem, ponieważ oba procesy polegają na przedstawieniu treści własnymi słowami."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Żyrafa nie ma żadnego związku z podsumowywaniem tekstu."},
+    {"word": "abstract", "is_associated": true, "association_type": "THEMATIC", "explanation": "Abstrakt to krótkie streszczenie artykułu naukowego, więc słowo należy do tego samego tematu."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Klawiatura nie jest związana z treścią tekstu ani z jego streszczaniem."},
+    {"word": "conclusion", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'draw a conclusion' (wyciągnąć wniosek) jest typowym połączeniem używanym przy podsumowaniach."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "Grzmot nie ma związku z tym pojęciem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'summary' kojarzy się z parafrazą, abstraktem i wnioskami, czyli z pojęciami dotyczącymi przedstawiania treści tekstu; słowa niezwiązane z czytaniem i pisaniem nie są skojarzeniami."
+}
