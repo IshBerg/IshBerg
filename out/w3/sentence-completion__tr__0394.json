@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the bus was late,",
+  "correct_completion": "we missed the train.",
+  "full_sentence": "Because the bus was late, we missed the train.",
+  "acceptable_variants": ["we took a taxi to the station.", "we arrived at the station after the train had left."],
+  "options": [
+    {"text": "the bus was on time.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the bus was late."},
+    {"text": "we bought a map.", "is_correct": false, "why_wrong": "This does not show a result of the late bus, so it does not complete the cause and effect."},
+    {"text": "we missed the train.", "is_correct": true, "why_wrong": null},
+    {"text": "the timetable was on the wall.", "is_correct": false, "why_wrong": "This describes a place, not a result of the late bus, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because' in the first part, the second part must give the result of that cause. Learners should look for a consequence that logically follows from the stated problem.",
+  "translation": "Otobüs geç kaldığı için trenimizi kaçırdık."
+}
