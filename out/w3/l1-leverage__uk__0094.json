@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "лак", "transliteration": "lak", "meaning": "varnish"},
+    {"word": "шовк", "transliteration": "shovk", "meaning": "silk"},
+    {"word": "вовна", "transliteration": "vovna", "meaning": "wool"},
+    {"word": "нестача", "transliteration": "nestacha", "meaning": "lack"}
+  ],
+  "english_words": ["lack", "wool", "varnish", "silk"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Ukrainian word 'lak' looks like the English word 'lack' because both come from written forms that were not borrowed directly, so the spelling misleads students.",
+  "false_friend_warning": "The Ukrainian word 'lak' looks like the English word 'lack', but it means varnish, not a shortage. Students should not translate it as 'lack'."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although there are only a few eggs left,",
+  "correct_completion": "we will still make a cake.",
+  "full_sentence": "Although there are only a few eggs left, we will still make a cake.",
+  "acceptable_variants": ["we will still bake a cake.", "we can still make some pancakes."],
+  "options": [
+    {"text": "so we cannot make a cake.", "is_correct": false, "why_wrong": "'So' shows a result, but 'although' requires a contrast, not a consequence."},
+    {"text": "we will still make a cake.", "is_correct": true, "why_wrong": null},
+    {"text": "because we have many eggs.", "is_correct": false, "why_wrong": "'Because' gives a reason and contradicts the stem, which says there are only a few eggs."},
+    {"text": "there are some eggs in the box.", "is_correct": false, "why_wrong": "This repeats the stem instead of giving the contrasting action that 'although' expects."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and the quantifier 'a few'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the small quantity in the first part. Ukrainian speakers may expect a simple 'but' in the main clause, but English places the contrast after the introductory 'although' clause.",
+  "translation": "Хоча залишилося лише кілька яєць, ми все одно спечемо торт."
+}
