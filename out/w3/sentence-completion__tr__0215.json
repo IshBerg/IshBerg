@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results were initially encouraging;",
+  "correct_completion": "nevertheless, the long-term data revealed serious flaws.",
+  "full_sentence": "The results were initially encouraging; nevertheless, the long-term data revealed serious flaws.",
+  "acceptable_variants": ["however, the long-term data revealed serious flaws.", "the long-term data, however, revealed serious flaws."],
+  "options": [
+    {"text": "furthermore, the long-term data revealed serious flaws.", "is_correct": false, "why_wrong": "'Furthermore' adds information in the same direction, but the stem sets up a positive start that needs a contrast."},
+    {"text": "similarly, the team was awarded a grant.", "is_correct": false, "why_wrong": "'Similarly' signals a parallel point, and the content has no link to the initial results."},
+    {"text": "nevertheless, the long-term data revealed serious flaws.", "is_correct": true, "why_wrong": null},
+    {"text": "therefore, the study was extended for a year.", "is_correct": false, "why_wrong": "'Therefore' marks a result, but nothing in the stem leads logically to an extension of the study."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive discourse markers linking two independent clauses",
+  "connector": "nevertheless",
+  "explanation": "'Nevertheless' introduces a clause that runs against the positive expectation set by the first clause. Its meaning is close to 'however' and it sits at the start of the second clause.",
+  "translation": "Sonuçlar başlangıçta umut vericiydi; yine de uzun vadeli veriler ciddi kusurları ortaya koydu."
+}
