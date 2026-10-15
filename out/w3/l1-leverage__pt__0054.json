@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "academia", "transliteration": "academia", "meaning": "gym"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "pavilhão", "transliteration": "pavilhao", "meaning": "sports arena"},
+    {"word": "lesão", "transliteration": "lesao", "meaning": "injury"}
+  ],
+  "english_words": ["sports arena", "injury", "gym", "to watch"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words look like English words with the same spelling pattern, so learners expect the same meaning. In fact, the Portuguese forms developed different meanings over time.",
+  "false_friend_warning": "The Portuguese word that looks like 'academy' means a gym or fitness centre, while 'academy' in English means a school or institute. Students should check the meaning before using it in English."
+}
