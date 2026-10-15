@@ -1,0 +1,14 @@
+{
+  "trigger_word": "parchment",
+  "all_words": [
+    {"word": "scroll", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un pergamino enrollado es un documento de la misma familia de significado que el pergamino, y ambas palabras se refieren a la superficie de escritura antigua."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Un motor es una máquina mecánica y no tiene ninguna relación con el pergamino ni con la escritura."},
+    {"word": "ink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La tinta se combina habitualmente con el pergamino en expresiones como 'ink on parchment', por lo que forma una colocación frecuente."},
+    {"word": "satellite", "is_associated": false, "association_type": "NONE", "explanation": "Un satélite es un objeto que orbita la Tierra y no se relaciona con documentos escritos sobre pergamino."},
+    {"word": "quill", "is_associated": true, "association_type": "THEMATIC", "explanation": "La pluma de ave era el instrumento tradicional para escribir sobre pergamino, así que pertenece al mismo universo temático."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta es un medio de transporte sin ninguna conexión con el pergamino."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'parchment' pertenecen a la escritura antigua y a sus materiales, como el documento enrollado, la tinta y la pluma, mientras que las demás palabras pertenecen a ámbitos sin relación."
+}
