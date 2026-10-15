@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "R", "A", "V", "E", "L", "K", "Z", "S"],
+    ["B", "X", "C", "H", "J", "N", "U", "G", "T"],
+    ["M", "W", "K", "D", "X", "L", "B", "H", "O"],
+    ["V", "E", "J", "Z", "C", "Q", "N", "I", "R"],
+    ["G", "D", "M", "S", "K", "U", "H", "P", "Y"],
+    ["X", "B", "C", "O", "F", "J", "V", "A", "N"],
+    ["L", "Z", "D", "K", "R", "W", "G", "R", "Q"],
+    ["N", "X", "B", "C", "H", "Y", "E", "T", "L"],
+    ["F", "R", "I", "E", "N", "D", "W", "Y", "Z"]
+  ],
+  "words_to_find": ["TRAVEL", "STORY", "MEMORY", "FRIEND", "PARTY"],
+  "word_positions": [
+    {"word": "TRAVEL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STORY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "MEMORY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FRIEND", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARTY", "start_row": 4, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Discussing Life Experiences"
+}
