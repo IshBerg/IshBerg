@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "Y", "N", "T", "A", "X", "B"],
+    ["K", "W", "Q", "J", "D", "Z", "O"],
+    ["M", "F", "G", "P", "R", "V", "O"],
+    ["D", "J", "K", "W", "Q", "Z", "T"],
+    ["N", "U", "A", "N", "C", "E", "H"],
+    ["B", "X", "F", "J", "Q", "V", "M"],
+    ["L", "A", "T", "E", "N", "C", "Y"]
+  ],
+  "words_to_find": ["SYNTAX", "BOOTH", "NUANCE", "LATENCY"],
+  "word_positions": [
+    {"word": "SYNTAX", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BOOTH", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "NUANCE", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LATENCY", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}
