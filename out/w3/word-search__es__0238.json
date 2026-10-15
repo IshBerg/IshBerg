@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "O", "C", "T", "O", "R", "K", "Q", "N"],
+    ["P", "W", "L", "G", "B", "Y", "J", "M", "U"],
+    ["Z", "A", "L", "K", "W", "B", "Q", "T", "R"],
+    ["X", "Y", "I", "G", "M", "J", "Z", "C", "S"],
+    ["Q", "W", "K", "N", "H", "L", "M", "P", "E"],
+    ["B", "J", "F", "U", "X", "E", "Q", "K", "T"],
+    ["C", "K", "G", "Y", "P", "Z", "A", "J", "B"],
+    ["F", "E", "V", "E", "R", "Q", "X", "D", "L"],
+    ["M", "S", "O", "W", "K", "N", "T", "Y", "Q"]
+  ],
+  "words_to_find": ["DOCTOR", "NURSE", "PAIN", "HEAD", "FEVER"],
+  "word_positions": [
+    {"word": "DOCTOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NURSE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "PAIN", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "HEAD", "start_row": 4, "start_col": 4, "direction": "DIAGONAL_DOWN"},
+    {"word": "FEVER", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "At the Doctor"
+}
