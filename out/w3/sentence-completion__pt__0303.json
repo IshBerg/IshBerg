@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I usually",
+  "correct_completion": "walk to school.",
+  "full_sentence": "I usually walk to school.",
+  "acceptable_variants": ["go to school on foot.", "take the bus to school."],
+  "options": [
+    {"text": "walks to school.", "is_correct": false, "why_wrong": "With 'I', the verb takes its base form, so it should be 'walk', not 'walks'."},
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a past time expression and does not complete a sentence that uses the frequency adverb 'usually'."},
+    {"text": "walk to school.", "is_correct": true, "why_wrong": null},
+    {"text": "to school walk.", "is_correct": false, "why_wrong": "The word order is wrong. The verb 'walk' must come before the place 'to school'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Adverbs of frequency before the main verb",
+  "connector": "usually",
+  "explanation": "The adverb of frequency goes before the main verb, and 'I' takes the base form of the verb. Portuguese speakers may place the adverb after the verb because Portuguese word order is more flexible, but in English the adverb must come before the main verb.",
+  "translation": "Eu geralmente vou a pé para a escola."
+}

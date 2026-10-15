@@ -1,0 +1,23 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "unhappy", "intensity": 1, "translation": "infeliz", "nuance": "general lack of happiness"},
+    {"word": "sad", "intensity": 2, "translation": "triste", "nuance": "sorrow, often caused by a specific event"},
+    {"word": "miserable", "intensity": 3, "translation": "miserável", "nuance": "deep discomfort and unhappiness"},
+    {"word": "wretched", "intensity": 4, "translation": "deplorável", "nuance": "pitiful misery that evokes sympathy or disgust"},
+    {"word": "despondent", "intensity": 5, "translation": "desalentado", "nuance": "profound loss of hope"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express sadness, but with increasing intensity, from a general lack of happiness to a profound loss of hope.",
+  "usage_notes": [
+    {"word1": "sad", "word2": "unhappy", "difference": "'Sad' usually describes a temporary feeling caused by a specific event, while 'unhappy' can describe a more general or lasting state."}
+  ],
+  "translations": {
+    "unhappy": "infeliz",
+    "sad": "triste",
+    "miserable": "miserável",
+    "wretched": "deplorável",
+    "despondent": "desalentado"
+  }
+}
