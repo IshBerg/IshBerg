@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the phone was expensive,",
+  "correct_completion": "the camera is excellent and the battery lasts all day.",
+  "full_sentence": "Although the phone was expensive, the camera is excellent and the battery lasts all day.",
+  "acceptable_variants": ["the battery lasts all day, so I am happy.", "I would still buy it again."],
+  "options": [
+    {"text": "so I bought two of them.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. 'Although' needs a clause that contrasts with the first part."},
+    {"text": "the store was closed on Sunday.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not contrast with the price of the phone."},
+    {"text": "I was not hungry at lunch.", "is_correct": false, "why_wrong": "This is unrelated to the phone, so it does not complete the review."},
+    {"text": "the camera is excellent and the battery lasts all day.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows a positive point contrasting with the negative point in the first part. Reviews often use this pattern to describe both the price and the quality of a product.",
+  "translation": "Aunque el teléfono era caro, la cámara es excelente y la batería dura todo el día."
+}
