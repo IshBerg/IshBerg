@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["F", "R", "I", "E", "N", "D", "K", "L"],
+    ["M", "B", "A", "T", "Z", "C", "P", "O"],
+    ["T", "W", "J", "D", "Y", "L", "N", "V"],
+    ["R", "Q", "X", "S", "F", "B", "A", "E"],
+    ["U", "K", "H", "U", "G", "Z", "D", "P"],
+    ["S", "M", "C", "R", "O", "W", "T", "Y"],
+    ["T", "J", "Q", "N", "K", "L", "V", "X"],
+    ["B", "D", "F", "G", "H", "J", "P", "W"]
+  ],
+  "words_to_find": ["FRIEND", "LOVE", "HUG", "TRUST"],
+  "word_positions": [
+    {"word": "FRIEND", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LOVE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "HUG", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "TRUST", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Relationships"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Şemsiye yağmur yağdığında kullanılan bir eşyadır, bu yüzden konu olarak yağmurla ilişkilidir."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bulutlar yağmurun kaynağıdır, anlamca doğrudan ilişkilidir."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "Masanın yağmurla herhangi bir anlamsal ya da tematik bağı yoktur."},
+    {"word": "train", "is_associated": true, "association_type": "PHONETIC", "explanation": "Train kelimesi rain ile sesçil olarak kafiyelidir, telaffuzları benzerdir."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "Bilgisayarın yağmurla ne anlamsal ne de tematik bir bağlantısı vardır."},
+    {"word": "storm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Fırtına çoğu zaman yağmurla birlikte gelen bir hava olayıdır, anlamca ilişkilidir."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Yağmur kelimesiyle anlamsal, tematik ve sesçil bağlantılar kurulabilir; masa ve bilgisayar gibi kelimelerin ise bu kelimeyle bir ilgisi yoktur."
+}
