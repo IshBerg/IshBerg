@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although critics argue that the policy is expensive,",
+  "correct_completion": "its long-term benefits for public health justify the initial cost.",
+  "full_sentence": "Although critics argue that the policy is expensive, its long-term benefits for public health justify the initial cost.",
+  "acceptable_variants": ["its benefits for public health still outweigh the initial cost.", "many citizens nevertheless support the policy."],
+  "options": [
+    {"text": "so the government should cancel it immediately.", "is_correct": false, "why_wrong": "'Although' signals a concession, not a conclusion that follows from the criticism. The sentence needs a contrasting claim."},
+    {"text": "its long-term benefits for public health justify the initial cost.", "is_correct": true, "why_wrong": null},
+    {"text": "the policy was introduced in 2010 by a previous government.", "is_correct": false, "why_wrong": "This is a historical detail that does not contrast with the criticism."},
+    {"text": "critics are usually well informed about economics.", "is_correct": false, "why_wrong": "This describes the critics rather than giving the contrasting claim the writer needs."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in argumentative writing",
+  "connector": "although",
+  "explanation": "'Although' concedes the opposing view first, so the main clause must present the writer's own contrasting claim. Argumentative essays often use this structure to acknowledge criticism before defending a position.",
+  "translation": "Eleştirmenler politikanın pahalı olduğunu savunsa da, uzun vadeli halk sağlığı yararları ilk maliyetini haklı çıkarmaktadır."
+}

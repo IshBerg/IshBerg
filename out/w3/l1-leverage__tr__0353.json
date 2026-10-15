@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ekoloji", "transliteration": "ekoloji", "meaning": "ecology"},
+    {"word": "enerji", "transliteration": "enerji", "meaning": "energy"},
+    {"word": "ekosistem", "transliteration": "ekosistem", "meaning": "ecosystem"},
+    {"word": "toksik", "transliteration": "toksik", "meaning": "toxic"}
+  ],
+  "english_words": ["toxic", "ecology", "energy", "ecosystem"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words were formed from the same Greek roots in both languages, so the spelling and meaning stayed very close. Learners can match them by spotting the shared stems, such as eco- and energ-, and the common endings.",
+  "false_friend_warning": null
+}
