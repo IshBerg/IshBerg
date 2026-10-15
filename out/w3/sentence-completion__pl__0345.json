@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were you,",
+  "correct_completion": "I would apologise to her today.",
+  "full_sentence": "If I were you, I would apologise to her today.",
+  "acceptable_variants": ["I would say sorry to her today.", "I would call her and apologise."],
+  "options": [
+    {"text": "I will apologise to her today.", "is_correct": false, "why_wrong": "'If I were you' introduces a second conditional, so the result clause takes 'would', not 'will'."},
+    {"text": "I would apologise to her today.", "is_correct": true, "why_wrong": null},
+    {"text": "I apologised to her yesterday.", "is_correct": false, "why_wrong": "The past simple describes a finished action and cannot give hypothetical advice after 'if I were you'."},
+    {"text": "I have apologised to her already.", "is_correct": false, "why_wrong": "The present perfect reports a completed action and does not fit an imagined, hypothetical situation."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'if I were you' (subjunctive 'were')",
+  "connector": "if",
+  "explanation": "The stem uses 'if' with a subjunctive 'were' to imagine a situation that is not real, so the completion needs 'would' plus a base verb. Polish speakers often use a simple future form in this position, because Polish marks the conditional with a separate particle rather than a fixed modal verb in English.",
+  "translation": "Gdybym był na twoim miejscu, przeprosiłbym ją dzisiaj."
+}

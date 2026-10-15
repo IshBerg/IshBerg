@@ -1,0 +1,14 @@
+{
+  "trigger_word": "debate",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Argument jest podstawowym elementem debaty, ponieważ na nim opiera się spór między uczestnikami."},
+    {"word": "rebuttal", "is_associated": true, "association_type": "THEMATIC", "explanation": "Rebuttal, czyli kontrargument, to odpowiedź na argumenty przeciwnika i typowy element debaty."},
+    {"word": "chess", "is_associated": false, "association_type": "NONE", "explanation": "Szachy nie mają związku z debatą, ponieważ są grą strategiczną, a nie formą publicznej dyskusji."},
+    {"word": "podium", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Podium, czyli mównica, to miejsce, z którego mówcy przemawiają podczas debaty, dlatego często łączy się je z tym słowem."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Lodowiec nie ma żadnego związku z debatą ani z dyskusją akademicką."},
+    {"word": "moderator", "is_associated": true, "association_type": "THEMATIC", "explanation": "Moderator prowadzi debatę, udziela głosu uczestnikom i pilnuje czasu, więc jest jej naturalnym elementem."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo debate kojarzy się z argumentami, kontrargumentami, mównicą i moderatorem, a nie z grami czy zjawiskami przyrody."
+}
