@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Her laptop stopped working on Monday, so",
+  "correct_completion": "she had it repaired at a service centre.",
+  "full_sentence": "Her laptop stopped working on Monday, so she had it repaired at a service centre.",
+  "acceptable_variants": ["she got it repaired at a service centre.", "she took it to a service centre to be fixed."],
+  "options": [
+    {"text": "she repaired it herself that night.", "is_correct": false, "why_wrong": "This says she did the repair herself. The causative 'have' structure (have + object + past participle) means someone else does the action for the subject."},
+    {"text": "she walked to the shop to buy a new one.", "is_correct": false, "why_wrong": "This describes a different action, buying a replacement, and does not say that the laptop was repaired."},
+    {"text": "she was thinking about repairing it.", "is_correct": false, "why_wrong": "This describes a thought, not a repair arranged with someone else."},
+    {"text": "she had it repaired at a service centre.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have' + object + past participle",
+  "connector": "so",
+  "explanation": "The breakdown is the cause, and the second clause shows the result. The causative pattern 'have + object + past participle' shows that the subject arranges for someone else to do the action. Learners often use a simple past form that suggests they did the work themselves, so the causative form matters here.",
+  "translation": "Її ноутбук перестав працювати в понеділок, тож вона віддала його на ремонт у сервісний центр."
+}

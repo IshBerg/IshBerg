@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["W", "O", "R", "L", "D", "F", "S"],
+    ["H", "U", "N", "T", "Y", "Z", "P"],
+    ["C", "I", "B", "O", "X", "Q", "E"],
+    ["M", "Y", "F", "I", "P", "N", "A"],
+    ["Z", "E", "D", "W", "H", "R", "K"],
+    ["T", "R", "A", "V", "E", "L", "M"],
+    ["G", "L", "O", "B", "A", "L", "Z"]
+  ],
+  "words_to_find": ["WORLD", "SPEAK", "TRAVEL", "GLOBAL"],
+  "word_positions": [
+    {"word": "WORLD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SPEAK", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "TRAVEL", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLOBAL", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "English as a Global Language"
+}
