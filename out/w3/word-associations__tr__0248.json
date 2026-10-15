@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Hemşire de doktorla birlikte sağlık alanında çalışan bir meslektir."},
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Doktorlar genellikle hastanede çalışır, bu yüzden bu kelime aynı konudadır."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitarın doktorla ne anlamsal ne de konusal bir ilişkisi vardır."},
+    {"word": "medicine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Doktorlar ilaç yazar; 'prescribe medicine' sık kullanılan bir eş dizimdir."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "Şemsiye sağlık ya da tıp konusuyla ilgili değildir."},
+    {"word": "patient", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Hasta, doktorun tedavi ettiği kişidir; anlamca doğrudan ilişkilidir."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Doktor kelimesiyle ilişkili kelimeler sağlık alanına, tıbbi ortama ve hasta bakımına aittir; ilgisiz kelimeler bu alanın dışında kalır."
+}
