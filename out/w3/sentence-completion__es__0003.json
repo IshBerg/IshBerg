@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she studied harder,",
+  "correct_completion": "she would have passed the exam.",
+  "full_sentence": "Had she studied harder, she would have passed the exam.",
+  "acceptable_variants": ["she might have passed the exam.", "she would have done better overall."],
+  "options": [
+    {"text": "she passes the exam.", "is_correct": false, "why_wrong": "The present simple does not match the past perfect condition introduced by 'had'. The stem requires a hypothetical past result."},
+    {"text": "she would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she would passed the exam.", "is_correct": false, "why_wrong": "'Would' must be followed by 'have' plus the past participle here. 'Would passed' is ungrammatical."},
+    {"text": "she is passing the exam now.", "is_correct": false, "why_wrong": "The present continuous describes a current action and cannot complete a hypothetical past condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had'",
+  "connector": "had",
+  "explanation": "The inverted 'had' replaces 'if', so the clause describes an unreal past condition. The main clause then needs 'would have' plus the past participle to express the unreal past result.",
+  "translation": "Si hubiera estudiado más, habría aprobado el examen."
+}
