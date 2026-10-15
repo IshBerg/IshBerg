@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will watch a film inside.", "we will go to the cinema instead."],
+  "options": [
+    {"text": "we stayed at home yesterday.", "is_correct": false, "why_wrong": "The past tense does not fit a possible future situation. The first conditional needs a future result, so 'will' is required."},
+    {"text": "we would stay at home.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional, which describes unreal or unlikely situations. For a real possibility in the future, use 'will'."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we stay at home every day.", "is_correct": false, "why_wrong": "This describes a habit in the present. It does not give the result of the possible future situation in the if-clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional: if + present simple, will + base verb",
+  "connector": "if",
+  "explanation": "The first conditional describes a possible future situation and its likely result. It uses if plus the present simple in the condition clause and will plus the base verb in the result clause. Turkish speakers may be tempted to use a future form after if, but English uses the present simple there, so the correct phrase is 'if it rains', not 'if it will rain'.",
+  "translation": "Yarın yağmur yağarsa evde kalacağız."
+}

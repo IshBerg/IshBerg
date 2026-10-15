@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["J", "A", "R", "G", "O", "N", "X", "R", "S"],
+    ["K", "Q", "B", "T", "Y", "U", "P", "E", "L"],
+    ["Z", "H", "I", "V", "W", "C", "K", "G", "A"],
+    ["M", "P", "F", "D", "Q", "B", "H", "I", "N"],
+    ["T", "Y", "U", "W", "I", "K", "Z", "S", "G"],
+    ["C", "V", "H", "P", "L", "O", "B", "T", "Y"],
+    ["D", "J", "N", "Q", "X", "W", "M", "E", "K"],
+    ["A", "U", "B", "V", "G", "H", "C", "R", "P"],
+    ["F", "O", "R", "M", "A", "L", "T", "Q", "Z"]
+  ],
+  "words_to_find": ["JARGON", "SLANG", "IDIOM", "FORMAL", "REGISTER"],
+  "word_positions": [
+    {"word": "JARGON", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLANG", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "IDIOM", "start_row": 2, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "FORMAL", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REGISTER", "start_row": 0, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Register Spectrum: Formal to Colloquial"
+}

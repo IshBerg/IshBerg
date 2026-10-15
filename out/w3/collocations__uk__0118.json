@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "traffic",
+  "collocate": "jam",
+  "full_collocation": "traffic jam",
+  "options": ["light", "sign", "jam", "lane"],
+  "correct_index": 2,
+  "distractors": [
+    {"word": "light", "reason": "'Traffic light' is a real phrase, but it names a signal, not a queue of cars. 'A huge traffic light' does not describe the situation."},
+    {"word": "sign", "reason": "'Traffic sign' is a road sign that gives instructions. It is not a queue of cars, so it does not fit 'a huge traffic ___'."},
+    {"word": "lane", "reason": "'Traffic lane' is one part of the road where cars drive. It does not describe cars stopped in a queue."}
+  ],
+  "example_sentence": "We were late because of a huge traffic ___ on the motorway.",
+  "gap_position": 8,
+  "translation": "затор на дорозі",
+  "l1_interference": "Носії української мови можуть переставляти іменники і казати 'jam traffic' замість 'traffic jam', бо порядок слів у сполученні «дорожній затор» здається їм не таким очевидним.",
+  "common_mistake": "jam traffic",
+  "explanation": "In English, the first noun 'traffic' describes the second noun 'jam', so the order is traffic jam, not jam traffic. Many English noun-noun compounds put the descriptive noun first.",
+  "related_collocations": [
+    {"collocation": "bus stop", "translation": "зупинка автобуса", "example": "Let's meet at the bus stop."},
+    {"collocation": "rush hour", "translation": "година пік", "example": "We left early to avoid the rush hour."},
+    {"collocation": "traffic light", "translation": "світлофор", "example": "Turn left at the traffic light."}
+  ],
+  "memory_tip": "The first noun describes the second: TRAFFIC JAM = a jam made of traffic; traffic LIGHT = a light for traffic"
+}
