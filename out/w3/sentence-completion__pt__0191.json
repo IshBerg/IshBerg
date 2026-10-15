@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never in my life",
+  "correct_completion": "have I seen such a beautiful sunset.",
+  "full_sentence": "Never in my life have I seen such a beautiful sunset.",
+  "acceptable_variants": ["have I witnessed such a stunning landscape.", "have I felt so moved by a view."],
+  "options": [
+    {"text": "I have seen such a beautiful sunset.", "is_correct": false, "why_wrong": "After a fronted negative phrase such as 'never', the auxiliary must come before the subject. The normal word order here is incorrect."},
+    {"text": "have I seen such a beautiful sunset.", "is_correct": true, "why_wrong": null},
+    {"text": "I have never seen such a beautiful sunset.", "is_correct": false, "why_wrong": "'Never' is already fronted in the stem, so repeating it in the normal position is redundant and breaks the emphatic structure."},
+    {"text": "I had seen such a beautiful sunset.", "is_correct": false, "why_wrong": "The past perfect does not fit a experience that extends up to the present. The present perfect with inversion is needed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative fronting with subject-auxiliary inversion",
+  "connector": "never",
+  "explanation": "When a negative phrase such as 'never' is moved to the front of a sentence for emphasis, English requires subject-auxiliary inversion. Portuguese speakers often keep the normal subject-verb order after a fronted negative, because Portuguese word order is more flexible and does not require inversion in this structure.",
+  "translation": "Em toda a minha vida, nunca vi um pôr do sol tão bonito."
+}
