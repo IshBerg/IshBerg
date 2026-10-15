@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The hotel has a swimming pool, so",
+  "correct_completion": "guests can swim before breakfast.",
+  "full_sentence": "The hotel has a swimming pool, so guests can swim before breakfast.",
+  "acceptable_variants": ["guests can relax in the water after their trip.", "families can enjoy the pool every morning."],
+  "options": [
+    {"text": "the hotel is closed on Sundays.", "is_correct": false, "why_wrong": "This is unrelated to the pool, so it does not give a result of the hotel having a swimming pool."},
+    {"text": "the pool is not open at night.", "is_correct": false, "why_wrong": "This describes a limit on the pool, not a result that follows from having one."},
+    {"text": "the rooms are very small.", "is_correct": false, "why_wrong": "This is a fact about the rooms and does not follow from the hotel having a pool."},
+    {"text": "guests can swim before breakfast.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result that follows from the first clause. The completion must describe what becomes possible because of the swimming pool, not a separate fact or a limit on it.",
+  "translation": "Hotel ma basen, więc goście mogą pływać przed śniadaniem."
+}
