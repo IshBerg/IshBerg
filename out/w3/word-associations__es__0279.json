@@ -1,0 +1,14 @@
+{
+  "trigger_word": "solution",
+  "all_words": [
+    {"word": "answer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Respuesta y solución se refieren a algo que resuelve una pregunta o un problema, por lo que están muy cerca en significado."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "La alfombra es un objeto de decoración del hogar y no tiene ninguna relación con resolver problemas o comparar opiniones."},
+    {"word": "problem", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La combinación 'solution to a problem' (solución a un problema) es una colocación habitual en inglés."},
+    {"word": "whale", "is_associated": false, "association_type": "NONE", "explanation": "La ballena es un animal marino y no guarda ninguna relación con la idea de solucionar algo."},
+    {"word": "solar", "is_associated": true, "association_type": "PHONETIC", "explanation": "La palabra 'solar' comparte el sonido inicial 'sol-' con 'solution', lo que puede provocar confusiones de pronunciación entre ambas."},
+    {"word": "ladder", "is_associated": false, "association_type": "NONE", "explanation": "La escalera es un objeto físico y no tiene relación con encontrar soluciones ni con la argumentación."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'solution' se asocia con 'answer' por su significado, con 'problem' por la colocación habitual y con 'solar' por su parecido sonoro; carpet, whale y ladder no tienen relación con el término."
+}

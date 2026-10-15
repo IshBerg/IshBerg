@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were in your position,",
+  "correct_completion": "I would ask for a second opinion.",
+  "full_sentence": "If I were in your position, I would ask for a second opinion.",
+  "acceptable_variants": ["I would talk to someone I trust.", "I would take more time to decide."],
+  "options": [
+    {"text": "I will accept the offer at once.", "is_correct": false, "why_wrong": "After 'If I were', the sentence needs a conditional result with 'would', not a future with 'will'."},
+    {"text": "I had asked for a second opinion.", "is_correct": false, "why_wrong": "The past perfect describes a completed past action, which does not fit an imagined present situation."},
+    {"text": "I would ask for a second opinion.", "is_correct": true, "why_wrong": null},
+    {"text": "I am asking for a second opinion.", "is_correct": false, "why_wrong": "The present continuous describes an action in progress and does not express a hypothetical result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'if' and 'were' for unreal present situations",
+  "connector": "if",
+  "explanation": "In the second conditional, 'if' is followed by a past form such as 'were', and the result clause uses 'would' plus the base verb. The structure describes an imagined situation that is not true now.",
+  "translation": "Si yo estuviera en tu posición, pediría una segunda opinión."
+}
