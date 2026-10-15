@@ -1,0 +1,14 @@
+{
+  "codename": "SILENT ROUTE",
+  "briefing": "Agent, intercepted notes describe a traveler's route across the border. Connect each English term to its Polish counterpart before the next checkpoint closes.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "luggage", "right": "bagaż", "left_style": "document", "right_style": "handwritten"},
+    {"left": "passport", "right": "paszport", "left_style": "photo", "right_style": "document"},
+    {"left": "ticket", "right": "bilet", "left_style": "newspaper", "right_style": "official"},
+    {"left": "airport", "right": "lotnisko", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "journey", "right": "podróż", "left_style": "official", "right_style": "newspaper"},
+    {"left": "delay", "right": "opóźnienie", "left_style": "document", "right_style": "official"}
+  ]
+}
