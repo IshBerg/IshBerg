@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the bridge had been closed for repairs,",
+  "correct_completion": "the workers reopened it in June.",
+  "full_sentence": "Although the bridge had been closed for repairs, the workers reopened it in June.",
+  "acceptable_variants": ["the bridge was reopened in June.", "the city opened it again in June."],
+  "options": [
+    {"text": "so the traffic was very heavy.", "is_correct": false, "why_wrong": "'Although' signals contrast, but this option gives a cause-and-effect result instead of the contrasting action expected."},
+    {"text": "the road was painted green.", "is_correct": false, "why_wrong": "This adds unrelated information and does not contrast with the closure of the bridge."},
+    {"text": "the workers reopened it in June.", "is_correct": true, "why_wrong": null},
+    {"text": "it was built in 1920.", "is_correct": false, "why_wrong": "This gives historical background, which does not contrast with the repairs."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and passive voice in the main clause or its variants",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the closure described in the first part. Learners often add a result clause here, but the contrast is what the connector requires.",
+  "translation": "Chociaż most był zamknięty na czas remontu, robotnicy otworzyli go ponownie w czerwcu."
+}
