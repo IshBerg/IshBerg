@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We usually have dinner",
+  "correct_completion": "at seven o'clock.",
+  "full_sentence": "We usually have dinner at seven o'clock.",
+  "acceptable_variants": ["at about seven o'clock.", "at around seven thirty."],
+  "options": [
+    {"text": "in seven o'clock.", "is_correct": false, "why_wrong": "We use 'at' with exact clock times, not 'in'."},
+    {"text": "at seven o'clock.", "is_correct": true, "why_wrong": null},
+    {"text": "on seven o'clock.", "is_correct": false, "why_wrong": "'On' is used with days and dates, not with clock times."},
+    {"text": "every seven o'clock.", "is_correct": false, "why_wrong": "'Every' is not a time preposition, so it does not complete this time phrase."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Prepositions of time: at, in and on",
+  "connector": "at",
+  "explanation": "Clock times take the preposition at. Learners often choose in or on by habit, but those prepositions belong to longer periods and to days.",
+  "translation": "Normalmente jantamos às sete horas."
+}
