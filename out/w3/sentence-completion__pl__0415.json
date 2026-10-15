@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the old man was tired,",
+  "correct_completion": "he kept walking home.",
+  "full_sentence": "Although the old man was tired, he kept walking home.",
+  "acceptable_variants": ["he still reached home by night.", "he did not stop walking."],
+  "options": [
+    {"text": "so he sat down on the bench.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause. Sitting down because he is tired is a result, so it does not fit after 'although'."},
+    {"text": "he was very hungry.", "is_correct": false, "why_wrong": "This adds a state of the man but does not give the contrasting action that 'although' requires."},
+    {"text": "he kept walking home.", "is_correct": true, "why_wrong": null},
+    {"text": "he went to bed early.", "is_correct": false, "why_wrong": "This is a natural result of being tired, so it continues the cause idea instead of contrasting with it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second part of the sentence must contrast with the first part. Learners sometimes choose a cause or result clause, because in their first language the two ideas are often linked by a similar connector. Here the contrast is between being tired and continuing to walk.",
+  "translation": "Chociaż stary mężczyzna był zmęczony, szedł dalej do domu."
+}
