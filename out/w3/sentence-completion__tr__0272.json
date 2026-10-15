@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the preliminary data appear promising,",
+  "correct_completion": "the authors caution that further replication is necessary.",
+  "full_sentence": "Although the preliminary data appear promising, the authors caution that further replication is necessary.",
+  "acceptable_variants": ["the authors remain cautious about the conclusions.", "the authors suggest the findings require further verification."],
+  "options": [
+    {"text": "so the authors have definitively proven the hypothesis.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast, and promising preliminary data do not logically prove a hypothesis."},
+    {"text": "the authors reject the theory outright.", "is_correct": false, "why_wrong": "This is a complete reversal that the data do not support, and it does not complete the contrast in a qualified way."},
+    {"text": "the authors caution that further replication is necessary.", "is_correct": true, "why_wrong": null},
+    {"text": "the authors ignore the limitations of the study.", "is_correct": false, "why_wrong": "This describes a failure to qualify the findings, which goes against the cautious tone that 'although' sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the positive first part. In academic writing, this contrast is often expressed through hedging, which qualifies the strength of the findings.",
+  "translation": "Ön veriler umut verici görünmesine rağmen, yazarlar daha fazla tekrarlama çalışmasının gerekli olduğu konusunda uyarıyor."
+}
