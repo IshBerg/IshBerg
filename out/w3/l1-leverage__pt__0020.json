@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "conclusão", "transliteration": "conclusao", "meaning": "conclusion"},
+    {"word": "contraste", "transliteration": "contraste", "meaning": "contrast"},
+    {"word": "exemplo", "transliteration": "exemplo", "meaning": "example"},
+    {"word": "resultado", "transliteration": "resultado", "meaning": "result"}
+  ],
+  "english_words": ["example", "conclusion", "result", "contrast"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages took these words from a common Latin or Romance source, so the spelling stays close and the meaning is the same.",
+  "false_friend_warning": null
+}
