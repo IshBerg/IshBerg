@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "O", "M", "E", "M", "A", "D", "E", "O"],
+    ["S", "K", "P", "W", "Z", "Y", "B", "G", "U"],
+    ["V", "E", "Q", "X", "J", "C", "N", "L", "T"],
+    ["W", "K", "L", "R", "Z", "I", "Q", "P", "D"],
+    ["B", "N", "H", "F", "O", "V", "X", "T", "O"],
+    ["Q", "Z", "W", "G", "M", "K", "J", "Y", "O"],
+    ["P", "L", "T", "Y", "S", "A", "V", "N", "R"],
+    ["X", "U", "B", "H", "K", "W", "D", "Q", "Z"],
+    ["O", "Y", "F", "C", "S", "L", "P", "E", "M"]
+  ],
+  "words_to_find": ["HOMEMADE", "OUTDOOR", "SELFMADE", "OUTGOING"],
+  "word_positions": [
+    {"word": "HOMEMADE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "OUTDOOR", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SELFMADE", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "OUTGOING", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Compound Adjectives"
+}
