@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although he has many friends,",
+  "correct_completion": "he often feels lonely.",
+  "full_sentence": "Although he has many friends, he often feels lonely.",
+  "acceptable_variants": ["he still feels alone at home.", "he sometimes feels sad when he is by himself."],
+  "options": [
+    {"text": "he has few hobbies.", "is_correct": false, "why_wrong": "This adds information about hobbies and does not contrast with having many friends."},
+    {"text": "he likes to read at home.", "is_correct": false, "why_wrong": "This describes a habit but does not create the contrast that 'although' requires."},
+    {"text": "he often feels lonely.", "is_correct": true, "why_wrong": null},
+    {"text": "so he buys many more friends.", "is_correct": false, "why_wrong": "'Although' signals contrast, and 'so' signals a result, so this clause does not fit after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part of the sentence. Speakers of Portuguese may be tempted to use a word that shows cause here, but this connector always marks an unexpected result.",
+  "translation": "Embora ele tenha muitos amigos, ele muitas vezes se sente sozinho."
+}

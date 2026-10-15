@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "O médico trabalha principalmente no hospital, por isso as duas palavras pertencem ao mesmo contexto."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "A bicicleta não tem nenhuma relação com o trabalho do médico."},
+    {"word": "patient", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O paciente é a pessoa que o médico examina e trata, então o significado das palavras está diretamente ligado."},
+    {"word": "stethoscope", "is_associated": true, "association_type": "THEMATIC", "explanation": "O estetoscópio é o instrumento que o médico usa para ouvir o coração e os pulmões."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "A guitarra não tem ligação com a medicina ou com o trabalho do médico."},
+    {"word": "medicine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Os médicos prescrevem medicamentos, e a expressão 'practise medicine' (exercer a medicina) combina com a palavra 'doctor'."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'doctor' se associa a lugares, pessoas, instrumentos e conceitos da prática médica, enquanto os demais termos não têm relação com essa profissão."
+}

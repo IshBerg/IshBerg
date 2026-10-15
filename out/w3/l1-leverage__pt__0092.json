@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "inteligente", "transliteration": "inteligente", "meaning": "intelligent, clever"},
+    {"word": "paciente", "transliteration": "paciente", "meaning": "patient, calm when waiting"},
+    {"word": "generoso", "transliteration": "generoso", "meaning": "generous, willing to give"},
+    {"word": "independente", "transliteration": "independente", "meaning": "independent, not needing help from others"}
+  ],
+  "english_words": ["patient", "independent", "intelligent", "generous"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin source, so the forms stayed close and the meanings stayed the same.",
+  "false_friend_warning": null
+}
