@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "sunny", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Sunny' sun kelimesinden türemiştir ve güneşli havayı anlatır."},
+    {"word": "book", "is_associated": false, "association_type": "NONE", "explanation": "Kitap güneşle doğrudan bir ilgisi olmayan bir kelimedir, bu yüzden ilişkili değildir."},
+    {"word": "sunglasses", "is_associated": true, "association_type": "THEMATIC", "explanation": "Güneş gözlüğü güneşli günlerde kullanılır, bu yüzden güneşle ilişkilidir."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masanın güneşle bir ilgisi yoktur."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Plaj, insanların güneşli havada gittiği bir yerdir."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Kaşık güneşle ilgili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Sun' kelimesiyle ilişkili olan kelimeler güneşin kendisine, güneşli havaya veya güneşli günlerde kullanılan şeylere aittir."
+}
