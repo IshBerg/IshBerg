@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "R", "O", "B", "L", "E", "M", "K", "T", "Z"],
+    ["U", "V", "G", "N", "J", "Q", "A", "W", "C", "Y"],
+    ["M", "D", "K", "X", "S", "T", "E", "R", "B", "F"],
+    ["H", "Q", "Z", "L", "P", "W", "D", "G", "U", "I"],
+    ["V", "N", "A", "C", "T", "Y", "I", "O", "K", "X"],
+    ["H", "K", "W", "T", "F", "U", "N", "Z", "Q", "D"],
+    ["J", "E", "V", "R", "A", "S", "C", "M", "O", "L"],
+    ["T", "G", "L", "Y", "K", "H", "B", "N", "W", "E"],
+    ["Q", "U", "A", "P", "D", "R", "X", "I", "S", "F"],
+    ["B", "O", "Y", "G", "R", "E", "W", "S", "N", "A"]
+  ],
+  "words_to_find": ["PROBLEM", "FIX", "HELP", "ANSWER", "IDEA"],
+  "word_positions": [
+    {"word": "PROBLEM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FIX", "start_row": 2, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "HELP", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ANSWER", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "IDEA", "start_row": 4, "start_col": 6, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Problems and Solutions"
+}
