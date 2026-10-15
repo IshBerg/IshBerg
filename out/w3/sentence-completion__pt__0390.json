@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I will call you tomorrow if",
+  "correct_completion": "I have time in the morning.",
+  "full_sentence": "I will call you tomorrow if I have time in the morning.",
+  "acceptable_variants": ["I am free after lunch.", "I can speak after work."],
+  "options": [
+    {"text": "but I am busy all day.", "is_correct": false, "why_wrong": "'But' introduces contrast, not a condition, so it does not complete the sentence after 'if'."},
+    {"text": "so I can tell you the news.", "is_correct": false, "why_wrong": "'So' introduces a result, not a condition, so it does not work after 'if'."},
+    {"text": "I have time in the morning.", "is_correct": true, "why_wrong": null},
+    {"text": "because I have time in the morning.", "is_correct": false, "why_wrong": "'Because' gives a reason, and it cannot follow 'if' in this structure, since 'if' already introduces the condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if', we need a condition that the speaker may or may not meet, with a present tense verb rather than a future. Options with 'but' or 'so' do not express a condition, and 'because' gives a reason rather than a condition.",
+  "translation": "Vou te ligar amanhã se eu tiver tempo de manhã."
+}
