@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "bus",
+  "collocate": "stop",
+  "full_collocation": "bus stop",
+  "options": ["bus", "car", "bike", "boat"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "car", "reason": "We don't say 'car stop' for a place where buses wait. We say 'car park' for parking a car."},
+    {"word": "bike", "reason": "We don't say 'bike stop'. We say 'bike rack' or 'bike lane' for bicycles."},
+    {"word": "boat", "reason": "We don't say 'boat stop'. We say 'boat dock' or 'pier' for boats."}
+  ],
+  "example_sentence": "Wait at the ___ stop near the school.",
+  "gap_position": 3,
+  "translation": "автобусна зупинка",
+  "l1_interference": "В англійській мові іменник-модифікатор стоїть перед головним словом: bus stop, а не stop bus. Українські учні часто переносять порядок слів 'зупинка автобуса' і ставлять слова у зворотному порядку.",
+  "common_mistake": "stop bus",
+  "explanation": "In English, the first noun describes the second noun. 'Bus stop' is the place where a bus stops, so 'bus' comes first.",
+  "related_collocations": [
+    {"collocation": "school bus", "translation": "шкільний автобус", "example": "The school bus arrives at eight o'clock."},
+    {"collocation": "traffic light", "translation": "світлофор", "example": "Stop at the red traffic light."},
+    {"collocation": "train station", "translation": "залізнична станція", "example": "We meet at the train station."}
+  ],
+  "memory_tip": "The first noun describes the second: BUS STOP = a stop for buses, TRAFFIC LIGHT = a light for traffic"
+}
