@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although it is widely reported that the company's profits fell,",
+  "correct_completion": "its share price has still risen this year.",
+  "full_sentence": "Although it is widely reported that the company's profits fell, its share price has still risen this year.",
+  "acceptable_variants": ["its share price has still gone up this year.", "its share price has nevertheless remained strong."],
+  "options": [
+    {"text": "so its share price has fallen too.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. After 'although', the sentence needs a clause that contrasts with the first part."},
+    {"text": "the company is expected to cut jobs.", "is_correct": false, "why_wrong": "This adds a possible consequence of the fall in profits rather than contrasting with it."},
+    {"text": "its share price has still risen this year.", "is_correct": true, "why_wrong": null},
+    {"text": "analysts reported that profits were low.", "is_correct": false, "why_wrong": "This repeats the information already given in the first clause instead of contrasting with it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and reporting structures",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that contrasts with the first part. Learners whose first language has no separate concessive structure often choose a result connector such as 'so' here, which is the wrong logical relation.",
+  "translation": "Хоча широко повідомляється, що прибутки компанії впали, її ціна акцій цього року все ж зросла."
+}
