@@ -1,0 +1,20 @@
+{
+  "title": "Two Famous Landmarks",
+  "text": "The Eiffel Tower is in Paris. It is very tall. It is made of iron. Many people visit it every year.\n\nThe Great Wall is in China. It is very long. People walked on it a long time ago. You can walk on it too.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the Eiffel Tower?", "options": ["In Paris", "In London", "In Rome", "In Berlin"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where is the Great Wall?", "options": ["In China", "In Japan", "In India", "In Korea"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why do many people visit the Eiffel Tower?", "options": ["Because it is a famous place", "Because it is very small", "Because it is cheap", "Because it is made of wood"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about the Great Wall?", "options": ["It is very old", "It is very new", "It is very small", "It is in a city"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "tall", "translation": "високий", "definition": "having a large height"},
+    {"word": "iron", "translation": "залізо", "definition": "a hard metal"},
+    {"word": "visit", "translation": "відвідувати", "definition": "to go to a place to see it"},
+    {"word": "long", "translation": "довгий", "definition": "having a large distance from one end to the other"}
+  ],
+  "paragraph_translations": [
+    "Ейфелева вежа знаходиться в Парижі. Вона дуже висока. Вона зроблена із заліза. Багато людей відвідують її щороку.",
+    "Велика Китайська стіна знаходиться в Китаї. Вона дуже довга. Люди ходили по ній давно. Ви теж можете пройтися по ній."
+  ]
+}
