@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Of all the cities we visited,",
+  "correct_completion": "Lisbon was the most beautiful.",
+  "full_sentence": "Of all the cities we visited, Lisbon was the most beautiful.",
+  "acceptable_variants": ["Lisbon was the most beautiful of them.", "we liked Lisbon the most."],
+  "options": [
+    {"text": "we spent most of our money on food.", "is_correct": false, "why_wrong": "This describes spending money, which does not complete a comparison between the cities."},
+    {"text": "the weather was very hot.", "is_correct": false, "why_wrong": "This describes the weather and does not give a superlative judgement about the cities."},
+    {"text": "we took many photos there.", "is_correct": false, "why_wrong": "This may be true, but it does not complete the superlative comparison that 'of all' requires."},
+    {"text": "Lisbon was the most beautiful.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Superlatives with 'the most' and comparison phrases like 'of all'",
+  "connector": "of all",
+  "explanation": "After 'of all the cities', we need a superlative that ranks the cities against each other. Learners often use a comparative form here, but English uses 'the most' with longer adjectives such as beautiful.",
+  "translation": "De todas as cidades que visitamos, Lisboa foi a mais bonita."
+}
