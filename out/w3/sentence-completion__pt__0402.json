@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the story was very exciting,",
+  "correct_completion": "I could not stop reading.",
+  "full_sentence": "Because the story was very exciting, I could not stop reading.",
+  "acceptable_variants": ["I read the whole night.", "I wanted to know the end."],
+  "options": [
+    {"text": "I fell asleep early.", "is_correct": false, "why_wrong": "This is a possible result, but it does not follow naturally from an exciting story as the sentence implies."},
+    {"text": "I could not stop reading.", "is_correct": true, "why_wrong": null},
+    {"text": "the book was on the table.", "is_correct": false, "why_wrong": "This describes where the book is and does not show an effect of the story being exciting."},
+    {"text": "I bought a new pen.", "is_correct": false, "why_wrong": "This is unrelated to the story and does not complete the cause-and-effect link started by 'because'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because' and the past simple",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the cause, and the main clause must show the effect of that cause. Portuguese speakers often use a similar connector, but English places the cause clause first with a comma when it begins the sentence.",
+  "translation": "Porque a história era muito emocionante, eu não conseguia parar de ler."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "smile",
+  "all_words": [
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "A mesa não tem relação com o sorriso, porque é um objeto sem ligação com sentimentos ou expressões do rosto."},
+    {"word": "happy", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Feliz tem o mesmo sentido de alegria que o sorriso mostra no rosto."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "A chuva não está ligada ao sorriso e não expressa um sentimento de alegria."},
+    {"word": "laugh", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Rir é uma reação parecida com sorrir, pois as duas mostram que a pessoa está contente."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "O sapato não tem relação com o sorriso, porque é uma peça de roupa."},
+    {"word": "face", "is_associated": true, "association_type": "THEMATIC", "explanation": "O rosto é a parte do corpo onde aparece o sorriso, por isso as palavras estão ligadas ao mesmo tema."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'smile' está ligada a sentimentos de alegria e ao rosto, enquanto mesa, chuva e sapato não têm relação com ela."
+}
