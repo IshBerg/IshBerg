@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "bluza", "transliteration": "bluza", "meaning": "sweatshirt, casual knitted or cotton top"},
+    {"word": "wełna", "transliteration": "welna", "meaning": "wool"},
+    {"word": "szkło", "transliteration": "szklo", "meaning": "glass"},
+    {"word": "skóra", "transliteration": "skora", "meaning": "leather or skin"}
+  ],
+  "english_words": ["glass", "sweatshirt", "leather", "wool"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Polish word and the English word 'blouse' were both borrowed from the same French source, so their spelling looks alike. Over time the Polish word shifted to a casual sweatshirt-type garment, while the English word kept the meaning of a light, woven top.",
+  "false_friend_warning": "Warning: the Polish word bluza looks like the English word 'blouse', but it means sweatshirt, a casual knitted or cotton top. An English blouse is usually a lighter, woven top, so bluza should be translated as 'sweatshirt' and not as 'blouse'."
+}
