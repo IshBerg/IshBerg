@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The manager, who had worked there for ten years,",
+  "correct_completion": "announced her retirement on Monday.",
+  "full_sentence": "The manager, who had worked there for ten years, announced her retirement on Monday.",
+  "acceptable_variants": ["retired on Monday after a long career.", "made her retirement public on Monday."],
+  "options": [
+    {"text": "she announces her retirement on Monday.", "is_correct": false, "why_wrong": "The present tense clashes with the past perfect 'had worked'. The main verb should be in the past."},
+    {"text": "to announce her retirement on Monday.", "is_correct": false, "why_wrong": "An infinitive cannot be the main verb of the sentence. The sentence needs a finite verb."},
+    {"text": "announced her retirement on Monday.", "is_correct": true, "why_wrong": null},
+    {"text": "is retiring because of her age.", "is_correct": false, "why_wrong": "The present tense does not fit the past context set by 'had worked'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses and a finite main verb after the clause",
+  "connector": "who",
+  "explanation": "The relative clause 'who had worked there for ten years' adds extra information and is closed by commas. After it, the main clause needs a finite verb in the past tense to match the sentence.",
+  "translation": "O gerente, que trabalhava ali há dez anos, anunciou sua aposentadoria na segunda-feira."
+}

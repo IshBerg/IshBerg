@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hotel", "transliteration": "o-TEL", "meaning": "hotel"},
+    {"word": "cinema", "transliteration": "si-NE-ma", "meaning": "cinema"},
+    {"word": "animal", "transliteration": "a-ni-MAL", "meaning": "animal"},
+    {"word": "motor", "transliteration": "mo-TOR", "meaning": "motor"}
+  ],
+  "english_words": ["cinema", "motor", "hotel", "animal"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words entered both languages from the same international sources, so their spelling and meaning stayed very close.",
+  "false_friend_warning": null
+}
