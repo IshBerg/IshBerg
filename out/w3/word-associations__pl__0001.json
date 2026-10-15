@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "Piekarnik to typowe wyposażenie kuchni, więc słowa są powiązane tematycznie."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma związku z kuchnią, bo należy do zupełnie innego świata przyrody."},
+    {"word": "fork", "is_associated": true, "association_type": "THEMATIC", "explanation": "Widelec to przybór kuchenny, więc związek jest tematyczny."},
+    {"word": "gravity", "is_associated": false, "association_type": "NONE", "explanation": "Grawitacja to pojęcie fizyczne i nie ma związku z kuchnią."},
+    {"word": "recipe", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Przepis jest bezpośrednio związany z gotowaniem w kuchni, więc to związek znaczeniowy."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Zlew tworzy stałe połączenie 'kitchen sink' i jest częścią kuchni."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z kuchnią dotyczą przedmiotów i czynności gotowania, a pozostałe należą do innych dziedzin."
+}

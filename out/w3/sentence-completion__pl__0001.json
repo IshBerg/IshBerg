@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been warned about the storm,",
+  "correct_completion": "the sailors returned to the harbour early.",
+  "full_sentence": "Having been warned about the storm, the sailors returned to the harbour early.",
+  "acceptable_variants": ["the crew headed back to port early.", "the sailors turned back before dark."],
+  "options": [
+    {"text": "the sailors ignored the weather report.", "is_correct": false, "why_wrong": "This is grammatically possible but contradicts the logic of the stem: the participle clause says the sailors were warned, so they would be expected to respond to the warning."},
+    {"text": "they having returned to the harbour early.", "is_correct": false, "why_wrong": "A perfect participle cannot serve as the main verb after a comma. The main clause needs a finite verb."},
+    {"text": "to return to the harbour early.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the main verb of the sentence. The main clause needs a finite verb."},
+    {"text": "the sailors returned to the harbour early.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect passive participle clause ('having been' + past participle) with a shared subject",
+  "connector": "having been",
+  "explanation": "The perfect passive participle 'having been warned' introduces a clause whose subject is the sailors, so the main clause must continue with that same subject and a finite active verb.",
+  "translation": "Ostrzeżeni o burzy, żeglarze wrócili wcześnie do portu."
+}

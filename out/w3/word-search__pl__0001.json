@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["I", "D", "E", "A", "X", "Q", "M", "T"],
+    ["T", "H", "E", "O", "R", "Y", "K", "R"],
+    ["P", "W", "N", "B", "Z", "J", "F", "U"],
+    ["S", "V", "L", "Q", "D", "W", "A", "T"],
+    ["M", "C", "O", "N", "K", "P", "E", "H"],
+    ["R", "Y", "G", "Z", "V", "B", "U", "Y"],
+    ["X", "J", "I", "F", "L", "S", "D", "N"],
+    ["Q", "W", "C", "V", "M", "K", "G", "B"]
+  ],
+  "words_to_find": ["IDEA", "TRUTH", "LOGIC", "THEORY"],
+  "word_positions": [
+    {"word": "IDEA", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRUTH", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "LOGIC", "start_row": 3, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "THEORY", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Academic Vocabulary: Abstract Nouns"
+}
