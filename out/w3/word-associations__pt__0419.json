@@ -1,0 +1,14 @@
+{
+  "trigger_word": "cake",
+  "all_words": [
+    {"word": "candle", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Velas são colocadas no bolo de aniversário, como em 'birthday cake candles'."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Peixe não tem relação com bolo de aniversário."},
+    {"word": "party", "is_associated": true, "association_type": "THEMATIC", "explanation": "O bolo geralmente aparece na festa de aniversário."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Janela não tem nenhuma relação com bolo."},
+    {"word": "gift", "is_associated": true, "association_type": "THEMATIC", "explanation": "Presente é comum no aniversário, junto com o bolo."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Carro não tem relação com bolo."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'cake' são coisas que aparecem em um aniversário: velas, festa e presente."
+}
