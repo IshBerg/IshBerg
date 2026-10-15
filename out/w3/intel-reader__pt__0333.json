@@ -1,0 +1,19 @@
+{
+  "title": "My Friends and Books",
+  "text": "My name is Maria. I am thirty years old. I have forty-five books in my room. I read one book every week.\n\nMy friend Pedro is twenty-five years old. He has a dog and a cat. He has ninety-nine photos of his dog on his phone.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How old is Maria?", "options": ["Thirty", "Twenty", "Forty-five", "Seventy"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How many photos of his dog does Pedro have on his phone?", "options": ["Twenty-five", "Ninety-nine", "Forty-five", "Seventy"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can you infer about Maria?", "options": ["She likes reading", "She does not like books", "She works in a bank", "She has a dog"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can you infer about Pedro?", "options": ["He loves his dog", "He does not like animals", "He has no phone", "He is older than Maria"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "book", "translation": "livro", "definition": "a set of printed pages that you read"},
+    {"word": "week", "translation": "semana", "definition": "a period of seven days"},
+    {"word": "photos", "translation": "fotos", "definition": "pictures taken with a camera or a phone"}
+  ],
+  "paragraph_translations": [
+    "Meu nome é Maria. Eu tenho trinta anos. Eu tenho quarenta e cinco livros no meu quarto. Eu leio um livro por semana.",
+    "Meu amigo Pedro tem vinte e cinco anos. Ele tem um cachorro e um gato. Ele tem noventa e nove fotos do seu cachorro no celular."
+  ]
+}

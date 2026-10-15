@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "opinião", "transliteration": "opiniao", "meaning": "opinion"},
+    {"word": "argumento", "transliteration": "argumento", "meaning": "argument"},
+    {"word": "evidência", "transliteration": "evidencia", "meaning": "evidence"},
+    {"word": "decisão", "transliteration": "decisao", "meaning": "decision"}
+  ],
+  "english_words": ["evidence", "opinion", "decision", "argument"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Portuguese word and its English match come from the same Latin root, so the spelling and meaning stay close.",
+  "false_friend_warning": null
+}
