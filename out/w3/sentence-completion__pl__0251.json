@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister has got",
+  "correct_completion": "a red bicycle.",
+  "full_sentence": "My sister has got a red bicycle.",
+  "acceptable_variants": ["a new bicycle.", "a blue bicycle."],
+  "options": [
+    {"text": "in the park today.", "is_correct": false, "why_wrong": "'Has got' expresses possession and needs an object, not a place or time expression."},
+    {"text": "went to the park.", "is_correct": false, "why_wrong": "'Has got' is followed by a noun phrase, not a past verb; this sentence does not express possession."},
+    {"text": "a red bicycle.", "is_correct": true, "why_wrong": null},
+    {"text": "is very happy.", "is_correct": false, "why_wrong": "'Has got' cannot be followed by an adjective here; the sentence needs a thing that the sister owns."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Have got for possession",
+  "connector": "has got",
+  "explanation": "'Has got' shows that someone owns or has something, so the completion must be a noun phrase naming an object. Learners often add a verb or an adjective after it, which breaks the structure.",
+  "translation": "Moja siostra ma czerwony rower."
+}
