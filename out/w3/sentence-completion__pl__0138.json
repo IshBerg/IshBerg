@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When the phone rang,",
+  "correct_completion": "I was having a shower.",
+  "full_sentence": "When the phone rang, I was having a shower.",
+  "acceptable_variants": ["I was in the shower.", "I was taking a shower."],
+  "options": [
+    {"text": "I will have a shower.", "is_correct": false, "why_wrong": "A future tense does not fit a past narrative; the stem needs an action already in progress in the past."},
+    {"text": "I am having a shower.", "is_correct": false, "why_wrong": "The present continuous does not match the past time set by 'rang'."},
+    {"text": "I was having a shower.", "is_correct": true, "why_wrong": null},
+    {"text": "I having a shower.", "is_correct": false, "why_wrong": "The auxiliary verb 'was' is missing, so the continuous form is incomplete."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous for an action in progress when a past simple action interrupts",
+  "connector": "when",
+  "explanation": "The past continuous 'was having' describes an action in progress at a past moment, while the past simple 'rang' describes the event that interrupted it. Learners often use the past simple for both actions, which leaves the background action without its progressive form. Polish speakers may find this hard because Polish marks ongoing and completed actions with verb aspect rather than a separate auxiliary word, so the English auxiliary 'was' is easy to drop.",
+  "translation": "Kiedy zadzwonił telefon, brałem prysznic."
+}
