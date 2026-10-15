@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "R", "E", "A", "K", "Q", "R", "Z", "G"],
+    ["X", "J", "M", "Q", "W", "Z", "U", "J", "I"],
+    ["M", "Q", "Z", "X", "J", "W", "N", "Q", "V"],
+    ["Z", "W", "X", "J", "Q", "M", "Y", "W", "E"],
+    ["T", "Q", "J", "X", "Z", "W", "M", "Y", "Q"],
+    ["Y", "A", "Z", "Q", "J", "X", "W", "M", "Y"],
+    ["X", "Q", "K", "Z", "W", "J", "Y", "M", "Q"],
+    ["Q", "W", "Z", "E", "J", "M", "X", "Y", "Z"],
+    ["Y", "M", "Z", "W", "L", "O", "O", "K", "J"]
+  ],
+  "words_to_find": ["BREAK", "GIVE", "TAKE", "LOOK", "RUN"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GIVE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TAKE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LOOK", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "RUN", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Idioms and Phrasal Verbs"
+}

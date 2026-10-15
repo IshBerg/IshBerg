@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Parasol chroni przed deszczem, więc jest ściśle związany z deszczem."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Chmury są źródłem deszczu, więc to bezpośredni związek znaczeniowy."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Pustynia jest suchym miejscem, gdzie deszcz prawie nie pada, więc nie ma tu związku."},
+    {"word": "puddle", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kałuża powstaje po deszczu, więc należy do tej samej sytuacji pogodowej."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Krzesło nie ma żadnego związku z deszczem."},
+    {"word": "boots", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Kalosze (rain boots) są noszone podczas deszczu, dlatego tworzą typowe połączenie z tym słowem."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'rain' łączy się z pogodą, chmurami oraz przedmiotami i miejscami, które są związane z deszczem."
+}

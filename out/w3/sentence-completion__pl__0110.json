@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom has never visited London, so",
+  "correct_completion": "he wants to go there next year.",
+  "full_sentence": "Tom has never visited London, so he wants to go there next year.",
+  "acceptable_variants": ["he plans to visit it next year.", "he would love to see it someday."],
+  "options": [
+    {"text": "he visited it last summer.", "is_correct": false, "why_wrong": "This contradicts 'has never visited'. The present perfect with 'never' means the experience did not happen."},
+    {"text": "he has been there many times.", "is_correct": false, "why_wrong": "This contradicts 'has never visited'. Being there many times would mean he has visited it."},
+    {"text": "he wants to go there next year.", "is_correct": true, "why_wrong": null},
+    {"text": "he lives there now.", "is_correct": false, "why_wrong": "Living in London would mean he has visited it, which contradicts 'has never visited'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect with 'never' and the cause-effect connector 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a result that follows logically from the fact that Tom has never visited London. A plan to go there next year is the natural consequence.",
+  "translation": "Tom nigdy nie odwiedził Londynu, więc chce tam pojechać w przyszłym roku."
+}
