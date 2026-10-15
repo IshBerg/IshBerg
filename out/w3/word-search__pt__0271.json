@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["A", "D", "V", "I", "C", "E", "Q", "W", "K", "S"],
+    ["B", "N", "M", "R", "G", "Z", "X", "J", "F", "H"],
+    ["K", "P", "T", "L", "W", "Q", "Z", "V", "D", "O"],
+    ["Y", "F", "G", "R", "K", "N", "W", "B", "J", "U"],
+    ["M", "Q", "X", "H", "Y", "C", "P", "D", "E", "L"],
+    ["T", "Z", "K", "W", "N", "F", "G", "R", "Y", "D"],
+    ["W", "Q", "J", "P", "B", "V", "M", "K", "C", "Z"],
+    ["F", "L", "D", "X", "R", "Y", "T", "N", "G", "W"],
+    ["S", "M", "B", "V", "Q", "J", "K", "H", "P", "C"],
+    ["P", "I", "T", "O", "D", "W", "F", "L", "Z", "X"]
+  ],
+  "words_to_find": ["ADVICE", "SHOULD", "TRY", "TIP"],
+  "word_positions": [
+    {"word": "ADVICE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SHOULD", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "TRY", "start_row": 2, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "TIP", "start_row": 9, "start_col": 2, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Giving Advice"
+}

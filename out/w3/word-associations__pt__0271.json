@@ -1,0 +1,14 @@
+{
+  "trigger_word": "candle",
+  "all_words": [
+    {"word": "flame", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A chama é a parte que queima e dá luz à vela, por isso as duas palavras estão diretamente ligadas."},
+    {"word": "wax", "is_associated": true, "association_type": "THEMATIC", "explanation": "A cera é o material principal de que a vela é feita."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "O teclado é um objeto de informática e não tem nenhuma relação com velas."},
+    {"word": "wick", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "O pavio é a parte da vela que se acende, e as duas palavras aparecem sempre juntas."},
+    {"word": "darkness", "is_associated": true, "association_type": "THEMATIC", "explanation": "A vela é acesa para iluminar a escuridão, uma ideia que aparece com frequência em textos literários."},
+    {"word": "spreadsheet", "is_associated": false, "association_type": "NONE", "explanation": "A planilha é um arquivo de dados e não se relaciona com velas nem com luz."}
+  ],
+  "correct_indices": [0, 1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas à vela referem-se à chama, à cera, ao pavio e à escuridão que ela ilumina, enquanto as duas restantes pertencem a contextos sem relação com o tema."
+}
