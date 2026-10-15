@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "O", "C", "T", "O", "R", "A", "Q", "Z"],
+    ["B", "F", "W", "K", "M", "J", "V", "G", "H"],
+    ["Y", "B", "H", "X", "L", "M", "J", "D", "N"],
+    ["P", "W", "T", "G", "Z", "K", "Y", "F", "U"],
+    ["Q", "I", "B", "D", "X", "V", "H", "M", "R"],
+    ["J", "Z", "L", "K", "W", "Y", "Q", "F", "S"],
+    ["G", "X", "C", "L", "M", "B", "T", "V", "E"],
+    ["D", "I", "N", "H", "Y", "Q", "Z", "W", "A"],
+    ["S", "R", "U", "O", "F", "P", "J", "X", "B"]
+  ],
+  "words_to_find": ["DOCTOR", "NURSE", "PILL", "SICK"],
+  "word_positions": [
+    {"word": "DOCTOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NURSE", "start_row": 2, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "PILL", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SICK", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "At the Doctor"
+}

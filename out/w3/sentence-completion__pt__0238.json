@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Ana has got a dog, but",
+  "correct_completion": "she hasn't got a cat.",
+  "full_sentence": "Ana has got a dog, but she hasn't got a cat.",
+  "acceptable_variants": ["she doesn't have a cat.", "she has no cat."],
+  "options": [
+    {"text": "she has got a cat too.", "is_correct": false, "why_wrong": "'But' signals a contrast, but this option adds a similar pet, so it does not contrast with the dog."},
+    {"text": "she has got a big house.", "is_correct": false, "why_wrong": "This is a new fact, but it does not contrast with the dog and does not complete the contrast that 'but' sets up."},
+    {"text": "she hasn't got a cat.", "is_correct": true, "why_wrong": null},
+    {"text": "she has got a red bag.", "is_correct": false, "why_wrong": "This adds an unrelated possession. It does not contrast with the dog that the first clause mentions."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Negative and affirmative forms of 'have got' after 'but'",
+  "connector": "but",
+  "explanation": "'But' introduces a contrast, so the second clause should say what Ana does not have. Portuguese speakers often use one verb for both possession and negation, so the negative form with have got can feel unnatural and needs practice.",
+  "translation": "A Ana tem um cachorro, mas não tem um gato."
+}
