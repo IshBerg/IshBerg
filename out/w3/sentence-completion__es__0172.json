@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The exam over,",
+  "correct_completion": "we went straight home.",
+  "full_sentence": "The exam over, we went straight home.",
+  "acceptable_variants": ["we headed straight home.", "we all left the building."],
+  "options": [
+    {"text": "so we went straight home.", "is_correct": false, "why_wrong": "An absolute phrase is followed directly by the main clause; adding 'so' turns the sentence into a result clause and breaks the structure."},
+    {"text": "we went straight home.", "is_correct": true, "why_wrong": null},
+    {"text": "to go straight home.", "is_correct": false, "why_wrong": "An infinitive cannot serve as the main clause; a finite verb is needed after the absolute phrase."},
+    {"text": "our homework was done.", "is_correct": false, "why_wrong": "This is another passive clause that does not give the action of the main subject, so it does not complete the intended meaning."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Absolute (verbless) clauses",
+  "connector": "none",
+  "explanation": "An absolute phrase such as 'The exam over' has no finite verb and no connector. It is followed by a comma and a main clause with its own subject and finite verb. Spanish speakers often add a connector such as 'so' here, but absolute phrases usually stand alone, so the main clause follows directly.",
+  "translation": "Con el examen terminado, nos fuimos directamente a casa."
+}
