@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem seems simple at first,",
+  "correct_completion": "its hidden meaning only becomes clear after several careful readings.",
+  "full_sentence": "Although the poem seems simple at first, its hidden meaning only becomes clear after several careful readings.",
+  "acceptable_variants": ["its deeper message is revealed only on a second reading.", "most readers miss its true meaning the first time."],
+  "options": [
+    {"text": "so I stopped reading it after one line.", "is_correct": false, "why_wrong": "'So' expresses a result, which does not fit after 'although'. The sentence needs a clause that contrasts with the first part."},
+    {"text": "because the poem has a very short title.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'although' introduces a concession. This clause also does not contrast with the idea that the poem seems simple."},
+    {"text": "its hidden meaning only becomes clear after several careful readings.", "is_correct": true, "why_wrong": null},
+    {"text": "and the poem has three lines.", "is_correct": false, "why_wrong": "This adds a neutral fact but does not set up a contrast with the idea that the poem seems simple."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. Here the poem looks simple, so the completion must show that its real meaning is hidden. Learners sometimes choose a clause with 'so' or 'because', which express result or cause rather than concession.",
+  "translation": "Chociaż wiersz na początku wydaje się prosty, jego ukryte znaczenie staje się jasne dopiero po kilku uważnych czytaniach."
+}
