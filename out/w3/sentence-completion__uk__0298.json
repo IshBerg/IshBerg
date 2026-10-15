@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My friend Anna is nice, and",
+  "correct_completion": "she likes music.",
+  "full_sentence": "My friend Anna is nice, and she likes music.",
+  "acceptable_variants": ["she likes to sing.", "she likes to draw."],
+  "options": [
+    {"text": "they are at school.", "is_correct": false, "why_wrong": "'They' is plural, but Anna is one person, so we use 'she'."},
+    {"text": "I am ten years old.", "is_correct": false, "why_wrong": "'I' refers to the speaker, not to Anna."},
+    {"text": "she likes music.", "is_correct": true, "why_wrong": null},
+    {"text": "it is a big house.", "is_correct": false, "why_wrong": "'It' is used for things or animals, not for a person like Anna."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject pronouns: she, they, I, it",
+  "connector": "and",
+  "explanation": "After 'and', we need a clause with a subject pronoun that matches the person named before it. Anna is one female person, so the matching subject pronoun is 'she'.",
+  "translation": "Моя подруга Анна мила, і вона любить музику."
+}
