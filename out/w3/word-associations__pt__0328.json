@@ -1,0 +1,14 @@
+{
+  "trigger_word": "integrity",
+  "all_words": [
+    {"word": "honesty", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Honestidade é uma das qualidades centrais da integridade, por isso as duas palavras têm significado muito próximo."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanha não tem relação com a ideia de integridade moral ou ética, então não está associada."},
+    {"word": "conscience", "is_associated": true, "association_type": "THEMATIC", "explanation": "A consciência é o que orienta uma pessoa a agir com integridade, portanto pertence ao mesmo tema ético."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bicicleta não tem nenhuma ligação com princípios morais, então não é associada à integridade."},
+    {"word": "uphold", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Uphold one's integrity' é uma combinação comum em inglês, que significa manter a integridade. Brasileiros e portugueses podem tentar traduzir literalmente 'manter', mas o verbo natural aqui é 'uphold'."},
+    {"word": "principle", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um princípio é uma regra moral que a pessoa segue, por isso se relaciona de perto com a integridade."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'integrity' pertencem ao campo da ética: honestidade, consciência, princípios e a expressão 'uphold'. Montanha e bicicleta não têm relação com esse tema."
+}

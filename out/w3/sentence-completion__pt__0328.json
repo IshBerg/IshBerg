@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister, who lives in Lisbon,",
+  "correct_completion": "is coming to visit us next week.",
+  "full_sentence": "My sister, who lives in Lisbon, is coming to visit us next week.",
+  "acceptable_variants": ["will visit us next week.", "is planning a trip to see us."],
+  "options": [
+    {"text": "so she is coming to visit us next week.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not complete the non-defining clause. The main clause needs a verb about the sister."},
+    {"text": "that we met at school.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining clause after a comma. Non-defining clauses about people use 'who'."},
+    {"text": "is coming to visit us next week.", "is_correct": true, "why_wrong": null},
+    {"text": "which she likes very much.", "is_correct": false, "why_wrong": "'Which' refers to things, not to a person like 'my sister'. The sentence needs a main verb for the subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who'",
+  "connector": "who",
+  "explanation": "A non-defining clause is set off by commas and adds extra information about a person. After the clause, the sentence still needs a main verb for the subject, so the correct option continues with the present continuous. Learners often add a second clause or a connector here, but the main clause must follow directly after the closing comma.",
+  "translation": "Minha irmã, que mora em Lisboa, vem nos visitar na próxima semana."
+}
