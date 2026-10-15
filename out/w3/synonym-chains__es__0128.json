@@ -1,0 +1,17 @@
+{
+  "central_word": "expensive",
+  "chain_words": [
+    {"word": "pricey", "intensity": 1, "translation": "algo caro", "nuance": "somewhat high in price, informal"},
+    {"word": "expensive", "intensity": 2, "translation": "caro", "nuance": "high in price, the general word"},
+    {"word": "costly", "intensity": 3, "translation": "costoso", "nuance": "high in cost, often with a serious effect"},
+    {"word": "exorbitant", "intensity": 4, "translation": "exorbitante", "nuance": "much higher than it should be"},
+    {"word": "extortionate", "intensity": 5, "translation": "abusivo", "nuance": "unfairly high, as if the seller is taking advantage"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe a high price, from something slightly expensive to a price that feels unfair to the buyer.",
+  "usage_notes": [
+    {"word1": "expensive", "word2": "exorbitant", "difference": "'Expensive' describes a normal high price; 'exorbitant' suggests a price that is much higher than it should be."}
+  ],
+  "translations": {"pricey": "algo caro", "expensive": "caro", "costly": "costoso", "exorbitant": "exorbitante", "extortionate": "abusivo"}
+}

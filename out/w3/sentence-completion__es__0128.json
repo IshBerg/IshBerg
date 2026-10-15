@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have studied English",
+  "correct_completion": "for three years.",
+  "full_sentence": "I have studied English for three years.",
+  "acceptable_variants": ["since 2020.", "for a long time."],
+  "options": [
+    {"text": "since three years.", "is_correct": false, "why_wrong": "'Since' needs a starting point in time, not a period of time; 'three years' is a duration, so 'for' is needed."},
+    {"text": "for last Monday.", "is_correct": false, "why_wrong": "'For' needs a period of time; 'last Monday' is a specific point in time, so 'since' would be needed instead."},
+    {"text": "for three years.", "is_correct": true, "why_wrong": null},
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "'Yesterday' refers to a finished past time and does not work with the present perfect, which connects the past to now."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present perfect with for and since",
+  "connector": "for",
+  "explanation": "Use 'for' with a period of time and 'since' with a starting point in time, and use the present perfect for an action that started in the past and continues now. Spanish speakers often use the present simple here, because Spanish uses the present tense for actions that started in the past and continue now.",
+  "translation": "He estudiado inglés durante tres años."
+}
