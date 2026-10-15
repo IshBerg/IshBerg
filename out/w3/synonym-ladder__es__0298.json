@@ -1,0 +1,13 @@
+{
+  "start_word": "clean",
+  "end_word": "toxic",
+  "ladder_steps": [
+    {"word": "clean", "translation": "limpio", "intensity_level": 1},
+    {"word": "dusty", "translation": "polvoriento", "intensity_level": 2},
+    {"word": "dirty", "translation": "sucio", "intensity_level": 3},
+    {"word": "polluted", "translation": "contaminado", "intensity_level": 4},
+    {"word": "toxic", "translation": "tóxico", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words describing how polluted a place is form a ladder from clean to toxic, each step more harmful than the last."
+}
