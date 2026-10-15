@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the contract had been signed,",
+  "correct_completion": "the buyer refused to pay the final installment.",
+  "full_sentence": "Although the contract had been signed, the buyer refused to pay the final installment.",
+  "acceptable_variants": ["the buyer still refused to pay the final installment.", "the seller nevertheless delivered the goods late."],
+  "options": [
+    {"text": "so the seller had to cancel the order.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' sets up a contrast, so this result does not fit the connector."},
+    {"text": "the buyer refused to pay the final installment.", "is_correct": true, "why_wrong": null},
+    {"text": "because the lawyers reviewed each clause.", "is_correct": false, "why_wrong": "'Because' introduces a cause. 'Although' needs a contrast, so this clause clashes with the connector."},
+    {"text": "the contract was written in English.", "is_correct": false, "why_wrong": "This adds a fact about the contract, but it does not express the contrast that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the clause must contrast with the first part of the sentence. A signed contract creates the expectation that the buyer will pay, so a refusal completes the contrast. Learners often choose a cause connector here, so remember that 'although' always marks concession, not reason.",
+  "translation": "Aunque el contrato había sido firmado, el comprador se negó a pagar la última cuota."
+}
