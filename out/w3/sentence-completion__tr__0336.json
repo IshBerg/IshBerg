@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the report, she sent it to her manager.",
+  "acceptable_variants": ["she then emailed it to her manager.", "she handed it to her manager."],
+  "options": [
+    {"text": "is going to the park tonight.", "is_correct": false, "why_wrong": "The stem is a participle clause about a finished action. 'Is going' introduces an unrelated plan and does not complete the clause."},
+    {"text": "she was very tired and hungry.", "is_correct": false, "why_wrong": "This describes a state, but it does not give the main action that follows a participle clause about finishing a task."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was on her desk.", "is_correct": false, "why_wrong": "This describes the report, not the action of the subject that follows the finished task."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect participle clauses ('Having + past participle')",
+  "connector": "having finished",
+  "explanation": "A perfect participle clause shows an action completed before the main action. The main clause must have the same subject as the participle clause, here 'she'.",
+  "translation": "Raporu bitirdikten sonra, onu müdürüne gönderdi."
+}
