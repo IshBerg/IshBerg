@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "A", "S", "T", "E", "R", "C", "Q", "H"],
+    ["K", "M", "P", "J", "Z", "B", "A", "F", "O"],
+    ["T", "U", "G", "Y", "X", "D", "R", "N", "L"],
+    ["D", "Q", "B", "K", "E", "S", "N", "M", "I"],
+    ["H", "I", "C", "F", "P", "T", "I", "Z", "U"],
+    ["R", "J", "W", "O", "G", "Y", "V", "X", "B"],
+    ["Z", "N", "E", "A", "K", "Q", "A", "D", "M"],
+    ["S", "F", "H", "T", "L", "P", "L", "W", "Y"],
+    ["V", "C", "G", "R", "B", "I", "N", "K", "X"]
+  ],
+  "words_to_find": ["EASTER", "HOLI", "DIWALI", "CARNIVAL"],
+  "word_positions": [
+    {"word": "EASTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOLI", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DIWALI", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CARNIVAL", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Holidays Around the World"
+}
