@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poverty",
+  "all_words": [
+    {"word": "deprivation", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Deprivation' é um sinônimo próximo de pobreza, pois descreve a falta de bens e direitos essenciais."},
+    {"word": "welfare", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Welfare' (assistência social) é o tema das políticas públicas voltadas às pessoas em situação de pobreza."},
+    {"word": "lighthouse", "is_associated": false, "association_type": "NONE", "explanation": "'Lighthouse' (farol) não tem relação com pobreza, nem pelo sentido nem pelo uso comum."},
+    {"word": "trap", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Poverty trap' (armadilha da pobreza) é uma colocação consolidada que descreve a pobreza se perpetuando de uma geração para outra."},
+    {"word": "blueprint", "is_associated": false, "association_type": "NONE", "explanation": "'Blueprint' (planta ou projeto) não se liga ao tema, nem por significado nem por colocação habitual."},
+    {"word": "hardship", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Hardship' (adversidade, privação) expressa as dificuldades enfrentadas por quem vive na pobreza."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As associações da palavra 'poverty' giram em torno de privação, dificuldade e políticas sociais; 'lighthouse' e 'blueprint' não guardam nenhuma relação com o conceito."
+}

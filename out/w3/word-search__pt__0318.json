@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["L", "E", "T", "T", "E", "R", "Q", "W", "D"],
+    ["K", "M", "J", "F", "H", "Z", "X", "B", "E"],
+    ["D", "A", "T", "E", "Q", "K", "V", "C", "A"],
+    ["N", "U", "W", "O", "J", "Z", "F", "K", "R"],
+    ["R", "B", "C", "H", "M", "V", "Q", "T", "X"],
+    ["N", "E", "K", "W", "D", "F", "J", "B", "M"],
+    ["V", "H", "P", "Z", "X", "C", "T", "A", "F"],
+    ["G", "Q", "W", "L", "K", "J", "U", "H", "O"],
+    ["B", "D", "X", "C", "Y", "S", "I", "G", "N"]
+  ],
+  "words_to_find": ["LETTER", "DEAR", "DATE", "REPLY", "SIGN"],
+  "word_positions": [
+    {"word": "LETTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DEAR", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DATE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REPLY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SIGN", "start_row": 8, "start_col": 5, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Formal Letters"
+}
