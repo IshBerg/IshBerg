@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although my phone battery was low,",
+  "correct_completion": "I still sent you the message.",
+  "full_sentence": "Although my phone battery was low, I still sent you the message.",
+  "acceptable_variants": ["I still sent you a text.", "I managed to reply anyway."],
+  "options": [
+    {"text": "so I could not send you the message.", "is_correct": false, "why_wrong": "'So' shows a result, but 'although' needs a contrast. The result does not fit after 'although'."},
+    {"text": "because I was at home.", "is_correct": false, "why_wrong": "'Because' gives a reason, not a contrast. 'Although' cannot be followed by a reason clause here."},
+    {"text": "I still sent you the message.", "is_correct": true, "why_wrong": null},
+    {"text": "the phone was very old.", "is_correct": false, "why_wrong": "This adds information about the phone, but it does not give the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a main clause that shows contrast with the first part of the sentence. Students often add 'but' by mistake, because the two ideas are already linked by 'although'.",
+  "translation": "Telefonumun pili azalmış olmasına rağmen, yine de sana mesajı gönderdim."
+}
