@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the exam was difficult,",
+  "correct_completion": "most students still passed it.",
+  "full_sentence": "Although the exam was difficult, most students still passed it.",
+  "acceptable_variants": ["many students still passed with good marks.", "the class still did well overall."],
+  "options": [
+    {"text": "so every student failed it.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause. A result like 'so every student failed' does not contrast with the difficulty."},
+    {"text": "it was held in the morning.", "is_correct": false, "why_wrong": "This adds a detail about timing but does not complete the contrast started by 'although'."},
+    {"text": "most students still passed it.", "is_correct": true, "why_wrong": null},
+    {"text": "the room was very quiet.", "is_correct": false, "why_wrong": "This describes the setting but does not give the contrasting outcome expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a result that goes against the expectation created by the first part of the sentence.",
+  "translation": "Хоча іспит був складним, більшість студентів усе ж його склали."
+}
