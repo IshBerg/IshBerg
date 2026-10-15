@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was the manager who",
+  "correct_completion": "decided to close the store early.",
+  "full_sentence": "It was the manager who decided to close the store early.",
+  "acceptable_variants": ["made the final choice to close the store early.", "chose to close the store early."],
+  "options": [
+    {"text": "decided to close the store early.", "is_correct": true, "why_wrong": null},
+    {"text": "the store was closed early.", "is_correct": false, "why_wrong": "A cleft sentence with 'It was ... who' needs a person or thing that performs the action, not a passive sentence."},
+    {"text": "closing the store early was decided.", "is_correct": false, "why_wrong": "This passive form does not fit the 'It was ... who' pattern, which focuses on the doer of the action."},
+    {"text": "to close the store early.", "is_correct": false, "why_wrong": "The infinitive alone does not complete the verb needed after 'who', so the sentence is incomplete."}
+  ],
+  "correct_index": 0,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Cleft sentences with 'It was ... who'",
+  "connector": "who",
+  "explanation": "In an 'It was ... who' cleft sentence, the relative pronoun 'who' introduces a finite verb that tells us what the person did. Put the emphasis on the person by using an active verb after 'who'.",
+  "translation": "Fue el gerente quien decidió cerrar la tienda temprano."
+}
