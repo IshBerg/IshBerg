@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would be working in a better job now.",
+  "full_sentence": "If I had studied harder last year, I would be working in a better job now.",
+  "acceptable_variants": ["I would be earning more money today.", "I would have a better job now."],
+  "options": [
+    {"text": "I will work in a better job.", "is_correct": false, "why_wrong": "'Will' is used for real future possibilities. A mixed conditional with a past 'if' clause and a present result needs 'would'."},
+    {"text": "I worked in a better job last year.", "is_correct": false, "why_wrong": "This describes a past fact. It does not give the present result of an unreal past condition, which the stem requires."},
+    {"text": "I would be working in a better job now.", "is_correct": true, "why_wrong": null},
+    {"text": "I would have worked in a better job yesterday.", "is_correct": false, "why_wrong": "'Yesterday' conflicts with 'now' in the result clause. The mixed conditional links a past condition to a present result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past perfect in the if-clause with would plus base verb in the result clause",
+  "connector": "if",
+  "explanation": "After 'if' with a past perfect clause describing an unreal past, the result clause uses 'would' plus a base form with a time word for now. Learners often mix up the tenses in both clauses, so check that the result refers to the present.",
+  "translation": "Se eu tivesse estudado mais no ano passado, eu estaria trabalhando em um emprego melhor agora."
+}
