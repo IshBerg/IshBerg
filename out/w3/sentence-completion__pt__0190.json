@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before in the company's history",
+  "correct_completion": "had the board approved such a bold investment.",
+  "full_sentence": "Never before in the company's history had the board approved such a bold investment.",
+  "acceptable_variants": ["had the board been so willing to take risks.", "had such a bold investment been approved."],
+  "options": [
+    {"text": "the board approved such a bold investment.", "is_correct": false, "why_wrong": "After a negative adverb such as 'never before', English requires subject-auxiliary inversion, so 'had the board' is needed here."},
+    {"text": "had the board approved such a bold investment.", "is_correct": true, "why_wrong": null},
+    {"text": "the board has approved a bold investment.", "is_correct": false, "why_wrong": "The present perfect does not fit the 'never before' structure, which requires inverted past perfect in this position."},
+    {"text": "so the board will approve the investment.", "is_correct": false, "why_wrong": "This introduces a future result with 'so', which does not complete the fronted negative phrase."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after fronted negative adverbials",
+  "connector": "never before",
+  "explanation": "When a negative adverbial such as 'never before' opens the sentence, English places the auxiliary before the subject. The completion must therefore use inverted word order with the past perfect.",
+  "translation": "Nunca antes na história da empresa o conselho havia aprovado um investimento tão ousado."
+}
