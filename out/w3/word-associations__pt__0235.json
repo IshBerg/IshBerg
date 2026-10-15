@@ -1,0 +1,14 @@
+{
+  "trigger_word": "heart",
+  "all_words": [
+    {"word": "cardiac", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Cardíaco vem do mesmo radical grego 'kardia', que significa coração, por isso os dois termos são semanticamente ligados."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Deserto não tem relação com coração nem com sua origem etimológica, por isso não está associado à palavra 'heart'."},
+    {"word": "heartbeat", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Heartbeat' é uma colocação comum em inglês que combina 'heart' com 'beat', formando uma expressão natural."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "Chaleira não tem nenhuma ligação semântica, fonética ou etimológica com 'heart'."},
+    {"word": "hearth", "is_associated": true, "association_type": "PHONETIC", "explanation": "'Hearth' (lareira) soa muito parecido com 'heart' e compartilha a mesma raiz germânica, o que favorece a associação fonética."},
+    {"word": "courage", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Courage' vem do latim 'cor', que significa coração, e a palavra antiga ligava a coragem ao coração como sede dos sentimentos."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'heart' se associa a termos de mesma raiz etimológica, a expressões fixas em inglês e a palavras que soam parecido, enquanto os demais termos não têm ligação com ela."
+}
