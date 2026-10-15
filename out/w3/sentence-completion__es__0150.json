@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By next June, I will have",
+  "correct_completion": "finished my degree.",
+  "full_sentence": "By next June, I will have finished my degree.",
+  "acceptable_variants": ["completed my degree.", "graduated from university."],
+  "options": [
+    {"text": "finish my degree.", "is_correct": false, "why_wrong": "After 'will have', the verb must be in the past participle form, 'finished', not the base form."},
+    {"text": "went to the university yesterday.", "is_correct": false, "why_wrong": "This describes a finished past event with 'yesterday', which does not fit a future time expression."},
+    {"text": "finished my degree.", "is_correct": true, "why_wrong": null},
+    {"text": "will finish my degree.", "is_correct": false, "why_wrong": "'Will' cannot follow 'will have'. The sentence needs a past participle after 'have'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect with will have and a past participle",
+  "connector": "by next June",
+  "explanation": "The future perfect is formed with will have and a past participle. It describes an action that will already be complete before a specific future time. Learners should avoid repeating the modal verb or using the base form after the auxiliary.",
+  "translation": "Para junio del próximo año, habré terminado mi carrera."
+}
