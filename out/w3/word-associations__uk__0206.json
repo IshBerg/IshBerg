@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rocket",
+  "all_words": [
+    {"word": "launch", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово «launch» (запуск) часто поєднується з «rocket» у фразі «rocket launch» — запуск ракети."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "«Kitchen» (кухня) — місце для приготування їжі, яке не пов'язане з ракетами."},
+    {"word": "fuel", "is_associated": true, "association_type": "THEMATIC", "explanation": "«Fuel» (паливо) — ключова частина роботи ракети, без неї вона не полетить."},
+    {"word": "rabbit", "is_associated": false, "association_type": "NONE", "explanation": "«Rabbit» (кролик) — тварина, яка не має жодного зв'язку з космічними польотами."},
+    {"word": "astronaut", "is_associated": true, "association_type": "SEMANTIC", "explanation": "«Astronaut» (астронавт) — людина, яка летить на ракеті у космос."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "«Pencil» (олівець) — канцелярське приладдя, яке не стосується ракет."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово «rocket» (ракета) асоціюється із запуском, паливом і астронавтами, а кухня, кролик та олівець до нього не належать."
+}

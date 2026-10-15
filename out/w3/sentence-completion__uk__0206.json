@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had I known about the delay,",
+  "correct_completion": "I would have taken a taxi.",
+  "full_sentence": "Had I known about the delay, I would have taken a taxi.",
+  "acceptable_variants": ["I would have called a cab.", "I would have walked there instead."],
+  "options": [
+    {"text": "I took the bus anyway.", "is_correct": false, "why_wrong": "The inverted conditional 'Had I known' needs a result clause with 'would have' and a past participle. This simple past sentence does not complete that structure."},
+    {"text": "so I am taking a taxi now.", "is_correct": false, "why_wrong": "The present tense does not match the past conditional started by 'Had I known'."},
+    {"text": "I would have taken a taxi.", "is_correct": true, "why_wrong": null},
+    {"text": "the delay was very long.", "is_correct": false, "why_wrong": "This describes the delay but does not give the result of the condition, so the sentence stays incomplete."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and 'would have'",
+  "connector": "had I known",
+  "explanation": "The inverted form 'Had I known' replaces 'If I had known', so the second part must be a result clause with 'would have' and a past participle.",
+  "translation": "Якби я знав про затримку, я б узяв таксі."
+}

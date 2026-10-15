@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["L", "A", "P", "T", "O", "P", "X", "C", "M"],
+    ["K", "Z", "Y", "F", "H", "D", "Q", "A", "O"],
+    ["S", "W", "J", "G", "N", "V", "I", "B", "U"],
+    ["P", "C", "M", "T", "Y", "K", "D", "L", "S"],
+    ["Q", "X", "R", "H", "W", "G", "Z", "E", "E"],
+    ["T", "N", "U", "E", "I", "J", "F", "Y", "Q"],
+    ["A", "V", "P", "K", "E", "R", "M", "U", "D"],
+    ["C", "H", "L", "Q", "X", "N", "W", "J", "T"],
+    ["G", "F", "R", "O", "B", "O", "T", "S", "Y"]
+  ],
+  "words_to_find": ["LAPTOP", "MOUSE", "SCREEN", "ROBOT", "CABLE"],
+  "word_positions": [
+    {"word": "LAPTOP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MOUSE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SCREEN", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ROBOT", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "CABLE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Technology"
+}
