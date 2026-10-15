@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "gripe", "transliteration": "gripe", "meaning": "flu (influenza illness)"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend, to plan to do something"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch (a film or TV show)"}
+  ],
+  "english_words": ["to watch", "flu", "to intend", "bookshop"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Many words in Portuguese and English look alike because they share a Latin root, but over time their meanings drifted apart in each language. The resemblance in form does not guarantee the same meaning, so the student must check the meaning before assuming a match.",
+  "false_friend_warning": "Watch out for false friends: the Portuguese word livraria looks like English library but means bookshop, and pretender looks like English pretend but means to intend. Assistir looks like assist but means to watch, so always check the meaning before you trust a look-alike."
+}
