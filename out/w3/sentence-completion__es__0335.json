@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The old man was tired,",
+  "correct_completion": "but he kept reading his favourite story.",
+  "full_sentence": "The old man was tired, but he kept reading his favourite story.",
+  "acceptable_variants": ["but he still smiled at the children.", "but he did not want to stop."],
+  "options": [
+    {"text": "so he went to bed early.", "is_correct": false, "why_wrong": "'So' shows a result, but the stem is followed by a contrast, so 'but' is needed here."},
+    {"text": "and he was happy to sleep.", "is_correct": false, "why_wrong": "This adds a second feeling but does not express the contrast that 'but' introduces after 'tired'."},
+    {"text": "but he kept reading his favourite story.", "is_correct": true, "why_wrong": null},
+    {"text": "because he was hungry for dinner.", "is_correct": false, "why_wrong": "'Because' gives a cause, but the stem is built around contrast with 'but', so this does not fit."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Coordinating conjunction 'but' to show contrast",
+  "connector": "but",
+  "explanation": "The conjunction 'but' links two ideas that contrast. Here the first clause says he was tired, so the second clause must show what he did anyway. Spanish speakers may want to use a different connector here, because Spanish often expresses this contrast with a different structure that does not map directly onto English.",
+  "translation": "El anciano estaba cansado, pero siguió leyendo su cuento favorito."
+}
