@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What surprised me most about the film",
+  "correct_completion": "was how quickly the story moved.",
+  "full_sentence": "What surprised me most about the film was how quickly the story moved.",
+  "acceptable_variants": ["was how fast the plot developed.", "was how quickly the story unfolded."],
+  "options": [
+    {"text": "the story moved quickly.", "is_correct": false, "why_wrong": "A wh-cleft needs a linking verb such as 'was' before the focus. Without it, the sentence is ungrammatical."},
+    {"text": "was how quickly the story moved.", "is_correct": true, "why_wrong": null},
+    {"text": "that the story moved quickly.", "is_correct": false, "why_wrong": "'That' cannot introduce the focus of a wh-cleft. 'That' belongs in an it-cleft, which needs 'it was'."},
+    {"text": "it was how quickly the story moved.", "is_correct": false, "why_wrong": "This mixes a wh-cleft with an it-cleft. The structure is redundant and ungrammatical."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Wh-cleft sentences with 'what' and a linking verb",
+  "connector": "what",
+  "explanation": "A wh-cleft places the focus after a linking verb, so the completion must begin with 'was' followed by the focus phrase. Polish speakers may omit the linking verb or add 'that', because Polish relative structures are arranged differently, so the was-plus-focus pattern needs deliberate practice.",
+  "translation": "Najbardziej zaskoczyło mnie w tym filmie to, jak szybko rozwijała się fabuła."
+}

@@ -1,0 +1,17 @@
+{
+  "central_word": "good",
+  "chain_words": [
+    {"word": "fine", "intensity": 1, "translation": "w porządku", "nuance": "acceptable, without any special quality"},
+    {"word": "good", "intensity": 2, "translation": "dobry", "nuance": "general positive judgement"},
+    {"word": "great", "intensity": 3, "translation": "świetny", "nuance": "clearly above average"},
+    {"word": "excellent", "intensity": 4, "translation": "doskonały", "nuance": "very high quality"},
+    {"word": "outstanding", "intensity": 5, "translation": "wybitny", "nuance": "exceptionally better than others"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express a positive judgement but with different strengths, from merely acceptable to exceptionally impressive.",
+  "usage_notes": [
+    {"word1": "good", "word2": "excellent", "difference": "'Good' is a general positive judgement; 'excellent' is stronger and suggests a very high standard."}
+  ],
+  "translations": {"fine": "w porządku", "good": "dobry", "great": "świetny", "excellent": "doskonały", "outstanding": "wybitny"}
+}

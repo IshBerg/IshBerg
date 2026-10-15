@@ -1,0 +1,14 @@
+{
+  "trigger_word": "memory",
+  "all_words": [
+    {"word": "brain", "is_associated": true, "association_type": "THEMATIC", "explanation": "Pamięć jest funkcją mózgu, dlatego słowo brain jest z nią ściśle związane tematycznie."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "Marchew nie ma żadnego związku z pamięcią."},
+    {"word": "forgetting", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Zapominanie jest przeciwieństwem pamięci, więc znaczeniowo jest z nią powiązane."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie jest związany z pamięcią."},
+    {"word": "recall", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Przypominanie sobie to znaczenie bliskie pamięci, więc słowo recall jest z nią semantycznie powiązane."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Stół nie ma związku z pamięcią."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z pamięcią dotyczą mózgu, przypominania sobie i zapominania, a pozostałe słowa należą do zupełnie innych dziedzin życia."
+}
