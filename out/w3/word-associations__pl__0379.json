@@ -1,0 +1,14 @@
+{
+  "trigger_word": "evidence",
+  "all_words": [
+    {"word": "proof", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Słowo 'proof' ma podobne znaczenie do 'evidence' i oznacza dowód, na którym opiera się argument."},
+    {"word": "witness", "is_associated": true, "association_type": "THEMATIC", "explanation": "Świadek jest typowym źródłem dowodów w sporach i procesach, więc należy do tego samego tematu."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banan nie ma żadnego związku z dowodami ani argumentacją."},
+    {"word": "examine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'examine' łączy się w angielskim z rzeczownikiem 'evidence' w wyrażeniu 'examine the evidence', czyli 'zbadać dowody'."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Żyrafa nie ma żadnego związku z dowodami i argumentacją."},
+    {"word": "sunrise", "is_associated": false, "association_type": "NONE", "explanation": "Wschód słońca nie ma związku z dowodami, więc nie należy do tego pola skojarzeń."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Dowody w argumentacji to dowody rzeczowe, świadectwa i wyrażenia, które opisują ich badanie; słowa niezwiązane z prawem i argumentacją nie pasują do tego pola."
+}
