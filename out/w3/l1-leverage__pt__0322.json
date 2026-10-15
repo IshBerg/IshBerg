@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "eventual", "transliteration": "eventual", "meaning": "occasional, possible"},
+    {"word": "legenda", "transliteration": "legenda", "meaning": "caption, subtitle"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"},
+    {"word": "decepção", "transliteration": "decepcao", "meaning": "disappointment"}
+  ],
+  "english_words": ["disappointment", "bookshop", "occasional", "caption"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words share Latin or European roots with their English look-alikes, so the spelling stayed close, but the meanings moved apart over time. Each English look-alike now carries a sense that differs from the one a Portuguese speaker expects, which makes the trap easy to fall into when reading academic articles.",
+  "false_friend_warning": "Warning: the Portuguese word 'eventual' looks like the English word 'eventual', but it means 'occasional' or 'possible', not 'final' or 'ultimate'. Learners often write 'the eventual results of the study' when they mean 'the final results of the study'."
+}
