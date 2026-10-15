@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Due to the rapid growth of the population,",
+  "correct_completion": "the city had to expand its public transport system.",
+  "full_sentence": "Due to the rapid growth of the population, the city had to expand its public transport system.",
+  "acceptable_variants": ["the government funded new bus routes.", "more housing was built on the outskirts."],
+  "options": [
+    {"text": "the city stayed the same size for decades.", "is_correct": false, "why_wrong": "This describes no change, which does not follow as a result of rapid growth."},
+    {"text": "although the streets were already crowded.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, but the stem needs a cause-and-effect result."},
+    {"text": "the city had to expand its public transport system.", "is_correct": true, "why_wrong": null},
+    {"text": "so the census was postponed.", "is_correct": false, "why_wrong": "A postponed census is not a logical result of population growth in this context."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'due to' and a noun phrase",
+  "connector": "due to",
+  "explanation": "'Due to' is followed by a noun phrase, and the comma then introduces the result clause. Learners often choose a contrast connector here, but the stem signals a cause and effect relation.",
+  "translation": "Debido al rápido crecimiento de la población, la ciudad tuvo que ampliar su sistema de transporte público."
+}
