@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having exhausted every avenue of appeal,",
+  "correct_completion": "the lawyer finally accepted that the verdict could not be overturned.",
+  "full_sentence": "Having exhausted every avenue of appeal, the lawyer finally accepted that the verdict could not be overturned.",
+  "acceptable_variants": ["the lawyer conceded that no further remedy remained.", "the lawyer reluctantly abandoned the case."],
+  "options": [
+    {"text": "the court was persuaded to reopen the case.", "is_correct": false, "why_wrong": "This introduces a new development, while the stem presents all options as already used up. Reopening contradicts the sense of a final outcome."},
+    {"text": "the lawyer finally accepted that the verdict could not be overturned.", "is_correct": true, "why_wrong": null},
+    {"text": "so the verdict was overturned on appeal.", "is_correct": false, "why_wrong": "'So' signals a result, but the stem says every appeal was already exhausted, so an overturned verdict is impossible here."},
+    {"text": "had the appeal been filed a week earlier.", "is_correct": false, "why_wrong": "This is a conditional clause that needs a main clause to follow it. It does not complete the sentence the participle phrase sets up."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clause expressing a completed action, followed by a main clause with a logical conclusion",
+  "connector": "having exhausted",
+  "explanation": "The participle phrase presents a completed situation, so the main clause must state the logical conclusion that follows from it. Only the option describing acceptance of a final verdict fits this logic.",
+  "translation": "Wyczerpawszy wszystkie możliwości odwołania, adwokat w końcu uznał, że wyroku nie da się podważyć."
+}

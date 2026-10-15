@@ -1,0 +1,13 @@
+{
+  "start_word": "whisper",
+  "end_word": "shout",
+  "ladder_steps": [
+    {"word": "whisper", "translation": "szeptać", "intensity_level": 1},
+    {"word": "murmur", "translation": "mruczeć", "intensity_level": 2},
+    {"word": "speak", "translation": "mówić", "intensity_level": 3},
+    {"word": "call", "translation": "wołać", "intensity_level": 4},
+    {"word": "shout", "translation": "krzyczeć", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Verbs for speaking form a ladder along the dimension of volume, from the quietest whisper to the loudest shout, each step louder than the one before."
+}
