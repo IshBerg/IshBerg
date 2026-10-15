@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she was nervous during the interview,",
+  "correct_completion": "she answered every question clearly.",
+  "full_sentence": "Although she was nervous during the interview, she answered every question clearly.",
+  "acceptable_variants": ["she still answered every question well.", "she managed to speak confidently."],
+  "options": [
+    {"text": "so she cancelled the interview.", "is_correct": false, "why_wrong": "'So' introduces a result that follows naturally. The sentence needs a contrasting clause after 'although', not a result."},
+    {"text": "she had already read the job description.", "is_correct": false, "why_wrong": "This gives background information but does not contrast with being nervous."},
+    {"text": "she answered every question clearly.", "is_correct": true, "why_wrong": null},
+    {"text": "she was nervous again.", "is_correct": false, "why_wrong": "This repeats the idea of nervousness, so it does not create a contrast with the first clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Learners often add 'so' because they link ideas by cause, but 'although' signals an unexpected result.",
+  "translation": "Aunque estaba nerviosa durante la entrevista, respondió claramente a todas las preguntas."
+}
