@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The train is cheaper than the plane, but",
+  "correct_completion": "it takes much longer.",
+  "full_sentence": "The train is cheaper than the plane, but it takes much longer.",
+  "acceptable_variants": ["it takes a lot more time.", "the journey is much slower."],
+  "options": [
+    {"text": "so it is the fastest choice.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem's 'but' signals a contrast with 'cheaper'. The completion must describe a drawback."},
+    {"text": "it is the most comfortable.", "is_correct": false, "why_wrong": "This is a positive quality, but after 'cheaper' and 'but' the completion needs a drawback that contrasts with the low price."},
+    {"text": "it takes much longer.", "is_correct": true, "why_wrong": null},
+    {"text": "it is more expensive than the bus.", "is_correct": false, "why_wrong": "This repeats the cost idea and does not contrast with 'cheaper'. The completion must show a different kind of drawback."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Comparative adjectives with the contrast connector 'but'",
+  "connector": "but",
+  "explanation": "The connector 'but' signals contrast. After the comparative 'cheaper', the completion must give a drawback, so the comparative 'longer' fits the contrast.",
+  "translation": "O trem é mais barato do que o avião, mas leva muito mais tempo."
+}
