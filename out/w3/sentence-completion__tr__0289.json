@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "This is my bag and that is",
+  "correct_completion": "your bag.",
+  "full_sentence": "This is my bag and that is your bag.",
+  "acceptable_variants": ["Mary's bag.", "the red bag."],
+  "options": [
+    {"text": "is my bag.", "is_correct": false, "why_wrong": "'That is' must be followed by a noun phrase, not by 'is' again."},
+    {"text": "in the house.", "is_correct": false, "why_wrong": "This describes a place, but the sentence needs a thing that matches 'my bag'."},
+    {"text": "your bag.", "is_correct": true, "why_wrong": null},
+    {"text": "she is here.", "is_correct": false, "why_wrong": "'That' refers to a thing, so the completion needs a thing, not a person."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative pronouns 'this' and 'that'",
+  "connector": "and",
+  "explanation": "'This' points to something near the speaker, and 'that' points to something farther away or to someone else's thing. Use 'your' to show whose bag the second one is.",
+  "translation": "Bu benim çantam ve şu da senin çantan."
+}
