@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "examen", "transliteration": "examen", "meaning": "exam"},
+    {"word": "evaluación", "transliteration": "evaluación", "meaning": "evaluation"},
+    {"word": "información", "transliteration": "información", "meaning": "information"},
+    {"word": "concentración", "transliteration": "concentración", "meaning": "concentration"}
+  ],
+  "english_words": ["information", "concentration", "exam", "evaluation"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages took these words from Latin, and the endings sound very similar in each language, so the forms stayed close.",
+  "false_friend_warning": null
+}

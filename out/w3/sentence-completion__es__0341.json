@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you come to my birthday party on Saturday,",
+  "correct_completion": "we can eat cake and play games together.",
+  "full_sentence": "If you come to my birthday party on Saturday, we can eat cake and play games together.",
+  "acceptable_variants": ["we will have a lot of fun.", "I will give you a present."],
+  "options": [
+    {"text": "I went to the store yesterday.", "is_correct": false, "why_wrong": "This is a past fact that does not follow from the condition. After 'if', the result must be about what will happen."},
+    {"text": "the party was on Sunday.", "is_correct": false, "why_wrong": "This gives a wrong day and does not complete the result of the condition."},
+    {"text": "we can eat cake and play games together.", "is_correct": true, "why_wrong": null},
+    {"text": "you are a very tall person.", "is_correct": false, "why_wrong": "This describes you, but it does not say what happens at the party."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if', we need a result clause that says what happens when the condition is true. For invitations, use a simple present or future verb to describe the plan.",
+  "translation": "Si vienes a mi fiesta de cumpleaños el sábado, podemos comer pastel y jugar juegos juntos."
+}
