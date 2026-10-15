@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "moon", "is_associated": true, "association_type": "THEMATIC", "explanation": "La luna también aparece en el cielo, junto al sol."},
+    {"word": "son", "is_associated": true, "association_type": "PHONETIC", "explanation": "Suena igual que 'sun' (sol), por eso es una asociación fonética."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Una silla no tiene ninguna relación con el sol."},
+    {"word": "sky", "is_associated": true, "association_type": "THEMATIC", "explanation": "El sol está en el cielo durante el día."},
+    {"word": "dog", "is_associated": false, "association_type": "NONE", "explanation": "Un perro no tiene relación con el sol."},
+    {"word": "hot", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés decimos 'hot sun' (sol caliente)."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'sun' se asocia con cosas del cielo, con palabras de sonido parecido y con expresiones comunes."
+}
