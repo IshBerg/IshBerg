@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "This is my book.",
+  "correct_completion": "That is your book.",
+  "full_sentence": "This is my book. That is your book.",
+  "acceptable_variants": ["That is your pen.", "That is your bag."],
+  "options": [
+    {"text": "That is your book.", "is_correct": true, "why_wrong": null},
+    {"text": "This is your book.", "is_correct": false, "why_wrong": "'This' points to something near the speaker, so using it for the listener's book is incorrect; 'that' points to something farther away or belonging to someone else."},
+    {"text": "These are your books.", "is_correct": false, "why_wrong": "'These' is plural, but the stem talks about one book, so the plural form does not match."},
+    {"text": "Those is your book.", "is_correct": false, "why_wrong": "'Those' is plural and must be followed by 'are', so 'Those is' is grammatically wrong."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Demonstrative pronouns 'this' and 'that'",
+  "connector": "that",
+  "explanation": "English uses 'this' for something near the speaker and 'that' for something farther away or belonging to someone else. Portuguese speakers may use the same word for both cases, so it helps to remember the distance rule.",
+  "translation": "Este é o meu livro. Aquele é o seu livro."
+}
