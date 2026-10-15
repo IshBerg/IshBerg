@@ -1,0 +1,20 @@
+{
+  "title": "My Town",
+  "text": "My town is small. There is a big park near my house. Every Sunday, I walk in the park with my dog. There is also a library next to the park.\n\nIn the centre of town, there is a market. My mother buys fruit and vegetables there. The market is open every day. There is a bakery across the street, too.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is near my house?", "options": ["A big park", "A school", "A hospital", "A shop"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where does my mother buy fruit and vegetables?", "options": ["At the bakery", "At the market", "At the library", "At the park"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer probably feel about the park?", "options": ["She enjoys going there", "She does not like it", "She has never been there", "She is afraid of it"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of town is it most likely?", "options": ["A quiet, small town with friendly places", "A very large city with no parks", "A town with no shops at all", "A town far away from the sea"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "park", "translation": "parque", "definition": "an outdoor area with grass and trees where people can walk"},
+    {"word": "library", "translation": "biblioteca", "definition": "a place where people can borrow books"},
+    {"word": "market", "translation": "mercado", "definition": "a place where people buy food and other goods, often outdoors"},
+    {"word": "bakery", "translation": "padaria", "definition": "a shop that sells bread and cakes"}
+  ],
+  "paragraph_translations": [
+    "Minha cidade é pequena. Há um parque grande perto da minha casa. Todo domingo, eu caminho no parque com o meu cachorro. Há também uma biblioteca ao lado do parque.",
+    "No centro da cidade, há um mercado. Minha mãe compra frutas e verduras lá. O mercado está aberto todos os dias. Há também uma padaria do outro lado da rua."
+  ]
+}

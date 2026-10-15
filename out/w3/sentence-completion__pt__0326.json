@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The museum, which is in the old centre,",
+  "correct_completion": "is closed on Mondays.",
+  "full_sentence": "The museum, which is in the old centre, is closed on Mondays.",
+  "acceptable_variants": ["is always busy on weekends.", "opens at nine every morning."],
+  "options": [
+    {"text": "that is closed on Mondays.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining clause after a comma; only 'which' or 'who' can be used here."},
+    {"text": "is closed on Mondays.", "is_correct": true, "why_wrong": null},
+    {"text": "who are always very busy.", "is_correct": false, "why_wrong": "'Who' refers to people, but the antecedent here is a museum, which is a thing."},
+    {"text": "which I visited last week.", "is_correct": false, "why_wrong": "This adds a second relative clause with no main verb, so the sentence has no complete predicate after the comma."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'which' set off by commas",
+  "connector": "which",
+  "explanation": "A non-defining clause adds extra information about a noun that is already identified, so it must be set off by commas and the main verb must follow the clause. Speakers who are used to defining clauses often attach a second relative pronoun or drop the comma, which breaks the structure.",
+  "translation": "O museu, que fica no centro antigo, fecha às segundas-feiras."
+}

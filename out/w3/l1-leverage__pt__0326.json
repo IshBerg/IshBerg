@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch"},
+    {"word": "eventual", "transliteration": "eventual", "meaning": "occasional"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"}
+  ],
+  "english_words": ["occasional", "bookshop", "watch", "intend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Portuguese words and their English look-alikes come from the same Latin roots, so the spelling stayed close, but the meanings developed differently in each language.",
+  "false_friend_warning": "The Portuguese word pretender looks like the English word pretend, but it means to intend; in English, pretend means to act as if something is true when it is not."
+}
