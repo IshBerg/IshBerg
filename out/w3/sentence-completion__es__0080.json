@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There isn't much milk in the fridge, so",
+  "correct_completion": "we need to buy some more.",
+  "full_sentence": "There isn't much milk in the fridge, so we need to buy some more.",
+  "acceptable_variants": ["we should go to the shop.", "we must buy more soon."],
+  "options": [
+    {"text": "the milk is very cold.", "is_correct": false, "why_wrong": "This describes the milk, but it does not give a result of there being little milk."},
+    {"text": "we have many eggs for breakfast.", "is_correct": false, "why_wrong": "This is unrelated to the shortage of milk, so it does not complete the cause and effect."},
+    {"text": "we need to buy some more.", "is_correct": true, "why_wrong": null},
+    {"text": "we have three bottles of juice.", "is_correct": false, "why_wrong": "Juice is not milk, and this does not explain what happens because the milk is low."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' and uncountable nouns such as 'milk'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the situation in the first part. Uncountable nouns such as milk have no plural form and take a singular verb.",
+  "translation": "No hay mucha leche en la nevera, así que necesitamos comprar más."
+}
