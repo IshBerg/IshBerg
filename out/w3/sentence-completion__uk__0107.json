@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While she was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While she was cooking dinner, the phone rang.",
+  "acceptable_variants": ["the doorbell rang.", "someone knocked on the door."],
+  "options": [
+    {"text": "she cooks dinner every night.", "is_correct": false, "why_wrong": "This uses the present simple for a habit. The stem needs a past continuous action that was in progress, so the sentence does not fit the past time frame."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "she has cooked dinner already.", "is_correct": false, "why_wrong": "The present perfect describes a completed action linked to now. It does not form the interrupted past action that 'while' introduces."},
+    {"text": "the phone will ring tomorrow.", "is_correct": false, "why_wrong": "The future tense refers to a time after now. It cannot interrupt an action that was in progress in the past."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous interrupted by a past simple action",
+  "connector": "while",
+  "explanation": "After 'while' with the past continuous, the second clause usually describes a shorter past action that interrupts the longer one. Use the past simple for the interrupting event.",
+  "translation": "Поки вона готувала вечерю, задзвонив телефон."
+}
