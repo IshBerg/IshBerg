@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "El paraguas es un objeto que usamos cuando llueve, por eso está relacionado con 'rain'."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "El lápiz no tiene ninguna relación con la lluvia ni con el clima."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Las nubes son el origen de la lluvia, por lo que su significado está muy relacionado con 'rain'."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña es un accidente geográfico y no está directamente ligada a la lluvia."},
+    {"word": "reign", "is_associated": true, "association_type": "PHONETIC", "explanation": "'Reign' suena igual que 'rain' en inglés, por eso es una asociación fonética, aunque su significado es diferente."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "La cuchara es un utensilio de cocina y no tiene relación con la lluvia."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'rain' se relacionan por significado (nube, paraguas) o por sonido (reign), mientras que los demás objetos no tienen ninguna conexión con la lluvia."
+}

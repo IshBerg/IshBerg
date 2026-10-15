@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the train was delayed,",
+  "correct_completion": "we missed the first half of the meeting.",
+  "full_sentence": "Because the train was delayed, we missed the first half of the meeting.",
+  "acceptable_variants": ["we arrived late to the meeting.", "we had to wait at the station."],
+  "options": [
+    {"text": "we ordered a coffee while we waited.", "is_correct": false, "why_wrong": "This describes an action, but it does not show the result of the delay that 'because' requires."},
+    {"text": "we missed the first half of the meeting.", "is_correct": true, "why_wrong": null},
+    {"text": "so we took the train yesterday.", "is_correct": false, "why_wrong": "This refers to a different time and does not explain a result of the delay."},
+    {"text": "we were happy with the seats.", "is_correct": false, "why_wrong": "This is a feeling about the seats and is not a logical result of the train being delayed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the sentence needs a main clause that shows the result of the cause given in the first part. Spanish learners sometimes forget that English needs a full result clause after this connector.",
+  "translation": "Como el tren se retrasó, perdimos la primera mitad de la reunión."
+}
