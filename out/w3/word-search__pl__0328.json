@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["N", "E", "W", "S", "E", "K", "S"],
+    ["Q", "Z", "M", "B", "D", "J", "T"],
+    ["L", "V", "F", "G", "I", "U", "O"],
+    ["H", "W", "A", "N", "T", "P", "R"],
+    ["B", "K", "C", "M", "O", "Z", "Y"],
+    ["D", "G", "T", "V", "R", "Q", "X"],
+    ["R", "E", "P", "O", "R", "T", "L"]
+  ],
+  "words_to_find": ["NEWS", "STORY", "REPORT", "FACT", "EDITOR"],
+  "word_positions": [
+    {"word": "NEWS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STORY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "REPORT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FACT", "start_row": 2, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "EDITOR", "start_row": 0, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Reporting News"
+}
