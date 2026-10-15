@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the traffic,",
+  "correct_completion": "I would have left home earlier.",
+  "full_sentence": "If I had known about the traffic, I would have left home earlier.",
+  "acceptable_variants": ["I would have taken the train instead.", "I could have avoided the delay."],
+  "options": [
+    {"text": "I will leave home earlier tomorrow.", "is_correct": false, "why_wrong": "'Will' refers to the future, but the stem sets up a hypothetical past situation that did not happen, which needs a past modal form."},
+    {"text": "I left home at seven o'clock.", "is_correct": false, "why_wrong": "This is a simple statement of a past fact; it does not complete the conditional, which needs 'would have' plus a past participle."},
+    {"text": "I would have left home earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "I must leave home earlier every day.", "is_correct": false, "why_wrong": "'Must' expresses present obligation, which does not match the hypothetical past situation introduced by 'if I had known'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with a modal perfect (would have + past participle)",
+  "connector": "if",
+  "explanation": "After 'if I had known', the result clause must describe what would have happened in the past, so 'would have' plus a past participle is required. Learners may find this hard because some languages express the same idea with a single conditional marker and no separate perfect modal form.",
+  "translation": "Trafiği bilseydim, evden daha erken çıkardım."
+}

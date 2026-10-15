@@ -1,0 +1,13 @@
+{
+  "start_word": "trivial",
+  "end_word": "monumental",
+  "ladder_steps": [
+    {"word": "trivial", "translation": "önemsiz", "intensity_level": 1},
+    {"word": "minor", "translation": "küçük çaplı", "intensity_level": 2},
+    {"word": "notable", "translation": "dikkate değer", "intensity_level": 3},
+    {"word": "significant", "translation": "önemli", "intensity_level": 4},
+    {"word": "monumental", "translation": "abidevi", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words form a ladder along one dimension, importance or magnitude, from negligible matters at the start to exceptionally large ones at the end, each step carrying more weight than the last."
+}
