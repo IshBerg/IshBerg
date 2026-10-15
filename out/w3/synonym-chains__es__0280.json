@@ -1,0 +1,17 @@
+{
+  "central_word": "certain",
+  "chain_words": [
+    {"word": "possible", "intensity": 1, "translation": "posible", "nuance": "could be true, but there is little evidence for it"},
+    {"word": "plausible", "intensity": 2, "translation": "plausible", "nuance": "reasonable and believable, though not yet proven"},
+    {"word": "likely", "intensity": 3, "translation": "probable", "nuance": "more probably true than not"},
+    {"word": "sure", "intensity": 4, "translation": "seguro", "nuance": "confident that something is true"},
+    {"word": "certain", "intensity": 5, "translation": "cierto", "nuance": "completely confident with no doubt"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express different degrees of confidence about whether something is true, from a weak possibility to complete certainty.",
+  "usage_notes": [
+    {"word1": "sure", "word2": "certain", "difference": "'Sure' is more informal and is common in speech; 'certain' is more formal and can be followed by 'of' or 'that'."}
+  ],
+  "translations": {"possible": "posible", "plausible": "plausible", "likely": "probable", "sure": "seguro", "certain": "cierto"}
+}

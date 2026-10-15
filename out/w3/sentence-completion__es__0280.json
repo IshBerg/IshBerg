@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The sharp decline in unemployment",
+  "correct_completion": "reflects the success of the new policy.",
+  "full_sentence": "The sharp decline in unemployment reflects the success of the new policy.",
+  "acceptable_variants": ["indicates the success of the new policy.", "suggests that the new policy has worked."],
+  "options": [
+    {"text": "the government announced a new policy.", "is_correct": false, "why_wrong": "This describes a separate action, but the stem needs a verb whose subject is the decline in unemployment."},
+    {"text": "because the policy was successful.", "is_correct": false, "why_wrong": "A 'because' clause cannot serve as the main verb phrase of the sentence, so the grammar is incomplete."},
+    {"text": "reflects the success of the new policy.", "is_correct": true, "why_wrong": null},
+    {"text": "which will be measured next year.", "is_correct": false, "why_wrong": "The future reference does not fit the present analytical claim, and it changes the logical link between the decline and the evidence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Nominal subjects in academic style",
+  "connector": "reflects",
+  "explanation": "Academic English often places a long noun phrase, formed from a nominalization such as 'decline', at the start of the sentence. The verb must agree with that noun phrase and state what the noun phrase shows. Spanish speakers may add a clause starter here because Spanish often allows more flexible subject placement.",
+  "translation": "El fuerte descenso del desempleo refleja el éxito de la nueva política."
+}
