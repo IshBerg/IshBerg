@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["A", "U", "D", "I", "T", "Q", "W", "V", "L"],
+    ["R", "O", "K", "P", "Y", "J", "F", "N", "E"],
+    ["C", "H", "M", "Z", "X", "B", "K", "Q", "D"],
+    ["W", "L", "P", "T", "V", "R", "J", "S", "G"],
+    ["M", "Y", "A", "N", "K", "F", "Z", "H", "E"],
+    ["B", "X", "Q", "U", "M", "W", "T", "C", "R"],
+    ["F", "K", "Z", "J", "S", "P", "V", "L", "Q"],
+    ["Y", "N", "W", "Z", "H", "E", "K", "G", "X"],
+    ["P", "V", "J", "G", "B", "O", "N", "D", "K"]
+  ],
+  "words_to_find": ["AUDIT", "LEDGER", "CLAUSE", "BOND"],
+  "word_positions": [
+    {"word": "AUDIT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEDGER", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CLAUSE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BOND", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Domain-Specific Jargon Mastery"
+}
