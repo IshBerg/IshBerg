@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the lecture was highly technical,",
+  "correct_completion": "the students followed it with great interest.",
+  "full_sentence": "Although the lecture was highly technical, the students followed it with great interest.",
+  "acceptable_variants": ["the students still took careful notes.", "the audience kept listening until the end."],
+  "options": [
+    {"text": "the students left the room early.", "is_correct": false, "why_wrong": "This describes a negative outcome, but it does not show the contrast that 'although' requires with the difficulty of the lecture."},
+    {"text": "it was delivered in the morning.", "is_correct": false, "why_wrong": "This gives timing information only. It does not form a contrasting clause with the first part of the sentence."},
+    {"text": "the students followed it with great interest.", "is_correct": true, "why_wrong": null},
+    {"text": "the lecturer had prepared many slides.", "is_correct": false, "why_wrong": "This adds a detail about preparation, not the contrasting reaction that the connector expects."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in formal register",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a result that contrasts with the difficulty described in the first clause. Formal and academic registers often use this structure to express a surprising positive outcome.",
+  "translation": "Konferans oldukça teknik olmasına rağmen, öğrenciler onu büyük bir ilgiyle takip etti."
+}
