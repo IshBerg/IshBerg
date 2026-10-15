@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El paraguas se usa para protegerse de la lluvia, por eso las dos palabras están directamente relacionadas."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "El desierto se caracteriza por la falta de lluvia, así que no tiene una relación de uso ni de significado con la palabra 'rain'."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Las nubes son la fuente de la lluvia, por lo que existe un vínculo de significado claro."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "El lápiz pertenece al campo de la escritura y no tiene relación con la lluvia."},
+    {"word": "puddle", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los charcos aparecen después de la lluvia, por eso comparten el mismo tema."},
+    {"word": "storm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Una tormenta suele traer lluvia intensa, así que las dos palabras se relacionan por significado."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'rain' se relacionan con la lluvia por su significado o por el tema común, mientras que las palabras no asociadas pertenecen a contextos sin relación con ella."
+}
