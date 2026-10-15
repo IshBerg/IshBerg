@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I saw Tom yesterday, and",
+  "correct_completion": "I talked to him for an hour.",
+  "full_sentence": "I saw Tom yesterday, and I talked to him for an hour.",
+  "acceptable_variants": ["I spoke to him for an hour.", "I spent an hour talking with him."],
+  "options": [
+    {"text": "I talked to he for an hour.", "is_correct": false, "why_wrong": "'He' is a subject pronoun. After the preposition 'to', English needs the object pronoun 'him'."},
+    {"text": "I talked to his for an hour.", "is_correct": false, "why_wrong": "'His' is a possessive word that needs a noun after it. After 'to', English needs the object pronoun 'him'."},
+    {"text": "I talked to him for an hour.", "is_correct": true, "why_wrong": null},
+    {"text": "I talked to himself for an hour.", "is_correct": false, "why_wrong": "'Himself' is a reflexive pronoun, used when the speaker and the object are the same person. Here 'him' refers to Tom, a different person."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Object pronouns after prepositions",
+  "connector": "and",
+  "explanation": "After a preposition such as 'to', English uses an object pronoun. Turkish uses one third person pronoun for he, she and it, so learners may not notice the difference between the subject form and the object form in English.",
+  "translation": "Dün Tom'u gördüm ve onunla bir saat konuştum."
+}
