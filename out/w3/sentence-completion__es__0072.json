@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday we played football in the park, so",
+  "correct_completion": "we were very tired in the evening.",
+  "full_sentence": "Yesterday we played football in the park, so we were very tired in the evening.",
+  "acceptable_variants": ["we went to bed early.", "we felt happy and relaxed."],
+  "options": [
+    {"text": "we watched a film together.", "is_correct": false, "why_wrong": "Watching a film is not a logical result of playing football, so it does not complete the cause-effect link that 'so' introduces."},
+    {"text": "we played football yesterday.", "is_correct": false, "why_wrong": "This repeats the cause from the first part of the sentence. 'So' needs a result, not the same event."},
+    {"text": "we were very tired in the evening.", "is_correct": true, "why_wrong": null},
+    {"text": "we ate dinner at a restaurant.", "is_correct": false, "why_wrong": "This is a new event that does not follow from playing football, so it breaks the cause-effect logic."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple with 'so' to show a result",
+  "connector": "so",
+  "explanation": "'So' introduces a result of the first clause. After 'so', we need a past simple clause that describes what happened as a consequence of playing football.",
+  "translation": "Ayer jugamos al fútbol en el parque, así que por la tarde estábamos muy cansados."
+}
