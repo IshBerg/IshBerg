@@ -1,0 +1,17 @@
+{
+  "central_word": "scared",
+  "chain_words": [
+    {"word": "nervous", "intensity": 1, "translation": "нервовий", "nuance": "slightly worried about something that may happen"},
+    {"word": "scared", "intensity": 2, "translation": "наляканий", "nuance": "afraid of something right now"},
+    {"word": "frightened", "intensity": 3, "translation": "переляканий", "nuance": "suddenly afraid, often by a sound or event"},
+    {"word": "terrified", "intensity": 4, "translation": "жахнутий", "nuance": "very afraid, with strong fear"},
+    {"word": "petrified", "intensity": 5, "translation": "скам'янілий від страху", "nuance": "so afraid that you cannot move"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express fear, but with different intensities, from slight worry to being too afraid to move.",
+  "usage_notes": [
+    {"word1": "nervous", "word2": "scared", "difference": "'Nervous' describes worry about a future event; 'scared' describes fear of something happening now or nearby."}
+  ],
+  "translations": {"nervous": "нервовий", "scared": "наляканий", "frightened": "переляканий", "terrified": "жахнутий", "petrified": "скам'янілий від страху"}
+}

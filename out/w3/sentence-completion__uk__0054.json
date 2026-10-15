@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother has an old bike, so",
+  "correct_completion": "he rides it to school every day.",
+  "full_sentence": "My brother has an old bike, so he rides it to school every day.",
+  "acceptable_variants": ["he uses it to get to work.", "he takes it to the park."],
+  "options": [
+    {"text": "he has a new pen.", "is_correct": false, "why_wrong": "This is unrelated information. 'So' needs a result that follows from owning the bike."},
+    {"text": "he rides it to school every day.", "is_correct": true, "why_wrong": null},
+    {"text": "he never uses it.", "is_correct": false, "why_wrong": "This contradicts the usual result of owning a bike and does not follow from 'so'."},
+    {"text": "he is an excellent swimmer.", "is_correct": false, "why_wrong": "This describes a skill that has no link to owning a bike."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' and the article 'an' before a vowel sound",
+  "connector": "so",
+  "explanation": "After 'so', the clause must show a result of owning the bike. The article 'an' appears before 'old' because the next word begins with a vowel sound, not because of its spelling.",
+  "translation": "У мого брата є старий велосипед, тому він їздить на ньому до школи щодня."
+}
