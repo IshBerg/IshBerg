@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She works in London,",
+  "correct_completion": "doesn't she?",
+  "full_sentence": "She works in London, doesn't she?",
+  "acceptable_variants": ["does she not?", "doesn't she, I believe?"],
+  "options": [
+    {"text": "isn't she?", "is_correct": false, "why_wrong": "'Is' is the wrong auxiliary here. The main verb 'works' is in the present simple, so the tag needs 'does'."},
+    {"text": "does she?", "is_correct": false, "why_wrong": "A positive statement takes a negative tag, so 'does she?' is incorrect here."},
+    {"text": "doesn't she?", "is_correct": true, "why_wrong": null},
+    {"text": "doesn't she work?", "is_correct": false, "why_wrong": "A tag question repeats only the auxiliary and the subject. The main verb is not repeated in the tag."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative tag questions after positive statements in the present simple",
+  "connector": "tag question",
+  "explanation": "After a positive statement we use a negative tag question. The tag repeats the auxiliary 'does' and the subject 'she', and the main verb 'work' is not repeated.",
+  "translation": "Ona pracuje w Londynie, prawda?"
+}
