@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child,",
+  "correct_completion": "I used to play in the park every day.",
+  "full_sentence": "When I was a child, I used to play in the park every day.",
+  "acceptable_variants": ["I would play in the park every day.", "I often played in the park."],
+  "options": [
+    {"text": "I play in the park every day.", "is_correct": false, "why_wrong": "The present simple describes present habits, so it does not fit a past time expression like 'when I was a child'."},
+    {"text": "I am used to playing in the park every day.", "is_correct": false, "why_wrong": "'Be used to' plus -ing means being familiar with something, not describing a past habit."},
+    {"text": "I used to play in the park every day.", "is_correct": true, "why_wrong": null},
+    {"text": "I was playing in the park every day.", "is_correct": false, "why_wrong": "The past continuous describes an action in progress at a specific time, not a repeated past habit that has stopped."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "'Used to' for past habits that no longer happen",
+  "connector": "when",
+  "explanation": "'Used to' + base verb describes a past habit or routine that is no longer true. It is different from 'be used to' + -ing, which means being familiar with something."
+  ,"translation": "Quando eu era criança, eu costumava brincar no parque todos os dias."
+}

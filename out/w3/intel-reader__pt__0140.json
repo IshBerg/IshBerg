@@ -1,0 +1,20 @@
+{
+  "title": "A Short Conversation",
+  "text": "Hi! My name is Ana. Hello, Ana! I am Tom. Nice to meet you.\n\nAna asks, \"How are you?\" Tom says, \"I am good, thanks.\" Then they say goodbye. Ana says, \"Goodbye, Tom!\"",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the name of the girl?", "options": ["Ana", "Tom", "Lisa", "Mary"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Tom say when Ana asks how he is?", "options": ["I am good, thanks.", "I am a teacher.", "I am ten years old.", "I am in the park."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How do Ana and Tom probably feel when they meet?", "options": ["They are happy to meet", "They are angry", "They are tired and sad", "They are scared"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why do Ana and Tom say goodbye at the end?", "options": ["Their talk is finished", "They want to eat lunch", "They are starting a game", "They are going to sleep"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "Hello", "translation": "Olá", "definition": "a word you say when you meet someone"},
+    {"word": "Nice", "translation": "Prazer", "definition": "good or pleasant"},
+    {"word": "thanks", "translation": "obrigado", "definition": "words you say to show you are grateful"},
+    {"word": "Goodbye", "translation": "Tchau", "definition": "a word you say when you leave someone"}
+  ],
+  "paragraph_translations": [
+    "Oi! Meu nome é Ana. Olá, Ana! Eu sou o Tom. Prazer em conhecê-la.",
+    "Ana pergunta: \"Como você está?\" Tom responde: \"Estou bem, obrigado.\" Depois eles se despedem. Ana diz: \"Tchau, Tom!\""
+  ]
+}
