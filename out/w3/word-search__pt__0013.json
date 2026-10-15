@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["B", "R", "A", "N", "D", "X", "K", "S"],
+    ["Q", "M", "P", "Z", "W", "J", "V", "L"],
+    ["B", "Y", "H", "C", "U", "F", "D", "O"],
+    ["A", "T", "S", "K", "R", "X", "Q", "G"],
+    ["N", "L", "E", "W", "P", "M", "Z", "A"],
+    ["N", "C", "J", "U", "V", "B", "F", "N"],
+    ["E", "H", "O", "Y", "K", "D", "S", "X"],
+    ["R", "T", "R", "A", "I", "L", "E", "R"]
+  ],
+  "words_to_find": ["BRAND", "SLOGAN", "BANNER", "TRAILER"],
+  "word_positions": [
+    {"word": "BRAND", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLOGAN", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "BANNER", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TRAILER", "start_row": 7, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Media and Advertising"
+}
