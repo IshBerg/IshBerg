@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although Tom usually wakes up early,",
+  "correct_completion": "he sometimes feels tired in the afternoon.",
+  "full_sentence": "Although Tom usually wakes up early, he sometimes feels tired in the afternoon.",
+  "acceptable_variants": ["he still feels a little tired during the day.", "he occasionally needs a nap after lunch."],
+  "options": [
+    {"text": "so he always sleeps until noon.", "is_correct": false, "why_wrong": "'So' expresses a result, but 'although' requires a contrast with the first clause, so this does not fit."},
+    {"text": "he sometimes feels tired in the afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "because he goes to bed late.", "is_correct": false, "why_wrong": "'Because' gives a cause, while 'although' introduces a contrast. The two connectors cannot be swapped."},
+    {"text": "and he never eats breakfast.", "is_correct": false, "why_wrong": "'And' adds information, but it does not express the contrast that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a contrast with the first. Learners often use 'because' or 'so' here by habit, but those connectors express cause or result, not contrast.",
+  "translation": "Mimo że Tom zazwyczaj wstaje wcześnie, czasem czuje się zmęczony po południu."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "premise",
+  "all_words": [
+    {"word": "conclusion", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Przesłanka jest punktem wyjścia rozumowania, a wniosek (conclusion) to jego końcowy efekt, więc oba pojęcia należą do tej samej logiki argumentu."},
+    {"word": "pottery", "is_associated": false, "association_type": "NONE", "explanation": "Ceramika nie ma żadnego związku z logicznym budowaniem argumentu ani z przesłankami."},
+    {"word": "reasoning", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Rozumowanie (reasoning) to proces, w którym z przesłanek wyciąga się wnioski, dlatego słowa są ściśle powiązane znaczeniowo."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie występuje w kontekście argumentacji i nie ma z przesłankami wspólnego znaczenia."},
+    {"word": "valid", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Przesłanka może być prawdziwa lub fałszywa, a w logice mówi się o 'valid premise', czyli trafnej przesłance; to typowe połączenie wyrazowe."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Łyżka nie ma żadnego związku z przesłankami ani z dyskusją naukową."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z premise należą do języka logiki i argumentacji: wnioski, rozumowanie i trafność przesłanek."
+}
