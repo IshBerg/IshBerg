@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the scandal might have been averted.",
+  "full_sentence": "Had the committee been informed earlier, the scandal might have been averted.",
+  "acceptable_variants": ["the scandal could have been prevented.", "the damage would have been far smaller."],
+  "options": [
+    {"text": "the scandal would be averted by now.", "is_correct": false, "why_wrong": "'By now' gives a present time reference, which does not match the past condition set by the inverted 'Had' clause."},
+    {"text": "so the scandal was not to happen.", "is_correct": false, "why_wrong": "This states a cause-and-effect result rather than the hypothetical past outcome that the conditional structure requires."},
+    {"text": "the scandal might have been averted.", "is_correct": true, "why_wrong": null},
+    {"text": "the scandal would happen tomorrow.", "is_correct": false, "why_wrong": "The future time reference clashes with the past condition 'had been informed earlier', so the sentence becomes inconsistent."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inversion ('Had' + subject + past participle)",
+  "connector": "had",
+  "explanation": "The inverted 'Had' clause replaces 'If the committee had been informed'. The main clause must use a modal in the perfect form, such as 'might have' or 'would have', to describe a past hypothetical outcome. L1 interference note: Turkish speakers may be tempted to use a simple past or a present modal here, because Turkish marks conditionals with suffixes rather than a separate auxiliary structure.",
+  "translation": "Komite daha önce bilgilendirilseydi, skandal önlenmiş olabilirdi."
+}
