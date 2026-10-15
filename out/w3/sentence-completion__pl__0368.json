@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although public transport is often cheaper and faster than driving,",
+  "correct_completion": "many people still prefer to use their own cars.",
+  "full_sentence": "Although public transport is often cheaper and faster than driving, many people still prefer to use their own cars.",
+  "acceptable_variants": ["many people still find driving more convenient.", "many commuters still choose their private cars."],
+  "options": [
+    {"text": "so most people choose buses and trains.", "is_correct": false, "why_wrong": "This gives a result that agrees with the first clause. 'Although' needs a contrasting idea, and 'so' wrongly introduces a consequence."},
+    {"text": "because it is cheaper for everyone.", "is_correct": false, "why_wrong": "'Because' introduces a reason. Combining it with 'although' gives two conflicting connectors for one clause, which makes the sentence ungrammatical."},
+    {"text": "many people still prefer to use their own cars.", "is_correct": true, "why_wrong": null},
+    {"text": "the trains are always on time.", "is_correct": false, "why_wrong": "This adds a detail about trains but does not contrast with the first clause, so the concessive structure is lost."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners sometimes add a cause connector right after 'although', but English allows only one linking word for each clause, so the cause-based options are wrong.",
+  "translation": "Chociaż transport publiczny jest często tańszy i szybszy niż jazda samochodem, wielu ludzi nadal woli jeździć własnym samochodem."
+}

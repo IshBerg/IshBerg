@@ -1,0 +1,17 @@
+{
+  "central_word": "fear",
+  "chain_words": [
+    {"word": "unease", "intensity": 1, "translation": "niepokój", "nuance": "vague, low-level discomfort about something that may happen"},
+    {"word": "apprehension", "intensity": 2, "translation": "obawa", "nuance": "anxious expectation of a possible future problem"},
+    {"word": "fear", "intensity": 3, "translation": "strach", "nuance": "general feeling of being afraid of danger or harm"},
+    {"word": "dread", "intensity": 4, "translation": "trwoga", "nuance": "deep, anxious anticipation of something unpleasant"},
+    {"word": "terror", "intensity": 5, "translation": "groza", "nuance": "overwhelming, paralysing fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express a negative response to a threat, ordered from mild unease to overwhelming terror.",
+  "usage_notes": [
+    {"word1": "fear", "word2": "dread", "difference": "'Fear' is a general response to a present or possible danger; 'dread' is a more anxious, drawn-out anticipation of something unpleasant that is still to come."}
+  ],
+  "translations": {"unease": "niepokój", "apprehension": "obawa", "fear": "strach", "dread": "trwoga", "terror": "groza"}
+}
