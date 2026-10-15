@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualnie", "transliteration": "aktualnie", "meaning": "at the moment, currently"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, pleasant, likeable"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "konkretny", "transliteration": "konkretny", "meaning": "specific, particular"}
+  ],
+  "english_words": ["possibly", "currently", "specific", "nice"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each of these Polish words looks or sounds like an English word that students already know, because both languages borrowed the root from the same Latin or Greek source. The meanings, however, have drifted apart, so the look-alike English word is the wrong choice.",
+  "false_friend_warning": "Watch out for false friends: the Polish word aktualnie looks like English 'actually' but means 'currently', and ewentualnie looks like 'eventually' but means 'possibly'. Likewise, sympatyczny sounds like 'sympathetic' but means 'nice'."
+}
