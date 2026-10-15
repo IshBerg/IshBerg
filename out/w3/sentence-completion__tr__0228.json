@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the report would have been revised before publication.",
+  "full_sentence": "Had the committee been informed earlier, the report would have been revised before publication.",
+  "acceptable_variants": ["the report would have been amended in time.", "the draft would have been corrected before it was released."],
+  "options": [
+    {"text": "the report is revised every year.", "is_correct": false, "why_wrong": "This is a habitual present statement, which does not match the hypothetical past condition set by 'had ... been informed'."},
+    {"text": "the report will be revised tomorrow.", "is_correct": false, "why_wrong": "A future tense does not complete a third conditional structure, which needs 'would have' plus a past participle."},
+    {"text": "the report would have been revised before publication.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was revised by the committee last year.", "is_correct": false, "why_wrong": "This describes a completed past event, unrelated to the hypothetical result of an earlier notification."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' in the if-clause",
+  "connector": "had",
+  "explanation": "The stem uses an inverted third conditional without 'if', so the main clause must contain 'would have' followed by a past participle. Turkish speakers often add a conditional marker in the main clause, but English keeps the modal and perfect structure instead.",
+  "translation": "Komite daha önce bilgilendirilseydi, rapor yayımlanmadan önce revize edilmiş olurdu."
+}
