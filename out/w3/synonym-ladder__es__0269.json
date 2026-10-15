@@ -1,0 +1,13 @@
+{
+  "start_word": "doubtful",
+  "end_word": "certain",
+  "ladder_steps": [
+    {"word": "doubtful", "translation": "dudoso", "intensity_level": 1},
+    {"word": "unsure", "translation": "inseguro", "intensity_level": 2},
+    {"word": "fairly sure", "translation": "bastante seguro", "intensity_level": 3},
+    {"word": "confident", "translation": "convencido", "intensity_level": 4},
+    {"word": "certain", "translation": "completamente seguro", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words for certainty form a ladder from least sure to completely sure, each step more certain than the last."
+}
