@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["R","E","V","I","E","W","X","P","L","M"],
+    ["B","N","Y","K","U","H","F","C","Z","Q"],
+    ["J","M","Q","P","L","W","K","S","V","N"],
+    ["Y","H","Z","C","U","F","B","T","X","L"],
+    ["G","K","P","W","M","Q","J","A","Z","F"],
+    ["U","O","L","C","Y","B","N","R","T","H"],
+    ["X","Z","O","P","K","V","M","W","F","D"],
+    ["Q","J","L","D","N","U","Y","C","H","A"],
+    ["P","W","F","K","V","Z","X","M","N","B"],
+    ["C","G","E","T","A","R","H","Q","Y","U"]
+  ],
+  "words_to_find": ["REVIEW", "STAR", "GOOD", "RATE", "BAD"],
+  "word_positions": [
+    {"word": "REVIEW", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STAR", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "GOOD", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "RATE", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "BAD", "start_row": 8, "start_col": 9, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Reviews"
+}

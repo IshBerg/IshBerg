@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the author's methodology was rigorous,",
+  "correct_completion": "the conclusions remain open to debate.",
+  "full_sentence": "Although the author's methodology was rigorous, the conclusions remain open to debate.",
+  "acceptable_variants": ["the authors still hedge their interpretation.", "many readers still question the interpretation."],
+  "options": [
+    {"text": "so the methodology must have been flawed.", "is_correct": false, "why_wrong": "'So' introduces a conclusion that contradicts the stem. 'Although' requires a clause that contrasts with the first part, not a logical consequence."},
+    {"text": "the conclusions remain open to debate.", "is_correct": true, "why_wrong": null},
+    {"text": "since the sample was large.", "is_correct": false, "why_wrong": "'Since' introduces a cause or reason, so it does not complete the concessive contrast set up by 'Although'."},
+    {"text": "the study was published last year.", "is_correct": false, "why_wrong": "This adds an unrelated fact about timing and does not create the contrast that 'Although' expects."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "'Although' introduces a concessive clause, so the main clause must contrast with the rigorous methodology, for example by expressing doubt about the conclusions. Learners often add a simple linking word here, but English concessive structure needs the contrast to be stated directly in the main clause.",
+  "translation": "Aunque la metodología del autor era rigurosa, las conclusiones siguen siendo discutibles."
+}
