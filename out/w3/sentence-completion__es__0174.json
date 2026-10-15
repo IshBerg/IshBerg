@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before in the history of the company",
+  "correct_completion": "has such a bold strategy been attempted.",
+  "full_sentence": "Never before in the history of the company has such a bold strategy been attempted.",
+  "acceptable_variants": ["has a more ambitious plan ever been proposed.", "has any board ever approved such a daring plan."],
+  "options": [
+    {"text": "the board had attempted a bold strategy.", "is_correct": false, "why_wrong": "After a fronted negative phrase such as 'never before', English requires subject-auxiliary inversion. Normal word order here sounds unnatural and loses the rhetorical emphasis."},
+    {"text": "has such a bold strategy been attempted.", "is_correct": true, "why_wrong": null},
+    {"text": "such a bold strategy was attempted by staff.", "is_correct": false, "why_wrong": "The fronted negative requires inversion of the auxiliary and subject, so 'was attempted' with normal word order is incorrect here."},
+    {"text": "the company has often tried bold strategies.", "is_correct": false, "why_wrong": "This removes the negative sense that the fronted phrase creates, so the rhetorical effect of emphasis is lost."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion after fronted negative adverbials",
+  "connector": "never before",
+  "explanation": "After a fronted negative adverbial, English requires inversion of the auxiliary verb and the subject. Learners may keep the normal subject-verb order, a common pattern when the first language allows relatively free word order and has no equivalent inversion rule for emphasis.",
+  "translation": "Nunca antes en la historia de la empresa se ha intentado una estrategia tan audaz."
+}
