@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have got a better grade.", "I would have done much better."],
+  "options": [
+    {"text": "I would pass the exam tomorrow.", "is_correct": false, "why_wrong": "'If only' with a past perfect expresses regret about the past, so a future-tense completion does not match the stem."},
+    {"text": "I study harder every day.", "is_correct": false, "why_wrong": "This uses the present simple to describe a habit. It does not express regret about the past."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I passed the exam last week.", "is_correct": false, "why_wrong": "This states a real past fact. 'If only' expresses an unreal wish, so the completion needs 'would have' to show the imagined result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if only' (unreal wish about the past)",
+  "connector": "if only",
+  "explanation": "'If only' plus past perfect expresses a wish about a past situation that did not happen. The main clause must use 'would have' plus a past participle to show the imagined result. Polish speakers may use a simple conditional here because Polish marks the conditional with a particle and does not separate the past perfect from the simple past.",
+  "translation": "Gdybym tylko uczyl sie ciezej, zdalbym egzamin."
+}
