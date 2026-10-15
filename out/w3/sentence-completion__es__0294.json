@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the novel's narrator seems unreliable,",
+  "correct_completion": "the reader gradually comes to trust her observations.",
+  "full_sentence": "Although the novel's narrator seems unreliable, the reader gradually comes to trust her observations.",
+  "acceptable_variants": ["the reader still finds her account convincing.", "the reader begins to sympathize with her."],
+  "options": [
+    {"text": "so the reader trusts every word she writes.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast between the two clauses."},
+    {"text": "the reader gradually comes to trust her observations.", "is_correct": true, "why_wrong": null},
+    {"text": "because the narrator is seventeen years old.", "is_correct": false, "why_wrong": "'Because' signals cause, which conflicts with the contrast that 'although' introduces."},
+    {"text": "the narrator writes in the present tense.", "is_correct": false, "why_wrong": "This is a true detail about the narration, but it does not complete the contrast set up by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in literary analysis",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a contrast with the first. Here the narrator's unreliability is set against the reader's growing trust, which is the tension that drives the novel's technique.",
+  "translation": "Aunque el narrador de la novela parece poco fiable, el lector poco a poco llega a confiar en sus observaciones."
+}

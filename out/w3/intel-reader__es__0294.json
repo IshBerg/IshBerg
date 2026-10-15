@@ -1,0 +1,20 @@
+{
+  "title": "My Neighborhood",
+  "text": "I live in a small neighborhood in the city. There is a park near my house. Many children play there after school. There is also a small shop on the corner.\n\nMy neighbors are very friendly. Mrs. Brown lives next door to me. She has a big cat called Tom. On Sundays, we have a picnic in the park.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the park?", "options": ["Near my house", "In another city", "Next to the school", "On the corner"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is the name of the cat?", "options": ["Tom", "Max", "Bella", "Lucy"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why do many children like the park?", "options": ["It is a good place to play", "It is far away from the city", "It is always closed", "It is in another neighborhood"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of people live in the narrator's neighborhood?", "options": ["Friendly people", "Angry people", "People who do not know each other", "People who never go outside"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "neighborhood", "translation": "barrio, vecindario", "definition": "a small area of a town or city where people live"},
+    {"word": "friendly", "translation": "amable, simpático", "definition": "kind and pleasant to other people"},
+    {"word": "picnic", "translation": "picnic, comida al aire libre", "definition": "a meal eaten outside, often in a park"},
+    {"word": "corner", "translation": "esquina", "definition": "the place where two streets meet"}
+  ],
+  "paragraph_translations": [
+    "Vivo en un pequeño barrio de la ciudad. Hay un parque cerca de mi casa. Muchos niños juegan allí después de la escuela. También hay una pequeña tienda en la esquina.",
+    "Mis vecinos son muy amables. La señora Brown vive al lado de mi casa. Tiene un gato grande llamado Tom. Los domingos hacemos un picnic en el parque."
+  ]
+}
