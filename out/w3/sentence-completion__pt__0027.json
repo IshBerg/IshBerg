@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee acted sooner,",
+  "correct_completion": "the company would not be facing bankruptcy today.",
+  "full_sentence": "Had the committee acted sooner, the company would not be facing bankruptcy today.",
+  "acceptable_variants": ["the company would be in a much stronger position now.", "the company would still be operating normally today."],
+  "options": [
+    {"text": "the company will face bankruptcy today.", "is_correct": false, "why_wrong": "'Will' expresses a real future possibility. After the unreal past condition 'Had the committee acted sooner', the result must be unreal, so 'would' is needed."},
+    {"text": "the company was bankrupt yesterday.", "is_correct": false, "why_wrong": "This is a simple past statement of fact. It does not form a result for the condition and ignores the 'today' time reference."},
+    {"text": "the company would not be facing bankruptcy today.", "is_correct": true, "why_wrong": null},
+    {"text": "it would have faced bankruptcy by now.", "is_correct": false, "why_wrong": "'Would have' plus a past participle points to a past result, but 'by now' places it in the present. A mixed conditional with a present result uses 'would' plus a base verb form."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals with inverted 'had': past condition, present result",
+  "connector": "had",
+  "explanation": "The stem is an inverted third conditional: 'Had the committee acted sooner' means 'If the committee had acted sooner'. The condition refers to the past, while the result refers to the present, so it needs 'would' plus a base verb and the continuous form 'be facing' for an ongoing situation.",
+  "translation": "Se o comitê tivesse agido mais cedo, a empresa não estaria enfrentando falência hoje."
+}
