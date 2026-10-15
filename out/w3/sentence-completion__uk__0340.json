@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Feeling tired after the long journey,",
+  "correct_completion": "we went straight to bed.",
+  "full_sentence": "Feeling tired after the long journey, we went straight to bed.",
+  "acceptable_variants": ["we fell asleep early.", "we all went straight to bed."],
+  "options": [
+    {"text": "the hotel room was very quiet.", "is_correct": false, "why_wrong": "The participle 'feeling' describes the people, so the main clause must have people as its subject. Here the subject becomes the room, which creates a dangling participle."},
+    {"text": "it was raining outside.", "is_correct": false, "why_wrong": "The main clause now has 'it' as its subject, which does not match the person implied by 'feeling'."},
+    {"text": "we went straight to bed.", "is_correct": true, "why_wrong": null},
+    {"text": "so we had a rest.", "is_correct": false, "why_wrong": "'So' adds a second cause, but the participle clause already gives the reason, so the sentence becomes redundant."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses and the subject of the main clause",
+  "connector": "feeling",
+  "explanation": "A participle clause at the start of a sentence must refer to the subject of the main clause. Here 'feeling' describes the people, so the main clause must have people as its subject. Options that switch the subject to a room or to 'it' create a dangling participle.",
+  "translation": "Відчуваючи втому після довгої подорожі, ми одразу лягли спати."
+}
