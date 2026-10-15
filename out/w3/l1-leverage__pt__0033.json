@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "telefone", "transliteration": "telefone", "meaning": "telephone"},
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"},
+    {"word": "música", "transliteration": "musica", "meaning": "music"},
+    {"word": "universidade", "transliteration": "universidade", "meaning": "university"}
+  ],
+  "english_words": ["university", "music", "telephone", "hotel"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words come from Latin and Greek roots shared by both languages, so the spellings stay close and the meanings match. Only small spelling differences, such as dropped letters or changed endings, separate the two forms.",
+  "false_friend_warning": null
+}
