@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She said that she was tired,",
+  "correct_completion": "so she wanted to go home early.",
+  "full_sentence": "She said that she was tired, so she wanted to go home early.",
+  "acceptable_variants": ["so she decided to leave the party.", "so she asked if she could go home."],
+  "options": [
+    {"text": "so she wanted to go home early.", "is_correct": true, "why_wrong": null},
+    {"text": "she will go home early tomorrow.", "is_correct": false, "why_wrong": "This uses a future form that does not match the reported statement, and it does not explain the reason introduced by the stem."},
+    {"text": "but she was feeling very energetic.", "is_correct": false, "why_wrong": "This contradicts the reported statement that she was tired."},
+    {"text": "she has been tired since Monday.", "is_correct": false, "why_wrong": "This adds time information but does not complete the link between being tired and wanting to leave."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reported speech with a result clause",
+  "connector": "so",
+  "explanation": "In reported speech the first clause reports what the person said, and the second clause should give the logical result of that statement. Learners whose first language uses a different word order for reported clauses sometimes place the result in the wrong position, so check that the completion follows from the first clause.",
+  "translation": "Yorgun olduğunu söyledi, bu yüzden erken eve gitmek istedi."
+}
