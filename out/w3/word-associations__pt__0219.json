@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hypothesis",
+  "all_words": [
+    {"word": "experiment", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Uma hipótese é normalmente testada por meio de um experimento."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Um tapete não tem relação com hipóteses nem com a pesquisa científica."},
+    {"word": "research", "is_associated": true, "association_type": "THEMATIC", "explanation": "A pesquisa é o contexto geral em que as hipóteses são formuladas e verificadas."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Um sanduíche não tem nenhuma ligação com o vocabulário acadêmico."},
+    {"word": "evidence", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês, costuma-se dizer que a evidence supports a hypothesis, ou seja, a evidência sustenta a hipótese."},
+    {"word": "test", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Testar uma hipótese é a ação central do método científico."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas dizem respeito ao método científico em torno de uma hipótese; as demais não têm relação com ele."
+}

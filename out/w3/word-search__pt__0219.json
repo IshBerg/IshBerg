@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "H", "E", "S", "S", "Q", "W", "R", "K", "T"],
+    ["I", "F", "J", "Y", "U", "N", "V", "X", "P", "A"],
+    ["D", "K", "L", "Q", "R", "Z", "W", "E", "H", "G"],
+    ["F", "O", "A", "C", "X", "Q", "U", "K", "L", "W"],
+    ["Y", "P", "M", "R", "T", "E", "A", "Z", "C", "Q"],
+    ["R", "T", "U", "I", "H", "K", "S", "W", "B", "F"],
+    ["E", "L", "O", "G", "N", "J", "Y", "D", "X", "P"],
+    ["K", "Q", "W", "A", "V", "O", "Z", "P", "T", "H"],
+    ["L", "N", "Q", "Z", "U", "E", "X", "I", "K", "D"],
+    ["M", "A", "R", "B", "L", "E", "S", "Y", "K", "X"]
+  ],
+  "words_to_find": ["CHESS", "TAG", "DOMINO", "MARBLES"],
+  "word_positions": [
+    {"word": "CHESS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TAG", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "DOMINO", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MARBLES", "start_row": 9, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Traditional Games"
+}
