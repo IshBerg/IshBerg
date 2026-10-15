@@ -1,0 +1,20 @@
+{
+  "title": "Maria's Shopping Trip",
+  "text": "Maria goes to the market on Sunday. She has a shopping list. The list has bread, milk, eggs and apples. She buys the bread first.\n\nThen she goes to the fruit stand. She wants apples, but there are no green apples. She buys red apples instead. At home, she puts everything in the fridge.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is on Maria's shopping list?", "options": ["Bread, cheese, rice and oranges", "Bread, milk, eggs and apples", "Milk, tea, eggs and bananas", "Apples, sugar, bread and water"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Maria buy at the fruit stand?", "options": ["Green apples", "Bananas", "Red apples", "Oranges"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Maria buy red apples?", "options": ["She does not like apples", "She forgot her list at home", "The fruit stand was closed", "There were no green apples at the stand"], "correct_index": 3, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Where does Maria probably put the food when she gets home?", "options": ["In the car", "On the bed", "In the fridge", "In the garden"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "market", "translation": "mercado", "definition": "a place where people buy food and other goods"},
+    {"word": "list", "translation": "lista", "definition": "a set of written words or items to remember"},
+    {"word": "fridge", "translation": "nevera", "definition": "a cold box in a kitchen where food is kept fresh"},
+    {"word": "instead", "translation": "en su lugar", "definition": "as a replacement for something else"}
+  ],
+  "paragraph_translations": [
+    "María va al mercado el domingo. Tiene una lista de compras. La lista tiene pan, leche, huevos y manzanas. Ella compra el pan primero.",
+    "Luego va al puesto de frutas. Quiere manzanas, pero no hay manzanas verdes. Ella compra manzanas rojas en su lugar. En casa, pone todo en la nevera."
+  ]
+}

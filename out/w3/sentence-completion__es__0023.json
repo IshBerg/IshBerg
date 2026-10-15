@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the company had listened to its employees years ago,",
+  "correct_completion": "it would be much more successful today.",
+  "full_sentence": "If the company had listened to its employees years ago, it would be much more successful today.",
+  "acceptable_variants": ["it would be a leader in its field.", "it would not be struggling now."],
+  "options": [
+    {"text": "it has been successful for years.", "is_correct": false, "why_wrong": "The present perfect states a fact. A mixed conditional needs a hypothetical present result, so this does not complete the sentence."},
+    {"text": "it would be much more successful today.", "is_correct": true, "why_wrong": null},
+    {"text": "so it did not change its policy.", "is_correct": false, "why_wrong": "'So' signals cause and effect, but the sentence needs a hypothetical result of the unreal past condition."},
+    {"text": "it will succeed if it listens today.", "is_correct": false, "why_wrong": "A first conditional about the future does not complete the unreal past condition set up by 'had listened'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditional: past condition, present result",
+  "connector": "if",
+  "explanation": "A mixed conditional combines a past condition (had plus past participle) with a present result (would plus base verb). Spanish speakers may keep one tense throughout, but English requires the past perfect in the if-clause and would plus the base form in the result.",
+  "translation": "Si la empresa hubiera escuchado a sus empleados hace años, hoy sería mucho más exitosa."
+}
