@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child,",
+  "correct_completion": "I used to play in the park every day.",
+  "full_sentence": "When I was a child, I used to play in the park every day.",
+  "acceptable_variants": ["I would play in the park every day.", "I often played in the park."],
+  "options": [
+    {"text": "I am playing in the park now.", "is_correct": false, "why_wrong": "The present continuous describes an action happening now, but the stem sets a past time, so a past habit is needed."},
+    {"text": "I used to play in the park every day.", "is_correct": true, "why_wrong": null},
+    {"text": "I will play in the park tomorrow.", "is_correct": false, "why_wrong": "The future tense refers to tomorrow, but the stem is about the past, so it does not fit."},
+    {"text": "I have played in the park.", "is_correct": false, "why_wrong": "The present perfect does not describe a repeated past habit with 'every day', and it does not fit the time set by 'when I was a child'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Used to for past habits and repeated actions",
+  "connector": "used to",
+  "explanation": "The stem sets a past time, so the completion must describe a past habit. 'Used to' plus the base verb shows a repeated action that no longer happens. Learners often confuse it with the present perfect, which does not express a finished habit.",
+  "translation": "Quando eu era criança, eu costumava brincar no parque todos os dias."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "quill",
+  "all_words": [
+    {"word": "ink", "is_associated": true, "association_type": "THEMATIC", "explanation": "A tinta era usada com a pena de escrever, por isso pertence ao mesmo universo de escrita manual."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "O teclado pertence à escrita digital moderna e não tem relação com a pena de escrever antiga."},
+    {"word": "parchment", "is_associated": true, "association_type": "THEMATIC", "explanation": "O pergaminho era o suporte tradicional onde se escrevia com pena, por isso está tematicamente ligado a ela."},
+    {"word": "hammock", "is_associated": false, "association_type": "NONE", "explanation": "A rede de dormir não tem nenhuma ligação com a escrita nem com a pena."},
+    {"word": "scribe", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O escrivão é a pessoa que escrevia à mão com pena, o que o aproxima semanticamente do termo."},
+    {"word": "feather", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A pena de escrever era feita da pena de uma ave, por isso as duas palavras têm sentido próximo."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A pena de escrever associa-se a palavras ligadas à escrita manual antiga, aos seus suportes e a quem escrevia, enquanto objetos modernos ou sem relação com a escrita ficam de fora."
+}
