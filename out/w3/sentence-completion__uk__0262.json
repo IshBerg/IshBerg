@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother can't swim, so",
+  "correct_completion": "he always stays near the side of the pool.",
+  "full_sentence": "My brother can't swim, so he always stays near the side of the pool.",
+  "acceptable_variants": ["he wears a life jacket in the water.", "he stays in the shallow part."],
+  "options": [
+    {"text": "he can swim across the lake.", "is_correct": false, "why_wrong": "'So' introduces a logical result of not swimming. Swimming across a lake shows the opposite ability."},
+    {"text": "he always stays near the side of the pool.", "is_correct": true, "why_wrong": null},
+    {"text": "he can play the piano very well.", "is_correct": false, "why_wrong": "This is an unrelated ability and does not follow from being unable to swim."},
+    {"text": "he has got a red towel.", "is_correct": false, "why_wrong": "This is a fact, but it does not give a result of the inability to swim."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "'Can't' to show lack of ability, with 'so' for the result",
+  "connector": "so",
+  "explanation": "'So' shows a result. Because the brother cannot swim, the logical result is that he stays close to the side. The negative form of 'can' gives the cause for this behaviour.",
+  "translation": "Мій брат не вміє плавати, тому він завжди тримається ближче до бортика басейну."
+}
