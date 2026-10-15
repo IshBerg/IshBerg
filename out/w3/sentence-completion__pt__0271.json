@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It would seem that the results,",
+  "correct_completion": "are less conclusive than the authors claim.",
+  "full_sentence": "It would seem that the results are less conclusive than the authors claim.",
+  "acceptable_variants": ["appear to be less reliable than reported.", "may not fully support the strong claims made."],
+  "options": [
+    {"text": "the authors definitely proved everything.", "is_correct": false, "why_wrong": "This states certainty, which contradicts the hedge 'It would seem that' that softens the claim."},
+    {"text": "are less conclusive than the authors claim.", "is_correct": true, "why_wrong": null},
+    {"text": "so the authors must be wrong entirely.", "is_correct": false, "why_wrong": "'Must be wrong entirely' is an overstated conclusion; the hedged stem only suggests weakness in the results."},
+    {"text": "they will surely change the field forever.", "is_correct": false, "why_wrong": "'Will surely' is a strong prediction with no hedge, so it clashes with the tentative tone set by the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Hedging with 'It would seem that' and tentative modal meaning",
+  "connector": "It would seem that",
+  "explanation": "The stem uses a hedge to present a tentative judgement, so the completion should keep that softer tone and avoid absolute claims. Learners should notice that hedges like this one are a standard feature of academic writing. Some learners may carry over a more direct style from their first language, where a strong statement sounds natural, so they should practise softer phrasing in English.",
+  "translation": "Parece que os resultados são menos conclusivos do que afirmam os autores."
+}
