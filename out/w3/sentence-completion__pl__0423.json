@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I'm sorry, I can't come to your party because",
+  "correct_completion": "I have to work on Saturday.",
+  "full_sentence": "I'm sorry, I can't come to your party because I have to work on Saturday.",
+  "acceptable_variants": ["I am visiting my grandmother on Saturday.", "I am not feeling well."],
+  "options": [
+    {"text": "I like your house very much.", "is_correct": false, "why_wrong": "A compliment does not give a reason for not coming, so it does not complete the 'because' clause."},
+    {"text": "the weather is nice in May.", "is_correct": false, "why_wrong": "A fact about the weather does not explain why the speaker cannot come to the party."},
+    {"text": "I have to work on Saturday.", "is_correct": true, "why_wrong": null},
+    {"text": "yes, I will be there at six.", "is_correct": false, "why_wrong": "This says the speaker will come, which contradicts 'I can't come' in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses of reason with 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason for the situation in the first clause. After it we need a clause that explains why the speaker cannot come. Polish speakers may expect a comma before 'because', but in this sentence no comma is needed.",
+  "translation": "Przepraszam, nie mogę przyjść na twoją imprezę, ponieważ muszę pracować w sobotę."
+}

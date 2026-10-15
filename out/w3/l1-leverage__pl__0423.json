@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "magazyn", "transliteration": "magazyn", "meaning": "warehouse, storeroom"},
+    {"word": "bohater", "transliteration": "bohater", "meaning": "hero"},
+    {"word": "rysunek", "transliteration": "rysunek", "meaning": "drawing"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "friendly, nice"}
+  ],
+  "english_words": ["drawing", "friendly", "hero", "warehouse"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "English and Polish both took this word from the same Italian source, meaning storehouse, so the two forms stayed close. English later shifted the meaning to a printed periodical, while Polish kept the original sense.",
+  "false_friend_warning": "Warning: the Polish word 'magazyn' looks like the English word 'magazine', but it means warehouse or storeroom. Do not translate it as magazine."
+}
