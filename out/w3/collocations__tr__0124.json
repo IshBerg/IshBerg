@@ -1,0 +1,32 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "movie",
+  "collocate": "theater",
+  "full_collocation": "movie theater",
+  "options": ["movie", "video", "photo", "game"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "video", "reason": "We don't say 'video theater'. 'Video' is used in 'video store' or 'video game', not for a place where films are shown."},
+    {"word": "photo", "reason": "We don't say 'photo theater'. 'Photo' refers to a picture, so it does not describe a place for watching films."},
+    {"word": "game", "reason": "We don't say 'game theater'. 'Game' is used in 'game console' or 'game show', not for a cinema."}
+  ],
+  "example_sentence": "Let's meet at the ___ theater at seven o'clock.",
+  "gap_position": 4,
+  "translation": "sinema salonu",
+  "l1_interference": "Türkçede 'sinema salonu' ifadesinde belirten önce gelir, bu yüzden 'movie theater' sırasını doğru kurarsınız; ancak 'theater movie' gibi sırayı tersine çevirmek yanlıştır.",
+  "common_mistake": "theater movie",
+  "explanation": "In English, the first noun 'movie' describes the second noun 'theater', so the word order matters. 'Movie theater' is the usual American English phrase.",
+  "related_collocations": [
+    {"collocation": "movie star", "translation": "film yıldızı", "example": "She is a famous movie star."},
+    {"collocation": "TV show", "translation": "televizyon programı", "example": "We watch a funny TV show every night."},
+    {"collocation": "music video", "translation": "müzik klibi", "example": "This music video has millions of views."}
+  ],
+  "memory_tip": "The first noun describes the second: MOVIE theater = a theater for movies, TV show = a show on TV",
+  "matching_pairs": [
+    {"left": "movie", "right": "theater"},
+    {"left": "TV", "right": "show"},
+    {"left": "music", "right": "video"},
+    {"left": "movie", "right": "star"},
+    {"left": "game", "right": "console"}
+  ]
+}
