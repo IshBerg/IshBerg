@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Every morning, my brother",
+  "correct_completion": "drinks a cup of coffee.",
+  "full_sentence": "Every morning, my brother drinks a cup of coffee.",
+  "acceptable_variants": ["always drinks a cup of tea.", "eats a small breakfast."],
+  "options": [
+    {"text": "drink a cup of coffee.", "is_correct": false, "why_wrong": "With he, she, or it in the Present Simple, the verb needs an -s ending, so it should be 'drinks'."},
+    {"text": "drinks a cup of coffee.", "is_correct": true, "why_wrong": null},
+    {"text": "does drinks a cup of coffee.", "is_correct": false, "why_wrong": "'Does' is used for questions and negatives, not affirmative sentences. Also, the verb after 'does' must be 'drink', and 'drinks' is wrong here."},
+    {"text": "to drink a cup of coffee.", "is_correct": false, "why_wrong": "A subject followed by a main verb needs a finite verb form, not an infinitive with 'to'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Third person singular -s in the Present Simple",
+  "connector": "none",
+  "explanation": "With he, she, or it in the Present Simple, the verb takes an -s ending, so 'my brother' needs 'drinks', not 'drink'. Spanish speakers often forget this ending because Spanish verbs change their form in every person, while English changes only in the third person singular.",
+  "translation": "Cada mañana, mi hermano bebe una taza de café."
+}
