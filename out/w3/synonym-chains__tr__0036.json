@@ -1,0 +1,17 @@
+{
+  "central_word": "big",
+  "chain_words": [
+    {"word": "little", "intensity": 1, "translation": "küçücük", "nuance": "very small, often cute"},
+    {"word": "small", "intensity": 2, "translation": "küçük", "nuance": "not big, a neutral size word"},
+    {"word": "big", "intensity": 3, "translation": "büyük", "nuance": "general size above average"},
+    {"word": "large", "intensity": 4, "translation": "iri", "nuance": "bigger than average, often formal"},
+    {"word": "huge", "intensity": 5, "translation": "çok büyük", "nuance": "very, very big"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe size, from very small to very big.",
+  "usage_notes": [
+    {"word1": "little", "word2": "small", "difference": "'Little' often expresses affection or describes something young or cute; 'small' is a neutral size word."}
+  ],
+  "translations": {"little": "küçücük", "small": "küçük", "big": "büyük", "large": "iri", "huge": "çok büyük"}
+}

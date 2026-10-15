@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He studied all night for the exam, but",
+  "correct_completion": "he still did not feel ready.",
+  "full_sentence": "He studied all night for the exam, but he still did not feel ready.",
+  "acceptable_variants": ["he still felt nervous.", "he was not confident about his answers."],
+  "options": [
+    {"text": "so he passed easily.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. The sentence needs a contrast after 'but'."},
+    {"text": "he went to bed early.", "is_correct": false, "why_wrong": "This is an unrelated action and does not contrast with the effort of studying all night."},
+    {"text": "he still did not feel ready.", "is_correct": true, "why_wrong": null},
+    {"text": "he ate breakfast with his family.", "is_correct": false, "why_wrong": "This is an everyday action that does not contrast with the effort described in the first part."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', the sentence needs a clause that contrasts with the effort in the first part, so the result is unexpected.",
+  "translation": "Sınav için bütün gece çalıştı, ama yine de kendini hazır hissetmiyordu."
+}
