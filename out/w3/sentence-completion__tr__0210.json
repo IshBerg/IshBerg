@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rarely in the history of the region",
+  "correct_completion": "has a single policy so profoundly altered the lives of ordinary citizens.",
+  "full_sentence": "Rarely in the history of the region has a single policy so profoundly altered the lives of ordinary citizens.",
+  "acceptable_variants": ["has any policy so profoundly altered the lives of ordinary citizens.", "has a single decision so profoundly transformed the lives of ordinary citizens."],
+  "options": [
+    {"text": "a single policy has so profoundly altered the lives of ordinary citizens.", "is_correct": false, "why_wrong": "The fronted negative adverb 'rarely' requires subject-auxiliary inversion, so the auxiliary must come before the subject."},
+    {"text": "has a single policy so profoundly altered the lives of ordinary citizens.", "is_correct": true, "why_wrong": null},
+    {"text": "the lives of ordinary citizens were altered by a single policy.", "is_correct": false, "why_wrong": "This passive sentence does not use the inverted structure that the fronted negative adverb calls for, so the rhetorical emphasis is lost."},
+    {"text": "a single policy altered the lives of ordinary citizens.", "is_correct": false, "why_wrong": "The sentence has no inversion after the fronted 'rarely', and it lacks the emphatic effect that the opening phrase sets up."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Inversion after fronted negative adverbials",
+  "connector": "rarely",
+  "explanation": "After the fronted negative adverbial 'rarely', the auxiliary verb must come before the subject, which gives 'has a single policy'. Learners often keep the normal subject-verb order here because Turkish word order is flexible and does not use auxiliary inversion for emphasis in the same way.",
+  "translation": "Bölgenin tarihinde nadiren, tek bir politika sıradan insanların hayatını bu kadar derinden değiştirmiştir."
+}
