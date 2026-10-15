@@ -1,0 +1,14 @@
+{
+  "trigger_word": "vote",
+  "all_words": [
+    {"word": "election", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Seçim, oy vermenin en açık bağlamıdır; oylama ile seçim aynı alanda yer alır."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Köprü, oy verme ya da seçimle hiçbir anlam ya da tema bağı taşımaz."},
+    {"word": "ballot", "is_associated": true, "association_type": "THEMATIC", "explanation": "Oy pusulası, oy verme sürecinin temel parçasıdır ve aynı konu alanına aittir."},
+    {"word": "cast", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "İngilizcede 'cast a vote' (oy kullanmak) sabit bir kalıptır, bu yüzden 'cast' ile birlikte kullanılır."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmek, oy verme konusuyla ilgisi olmayan günlük bir yiyecektir."},
+    {"word": "citizen", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yurttaş, oy hakkına sahip olan kişidir, bu yüzden oy verme ile doğrudan ilişkilidir."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Oy verme kelimesiyle ilişkili olanlar seçim sürecini, oy pusulasını, sabit kalıpları ve oy hakkına sahip vatandaşı içerir; köprü ve ekmek ise bu konuyla ilgisizdir."
+}

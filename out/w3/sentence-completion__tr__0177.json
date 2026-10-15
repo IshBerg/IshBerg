@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She studied hard all year, so",
+  "correct_completion": "she passed the final exam with good marks.",
+  "full_sentence": "She studied hard all year, so she passed the final exam with good marks.",
+  "acceptable_variants": ["she got a high score on the exam.", "she felt proud of her results."],
+  "options": [
+    {"text": "she had a lot of free time.", "is_correct": false, "why_wrong": "'So' introduces a result of studying hard. Free time does not logically follow from studying all year."},
+    {"text": "she forgot everything by morning.", "is_correct": false, "why_wrong": "This describes a memory problem, not the result of studying hard for a long time."},
+    {"text": "she passed the final exam with good marks.", "is_correct": true, "why_wrong": null},
+    {"text": "she decided to stop studying forever.", "is_correct": false, "why_wrong": "This contradicts the cause-and-result pattern set up by 'studied hard all year'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so'",
+  "connector": "so",
+  "explanation": "The word 'so' introduces the result of the first clause. Hard study is the cause, so the result must be a logical outcome such as passing an exam. Turkish speakers may find it natural to place the result before the connector, so practise keeping 'so' between the cause and the result.",
+  "translation": "Bütün yıl çok çalıştı, bu yüzden final sınavını iyi notlarla geçti."
+}
