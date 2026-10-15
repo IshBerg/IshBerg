@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Uma ponte geralmente é construída para atravessar um rio, por isso as duas palavras estão diretamente ligadas no significado."},
+    {"word": "tunnel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Pontes e túneis pertencem ao mesmo tema de infraestrutura de transporte, que permite atravessar obstáculos."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Pão não tem relação com pontes, nem pelo significado, nem pelo tema, nem pelas expressões comuns."},
+    {"word": "cable", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Cabos de aço são elementos comuns em pontes suspensas, e a combinação aparece com frequência em textos técnicos."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Tapete não tem ligação direta com pontes em significado, tema ou colocação."},
+    {"word": "pilot", "is_associated": false, "association_type": "NONE", "explanation": "Piloto está associado a aviões e navios, e não a pontes, por isso não é uma associação válida aqui."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'bridge' está associada a palavras de travessia, infraestrutura e engenharia, como rio, túnel e cabo, enquanto as demais palavras pertencem a contextos sem relação com pontes."
+}

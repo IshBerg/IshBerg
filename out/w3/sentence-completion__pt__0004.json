@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is widely reported that",
+  "correct_completion": "the new policy has reduced costs significantly.",
+  "full_sentence": "It is widely reported that the new policy has reduced costs significantly.",
+  "acceptable_variants": ["the new policy has lowered costs considerably.", "the new policy has cut costs substantially."],
+  "options": [
+    {"text": "reducing costs significantly the policy.", "is_correct": false, "why_wrong": "The word order is wrong. In a that-clause the subject must come before the verb."},
+    {"text": "that the policy reduce costs significantly.", "is_correct": false, "why_wrong": "The stem already ends with 'that', so repeating it creates a double connector."},
+    {"text": "the policy would reduce costs, if it were approved.", "is_correct": false, "why_wrong": "This introduces a conditional, which the impersonal reporting frame does not call for."},
+    {"text": "the new policy has reduced costs significantly.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Impersonal passive reporting structure ('it is reported that') followed by a present perfect that-clause",
+  "connector": "that",
+  "explanation": "The impersonal passive 'it is reported that' is followed by a full finite clause with its own subject and verb. The present perfect shows a result that is relevant to the present. Speakers whose first language uses a different reporting pattern may be tempted to use a bare infinitive or a repeated connector, so practise the full that-clause form.",
+  "translation": "Há amplos relatos de que a nova política reduziu os custos de forma significativa."
+}
