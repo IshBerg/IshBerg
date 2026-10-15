@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He admitted that he had forgotten the meeting,",
+  "correct_completion": "and he apologized to everyone.",
+  "full_sentence": "He admitted that he had forgotten the meeting, and he apologized to everyone.",
+  "acceptable_variants": ["and he said sorry to everyone.", "and he offered an apology."],
+  "options": [
+    {"text": "so he will attend the meeting now.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem reports a past admission of a mistake, so a future plan does not complete it."},
+    {"text": "and he apologized to everyone.", "is_correct": true, "why_wrong": null},
+    {"text": "although he remembered it clearly.", "is_correct": false, "why_wrong": "'Although' signals contrast, but this contradicts the stem, which says he had forgotten the meeting."},
+    {"text": "he was never late for work.", "is_correct": false, "why_wrong": "This is a true-sounding statement, but it does not continue the report of an admission about the meeting."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Reporting verb 'admit' with a that-clause, followed by a coordinated clause with 'and'",
+  "connector": "and",
+  "explanation": "The verb 'admitted' reports a confession, so the continuation should show the natural response to that admission. Spanish speakers may keep the same tense in both clauses, but English usually places the reported event in the past perfect after a past reporting verb.",
+  "translation": "Admitió que había olvidado la reunión y se disculpó con todos."
+}
