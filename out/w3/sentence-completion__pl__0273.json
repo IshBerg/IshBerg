@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Given the limited sample size,",
+  "correct_completion": "the findings should be interpreted with some caution.",
+  "full_sentence": "Given the limited sample size, the findings should be interpreted with some caution.",
+  "acceptable_variants": ["the conclusions ought to be treated tentatively.", "the findings may well be only provisional."],
+  "options": [
+    {"text": "the findings are beyond any doubt.", "is_correct": false, "why_wrong": "Absolute certainty contradicts the hedged reasoning that a limited sample size invites."},
+    {"text": "the findings should be interpreted with some caution.", "is_correct": true, "why_wrong": null},
+    {"text": "the researchers have conclusively disproven the hypothesis.", "is_correct": false, "why_wrong": "A conclusive refutation does not follow from a limited sample, so the claim is unsupported by the stem."},
+    {"text": "the study must have been flawless in every respect.", "is_correct": false, "why_wrong": "This is an overstated judgment that ignores the caution signalled by 'limited'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Hedging with modal verbs and cautious reasoning",
+  "connector": "given",
+  "explanation": "The participle-like opening 'Given' signals a condition that restricts how strongly the main clause can claim certainty. The completion must therefore use a cautious modal construction. Learners sometimes choose a categorical statement, which ignores the hedging logic. Polish speakers may translate modal certainty directly from their own language and overstate claims in English, so the hedged form is the target.",
+  "translation": "Biorąc pod uwagę ograniczoną wielkość próby, wyniki należy interpretować z pewną ostrożnością."
+}

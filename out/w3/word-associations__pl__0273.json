@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "THEMATIC", "explanation": "Mosty zwykle przerzucają się nad rzekami, dlatego słowo jest tematycznie powiązane z mostem."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Poduszka nie ma żadnego związku z mostami ani z konstrukcjami inżynierskimi."},
+    {"word": "arch", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Łuk jest elementem konstrukcyjnym wielu mostów, stąd bezpośredni związek znaczeniowy."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Wulkan to formacja geologiczna i nie ma związku z konstrukcjami mostowymi."},
+    {"word": "toll", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'toll bridge' oznacza most płatny, więc słowo tworzy typową kolokację z rzeczownikiem bridge."},
+    {"word": "candle", "is_associated": false, "association_type": "NONE", "explanation": "Świeca nie ma związku z mostami ani z ich budową czy użytkowaniem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'bridge' kojarzy się z konstrukcją łączącą dwa brzegi, z terenem, który most przecina, oraz z terminami z zakresu inżynierii i opłat drogowych."
+}
