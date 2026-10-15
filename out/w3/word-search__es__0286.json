@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "E", "N", "D", "Q", "X", "V", "Z", "E"],
+    ["A", "R", "L", "K", "W", "B", "Z", "G", "M"],
+    ["Y", "U", "C", "H", "A", "T", "L", "K", "O"],
+    ["F", "G", "D", "R", "W", "S", "Y", "B", "J"],
+    ["P", "K", "M", "Z", "T", "L", "Q", "W", "I"],
+    ["V", "H", "K", "L", "X", "M", "R", "B", "N"],
+    ["R", "Y", "O", "L", "S", "D", "M", "K", "Z"],
+    ["L", "S", "W", "N", "E", "Q", "T", "P", "C"],
+    ["B", "U", "K", "Q", "E", "Z", "F", "W", "G"]
+  ],
+  "words_to_find": ["SEND", "EMOJI", "PHONE", "CHAT"],
+  "word_positions": [
+    {"word": "SEND", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EMOJI", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "PHONE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CHAT", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Text Messages"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "exam",
+  "all_words": [
+    {"word": "question", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un examen está formado por preguntas que el estudiante debe responder."},
+    {"word": "tutor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un tutor suele ayudar a los estudiantes a preparar un examen en casa."},
+    {"word": "lunch", "is_associated": false, "association_type": "NONE", "explanation": "El almuerzo es una comida y no tiene relación directa con el mundo de los exámenes."},
+    {"word": "score", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se dice 'exam score' para hablar de la puntuación obtenida en un examen."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "El jardín es un lugar al aire libre sin relación con la preparación o la evaluación académica."},
+    {"word": "paper", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se dice 'exam paper' para referirse al documento con las preguntas de un examen."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'exam' se asocia con preguntas, tutores, puntuaciones y documentos de examen, mientras que 'lunch' y 'garden' no tienen relación con el tema."
+}
