@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "They have lived in this house",
+  "correct_completion": "for ten years.",
+  "full_sentence": "They have lived in this house for ten years.",
+  "acceptable_variants": ["for almost ten years.", "since 2014."],
+  "options": [
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a finished past time, which does not match the present perfect in this sentence."},
+    {"text": "when they were children.", "is_correct": false, "why_wrong": "This refers to a finished past period, but the present perfect describes an action that continues now."},
+    {"text": "for ten years.", "is_correct": true, "why_wrong": null},
+    {"text": "ago for ten years.", "is_correct": false, "why_wrong": "'Ago' is used with the simple past, not with the present perfect, so it does not fit this stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'for' and 'since'",
+  "connector": "for",
+  "explanation": "The present perfect describes a situation that started in the past and continues now. 'For' introduces a length of time, so 'for ten years' completes the sentence. Spanish speakers often use the simple past here because the Spanish past tense can express a similar idea, but English needs the present perfect to show that the action continues.",
+  "translation": "Ellos han vivido en esta casa durante diez años."
+}
