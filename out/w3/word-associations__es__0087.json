@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "ticket", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un billete es un documento que se necesita para tomar un vuelo en el aeropuerto."},
+    {"word": "pilot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El piloto es la persona que conduce el avión que sale del aeropuerto."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Un jardín no tiene relación con los viajes en avión ni con los aeropuertos."},
+    {"word": "flight", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un vuelo es el viaje en avión que se toma desde un aeropuerto."},
+    {"word": "soup", "is_associated": false, "association_type": "NONE", "explanation": "La sopa es comida y no tiene ninguna relación con el aeropuerto."},
+    {"word": "passport", "is_associated": true, "association_type": "THEMATIC", "explanation": "El pasaporte es un documento que se muestra en el control del aeropuerto antes de volar."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas al aeropuerto son las relacionadas con viajar en avión: documentos, personas del vuelo y el propio viaje. Las demás palabras pertenecen a otros contextos."
+}
