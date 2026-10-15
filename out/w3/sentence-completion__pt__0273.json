@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While she was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While she was cooking dinner, the phone rang.",
+  "acceptable_variants": ["the doorbell rang.", "someone knocked on the door."],
+  "options": [
+    {"text": "she cooks dinner every night.", "is_correct": false, "why_wrong": "The present simple does not fit the past time frame set by 'while' and the past continuous stem."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "the phone ringed.", "is_correct": false, "why_wrong": "'Ring' is an irregular verb, so its past simple form is 'rang', not 'ringed'."},
+    {"text": "she has finished dinner.", "is_correct": false, "why_wrong": "The present perfect cannot follow the past continuous in this pattern, because it does not describe a completed past event that interrupts the background action."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous interrupted by past simple",
+  "connector": "while",
+  "explanation": "The past continuous describes the longer background action, and the past simple describes the shorter action that interrupts it. Portuguese speakers may use two past simple verbs here, because Portuguese often uses the imperfect and the simple past in a similar way, but English needs the past continuous for the background action.",
+  "translation": "Enquanto ela cozinhava o jantar, o telefone tocou."
+}
