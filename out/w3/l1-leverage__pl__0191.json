@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up-to-date"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, pleasant"},
+    {"word": "fabryka", "transliteration": "fabryka", "meaning": "factory"}
+  ],
+  "english_words": ["nice", "current", "factory", "possibly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These look-alike words developed different meanings in each language, so their forms appear similar while their senses diverge. Learners can be misled into choosing the English look-alike instead of the true meaning.",
+  "false_friend_warning": "False friend trap: the Polish word aktualny looks like the English word 'actual', but it means 'current' or 'up-to-date'. 'Actual' means 'real', so these two must not be matched."
+}

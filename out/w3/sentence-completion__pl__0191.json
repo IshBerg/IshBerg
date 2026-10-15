@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the initial setbacks,",
+  "correct_completion": "the team completed the project ahead of schedule.",
+  "full_sentence": "Despite the initial setbacks, the team completed the project ahead of schedule.",
+  "acceptable_variants": ["the team still finished the project on time.", "the project was nevertheless delivered on schedule."],
+  "options": [
+    {"text": "so the team had to abandon the project altogether.", "is_correct": false, "why_wrong": "'Despite' signals contrast with the setbacks, but 'so' introduces a consequence that does not contrast with them."},
+    {"text": "the setbacks were recorded in the report.", "is_correct": false, "why_wrong": "This describes the setbacks again rather than the outcome, so it does not complete the contrast started by 'despite'."},
+    {"text": "the team completed the project ahead of schedule.", "is_correct": true, "why_wrong": null},
+    {"text": "because the setbacks were minor.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which conflicts with 'despite', and the stem requires a contrasting result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' followed by a contrasting main clause",
+  "connector": "despite",
+  "explanation": "After 'despite', the main clause must contrast with the difficulties mentioned in the stem. Learners may be tempted to use a cause connector here, because the stem reads like a reason, but 'despite' signals concession instead.",
+  "translation": "Mimo wstępnych niepowodzeń zespół ukończył projekt przed terminem."
+}
