@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ice",
+  "all_words": [
+    {"word": "cold", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gelo é sempre frio, por isso há uma ligação semântica direta entre as duas palavras."},
+    {"word": "skate", "is_associated": true, "association_type": "THEMATIC", "explanation": "Patinação costuma acontecer sobre gelo, por isso as duas palavras pertencem ao mesmo tema."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Violão é um instrumento musical sem relação com gelo, por isso não está associado."},
+    {"word": "party", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'quebrar o gelo' é usada em festas para iniciar conversas, formando uma colocação comum."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Travesseiro é um objeto do quarto e não tem relação com gelo."},
+    {"word": "lemon", "is_associated": false, "association_type": "NONE", "explanation": "Limão é uma fruta sem relação com o tema do gelo."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao gelo incluem o frio, a patinação e a expressão 'quebrar o gelo' usada em festas. Objetos e alimentos sem relação com o tema não estão associados."
+}

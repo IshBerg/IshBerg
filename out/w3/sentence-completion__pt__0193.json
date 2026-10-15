@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Lessons over,",
+  "correct_completion": "the students rushed out of the classroom.",
+  "full_sentence": "Lessons over, the students rushed out of the classroom.",
+  "acceptable_variants": ["the students hurried out of the classroom.", "the students left the building quickly."],
+  "options": [
+    {"text": "so the students rushed out of the classroom.", "is_correct": false, "why_wrong": "'So' introduces a result clause. An absolute phrase is followed directly by the main clause, not by a linking word."},
+    {"text": "the students rushed out of the classroom.", "is_correct": true, "why_wrong": null},
+    {"text": "because the students rushed out of the classroom.", "is_correct": false, "why_wrong": "'Because' introduces a subordinate clause, so the sentence still lacks a main clause after the absolute phrase."},
+    {"text": "the students rushing out of the classroom.", "is_correct": false, "why_wrong": "This is a participle phrase with no finite verb, so it cannot function as the main clause of the sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Absolute (verbless) clauses followed by a main clause",
+  "connector": "absolute phrase",
+  "explanation": "An absolute phrase has its own subject but no finite verb, and it is followed by a main clause with a subject and verb. Learners often add a linking word such as 'so' or 'because' here, which breaks the structure of the absolute phrase.",
+  "translation": "Com as aulas terminadas, os alunos saíram correndo da sala."
+}
