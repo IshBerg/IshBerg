@@ -1,0 +1,14 @@
+{
+  "trigger_word": "layoff",
+  "all_words": [
+    {"word": "restructuring", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Restructuring, yani yeniden yapılandırma, işten çıkarmayı yumuşatarak ifade etmek için kullanılan bir eş anlamlıdır."},
+    {"word": "severance", "is_associated": true, "association_type": "THEMATIC", "explanation": "Severance, yani kıdem tazminatı, işten çıkarma konusuyla doğrudan ilgili bir kavramdır."},
+    {"word": "dismissal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dismissal, yani işten çıkarma, layoff ile aynı anlamı taşıyan doğrudan bir kelimedir."},
+    {"word": "vacation", "is_associated": false, "association_type": "NONE", "explanation": "Vacation, yani tatil, işten çıkarma ile anlamsal bir bağı olmayan bir kelimedir."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "Lantern, yani fener, işten çıkarma kavramıyla hiçbir anlam bağı kurmayan bir kelimedir."},
+    {"word": "payroll", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Payroll, yani bordro, 'cut from payroll' gibi ifadelerde layoff ile sıkça birlikte kullanılır."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Layoff, şirketlerin çalışanlarını işten çıkarırken kullandığı yumuşatılmış bir ifadedir; bu yüzden ilişkili kelimeler ya aynı anlama gelen terimler ya da işten çıkarma sürecinin parçaları olan kelimelerdir."
+}

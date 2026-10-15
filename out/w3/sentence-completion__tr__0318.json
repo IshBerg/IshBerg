@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though she had studied all night,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Even though she had studied all night, she still failed the exam.",
+  "acceptable_variants": ["she still did not pass the test.", "she did not get a good score."],
+  "options": [
+    {"text": "so she felt very tired the next morning.", "is_correct": false, "why_wrong": "'Even though' shows contrast, but this clause gives a result, which needs a connector such as 'so' rather than a contrast."},
+    {"text": "she went to bed early that night.", "is_correct": false, "why_wrong": "This describes what she did, but it does not contrast with the effort of studying all night."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she was tired from the long day.", "is_correct": false, "why_wrong": "This gives a reason-like detail, but it does not provide the unexpected outcome that 'even though' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', we need a clause that shows an outcome against what was expected from the first part of the sentence. Turkish speakers often reach for a result connector like 'so' here, because Turkish concessive structures are built differently, so the English contrast must be signalled explicitly.",
+  "translation": "Bütün gece ders çalışmış olmasına rağmen, yine de sınavı geçemedi."
+}
