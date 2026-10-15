@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the company invested in proper safety training,",
+  "correct_completion": "the accident would almost certainly have been avoided.",
+  "full_sentence": "Had the company invested in proper safety training, the accident would almost certainly have been avoided.",
+  "acceptable_variants": ["the accident would not have happened.", "the outcome would have been very different."],
+  "options": [
+    {"text": "the accident happens every year.", "is_correct": false, "why_wrong": "This is a general present statement and does not complete the past hypothetical set up by the inverted 'Had' clause."},
+    {"text": "the accident would happen again tomorrow.", "is_correct": false, "why_wrong": "The main clause must refer back to the past condition, so a present or future form does not fit this third conditional."},
+    {"text": "the accident would almost certainly have been avoided.", "is_correct": true, "why_wrong": null},
+    {"text": "the accident had been avoided.", "is_correct": false, "why_wrong": "The main clause needs 'would have' plus a past participle to express the result of the unreal past condition; 'had been avoided' gives no conditional result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had' replacing 'If ... had'",
+  "connector": "had",
+  "explanation": "In an inverted conditional, 'Had' plus subject and past participle replaces 'If ... had'. The main clause then uses 'would have' plus a past participle to describe the unreal past result. Polish speakers often reach for a simple conditional form here, but English requires 'would have' to match the past condition.",
+  "translation": "Gdyby firma zainwestowała w odpowiednie szkolenia z bezpieczeństwa, wypadek niemal na pewno zostałby uniknięty."
+}
