@@ -1,0 +1,14 @@
+{
+  "trigger_word": "Sunday",
+  "all_words": [
+    {"word": "weekend", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Weekend' é o fim de semana, período que inclui o domingo, por isso está fortemente ligado ao dia."},
+    {"word": "sun", "is_associated": true, "association_type": "PHONETIC", "explanation": "'Sun' é o início da palavra 'Sunday' e tem som parecido, por isso a associação é fonética."},
+    {"word": "school", "is_associated": false, "association_type": "NONE", "explanation": "'School' é a escola, que normalmente não funciona no domingo, então não tem relação com o dia."},
+    {"word": "family", "is_associated": true, "association_type": "THEMATIC", "explanation": "Muitas famílias se reúnem no domingo, por isso 'family' tem relação temática com o dia."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "'Computer' é o computador, um objeto que não tem ligação específica com o domingo."},
+    {"word": "lunch", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Sunday lunch' é uma expressão comum que significa o almoço de domingo, por isso forma uma colocação natural."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'Sunday' são as ligadas ao fim de semana, ao som do nome do dia e aos hábitos de domingo. As demais palavras não têm relação com o dia."
+}
