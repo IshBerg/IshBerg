@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the proposal seemed ambitious,",
+  "correct_completion": "the committee approved it unanimously.",
+  "full_sentence": "Although the proposal seemed ambitious, the committee approved it unanimously.",
+  "acceptable_variants": ["the committee still approved it.", "the committee nevertheless supported it."],
+  "options": [
+    {"text": "so the committee rejected it immediately.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause. A rejection that follows from the ambition would need 'because' or 'so' with a reason."},
+    {"text": "the committee approved it unanimously.", "is_correct": true, "why_wrong": null},
+    {"text": "the budget was discussed for several hours.", "is_correct": false, "why_wrong": "This adds background information but does not complete the contrast that 'although' introduces."},
+    {"text": "it was submitted in the spring.", "is_correct": false, "why_wrong": "This states a timing detail that does not contrast with the idea of the proposal seeming ambitious."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a result that contrasts with the first part of the sentence. Learners often mix up concessive and causal connectors, so they should check whether the second clause goes against expectation.",
+  "translation": "Хоча пропозиція здавалася амбітною, комітет одноголосно її схвалив."
+}
