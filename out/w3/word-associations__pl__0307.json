@@ -1,0 +1,14 @@
+{
+  "trigger_word": "quill",
+  "all_words": [
+    {"word": "ink", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Atrament jest substancją używaną razem z piórem do pisania, więc ma ścisły związek znaczeniowy z tym słowem."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktor to maszyna rolnicza i nie ma żadnego związku z pisaniem piórem."},
+    {"word": "parchment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Pergamin był dawniej materiałem do pisania, więc łączy się z piórem tematycznie, w świecie dawnych ksiąg."},
+    {"word": "helmet", "is_associated": false, "association_type": "NONE", "explanation": "Hełm jest częścią zbroi i nie należy do świata pisania ani literatury."},
+    {"word": "scribe", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Skryba to osoba, która dawniej pisała ręcznie, więc ma bezpośredni związek znaczeniowy z piórem."},
+    {"word": "mirror", "is_associated": false, "association_type": "NONE", "explanation": "Lustro nie ma związku z pisaniem ani z dawną literaturą."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z piórem dotyczą pisania, materiałów do pisania i osób, które pisały ręcznie, natomiast pozostałe słowa należą do innych dziedzin."
+}
