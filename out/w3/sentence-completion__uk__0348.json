@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the experiment failed twice,",
+  "correct_completion": "the researchers achieved a significant discovery.",
+  "full_sentence": "Although the experiment failed twice, the researchers achieved a significant discovery.",
+  "acceptable_variants": ["the team still reached a useful conclusion.", "the researchers achieved a major breakthrough."],
+  "options": [
+    {"text": "the researchers abandoned the study.", "is_correct": false, "why_wrong": "'Although' signals that the outcome contrasts with the failures; abandoning the study is consistent with them, so it does not create a contrast."},
+    {"text": "the researchers achieved a significant discovery.", "is_correct": true, "why_wrong": null},
+    {"text": "so the funding was increased.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. The connector 'although' requires a clause that goes against the expectation set by the first part."},
+    {"text": "the failures were recorded in a report.", "is_correct": false, "why_wrong": "This adds information about the failures but does not give the contrasting outcome expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and nominal phrases",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. The noun phrase 'a significant discovery' packs the outcome into one nominal unit, which is typical of academic style. Ukrainian speakers may write a full verb clause here, but English prefers the compact noun phrase.",
+  "translation": "Хоча експеримент двічі провалився, дослідники зробили значне відкриття."
+}
