@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["P", "R", "O", "B", "L", "E", "M", "Q", "S"],
+    ["K", "J", "T", "U", "D", "Z", "C", "W", "O"],
+    ["A", "G", "H", "B", "T", "Y", "X", "U", "L"],
+    ["D", "N", "F", "Q", "H", "C", "K", "Z", "V"],
+    ["J", "P", "S", "M", "W", "I", "Q", "T", "E"],
+    ["B", "V", "G", "W", "L", "D", "N", "Y", "K"],
+    ["T", "Z", "M", "H", "E", "A", "C", "J", "Q"],
+    ["F", "W", "X", "B", "K", "R", "T", "P", "D"],
+    ["H", "Z", "F", "I", "X", "Q", "U", "N", "M"]
+  ],
+  "words_to_find": ["PROBLEM", "SOLVE", "ANSWER", "FIX"],
+  "word_positions": [
+    {"word": "PROBLEM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SOLVE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "ANSWER", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FIX", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Problems and Solutions"
+}
