@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the new policy was widely criticised,",
+  "correct_completion": "it was never officially withdrawn.",
+  "full_sentence": "Although the new policy was widely criticised, it was never officially withdrawn.",
+  "acceptable_variants": ["no official statement was ever issued to cancel it.", "it remained in force until the end of the year."],
+  "options": [
+    {"text": "the government was praised for it.", "is_correct": false, "why_wrong": "This is passive, but it reinforces the idea of approval rather than contrasting with the criticism."},
+    {"text": "so it was quickly withdrawn.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a clause that contrasts with the first part."},
+    {"text": "it was never officially withdrawn.", "is_correct": true, "why_wrong": null},
+    {"text": "the minister was criticised for it.", "is_correct": false, "why_wrong": "This is passive but repeats the idea of criticism instead of contrasting with it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Passive voice after a concessive clause with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first part of the sentence. Here the passive 'was never withdrawn' contrasts with the criticism. Learners may repeat the same idea in the second clause, because they expect the clauses to support each other.",
+  "translation": "Aunque la nueva política fue muy criticada, nunca fue retirada oficialmente."
+}
