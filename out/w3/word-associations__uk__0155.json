@@ -1,0 +1,14 @@
+{
+  "trigger_word": "forest",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Дерево є основною частиною лісу, тому це слово має пряме смислове значення, пов'язане з лісом."},
+    {"word": "city", "is_associated": false, "association_type": "NONE", "explanation": "Місто є населеним пунктом із вулицями й будинками, а не природним середовищем, тому слово не пов'язане з лісом."},
+    {"word": "wolf", "is_associated": true, "association_type": "THEMATIC", "explanation": "Вовк живе в лісах, тому слово тематично пов'язане з лісом."},
+    {"word": "phone", "is_associated": false, "association_type": "NONE", "explanation": "Телефон є побутовим предметом і не має відношення до лісу, тому слово не пов'язане."},
+    {"word": "path", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення forest path, лісова стежка, є природним поєднанням слів в англійській мові."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Хліб не пов'язаний з лісом і не є частиною лісового середовища, тому слово не пов'язане."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово forest пов'язане з деревами, тваринами й природними місцями, тоді як міські предмети та побутові речі з ним не пов'язані."
+}

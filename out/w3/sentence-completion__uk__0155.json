@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "By the time we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had already departed.", "the last train had already gone."],
+  "options": [
+    {"text": "the train leaves in ten minutes.", "is_correct": false, "why_wrong": "The present tense describes a future event and does not show that the train left before we arrived."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null},
+    {"text": "we will catch the train.", "is_correct": false, "why_wrong": "The future tense does not match the past time frame set by 'By the time we arrived'."},
+    {"text": "the train was leaving then.", "is_correct": false, "why_wrong": "The past continuous describes an action in progress at that moment, not a completed action that happened before our arrival."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past perfect with 'by the time' for an action completed before another past action",
+  "connector": "by the time",
+  "explanation": "'By the time' links two past events. The earlier event, the train leaving, uses the past perfect, while the later event, our arrival, uses the simple past.",
+  "translation": "Коли ми прибули на вокзал, потяг уже відійшов."
+}
