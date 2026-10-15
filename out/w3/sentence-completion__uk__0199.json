@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the report, she sent it to her manager.",
+  "acceptable_variants": ["she submitted it before the deadline.", "she closed her laptop and went home."],
+  "options": [
+    {"text": "the printer broke down suddenly.", "is_correct": false, "why_wrong": "The participle clause 'Having finished' refers to the main subject, 'she'. A printer cannot be the one who finished the report, so the clauses do not match."},
+    {"text": "she was still writing the introduction.", "is_correct": false, "why_wrong": "'Having finished' shows the action is already complete, so continuing to write contradicts the stem."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "the coffee machine was empty.", "is_correct": false, "why_wrong": "This is unrelated to the completed report, so it does not form a logical result of the participle clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses of a completed action with 'having + past participle'",
+  "connector": "having finished",
+  "explanation": "A participle clause introduced by 'having finished' describes an action completed before the main action. The main clause must have the same subject, so the completion should be something the same person does next. Ukrainian speakers often use a full clause with a conjunction here, but English prefers the compact participle form.",
+  "translation": "Закінчивши звіт, вона надіслала його своєму керівникові."
+}
