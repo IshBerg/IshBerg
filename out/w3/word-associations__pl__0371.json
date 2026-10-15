@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Mosty zwykle łączą brzegi rzeki, dlatego te dwa słowa są ze sobą bezpośrednio powiązane znaczeniem."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino nie ma żadnego związku z mostem ani z jego budową czy funkcją."},
+    {"word": "engineer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Inżynier projektuje i buduje mosty, więc słowo należy do tego samego tematu."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Poduszka nie łączy się z mostem ani znaczeniowo, ani tematycznie."},
+    {"word": "tunnel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Tunel i most to dwie konstrukcje służące do pokonywania przeszkód, np. rzek czy gór."},
+    {"word": "cabbage", "is_associated": false, "association_type": "NONE", "explanation": "Kapusta nie ma żadnego związku z mostem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'bridge' kojarzy się z rzeką, inżynierem i tunelem jako elementami infrastruktury i transportu; pozostałe słowa nie mają z nim związku."
+}

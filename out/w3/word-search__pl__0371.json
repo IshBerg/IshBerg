@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["G", "E", "N", "R", "E", "Z", "A", "Q", "B", "K"],
+    ["P", "L", "M", "D", "W", "U", "J", "X", "Z", "A"],
+    ["S", "H", "I", "F", "T", "X", "T", "Q", "W", "P"],
+    ["K", "D", "R", "M", "V", "B", "O", "Z", "J", "U"],
+    ["W", "Q", "A", "Z", "L", "H", "N", "P", "D", "K"],
+    ["S", "M", "K", "P", "R", "D", "E", "Q", "W", "A"],
+    ["Q", "T", "J", "K", "M", "B", "N", "C", "X", "R"],
+    ["M", "N", "Y", "X", "Q", "Z", "W", "K", "B", "F"],
+    ["P", "Z", "G", "L", "J", "E", "C", "I", "O", "V"],
+    ["K", "W", "B", "Q", "E", "X", "H", "U", "M", "D"]
+  ],
+  "words_to_find": ["GENRE", "TONE", "STYLE", "VOICE", "SHIFT"],
+  "word_positions": [
+    {"word": "GENRE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TONE", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "STYLE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "VOICE", "start_row": 8, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SHIFT", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Cross-Genre Style Adaptation"
+}
