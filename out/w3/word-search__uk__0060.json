@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["B", "E", "C", "A", "U", "S", "E"],
+    ["Q", "R", "T", "Z", "M", "U", "X"],
+    ["B", "J", "K", "P", "F", "N", "A"],
+    ["U", "G", "W", "Y", "H", "L", "N"],
+    ["T", "C", "V", "O", "R", "E", "D"],
+    ["A", "F", "I", "K", "M", "S", "Q"],
+    ["W", "H", "I", "L", "E", "S", "Z"]
+  ],
+  "words_to_find": ["BECAUSE", "UNLESS", "WHILE", "AND", "BUT"],
+  "word_positions": [
+    {"word": "BECAUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "UNLESS", "start_row": 1, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "WHILE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "AND", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BUT", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Linking Words and Connectors"
+}
