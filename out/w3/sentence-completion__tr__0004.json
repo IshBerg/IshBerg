@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the report, she sent it to her manager.",
+  "acceptable_variants": ["she then forwarded it to her manager.", "she emailed it to her boss."],
+  "options": [
+    {"text": "she was sent it to her manager.", "is_correct": false, "why_wrong": "The subject 'she' is the one who finished the report, so the active voice is needed. 'Was sent' wrongly makes her the recipient of an action."},
+    {"text": "she is finishing the review tomorrow.", "is_correct": false, "why_wrong": "The present continuous contradicts the perfect participle 'Having finished', which refers to an action completed before the main clause."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "the manager has already left the office.", "is_correct": false, "why_wrong": "The participle clause must refer to the subject of the main clause. Here the manager did not finish the report, so the sentence contains a dangling modifier."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect participle clauses with 'having + past participle'",
+  "connector": "having finished",
+  "explanation": "The perfect participle clause 'Having finished the report' shows an action completed before the main action. The main clause subject must be the person who finished the report, and the main verb must be in the active past tense. Learners often need to check that the subject of the participle matches the subject of the main clause.",
+  "translation": "Raporu bitirdikten sonra, onu müdürüne gönderdi."
+}

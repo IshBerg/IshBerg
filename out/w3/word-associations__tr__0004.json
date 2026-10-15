@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hemşire, hastanede çalışan bir sağlık personelidir, bu yüzden hastane ile doğrudan bağlantılıdır."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitar hastane ile ilgili bir kavram değildir ve ikisi arasında bir bağlantı yoktur."},
+    {"word": "patient", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hasta, hastanede tedavi gören kişidir ve hastane ortamının temel parçasıdır."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "Okyanus hastane ile ilgili değildir; ikisi arasında anlamsal bir bağ yoktur."},
+    {"word": "syringe", "is_associated": true, "association_type": "THEMATIC", "explanation": "Şırınga, hastanede kullanılan tıbbi bir alettir."},
+    {"word": "trumpet", "is_associated": false, "association_type": "NONE", "explanation": "Trompet hastane ile ilgili değildir ve bu kelime ile herhangi bir ilişkisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Hastane ile ilgili kelimeler sağlık hizmeti, sağlık personeli ve tıbbi malzemeler etrafında toplanır."
+}
