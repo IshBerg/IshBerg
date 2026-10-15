@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "marmolada", "transliteration": "marmolada", "meaning": "jam"},
+    {"word": "karton", "transliteration": "karton", "meaning": "cardboard box"},
+    {"word": "dyskont", "transliteration": "dyskont", "meaning": "discount store"},
+    {"word": "ekspedient", "transliteration": "ekspedient", "meaning": "shop assistant"}
+  ],
+  "english_words": ["shop assistant", "jam", "cardboard box", "discount store"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Polish words look like English words with a familiar spelling, but their meanings in Polish differ from the English look-alikes, so the similarity can mislead the student.",
+  "false_friend_warning": "Each Polish word looks like an English word but means something else: the Polish word by transliteration 'marmolada' means jam, not marmalade, which is only citrus jam; 'karton' means a cardboard box, not a carton for milk or juice; 'dyskont' means a discount store, not a price reduction; and 'ekspedient' means a shop assistant, not something expedient."
+}

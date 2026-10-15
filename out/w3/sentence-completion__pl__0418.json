@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the recipe looked easy,",
+  "correct_completion": "the cake was difficult to make.",
+  "full_sentence": "Although the recipe looked easy, the cake was difficult to make.",
+  "acceptable_variants": ["the result was still a failure.", "we had to try three times."],
+  "options": [
+    {"text": "so we made it quickly.", "is_correct": false, "why_wrong": "'Although' introduces contrast, not a result. 'So' would show cause, which does not fit here."},
+    {"text": "the cake was difficult to make.", "is_correct": true, "why_wrong": null},
+    {"text": "we bought the ingredients.", "is_correct": false, "why_wrong": "This is a related action, but it does not complete the contrast that 'although' requires."},
+    {"text": "the oven was very hot.", "is_correct": false, "why_wrong": "This adds a detail but does not give the contrasting idea expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that contrasts with the first part. Here the recipe looked easy, but the result was not easy to achieve.",
+  "translation": "Chociaż przepis wyglądał na łatwy, ciasto było trudne do zrobienia."
+}
