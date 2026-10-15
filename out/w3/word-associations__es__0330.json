@@ -1,0 +1,14 @@
+{
+  "trigger_word": "happy",
+  "all_words": [
+    {"word": "smile", "is_associated": true, "association_type": "THEMATIC", "explanation": "La sonrisa es la expresión más típica de una persona feliz, por eso está muy relacionada con la palabra 'happy'."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "La silla no tiene relación con la felicidad; es un objeto para sentarse."},
+    {"word": "laugh", "is_associated": true, "association_type": "THEMATIC", "explanation": "Reír es algo que hacemos cuando estamos contentos, así que es un sentimiento asociado a la alegría."},
+    {"word": "sad", "is_associated": false, "association_type": "NONE", "explanation": "'Sad' significa triste, es lo contrario de 'happy', por eso no está asociada en este sentido."},
+    {"word": "party", "is_associated": true, "association_type": "THEMATIC", "explanation": "Una fiesta es un momento en el que la gente suele estar feliz y contenta."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El zapato no tiene ninguna relación con sentirse feliz."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'happy' se asocia con expresiones y momentos de alegría, como la sonrisa, la risa y las fiestas, pero no con objetos cotidianos."
+}

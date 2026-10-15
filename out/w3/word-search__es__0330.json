@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R", "O", "B", "O", "T", "S", "Q", "K", "D"],
+    ["J", "W", "Z", "H", "V", "M", "P", "L", "R"],
+    ["K", "Y", "X", "G", "B", "A", "W", "I", "O"],
+    ["Q", "L", "H", "P", "K", "R", "Z", "M", "N"],
+    ["C", "F", "N", "J", "Y", "T", "Q", "X", "E"],
+    ["B", "O", "K", "L", "P", "D", "G", "H", "W"],
+    ["V", "R", "D", "Y", "L", "J", "Z", "S", "M"],
+    ["Q", "N", "P", "E", "C", "H", "W", "X", "K"],
+    ["I", "L", "F", "U", "T", "U", "R", "E", "A"]
+  ],
+  "words_to_find": ["ROBOT", "DRONE", "CODE", "FUTURE", "SMART"],
+  "word_positions": [
+    {"word": "ROBOT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DRONE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CODE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FUTURE", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "SMART", "start_row": 0, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Future Technology"
+}
