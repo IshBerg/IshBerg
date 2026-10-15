@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more money,",
+  "correct_completion": "I would buy a new bike.",
+  "full_sentence": "If I had more money, I would buy a new bike.",
+  "acceptable_variants": ["I could buy a new bike.", "I might buy a new bike."],
+  "options": [
+    {"text": "I will buy a new bike tomorrow.", "is_correct": false, "why_wrong": "'Will' expresses a real plan for the future, but the stem uses the second conditional, which needs 'would' for an imagined result."},
+    {"text": "I bought a new bike last year.", "is_correct": false, "why_wrong": "The past simple describes a finished event in the past and does not fit the imagined result of a second conditional."},
+    {"text": "I would buy a new bike.", "is_correct": true, "why_wrong": null},
+    {"text": "I am buying a new bike now.", "is_correct": false, "why_wrong": "The present continuous describes an arranged or ongoing action, not an imagined result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional: if + past simple, would + base verb",
+  "connector": "if",
+  "explanation": "The second conditional describes an imaginary or unlikely present situation, so the result clause uses would with the base form of the verb. Learners often mix this with the first conditional, which uses will for real possibilities.",
+  "translation": "Gdybym miał więcej pieniędzy, kupiłbym nowy rower."
+}

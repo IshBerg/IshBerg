@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N", "E", "W", "S", "K", "J", "Q", "V", "X", "E"],
+    ["B", "C", "F", "G", "H", "L", "M", "P", "D", "U"],
+    ["Z", "A", "N", "K", "Y", "W", "B", "I", "H", "T"],
+    ["J", "X", "Q", "F", "G", "D", "T", "V", "L", "M"],
+    ["K", "P", "C", "Z", "W", "O", "Q", "F", "N", "Y"],
+    ["S", "H", "G", "U", "R", "V", "O", "X", "M", "B"],
+    ["T", "E", "J", "K", "C", "I", "W", "Z", "A", "D"],
+    ["O", "Q", "L", "N", "D", "B", "V", "K", "P", "H"],
+    ["R", "F", "M", "A", "U", "G", "T", "W", "C", "Q"],
+    ["Y", "L", "R", "X", "V", "S", "S", "E", "R", "P"]
+  ],
+  "words_to_find": ["NEWS", "EDITOR", "STORY", "PRESS", "RADIO"],
+  "word_positions": [
+    {"word": "NEWS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EDITOR", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "STORY", "start_row": 5, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "PRESS", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "RADIO", "start_row": 9, "start_col": 2, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Media and Journalism"
+}
