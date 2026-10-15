@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "океан", "transliteration": "okean", "meaning": "ocean"},
+    {"word": "континент", "transliteration": "kontynent", "meaning": "continent"},
+    {"word": "клімат", "transliteration": "klimat", "meaning": "climate"},
+    {"word": "вулкан", "transliteration": "vulkan", "meaning": "volcano"}
+  ],
+  "english_words": ["climate", "ocean", "volcano", "continent"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Greek and Latin, so the forms stayed close. The Ukrainian words are spelled in their own alphabet, but they sound very similar to the English words.",
+  "false_friend_warning": null
+}

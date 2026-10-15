@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother is taller than",
+  "correct_completion": "me.",
+  "full_sentence": "My brother is taller than me.",
+  "acceptable_variants": ["my sister.", "our dad."],
+  "options": [
+    {"text": "more tall.", "is_correct": false, "why_wrong": "'Tall' is a one-syllable adjective, so its comparative form is 'taller', not 'more tall'."},
+    {"text": "the tallest.", "is_correct": false, "why_wrong": "'The tallest' is the superlative. A comparison with 'than' needs the comparative form, 'taller'."},
+    {"text": "me.", "is_correct": true, "why_wrong": null},
+    {"text": "tall than me.", "is_correct": false, "why_wrong": "'Than' must come directly after the comparative form, so the word order is wrong."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Comparatives with 'than' (one-syllable adjectives)",
+  "connector": "than",
+  "explanation": "A one-syllable adjective takes the -er ending in the comparative, followed by 'than' and an object pronoun such as 'me'. Ukrainian speakers sometimes add 'more' before the adjective, because comparison is often shown with a separate word in their language; in English, short adjectives take the -er ending instead.",
+  "translation": "Мій брат вищий за мене."
+}
