@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N", "U", "R", "S", "E", "A", "B", "K", "Y", "C"],
+    ["Q", "W", "M", "J", "G", "L", "Z", "V", "X", "H"],
+    ["F", "K", "R", "D", "J", "P", "N", "W", "B", "E"],
+    ["Z", "Y", "H", "K", "Q", "U", "T", "M", "S", "F"],
+    ["P", "A", "G", "V", "W", "R", "X", "J", "L", "D"],
+    ["B", "I", "K", "Q", "Z", "O", "M", "T", "N", "U"],
+    ["G", "Y", "L", "W", "Q", "T", "R", "B", "V", "S"],
+    ["H", "M", "X", "O", "F", "C", "K", "W", "J", "Q"],
+    ["A", "Z", "P", "U", "T", "O", "D", "R", "Y", "N"],
+    ["K", "Q", "W", "V", "S", "D", "J", "B", "H", "L"]
+  ],
+  "words_to_find": ["NURSE", "CHEF", "PILOT", "DOCTOR"],
+  "word_positions": [
+    {"word": "NURSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHEF", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "PILOT", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DOCTOR", "start_row": 9, "start_col": 5, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Professions"
+}
