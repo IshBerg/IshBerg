@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Mary, who is my best friend,",
+  "correct_completion": "lives next door to me.",
+  "full_sentence": "Mary, who is my best friend, lives next door to me.",
+  "acceptable_variants": ["lives across the street.", "works at my school."],
+  "options": [
+    {"text": "which lives next door to me.", "is_correct": false, "why_wrong": "The sentence already has a relative clause introduced by 'who'. Adding 'which' creates a second, incorrect clause and no main verb for the subject 'Mary'."},
+    {"text": "that lives next door to me.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining clause that follows a comma. The clause 'who is my best friend' has already been completed."},
+    {"text": "she is my cousin.", "is_correct": false, "why_wrong": "This repeats the subject. 'Mary' is already the subject, so 'she' should not appear again after the relative clause."},
+    {"text": "lives next door to me.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "A non-defining clause adds extra information about a person already identified, so it is set off by commas and the main verb follows directly after it. Polish speakers often try to add a second relative pronoun or a repeated subject here, but in English the main clause needs only one subject and one verb.",
+  "translation": "Mary, która jest moją najlepszą przyjaciółką, mieszka obok mnie."
+}
