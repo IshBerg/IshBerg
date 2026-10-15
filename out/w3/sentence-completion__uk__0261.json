@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother likes football, but",
+  "correct_completion": "he doesn't like tennis.",
+  "full_sentence": "My brother likes football, but he doesn't like tennis.",
+  "acceptable_variants": ["he doesn't enjoy tennis.", "he prefers swimming."],
+  "options": [
+    {"text": "and he likes football too.", "is_correct": false, "why_wrong": "'And' adds similar information, but 'but' needs a contrast with the first part."},
+    {"text": "he likes tennis too.", "is_correct": false, "why_wrong": "This repeats the same idea as the first part, so it does not show a contrast after 'but'."},
+    {"text": "he doesn't like tennis.", "is_correct": true, "why_wrong": null},
+    {"text": "so he plays football every day.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast, and the connector 'but' needs a contrasting clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present simple: like and don't like with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the first part of the sentence. Here the contrast is between liking football and not liking tennis, so the present simple negative fits.",
+  "translation": "Мій брат любить футбол, але він не любить теніс."
+}
