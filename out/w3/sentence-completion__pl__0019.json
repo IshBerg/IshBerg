@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although he had studied all week,",
+  "correct_completion": "he still failed the exam.",
+  "full_sentence": "Although he had studied all week, he still failed the exam.",
+  "acceptable_variants": ["he still did not pass the exam.", "he nevertheless struggled with most of the questions."],
+  "options": [
+    {"text": "so he decided to study harder.", "is_correct": false, "why_wrong": "This is a result or a decision, not a contrast. 'Although' needs a clause that goes against the expectation created by the first part."},
+    {"text": "he had no time to rest.", "is_correct": false, "why_wrong": "This gives a reason for being tired, but it does not contradict the expectation created by 'although'."},
+    {"text": "he still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "the exam was very long.", "is_correct": false, "why_wrong": "This adds a fact about the exam, but it does not give the contrasting outcome expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and the contrast between effort and outcome",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must go against what the first clause leads us to expect. Studying all week normally suggests success, so the contrasting outcome is failure. Polish speakers often add a 'so' or 'because' clause here, because Polish concessive constructions are less often followed by a plain main clause without a linking word.",
+  "translation": "Mimo że uczył się cały tydzień, nadal nie zdał egzaminu."
+}

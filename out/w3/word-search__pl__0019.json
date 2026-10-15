@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["X", "Q", "R", "W", "F", "M", "N", "J", "K", "V"],
+    ["S", "P", "U", "Z", "Z", "L", "E", "N", "I", "W"],
+    ["H", "G", "Y", "B", "R", "K", "M", "V", "T", "Q"],
+    ["V", "N", "M", "J", "K", "S", "D", "W", "E", "Y"],
+    ["L", "R", "O", "C", "Z", "A", "Q", "K", "X", "F"],
+    ["D", "M", "P", "Y", "U", "G", "H", "T", "S", "N"],
+    ["F", "I", "R", "W", "N", "B", "K", "Y", "L", "G"],
+    ["Q", "W", "C", "M", "T", "H", "G", "Z", "L", "P"],
+    ["J", "S", "K", "E", "V", "B", "Y", "N", "O", "R"],
+    ["X", "Z", "W", "L", "L", "A", "B", "R", "D", "M"]
+  ],
+  "words_to_find": ["PUZZLE", "KITE", "DICE", "BALL", "DOLL"],
+  "word_positions": [
+    {"word": "PUZZLE", "start_row": 1, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "KITE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DICE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BALL", "start_row": 9, "start_col": 6, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "DOLL", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Toys and Games"
+}
