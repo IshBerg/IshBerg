@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you come to my party,",
+  "correct_completion": "we can play games together.",
+  "full_sentence": "If you come to my party, we can play games together.",
+  "acceptable_variants": ["we can dance and sing.", "we can have fun together."],
+  "options": [
+    {"text": "I will close the door now.", "is_correct": false, "why_wrong": "This action has no connection to the invitation, so the condition does not lead to it."},
+    {"text": "we can play games together.", "is_correct": true, "why_wrong": null},
+    {"text": "the party was yesterday.", "is_correct": false, "why_wrong": "This is a past fact. A first conditional needs a future result after the 'if' clause."},
+    {"text": "I like pizza very much.", "is_correct": false, "why_wrong": "This is an opinion about food. It is not a result that depends on coming to the party."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "The 'if' clause sets a condition, and the main clause gives the future result that depends on it. Portuguese speakers sometimes use a future form in the 'if' clause, but in English the 'if' clause uses the simple present for a future condition.",
+  "translation": "Se você vier à minha festa, nós podemos jogar jogos juntos."
+}
