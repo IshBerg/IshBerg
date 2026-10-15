@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "T", "O", "R", "M", "X", "Q", "Z", "P", "F"],
+    ["K", "B", "C", "D", "E", "F", "G", "H", "J", "L"],
+    ["A", "B", "C", "W", "O", "N", "S", "Y", "Z", "O"],
+    ["D", "E", "F", "G", "H", "I", "J", "K", "L", "O"],
+    ["P", "Q", "R", "T", "U", "V", "W", "X", "Y", "D"],
+    ["W", "A", "B", "C", "D", "E", "F", "G", "H", "J"],
+    ["K", "I", "M", "N", "O", "L", "P", "Q", "R", "S"],
+    ["A", "B", "N", "C", "D", "I", "E", "F", "G", "H"],
+    ["A", "B", "C", "D", "E", "A", "F", "G", "H", "I"],
+    ["A", "B", "C", "D", "E", "H", "F", "G", "I", "J"]
+  ],
+  "words_to_find": ["STORM", "FLOOD", "WIND", "SNOW", "HAIL"],
+  "word_positions": [
+    {"word": "STORM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FLOOD", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "WIND", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SNOW", "start_row": 2, "start_col": 6, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "HAIL", "start_row": 9, "start_col": 5, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Extreme Weather"
+}
