@@ -1,0 +1,14 @@
+{
+  "trigger_word": "umbrella",
+  "all_words": [
+    {"word": "rain", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Парасольку беруть, щоб захиститися від дощу, тому слово 'rain' тісно пов'язане з нею за змістом."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно є музичним інструментом і не має жодного зв'язку з парасолькою чи погодою."},
+    {"word": "open", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ми кажемо 'open an umbrella' (відкрити парасольку), це усталене словосполучення."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Пустеля є сухою місцевістю, де майже немає дощу, тому парасолька з нею не асоціюється."},
+    {"word": "storm", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гроза з сильним дощем і вітром є типовою причиною, чому беруть парасольку, тому слово тематично пов'язане."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гори не пов'язані з парасолькою ні за змістом, ні за вживанням."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'umbrella', стосуються дощу, погоди та дій із парасолькою; решта слів не мають із нею ні змістового, ні мовного зв'язку."
+}
