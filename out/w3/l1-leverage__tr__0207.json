@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "nice, likeable"},
+    {"word": "pansiyon", "transliteration": "pansiyon", "meaning": "a guesthouse or small hotel"},
+    {"word": "kolej", "transliteration": "kolej", "meaning": "a secondary school"},
+    {"word": "ajanda", "transliteration": "ajanda", "meaning": "a diary or planner"}
+  ],
+  "english_words": ["college", "diary", "nice", "guesthouse"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Turkish words look like English words they resemble in spelling, so learners tend to match them by appearance. Their meanings have shifted in Turkish, so the resemblance is misleading.",
+  "false_friend_warning": "The Turkish word sempatik looks like the English word sympathetic but means nice or likeable. The Turkish word pansiyon looks like pension but means a guesthouse. The Turkish word kolej looks like college but means a secondary school. The Turkish word ajanda looks like agenda but means a diary or planner."
+}

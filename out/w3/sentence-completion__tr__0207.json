@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Her arguments carefully prepared,",
+  "correct_completion": "she presented the case with confidence.",
+  "full_sentence": "Her arguments carefully prepared, she presented the case with confidence.",
+  "acceptable_variants": ["she argued the case with assurance.", "she made the case with confidence."],
+  "options": [
+    {"text": "the case presented with confidence.", "is_correct": false, "why_wrong": "This is another participle phrase with no finite verb, so it cannot serve as the main clause."},
+    {"text": "to present the case with confidence.", "is_correct": false, "why_wrong": "An infinitive phrase has no subject and no finite verb, so the sentence still lacks a main clause."},
+    {"text": "she presented the case with confidence.", "is_correct": true, "why_wrong": null},
+    {"text": "because she had presented the case with confidence.", "is_correct": false, "why_wrong": "'Because' turns the stem into a subordinate clause and refers to a finished action, which breaks the absolute structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbless absolute clauses followed by a main clause",
+  "connector": "absolute clause",
+  "explanation": "A verbless absolute clause has its own subject, here 'arguments', plus a participle, and it adds background to the main clause that follows. Turkish speakers may insert a finite verb into the absolute part or repeat the subject, because Turkish participial structures are often used more freely in such positions.",
+  "translation": "Argümanları özenle hazırlanmış halde, davayı özgüvenle sundu."
+}

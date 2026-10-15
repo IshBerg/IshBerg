@@ -1,0 +1,14 @@
+{
+  "trigger_word": "market",
+  "all_words": [
+    {"word": "price", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Fiyat, piyasada mal ve hizmetlerin alım satım değerini belirleyen temel unsurdur."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastığın piyasa ile bir ilgisi yoktur; ekonomik bir kavram değildir."},
+    {"word": "trader", "is_associated": true, "association_type": "THEMATIC", "explanation": "Tüccar, piyasada alım satım yapan kişidir ve aynı ekonomi alanına aittir."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Volkanın ekonomi ya da piyasa ile hiçbir bağlantısı yoktur."},
+    {"word": "stock", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Stock market ifadesindeki stock kelimesi hisse senedi anlamında piyasa ile sık birlikte kullanılır."},
+    {"word": "buyer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Alıcı, piyasada mal ya da hizmet satın alan taraftır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Market kelimesi alım satım ve ekonomi alanındaki kavramlarla güçlü bağlantılar kurar; ilgisiz kelimeler ise günlük nesnelerden seçilmiştir."
+}
