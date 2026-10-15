@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["F", "I", "D", "E", "L", "I", "T", "Y", "Q", "I"],
+    ["B", "K", "R", "W", "Z", "J", "P", "V", "G", "D"],
+    ["N", "H", "M", "T", "S", "L", "A", "F", "R", "I"],
+    ["K", "U", "Q", "B", "W", "H", "D", "S", "E", "O"],
+    ["X", "R", "A", "G", "J", "Z", "F", "V", "K", "M"],
+    ["A", "P", "T", "N", "Q", "W", "B", "H", "L", "R"],
+    ["T", "D", "S", "M", "C", "K", "V", "G", "Z", "W"],
+    ["N", "J", "R", "F", "L", "E", "H", "B", "P", "U"],
+    ["Y", "D", "C", "K", "Z", "T", "W", "M", "S", "A"],
+    ["S", "Q", "V", "N", "O", "C", "I", "X", "E", "L"]
+  ],
+  "words_to_find": ["FIDELITY", "IDIOM", "NUANCE", "LEXICON", "SYNTAX"],
+  "word_positions": [
+    {"word": "FIDELITY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IDIOM", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "NUANCE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LEXICON", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SYNTAX", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Literary Translation"
+}
