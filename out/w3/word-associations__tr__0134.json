@@ -1,0 +1,14 @@
+{
+  "trigger_word": "movie",
+  "all_words": [
+    {"word": "popcorn", "is_associated": true, "association_type": "THEMATIC", "explanation": "Film izlerken genellikle patlamış mısır yeriz, bu yüzden bu kelime film deneyimiyle ilgilidir."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Mutfak film dünyasıyla doğrudan bir bağlantısı olmayan bir yerdir, bu yüzden ilişkili değildir."},
+    {"word": "cinema", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Sinema, filmin izlendiği yerdir ve anlam olarak film kelimesine çok yakındır."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Ayakkabı film ile hiçbir anlamsal veya tematik bağlantı kurmaz."},
+    {"word": "actor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Aktör, filmde rol alan kişidir ve doğrudan film kelimesiyle ilgilidir."},
+    {"word": "ticket", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Film izlemek için bilet alırız; movie ticket ifadesi yaygın bir kullanımdır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Film kelimesi; sinema, aktör, bilet ve patlamış mısır gibi kelimelerle ve film izleme deneyimiyle ilişkilidir."
+}
