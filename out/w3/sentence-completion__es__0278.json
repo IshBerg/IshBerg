@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were you,",
+  "correct_completion": "I would talk to the teacher.",
+  "full_sentence": "If I were you, I would talk to the teacher.",
+  "acceptable_variants": ["I would ask the teacher for help.", "I would explain the problem to the teacher."],
+  "options": [
+    {"text": "I will talk to the teacher.", "is_correct": false, "why_wrong": "This sentence uses 'will', which expresses a real future plan. The advice structure 'If I were you' needs the second conditional with 'would'."},
+    {"text": "I talk to the teacher.", "is_correct": false, "why_wrong": "This is a simple present statement. The structure requires a conditional result, so the main clause needs 'would' plus the base verb."},
+    {"text": "I would talk to the teacher.", "is_correct": true, "why_wrong": null},
+    {"text": "I have talked to the teacher.", "is_correct": false, "why_wrong": "The present perfect describes a completed action linked to the present. It does not fit the hypothetical advice expressed by the second conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional giving advice with 'If I were you'",
+  "connector": "if",
+  "explanation": "The second conditional uses the past simple after 'if' and 'would' plus the base verb in the main clause. The fixed phrase 'If I were you' is used to give advice about an imagined situation. Learners often choose a present or future form because their first language does not separate hypothetical and real conditions in the same way.",
+  "translation": "Si yo fuera tú, hablaría con el profesor."
+}
