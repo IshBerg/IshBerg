@@ -1,0 +1,25 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["F", "L", "O", "U", "R", "Q", "W", "Z", "P", "E"],
+    ["J", "B", "K", "V", "C", "N", "D", "H", "T", "G"],
+    ["S", "Y", "M", "L", "P", "Z", "W", "I", "R", "G"],
+    ["X", "U", "O", "F", "K", "Q", "J", "V", "B", "N"],
+    ["L", "D", "G", "H", "E", "T", "C", "Y", "M", "W"],
+    ["P", "N", "Z", "A", "I", "O", "B", "F", "Q", "D"],
+    ["E", "V", "W", "K", "R", "T", "G", "X", "H", "U"],
+    ["K", "Y", "J", "U", "M", "Z", "L", "Q", "D", "P"],
+    ["A", "W", "C", "V", "N", "H", "F", "A", "Z", "T"],
+    ["B", "Y", "V", "X", "I", "M", "Z", "K", "S", "H"]
+  ],
+  "words_to_find": ["FLOUR", "EGG", "SUGAR", "MIX", "BAKE", "SALT"],
+  "word_positions": [
+    {"word": "FLOUR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EGG", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SUGAR", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MIX", "start_row": 9, "start_col": 5, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "BAKE", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"},
+    {"word": "SALT", "start_row": 9, "start_col": 8, "direction": "DIAGONAL_UP_LEFT"}
+  ],
+  "topic": "Recipes"
+}

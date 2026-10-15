@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the formal tone of the letter,",
+  "correct_completion": "the writer's closing remark was surprisingly warm.",
+  "full_sentence": "Despite the formal tone of the letter, the writer's closing remark was surprisingly warm.",
+  "acceptable_variants": ["the writer nevertheless ended on a personal note.", "the closing lines revealed a far more affectionate attitude."],
+  "options": [
+    {"text": "the writer's closing remark was strictly formal.", "is_correct": false, "why_wrong": "This repeats the formal register instead of contrasting with it, so the concessive 'despite' has no contrast to express."},
+    {"text": "the letter was written in slang.", "is_correct": false, "why_wrong": "Slang is the opposite of the formal tone mentioned, but it introduces a new register shift that the stem does not invite."},
+    {"text": "the writer's closing remark was surprisingly warm.", "is_correct": true, "why_wrong": null},
+    {"text": "the reader was therefore offended.", "is_correct": false, "why_wrong": "'Therefore' signals cause and effect, which does not fit the concessive meaning of 'despite'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' with register contrast",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a concession, so the completion must contrast with the formal register established in the first clause. Learners should avoid causal connectors, because the stem sets up an unexpected result rather than a consequence. Ukrainian speakers often map concession onto a looser conjunction, so they may choose a result clause with a causal feel; the contrasting clause is the target.",
+  "translation": "Попри офіційний тон листа, завершальна репліка автора була напрочуд теплою."
+}
