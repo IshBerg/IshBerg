@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Could you tell me",
+  "correct_completion": "where the station is?",
+  "full_sentence": "Could you tell me where the station is?",
+  "acceptable_variants": ["where the bus stop is?", "how far the station is?"],
+  "options": [
+    {"text": "where is the station?", "is_correct": false, "why_wrong": "Indirect questions after a phrase like 'Could you tell me' use statement word order: the subject comes before the verb."},
+    {"text": "where the station is?", "is_correct": true, "why_wrong": null},
+    {"text": "where does the station is?", "is_correct": false, "why_wrong": "This uses both an auxiliary 'does' and the verb 'is', which is not allowed in an indirect question."},
+    {"text": "the station where is?", "is_correct": false, "why_wrong": "The question word 'where' must come before the subject and verb, not after the noun, so the word order is wrong."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions: question word followed by subject and verb in statement order",
+  "connector": "where",
+  "explanation": "After a phrase such as 'Could you tell me', a question word is followed by the subject and then the verb, with no auxiliary verb. Polish speakers may keep the question word order here because Polish allows more flexible word order in questions.",
+  "translation": "Czy mógłbyś mi powiedzieć, gdzie jest stacja?"
+}
