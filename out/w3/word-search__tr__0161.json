@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["F", "R", "E", "E", "D", "O", "M", "H"],
+    ["K", "Z", "B", "W", "N", "Y", "J", "O"],
+    ["L", "Q", "V", "C", "G", "W", "X", "P"],
+    ["D", "K", "Z", "J", "B", "Q", "M", "E"],
+    ["X", "T", "R", "U", "S", "T", "Z", "V"],
+    ["P", "W", "K", "Y", "L", "N", "Q", "C"],
+    ["Z", "Q", "F", "A", "I", "T", "H", "W"],
+    ["M", "B", "X", "J", "K", "R", "V", "D"]
+  ],
+  "words_to_find": ["FREEDOM", "HOPE", "TRUST", "FAITH"],
+  "word_positions": [
+    {"word": "FREEDOM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOPE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "TRUST", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "FAITH", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Abstract Concepts"
+}

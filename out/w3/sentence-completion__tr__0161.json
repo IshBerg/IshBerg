@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If she had left earlier,",
+  "correct_completion": "she would not have missed the train.",
+  "full_sentence": "If she had left earlier, she would not have missed the train.",
+  "acceptable_variants": ["she would have caught the train.", "she could have caught the train."],
+  "options": [
+    {"text": "she missed the train yesterday.", "is_correct": false, "why_wrong": "This states a past fact, but it does not give the imagined result of an unreal past condition."},
+    {"text": "she would not have missed the train.", "is_correct": true, "why_wrong": null},
+    {"text": "she will miss the train tomorrow.", "is_correct": false, "why_wrong": "'Will' is a future form and does not match the past condition 'had left'."},
+    {"text": "she would miss the train every day.", "is_correct": false, "why_wrong": "This uses the second conditional pattern, which describes general or present situations, not a past condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: if + past perfect, would have + past participle (negative form)",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined past result. Students often confuse it with the second conditional, so they may use would plus a simple verb instead of would have plus the past participle. Turkish speakers may also need extra practice with the past perfect in the if-clause.",
+  "translation": "Daha erken çıksaydı, treni kaçırmazdı."
+}
