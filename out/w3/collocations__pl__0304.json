@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "dog",
+  "collocate": "food",
+  "full_collocation": "dog food",
+  "options": ["dog food", "food dog", "dog eat", "eat dog"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "food dog", "reason": "The word order is reversed. In English the first noun describes the second, so we say 'dog food', not 'food dog'."},
+    {"word": "dog eat", "reason": "'Eat' is a verb, not a noun, so 'dog eat' is not a noun-noun phrase and is not used in English."},
+    {"word": "eat dog", "reason": "'Eat' is a verb and the order is wrong. 'Eat dog' means something very different and is not a collocation."}
+  ],
+  "example_sentence": "I give ___ to my dog every day.",
+  "gap_position": 2,
+  "translation": "karma dla psa",
+  "l1_interference": "Polacy często przestawiają kolejność i mówią 'food dog' pod wpływem polskiego 'karma psa'. W angielskim pierwszy rzeczownik opisuje drugi, dlatego mówimy 'dog food'.",
+  "common_mistake": "food dog",
+  "explanation": "In English compound nouns, the first noun describes the second: 'dog food' is food for dogs, and 'dog house' is a house for a dog.",
+  "related_collocations": [
+    {"collocation": "cat food", "translation": "karma dla kota", "example": "We buy cat food at the shop."},
+    {"collocation": "farm animal", "translation": "zwierzę gospodarskie", "example": "A cow is a farm animal."},
+    {"collocation": "dog house", "translation": "buda dla psa", "example": "My dog sleeps in its dog house."}
+  ],
+  "memory_tip": "The first noun describes the second: DOG FOOD = food for a dog, not 'food dog'."
+}

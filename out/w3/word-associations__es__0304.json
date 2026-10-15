@@ -1,0 +1,14 @@
+{
+  "trigger_word": "newspaper",
+  "all_words": [
+    {"word": "article", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un periódico está formado por artículos, así que ambas palabras pertenecen al mismo tema."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta no tiene ninguna relación con los periódicos ni con su contenido."},
+    {"word": "editor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El editor es la persona que revisa y decide qué se publica en un periódico."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "El jardín no tiene relación con el mundo de la prensa ni con la lectura de noticias."},
+    {"word": "headline", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El titular es el encabezado de una noticia y se combina habitualmente con la palabra newspaper."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "La almohada no guarda ninguna relación con los periódicos."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con newspaper pertenecen al mundo de la prensa: artículos, redacción y titulares."
+}
