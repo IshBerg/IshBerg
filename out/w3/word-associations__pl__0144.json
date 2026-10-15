@@ -1,0 +1,14 @@
+{
+  "trigger_word": "forest",
+  "all_words": [
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Samochód nie ma bezpośredniego związku z lasem, to przedmiot kojarzony raczej z miastem."},
+    {"word": "tree", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Drzewa są głównym elementem lasu, więc to bezpośrednie skojarzenie znaczeniowe."},
+    {"word": "fox", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lisy często żyją w lasach, dlatego słowo jest powiązane tematycznie."},
+    {"word": "phone", "is_associated": false, "association_type": "NONE", "explanation": "Telefon nie ma żadnego związku z lasem."},
+    {"word": "forecast", "is_associated": true, "association_type": "PHONETIC", "explanation": "Słowo 'forecast' brzmi podobnie do słowa 'forest', dlatego łączy się z nim fonetycznie."},
+    {"word": "wood", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Drewno pochodzi z drzew, więc słowo jest znaczeniowo związane z lasem."}
+  ],
+  "correct_indices": [1, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z 'forest' dotyczą drzew, zwierząt żyjących w lesie lub podobnego brzmienia; pozostałe słowa nie mają takiego związku."
+}
