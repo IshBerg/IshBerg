@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "H", "O", "U", "L", "D", "T"],
+    ["K", "M", "B", "W", "Z", "P", "R"],
+    ["G", "R", "V", "N", "J", "C", "Y"],
+    ["F", "E", "Q", "D", "X", "B", "W"],
+    ["M", "S", "R", "E", "L", "A", "X"],
+    ["J", "T", "Q", "K", "V", "N", "Z"],
+    ["P", "W", "B", "G", "H", "C", "F"]
+  ],
+  "words_to_find": ["SHOULD", "TRY", "REST", "RELAX"],
+  "word_positions": [
+    {"word": "SHOULD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "REST", "start_row": 2, "start_col": 1, "direction": "VERTICAL"},
+    {"word": "RELAX", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Giving Advice"
+}

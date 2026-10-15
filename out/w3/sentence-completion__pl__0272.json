@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been better informed,",
+  "correct_completion": "it would have reached a different conclusion.",
+  "full_sentence": "Had the committee been better informed, it would have reached a different conclusion.",
+  "acceptable_variants": ["it would have decided otherwise.", "the outcome would have been quite different."],
+  "options": [
+    {"text": "so it reached the same conclusion.", "is_correct": false, "why_wrong": "This describes what actually happened, while the inverted 'had' clause requires a hypothetical result that differs from reality."},
+    {"text": "it would have reached a different conclusion.", "is_correct": true, "why_wrong": null},
+    {"text": "it reached its conclusion yesterday.", "is_correct": false, "why_wrong": "This refers to a past event unrelated to the hypothetical condition, so it does not complete the conditional structure."},
+    {"text": "unless it had been postponed.", "is_correct": false, "why_wrong": "'Unless' introduces a negative condition, which does not match the positive hypothetical set up by the inverted 'had' clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' plus subject and past participle",
+  "connector": "had",
+  "explanation": "The inverted 'had' replaces 'if', so the main clause must use 'would have' plus a past participle to express a hypothetical result. Learners often keep 'if' in their mind and try to add a second conditional, which breaks the formal register this structure belongs to.",
+  "translation": "Gdyby komisja była lepiej poinformowana, doszłaby do innego wniosku."
+}
