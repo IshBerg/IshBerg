@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The comic strip was very funny, so",
+  "correct_completion": "everyone in the class wanted to read it again.",
+  "full_sentence": "The comic strip was very funny, so everyone in the class wanted to read it again.",
+  "acceptable_variants": ["the students laughed for a long time.", "many children asked for a copy."],
+  "options": [
+    {"text": "everyone in the class wanted to read it again.", "is_correct": true, "why_wrong": null},
+    {"text": "the drawings were in black and white.", "is_correct": false, "why_wrong": "This describes the drawings, but it does not give a result of the comic being funny."},
+    {"text": "nobody in the class wanted to look at it.", "is_correct": false, "why_wrong": "This is the opposite of the result that 'so' introduces after a funny comic."},
+    {"text": "the teacher read the newspaper.", "is_correct": false, "why_wrong": "This is unrelated to the comic strip and does not follow from it being funny."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part of the sentence. A very funny comic leads to people wanting to read it again.",
+  "translation": "Комікс був дуже смішним, тому всі в класі хотіли прочитати його ще раз."
+}

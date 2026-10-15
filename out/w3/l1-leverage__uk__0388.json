@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "таксі", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "футбол", "transliteration": "futbol", "meaning": "football (soccer)"},
+    {"word": "кіно", "transliteration": "kino", "meaning": "cinema"},
+    {"word": "фото", "transliteration": "foto", "meaning": "photo"}
+  ],
+  "english_words": ["cinema", "photo", "taxi", "football"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same international sources, so the forms stayed close to the English words.",
+  "false_friend_warning": null
+}
