@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the traffic,",
+  "correct_completion": "I would have taken the train.",
+  "full_sentence": "If I had known about the traffic, I would have taken the train.",
+  "acceptable_variants": ["I would have called a taxi.", "I would have left much earlier."],
+  "options": [
+    {"text": "I would take the train now.", "is_correct": false, "why_wrong": "The condition 'had known' refers to the past, so the result must also refer to the past. 'Would take ... now' describes a present result and does not fit."},
+    {"text": "I will take the train.", "is_correct": false, "why_wrong": "'Will' expresses a real future and cannot follow an unreal past condition marked by 'had known'."},
+    {"text": "I would have taken the train.", "is_correct": true, "why_wrong": null},
+    {"text": "I have taken the train.", "is_correct": false, "why_wrong": "The present perfect states a completed fact. It does not express the hypothetical result of an unreal past condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: 'if' + past perfect, followed by 'would have' + past participle",
+  "connector": "if",
+  "explanation": "After 'if' with the past perfect 'had known', we need the third conditional result, 'would have' plus a past participle, to describe what did not happen. Polish speakers often reach for a simple conditional here, because Polish uses one conditional form for all times.",
+  "translation": "Gdybym wiedział o korkach, wziąłbym pociąg."
+}
