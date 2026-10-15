@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the bridge is very old,",
+  "correct_completion": "it can still carry cars safely.",
+  "full_sentence": "Although the bridge is very old, it can still carry cars safely.",
+  "acceptable_variants": ["it can still carry heavy traffic.", "people still cross it every day."],
+  "options": [
+    {"text": "so it is closed to all traffic.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause. 'So' would make the result follow from the age of the bridge."},
+    {"text": "and it was built in 1820.", "is_correct": false, "why_wrong": "This adds a fact about the bridge but does not complete the contrast expected after 'although'."},
+    {"text": "it can still carry cars safely.", "is_correct": true, "why_wrong": null},
+    {"text": "the city has many bridges.", "is_correct": false, "why_wrong": "This is unrelated to the bridge's condition and does not contrast with its age."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Here the contrast is between the bridge's age and its ability.",
+  "translation": "Chociaż ten most jest bardzo stary, nadal może bezpiecznie przewozić samochody."
+}
