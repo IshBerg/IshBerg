@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child, I used to",
+  "correct_completion": "play in the park every afternoon.",
+  "full_sentence": "When I was a child, I used to play in the park every afternoon.",
+  "acceptable_variants": ["visit my grandmother on Sundays.", "read stories before bed."],
+  "options": [
+    {"text": "playing in the park every afternoon.", "is_correct": false, "why_wrong": "'Used to' is followed by the base verb, not by an -ing form"},
+    {"text": "play in the park every afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "play in the park tomorrow.", "is_correct": false, "why_wrong": "'Used to' describes past habits, so a future time expression does not fit"},
+    {"text": "to play in the park every afternoon.", "is_correct": false, "why_wrong": "'Used to' is followed directly by the base verb, without 'to'"}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past habits with 'used to' and the base verb",
+  "connector": "used to",
+  "explanation": "'Used to' describes a past habit that no longer happens, and it is followed by the base verb. Learners may be tempted to add an -ing form, a 'to' before the verb, or a future time word, but each of these breaks the structure.",
+  "translation": "Cuando era niño, solía jugar en el parque todas las tardes."
+}
