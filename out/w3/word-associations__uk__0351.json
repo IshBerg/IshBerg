@@ -1,0 +1,14 @@
+{
+  "trigger_word": "research",
+  "all_words": [
+    {"word": "study", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово «study» означає вивчення і дослідження, тому воно семантично пов'язане з research."},
+    {"word": "dance", "is_associated": false, "association_type": "NONE", "explanation": "Танець не має жодного стосунку до наукового дослідження."},
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лабораторія є місцем, де проводяться дослідження, тому вона тематично пов'язана зі словом research."},
+    {"word": "data", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Дані є основою будь-якого дослідження, і словосполучення research data є типовим."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Банан є фруктом, який не належить до наукової сфери."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гіпотеза є припущенням, яке перевіряють під час дослідження."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово research асоціюється з вивченням, місцем роботи, даними і гіпотезами, тоді як танець і банан до цієї сфери не належать."
+}

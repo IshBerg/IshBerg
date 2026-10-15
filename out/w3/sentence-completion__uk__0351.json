@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Owing to the rapid expansion of the industry,",
+  "correct_completion": "the government introduced stricter regulations.",
+  "full_sentence": "Owing to the rapid expansion of the industry, the government introduced stricter regulations.",
+  "acceptable_variants": ["the government brought in tighter regulations.", "the authorities introduced stricter regulations."],
+  "options": [
+    {"text": "however, the government ignored the issue.", "is_correct": false, "why_wrong": "'However' introduces a contrast, but the sentence needs a result of the expansion, not a contrast with it."},
+    {"text": "the government introduced stricter regulations.", "is_correct": true, "why_wrong": null},
+    {"text": "so the government introduced stricter regulations.", "is_correct": false, "why_wrong": "'So' repeats the cause-effect link already made by 'owing to'; only one connector is needed."},
+    {"text": "stricter regulations were the government's introduced.", "is_correct": false, "why_wrong": "The word order is ungrammatical; the participle cannot be placed between the possessive and the noun."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Nominalization after 'owing to' with a single cause-effect link",
+  "connector": "owing to",
+  "explanation": "'Owing to' is followed by a noun phrase built on a nominalization ('the rapid expansion'), so the sentence needs one main clause after the comma. Adding a second connector such as 'so' is ungrammatical. Ukrainian speakers may add a second linking word here, carrying over the habit of marking the cause in more than one place.",
+  "translation": "Через швидке розширення галузі уряд запровадив суворіші регулювання."
+}
