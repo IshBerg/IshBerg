@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the evidence was incomplete,",
+  "correct_completion": "the committee approved the proposal anyway.",
+  "full_sentence": "Although the evidence was incomplete, the committee approved the proposal anyway.",
+  "acceptable_variants": ["the committee nevertheless approved the proposal.", "the members still voted in favour."],
+  "options": [
+    {"text": "so the committee postponed its decision.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast with the first clause."},
+    {"text": "the committee was meeting on Tuesday.", "is_correct": false, "why_wrong": "This gives a neutral fact without any contrast to the incomplete evidence."},
+    {"text": "the committee approved the proposal anyway.", "is_correct": true, "why_wrong": null},
+    {"text": "because the evidence was incomplete.", "is_correct": false, "why_wrong": "'Because' repeats a cause that 'although' has already set against the main clause, so it does not form a contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a result that goes against the expectation created by the first clause. Spanish speakers often expect a parallel structure here, but English requires a main clause with a subject and verb that expresses the contrast.",
+  "translation": "Aunque las pruebas estaban incompletas, el comité aprobó la propuesta de todos modos."
+}
