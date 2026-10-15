@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I could not find my keys, so",
+  "correct_completion": "my sister helped me look for them.",
+  "full_sentence": "I could not find my keys, so my sister helped me look for them.",
+  "acceptable_variants": ["my mother helped me search for them.", "I asked my friend to help me find them."],
+  "options": [
+    {"text": "I bought a new pair of shoes.", "is_correct": false, "why_wrong": "Buying shoes does not follow from losing keys; the sentence needs an action about finding the keys."},
+    {"text": "my sister helped me look for them.", "is_correct": true, "why_wrong": null},
+    {"text": "she helped to look for keys.", "is_correct": false, "why_wrong": "The object pronoun me is needed after helped, and them is needed to refer back to the keys."},
+    {"text": "I helped they look for it.", "is_correct": false, "why_wrong": "The subject pronoun they is used where an object pronoun is needed, and it does not match the plural noun keys."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns after verbs and for referring back to nouns",
+  "connector": "so",
+  "explanation": "The connector so introduces a result, so the completion should describe what happened next. After verbs like help, English uses an object pronoun such as me, and the plural pronoun them refers back to the keys. Speakers of other languages may confuse subject and object pronouns in this position.",
+  "translation": "Anahtarlarımı bulamadım, bu yüzden kardeşim onları aramama yardım etti."
+}
