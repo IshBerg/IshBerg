@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The teacher asked us whether",
+  "correct_completion": "we had finished the reading for homework.",
+  "full_sentence": "The teacher asked us whether we had finished the reading for homework.",
+  "acceptable_variants": ["we had completed the reading for homework.", "we had done the reading for homework."],
+  "options": [
+    {"text": "have we finished the reading for homework.", "is_correct": false, "why_wrong": "Reported questions keep statement word order, so 'have' must not move before the subject."},
+    {"text": "we have finished the reading for homework.", "is_correct": false, "why_wrong": "After a past reporting verb ('asked'), the present perfect moves back to the past perfect 'had finished'."},
+    {"text": "we had finished the reading for homework.", "is_correct": true, "why_wrong": null},
+    {"text": "that we finished the reading for homework.", "is_correct": false, "why_wrong": "'That' introduces reported statements. Reported yes/no questions use 'whether' or 'if', and 'whether' is already in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Reported yes/no questions: 'whether', statement word order, and backshift to the past perfect",
+  "connector": "whether",
+  "explanation": "In reported yes/no questions, 'whether' (or 'if') introduces the clause, the word order returns to statement order, and the present perfect is backshifted to the past perfect after a past reporting verb. Ukrainian speakers often keep the original tense, because the English backshift rule has no direct equivalent in their first language.",
+  "translation": "Вчитель запитав нас, чи ми закінчили читання для домашнього завдання."
+}
