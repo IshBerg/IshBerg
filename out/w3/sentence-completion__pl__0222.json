@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having read the manuscript twice,",
+  "correct_completion": "the editor finally understood the author's intention.",
+  "full_sentence": "Having read the manuscript twice, the editor finally understood the author's intention.",
+  "acceptable_variants": ["the editor was able to recommend revisions.", "the editor could at last grasp the novel's underlying themes."],
+  "options": [
+    {"text": "the editor wrote a summary of the plot.", "is_correct": false, "why_wrong": "A summary is a possible action, but it does not express the outcome of the reading that the completed participle 'Having read' sets up."},
+    {"text": "the editor finally understood the author's intention.", "is_correct": true, "why_wrong": null},
+    {"text": "the manuscript was then sent to the printer.", "is_correct": false, "why_wrong": "This describes a later event for the manuscript, not the mental result of the editor's reading."},
+    {"text": "the editor is now reading it for the third time.", "is_correct": false, "why_wrong": "The present continuous describes a new, ongoing action and clashes with the completed reading expressed by 'Having read'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participial clause followed by a main clause with a logical result",
+  "connector": "having read (participial clause)",
+  "explanation": "The participle 'Having read' expresses a completed action that leads to the result in the main clause, so the continuation must state the outcome of that reading. Options that describe a new or ongoing action break this logical link.",
+  "translation": "Przeczytawszy rękopis dwukrotnie, redaktor w końcu zrozumiał intencję autora."
+}
