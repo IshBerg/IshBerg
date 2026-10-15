@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because I was very busy this week,",
+  "correct_completion": "I did not reply to your email.",
+  "full_sentence": "Because I was very busy this week, I did not reply to your email.",
+  "acceptable_variants": ["I did not answer your email.", "I did not write back to you."],
+  "options": [
+    {"text": "so I am going to the beach tomorrow.", "is_correct": false, "why_wrong": "This gives a plan for tomorrow. It is not a result of being busy this week."},
+    {"text": "I like pizza with my friends.", "is_correct": false, "why_wrong": "This is unrelated to being busy, so it does not complete the cause and effect started by 'because'."},
+    {"text": "I will call you on Sunday.", "is_correct": false, "why_wrong": "This is a promise about the future. It does not explain the result of being busy."},
+    {"text": "I did not reply to your email.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we give the reason. The main clause then shows the result, which must follow logically from that reason.",
+  "translation": "Ponieważ byłem bardzo zajęty w tym tygodniu, nie odpowiedziałem na twojego maila."
+}
