@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "H", "E", "S", "I", "S", "C"],
+    ["K", "Q", "B", "J", "R", "W", "L"],
+    ["Z", "P", "M", "F", "G", "N", "A"],
+    ["X", "O", "V", "E", "H", "K", "I"],
+    ["D", "A", "T", "A", "Q", "J", "M"],
+    ["W", "Y", "R", "L", "G", "B", "F"],
+    ["S", "T", "U", "D", "Y", "N", "O"]
+  ],
+  "words_to_find": ["THESIS", "CLAIM", "DATA", "STUDY"],
+  "word_positions": [
+    {"word": "THESIS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAIM", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "DATA", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STUDY", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations in Academic Writing"
+}

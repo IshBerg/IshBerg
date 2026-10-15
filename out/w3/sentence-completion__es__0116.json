@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more free time,",
+  "correct_completion": "I would learn to play the guitar.",
+  "full_sentence": "If I had more free time, I would learn to play the guitar.",
+  "acceptable_variants": ["I would take guitar lessons.", "I would start a new hobby."],
+  "options": [
+    {"text": "I will learn to play the guitar.", "is_correct": false, "why_wrong": "'Will' is used in the first conditional, but 'had' signals the second conditional, which needs 'would' in the main clause."},
+    {"text": "I would learn to play the guitar.", "is_correct": true, "why_wrong": null},
+    {"text": "I learn to play the guitar every day.", "is_correct": false, "why_wrong": "This is a present simple fact about a routine. It does not complete the imagined situation started by 'if I had'."},
+    {"text": "I learned to play the guitar last year.", "is_correct": false, "why_wrong": "This describes a finished past event. The second conditional talks about an imagined situation, so it does not fit with 'if I had'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional: if + past simple, would + base verb",
+  "connector": "if",
+  "explanation": "The second conditional describes an imagined or unlikely situation. The if-clause uses the past simple, and the main clause uses would plus the base verb. Learners often use will here by mistake, because their first language may mark the future in a different way.",
+  "translation": "Si tuviera más tiempo libre, aprendería a tocar la guitarra."
+}
