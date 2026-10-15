@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pollution",
+  "all_words": [
+    {"word": "smoke", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dym (smoke) jest jednym z głównych rodzajów zanieczyszczenia powietrza, więc silnie wiąże się z pojęciem zanieczyszczenia."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino (piano) nie ma żadnego związku z zanieczyszczeniem środowiska, to instrument muzyczny."},
+    {"word": "factory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fabryki (factories) są jednym z najczęstszych źródeł zanieczyszczeń przemysłowych."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka (sandwich) jest jedzeniem i nie ma nic wspólnego ze środowiskiem ani jego zanieczyszczaniem."},
+    {"word": "climate", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Zanieczyszczenie powietrza przyczynia się do zmian klimatu (climate), co czyni je ważnym globalnym wyzwaniem."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Dywan (carpet) to przedmiot domowy, który nie jest powiązany z zanieczyszczeniem środowiska."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'pollution' łączy się z dymem, fabrykami i klimatem, czyli z przyczynami i skutkami zanieczyszczenia; pianino, kanapka i dywan nie mają z tym tematem żadnego związku."
+}

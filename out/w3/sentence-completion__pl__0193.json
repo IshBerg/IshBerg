@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did she finish the report early,",
+  "correct_completion": "but she also presented it to the board.",
+  "full_sentence": "Not only did she finish the report early, but she also presented it to the board.",
+  "acceptable_variants": ["but she also gave a presentation to the whole team.", "but she also presented it to the board members."],
+  "options": [
+    {"text": "and she went home at once.", "is_correct": false, "why_wrong": "'Not only' must be completed by the correlative 'but also'. 'And' does not complete this structure."},
+    {"text": "so she could finally relax.", "is_correct": false, "why_wrong": "'So' expresses a result and cannot complete the 'not only ... but also' correlation."},
+    {"text": "but she also presented it to the board.", "is_correct": true, "why_wrong": null},
+    {"text": "she was tired afterwards.", "is_correct": false, "why_wrong": "This adds a separate fact but does not complete the 'not only ... but also' structure that the stem sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Correlative conjunction 'not only ... but also' with subject-auxiliary inversion after 'not only'",
+  "connector": "not only",
+  "explanation": "After 'Not only' with inversion (did she finish), the sentence needs the second half of the correlative pair, 'but also', followed by a clause that adds a second action. Polish speakers often reach for a simple coordinating conjunction here because Polish marks this kind of addition with a single word, so the two-part structure is easy to miss.",
+  "translation": "Nie tylko skończyła raport wcześnie, ale także przedstawiła go zarządowi."
+}
