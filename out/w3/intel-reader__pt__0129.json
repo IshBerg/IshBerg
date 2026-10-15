@@ -1,0 +1,20 @@
+{
+  "title": "An Email to My Friend",
+  "text": "Hi Anna, thanks for your email! I was happy to hear from you. I am sorry I did not answer before. I was busy with my new job. How are you and your family?\n\nThis weekend I want to visit you. Can we meet on Saturday at two o'clock? We can have lunch at my favorite café. Please write back soon.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Why did Maria not answer the email before?", "options": ["She was busy with a new job.", "She was on holiday.", "She did not have the email.", "She was sick."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where do they want to have lunch?", "options": ["At Anna's house", "At a café", "At the office", "At the park"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Maria feel about Anna?", "options": ["She is angry with Anna.", "She is friendly and likes Anna.", "She does not know Anna well.", "She wants to move away from Anna."], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does Maria want to visit Anna?", "options": ["She wants to see her friend in person.", "She wants to sell her car.", "She needs help with homework.", "She wants to start a new job."], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "email", "translation": "e-mail", "definition": "a message sent by computer or phone"},
+    {"word": "busy", "translation": "ocupado(a)", "definition": "having a lot to do and not free"},
+    {"word": "visit", "translation": "visitar", "definition": "to go to see someone"},
+    {"word": "favorite", "translation": "favorito(a)", "definition": "the one you like the most"}
+  ],
+  "paragraph_translations": [
+    "Oi, Anna, obrigada pelo seu e-mail! Fiquei feliz em ter notícias suas. Sinto muito por não ter respondido antes. Eu estava ocupada com meu novo emprego. Como você e sua família estão?",
+    "Neste fim de semana eu quero visitar você. Podemos nos encontrar no sábado às duas horas? Podemos almoçar no meu café favorito. Por favor, responda logo."
+  ]
+}

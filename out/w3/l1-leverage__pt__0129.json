@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "decisão", "transliteration": "decisao", "meaning": "decision"},
+    {"word": "informação", "transliteration": "informacao", "meaning": "information"},
+    {"word": "atenção", "transliteration": "atencao", "meaning": "attention"},
+    {"word": "problema", "transliteration": "problema", "meaning": "problem"}
+  ],
+  "english_words": ["problem", "decision", "information", "attention"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin through the same route, so the spelling stayed close and the meaning is the same. The shared ending pattern (-tion in English) makes them easy to recognise.",
+  "false_friend_warning": null
+}
