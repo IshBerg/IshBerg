@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["O", "P", "I", "N", "I", "O", "N", "X", "A"],
+    ["Q", "W", "Z", "U", "J", "K", "M", "D", "G"],
+    ["T", "S", "Y", "F", "C", "L", "B", "H", "R"],
+    ["A", "H", "D", "Q", "G", "P", "E", "J", "E"],
+    ["B", "X", "I", "W", "S", "O", "L", "Z", "E"],
+    ["M", "R", "K", "N", "F", "Y", "I", "U", "C"],
+    ["D", "G", "H", "A", "K", "R", "E", "N", "W"],
+    ["L", "F", "B", "M", "Q", "S", "V", "T", "P"],
+    ["I", "Y", "V", "O", "T", "E", "E", "K", "Z"]
+  ],
+  "words_to_find": ["OPINION", "AGREE", "THINK", "BELIEVE", "VOTE"],
+  "word_positions": [
+    {"word": "OPINION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "AGREE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "THINK", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BELIEVE", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "VOTE", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Expressing Opinions"
+}
