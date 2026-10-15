@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Thank you for inviting me to your party, but",
+  "correct_completion": "I can't come on Saturday.",
+  "full_sentence": "Thank you for inviting me to your party, but I can't come on Saturday.",
+  "acceptable_variants": ["I have to work on Saturday.", "I am sorry, I am busy that day."],
+  "options": [
+    {"text": "I can come on Saturday.", "is_correct": false, "why_wrong": "This accepts the invitation, but the word 'but' signals a refusal, so the sentence needs a negative reply."},
+    {"text": "I can't come on Saturday.", "is_correct": true, "why_wrong": null},
+    {"text": "It is a big party.", "is_correct": false, "why_wrong": "This describes the party but does not answer the invitation."},
+    {"text": "What time is the party?", "is_correct": false, "why_wrong": "This is a question, so it does not complete the polite refusal that 'but' introduces."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' after a polite thank-you",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that gives the contrast with the thanks at the start. Spanish speakers may expect a direct reply to the invitation, but in English the polite pattern is to thank first and then turn down the invitation with 'but'.",
+  "translation": "Gracias por invitarme a tu fiesta, pero no puedo ir el sábado."
+}
