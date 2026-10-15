@@ -1,0 +1,14 @@
+{
+  "trigger_word": "movie",
+  "all_words": [
+    {"word": "cinema", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Кінотеатр є місцем, де показують фільми, тому це слово тісно пов'язане з темою."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "Морква є овочем і не має жодного зв'язку з фільмами."},
+    {"word": "actor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Актор є людиною, яка грає у фільмах, тому слово пов'язане з кіно."},
+    {"word": "popcorn", "is_associated": true, "association_type": "THEMATIC", "explanation": "Попкорн часто їдять під час перегляду фільму, тому це тематичний зв'язок."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Міст є спорудою і не належить до теми розваг та кіно."},
+    {"word": "ticket", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення movie ticket є типовим: квиток купують на перегляд фільму."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Усі правильні слова стосуються перегляду фільмів і розваг у кінотеатрі; слова, які не належать до цієї теми, не підходять."
+}

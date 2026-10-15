@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bridge was repaired last month, so",
+  "correct_completion": "cars can cross it safely now.",
+  "full_sentence": "The bridge was repaired last month, so cars can cross it safely now.",
+  "acceptable_variants": ["traffic moves smoothly again.", "people no longer take the long detour."],
+  "options": [
+    {"text": "the old road was closed for years.", "is_correct": false, "why_wrong": "This describes an earlier situation, but 'so' needs a result that follows from the repair."},
+    {"text": "cars can cross it safely now.", "is_correct": true, "why_wrong": null},
+    {"text": "the workers were paid in cash.", "is_correct": false, "why_wrong": "This adds an unrelated detail about payment and does not show the result of the repair."},
+    {"text": "it was built by a famous engineer.", "is_correct": false, "why_wrong": "This gives background about construction, not the result of the repair."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive voice in the past with 'so' to express a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. The passive 'was repaired' describes the past action, and the result is expressed with a present modal form.",
+  "translation": "Міст відремонтували минулого місяця, тому тепер по ньому можна безпечно їздити."
+}
