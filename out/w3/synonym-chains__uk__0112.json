@@ -1,0 +1,23 @@
+{
+  "central_word": "rain",
+  "chain_words": [
+    {"word": "drizzle", "intensity": 1, "translation": "мряка", "nuance": "very light, fine rain"},
+    {"word": "shower", "intensity": 2, "translation": "короткий дощ", "nuance": "short rain that starts and stops quickly"},
+    {"word": "rain", "intensity": 3, "translation": "дощ", "nuance": "general word for water falling from clouds"},
+    {"word": "downpour", "intensity": 4, "translation": "проливний дощ", "nuance": "heavy rain that falls for a long time"},
+    {"word": "deluge", "intensity": 5, "translation": "потоп", "nuance": "extremely heavy rain, like a flood"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe rain, but they increase in strength from a fine drizzle to a flood-like deluge.",
+  "usage_notes": [
+    {"word1": "rain", "word2": "downpour", "difference": "'Rain' is a general word for water falling from clouds; 'downpour' is stronger and describes heavy rain that falls for a long time."}
+  ],
+  "translations": {
+    "drizzle": "мряка",
+    "shower": "короткий дощ",
+    "rain": "дощ",
+    "downpour": "проливний дощ",
+    "deluge": "потоп"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "O", "O", "N", "K", "O", "S"],
+    ["Q", "D", "W", "H", "Z", "R", "T"],
+    ["X", "J", "U", "Y", "C", "B", "A"],
+    ["L", "K", "E", "V", "M", "I", "R"],
+    ["P", "L", "A", "N", "E", "T", "G"],
+    ["F", "Q", "J", "W", "B", "D", "Z"],
+    ["Y", "H", "K", "R", "C", "V", "X"]
+  ],
+  "words_to_find": ["MOON", "STAR", "PLANET", "ORBIT"],
+  "word_positions": [
+    {"word": "MOON", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STAR", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PLANET", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ORBIT", "start_row": 0, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Science and Space"
+}
