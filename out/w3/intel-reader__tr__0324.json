@@ -1,0 +1,20 @@
+{
+  "title": "Our Town",
+  "text": "Our town has a small park. It is next to the post office. There is a big tree in the park, and children play there after school.\n\nThere is also a library on Green Street. It is open every day except Sunday. Many students go there to read books and do homework.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is next to the park?", "options": ["A hospital", "A post office", "A school", "A bank"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "When is the library closed?", "options": ["On Saturday", "On Monday", "On Sunday", "On Friday"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why do students probably like the library?", "options": ["It is far from school", "It is a good place to study", "It is closed on most days", "It has a big tree"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of place is the park probably?", "options": ["A shop for toys", "A place for doctors", "A quiet place to sleep", "A place for children to play"], "correct_index": 3, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "park", "translation": "park", "definition": "a public place with grass and trees"},
+    {"word": "post office", "translation": "postane", "definition": "a place where you send and receive letters and parcels"},
+    {"word": "library", "translation": "kütüphane", "definition": "a building where people can borrow and read books"},
+    {"word": "students", "translation": "öğrenciler", "definition": "people who learn at a school or university"}
+  ],
+  "paragraph_translations": [
+    "Kasabamızda küçük bir park var. Park postanenin yanında. Parkta büyük bir ağaç var ve çocuklar okuldan sonra orada oynar.",
+    "Ayrıca Green Street üzerinde bir kütüphane var. Pazar günü hariç her gün açıktır. Birçok öğrenci orada kitap okumak ve ödev yapmak için gider."
+  ]
+}
