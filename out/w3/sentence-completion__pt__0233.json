@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before,",
+  "correct_completion": "had the company faced such a serious financial crisis.",
+  "full_sentence": "Never before had the company faced such a serious financial crisis.",
+  "acceptable_variants": ["had the firm encountered such a severe financial crisis.", "had the company ever faced such a serious financial crisis."],
+  "options": [
+    {"text": "the company faced such a serious financial crisis.", "is_correct": false, "why_wrong": "This is a plain statement with normal word order. It ignores the inversion that a negative adverbial at the start of the sentence requires."},
+    {"text": "had the company faced such a serious financial crisis.", "is_correct": true, "why_wrong": null},
+    {"text": "the company faced such a serious financial crisis never before.", "is_correct": false, "why_wrong": "Negative adverbials cannot simply move to the end here. The auxiliary must come before the subject when the adverbial starts the sentence."},
+    {"text": "the company has faced such a serious financial crisis.", "is_correct": false, "why_wrong": "This is a normal present perfect statement. It does not use the emphatic inverted structure that 'never before' triggers."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion after negative adverbials",
+  "connector": "never before",
+  "explanation": "When a negative adverbial such as 'never before' opens a sentence, English places the auxiliary verb before the subject for emphasis. Portuguese speakers often keep the normal subject-verb order here, because Portuguese does not invert the subject in this way after negative expressions.",
+  "translation": "Nunca antes a empresa havia enfrentado uma crise financeira tão grave."
+}
