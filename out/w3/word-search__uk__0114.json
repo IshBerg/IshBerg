@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "Q", "W", "M", "J", "D", "F", "S", "T"],
+    ["P", "R", "Z", "X", "L", "H", "C", "W", "U"],
+    ["J", "K", "E", "M", "D", "Y", "A", "Q", "R"],
+    ["D", "W", "Z", "A", "F", "P", "Q", "H", "N"],
+    ["M", "L", "X", "C", "K", "J", "W", "Y", "D"],
+    ["S", "H", "W", "T", "Q", "N", "Z", "K", "B"],
+    ["F", "G", "I", "V", "E", "R", "O", "X", "P"],
+    ["C", "Y", "D", "U", "N", "O", "J", "Z", "M"],
+    ["V", "K", "Q", "W", "L", "F", "T", "J", "S"]
+  ],
+  "words_to_find": ["BREAK", "TURN", "GIVE", "LOOK"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TURN", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "GIVE", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "LOOK", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Idioms and Phrasal Verbs"
+}

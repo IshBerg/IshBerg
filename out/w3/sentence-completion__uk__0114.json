@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Have you ever",
+  "correct_completion": "eaten sushi? It is really delicious.",
+  "full_sentence": "Have you ever eaten sushi? It is really delicious.",
+  "acceptable_variants": ["tried sushi? It is really tasty.", "had sushi before? It is really tasty."],
+  "options": [
+    {"text": "eat sushi? It is really delicious.", "is_correct": false, "why_wrong": "After 'have you ever' we need a past participle, not the base form 'eat'."},
+    {"text": "ate sushi yesterday, and it was delicious.", "is_correct": false, "why_wrong": "The past simple 'ate' cannot follow 'have you ever', and 'yesterday' is a finished time that does not go with the present perfect."},
+    {"text": "eaten sushi? It is really delicious.", "is_correct": true, "why_wrong": null},
+    {"text": "eating sushi when you were a child?", "is_correct": false, "why_wrong": "The -ing form is not valid after 'have you ever', and 'when you were a child' is a finished past time that does not go with the present perfect."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect questions with 'ever' (have/has + ever + past participle)",
+  "connector": "ever",
+  "explanation": "The present perfect question with 'ever' uses have or has plus the past participle to ask about an experience at any time up to now. Learners often use the base form or the past simple here, because their first language may mark past experiences in a different way.",
+  "translation": "Ти коли-небудь їв суші? Це справді смачно."
+}
