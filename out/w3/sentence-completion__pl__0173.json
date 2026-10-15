@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The house was built in 1920 and",
+  "correct_completion": "it has been renovated twice since then.",
+  "full_sentence": "The house was built in 1920 and it has been renovated twice since then.",
+  "acceptable_variants": ["it has been restored twice since then.", "it has had two renovations since then."],
+  "options": [
+    {"text": "it has renovating twice since then.", "is_correct": false, "why_wrong": "'Has' must be followed by a past participle, not an -ing form, so this is ungrammatical."},
+    {"text": "it has been renovated twice since then.", "is_correct": true, "why_wrong": null},
+    {"text": "it was renovating twice since then.", "is_correct": false, "why_wrong": "'Since then' needs the present perfect, and the past continuous does not fit this time expression."},
+    {"text": "someone renovate it twice since then.", "is_correct": false, "why_wrong": "The verb needs the present perfect form and an agreeing subject, so 'renovate' alone is wrong here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect passive with 'since then'",
+  "connector": "and",
+  "explanation": "The passive is needed because the house is the thing receiving the action. The present perfect passive, 'has been renovated', links the past building to the present, which is marked by 'since then'. Polish speakers may choose a simple past form here because Polish handles past and present perfect actions differently.",
+  "translation": "Dom został zbudowany w 1920 roku i od tego czasu był dwukrotnie remontowany."
+}
