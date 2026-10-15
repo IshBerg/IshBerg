@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "O", "U", "R", "C", "E", "X", "K", "S"],
+    ["A", "L", "P", "B", "W", "J", "Q", "E", "U"],
+    ["G", "H", "Y", "Z", "K", "T", "C", "F", "M"],
+    ["R", "D", "O", "U", "I", "N", "Z", "P", "M"],
+    ["T", "H", "E", "M", "E", "K", "L", "Q", "A"],
+    ["B", "W", "Y", "D", "S", "F", "G", "H", "R"],
+    ["J", "K", "I", "T", "Z", "X", "Q", "M", "Y"],
+    ["P", "V", "R", "W", "L", "D", "A", "T", "A"],
+    ["E", "U", "F", "H", "M", "K", "B", "N", "Z"]
+  ],
+  "words_to_find": ["SOURCE", "SUMMARY", "EVIDENCE", "THEME", "DATA"],
+  "word_positions": [
+    {"word": "SOURCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SUMMARY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "EVIDENCE", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "THEME", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DATA", "start_row": 7, "start_col": 5, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Synthesizing Sources"
+}
