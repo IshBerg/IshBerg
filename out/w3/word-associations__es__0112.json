@@ -1,0 +1,14 @@
+{
+  "trigger_word": "heart",
+  "all_words": [
+    {"word": "love", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El amor es el sentimiento que la mayoría de las culturas asocia con el corazón."},
+    {"word": "hug", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un abrazo se relaciona con el corazón porque expresa afecto y cercanía emocional."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Una mesa no tiene ninguna relación con el corazón ni con las emociones."},
+    {"word": "hurt", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Herir se relaciona con el corazón cuando alguien sufre emocionalmente."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Una silla no tiene relación temática ni semántica con el corazón."},
+    {"word": "break", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se usa la expresión 'break one's heart' para decir que alguien sufre una gran decepción amorosa."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas al corazón se relacionan con las emociones, el afecto y el sufrimiento, mientras que los objetos cotidianos como la mesa o la silla no tienen ninguna conexión con él."
+}
