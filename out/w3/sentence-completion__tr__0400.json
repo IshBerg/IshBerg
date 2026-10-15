@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She studied hard for the exam,",
+  "correct_completion": "so she passed it easily.",
+  "full_sentence": "She studied hard for the exam, so she passed it easily.",
+  "acceptable_variants": ["therefore she passed it easily.", "and she got a high score."],
+  "options": [
+    {"text": "but she failed the test anyway.", "is_correct": false, "why_wrong": "'But' shows contrast, while the stem already gives a cause and this result should follow from the hard studying."},
+    {"text": "so she passed it easily.", "is_correct": true, "why_wrong": null},
+    {"text": "because the bus was late.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but the stem already contains the cause, so a second cause does not complete the sentence logically."},
+    {"text": "unless she wanted a new phone.", "is_correct": false, "why_wrong": "'Unless' introduces a condition that does not connect to the result of studying hard."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After a clause describing a cause, 'so' introduces its result. The completion must describe what happened as a consequence of the hard studying.",
+  "translation": "Sınav için çok çalıştı, bu yüzden sınavı kolayca geçti."
+}
