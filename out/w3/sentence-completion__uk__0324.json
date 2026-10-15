@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The keys are not on the table, so I",
+  "correct_completion": "must have left them in the car.",
+  "full_sentence": "The keys are not on the table, so I must have left them in the car.",
+  "acceptable_variants": ["might have left them in the car.", "must have dropped them outside."],
+  "options": [
+    {"text": "will leave them in the car tomorrow.", "is_correct": false, "why_wrong": "'Will' refers to the future, but the sentence needs a deduction about a past event that explains the present situation."},
+    {"text": "should have had them in my pocket.", "is_correct": false, "why_wrong": "'Should have' describes a past obligation or criticism; it does not make a logical deduction about where the keys are now."},
+    {"text": "must have left them in the car.", "is_correct": true, "why_wrong": null},
+    {"text": "I had to go to the shop again.", "is_correct": false, "why_wrong": "This describes another past event but does not explain where the keys are, so the cause-and-effect link fails."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfect (must have + past participle) for logical deduction about the past",
+  "connector": "so",
+  "explanation": "The modal perfect 'must have + past participle' expresses a logical conclusion about a past event based on present evidence. Ukrainian speakers often use a simple past or a simple future here because Ukrainian has no separate modal perfect construction, so the 'must have' structure is needed to show a confident deduction about the past.",
+  "translation": "Ключів немає на столі, тож, мабуть, я залишив їх у машині."
+}
