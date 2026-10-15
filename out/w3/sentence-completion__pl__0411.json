@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am very hungry, so",
+  "correct_completion": "I want to order a big pizza.",
+  "full_sentence": "I am very hungry, so I want to order a big pizza.",
+  "acceptable_variants": ["I would like a big pizza.", "I will order some soup."],
+  "options": [
+    {"text": "the restaurant is closed today.", "is_correct": false, "why_wrong": "This is an unrelated fact about the restaurant. It is not a result of being hungry, so it does not complete the cause and effect set by 'so'."},
+    {"text": "I want to order a big pizza.", "is_correct": true, "why_wrong": null},
+    {"text": "I am not hungry at all.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the speaker is very hungry. 'So' needs a result that follows from the first part."},
+    {"text": "the waiter gave me the bill.", "is_correct": false, "why_wrong": "This happens after a meal, so it cannot be a result of being hungry before ordering."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces a result that follows from the first clause. Being very hungry leads to wanting to order food, so the second part must describe a logical action that comes next when someone wants to eat. Polish speakers may place the result clause after the connector in the same way, which helps with this pattern.",
+  "translation": "Jestem bardzo głodny, więc chcę zamówić dużą pizzę."
+}
