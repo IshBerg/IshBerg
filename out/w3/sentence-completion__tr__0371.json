@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem is very short,",
+  "correct_completion": "it contains many deep images.",
+  "full_sentence": "Although the poem is very short, it contains many deep images.",
+  "acceptable_variants": ["it still carries a strong emotional message.", "its meaning is surprisingly rich."],
+  "options": [
+    {"text": "so the poet wrote it very quickly.", "is_correct": false, "why_wrong": "'Although' signals contrast, but this option gives a result, so it does not complete the contrast."},
+    {"text": "because the author was a famous teacher.", "is_correct": false, "why_wrong": "'Because' introduces a cause. The connector 'although' needs a contrasting point about the poem."},
+    {"text": "the poem has rhyme at the end of each line.", "is_correct": false, "why_wrong": "This adds a formal feature but does not create a contrast with the idea that the poem is short."},
+    {"text": "it contains many deep images.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part of the sentence. Learners often use a cause-and-effect connector here, so check that the second clause sets up a surprising contrast, not a result.",
+  "translation": "Şiir çok kısa olmasına rağmen, birçok derin imge içerir."
+}
