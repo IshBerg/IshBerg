@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Maria studies English every day, so",
+  "correct_completion": "she speaks it very well.",
+  "full_sentence": "Maria studies English every day, so she speaks it very well.",
+  "acceptable_variants": ["she often reads English books.", "she talks to her friends in English."],
+  "options": [
+    {"text": "she speak it very well.", "is_correct": false, "why_wrong": "The result is logical, but the verb is wrong. With she, the present simple verb needs an -s ending: 'she speaks'."},
+    {"text": "she speaks it very well.", "is_correct": true, "why_wrong": null},
+    {"text": "but she never practises.", "is_correct": false, "why_wrong": "'But' introduces a contrast, while the stem with 'so' expects a result of studying every day."},
+    {"text": "although she is tired.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, which does not match the cause and result relation that 'so' signals."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so' and present simple third person",
+  "connector": "so",
+  "explanation": "The word 'so' introduces the result of the first clause. The result clause must use the present simple, with the verb in third person singular (speaks).",
+  "translation": "Maria estuda inglês todos os dias, então ela fala muito bem."
+}

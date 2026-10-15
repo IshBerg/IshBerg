@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["C", "A", "N", "D", "I", "D", "F"],
+    ["K", "J", "Q", "W", "Z", "M", "R"],
+    ["B", "P", "Y", "H", "K", "T", "U"],
+    ["R", "S", "M", "N", "W", "J", "G"],
+    ["I", "Q", "Z", "F", "T", "V", "A"],
+    ["E", "H", "K", "O", "W", "P", "L"],
+    ["F", "V", "A", "G", "U", "E", "Q"]
+  ],
+  "words_to_find": ["CANDID", "FRUGAL", "BRIEF", "VAGUE"],
+  "word_positions": [
+    {"word": "CANDID", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FRUGAL", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BRIEF", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "VAGUE", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}

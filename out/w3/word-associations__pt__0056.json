@@ -1,0 +1,14 @@
+{
+  "trigger_word": "angry",
+  "all_words": [
+    {"word": "shout", "is_associated": true, "association_type": "THEMATIC", "explanation": "Gritar costuma acontecer quando alguém está com raiva, por isso é uma reação típica desse sentimento."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Travesseiro é um objeto de cama e não tem relação com raiva."},
+    {"word": "frown", "is_associated": true, "association_type": "THEMATIC", "explanation": "Franzir a testa é um sinal de raiva no rosto, por isso é um sinal típico dessa emoção."},
+    {"word": "lunch", "is_associated": false, "association_type": "NONE", "explanation": "Almoço é uma refeição e não se relaciona com raiva."},
+    {"word": "argue", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Discutir é uma forma comum de expressar raiva, então está muito ligado ao sentimento."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Lápis é um material escolar e não tem ligação com raiva."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra angry se liga a reações como gritar, franzir a testa e discutir. Travesseiro, almoço e lápis não têm relação com esse sentimento."
+}
