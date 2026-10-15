@@ -1,0 +1,14 @@
+{
+  "trigger_word": "savings",
+  "all_words": [
+    {"word": "account", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово 'account' утворює сталу колокацію 'savings account' (ощадний рахунок), тому воно колокаційно пов'язане зі словом 'savings'."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Слово 'guitar' (гітара) не має ані змістового, ані колокаційного зв'язку зі словом 'savings', тому не пов'язане з ним."},
+    {"word": "deposit", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Слово 'deposit' (внесок, вклад) означає покладання грошей на рахунок, тому семантично пов'язане зі словом 'savings'."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Слово 'tree' (дерево) не пов'язане із заощадженнями, тому не належить до цього поля."},
+    {"word": "interest", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Сполучення 'earn interest' (нараховувати відсотки) і 'interest rate' (відсоткова ставка) пов'язані із заощадженнями, тож слово колокаційно пов'язане."},
+    {"word": "rainbow", "is_associated": false, "association_type": "NONE", "explanation": "Слово 'rainbow' (веселка) не має жодного зв'язку із заощадженнями, тому не пов'язане."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'savings' (заощадження) пов'язане з банківськими термінами та сталими сполученнями, а не з природою чи музикою."
+}
