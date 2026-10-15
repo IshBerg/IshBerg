@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee consulted the staff earlier,",
+  "correct_completion": "the mistake would not have happened.",
+  "full_sentence": "Had the committee consulted the staff earlier, the mistake would not have happened.",
+  "acceptable_variants": ["the mistake would have been avoided.", "they would have spotted the error."],
+  "options": [
+    {"text": "the mistake would happen again today.", "is_correct": false, "why_wrong": "The inverted 'Had' clause refers to a past condition, so the result must also be about the past, not the present."},
+    {"text": "the mistake will happen tomorrow.", "is_correct": false, "why_wrong": "A third conditional with inverted 'Had' does not take a future result; it describes what would have happened in the past."},
+    {"text": "the mistake would not have happened.", "is_correct": true, "why_wrong": null},
+    {"text": "they would consult the staff now.", "is_correct": false, "why_wrong": "This describes a present habit, but the 'Had' clause concerns a past action, so the result must match the past."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional ('Had + subject + past participle' replacing 'If + past perfect')",
+  "connector": "had",
+  "explanation": "The inverted 'Had' clause replaces 'If', so the main clause needs 'would have' plus a past participle. Polish speakers often use a simple conditional after the inverted form, but English requires the perfect form to match the past condition.",
+  "translation": "Gdyby komisja wcześniej skonsultowała się z personelem, do pomyłki by nie doszło."
+}
