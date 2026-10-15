@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she closed her laptop and left the office.",
+  "full_sentence": "Having finished the report, she closed her laptop and left the office.",
+  "acceptable_variants": ["she went home for dinner.", "she felt relieved and went home."],
+  "options": [
+    {"text": "she will finish the report tomorrow.", "is_correct": false, "why_wrong": "'Having finished' shows the first action is already complete, so a future verb contradicts the participle clause."},
+    {"text": "the report is finishing now.", "is_correct": false, "why_wrong": "The present progressive describes an action in progress, but the participle clause presents the action as completed."},
+    {"text": "she closed her laptop and left the office.", "is_correct": true, "why_wrong": null},
+    {"text": "she didn't finish it at all.", "is_correct": false, "why_wrong": "This contradicts the stem, which states that the report has been finished."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect participle clauses showing an earlier completed action",
+  "connector": "having finished",
+  "explanation": "The perfect participle 'having finished' shows that the first action was completed before the main action. The main clause must describe what the same subject did next. Learners may be tempted to use a future or present verb here, but the participle clause already fixes the timeline.",
+  "translation": "Tendo terminado o relatório, ela fechou o notebook e saiu do escritório."
+}
