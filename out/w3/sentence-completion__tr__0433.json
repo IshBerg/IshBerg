@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people like driving,",
+  "correct_completion": "public transport is better for the environment.",
+  "full_sentence": "Although many people like driving, public transport is better for the environment.",
+  "acceptable_variants": ["buses are cheaper for most families.", "many people still prefer trains."],
+  "options": [
+    {"text": "so they never use buses.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast, so it does not fit after 'although'."},
+    {"text": "they often drive to work.", "is_correct": false, "why_wrong": "This agrees with the first part instead of contrasting with it."},
+    {"text": "public transport is better for the environment.", "is_correct": true, "why_wrong": null},
+    {"text": "cars are very expensive to buy.", "is_correct": false, "why_wrong": "This adds information but does not give the contrasting opinion that 'although' expects."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners may mix up 'although' with 'because', but 'because' introduces a reason.",
+  "translation": "Birçok insan araba kullanmayı sevmesine rağmen, toplu taşıma çevre için daha iyidir."
+}

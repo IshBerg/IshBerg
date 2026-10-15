@@ -1,0 +1,14 @@
+{
+  "trigger_word": "camera",
+  "all_words": [
+    {"word": "lens", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lens, kameranın en önemli parçalarından biridir."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmek kamerayla ilgili değildir; mutfakla ilgili bir kelimedir."},
+    {"word": "video", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Video ve kamera aynı anlama yakın, görüntü kaydetme işiyle ilgilidir."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Nehir doğayla ilgilidir ve kameranın işleviyle bir bağlantısı yoktur."},
+    {"word": "surveillance", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gözetleme, güvenlik kameralarının en yaygın kullanım amacıdır."},
+    {"word": "record", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Record a video' ifadesinde kamera ile birlikte sıkça kullanılır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kamerayla ilişkili kelimeler parçalar, görüntü kaydı ve gözetleme gibi konularla bağlantılıdır; diğer kelimelerin ise kamerayla bağlantısı yoktur."
+}

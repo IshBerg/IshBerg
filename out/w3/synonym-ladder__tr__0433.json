@@ -1,0 +1,13 @@
+{
+  "start_word": "peckish",
+  "end_word": "famished",
+  "ladder_steps": [
+    {"word": "peckish", "translation": "biraz aç", "intensity_level": 1},
+    {"word": "hungry", "translation": "aç", "intensity_level": 2},
+    {"word": "ravenous", "translation": "çok aç", "intensity_level": 3},
+    {"word": "starving", "translation": "açlıktan kıvranan", "intensity_level": 4},
+    {"word": "famished", "translation": "açlıktan bitkin", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Hunger words form a ladder from slightly hungry to extremely hungry, each step stronger than the last."
+}
