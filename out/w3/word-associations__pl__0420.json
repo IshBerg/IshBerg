@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Lekarz zwykle pracuje w szpitalu, więc oba słowa należą do tego samego tematu."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitara nie ma żadnego związku z pracą lekarza ani z medycyną."},
+    {"word": "patient", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Lekarz leczy pacjenta; w języku angielskim często mówi się 'doctor's patient'."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie jest powiązany z zawodem lekarza ani z medycyną."},
+    {"word": "stethoscope", "is_associated": true, "association_type": "THEMATIC", "explanation": "Stetoskop to narzędzie, którego lekarz używa podczas badania pacjenta."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Chleb nie ma żadnego związku z lekarzem ani z jego pracą."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'doctor' to miejsca, osoby i narzędzia kojarzone z pracą lekarza; pozostałe słowa nie mają z nim związku."
+}
