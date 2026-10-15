@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the storm arrived an hour earlier,",
+  "correct_completion": "the entire expedition would have been abandoned.",
+  "full_sentence": "Had the storm arrived an hour earlier, the entire expedition would have been abandoned.",
+  "acceptable_variants": ["the whole mission would have been called off.", "the team would have turned back immediately."],
+  "options": [
+    {"text": "the expedition will be abandoned tomorrow.", "is_correct": false, "why_wrong": "The future tense does not match the hypothetical past set up by the inverted 'Had ... arrived' clause."},
+    {"text": "the expedition had been abandoned already.", "is_correct": false, "why_wrong": "The past perfect reports a completed fact. The sentence needs 'would have' plus a past participle to express the imagined result."},
+    {"text": "the entire expedition would have been abandoned.", "is_correct": true, "why_wrong": null},
+    {"text": "so we would abandon it now.", "is_correct": false, "why_wrong": "The word 'so' signals a real cause, and the present conditional does not match the past condition introduced by 'Had'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "Had",
+  "explanation": "An inverted third conditional drops 'if' and moves 'had' to the front of the clause, so the main clause must use 'would have' plus a past participle to describe the imagined result. Polish speakers often try to mark the conditional inside the main clause with a single simple verb form, but English requires the 'would have' structure to link back to the past condition.",
+  "translation": "Gdyby burza nadeszła godzinę wcześniej, cała wyprawa zostałaby porzucona."
+}
