@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are not many shops in my village, so",
+  "correct_completion": "we often go to the city.",
+  "full_sentence": "There are not many shops in my village, so we often go to the city.",
+  "acceptable_variants": ["we usually travel to town.", "we buy most things in the city."],
+  "options": [
+    {"text": "the shops are always open.", "is_correct": false, "why_wrong": "This does not follow as a result of the stem. 'So' introduces what happens because of the first clause, and open shops do not explain a need to travel."},
+    {"text": "there is a big market every day.", "is_correct": false, "why_wrong": "This contradicts the first clause, which says there are not many shops."},
+    {"text": "we often go to the city.", "is_correct": true, "why_wrong": null},
+    {"text": "we have a lot of shops nearby.", "is_correct": false, "why_wrong": "This contradicts the stem, which says there are not many shops in the village."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "The connector 'so' introduces a result. The second clause must describe what people do as a consequence of the first clause.",
+  "translation": "No hay muchas tiendas en mi pueblo, así que a menudo vamos a la ciudad."
+}
