@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we are going to stay at home.", "we will watch a film indoors."],
+  "options": [
+    {"text": "we went to the park.", "is_correct": false, "why_wrong": "The past tense cannot describe a future result of a condition introduced by 'if'."},
+    {"text": "we will not having fun.", "is_correct": false, "why_wrong": "The verb after 'will' must be in the base form, so 'not having' is incorrect; use 'will not have fun'."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we stayed at home yesterday.", "is_correct": false, "why_wrong": "'Yesterday' refers to the past, but the sentence is about tomorrow."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'will' in the main clause",
+  "connector": "if",
+  "explanation": "In first conditional sentences, 'if' introduces a present-tense condition, and 'will' in the main clause expresses the likely future result. Polish speakers often use a simple future tense here because Polish marks the future differently, so the 'will' form needs deliberate practice.",
+  "translation": "Jeśli jutro będzie padać, zostaniemy w domu."
+}
