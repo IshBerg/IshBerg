@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "book", "is_associated": true, "association_type": "THEMATIC", "explanation": "Książka to podstawowy zbiór, jaki znajdziemy w bibliotece, więc słowa łączy temat."},
+    {"word": "anchor", "is_associated": false, "association_type": "NONE", "explanation": "Kotwica kojarzy się z żeglugą i portem, a nie z bibliotekami, więc nie ma tu związku."},
+    {"word": "librarian", "is_associated": true, "association_type": "THEMATIC", "explanation": "Bibliotekarz pracuje w bibliotece, dlatego to słowo jest z nią ściśle powiązane."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Skrzypce to instrument muzyczny i nie mają żadnego związku z bibliotekami."},
+    {"word": "shelf", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Półka to typowy element wyposażenia biblioteki, a 'library shelf' jest naturalnym połączeniem wyrazów."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Chmura to zjawisko pogodowe, które nie ma związku z biblioteką."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'library' łączy się z książkami, osobami pracującymi w bibliotece oraz wyposażeniem wnętrza, a także z typowymi połączeniami wyrazowymi."
+}

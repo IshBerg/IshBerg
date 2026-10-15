@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "U", "M", "M", "A", "R", "Y", "Q", "R"],
+    ["S", "Y", "N", "O", "N", "Y", "M", "B", "E"],
+    ["J", "K", "P", "W", "Z", "F", "G", "V", "W"],
+    ["H", "C", "L", "Q", "X", "N", "T", "B", "O"],
+    ["V", "J", "K", "D", "I", "F", "Z", "L", "R"],
+    ["P", "W", "Y", "N", "X", "C", "H", "M", "D"],
+    ["Q", "Z", "A", "T", "B", "J", "V", "G", "K"],
+    ["X", "E", "W", "Q", "F", "L", "P", "C", "Y"],
+    ["M", "D", "Z", "H", "K", "B", "J", "Q", "T"]
+  ],
+  "words_to_find": ["SUMMARY", "SYNONYM", "REWORD", "MEANING"],
+  "word_positions": [
+    {"word": "SUMMARY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SYNONYM", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REWORD", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "MEANING", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Restatement: Equivalent Meanings"
+}
