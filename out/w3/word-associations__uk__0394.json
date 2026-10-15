@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poverty",
+  "all_words": [
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Благодійність означає допомогу нужденним, тому це слово має пряме смислове зв'язок з бідністю."},
+    {"word": "orchestra", "is_associated": false, "association_type": "NONE", "explanation": "Оркестр є поняттям з музики і культури, і він не пов'язаний з бідністю."},
+    {"word": "welfare", "is_associated": true, "association_type": "THEMATIC", "explanation": "Соціальна допомога часто надається людям, які живуть у бідності, тож слово належить до тієї самої теми."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Вулкан є природним явищем і не має відношення до соціальної нерівності."},
+    {"word": "unemployment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Безробіття часто є причиною бідності, тому ці слова належать до однієї теми."},
+    {"word": "chess", "is_associated": false, "association_type": "NONE", "explanation": "Шахи є грою, яка не стосується бідності чи соціальних проблем."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'poverty' пов'язане з благодійністю, соціальною допомогою та безробіттям, а решта слів належить до інших тем."
+}
