@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at those dark clouds,",
+  "correct_completion": "it is going to rain soon.",
+  "full_sentence": "Look at those dark clouds, it is going to rain soon.",
+  "acceptable_variants": ["it's going to rain soon.", "it is about to rain."],
+  "options": [
+    {"text": "it was raining yesterday.", "is_correct": false, "why_wrong": "This refers to the past, while the dark clouds are evidence of something about to happen in the future."},
+    {"text": "it is going to rain soon.", "is_correct": true, "why_wrong": null},
+    {"text": "we are going to the park.", "is_correct": false, "why_wrong": "This states a plan and does not connect to the clouds as evidence of a future event."},
+    {"text": "they will have been sleeping.", "is_correct": false, "why_wrong": "This is a future perfect continuous form and does not make a prediction based on visible evidence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "'Going to' for predictions based on present evidence",
+  "connector": "clouds as evidence",
+  "explanation": "The dark clouds are present evidence of a future event, so the completion should use 'going to' to make a prediction. Learners often choose a simple future with 'will' in this context, but 'going to' is more natural when the evidence is visible now.",
+  "translation": "Şu koyu bulutlara bak, yakında yağmur yağacak."
+}
