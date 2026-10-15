@@ -1,0 +1,14 @@
+{
+  "trigger_word": "phone",
+  "all_words": [
+    {"word": "call", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово 'call' пов'язане з 'phone' у сталому сполученні 'phone call' (телефонний дзвінок)."},
+    {"word": "charger", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Зарядний пристрій (charger) потрібен, щоб заряджати телефон, тому він тематично пов'язаний зі словом 'phone'."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Дерево (tree) належить до природи і не має жодного зв'язку з телефонами."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Хліб (bread) є продуктом харчування і не пов'язаний з телефонами."},
+    {"word": "screen", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Екран (screen) є частиною телефону, саме на ньому ми бачимо повідомлення та застосунки."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Стілець (chair) є предметом меблів і не має відношення до телефонів."}
+  ],
+  "correct_indices": [0, 1, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'phone' (телефон) асоціюється з дзвінками, зарядкою та екраном, а не з природою, їжею чи меблями."
+}
