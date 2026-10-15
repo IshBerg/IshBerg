@@ -1,0 +1,20 @@
+{
+  "title": "Our Town",
+  "text": "This is my town. There is a big park near my house. Children play there after school. There is also a small library next to the park.\n\nOn Sunday, my family goes to the market. The market is near the station. We buy fruit and bread there. Then we have lunch in a café.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the big park?", "options": ["Near my house", "In the school", "At the station", "In the market"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "When does my family go to the market?", "options": ["On Monday", "On Sunday", "On Friday", "Every day"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why do the children probably like the park?", "options": ["It is a fun place to play", "It is closed on weekends", "It is far from their homes", "It has no trees"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about the family's Sundays?", "options": ["They spend time together in town", "They stay at home and sleep", "They work at the station", "They go to school"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "park", "translation": "park", "definition": "an area with grass and trees where people can relax or play"},
+    {"word": "library", "translation": "biblioteka", "definition": "a building where people can borrow books"},
+    {"word": "market", "translation": "targ", "definition": "a place where people buy food and other goods"},
+    {"word": "station", "translation": "stacja", "definition": "a place where trains or buses stop so people can get on and off"}
+  ],
+  "paragraph_translations": [
+    "To jest moje miasto. Niedaleko mojego domu jest duży park. Dzieci bawią się tam po szkole. Obok parku jest również mała biblioteka.",
+    "W niedzielę moja rodzina idzie na targ. Targ jest blisko dworca. Kupujemy tam owoce i chleb. Potem jemy obiad w kawiarni."
+  ]
+}
