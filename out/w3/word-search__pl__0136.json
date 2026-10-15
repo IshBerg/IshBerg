@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["F", "K", "Q", "B", "J", "V", "Z"],
+    ["A", "H", "E", "A", "T", "P", "L"],
+    ["M", "W", "R", "U", "C", "K", "Y"],
+    ["I", "G", "W", "A", "S", "T", "E"],
+    ["N", "Q", "O", "Y", "J", "B", "D"],
+    ["E", "R", "H", "V", "Q", "X", "M"],
+    ["D", "R", "O", "U", "G", "H", "T"]
+  ],
+  "words_to_find": ["FAMINE", "DROUGHT", "WASTE", "HEAT"],
+  "word_positions": [
+    {"word": "FAMINE", "start_row": 0, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "DROUGHT", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WASTE", "start_row": 3, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "HEAT", "start_row": 1, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Global Challenges"
+}
