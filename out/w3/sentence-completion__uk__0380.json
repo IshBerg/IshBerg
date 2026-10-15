@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the room was very dark,",
+  "correct_completion": "we turned on the light.",
+  "full_sentence": "Because the room was very dark, we turned on the light.",
+  "acceptable_variants": ["we switched on the lamp.", "we opened the curtains."],
+  "options": [
+    {"text": "we like the sunny weather.", "is_correct": false, "why_wrong": "This states a preference about the weather, which does not follow from the room being dark."},
+    {"text": "the room is very big.", "is_correct": false, "why_wrong": "This describes the size of the room, but it is not a result of the room being dark."},
+    {"text": "we turned on the light.", "is_correct": true, "why_wrong": null},
+    {"text": "we went to the park.", "is_correct": false, "why_wrong": "This action has no logical link to the room being dark, so it does not complete the cause-and-effect meaning."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses of reason with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the reason, so the second clause must show the logical result of that reason.",
+  "translation": "Оскільки в кімнаті було дуже темно, ми увімкнули світло."
+}

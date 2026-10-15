@@ -1,0 +1,14 @@
+{
+  "trigger_word": "invoice",
+  "all_words": [
+    {"word": "payment", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Рахунок стосується оплати, тому слово 'payment' має пряме змістове зв'язок з 'invoice'."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "Захід сонця не має жодного стосунку до рахунків чи оплати."},
+    {"word": "bill", "is_associated": true, "association_type": "SEMANTIC", "explanation": "У побутовій мові 'bill' у значенні рахунку майже є синонімом слова 'invoice'."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гори не пов'язані з фінансовими документами."},
+    {"word": "reminder", "is_associated": true, "association_type": "THEMATIC", "explanation": "Нагадування про неоплачений рахунок належить до тієї самої теми фінансових документів."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Гітара не має відношення до рахунків або оплати."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'invoice', стосуються оплати та фінансових документів, а нерелевантні слова належать до інших тем."
+}
