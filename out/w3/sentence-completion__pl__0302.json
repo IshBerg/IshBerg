@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The cat is",
+  "correct_completion": "under the table.",
+  "full_sentence": "The cat is under the table.",
+  "acceptable_variants": ["on the chair.", "behind the door."],
+  "options": [
+    {"text": "eat fish.", "is_correct": false, "why_wrong": "'Eat' is a verb of action. After 'is' the sentence needs a place phrase that tells where the cat is."},
+    {"text": "tomorrow.", "is_correct": false, "why_wrong": "'Tomorrow' is a time expression, not a place. The stem asks where the cat is."},
+    {"text": "under the table.", "is_correct": true, "why_wrong": null},
+    {"text": "happy.", "is_correct": false, "why_wrong": "'Happy' describes a feeling. The stem asks for a location after 'is'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: under",
+  "connector": "is",
+  "explanation": "After 'is' with a living thing, we need a preposition of place followed by a noun phrase. 'Under' shows that the cat is below the table.",
+  "translation": "Kot jest pod stołem."
+}
