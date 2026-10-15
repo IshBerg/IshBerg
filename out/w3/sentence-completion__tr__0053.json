@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother works as",
+  "correct_completion": "an engineer in a big company.",
+  "full_sentence": "My brother works as an engineer in a big company.",
+  "acceptable_variants": ["an engineer for a large company.", "an engineer at a big firm."],
+  "options": [
+    {"text": "a engineer in a big company.", "is_correct": false, "why_wrong": "'Engineer' starts with a vowel sound, so it needs 'an', not 'a'."},
+    {"text": "an engineer in a big company.", "is_correct": true, "why_wrong": null},
+    {"text": "engineer in a big company.", "is_correct": false, "why_wrong": "A singular countable job noun needs an article such as 'a' or 'an' before it."},
+    {"text": "an job in a big company.", "is_correct": false, "why_wrong": "'Job' starts with a consonant sound, so it needs 'a', not 'an'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indefinite articles 'a' and 'an'",
+  "connector": "as",
+  "explanation": "Use 'an' before a word that begins with a vowel sound and 'a' before a word that begins with a consonant sound. Turkish has no articles like 'a' or 'an', so learners often leave them out or choose the wrong one.",
+  "translation": "Kardeşim büyük bir şirkette mühendis olarak çalışıyor."
+}
