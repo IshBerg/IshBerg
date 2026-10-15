@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the train arrives,",
+  "correct_completion": "we will have been waiting for two hours.",
+  "full_sentence": "By the time the train arrives, we will have been waiting for two hours.",
+  "acceptable_variants": ["we will have waited for two hours.", "we will have been standing here for two hours."],
+  "options": [
+    {"text": "we waited for two hours.", "is_correct": false, "why_wrong": "The past simple describes a finished period in the past. It does not show a situation that is still continuing up to a future moment."},
+    {"text": "we are going to wait for two hours.", "is_correct": false, "why_wrong": "'Going to' predicts a future action but does not show that the waiting will already be in progress and continuing up to the arrival time."},
+    {"text": "we will have been waiting for two hours.", "is_correct": true, "why_wrong": null},
+    {"text": "we have waited for two hours.", "is_correct": false, "why_wrong": "The present perfect looks back from the present, not from a future moment, so it does not fit a future time clause introduced by 'by the time'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect continuous after 'by the time'",
+  "connector": "by the time",
+  "explanation": "'By the time' refers to a future moment here, so the verb must express a situation that will be in progress up to that point. The future perfect continuous shows this duration, which the other options do not.",
+  "translation": "Quando o trem chegar, nós já teremos esperado por duas horas."
+}
