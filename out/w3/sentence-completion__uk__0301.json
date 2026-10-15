@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The cat is sleeping",
+  "correct_completion": "under the bed.",
+  "full_sentence": "The cat is sleeping under the bed.",
+  "acceptable_variants": ["on the sofa.", "near the door."],
+  "options": [
+    {"text": "in the sky.", "is_correct": false, "why_wrong": "A cat does not sleep in the sky. The place does not make sense with 'sleeping'."},
+    {"text": "the bed under.", "is_correct": false, "why_wrong": "The word order is wrong. The preposition 'under' must come before 'the bed'."},
+    {"text": "under the bed.", "is_correct": true, "why_wrong": null},
+    {"text": "at the school.", "is_correct": false, "why_wrong": "A cat does not sleep at a school. The place does not fit the situation of a cat sleeping at home."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: under, in, at",
+  "connector": "none",
+  "explanation": "The completion must name a place where a cat can sleep, and the preposition must come before the noun phrase.",
+  "translation": "Кіт спить під ліжком."
+}

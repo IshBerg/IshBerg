@@ -1,0 +1,13 @@
+{
+  "start_word": "whisper",
+  "end_word": "shout",
+  "ladder_steps": [
+    {"word": "whisper", "translation": "шепотіти", "intensity_level": 1},
+    {"word": "murmur", "translation": "бурмотіти", "intensity_level": 2},
+    {"word": "talk", "translation": "говорити", "intensity_level": 3},
+    {"word": "call", "translation": "кликати", "intensity_level": 4},
+    {"word": "shout", "translation": "кричати", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These verbs describe speaking along one dimension, volume, from the quietest utterance to the loudest, with each step a little louder than the last."
+}

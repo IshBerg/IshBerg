@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Міст зазвичай будують через річку, тож ці слова пов'язані за змістом."},
+    {"word": "cake", "is_associated": false, "association_type": "NONE", "explanation": "Торт є десертом і не має жодного відношення до мостів."},
+    {"word": "arch", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Арка є частиною конструкції багатьох мостів, тому слова пов'язані."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Диван є меблями для дому і не пов'язаний з мостами."},
+    {"word": "cross", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Перетинати міст є типовим словосполученням, тому це слово пов'язане з першим."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно є музичним інструментом і не пов'язане з мостами."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Ці слова пов'язані з мостами через конструкцію, місце або типові дії з мостами; торт, диван і піаніно не мають з ними жодного зв'язку."
+}
