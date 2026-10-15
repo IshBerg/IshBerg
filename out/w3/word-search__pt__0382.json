@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["V", "O", "I", "C", "E", "Q", "W", "M", "T"],
+    ["S", "Y", "N", "T", "A", "X", "K", "E", "O"],
+    ["I", "D", "L", "B", "F", "J", "U", "T", "N"],
+    ["Z", "M", "P", "R", "H", "K", "W", "A", "E"],
+    ["C", "G", "A", "Q", "X", "V", "B", "P", "Y"],
+    ["F", "T", "K", "G", "D", "W", "S", "H", "L"],
+    ["J", "N", "Z", "U", "E", "M", "I", "O", "R"],
+    ["B", "V", "X", "K", "Q", "R", "W", "R", "C"],
+    ["P", "H", "G", "L", "N", "D", "Y", "F", "Z"]
+  ],
+  "words_to_find": ["VOICE", "TONE", "IMAGERY", "SYNTAX", "METAPHOR"],
+  "word_positions": [
+    {"word": "VOICE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TONE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "IMAGERY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SYNTAX", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "METAPHOR", "start_row": 0, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Creative Writing: Voice and Style"
+}

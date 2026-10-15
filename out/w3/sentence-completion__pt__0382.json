@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the comic strip was very funny,",
+  "correct_completion": "the children did not laugh.",
+  "full_sentence": "Although the comic strip was very funny, the children did not laugh.",
+  "acceptable_variants": ["the children still did not laugh.", "some readers found it boring."],
+  "options": [
+    {"text": "so everyone bought a copy.", "is_correct": false, "why_wrong": "'so' shows a result, not a contrast. 'Although' needs a clause that goes against the first part."},
+    {"text": "the children did not laugh.", "is_correct": true, "why_wrong": null},
+    {"text": "the drawings were very colourful.", "is_correct": false, "why_wrong": "This describes the drawings, but it does not show a contrast with the idea that the comic strip is funny."},
+    {"text": "it was printed on paper.", "is_correct": false, "why_wrong": "This gives a fact about the printing, which does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a contrast with the first part of the sentence. Learners should avoid using a result clause in this position.",
+  "translation": "Embora a tira de quadrinhos fosse muito engraçada, as crianças não riram."
+}
