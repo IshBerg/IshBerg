@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Sorry, my phone battery died,",
+  "correct_completion": "so I could not reply to you.",
+  "full_sentence": "Sorry, my phone battery died, so I could not reply to you.",
+  "acceptable_variants": ["so I did not answer your message.", "so I could not text you back."],
+  "options": [
+    {"text": "so I could not reply to you.", "is_correct": false, "why_wrong": "This is the correct completion. Check the other options again."},
+    {"text": "and I like the new photo.", "is_correct": false, "why_wrong": "This adds an unrelated comment and does not explain why the reply did not happen."},
+    {"text": "so I can reply to you now.", "is_correct": true, "why_wrong": null},
+    {"text": "but I could reply to you.", "is_correct": false, "why_wrong": "'But' shows contrast, but the stem already gives a clear reason for not replying, so this contradicts the meaning."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'so' after a reason clause",
+  "connector": "so",
+  "explanation": "The stem gives a reason, a dead battery, so the completion must show the result of that reason. Use 'so' with the result clause and a negative past form, such as could not, to show what happened. Spanish speakers may confuse 'so' with 'but' here, because both can link two clauses in their language.",
+  "translation": "Perdona, se me acabó la batería del teléfono, así que no pude responderte."
+}
