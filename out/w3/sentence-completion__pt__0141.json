@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she used to hate coffee,",
+  "correct_completion": "she now drinks two cups every morning.",
+  "full_sentence": "Although she used to hate coffee, she now drinks two cups every morning.",
+  "acceptable_variants": ["she now enjoys it a lot.", "she drinks it every day now."],
+  "options": [
+    {"text": "so she never drinks it at all.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast. The stem is not asking for a consequence of her dislike."},
+    {"text": "because she was very tired.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which does not fit the concessive meaning of 'although'. The clause also does not contrast with her dislike of coffee."},
+    {"text": "she now drinks two cups every morning.", "is_correct": true, "why_wrong": null},
+    {"text": "it was sold at a low price.", "is_correct": false, "why_wrong": "This adds a fact about price, which is unrelated to the contrast. The completion should show a change in her habit."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "'Although' introduces a contrast, so the second clause must show something that goes against the first part. 'Used to' describes a past habit that has changed, and the correct completion shows that change with the present simple. Portuguese speakers often add a linking word such as 'but' after the clause, but in English 'although' already signals the contrast, so no extra linking word is needed.",
+  "translation": "Embora ela costumasse odiar café, agora ela bebe duas xícaras toda manhã."
+}
