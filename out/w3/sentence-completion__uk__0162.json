@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If she had arrived earlier,",
+  "correct_completion": "she would have caught the train.",
+  "full_sentence": "If she had arrived earlier, she would have caught the train.",
+  "acceptable_variants": ["she would have reached the station on time.", "she would not have missed the train."],
+  "options": [
+    {"text": "she will catch the train tomorrow.", "is_correct": false, "why_wrong": "'Will' refers to a future plan, but a third conditional describes an imagined past result using 'would have'."},
+    {"text": "she catches the train every day.", "is_correct": false, "why_wrong": "This describes a habit in the present and does not complete the imagined past result."},
+    {"text": "she had caught the train already.", "is_correct": false, "why_wrong": "The past perfect does not express the imagined result of the condition; 'would have' is needed here."},
+    {"text": "she would have caught the train.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: if + past perfect, would have + past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined past result. The main clause needs 'would have' followed by a past participle. Learners whose first language has no separate form for unreal past situations often choose a simple past or a 'will' form instead.",
+  "translation": "Якби вона прийшла раніше, вона б встигла на потяг."
+}
