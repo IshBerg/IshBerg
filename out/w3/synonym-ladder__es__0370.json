@@ -1,0 +1,13 @@
+{
+  "start_word": "ugly",
+  "end_word": "beautiful",
+  "ladder_steps": [
+    {"word": "ugly", "translation": "feo", "intensity_level": 1},
+    {"word": "plain", "translation": "poco atractivo", "intensity_level": 2},
+    {"word": "average", "translation": "normal", "intensity_level": 3},
+    {"word": "pretty", "translation": "bonito", "intensity_level": 4},
+    {"word": "beautiful", "translation": "hermoso", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Appearance words form a ladder along one dimension, attractiveness, from the least attractive to the most attractive, with each step slightly more appealing than the last."
+}
