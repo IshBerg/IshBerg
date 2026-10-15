@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the data were collected carefully,",
+  "correct_completion": "the results were still questioned by several reviewers.",
+  "full_sentence": "Although the data were collected carefully, the results were still questioned by several reviewers.",
+  "acceptable_variants": ["the results were still criticized by the reviewers.", "several reviewers still doubted the conclusions."],
+  "options": [
+    {"text": "so the results were never published.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause and effect. Use 'so' or 'therefore' to show a result."},
+    {"text": "the report was written in English.", "is_correct": false, "why_wrong": "This adds an unrelated detail. It does not complete the contrast that 'although' sets up."},
+    {"text": "the results were still questioned by several reviewers.", "is_correct": true, "why_wrong": null},
+    {"text": "several reviewers agreed with the report.", "is_correct": false, "why_wrong": "This continues the same positive idea instead of contrasting with the careful data collection, so it does not fit 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and passive voice",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that shows contrast with the first part. The passive form 'were questioned' keeps the focus on the results, which is common in academic reports.",
+  "translation": "Aunque los datos se recopilaron con cuidado, los resultados todavía fueron cuestionados por varios revisores."
+}
