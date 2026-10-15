@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat water to one hundred degrees,",
+  "correct_completion": "it boils.",
+  "full_sentence": "If you heat water to one hundred degrees, it boils.",
+  "acceptable_variants": ["it starts to boil.", "steam comes out."],
+  "options": [
+    {"text": "it freezes.", "is_correct": false, "why_wrong": "Heating water does not make it freeze, so this result does not follow from the condition in the stem."},
+    {"text": "you will need a bigger pot.", "is_correct": false, "why_wrong": "This uses the future tense, but a zero conditional uses the present simple in the result clause."},
+    {"text": "it boils.", "is_correct": true, "why_wrong": null},
+    {"text": "it was cold yesterday.", "is_correct": false, "why_wrong": "This describes the past and does not show the result of the condition in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional with 'if' and the present simple in both clauses",
+  "connector": "if",
+  "explanation": "A zero conditional describes a result that always happens when the condition is true, so both clauses use the present simple. Learners whose first language has no separate tense for this pattern may need extra practice with the simple present in the result clause.",
+  "translation": "Якщо нагріти воду до ста градусів, вона закипає."
+}
