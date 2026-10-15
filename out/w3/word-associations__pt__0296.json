@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pencil",
+  "all_words": [
+    {"word": "eraser", "is_associated": true, "association_type": "THEMATIC", "explanation": "A borracha é um objeto da mesma sala de aula e é usada junto com o lápis para corrigir a escrita."},
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "O papel é o material onde o lápis escreve ou desenha, por isso as duas palavras pertencem ao mesmo contexto escolar."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "O oceano é um lugar natural muito grande e não tem nenhuma ligação com o uso do lápis."},
+    {"word": "sharpener", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O apontador serve para afiar o lápis, portanto está diretamente ligado a ele."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "A montanha é um elemento da natureza sem relação com objetos de escrita."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "A banana é uma fruta e não tem nenhuma relação com o lápis ou com a sala de aula."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'pencil' são objetos de escrita ou materiais usados junto com o lápis na sala de aula. As palavras não associadas pertencem a outros contextos, como natureza ou comida."
+}
