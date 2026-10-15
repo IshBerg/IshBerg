@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While I was cooking dinner, the phone rang.",
+  "acceptable_variants": ["someone knocked on the door.", "my brother came home."],
+  "options": [
+    {"text": "I cook dinner every day.", "is_correct": false, "why_wrong": "This describes a habit in the present. It does not give a sudden event that interrupts the action in progress."},
+    {"text": "the dinner was delicious.", "is_correct": false, "why_wrong": "This describes the food, but it does not give the event that interrupts the action in progress."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "I have cooked dinner before.", "is_correct": false, "why_wrong": "The present perfect does not fit after 'while' here. The sentence needs a short past event that interrupts the continuous action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous with 'while' for the action in progress, and past simple for the interrupting event",
+  "connector": "while",
+  "explanation": "The stem uses the past continuous for the action in progress. The completion needs the past simple for a short event that interrupts it. Learners often use the simple past for both actions, but the continuous form is needed for the longer action.",
+  "translation": "Akşam yemeğini pişirirken telefon çaldı."
+}
