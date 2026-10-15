@@ -1,0 +1,14 @@
+{
+  "trigger_word": "computer",
+  "all_words": [
+    {"word": "keyboard", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O teclado é um dispositivo usado para digitar no computador, por isso está diretamente relacionado a ele."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Pão é um alimento e não tem nenhuma relação com computadores ou tecnologia."},
+    {"word": "internet", "is_associated": true, "association_type": "THEMATIC", "explanation": "A internet pertence ao tema da vida digital e do uso do computador, por isso é uma associação temática."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanha é um elemento da natureza, sem qualquer ligação com tecnologia ou computadores."},
+    {"word": "software", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O software é o conjunto de programas que o computador executa, então tem relação de sentido direta."},
+    {"word": "mouse", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "O mouse é um periférico do computador, e as duas palavras formam uma expressão comum: computer mouse."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'computer' se associa a dispositivos, programas e à vida digital; itens sem relação com tecnologia não devem ser selecionados."
+}

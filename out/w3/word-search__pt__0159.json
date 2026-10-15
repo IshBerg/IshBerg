@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "A", "N", "D", "M", "A", "D", "E", "Q", "W"],
+    ["S", "K", "P", "R", "T", "Y", "U", "I", "O", "E"],
+    ["Z", "E", "X", "B", "C", "G", "H", "J", "V", "L"],
+    ["W", "Q", "L", "M", "N", "R", "T", "S", "U", "L"],
+    ["L", "O", "W", "F", "A", "T", "P", "V", "B", "K"],
+    ["G", "H", "J", "K", "M", "Q", "W", "X", "Y", "N"],
+    ["C", "D", "F", "G", "H", "A", "P", "Q", "R", "O"],
+    ["X", "Y", "Z", "B", "N", "V", "D", "T", "U", "W"],
+    ["P", "Q", "R", "S", "T", "U", "V", "E", "G", "N"],
+    ["G", "N", "I", "V", "A", "S", "E", "M", "I", "T"]
+  ],
+  "words_to_find": ["HANDMADE", "WELLKNOWN", "TIMESAVING", "SELFMADE", "LOWFAT"],
+  "word_positions": [
+    {"word": "HANDMADE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WELLKNOWN", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "TIMESAVING", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SELFMADE", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LOWFAT", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Compound Adjectives"
+}

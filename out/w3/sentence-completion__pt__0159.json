@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would have a better job now.",
+  "full_sentence": "If I had studied harder last year, I would have a better job now.",
+  "acceptable_variants": ["I would be earning more money now.", "I would be in a better position today."],
+  "options": [
+    {"text": "I will study harder next year.", "is_correct": false, "why_wrong": "This is a plan for the future. It does not describe the imagined past condition and its present result."},
+    {"text": "I would have a better job now.", "is_correct": true, "why_wrong": null},
+    {"text": "I study hard every day.", "is_correct": false, "why_wrong": "The present simple describes a habit and does not connect to the imagined past condition."},
+    {"text": "I had a better job last year.", "is_correct": false, "why_wrong": "This is a past simple statement about a real past event, not an imagined present result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past perfect in the if-clause and 'would' for a present result",
+  "connector": "if",
+  "explanation": "This is a mixed conditional. The if-clause describes a past situation with the past perfect 'had studied', while the main clause describes a present result with 'would have ... now'. Portuguese speakers often copy the same tense into both clauses, but English keeps the past perfect in the if-clause and uses 'would' for the present result.",
+  "translation": "Se eu tivesse estudado mais no ano passado, eu teria um emprego melhor agora."
+}
