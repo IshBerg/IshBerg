@@ -1,0 +1,13 @@
+{
+  "codename": "SILENT QUILL",
+  "briefing": "Agent, we have intercepted coded memos built from common writing phrases. Match each English chunk to its Polish meaning to decode the hidden instructions before the handover.",
+  "connection_mode": "vocabulary",
+  "difficulty": "hard",
+  "pairs": [
+    {"left": "on the other hand", "right": "z drugiej strony", "left_style": "document", "right_style": "handwritten"},
+    {"left": "as a result", "right": "w rezultacie", "left_style": "photo", "right_style": "document"},
+    {"left": "for instance", "right": "na przykład", "left_style": "newspaper", "right_style": "official"},
+    {"left": "in addition", "right": "ponadto", "left_style": "handwritten", "right_style": "newspaper"},
+    {"left": "in conclusion", "right": "podsumowując", "left_style": "official", "right_style": "photo"}
+  ]
+}
