@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother, who lives in Ankara,",
+  "correct_completion": "is a doctor at a large hospital.",
+  "full_sentence": "My brother, who lives in Ankara, is a doctor at a large hospital.",
+  "acceptable_variants": ["works as a doctor at a large hospital.", "is a doctor at a large hospital in Istanbul."],
+  "options": [
+    {"text": "that is a doctor at a large hospital.", "is_correct": false, "why_wrong": "'That' cannot introduce a non-defining clause after a comma; use 'who' for people."},
+    {"text": "who are doctors at a large hospital.", "is_correct": false, "why_wrong": "The verb must agree with the singular subject 'my brother', so 'are' is incorrect."},
+    {"text": "is a doctor at a large hospital.", "is_correct": true, "why_wrong": null},
+    {"text": "which is always very busy.", "is_correct": false, "why_wrong": "'Which' refers to things, not to a person such as 'my brother'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "A non-defining clause adds extra information about someone already identified, so it is separated by commas and uses 'who' for people. Turkish speakers may find this difficult because Turkish places relative clauses before the noun they describe, which can cause confusion about where the clause should go in English.",
+  "translation": "Ankara'da yaşayan erkek kardeşim büyük bir hastanede doktor."
+}

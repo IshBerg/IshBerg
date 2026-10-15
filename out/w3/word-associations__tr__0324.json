@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bread",
+  "all_words": [
+    {"word": "butter", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ekmek ve tereyağı birlikte sıkça kullanılan bir söz öbeğidir."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitar ekmekle ilgili değildir ve mutfakla bir bağlantısı yoktur."},
+    {"word": "bakery", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fırıncı dükkânı ekmeğin üretildiği ve satıldığı yerdir, bu yüzden konuyla yakından ilgilidir."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ ekmek konusuyla ilgisi olmayan bir doğa unsurudur."},
+    {"word": "wheat", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Buğday ekmeğin temel hammaddesidir."},
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fırın, ekmek pişirmek için kullanılan bir cihazdır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Ekmekle ilgili kelimeler un, pişirme, satış ve ortak söz öbekleri üzerinden bağlanır; dağ ve gitar ise bu alanın dışındadır."
+}
