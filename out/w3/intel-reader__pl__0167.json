@@ -1,0 +1,20 @@
+{
+  "title": "An Email About a Delivery",
+  "text": "Dear Mr. Kowalski, thank you for your email of 5 May. I am writing to inform you that your order will arrive on Tuesday. Please sign for the parcel when it comes.\n\nIf you are not at home, the driver will leave it with our neighbour. You can also collect it from our office. Yours faithfully, Maria Green.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "When will the order arrive?", "options": ["On Tuesday", "On Thursday", "On Monday", "On Friday"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where can Mr. Kowalski collect the parcel?", "options": ["From the office", "From the post box", "From the driver's car", "From the bank"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why is the writer sending this email?", "options": ["To inform the customer about a delivery", "To ask for a payment", "To complain about an order", "To apply for a job"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is the writer's attitude towards the customer?", "options": ["Polite and professional", "Angry and rude", "Excited and informal", "Bored and careless"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "inform", "translation": "informować", "definition": "to tell someone about something"},
+    {"word": "parcel", "translation": "paczka", "definition": "a package sent by post or delivery service"},
+    {"word": "collect", "translation": "odebrać", "definition": "to go and get something from a place"},
+    {"word": "neighbour", "translation": "sąsiad", "definition": "a person who lives near you"}
+  ],
+  "paragraph_translations": [
+    "Szanowny Panie Kowalski, dziękuję za Pana e-mail z 5 maja. Piszę, aby poinformować, że Pana zamówienie dotrze we wtorek. Proszę podpisać odbiór paczki, gdy kurier dostarczy przesyłkę.",
+    "Jeśli nie będzie Pana w domu, kierowca zostawi paczkę u naszego sąsiada. Może Pan również odebrać ją z naszego biura. Z poważaniem, Maria Green."
+  ]
+}

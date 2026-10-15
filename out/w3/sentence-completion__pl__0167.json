@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had taken the earlier train,",
+  "correct_completion": "I would be at home by now.",
+  "full_sentence": "If I had taken the earlier train, I would be at home by now.",
+  "acceptable_variants": ["I might be at home by now.", "I would be relaxing at home by now."],
+  "options": [
+    {"text": "I am at home by now.", "is_correct": false, "why_wrong": "A simple present sentence states a fact and does not express a hypothetical past condition with a present result."},
+    {"text": "I would have been at home by now.", "is_correct": false, "why_wrong": "'Would have been' refers to the past, which conflicts with the time expression 'by now'."},
+    {"text": "I would be at home by now.", "is_correct": true, "why_wrong": null},
+    {"text": "I was at home yesterday.", "is_correct": false, "why_wrong": "The past simple describes a real past event and gives no hypothetical present result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past condition with present result",
+  "connector": "if",
+  "explanation": "A mixed conditional links an unreal past condition with an unreal present result. The past perfect appears in the if-clause, while 'would' plus a base verb appears in the main clause to describe the present situation.",
+  "translation": "Gdybym wcześniej wsiadł do pociągu, byłbym już teraz w domu."
+}
