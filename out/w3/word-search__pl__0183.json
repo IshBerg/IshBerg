@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["D", "E", "S", "K", "T", "M", "Q", "W", "Z", "J"],
+    ["A", "V", "N", "L", "F", "G", "H", "X", "Y", "U"],
+    ["X", "T", "R", "M", "S", "P", "Q", "W", "L", "G"],
+    ["N", "K", "F", "H", "J", "E", "V", "B", "C", "O"],
+    ["Z", "Q", "Y", "P", "W", "N", "M", "X", "R", "T"],
+    ["B", "L", "G", "V", "X", "U", "H", "D", "K", "E"],
+    ["F", "O", "J", "S", "Q", "M", "A", "W", "T", "I"],
+    ["L", "U", "O", "C", "R", "B", "V", "N", "H", "A"],
+    ["G", "T", "P", "K", "E", "Z", "D", "W", "Q", "F"],
+    ["Y", "X", "J", "S", "M", "R", "I", "A", "H", "C"]
+  ],
+  "words_to_find": ["DESK", "PEN", "BOOK", "CHAIR"],
+  "word_positions": [
+    {"word": "DESK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PEN", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "BOOK", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CHAIR", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Classroom Objects"
+}
