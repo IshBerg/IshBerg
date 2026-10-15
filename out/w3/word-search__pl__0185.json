@@ -1,0 +1,23 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["C", "A", "T", "X", "Q", "L", "V", "D"],
+    ["R", "U", "K", "P", "M", "Z", "S", "O"],
+    ["B", "J", "V", "I", "Y", "F", "H", "G"],
+    ["N", "W", "Q", "G", "K", "H", "S", "A"],
+    ["L", "C", "O", "W", "T", "E", "X", "Z"],
+    ["A", "Z", "R", "D", "F", "N", "Q", "M"],
+    ["M", "P", "K", "S", "J", "B", "V", "Y"],
+    ["A", "E", "D", "U", "C", "K", "T", "R"]
+  ],
+  "words_to_find": ["CAT", "DOG", "PIG", "COW", "HEN", "DUCK"],
+  "word_positions": [
+    {"word": "CAT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DOG", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "PIG", "start_row": 1, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "COW", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "HEN", "start_row": 3, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "DUCK", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Pets and Farm Animals"
+}

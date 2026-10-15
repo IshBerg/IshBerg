@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "sunshine", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Światło słoneczne jest bezpośrednio związane ze słońcem, ponieważ to słońce je wysyła."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Plaża to miejsce, gdzie ludzie opalają się w słońcu, więc należą do tego samego tematu wakacyjnego."},
+    {"word": "book", "is_associated": false, "association_type": "NONE", "explanation": "Książka nie ma żadnego związku ze słońcem ani z pogodą."},
+    {"word": "sunflower", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słonecznik zawiera słowo 'sun' w swojej nazwie, dlatego jest z nim połączony w słowotwórstwie."},
+    {"word": "snowman", "is_associated": false, "association_type": "NONE", "explanation": "Bałwan jest związany ze śniegiem i zimą, a nie ze słońcem."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "Lampa daje światło, ale nie ma bezpośredniego związku ze słońcem jako źródłem światła."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z 'sun' dotyczą światła, lata i nazw z tym słowem, a pozostałe należą do innych tematów."
+}
