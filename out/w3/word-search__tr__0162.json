@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["A", "Q", "Z", "W", "J", "K", "B", "D", "L"],
+    ["G", "R", "S", "P", "I", "N", "I", "T", "V"],
+    ["F", "K", "W", "M", "Z", "J", "A", "Q", "C"],
+    ["H", "U", "B", "R", "T", "L", "S", "O", "N"],
+    ["K", "Y", "D", "W", "P", "M", "F", "I", "E"],
+    ["Q", "W", "P", "O", "G", "A", "H", "T", "R"],
+    ["B", "N", "O", "E", "R", "X", "J", "K", "D"],
+    ["V", "C", "L", "M", "Z", "B", "Q", "F", "W"],
+    ["S", "J", "W", "K", "R", "Y", "T", "D", "P"]
+  ],
+  "words_to_find": ["SPIN", "BIAS", "HYPE", "SCOOP"],
+  "word_positions": [
+    {"word": "SPIN", "start_row": 1, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "BIAS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "HYPE", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SCOOP", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Idioms and Figurative Language in the Media"
+}
