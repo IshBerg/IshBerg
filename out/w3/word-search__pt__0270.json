@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["P", "R", "E", "D", "I", "C", "T", "Q", "F"],
+    ["B", "X", "Z", "L", "V", "N", "W", "Q", "U"],
+    ["H", "J", "K", "I", "R", "S", "M", "D", "T"],
+    ["Z", "Q", "W", "K", "P", "N", "A", "V", "U"],
+    ["G", "X", "J", "E", "B", "D", "Y", "L", "R"],
+    ["P", "U", "K", "L", "T", "N", "B", "Q", "E"],
+    ["Z", "M", "E", "Y", "H", "R", "E", "W", "J"],
+    ["C", "V", "R", "S", "N", "O", "X", "F", "K"],
+    ["D", "L", "H", "U", "S", "Z", "C", "B", "V"]
+  ],
+  "words_to_find": ["PREDICT", "FUTURE", "GUESS", "LIKELY", "MAYBE"],
+  "word_positions": [
+    {"word": "PREDICT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FUTURE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "GUESS", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LIKELY", "start_row": 1, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "MAYBE", "start_row": 2, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Making Predictions"
+}
