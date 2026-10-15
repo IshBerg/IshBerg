@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "dokument", "transliteration": "dokument", "meaning": "document"},
+    {"word": "telefon", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "restauracja", "transliteration": "restauracja", "meaning": "restaurant"},
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"}
+  ],
+  "english_words": ["current", "restaurant", "document", "telephone"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Several of these words were borrowed from the same sources, such as Latin and French, so the forms stayed close in both languages. The Polish adjective that looks like English 'actual' is a false friend: it means 'current' or 'up to date'.",
+  "false_friend_warning": "The Polish adjective that looks like English 'actual' means 'current' or 'up to date', not 'actual' (real or true), so it must be paired with 'current'."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the meeting,",
+  "correct_completion": "I would have come earlier.",
+  "full_sentence": "If I had known about the meeting, I would have come earlier.",
+  "acceptable_variants": ["I would have arrived earlier.", "I'd have come much earlier."],
+  "options": [
+    {"text": "I will come earlier.", "is_correct": false, "why_wrong": "'Will' describes a real future situation. The stem is an unreal past condition, so the result needs 'would have' plus a past participle."},
+    {"text": "I know about it now.", "is_correct": false, "why_wrong": "This states a present fact and does not give the result of the condition started by 'if'."},
+    {"text": "I would have come earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "I come earlier every day.", "is_correct": false, "why_wrong": "This describes a habit. It does not complete an unreal past condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional (unreal past condition with 'if' and 'would have')",
+  "connector": "if",
+  "explanation": "The stem is a third conditional: 'had known' describes an unreal past condition, so the result clause needs 'would have' followed by a past participle. Polish uses a conditional particle with a past-tense verb for the same idea, so Polish speakers often need extra practice with the past perfect in the if-clause.",
+  "translation": "Gdybym wiedział o spotkaniu, przyszedłbym wcześniej."
+}

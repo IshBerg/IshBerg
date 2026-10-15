@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "yellow", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słońce na rysunkach i w opisach jest zwykle żółte, więc to typowe skojarzenie kolorystyczne."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Plaża to miejsce, gdzie świeci słońce i ludzie się na niej opalają."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Stół nie ma żadnego związku ze słońcem ani z jego cechami."},
+    {"word": "light", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Słońce jest głównym źródłem światła, więc to bezpośrednie skojarzenie znaczeniowe."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "But nie ma związku ze słońcem, a jego noszenie latem jest przypadkowe i nie tworzy skojarzenia."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "Deszcz zwykle oznacza brak słonecznej pogody, więc nie kojarzy się ze słońcem."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzenia z hasłem 'sun' obejmują kolor, miejsca i zjawiska związane ze słońcem, a przedmioty bez tego związku odpadają."
+}
