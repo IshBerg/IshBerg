@@ -1,0 +1,14 @@
+{
+  "trigger_word": "cow",
+  "all_words": [
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Стіл не має відношення до корів, це предмет меблів."},
+    {"word": "milk", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Корови дають молоко, тому ці слова часто стоять разом."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець не пов'язаний з коровами і фермою."},
+    {"word": "farm", "is_associated": true, "association_type": "THEMATIC", "explanation": "Корови живуть на фермі, тому це слово тематично пов'язане з ними."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Вікно не має відношення до корів."},
+    {"word": "grass", "is_associated": true, "association_type": "THEMATIC", "explanation": "Корови їдять траву, тому це слово тематично пов'язане з ними."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з коровою, стосуються ферми, її їжі та молока, а решта слів до неї не належить."
+}

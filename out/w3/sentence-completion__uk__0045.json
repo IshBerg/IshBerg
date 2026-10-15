@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because he has got a cold,",
+  "correct_completion": "he is staying at home today.",
+  "full_sentence": "Because he has got a cold, he is staying at home today.",
+  "acceptable_variants": ["he is resting in bed today.", "he is not going to school today."],
+  "options": [
+    {"text": "he has got a new car.", "is_correct": false, "why_wrong": "A new car is not a result of having a cold, so it does not complete the cause and effect meaning of 'because'."},
+    {"text": "he likes to play football.", "is_correct": false, "why_wrong": "This is a fact about his hobbies. It is not a result of having a cold."},
+    {"text": "he is staying at home today.", "is_correct": true, "why_wrong": null},
+    {"text": "his friends are at school.", "is_correct": false, "why_wrong": "This describes his friends, not what he does because of his illness."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because' and 'has got'",
+  "connector": "because",
+  "explanation": "The word 'because' introduces the reason, so the second part must show the result of having a cold. Look for the option that describes what happens as a consequence.",
+  "translation": "Оскільки в нього застуда, він сьогодні залишається вдома."
+}
