@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "atual", "transliteration": "atual", "meaning": "current"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "intend"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "attend"},
+    {"word": "eventual", "transliteration": "eventual", "meaning": "occasional"}
+  ],
+  "english_words": ["occasional", "attend", "current", "intend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Several Portuguese words look like English words that share their spelling, but they carry a different core meaning. Learners should match each Portuguese word to the English word that expresses its real meaning, not the one that looks similar.",
+  "false_friend_warning": "A Portuguese adjective that looks like the English word 'actual' means 'current', so students who rely on the spelling will choose the wrong English word. Similarly, a Portuguese verb that looks like 'pretend' means 'intend', and a Portuguese verb that looks like 'assist' means 'attend'."
+}

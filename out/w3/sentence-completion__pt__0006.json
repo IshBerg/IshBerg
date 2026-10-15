@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The museum is said",
+  "correct_completion": "to have been closed since 2019.",
+  "full_sentence": "The museum is said to have been closed since 2019.",
+  "acceptable_variants": ["to have been closed for repairs since 2019.", "to have remained closed since 2019."],
+  "options": [
+    {"text": "closed since 2019 because of repairs.", "is_correct": false, "why_wrong": "'Is said' must be followed by an infinitive, not a past participle, so the sentence is ungrammatical."},
+    {"text": "to have been closed since 2019.", "is_correct": true, "why_wrong": null},
+    {"text": "that it closed in 2019 for repairs.", "is_correct": false, "why_wrong": "'Is said' cannot be followed directly by 'that'; the personal passive pattern requires an infinitive construction."},
+    {"text": "to closed since the year 2019.", "is_correct": false, "why_wrong": "A perfect infinitive requires 'to have been' followed by the past participle, so 'to closed' is ungrammatical."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Personal passive reporting with 'is said to' and the perfect infinitive",
+  "connector": "is said",
+  "explanation": "The reporting pattern 'is said to' is followed by a perfect infinitive, 'to have been closed', which shows that the state began in the past and may still continue. Learners should avoid using 'that' after this pattern. Portuguese speakers often translate reported statements word for word, so they may need extra practice with the infinitive form.",
+  "translation": "Diz-se que o museu está fechado desde 2019."
+}
