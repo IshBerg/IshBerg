@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "costas", "transliteration": "costas", "meaning": "back"},
+    {"word": "pele", "transliteration": "pele", "meaning": "skin"},
+    {"word": "cabeça", "transliteration": "cabeça", "meaning": "head"},
+    {"word": "dente", "transliteration": "dente", "meaning": "tooth"}
+  ],
+  "english_words": ["skin", "tooth", "back", "head"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Some of these Portuguese body-part words look similar to English words with different meanings, so learners can be misled by spelling even though the body-part meanings are shared between the languages.",
+  "false_friend_warning": "The Portuguese word 'costas' looks like the English word 'costs', but it means 'back'. The Portuguese word 'pele' is easily confused with the English word 'pale', but it means 'skin'."
+}

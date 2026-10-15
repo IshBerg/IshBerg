@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E", "M", "A", "I", "L", "X", "Q", "Z", "K", "P"],
+    ["B", "R", "D", "F", "I", "S", "Q", "W", "J", "H"],
+    ["U", "T", "G", "Y", "V", "K", "L", "M", "N", "O"],
+    ["C", "D", "X", "B", "R", "F", "H", "J", "T", "N"],
+    ["Q", "W", "Z", "K", "M", "G", "Y", "N", "V", "E"],
+    ["A", "B", "C", "D", "F", "G", "E", "H", "J", "K"],
+    ["L", "P", "M", "N", "R", "E", "T", "U", "V", "W"],
+    ["Q", "X", "P", "Z", "R", "B", "C", "D", "F", "G"],
+    ["H", "J", "K", "C", "L", "M", "N", "P", "Q", "R"],
+    ["V", "W", "S", "X", "P", "O", "T", "P", "A", "L"]
+  ],
+  "words_to_find": ["EMAIL", "PHONE", "APP", "LAPTOP", "SCREEN"],
+  "word_positions": [
+    {"word": "EMAIL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PHONE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "APP", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LAPTOP", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SCREEN", "start_row": 9, "start_col": 2, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Technology and Digital Life"
+}
