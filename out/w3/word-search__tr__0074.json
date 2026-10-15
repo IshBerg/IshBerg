@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["J", "U", "M", "P", "T", "B", "H", "D", "R"],
+    ["G", "Y", "N", "E", "O", "V", "Q", "L", "U"],
+    ["A", "C", "T", "Z", "F", "H", "D", "B", "N"],
+    ["S", "O", "P", "L", "G", "E", "V", "Q", "A"],
+    ["F", "W", "R", "N", "T", "U", "K", "Z", "O"],
+    ["Q", "Y", "I", "D", "E", "L", "I", "G", "B"],
+    ["V", "H", "X", "M", "U", "T", "C", "R", "P"],
+    ["N", "J", "B", "Y", "S", "O", "K", "E", "D"],
+    ["Z", "I", "Q", "F", "W", "A", "L", "K", "M"]
+  ],
+  "words_to_find": ["JUMP", "RUN", "SWIM", "WALK", "KICK"],
+  "word_positions": [
+    {"word": "JUMP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RUN", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SWIM", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WALK", "start_row": 8, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "KICK", "start_row": 4, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Action Verbs"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the shop was closed on Sunday,",
+  "correct_completion": "we bought our bread on Saturday.",
+  "full_sentence": "Because the shop was closed on Sunday, we bought our bread on Saturday.",
+  "acceptable_variants": ["we had to buy our bread on Saturday.", "we went to another bakery that day."],
+  "options": [
+    {"text": "although we were very hungry.", "is_correct": false, "why_wrong": "'Although' signals contrast, while 'because' signals cause; the two connectors cannot both introduce the same clause."},
+    {"text": "so we bought bread on Sunday.", "is_correct": false, "why_wrong": "This combines 'because' with 'so' in one clause and contradicts the fact that the shop was closed on Sunday."},
+    {"text": "we bought our bread on Saturday.", "is_correct": true, "why_wrong": null},
+    {"text": "the shop was open on Monday.", "is_correct": false, "why_wrong": "This gives a fact about a different day and does not show the result of the shop being closed on Sunday."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a main clause that shows the result of the shop being closed. Learners should avoid combining 'because' with another connector such as 'although' or 'so' in the same sentence.",
+  "translation": "Pazar günü dükkân kapalı olduğu için, ekmeğimizi cumartesi günü aldık."
+}
