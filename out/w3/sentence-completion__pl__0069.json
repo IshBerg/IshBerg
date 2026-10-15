@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We usually have dinner",
+  "correct_completion": "at seven o'clock.",
+  "full_sentence": "We usually have dinner at seven o'clock.",
+  "acceptable_variants": ["at seven in the evening.", "at 7 p.m."],
+  "options": [
+    {"text": "on seven o'clock.", "is_correct": false, "why_wrong": "'On' is used with days and dates, not with clock times. Use 'at' with a specific time."},
+    {"text": "in seven o'clock.", "is_correct": false, "why_wrong": "'In' is used with parts of the day or months, not with exact clock times."},
+    {"text": "at seven o'clock.", "is_correct": true, "why_wrong": null},
+    {"text": "for seven o'clock.", "is_correct": false, "why_wrong": "'For' is used with a length of time, such as 'for two hours', not with a specific point in time."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of time: 'at' with clock times",
+  "connector": "at",
+  "explanation": "A specific clock time needs the preposition 'at'. Learners who translate word by word often pick the wrong preposition, so it is best to memorize 'at' with clock times as a fixed pattern.",
+  "translation": "Zwykle jemy kolację o siódmej."
+}
