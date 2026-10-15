@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "H", "E", "O", "R", "Y", "D"],
+    ["K", "M", "Q", "J", "X", "W", "A"],
+    ["P", "B", "N", "V", "Z", "C", "T"],
+    ["R", "G", "Q", "K", "H", "W", "A"],
+    ["O", "S", "T", "U", "D", "Y", "L"],
+    ["O", "J", "C", "M", "Z", "P", "W"],
+    ["F", "Q", "L", "A", "B", "X", "H"]
+  ],
+  "words_to_find": ["THEORY", "DATA", "PROOF", "STUDY", "LAB"],
+  "word_positions": [
+    {"word": "THEORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DATA", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PROOF", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "STUDY", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "LAB", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Science, Research and Evidence"
+}

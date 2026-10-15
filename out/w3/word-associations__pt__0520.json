@@ -1,0 +1,14 @@
+{
+  "trigger_word": "fruit",
+  "all_words": [
+    {"word": "apple", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Maçã é um tipo de fruta, então está diretamente ligada ao tema."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Mesa é um móvel e não tem nenhuma relação com frutas."},
+    {"word": "banana", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Banana é uma fruta, por isso pertence ao mesmo grupo de 'fruit'."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Carro é um veículo e não se relaciona com frutas."},
+    {"word": "orange", "is_associated": true, "association_type": "THEMATIC", "explanation": "Laranja é uma fruta muito comum, por isso aparece no mesmo tema."},
+    {"word": "juice", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Fruit juice' (suco de fruta) é uma expressão comum em inglês."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'fruit' são tipos de fruta ou termos usados com ela; móveis e veículos não se relacionam com o tema."
+}
