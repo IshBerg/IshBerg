@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"}
+  ],
+  "english_words": ["folder", "pregnant", "bookstore", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages share these spellings from Latin roots, but the meanings have drifted apart over time.",
+  "false_friend_warning": "The Spanish word embarazada looks like the English word embarrassed, but it means pregnant. Students should not translate it as embarrassed, and the card tests whether they notice the trap."
+}
