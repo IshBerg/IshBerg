@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "sleepy", "intensity": 1, "translation": "сонний", "nuance": "mild wish to go to bed"},
+    {"word": "weary", "intensity": 2, "translation": "втомлений", "nuance": "tired from long effort or stress"},
+    {"word": "tired", "intensity": 3, "translation": "стомлений", "nuance": "general lack of energy"},
+    {"word": "exhausted", "intensity": 4, "translation": "виснажений", "nuance": "completely drained of energy"},
+    {"word": "shattered", "intensity": 5, "translation": "розбитий від утоми", "nuance": "informal, extremely worn out"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe lacking energy, from a mild wish to sleep to being completely worn out.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "weary", "difference": "'Tired' is the general term for lacking energy, while 'weary' suggests a longer, more emotional or draining tiredness caused by long effort or stress."}
+  ],
+  "translations": {"sleepy": "сонний", "weary": "втомлений", "tired": "стомлений", "exhausted": "виснажений", "shattered": "розбитий від утоми"}
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister is a doctor.",
+  "correct_completion": "She works at a big hospital.",
+  "full_sentence": "My sister is a doctor. She works at a big hospital.",
+  "acceptable_variants": ["She helps sick people every day.", "She is very good at her job."],
+  "options": [
+    {"text": "He works at a big hospital.", "is_correct": false, "why_wrong": "'He' refers to a man, but 'my sister' is a woman, so the subject pronoun must be 'she'."},
+    {"text": "It works at a big hospital.", "is_correct": false, "why_wrong": "'It' is used for things and animals, not for a person such as a sister."},
+    {"text": "She works at a big hospital.", "is_correct": true, "why_wrong": null},
+    {"text": "They works at a big hospital.", "is_correct": false, "why_wrong": "'They' is plural, but 'my sister' refers to one person, so it does not match the singular verb form 'works'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Third person singular subject pronoun 'she' referring to a female person",
+  "connector": "she",
+  "explanation": "The subject pronoun must agree with the person it replaces. Here the pronoun refers to one female person, so 'she' is correct, and the verb takes the third person singular -s ending.",
+  "translation": "Моя сестра лікар. Вона працює у великій лікарні."
+}
