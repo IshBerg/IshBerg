@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the statute had been amended several times,",
+  "correct_completion": "the court still applied the original interpretation.",
+  "full_sentence": "Although the statute had been amended several times, the court still applied the original interpretation.",
+  "acceptable_variants": ["the court nevertheless applied the original interpretation.", "the judges still relied on the earlier precedent."],
+  "options": [
+    {"text": "so the appeal was dismissed without review.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' sets up a contrast, so this result does not fit the connector."},
+    {"text": "because the judges had recused themselves.", "is_correct": false, "why_wrong": "'Because' introduces a cause. 'Although' requires a contrast, so this clause clashes with the connector."},
+    {"text": "the clerk filed the documents in March.", "is_correct": false, "why_wrong": "This adds a procedural detail but does not express the contrast that 'although' requires."},
+    {"text": "the court still applied the original interpretation.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the clause must contrast with the first part of the sentence. Amendments normally suggest a change in interpretation, so retaining the original reading completes the contrast. Spanish speakers may be tempted to use a cause connector here because the two ideas are closely linked, but English 'although' always marks concession.",
+  "translation": "Aunque el estatuto había sido modificado varias veces, el tribunal siguió aplicando la interpretación original."
+}
