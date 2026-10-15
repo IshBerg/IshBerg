@@ -1,0 +1,14 @@
+{
+  "trigger_word": "permission",
+  "all_words": [
+    {"word": "allow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "İzin vermek fiili, izin kavramıyla doğrudan anlam olarak ilgilidir."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ kelimesinin izin kavramıyla bir anlam ilişkisi yoktur."},
+    {"word": "ask", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Ask for permission' (izin istemek) ifadesinde sık kullanılan bir birliktelik vardır."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Muz kelimesinin izin kavramıyla bir ilişkisi yoktur."},
+    {"word": "teacher", "is_associated": true, "association_type": "THEMATIC", "explanation": "Öğretmen, sınıfta öğrencilerin izin istediği kişidir; bu yüzden konuyla tematik olarak ilgilidir."},
+    {"word": "refuse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Reddetmek, izin vermemenin karşıt anlamlısıdır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bu alıştırmada 'permission' kelimesiyle ilgili olanlar izin vermek, izin istemek, öğretmen ve reddetmektir; dağ, muz gibi kelimeler ilgili değildir."
+}
