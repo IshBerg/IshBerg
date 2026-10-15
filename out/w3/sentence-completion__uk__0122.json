@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it doesn't rain tomorrow,",
+  "correct_completion": "we will go to the park.",
+  "full_sentence": "If it doesn't rain tomorrow, we will go to the park.",
+  "acceptable_variants": ["we'll go for a picnic.", "we will play football outside."],
+  "options": [
+    {"text": "we went to the park yesterday.", "is_correct": false, "why_wrong": "'Yesterday' refers to the past, but the stem talks about tomorrow, so a future form is needed."},
+    {"text": "we would go to the park.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional, used for unreal or unlikely situations, not for a real future possibility."},
+    {"text": "we will go to the park.", "is_correct": true, "why_wrong": null},
+    {"text": "we have gone to the park before.", "is_correct": false, "why_wrong": "The present perfect describes past experience and does not complete a real future condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional: if + present simple, will + base verb",
+  "connector": "if",
+  "explanation": "In the first conditional, the if-clause uses the present simple to express a future meaning, and the main clause uses will plus the base verb. Ukrainian speakers may confuse the first and second conditionals, because both are used for possibilities, but the first conditional describes real future situations.",
+  "translation": "Якщо завтра не буде дощу, ми підемо в парк."
+}

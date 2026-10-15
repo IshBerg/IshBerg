@@ -1,0 +1,13 @@
+{
+  "start_word": "sick",
+  "end_word": "healthy",
+  "ladder_steps": [
+    {"word": "sick", "translation": "хворий", "intensity_level": 1},
+    {"word": "unwell", "translation": "нездужий", "intensity_level": 2},
+    {"word": "fine", "translation": "нормально", "intensity_level": 3},
+    {"word": "well", "translation": "добре", "intensity_level": 4},
+    {"word": "healthy", "translation": "здоровий", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe a person's health, moving from being ill to being in good health along one scale."
+}
