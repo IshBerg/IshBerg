@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Though the poet loved the sea,",
+  "correct_completion": "he wrote most of his verses about the mountains.",
+  "full_sentence": "Though the poet loved the sea, he wrote most of his verses about the mountains.",
+  "acceptable_variants": ["he still wrote many poems about the mountains.", "yet he described other landscapes in his verses."],
+  "options": [
+    {"text": "so he wrote only about the city.", "is_correct": false, "why_wrong": "'Though' signals contrast, while 'so' signals a result. A result does not fit the contrast this connector requires."},
+    {"text": "he wrote most of his verses about the mountains.", "is_correct": true, "why_wrong": null},
+    {"text": "because the sea was calm.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'though' needs a contrasting clause after the comma."},
+    {"text": "the sea is very blue.", "is_correct": false, "why_wrong": "This describes the sea again without showing the contrast that 'though' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'though'",
+  "connector": "though",
+  "explanation": "After 'though', the second clause must show contrast with the first clause. Polish speakers may reach for a cause connector here, so check the logical relationship between the two clauses before choosing.",
+  "translation": "Chociaż poeta kochał morze, większość swoich wierszy napisał o górach."
+}

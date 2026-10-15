@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "book", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Książka jest podstawowym zbiorem biblioteki, więc to słowo jest bezpośrednio z nią związane."},
+    {"word": "reader", "is_associated": true, "association_type": "THEMATIC", "explanation": "Czytelnik to osoba, która korzysta z biblioteki, więc słowo należy do tego samego tematu."},
+    {"word": "shelf", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Półka to typowe połączenie z biblioteką, jak w zwrocie library shelf, czyli półka biblioteczna."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktor należy do świata rolnictwa i nie ma żadnego związku z biblioteką."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Wulkan należy do świata przyrody i nie jest kojarzony z biblioteką."},
+    {"word": "archive", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Archiwum przechowuje dokumenty podobnie jak biblioteka, więc znaczenie jest blisko powiązane."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'library' kojarzy się z książkami, czytelnikami, półkami i archiwami, a nie z rolnictwem ani z przyrodą."
+}
