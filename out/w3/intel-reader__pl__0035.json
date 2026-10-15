@@ -1,0 +1,20 @@
+{
+  "title": "My Dog Max",
+  "text": "My name is Tom. I have a dog. His name is Max. Max is brown and very friendly.\n\nEvery morning, Max and I go to the park. We run and play with a ball. Max likes the park very much.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the name of the dog?", "options": ["Leo", "Max", "Ben", "Rex"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where do Tom and Max go every morning?", "options": ["to school", "to the park", "to the shop", "to the beach"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Tom probably feel about Max?", "options": ["He loves him", "He is angry with him", "He does not know him", "He is afraid of him"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why is Max probably happy in the park?", "options": ["He is at home alone", "He has to sleep", "He can run and play", "He is going to school"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "friendly", "translation": "przyjazny", "definition": "kind and nice to other people or animals"},
+    {"word": "park", "translation": "park", "definition": "a green place with grass and trees where people can walk and play"},
+    {"word": "ball", "translation": "piłka", "definition": "a round object that you throw, kick or catch in games"},
+    {"word": "brown", "translation": "brązowy", "definition": "the colour of wood or chocolate"}
+  ],
+  "paragraph_translations": [
+    "Nazywam się Tom. Mam psa. Jego imię to Max. Max jest brązowy i bardzo przyjazny.",
+    "Każdego ranka Max i ja idziemy do parku. Biegamy i bawimy się piłką. Max bardzo lubi park."
+  ]
+}

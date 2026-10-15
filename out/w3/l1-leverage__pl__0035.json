@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "krowa", "transliteration": "krowa", "meaning": "cow"},
+    {"word": "kot", "transliteration": "kot", "meaning": "cat"},
+    {"word": "mucha", "transliteration": "mucha", "meaning": "fly (the insect)"},
+    {"word": "sowa", "transliteration": "sowa", "meaning": "owl"}
+  ],
+  "english_words": ["fly", "owl", "cat", "cow"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Polish word for a farm animal sounds very close to the English word for a black bird, so the two forms look alike while the meanings are completely different.",
+  "false_friend_warning": "The Polish word krowa sounds like the English word 'crow', but it means cow, a farm animal, not a black bird. Students should not guess the meaning from the sound."
+}

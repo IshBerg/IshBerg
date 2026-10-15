@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the police had arrived five minutes earlier,",
+  "correct_completion": "they would have caught the thief.",
+  "full_sentence": "If the police had arrived five minutes earlier, they would have caught the thief.",
+  "acceptable_variants": ["they could have caught the thief.", "they might have caught the thief."],
+  "options": [
+    {"text": "they caught the thief yesterday.", "is_correct": false, "why_wrong": "The sentence needs a conditional result after 'if', so a simple past statement does not complete it."},
+    {"text": "they would have caught the thief.", "is_correct": true, "why_wrong": null},
+    {"text": "they would catch the thief tomorrow.", "is_correct": false, "why_wrong": "This mixes a present result with 'tomorrow', which does not match the past situation described in the stem."},
+    {"text": "they will have caught the thief.", "is_correct": false, "why_wrong": "The future perfect does not express the unreal result of a past condition; it describes something completed in the future."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: unreal situations in the past",
+  "connector": "if",
+  "explanation": "The stem describes a past situation that did not happen, so the result clause needs 'would have' followed by a past participle. Polish speakers often use a simple past form in the result clause here, because Polish marks the conditional with one particle that is used in both clauses.",
+  "translation": "Gdyby policja przyjechała pięć minut wcześniej, złapaliby złodzieja."
+}
