@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant"},
+    {"word": "місто", "transliteration": "misto", "meaning": "city"}
+  ],
+  "english_words": ["relevant", "shop", "city", "factory"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Ukrainian word for shop looks like the English word 'magazine', which means a periodical publication. The Ukrainian word for factory looks like the English word 'fabric'. Both English words are false friends and must not be used for the Ukrainian meanings.",
+  "false_friend_warning": "Learners may think the Ukrainian word for shop means the English word 'magazine', but in English 'magazine' is a printed periodical, not a store. Check the meaning before translating."
+}

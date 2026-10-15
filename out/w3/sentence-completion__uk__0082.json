@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday morning, we cleaned the kitchen, and then",
+  "correct_completion": "we played a game together.",
+  "full_sentence": "Yesterday morning, we cleaned the kitchen, and then we played a game together.",
+  "acceptable_variants": ["we watched a short film.", "we walked to the park."],
+  "options": [
+    {"text": "we cooked a big lunch.", "is_correct": false, "why_wrong": "This is a possible action, but the past simple 'cooked' is not the completion the stem asks for in this sequence of events."},
+    {"text": "we played a game together.", "is_correct": true, "why_wrong": null},
+    {"text": "we will play a game tomorrow.", "is_correct": false, "why_wrong": "The stem is in the past, so the completion must also be in the past simple, not the future."},
+    {"text": "we played a game yesterday.", "is_correct": false, "why_wrong": "The stem already says 'yesterday morning', so repeating the time in the completion is unnatural."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple of regular verbs in a sequence of actions with 'and then'",
+  "connector": "and then",
+  "explanation": "The stem describes a finished action in the past, so the completion must also use a past simple regular verb to continue the sequence of events.",
+  "translation": "Учора вранці ми прибрали кухню, а потім ми разом пограли в гру."
+}
