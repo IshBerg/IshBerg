@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The proposal seemed flawless on paper; nevertheless,",
+  "correct_completion": "its implementation proved far more complicated than anticipated.",
+  "full_sentence": "The proposal seemed flawless on paper; nevertheless, its implementation proved far more complicated than anticipated.",
+  "acceptable_variants": ["its rollout turned out to be considerably more difficult.", "putting it into practice was far harder than anyone expected."],
+  "options": [
+    {"text": "consequently, its implementation proved far more complicated.", "is_correct": false, "why_wrong": "'Consequently' signals a result, which does not give the contrast that 'nevertheless' requires after 'seemed flawless'."},
+    {"text": "its implementation proved far more complicated than anticipated.", "is_correct": true, "why_wrong": null},
+    {"text": "in addition, it was approved by the board.", "is_correct": false, "why_wrong": "'In addition' adds a parallel point and does not contrast with the apparent flawlessness of the proposal."},
+    {"text": "therefore it was never reviewed.", "is_correct": false, "why_wrong": "'Therefore' expresses a conclusion, not the concession needed after 'nevertheless'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive discourse marker 'nevertheless' in a contrastive clause",
+  "connector": "nevertheless",
+  "explanation": "After 'nevertheless', the second clause must contrast with the positive impression created in the first clause. Ukrainian speakers may translate the marker literally and choose a result connector, because Ukrainian uses different connectors in this position.",
+  "translation": "Пропозиція здавалася бездоганною на папері; проте її впровадження виявилося набагато складнішим, ніж очікувалося."
+}
