@@ -1,0 +1,13 @@
+{
+  "start_word": "whisper",
+  "end_word": "shout",
+  "ladder_steps": [
+    {"word": "whisper", "translation": "fısıldamak", "intensity_level": 1},
+    {"word": "murmur", "translation": "mırıldanmak", "intensity_level": 2},
+    {"word": "speak", "translation": "konuşmak", "intensity_level": 3},
+    {"word": "call", "translation": "seslenmek", "intensity_level": 4},
+    {"word": "shout", "translation": "bağırmak", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These verbs describe the volume of the voice along one scale, from the quietest form of speech to the loudest, with each step slightly louder than the last."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister Ayşe likes music, and",
+  "correct_completion": "she plays the piano every day.",
+  "full_sentence": "My sister Ayşe likes music, and she plays the piano every day.",
+  "acceptable_variants": ["she practices the piano every day.", "she also likes to sing."],
+  "options": [
+    {"text": "he plays the piano every day.", "is_correct": false, "why_wrong": "'He' refers to a man or boy, but Ayşe is a girl, so the pronoun must be 'she'."},
+    {"text": "she plays the piano every day.", "is_correct": true, "why_wrong": null},
+    {"text": "they play the piano every day.", "is_correct": false, "why_wrong": "'They' is plural, but the sentence is about one person, Ayşe."},
+    {"text": "it plays the piano every day.", "is_correct": false, "why_wrong": "'It' is used for things or animals, not for a person such as Ayşe."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject pronouns: he, she, it, they",
+  "connector": "and",
+  "explanation": "The subject pronoun must match the gender and number of the person it replaces. Ayşe is one female person, so 'she' is the correct subject. Turkish uses one third-person pronoun for both he and she, so Turkish speakers often have to pause and choose the correct English form.",
+  "translation": "Kız kardeşim Ayşe müziği sever ve her gün piyano çalar."
+}

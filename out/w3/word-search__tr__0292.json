@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "R", "I", "P", "K", "W", "F"],
+    ["Q", "Z", "X", "K", "W", "V", "R"],
+    ["H", "L", "Q", "V", "Z", "K", "I"],
+    ["O", "W", "K", "Q", "J", "L", "E"],
+    ["M", "P", "A", "R", "T", "Y", "N"],
+    ["E", "X", "Q", "W", "K", "V", "D"],
+    ["J", "O", "B", "K", "Z", "W", "Q"]
+  ],
+  "words_to_find": ["TRIP", "FRIEND", "HOME", "JOB", "PARTY"],
+  "word_positions": [
+    {"word": "TRIP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FRIEND", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "HOME", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "JOB", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARTY", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Discussing Life Experiences"
+}
