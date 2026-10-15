@@ -1,0 +1,20 @@
+{
+  "title": "Ali Is Sick",
+  "text": "Ali has a headache. He takes a pill and drinks water. He goes to bed early. His mother is worried.\n\nIn the morning, Ali feels fine. He eats breakfast with his family. Then he goes to school. He is happy again.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Ali take?", "options": ["A pill", "A bath", "A cake", "A book"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where does Ali go in the morning?", "options": ["To school", "To the hospital", "To the park", "To the market"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why is Ali's mother worried?", "options": ["Ali is sick", "Ali is at school", "Ali is on holiday", "Ali is at the park"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Ali probably feel at the end of the story?", "options": ["Sad", "Sick", "Angry", "Happy"], "correct_index": 3, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "headache", "translation": "baş ağrısı", "definition": "a pain in your head"},
+    {"word": "pill", "translation": "hap", "definition": "a small round medicine that you swallow with water"},
+    {"word": "worried", "translation": "endişeli", "definition": "feeling afraid that something bad may happen"},
+    {"word": "breakfast", "translation": "kahvaltı", "definition": "the first meal of the day, eaten in the morning"}
+  ],
+  "paragraph_translations": [
+    "Ali'nin baş ağrısı var. Bir hap alır ve su içer. Erken yatağa gider. Annesi endişeli.",
+    "Sabah Ali kendini iyi hisseder. Ailesiyle birlikte kahvaltı yapar. Sonra okula gider. Yeniden mutludur."
+  ]
+}

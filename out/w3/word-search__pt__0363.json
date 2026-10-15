@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["R", "O", "B", "O", "T", "X", "K", "Q", "P", "N"],
+    ["Z", "H", "W", "J", "M", "F", "V", "G", "Y", "E"],
+    ["I", "S", "D", "K", "P", "H", "W", "T", "Z", "U"],
+    ["Q", "F", "B", "A", "N", "M", "X", "C", "J", "R"],
+    ["E", "V", "G", "K", "T", "Y", "S", "B", "W", "A"],
+    ["H", "P", "U", "I", "M", "A", "Z", "K", "Q", "L"],
+    ["N", "R", "T", "E", "Y", "O", "C", "F", "H", "G"],
+    ["W", "S", "B", "X", "J", "D", "K", "M", "P", "V"],
+    ["Y", "I", "A", "Q", "H", "T", "G", "L", "R", "S"],
+    ["D", "U", "O", "L", "C", "E", "W", "I", "N", "K"]
+  ],
+  "words_to_find": ["ROBOT", "DATA", "NEURAL", "CLOUD"],
+  "word_positions": [
+    {"word": "ROBOT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DATA", "start_row": 2, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "NEURAL", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "CLOUD", "start_row": 9, "start_col": 4, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "AI and the Future"
+}
