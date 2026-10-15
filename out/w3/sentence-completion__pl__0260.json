@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because she is an engineer,",
+  "correct_completion": "she works with machines all day.",
+  "full_sentence": "Because she is an engineer, she works with machines all day.",
+  "acceptable_variants": ["she repairs machines in a factory.", "she spends her days with machines."],
+  "options": [
+    {"text": "she likes cooking at home.", "is_correct": false, "why_wrong": "This states a hobby, not the reason connected to her job, which the stem already introduces."},
+    {"text": "so she was tired at night.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem needs a reason that explains her work."},
+    {"text": "she works with machines all day.", "is_correct": true, "why_wrong": null},
+    {"text": "it is a very big city.", "is_correct": false, "why_wrong": "This adds a fact about a city, which has no logical link to the reason given in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the stem gives a reason, so the main clause must show the result that follows from that reason. Learners may choose a result word such as 'so' by mistake, but the 'because' clause is already the reason.",
+  "translation": "Ponieważ jest inżynierką, pracuje z maszynami cały dzień."
+}
