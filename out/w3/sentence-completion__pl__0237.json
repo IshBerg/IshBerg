@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the manager reviewed the figures carefully,",
+  "correct_completion": "the error would have been detected earlier.",
+  "full_sentence": "Had the manager reviewed the figures carefully, the error would have been detected earlier.",
+  "acceptable_variants": ["the error would have surfaced sooner.", "someone would have noticed the mistake earlier."],
+  "options": [
+    {"text": "the error is detected every day.", "is_correct": false, "why_wrong": "The present simple does not match the past perfect condition 'had reviewed'. The main clause must use a past conditional."},
+    {"text": "the error will be detected.", "is_correct": false, "why_wrong": "'Will' does not match a third conditional. After 'had reviewed', the main clause needs 'would have' plus a past participle."},
+    {"text": "the error would have been detected earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "the error was detecting itself.", "is_correct": false, "why_wrong": "The past continuous describes an ongoing action. The stem needs a result of an unrealized condition, not a process."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and 'would have' + past participle",
+  "connector": "had ... (inverted conditional)",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'If'. The main clause must express the unrealized past result with 'would have' and a past participle, so the completion must show what would have happened.",
+  "translation": "Gdyby kierownik dokładnie przejrzał dane, błąd zostałby wykryty wcześniej."
+}
