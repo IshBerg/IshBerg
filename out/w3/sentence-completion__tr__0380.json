@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before we go to the shop,",
+  "correct_completion": "we write a shopping list.",
+  "full_sentence": "Before we go to the shop, we write a shopping list.",
+  "acceptable_variants": ["we check what we need.", "we make a list of food."],
+  "options": [
+    {"text": "we went home yesterday.", "is_correct": false, "why_wrong": "The sentence is about a plan before shopping, so the past tense does not fit the meaning of 'before'."},
+    {"text": "we bought the milk already.", "is_correct": false, "why_wrong": "This action is finished, but the sentence needs something that happens before going to the shop."},
+    {"text": "we write a shopping list.", "is_correct": true, "why_wrong": null},
+    {"text": "the shop was closed then.", "is_correct": false, "why_wrong": "This describes a past situation and does not complete the plan started by 'before'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', we need an action that happens earlier than the event in the first part of the sentence. Here, writing the list comes before going to the shop.",
+  "translation": "Markete gitmeden önce bir alışveriş listesi yazarız."
+}
