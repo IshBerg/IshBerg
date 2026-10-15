@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "program", "transliteration": "program", "meaning": "schedule or plan"},
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current or up-to-date"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "nice or pleasant"},
+    {"word": "lokal", "transliteration": "lokal", "meaning": "pub or bar"}
+  ],
+  "english_words": ["nice", "schedule", "pub", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Turkish word looks like an English word, but the Turkish meaning differs from the English one. The shared spelling comes from borrowing, while the meanings drifted apart in each language.",
+  "false_friend_warning": "The Turkish word 'program' looks like the English word 'program', but in Turkish it usually means a schedule or plan, while in English 'program' often means computer software. Students should not assume the English meaning from the Turkish form."
+}

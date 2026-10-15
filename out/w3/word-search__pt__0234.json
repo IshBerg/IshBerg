@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "A", "M", "E", "X", "K", "B", "Q", "B"],
+    ["P", "W", "D", "F", "J", "N", "E", "Z", "I"],
+    ["T", "H", "V", "C", "Y", "U", "T", "O", "G"],
+    ["R", "A", "Q", "K", "M", "W", "T", "L", "G"],
+    ["D", "I", "L", "P", "N", "Y", "E", "F", "E"],
+    ["J", "K", "Z", "L", "C", "H", "R", "V", "R"],
+    ["M", "Q", "B", "W", "E", "D", "K", "J", "X"],
+    ["V", "E", "N", "U", "G", "R", "Y", "P", "C"],
+    ["F", "S", "M", "A", "L", "L", "O", "D", "K"]
+  ],
+  "words_to_find": ["SAME", "BIGGER", "TALLER", "BETTER", "SMALL"],
+  "word_positions": [
+    {"word": "SAME", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BIGGER", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TALLER", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BETTER", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SMALL", "start_row": 8, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Comparing Things"
+}
