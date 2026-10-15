@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the story was very short,",
+  "correct_completion": "it left a lasting impression on me.",
+  "full_sentence": "Although the story was very short, it left a lasting impression on me.",
+  "acceptable_variants": ["it still made me think for days.", "it stayed in my mind for a long time."],
+  "options": [
+    {"text": "it was written in 1920.", "is_correct": false, "why_wrong": "This adds a fact about the story but does not give the contrast that 'although' requires."},
+    {"text": "so I read it twice.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' introduces a contrast, not a result."},
+    {"text": "it left a lasting impression on me.", "is_correct": true, "why_wrong": null},
+    {"text": "I had read it before.", "is_correct": false, "why_wrong": "This describes a past event and does not contrast with the short length of the story."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Students whose first language is Spanish sometimes add a result word such as 'so' here, but this connector expects a surprising or opposite idea instead.",
+  "translation": "Aunque el cuento era muy corto, me dejó una impresión duradera."
+}
