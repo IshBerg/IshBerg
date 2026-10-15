@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I'm sorry I can't come tonight, because",
+  "correct_completion": "I have to work late.",
+  "full_sentence": "I'm sorry I can't come tonight, because I have to work late.",
+  "acceptable_variants": ["my boss asked me to stay late.", "I have an exam tomorrow."],
+  "options": [
+    {"text": "I want to see you.", "is_correct": false, "why_wrong": "This expresses a wish, but it does not explain why the speaker cannot come tonight."},
+    {"text": "I have to work late.", "is_correct": true, "why_wrong": null},
+    {"text": "so I will come tonight.", "is_correct": false, "why_wrong": "This contradicts the first part of the sentence, which says the speaker cannot come."},
+    {"text": "the party is cool.", "is_correct": false, "why_wrong": "This gives an opinion about the party, but it does not give a reason for not coming."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the situation in the first part. Learners should keep the cause after the connector, not a wish or a result.",
+  "translation": "Lo siento, no puedo ir esta noche porque tengo que trabajar hasta tarde."
+}

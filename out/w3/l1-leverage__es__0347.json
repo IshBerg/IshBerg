@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "easily upset or affected by feelings"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "a folder for holding papers"}
+  ],
+  "english_words": ["sensitive", "folder", "pregnant", "bookshop"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Spanish word looks very similar to an English word, but the two words developed different meanings in each language, so the forms stayed close while the meanings separated.",
+  "false_friend_warning": "Spanish speakers often assume that a Spanish word means the English word that looks similar, but in this card the Spanish word means a different English word, so the look-alike English word is the trap."
+}
