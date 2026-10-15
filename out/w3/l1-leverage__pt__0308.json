@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "justiça", "transliteration": "justiça", "meaning": "justice"},
+    {"word": "sociedade", "transliteration": "sociedade", "meaning": "society"},
+    {"word": "democracia", "transliteration": "democracia", "meaning": "democracy"},
+    {"word": "desigualdade", "transliteration": "desigualdade", "meaning": "inequality"}
+  ],
+  "english_words": ["democracy", "justice", "inequality", "society"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "All four words descend from Latin, so the spelling and meaning stayed close across both languages. Their English counterparts are true cognates.",
+  "false_friend_warning": null
+}

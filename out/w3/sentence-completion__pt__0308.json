@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother forgot his phone at home, so",
+  "correct_completion": "he asked me to bring it to him.",
+  "full_sentence": "My brother forgot his phone at home, so he asked me to bring it to him.",
+  "acceptable_variants": ["he asked me to take it to him.", "he asked me to deliver it to him."],
+  "options": [
+    {"text": "he asked I to bring it to he.", "is_correct": false, "why_wrong": "Both 'I' and 'he' are subject pronouns, but this position needs the object forms 'me' and 'him'."},
+    {"text": "he asked to me to bring it.", "is_correct": false, "why_wrong": "The object pronoun should follow 'asked' directly, without 'to', and the sentence needs 'to him' to show who receives the phone."},
+    {"text": "he asked me to bring it to him.", "is_correct": true, "why_wrong": null},
+    {"text": "he asked she to bring it.", "is_correct": false, "why_wrong": "'She' is a subject pronoun, but after 'asked' we need an object pronoun such as 'me'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Object pronouns after verbs and prepositions",
+  "connector": "so",
+  "explanation": "After 'asked', the speaker needs an object pronoun for the person being asked, and after 'to' the object pronoun for the receiver of the phone. Learners who come from a language with more flexible pronoun placement often mix up subject and object forms here.",
+  "translation": "Meu irmão esqueceu o celular em casa, então ele me pediu para levá-lo até ele."
+}
