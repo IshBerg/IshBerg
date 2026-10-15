@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before the exam starts,",
+  "correct_completion": "students must switch off their phones.",
+  "full_sentence": "Before the exam starts, students must switch off their phones.",
+  "acceptable_variants": ["students have to switch off their phones.", "all students must turn off their phones."],
+  "options": [
+    {"text": "students mustn't switch off their phones.", "is_correct": false, "why_wrong": "'Mustn't' forbids an action, so this would mean students are not allowed to turn their phones off, which contradicts the rule the sentence needs."},
+    {"text": "students must switch off their phones.", "is_correct": true, "why_wrong": null},
+    {"text": "students must to sit quietly.", "is_correct": false, "why_wrong": "'Must' is a modal verb and is followed directly by the base verb, without 'to'."},
+    {"text": "students had to went home early.", "is_correct": false, "why_wrong": "'Had to' is followed by the base verb, not by the past form 'went'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Obligation with must and have to",
+  "connector": "before",
+  "explanation": "Must expresses a strong obligation that comes from a rule or from the speaker, and it is followed by the base verb without 'to'. Polish speakers may add 'to' after modal verbs, because Polish modal verbs are followed directly by an infinitive, and they may confuse 'must' with 'have to' because both express obligation.",
+  "translation": "Przed rozpoczęciem egzaminu uczniowie muszą wyłączyć telefony."
+}

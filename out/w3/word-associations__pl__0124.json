@@ -1,0 +1,14 @@
+{
+  "trigger_word": "tree",
+  "all_words": [
+    {"word": "leaf", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Liść jest częścią drzewa, więc słowo ma bezpośredni związek znaczeniowy z drzewem."},
+    {"word": "phone", "is_associated": false, "association_type": "NONE", "explanation": "Telefon to przedmiot z innego tematu i nie ma żadnego związku z drzewami ani przyrodą."},
+    {"word": "forest", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las składa się z wielu drzew, więc słowo należy do tego samego tematu, czyli przyrody."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "Biurko jest meblem używanym w pracy lub nauce i nie łączy się z drzewem w sensie przyrodniczym."},
+    {"word": "climb", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wspinanie się na drzewo to typowe połączenie wyrazów, czyli kolokacja, często używana w tekstach o przyrodzie."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Krzesło jest przedmiotem domowym i nie kojarzy się z drzewem w kontekście przyrody."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'tree' kojarzy się z przyrodą: z częściami drzewa, z lasem oraz z czynnościami wykonywanymi na drzewach."
+}
