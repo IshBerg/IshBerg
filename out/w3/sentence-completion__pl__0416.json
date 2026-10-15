@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the soup is very hot,",
+  "correct_completion": "you should wait a few minutes before you eat it.",
+  "full_sentence": "Because the soup is very hot, you should wait a few minutes before you eat it.",
+  "acceptable_variants": ["you should let it cool for a few minutes.", "you should wait before you start eating."],
+  "options": [
+    {"text": "it is very cold now.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the soup is very hot."},
+    {"text": "so you can eat it right now.", "is_correct": false, "why_wrong": "Eating very hot soup at once is not a logical result of its heat, so the effect does not follow from the cause."},
+    {"text": "you should wait a few minutes before you eat it.", "is_correct": true, "why_wrong": null},
+    {"text": "you should add more salt.", "is_correct": false, "why_wrong": "Salt has nothing to do with the heat, so this completion does not follow from the cause given."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need an effect that logically follows from the cause in the first part of the sentence. Check that the completion matches the given cause and does not contradict it.",
+  "translation": "Ponieważ zupa jest bardzo gorąca, warto poczekać kilka minut, zanim się ją zje."
+}
