@@ -1,0 +1,14 @@
+{
+  "trigger_word": "television",
+  "all_words": [
+    {"word": "screen", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La pantalla es el lugar donde se muestran las imágenes de la televisión."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña no tiene ninguna relación con la televisión ni con sus elementos."},
+    {"word": "remote", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El control remoto se usa para cambiar de canal en la televisión y forma una colocación frecuente con ella."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "La cocina no tiene una relación habitual con la televisión."},
+    {"word": "commercial", "is_associated": true, "association_type": "THEMATIC", "explanation": "El anuncio comercial aparece durante los programas de televisión, por eso se relaciona por el tema."},
+    {"word": "channel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El canal es la señal que se sintoniza en el televisor."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas pertenecen al mundo de la televisión por su significado, su uso habitual o su tema, mientras que las no asociadas pertenecen a otros ámbitos."
+}

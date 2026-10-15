@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The city council should have inspected the bridge years ago,",
+  "correct_completion": "but they never did.",
+  "full_sentence": "The city council should have inspected the bridge years ago, but they never did.",
+  "acceptable_variants": ["but no inspection took place.", "but the inspection was never carried out."],
+  "options": [
+    {"text": "so the bridge is safe today.", "is_correct": false, "why_wrong": "'So' introduces a result that follows logically, but the first clause criticizes a missing action, so the completion needs a contrast."},
+    {"text": "because they inspected it last week.", "is_correct": false, "why_wrong": "This adds a cause that contradicts the criticism in 'should have', which says the inspection did not happen in time."},
+    {"text": "but they never did.", "is_correct": true, "why_wrong": null},
+    {"text": "although the bridge was repaired.", "is_correct": false, "why_wrong": "This is grammatically possible, but it does not state the failure to act that the modal perfect criticizes, so it does not complete the meaning of the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Modal perfect 'should have' for criticism, with 'but' to show contrast",
+  "connector": "but",
+  "explanation": "The modal perfect 'should have' criticizes an action that was expected but did not happen. The contrast connector 'but' then confirms that the expected action was missing. Spanish speakers may mirror the Spanish conditional perfect directly, but English needs 'should have' followed by a past participle.",
+  "translation": "El concejo municipal debería haber inspeccionado el puente hace años, pero nunca lo hizo."
+}

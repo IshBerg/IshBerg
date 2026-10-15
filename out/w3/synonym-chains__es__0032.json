@@ -1,0 +1,17 @@
+{
+  "central_word": "famous",
+  "chain_words": [
+    {"word": "known", "intensity": 1, "translation": "conocido", "nuance": "recognized by some people"},
+    {"word": "popular", "intensity": 2, "translation": "popular", "nuance": "liked by many people"},
+    {"word": "famous", "intensity": 3, "translation": "famoso", "nuance": "widely recognized by the public"},
+    {"word": "renowned", "intensity": 4, "translation": "renombrado", "nuance": "respected for outstanding achievements"},
+    {"word": "legendary", "intensity": 5, "translation": "legendario", "nuance": "so famous it seems almost mythical"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe being recognized by others, but they differ in how many people know the person or thing and how strongly they are admired, from simply known to almost mythical.",
+  "usage_notes": [
+    {"word1": "famous", "word2": "popular", "difference": "'Famous' stresses being widely recognized by the public; 'popular' stresses being liked by many people, which does not always mean being well known."}
+  ],
+  "translations": {"known": "conocido", "popular": "popular", "famous": "famoso", "renowned": "renombrado", "legendary": "legendario"}
+}
