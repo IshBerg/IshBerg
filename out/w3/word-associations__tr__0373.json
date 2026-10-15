@@ -1,0 +1,14 @@
+{
+  "trigger_word": "debate",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Tartışmada ileri sürülen argümanlar, münazaranın temel unsurudur; bu iki kelime anlamca doğrudan bağlantılıdır."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "Havuç yiyecek bir sebzedir ve münazara ile hiçbir ilgisi yoktur."},
+    {"word": "moderator", "is_associated": true, "association_type": "THEMATIC", "explanation": "Moderatör, münazarayı yöneten kişidir ve bu kelime münazara konusuna aittir."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Buzul doğal bir oluşumdur ve münazara kavramıyla bir ilişkisi yoktur."},
+    {"word": "rebuttal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Çürütme, karşı tarafın iddiasına verilen yanıttır ve münazaranın doğal bir parçasıdır."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bir müzik aletidir ve münazara ile ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Debate' kelimesi argüman, moderatör ve çürütme ile ilişkilidir; diğer kelimeler münazara kavramıyla bağlantılı değildir."
+}
