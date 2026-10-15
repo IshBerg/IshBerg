@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "data", "transliteration": "data", "meaning": "date"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current"},
+    {"word": "compromisso", "transliteration": "compromisso", "meaning": "appointment"},
+    {"word": "pasta", "transliteration": "pasta", "meaning": "folder"}
+  ],
+  "english_words": ["appointment", "date", "folder", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These Portuguese words look like English words such as data, actual, compromise, and paste, but their meanings differ because each language developed its own sense for a shared root.",
+  "false_friend_warning": "Warning: the Portuguese word atual looks like the English word actual, but it means current, not actual. The Portuguese word compromisso looks like the English word compromise, but it means appointment."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people enjoy watching television,",
+  "correct_completion": "I believe that reading books is more valuable.",
+  "full_sentence": "Although many people enjoy watching television, I believe that reading books is more valuable.",
+  "acceptable_variants": ["I still think reading books is more valuable.", "I prefer reading books to watching television."],
+  "options": [
+    {"text": "so reading is always boring.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. 'Although' needs a clause that contrasts with the first part of the sentence."},
+    {"text": "I believe that reading books is more valuable.", "is_correct": true, "why_wrong": null},
+    {"text": "television is very popular in many countries.", "is_correct": false, "why_wrong": "This repeats the idea of popularity and does not provide the contrasting opinion expected after 'although'."},
+    {"text": "they watch it every evening.", "is_correct": false, "why_wrong": "This adds a detail about habits but does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners whose first language uses one general connector for both contrast and addition often need to practise choosing a contrasting clause after 'although'.",
+  "translation": "Embora muitas pessoas gostem de assistir televisão, eu acredito que ler livros é mais valioso."
+}
