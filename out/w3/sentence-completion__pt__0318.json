@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Unless you study harder,",
+  "correct_completion": "you will probably fail the test.",
+  "full_sentence": "Unless you study harder, you will probably fail the test.",
+  "acceptable_variants": ["you will not pass the exam.", "your grades will probably be low."],
+  "options": [
+    {"text": "you would have passed yesterday.", "is_correct": false, "why_wrong": "This uses a past conditional, which describes an imagined past result. The stem needs a future consequence of the condition."},
+    {"text": "you studied harder last week.", "is_correct": false, "why_wrong": "This describes a past event. 'Unless' introduces a condition that affects the future result."},
+    {"text": "you will probably fail the test.", "is_correct": true, "why_wrong": null},
+    {"text": "you are going to the cinema tonight.", "is_correct": false, "why_wrong": "There is no logical link between studying and going to the cinema. The completion must state the result of not studying."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'unless'",
+  "connector": "unless",
+  "explanation": "'Unless' means 'if not'. After it, the main clause needs a future result of the condition, usually with 'will' and a verb in the base form.",
+  "translation": "A menos que você estude mais, provavelmente você vai reprovar na prova."
+}

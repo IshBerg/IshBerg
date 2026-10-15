@@ -1,0 +1,23 @@
+{
+  "central_word": "angry",
+  "chain_words": [
+    {"word": "displeased", "intensity": 1, "translation": "descontente", "nuance": "mildly unhappy with something that was done"},
+    {"word": "annoyed", "intensity": 2, "translation": "aborrecido", "nuance": "irritated by a small, repeated problem"},
+    {"word": "angry", "intensity": 3, "translation": "zangado", "nuance": "strong displeasure, often directed at a person"},
+    {"word": "furious", "intensity": 4, "translation": "furioso", "nuance": "very intense anger, hard to control"},
+    {"word": "livid", "intensity": 5, "translation": "lívido", "nuance": "extreme rage, often shown in the face"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express displeasure, but they rise in intensity from mild disapproval to extreme rage.",
+  "usage_notes": [
+    {"word1": "angry", "word2": "annoyed", "difference": "'Angry' describes a stronger emotion that can last a long time; 'annoyed' is milder and usually comes from a small, repeated irritation."}
+  ],
+  "translations": {
+    "displeased": "descontente",
+    "annoyed": "aborrecido",
+    "angry": "zangado",
+    "furious": "furioso",
+    "livid": "lívido"
+  }
+}
