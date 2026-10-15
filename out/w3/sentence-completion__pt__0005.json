@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is widely believed that",
+  "correct_completion": "the new policy will reduce city traffic.",
+  "full_sentence": "It is widely believed that the new policy will reduce city traffic.",
+  "acceptable_variants": ["the new policy is going to ease congestion downtown.", "the new policy should cut traffic in the city."],
+  "options": [
+    {"text": "the new policy, which was approved last week.", "is_correct": false, "why_wrong": "This adds a relative clause about the policy but does not complete the reporting structure, because 'that' needs a full clause with a finite verb."},
+    {"text": "the new policy will reduce city traffic.", "is_correct": true, "why_wrong": null},
+    {"text": "the city council to reduce traffic.", "is_correct": false, "why_wrong": "After 'believed that', a finite clause with a subject and verb is required. The infinitive 'to reduce' cannot follow 'that' directly."},
+    {"text": "reducing the city's traffic the new policy.", "is_correct": false, "why_wrong": "The word order is ungrammatical because the subject and object are reversed and there is no finite verb."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Impersonal passive reporting structure 'It is believed that'",
+  "connector": "that",
+  "explanation": "The impersonal passive 'It is believed that' introduces a reported statement, so it must be followed by a complete clause with a subject and a finite verb. Learners should check that the reported clause contains a finite verb and a clear subject. Portuguese speakers often transfer a structure with an infinitive after the verb, which is not possible here.",
+  "translation": "Acredita-se amplamente que a nova política reduzirá o trânsito no centro da cidade."
+}
