@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["P", "H", "O", "N", "E", "X", "K", "S"],
+    ["Z", "D", "L", "W", "J", "B", "R", "C"],
+    ["K", "Y", "N", "F", "V", "G", "T", "R"],
+    ["E", "Q", "W", "A", "S", "D", "F", "E"],
+    ["M", "R", "O", "B", "O", "T", "K", "E"],
+    ["A", "U", "P", "Y", "H", "L", "Q", "N"],
+    ["I", "V", "C", "M", "X", "Z", "O", "Y"],
+    ["L", "G", "H", "Y", "T", "P", "W", "D"]
+  ],
+  "words_to_find": ["PHONE", "SCREEN", "ROBOT", "EMAIL"],
+  "word_positions": [
+    {"word": "PHONE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SCREEN", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ROBOT", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "EMAIL", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Technology"
+}

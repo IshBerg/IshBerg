@@ -1,0 +1,14 @@
+{
+  "trigger_word": "theatre",
+  "all_words": [
+    {"word": "stage", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Scena to część teatru, na której aktorzy występują przed publicznością, więc słowo jest bezpośrednio związane z teatrem."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Silnik należy do świata maszyn i pojazdów, nie ma żadnego związku z teatrem."},
+    {"word": "actor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Aktor to osoba grająca w teatrze, więc jest ściśle powiązany z tym słowem."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra to element krajobrazu i nie jest związana z przedstawieniami teatralnymi."},
+    {"word": "curtain", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kurtyna należy do wyposażenia sceny teatralnej i często pojawia się w opisach spektakli."},
+    {"word": "ticket", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słowo 'theatre ticket' to typowe połączenie oznaczające bilet na przedstawienie teatralne."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z teatrem to scena, aktor, kurtyna i bilet, natomiast silnik i góra nie mają z tym tematem nic wspólnego."
+}
