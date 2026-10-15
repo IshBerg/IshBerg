@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "O", "P", "K", "L", "Z", "X", "B", "N", "V"],
+    ["A", "R", "I", "G", "H", "J", "K", "F", "C", "Q"],
+    ["G", "Y", "L", "B", "C", "N", "T", "D", "A", "Z"],
+    ["J", "K", "Q", "H", "S", "A", "W", "U", "R", "X"],
+    ["F", "B", "N", "M", "E", "V", "L", "S", "K", "D"],
+    ["S", "I", "O", "U", "G", "R", "E", "T", "Y", "P"],
+    ["C", "W", "M", "D", "F", "A", "Q", "B", "H", "J"],
+    ["T", "L", "E", "V", "N", "O", "C", "Y", "G", "Z"],
+    ["P", "Q", "R", "E", "X", "K", "Z", "W", "I", "M"],
+    ["N", "A", "B", "C", "P", "D", "E", "F", "G", "H"]
+  ],
+  "words_to_find": ["MOP", "DUST", "SWEEP", "WASH"],
+  "word_positions": [
+    {"word": "MOP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DUST", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SWEEP", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WASH", "start_row": 3, "start_col": 6, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Household Chores"
+}
