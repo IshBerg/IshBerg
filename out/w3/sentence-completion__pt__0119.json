@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will not go out.", "we will watch a movie inside."],
+  "options": [
+    {"text": "we would stay at home.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional, used for unreal or unlikely situations. Here the rain is a real possibility, so the first conditional with 'will' is correct."},
+    {"text": "we stayed at home.", "is_correct": false, "why_wrong": "The past simple refers to the past, but the sentence is about tomorrow, so the main clause needs 'will'."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we have stayed at home.", "is_correct": false, "why_wrong": "The present perfect does not express a future result of a condition. The main clause needs 'will' plus the base verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional (if + present simple, will + base verb)",
+  "connector": "if",
+  "explanation": "The first conditional describes a real possible future situation. Use the present simple after 'if' and 'will' plus the base verb in the main clause. Speakers of Portuguese often make the mistake of using the future form in the if-clause as well.",
+  "translation": "Se chover amanhã, vamos ficar em casa."
+}

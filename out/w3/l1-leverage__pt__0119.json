@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pilha", "transliteration": "pilha", "meaning": "battery"},
+    {"word": "preservativo", "transliteration": "preservativo", "meaning": "condom"},
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a common cold"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current, present-day"}
+  ],
+  "english_words": ["common cold", "current", "condom", "battery"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words look like English words from the same Latin roots, but their meanings have drifted apart over time. Learners often guess the English meaning from the visible spelling, which leads to a wrong pairing.",
+  "false_friend_warning": "Careful: this Portuguese word looks like an English word but means something different. For example, the Portuguese word for a device that stores energy looks like 'pile', and the Portuguese word for a feeling of being sick looks like 'constipated', but neither means that in English."
+}

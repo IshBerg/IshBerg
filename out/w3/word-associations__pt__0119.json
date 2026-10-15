@@ -1,0 +1,13 @@
+{
+  "trigger_word": "shy",
+  "all_words": [
+    {"word": "quiet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Uma pessoa tímida costuma ser quieta e falar pouco."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Uma mesa é um móvel e não tem nenhuma relação com a timidez."},
+    {"word": "blush", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ficar vermelho é uma reação comum de uma pessoa tímida quando se sente observada."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Uma janela é parte de uma casa e não se relaciona com a timidez."},
+    {"word": "afraid", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Na frase 'shy and afraid' os dois adjetivos aparecem juntos para descrever uma pessoa insegura."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Uma banana é uma fruta e não tem relação com a timidez."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "explanation": "As palavras associadas a 'shy' descrevem comportamentos ou reações de uma pessoa tímida; as outras palavras não têm nenhuma ligação com a timidez."
+}
