@@ -1,0 +1,14 @@
+{
+  "trigger_word": "evidence",
+  "all_words": [
+    {"word": "proof", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Доказ має майже те саме значення, що й evidence, і часто використовується в тому самому контексті."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Вулкан є природним явищем і не пов'язаний зі значенням доказів або підтвердження фактів."},
+    {"word": "data", "is_associated": true, "association_type": "THEMATIC", "explanation": "Дані часто є основою доказів у наукових і академічних текстах, тому слово належить до тієї самої теми."},
+    {"word": "pancake", "is_associated": false, "association_type": "NONE", "explanation": "Млинець є стравою і не має жодного зв'язку з доказами чи аргументацією."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гіпотеза перевіряється за допомогою доказів, тому вона тісно пов'язана з evidence в академічному контексті."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Міст є інженерною спорудою і не пов'язаний із доказами або підтвердженням."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з evidence, стосуються доказів, даних і перевірки тверджень, а слова, що не пов'язані, належать до зовсім інших сфер життя."
+}

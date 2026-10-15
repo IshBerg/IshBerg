@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the novel is written in a simple style,",
+  "correct_completion": "its themes of loss and memory are profound.",
+  "full_sentence": "Although the novel is written in a simple style, its themes of loss and memory are profound.",
+  "acceptable_variants": ["its themes of loss and memory still run deep.", "readers nonetheless find its ideas deeply moving."],
+  "options": [
+    {"text": "so its themes are easy to ignore.", "is_correct": false, "why_wrong": "'So' signals a result, which conflicts with the contrast that 'although' sets up. The two connectors cannot both introduce the clause."},
+    {"text": "because its style is so simple.", "is_correct": false, "why_wrong": "'Because' gives a cause that repeats the first clause instead of providing a contrast."},
+    {"text": "its themes of loss and memory are profound.", "is_correct": true, "why_wrong": null},
+    {"text": "the author uses many short chapters.", "is_correct": false, "why_wrong": "This describes the structure of the book rather than contrasting with the simple style."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must present a point that contrasts with the first clause, such as a deeper quality the simple style does not reveal. Results, causes and neutral details do not fulfil this function. Ukrainian speakers often add a connector such as 'so' or 'because' after a concessive word, so check that only one connector is used.",
+  "translation": "Хоча роман написаний простою мовою, його теми втрати і пам'яті глибокі."
+}

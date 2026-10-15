@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["R", "O", "B", "O", "T", "R", "K", "W", "P", "Z"],
+    ["M", "G", "H", "A", "N", "E", "Y", "Q", "F", "J"],
+    ["V", "I", "T", "K", "Y", "S", "B", "X", "M", "D"],
+    ["P", "E", "L", "W", "G", "A", "H", "Z", "Q", "R"],
+    ["J", "F", "N", "B", "Y", "L", "T", "U", "K", "O"],
+    ["C", "I", "W", "R", "P", "M", "H", "A", "F", "N"],
+    ["G", "L", "X", "Y", "B", "Q", "T", "K", "W", "E"],
+    ["Z", "F", "O", "M", "J", "P", "R", "H", "Y", "V"],
+    ["Q", "W", "K", "U", "N", "E", "D", "O", "C", "T"],
+    ["B", "X", "A", "I", "D", "G", "L", "P", "S", "Z"]
+  ],
+  "words_to_find": ["ROBOT", "DRONE", "CLOUD", "CODE", "LASER"],
+  "word_positions": [
+    {"word": "ROBOT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DRONE", "start_row": 2, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "CLOUD", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CODE", "start_row": 8, "start_col": 8, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "LASER", "start_row": 4, "start_col": 5, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Future Technology"
+}
