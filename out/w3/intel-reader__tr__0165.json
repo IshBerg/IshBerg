@@ -1,0 +1,20 @@
+{
+  "title": "Confirming a Job Interview",
+  "text": "I am writing to confirm your job interview on Monday at 10 a.m. Please bring your ID card and a copy of your CV. If you cannot attend at this time, please reply to this email before Friday. We look forward to meeting you.\n\nOur office is on the second floor of the City Center building. You can park in the public car park across the street. If you have any questions, you can call us on 020 555 0198. Thank you for your interest in our company.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What time is the job interview?", "options": ["At 9 a.m.", "At 10 a.m.", "At 2 p.m.", "At 4 p.m."], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where is the office located?", "options": ["On the ground floor", "On the second floor", "On the third floor", "In another city"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does the writer ask the candidate to reply before Friday?", "options": ["To cancel the interview", "To confirm whether the candidate can attend", "To ask for a higher salary", "To change the office address"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is the main purpose of this email?", "options": ["To sell a product", "To invite a candidate to an interview", "To complain about parking", "To ask for a refund"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "confirm", "translation": "onaylamak", "definition": "to say that something is definitely true or will definitely happen"},
+    {"word": "copy", "translation": "kopya", "definition": "a thing made to be exactly like another thing"},
+    {"word": "reply", "translation": "yanıtlamak", "definition": "to answer someone in writing or speech"},
+    {"word": "public", "translation": "halka açık", "definition": "available for everyone to use"}
+  ],
+  "paragraph_translations": [
+    "Pazartesi günü saat 10.00'daki iş görüşmenizi onaylamak için yazıyorum. Lütfen kimlik kartınızı ve CV'nizin bir kopyasını yanınızda getirin. Bu saatte katılamayacaksanız, lütfen cuma gününden önce bu e-postayı yanıtlayın. Sizinle tanışmayı dört gözle bekliyoruz.",
+    "Ofisimiz City Center binasının ikinci katında yer almaktadır. Caddenin karşısındaki halka açık otoparka park edebilirsiniz. Herhangi bir sorunuz varsa, bizi 020 555 0198 numaralı telefondan arayabilirsiniz. Şirketimize gösterdiğiniz ilgi için teşekkür ederiz."
+  ]
+}
