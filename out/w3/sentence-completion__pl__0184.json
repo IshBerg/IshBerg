@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the train arrives,",
+  "correct_completion": "we will have been waiting for two hours.",
+  "full_sentence": "By the time the train arrives, we will have been waiting for two hours.",
+  "acceptable_variants": ["we will have been standing on this platform for two hours.", "we will have spent two hours waiting."],
+  "options": [
+    {"text": "we are waiting for two hours now.", "is_correct": false, "why_wrong": "The present continuous describes the current moment, but the stem needs a future time reference with an activity completed up to that point."},
+    {"text": "we will have been waiting for two hours.", "is_correct": true, "why_wrong": null},
+    {"text": "we waited for two hours yesterday.", "is_correct": false, "why_wrong": "The past simple refers to a finished past event and does not fit the future time reference set by 'by the time'."},
+    {"text": "we will wait for two hours.", "is_correct": false, "why_wrong": "The simple future describes a future action but does not show it continuing up to the moment the train arrives, which the future perfect continuous conveys."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect continuous with 'by the time' and a present tense in the time clause",
+  "connector": "by the time",
+  "explanation": "The future perfect continuous describes an activity that will still be in progress up to a future point, here marked by 'by the time'. The time clause uses the present simple even though it refers to the future. Polish speakers often use a simple future in this position because Polish expresses completion through verb aspect rather than a separate auxiliary, so the English progressive perfect structure needs deliberate practice.",
+  "translation": "Do czasu, gdy pociąg przyjedzie, będziemy już czekać dwie godziny."
+}
