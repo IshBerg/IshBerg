@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished her homework,",
+  "correct_completion": "she went out to play with her friends.",
+  "full_sentence": "Having finished her homework, she went out to play with her friends.",
+  "acceptable_variants": ["she relaxed and watched television.", "she went to the park to meet her friends."],
+  "options": [
+    {"text": "she will finish her homework tomorrow.", "is_correct": false, "why_wrong": "The participle clause says the homework is already finished, so the main clause cannot say it will be finished later."},
+    {"text": "she is still working on her homework.", "is_correct": false, "why_wrong": "This contradicts the participle clause, which states that the homework has already been completed."},
+    {"text": "she went out to play with her friends.", "is_correct": true, "why_wrong": null},
+    {"text": "she has never done homework before.", "is_correct": false, "why_wrong": "This contradicts the participle clause, which describes a specific homework task that was completed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect participle clauses showing sequence",
+  "connector": "having finished",
+  "explanation": "The perfect participle 'having finished' shows that the first action happened before the action in the main clause. The main clause must follow logically from the completed action. Options that repeat, delay or contradict the finished homework are wrong. Portuguese speakers often use a full clause with a conjunction here, so they may need practice with the shorter participle form.",
+  "translation": "Depois de terminar a lição de casa, ela saiu para brincar com os amigos."
+}
