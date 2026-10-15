@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "H", "I", "E", "F", "X", "Q"],
+    ["R", "B", "N", "D", "Y", "W", "L"],
+    ["J", "V", "G", "S", "K", "M", "O"],
+    ["P", "O", "L", "I", "C", "E", "C"],
+    ["Z", "T", "U", "Q", "W", "D", "K"],
+    ["A", "L", "A", "R", "M", "Z", "N"],
+    ["S", "A", "F", "E", "U", "R", "H"]
+  ],
+  "words_to_find": ["THIEF", "POLICE", "LOCK", "ALARM", "SAFE"],
+  "word_positions": [
+    {"word": "THIEF", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "POLICE", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LOCK", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ALARM", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SAFE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Crime and Safety"
+}
