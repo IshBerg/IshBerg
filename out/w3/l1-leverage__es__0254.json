@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily affected by something"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder for holding papers"}
+  ],
+  "english_words": ["sensitive", "pregnant", "current", "folder"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "These Spanish words and their English look-alikes come from the same Latin roots, so the spelling stayed close, but the meanings drifted apart over time.",
+  "false_friend_warning": "The Spanish words 'embarazada', 'actual', and 'sensible' look like the English words 'embarrassed', 'actually', and 'sensible', but they mean pregnant, current, and sensitive. Students should not translate them by their spelling."
+}
