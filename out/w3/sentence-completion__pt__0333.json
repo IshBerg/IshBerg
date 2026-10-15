@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I had my laptop",
+  "correct_completion": "repaired at the shop.",
+  "full_sentence": "Yesterday I had my laptop repaired at the shop.",
+  "acceptable_variants": ["fixed at the shop.", "repaired by a technician at the shop."],
+  "options": [
+    {"text": "I repaired it myself last night.", "is_correct": false, "why_wrong": "This uses the active verb, but the causative 'have' means someone else performed the action."},
+    {"text": "it repaired itself at the shop.", "is_correct": false, "why_wrong": "This is not a causative construction, and a laptop cannot repair itself."},
+    {"text": "repaired at the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "repairing at the shop.", "is_correct": false, "why_wrong": "The causative needs 'have', an object and a past participle, so the '-ing' form is ungrammatical here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Causative 'have' + object + past participle",
+  "connector": "had",
+  "explanation": "The causative 'have something done' shows that the subject arranged for someone else to perform an action. The structure is 'have' + object + past participle. Speakers may drop the causative and use an active verb, which changes who performs the action.",
+  "translation": "Ontem levei meu notebook para ser consertado na loja."
+}

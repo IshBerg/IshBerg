@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["F", "A", "K", "E", "X", "Q", "W", "P"],
+    ["Z", "B", "M", "J", "D", "G", "N", "O"],
+    ["V", "C", "Q", "W", "K", "H", "F", "S"],
+    ["I", "L", "D", "Y", "Z", "B", "M", "T"],
+    ["R", "S", "H", "A", "R", "E", "X", "J"],
+    ["A", "K", "P", "T", "M", "Y", "Q", "B"],
+    ["L", "W", "G", "N", "D", "F", "X", "Z"],
+    ["Y", "C", "U", "L", "I", "K", "E", "V"]
+  ],
+  "words_to_find": ["FAKE", "POST", "SHARE", "VIRAL", "LIKE"],
+  "word_positions": [
+    {"word": "FAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "POST", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SHARE", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "VIRAL", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "LIKE", "start_row": 7, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Social Media and Fake News"
+}
