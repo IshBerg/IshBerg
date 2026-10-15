@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "entrada", "transliteration": "entrada", "meaning": "starter course of a meal"},
+    {"word": "conta", "transliteration": "conta", "meaning": "bill"},
+    {"word": "sobremesa", "transliteration": "sobremesa", "meaning": "dessert"},
+    {"word": "prato", "transliteration": "prato", "meaning": "dish"}
+  ],
+  "english_words": ["dessert", "starter", "dish", "bill"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages share a Latin root meaning 'to enter', but the Portuguese word for the first course of a meal narrowed its meaning, so the forms stayed close while the meanings split.",
+  "false_friend_warning": "The Portuguese word entrada looks like English entrance, but on a menu it means the starter course, not the way into a restaurant. Students should not match it to entrance."
+}

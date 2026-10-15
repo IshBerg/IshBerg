@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "H", "A", "R", "T", "K", "Z", "Q", "W", "G"],
+    ["P", "L", "V", "M", "X", "B", "F", "J", "U", "R"],
+    ["Y", "O", "K", "D", "S", "Q", "I", "W", "E", "A"],
+    ["N", "G", "Z", "T", "Y", "L", "U", "K", "M", "P"],
+    ["B", "C", "J", "R", "F", "A", "D", "V", "Q", "H"],
+    ["T", "I", "W", "Z", "O", "N", "E", "G", "X", "M"],
+    ["L", "R", "S", "H", "K", "P", "Y", "A", "B", "U"],
+    ["F", "D", "E", "M", "Q", "V", "J", "T", "C", "N"],
+    ["G", "X", "L", "N", "P", "H", "R", "A", "Z", "K"],
+    ["V", "W", "Q", "J", "D", "U", "S", "D", "F", "Y"]
+  ],
+  "words_to_find": ["CHART", "GRAPH", "TREND", "DATA"],
+  "word_positions": [
+    {"word": "CHART", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GRAPH", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "TREND", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DATA", "start_row": 9, "start_col": 7, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Presenting Data and Trends"
+}
