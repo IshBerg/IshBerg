@@ -1,0 +1,14 @@
+{
+  "trigger_word": "menu",
+  "all_words": [
+    {"word": "waiter", "is_associated": true, "association_type": "THEMATIC", "explanation": "O garçom entrega o cardápio ao cliente e anota o pedido, por isso está ligado ao menu no restaurante."},
+    {"word": "order", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão 'order from the menu' (pedir do cardápio) é muito comum em inglês."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "A montanha não tem relação com cardápios nem com comida em um restaurante."},
+    {"word": "dessert", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A sobremesa é um item de comida que aparece no cardápio, então tem relação de significado com menu."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "A bicicleta é um meio de transporte e não tem nenhuma ligação com cardápios."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "O sapato é uma peça de roupa e não está relacionado a restaurantes nem a comida."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'menu' se associa a palavras do ambiente de restaurante e de pedir comida, como garçom, pedir e sobremesa."
+}
