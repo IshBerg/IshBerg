@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["L","E","X","I","C","O","N"],
+    ["Q","K","I","B","P","W","U"],
+    ["F","J","D","Z","R","H","A"],
+    ["G","V","I","L","O","T","N"],
+    ["K","W","O","F","S","Y","C"],
+    ["B","Q","M","D","E","J","E"],
+    ["S","Y","N","T","A","X","R"]
+  ],
+  "words_to_find": ["LEXICON", "NUANCE", "SYNTAX", "IDIOM", "PROSE"],
+  "word_positions": [
+    {"word": "LEXICON", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NUANCE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SYNTAX", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IDIOM", "start_row": 1, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "PROSE", "start_row": 1, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Literary Translation"
+}

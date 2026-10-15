@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "çikolata", "transliteration": "cikolata", "meaning": "chocolate"},
+    {"word": "salata", "transliteration": "salata", "meaning": "salad"},
+    {"word": "kahve", "transliteration": "kahve", "meaning": "coffee"},
+    {"word": "makarna", "transliteration": "makarna", "meaning": "pasta"}
+  ],
+  "english_words": ["salad", "chocolate", "pasta", "coffee"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Turkish word has a close English counterpart with the same meaning. Both languages took these words from a shared source, such as Italian or Arabic, or from each other, so the forms stayed similar.",
+  "false_friend_warning": null
+}
