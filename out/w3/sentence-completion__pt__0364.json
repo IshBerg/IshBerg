@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the phone battery was almost empty,",
+  "correct_completion": "she kept reading the article.",
+  "full_sentence": "Although the phone battery was almost empty, she kept reading the article.",
+  "acceptable_variants": ["she still finished the report.", "she continued working on the article."],
+  "options": [
+    {"text": "so she turned off the light.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast with the first clause."},
+    {"text": "she kept reading the article.", "is_correct": true, "why_wrong": null},
+    {"text": "the phone was in her bag.", "is_correct": false, "why_wrong": "This gives a location, but it does not express a contrast with the empty battery."},
+    {"text": "she had to charge the phone.", "is_correct": false, "why_wrong": "This gives a logical consequence, not the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show contrast with the first part of the sentence. Results or neutral details do not fit this pattern.",
+  "translation": "Embora a bateria do telefone estivesse quase vazia, ela continuou a ler o artigo."
+}
