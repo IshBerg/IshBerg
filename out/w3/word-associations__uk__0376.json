@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "evidence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Докази є ключовою частиною будь-якого аргументу, тому це слово тісно пов'язане з темою."},
+    {"word": "pudding", "is_associated": false, "association_type": "NONE", "explanation": "Пудинг не має жодного зв'язку з суперечками чи аргументацією; це просто десерт."},
+    {"word": "debate", "is_associated": true, "association_type": "THEMATIC", "explanation": "Дебати є форматом, у якому люди висувають і захищають свої аргументи."},
+    {"word": "furniture", "is_associated": false, "association_type": "NONE", "explanation": "Меблі не належать до сфери аргументації, тому це слово не пов'язане зі значенням 'argument'."},
+    {"word": "rhetoric", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Риторика є мистецтвом переконувати, тому вона тісно пов'язана з аргументами."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не має відношення до аргументації, тож це слово не є асоціацією."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'argument' асоціюється з доказами, дебатами та риторикою, тобто з процесом переконування, тоді як інші слова стосуються зовсім інших сфер."
+}
