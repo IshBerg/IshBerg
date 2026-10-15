@@ -1,0 +1,14 @@
+{
+  "trigger_word": "poster",
+  "all_words": [
+    {"word": "slogan", "is_associated": true, "association_type": "THEMATIC", "explanation": "O slogan é a frase curta e marcante que costuma aparecer num pôster publicitário, por isso pertence ao mesmo tema."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanha não tem ligação direta com pôsteres nem com o universo da publicidade impressa."},
+    {"word": "billboard", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O outdoor é um grande suporte para anúncios, com o mesmo sentido de cartaz publicitário que o pôster."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Colher é um objeto de cozinha, sem qualquer relação com cartazes ou propaganda."},
+    {"word": "wall", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Na língua inglesa, um pôster costuma ser colado ou pendurado numa parede, formando a expressão 'poster on the wall'."},
+    {"word": "sunset", "is_associated": false, "association_type": "NONE", "explanation": "Pôr do sol é um fenômeno natural e não se relaciona com o tema de cartazes."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Associações com 'poster' vêm de três fontes: o conteúdo típico do cartaz (slogan), o tipo de suporte publicitário semelhante (billboard) e o lugar onde o pôster costuma ser exibido (wall). As demais palavras não se ligam ao tema."
+}

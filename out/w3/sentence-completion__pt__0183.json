@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have taken an earlier train.",
+  "full_sentence": "Had she known about the delay, she would have taken an earlier train.",
+  "acceptable_variants": ["she would have boarded an earlier train.", "she would have left sooner."],
+  "options": [
+    {"text": "she takes an earlier train every day.", "is_correct": false, "why_wrong": "The habitual present describes a routine, so it does not complete the hypothetical past meaning set up by 'Had she known'."},
+    {"text": "she will take the earlier train tomorrow.", "is_correct": false, "why_wrong": "A future form refers to a plan for tomorrow; the inverted conditional requires a past-based result such as 'would have'."},
+    {"text": "she would have taken an earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "she caught the earlier train yesterday.", "is_correct": false, "why_wrong": "This reports a completed past event that is unrelated to the hypothetical condition introduced by 'Had she known'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and 'would have'",
+  "connector": "had she known",
+  "explanation": "In the inverted form, 'Had' replaces 'If' and the subject comes before the verb. The main clause must use 'would have' plus a past participle to describe an unreal past result. Learners often mix this up with a simple past form, which describes a fact rather than a hypothetical outcome.",
+  "translation": "Se ela soubesse do atraso, teria pegado um trem mais cedo."
+}
