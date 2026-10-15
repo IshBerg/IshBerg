@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "debate", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Debate é uma discussão organizada em que se apresentam e defendem argumentos opostos, por isso está diretamente ligado ao conceito de argumento."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Travesseiro é um objeto de uso doméstico e não tem nenhuma relação com raciocínio, discussão ou argumentação."},
+    {"word": "rebuttal", "is_associated": true, "association_type": "THEMATIC", "explanation": "Refutação é a resposta que contesta um argumento apresentado, pertencendo ao mesmo campo temático da argumentação."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Geleira é um fenômeno geográfico e não se relaciona com a construção ou o debate de argumentos."},
+    {"word": "argon", "is_associated": true, "association_type": "PHONETIC", "explanation": "Argônio compartilha o início sonoro 'arg-' com argument, o que pode causar confusão de pronúncia entre os dois termos."},
+    {"word": "tapestry", "is_associated": false, "association_type": "NONE", "explanation": "Tapeçaria é uma obra de arte têxtil e não tem ligação semântica, temática ou sonora com argument."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra argument se associa a debate e refutação, que pertencem à prática da argumentação, e a argônio por semelhança sonora; travesseiro, geleira e tapeçaria não têm relação com o termo."
+}
