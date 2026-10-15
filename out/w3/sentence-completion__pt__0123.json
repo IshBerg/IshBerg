@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The city where I was born",
+  "correct_completion": "is very beautiful in spring.",
+  "full_sentence": "The city where I was born is very beautiful in spring.",
+  "acceptable_variants": ["is especially lovely in the spring.", "has a beautiful old centre."],
+  "options": [
+    {"text": "who is very famous for its music.", "is_correct": false, "why_wrong": "'Who' refers to people, not to a city, so it cannot follow 'the city'."},
+    {"text": "where my family lives now.", "is_correct": false, "why_wrong": "A second relative clause starts here, so the sentence has no main verb for its subject."},
+    {"text": "is very beautiful in spring.", "is_correct": true, "why_wrong": null},
+    {"text": "that I want to visit in the summer.", "is_correct": false, "why_wrong": "This adds another relative clause after 'where', which repeats the structure and leaves the main verb missing."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clause with 'where' for places, followed by the main verb of the sentence",
+  "connector": "where",
+  "explanation": "'Where' introduces a clause that describes a place, so the sentence still needs a main verb and a complete predicate after the clause.",
+  "translation": "A cidade onde eu nasci é muito bonita na primavera."
+}

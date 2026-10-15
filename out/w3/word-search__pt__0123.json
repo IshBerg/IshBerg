@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["S", "U", "B", "T", "L", "E", "K", "Q", "W", "N"],
+    ["R", "H", "J", "Z", "F", "X", "V", "G", "D", "U"],
+    ["K", "B", "W", "Q", "I", "S", "R", "T", "Z", "A"],
+    ["F", "X", "G", "H", "V", "C", "J", "E", "K", "N"],
+    ["D", "Q", "W", "A", "R", "T", "B", "S", "M", "C"],
+    ["Z", "H", "K", "U", "Y", "G", "O", "I", "X", "E"],
+    ["W", "J", "T", "L", "S", "F", "B", "N", "Q", "V"],
+    ["A", "G", "P", "C", "D", "K", "H", "W", "E", "X"],
+    ["U", "M", "Q", "R", "V", "J", "F", "Y", "T", "B"],
+    ["I", "K", "Z", "X", "D", "E", "D", "A", "O", "L"]
+  ],
+  "words_to_find": ["SUBTLE", "NUANCE", "TONE", "LOADED", "IMPLY"],
+  "word_positions": [
+    {"word": "SUBTLE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NUANCE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "TONE", "start_row": 4, "start_col": 5, "direction": "DIAGONAL_DOWN"},
+    {"word": "LOADED", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "IMPLY", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Connotation and Nuance in Word Choice"
+}
