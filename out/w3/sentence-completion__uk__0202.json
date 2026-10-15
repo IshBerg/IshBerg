@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she handed it to the manager.",
+  "full_sentence": "Having finished the report, she handed it to the manager.",
+  "acceptable_variants": ["she sent it to the client.", "she gave it to her supervisor."],
+  "options": [
+    {"text": "the manager was handed the report by her.", "is_correct": false, "why_wrong": "The implied subject of 'Having finished' must be the subject of the main clause. Here that would be 'the manager', so the sentence would wrongly say the manager finished the report."},
+    {"text": "she handed it to the manager.", "is_correct": true, "why_wrong": null},
+    {"text": "the report had been finished for days.", "is_correct": false, "why_wrong": "'Having finished' already expresses a completed action. Repeating a finished state here is redundant and does not supply the finite main verb the sentence needs."},
+    {"text": "handing it to the manager by the deadline.", "is_correct": false, "why_wrong": "A present participle shows action at the same time as the main verb, but the main clause still needs a finite verb such as 'handed', so the sentence is incomplete."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect participle clauses and the implied subject",
+  "connector": "having finished",
+  "explanation": "A perfect participle clause such as 'Having finished' describes an action completed before the main verb, and its implied subject must match the main clause subject. Learners often attach a clause with a different subject or add a second finite verb, which breaks the structure.",
+  "translation": "Закінчивши звіт, вона передала його менеджеру."
+}

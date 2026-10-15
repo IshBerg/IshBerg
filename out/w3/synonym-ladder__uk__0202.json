@@ -1,0 +1,13 @@
+{
+  "start_word": "crowded",
+  "end_word": "empty",
+  "ladder_steps": [
+    {"word": "crowded", "translation": "переповнений людьми", "intensity_level": 1},
+    {"word": "busy", "translation": "жвавий", "intensity_level": 2},
+    {"word": "quiet", "translation": "тихий", "intensity_level": 3},
+    {"word": "deserted", "translation": "безлюдний", "intensity_level": 4},
+    {"word": "empty", "translation": "порожній", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words describing how many people are in a place form a ladder from the most people to none, and each step means fewer people than the one before."
+}
