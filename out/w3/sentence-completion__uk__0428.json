@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My phone battery was almost empty, so",
+  "correct_completion": "I sent a short message to my friend.",
+  "full_sentence": "My phone battery was almost empty, so I sent a short message to my friend.",
+  "acceptable_variants": ["I wrote a quick text to my friend.", "I turned off my phone to save power."],
+  "options": [
+    {"text": "my phone battery was full.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the battery was almost empty."},
+    {"text": "I went to the shop to buy a book.", "is_correct": false, "why_wrong": "This is not a result of the empty battery, so it does not complete the cause-and-effect link that 'so' introduces."},
+    {"text": "I sent a short message to my friend.", "is_correct": true, "why_wrong": null},
+    {"text": "the message was very long.", "is_correct": false, "why_wrong": "A long message does not follow logically from a low battery; 'so' needs a result that responds to the battery problem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the situation described in the first clause, so the second clause must describe what the speaker did because of the low battery. Learners sometimes add 'because' after 'so', which is incorrect in English; use only one of the two connectors in a sentence.",
+  "translation": "Батарея мого телефона майже розрядилася, тож я надіслав другові коротке повідомлення."
+}
