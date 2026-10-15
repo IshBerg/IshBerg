@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am sorry I did not answer your email because",
+  "correct_completion": "I was very busy at work.",
+  "full_sentence": "I am sorry I did not answer your email because I was very busy at work.",
+  "acceptable_variants": ["I had a lot of work to do.", "I forgot to check my email."],
+  "options": [
+    {"text": "I like pizza very much.", "is_correct": false, "why_wrong": "This is a true statement about food, but it does not explain why the email was not answered."},
+    {"text": "my cat is black and white.", "is_correct": false, "why_wrong": "This describes a cat, so it does not give a reason for not answering the email."},
+    {"text": "I was very busy at work.", "is_correct": true, "why_wrong": null},
+    {"text": "I like cold weather.", "is_correct": false, "why_wrong": "This states a preference, which does not explain why the email was not answered."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Using 'because' to give a reason",
+  "connector": "because",
+  "explanation": "The word 'because' introduces the reason for not answering the email. The completion must be a clause that gives that reason, such as a situation that stopped the writer from replying.",
+  "translation": "Lo siento, no respondí a tu correo porque estuve muy ocupado en el trabajo."
+}
