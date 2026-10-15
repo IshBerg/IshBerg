@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have done much better.", "my results would have been higher."],
+  "options": [
+    {"text": "I passed the exam easily.", "is_correct": false, "why_wrong": "This states a real past event, but the wish expresses regret about something that did not happen."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I will study harder next time.", "is_correct": false, "why_wrong": "This makes a future promise, while 'if only' expresses regret about the past."},
+    {"text": "I would pass the exam tomorrow.", "is_correct": false, "why_wrong": "This refers to the future, but the stem talks about a past action that did not happen."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional after 'if only' to express past regret",
+  "connector": "if only",
+  "explanation": "After 'if only' with a past perfect clause, the main clause uses 'would have' plus the past participle to express an unreal past result.",
+  "translation": "Gdybym tylko uczył się bardziej, zdałbym egzamin."
+}
