@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee studied the evidence more carefully,",
+  "correct_completion": "the verdict would have been different.",
+  "full_sentence": "Had the committee studied the evidence more carefully, the verdict would have been different.",
+  "acceptable_variants": ["the verdict might have changed.", "the outcome could have been different."],
+  "options": [
+    {"text": "the members were chosen last spring.", "is_correct": false, "why_wrong": "This gives an unrelated fact about the committee. The stem needs a main clause describing the hypothetical past result."},
+    {"text": "so the verdict was reached quickly.", "is_correct": false, "why_wrong": "'So' signals a real cause and result, not the outcome of a past condition that did not happen."},
+    {"text": "although the evidence was clear.", "is_correct": false, "why_wrong": "'Although' sets up a contrast with a real fact, but the stem already creates an unreal past condition, so this does not complete it."},
+    {"text": "the verdict would have been different.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "The stem is an inverted third conditional: 'Had' replaces 'if', and the subject and auxiliary swap places. The main clause must use 'would have' with a past participle to describe the unreal past result. Learners often keep a plain past verb here, so it helps to remember the whole inverted structure.",
+  "translation": "Komite kanıtları daha dikkatli inceleseydi, karar farklı olurdu."
+}
