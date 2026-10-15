@@ -1,0 +1,23 @@
+{
+  "central_word": "criticize",
+  "chain_words": [
+    {"word": "question", "intensity": 1, "translation": "sorgulamak", "nuance": "express doubt about whether something is valid"},
+    {"word": "criticize", "intensity": 2, "translation": "eleştirmek", "nuance": "point out faults with disapproval"},
+    {"word": "censure", "intensity": 3, "translation": "kınamak", "nuance": "formally express strong official disapproval"},
+    {"word": "condemn", "intensity": 4, "translation": "mahkûm etmek", "nuance": "declare something morally wrong and unacceptable"},
+    {"word": "denounce", "intensity": 5, "translation": "ifşa etmek", "nuance": "publicly accuse something as wrong or dangerous"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express disapproval of a claim, work, or action, with increasing force from questioning its validity to publicly denouncing it.",
+  "usage_notes": [
+    {"word1": "criticize", "word2": "censure", "difference": "'Criticize' expresses disapproval of a work or action in general; 'censure' is a formal expression of official disapproval, often by a body or authority."}
+  ],
+  "translations": {
+    "question": "sorgulamak",
+    "criticize": "eleştirmek",
+    "censure": "kınamak",
+    "condemn": "mahkûm etmek",
+    "denounce": "ifşa etmek"
+  }
+}
