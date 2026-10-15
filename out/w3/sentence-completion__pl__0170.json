@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The documents had been lost in the flood, so",
+  "correct_completion": "the court had to postpone the trial.",
+  "full_sentence": "The documents had been lost in the flood, so the court had to postpone the trial.",
+  "acceptable_variants": ["the case was delayed for several months.", "the hearing was moved to the following year."],
+  "options": [
+    {"text": "the flood was very strong last year.", "is_correct": false, "why_wrong": "This gives background about the flood but does not show the result of the lost documents, which 'so' requires."},
+    {"text": "the court had to postpone the trial.", "is_correct": true, "why_wrong": null},
+    {"text": "the trial was held as planned.", "is_correct": false, "why_wrong": "'So' introduces a consequence. Holding the trial as planned does not follow from documents being lost."},
+    {"text": "the documents were found again.", "is_correct": false, "why_wrong": "This is a possible event, but it is not the result that 'so' introduces after the passive clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' following the passive 'had been lost'",
+  "connector": "so",
+  "explanation": "After 'so', the main clause must state the result of the situation described in the first clause. The past perfect passive describes the earlier event, and the consequence follows in the simple past.",
+  "translation": "Dokumenty zostały zgubione podczas powodzi, więc sąd musiał odroczyć rozprawę."
+}
