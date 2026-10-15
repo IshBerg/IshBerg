@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the forecast predicted heavy snow,",
+  "correct_completion": "the roads remained clear all morning.",
+  "full_sentence": "Although the forecast predicted heavy snow, the roads remained clear all morning.",
+  "acceptable_variants": ["the buses still ran on time.", "the city kept its normal schedule."],
+  "options": [
+    {"text": "so the schools closed early.", "is_correct": false, "why_wrong": "'So' introduces a consequence, but 'although' requires a contrast with the forecast, not a result."},
+    {"text": "the roads were covered in ice.", "is_correct": false, "why_wrong": "This is what the snow would lead us to expect, so it does not create the contrast that 'although' requires."},
+    {"text": "the roads remained clear all morning.", "is_correct": true, "why_wrong": null},
+    {"text": "the forecast was published on Monday.", "is_correct": false, "why_wrong": "This adds a timing detail and does not contrast with the predicted snow."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and contrast with expectations",
+  "connector": "although",
+  "explanation": "'Although' introduces a fact that runs against what was expected, so the main clause must describe an outcome that contradicts the forecast. Learners sometimes add a consequence or a detail instead, so check that the second clause sets up a contrast with the first.",
+  "translation": "Mimo że prognoza przewidywała silne opady śniegu, drogi przez cały ranek pozostawały przejezdne."
+}
