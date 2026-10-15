@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I love this song, so I",
+  "correct_completion": "play it every day.",
+  "full_sentence": "I love this song, so I play it every day.",
+  "acceptable_variants": ["listen to it every day.", "I listen to it every morning."],
+  "options": [
+    {"text": "play them every day.", "is_correct": false, "why_wrong": "'Them' is plural, but 'this song' is singular, so the object pronoun must be 'it'."},
+    {"text": "play it every day.", "is_correct": true, "why_wrong": null},
+    {"text": "play him every day.", "is_correct": false, "why_wrong": "'Him' refers to a male person, not to a song, so it does not match the noun in the first clause."},
+    {"text": "play me every day.", "is_correct": false, "why_wrong": "'Me' refers to the speaker, so it changes the meaning and does not replace the song."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Object pronouns 'it', 'them', 'him' and 'me' and agreement with the noun they replace",
+  "connector": "so",
+  "explanation": "An object pronoun must agree with the noun it replaces in number and in meaning. Here the noun is a singular thing, so 'it' is correct. Portuguese speakers may choose a pronoun based on the grammatical gender of the noun, but English object pronouns for things do not depend on gender.",
+  "translation": "Eu adoro esta música, então eu a ouço todos os dias."
+}
