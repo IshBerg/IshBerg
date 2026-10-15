@@ -1,0 +1,14 @@
+{
+  "trigger_word": "headline",
+  "all_words": [
+    {"word": "newspaper", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El titular aparece en la portada de un periódico, así que la relación con el periódico es directa."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "El pan es un alimento y no tiene ninguna relación con los titulares de noticias."},
+    {"word": "editor", "is_associated": true, "association_type": "THEMATIC", "explanation": "El editor decide qué titular se publica, por lo que pertenece al mismo ámbito periodístico."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "El tractor es una máquina agrícola y no guarda relación con los titulares."},
+    {"word": "scandal", "is_associated": true, "association_type": "THEMATIC", "explanation": "Muchos titulares llaman la atención con escándalos, así que la palabra pertenece al tema de la prensa sensacionalista."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "La guitarra es un instrumento musical y no se relaciona con los titulares."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'headline' pertenecen al mundo de la prensa: el periódico, quienes preparan las noticias y el tipo de contenido que suele aparecer en ellas."
+}
