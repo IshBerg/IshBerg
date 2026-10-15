@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the novel was long and difficult,",
+  "correct_completion": "many readers still find it deeply rewarding.",
+  "full_sentence": "Although the novel was long and difficult, many readers still find it deeply rewarding.",
+  "acceptable_variants": ["many readers still enjoy it a great deal.", "many readers still finish it with pleasure."],
+  "options": [
+    {"text": "because the author wrote it in short chapters.", "is_correct": false, "why_wrong": "'Because' signals cause, not contrast. This option explains the structure of the novel rather than contrasting with its difficulty."},
+    {"text": "many readers still find it deeply rewarding.", "is_correct": true, "why_wrong": null},
+    {"text": "the author was born in the nineteenth century.", "is_correct": false, "why_wrong": "This adds background information but does not provide the contrasting clause expected after 'although'."},
+    {"text": "it has over four hundred pages.", "is_correct": false, "why_wrong": "This restates the length of the novel instead of contrasting with it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the difficulty described in the first part. Portuguese speakers sometimes add a cause clause here because Portuguese uses similar structures for both, so watch the connector carefully.",
+  "translation": "Embora o romance seja longo e difícil, muitos leitores ainda o acham profundamente gratificante."
+}
