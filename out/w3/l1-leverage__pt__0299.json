@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend, to plan"},
+    {"word": "eventualmente", "transliteration": "eventualmente", "meaning": "possibly, if needed"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch or to attend"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current, up to date"}
+  ],
+  "english_words": ["attend", "current", "intend", "possibly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Portuguese and English share many Latin-derived words, so the spellings often look alike. Here the shared form hides a shift in meaning, so the learner must check the gloss rather than trust the look of the word.",
+  "false_friend_warning": "Watch out: the Portuguese word that looks like English 'pretend' means 'to intend' or 'to plan', so the English word 'pretend' is a trap here."
+}

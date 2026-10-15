@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at those dark clouds,",
+  "correct_completion": "it is going to rain soon.",
+  "full_sentence": "Look at those dark clouds, it is going to rain soon.",
+  "acceptable_variants": ["it will rain soon.", "it looks like rain."],
+  "options": [
+    {"text": "we are going to the beach.", "is_correct": false, "why_wrong": "This is a plan for the future, but it does not describe what the clouds show, so it does not complete the sentence."},
+    {"text": "it is going to rain soon.", "is_correct": true, "why_wrong": null},
+    {"text": "we went to the beach yesterday.", "is_correct": false, "why_wrong": "This uses the past simple, but the stem asks for a prediction about the future based on the clouds."},
+    {"text": "they will be very happy.", "is_correct": false, "why_wrong": "This is a future sentence, but it has no connection to the clouds mentioned in the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Future: 'going to' for predictions based on present evidence",
+  "connector": "going to",
+  "explanation": "The clouds are visible evidence now, so 'going to' is used to make a prediction about what will happen soon. The completion must describe the expected weather.",
+  "translation": "Olhe para aquelas nuvens escuras, vai chover em breve."
+}
