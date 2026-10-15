@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the battery was almost empty,",
+  "correct_completion": "she finished the report before midnight.",
+  "full_sentence": "Even though the battery was almost empty, she finished the report before midnight.",
+  "acceptable_variants": ["she still completed the report.", "she kept working on the report."],
+  "options": [
+    {"text": "so she turned off the phone.", "is_correct": false, "why_wrong": "'So' expresses a result, but 'even though' requires a contrasting action, not a consequence."},
+    {"text": "she finished the report before midnight.", "is_correct": true, "why_wrong": null},
+    {"text": "the battery was charging slowly.", "is_correct": false, "why_wrong": "This repeats the problem described in the first clause instead of giving the contrasting outcome."},
+    {"text": "she had forgotten her charger.", "is_correct": false, "why_wrong": "This explains a difficulty but does not complete the contrast expected after 'even though'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the main clause must show a result that goes against the expectation set by the first clause. Learners often choose a consequence clause with 'so', which signals cause rather than contrast.",
+  "translation": "Pilin neredeyse bitmiş olmasına rağmen, raporu gece yarısından önce bitirdi."
+}
