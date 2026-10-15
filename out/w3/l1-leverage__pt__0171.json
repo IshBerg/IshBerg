@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend"},
+    {"word": "eventualmente", "transliteration": "eventualmente", "meaning": "possibly"},
+    {"word": "atualmente", "transliteration": "atualmente", "meaning": "currently"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to attend"}
+  ],
+  "english_words": ["currently", "to attend", "to intend", "possibly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Portuguese words entered the language from Latin and resemble English words in spelling, but over time their meanings diverged, so the forms look alike while the meanings differ.",
+  "false_friend_warning": "The Portuguese words look like the English words 'pretend', 'eventually', 'actually' and 'assist', but they mean to intend, possibly, currently and to attend. Learners who rely on appearance will choose the English look-alike instead of the true meaning."
+}
