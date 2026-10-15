@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "V", "I", "D", "E", "N", "C", "E", "R"],
+    ["Q", "W", "K", "B", "X", "Z", "J", "F", "E"],
+    ["C", "G", "H", "Y", "M", "D", "V", "N", "S"],
+    ["K", "A", "W", "Q", "R", "B", "F", "X", "U"],
+    ["Z", "M", "U", "D", "H", "J", "Y", "W", "L"],
+    ["G", "N", "V", "S", "K", "Q", "B", "R", "T"],
+    ["X", "D", "M", "L", "E", "W", "J", "Y", "H"],
+    ["B", "F", "Z", "K", "Q", "N", "V", "G", "D"],
+    ["W", "S", "U", "P", "P", "O", "R", "T", "Y"]
+  ],
+  "words_to_find": ["EVIDENCE", "RESULT", "CAUSE", "SUPPORT"],
+  "word_positions": [
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RESULT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CAUSE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SUPPORT", "start_row": 8, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}
