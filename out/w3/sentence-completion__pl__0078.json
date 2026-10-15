@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday we were late for school because",
+  "correct_completion": "the bus was broken down.",
+  "full_sentence": "Yesterday we were late for school because the bus was broken down.",
+  "acceptable_variants": ["the bus was late.", "the bus was full."],
+  "options": [
+    {"text": "it was a sunny day.", "is_correct": false, "why_wrong": "This describes the weather, which does not explain why we were late."},
+    {"text": "we were very hungry.", "is_correct": false, "why_wrong": "Being hungry describes how we felt, not a reason that would make us late for school."},
+    {"text": "the bus was broken down.", "is_correct": true, "why_wrong": null},
+    {"text": "the school was on holiday.", "is_correct": false, "why_wrong": "This contradicts the situation, because we were going to school, so it could not be closed for a holiday."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple 'was/were' in a clause introduced by 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces a cause, so the completion must give a reason for being late. The past simple 'was' agrees with the singular noun 'bus'. Polish speakers may expect a different word order after the connector, but in English 'because' is followed directly by a subject and a verb.",
+  "translation": "Wczoraj spóźniliśmy się do szkoły, bo autobus się zepsuł."
+}
