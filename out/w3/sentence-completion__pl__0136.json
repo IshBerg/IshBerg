@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more time,",
+  "correct_completion": "I would learn to play the guitar.",
+  "full_sentence": "If I had more time, I would learn to play the guitar.",
+  "acceptable_variants": ["I would practise the guitar every day.", "I would start a new hobby."],
+  "options": [
+    {"text": "I learned to play the guitar last year.", "is_correct": false, "why_wrong": "This describes a real past event. The second conditional talks about an imagined present or future situation."},
+    {"text": "I would learn to play the guitar.", "is_correct": true, "why_wrong": null},
+    {"text": "I will learn to play the guitar next month.", "is_correct": false, "why_wrong": "This is a real plan for the future. The second conditional describes an imagined situation that is unlikely to happen."},
+    {"text": "I would have learned to play the guitar.", "is_correct": false, "why_wrong": "This uses the third conditional for an imagined past. The stem is about the present, so the second conditional is needed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'if'",
+  "connector": "if",
+  "explanation": "The second conditional describes an imagined present or future situation and its result. The if-clause uses the past simple, while the result clause uses would plus the base verb.",
+  "translation": "Gdybym miał więcej czasu, nauczyłbym się grać na gitarze."
+}
