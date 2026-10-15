@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied for weeks,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Despite having studied for weeks, she still failed the exam.",
+  "acceptable_variants": ["she nevertheless failed the exam.", "the exam still went badly for her."],
+  "options": [
+    {"text": "so she felt confident about the result.", "is_correct": false, "why_wrong": "'Despite' introduces a concession, while 'so' introduces a result. The connectors clash, so this clause cannot complete the contrast."},
+    {"text": "she was tired and hungry.", "is_correct": false, "why_wrong": "This describes her physical state but does not complete the contrast with the expected outcome of studying set up by 'despite'."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "the exam was very long.", "is_correct": false, "why_wrong": "This gives an unrelated fact about the exam itself and does not state the contrasting outcome for the subject after 'despite'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive prepositions with 'despite' followed by an -ing clause",
+  "connector": "despite",
+  "explanation": "After 'despite' plus an -ing clause, the main clause must show a result that goes against what the effort would normally lead to. Learners often choose an option with a cause or result meaning, which breaks the concessive relation.",
+  "translation": "Незважаючи на те, що вона вчила тижнями, вона все одно провалила іспит."
+}
