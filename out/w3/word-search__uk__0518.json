@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "O", "N", "E", "S", "T", "Y", "Q", "F"],
+    ["K", "L", "M", "P", "R", "W", "J", "V", "A"],
+    ["Z", "B", "C", "F", "G", "D", "K", "P", "I"],
+    ["L", "Q", "X", "H", "W", "N", "B", "V", "R"],
+    ["D", "J", "K", "M", "L", "P", "Q", "W", "N"],
+    ["G", "U", "C", "H", "P", "X", "K", "M", "E"],
+    ["A", "V", "T", "L", "F", "Q", "J", "K", "S"],
+    ["B", "G", "H", "Y", "N", "M", "P", "C", "S"],
+    ["I", "N", "T", "E", "G", "R", "I", "T", "Y"]
+  ],
+  "words_to_find": ["HONESTY", "FAIRNESS", "DUTY", "INTEGRITY"],
+  "word_positions": [
+    {"word": "HONESTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FAIRNESS", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DUTY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "INTEGRITY", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Ethics and Responsibility"
+}
