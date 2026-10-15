@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["A", "N", "S", "W", "E", "R", "J"],
+    ["Z", "U", "Q", "F", "T", "Y", "O"],
+    ["N", "H", "D", "P", "R", "W", "B"],
+    ["A", "G", "C", "V", "K", "M", "I"],
+    ["M", "Q", "F", "X", "T", "J", "H"],
+    ["E", "L", "Z", "R", "Y", "P", "C"],
+    ["X", "S", "K", "I", "L", "L", "V"]
+  ],
+  "words_to_find": ["ANSWER", "JOB", "NAME", "SKILL"],
+  "word_positions": [
+    {"word": "ANSWER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "JOB", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "NAME", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SKILL", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Interview Transcripts"
+}

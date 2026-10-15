@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gök gürültüsü fırtınanın doğal bir parçasıdır, bu yüzden 'storm' ile anlam bakımından güçlü bir bağlantısı vardır."},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Şemsiye, insanların fırtına sırasında yağmurdan korunmak için kullandığı bir eşyadır; konu olarak fırtınayla ilişkilidir."},
+    {"word": "crystal", "is_associated": false, "association_type": "NONE", "explanation": "Kristal, fırtınayla ne anlamca ne de konu olarak bağlantılıdır; hava olaylarıyla ilgisi yoktur."},
+    {"word": "forecast", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hava tahmini, fırtınaların önceden haber verildiği konuyla doğrudan ilgilidir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık, fırtına kavramıyla hiçbir anlam ya da konu bağlantısı taşımaz."},
+    {"word": "gale", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Gale' kelimesi çoğu zaman 'gale-force storm' gibi bir ifadede kullanılır, bu yüzden ortak kullanım açısından fırtınaya bağlıdır."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Fırtına ile ilgili kelimeler arasında gök gürültüsü ve hava tahmini gibi doğrudan bağlantılar ile şemsiye ve 'gale' gibi konu ya da ortak kullanım bağları bulunur; kristal ve yastık ise ilgisizdir."
+}
