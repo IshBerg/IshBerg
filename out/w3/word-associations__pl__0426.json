@@ -1,0 +1,14 @@
+{
+  "trigger_word": "article",
+  "all_words": [
+    {"word": "journalist", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dziennikarz pisze artykuły, więc jest ściśle związany z tym słowem."},
+    {"word": "headline", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Nagłówek to tytuł artykułu, a 'article headline' to typowe połączenie wyrazów."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "Czajnik służy do gotowania wody i nie ma żadnego związku z artykułami ani prasą."},
+    {"word": "newspaper", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gazeta to miejsce, w którym publikuje się artykuły, więc znaczenia obu słów są blisko siebie."},
+    {"word": "elephant", "is_associated": false, "association_type": "NONE", "explanation": "Słoń nie ma żadnego związku z tekstami prasowymi ani z pisaniem."},
+    {"word": "editor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Redaktor sprawdza i poprawia artykuły przed ich publikacją."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'article' kojarzy się z prasą i pisaniem, więc powiązane są słowa dotyczące ludzi, miejsc i elementów tekstu prasowego; pozostałe słowa nie mają z tym tematem nic wspólnego."
+}
