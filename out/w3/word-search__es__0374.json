@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "R", "A", "N", "S", "L", "A", "T", "E"],
+    ["D", "Q", "W", "K", "Y", "M", "P", "J", "Z"],
+    ["H", "I", "R", "V", "Y", "N", "C", "O", "B"],
+    ["K", "M", "A", "P", "W", "T", "Q", "S", "R"],
+    ["X", "Z", "J", "L", "N", "V", "B", "R", "I"],
+    ["M", "W", "F", "E", "E", "K", "S", "Y", "D"],
+    ["P", "H", "U", "Z", "O", "C", "Q", "M", "G"],
+    ["N", "L", "V", "K", "Y", "B", "T", "S", "E"],
+    ["F", "A", "Z", "Q", "J", "W", "X", "P", "N"]
+  ],
+  "words_to_find": ["TRANSLATE", "DIALECT", "FLUENT", "BRIDGE"],
+  "word_positions": [
+    {"word": "TRANSLATE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DIALECT", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FLUENT", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "BRIDGE", "start_row": 2, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Facilitating Multilingual Discourse"
+}
