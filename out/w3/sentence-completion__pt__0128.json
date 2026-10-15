@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat water to one hundred degrees,",
+  "correct_completion": "it boils.",
+  "full_sentence": "If you heat water to one hundred degrees, it boils.",
+  "acceptable_variants": ["it turns into steam.", "it starts to boil."],
+  "options": [
+    {"text": "it will boil tomorrow.", "is_correct": false, "why_wrong": "The zero conditional describes general facts that are always true. 'Will' and 'tomorrow' point to one future event, which does not fit a fact."},
+    {"text": "it boils.", "is_correct": true, "why_wrong": null},
+    {"text": "it boiled yesterday.", "is_correct": false, "why_wrong": "The past tense refers to one event in the past, not to a general scientific fact that is always true."},
+    {"text": "it would boil if you wanted.", "is_correct": false, "why_wrong": "'Would' is used in second conditional sentences for imagined or unreal situations, not for facts."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional with 'if' for general truths",
+  "connector": "if",
+  "explanation": "The zero conditional uses 'if' with the present simple in both clauses to describe facts or results that happen every time. Portuguese speakers may add 'will' in the main clause, but in English a general fact keeps the present simple.",
+  "translation": "Se você aquecer a água até cem graus, ela ferve."
+}
