@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bed",
+  "all_words": [
+    {"word": "pillow", "is_associated": true, "association_type": "THEMATIC", "explanation": "Подушка лежить на ліжку, тому вона тісно пов'язана з темою ліжка."},
+    {"word": "sleep", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ми лягаємо в ліжко, щоб спати, тому слова 'sleep' і 'bed' близькі за значенням."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Автомобіль не має жодного зв'язку з ліжком і сном."},
+    {"word": "blanket", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ковдра лежить на ліжку, тому вона пов'язана з ліжком."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Стіл стоїть окремо від ліжка і не пов'язаний з ним за змістом."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Дерево росте на вулиці і не має стосунку до ліжка."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'bed' асоціюється з предметами, які лежать на ліжку, і з діями, пов'язаними зі сном."
+}

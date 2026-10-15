@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I usually get up",
+  "correct_completion": "at seven o'clock.",
+  "full_sentence": "I usually get up at seven o'clock.",
+  "acceptable_variants": ["at seven in the morning.", "at 7 a.m."],
+  "options": [
+    {"text": "in Sunday.", "is_correct": false, "why_wrong": "'In' is not used before days of the week. We say 'on Sunday'."},
+    {"text": "on the morning.", "is_correct": false, "why_wrong": "We say 'in the morning', not 'on the morning'."},
+    {"text": "at seven o'clock.", "is_correct": true, "why_wrong": null},
+    {"text": "at the summer.", "is_correct": false, "why_wrong": "'At' is not used before seasons. We say 'in summer'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Prepositions of time with clock times",
+  "connector": "at",
+  "explanation": "Clock times take the preposition 'at'. Ukrainian speakers may choose the wrong preposition because Ukrainian uses different case endings instead of prepositions for time expressions.",
+  "translation": "Я зазвичай встаю о сьомій годині."
+}

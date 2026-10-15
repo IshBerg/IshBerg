@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["L", "I", "O", "N", "X", "Q", "D", "T"],
+    ["P", "U", "V", "B", "H", "Z", "M", "I"],
+    ["S", "J", "C", "D", "Y", "K", "R", "G"],
+    ["N", "Q", "X", "F", "T", "B", "A", "E"],
+    ["A", "I", "U", "Z", "P", "O", "D", "R"],
+    ["K", "M", "W", "O", "L", "F", "H", "V"],
+    ["E", "Q", "S", "R", "N", "C", "Y", "J"],
+    ["B", "K", "T", "X", "A", "P", "Q", "W"]
+  ],
+  "words_to_find": ["LION", "TIGER", "WOLF", "SNAKE"],
+  "word_positions": [
+    {"word": "LION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TIGER", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "WOLF", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "SNAKE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Wild Animals"
+}
