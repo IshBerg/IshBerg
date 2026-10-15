@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "tired", "intensity": 1, "translation": "втомлений", "nuance": "needing rest after activity"},
+    {"word": "weary", "intensity": 2, "translation": "стомлений", "nuance": "tired of effort or long activity"},
+    {"word": "fatigued", "intensity": 3, "translation": "виснажений", "nuance": "worn down physically or mentally"},
+    {"word": "exhausted", "intensity": 4, "translation": "знеможений", "nuance": "completely used up and unable to continue"},
+    {"word": "drained", "intensity": 5, "translation": "вичерпаний", "nuance": "emptied of all energy"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express tiredness, with the feeling growing from needing a rest to having no energy left.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "exhausted", "difference": "'Tired' describes a normal feeling that rest can fix; 'exhausted' describes a much stronger state of having no energy left."}
+  ],
+  "translations": {"tired": "втомлений", "weary": "стомлений", "fatigued": "виснажений", "exhausted": "знеможений", "drained": "вичерпаний"}
+}

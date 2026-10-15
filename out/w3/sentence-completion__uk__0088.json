@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is too little sugar in the cake, so",
+  "correct_completion": "we need to buy some more.",
+  "full_sentence": "There is too little sugar in the cake, so we need to buy some more.",
+  "acceptable_variants": ["we need to buy more sugar.", "we should go to the shop for sugar."],
+  "options": [
+    {"text": "we have enough sugar already.", "is_correct": false, "why_wrong": "This contradicts the stem, which says there is too little sugar in the cake."},
+    {"text": "we need to buy many more.", "is_correct": false, "why_wrong": "'Many' is used with countable nouns. Sugar is uncountable, so 'some' or 'more' is correct."},
+    {"text": "we need to buy some more.", "is_correct": true, "why_wrong": null},
+    {"text": "we need to buy a few more.", "is_correct": false, "why_wrong": "'A few' is used with countable nouns. Sugar is uncountable, so 'a little' or 'some' is needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifiers with uncountable nouns (some, much, many, a few)",
+  "connector": "so",
+  "explanation": "Sugar is an uncountable noun, so we use 'some' or 'more' rather than 'many' or 'a few'. Ukrainian speakers often translate the word for 'much' or 'many' directly, but in English 'many' and 'a few' are used only with countable nouns.",
+  "translation": "У торті занадто мало цукру, тому нам потрібно купити ще."
+}
