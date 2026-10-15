@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister,",
+  "correct_completion": "who lives in Krakow, works as a nurse.",
+  "full_sentence": "My sister, who lives in Krakow, works as a nurse.",
+  "acceptable_variants": ["who lives in Krakow, is a nurse.", "who lives in Krakow, has been a nurse for five years."],
+  "options": [
+    {"text": "that lives in Krakow works as a nurse.", "is_correct": false, "why_wrong": "'That' is not used to introduce non-defining relative clauses after a comma; for a person, use 'who'."},
+    {"text": "because she lives in Krakow.", "is_correct": false, "why_wrong": "'Because' introduces a reason clause, so the sentence has no main verb for 'My sister'. A non-defining relative clause needs 'who'."},
+    {"text": "who lives in Krakow, works as a nurse.", "is_correct": true, "why_wrong": null},
+    {"text": "who lives in Krakow works as a nurse.", "is_correct": false, "why_wrong": "The non-defining clause is opened by a comma, so it must also be closed by a comma before the main verb. Without it the sentence is ungrammatical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'who' and commas",
+  "connector": "who",
+  "explanation": "A non-defining relative clause adds extra information about a person already identified and is always set off by commas. Learners may forget the closing comma because the clause is easy to read as part of the main sentence, but the closing comma marks where the extra information ends.",
+  "translation": "Moja siostra, która mieszka w Krakowie, pracuje jako pielęgniarka."
+}
