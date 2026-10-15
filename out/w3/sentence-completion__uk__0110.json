@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were walking in the park,",
+  "correct_completion": "it started to rain.",
+  "full_sentence": "While we were walking in the park, it started to rain.",
+  "acceptable_variants": ["it suddenly started to rain.", "a dog ran across the path."],
+  "options": [
+    {"text": "we are walking home now.", "is_correct": false, "why_wrong": "The present continuous 'are walking' mixes present and past time, but the stem is set in the past, so it does not fit."},
+    {"text": "to buy some ice cream.", "is_correct": false, "why_wrong": "This is an infinitive fragment, not a complete clause, so it cannot follow the comma and complete the sentence."},
+    {"text": "it started to rain.", "is_correct": true, "why_wrong": null},
+    {"text": "we will go home soon.", "is_correct": false, "why_wrong": "The future tense does not fit a past-time sentence introduced by 'while' that describes an action already in progress."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous with 'while' for an action in progress, interrupted by a simple past event",
+  "connector": "while",
+  "explanation": "'While' introduces an action that was in progress, so the first clause uses the past continuous. The second clause uses the simple past to show the event that happened during that action.",
+  "translation": "Поки ми гуляли парком, почав падати дощ."
+}
