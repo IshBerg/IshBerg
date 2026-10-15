@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is very little sugar in the jar, so",
+  "correct_completion": "we need to buy more.",
+  "full_sentence": "There is very little sugar in the jar, so we need to buy more.",
+  "acceptable_variants": ["we should go to the shop.", "we will buy some more."],
+  "options": [
+    {"text": "we have a lot of apples for dinner.", "is_correct": false, "why_wrong": "The completion must follow logically from the shortage of sugar. Apples have no connection to the sugar in the jar."},
+    {"text": "we have many sugars for tea.", "is_correct": false, "why_wrong": "'Sugar' is an uncountable noun, so it cannot be plural and 'many' cannot be used with it in this way."},
+    {"text": "we need to buy more.", "is_correct": true, "why_wrong": null},
+    {"text": "we are going to eat a few sugars.", "is_correct": false, "why_wrong": "'A few' is used with countable nouns, and 'sugars' is an incorrect plural for an uncountable noun."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Uncountable nouns with 'little' and quantity expressions",
+  "connector": "so",
+  "explanation": "The connector 'so' introduces a result. The completion must describe what happens because the jar has very little sugar. Learners should use 'little' with uncountable nouns such as sugar, and avoid plural forms and 'a few' with them.",
+  "translation": "W słoiku jest bardzo mało cukru, więc musimy kupić więcej."
+}
