@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you do not know the way,",
+  "correct_completion": "look at the map.",
+  "full_sentence": "If you do not know the way, look at the map.",
+  "acceptable_variants": ["ask a person for help.", "check the timetable at the station."],
+  "options": [
+    {"text": "you have a big lunch.", "is_correct": false, "why_wrong": "This action has nothing to do with finding the way, so it does not complete the condition set up by 'if'."},
+    {"text": "the bus was late yesterday.", "is_correct": false, "why_wrong": "This describes a past event, but the first conditional needs a present action that responds to the condition."},
+    {"text": "look at the map.", "is_correct": true, "why_wrong": null},
+    {"text": "the shop is closed on Sundays.", "is_correct": false, "why_wrong": "This states a fact about a shop, which does not answer the condition of not knowing the way."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and a present simple result",
+  "connector": "if",
+  "explanation": "The word 'if' introduces a condition, so the second part must give a suitable action that follows from that condition. Learners should use the present simple after 'if' and an imperative or present form in the result clause.",
+  "translation": "Якщо ви не знаєте дорогу, подивіться на карту."
+}
