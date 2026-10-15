@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "flight",
+  "collocate": "cancellation",
+  "full_collocation": "flight cancellation",
+  "options": ["weather", "luggage", "flight", "airport"],
+  "correct_index": 2,
+  "distractors": [
+    {"word": "weather", "reason": "'Weather' names the cause, not the thing being cancelled. We say 'cancellation due to weather', not 'weather cancellation'."},
+    {"word": "luggage", "reason": "'Luggage' does not modify 'cancellation' in standard English. We don't say 'luggage cancellation'."},
+    {"word": "airport", "reason": "'Airport cancellation' is not a standard collocation. The thing that is cancelled is the flight, so 'flight' is the natural modifier."}
+  ],
+  "example_sentence": "The airline sent a ___ cancellation notice to every passenger.",
+  "gap_position": 4,
+  "translation": "uçuş iptali",
+  "l1_interference": "Türkçe konuşanlar 'uçuşun iptali' gibi bir tamlama düşünüp 'flight's cancellation' ya da 'cancellation of the flight' diyebilir; oysa İngilizcede iki isim yan yana gelir ve doğru yapı 'flight cancellation'dır.",
+  "common_mistake": "flight's cancellation",
+  "explanation": "In English, one noun can modify another noun directly. 'Flight' tells us what kind of cancellation it is. This compound is more formal and compact than a phrase such as 'the airline called off the flight'.",
+  "related_collocations": [
+    {"collocation": "flight delay", "translation": "uçuş gecikmesi", "example": "The flight delay lasted three hours."},
+    {"collocation": "flight schedule", "translation": "uçuş programı", "example": "Please check the flight schedule before you leave home."},
+    {"collocation": "baggage claim", "translation": "bagaj teslim alanı", "example": "We will meet you at the baggage claim area."}
+  ],
+  "memory_tip": "CALL OFF a flight = FLIGHT CANCELLATION (noun + noun). Formal English often turns phrasal verbs into noun pairs."
+}

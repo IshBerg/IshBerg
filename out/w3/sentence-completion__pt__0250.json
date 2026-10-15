@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "By the time we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the last train had already departed.", "the train had gone."],
+  "options": [
+    {"text": "we will catch the train.", "is_correct": false, "why_wrong": "The future tense does not fit a past narrative. The clause after 'by the time' describes an event that was already finished when we arrived."},
+    {"text": "the train has already left.", "is_correct": false, "why_wrong": "The present perfect links an event to the present. In a past narrative, an event completed before another past moment needs the past perfect."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null},
+    {"text": "the train is leaving tomorrow.", "is_correct": false, "why_wrong": "'Tomorrow' is a future time reference, which conflicts with the past time set by 'by the time we arrived'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past perfect with 'by the time' for an action completed before a past moment",
+  "connector": "by the time",
+  "explanation": "After 'by the time' in a past context, the main clause often uses the past perfect to show which action finished first. The train left before we arrived, so 'had already left' is needed.",
+  "translation": "Quando chegamos à estação, o trem já tinha partido."
+}

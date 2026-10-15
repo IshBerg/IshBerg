@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rhyme",
+  "all_words": [
+    {"word": "poem", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Poemas costumam usar rimas, por isso a palavra 'poem' está diretamente ligada a 'rhyme'."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Motor não tem relação com poesia nem com rimas."},
+    {"word": "time", "is_associated": true, "association_type": "PHONETIC", "explanation": "'Time' rima com 'rhyme' porque as duas terminam com o mesmo som, por isso há associação fonética."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Ponte não tem nenhuma ligação com rima nem com os sons das palavras."},
+    {"word": "sonnet", "is_associated": true, "association_type": "THEMATIC", "explanation": "O soneto é uma forma poética com esquema de rimas fixo, então pertence ao mesmo tema de 'rhyme'."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "Lâmpada não tem relação com rima nem com poesia."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'rhyme' pertencem ao campo da poesia (poem, sonnet) ou têm som parecido (time); as demais não têm ligação com rima."
+}
