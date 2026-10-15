@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likeable, pleasant"},
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current, up to date"},
+    {"word": "eventüel", "transliteration": "eventuel", "meaning": "possible, potential"},
+    {"word": "lavabo", "transliteration": "lavabo", "meaning": "sink, washbasin"}
+  ],
+  "english_words": ["sink", "likeable", "current", "possible"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each of these Turkish words was borrowed from French, so its spelling resembles an English word, but the meanings have drifted apart over time.",
+  "false_friend_warning": "Students may assume the Turkish word for likeable means sympathetic in English, but English sympathetic means feeling pity or understanding for someone's difficulties. The Turkish word for current looks like actual, which is a different meaning, and the Turkish word for possible looks like eventual, which in English means final or resulting. The Turkish word for sink looks like lavatory, which in English means a toilet."
+}
