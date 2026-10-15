@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although he usually arrives early,",
+  "correct_completion": "he was late today.",
+  "full_sentence": "Although he usually arrives early, he was late today.",
+  "acceptable_variants": ["he got stuck in traffic today.", "he came in after everyone else today."],
+  "options": [
+    {"text": "he is always on time.", "is_correct": false, "why_wrong": "This repeats the habit already stated and does not contrast with it, so 'although' has no contrast to mark."},
+    {"text": "he was late today.", "is_correct": true, "why_wrong": null},
+    {"text": "so he is never tired.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast, so it does not match the meaning of 'although'."},
+    {"text": "he sometimes forgets his keys.", "is_correct": false, "why_wrong": "This adds an unrelated habit and does not give the contrasting event that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and adverbs of frequency ('usually')",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a result that goes against the habit in the first clause. The adverb 'usually' describes the habit, and the completion gives the exception.",
+  "translation": "Aunque él normalmente llega temprano, hoy llegó tarde."
+}
