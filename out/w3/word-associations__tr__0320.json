@@ -1,0 +1,14 @@
+{
+  "trigger_word": "submit",
+  "all_words": [
+    {"word": "document", "is_associated": true, "association_type": "THEMATIC", "explanation": "Belge, resmi bir süreçte genellikle teslim edilen şeydir, bu yüzden bu kelimeyle doğrudan ilişkilidir."},
+    {"word": "sunrise", "is_associated": false, "association_type": "NONE", "explanation": "Gün doğumu, teslim etme ya da sunma süreciyle hiçbir ilgisi olmayan bir kavramdır."},
+    {"word": "deadline", "is_associated": true, "association_type": "THEMATIC", "explanation": "Son teslim tarihi, bir şeyin ne zaman sunulması gerektiğini belirttiği için bu kelimeyle ilişkilidir."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitar bir müzik aletidir ve teslim ya da sunma işlemleriyle bağlantısı yoktur."},
+    {"word": "application", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Başvuru sunmak' doğal bir eş dizimdir ve 'submit an application' ifadesi yaygın olarak kullanılır."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık yatak odasında kullanılır ve resmi bir sunma ya da teslim sürecinde yeri yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Submit' kelimesi resmi bir ortamda bir şeyi teslim etmek anlamına gelir; belge, son tarih ve başvuru ile ilişkilidir, diğer kelimeler ise alakasızdır."
+}
