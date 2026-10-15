@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["E", "A", "S", "T", "E", "R", "Q", "D"],
+    ["B", "K", "M", "N", "O", "Z", "P", "I"],
+    ["H", "J", "C", "U", "G", "T", "Y", "W"],
+    ["F", "K", "N", "Q", "R", "O", "X", "A"],
+    ["E", "B", "V", "Y", "H", "K", "J", "L"],
+    ["A", "C", "M", "S", "U", "F", "W", "I"],
+    ["S", "D", "G", "B", "Y", "L", "N", "Q"],
+    ["T", "P", "A", "R", "A", "D", "E", "X"]
+  ],
+  "words_to_find": ["EASTER", "DIWALI", "PARADE", "FEAST"],
+  "word_positions": [
+    {"word": "EASTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DIWALI", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "PARADE", "start_row": 7, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "FEAST", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Holidays Around the World"
+}
