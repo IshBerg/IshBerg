@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the evidence seemed compelling,",
+  "correct_completion": "the author's conclusion remains open to question.",
+  "full_sentence": "Although the evidence seemed compelling, the author's conclusion remains open to question.",
+  "acceptable_variants": ["the author's conclusion is still open to debate.", "the author's final claim cannot be fully accepted."],
+  "options": [
+    {"text": "the author's conclusion is therefore beyond doubt.", "is_correct": false, "why_wrong": "'Therefore' signals a result, but the stem already sets up a contrast with 'although'. The completion must oppose the evidence, not confirm it."},
+    {"text": "the author did not bother to cite any sources.", "is_correct": false, "why_wrong": "This adds a new criticism but does not complete the contrast between the strength of the evidence and the status of the conclusion."},
+    {"text": "the author's conclusion remains open to question.", "is_correct": true, "why_wrong": null},
+    {"text": "the evidence was gathered over several years.", "is_correct": false, "why_wrong": "This gives background information about the evidence, but it does not state a contrasting claim about the conclusion."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in argumentative writing",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must present a point that contrasts with the concession. In argumentative essays this is usually a claim that is weakened or questioned despite strong supporting material.",
+  "translation": "Embora as evidências parecessem convincentes, a conclusão do autor continua aberta a questionamentos."
+}
