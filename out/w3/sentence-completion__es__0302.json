@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people prefer to study online,",
+  "correct_completion": "they still find value in classroom discussion.",
+  "full_sentence": "Although many people prefer to study online, they still find value in classroom discussion.",
+  "acceptable_variants": ["they still value face-to-face teaching.", "they still see benefits in attending lectures in person."],
+  "options": [
+    {"text": "so they never attend class.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. The connector 'although' needs a clause that goes against the expectation in the first part."},
+    {"text": "they still find value in classroom discussion.", "is_correct": true, "why_wrong": null},
+    {"text": "online courses are cheaper.", "is_correct": false, "why_wrong": "This adds a fact about cost, but it does not contrast with the preference stated in the first clause."},
+    {"text": "because the internet is slow.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast. It also does not fit the structure that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "'Although' sets up a contrast, so the second clause must show something that goes against the expectation raised by the first clause. Spanish speakers often add 'but' after the comma by reflex, but English does not need 'but' when 'although' is already used.",
+  "translation": "Aunque muchas personas prefieren estudiar en línea, todavía encuentran valor en las discusiones en clase."
+}
