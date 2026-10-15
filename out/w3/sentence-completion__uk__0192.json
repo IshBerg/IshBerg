@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the heavy workload,",
+  "correct_completion": "she finished the report before the deadline.",
+  "full_sentence": "Despite the heavy workload, she finished the report before the deadline.",
+  "acceptable_variants": ["she still completed the report on time.", "she managed to submit the report early."],
+  "options": [
+    {"text": "so she finished the report early.", "is_correct": false, "why_wrong": "'Despite' signals contrast, while 'so' introduces a result; the clause cannot follow this stem."},
+    {"text": "because the workload was heavy.", "is_correct": false, "why_wrong": "This repeats the cause already named in the stem, and 'because' cannot follow 'despite'."},
+    {"text": "she finished the report before the deadline.", "is_correct": true, "why_wrong": null},
+    {"text": "she was working late every night.", "is_correct": false, "why_wrong": "This restates the effort described in the stem rather than giving the contrasting outcome that 'despite' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive phrases with 'despite'",
+  "connector": "despite",
+  "explanation": "After 'despite', the main clause must describe an outcome that contrasts with the difficulty named in the stem. Ukrainian speakers often reach for a cause-and-effect connector such as 'because' or 'so' in this position, but 'despite' signals concession rather than cause, so the completion has to show the difficulty being overcome.",
+  "translation": "Попри великий обсяг роботи, вона закінчила звіт до дедлайну."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Ethics in Automated Systems",
+  "text": "Every technology we build carries ethical responsibilities that extend far beyond its intended purpose. Engineers who design algorithms for hiring, lending, or medical diagnosis often assume their work is neutral. In practice, however, historical data can encode old prejudices, and a system trained on that data may quietly reproduce them. Responsibility therefore begins long before a product reaches the public.\n\nAccountability, moreover, cannot be delegated to the machine itself. When an automated decision harms someone, a human organization must be able to explain the outcome and correct the error. Many ethicists argue that companies should publish clear audit procedures and invite independent scrutiny. Such transparency does not eliminate mistakes, but it makes them visible and therefore addressable.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "According to paragraph one, what can historical data do when it is used to train a system?", "options": ["It always produces perfectly neutral results.", "It can reproduce old prejudices.", "It makes engineers unnecessary.", "It eliminates the need for testing."], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "According to paragraph two, what should companies do?", "options": ["Hide their decision procedures from the public.", "Replace all human staff with machines.", "Publish clear audit procedures and invite independent scrutiny.", "Avoid explaining automated decisions."], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What main idea does the author convey about responsibility for automated systems?", "options": ["Machines should bear full legal blame for their errors.", "Responsibility remains with the humans who build and operate the systems.", "Responsibility matters only after a product has been sold.", "Ethical concerns are unrelated to technical design."], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does the author note that transparency does not eliminate mistakes?", "options": ["To suggest that audits are useless.", "To argue that mistakes should be hidden.", "To claim that engineers never make errors.", "To acknowledge the limits of transparency while still valuing it."], "correct_index": 3, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "prejudices", "translation": "упередження", "definition": "unfair opinions formed without adequate knowledge"},
+    {"word": "neutral", "translation": "нейтральний", "definition": "not favoring any particular side or position"},
+    {"word": "scrutiny", "translation": "ретельна перевірка", "definition": "careful and critical examination"},
+    {"word": "transparency", "translation": "прозорість", "definition": "the quality of being open and easy to understand"}
+  ],
+  "paragraph_translations": [
+    "Кожна технологія, яку ми створюємо, несе етичні обов'язки, що значно виходять за межі її задуманого призначення. Інженери, які розробляють алгоритми для найму, кредитування або медичної діагностики, часто вважають свою роботу нейтральною. Однак на практиці історичні дані можуть закодувати старі упередження, і система, навчена на них, може непомітно їх відтворювати. Тому відповідальність починається задовго до того, як продукт потрапить до публіки.",
+    "Крім того, підзвітність не можна делегувати самій машині. Коли автоматизоване рішення завдає шкоди комусь, людська організація має вміти пояснити результат і виправити помилку. Багато етиків стверджують, що компанії мають публікувати чіткі процедури аудиту й запрошувати незалежний контроль. Така прозорість не усуває помилок, але робить їх видимими і тому таких, що можна виправити."
+  ]
+}
