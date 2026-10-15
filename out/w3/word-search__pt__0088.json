@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["D", "O", "C", "T", "O", "R", "F"],
+    ["M", "K", "Z", "Q", "W", "J", "E"],
+    ["B", "L", "X", "Y", "T", "G", "V"],
+    ["P", "A", "I", "N", "Y", "L", "E"],
+    ["Q", "W", "Z", "B", "K", "D", "R"],
+    ["X", "C", "O", "U", "G", "H", "Z"],
+    ["M", "N", "S", "I", "C", "K", "P"]
+  ],
+  "words_to_find": ["DOCTOR", "FEVER", "PAIN", "COUGH", "SICK"],
+  "word_positions": [
+    {"word": "DOCTOR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FEVER", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PAIN", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "COUGH", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "SICK", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Health and Illness"
+}
