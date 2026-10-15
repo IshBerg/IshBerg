@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["C", "A", "K", "E", "X", "Q", "B"],
+    ["M", "O", "V", "U", "W", "D", "E"],
+    ["I", "G", "H", "R", "T", "L", "A"],
+    ["C", "B", "R", "E", "A", "K", "N"],
+    ["E", "Y", "Q", "F", "P", "J", "S"],
+    ["S", "P", "I", "L", "L", "X", "Z"],
+    ["K", "W", "D", "V", "Q", "M", "T"]
+  ],
+  "words_to_find": ["CAKE", "BEANS", "ICE", "BREAK", "SPILL"],
+  "word_positions": [
+    {"word": "CAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BEANS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ICE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "BREAK", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "SPILL", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Idiomatic Expressions and Their Origins"
+}
