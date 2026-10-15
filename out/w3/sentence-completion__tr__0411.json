@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you add the eggs,",
+  "correct_completion": "beat the butter and sugar together in a bowl.",
+  "full_sentence": "Before you add the eggs, beat the butter and sugar together in a bowl.",
+  "acceptable_variants": ["mix the butter and sugar until smooth.", "preheat the oven to 180 degrees."],
+  "options": [
+    {"text": "the cake will taste better.", "is_correct": false, "why_wrong": "This describes a result, but 'before' needs an action that happens earlier than adding the eggs."},
+    {"text": "we have already baked it.", "is_correct": false, "why_wrong": "This is a past event and contradicts the timing set by 'before' in a recipe."},
+    {"text": "beat the butter and sugar together in a bowl.", "is_correct": true, "why_wrong": null},
+    {"text": "the eggs are in the fridge.", "is_correct": false, "why_wrong": "This describes a state, not an action done first, so it does not follow the logical order of the recipe."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses with 'before'",
+  "connector": "before",
+  "explanation": "After 'before', the sentence needs an imperative action that comes earlier in the recipe than the step in the stem.",
+  "translation": "Yumurtaları eklemeden önce, tereyağı ve şekeri bir kasede birlikte çırpın."
+}
