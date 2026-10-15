@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although there are only a few eggs left,",
+  "correct_completion": "we can still make a cake.",
+  "full_sentence": "Although there are only a few eggs left, we can still make a cake.",
+  "acceptable_variants": ["we can still make pancakes.", "we still have enough for a simple breakfast."],
+  "options": [
+    {"text": "so we cannot make a cake.", "is_correct": false, "why_wrong": "'So' introduces a result that follows from the first part, but 'although' requires a contrast. The completion must go against the expectation set by the stem."},
+    {"text": "there are many eggs in the basket.", "is_correct": false, "why_wrong": "This contradicts the stem, which says there are only a few eggs left. A completion must agree with the first clause."},
+    {"text": "we can still make a cake.", "is_correct": true, "why_wrong": null},
+    {"text": "the eggs are in the fridge.", "is_correct": false, "why_wrong": "This gives a location, not a contrasting action or result, so it does not complete the concessive clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and the quantifiers 'a few' and 'few'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show contrast with the first clause. 'A few' means some, which is a positive quantity, so the contrasting result is that the cake can still be made. Learners often confuse 'a few' with 'few', because 'few' alone means almost none and sounds negative. Speakers whose first language has no articles often drop 'a' in this pattern, so check the article carefully.",
+  "translation": "Хоча яєць залишилося лише кілька, ми все одно можемо спекти торт."
+}
