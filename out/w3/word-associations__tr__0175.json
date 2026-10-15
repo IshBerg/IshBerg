@@ -1,0 +1,14 @@
+{
+  "trigger_word": "camera",
+  "all_words": [
+    {"word": "photo", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kamera ile çekilen şey fotoğraftır, bu yüzden iki kelime doğrudan ilişkilidir."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Kaşığın kamera ile hiçbir ilgisi yoktur."},
+    {"word": "lens", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Lens, kameranın görüntüyü odakladığı parçasıdır."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Ayakkabının kamera ile bir bağlantısı yoktur."},
+    {"word": "film", "is_associated": true, "association_type": "THEMATIC", "explanation": "Film çekmek de kamera ile yapılan bir iştir, bu yüzden aynı konuda yer alır."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "Masa kamera konusuyla ilgili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kamera kelimesiyle ilgili kelimeler fotoğraf, lens ve film gibi görüntü kaydı ve medya alanına aittir."
+}

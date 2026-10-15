@@ -1,0 +1,13 @@
+{
+  "codename": "SILENT CALENDAR",
+  "briefing": "Agent, we've intercepted a schedule that must be decoded. Connect the evidence cards to reveal which days the operation depends on. Time is critical.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "Monday", "right": "понеділок", "left_style": "document", "right_style": "handwritten"},
+    {"left": "Wednesday", "right": "середа", "left_style": "photo", "right_style": "newspaper"},
+    {"left": "Friday", "right": "п'ятниця", "left_style": "official", "right_style": "photo"},
+    {"left": "Saturday", "right": "субота", "left_style": "handwritten", "right_style": "official"},
+    {"left": "Sunday", "right": "неділя", "left_style": "newspaper", "right_style": "document"}
+  ]
+}
