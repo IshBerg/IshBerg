@@ -1,0 +1,17 @@
+{
+  "central_word": "believe",
+  "chain_words": [
+    {"word": "suspect", "intensity": 1, "translation": "podejrzewać", "nuance": "vague feeling that something is probably true, with little evidence"},
+    {"word": "suppose", "intensity": 2, "translation": "przypuszczać", "nuance": "assume something is likely, without proof"},
+    {"word": "presume", "intensity": 3, "translation": "zakładać", "nuance": "accept something as true until shown otherwise"},
+    {"word": "believe", "intensity": 4, "translation": "wierzyć", "nuance": "hold something as true with a fair degree of conviction"},
+    {"word": "insist", "intensity": 5, "translation": "upierać się", "nuance": "state firmly that something is true and refuse to accept doubt"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express a stance towards whether something is true, moving from a tentative suspicion to a firm, emphatic claim.",
+  "usage_notes": [
+    {"word1": "suspect", "word2": "believe", "difference": "'Suspect' suggests a vague feeling with little evidence; 'believe' suggests a firmer conviction that the speaker is prepared to defend."}
+  ],
+  "translations": {"suspect": "podejrzewać", "suppose": "przypuszczać", "presume": "zakładać", "believe": "wierzyć", "insist": "upierać się"}
+}
