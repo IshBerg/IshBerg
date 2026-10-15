@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The car is not in the garage, so",
+  "correct_completion": "he must have taken it to work.",
+  "full_sentence": "The car is not in the garage, so he must have taken it to work.",
+  "acceptable_variants": ["he might have taken it to work.", "he has probably driven it to the office."],
+  "options": [
+    {"text": "he will take it to work tomorrow.", "is_correct": false, "why_wrong": "'Will' refers to the future, but the stem needs a deduction about what already happened, based on the evidence."},
+    {"text": "he should have parked it outside.", "is_correct": false, "why_wrong": "'Should have' criticises a past action or describes an obligation; it does not draw a logical conclusion about where the car is."},
+    {"text": "he went to the shop yesterday.", "is_correct": false, "why_wrong": "This states a past fact with simple past, but it does not explain why the car is missing from the garage."},
+    {"text": "he must have taken it to work.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfect (must have + past participle) for logical deduction about the past",
+  "connector": "so",
+  "explanation": "The modal perfect must have plus a past participle expresses a confident conclusion about a past event, based on present evidence. Ukrainian speakers often use a simple past or a simple future here because Ukrainian has no separate modal perfect construction, so the must have structure is needed to show a deduction.",
+  "translation": "Машини немає в гаражі, тож, мабуть, він поїхав на ній на роботу."
+}
