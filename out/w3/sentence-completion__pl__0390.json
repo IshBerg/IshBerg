@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the comic was very funny,",
+  "correct_completion": "we read it again.",
+  "full_sentence": "Because the comic was very funny, we read it again.",
+  "acceptable_variants": ["we laughed a lot.", "we showed it to our friend."],
+  "options": [
+    {"text": "so we put it in the bin.", "is_correct": false, "why_wrong": "This suggests throwing the comic away, which does not match the reason given by 'because'."},
+    {"text": "we read it again.", "is_correct": true, "why_wrong": null},
+    {"text": "it was on the table yesterday.", "is_correct": false, "why_wrong": "This adds a time detail but does not complete the result that 'because' introduces."},
+    {"text": "the drawings were in black and white.", "is_correct": false, "why_wrong": "This describes the comic but does not give the action that follows from the reason."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the reason is given first and the main clause shows the result. Reading the comic again is a logical result of finding it very funny.",
+  "translation": "Ponieważ komiks był bardzo zabawny, przeczytaliśmy go ponownie."
+}
