@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rocket",
+  "all_words": [
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piano é um instrumento musical e não tem relação com foguetes."},
+    {"word": "astronaut", "is_associated": true, "association_type": "THEMATIC", "explanation": "Astronauta é a pessoa que viaja no foguete para o espaço, por isso são palavras do mesmo tema."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Jardim não tem ligação com foguetes nem com o espaço."},
+    {"word": "launch", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Rocket launch é a expressão usada para o lançamento de um foguete."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bicicleta é um meio de transporte terrestre e não está ligada a foguetes."},
+    {"word": "fuel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Combustível é o que faz o foguete funcionar, então o significado está diretamente relacionado."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra rocket se associa a pessoas, ações e materiais ligados a voos espaciais, enquanto objetos do dia a dia não têm relação com ela."
+}
