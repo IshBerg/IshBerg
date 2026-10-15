@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Every morning, my brother",
+  "correct_completion": "wakes up at six o'clock.",
+  "full_sentence": "Every morning, my brother wakes up at six o'clock.",
+  "acceptable_variants": ["gets up at six o'clock.", "wakes up early."],
+  "options": [
+    {"text": "wake up at six o'clock.", "is_correct": false, "why_wrong": "The verb needs an -s in the third person singular (he, she, it), so after 'my brother' we must say 'wakes'."},
+    {"text": "is waking up at six o'clock.", "is_correct": false, "why_wrong": "The present continuous describes an action happening now, but a daily routine uses the present simple."},
+    {"text": "wakes up at six o'clock.", "is_correct": true, "why_wrong": null},
+    {"text": "will wake up at six o'clock tomorrow.", "is_correct": false, "why_wrong": "The future tense refers to one specific future time, but 'every morning' describes a repeated routine."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present Simple: third person singular with 'every morning' routines",
+  "connector": "every morning",
+  "explanation": "The stem describes a daily routine, so the sentence needs the present simple. The subject 'my brother' is third person singular, so the verb takes an -s ending.",
+  "translation": "Todas as manhãs, meu irmão acorda às seis horas."
+}
