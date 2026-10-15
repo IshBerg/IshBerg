@@ -1,0 +1,14 @@
+{
+  "trigger_word": "debate",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un debate se basa en argumentos que defienden una postura frente a otra."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Un volcán es un fenómeno geológico y no tiene relación con la discusión de ideas."},
+    {"word": "evidence", "is_associated": true, "association_type": "THEMATIC", "explanation": "En un debate, las pruebas o evidencias respaldan las ideas que se presentan."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Un sándwich es un alimento y no aparece en el contexto de un debate."},
+    {"word": "opinion", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Una opinión es la idea que cada participante defiende durante el debate."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Una bicicleta es un vehículo y no se asocia con la discusión de ideas."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a un debate se refieren a la argumentación y la discusión de ideas, mientras que los objetos cotidianos no pertenecen a ese contexto."
+}

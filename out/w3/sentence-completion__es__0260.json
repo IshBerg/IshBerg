@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though she studied all night,",
+  "correct_completion": "she failed the exam.",
+  "full_sentence": "Even though she studied all night, she failed the exam.",
+  "acceptable_variants": ["she still did not pass.", "she did not get a good grade."],
+  "options": [
+    {"text": "so she passed easily.", "is_correct": false, "why_wrong": "'So' shows a result that follows naturally from studying, so it does not create the contrast that 'even though' requires."},
+    {"text": "she went to bed early.", "is_correct": false, "why_wrong": "This is an unrelated action. It does not complete the contrast started by 'even though'."},
+    {"text": "she failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "because she was tired.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast. Use 'even though' with a contrasting result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the main clause must show a result that goes against what we would expect from the first part of the sentence.",
+  "translation": "Aunque estudió toda la noche, reprobó el examen."
+}
