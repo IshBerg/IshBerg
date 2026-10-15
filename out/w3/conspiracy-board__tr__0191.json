@@ -1,0 +1,14 @@
+{
+  "codename": "GLASS EYE",
+  "briefing": "Agent, intercepted newsroom files contain coded media terms that must be decoded before the broadcast goes live. Match each English term to its Turkish equivalent to expose the hidden connections.",
+  "connection_mode": "vocabulary",
+  "difficulty": "hard",
+  "pairs": [
+    {"left": "headline", "right": "manşet", "left_style": "document", "right_style": "handwritten"},
+    {"left": "spin", "right": "yönlendirme", "left_style": "photo", "right_style": "document"},
+    {"left": "tabloid", "right": "tabloid gazete", "left_style": "newspaper", "right_style": "official"},
+    {"left": "source", "right": "kaynak", "left_style": "handwritten", "right_style": "newspaper"},
+    {"left": "bias", "right": "önyargı", "left_style": "official", "right_style": "photo"},
+    {"left": "leak", "right": "sızıntı", "left_style": "document", "right_style": "official"}
+  ]
+}
