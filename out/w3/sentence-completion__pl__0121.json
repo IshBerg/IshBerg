@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you study hard,",
+  "correct_completion": "you will pass the exam.",
+  "full_sentence": "If you study hard, you will pass the exam.",
+  "acceptable_variants": ["you will get a good grade.", "you will feel proud of yourself."],
+  "options": [
+    {"text": "you passed the exam yesterday.", "is_correct": false, "why_wrong": "The past tense does not fit a possible future result. The first conditional needs 'will' in the result clause."},
+    {"text": "you will pass the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "you would pass the exam.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional, which describes unreal or unlikely situations. For a real possibility, use 'will'."},
+    {"text": "you pass the exam every year.", "is_correct": false, "why_wrong": "This describes a repeated habit. It does not give the result of the possible situation in the if-clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional: if + present simple, will + base verb",
+  "connector": "if",
+  "explanation": "The first conditional describes a possible future situation and its likely result. It uses if plus the present simple in the condition clause and will plus the base verb in the result clause. Speakers may be tempted to use a future form after if, but English uses the present simple there, so the correct phrase is 'if you study', not 'if you will study'.",
+  "translation": "Jeśli będziesz ciężko się uczyć, zdasz egzamin."
+}
