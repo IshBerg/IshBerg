@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dog",
+  "all_words": [
+    {"word": "bone", "is_associated": true, "association_type": "THEMATIC", "explanation": "Кістка є улюбленим лакомством собаки, тому ці слова пов'язані тематично."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Хмара належить до теми погоди і не має відношення до собаки."},
+    {"word": "leash", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Повідець є аксесуаром для собаки; у англійській мові ці слова часто стоять поруч: dog leash."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Ложка є кухонним приладдям і не пов'язана з собаками."},
+    {"word": "bark", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Гавкання є звуком собаки, тому слова пов'язані за змістом."},
+    {"word": "cow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Корова є свійською твариною, як і собака, тож ці слова належать до однієї категорії."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова стосуються собаки: її їжі, аксесуарів, звуків або інших свійських тварин; непов'язані слова належать до інших тем."
+}
