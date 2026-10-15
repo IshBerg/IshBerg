@@ -1,0 +1,13 @@
+{
+  "start_word": "optional",
+  "end_word": "mandatory",
+  "ladder_steps": [
+    {"word": "optional", "translation": "opcional", "intensity_level": 1},
+    {"word": "suggested", "translation": "sugerido", "intensity_level": 2},
+    {"word": "recommended", "translation": "recomendado", "intensity_level": 3},
+    {"word": "required", "translation": "requerido", "intensity_level": 4},
+    {"word": "mandatory", "translation": "obligatorio", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe how strong an obligation is, from something you may choose to do up to something you must do by the rules."
+}
