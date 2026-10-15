@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "салат", "transliteration": "salat", "meaning": "salad"},
+    {"word": "йогурт", "transliteration": "yohurt", "meaning": "yogurt"},
+    {"word": "какао", "transliteration": "kakao", "meaning": "cocoa"},
+    {"word": "омлет", "transliteration": "omlet", "meaning": "omelet"}
+  ],
+  "english_words": ["cocoa", "salad", "omelet", "yogurt"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each of these English words came from another language and reached both English and Ukrainian through the same source, so the forms stayed close.",
+  "false_friend_warning": null
+}
