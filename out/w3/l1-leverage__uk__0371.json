@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, topical"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "студент", "transliteration": "student", "meaning": "student"},
+    {"word": "мітинг", "transliteration": "mitynh", "meaning": "rally, public demonstration"}
+  ],
+  "english_words": ["factory", "rally", "student", "relevant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same sources, so some forms stayed close, but the meanings in Ukrainian have drifted in some cases.",
+  "false_friend_warning": "The Ukrainian word transliterated as 'aktualnyi' looks like the English word 'actual', but it means 'relevant' or 'topical', not 'actual' or 'real'. Similarly, the Ukrainian word transliterated as 'mitynh' looks like 'meeting' but means a 'rally' or public demonstration."
+}

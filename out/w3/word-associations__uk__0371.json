@@ -1,0 +1,14 @@
+{
+  "trigger_word": "tort",
+  "all_words": [
+    {"word": "law", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'tort law' (деліктне право) є усталеним юридичним терміном, тому слово 'law' тісно пов'язане з 'tort'."},
+    {"word": "vineyard", "is_associated": false, "association_type": "NONE", "explanation": "Виноградник не має жодного стосунку до цивільного правопорушення, тому це слово не пов'язане з темою."},
+    {"word": "plaintiff", "is_associated": true, "association_type": "THEMATIC", "explanation": "Позивач є стороною, яка подає позов у справі про делікт, тому слово тематично пов'язане з 'tort'."},
+    {"word": "sonnet", "is_associated": false, "association_type": "NONE", "explanation": "Сонет є видом вірша і не стосується права чи деліктів."},
+    {"word": "negligence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Недбалість (negligence) є основою багатьох деліктів, тому це семантично пов'язане слово."},
+    {"word": "fracture", "is_associated": false, "association_type": "NONE", "explanation": "Перелом є медичним терміном і не належить до юридичного поняття 'tort'."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'tort' належить до юридичної термінології: з ним пов'язані правові поняття, сторони справи та підстави для позову. Слова, що стосуються інших сфер, не є асоціаціями."
+}

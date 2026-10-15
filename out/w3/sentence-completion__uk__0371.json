@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people prefer private cars,",
+  "correct_completion": "public transport is cheaper and cleaner.",
+  "full_sentence": "Although many people prefer private cars, public transport is cheaper and cleaner.",
+  "acceptable_variants": ["many commuters still choose buses and trains.", "public transport remains the better choice."],
+  "options": [
+    {"text": "so they rarely use buses.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast, so this clause does not fit."},
+    {"text": "public transport is cheaper and cleaner.", "is_correct": true, "why_wrong": null},
+    {"text": "they never walk anywhere.", "is_correct": false, "why_wrong": "This states a habit that does not contrast with the first clause, so the connection set up by 'although' is lost."},
+    {"text": "because cars are expensive.", "is_correct": false, "why_wrong": "'Because' gives a cause, and combining it with 'although' creates a double connector, which is ungrammatical here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a main clause that contrasts with the first part. Ukrainian speakers sometimes add 'but' after 'although' by mistake, which creates a double connector, so the main clause should start directly with its subject.",
+  "translation": "Хоча багато людей віддають перевагу приватним автомобілям, громадський транспорт дешевший і чистіший."
+}
