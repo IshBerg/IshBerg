@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the traffic jam,",
+  "correct_completion": "I would have taken the train instead.",
+  "full_sentence": "If I had known about the traffic jam, I would have taken the train instead.",
+  "acceptable_variants": ["I would probably have taken the train instead.", "I would have chosen the train instead."],
+  "options": [
+    {"text": "I will take the train instead.", "is_correct": false, "why_wrong": "'Will' is a future form. The unreal past needs 'would have' plus a past participle, because the condition ('had known') did not happen."},
+    {"text": "I have taken the train instead.", "is_correct": false, "why_wrong": "The present perfect reports a completed action with present relevance. It cannot express the hypothetical result of an unreal past condition."},
+    {"text": "I would have taken the train instead.", "is_correct": true, "why_wrong": null},
+    {"text": "I would take the train instead.", "is_correct": false, "why_wrong": "'Would' with a base verb refers to an unreal present or future. This sentence is about the past, so 'would have taken' is required."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional (unreal past): if + past perfect, would have + past participle",
+  "connector": "if",
+  "explanation": "In the third conditional, the if-clause uses the past perfect ('had known') and the result clause uses 'would have' plus a past participle. This describes a past situation that did not happen. Turkish speakers may find this structure tricky because Turkish expresses unreal past meaning through verb endings rather than a separate auxiliary, so they are tempted to use a simple past or a 'will' form instead.",
+  "translation": "Trafik sıkışıklığı hakkında bilseydim, bunun yerine treni tercih ederdim."
+}
