@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The cat is sleeping",
+  "correct_completion": "under the table.",
+  "full_sentence": "The cat is sleeping under the table.",
+  "acceptable_variants": ["under the bed.", "on the sofa."],
+  "options": [
+    {"text": "on Monday.", "is_correct": false, "why_wrong": "'On Monday' is a time expression. The stem asks where the cat is sleeping, so a place is needed."},
+    {"text": "under the table.", "is_correct": true, "why_wrong": null},
+    {"text": "at seven o'clock.", "is_correct": false, "why_wrong": "'At seven o'clock' gives a time, not a place, so it does not answer where the cat is."},
+    {"text": "very happy.", "is_correct": false, "why_wrong": "'Very happy' describes a feeling, not a location. It does not complete a sentence about where the cat sleeps."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Prepositions of place: 'under' to show a position below something",
+  "connector": "under",
+  "explanation": "The sentence needs a place phrase. The preposition 'under' shows that the cat is in a position below the object, so the phrase must begin with a preposition of place.",
+  "translation": "El gato está durmiendo debajo de la mesa."
+}

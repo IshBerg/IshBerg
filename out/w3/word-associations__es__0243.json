@@ -1,0 +1,14 @@
+{
+  "trigger_word": "experiment",
+  "all_words": [
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "El laboratorio es el lugar donde normalmente se realizan los experimentos científicos, por eso pertenece al mismo campo temático."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "El sándwich es un alimento y no tiene ninguna relación con la investigación ni con los experimentos."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La hipótesis es la suposición que se pone a prueba mediante un experimento, por lo que el significado de ambas palabras está estrechamente vinculado."},
+    {"word": "wardrobe", "is_associated": false, "association_type": "NONE", "explanation": "El armario es un mueble de la casa y no tiene relación con la ciencia ni con la investigación."},
+    {"word": "conduct", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés se dice conduct an experiment (realizar un experimento), así que este verbo aparece con frecuencia junto a la palabra experiment."},
+    {"word": "gravel", "is_associated": false, "association_type": "NONE", "explanation": "La grava es un material de construcción y no está relacionada con los experimentos científicos."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra experiment se asocia con el laboratorio, la hipótesis y el verbo conduct, que forman parte del campo de la investigación científica; las demás palabras pertenecen a otros ámbitos."
+}
