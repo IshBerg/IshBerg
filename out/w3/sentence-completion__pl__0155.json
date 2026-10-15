@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "By the time we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had left.", "the train had gone."],
+  "options": [
+    {"text": "the train leaves at nine.", "is_correct": false, "why_wrong": "The present simple does not fit a past timeframe set by 'by the time', so the sentence becomes inconsistent."},
+    {"text": "the train is leaving now.", "is_correct": false, "why_wrong": "The present continuous describes the present, but the stem is about a past moment."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null},
+    {"text": "we were waiting for the train.", "is_correct": false, "why_wrong": "The past continuous describes an ongoing action, but the clause needs a finished action that happened before our arrival."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past perfect with 'by the time'",
+  "connector": "by the time",
+  "explanation": "With 'by the time', the past perfect shows which action was completed before another past action. The first past action is the arrival, so the train's departure goes in the past perfect.",
+  "translation": "Zanim dotarliśmy na stację, pociąg już odjechał."
+}
