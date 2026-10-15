@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the film received mixed reviews,",
+  "correct_completion": "it became a surprise box-office hit.",
+  "full_sentence": "Although the film received mixed reviews, it became a surprise box-office hit.",
+  "acceptable_variants": ["it still earned a profit at the box office.", "audiences nevertheless flocked to cinemas."],
+  "options": [
+    {"text": "so the producers cancelled its release.", "is_correct": false, "why_wrong": "'So' signals a result, but the stem sets up a contrast with 'although', so this creates an illogical cause-effect link."},
+    {"text": "because the critics loved every scene.", "is_correct": false, "why_wrong": "'Because' introduces a cause rather than a contrast, and the clause contradicts the 'mixed reviews' already stated in the stem."},
+    {"text": "it became a surprise box-office hit.", "is_correct": true, "why_wrong": null},
+    {"text": "the budget was reduced last year.", "is_correct": false, "why_wrong": "This gives unrelated background information and does not complete the contrast expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Turkish speakers may be tempted to use a simple cause connector here because Turkish often signals contrast through suffixes and context, so in English the contrast must be made explicit with a separate concessive connector.",
+  "translation": "Eleştirmenlerden karışık yorumlar almasına rağmen, film beklenmedik bir gişe başarısı haline geldi."
+}
