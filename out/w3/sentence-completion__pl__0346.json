@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I were you,",
+  "correct_completion": "I would talk to the manager first.",
+  "full_sentence": "If I were you, I would talk to the manager first.",
+  "acceptable_variants": ["I would ask the manager for advice first.", "I would call the manager before deciding."],
+  "options": [
+    {"text": "I will talk to the manager tomorrow.", "is_correct": false, "why_wrong": "'If I were you' introduces an imagined situation, so the main clause needs 'would' plus the base verb, not 'will'."},
+    {"text": "I talked to the manager yesterday.", "is_correct": false, "why_wrong": "The past simple describes a real past action and does not fit the imagined situation set up by 'If I were you'."},
+    {"text": "I would talk to the manager first.", "is_correct": true, "why_wrong": null},
+    {"text": "I am talking to the manager now.", "is_correct": false, "why_wrong": "The present continuous describes an action in progress and does not express the hypothetical meaning required by the second conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'if I were you'",
+  "connector": "if",
+  "explanation": "The second conditional uses 'were' after 'if' and 'would' plus the base verb in the main clause to talk about an imagined situation. Polish speakers often choose a simple tense here, but English needs 'would' in the result clause to signal that the situation is hypothetical.",
+  "translation": "Na twoim miejscu najpierw porozmawiałbym z kierownikiem."
+}
