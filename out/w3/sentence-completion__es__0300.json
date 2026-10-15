@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied all week,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Despite having studied all week, she still failed the exam.",
+  "acceptable_variants": ["she still did not pass the exam.", "she was unable to pass the exam."],
+  "options": [
+    {"text": "so she passed easily.", "is_correct": false, "why_wrong": "'So' signals a result, but 'despite' signals a contrast. The sentence would reverse the logic of the stem."},
+    {"text": "because she was tired.", "is_correct": false, "why_wrong": "'Because' gives a reason, while 'despite' requires a contrast with the effort described in the stem."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she studied for another hour.", "is_correct": false, "why_wrong": "This continues the effort rather than contrasting with it, so it does not complete the concessive meaning."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' followed by a gerund",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a fact that contrasts with what would normally be expected, so the main clause must show an unexpected outcome. Learners often confuse it with 'because', which gives a cause instead of a contrast.",
+  "translation": "A pesar de haber estudiado toda la semana, todavía reprobó el examen."
+}

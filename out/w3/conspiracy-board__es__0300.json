@@ -1,0 +1,14 @@
+{
+  "codename": "SILENT CURVE",
+  "briefing": "Agent, an encrypted dossier on market figures has surfaced and its key terms are scrambled across two languages. Link each English term to its Spanish equivalent before the network moves its data.",
+  "connection_mode": "vocabulary",
+  "difficulty": "medium",
+  "pairs": [
+    {"left": "trend", "right": "tendencia", "left_style": "document", "right_style": "handwritten"},
+    {"left": "decline", "right": "descenso", "left_style": "photo", "right_style": "document"},
+    {"left": "growth", "right": "crecimiento", "left_style": "official", "right_style": "photo"},
+    {"left": "average", "right": "promedio", "left_style": "newspaper", "right_style": "official"},
+    {"left": "outlier", "right": "valor atípico", "left_style": "handwritten", "right_style": "newspaper"},
+    {"left": "chart", "right": "gráfico", "left_style": "document", "right_style": "photo"}
+  ]
+}
