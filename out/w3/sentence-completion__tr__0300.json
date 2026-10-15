@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at those dark clouds.",
+  "correct_completion": "It is going to rain soon.",
+  "full_sentence": "Look at those dark clouds. It is going to rain soon.",
+  "acceptable_variants": ["It will rain soon.", "It is going to rain later."],
+  "options": [
+    {"text": "It will to rain soon.", "is_correct": false, "why_wrong": "'Will' is followed directly by the base verb, without 'to'."},
+    {"text": "It is going to rain soon.", "is_correct": true, "why_wrong": null},
+    {"text": "It has rained yesterday.", "is_correct": false, "why_wrong": "The present perfect does not go with 'yesterday', and the clouds point to a future event, not a past one."},
+    {"text": "It rain going to soon.", "is_correct": false, "why_wrong": "The word order is wrong; 'be going to' must come before the base verb 'rain'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Future with 'be going to' for predictions based on present evidence",
+  "connector": "none",
+  "explanation": "The dark clouds are present evidence of a near future event, so the completion should use 'be going to' followed by the base verb.",
+  "translation": "Şu koyu bulutlara bak. Yakında yağmur yağacak."
+}
