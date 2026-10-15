@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Una enfermera trabaja junto al médico en el hospital y cuida de los pacientes."},
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "El médico normalmente trabaja en un hospital o en una clínica."},
+    {"word": "medicine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El médico receta medicina, y las dos palabras aparecen juntas con frecuencia."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "La guitarra es un instrumento musical y no tiene relación con la profesión médica."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta es un medio de transporte y no tiene relación directa con el médico."},
+    {"word": "stethoscope", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El estetoscopio es el instrumento que el médico usa para escuchar el corazón y los pulmones."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'doctor' pertenecen al mundo de la medicina: personas, lugares, objetos y expresiones que aparecen junto a esta profesión."
+}
