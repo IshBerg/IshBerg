@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I was late for school because",
+  "correct_completion": "my alarm clock did not ring.",
+  "full_sentence": "I was late for school because my alarm clock did not ring.",
+  "acceptable_variants": ["the bus came very late.", "my mother woke me up too late."],
+  "options": [
+    {"text": "I wanted to see the film.", "is_correct": false, "why_wrong": "'Because' needs a reason for being late, and wanting to see a film does not explain the lateness."},
+    {"text": "the bus was on time.", "is_correct": false, "why_wrong": "A bus that arrives on time would not make the speaker late, so it cannot be the cause."},
+    {"text": "my alarm clock did not ring.", "is_correct": true, "why_wrong": null},
+    {"text": "I went to bed early.", "is_correct": false, "why_wrong": "Going to bed early usually helps people wake up on time, so it does not explain why the speaker was late."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses of reason with 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason for the situation described in the first part of the sentence, so the completion must give a cause for being late. Learners sometimes choose an option that describes a result or an unrelated wish instead of a cause.",
+  "translation": "Я запізнився до школи, тому що мій будильник не задзвонив."
+}
