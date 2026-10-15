@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ball",
+  "all_words": [
+    {"word": "kick", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Kick (kopać) to czynność, którą wykonujemy z piłką, na przykład kick the ball, czyli kopnąć piłkę."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Spoon (łyżka) to przedmiot do jedzenia i nie ma nic wspólnego z piłką ani zabawą w piłkę."},
+    {"word": "toy", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ball (piłka) jest zabawką, więc słowo toy (zabawka) należy do tego samego tematu."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Tree (drzewo) to roślina i nie ma związku z piłką jako przedmiotem do zabawy."},
+    {"word": "throw", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Throw (rzucać) to czynność, którą wykonujemy z piłką, na przykład throw the ball, czyli rzucić piłkę."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Shoe (but) to część ubioru i nie łączy się z piłką ani z zabawą w piłkę."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo ball łączy się z czynnościami wykonywanymi z piłką (kick, throw) oraz z tematem zabawek, a nie z przedmiotami codziennego użytku ani roślinami."
+}

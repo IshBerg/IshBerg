@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "lektura", "transliteration": "lektura", "meaning": "reading assigned for study"},
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current or up to date"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, or if necessary"},
+    {"word": "realizować", "transliteration": "realizowac", "meaning": "to carry out or implement"}
+  ],
+  "english_words": ["possibly", "carry out", "reading", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Polish words look like English words that share a common origin, but their meanings drifted apart over time. The shared spelling makes them easy to confuse in academic reading.",
+  "false_friend_warning": "The Polish adjective that looks like 'actual' means 'current' or 'up to date' in English, so Polish speakers often write 'actual' when they need 'current'. Likewise, the Polish word that looks like 'eventually' means 'possibly', not 'in the end'."
+}

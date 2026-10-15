@@ -1,0 +1,17 @@
+{
+  "central_word": "challenge",
+  "chain_words": [
+    {"word": "question", "intensity": 1, "translation": "kwestionować", "nuance": "mild doubt about a claim"},
+    {"word": "challenge", "intensity": 2, "translation": "podważać", "nuance": "openly calling a claim into doubt"},
+    {"word": "dispute", "intensity": 3, "translation": "spierać się", "nuance": "formal disagreement about the facts"},
+    {"word": "rebut", "intensity": 4, "translation": "odpierać", "nuance": "answering an argument with a counter-argument"},
+    {"word": "refute", "intensity": 5, "translation": "obalać", "nuance": "proving a claim false with decisive evidence"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express opposition to a claim but with increasing force, from mild questioning to decisive disproof.",
+  "usage_notes": [
+    {"word1": "dispute", "word2": "refute", "difference": "'Dispute' means to disagree about a claim, while 'refute' means to prove the claim wrong with strong evidence."}
+  ],
+  "translations": {"question": "kwestionować", "challenge": "podważać", "dispute": "spierać się", "rebut": "odpierać", "refute": "obalać"}
+}

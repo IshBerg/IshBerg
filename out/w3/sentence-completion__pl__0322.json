@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She said that she",
+  "correct_completion": "had finished the report the day before.",
+  "full_sentence": "She said that she had finished the report the day before.",
+  "acceptable_variants": ["had already finished the report.", "had completed the report the day before."],
+  "options": [
+    {"text": "will finish the report tomorrow.", "is_correct": false, "why_wrong": "In reported speech, 'will' moves back to 'would' after a past reporting verb, so this future form does not fit 'said'."},
+    {"text": "had finished the report the day before.", "is_correct": true, "why_wrong": null},
+    {"text": "finishes the report every week.", "is_correct": false, "why_wrong": "The present simple describes a routine and does not match the tense shift required after a past reporting verb."},
+    {"text": "is finishing the report now.", "is_correct": false, "why_wrong": "After 'said', the present continuous moves back to the past continuous, so this present form is not correct here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Backshifting tenses in reported speech after a past reporting verb",
+  "connector": "that",
+  "explanation": "After a past reporting verb such as 'said', the tense usually moves one step back in time. A past simple or present perfect in the original statement becomes a past perfect in reported speech.",
+  "translation": "Powiedziała, że skończyła raport dzień wcześniej."
+}
