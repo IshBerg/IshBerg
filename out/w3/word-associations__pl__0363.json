@@ -1,0 +1,14 @@
+{
+  "trigger_word": "inequality",
+  "all_words": [
+    {"word": "poverty", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ubóstwo jest jednym z najważniejszych przejawów nierówności, bo pokazuje, że część ludzi ma znacznie mniej niż inni."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banan to owoc i nie ma żadnego związku z nierównością społeczną."},
+    {"word": "income", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dochody należą do tego samego tematu, ponieważ różnice w zarobkach są jedną z głównych form nierówności."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Żyrafa jest zwierzęciem i nie jest powiązana z tematem nierówności."},
+    {"word": "equality", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Równość jest przeciwieństwem nierówności, więc znaczenia obu słów są ściśle powiązane."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Klawiatura to urządzenie do pisania i nie ma związku z tym pojęciem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'inequality' kojarzy się z pojęciami dotyczącymi społeczeństwa, takimi jak ubóstwo, dochody i równość, natomiast pozostałe słowa nie mają z nim związku."
+}
