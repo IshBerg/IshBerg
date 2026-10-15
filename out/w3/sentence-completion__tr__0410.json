@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We cannot make the cake because",
+  "correct_completion": "we have no eggs.",
+  "full_sentence": "We cannot make the cake because we have no eggs.",
+  "acceptable_variants": ["there are no eggs at home.", "we do not have any eggs."],
+  "options": [
+    {"text": "so we bake it now.", "is_correct": false, "why_wrong": "'So' introduces a result. After 'because' we need a reason for the problem, not a result."},
+    {"text": "we like sweet cake.", "is_correct": false, "why_wrong": "This gives a fact about taste, but it does not explain why we cannot make the cake."},
+    {"text": "our kitchen is very big.", "is_correct": false, "why_wrong": "A big kitchen does not stop us from making a cake, so it is not the reason the sentence needs."},
+    {"text": "we have no eggs.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason for the situation in the first part. The completion must be a clause with a subject and a verb that explains why the cake cannot be made.",
+  "translation": "Yumurtamız olmadığı için pastayı yapamıyoruz."
+}
