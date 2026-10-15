@@ -1,0 +1,14 @@
+{
+  "trigger_word": "school",
+  "all_words": [
+    {"word": "teacher", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Teacher' okulda çalışan ve ders veren kişidir, bu yüzden anlam olarak 'school' ile ilişkilidir."},
+    {"word": "homework", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Homework' okul konusunun bir parçasıdır; öğrenciler okul için evde ödev yapar."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "'Desert' çöl demektir ve okulla hiçbir ilgisi olmadığı için ilişkili değildir."},
+    {"word": "bus", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'School bus' sabit bir ifadedir (okul otobüsü); bu yüzden 'bus' kelimesi 'school' ile birlikte kullanılır."},
+    {"word": "shark", "is_associated": false, "association_type": "NONE", "explanation": "'Shark' köpekbalığı demektir ve okul ile doğrudan bir bağlantısı yoktur."},
+    {"word": "lesson", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Lesson' ders anlamına gelir ve okulda öğretilen şeyleri ifade eder."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'School' ile ilgili kelimeler okul, öğretim ve eğitimle bağlantılıdır; 'desert' ve 'shark' ise bu konuyla ilgili değildir."
+}

@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["I", "S", "S", "U", "E", "Z", "G"],
+    ["K", "L", "M", "D", "A", "N", "R"],
+    ["B", "P", "C", "F", "X", "Y", "O"],
+    ["Q", "O", "J", "Z", "V", "T", "W"],
+    ["H", "W", "K", "B", "D", "M", "T"],
+    ["S", "E", "Y", "N", "L", "G", "H"],
+    ["A", "R", "T", "I", "C", "L", "E"]
+  ],
+  "words_to_find": ["ISSUE", "GROWTH", "ARTICLE", "POWER"],
+  "word_positions": [
+    {"word": "ISSUE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GROWTH", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ARTICLE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "POWER", "start_row": 2, "start_col": 1, "direction": "VERTICAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists A and B"
+}
