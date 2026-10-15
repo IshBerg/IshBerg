@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She is coming to the party tonight,",
+  "correct_completion": "isn't she?",
+  "full_sentence": "She is coming to the party tonight, isn't she?",
+  "acceptable_variants": ["right?", "isn't that so?"],
+  "options": [
+    {"text": "is she?", "is_correct": false, "why_wrong": "A tag after a positive statement must be negative, so 'is she?' is wrong because it keeps the same polarity as the main clause."},
+    {"text": "doesn't she?", "is_correct": false, "why_wrong": "The tag must repeat the auxiliary of the main clause, which is 'is', not 'does'."},
+    {"text": "isn't she?", "is_correct": true, "why_wrong": null},
+    {"text": "she is?", "is_correct": false, "why_wrong": "'She is?' is an echo question, not a tag, because a tag repeats the auxiliary and the pronoun in question form."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Question tags after positive statements",
+  "connector": "tag question",
+  "explanation": "After a positive statement, English uses a negative tag that repeats the auxiliary of the main clause and the subject pronoun. Here the verb 'is' gives 'isn't she?'. Turkish speakers often rely on one fixed tag for every sentence, but English tags change with the auxiliary and the pronoun each time.",
+  "translation": "Bu gece partiye geliyor, değil mi?"
+}
