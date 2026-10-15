@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "A", "P", "X", "T", "Q", "B"],
+    ["K", "E", "L", "Z", "R", "J", "U"],
+    ["W", "D", "F", "O", "A", "G", "S"],
+    ["Y", "H", "C", "N", "I", "V", "K"],
+    ["S", "T", "O", "P", "N", "L", "E"],
+    ["B", "F", "M", "D", "Q", "W", "Z"],
+    ["G", "X", "J", "R", "V", "H", "C"]
+  ],
+  "words_to_find": ["MAP", "BUS", "TRAIN", "STOP"],
+  "word_positions": [
+    {"word": "MAP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BUS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "TRAIN", "start_row": 0, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "STOP", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Maps and Timetables"
+}

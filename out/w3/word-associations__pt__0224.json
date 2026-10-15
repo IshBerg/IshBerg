@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ocean",
+  "all_words": [
+    {"word": "wave", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ondas são um fenômeno típico do oceano, por isso as duas palavras têm relação de significado."},
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "A praia fica na beira do oceano, então as duas palavras pertencem ao mesmo tema."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanhas ficam em terra firme e não têm relação direta com o oceano."},
+    {"word": "fish", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Peixes vivem no oceano, então há uma relação de significado direta."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Desertos são secos e ficam longe do mar, por isso não estão relacionados ao oceano."},
+    {"word": "ship", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Navios viajam pelo oceano, e as duas palavras costumam aparecer juntas em frases como 'a ship on the ocean'."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Estas palavras se relacionam ao oceano por significado, tema ou uso comum; as outras não têm ligação direta com ele."
+}
