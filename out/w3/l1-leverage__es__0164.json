@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hipótesis", "transliteration": "hipotesis", "meaning": "hypothesis"},
+    {"word": "algoritmo", "transliteration": "algoritmo", "meaning": "algorithm"},
+    {"word": "protocolo", "transliteration": "protocolo", "meaning": "protocol"},
+    {"word": "variable", "transliteration": "variable", "meaning": "variable"}
+  ],
+  "english_words": ["protocol", "variable", "hypothesis", "algorithm"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these technical terms from Latin or Greek, so the forms stayed close. The shared roots make the words easy to recognize and their meanings match in both languages.",
+  "false_friend_warning": null
+}

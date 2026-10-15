@@ -1,0 +1,20 @@
+{
+  "title": "A Letter About a Job",
+  "text": "Dear Mr. Smith, I am writing to ask about the job advertised on your website. I have three years of experience in sales. I would like to arrange an interview next week.\n\nPlease find my CV attached to this email. If you need more information, you can contact me by phone or email. Thank you for your time. Yours sincerely, Maria Lopez.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How many years of experience does the writer have?", "options": ["Two years", "Three years", "Five years", "One year"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is attached to the email?", "options": ["A photo", "A CV", "A letter from a bank", "A map"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does the writer send this email?", "options": ["To complain about a product", "To ask about a job", "To invite Mr. Smith to lunch", "To cancel an interview"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does the writer probably feel about the job?", "options": ["Interested in it", "Angry about it", "Bored by it", "Confused about it"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "experience", "translation": "experiencia", "definition": "knowledge or skill gained from doing something over time"},
+    {"word": "interview", "translation": "entrevista", "definition": "a meeting where an employer asks questions to a candidate"},
+    {"word": "attached", "translation": "adjunto", "definition": "sent together with an email"},
+    {"word": "advertised", "translation": "anunciado", "definition": "shown publicly to tell people about something for sale or for hire"}
+  ],
+  "paragraph_translations": [
+    "Estimado Sr. Smith: le escribo para preguntar por el puesto anunciado en su página web. Tengo tres años de experiencia en ventas. Me gustaría concertar una entrevista la próxima semana.",
+    "Adjunto a este correo encontrará mi currículum. Si necesita más información, puede contactarme por teléfono o correo electrónico. Gracias por su tiempo. Atentamente, Maria Lopez."
+  ]
+}

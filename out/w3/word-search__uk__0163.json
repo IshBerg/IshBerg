@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "R", "O", "U", "D", "G", "J", "Q", "W", "B"],
+    ["V", "K", "L", "Z", "F", "Y", "U", "T", "R", "C"],
+    ["Q", "M", "D", "B", "J", "N", "X", "I", "E", "H"],
+    ["A", "W", "G", "Y", "K", "P", "V", "F", "L", "Z"],
+    ["N", "D", "Q", "R", "V", "C", "S", "B", "Y", "T"],
+    ["X", "K", "E", "M", "A", "H", "S", "J", "P", "L"],
+    ["I", "T", "G", "F", "N", "Q", "Z", "W", "D", "R"],
+    ["O", "V", "B", "Y", "C", "H", "K", "L", "M", "Q"],
+    ["U", "F", "N", "X", "D", "W", "T", "Z", "P", "G"],
+    ["S", "B", "J", "R", "Q", "L", "E", "V", "K", "T"]
+  ],
+  "words_to_find": ["PROUD", "GUILT", "SHAME", "ANXIOUS"],
+  "word_positions": [
+    {"word": "PROUD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GUILT", "start_row": 0, "start_col": 5, "direction": "DIAGONAL_DOWN"},
+    {"word": "SHAME", "start_row": 5, "start_col": 6, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "ANXIOUS", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Complex Emotions"
+}
