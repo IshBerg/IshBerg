@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Feeling tired after the long walk,",
+  "correct_completion": "we decided to take a taxi home.",
+  "full_sentence": "Feeling tired after the long walk, we decided to take a taxi home.",
+  "acceptable_variants": ["we called a taxi to go home.", "we chose to stop and rest."],
+  "options": [
+    {"text": "the bus was already full.", "is_correct": false, "why_wrong": "This gives a fact about the bus, but it does not complete the participle clause. The implied subject of 'Feeling tired' must be the people who are tired."},
+    {"text": "the taxi was waiting outside the station.", "is_correct": false, "why_wrong": "'The taxi' becomes the subject of the main clause, so the participle 'Feeling tired' would dangle with no logical subject."},
+    {"text": "it started to rain again.", "is_correct": false, "why_wrong": "'It' is a new subject, so 'Feeling tired' would have no logical subject. The main clause must describe an action by the tired people."},
+    {"text": "we decided to take a taxi home.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Participle clauses of reason ('Feeling tired...') and the rule that the implied subject matches the main clause subject",
+  "connector": "feeling tired",
+  "explanation": "The present participle clause 'Feeling tired after the long walk' gives the reason for the main action. Its implied subject must be the same as the subject of the main clause, so the completion must be an action done by the people who are tired. Polish speakers may expect a finite clause after the comma, so they should check that the main clause has its own action and a matching subject.",
+  "translation": "Czując się zmęczeni po długim spacerze, postanowiliśmy wrócić do domu taksówką."
+}
