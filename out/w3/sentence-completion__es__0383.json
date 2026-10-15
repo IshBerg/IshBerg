@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the translator been more familiar with the source dialect,",
+  "correct_completion": "the nuance of the original would have been preserved.",
+  "full_sentence": "Had the translator been more familiar with the source dialect, the nuance of the original would have been preserved.",
+  "acceptable_variants": ["the subtlety of the source text would have been retained.", "the original's nuance would have survived intact."],
+  "options": [
+    {"text": "the translation will be more faithful.", "is_correct": false, "why_wrong": "The inverted 'Had' clause describes an unreal past condition, so the result needs 'would have' plus a past participle, not the future 'will'."},
+    {"text": "so the translator chose a literal rendering.", "is_correct": false, "why_wrong": "'So' introduces a real consequence of an actual event, not the hypothetical result of an unreal condition."},
+    {"text": "the nuance of the original would have been preserved.", "is_correct": true, "why_wrong": null},
+    {"text": "the source dialect was rather difficult.", "is_correct": false, "why_wrong": "This states a fact but does not complete the conditional result that the inverted 'Had' clause requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and a result clause using 'would have' plus past participle",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'if' in a third conditional, so the main clause must use 'would have' plus a past participle to express the imagined result.",
+  "translation": "Si el traductor hubiera estado más familiarizado con el dialecto de origen, el matiz del original se habría conservado."
+}
