@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Of all the cities we visited,",
+  "correct_completion": "Kraków was the most beautiful.",
+  "full_sentence": "Of all the cities we visited, Kraków was the most beautiful.",
+  "acceptable_variants": ["Zakopane felt the most memorable.", "Kraków was the most beautiful city we saw."],
+  "options": [
+    {"text": "we took the most photos in Gdańsk.", "is_correct": false, "why_wrong": "This describes how many photos were taken, not which city is the most beautiful, so it does not answer the comparison the stem sets up."},
+    {"text": "Kraków was the most beautiful.", "is_correct": true, "why_wrong": null},
+    {"text": "Kraków was more beautiful than.", "is_correct": false, "why_wrong": "'More beautiful' is a comparative, which needs 'than' followed by a second item; the stem sets up a superlative with 'the most'."},
+    {"text": "we spent the least time in Wrocław.", "is_correct": false, "why_wrong": "This is a superlative, but it describes time spent rather than beauty, so it does not complete the comparison."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Superlative adjectives with 'the most' after 'of all'",
+  "connector": "of all",
+  "explanation": "The phrase 'of all' signals a superlative comparison, so the completion needs 'the most' with an adjective. Learners may be tempted to use a comparative form here, but a comparison with a group of several items always requires a superlative.",
+  "translation": "Ze wszystkich miast, które odwiedziliśmy, Kraków był najpiękniejszy."
+}
