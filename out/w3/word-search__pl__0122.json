@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "K", "W", "E"],
+    ["X", "Q", "Z", "J", "F", "B", "D", "R", "U"],
+    ["S", "U", "B", "T", "L", "E", "G", "V", "P"],
+    ["Q", "W", "K", "Y", "D", "Z", "T", "C", "H"],
+    ["I", "R", "F", "J", "X", "B", "O", "K", "E"],
+    ["V", "M", "H", "G", "Q", "L", "N", "Z", "M"],
+    ["A", "B", "P", "D", "F", "K", "E", "W", "I"],
+    ["G", "T", "V", "L", "Y", "Q", "J", "B", "S"],
+    ["D", "C", "R", "T", "Y", "G", "H", "L", "M"]
+  ],
+  "words_to_find": ["NUANCE", "SUBTLE", "IMPLY", "EUPHEMISM", "TONE"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SUBTLE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IMPLY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "EUPHEMISM", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TONE", "start_row": 3, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Connotation and Nuance in Word Choice"
+}

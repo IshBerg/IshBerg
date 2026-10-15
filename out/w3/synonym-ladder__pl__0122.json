@@ -1,0 +1,13 @@
+{
+  "start_word": "calm",
+  "end_word": "stormy",
+  "ladder_steps": [
+    {"word": "calm", "translation": "spokojny", "intensity_level": 1},
+    {"word": "breezy", "translation": "lekko wietrzny", "intensity_level": 2},
+    {"word": "windy", "translation": "wietrzny", "intensity_level": 3},
+    {"word": "gusty", "translation": "porywisty", "intensity_level": 4},
+    {"word": "stormy", "translation": "burzliwy", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Weather words form a ladder along one dimension, wind strength, from no wind at all to a violent storm, each step slightly stronger than the last."
+}
