@@ -1,0 +1,14 @@
+{
+  "trigger_word": "citation",
+  "all_words": [
+    {"word": "reference", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Una 'reference' es una fuente que se menciona en un texto académico, por lo que se relaciona directamente con una cita."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Una montaña no tiene ninguna relación con las citas ni con la escritura académica."},
+    {"word": "bibliography", "is_associated": true, "association_type": "THEMATIC", "explanation": "La bibliografía es la lista de fuentes de un artículo, así que pertenece al mismo tema de la investigación y la citación."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "El desierto no guarda ninguna relación con el ámbito de las citas académicas."},
+    {"word": "quote", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Una 'quote' es un fragmento literal de otro texto, que es justamente lo que introduce una cita."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "Una cuchara no tiene relación con las citas ni con los textos académicos."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'citation' se asocia con fuentes, listas bibliográficas y fragmentos citados de otros textos, mientras que los objetos y lugares sin relación con la escritura académica no se asocian con ella."
+}

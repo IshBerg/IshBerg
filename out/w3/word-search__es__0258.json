@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S","O","U","P","B","Q","Z","X","S"],
+    ["H","T","C","Y","J","L","G","V","A"],
+    ["M","F","B","W","S","Z","D","P","L"],
+    ["Q","X","V","G","T","Y","R","H","A"],
+    ["J","K","L","Z","E","M","I","Q","D"],
+    ["W","B","F","X","A","O","N","T","G"],
+    ["V","P","R","U","K","L","K","Y","H"],
+    ["C","Y","Z","Q","W","F","M","B","J"],
+    ["D","E","S","S","E","R","T","V","X"]
+  ],
+  "words_to_find": ["SOUP", "SALAD", "DESSERT", "STEAK", "DRINK"],
+  "word_positions": [
+    {"word": "SOUP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SALAD", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DESSERT", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STEAK", "start_row": 2, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "DRINK", "start_row": 2, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Menus"
+}
