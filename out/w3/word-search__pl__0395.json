@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["A", "B", "S", "U", "R", "D", "X", "Q", "W", "A"],
+    ["K", "L", "P", "Z", "T", "V", "J", "M", "Y", "N"],
+    ["F", "Z", "K", "L", "P", "Q", "W", "X", "Y", "G"],
+    ["M", "R", "B", "C", "D", "H", "J", "K", "L", "S"],
+    ["P", "Q", "E", "W", "Z", "X", "C", "V", "B", "T"],
+    ["J", "K", "L", "E", "M", "N", "O", "P", "Q", "R"],
+    ["S", "T", "U", "V", "D", "W", "X", "Y", "Z", "A"],
+    ["B", "C", "D", "F", "G", "O", "H", "J", "K", "L"],
+    ["Q", "W", "E", "R", "T", "Y", "M", "U", "I", "O"],
+    ["Z", "X", "A", "P", "E", "C", "I", "O", "H", "C"]
+  ],
+  "words_to_find": ["ABSURD", "ANGST", "FREEDOM", "CHOICE"],
+  "word_positions": [
+    {"word": "ABSURD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ANGST", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "FREEDOM", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CHOICE", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Existentialism and Modern Philosophy"
+}
