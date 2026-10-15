@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["B", "R", "E", "A", "K", "Q", "W", "S"],
+    ["D", "J", "M", "V", "W", "Z", "X", "P"],
+    ["H", "G", "K", "L", "N", "W", "Q", "I"],
+    ["E", "Y", "C", "Z", "F", "U", "H", "L"],
+    ["A", "Q", "D", "X", "B", "R", "M", "L"],
+    ["R", "K", "Y", "J", "S", "M", "F", "V"],
+    ["T", "Z", "T", "O", "N", "E", "Q", "W"],
+    ["P", "L", "G", "X", "K", "V", "D", "B"]
+  ],
+  "words_to_find": ["BREAK", "SPILL", "HEART", "TONE"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SPILL", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "HEART", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TONE", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Idioms and Figurative Language in the Media"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "money", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un banco es una institución que guarda y administra el dinero, por eso ambas palabras están muy relacionadas por su significado."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "La manzana es una fruta y no tiene ninguna relación con el concepto de banco, ni en sentido literal ni figurado."},
+    {"word": "river", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés 'river bank' significa la orilla de un río, así que las dos palabras se usan juntas con frecuencia."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El zapato es una prenda de vestir y no comparte significado ni uso habitual con la palabra banco."},
+    {"word": "loan", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un préstamo es una de las operaciones principales que realiza un banco, por eso pertenecen al mismo tema financiero."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "El piano es un instrumento musical y no tiene relación con los bancos ni con el dinero."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'bank' se relacionan con el dinero, con la orilla de un río y con los préstamos; las demás no tienen conexión con este término."
+}
