@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hospital",
+  "all_words": [
+    {"word": "doctor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um médico trabalha em hospitais, por isso 'doctor' está diretamente ligado ao tema hospital."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "A guitarra é um instrumento musical e não tem nenhuma relação com o ambiente hospitalar."},
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Enfermeiros trabalham ao lado dos médicos dentro do hospital, então a palavra está diretamente associada."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "A montanha é um termo geográfico que não tem ligação com hospitais."},
+    {"word": "patient", "is_associated": true, "association_type": "THEMATIC", "explanation": "Paciente é a pessoa que recebe tratamento no hospital, por isso pertence ao mesmo tema."},
+    {"word": "ambulance", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A ambulância transporta pacientes até o hospital, e as duas palavras aparecem juntas com frequência."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao hospital são pessoas e serviços ligados ao atendimento médico; as demais palavras não têm relação com esse ambiente."
+}

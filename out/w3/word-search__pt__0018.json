@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["W", "A", "K", "E", "X", "J", "Q", "N", "S"],
+    ["B", "R", "T", "Y", "M", "D", "H", "C", "L"],
+    ["F", "Q", "Z", "U", "I", "P", "G", "X", "E"],
+    ["K", "N", "V", "R", "A", "J", "D", "Q", "E"],
+    ["W", "M", "L", "H", "B", "C", "Z", "G", "P"],
+    ["X", "O", "F", "Y", "T", "R", "N", "H", "K"],
+    ["B", "C", "R", "I", "D", "Y", "T", "L", "M"],
+    ["J", "U", "H", "K", "V", "A", "P", "S", "Q"],
+    ["G", "D", "T", "L", "E", "W", "B", "C", "Y"]
+  ],
+  "words_to_find": ["WAKE", "SLEEP", "WORK", "EAT"],
+  "word_positions": [
+    {"word": "WAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLEEP", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "WORK", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "EAT", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Daily Routines"
+}
