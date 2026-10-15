@@ -1,0 +1,14 @@
+{
+  "trigger_word": "freedom",
+  "all_words": [
+    {"word": "liberty", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Liberdade e liberty têm praticamente o mesmo significado, por isso as palavras estão diretamente ligadas."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Mesa é um objeto do dia a dia sem relação com o conceito abstrato de liberdade."},
+    {"word": "justice", "is_associated": true, "association_type": "THEMATIC", "explanation": "Justiça e liberdade pertencem ao mesmo tema de direitos e valores de uma sociedade."},
+    {"word": "sugar", "is_associated": false, "association_type": "NONE", "explanation": "Açúcar é um alimento sem nenhuma ligação com o significado ou o uso da palavra liberdade."},
+    {"word": "chains", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Na expressão 'break free from chains', correntes aparecem frequentemente junto com a ideia de liberdade."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Pão não tem relação com liberdade, nem em significado nem em expressões comuns."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'freedom' se associa a sinônimos como 'liberty', a valores como 'justice' e a expressões como 'chains', enquanto objetos do cotidiano como mesa, açúcar e pão não se relacionam com ela."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have booked an earlier flight.",
+  "full_sentence": "Had she known about the delay, she would have booked an earlier flight.",
+  "acceptable_variants": ["she would have taken an earlier flight.", "she would have avoided the problem entirely."],
+  "options": [
+    {"text": "she books an earlier flight every time.", "is_correct": false, "why_wrong": "The present simple describes a habit. It cannot complete an inverted third conditional that refers to a past condition."},
+    {"text": "she would have booked an earlier flight.", "is_correct": true, "why_wrong": null},
+    {"text": "she has booked an earlier flight recently.", "is_correct": false, "why_wrong": "The present perfect reports a recent real action. The inverted conditional needs a hypothetical result."},
+    {"text": "she was booking an earlier flight.", "is_correct": false, "why_wrong": "The past continuous describes an action in progress. It does not express the hypothetical result of an unfulfilled past condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional ('Had + subject + past participle' replacing 'If + past perfect')",
+  "connector": "had",
+  "explanation": "This is an inverted third conditional: 'had' is placed before the subject instead of using 'if'. The main clause needs 'would have' plus a past participle to express a hypothetical past result. Portuguese speakers often use a simple past form here, because Portuguese conditional structures mark time differently, so the English perfect form must be used.",
+  "translation": "Se ela soubesse do atraso, teria reservado um voo mais cedo."
+}
