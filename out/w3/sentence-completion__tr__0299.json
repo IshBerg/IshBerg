@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you study hard,",
+  "correct_completion": "you will pass the exam.",
+  "full_sentence": "If you study hard, you will pass the exam.",
+  "acceptable_variants": ["you will get good grades.", "you are going to pass the exam."],
+  "options": [
+    {"text": "you passed the exam yesterday.", "is_correct": false, "why_wrong": "The past tense describes a finished event, but the if-clause needs a future result that depends on the condition."},
+    {"text": "you studied hard yesterday.", "is_correct": false, "why_wrong": "This describes a past action, so it does not give the future result that the condition 'if you study hard' leads to."},
+    {"text": "you will pass the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "you have passed the exam already.", "is_correct": false, "why_wrong": "The present perfect describes a completed result that has already happened, not a future result after a condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if': present simple in the if-clause, 'will' in the main clause",
+  "connector": "if",
+  "explanation": "In the first conditional, the if-clause uses the present simple and the main clause uses 'will' to describe a likely future result. Students often choose a past or perfect form here because it looks like the same time frame.",
+  "translation": "Sıkı çalışırsan sınavı geçeceksin."
+}
