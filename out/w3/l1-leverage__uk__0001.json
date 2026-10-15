@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "проблема", "transliteration": "problema", "meaning": "problem"},
+    {"word": "система", "transliteration": "systema", "meaning": "system"},
+    {"word": "театр", "transliteration": "teatr", "meaning": "theatre"},
+    {"word": "телефон", "transliteration": "telefon", "meaning": "telephone"}
+  ],
+  "english_words": ["telephone", "problem", "theatre", "system"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Greek or Latin through shared scientific and cultural vocabulary, so the spelling and meaning stayed close.",
+  "false_friend_warning": null
+}

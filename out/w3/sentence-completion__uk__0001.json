@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report by noon,",
+  "correct_completion": "she was finally able to take a break.",
+  "full_sentence": "Having finished the report by noon, she was finally able to take a break.",
+  "acceptable_variants": ["she finally had time to rest.", "she could relax for the first time that week."],
+  "options": [
+    {"text": "she will finish the report by noon.", "is_correct": false, "why_wrong": "The perfect participle 'having finished' already places the completion before the main clause, so repeating the deadline as a future action contradicts the stem."},
+    {"text": "she had been dreading the meeting all morning.", "is_correct": false, "why_wrong": "This describes a feeling, not a result of completing the report, so it breaks the logical link the participle clause sets up."},
+    {"text": "she was finally able to take a break.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was still on her desk.", "is_correct": false, "why_wrong": "This contradicts the stem, which states that the report is already finished."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Perfect participle clauses expressing a completed action before the main clause",
+  "connector": "having finished",
+  "explanation": "The perfect participle 'having finished' shows that the action in the first clause is completed before the action in the main clause. The main clause must therefore describe a logical result of that completion. Learners whose first language expresses this sequence with a separate time-ordered sentence may find the compressed participle form less natural at first, so comparing the two structures helps.",
+  "translation": "Закінчивши звіт до полудня, вона нарешті змогла відпочити."
+}
