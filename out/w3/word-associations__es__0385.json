@@ -1,0 +1,14 @@
+{
+  "trigger_word": "snow",
+  "all_words": [
+    {"word": "snowman", "is_associated": true, "association_type": "THEMATIC", "explanation": "El muñeco de nieve se hace con nieve, por eso pertenece al mismo tema del invierno."},
+    {"word": "sandbox", "is_associated": false, "association_type": "NONE", "explanation": "La caja de arena está en el parque y se llena de arena, no de nieve."},
+    {"word": "winter", "is_associated": true, "association_type": "THEMATIC", "explanation": "El invierno es la estación en la que normalmente cae la nieve."},
+    {"word": "sunscreen", "is_associated": false, "association_type": "NONE", "explanation": "El protector solar se usa en verano, cuando hace sol, y no tiene relación con la nieve."},
+    {"word": "sled", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El trineo se usa para deslizarse sobre la nieve."},
+    {"word": "snowball", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La palabra 'snowball' forma parte de la expresión 'snowball fight', una pelea con bolas de nieve."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra snow se asocia con el invierno, con juegos en la nieve y con objetos que se usan sobre la nieve; el parque de juegos y el verano no pertenecen a esta asociación."
+}
