@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "THEMATIC", "explanation": "Mosty zwykle przerzuca się nad rzekami, więc te słowa należą do tego samego tematu."},
+    {"word": "cross", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówi się 'cross a bridge', czyli przejść przez most, co jest typowym połączeniem wyrazów."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Poduszka nie ma żadnego związku z mostem ani z jego funkcją."},
+    {"word": "tunnel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Tunel i most to konstrukcje inżynierskie służące do przekraczania przeszkód, więc są znaczeniowo bliskie."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Banan nie ma związku z mostem ani z żadnym z jego znaczeń."},
+    {"word": "fridge", "is_associated": true, "association_type": "PHONETIC", "explanation": "Słowo 'fridge' brzmi bardzo podobnie do 'bridge' i rymuje się z nim, więc to skojarzenie fonetyczne."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzenia słowa 'bridge' obejmują pojęcia związane z przeprawą i otoczeniem, typowe połączenia wyrazowe oraz podobne brzmienie."
+}

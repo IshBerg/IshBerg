@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The evidence against the defendant was weak; nevertheless,",
+  "correct_completion": "the jury returned a guilty verdict.",
+  "full_sentence": "The evidence against the defendant was weak; nevertheless, the jury returned a guilty verdict.",
+  "acceptable_variants": ["the court still convicted him.", "the prosecution nonetheless secured a conviction."],
+  "options": [
+    {"text": "the judge dismissed the case at once.", "is_correct": false, "why_wrong": "'Nevertheless' signals contrast with the weak evidence. Dismissing the case at once is what the weak evidence would lead one to expect, so it continues the same line of reasoning instead of contrasting with it."},
+    {"text": "the evidence was, in fact, equally weak.", "is_correct": false, "why_wrong": "This repeats the first clause instead of introducing a contrast with it."},
+    {"text": "the jury returned a guilty verdict.", "is_correct": true, "why_wrong": null},
+    {"text": "the verdict was easy to predict.", "is_correct": false, "why_wrong": "This states a consequence about the verdict but does not set up the contrast that 'nevertheless' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive discourse markers: 'nevertheless' and 'nonetheless'",
+  "connector": "nevertheless",
+  "explanation": "After 'nevertheless', the continuation must run against the expectation created by the first clause. Learners may translate the marker word by word, so check that the clause after the semicolon contrasts with the first part of the sentence.",
+  "translation": "Dowody przeciwko oskarżonemu były słabe; mimo to ława przysięgłych wydała wyrok skazujący."
+}

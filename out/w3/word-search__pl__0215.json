@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "L", "I", "M", "A", "T", "E", "Q", "K", "W"],
+    ["B", "N", "F", "Z", "J", "O", "D", "S", "U", "A"],
+    ["P", "X", "M", "L", "Q", "I", "C", "H", "K", "T"],
+    ["Z", "O", "B", "W", "N", "L", "T", "Y", "J", "E"],
+    ["K", "M", "V", "A", "D", "H", "Q", "F", "S", "R"],
+    ["B", "T", "N", "E", "G", "W", "P", "I", "Z", "L"],
+    ["C", "A", "J", "U", "R", "K", "F", "V", "Q", "X"],
+    ["H", "S", "O", "M", "D", "T", "L", "N", "B", "P"],
+    ["W", "R", "E", "K", "I", "X", "Y", "G", "A", "M"],
+    ["D", "F", "U", "L", "Y", "G", "R", "E", "N", "E"]
+  ],
+  "words_to_find": ["CLIMATE", "WATER", "POVERTY", "DROUGHT", "ENERGY"],
+  "word_positions": [
+    {"word": "CLIMATE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WATER", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "POVERTY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DROUGHT", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "ENERGY", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Global Challenges"
+}
