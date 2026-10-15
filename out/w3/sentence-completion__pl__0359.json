@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the author presents a compelling case,",
+  "correct_completion": "the essay overlooks several important counterarguments.",
+  "full_sentence": "Although the author presents a compelling case, the essay overlooks several important counterarguments.",
+  "acceptable_variants": ["the essay nonetheless fails to address opposing views.", "the argument still leaves key objections unanswered."],
+  "options": [
+    {"text": "so the essay overlooks several counterarguments.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast, so this structure clashes."},
+    {"text": "because the author cites several reliable sources.", "is_correct": false, "why_wrong": "'Because' gives a cause and does not complete the contrast set up by 'although'."},
+    {"text": "the essay presents its evidence in a clear order.", "is_correct": false, "why_wrong": "This describes the essay's structure but does not contrast with the author's compelling case."},
+    {"text": "the essay overlooks several important counterarguments.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the concession. Learners sometimes add a result connector after the concessive clause, which is a common L1 interference pattern for Polish speakers because Polish allows looser connector combinations.",
+  "translation": "Chociaż autor przedstawia przekonujący argument, esej pomija kilka ważnych kontrargumentów."
+}
