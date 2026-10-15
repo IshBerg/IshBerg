@@ -1,0 +1,14 @@
+{
+  "trigger_word": "vote",
+  "all_words": [
+    {"word": "ballot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La papeleta de votación es el documento donde se registra el voto, por eso está directamente relacionada con 'vote'."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "El piano es un instrumento musical y no tiene ninguna relación con el acto de votar."},
+    {"word": "election", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las elecciones son el proceso político en el que se emite el voto, así que comparten el mismo tema."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "El océano pertenece al campo de la geografía natural y no tiene vínculo con votar."},
+    {"word": "candidate", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un candidato es la persona por la que se vota, por lo que pertenece al mismo ámbito electoral."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "El pan es un alimento y no guarda relación con el voto ni con los procesos electorales."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'vote' se asocia con papeletas, elecciones y candidatos, mientras que piano, océano y pan pertenecen a ámbitos sin relación con la votación."
+}

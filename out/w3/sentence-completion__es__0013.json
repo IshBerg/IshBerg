@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the company had known about the defect,",
+  "correct_completion": "it would have recalled the product immediately.",
+  "full_sentence": "If the company had known about the defect, it would have recalled the product immediately.",
+  "acceptable_variants": ["it would have issued a warning much sooner.", "it might have acted earlier to protect customers."],
+  "options": [
+    {"text": "it recalls the product every year.", "is_correct": false, "why_wrong": "The present simple describes a habit, which does not fit the unreal past condition introduced by 'had known'."},
+    {"text": "it would have recalled the product immediately.", "is_correct": true, "why_wrong": null},
+    {"text": "it had recalled the product immediately last month.", "is_correct": false, "why_wrong": "A past perfect main clause does not match the third conditional pattern, which requires 'would have' after 'if' plus past perfect."},
+    {"text": "it would buy the product again.", "is_correct": false, "why_wrong": "'Would buy' is a conditional form, but it describes a future repeated purchase, not the company's past reaction to knowing the defect."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: 'if' + past perfect, 'would have' + past participle",
+  "connector": "if",
+  "explanation": "The stem uses the past perfect after 'if' to describe an unreal situation in the past. The main clause must use 'would have' plus a past participle to show the imagined past result.",
+  "translation": "Si la empresa hubiera sabido del defecto, habría retirado el producto de inmediato."
+}
