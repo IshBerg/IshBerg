@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had we arrived at the station",
+  "correct_completion": "when the train left.",
+  "full_sentence": "Hardly had we arrived at the station when the train left.",
+  "acceptable_variants": ["when the train started moving.", "when it began to rain."],
+  "options": [
+    {"text": "so we bought the tickets.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem needs a time connection with 'when', not a consequence."},
+    {"text": "than the train left.", "is_correct": false, "why_wrong": "'Than' does not pair with 'hardly'. The correct pattern is 'hardly ... when', while 'than' belongs to 'no sooner ... than'."},
+    {"text": "when the train left.", "is_correct": true, "why_wrong": null},
+    {"text": "although the train was late.", "is_correct": false, "why_wrong": "'Although' signals contrast, but the inverted structure after 'hardly' needs 'when' to complete the time sequence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'hardly ... when'",
+  "connector": "hardly ... when",
+  "explanation": "After 'hardly' the auxiliary verb 'had' moves before the subject, and the second action is introduced with 'when'. Spanish speakers often reach for a result or contrast connector here, because they map the sentence onto a simple cause structure, but English requires 'when' after 'hardly'.",
+  "translation": "Apenas habíamos llegado a la estación cuando el tren salió."
+}
