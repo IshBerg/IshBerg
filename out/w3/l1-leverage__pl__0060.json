@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "kalendarz", "transliteration": "kalendarz", "meaning": "calendar"},
+    {"word": "data", "transliteration": "data", "meaning": "date"},
+    {"word": "minuta", "transliteration": "minuta", "meaning": "minute"},
+    {"word": "sekunda", "transliteration": "sekunda", "meaning": "second (unit of time)"}
+  ],
+  "english_words": ["minute", "second", "calendar", "date"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "All four words are time-related and come from Latin or Greek roots, so the forms stayed close in both languages.",
+  "false_friend_warning": null
+}
