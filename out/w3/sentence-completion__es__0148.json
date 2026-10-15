@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had we arrived at the station,",
+  "correct_completion": "when the train left.",
+  "full_sentence": "Hardly had we arrived at the station, when the train left.",
+  "acceptable_variants": ["when the train departed.", "when the train pulled away."],
+  "options": [
+    {"text": "because the train was already leaving.", "is_correct": false, "why_wrong": "'Hardly ... when' links two events that happen almost at the same moment; 'because' signals cause, which does not fit this fixed pattern."},
+    {"text": "than the train was already leaving.", "is_correct": false, "why_wrong": "'Hardly' is paired with 'when', not 'than'; 'than' is used for comparisons."},
+    {"text": "when the train left.", "is_correct": true, "why_wrong": null},
+    {"text": "and then we missed the train.", "is_correct": false, "why_wrong": "This describes a result but does not use the fixed 'hardly ... when' structure that the stem requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'hardly'",
+  "connector": "hardly ... when",
+  "explanation": "After 'hardly' at the start of a sentence, the auxiliary verb comes before the subject, and the clause is completed with 'when'. Spanish speakers often expect a simple coordinating word here, but English uses this fixed pattern instead.",
+  "translation": "Apenas habíamos llegado a la estación cuando salió el tren."
+}
