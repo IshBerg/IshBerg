@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "El hospital es el lugar de trabajo habitual de un médico, por lo que ambos conceptos pertenecen al mismo ámbito."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "La guitarra es un instrumento musical y no tiene ninguna relación con la medicina ni con los médicos."},
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Enfermero es un profesional sanitario cercano en significado, que trabaja junto al médico en la atención a los pacientes."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "El tractor es una máquina agrícola y no guarda relación con el ámbito médico."},
+    {"word": "stethoscope", "is_associated": true, "association_type": "THEMATIC", "explanation": "El estetoscopio es una herramienta típica del médico, por lo que pertenece al mismo campo de significado."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña es un accidente geográfico sin ninguna conexión con la profesión médica."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra doctor se asocia con hospital, enfermero y estetoscopio por pertenecer al mismo ámbito sanitario; guitarra, tractor y montaña no tienen relación con ese campo."
+}

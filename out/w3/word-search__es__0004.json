@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "A", "T", "K", "M", "P", "C"],
+    ["Z", "B", "D", "G", "L", "E", "O"],
+    ["K", "Y", "W", "F", "J", "U", "A"],
+    ["S", "E", "L", "I", "G", "Q", "T"],
+    ["U", "Q", "B", "S", "N", "O", "W"],
+    ["N", "D", "V", "R", "K", "H", "M"],
+    ["R", "A", "I", "N", "Z", "P", "X"]
+  ],
+  "words_to_find": ["HAT", "COAT", "SUN", "SNOW", "RAIN"],
+  "word_positions": [
+    {"word": "HAT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "COAT", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SUN", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SNOW", "start_row": 4, "start_col": 3, "direction": "HORIZONTAL"},
+    {"word": "RAIN", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Clothes and Weather"
+}
