@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the committee reject the proposal,",
+  "correct_completion": "but it also demanded a full inquiry.",
+  "full_sentence": "Not only did the committee reject the proposal, but it also demanded a full inquiry.",
+  "acceptable_variants": ["but it also called for a full inquiry.", "but it also ordered a complete review of the budget."],
+  "options": [
+    {"text": "and the proposal was approved.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the proposal was rejected, and 'not only' must be followed by 'but (also)', not 'and'."},
+    {"text": "because it was poorly written.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but the 'not only ... but also' pattern requires a second parallel action, not a reason."},
+    {"text": "but it also demanded a full inquiry.", "is_correct": true, "why_wrong": null},
+    {"text": "yet it had little effect.", "is_correct": false, "why_wrong": "This is grammatical in isolation, but it does not complete the 'not only ... but also' pattern the stem sets up; it introduces a contrast instead of an additional action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Correlative conjunction 'not only ... but also' with subject-auxiliary inversion",
+  "connector": "not only",
+  "explanation": "After 'not only' with inversion, the second part must continue with 'but (also)' and add a further action of the same kind as the first. Learners who translate the pattern literally often lose this parallel structure.",
+  "translation": "Nie tylko komisja odrzuciła propozycję, ale także zażądała pełnego dochodzenia."
+}

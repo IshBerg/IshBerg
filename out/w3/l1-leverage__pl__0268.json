@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sport", "transliteration": "sport", "meaning": "physical activity or competitive game"},
+    {"word": "dieta", "transliteration": "dieta", "meaning": "the food a person usually eats; diet"},
+    {"word": "witamina", "transliteration": "witamina", "meaning": "a substance the body needs in small amounts for health; vitamin"},
+    {"word": "stres", "transliteration": "stres", "meaning": "mental pressure caused by difficult situations; stress"}
+  ],
+  "english_words": ["vitamin", "stress", "diet", "sport"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words entered both Polish and English from the same international sources, so their forms stayed close.",
+  "false_friend_warning": null
+}
