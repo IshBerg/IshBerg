@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people prefer to drive,",
+  "correct_completion": "public transport is cheaper and better for the environment.",
+  "full_sentence": "Although many people prefer to drive, public transport is cheaper and better for the environment.",
+  "acceptable_variants": ["the environment benefits when fewer cars are used.", "cities would become quieter and less polluted."],
+  "options": [
+    {"text": "so they should never use cars at all.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' sets up a contrast, so this option does not fit the connector."},
+    {"text": "they both need a lot of fuel every day.", "is_correct": false, "why_wrong": "This adds a fact about cars but does not contrast with the first clause, which 'although' requires."},
+    {"text": "public transport is cheaper and better for the environment.", "is_correct": true, "why_wrong": null},
+    {"text": "it is raining outside at the moment.", "is_correct": false, "why_wrong": "This is an unrelated fact about the weather and does not develop the argument about travel choices."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. Turkish speakers may expect a result or cause pattern here, so check that the main clause opposes the idea in the stem.",
+  "translation": "Birçok insan araba kullanmayı tercih etse de, toplu taşıma daha ucuz ve çevre açısından daha iyidir."
+}

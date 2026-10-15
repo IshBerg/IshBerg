@@ -1,0 +1,14 @@
+{
+  "trigger_word": "lantern",
+  "all_words": [
+    {"word": "candle", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Mum da ışık veren bir nesnedir ve fenerle aynı amaca hizmet edebilir."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Buzul donmuş ve soğuk bir buz kütlesidir; fenerle anlamsal bir ilişkisi yoktur."},
+    {"word": "wick", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fitil, mum ve eski tip fenerlerde yanmayı sağlayan parçadır; fenerle doğrudan ilgilidir."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "Gök gürültüsü bir ses olayıdır ve fenerin ışık verme işleviyle ilgisi yoktur."},
+    {"word": "lamp", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Lamba da ışık kaynağı olan benzer bir aydınlatma aracıdır."},
+    {"word": "ledger", "is_associated": false, "association_type": "NONE", "explanation": "Defter, muhasebe kayıtları için kullanılan bir kitaptır ve fenerle ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Fener ışık, yakıt ve aydınlatma kavramlarıyla çağrışım yapar; buzul, gök gürültüsü ve defter ise bu alanın dışında kalır."
+}
