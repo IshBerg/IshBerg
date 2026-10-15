@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has worked at the bank",
+  "correct_completion": "since 2019.",
+  "full_sentence": "She has worked at the bank since 2019.",
+  "acceptable_variants": ["for five years.", "since she finished university."],
+  "options": [
+    {"text": "since two years.", "is_correct": false, "why_wrong": "'Since' is used with a starting point in time, not with a length of time. Use 'for' with 'two years'."},
+    {"text": "since 2019.", "is_correct": true, "why_wrong": null},
+    {"text": "for 2019.", "is_correct": false, "why_wrong": "'For' is used with a period of time, such as 'for two years', not with a specific year."},
+    {"text": "yesterday.", "is_correct": false, "why_wrong": "'Yesterday' refers to a finished past time, which does not fit the present perfect."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with for and since",
+  "connector": "since",
+  "explanation": "The present perfect connects a past action with the present. Use 'since' with a starting point in time and 'for' with a length of time. Learners often confuse the two because their own language may express both with a single phrase.",
+  "translation": "Ella 2019'dan beri bankada çalışıyor."
+}
