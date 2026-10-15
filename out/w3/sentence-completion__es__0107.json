@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you travel abroad, you have to",
+  "correct_completion": "check that your passport is still valid.",
+  "full_sentence": "Before you travel abroad, you have to check that your passport is still valid.",
+  "acceptable_variants": ["make sure your visa has not expired.", "renew your documents if they are out of date."],
+  "options": [
+    {"text": "wear a suit on the plane.", "is_correct": false, "why_wrong": "Wearing a suit is not a requirement for travel, so it does not express a logical obligation for this situation."},
+    {"text": "check that your passport is still valid.", "is_correct": true, "why_wrong": null},
+    {"text": "sleep in the airport every night.", "is_correct": false, "why_wrong": "This is not a logical requirement before traveling abroad, so it does not complete the obligation the stem introduces."},
+    {"text": "bring your bicycle to the hotel.", "is_correct": false, "why_wrong": "This is not a general requirement for travel abroad, so it does not fit the meaning of 'have to' here."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "'Have to' to express obligation",
+  "connector": "have to",
+  "explanation": "'Have to' expresses a necessity, so the completion must describe something a traveler is actually obliged to do. Spanish speakers may confuse this with 'must', but both forms express obligation in this context.",
+  "translation": "Antes de viajar al extranjero, tienes que comprobar que tu pasaporte sigue siendo válido."
+}
