@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before in its history,",
+  "correct_completion": "had the company faced such a serious financial crisis.",
+  "full_sentence": "Never before in its history, had the company faced such a serious financial crisis.",
+  "acceptable_variants": ["had the company ever faced such a serious crisis.", "had the organisation faced such a serious financial crisis."],
+  "options": [
+    {"text": "the company has faced such a crisis.", "is_correct": false, "why_wrong": "After a fronted negative phrase such as 'Never before', the auxiliary must come before the subject, so the normal word order is incorrect here."},
+    {"text": "had the company faced such a serious financial crisis.", "is_correct": true, "why_wrong": null},
+    {"text": "the company had faced such a crisis.", "is_correct": false, "why_wrong": "The subject still comes before the auxiliary; inversion is required after the fronted negative adverbial."},
+    {"text": "did the company face such a crisis.", "is_correct": false, "why_wrong": "'Did' is the wrong auxiliary here; the stem needs the past perfect 'had' followed by a past participle."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion after fronted negative adverbials",
+  "connector": "never before",
+  "explanation": "Fronting a negative adverbial requires inversion, so the auxiliary 'had' must precede the subject. Turkish speakers often keep the normal subject-verb order because Turkish has no auxiliary inversion of this kind.",
+  "translation": "Tarihi boyunca şirket daha önce hiç bu kadar ciddi bir mali krizle karşılaşmamıştı."
+}

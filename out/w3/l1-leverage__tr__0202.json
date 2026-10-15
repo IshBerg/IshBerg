@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hasta", "transliteration": "hasta", "meaning": "sick, ill"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "nice, likeable"},
+    {"word": "pasta", "transliteration": "pasta", "meaning": "cake, pastry"},
+    {"word": "kolej", "transliteration": "kolej", "meaning": "private high school"}
+  ],
+  "english_words": ["cake", "sick", "high school", "nice"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Turkish borrowed several of these words from European languages, so their spelling looks like English, but the meanings have shifted over time.",
+  "false_friend_warning": "Several Turkish words look like English words but mean something different: the Turkish word that looks like 'hasty' means sick, the one that looks like 'sympathetic' means nice, and the one that looks like 'pasta' means cake, not noodles."
+}
