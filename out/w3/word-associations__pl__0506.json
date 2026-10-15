@@ -1,0 +1,14 @@
+{
+  "trigger_word": "snow",
+  "all_words": [
+    {"word": "winter", "is_associated": true, "association_type": "THEMATIC", "explanation": "Śnieg pada głównie zimą, więc słowo należy do tego samego tematu pory roku."},
+    {"word": "swing", "is_associated": false, "association_type": "NONE", "explanation": "Huśtawka jest częścią placu zabaw, ale nie ma żadnego związku ze śniegiem."},
+    {"word": "sled", "is_associated": true, "association_type": "THEMATIC", "explanation": "Sanki są zabawką używaną na śniegu, więc tworzą z nim ten sam zimowy temat."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek jest przedmiotem szkolnym i nie ma związku ze śniegiem."},
+    {"word": "snowball", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Snowball to złożenie słów snow i ball, czyli kula śnieżna, dlatego łączy się ze słowem snow."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka to jedzenie, które nie ma nic wspólnego ze śniegiem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane ze śniegiem to te, które dotyczą zimy, zimowych zabaw i jego nazwy w złożeniach; pozostałe to przedmioty i rzeczy bez związku z nim."
+}

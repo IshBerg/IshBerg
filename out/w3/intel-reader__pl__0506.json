@@ -1,0 +1,19 @@
+{
+  "title": "The Ethics of Machine Judgement",
+  "text": "Automated systems now help decide who receives a loan, a job interview or a medical referral. Their supporters argue that algorithms are more consistent than human officials, yet this consistency can conceal the prejudices embedded in the historical data used to train them. Consequently, a decision that appears neutral may simply reproduce past inequalities at a far greater scale.\n\nAccountability is therefore the central difficulty. When a person is rejected by a model, it is often unclear who is responsible: the engineers who built it, the organisation that deployed it or the data that shaped its behaviour. Many scholars contend that meaningful transparency, including the right to challenge an outcome, should be treated as a condition of legitimate use rather than an optional courtesy.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "According to paragraph one, what do supporters of automated systems claim?", "options": ["Algorithms are more consistent than human officials", "Algorithms never reproduce past inequalities", "Automated systems are cheaper to build than manual ones", "Medical referrals should be decided by machines alone"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "According to paragraph two, what do many scholars consider meaningful transparency to include?", "options": ["The right to challenge an outcome", "Publishing the source code of every company", "Removing all human officials from decisions", "Limiting automated systems to loans only"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can be inferred about a decision that appears neutral but was trained on biased historical data?", "options": ["It may quietly repeat earlier unfairness on a larger scale", "It is guaranteed to be fairer than any human decision", "It can only be used for medical referrals", "It has no connection to the people it affects"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Which conclusion best follows from the passage as a whole?", "options": ["Legitimate use of automated systems depends on accountability and the possibility of challenge", "Automated systems should replace all human judgement immediately", "Responsibility for rejections is always clearly assigned", "Consistency alone is sufficient to justify a model's decisions"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "embedded", "translation": "zakorzeniony", "definition": "fixed firmly within something so that it is hard to see or remove"},
+    {"word": "accountability", "translation": "odpowiedzialność", "definition": "the state of being responsible for one's actions and open to questioning"},
+    {"word": "legitimate", "translation": "uzasadniony", "definition": "acceptable and allowed according to rules or principles"}
+  ],
+  "paragraph_translations": [
+    "Zautomatyzowane systemy pomagają obecnie decydować, kto otrzyma kredyt, rozmowę kwalifikacyjną lub skierowanie na badania. Ich zwolennicy twierdzą, że algorytmy są bardziej spójne niż urzędnicy, jednak ta spójność może ukrywać uprzedzenia zakorzenione w danych historycznych, na których je trenowano. W rezultacie decyzja pozornie neutralna może po prostu odtwarzać dawne nierówności na znacznie większą skalę.",
+    "Odpowiedzialność jest więc główną trudnością. Gdy model odrzuca daną osobę, często nie wiadomo, kto ponosi odpowiedzialność: inżynierowie, którzy go zbudowali, organizacja, która go wdrożyła, czy dane, które ukształtowały jego działanie. Wielu badaczy twierdzi, że istotna przejrzystość, w tym prawo do zakwestionowania wyniku, powinna być warunkiem uprawnionego użycia, a nie opcjonalną uprzejmością."
+  ]
+}

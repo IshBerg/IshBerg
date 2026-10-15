@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "kondycja", "transliteration": "kondycja", "meaning": "physical fitness"},
+    {"word": "apteka", "transliteration": "apteka", "meaning": "pharmacy"},
+    {"word": "sok", "transliteration": "sok", "meaning": "juice"},
+    {"word": "stan", "transliteration": "stan", "meaning": "state or condition"}
+  ],
+  "english_words": ["condition", "juice", "fitness", "pharmacy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Polish word looks close to an English word, but the two words developed different meanings in each language, so the match is not direct.",
+  "false_friend_warning": "The Polish word 'kondycja' looks like the English word 'condition', but it mainly means physical fitness. In English, 'condition' means a state or a health problem, so learners should not translate 'kondycja' as 'condition'."
+}
