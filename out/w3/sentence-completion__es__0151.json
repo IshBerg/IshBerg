@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the train arrives,",
+  "correct_completion": "we will have finished our dinner.",
+  "full_sentence": "By the time the train arrives, we will have finished our dinner.",
+  "acceptable_variants": ["we will have eaten.", "everyone will have left the table."],
+  "options": [
+    {"text": "we will finish our dinner.", "is_correct": false, "why_wrong": "The simple future describes a plain future action, but the stem asks for an action completed before a future point, which needs the future perfect."},
+    {"text": "we will have finished our dinner.", "is_correct": true, "why_wrong": null},
+    {"text": "we have finished our dinner.", "is_correct": false, "why_wrong": "The present perfect describes a completed action up to now, but the stem refers to a future moment, so the future form is needed."},
+    {"text": "we were finishing our dinner.", "is_correct": false, "why_wrong": "The past continuous describes an action in progress in the past, which does not fit a future time clause introduced by 'by the time'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect with 'by the time'",
+  "connector": "by the time",
+  "explanation": "The phrase 'by the time' points to a future moment, and the main clause must show that an action will already be finished at that moment. Spanish speakers may reach for a simple future here because the Spanish future perfect is less frequent in everyday speech, but English requires will have plus the past participle.",
+  "translation": "Para cuando llegue el tren, habremos terminado nuestra cena."
+}
