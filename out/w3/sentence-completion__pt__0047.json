@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I like coffee, but",
+  "correct_completion": "I don't like tea.",
+  "full_sentence": "I like coffee, but I don't like tea.",
+  "acceptable_variants": ["I do not like tea.", "I hate tea."],
+  "options": [
+    {"text": "I like tea very much.", "is_correct": false, "why_wrong": "'But' signals a contrast with the first clause. This option gives the same positive feeling, so it does not contrast with 'I like coffee'."},
+    {"text": "I don't like tea.", "is_correct": true, "why_wrong": null},
+    {"text": "tea is cold today.", "is_correct": false, "why_wrong": "This describes the temperature of the tea. It does not say whether the speaker likes it."},
+    {"text": "I drink tea every day.", "is_correct": false, "why_wrong": "This describes a habit, but it does not show the dislike that the contrast with 'but' needs."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present Simple negatives with 'don't' for dislikes",
+  "connector": "but",
+  "explanation": "After 'but', the second clause needs to contrast with the first clause, so a negative form of 'like' is needed. Portuguese speakers may find the auxiliary 'do' unfamiliar, because Portuguese forms negation with only a negative word placed before the verb.",
+  "translation": "Eu gosto de café, mas não gosto de chá."
+}
