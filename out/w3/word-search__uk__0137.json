@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["E", "V", "I", "D", "E", "N", "C", "E"],
+    ["K", "Q", "Z", "B", "W", "M", "X", "P"],
+    ["J", "A", "Y", "N", "T", "F", "D", "R"],
+    ["L", "O", "G", "I", "C", "U", "V", "E"],
+    ["P", "D", "R", "Q", "K", "H", "W", "C"],
+    ["B", "X", "M", "A", "Z", "N", "G", "I"],
+    ["T", "H", "E", "S", "I", "S", "Q", "S"],
+    ["V", "K", "D", "F", "W", "B", "J", "E"]
+  ],
+  "words_to_find": ["EVIDENCE", "PRECISE", "LOGIC", "THESIS"],
+  "word_positions": [
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PRECISE", "start_row": 1, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "LOGIC", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THESIS", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Precision Vocabulary for Argumentation"
+}

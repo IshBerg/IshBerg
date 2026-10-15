@@ -1,0 +1,14 @@
+{
+  "trigger_word": "wool",
+  "all_words": [
+    {"word": "sweater", "is_associated": true, "association_type": "THEMATIC", "explanation": "Светр часто виготовляють з вовни, тому це слово належить до однієї теми з вовною."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Молоток є інструментом і не пов'язаний з вовною ні за значенням, ні за темою."},
+    {"word": "soft", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Вовна відчувається м'якою, тому прикметник soft має пряме змістове зв'язок з нею."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець пишучий предмет, і він не має жодного зв'язку з вовною."},
+    {"word": "scarf", "is_associated": true, "association_type": "THEMATIC", "explanation": "Шарф часто робиться з вовни, тому він належить до того ж тематичного кола."},
+    {"word": "warm", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Вовняний одяг зазвичай описують як warm, тому це слово часто поєднується з вовною."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово wool пов'язане з м'якими, теплими речами з вовни, наприклад светрами та шарфами, а не з інструментами чи предметами для письма."
+}

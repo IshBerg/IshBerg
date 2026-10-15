@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I won the lottery,",
+  "correct_completion": "I would buy a small house by the sea.",
+  "full_sentence": "If I won the lottery, I would buy a small house by the sea.",
+  "acceptable_variants": ["I would travel around the world.", "I would quit my job."],
+  "options": [
+    {"text": "I will buy a small house by the sea.", "is_correct": false, "why_wrong": "'Will' belongs to the first conditional, which describes a real possibility. The second conditional needs 'would' after an unreal 'if' clause."},
+    {"text": "I would buy a small house by the sea.", "is_correct": true, "why_wrong": null},
+    {"text": "I have bought a car already.", "is_correct": false, "why_wrong": "The present perfect describes a finished action, which does not fit an imaginary situation introduced by 'if'."},
+    {"text": "I would to buy a small house by the sea.", "is_correct": false, "why_wrong": "After the modal 'would', we use the base verb without 'to', so 'would buy' is correct."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'if' and 'would'",
+  "connector": "if",
+  "explanation": "The second conditional describes an imaginary present or future situation. The result clause uses 'would' plus the base verb, and it must match the unreal condition in the first part of the sentence.",
+  "translation": "Якби я виграв у лотерею, я купив би невеликий будинок біля моря."
+}

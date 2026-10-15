@@ -1,0 +1,17 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "unhappy", "intensity": 1, "translation": "нещасливий", "nuance": "mild lack of happiness"},
+    {"word": "sad", "intensity": 2, "translation": "сумний", "nuance": "general feeling of sorrow"},
+    {"word": "upset", "intensity": 3, "translation": "засмучений", "nuance": "sad and bothered by something"},
+    {"word": "miserable", "intensity": 4, "translation": "нещасний", "nuance": "very unhappy for a long time"},
+    {"word": "heartbroken", "intensity": 5, "translation": "з розбитим серцем", "nuance": "deep emotional pain"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express unhappiness but with different intensities, from mild dissatisfaction to deep emotional pain.",
+  "usage_notes": [
+    {"word1": "sad", "word2": "miserable", "difference": "'Sad' describes a temporary feeling, while 'miserable' describes a stronger and often longer-lasting unhappiness."}
+  ],
+  "translations": {"unhappy": "нещасливий", "sad": "сумний", "upset": "засмучений", "miserable": "нещасний", "heartbroken": "з розбитим серцем"}
+}
