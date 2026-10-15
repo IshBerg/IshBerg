@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "As nuvens são a origem da chuva, então estão diretamente ligadas a ela."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "A mesa de trabalho não tem nenhuma relação com a chuva."},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "As pessoas usam guarda-chuva quando está chovendo, então é um tema comum da chuva."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "O pão é um alimento e não tem ligação com a chuva."},
+    {"word": "wet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Quando chove, as coisas ficam molhadas, então a palavra está diretamente ligada à chuva."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "A cadeira é um móvel e não se relaciona com a chuva."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas à chuva são as que descrevem o tempo, o que a causa ou o que acontece por causa dela."
+}
