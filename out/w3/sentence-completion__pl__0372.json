@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the story seemed simple at first,",
+  "correct_completion": "its ending revealed a surprising secret.",
+  "full_sentence": "Although the story seemed simple at first, its ending revealed a surprising secret.",
+  "acceptable_variants": ["the hidden meaning only became clear later.", "the final page changed everything."],
+  "options": [
+    {"text": "so the author wrote a second chapter.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast with the first part of the sentence."},
+    {"text": "the characters were all very tired.", "is_correct": false, "why_wrong": "This adds a description but does not provide the contrast that 'although' requires."},
+    {"text": "its ending revealed a surprising secret.", "is_correct": true, "why_wrong": null},
+    {"text": "the author because wrote a long essay.", "is_correct": false, "why_wrong": "'Because' expresses cause and cannot follow 'although' in the same clause; the structure is ungrammatical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. Here the story looks simple, so the ending should reveal something unexpected. Learners often reach for 'because' or 'so' with this structure, but those connectors express cause or result, not contrast.",
+  "translation": "Chociaż opowiadanie na początku wydawało się proste, jego zakończenie ujawniło zaskakującą tajemnicę."
+}
