@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "ресторан", "transliteration": "restoran", "meaning": "restaurant"},
+    {"word": "банан", "transliteration": "banan", "meaning": "banana"},
+    {"word": "шоколад", "transliteration": "shokolad", "meaning": "chocolate"},
+    {"word": "салат", "transliteration": "salat", "meaning": "salad"}
+  ],
+  "english_words": ["chocolate", "salad", "banana", "restaurant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words came into the language through international food vocabulary, so their forms stay close to the English ones.",
+  "false_friend_warning": null
+}
