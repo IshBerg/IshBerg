@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied medicine at university,",
+  "correct_completion": "my career would be very different today.",
+  "full_sentence": "If I had studied medicine at university, my career would be very different today.",
+  "acceptable_variants": ["I would be a doctor now.", "my life would be quite different today."],
+  "options": [
+    {"text": "my career will be very different next year.", "is_correct": false, "why_wrong": "A future form does not fit a mixed conditional, which pairs an unreal past condition with a present result expressed using 'would'."},
+    {"text": "my career would be very different today.", "is_correct": true, "why_wrong": null},
+    {"text": "my career would have been very different at that time.", "is_correct": false, "why_wrong": "This gives a past result, but the completion needs a present result, which is what makes this a mixed conditional."},
+    {"text": "university was very difficult for me.", "is_correct": false, "why_wrong": "This states a past fact instead of the hypothetical result that the if-clause calls for."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: unreal past condition with present result",
+  "connector": "if",
+  "explanation": "The if-clause uses the past perfect to describe an unreal past situation, while the main clause uses would plus a base verb to describe its present result. Learners often copy the past form into the main clause, so check that the result refers to now.",
+  "translation": "Se eu tivesse estudado medicina na universidade, minha carreira seria muito diferente hoje."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "novel",
+  "all_words": [
+    {"word": "chapter", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Um capítulo é uma divisão de um romance, por isso a palavra pertence ao mesmo campo de sentido."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Motor pertence ao mundo das máquinas e não tem relação direta com a literatura."},
+    {"word": "author", "is_associated": true, "association_type": "THEMATIC", "explanation": "O autor é a pessoa que escreve um romance, por isso as duas palavras aparecem juntas no tema da literatura."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Cozinha é um cômodo da casa e não está ligada ao universo dos romances."},
+    {"word": "plot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A trama é a sequência de eventos de um romance, um elemento central da sua estrutura."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Montanha é um elemento da natureza sem relação com a estrutura ou a criação de um romance."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Um romance é uma obra literária longa, e as palavras associadas são as que pertencem à sua estrutura ou ao seu processo de criação."
+}
