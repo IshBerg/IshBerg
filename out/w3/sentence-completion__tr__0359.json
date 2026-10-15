@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the new law was passed last year,",
+  "correct_completion": "many citizens still do not know their rights.",
+  "full_sentence": "Although the new law was passed last year, many citizens still do not know their rights.",
+  "acceptable_variants": ["most people are still unaware of it.", "the public has little information about it."],
+  "options": [
+    {"text": "so the government changed its budget.", "is_correct": false, "why_wrong": "'So' introduces a result, but the sentence needs a contrast after 'although'."},
+    {"text": "many citizens still do not know their rights.", "is_correct": true, "why_wrong": null},
+    {"text": "the newspaper reported it in detail.", "is_correct": false, "why_wrong": "This adds a fact about the newspaper but does not contrast with the law being passed."},
+    {"text": "the parliament meets every Monday.", "is_correct": false, "why_wrong": "This is unrelated to the law and does not show the contrast expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second part of the sentence must contrast with the first part. Here the passing of a law is contrasted with citizens not knowing their rights.",
+  "translation": "Yeni yasa geçen yıl kabul edilmesine rağmen, birçok vatandaş haklarını hâlâ bilmiyor."
+}
