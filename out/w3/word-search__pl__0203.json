@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "R", "I", "C", "E", "K", "L", "M", "N", "Q"],
+    ["D", "F", "G", "H", "J", "K", "L", "Q", "W", "E"],
+    ["A", "B", "C", "D", "E", "F", "G", "C", "Z", "X"],
+    ["T", "U", "V", "W", "X", "Y", "Z", "A", "Q", "R"],
+    ["K", "L", "M", "N", "P", "Q", "R", "S", "T", "U"],
+    ["C", "J", "K", "L", "M", "N", "O", "H", "Y", "Q"],
+    ["W", "O", "X", "Y", "Z", "A", "B", "C", "D", "E"],
+    ["F", "G", "I", "H", "J", "K", "L", "M", "N", "O"],
+    ["A", "B", "C", "N", "D", "E", "F", "G", "H", "I"],
+    ["R", "T", "U", "V", "W", "X", "P", "O", "H", "S"]
+  ],
+  "words_to_find": ["PRICE", "CASH", "COIN", "SHOP"],
+  "word_positions": [
+    {"word": "PRICE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CASH", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "COIN", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SHOP", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Shopping and Money"
+}
