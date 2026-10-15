@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "chmura", "transliteration": "chmura", "meaning": "cloud"},
+    {"word": "mgła", "transliteration": "mgla", "meaning": "fog"},
+    {"word": "kurtka", "transliteration": "kurtka", "meaning": "jacket"},
+    {"word": "dres", "transliteration": "dres", "meaning": "tracksuit"}
+  ],
+  "english_words": ["jacket", "tracksuit", "cloud", "fog"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Some Polish and English words look alike because they share roots, but a similar form does not guarantee a similar meaning. Students should match each word by its meaning, not by its spelling.",
+  "false_friend_warning": "The Polish word 'dres' looks like the English word 'dress', but it means tracksuit, not a dress. Do not translate it as 'dress'."
+}
