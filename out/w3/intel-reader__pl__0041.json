@@ -1,0 +1,19 @@
+{
+  "title": "Lunch Time",
+  "text": "Here is the menu at the Blue Bowl. There are soup, rice and fish. The fish is fresh and the rice is hot.\n\nJohn likes fish. His sister likes soup. They drink water. The restaurant is open at noon.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is on the menu?", "options": ["Soup, rice and fish", "Cake and tea", "Eggs and bread", "Meat and salad"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does John like?", "options": ["Soup", "Fish", "Cake", "Rice"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Where do John and his sister probably eat?", "options": ["In a restaurant", "In a school", "At a bus stop", "In a bank"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why do they drink water?", "options": ["They are thirsty and want a drink with their meal", "They are cleaning the restaurant", "The restaurant has no food", "They want to go to sleep"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "menu", "translation": "menu", "definition": "a list of food and drinks in a restaurant"},
+    {"word": "fresh", "translation": "świeży", "definition": "recently made, grown or caught, not old"},
+    {"word": "restaurant", "translation": "restauracja", "definition": "a place where people pay to eat a meal"}
+  ],
+  "paragraph_translations": [
+    "Oto menu w restauracji Blue Bowl. Są zupa, ryż i ryba. Ryba jest świeża, a ryż jest gorący.",
+    "John lubi rybę. Jego siostra lubi zupę. Piją wodę. Restauracja jest otwarta od południa."
+  ]
+}
