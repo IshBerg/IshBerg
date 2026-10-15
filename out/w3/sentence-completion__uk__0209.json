@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The meeting over,",
+  "correct_completion": "the team returned to their desks.",
+  "full_sentence": "The meeting over, the team returned to their desks.",
+  "acceptable_variants": ["the team went back to work.", "everyone headed back to their desks."],
+  "options": [
+    {"text": "the team will return to their desks.", "is_correct": false, "why_wrong": "The future tense conflicts with the completed meeting described in the absolute clause, which places the event in the past."},
+    {"text": "the team's desks were moved.", "is_correct": false, "why_wrong": "This introduces an unrelated passive event that does not follow naturally from the meeting ending."},
+    {"text": "the team returned to their desks.", "is_correct": true, "why_wrong": null},
+    {"text": "the team returning to their desks.", "is_correct": false, "why_wrong": "This gives only a participle phrase, so no finite verb forms a main clause to complete the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Absolute clauses: a noun phrase followed by a participle or verbless structure, with the main clause in the past tense",
+  "connector": "absolute clause",
+  "explanation": "The opening phrase is an absolute clause with its own subject and no finite verb. The main clause that follows needs a past tense verb and a subject, so that the time sequence is clear.",
+  "translation": "Збори закінчилися, і команда повернулася до своїх столів."
+}

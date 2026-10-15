@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "метро", "transliteration": "metro", "meaning": "metro"},
+    {"word": "ресторан", "transliteration": "restoran", "meaning": "restaurant"},
+    {"word": "музей", "transliteration": "muzei", "meaning": "museum"},
+    {"word": "радіо", "transliteration": "radio", "meaning": "radio"}
+  ],
+  "english_words": ["museum", "radio", "metro", "restaurant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each word was borrowed from the same international source as its English counterpart, so the spelling and sound stayed close. The shared roots make these words easy to recognise for English learners who speak Ukrainian.",
+  "false_friend_warning": null
+}
