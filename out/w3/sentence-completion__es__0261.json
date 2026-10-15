@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you study every day,",
+  "correct_completion": "you will pass the exam easily.",
+  "full_sentence": "If you study every day, you will pass the exam easily.",
+  "acceptable_variants": ["you will probably succeed.", "you will get better grades."],
+  "options": [
+    {"text": "you went to the beach yesterday.", "is_correct": false, "why_wrong": "The past tense refers to an unrelated event and does not form a result for the condition about daily study."},
+    {"text": "you have passed the exam already.", "is_correct": false, "why_wrong": "The present perfect describes a completed past result, which does not fit a condition about future study."},
+    {"text": "you will pass the exam easily.", "is_correct": true, "why_wrong": null},
+    {"text": "you were passing the exam last week.", "is_correct": false, "why_wrong": "The past continuous describes an action in progress in the past, so it cannot be the result of a present condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and a future result clause",
+  "connector": "if",
+  "explanation": "A first conditional uses 'if' with a present simple verb in the condition and 'will' with a base verb in the result clause. The result must be a likely future outcome of the condition.",
+  "translation": "Si estudias todos los días, pasarás el examen con facilidad."
+}

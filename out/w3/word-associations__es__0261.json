@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "debate", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un debate es una discusión organizada en la que se presentan y contrastan argumentos, por lo que está estrechamente ligado al concepto."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "Un farol es un objeto de iluminación y no tiene ninguna relación con la construcción de argumentos."},
+    {"word": "premise", "is_associated": true, "association_type": "THEMATIC", "explanation": "La premisa es la afirmación de partida de un argumento lógico, así que pertenece al mismo campo temático."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Un violín es un instrumento musical y no guarda relación con el razonamiento ni con la discusión formal."},
+    {"word": "claim", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Make a claim' es una colocación habitual en ensayos argumentativos para introducir la tesis que se defiende."},
+    {"word": "cabbage", "is_associated": false, "association_type": "NONE", "explanation": "La col es una verdura y no tiene ninguna conexión con la estructura de un argumento."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'argument' son el debate, la premisa y la afirmación, todas propias del razonamiento; las demás pertenecen a otros campos."
+}
