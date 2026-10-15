@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the team finish the project early,",
+  "correct_completion": "but they also won an award for innovation.",
+  "full_sentence": "Not only did the team finish the project early, but they also won an award for innovation.",
+  "acceptable_variants": ["but they also received a generous bonus.", "but they also impressed the client."],
+  "options": [
+    {"text": "so they took a long holiday afterwards.", "is_correct": false, "why_wrong": "'So' introduces a result, which breaks the 'not only ... but also' pattern. The second half must add another point of the same kind."},
+    {"text": "which was why they were late.", "is_correct": false, "why_wrong": "This gives a reason for a delay, which contradicts the early finish stated in the first clause."},
+    {"text": "but they also won an award for innovation.", "is_correct": true, "why_wrong": null},
+    {"text": "but they lost their main client.", "is_correct": false, "why_wrong": "'But' starts a negative point, while the 'not only ... but also' structure needs an additional positive point of the same kind."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Correlative conjunction 'not only ... but also' with subject-auxiliary inversion in the first clause",
+  "connector": "not only ... but also",
+  "explanation": "The pattern 'not only ... but also' adds a second point that is equally or more important than the first. After 'not only did the team...', the auxiliary 'did' is inverted before the subject, and the second half must continue the same positive idea. Learners whose first language uses a single linking word may forget that English needs both halves of the pair, so 'but also' must be kept together.",
+  "translation": "Ekip projeyi sadece erken bitirmekle kalmadı, aynı zamanda inovasyon ödülü de kazandı."
+}
