@@ -1,0 +1,23 @@
+{
+  "central_word": "fear",
+  "chain_words": [
+    {"word": "unease", "intensity": 1, "translation": "niepokój", "nuance": "vague, low-level worry"},
+    {"word": "apprehension", "intensity": 2, "translation": "obawa", "nuance": "anxious expectation of something bad"},
+    {"word": "dread", "intensity": 3, "translation": "lęk", "nuance": "deep emotional anticipation of something unpleasant"},
+    {"word": "terror", "intensity": 4, "translation": "przerażenie", "nuance": "intense, overwhelming fear"},
+    {"word": "panic", "intensity": 5, "translation": "panika", "nuance": "sudden, uncontrolled fear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express fear, from a vague sense of unease to sudden, uncontrolled panic.",
+  "usage_notes": [
+    {"word1": "apprehension", "word2": "dread", "difference": "'Apprehension' is a calm, rational expectation that trouble may come; 'dread' is a deeper, emotional anticipation of something unpleasant."}
+  ],
+  "translations": {
+    "unease": "niepokój",
+    "apprehension": "obawa",
+    "dread": "lęk",
+    "terror": "przerażenie",
+    "panic": "panika"
+  }
+}
