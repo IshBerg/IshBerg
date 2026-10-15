@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied for weeks,",
+  "correct_completion": "she still failed the first exam.",
+  "full_sentence": "Despite having studied for weeks, she still failed the first exam.",
+  "acceptable_variants": ["she nevertheless failed the first exam.", "the first exam still ended in failure for her."],
+  "options": [
+    {"text": "because she studied every night.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'despite' requires a contrasting result. Repeating the reason here is redundant."},
+    {"text": "she was taking a holiday.", "is_correct": false, "why_wrong": "This is unrelated to the contrast the stem sets up, so it does not complete the sentence logically."},
+    {"text": "she still failed the first exam.", "is_correct": true, "why_wrong": null},
+    {"text": "the exam was easy.", "is_correct": false, "why_wrong": "This describes the exam but does not give the contrasting outcome that 'despite' expects."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive phrases with 'despite'",
+  "connector": "despite",
+  "explanation": "'Despite' followed by a gerund introduces a concession: the main clause states a result that is unexpected given the effort. Learners often add 'but' or 'however' after 'despite', which doubles the contrast and should be avoided.",
+  "translation": "Haftalarca çalışmasına rağmen ilk sınavda yine de başarısız oldu."
+}

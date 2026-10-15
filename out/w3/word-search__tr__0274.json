@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["W", "E", "N", "T", "K", "J", "P", "C", "U"],
+    ["A", "R", "R", "I", "V", "E", "D", "Z", "F"],
+    ["B", "L", "M", "O", "K", "X", "S", "Q", "Y"],
+    ["G", "H", "I", "J", "N", "P", "A", "D", "C"],
+    ["S", "F", "K", "Q", "E", "V", "W", "M", "L"],
+    ["R", "T", "U", "B", "D", "H", "J", "N", "A"],
+    ["P", "Z", "O", "C", "L", "K", "X", "G", "T"],
+    ["H", "Q", "V", "R", "W", "Y", "F", "B", "E"],
+    ["M", "J", "N", "D", "Y", "L", "U", "C", "R"]
+  ],
+  "words_to_find": ["WENT", "ARRIVED", "SAW", "STORY", "LATER"],
+  "word_positions": [
+    {"word": "WENT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ARRIVED", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SAW", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "STORY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LATER", "start_row": 4, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Narrating Events"
+}
