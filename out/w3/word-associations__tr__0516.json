@@ -1,0 +1,14 @@
+{
+  "trigger_word": "face",
+  "all_words": [
+    {"word": "eye", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Göz, yüzün en önemli parçalarından biridir ve yüzle doğrudan ilgilidir."},
+    {"word": "wash", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Wash your face' (yüzünü yıka) çok sık kullanılan bir ifadedir."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masa bir mobilyadır; yüzle ne anlamsal ne de kullanım açısından bağlantısı vardır."},
+    {"word": "hair", "is_associated": true, "association_type": "THEMATIC", "explanation": "Saç, görünüşle ilgili bir konudur ve genellikle yüzle birlikte düşünülür."},
+    {"word": "bike", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet ulaşım aracıdır ve yüz kavramıyla hiçbir ilişkisi yoktur."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Ayakkabı ayakla ilgilidir, yüzle ilgili değildir."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Face' kelimesiyle ilişkili olanlar yüzün parçaları, yüzle yapılan eylemler ve görünüşle ilgili kelimelerdir; diğerleri bu konuyla bağlantılı değildir."
+}

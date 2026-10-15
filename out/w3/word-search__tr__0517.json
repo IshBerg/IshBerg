@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["L", "E", "T", "T", "E", "R", "X", "R"],
+    ["B", "Q", "K", "M", "P", "Z", "W", "E"],
+    ["A", "P", "O", "L", "O", "G", "Y", "F"],
+    ["H", "J", "S", "D", "K", "W", "V", "U"],
+    ["T", "B", "G", "Z", "R", "C", "X", "N"],
+    ["M", "Q", "F", "W", "J", "K", "P", "D"],
+    ["E", "N", "C", "L", "O", "S", "E", "I"],
+    ["Y", "K", "B", "V", "H", "Q", "W", "Z"]
+  ],
+  "words_to_find": ["LETTER", "APOLOGY", "REFUND", "ENCLOSE"],
+  "word_positions": [
+    {"word": "LETTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "APOLOGY", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REFUND", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ENCLOSE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Formal Correspondence and Complaints"
+}
