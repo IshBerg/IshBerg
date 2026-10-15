@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "A", "K", "E", "X", "Q", "Z", "J", "M", "S"],
+    ["B", "N", "F", "T", "O", "I", "C", "V", "U", "L"],
+    ["H", "G", "D", "Y", "P", "M", "R", "W", "K", "E"],
+    ["F", "Q", "H", "S", "U", "R", "B", "T", "N", "E"],
+    ["A", "X", "L", "K", "O", "R", "Z", "C", "V", "P"],
+    ["W", "M", "J", "Y", "A", "E", "Q", "T", "G", "N"],
+    ["K", "O", "F", "L", "Y", "N", "P", "A", "Q", "V"],
+    ["B", "D", "R", "T", "U", "N", "I", "Z", "C", "M"],
+    ["X", "A", "E", "K", "P", "I", "O", "L", "Y", "H"],
+    ["Q", "W", "S", "F", "B", "D", "Z", "T", "R", "N"]
+  ],
+  "words_to_find": ["WAKE", "SLEEP", "WORK", "DINNER", "BRUSH"],
+  "word_positions": [
+    {"word": "WAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLEEP", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "WORK", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DINNER", "start_row": 9, "start_col": 5, "direction": "VERTICAL_UP"},
+    {"word": "BRUSH", "start_row": 3, "start_col": 6, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Daily Routines"
+}
