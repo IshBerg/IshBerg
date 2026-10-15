@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the storm damage the roofs,",
+  "correct_completion": "but it also cut off the electricity for three days.",
+  "full_sentence": "Not only did the storm damage the roofs, but it also cut off the electricity for three days.",
+  "acceptable_variants": ["but it also caused floods across the city.", "and it also knocked out the power for three days."],
+  "options": [
+    {"text": "it also cut off the electricity.", "is_correct": false, "why_wrong": "The correlative 'not only ... but also' needs the word 'but' before the second idea. Without it the structure is incomplete."},
+    {"text": "but it also cut off the electricity for three days.", "is_correct": true, "why_wrong": null},
+    {"text": "and so it cut off the electricity for three days.", "is_correct": false, "why_wrong": "'And so' signals a result, not the additional idea that pairs with 'not only'."},
+    {"text": "although it cut off the electricity for three days.", "is_correct": false, "why_wrong": "'Although' introduces a concession, which does not complete the 'not only ... but also' pattern."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Correlative conjunctions 'not only ... but also' with inversion",
+  "connector": "but also",
+  "explanation": "After a fronted 'not only', English requires inversion in the first clause and then 'but also' to introduce the second idea. Portuguese speakers often drop the inversion or the 'but' because Portuguese word order is more flexible here.",
+  "translation": "Não só a tempestade danificou os telhados, mas também cortou a eletricidade durante três dias."
+}

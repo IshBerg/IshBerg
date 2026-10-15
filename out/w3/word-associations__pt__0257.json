@@ -1,0 +1,14 @@
+{
+  "trigger_word": "tentative",
+  "all_words": [
+    {"word": "cautious", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Cauteloso descreve uma atitude prudente, próxima da hesitação que 'tentative' expressa."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rio é um substantivo concreto sem qualquer relação com a ideia de hesitação ou provisoriedade."},
+    {"word": "conclusion", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A combinação 'tentative conclusion' (conclusão provisória) é muito comum no discurso acadêmico."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Martelo é um objeto físico sem relação com o campo semântico da incerteza."},
+    {"word": "provisional", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Provisório indica algo temporário e sujeito a revisão, sentido bem próximo de 'tentative'."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Tapete é um objeto doméstico sem relação com o tema."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Tentative relaciona-se com cautela, provisoriedade e com a colocação 'tentative conclusion', enquanto as demais palavras não têm relação com o campo da incerteza acadêmica."
+}
