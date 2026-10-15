@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "X", "H"],
+    ["Q", "W", "J", "K", "E", "M", "E"],
+    ["B", "Z", "F", "G", "N", "V", "R"],
+    ["O", "U", "C", "I", "D", "L", "O"],
+    ["O", "H", "A", "W", "I", "Z", "T"],
+    ["K", "P", "L", "O", "T", "Y", "B"],
+    ["Z", "X", "Q", "M", "V", "J", "F"]
+  ],
+  "words_to_find": ["STORY", "HERO", "PLOT", "BOOK", "END"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HERO", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PLOT", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "BOOK", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "END", "start_row": 1, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Short Stories"
+}
