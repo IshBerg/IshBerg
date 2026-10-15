@@ -1,0 +1,14 @@
+{
+  "trigger_word": "restaurant",
+  "all_words": [
+    {"word": "menu", "is_associated": true, "association_type": "THEMATIC", "explanation": "El menú es la lista de comidas que se encuentra en cualquier restaurante."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta no tiene relación con los restaurantes; es un medio de transporte."},
+    {"word": "food", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La comida es el significado principal de un restaurante, porque allí se sirve comida."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "El lápiz no tiene relación con los restaurantes; se usa para escribir o dibujar."},
+    {"word": "bill", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés se dice 'restaurant bill' para hablar de la cuenta que se paga al final de la comida."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña es un lugar natural y no tiene relación con los restaurantes."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'restaurant' se relacionan con la comida, el menú y el pago, mientras que las demás no tienen relación con un restaurante."
+}
