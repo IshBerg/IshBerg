@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "books", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Los libros son el contenido principal que se guarda y se presta en una biblioteca."},
+    {"word": "shelf", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las estanterías son el mueble donde se organizan los libros dentro de una biblioteca."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "La cocina es un espacio de la casa para cocinar y no tiene relación con una biblioteca."},
+    {"word": "librarian", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El bibliotecario es la persona que trabaja en una biblioteca y ayuda a los lectores."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña es un accidente geográfico que no tiene ninguna relación con las bibliotecas."},
+    {"word": "card", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés se dice 'library card' para referirse al carné que permite pedir libros prestados."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'library' se relacionan con libros, estanterías, bibliotecarios y el carné de biblioteca, mientras que 'kitchen' y 'mountain' no tienen ninguna relación con este tema."
+}
