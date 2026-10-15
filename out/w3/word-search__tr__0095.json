@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "O", "T", "T", "O", "N", "K", "W", "Q", "Z"],
+    ["G", "B", "D", "S", "F", "H", "J", "M", "P", "X"],
+    ["A", "K", "Q", "W", "T", "Y", "Z", "C", "D", "L"],
+    ["P", "R", "H", "K", "M", "O", "V", "G", "J", "E"],
+    ["B", "D", "F", "X", "Y", "Q", "N", "W", "K", "A"],
+    ["H", "J", "M", "P", "R", "V", "Z", "E", "S", "T"],
+    ["L", "Q", "W", "X", "Y", "K", "F", "D", "B", "H"],
+    ["G", "C", "N", "P", "Z", "M", "J", "T", "V", "E"],
+    ["S", "L", "K", "Q", "W", "X", "Y", "F", "D", "R"],
+    ["K", "P", "N", "C", "R", "E", "B", "B", "U", "R"]
+  ],
+  "words_to_find": ["COTTON", "STONE", "LEATHER", "RUBBER"],
+  "word_positions": [
+    {"word": "COTTON", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STONE", "start_row": 1, "start_col": 3, "direction": "DIAGONAL_DOWN"},
+    {"word": "LEATHER", "start_row": 2, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "RUBBER", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Materials and Textures"
+}
