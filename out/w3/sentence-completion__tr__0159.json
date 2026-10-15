@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I could have passed the exam.", "I would have got a better grade."],
+  "options": [
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "'Will' is a future form and does not express the imagined result of a past condition."},
+    {"text": "I would pass the exam now.", "is_correct": false, "why_wrong": "This mixes the past condition 'had studied' with a present result, which is not the third conditional pattern."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I passed the exam yesterday.", "is_correct": false, "why_wrong": "This states a real past fact, but it does not express an imagined result of an unreal past condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: if + past perfect, would have + past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined result. Turkish speakers often have trouble here because they may use a simple past form where English needs 'had' plus the past participle in the if-clause, and 'would have' plus the past participle in the result clause.",
+  "translation": "Daha fazla çalışsaydım, sınavı geçmiş olurdum."
+}

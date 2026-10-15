@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "gazete", "transliteration": "gazete", "meaning": "newspaper"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likeable, pleasant"},
+    {"word": "eventüel", "transliteration": "eventuel", "meaning": "possible, if it happens"},
+    {"word": "lokal", "transliteration": "lokal", "meaning": "pub or bar"}
+  ],
+  "english_words": ["possible", "newspaper", "pub", "likeable"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These words were borrowed from French or Italian, and English drew on similar sources, so the spellings look close. Over time the meanings shifted in each language, so the match must be checked by meaning rather than by appearance.",
+  "false_friend_warning": "Watch out for false friends: the Turkish word for newspaper looks like the English word 'gazette', which means an official government publication, and the Turkish word for likeable looks like 'sympathetic', which means feeling compassion for someone."
+}
