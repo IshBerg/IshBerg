@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem was short,",
+  "correct_completion": "it left a lasting impression on everyone who read it.",
+  "full_sentence": "Although the poem was short, it left a lasting impression on everyone who read it.",
+  "acceptable_variants": ["it still moved many readers deeply.", "it made readers think for days."],
+  "options": [
+    {"text": "so everyone read it twice.", "is_correct": false, "why_wrong": "'Although' signals contrast, not result. 'So' introduces a result, so this does not complete the contrast."},
+    {"text": "it was written in free verse.", "is_correct": false, "why_wrong": "This describes the poem but does not complete the contrast started by 'although'."},
+    {"text": "it left a lasting impression on everyone who read it.", "is_correct": true, "why_wrong": null},
+    {"text": "the poet had many other books.", "is_correct": false, "why_wrong": "This adds unrelated information and does not provide the contrasting result expected after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Here, the poem's short length is contrasted with its strong effect on readers. Learners sometimes use 'so' after a concessive clause because they confuse contrast with cause, so check the connector carefully.",
+  "translation": "Embora o poema fosse curto, ele deixou uma impressão duradoura em todos que o leram."
+}

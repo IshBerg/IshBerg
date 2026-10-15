@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend or plan to do something"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch a show, film or event"},
+    {"word": "esquisito", "transliteration": "esquisito", "meaning": "strange or odd"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "a shop where books are sold"}
+  ],
+  "english_words": ["watch", "strange", "bookshop", "intend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Each Portuguese word looks like an English word that comes from the same Latin root, but over time the meanings drifted apart in the two languages.",
+  "false_friend_warning": "Warning: the Portuguese word 'livraria' looks like the English word 'library', but it means a bookshop, not a place where you borrow books. Do not match them just because they look alike."
+}
