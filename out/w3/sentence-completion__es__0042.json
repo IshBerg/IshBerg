@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have done well on the exam.", "I would have got a better grade."],
+  "options": [
+    {"text": "I will pass the exam tomorrow.", "is_correct": false, "why_wrong": "This gives a future result, but the stem describes an unreal past situation, so the result must also refer to the past."},
+    {"text": "I passed the exam yesterday.", "is_correct": false, "why_wrong": "The simple past reports a real event; it does not express the unreal result of a condition."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I was passing the exam then.", "is_correct": false, "why_wrong": "The past continuous describes an action in progress and does not give the result of the 'if' condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional for unreal past situations",
+  "connector": "if",
+  "explanation": "The 'if' clause describes an unreal past situation, so the result clause needs 'would have' plus a past participle. Spanish speakers often use a simple conditional in this position, but English requires 'would have' for an unreal past result.",
+  "translation": "Si hubiera estudiado más, habría aprobado el examen."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hand",
+  "all_words": [
+    {"word": "finger", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El dedo es una parte de la mano, por eso está relacionado con 'hand'."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña no tiene ninguna relación con la mano."},
+    {"word": "glove", "is_associated": true, "association_type": "THEMATIC", "explanation": "El guante se pone en la mano, así que pertenece al mismo tema."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "El río no tiene ninguna relación con la mano."},
+    {"word": "shake", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se usa la expresión 'shake hands' para decir dar la mano; es una colocación habitual."},
+    {"word": "lamp", "is_associated": false, "association_type": "NONE", "explanation": "La lámpara no tiene ninguna relación con la mano."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'hand' son partes del cuerpo, objetos que se usan en la mano o expresiones con la mano; las demás no tienen relación."
+}
