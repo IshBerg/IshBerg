@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the narrator claimed to be impartial,",
+  "correct_completion": "his account was full of subtle prejudices.",
+  "full_sentence": "Although the narrator claimed to be impartial, his account was full of subtle prejudices.",
+  "acceptable_variants": ["his account nevertheless revealed a strong personal bias.", "readers could still detect his hidden prejudice."],
+  "options": [
+    {"text": "so the reader trusted every word he wrote.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast. 'Although' requires a clause that contradicts the first part of the sentence."},
+    {"text": "he wrote the story in the first person.", "is_correct": false, "why_wrong": "This describes narrative technique but does not contrast with the claim of impartiality."},
+    {"text": "his account was full of subtle prejudices.", "is_correct": true, "why_wrong": null},
+    {"text": "the narrator was born in a small village.", "is_correct": false, "why_wrong": "This adds background information but does not provide the contrasting idea that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the clause must contradict the first part of the sentence. Here the narrator's claim of impartiality is contrasted with biased content, so the completion must show a contrasting result.",
+  "translation": "Chociaż narrator twierdził, że jest bezstronny, jego relacja była pełna subtelnych uprzedzeń."
+}

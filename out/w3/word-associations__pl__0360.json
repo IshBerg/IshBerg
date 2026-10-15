@@ -1,0 +1,14 @@
+{
+  "trigger_word": "experiment",
+  "all_words": [
+    {"word": "hypothesis", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Hipoteza to przewidywany wynik, który eksperyment ma sprawdzić, więc ściśle łączy się z tym pojęciem."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka nie ma żadnego związku z eksperymentami naukowymi; to tylko rodzaj jedzenia."},
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Laboratorium to miejsce, w którym przeprowadza się eksperymenty, więc należy do tego samego tematu."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Skrzypce nie mają związku z badaniami naukowymi ani z pojęciem eksperymentu."},
+    {"word": "conduct", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'conduct' tworzy typowe połączenie wyrazowe: przeprowadzać eksperyment."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie jest związana z eksperymentem i nie pojawia się w kontekście badań."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'experiment' kojarzy się z pojęciami naukowymi: hipotezą, laboratorium oraz czynnością przeprowadzania badania."
+}
