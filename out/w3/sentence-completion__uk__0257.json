@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the project would have been approved last spring.",
+  "full_sentence": "Had the committee been informed earlier, the project would have been approved last spring.",
+  "acceptable_variants": ["the project could have been approved last spring.", "the project might have been approved last spring."],
+  "options": [
+    {"text": "the project will be approved next week.", "is_correct": false, "why_wrong": "The inverted third conditional ('Had + subject + past participle') describes an unreal past situation, so the main clause must use 'would/could/might have + past participle'. 'Will' is a future form and does not match the past condition."},
+    {"text": "the project was approved last spring.", "is_correct": false, "why_wrong": "This is a plain past statement with no conditional meaning. It does not express the hypothetical result of the information that was not given earlier."},
+    {"text": "the project would have been approved last spring.", "is_correct": true, "why_wrong": null},
+    {"text": "if it were approved last spring.", "is_correct": false, "why_wrong": "'If it were' is a second conditional form for unreal present situations. It cannot follow the past condition expressed by 'Had...been informed', and the inversion already carries the 'if' meaning."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "In an inverted conditional, 'Had' replaces 'If' and the subject moves before the past participle. The main clause then needs 'would have' (or could/might have) plus the past participle to describe the unreal past result.",
+  "translation": "Якби комітет був поінформований раніше, проєкт схвалили б ще минулої весни."
+}

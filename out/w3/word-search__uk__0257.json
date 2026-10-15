@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "O", "W", "E", "R", "K", "C", "M"],
+    ["P", "L", "V", "X", "Y", "J", "A", "F"],
+    ["S", "N", "D", "W", "Q", "Z", "S", "K"],
+    ["T", "R", "H", "M", "V", "X", "T", "Q"],
+    ["A", "D", "K", "Y", "P", "B", "L", "N"],
+    ["T", "Q", "N", "F", "Z", "W", "E", "V"],
+    ["U", "H", "M", "J", "R", "Y", "K", "S"],
+    ["E", "B", "R", "I", "D", "G", "E", "Q"]
+  ],
+  "words_to_find": ["TOWER", "CASTLE", "BRIDGE", "STATUE"],
+  "word_positions": [
+    {"word": "TOWER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CASTLE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BRIDGE", "start_row": 7, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "STATUE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "World Landmarks"
+}
