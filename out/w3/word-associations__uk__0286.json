@@ -1,0 +1,14 @@
+{
+  "trigger_word": "research",
+  "all_words": [
+    {"word": "findings", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово 'findings' входить до усталене поєднання 'research findings' (результати дослідження), тому воно пов'язане з 'research' колокаційно."},
+    {"word": "orchestra", "is_associated": false, "association_type": "NONE", "explanation": "Оркестр належить до музичної сфери і не має жодного зв'язку з дослідженням у науковому сенсі."},
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лабораторія є місцем, де проводиться більшість наукових досліджень, тому слово належить до тієї ж тематики."},
+    {"word": "pancake", "is_associated": false, "association_type": "NONE", "explanation": "Млинець стосується кулінарії і не пов'язаний з дослідженнями чи науковим процесом."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Поєднання 'test a hypothesis' (перевіряти гіпотезу) є типовим для академічного письма, тому слово пов'язане з 'research' колокаційно."},
+    {"word": "blanket", "is_associated": false, "association_type": "NONE", "explanation": "Ковдра не має жодного відношення до досліджень і не входить до цього академічного контексту."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'research' пов'язане зі словами, що стосуються наукового процесу: результатів, лабораторій і гіпотез. Слова з інших сфер, як-от музика чи побут, не утворюють асоціацій."
+}
