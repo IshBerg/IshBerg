@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "They might have missed the train,",
+  "correct_completion": "because they left the house too late.",
+  "full_sentence": "They might have missed the train, because they left the house too late.",
+  "acceptable_variants": ["because the traffic was very heavy.", "because they forgot to check the timetable."],
+  "options": [
+    {"text": "so they are waiting at the station now.", "is_correct": false, "why_wrong": "This describes the present, but the modal perfect 'might have' expresses a past possibility."},
+    {"text": "because they left the house too late.", "is_correct": true, "why_wrong": null},
+    {"text": "and they arrived on time.", "is_correct": false, "why_wrong": "This contradicts the possibility of missing the train, so it cannot complete the stem."},
+    {"text": "although the station was closed.", "is_correct": false, "why_wrong": "This adds a contrast that is not logically linked to the possibility of missing the train."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Modal perfect: might have + past participle",
+  "connector": "because",
+  "explanation": "The modal perfect 'might have' plus a past participle expresses a possible past event, and the clause after 'because' gives its cause. Ukrainian speakers may reach for a simple past or a plain modal here, because Ukrainian has no separate perfect modal pattern, so the English structure must be learned as a fixed form.",
+  "translation": "Вони могли пропустити потяг, бо вийшли з дому надто пізно."
+}
