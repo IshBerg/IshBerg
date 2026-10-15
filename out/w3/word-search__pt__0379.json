@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "A", "M", "L", "E", "T", "K", "Q", "W", "O"],
+    ["Z", "B", "F", "J", "X", "C", "P", "G", "R", "D"],
+    ["U", "W", "K", "T", "Q", "V", "H", "F", "L", "Y"],
+    ["B", "J", "L", "E", "V", "O", "N", "X", "Q", "S"],
+    ["M", "P", "D", "W", "G", "H", "Z", "L", "K", "S"],
+    ["I", "F", "B", "X", "C", "M", "Q", "O", "T", "E"],
+    ["A", "R", "H", "K", "J", "W", "D", "B", "F", "Y"],
+    ["T", "G", "O", "P", "Z", "R", "J", "M", "C", "V"],
+    ["P", "V", "Q", "N", "D", "K", "X", "Y", "U", "W"],
+    ["F", "Z", "C", "H", "Y", "W", "B", "S", "P", "T"]
+  ],
+  "words_to_find": ["HAMLET", "ODYSSEY", "IRONY", "NOVEL", "SYMBOL"],
+  "word_positions": [
+    {"word": "HAMLET", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ODYSSEY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "IRONY", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "NOVEL", "start_row": 3, "start_col": 6, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SYMBOL", "start_row": 9, "start_col": 7, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Classic Literature Analysis"
+}

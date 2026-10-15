@@ -1,0 +1,14 @@
+{
+  "trigger_word": "newspaper",
+  "all_words": [
+    {"word": "headline", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Headline' é a manchete de uma notícia e aparece com frequência em jornais, por isso se associa diretamente a 'newspaper'."},
+    {"word": "editor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O editor é a pessoa que revisa e decide o conteúdo publicado em um jornal, então o significado está diretamente ligado a 'newspaper'."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "'Mountain' (montanha) é um elemento geográfico e não tem relação com jornais ou com a produção de notícias."},
+    {"word": "journalist", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O jornalista escreve as reportagens publicadas em um jornal, por isso é uma palavra semanticamente muito próxima de 'newspaper'."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "'Pillow' (travesseiro) pertence ao universo do quarto e do sono, sem qualquer ligação com jornais."},
+    {"word": "column", "is_associated": true, "association_type": "THEMATIC", "explanation": "A coluna é um espaço fixo de opinião ou comentário em um jornal, por isso pertence ao mesmo tema de 'newspaper'."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Todas as palavras associadas se relacionam com a produção, a estrutura ou o conteúdo de um jornal, enquanto as palavras não associadas pertencem a outros contextos, como geografia ou o quarto."
+}
