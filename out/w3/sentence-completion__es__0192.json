@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Far from being a mere formality,",
+  "correct_completion": "the review exposed systemic failures that the board had long chosen to ignore.",
+  "full_sentence": "Far from being a mere formality, the review exposed systemic failures that the board had long chosen to ignore.",
+  "acceptable_variants": ["the review uncovered deep-seated failures that the board had long preferred to overlook.", "the review revealed structural weaknesses the board had long disregarded."],
+  "options": [
+    {"text": "the audit was conducted hastily by junior staff.", "is_correct": false, "why_wrong": "This describes how the work was done but does not complete the contrast set up by 'far from being a mere formality'. The stem calls for an evaluative, weighty outcome."},
+    {"text": "the review exposed systemic failures that the board had long chosen to ignore.", "is_correct": true, "why_wrong": null},
+    {"text": "the review was scheduled for the following quarter.", "is_correct": false, "why_wrong": "This gives a neutral logistical detail with no evaluative weight, so it does not work as the stylistic counterweight that the stem requires."},
+    {"text": "it was, regrettably, quite brief.", "is_correct": false, "why_wrong": "'Brief' undercuts the significance the stem implies. The result is an anticlimax rather than a register-appropriate continuation."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive fronted participial phrase with 'far from' and register-appropriate formal lexis",
+  "connector": "far from",
+  "explanation": "The fronted phrase 'far from being' sets up a contrast with the main clause, so the completion must carry real evaluative weight. Formal register favours precise lexis such as 'systemic' and 'long chosen to ignore' over neutral descriptions. Learners whose first language tends to use more elaborate subordinate structures often accept a flatter main clause here.",
+  "translation": "Lejos de ser una mera formalidad, la revisión expuso fallos sistémicos que la junta había preferido ignorar durante mucho tiempo."
+}

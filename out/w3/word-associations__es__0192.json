@@ -1,0 +1,14 @@
+{
+  "trigger_word": "coffee",
+  "all_words": [
+    {"word": "cup", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La palabra 'cup' forma la colocación habitual 'coffee cup', es decir, taza de café."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "'Mountain' no tiene relación de significado, uso habitual ni contexto común con el café."},
+    {"word": "caffeine", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La cafeína es la sustancia estimulante que hace que el café tenga efecto en el cuerpo."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "'Piano' pertenece al ámbito de la música y no comparte campo semántico ni contexto habitual con el café."},
+    {"word": "morning", "is_associated": true, "association_type": "THEMATIC", "explanation": "Muchas personas toman café por la mañana, así que 'morning' se asocia temáticamente con la bebida."},
+    {"word": "bean", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Los granos de café son las semillas que se tuestan, y la colocación 'coffee bean' es muy frecuente."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'coffee' se relacionan por la bebida en sí, sus ingredientes, sus colocaciones frecuentes o sus momentos de consumo típicos. Las palabras no asociadas pertenecen a campos semánticos sin relación con el café."
+}
