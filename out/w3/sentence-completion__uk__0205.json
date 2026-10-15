@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If she had studied harder last year,",
+  "correct_completion": "she would be ready for the exam now.",
+  "full_sentence": "If she had studied harder last year, she would be ready for the exam now.",
+  "acceptable_variants": ["she would be better prepared now.", "she would not be struggling now."],
+  "options": [
+    {"text": "she will be ready for the exam now.", "is_correct": false, "why_wrong": "'Will' expresses a real future result, not the imagined result of an unreal past condition."},
+    {"text": "she studied harder last year.", "is_correct": false, "why_wrong": "This repeats a past fact instead of giving the imagined result of the unreal condition."},
+    {"text": "she would be ready for the exam now.", "is_correct": true, "why_wrong": null},
+    {"text": "she is ready for the exam now.", "is_correct": false, "why_wrong": "This states a present fact and ignores the hypothetical past condition set up by 'if'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past unreal condition with a present unreal result",
+  "connector": "if",
+  "explanation": "A mixed conditional links an unreal past condition with an unreal present result. Ukrainian speakers often mirror the past condition in the result clause, but English requires a 'would' form with a present time reference.",
+  "translation": "Якби вона більше вчилася минулого року, зараз вона була б готова до іспиту."
+}

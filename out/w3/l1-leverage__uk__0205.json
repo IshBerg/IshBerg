@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "фото", "transliteration": "foto", "meaning": "photo"},
+    {"word": "таксі", "transliteration": "taksi", "meaning": "taxi"},
+    {"word": "футбол", "transliteration": "futbol", "meaning": "football"},
+    {"word": "банан", "transliteration": "banan", "meaning": "banana"}
+  ],
+  "english_words": ["taxi", "photo", "banana", "football"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Ukrainian word was borrowed from the same international source as the English word, so the two forms remain close in spelling and sound and share the same meaning.",
+  "false_friend_warning": null
+}
