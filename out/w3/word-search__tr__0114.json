@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["B", "L", "U", "N", "T", "Q", "K", "J", "S"],
+    ["W", "P", "X", "M", "H", "Z", "D", "Y", "E"],
+    ["O", "C", "A", "N", "D", "I", "D", "F", "R"],
+    ["K", "G", "Q", "L", "B", "P", "W", "A", "E"],
+    ["V", "Z", "K", "J", "Q", "E", "M", "L", "N"],
+    ["P", "A", "X", "H", "S", "R", "B", "K", "E"],
+    ["Y", "D", "G", "R", "W", "M", "F", "Z", "T"],
+    ["H", "Q", "E", "U", "J", "K", "L", "X", "B"],
+    ["M", "T", "F", "D", "E", "J", "Z", "Q", "K"]
+  ],
+  "words_to_find": ["BLUNT", "SERENE", "VAGUE", "TERSE", "CANDID"],
+  "word_positions": [
+    {"word": "BLUNT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SERENE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "VAGUE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TERSE", "start_row": 8, "start_col": 1, "direction": "DIAGONAL_UP"},
+    {"word": "CANDID", "start_row": 2, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Nuanced Synonyms"
+}
