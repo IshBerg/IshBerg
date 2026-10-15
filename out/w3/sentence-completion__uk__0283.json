@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the manager really wanted",
+  "correct_completion": "was a detailed report on the project's progress.",
+  "full_sentence": "What the manager really wanted was a detailed report on the project's progress.",
+  "acceptable_variants": ["was a clear summary of the project's progress.", "was an update on how the project was going."],
+  "options": [
+    {"text": "the team to finish early.", "is_correct": false, "why_wrong": "The pseudo-cleft structure needs 'was' before the focus; without it the sentence is broken."},
+    {"text": "was a detailed report on the project's progress.", "is_correct": true, "why_wrong": null},
+    {"text": "did the team finish the project early.", "is_correct": false, "why_wrong": "This is a question, but a pseudo-cleft needs a declarative focus after 'was'."},
+    {"text": "the team finished early and the budget grew.", "is_correct": false, "why_wrong": "There is no 'was' to introduce the focus, so the pseudo-cleft structure does not work."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft sentences with 'what' and 'was'",
+  "connector": "what",
+  "explanation": "A pseudo-cleft sentence begins with 'What' plus a clause, then 'was' before the focus. Learners often leave out 'was' or use a plain clause instead, which breaks the structure.",
+  "translation": "Те, чого менеджер справді хотів, — це детальний звіт про хід проєкту."
+}
