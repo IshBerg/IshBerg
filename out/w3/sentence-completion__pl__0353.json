@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the sample size was relatively small,",
+  "correct_completion": "the authors reported results that were statistically significant.",
+  "full_sentence": "Although the sample size was relatively small, the authors reported results that were statistically significant.",
+  "acceptable_variants": ["the findings still reached statistical significance.", "the results were nonetheless statistically significant."],
+  "options": [
+    {"text": "so the authors could not draw any conclusions.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast. 'Although' requires the second clause to contrast with the first."},
+    {"text": "the sample size was small as well.", "is_correct": false, "why_wrong": "This repeats the idea of the first clause instead of contrasting with it."},
+    {"text": "the authors reported results that were statistically significant.", "is_correct": true, "why_wrong": null},
+    {"text": "the researchers used a questionnaire.", "is_correct": false, "why_wrong": "This is an unrelated detail and does not complete the contrast set up by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first part of the sentence. Polish speakers may read the opening as a cause-and-effect pattern and choose a result clause, but in English the main clause should express the unexpected outcome, often with words such as 'nonetheless' or 'still' as a signal.",
+  "translation": "Mimo że wielkość próby była stosunkowo mała, autorzy przedstawili wyniki, które były istotne statystycznie."
+}
