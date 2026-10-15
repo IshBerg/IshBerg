@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If only I had studied harder,",
+  "correct_completion": "I would have passed the exam.",
+  "full_sentence": "If only I had studied harder, I would have passed the exam.",
+  "acceptable_variants": ["I would have done better.", "I would have got a higher grade."],
+  "options": [
+    {"text": "I will study harder tomorrow.", "is_correct": false, "why_wrong": "This is a plan for the future. 'If only' expresses regret about the past, so a future plan does not complete the sentence."},
+    {"text": "I passed the exam yesterday.", "is_correct": false, "why_wrong": "This states a past fact. It does not express a wish about a result that did not happen."},
+    {"text": "I would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "I am going to study now.", "is_correct": false, "why_wrong": "This describes a present plan. It does not express regret about a past result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if only' for regret about the past",
+  "connector": "if only",
+  "explanation": "After 'if only' with a past perfect clause, we need a conditional perfect to express regret about a past result that did not happen. Portuguese speakers may be tempted to use a simple future or a simple past here, so remember that wishes about the past need the perfect forms.",
+  "translation": "Se ao menos eu tivesse estudado mais, eu teria passado no exame."
+}
