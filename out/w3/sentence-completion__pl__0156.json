@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "When we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had gone.", "the last bus had departed."],
+  "options": [
+    {"text": "the train already leaves.", "is_correct": false, "why_wrong": "The present simple describes a general fact, not an action completed before a past moment."},
+    {"text": "the train has already left.", "is_correct": false, "why_wrong": "The present perfect connects to the present, but the stem is in the past, so the past perfect is required."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null},
+    {"text": "the train was leaving.", "is_correct": false, "why_wrong": "The past continuous describes an action in progress, not one completed before the arrival."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past perfect for an action completed before another past action",
+  "connector": "when",
+  "explanation": "The past perfect shows that the train's departure happened before the speaker's arrival. Polish speakers often use one simple past form for both actions, because Polish does not mark the earlier action with a separate tense.",
+  "translation": "Kiedy dotarliśmy na stację, pociąg już odjechał."
+}
