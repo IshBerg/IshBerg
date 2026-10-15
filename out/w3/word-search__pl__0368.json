@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["N", "O", "V", "E", "L", "X", "T"],
+    ["Q", "A", "Z", "D", "K", "W", "H"],
+    ["M", "F", "C", "S", "J", "U", "E"],
+    ["G", "B", "Y", "T", "P", "V", "M"],
+    ["P", "L", "O", "T", "Z", "K", "E"],
+    ["D", "H", "R", "L", "W", "C", "Q"],
+    ["I", "R", "O", "N", "Y", "A", "F"]
+  ],
+  "words_to_find": ["NOVEL", "THEME", "PLOT", "IRONY"],
+  "word_positions": [
+    {"word": "NOVEL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THEME", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PLOT", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Advanced Literature"
+}
