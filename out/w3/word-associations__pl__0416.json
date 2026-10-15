@@ -1,0 +1,14 @@
+{
+  "trigger_word": "recycling",
+  "all_words": [
+    {"word": "bin", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Słowo 'bin' tworzy stałe połączenie 'recycling bin', czyli pojemnik do segregowania odpadów do recyklingu."},
+    {"word": "plastic", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Plastik to jeden z materiałów, które można poddać recyklingowi, więc znaczeniowo łączy się z tym pojęciem."},
+    {"word": "glass", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Szkło to kolejny materiał, który można przetwarzać ponownie, dlatego jest powiązane z recyklingiem."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra to pojęcie geograficzne i nie ma żadnego związku z recyklingiem ani z odpadami."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Kanapka to rodzaj jedzenia i nie ma znaczeniowego ani językowego związku z recyklingiem."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Pustynia to środowisko naturalne, które nie jest powiązane z recyklingiem ani z przetwarzaniem odpadów."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'recycling' kojarzy się z materiałami nadającymi się do ponownego przetworzenia oraz z pojemnikami służącymi do segregacji odpadów."
+}

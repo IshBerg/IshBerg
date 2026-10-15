@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["C", "H", "E", "S", "S", "X", "Q"],
+    ["K", "Z", "B", "D", "W", "J", "F"],
+    ["M", "P", "Y", "I", "V", "U", "T"],
+    ["L", "N", "O", "C", "K", "R", "A"],
+    ["Q", "W", "H", "E", "F", "B", "G"],
+    ["C", "A", "R", "D", "S", "X", "Y"],
+    ["P", "O", "K", "L", "M", "N", "Z"]
+  ],
+  "words_to_find": ["CHESS", "DICE", "TAG", "CARDS"],
+  "word_positions": [
+    {"word": "CHESS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DICE", "start_row": 1, "start_col": 3, "direction": "VERTICAL"},
+    {"word": "TAG", "start_row": 2, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "CARDS", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Traditional Games"
+}
