@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the results were unexpected,",
+  "correct_completion": "the researchers repeated the experiment.",
+  "full_sentence": "Because the results were unexpected, the researchers repeated the experiment.",
+  "acceptable_variants": ["the scientists checked the measurements again.", "the team verified the data."],
+  "options": [
+    {"text": "the findings were published quickly.", "is_correct": false, "why_wrong": "Quick publication is not a logical reaction to surprising results; the sentence needs an action that responds to the surprise."},
+    {"text": "the researchers repeated the experiment.", "is_correct": true, "why_wrong": null},
+    {"text": "the laboratory was painted blue.", "is_correct": false, "why_wrong": "This has no logical link to the unexpected results, so it does not complete the cause-effect relationship."},
+    {"text": "the sun was shining outside.", "is_correct": false, "why_wrong": "This is unrelated to the results and does not express a consequence of them."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the cause, so the main clause must show a logical effect of that cause. Portuguese speakers often give a result without a clear link to the cause, so check that the effect follows from the reason.",
+  "translation": "Como os resultados foram inesperados, os pesquisadores repetiram o experimento."
+}
