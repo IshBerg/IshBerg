@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["B", "R", "I", "E", "F", "K", "X", "M", "P", "C"],
+    ["Q", "W", "Z", "J", "H", "V", "D", "L", "Y", "G"],
+    ["N", "K", "S", "B", "T", "U", "X", "A", "R", "Q"],
+    ["M", "L", "Y", "F", "C", "W", "I", "D", "O", "P"],
+    ["R", "G", "E", "K", "E", "M", "Z", "H", "J", "V"],
+    ["X", "B", "T", "Q", "N", "C", "F", "K", "W", "T"],
+    ["L", "G", "A", "H", "P", "D", "R", "V", "M", "O"],
+    ["Y", "S", "B", "D", "K", "Z", "J", "U", "X", "N"],
+    ["F", "Q", "E", "W", "L", "A", "V", "K", "O", "E"],
+    ["J", "X", "D", "C", "U", "I", "Y", "B", "H", "S"]
+  ],
+  "words_to_find": ["BRIEF", "CLAIM", "DEBATE", "SOURCE", "TONE"],
+  "word_positions": [
+    {"word": "BRIEF", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAIM", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "DEBATE", "start_row": 9, "start_col": 2, "direction": "VERTICAL_UP"},
+    {"word": "SOURCE", "start_row": 9, "start_col": 9, "direction": "DIAGONAL_UP_LEFT"},
+    {"word": "TONE", "start_row": 5, "start_col": 9, "direction": "VERTICAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists A and B"
+}
