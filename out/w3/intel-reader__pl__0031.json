@@ -1,0 +1,19 @@
+{
+  "title": "Tom in the City",
+  "text": "Tom is new in the city. He has a map of the city in his hand. The map shows the library, the bus station and the shop. The library is next to the shop.\n\nTom needs a bus timetable. The bus to the library leaves at 9:30. It stops near the bus station. Tom takes the bus every Saturday.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Tom have in his hand?", "options": ["A map of the city", "A bus ticket", "A book", "A phone"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What time does the bus to the library leave?", "options": ["8:30", "9:00", "9:30", "10:00"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Tom need a timetable?", "options": ["To know when the bus comes", "To buy a new map", "To find his friend's house", "To pay for his shopping"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why is Tom probably going to the shop after the library?", "options": ["Because the shop is next to the library", "Because the shop is in another city", "Because the shop is closed on Saturday", "Because the bus station is the shop"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "map", "translation": "mapa", "definition": "a drawing that shows the places in an area"},
+    {"word": "timetable", "translation": "rozkład jazdy", "definition": "a list that shows when buses or trains leave and arrive"},
+    {"word": "next to", "translation": "obok", "definition": "very close to something"}
+  ],
+  "paragraph_translations": [
+    "Tom jest nowy w mieście. Ma w ręku mapę miasta. Mapa pokazuje bibliotekę, dworzec autobusowy i sklep. Biblioteka jest obok sklepu.",
+    "Tom potrzebuje rozkładu jazdy autobusów. Autobus do biblioteki odjeżdża o 9:30. Zatrzymuje się w pobliżu dworca autobusowego. Tom jeździ autobusem w każdą sobotę."
+  ]
+}
