@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is a nice day today,",
+  "correct_completion": "isn't it?",
+  "full_sentence": "It is a nice day today, isn't it?",
+  "acceptable_variants": ["is it not?", "right?"],
+  "options": [
+    {"text": "does it?", "is_correct": false, "why_wrong": "The tag must repeat the auxiliary verb of the statement ('is'), not use 'does'."},
+    {"text": "isn't it?", "is_correct": true, "why_wrong": null},
+    {"text": "is it?", "is_correct": false, "why_wrong": "After a positive statement the tag must be negative, so 'is it?' is incorrect."},
+    {"text": "it isn't?", "is_correct": false, "why_wrong": "The auxiliary must come before the subject in a tag question."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Negative tag questions after affirmative statements",
+  "connector": "tag question",
+  "explanation": "A tag question repeats the auxiliary verb from the statement. After a positive statement, the tag is negative, and the subject pronoun comes after the auxiliary. Speakers whose first language uses one fixed invariant tag often need practice matching the auxiliary to the verb.",
+  "translation": "Hace un día agradable hoy, ¿no es así?"
+}
