@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "K", "F"],
+    ["Q", "W", "R", "Z", "B", "J", "V", "I"],
+    ["H", "G", "K", "M", "P", "S", "X", "D"],
+    ["L", "O", "I", "W", "R", "Y", "K", "E"],
+    ["B", "P", "D", "V", "J", "N", "Z", "L"],
+    ["G", "R", "I", "W", "H", "T", "B", "I"],
+    ["C", "Q", "O", "K", "L", "A", "P", "T"],
+    ["J", "V", "M", "B", "G", "X", "R", "Y"]
+  ],
+  "words_to_find": ["NUANCE", "FIDELITY", "IDIOM", "SYNTAX"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FIDELITY", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "IDIOM", "start_row": 3, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "SYNTAX", "start_row": 2, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Literary Translation"
+}
