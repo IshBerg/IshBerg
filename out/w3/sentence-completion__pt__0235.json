@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the manager been informed earlier,",
+  "correct_completion": "the crisis could have been avoided.",
+  "full_sentence": "Had the manager been informed earlier, the crisis could have been avoided.",
+  "acceptable_variants": ["the crisis might have been prevented.", "the situation would have been far less serious."],
+  "options": [
+    {"text": "the crisis would be avoided now.", "is_correct": false, "why_wrong": "The time reference is mixed: 'Had ... been' refers to the past, so the result must also refer to the past, using a perfect modal such as 'could have been'."},
+    {"text": "so the crisis is avoidable.", "is_correct": false, "why_wrong": "'So' introduces a consequence rather than a hypothetical past outcome, and the present tense does not match the past condition."},
+    {"text": "the crisis could have been avoided.", "is_correct": true, "why_wrong": null},
+    {"text": "the crisis would avoid itself.", "is_correct": false, "why_wrong": "This is not a natural English expression. The idea needs a passive form, and the reflexive sense of 'avoid' is not idiomatic here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had' before the subject",
+  "connector": "Had",
+  "explanation": "The stem is an inverted third conditional, which replaces 'if' with 'had' placed before the subject. The result therefore needs a perfect modal such as 'could have' to match the past condition. Learners often use a simple present or simple conditional here, because the past condition and its result must be linked through the same time frame.",
+  "translation": "Se o gerente tivesse sido informado mais cedo, a crise poderia ter sido evitada."
+}
