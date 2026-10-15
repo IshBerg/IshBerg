@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Where did you put my keys? I looked everywhere, but",
+  "correct_completion": "I still cannot find them.",
+  "full_sentence": "Where did you put my keys? I looked everywhere, but I still cannot find them.",
+  "acceptable_variants": ["I still have not found them.", "they are not in any room."],
+  "options": [
+    {"text": "I still cannot find them.", "is_correct": true, "why_wrong": null},
+    {"text": "so I found them in the kitchen.", "is_correct": false, "why_wrong": "'So' introduces a result that follows logically from the first part. The stem asks for a contrast, so 'but' must be followed by a negative or unexpected result."},
+    {"text": "because they are very big.", "is_correct": false, "why_wrong": "'Because' gives a reason, but keys are not usually described as a reason for searching everywhere."},
+    {"text": "when I went to the shop.", "is_correct": false, "why_wrong": "This gives a time reference, but it does not complete the contrast started by 'but'."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' after a clause describing an action",
+  "connector": "but",
+  "explanation": "After 'but', the sentence needs a clause that shows a contrast with the first part. Here the speaker searched everywhere, so the contrast is that the keys were still not found.",
+  "translation": "Onde você colocou minhas chaves? Eu procurei em todos os lugares, mas ainda não consigo encontrá-las."
+}
