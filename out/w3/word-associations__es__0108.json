@@ -1,0 +1,14 @@
+{
+  "trigger_word": "river",
+  "all_words": [
+    {"word": "water", "is_associated": true, "association_type": "THEMATIC", "explanation": "El agua es el elemento principal que forma un río."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Un lápiz no tiene ninguna relación con los ríos."},
+    {"word": "fish", "is_associated": true, "association_type": "THEMATIC", "explanation": "Muchos peces viven en los ríos, por eso están relacionados con ellos."},
+    {"word": "bank", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión 'river bank' significa la orilla de un río."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Una silla no tiene relación con los ríos."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Una nube pertenece al tiempo atmosférico, no al entorno de un río."}
+  ],
+  "correct_indices": [0, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'river' son agua, peces y orilla; las demás no pertenecen al tema de los ríos."
+}
