@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The proposal was thoroughly researched; nevertheless,",
+  "correct_completion": "the committee rejected it unanimously.",
+  "full_sentence": "The proposal was thoroughly researched; nevertheless, the committee rejected it unanimously.",
+  "acceptable_variants": ["the committee still declined to approve it.", "the board voted against it without any dissent."],
+  "options": [
+    {"text": "furthermore, the committee praised its scope.", "is_correct": false, "why_wrong": "'Furthermore' adds information in the same direction and does not contrast with the thorough research that 'nevertheless' sets up."},
+    {"text": "the committee rejected it unanimously.", "is_correct": true, "why_wrong": null},
+    {"text": "therefore, the committee approved it without debate.", "is_correct": false, "why_wrong": "'Therefore' introduces a consequence, which conflicts with the contrast that 'nevertheless' signals."},
+    {"text": "the committee had not yet met.", "is_correct": false, "why_wrong": "This is a neutral fact that gives no contrast with the quality of the research and does not complete the discourse pattern."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive discourse marker 'nevertheless' linking two independent clauses",
+  "connector": "nevertheless",
+  "explanation": "'Nevertheless' signals a contrast with the preceding clause, so the completion must oppose the thorough research. Ukrainian speakers may reach for a result marker such as 'therefore' here, because a consequence connector is a common default in their first language, but English contrast markers need an opposing clause.",
+  "translation": "Пропозицію ретельно вивчили; тим не менш комітет одноголосно її відхилив."
+}
