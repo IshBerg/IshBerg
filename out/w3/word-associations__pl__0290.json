@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doubt",
+  "all_words": [
+    {"word": "uncertainty", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Słowo 'uncertainty' (niepewność) jest bliskoznaczne z wątpliwością, dlatego jest semantycznie powiązane z 'doubt'."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Słowo 'table' (stół) nie ma ani znaczeniowego, ani kolokacyjnego związku z 'doubt', więc nie jest powiązane."},
+    {"word": "hesitation", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Słowo 'hesitation' (wahanie) opisuje stan niepewności i często pojawia się w tym samym kontekście co wątpliwość."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Słowo 'river' (rzeka) nie ma żadnego związku z pojęciem wątpliwości, więc nie jest powiązane."},
+    {"word": "reasonable", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Połączenie 'reasonable doubt' (uzasadniona wątpliwość) jest stałym wyrażeniem angielskim, więc słowo jest kolokacyjnie powiązane."},
+    {"word": "cast", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'cast' w połączeniu 'cast doubt' (podawać w wątpliwość) jest typową kolokacją, więc jest powiązany."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'doubt' łączy się z synonimami niepewności oraz ze stałymi wyrażeniami takimi jak 'reasonable doubt' i 'cast doubt', a nie z przedmiotami codziennego użytku ani z miejscami."
+}

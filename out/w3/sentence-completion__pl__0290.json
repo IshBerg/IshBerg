@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you leave the room,",
+  "correct_completion": "please turn off the light.",
+  "full_sentence": "Before you leave the room, please turn off the light.",
+  "acceptable_variants": ["please close the window.", "please close the door."],
+  "options": [
+    {"text": "you are very tired.", "is_correct": false, "why_wrong": "This is a statement about how you feel. It is not an instruction, so it does not complete the request the sentence needs."},
+    {"text": "the room is very big.", "is_correct": false, "why_wrong": "This describes the room. It does not give an action to do before you leave."},
+    {"text": "please turn off the light.", "is_correct": true, "why_wrong": null},
+    {"text": "I like the color blue.", "is_correct": false, "why_wrong": "This gives an opinion. The sentence needs an imperative, a polite command to do something."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Imperatives after a time clause with 'before'",
+  "connector": "before",
+  "explanation": "After 'before' and a clause with 'you', the main clause is an imperative: the base verb with no subject, such as 'turn off' or 'close'. Polish speakers often add a subject or use a full sentence here, but English imperatives start directly with the verb.",
+  "translation": "Zanim wyjdziesz z pokoju, proszę wyłącz światło."
+}
