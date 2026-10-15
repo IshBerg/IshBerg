@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "L", "A", "I", "M", "Q", "K", "W", "Z", "E"],
+    ["P", "R", "J", "G", "B", "F", "X", "Y", "U", "V"],
+    ["Y", "D", "T", "O", "H", "N", "L", "A", "B", "I"],
+    ["M", "S", "A", "H", "R", "T", "Q", "P", "O", "D"],
+    ["G", "W", "J", "K", "E", "L", "X", "B", "F", "E"],
+    ["U", "Z", "P", "R", "W", "S", "A", "K", "T", "N"],
+    ["Y", "L", "M", "D", "G", "Q", "I", "V", "W", "C"],
+    ["K", "T", "Z", "B", "H", "J", "P", "S", "X", "E"],
+    ["F", "C", "O", "U", "N", "T", "E", "R", "Y", "Z"],
+    ["W", "Q", "B", "K", "J", "X", "M", "D", "L", "P"]
+  ],
+  "words_to_find": ["CLAIM", "EVIDENCE", "THESIS", "COUNTER"],
+  "word_positions": [
+    {"word": "CLAIM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "THESIS", "start_row": 2, "start_col": 2, "direction": "DIAGONAL_DOWN"},
+    {"word": "COUNTER", "start_row": 8, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "The Argumentative Essay"
+}

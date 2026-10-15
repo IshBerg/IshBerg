@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "фабула", "transliteration": "fabula", "meaning": "plot of a story"},
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop, store"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, current"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"}
+  ],
+  "english_words": ["factory", "plot", "shop", "relevant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each of these four Ukrainian words looks close to an English word with a different meaning. 'Fabula' (plot) resembles 'fable', 'mahazyn' (shop) resembles 'magazine', 'aktualnyi' (relevant) resembles 'actual', and 'fabryka' (factory) resembles 'fabric'. The similar forms can mislead learners who read a short story.",
+  "false_friend_warning": "Warning: the Ukrainian word 'mahazyn' means a shop, but the English word 'magazine' means a periodical, so never translate 'mahazyn' as 'magazine'."
+}
