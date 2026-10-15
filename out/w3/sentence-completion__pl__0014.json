@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she studied harder,",
+  "correct_completion": "she would have passed the exam.",
+  "full_sentence": "Had she studied harder, she would have passed the exam.",
+  "acceptable_variants": ["she would have earned a top grade.", "she would have felt much more confident."],
+  "options": [
+    {"text": "she passes the exam every year.", "is_correct": false, "why_wrong": "A present habitual form does not fit the unreal past condition set up by the stem."},
+    {"text": "she would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she will pass the exam next week.", "is_correct": false, "why_wrong": "A future form with 'will' does not express the imagined past result that the stem requires."},
+    {"text": "she has already passed the exam.", "is_correct": false, "why_wrong": "The present perfect states a real completed fact, not an imagined result of the unreal condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had'",
+  "connector": "had",
+  "explanation": "The stem begins with an inverted form of 'had' in place of 'if', which signals an unreal past condition. The main clause therefore needs 'would have' plus a past participle to express the imagined result.",
+  "translation": "Gdyby uczyła się ciężej, zdałaby egzamin."
+}
