@@ -1,0 +1,25 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["L", "O", "N", "G", "X", "Q", "T", "K", "V", "Z"],
+    ["B", "I", "R", "D", "P", "J", "E", "U", "W", "Y"],
+    ["K", "C", "Q", "A", "W", "H", "R", "O", "P", "F"],
+    ["T", "G", "J", "S", "N", "V", "M", "I", "Y", "B"],
+    ["H", "K", "U", "Z", "E", "Q", "C", "R", "X", "T"],
+    ["P", "A", "Y", "G", "D", "O", "W", "E", "L", "L"],
+    ["M", "J", "N", "F", "B", "Z", "I", "K", "U", "V"],
+    ["Q", "T", "L", "D", "H", "R", "Y", "W", "A", "G"],
+    ["O", "E", "X", "P", "U", "I", "E", "D", "A", "M"],
+    ["S", "H", "C", "J", "I", "B", "G", "O", "X", "L"]
+  ],
+  "words_to_find": ["LONG", "TERM", "HAND", "MADE", "SELF", "WELL"],
+  "word_positions": [
+    {"word": "LONG", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TERM", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "HAND", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MADE", "start_row": 8, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SELF", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "WELL", "start_row": 5, "start_col": 6, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Compound Adjectives"
+}
