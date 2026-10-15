@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"},
+    {"word": "actualmente", "transliteration": "actualmente", "meaning": "currently"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive"}
+  ],
+  "english_words": ["sensitive", "currently", "folder", "bookstore"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each Spanish word looks very similar to an English word that means something different, so learners who translate by appearance will choose the wrong meaning.",
+  "false_friend_warning": "The Spanish word for bookstore looks like the English word library, the Spanish word for folder looks like carpet, the Spanish word for currently looks like actual, and the Spanish word for sensitive looks like sensible. Translate by meaning, not by look."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna can speak English, but",
+  "correct_completion": "she can't speak German.",
+  "full_sentence": "Anna can speak English, but she can't speak German.",
+  "acceptable_variants": ["she cannot speak German.", "she can't understand German."],
+  "options": [
+    {"text": "she likes speaking English very much.", "is_correct": false, "why_wrong": "This describes her feelings about English, not an ability that contrasts with the first part."},
+    {"text": "she speaks English every day.", "is_correct": false, "why_wrong": "This repeats the idea of speaking English, so it does not contrast with the first part."},
+    {"text": "she is from Spain.", "is_correct": false, "why_wrong": "This gives her origin, not an ability, so it does not complete the contrast started by 'but'."},
+    {"text": "she can't speak German.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' and ability with 'can' and 'can't'",
+  "connector": "but",
+  "explanation": "The word 'but' signals a contrast, so the second part must show something Anna cannot do. Spanish speakers often use a verb that means know to talk about ability, so they may need extra practice with can and can't.",
+  "translation": "Anna puede hablar inglés, pero no puede hablar alemán."
+}
