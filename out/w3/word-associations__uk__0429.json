@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Грім супроводжує грозу, тому це слово семантично пов'язане зі штормом."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гори не є частиною бурі, тому цей зв'язок відсутній."},
+    {"word": "lightning", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Блискавка є типовим явищем під час грози, тому вона пов'язана зі штормом."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим не має жодного відношення до природних штормів."},
+    {"word": "rain", "is_associated": true, "association_type": "THEMATIC", "explanation": "Дощ часто йде разом зі штормом, тому це тематичний зв'язок."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Бутерброд не пов'язаний зі штормами ні змістом, ні ситуацією."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово storm пов'язане з природними явищами, такими як грім, блискавка та дощ, а предмети на кшталт килима чи бутерброда до нього не належать."
+}

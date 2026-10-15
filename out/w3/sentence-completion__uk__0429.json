@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although my phone battery was almost empty,",
+  "correct_completion": "I still sent the message to my friend.",
+  "full_sentence": "Although my phone battery was almost empty, I still sent the message to my friend.",
+  "acceptable_variants": ["I still texted her.", "I still wrote back quickly."],
+  "options": [
+    {"text": "I forgot to send it at all.", "is_correct": false, "why_wrong": "'Forgot' describes a failure to act, which does not complete the contrast expected after 'although'."},
+    {"text": "I still sent the message to my friend.", "is_correct": true, "why_wrong": null},
+    {"text": "so the phone was switched off.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. After 'although', the sentence needs a clause that contrasts with the first part."},
+    {"text": "the battery was quite old.", "is_correct": false, "why_wrong": "This adds information about the battery but does not give the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Learners often pick a result clause with 'so' because it feels like a simple logical link.",
+  "translation": "Хоча в телефоні майже сів акумулятор, я все одно надіслав повідомлення другу."
+}
