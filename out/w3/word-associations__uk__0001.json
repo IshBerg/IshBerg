@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hypothesis",
+  "all_words": [
+    {"word": "experiment", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Експеримент є основним способом перевірити гіпотезу, тому ці слова тісно пов'язані за змістом."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не має жодного логічного зв'язку з гіпотезою ні за змістом, ні за вживанням."},
+    {"word": "theory", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Гіпотеза часто стає основою для теорії або перевіряється як частина її розвитку."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим не належить до наукової термінології і не пов'язаний із гіпотезами."},
+    {"word": "evidence", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "У науковій мові гіпотезу підтверджують або спростовують доказами, тому слова часто поєднуються."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Бутерброд не має відношення до наукових понять і гіпотез."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'hypothesis' пов'язане з науковим дослідженням: із експериментами, теоріями та доказами, які його перевіряють."
+}
