@@ -1,0 +1,14 @@
+{
+  "trigger_word": "premise",
+  "all_words": [
+    {"word": "conclusion", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Em argumentação, a conclusão é o que se deduz das premissas; os dois termos formam um par lógico direto."},
+    {"word": "lament", "is_associated": false, "association_type": "NONE", "explanation": "Lamentar significa expressar tristeza ou pesar, sem qualquer relação com a estrutura lógica de um argumento."},
+    {"word": "premium", "is_associated": true, "association_type": "PHONETIC", "explanation": "Premium compartilha o prefixo sonoro 'prem-' com premise, o que pode gerar confusão de pronúncia e de grafia entre os dois."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Carpete é um objeto de decoração e não tem nenhuma ligação semântica, temática ou sonora com premise."},
+    {"word": "syllogism", "is_associated": true, "association_type": "THEMATIC", "explanation": "O silogismo é a forma clássica de raciocínio dedutivo composta de duas premissas e uma conclusão, por isso pertence ao mesmo campo temático."},
+    {"word": "tablecloth", "is_associated": false, "association_type": "NONE", "explanation": "Toalha de mesa pertence ao vocabulário doméstico e não tem relação com raciocínio ou argumentação."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra premise se associa a conclusão e a silogismo, que fazem parte da estrutura lógica do argumento, e também a premium por semelhança sonora; lamentar, carpete e toalha de mesa não têm relação com o termo."
+}
