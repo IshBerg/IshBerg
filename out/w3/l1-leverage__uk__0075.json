@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "вагон", "transliteration": "vahon", "meaning": "railway carriage"},
+    {"word": "рейс", "transliteration": "reys", "meaning": "flight"},
+    {"word": "перон", "transliteration": "peron", "meaning": "platform"},
+    {"word": "пасажир", "transliteration": "pasazhyr", "meaning": "passenger"}
+  ],
+  "english_words": ["flight", "passenger", "carriage", "platform"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Several travel words entered both languages through the same international railway and aviation vocabulary, so their forms stayed close.",
+  "false_friend_warning": "The Ukrainian word vahon looks like English 'wagon', but in this card it means a railway carriage. In English, 'wagon' usually means a cart or a goods truck, so do not pick 'wagon' here."
+}
