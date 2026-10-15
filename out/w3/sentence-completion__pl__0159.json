@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If she had studied harder,",
+  "correct_completion": "she would have passed the exam.",
+  "full_sentence": "If she had studied harder, she would have passed the exam.",
+  "acceptable_variants": ["she would have got a higher grade.", "she would have been much happier."],
+  "options": [
+    {"text": "she passes the exam now.", "is_correct": false, "why_wrong": "This uses a present simple tense, which does not match the past perfect and 'would have' structure of a third conditional."},
+    {"text": "she will pass the exam tomorrow.", "is_correct": false, "why_wrong": "A future form does not complete a third conditional; the result clause needs 'would have' followed by a past participle."},
+    {"text": "she would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she would pass the exam every day.", "is_correct": false, "why_wrong": "'Would pass' describes a general habit, not the imagined past result of an unreal past condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: 'would have' plus past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an unreal past situation and its imagined result. The if-clause uses the past perfect, and the result clause uses 'would have' with a past participle. Polish speakers may be tempted to use a simple past form in both clauses, because Polish conditional forms do not change in this way.",
+  "translation": "Gdyby ona uczyła się ciężej, zdałaby egzamin."
+}

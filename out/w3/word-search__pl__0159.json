@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "E", "L", "L", "K", "N", "O", "W", "N", "H"],
+    ["T", "S", "O", "C", "W", "O", "L", "X", "Q", "O"],
+    ["S", "B", "R", "J", "K", "Y", "P", "T", "G", "M"],
+    ["Z", "E", "I", "K", "G", "N", "Q", "H", "V", "E"],
+    ["P", "X", "L", "Z", "T", "D", "B", "R", "K", "M"],
+    ["J", "Q", "Y", "F", "N", "V", "H", "C", "W", "A"],
+    ["C", "G", "U", "P", "M", "S", "J", "K", "Z", "D"],
+    ["N", "B", "T", "W", "R", "A", "L", "Q", "X", "E"],
+    ["K", "F", "Y", "H", "U", "J", "D", "P", "S", "T"],
+    ["G", "V", "N", "Z", "B", "C", "O", "E", "I", "R"]
+  ],
+  "words_to_find": ["WELLKNOWN", "HOMEMADE", "SELFMADE", "LOWCOST"],
+  "word_positions": [
+    {"word": "WELLKNOWN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOMEMADE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SELFMADE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LOWCOST", "start_row": 1, "start_col": 6, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Compound Adjectives"
+}
