@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results appear to suggest that",
+  "correct_completion": "the new method may be more effective than the old one.",
+  "full_sentence": "The results appear to suggest that the new method may be more effective than the old one.",
+  "acceptable_variants": ["the new method could be more effective than the old one.", "the new approach might work better than the old one."],
+  "options": [
+    {"text": "the new method is definitely the best.", "is_correct": false, "why_wrong": "The stem is hedged with 'appear to suggest', so a flat claim of certainty contradicts its cautious tone."},
+    {"text": "the new method may be more effective than the old one.", "is_correct": true, "why_wrong": null},
+    {"text": "the old method has been proven completely wrong.", "is_correct": false, "why_wrong": "This states a strong conclusion without hedging, so it does not continue the tentative claim begun in the stem."},
+    {"text": "the new method was tested by three teams.", "is_correct": false, "why_wrong": "This is a statement of fact about testing. It does not complete the claim about effectiveness that the stem introduces."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Epistemic modal verbs for hedging (may, could, might)",
+  "connector": "may",
+  "explanation": "After 'appear to suggest', writers soften a claim with an epistemic modal such as 'may'. Ukrainian speakers often state the same claim as certain, because Ukrainian softens statements mainly through particles and word choice rather than a modal verb.",
+  "translation": "Результати, схоже, свідчать про те, що новий метод може бути ефективнішим за старий."
+}
