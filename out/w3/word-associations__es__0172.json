@@ -1,0 +1,14 @@
+{
+  "trigger_word": "fire",
+  "all_words": [
+    {"word": "flame", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La llama es la parte visible del fuego, así que está directamente relacionada con 'fire'."},
+    {"word": "ice", "is_associated": false, "association_type": "NONE", "explanation": "El hielo es frío y es lo contrario del fuego, por eso no está asociado con 'fire'."},
+    {"word": "smoke", "is_associated": true, "association_type": "THEMATIC", "explanation": "El humo aparece casi siempre cuando hay un incendio, por eso pertenece al mismo tema."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "El desierto es un lugar seco con arena y no tiene relación con el fuego."},
+    {"word": "heat", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El calor es una característica del fuego y está muy relacionado con él."},
+    {"word": "firefighter", "is_associated": true, "association_type": "THEMATIC", "explanation": "El bombero apaga incendios, así que está relacionado con el tema del fuego."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'fire' son las que describen el fuego, sus efectos o a las personas que lo combaten."
+}

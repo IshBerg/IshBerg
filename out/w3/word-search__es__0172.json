@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "L", "A", "N", "X", "Y", "B"],
+    ["K", "Q", "J", "L", "V", "H", "R"],
+    ["D", "F", "G", "T", "Z", "W", "E"],
+    ["K", "P", "J", "E", "Q", "L", "A"],
+    ["V", "C", "B", "A", "F", "X", "K"],
+    ["H", "N", "Z", "M", "D", "V", "C"],
+    ["S", "T", "R", "O", "N", "G", "Q"]
+  ],
+  "words_to_find": ["PLAN", "BREAK", "STRONG", "TEA"],
+  "word_positions": [
+    {"word": "PLAN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BREAK", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "STRONG", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TEA", "start_row": 2, "start_col": 3, "direction": "VERTICAL"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}
