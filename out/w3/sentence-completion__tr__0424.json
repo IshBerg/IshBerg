@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you book before Friday,",
+  "correct_completion": "you will get a 10% discount.",
+  "full_sentence": "If you book before Friday, you will get a 10% discount.",
+  "acceptable_variants": ["you will save 10%.", "you will pay less."],
+  "options": [
+    {"text": "the hotel is closed on Sundays.", "is_correct": false, "why_wrong": "This is a fact about the hotel's opening hours. It does not give the result of the condition, which must be a consequence of booking early."},
+    {"text": "you can see the beach from the room.", "is_correct": false, "why_wrong": "This describes the view, but it does not answer the condition. The main clause must give the result of booking before Friday."},
+    {"text": "you will get a 10% discount.", "is_correct": true, "why_wrong": null},
+    {"text": "you bought a ticket yesterday.", "is_correct": false, "why_wrong": "The past simple refers to a finished past action. It does not fit a future result after a conditional 'if' clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "The 'if' clause sets a possible future condition, and the main clause after the comma gives the result. Use 'will' with the base verb in the main clause for a likely future result.",
+  "translation": "Cuma gününden önce rezervasyon yaparsanız %10 indirim kazanırsınız."
+}
