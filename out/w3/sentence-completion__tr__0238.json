@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the team followed the safety rules,",
+  "correct_completion": "the accident would have been avoided.",
+  "full_sentence": "Had the team followed the safety rules, the accident would have been avoided.",
+  "acceptable_variants": ["the accident would have been prevented.", "the injuries would not have occurred."],
+  "options": [
+    {"text": "the accident happens every week.", "is_correct": false, "why_wrong": "The present simple does not match the past condition 'had followed'. The main clause must express an unrealized past result."},
+    {"text": "the accident will be avoided.", "is_correct": false, "why_wrong": "'Will' does not match a third conditional. After 'had followed', the main clause needs 'would have' plus a past participle."},
+    {"text": "the accident was avoiding them.", "is_correct": false, "why_wrong": "The past continuous describes an ongoing process. The stem needs the result of an unrealized condition, not a process."},
+    {"text": "the accident would have been avoided.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and 'would have' + past participle",
+  "connector": "had ... (inverted conditional)",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'If'. The main clause must express the unrealized past result with 'would have' and a past participle, so the completion must describe what would have happened.",
+  "translation": "Ekip güvenlik kurallarını izleseydi, kaza önlenmiş olurdu."
+}
