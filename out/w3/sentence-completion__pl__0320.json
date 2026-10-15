@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He said that he",
+  "correct_completion": "had lost his keys at the station.",
+  "full_sentence": "He said that he had lost his keys at the station.",
+  "acceptable_variants": ["had misplaced his keys at the station."],
+  "options": [
+    {"text": "will lose his keys at the station.", "is_correct": false, "why_wrong": "In reported speech, 'will' shifts back to 'would' after a past reporting verb, so 'will' is incorrect here."},
+    {"text": "is losing his keys at the station.", "is_correct": false, "why_wrong": "The present continuous shifts back to the past continuous in reported speech, so 'is losing' does not fit."},
+    {"text": "had lost his keys at the station.", "is_correct": true, "why_wrong": null},
+    {"text": "has lost his keys at the station.", "is_correct": false, "why_wrong": "The present perfect shifts back to the past perfect in reported speech, so 'has lost' is incorrect."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Backshifting of tenses in reported speech after a past reporting verb",
+  "connector": "said that",
+  "explanation": "After a past reporting verb such as 'said', the tense of the original statement moves one step back in time. The present perfect of the direct speech becomes the past perfect in reported speech.",
+  "translation": "Powiedział, że zgubił klucze na stacji."
+}

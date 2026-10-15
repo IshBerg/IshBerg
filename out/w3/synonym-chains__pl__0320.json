@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "drowsy", "intensity": 1, "translation": "senny", "nuance": "mild sleepiness that makes it hard to stay alert"},
+    {"word": "weary", "intensity": 2, "translation": "znużony", "nuance": "tiredness from long strain, routine, or boredom"},
+    {"word": "tired", "intensity": 3, "translation": "zmęczony", "nuance": "general state of needing rest"},
+    {"word": "exhausted", "intensity": 4, "translation": "wycieńczony", "nuance": "extreme tiredness after great effort"},
+    {"word": "depleted", "intensity": 5, "translation": "całkowicie wyczerpany", "nuance": "drained of all energy, as if nothing is left"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe lacking energy, but they rise in intensity from mild drowsiness to a state in which all energy seems used up.",
+  "usage_notes": [
+    {"word1": "weary", "word2": "tired", "difference": "'Weary' suggests tiredness caused by long strain, routine, or boredom and sounds more literary; 'tired' is the general, everyday word for needing rest."}
+  ],
+  "translations": {"drowsy": "senny", "weary": "znużony", "tired": "zmęczony", "exhausted": "wycieńczony", "depleted": "całkowicie wyczerpany"}
+}
