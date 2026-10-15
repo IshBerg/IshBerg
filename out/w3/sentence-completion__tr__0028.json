@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the sample was too small,",
+  "correct_completion": "the researchers could not generalize their findings.",
+  "full_sentence": "Because the sample was too small, the researchers could not generalize their findings.",
+  "acceptable_variants": ["the researchers were unable to apply the results to the wider population.", "the conclusions could not be considered representative."],
+  "options": [
+    {"text": "the researchers were generalized by the findings.", "is_correct": false, "why_wrong": "The passive 'were generalized' has the wrong meaning. The verb 'generalize' needs a human subject who makes the generalization, so this does not express the consequence of the small sample."},
+    {"text": "the researchers could not generalize their findings.", "is_correct": true, "why_wrong": null},
+    {"text": "the findings were published in a major journal.", "is_correct": false, "why_wrong": "This describes a result that does not follow from a small sample. The stem sets up a consequence, so the completion must show a limitation caused by the small size."},
+    {"text": "the sample was increased to a hundred people.", "is_correct": false, "why_wrong": "This contradicts the stem and changes the situation rather than completing it. The stem already states the sample was too small, so the completion must describe the effect."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clauses with 'because' and modal 'could not' in reports",
+  "connector": "because",
+  "explanation": "The connector 'because' introduces a cause, so the completion must state the effect of that cause. The correct option expresses a limitation that follows from the small sample, using a modal to describe what the researchers were unable to do.",
+  "translation": "Örneklem çok küçük olduğu için araştırmacılar bulgularını genelleyemedi."
+}
