@@ -1,0 +1,14 @@
+{
+  "trigger_word": "research",
+  "all_words": [
+    {"word": "conduct", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Conduct research' (araştırma yürütmek) yaygın bir eş-dizimdir; bu yüzden bu kelime 'research' ile kolokasyonel olarak bağlantılıdır."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "Şemsiye akademik araştırma ile ne anlamsal ne de tematik olarak ilgilidir, bu yüzden bağlantılı değildir."},
+    {"word": "study", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Study' (çalışma, inceleme) 'research' ile anlamca çok yakın bir kelimedir."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sandviç günlük bir yiyecektir ve araştırma kavramıyla hiçbir anlamsal bağı yoktur."},
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Laboratuvar, araştırmaların yapıldığı tipik bir mekân olduğu için tematik olarak ilgilidir."},
+    {"word": "findings", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Findings' (bulgular), bir araştırmanın sonuçlarını ifade ettiği için tematik olarak ilgilidir."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Research' kelimesi; yürütülen çalışmalar, kullanılan mekânlar ve elde edilen sonuçlarla ilişkilidir, günlük nesneler ise bu çerçevenin dışında kalır."
+}
