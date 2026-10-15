@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "tired", "intensity": 1, "translation": "cansado", "nuance": "needing rest after activity"},
+    {"word": "weary", "intensity": 2, "translation": "fatigado", "nuance": "tired in a way that feels heavy or long-lasting"},
+    {"word": "drained", "intensity": 3, "translation": "agotado", "nuance": "emptied of energy, physically or emotionally"},
+    {"word": "exhausted", "intensity": 4, "translation": "exhausto", "nuance": "extremely tired, with no energy left"},
+    {"word": "spent", "intensity": 5, "translation": "extenuado", "nuance": "completely worn out, at the very limit"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express tiredness but with different intensities, from needing a rest to being completely worn out.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "exhausted", "difference": "'Tired' describes a normal need for rest; 'exhausted' describes a much stronger state with no energy left."}
+  ],
+  "translations": {"tired": "cansado", "weary": "fatigado", "drained": "agotado", "exhausted": "exhausto", "spent": "extenuado"}
+}
