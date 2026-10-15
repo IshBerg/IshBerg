@@ -1,0 +1,14 @@
+{
+  "trigger_word": "cake",
+  "all_words": [
+    {"word": "candle", "is_associated": true, "association_type": "THEMATIC", "explanation": "As velas geralmente ficam em cima do bolo de aniversário."},
+    {"word": "party", "is_associated": true, "association_type": "THEMATIC", "explanation": "O bolo é comido na festa, por isso as duas palavras estão ligadas."},
+    {"word": "sugar", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O açúcar é um ingrediente comum em um bolo."},
+    {"word": "book", "is_associated": false, "association_type": "NONE", "explanation": "Livro não tem nenhuma relação com bolo."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Sapato não tem nenhuma relação com bolo."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Janela não tem nenhuma relação com bolo."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao bolo são as que aparecem na festa de aniversário ou fazem parte da receita do bolo."
+}
