@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bus is late again, so",
+  "correct_completion": "I will walk to school today.",
+  "full_sentence": "The bus is late again, so I will walk to school today.",
+  "acceptable_variants": ["I will take my bike instead.", "I will ask my dad for a ride."],
+  "options": [
+    {"text": "the bus is very yellow.", "is_correct": false, "why_wrong": "This describes the bus, but it does not give a result of the bus being late."},
+    {"text": "I will walk to school today.", "is_correct": true, "why_wrong": null},
+    {"text": "but I am still at home.", "is_correct": false, "why_wrong": "'But' signals a contrast, while 'so' needs a result. This does not follow from the bus being late."},
+    {"text": "because the bus is green.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but the stem already needs a result after 'so'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', the sentence must give the result of the first clause. Here the late bus leads to a decision to walk instead.",
+  "translation": "Автобус знову спізнюється, тому я піду до школи сьогодні."
+}
