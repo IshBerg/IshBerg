@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was raining, so",
+  "correct_completion": "I took my umbrella.",
+  "full_sentence": "It was raining, so I took my umbrella.",
+  "acceptable_variants": ["I wore my raincoat.", "I carried an umbrella."],
+  "options": [
+    {"text": "I went to the beach.", "is_correct": false, "why_wrong": "Going to the beach does not follow from rain. The word 'so' needs a logical result of the rain."},
+    {"text": "the sun was shining.", "is_correct": false, "why_wrong": "This contradicts the rain and is not a result of it."},
+    {"text": "I took my umbrella.", "is_correct": true, "why_wrong": null},
+    {"text": "my favorite color is blue.", "is_correct": false, "why_wrong": "This is a fact about the speaker, not a result of the rain."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Using 'so' to show a result",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result. The second part of the sentence happens because of the first part, so the completion must be a sensible action that follows from the rain. Speakers sometimes confuse 'so' with 'because', which comes before the reason in a sentence that begins with the result.",
+  "translation": "Estaba lloviendo, así que llevé mi paraguas."
+}
