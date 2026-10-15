@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "bar",
+  "collocate": "chart",
+  "full_collocation": "bar chart",
+  "options": ["chart bar", "bar chart", "bar table", "chart line"],
+  "correct_index": 1,
+  "distractors": [
+    {"word": "chart bar", "reason": "English places the modifying noun first, so 'bar chart' is the fixed name. 'Chart bar' reverses the order and sounds unnatural."},
+    {"word": "bar table", "reason": "A table of numbers is not called a 'bar table'. The fixed term for a chart with bars is 'bar chart'."},
+    {"word": "chart line", "reason": "'Line chart' is the fixed term for a line-based graph. 'Chart line' reverses the order and is not a standard collocation."}
+  ],
+  "example_sentence": "The sales figures for each region are shown clearly in the ___ on page three.",
+  "gap_position": 8,
+  "translation": "стовпчаста діаграма",
+  "l1_interference": "Носії української часто ставлять уточнювальне слово після основного, тому кажуть 'chart bar' замість правильного 'bar chart'. В українській мові порядок слів інший, тож його варто запам'ятати як фіксований термін.",
+  "common_mistake": "chart bar",
+  "explanation": "In English compound nouns, the first noun usually describes the type of the second noun. A 'bar chart' is a type of chart that uses bars, so 'bar' comes first.",
+  "related_collocations": [
+    {"collocation": "pie chart", "translation": "кругова діаграма", "example": "The pie chart shows how the budget is divided between departments."},
+    {"collocation": "line graph", "translation": "лінійний графік", "example": "The line graph shows a steady rise in monthly profits."},
+    {"collocation": "data set", "translation": "набір даних", "example": "The researchers analysed a large data set collected over five years."}
+  ],
+  "memory_tip": "BAR CHART = the type of chart (bars) comes first, the object (chart) comes last | CHART BAR = wrong order"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she studied harder,",
+  "correct_completion": "she would have passed the exam.",
+  "full_sentence": "Had she studied harder, she would have passed the exam.",
+  "acceptable_variants": ["she would have achieved a better grade.", "she would have succeeded."],
+  "options": [
+    {"text": "she passes the exam easily.", "is_correct": false, "why_wrong": "The inverted 'Had' clause describes a past hypothetical situation, so the result must use a past conditional, not a present simple verb."},
+    {"text": "she would have passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she would pass the exam yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a past time reference that conflicts with the bare modal 'would pass'. The third conditional needs 'would have' plus a past participle."},
+    {"text": "she has passed the exam.", "is_correct": false, "why_wrong": "The present perfect states a real result. It does not complete the hypothetical meaning set up by the inverted conditional."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional using 'Had + subject + past participle'",
+  "connector": "had",
+  "explanation": "In an inverted conditional, 'Had' replaces 'If' and the subject comes before the past participle. The main clause then uses 'would have' plus a past participle to describe an unreal past result.",
+  "translation": "Se ela tivesse estudado mais, teria passado no exame."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "research",
+  "all_words": [
+    {"word": "study", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Estudo e pesquisa têm sentido muito próximo, pois ambos envolvem investigar um assunto de forma sistemática."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bicicleta não tem relação com a pesquisa acadêmica nem com o seu vocabulário."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Hipótese é uma palavra que aparece com frequência em combinações como 'research hypothesis', ou seja, hipótese de pesquisa."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Tapete é um objeto doméstico sem ligação com a pesquisa."},
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Laboratório é um local típico onde a pesquisa científica acontece, por isso pertence ao mesmo tema."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Sapato não se relaciona com o tema da pesquisa."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra research está ligada a estudo, hipótese e laboratório, enquanto bicicleta, tapete e sapato não têm relação com a pesquisa acadêmica."
+}

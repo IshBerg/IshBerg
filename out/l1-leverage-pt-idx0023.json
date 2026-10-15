@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend or plan, not to pretend"},
+    {"word": "esquisito", "transliteration": "esquisito", "meaning": "strange or odd, not exquisite"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current or present, not actual in the sense of real"},
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold, not constipated"}
+  ],
+  "english_words": ["cold", "intend", "current", "strange"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words look like English words because they share Latin roots, but their Portuguese meanings have shifted, so the forms look close while the senses diverge.",
+  "false_friend_warning": "Portuguese 'pretender' means to intend, not to pretend; 'esquisito' means strange, not exquisite; 'actual' means current, not actual; and 'constipado' means having a cold, not constipated. Each English look-alike is a false friend."
+}

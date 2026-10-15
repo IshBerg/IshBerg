@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "dog",
+  "collocate": "food",
+  "full_collocation": "dog food",
+  "options": ["house", "food", "farm", "bed"],
+  "correct_index": 1,
+  "distractors": [
+    {"word": "house", "reason": "'Dog house' is a real phrase, but it is a place where a dog sleeps. It is not something a dog eats, so it does not fit 'Give it some ___'."},
+    {"word": "farm", "reason": "A farm is a place where animals live. We do not say 'give it some farm'."},
+    {"word": "bed", "reason": "A bed is for sleeping. It is not food, so it does not fit the sentence."}
+  ],
+  "example_sentence": "My dog is hungry. Give it some ___.",
+  "gap_position": 7,
+  "translation": "comida para cachorro",
+  "l1_interference": "Em português dizemos 'comida de cachorro', com a palavra principal primeiro. Em inglês, a palavra que descreve (dog) vem antes da palavra principal (food). Por isso, alguns alunos dizem 'food dog' por engano.",
+  "common_mistake": "food dog",
+  "explanation": "In English, the first noun often describes the second noun. 'Dog food' means food for a dog. The order is 'dog' first, 'food' second.",
+  "related_collocations": [
+    {"collocation": "cat food", "translation": "comida para gato", "example": "We buy cat food at the shop."},
+    {"collocation": "dog bowl", "translation": "tigela para cachorro", "example": "The dog bowl is under the table."},
+    {"collocation": "farm animal", "translation": "animal de fazenda", "example": "A cow is a farm animal."}
+  ],
+  "memory_tip": "DOG first, FOOD second: the first noun describes the second (dog food = food for a dog)."
+}

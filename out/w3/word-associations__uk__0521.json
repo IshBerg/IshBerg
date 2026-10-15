@@ -1,0 +1,14 @@
+{
+  "trigger_word": "mirror",
+  "all_words": [
+    {"word": "reflection", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Відображення — це те, що ми бачимо в дзеркалі."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не пов'язана з дзеркалом і не використовується разом із ним."},
+    {"word": "comb", "is_associated": true, "association_type": "THEMATIC", "explanation": "Гребінець люди часто використовують разом із дзеркалом, коли причісуються."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно — музичний інструмент, він не має жодного відношення до дзеркала."},
+    {"word": "glass", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Дзеркало зроблено зі скла, тому слово 'glass' тісно пов'язане з ним."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Вікно теж може бути скляним, але воно не є дзеркалом, тому асоціації тут немає."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'mirror', стосуються відображення, догляду за зовнішністю та матеріалу, з якого зроблено дзеркало."
+}

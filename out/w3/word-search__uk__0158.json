@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "A", "P", "P", "Y", "Q", "X", "W", "A"],
+    ["B", "K", "D", "Z", "M", "T", "L", "V", "N"],
+    ["U", "F", "J", "O", "Y", "K", "D", "P", "G"],
+    ["S", "W", "Q", "H", "B", "C", "N", "Z", "R"],
+    ["C", "T", "K", "V", "D", "L", "P", "M", "Y"],
+    ["D", "A", "G", "N", "Z", "K", "S", "R", "F"],
+    ["E", "H", "L", "U", "I", "V", "A", "Q", "T"],
+    ["X", "W", "B", "M", "T", "E", "I", "K", "O"],
+    ["L", "Z", "Q", "J", "F", "X", "B", "N", "D"]
+  ],
+  "words_to_find": ["HAPPY", "ANGRY", "CALM", "FEAR", "JOY"],
+  "word_positions": [
+    {"word": "HAPPY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ANGRY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CALM", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FEAR", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"},
+    {"word": "JOY", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Feelings and Reactions"
+}

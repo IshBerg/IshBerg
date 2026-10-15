@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "In the event that the contract is breached,",
+  "correct_completion": "the injured party may claim damages.",
+  "full_sentence": "In the event that the contract is breached, the injured party may claim damages.",
+  "acceptable_variants": ["the aggrieved party is entitled to compensation.", "the party harmed by the breach may seek redress."],
+  "options": [
+    {"text": "the injured party may claim damages.", "is_correct": true, "why_wrong": null},
+    {"text": "although the breach was minor.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, but the sentence needs the legal consequence of a breach, not a concession."},
+    {"text": "because the parties signed it in May.", "is_correct": false, "why_wrong": "'Because' gives a reason for signing, which is unrelated to what follows a breach."},
+    {"text": "the parties were both present at the signing.", "is_correct": false, "why_wrong": "This describes the signing ceremony, but it does not state the consequence of a breach."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'in the event that' (condition with a legal remedy)",
+  "connector": "in the event that",
+  "explanation": "'In the event that' sets a condition, and the main clause states the remedy available if it occurs. A breach of contract gives the injured party a right to damages.",
+  "translation": "W przypadku naruszenia umowy poszkodowana strona może dochodzić odszkodowania."
+}

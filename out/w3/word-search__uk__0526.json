@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["V", "O", "L", "U", "N", "T", "E", "E", "R"],
+    ["K", "A", "M", "Q", "B", "D", "J", "P", "Z"],
+    ["I", "X", "O", "F", "W", "G", "L", "Y", "U"],
+    ["H", "N", "Q", "Z", "K", "B", "M", "D", "C"],
+    ["P", "V", "T", "O", "X", "A", "Q", "F", "W"],
+    ["G", "U", "D", "E", "L", "Y", "K", "R", "A"],
+    ["M", "W", "C", "B", "R", "Z", "X", "J", "G"],
+    ["Q", "T", "K", "H", "P", "N", "F", "U", "E"],
+    ["S", "H", "I", "F", "T", "V", "B", "D", "Y"]
+  ],
+  "words_to_find": ["VOLUNTEER", "INTERN", "SHIFT", "WAGE"],
+  "word_positions": [
+    {"word": "VOLUNTEER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "INTERN", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SHIFT", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WAGE", "start_row": 4, "start_col": 8, "direction": "VERTICAL"}
+  ],
+  "topic": "Society: Teen Work and Volunteering"
+}

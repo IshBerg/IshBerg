@@ -1,0 +1,14 @@
+{
+  "trigger_word": "diplomacy",
+  "all_words": [
+    {"word": "envoy", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Посланник є представником держави в дипломатичних переговорах, тому він безпосередньо пов’язаний з дипломатією."},
+    {"word": "cactus", "is_associated": false, "association_type": "NONE", "explanation": "Кактус є рослиною і не має жодного зв’язку з міжнародними відносинами."},
+    {"word": "treaty", "is_associated": true, "association_type": "THEMATIC", "explanation": "Договір є головним результатом дипломатичної роботи, тож він належить до тієї самої теми міжнародних відносин."},
+    {"word": "anchovy", "is_associated": false, "association_type": "NONE", "explanation": "Анчоус є рибою і не стосується дипломатії чи політики."},
+    {"word": "negotiation", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Переговори є основним інструментом дипломатії, тому ці слова тісно пов’язані за змістом."},
+    {"word": "bugle", "is_associated": false, "association_type": "NONE", "explanation": "Горн є духовим інструментом і не має відношення до дипломатії."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Дипломатія — це здійснення відносин між державами мирними засобами; пов’язані слова стосуються посланників, договорів і переговорів, а решта належить до інших сфер."
+}

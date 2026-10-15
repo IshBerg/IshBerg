@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bed",
+  "all_words": [
+    {"word": "pillow", "is_associated": true, "association_type": "THEMATIC", "explanation": "Poduszka to rzecz, którą kładzie się na łóżku, więc należy do tego samego tematu."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Ryba nie ma żadnego związku z łóżkiem ani z meblami w domu."},
+    {"word": "blanket", "is_associated": true, "association_type": "THEMATIC", "explanation": "Koc przykrywa się w łóżku, więc słowo jest związane z tym meblem."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku z łóżkiem ani z domem."},
+    {"word": "sleep", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'go to bed' oznacza pójście spać, więc słowo tworzy typowe połączenie z łóżkiem."},
+    {"word": "cup", "is_associated": false, "association_type": "NONE", "explanation": "Kubek należy do kuchni, a nie do sypialni, więc nie jest związany z łóżkiem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'bed' kojarzy się z rzeczami używanymi w sypialni i ze snem; ryba, góra i kubek nie mają z nim związku."
+}

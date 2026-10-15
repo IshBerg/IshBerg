@@ -1,0 +1,14 @@
+{
+  "trigger_word": "coffee",
+  "all_words": [
+    {"word": "cup", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слово 'cup' часто стоїть поруч із 'coffee': a coffee cup — це чашка для кави."},
+    {"word": "sugar", "is_associated": true, "association_type": "THEMATIC", "explanation": "Цукор часто додають у каву, тому ці слова належать до однієї теми: напої та те, що до них додають."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не пов'язаний з кавою: це транспорт, а не напій і не щось, що з ним вживають."},
+    {"word": "tea", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Чай і кава — обидва гарячі напої, тому їхнє значення близьке."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Вікно не має жодного зв'язку з кавою: це частина будинку, а не напій або посуд."},
+    {"word": "milk", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слова 'coffee' і 'milk' часто використовують разом: coffee with milk — кава з молоком."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'coffee', — це інші напої, посуд, додатки до кави та слова, які вживають разом із нею. Слова, що не стосуються кави, — це предмети з інших тем."
+}

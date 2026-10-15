@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hand",
+  "all_words": [
+    {"word": "glove", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un guante se usa para cubrir la mano, por eso está relacionado con 'hand' en el mismo tema."},
+    {"word": "finger", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El dedo es una parte de la mano, así que su significado está directamente relacionado con 'hand'."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña no tiene ninguna relación con la mano ni con el cuerpo humano."},
+    {"word": "clap", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Clap hands' es una combinación habitual en inglés para aplaudir, por eso se asocia con 'hand'."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "El desierto es un lugar de arena y clima seco, sin ninguna conexión con la mano."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "El pez es un animal que vive en el agua y no tiene relación con la mano."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'hand' son las que describen partes, accesorios o acciones que se hacen con las manos."
+}

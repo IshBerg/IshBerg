@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "E", "M", "O", "I", "R", "K", "E", "P", "L"],
+    ["J", "Q", "N", "D", "W", "Z", "B", "S", "X", "G"],
+    ["A", "F", "T", "R", "U", "T", "H", "S", "L", "Y"],
+    ["P", "K", "E", "W", "N", "B", "Q", "A", "F", "D"],
+    ["W", "G", "L", "J", "C", "M", "T", "Y", "K", "P"],
+    ["V", "H", "D", "Q", "X", "R", "A", "N", "U", "L"],
+    ["B", "O", "K", "F", "Z", "W", "S", "J", "G", "Q"],
+    ["D", "N", "I", "T", "Q", "H", "X", "K", "L", "A"],
+    ["G", "U", "P", "C", "Y", "R", "O", "M", "E", "M"],
+    ["F", "S", "B", "J", "E", "W", "D", "V", "Q", "N"]
+  ],
+  "words_to_find": ["MEMOIR", "ESSAY", "VOICE", "MEMORY", "TRUTH"],
+  "word_positions": [
+    {"word": "MEMOIR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSAY", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "VOICE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MEMORY", "start_row": 8, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "TRUTH", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Memoir and Creative Nonfiction"
+}

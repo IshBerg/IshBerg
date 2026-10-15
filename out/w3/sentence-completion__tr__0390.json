@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Thank you for your message,",
+  "correct_completion": "I will reply to you soon.",
+  "full_sentence": "Thank you for your message, I will reply to you soon.",
+  "acceptable_variants": ["I will write back to you soon.", "I will answer your email soon."],
+  "options": [
+    {"text": "I am going to the market now.", "is_correct": false, "why_wrong": "This introduces an unrelated activity and does not respond to the message the writer has just thanked the reader for."},
+    {"text": "my cat is sleeping on the sofa.", "is_correct": false, "why_wrong": "This starts a new topic that has no connection to the email, so it does not complete the response."},
+    {"text": "I hope you are doing well.", "is_correct": false, "why_wrong": "This is a common greeting, but it does not state what the writer will do next in response to the message."},
+    {"text": "I will reply to you soon.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Responding to a message in an informal email",
+  "connector": "for",
+  "explanation": "After the thanks, the writer usually states a clear next action, such as replying. Learners sometimes add a new topic because they expect a longer message, but a short reply promise is the natural continuation here.",
+  "translation": "Mesajın için teşekkür ederim, sana yakında cevap vereceğim."
+}

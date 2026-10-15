@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "hot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El sol da mucho calor, por eso 'hot' es una característica muy asociada con él."},
+    {"word": "sky", "is_associated": true, "association_type": "THEMATIC", "explanation": "El sol aparece en el cielo durante el día, así que ambas palabras pertenecen al mismo tema del tiempo y la naturaleza."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Una silla es un mueble y no tiene ninguna relación con el sol."},
+    {"word": "light", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El sol es la principal fuente de luz natural del planeta."},
+    {"word": "water", "is_associated": false, "association_type": "NONE", "explanation": "El agua no está directamente relacionada con el sol en el significado de la palabra, por eso no se asocia con él."},
+    {"word": "shadow", "is_associated": true, "association_type": "THEMATIC", "explanation": "Cuando hay sol, los objetos proyectan sombras, así que 'shadow' pertenece al mismo tema."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'sun' se asocia con el calor, la luz, el cielo y las sombras, mientras que los objetos y los líquidos cotidianos no tienen relación con ella."
+}

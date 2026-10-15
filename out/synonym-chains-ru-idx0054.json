@@ -1,0 +1,17 @@
+{
+  "central_word": "dangerous",
+  "chain_words": [
+    {"word": "risky", "intensity": 1, "translation": "рискованный", "nuance": "involves some chance of loss or harm"},
+    {"word": "hazardous", "intensity": 2, "translation": "вредный", "nuance": "carries a definite source of harm"},
+    {"word": "dangerous", "intensity": 3, "translation": "опасный", "nuance": "general capacity to cause harm"},
+    {"word": "perilous", "intensity": 4, "translation": "чреватый опасностью", "nuance": "full of serious and imminent threat"},
+    {"word": "lethal", "intensity": 5, "translation": "смертельный", "nuance": "capable of causing death"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe the capacity to cause harm but with different intensities, from a modest risk to a deadly threat.",
+  "usage_notes": [
+    {"word1": "dangerous", "word2": "hazardous", "difference": "'Dangerous' describes a general capacity to cause harm; 'hazardous' often refers to a specific source of harm in a material or environment."}
+  ],
+  "translations": {"risky": "рискованный", "hazardous": "вредный", "dangerous": "опасный", "perilous": "чреватый опасностью", "lethal": "смертельный"}
+}

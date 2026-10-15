@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Notwithstanding the committee's repeated appeals,",
+  "correct_completion": "the proposal was ultimately withdrawn without explanation.",
+  "full_sentence": "Notwithstanding the committee's repeated appeals, the proposal was ultimately withdrawn without explanation.",
+  "acceptable_variants": ["the proposal nonetheless went ahead unchanged.", "the chairman still refused to reconsider the matter."],
+  "options": [
+    {"text": "so the proposal was withdrawn without explanation.", "is_correct": false, "why_wrong": "'So' expresses a result, but 'notwithstanding' requires a clause that holds despite the appeals, so the result connector does not fit."},
+    {"text": "the proposal had been drafted in an earlier year.", "is_correct": false, "why_wrong": "This adds background information but does not complete the concessive contrast set up by 'notwithstanding'."},
+    {"text": "the proposal was ultimately withdrawn without explanation.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee had never considered the proposal at all.", "is_correct": false, "why_wrong": "This denies that the appeals were relevant rather than completing a contrast with them, so it does not match the concessive structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'notwithstanding' with formal register",
+  "connector": "notwithstanding",
+  "explanation": "The formal concessive 'notwithstanding' introduces an outcome that holds despite an obstacle. Ukrainian speakers may reach for a result connector such as 'so' because cause and effect is the more frequent pattern in everyday speech, but formal writing requires the contrast.",
+  "translation": "Попри неодноразові звернення комітету, пропозицію зрештою відкликали без пояснень."
+}

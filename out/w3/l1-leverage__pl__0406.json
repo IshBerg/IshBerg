@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "dres", "transliteration": "dres", "meaning": "tracksuit"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "friendly"},
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly"}
+  ],
+  "english_words": ["possibly", "current", "tracksuit", "friendly"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each Polish word looks like an English word but has a different meaning, so learners who rely on the look of the word will guess wrongly. The Polish word for tracksuit looks like 'dress', the word for friendly looks like 'sympathetic', the word for current looks like 'actual', and the word for possibly looks like 'eventually'.",
+  "false_friend_warning": "Several Polish words look like English words but mean something different: the Polish word for tracksuit looks like 'dress', the word for friendly looks like 'sympathetic', the word for current looks like 'actual', and the word for possibly looks like 'eventually'. Always check the meaning before you use a look-alike word."
+}

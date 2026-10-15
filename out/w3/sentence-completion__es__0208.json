@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the author revised the final chapter,",
+  "correct_completion": "the novel would have ended very differently.",
+  "full_sentence": "Had the author revised the final chapter, the novel would have ended very differently.",
+  "acceptable_variants": ["the ending would have changed completely.", "the story would have taken another direction."],
+  "options": [
+    {"text": "the novel ends very differently now.", "is_correct": false, "why_wrong": "The present simple does not complete an inverted third conditional, which refers to a past revision and its imagined past result."},
+    {"text": "the novel to end very differently.", "is_correct": false, "why_wrong": "A bare infinitive cannot form the main clause after inverted 'Had'; a modal verb phrase is needed."},
+    {"text": "the novel would have ended very differently.", "is_correct": true, "why_wrong": null},
+    {"text": "the novel was ending very differently.", "is_correct": false, "why_wrong": "The past progressive describes an action in progress and does not express the hypothetical result of an unrealized past event."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional",
+  "connector": "had",
+  "explanation": "Inversion replaces 'if' with the auxiliary 'had' at the start of the clause. The main clause then uses 'would have' plus a past participle to express an imagined past result.",
+  "translation": "Si el autor hubiera revisado el último capítulo, la novela habría terminado de manera muy diferente."
+}

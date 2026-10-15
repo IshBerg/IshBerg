@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you have time this weekend,",
+  "correct_completion": "we can meet for coffee.",
+  "full_sentence": "If you have time this weekend, we can meet for coffee.",
+  "acceptable_variants": ["we can go for a walk.", "we can visit the new café."],
+  "options": [
+    {"text": "I went to the shop yesterday.", "is_correct": false, "why_wrong": "Past tense describes finished events, but the stem sets up a future condition that needs a present or future result."},
+    {"text": "we can meet for coffee.", "is_correct": true, "why_wrong": null},
+    {"text": "because I like coffee.", "is_correct": false, "why_wrong": "'Because' gives a reason, not a condition or a result, so it does not complete the if-clause."},
+    {"text": "we could have met last week.", "is_correct": false, "why_wrong": "'Could have met' refers to the past and does not follow a conditional stem about the coming weekend."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause uses a present or modal form to express a possible result. The correct option gives a realistic result for an invitation in an informal email.",
+  "translation": "Jeśli będziesz mieć czas w ten weekend, możemy spotkać się na kawę."
+}

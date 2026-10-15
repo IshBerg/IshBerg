@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I wish I had studied harder for the exam,",
+  "correct_completion": "because I could have passed it easily.",
+  "full_sentence": "I wish I had studied harder for the exam, because I could have passed it easily.",
+  "acceptable_variants": ["so I would have felt more confident now.", "and I would not be so worried today."],
+  "options": [
+    {"text": "so I can study now.", "is_correct": false, "why_wrong": "This uses a present tense that does not express regret about a past action, so it does not fit the wish about the past."},
+    {"text": "because I could have passed it easily.", "is_correct": true, "why_wrong": null},
+    {"text": "but I will study tomorrow.", "is_correct": false, "why_wrong": "'Will' describes a future plan, which does not complete a past regret introduced by 'I wish I had'."},
+    {"text": "even though the exam was easy.", "is_correct": false, "why_wrong": "This adds a contrast that does not complete the regret; the sentence needs a consequence of studying more."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Wish with past perfect and modal perfect (could have + past participle)",
+  "connector": "because",
+  "explanation": "After 'I wish I had', the speaker regrets a past action, so the completion should use a past modal perfect to show what was possible in the past. Learners often use a simple present form here, so the past structure must be kept consistent throughout the sentence.",
+  "translation": "Sınava daha çok çalışsaydım keşke, çünkü onu kolayca geçebilirdim."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "algorithm",
+  "all_words": [
+    {"word": "bias", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "التحيّز الخوارزمي (algorithmic bias) مصطلح شائع في أخلاقيات التكنولوجيا، لذلك تقترن الكلمتان كثيرًا."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "الفانوس أداة إضاءة ولا علاقة له بالخوارزميات أو بأخلاقيات التقنية."},
+    {"word": "software", "is_associated": true, "association_type": "THEMATIC", "explanation": "الخوارزمية أساس البرمجيات، فالكلمتان تنتميان إلى موضوع تقني واحد."},
+    {"word": "walrus", "is_associated": false, "association_type": "NONE", "explanation": "الفظ حيوان بحري ولا صلة له بالتقنية أو المجتمع."},
+    {"word": "procedure", "is_associated": true, "association_type": "SEMANTIC", "explanation": "الخوارزمية سلسلة من الخطوات لحل مسألة، فهي قريبة في المعنى من كلمة الإجراء."},
+    {"word": "cushion", "is_associated": false, "association_type": "NONE", "explanation": "الوسادة قطعة أثاث ولا ترتبط بالخوارزميات."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "الخوارزمية إجراء منظّم تعمل به البرمجيات وقد تحمل تحيزًا؛ أما الكلمات الأخرى فتنتمي إلى مجالات لا صلة لها بالتقنية."
+}

@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["R", "O", "C", "K", "E", "T", "Q", "W", "X", "P"],
+    ["A", "B", "D", "F", "G", "H", "J", "K", "M", "L"],
+    ["Z", "X", "V", "Q", "P", "U", "N", "S", "Y", "A"],
+    ["W", "E", "Q", "U", "Z", "K", "F", "D", "J", "N"],
+    ["Y", "L", "G", "H", "V", "B", "C", "P", "R", "E"],
+    ["J", "K", "M", "N", "T", "V", "X", "T", "L", "T"],
+    ["Q", "W", "F", "I", "G", "H", "J", "E", "S", "D"],
+    ["K", "L", "B", "P", "Q", "R", "N", "M", "U", "V"],
+    ["F", "R", "Y", "S", "D", "G", "K", "O", "W", "H"],
+    ["O", "X", "Z", "A", "B", "J", "L", "C", "Q", "F"]
+  ],
+  "words_to_find": ["ROCKET", "PLANET", "ORBIT", "COMET"],
+  "word_positions": [
+    {"word": "ROCKET", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PLANET", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "ORBIT", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "COMET", "start_row": 9, "start_col": 7, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Science and Space"
+}

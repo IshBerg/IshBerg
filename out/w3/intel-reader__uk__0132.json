@@ -1,0 +1,20 @@
+{
+  "title": "My Flashcards",
+  "text": "This is my flashcard. It has a word on the front. It has a picture on the back.\n\nI read the word and say it. Then I turn the card to check the picture. I study every day.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is on the front of the flashcard?", "options": ["A word", "A picture", "A number", "A question"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does the reader do after saying the word?", "options": ["Puts the card away", "Turns the card to check the picture", "Writes a letter", "Goes to sleep"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does the reader look at the picture?", "options": ["To draw a new card", "To throw the card away", "To check the meaning of the word", "To read a book"], "correct_index": 2, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of person is the reader most likely to be?", "options": ["A person who is learning new words", "A person who is a doctor", "A person who sells cards", "A person who is a pilot"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "flashcard", "translation": "картка для запам'ятовування", "definition": "a small card with a word or picture used for learning"},
+    {"word": "picture", "translation": "картинка", "definition": "a drawing, painting, or photo"},
+    {"word": "study", "translation": "вчити", "definition": "to spend time learning something"},
+    {"word": "check", "translation": "перевіряти", "definition": "to look at something to make sure it is correct"}
+  ],
+  "paragraph_translations": [
+    "Це моя картка для запам'ятовування. На передньому боці є слово. На звороті є картинка.",
+    "Я читаю слово і вимовляю його. Потім я перевертаю картку, щоб перевірити картинку. Я вчуся щодня."
+  ]
+}

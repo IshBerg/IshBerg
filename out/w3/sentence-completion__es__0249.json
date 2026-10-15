@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at those dark clouds!",
+  "correct_completion": "It is going to rain.",
+  "full_sentence": "Look at those dark clouds! It is going to rain.",
+  "acceptable_variants": ["It is probably going to rain soon.", "It will probably rain soon."],
+  "options": [
+    {"text": "I am going to visit my aunt.", "is_correct": false, "why_wrong": "This is a plan about a visit and has no connection to the clouds, so it does not follow from the evidence in the stem."},
+    {"text": "It will rain yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a past time, but 'will' expresses the future. The two parts of this sentence do not match."},
+    {"text": "It is going to rain.", "is_correct": true, "why_wrong": null},
+    {"text": "The sun is shining brightly.", "is_correct": false, "why_wrong": "This contradicts the dark clouds in the stem and does not make a prediction based on them."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Going to for predictions based on present evidence",
+  "connector": "going to",
+  "explanation": "When the speaker can see evidence now, such as dark clouds, we use the going to future to make a prediction. Learners who use only the will future for every prediction may miss this difference in meaning.",
+  "translation": "¡Mira esas nubes oscuras! Va a llover."
+}

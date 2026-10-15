@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the data appear to support the hypothesis, the researchers",
+  "correct_completion": "could not yet conclude that it is definitively proven.",
+  "full_sentence": "Although the data appear to support the hypothesis, the researchers could not yet conclude that it is definitively proven.",
+  "acceptable_variants": ["remained cautious about drawing firm conclusions.", "stopped short of calling the result conclusive."],
+  "options": [
+    {"text": "concluded beyond any doubt that it is proven.", "is_correct": false, "why_wrong": "'Although' sets up a contrast with the cautious evidence, so a flat, certain conclusion does not complete the contrast."},
+    {"text": "were certain that the data had been flawed.", "is_correct": false, "why_wrong": "This is a contrast, but it invents a certainty about flawed data that the stem never mentions."},
+    {"text": "could not yet conclude that it is definitively proven.", "is_correct": true, "why_wrong": null},
+    {"text": "therefore proved the hypothesis entirely.", "is_correct": false, "why_wrong": "'Therefore' signals a result, which clashes with the concessive 'although' and overstates the evidence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'although' with hedged modal verb phrases",
+  "connector": "although",
+  "explanation": "The concessive 'although' sets up a contrast between apparent support and a cautious conclusion. Hedged modal phrases such as 'could not yet conclude' express epistemic caution. Polish speakers may translate a flat assertion more readily, so they lose the cautious tone that the modal phrase carries.",
+  "translation": "Chociaż dane wydają się potwierdzać tę hipotezę, badacze nie mogą jeszcze stwierdzić, że jest ona ostatecznie udowodniona."
+}

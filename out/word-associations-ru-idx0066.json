@@ -1,0 +1,14 @@
+{
+  "trigger_word": "heritage",
+  "all_words": [
+    {"word": "tradition", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Наследие (heritage) и традиция близки по смыслу: оба обозначают то, что передаётся от поколения к поколению."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "Фонарь — источник света и не имеет отношения к культурному наследию."},
+    {"word": "museum", "is_associated": true, "association_type": "THEMATIC", "explanation": "Музей хранит и показывает культурное наследие, поэтому эти слова относятся к одной теме."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Трактор — сельскохозяйственная техника и не связан с наследием культуры."},
+    {"word": "preservation", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Сохранение наследия (heritage preservation) — устойчивое словосочетание, поэтому слова часто стоят рядом."},
+    {"word": "pebble", "is_associated": false, "association_type": "NONE", "explanation": "Галька — природный камешек и не относится к культурному наследию."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Культурное наследие передаётся через традиции, хранится в музеях и сохраняется; остальные слова относятся к несвязанным предметам."
+}

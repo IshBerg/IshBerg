@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I left my umbrella on the bus, so",
+  "correct_completion": "I got completely wet on the way home.",
+  "full_sentence": "Yesterday I left my umbrella on the bus, so I got completely wet on the way home.",
+  "acceptable_variants": ["I bought a cheap raincoat in the shop.", "I walked home with my hood up."],
+  "options": [
+    {"text": "I wrote a short message to my sister.", "is_correct": false, "why_wrong": "This is an unrelated action and does not show a result of leaving the umbrella on the bus."},
+    {"text": "I got completely wet on the way home.", "is_correct": true, "why_wrong": null},
+    {"text": "I took the bus to the station early.", "is_correct": false, "why_wrong": "This describes a separate trip and does not complete the cause and effect started by 'so'."},
+    {"text": "I found the umbrella in my bag.", "is_correct": false, "why_wrong": "This contradicts the stem, since the umbrella was left on the bus and it is not in the bag."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple with 'so' to show a result, using the irregular verb 'get' in its past form 'got'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that states the result of the first clause. Here the result of leaving the umbrella is getting wet, and the irregular past form 'got' shows the completed action.",
+  "translation": "Wczoraj zostawiłem parasol w autobusie, więc w drodze do domu całkowicie przemokłem."
+}

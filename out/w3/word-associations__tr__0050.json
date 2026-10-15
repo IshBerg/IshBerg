@@ -1,0 +1,14 @@
+{
+  "trigger_word": "farm",
+  "all_words": [
+    {"word": "barn", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ahır, çiftliklerde hayvanların barındığı tipik bir binadır."},
+    {"word": "cow", "is_associated": true, "association_type": "THEMATIC", "explanation": "İnek, çiftlikte yaşayan en tanınmış hayvanlardan biridir."},
+    {"word": "tractor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Traktör, çiftlikte toprağı sürmek için kullanılan bir araçtır."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Kalem çiftlikle ilgili değildir; okulda ve evde kullanılır."},
+    {"word": "ocean", "is_associated": false, "association_type": "NONE", "explanation": "Okyanus çiftlik yaşamıyla bağlantılı değildir; deniz ve suyla ilgilidir."},
+    {"word": "hospital", "is_associated": false, "association_type": "NONE", "explanation": "Hastane çiftlik çağrışımı yapmaz; insanların tedavi edildiği bir yerdir."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Farm kelimesi; ahır, inek ve traktör gibi çiftlik yaşamıyla ilgili kelimeleri çağrıştırır."
+}

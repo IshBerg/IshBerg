@@ -1,0 +1,14 @@
+{
+  "codename": "SILENT CART",
+  "briefing": "Agent, we've intercepted a shopping list hidden in a secret store. Connect each English evidence card to its Spanish match to uncover the buyer's identity. Time is critical.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "cart", "right": "carrito", "left_style": "document", "right_style": "handwritten"},
+    {"left": "price", "right": "precio", "left_style": "photo", "right_style": "document"},
+    {"left": "receipt", "right": "recibo", "left_style": "newspaper", "right_style": "photo"},
+    {"left": "cashier", "right": "cajero", "left_style": "handwritten", "right_style": "official"},
+    {"left": "discount", "right": "descuento", "left_style": "official", "right_style": "newspaper"},
+    {"left": "bag", "right": "bolsa", "left_style": "document", "right_style": "photo"}
+  ]
+}

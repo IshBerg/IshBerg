@@ -1,0 +1,14 @@
+{
+  "trigger_word": "white paper",
+  "all_words": [
+    {"word": "policy", "is_associated": true, "association_type": "THEMATIC", "explanation": "Белая книга (white paper) — документ, в котором излагается политика правительства, поэтому слово относится к той же теме."},
+    {"word": "teapot", "is_associated": false, "association_type": "NONE", "explanation": "Заварочный чайник — бытовой предмет и не имеет отношения к государственным документам."},
+    {"word": "proposal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Предложение (proposal) — близкое по смыслу понятие: белая книга обычно представляет предложения по реформе."},
+    {"word": "walrus", "is_associated": false, "association_type": "NONE", "explanation": "Морж — морское животное и не связан с политическими документами."},
+    {"word": "consultation", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Белая книга часто публикуется после консультации (consultation), поэтому эти слова стоят рядом."},
+    {"word": "thimble", "is_associated": false, "association_type": "NONE", "explanation": "Наперсток — швейный инструмент и не относится к политике."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Белая книга излагает политику и предложения, часто после консультаций; остальные слова относятся к бытовым предметам и животным."
+}

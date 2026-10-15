@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Little Miss Muffet sat on her tuffet because",
+  "correct_completion": "she wanted to eat her curds and whey.",
+  "full_sentence": "Little Miss Muffet sat on her tuffet because she wanted to eat her curds and whey.",
+  "acceptable_variants": ["she wanted to eat her snack.", "she was hungry."],
+  "options": [
+    {"text": "she was going to school.", "is_correct": false, "why_wrong": "Going to school is not a reason for sitting on a tuffet, so it does not complete the cause in this sentence."},
+    {"text": "but she did not like the spider.", "is_correct": false, "why_wrong": "'But' introduces contrast, and it cannot follow 'because' to give a reason."},
+    {"text": "she wanted to eat her curds and whey.", "is_correct": true, "why_wrong": null},
+    {"text": "although it was raining.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause, so it does not fit after 'because'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the action in the first part of the sentence. The correct option gives a clear reason, while the other options either show contrast, add an unrelated action, or give no reason at all.",
+  "translation": "Міс Маффет сиділа на своєму стільчику, бо хотіла з'їсти свої сир і сироватку."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "fragment",
+  "all_words": [
+    {"word": "collage", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Колаж — художній твір зі шматків різних матеріалів, тож слово близьке за змістом до фрагмента."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "Ліхтар — джерело світла і не має відношення до експериментальної літератури."},
+    {"word": "montage", "is_associated": true, "association_type": "THEMATIC", "explanation": "Монтаж — прийом поєднання окремих уривків, який використовують і в експериментальній прозі, тому слова належать до однієї теми."},
+    {"word": "cucumber", "is_associated": false, "association_type": "NONE", "explanation": "Огірок — овоч і не стосується літератури чи мистецтва."},
+    {"word": "splinter", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Уламки (splinter) і фрагменти часто описують разом, коли йдеться про розбитий, розірваний текст."},
+    {"word": "pebble", "is_associated": false, "association_type": "NONE", "explanation": "Галька — природний камінь і не пов’язана з літературою."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Фрагмент — окрема частина цілого, яку в експериментальній літературі поєднують колажем і монтажем; інші слова належать до несуміжних сфер."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "argument",
+  "all_words": [
+    {"word": "evidence", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La evidencia es el material que se presenta para respaldar un argumento, por lo que está estrechamente relacionada con él."},
+    {"word": "furniture", "is_associated": false, "association_type": "NONE", "explanation": "Los muebles no tienen ninguna relación con la lógica o el razonamiento de un argumento."},
+    {"word": "debate", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un debate es el contexto habitual en el que se presentan y se discuten los argumentos."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Un sándwich es un alimento y no guarda relación temática con los argumentos."},
+    {"word": "premise", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La premisa es una de las proposiciones de partida que forman la estructura de un argumento."},
+    {"word": "rhetoric", "is_associated": true, "association_type": "THEMATIC", "explanation": "La retórica es el arte de persuadir mediante el lenguaje y se usa al construir argumentos."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'argument' pertenecen a la lógica, al contexto del debate y a la persuasión; las palabras de otros ámbitos, como los muebles o la comida, no se relacionan con él."
+}

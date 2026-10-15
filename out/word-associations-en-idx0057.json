@@ -1,0 +1,14 @@
+{
+  "trigger_word": "verdict",
+  "all_words": [
+    {"word": "jury", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A jury delivers a verdict in many trials, so the two words describe the same stage of a legal process."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "A lantern is a source of light and has no connection to legal decisions."},
+    {"word": "appeal", "is_associated": true, "association_type": "THEMATIC", "explanation": "An appeal challenges a verdict, so both words belong to the same topic of court procedure."},
+    {"word": "tulip", "is_associated": false, "association_type": "NONE", "explanation": "A tulip is a flower and is unrelated to courts or judgements."},
+    {"word": "acquittal", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A verdict is often described as a conviction or an acquittal, so the words are commonly used together."},
+    {"word": "pebble", "is_associated": false, "association_type": "NONE", "explanation": "A pebble is a small stone and is unrelated to legal judgements."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A verdict is the decision a jury or judge reaches at the end of a trial, which can be appealed; the associated words describe its context and outcomes, while the others belong to unrelated fields."
+}

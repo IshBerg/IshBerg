@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "E", "A", "C", "H", "E", "R"],
+    ["B", "K", "Q", "J", "M", "W", "L"],
+    ["F", "P", "Z", "G", "V", "X", "E"],
+    ["S", "T", "U", "D", "Y", "K", "S"],
+    ["J", "M", "B", "Q", "W", "Z", "S"],
+    ["N", "U", "R", "S", "E", "V", "O"],
+    ["Q", "X", "P", "F", "G", "H", "N"]
+  ],
+  "words_to_find": ["TEACHER", "LESSON", "STUDY", "NURSE"],
+  "word_positions": [
+    {"word": "TEACHER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LESSON", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "STUDY", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NURSE", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Education and Careers"
+}

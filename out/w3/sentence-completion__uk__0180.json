@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had I seen",
+  "correct_completion": "such a beautiful sunset over the mountains.",
+  "full_sentence": "Never before had I seen such a beautiful sunset over the mountains.",
+  "acceptable_variants": ["so beautiful a sunset as this one.", "a sunset as beautiful as this one."],
+  "options": [
+    {"text": "the sunset was beautiful.", "is_correct": false, "why_wrong": "This is a complete clause, so it cannot follow 'seen' as its object. The structure needs a noun phrase that completes the verb."},
+    {"text": "so I took a photograph.", "is_correct": false, "why_wrong": "The result clause introduced by 'so' does not complete the object of 'seen', so the sentence stays unfinished."},
+    {"text": "such a beautiful sunset over the mountains.", "is_correct": true, "why_wrong": null},
+    {"text": "I seen such a beautiful sunset.", "is_correct": false, "why_wrong": "'Seen' needs the auxiliary 'had' in this inverted structure, and the subject 'I' must come after 'had', not before 'seen'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after a negative adverb such as 'never' placed at the start of the sentence",
+  "connector": "never",
+  "explanation": "When a negative adverb like 'never' opens a sentence, English inverts the auxiliary and the subject, so 'had I seen' is the correct form. The completion must be the object noun phrase that follows 'seen'. Ukrainian speakers often keep the normal subject-verb order here, because Ukrainian word order is flexible and does not require inversion.",
+  "translation": "Ніколи раніше я не бачив такого прекрасного заходу сонця над горами."
+}

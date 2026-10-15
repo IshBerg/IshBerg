@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The deadline having passed,",
+  "correct_completion": "the committee began reviewing the late applications.",
+  "full_sentence": "The deadline having passed, the committee began reviewing the late applications.",
+  "acceptable_variants": ["the committee started assessing the overdue submissions.", "the members began going through the late entries."],
+  "options": [
+    {"text": "although the committee began reviewing the late applications.", "is_correct": false, "why_wrong": "Adding 'although' turns the absolute phrase into a concessive clause, which changes the meaning and sounds unnatural."},
+    {"text": "the committee began reviewing the late applications.", "is_correct": true, "why_wrong": null},
+    {"text": "which the committee began reviewing the late applications.", "is_correct": false, "why_wrong": "'Which' creates a relative clause with no main clause to attach to, so the sentence stays incomplete."},
+    {"text": "so the committee had begun reviewing the late applications.", "is_correct": false, "why_wrong": "'So' introduces a result, but an absolute construction gives background information without a linking word."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Absolute (verbless) clauses built with a perfect participle",
+  "connector": "having passed",
+  "explanation": "An absolute clause has its own subject and a participle but no finite verb, and it gives background to the main clause without a linking word. Ukrainian speakers often add a conjunction such as 'so' or 'although' here, because Ukrainian clauses of this kind are usually introduced by a conjunction, so the bare English form feels unusual at first.",
+  "translation": "Оскільки термін подання минув, комітет почав розглядати пізні заявки."
+}

@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["M", "E", "M", "O", "I", "R", "V"],
+    ["K", "B", "Q", "W", "T", "Z", "O"],
+    ["J", "N", "F", "X", "R", "D", "I"],
+    ["P", "L", "Y", "G", "U", "K", "C"],
+    ["S", "D", "W", "Q", "T", "V", "E"],
+    ["Z", "X", "M", "B", "H", "N", "F"],
+    ["E", "S", "S", "A", "Y", "K", "L"]
+  ],
+  "words_to_find": ["MEMOIR", "VOICE", "ESSAY", "TRUTH"],
+  "word_positions": [
+    {"word": "MEMOIR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VOICE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "ESSAY", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRUTH", "start_row": 1, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Memoir and Creative Nonfiction"
+}

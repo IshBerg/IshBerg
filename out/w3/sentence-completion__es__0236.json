@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "These apples are red,",
+  "correct_completion": "and those apples are green.",
+  "full_sentence": "These apples are red, and those apples are green.",
+  "acceptable_variants": ["and those ones are green.", "and the other apples are green."],
+  "options": [
+    {"text": "and that apple are green.", "is_correct": false, "why_wrong": "'That' is singular and 'apple' is singular, but 'are' is plural. The verb must agree with the noun, so the sentence needs 'is'. Also the group of apples needs a plural demonstrative."},
+    {"text": "and this apples are green.", "is_correct": false, "why_wrong": "'This' is singular, but 'apples' is plural. Plural nouns need 'these' or 'those'."},
+    {"text": "and those apples are green.", "is_correct": true, "why_wrong": null},
+    {"text": "and those is green.", "is_correct": false, "why_wrong": "'Those' is plural, so it needs a plural noun and a plural verb. The sentence leaves out the noun and uses the singular verb 'is'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative pronouns this, that, these, those with noun and verb agreement",
+  "connector": "and",
+  "explanation": "Use 'those' with a plural noun to point to things that are farther away. Plural demonstratives also need a plural noun and a plural verb, so 'apples are' is correct.",
+  "translation": "Estas manzanas son rojas y esas manzanas son verdes."
+}

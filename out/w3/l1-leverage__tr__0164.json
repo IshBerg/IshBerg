@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "analiz", "transliteration": "analiz", "meaning": "analysis"},
+    {"word": "hipotez", "transliteration": "hipotez", "meaning": "hypothesis"},
+    {"word": "sistem", "transliteration": "sistem", "meaning": "system"},
+    {"word": "protokol", "transliteration": "protokol", "meaning": "protocol"}
+  ],
+  "english_words": ["system", "protocol", "hypothesis", "analysis"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these technical terms from the same international source, so the forms stayed close.",
+  "false_friend_warning": null
+}

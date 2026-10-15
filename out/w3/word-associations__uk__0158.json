@@ -1,0 +1,14 @@
+{
+  "trigger_word": "river",
+  "all_words": [
+    {"word": "water", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Вода — це основне, що є в річці."},
+    {"word": "phone", "is_associated": false, "association_type": "NONE", "explanation": "Телефон не має прямого зв'язку з річкою."},
+    {"word": "fish", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Риба живе в річці, тому це слово пов'язане з нею."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Взуття у звичайному значенні не пов'язане з річкою."},
+    {"word": "boat", "is_associated": true, "association_type": "THEMATIC", "explanation": "Човен часто плаває по річці, тому це тематично пов'язане слово."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець не має відношення до річки."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'river', стосуються води, риби та човнів; інші слова не належать до цієї теми."
+}

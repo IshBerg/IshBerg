@@ -1,0 +1,17 @@
+{
+  "central_word": "problem",
+  "chain_words": [
+    {"word": "issue", "intensity": 1, "translation": "a matter under discussion", "nuance": "a topic that needs attention but is not yet a difficulty"},
+    {"word": "concern", "intensity": 2, "translation": "a worry about a possible outcome", "nuance": "a source of anxiety that may develop into a difficulty"},
+    {"word": "problem", "intensity": 3, "translation": "a situation that is difficult to deal with", "nuance": "a general obstacle that requires a solution"},
+    {"word": "crisis", "intensity": 4, "translation": "a time of severe difficulty with uncertain outcome", "nuance": "a serious situation that demands urgent action"},
+    {"word": "catastrophe", "intensity": 5, "translation": "a sudden disaster causing great damage", "nuance": "an event so severe that it causes widespread harm"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe a difficult situation, from a matter needing attention to a disaster causing widespread harm.",
+  "usage_notes": [
+    {"word1": "problem", "word2": "crisis", "difference": "'Problem' describes a difficulty that can be handled in the normal course of events; 'crisis' describes a time of severe danger that requires urgent action."}
+  ],
+  "translations": {"issue": "a matter under discussion", "concern": "a worry about a possible outcome", "problem": "a situation that is difficult to deal with", "crisis": "a time of severe difficulty with uncertain outcome", "catastrophe": "a sudden disaster causing great damage"}
+}

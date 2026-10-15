@@ -1,0 +1,14 @@
+{
+  "trigger_word": "peer review",
+  "all_words": [
+    {"word": "referee", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ሪፈሪ ለጥናት ግምገማ የሚሰጥ ባለሙያ ሲሆን ከፒር ሪቪው ጋር በቀጥታ ይዛመዳል።"},
+    {"word": "walrus", "is_associated": false, "association_type": "NONE", "explanation": "ዋልረስ የባሕር እንስሳ ሲሆን ከጥናት ግምገማ ወይም ከአካዳሚክ ሂደት ጋር ግንኙነት የለውም።"},
+    {"word": "manuscript", "is_associated": true, "association_type": "THEMATIC", "explanation": "የጥናት ጽሑፍ (manuscript) በፒር ሪቪው ሂደት ውስጥ የሚገመገም ዋና ነገር ነው፤ ስለዚህ በዚሁ ርዕስ ስር ይወድቃል።"},
+    {"word": "parrot", "is_associated": false, "association_type": "NONE", "explanation": "በቀቀን ወፍ ሲሆን ከአካዳሚክ ግምገማ ጋር ምንም ግንኙነት የለውም።"},
+    {"word": "journal", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'peer-reviewed journal' የሚለው አገላለጽ በአካዳሚክ ዓለም የተለመደ ጥምረት ነው፤ ስለዚህ ጆርናል ከፒር ሪቪው ጋር አብሮ ይሄዳል።"},
+    {"word": "trolley", "is_associated": false, "association_type": "NONE", "explanation": "ትሮሊ ዕቃ ለማጓጓዝ የሚውል መሣሪያ ሲሆን ከጥናት ግምገማ ጋር ምንም ግንኙነት የለውም።"}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "ፒር ሪቪው ጥናት በባለሙያዎች የሚገመገምበት ሂደት ነው፤ ከእሱ ጋር የተያያዙ ቃላት ገምጋሚ፣ የጥናት ጽሑፍ እና ጆርናል ሲሆኑ ሌሎቹ ግን አይደሉም።"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "You don't have to bring a laptop to the meeting,",
+  "correct_completion": "because everything is provided.",
+  "full_sentence": "You don't have to bring a laptop to the meeting, because everything is provided.",
+  "acceptable_variants": ["because the company provides the equipment.", "because a computer is available in the room."],
+  "options": [
+    {"text": "but you have to bring a laptop.", "is_correct": false, "why_wrong": "This contradicts the first clause, which says there is no obligation, so 'but' creates a clash rather than a reason."},
+    {"text": "so you mustn't bring one.", "is_correct": false, "why_wrong": "'Mustn't' means something is forbidden, which is a different meaning from 'don't have to', which means there is no obligation."},
+    {"text": "because everything is provided.", "is_correct": true, "why_wrong": null},
+    {"text": "although you must bring a laptop.", "is_correct": false, "why_wrong": "This restates the opposite of the first clause, so 'although' does not give a sensible contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "'Don't have to' (no obligation) with 'because'",
+  "connector": "because",
+  "explanation": "'Don't have to' shows that something is not necessary. The 'because' clause gives the reason why it is not necessary. Polish speakers may mix up 'don't have to' and 'mustn't', because both are negative, but they have very different meanings in English.",
+  "translation": "Nie musisz przynosić laptopa na spotkanie, ponieważ wszystko jest zapewnione."
+}

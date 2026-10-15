@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I don't like cold weather, so",
+  "correct_completion": "I usually wear a warm coat in winter.",
+  "full_sentence": "I don't like cold weather, so I usually wear a warm coat in winter.",
+  "acceptable_variants": ["I always choose a warm sweater.", "I stay inside near the heater."],
+  "options": [
+    {"text": "I love going to the beach in January.", "is_correct": false, "why_wrong": "This contradicts the first part. It does not follow logically from disliking cold weather."},
+    {"text": "I usually wear a warm coat in winter.", "is_correct": true, "why_wrong": null},
+    {"text": "I walk to school every day.", "is_correct": false, "why_wrong": "This is true information, but it does not show a result of disliking cold weather."},
+    {"text": "I bought an ice cream yesterday.", "is_correct": false, "why_wrong": "This action has no logical connection with the first part, so 'so' does not introduce it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' in the present simple",
+  "connector": "so",
+  "explanation": "'So' introduces a result. The second part must show the logical consequence of not liking cold weather.",
+  "translation": "No me gusta el clima frío, así que normalmente uso un abrigo cálido en invierno."
+}

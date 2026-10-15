@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["I", "S", "S", "U", "E", "K", "Q", "B"],
+    ["W", "J", "T", "N", "O", "Z", "X", "R"],
+    ["V", "K", "R", "D", "L", "Y", "F", "I"],
+    ["P", "A", "U", "G", "H", "Q", "M", "E"],
+    ["D", "Y", "S", "B", "N", "W", "J", "F"],
+    ["G", "R", "T", "O", "X", "K", "L", "Q"],
+    ["C", "L", "E", "A", "R", "Y", "P", "Z"],
+    ["M", "X", "D", "K", "Q", "J", "V", "W"]
+  ],
+  "words_to_find": ["ISSUE", "BRIEF", "CLEAR", "TRUST"],
+  "word_positions": [
+    {"word": "ISSUE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BRIEF", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "CLEAR", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRUST", "start_row": 1, "start_col": 2, "direction": "VERTICAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}

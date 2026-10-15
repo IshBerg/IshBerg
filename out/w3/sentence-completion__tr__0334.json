@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Her hair was too long, so",
+  "correct_completion": "she had it cut at the salon.",
+  "full_sentence": "Her hair was too long, so she had it cut at the salon.",
+  "acceptable_variants": ["she got it cut at the salon.", "she went to the salon to get it cut."],
+  "options": [
+    {"text": "she cut it herself at home.", "is_correct": false, "why_wrong": "This describes a direct action by the subject. The causative 'have' structure means that someone else performs the action for her."},
+    {"text": "she had cut the salon.", "is_correct": false, "why_wrong": "The object is missing. The structure is 'had + object + past participle', so it should be 'had it cut'. 'Had cut the salon' is ungrammatical."},
+    {"text": "she had it cut at the salon.", "is_correct": true, "why_wrong": null},
+    {"text": "she was cutting it for hours.", "is_correct": false, "why_wrong": "The continuous form describes a long action in progress, not a service arranged for her by someone else."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have' with object and past participle",
+  "connector": "so",
+  "explanation": "After 'so', we need a result clause. The causative structure 'have + object + past participle' shows that someone else does the action. Turkish speakers often use a plain active verb here because Turkish usually expresses causation with a verb suffix, so the separate 'have it done' pattern needs practice.",
+  "translation": "Saçı çok uzamıştı, bu yüzden salonda kestirdi."
+}

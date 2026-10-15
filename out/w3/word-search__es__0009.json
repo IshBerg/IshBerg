@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "Y", "N", "O", "N", "Y", "M", "R"],
+    ["M", "K", "B", "T", "W", "X", "Q", "E"],
+    ["E", "J", "Z", "L", "P", "D", "V", "S"],
+    ["A", "H", "S", "A", "M", "E", "K", "T"],
+    ["N", "G", "F", "R", "Y", "C", "B", "A"],
+    ["I", "W", "D", "O", "X", "K", "P", "T"],
+    ["N", "E", "Q", "U", "A", "L", "Z", "E"],
+    ["G", "V", "H", "J", "Q", "W", "F", "U"]
+  ],
+  "words_to_find": ["SYNONYM", "RESTATE", "MEANING", "EQUAL", "SAME"],
+  "word_positions": [
+    {"word": "SYNONYM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RESTATE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "MEANING", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "EQUAL", "start_row": 6, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "SAME", "start_row": 3, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Restatement: Equivalent Meanings"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "A Job Application Email",
+  "text": "Dear Mr. Brown,\n\nI am writing to ask about the job in your office. I saw the advertisement last week on your website. I have three years of experience in accounting. I would be grateful if you could send me more information.\n\nPlease find my CV attached to this email. I am available for an interview at any time next week. Thank you for your time and consideration. I look forward to hearing from you.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where did the writer see the advertisement?", "options": ["On your website", "In a newspaper", "On the radio", "At a job fair"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is attached to the email?", "options": ["A photo", "A CV", "A letter of reference", "A contract"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why is the writer sending this email?", "options": ["To ask for a refund", "To ask about a job", "To complain about an office", "To cancel an interview"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does the writer probably feel about the job?", "options": ["Uninterested", "Interested", "Angry", "Confused"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "advertisement", "translation": "оголошення", "definition": "a public notice that offers a job or sells something"},
+    {"word": "experience", "translation": "досвід", "definition": "knowledge and skill gained from doing a job"},
+    {"word": "grateful", "translation": "вдячний", "definition": "thankful and feeling appreciation"},
+    {"word": "available", "translation": "вільний для зустрічі", "definition": "free and able to do something at a certain time"}
+  ],
+  "paragraph_translations": [
+    "Шановний пане Браун, я пишу, щоб дізнатися більше про вакансію у вашому офісі. Оголошення про неї минулого тижня було опубліковано на вашому сайті, і воно привернуло мою увагу. Я маю три роки досвіду роботи в бухгалтерії. Мені буде приємно, якщо ви надішлете більше інформації.",
+    "Будь ласка, знайдіть моє резюме у вкладенні до цього листа. Я можу прийти на співбесіду в будь-який час наступного тижня. Дякую за ваш час і увагу. Чекаю на вашу відповідь."
+  ]
+}

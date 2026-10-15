@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["M", "E", "M", "O", "I", "R", "Q", "K", "W", "E"],
+    ["P", "Z", "J", "X", "L", "D", "T", "B", "F", "S"],
+    ["G", "H", "N", "A", "Q", "U", "K", "W", "Y", "S"],
+    ["L", "P", "D", "Z", "V", "O", "I", "C", "E", "A"],
+    ["B", "N", "F", "T", "J", "K", "R", "M", "Q", "Y"],
+    ["X", "U", "W", "L", "H", "S", "P", "D", "G", "Z"],
+    ["C", "M", "K", "Y", "T", "B", "A", "F", "E", "Q"],
+    ["H", "J", "W", "Q", "L", "Z", "S", "D", "X", "K"],
+    ["G", "T", "Y", "N", "M", "P", "U", "V", "I", "L"],
+    ["N", "O", "I", "T", "C", "E", "L", "F", "E", "R"]
+  ],
+  "words_to_find": ["MEMOIR", "ESSAY", "VOICE", "REFLECTION"],
+  "word_positions": [
+    {"word": "MEMOIR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSAY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "VOICE", "start_row": 3, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "REFLECTION", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Memoir and Creative Nonfiction"
+}

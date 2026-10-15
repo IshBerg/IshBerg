@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the heavy criticism from the press,",
+  "correct_completion": "the author refused to change her ending.",
+  "full_sentence": "Despite the heavy criticism from the press, the author refused to change her ending.",
+  "acceptable_variants": ["the author nevertheless kept her original ending.", "the author still refused to change her ending."],
+  "options": [
+    {"text": "the author was criticised for it.", "is_correct": false, "why_wrong": "This repeats the criticism already mentioned, so it adds no contrast."},
+    {"text": "because the author was very famous.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'despite' requires a contrast, not a cause."},
+    {"text": "the author refused to change her ending.", "is_correct": true, "why_wrong": null},
+    {"text": "so the publisher delayed the book's release.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not contrast with the criticism as 'despite' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive phrase with 'despite' expressing contrast",
+  "connector": "despite",
+  "explanation": "After 'despite', the completion must express a contrast with the criticism mentioned in the stem. Portuguese speakers often confuse 'despite' with 'because', since the idea is expressed with a similar structure, so they may choose a cause instead of a contrast.",
+  "translation": "Apesar das duras críticas da imprensa, a autora recusou-se a mudar o final."
+}

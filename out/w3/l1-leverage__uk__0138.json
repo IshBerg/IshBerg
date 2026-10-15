@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "коректний", "transliteration": "korektnyi", "meaning": "polite, tactful"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, topical, pressing"},
+    {"word": "симпатичний", "transliteration": "sympatychnyi", "meaning": "nice, attractive"},
+    {"word": "фамільярний", "transliteration": "familiarnyi", "meaning": "overly familiar, informal to the point of rudeness"}
+  ],
+  "english_words": ["attractive", "overly familiar", "polite", "relevant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Several of these words look like English words with the same Latin or Greek root, so the spelling stayed close in both languages. Over time their meanings shifted, so the look-alike form now points to a different meaning.",
+  "false_friend_warning": "Watch out for false friends: the Ukrainian word that looks like 'correct' means 'polite' rather than 'right', the one that looks like 'actual' means 'relevant' or 'topical', the one that looks like 'sympathetic' means 'nice' or 'attractive', and the one that looks like 'familiar' means 'overly familiar' or rude, which is a register problem in formal writing."
+}

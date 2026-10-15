@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the methodology been more rigorous,",
+  "correct_completion": "the authors' conclusions would have carried far greater weight.",
+  "full_sentence": "Had the methodology been more rigorous, the authors' conclusions would have carried far greater weight.",
+  "acceptable_variants": ["the findings would have been far more persuasive.", "the paper would have been received with greater confidence."],
+  "options": [
+    {"text": "the authors' conclusions carry far greater weight now.", "is_correct": false, "why_wrong": "The inverted past conditional refers to an unrealised past situation, so a present-tense result does not complete it."},
+    {"text": "the authors' conclusions would have carried far greater weight.", "is_correct": true, "why_wrong": null},
+    {"text": "it had been rigorous enough to satisfy the reviewers.", "is_correct": false, "why_wrong": "This repeats a past condition instead of stating the hypothetical result the stem requires."},
+    {"text": "so the reviewers were satisfied with the conclusions.", "is_correct": false, "why_wrong": "'So' introduces a real consequence that has already occurred, not the unrealised result of a counterfactual condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and the modal perfect 'would have carried'",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'if', so the main clause needs a modal perfect expressing the result that would have followed.",
+  "translation": "Se a metodologia tivesse sido mais rigorosa, as conclusões dos autores teriam peso muito maior."
+}

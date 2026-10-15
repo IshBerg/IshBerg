@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She told me that she",
+  "correct_completion": "had finished the report the day before.",
+  "full_sentence": "She told me that she had finished the report the day before.",
+  "acceptable_variants": ["had already finished the report.", "had completed the report the day before."],
+  "options": [
+    {"text": "finishes the report every day.", "is_correct": false, "why_wrong": "After a past reporting verb such as 'told', the present simple normally moves back to the past. 'Finishes' does not match the reported past context."},
+    {"text": "will finish the report tomorrow.", "is_correct": false, "why_wrong": "In reported speech 'will' moves back to 'would'. The sentence also refers to the day before, not tomorrow."},
+    {"text": "had finished the report the day before.", "is_correct": true, "why_wrong": null},
+    {"text": "has finished the report already.", "is_correct": false, "why_wrong": "The present perfect 'has finished' moves back to the past perfect 'had finished' after 'told'. 'Has' is not used in this reported structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Backshift in reported speech: present perfect to past perfect",
+  "connector": "that",
+  "explanation": "After a past reporting verb such as 'told', the tense usually moves one step back in time, so the present perfect becomes the past perfect. Learners whose first language does not apply this backshift in the same way often keep the original tense, so this pattern needs focused practice.",
+  "translation": "Вона сказала мені, що закінчила звіт напередодні."
+}

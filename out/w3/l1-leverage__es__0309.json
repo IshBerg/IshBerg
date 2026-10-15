@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sociedad", "transliteration": "sociedad", "meaning": "society"},
+    {"word": "justicia", "transliteration": "justicia", "meaning": "justice"},
+    {"word": "discriminación", "transliteration": "discriminacion", "meaning": "discrimination"},
+    {"word": "privilegio", "transliteration": "privilegio", "meaning": "privilege"}
+  ],
+  "english_words": ["discrimination", "justice", "privilege", "society"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages inherited these terms from the same Latin roots, so the spelling and the meaning stayed almost identical.",
+  "false_friend_warning": null
+}

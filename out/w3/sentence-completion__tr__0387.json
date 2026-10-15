@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because Little Bo Peep lost her sheep,",
+  "correct_completion": "she went to look for them.",
+  "full_sentence": "Because Little Bo Peep lost her sheep, she went to look for them.",
+  "acceptable_variants": ["she went to find them.", "she looked for them in the field."],
+  "options": [
+    {"text": "she bought a new hat.", "is_correct": false, "why_wrong": "Buying a new hat is not a logical result of losing sheep. The completion should respond to the lost sheep."},
+    {"text": "she went to look for them.", "is_correct": true, "why_wrong": null},
+    {"text": "she has never had any sheep.", "is_correct": false, "why_wrong": "This contradicts the stem, which says that she lost her sheep, so she had them before."},
+    {"text": "the sheep were very happy.", "is_correct": false, "why_wrong": "This describes the sheep, but it does not describe what Bo Peep does because of the loss."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the stem gives the cause. The completion must give the logical effect of that cause, which is an action a person would take after losing something.",
+  "translation": "Küçük Bo Peep koyunlarını kaybettiği için onları aramaya gitti."
+}

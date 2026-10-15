@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the heavy traffic,",
+  "correct_completion": "we arrived at the airport on time.",
+  "full_sentence": "Despite the heavy traffic, we arrived at the airport on time.",
+  "acceptable_variants": ["we still reached the airport before noon.", "we managed to catch our flight."],
+  "options": [
+    {"text": "the bus driver was very kind.", "is_correct": false, "why_wrong": "This adds an unrelated detail and does not complete the contrast expected after 'despite'."},
+    {"text": "so we missed the flight.", "is_correct": false, "why_wrong": "'So' introduces a result that follows naturally from the problem. 'Despite' needs an outcome that goes against the expected result."},
+    {"text": "we arrived at the airport on time.", "is_correct": true, "why_wrong": null},
+    {"text": "we were stuck in the car for an hour.", "is_correct": false, "why_wrong": "This repeats the problem caused by the traffic instead of showing a contrasting outcome."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive connector 'despite' followed by a noun phrase",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a fact that would normally prevent an action, so the main clause must show the action succeeding anyway. Learners often confuse 'despite' with 'so', which signals a result rather than a contrast.",
+  "translation": "Yoğun trafiğe rağmen havalimanına zamanında vardık."
+}

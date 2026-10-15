@@ -1,0 +1,17 @@
+{
+  "central_word": "suspicious",
+  "chain_words": [
+    {"word": "doubtful", "intensity": 1, "translation": "duvidoso", "nuance": "mild uncertainty about whether something is true"},
+    {"word": "wary", "intensity": 2, "translation": "cauteloso", "nuance": "careful and on guard, though not yet convinced of a threat"},
+    {"word": "suspicious", "intensity": 3, "translation": "desconfiado", "nuance": "believing that something is wrong without proof"},
+    {"word": "distrustful", "intensity": 4, "translation": "desconfiado de", "nuance": "a settled lack of trust in a person or idea"},
+    {"word": "paranoid", "intensity": 5, "translation": "paranoico", "nuance": "an excessive, irrational belief that others mean harm"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express doubt about someone or something but with different intensities, from mild uncertainty to an excessive belief in hidden threats.",
+  "usage_notes": [
+    {"word1": "suspicious", "word2": "distrustful", "difference": "'Suspicious' describes a current feeling that something seems wrong; 'distrustful' describes a lasting attitude of not trusting someone."}
+  ],
+  "translations": {"doubtful": "duvidoso", "wary": "cauteloso", "suspicious": "desconfiado", "distrustful": "desconfiado de", "paranoid": "paranoico"}
+}

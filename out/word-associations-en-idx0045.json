@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dataset",
+  "all_words": [
+    {"word": "database", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A database stores and organises data, which is what a dataset is, so the two words are closely related in meaning."},
+    {"word": "hamster", "is_associated": false, "association_type": "NONE", "explanation": "A hamster is a small rodent and has no connection to data or research."},
+    {"word": "statistics", "is_associated": true, "association_type": "THEMATIC", "explanation": "Datasets are the raw material of statistical analysis, so the two belong to the same topic of research methods."},
+    {"word": "chandelier", "is_associated": false, "association_type": "NONE", "explanation": "A chandelier is a light fixture and is unrelated to scientific data."},
+    {"word": "spreadsheet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A spreadsheet is a common tool for storing and organising a dataset, so the word is directly linked in meaning."},
+    {"word": "mongoose", "is_associated": false, "association_type": "NONE", "explanation": "A mongoose is an animal and has no relation to datasets or scientific research."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A dataset is a collection of recorded observations; the associated words describe where data is stored, how it is analysed, and how it is organised, while the others belong to unrelated fields."
+}

@@ -1,0 +1,13 @@
+{
+  "start_word": "suspicious",
+  "end_word": "damning",
+  "ladder_steps": [
+    {"word": "suspicious", "translation": "مريب", "intensity_level": 1},
+    {"word": "questionable", "translation": "مشكوك فيه", "intensity_level": 2},
+    {"word": "incriminating", "translation": "مُدين", "intensity_level": 3},
+    {"word": "compromising", "translation": "فاضح", "intensity_level": 4},
+    {"word": "damning", "translation": "قاطع في إدانته", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words for how strongly a fact points to wrongdoing form a ladder from suspicious to damning, each step more incriminating than the last."
+}

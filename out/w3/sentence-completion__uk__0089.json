@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We bought a lot of bread for the picnic, so",
+  "correct_completion": "we do not need to buy more.",
+  "full_sentence": "We bought a lot of bread for the picnic, so we do not need to buy more.",
+  "acceptable_variants": ["we have enough food for the whole day.", "we can eat everything at the park."],
+  "options": [
+    {"text": "we forgot the bread at home.", "is_correct": false, "why_wrong": "This contradicts the first part, which says we bought a lot of bread."},
+    {"text": "we do not need to buy more.", "is_correct": true, "why_wrong": null},
+    {"text": "the bread was very fresh.", "is_correct": false, "why_wrong": "This describes the bread but does not show a result of having so much of it."},
+    {"text": "we need to buy more eggs.", "is_correct": false, "why_wrong": "Eggs are not mentioned in the first part, so this does not follow from buying bread."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' and 'a lot of' with uncountable nouns",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. 'Bread' is treated as uncountable here, so 'a lot of' is used rather than 'many'. Learners sometimes add a plural ending to such nouns, which is incorrect in this context.",
+  "translation": "Ми купили багато хліба для пікніка, тож нам не потрібно купувати більше."
+}

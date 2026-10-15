@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E", "X", "I", "S", "T", "E", "N", "C", "E", "Q"],
+    ["K", "A", "W", "Z", "B", "J", "F", "M", "X", "P"],
+    ["Z", "V", "R", "E", "F", "L", "E", "C", "T", "W"],
+    ["Q", "J", "D", "H", "K", "X", "Z", "A", "B", "G"],
+    ["W", "Y", "P", "Q", "M", "N", "V", "R", "J", "K"],
+    ["X", "B", "L", "U", "S", "F", "K", "I", "Z", "Q"],
+    ["F", "K", "Z", "J", "T", "W", "Q", "E", "V", "B"],
+    ["V", "Q", "X", "N", "H", "G", "Y", "D", "K", "Z"],
+    ["J", "M", "W", "K", "P", "B", "Z", "Q", "F", "X"],
+    ["R", "Z", "Q", "V", "C", "H", "W", "J", "L", "D"]
+  ],
+  "words_to_find": ["EXISTENCE", "REFLECT", "FREEDOM", "ESSENCE"],
+  "word_positions": [
+    {"word": "EXISTENCE", "start_row": 0, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "REFLECT", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "FREEDOM", "start_row": 5, "start_col": 4, "direction": "HORIZONTAL"},
+    {"word": "ESSENCE", "start_row": 0, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Existentialism and Modern Philosophy"
+}

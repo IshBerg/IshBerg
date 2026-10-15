@@ -1,0 +1,14 @@
+{
+  "trigger_word": "irony",
+  "all_words": [
+    {"word": "sarcasm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сарказм — близкое к иронии выражение, при котором говорящий высказывает мысль, противоположную подразумеваемой, для насмешки."},
+    {"word": "pitchfork", "is_associated": false, "association_type": "NONE", "explanation": "Вилы — сельскохозяйственный инструмент и не имеют отношения к языковым приёмам или литературе."},
+    {"word": "paradox", "is_associated": true, "association_type": "THEMATIC", "explanation": "Парадокс относится к той же теме литературных приёмов, основанных на несоответствии между тем, что сказано, и тем, что имеется в виду."},
+    {"word": "hedgehog", "is_associated": false, "association_type": "NONE", "explanation": "Ёж — животное и не связан с литературной иронией или риторикой."},
+    {"word": "understatement", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Литота — преуменьшение, которое часто используется как форма иронии, поэтому слово близко по смыслу."},
+    {"word": "kiln", "is_associated": false, "association_type": "NONE", "explanation": "Печь для обжига является промышленным оборудованием и не относится к литературным приёмам."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Ирония — это выражение, при котором сказанное расходится с подразумеваемым смыслом; связанные слова описывают близкие приёмы, а остальные относятся к несвязанным областям."
+}

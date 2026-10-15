@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "luggage", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los viajeros llevan su equipaje al aeropuerto, por eso esta palabra pertenece al mismo tema del viaje en avión."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "La zanahoria es un alimento y no tiene ninguna relación con los aeropuertos."},
+    {"word": "flight", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un vuelo es el viaje en avión que se toma desde un aeropuerto, así que el significado está muy relacionado."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "La almohada se usa para dormir y no tiene relación con los aeropuertos."},
+    {"word": "passport", "is_associated": true, "association_type": "THEMATIC", "explanation": "El pasaporte es un documento necesario para pasar los controles del aeropuerto, por eso pertenece al mismo tema."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "El violín es un instrumento musical y no tiene ninguna relación con los viajes."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra airport se asocia con objetos y documentos del viaje en avión, mientras que los alimentos, los instrumentos y los objetos de casa no pertenecen a ese tema."
+}

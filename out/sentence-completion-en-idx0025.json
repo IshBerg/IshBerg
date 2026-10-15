@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Where the statute is silent on the matter,",
+  "correct_completion": "courts must interpret its purpose to resolve the dispute.",
+  "full_sentence": "Where the statute is silent on the matter, courts must interpret its purpose to resolve the dispute.",
+  "acceptable_variants": ["courts are required to read the legislative intent into the provision.", "judges must construe the statute in light of its underlying purpose."],
+  "options": [
+    {"text": "the statute was enacted in 1976.", "is_correct": false, "why_wrong": "This gives background information about the statute's date, but it does not complete the conditional set up by 'where'."},
+    {"text": "so the dispute is settled by the statute.", "is_correct": false, "why_wrong": "'So' introduces a result, and the result contradicts the stem, which says the statute is silent on the matter."},
+    {"text": "although the parties agreed on the terms.", "is_correct": false, "why_wrong": "'Although' signals a contrast, but the sentence needs the outcome of the condition, not a concession."},
+    {"text": "courts must interpret its purpose to resolve the dispute.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Conditional clauses with 'where' (condition with a legal consequence)",
+  "connector": "where",
+  "explanation": "'Where' introduces a condition, and the main clause must state the legal consequence of that condition. When a statute is silent, courts rely on its purpose.",
+  "translation": "Where the statute is silent on the matter, courts must interpret its purpose to resolve the dispute."
+}

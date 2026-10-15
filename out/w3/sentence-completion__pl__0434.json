@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you book before the end of May,",
+  "correct_completion": "you will get a 20% discount.",
+  "full_sentence": "If you book before the end of May, you will get a 20% discount.",
+  "acceptable_variants": ["you will pay less for your holiday.", "you can get a free breakfast."],
+  "options": [
+    {"text": "the hotel was closed last year.", "is_correct": false, "why_wrong": "The 'if' clause refers to the future, so the result must be a future or present consequence, not a past event."},
+    {"text": "you can see the sea from your room.", "is_correct": false, "why_wrong": "This describes the room, but it does not give the result of booking early, which the 'if' clause requires."},
+    {"text": "you will get a 20% discount.", "is_correct": true, "why_wrong": null},
+    {"text": "we are open every day.", "is_correct": false, "why_wrong": "This gives information about opening hours, not a result of the condition set by 'if'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' (if + present simple, will + verb)",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause uses 'will' to describe a likely future result. The completion must therefore state what will happen as a consequence of booking early.",
+  "translation": "Jeśli zarezerwujesz przed końcem maja, otrzymasz 20% zniżki."
+}

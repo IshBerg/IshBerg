@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the data appear conclusive,",
+  "correct_completion": "it would be premature to draw firm conclusions from them.",
+  "full_sentence": "Although the data appear conclusive, it would be premature to draw firm conclusions from them.",
+  "acceptable_variants": ["we should be cautious about drawing firm conclusions from them.", "it would be unwise to treat them as definitive."],
+  "options": [
+    {"text": "the sample was fairly modest in size.", "is_correct": false, "why_wrong": "This adds a detail about the sample but does not set up the contrast that 'although' requires with the first clause."},
+    {"text": "therefore firm conclusions must be drawn from them.", "is_correct": false, "why_wrong": "'Therefore' signals a result, which clashes with the concessive meaning of 'although'."},
+    {"text": "it would be premature to draw firm conclusions from them.", "is_correct": true, "why_wrong": null},
+    {"text": "so the conclusions are certainly beyond doubt.", "is_correct": false, "why_wrong": "'So' introduces a consequence, not a contrast, and the hedging meaning of the stem is lost."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'although' followed by a hedged modal evaluation",
+  "connector": "although",
+  "explanation": "After 'although', the clause must set up a contrast with the main clause. Here the hedge 'it would be premature' signals caution despite the apparent strength of the data. Portuguese speakers may state the conclusion directly because Portuguese hedging often relies on subjunctive forms, so English modal hedges such as 'it would be premature' are best learned as fixed units.",
+  "translation": "Embora os dados pareçam conclusivos, seria precipitado tirar conclusões firmes deles."
+}

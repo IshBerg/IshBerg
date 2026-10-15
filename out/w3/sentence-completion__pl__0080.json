@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Last weekend, my sister",
+  "correct_completion": "washed the car before lunch.",
+  "full_sentence": "Last weekend, my sister washed the car before lunch.",
+  "acceptable_variants": ["cleaned the car before lunch.", "washed the car in the morning."],
+  "options": [
+    {"text": "will wash the car tomorrow.", "is_correct": false, "why_wrong": "'Will' shows the future, but 'last weekend' points to the past, so the past simple is needed."},
+    {"text": "washed the car before lunch.", "is_correct": true, "why_wrong": null},
+    {"text": "washes the car every day.", "is_correct": false, "why_wrong": "The present simple describes habits, but the stem refers to one finished event in the past."},
+    {"text": "washing the car yesterday.", "is_correct": false, "why_wrong": "The sentence has no finite verb. A past simple form such as 'washed' is needed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past Simple: regular verbs with -ed endings",
+  "connector": "last weekend",
+  "explanation": "The time expression 'last weekend' points to a finished event, so the verb must be in the past simple. Regular verbs add -ed, and learners should avoid using a present or future form here.",
+  "translation": "W zeszły weekend moja siostra umyła samochód przed obiadem."
+}

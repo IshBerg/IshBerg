@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The man who",
+  "correct_completion": "lives next door is a doctor.",
+  "full_sentence": "The man who lives next door is a doctor.",
+  "acceptable_variants": ["works in the office next door."],
+  "options": [
+    {"text": "which lives next door is a doctor.", "is_correct": false, "why_wrong": "'Which' refers to things or animals, not people. Use 'who' when the relative clause describes a man."},
+    {"text": "where lives next door is a doctor.", "is_correct": false, "why_wrong": "'Where' introduces a place, not a person, so it cannot refer to 'the man'."},
+    {"text": "lives next door is a doctor.", "is_correct": true, "why_wrong": null},
+    {"text": "lives next door, a doctor.", "is_correct": false, "why_wrong": "This leaves the sentence without a main verb after the relative clause, so the sentence stays incomplete."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Defining relative clauses with 'who' for people",
+  "connector": "who",
+  "explanation": "After 'who', the defining relative clause describes which man is meant, and the sentence then needs a main verb for its subject. Learners often add a second verb too early, so the clause should be followed directly by the main verb 'is'. Relative pronouns depend on the noun they refer to: people take 'who', while places take 'where'.",
+  "translation": "Чоловік, який живе поруч, — лікар."
+}

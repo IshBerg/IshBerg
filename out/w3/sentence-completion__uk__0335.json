@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bridge,",
+  "correct_completion": "which was built in 1900, is still in use.",
+  "full_sentence": "The bridge, which was built in 1900, is still in use.",
+  "acceptable_variants": ["which was built in 1900, remains in use.", "which was built in 1900, is still open to traffic."],
+  "options": [
+    {"text": "that was built in 1900, is still in use.", "is_correct": false, "why_wrong": "'That' is not normally used to introduce a non-defining relative clause after a comma. Use 'which' for things."},
+    {"text": "which was built in 1900 is still in use.", "is_correct": false, "why_wrong": "The non-defining clause is opened by a comma, so it must also be closed by a comma before the main verb. Without it the sentence is ungrammatical."},
+    {"text": "which was built in 1900, is still in use.", "is_correct": true, "why_wrong": null},
+    {"text": "because it was built in 1900.", "is_correct": false, "why_wrong": "'Because' introduces a reason clause and does not relate to 'the bridge' as a relative clause, so the sentence has no main verb for its subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'which' and commas",
+  "connector": "which",
+  "explanation": "A non-defining relative clause adds extra information about a noun that is already identified, and it is set off by commas on both sides. Learners often drop the closing comma or reach for 'that' by analogy with defining clauses, so the comma rule and the choice of 'which' are the key points here.",
+  "translation": "Міст, який було збудовано в 1900 році, досі використовується."
+}

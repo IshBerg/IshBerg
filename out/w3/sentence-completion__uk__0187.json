@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was not the price that worried her,",
+  "correct_completion": "but the long delivery time.",
+  "full_sentence": "It was not the price that worried her, but the long delivery time.",
+  "acceptable_variants": ["but the uncertainty about when the order would arrive.", "but how long she would have to wait."],
+  "options": [
+    {"text": "so she cancelled the order.", "is_correct": false, "why_wrong": "'So' introduces a result, but the 'It was not X that... but Y' structure requires a contrasting cause to complete it."},
+    {"text": "that the product was faulty.", "is_correct": false, "why_wrong": "This introduces a new complaint and does not complete the 'not X but Y' contrast the stem sets up."},
+    {"text": "but the long delivery time.", "is_correct": true, "why_wrong": null},
+    {"text": "the price was actually too high.", "is_correct": false, "why_wrong": "This repeats the element the stem has just rejected, so it contradicts the contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Cleft sentences of the form 'It was not X that...' followed by a contrasting element",
+  "connector": "but",
+  "explanation": "The 'It was not X that...' cleft sentence sets up a contrast, so the completion must name a different element introduced by 'but'. Learners should check that the second part replaces the rejected element rather than repeating it or adding an unrelated result.",
+  "translation": "Її турбувала не ціна, а довгий термін доставки."
+}

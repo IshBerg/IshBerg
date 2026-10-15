@@ -1,0 +1,14 @@
+{
+  "trigger_word": "breakfast",
+  "all_words": [
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El zapato no tiene relación con el desayuno; es una prenda que se usa en los pies."},
+    {"word": "cereal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Los cereales son un alimento típico del desayuno."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "El río no tiene ninguna relación con el desayuno."},
+    {"word": "coffee", "is_associated": true, "association_type": "THEMATIC", "explanation": "El café es una bebida que muchas personas toman durante el desayuno."},
+    {"word": "bike", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta no está relacionada con las comidas de la mañana."},
+    {"word": "toast", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El pan tostado es un alimento muy común en el desayuno."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas son alimentos o bebidas que se toman en el desayuno; las demás no tienen relación con la comida de la mañana."
+}

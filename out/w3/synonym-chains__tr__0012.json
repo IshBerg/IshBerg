@@ -1,0 +1,17 @@
+{
+  "central_word": "worried",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "huzursuz", "nuance": "a vague feeling that something is not quite right"},
+    {"word": "anxious", "intensity": 2, "translation": "endişeli", "nuance": "nervous and concerned about what might happen"},
+    {"word": "worried", "intensity": 3, "translation": "kaygılı", "nuance": "general concern about a specific problem"},
+    {"word": "frightened", "intensity": 4, "translation": "korkmuş", "nuance": "afraid because of an immediate danger or threat"},
+    {"word": "terrified", "intensity": 5, "translation": "dehşete kapılmış", "nuance": "extremely scared, to the point of being overwhelmed"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express a negative feeling of fear or concern, with intensity rising from a vague unease to overwhelming terror.",
+  "usage_notes": [
+    {"word1": "anxious", "word2": "terrified", "difference": "'Anxious' describes worry about a future event and is usually calm enough to think; 'terrified' describes fear so strong that it overwhelms the person, usually in response to an immediate threat."}
+  ],
+  "translations": {"uneasy": "huzursuz", "anxious": "endişeli", "worried": "kaygılı", "frightened": "korkmuş", "terrified": "dehşete kapılmış"}
+}

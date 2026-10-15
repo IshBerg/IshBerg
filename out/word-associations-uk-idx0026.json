@@ -1,0 +1,14 @@
+{
+  "trigger_word": "thesis",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Теза і аргумент тісно пов’язані: теза є головною думкою роботи, а аргументи її обґрунтовують."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "Банан є фруктом і не має жодного зв’язку з академічним написанням чи структурою роботи."},
+    {"word": "abstract", "is_associated": true, "association_type": "THEMATIC", "explanation": "Анотація стисло передає основну тезу дослідження, тому належить до тієї самої теми академічного письма."},
+    {"word": "tuba", "is_associated": false, "association_type": "NONE", "explanation": "Туба є духовим музичним інструментом і не стосується наукових робіт."},
+    {"word": "dissertation", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Дисертація є великою науковою роботою, у якій захищається теза, отже між цими словами є прямий смисловий зв’язок."},
+    {"word": "faucet", "is_associated": false, "association_type": "NONE", "explanation": "Кран є елементом водопроводу і не пов’язаний з академічним письмом."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Теза є головним твердженням наукової роботи; пов’язані слова стосуються аргументації, анотації та дисертації, а решта не належить до цієї теми."
+}

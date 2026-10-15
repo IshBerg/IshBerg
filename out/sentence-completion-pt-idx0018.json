@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the translator preserved the original metaphor,",
+  "correct_completion": "the target reader encounters the same image that startled the first audience.",
+  "full_sentence": "Because the translator preserved the original metaphor, the target reader encounters the same image that startled the first audience.",
+  "acceptable_variants": ["the reader meets the figure that once unsettled the original audience.", "the image retains the force it had for the source readers."],
+  "options": [
+    {"text": "so the target reader will find the image entirely unfamiliar.", "is_correct": false, "why_wrong": "'So' reverses the logic of the stem, since a preserved metaphor keeps its image familiar in form rather than making it unfamiliar."},
+    {"text": "the metaphor was replaced by a literal paraphrase.", "is_correct": false, "why_wrong": "This contradicts the stem, which states that the translator preserved the metaphor."},
+    {"text": "although the target language has no equivalent word.", "is_correct": false, "why_wrong": "'Although' introduces a concession, but the stem is built on cause, so the clause cannot complete the causal result."},
+    {"text": "the target reader encounters the same image that startled the first audience.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clauses with 'because' and a main clause stating the consequence for the reader",
+  "connector": "because",
+  "explanation": "'Because' introduces a cause, so the main clause must state the consequence of preserving the metaphor, namely that the reader meets the same startling image.",
+  "translation": "Porque o tradutor preservou a metáfora original, o leitor da língua de chegada encontra a mesma imagem que surpreendeu o primeiro público."
+}

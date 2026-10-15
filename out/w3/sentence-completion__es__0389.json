@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had I known how the summer would end,",
+  "correct_completion": "I would never have boarded that train.",
+  "full_sentence": "Had I known how the summer would end, I would never have boarded that train.",
+  "acceptable_variants": ["I would have chosen a different path.", "I would have stayed behind in the village."],
+  "options": [
+    {"text": "I boarded the train anyway.", "is_correct": false, "why_wrong": "The simple past reports what happened and does not express the unreal past result that 'had I known' sets up."},
+    {"text": "I would never have boarded that train.", "is_correct": true, "why_wrong": null},
+    {"text": "I will never board trains again.", "is_correct": false, "why_wrong": "A future form does not match the hypothetical past introduced by 'had I known'."},
+    {"text": "I have boarded that train twice.", "is_correct": false, "why_wrong": "The present perfect states a completed fact and cannot express a counterfactual result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had I known'",
+  "connector": "had I known",
+  "explanation": "The inverted 'had I known' replaces 'if I had known' and sets up an unreal past condition. The main clause must use 'would have' plus the past participle to express the imagined past result. Learners often choose a simple past or future form here because they do not recognise the counterfactual structure.",
+  "translation": "Si hubiera sabido cómo terminaría aquel verano, nunca habría subido a aquel tren."
+}

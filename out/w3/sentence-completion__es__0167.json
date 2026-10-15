@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied medicine,",
+  "correct_completion": "I would be a doctor now.",
+  "full_sentence": "If I had studied medicine, I would be a doctor now.",
+  "acceptable_variants": ["I would be earning more money now.", "I would have a better job today."],
+  "options": [
+    {"text": "I am a doctor now.", "is_correct": false, "why_wrong": "A mixed conditional with 'had studied' needs the conditional form 'would be', not a simple present statement."},
+    {"text": "I would be a doctor now.", "is_correct": true, "why_wrong": null},
+    {"text": "I will be a doctor tomorrow.", "is_correct": false, "why_wrong": "The result clause must use 'would' to show the imagined situation, and 'tomorrow' does not match 'now'."},
+    {"text": "I would have been a doctor last year.", "is_correct": false, "why_wrong": "This describes a past result, but the stem's result must relate to the present time, which is signalled by 'now'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past condition with present result",
+  "connector": "if",
+  "explanation": "The 'if' clause refers to the past with a past perfect form, while the result refers to the present with 'would' plus a base verb. Spanish speakers may keep the same tense in both clauses, but English requires this shift to show the mixed time reference.",
+  "translation": "Si hubiera estudiado medicina, ahora ejercería la profesión."
+}

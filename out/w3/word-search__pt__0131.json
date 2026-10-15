@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "A", "R", "A", "D", "I", "G", "M", "Q", "V"],
+    ["K", "B", "N", "S", "W", "F", "J", "Z", "U", "E"],
+    ["L", "Q", "H", "P", "D", "K", "X", "Y", "W", "C"],
+    ["M", "A", "F", "R", "V", "B", "G", "U", "D", "T"],
+    ["J", "S", "T", "N", "Z", "O", "K", "P", "E", "O"],
+    ["W", "I", "Q", "E", "L", "A", "D", "X", "F", "R"],
+    ["B", "V", "G", "O", "N", "H", "S", "U", "Z", "K"],
+    ["P", "R", "T", "A", "M", "C", "Q", "W", "I", "Y"],
+    ["D", "N", "X", "B", "F", "U", "Y", "L", "G", "E"],
+    ["O", "C", "I", "T", "S", "I", "R", "U", "E", "H"]
+  ],
+  "words_to_find": ["PARADIGM", "HEURISTIC", "ONTOLOGY", "LATENCY", "VECTOR"],
+  "word_positions": [
+    {"word": "PARADIGM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HEURISTIC", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "ONTOLOGY", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "LATENCY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "VECTOR", "start_row": 0, "start_col": 9, "direction": "VERTICAL"}
+  ],
+  "topic": "Domain-Specific Jargon Mastery"
+}

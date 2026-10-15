@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "You are coming to the party tonight,",
+  "correct_completion": "aren't you?",
+  "full_sentence": "You are coming to the party tonight, aren't you?",
+  "acceptable_variants": ["are you not?"],
+  "options": [
+    {"text": "don't you?", "is_correct": false, "why_wrong": "The auxiliary in the tag must match the main verb 'are', so 'don't' is incorrect here."},
+    {"text": "aren't you?", "is_correct": true, "why_wrong": null},
+    {"text": "are you?", "is_correct": false, "why_wrong": "After a positive statement the tag must be negative, so 'are you?' is not the correct form."},
+    {"text": "isn't it?", "is_correct": false, "why_wrong": "The pronoun in the tag must refer back to the subject 'you', so 'it' is incorrect."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Tag questions with auxiliary verbs and matching pronouns",
+  "connector": "tag question",
+  "explanation": "A tag question repeats the auxiliary verb from the main clause and reverses its polarity. A positive statement takes a negative tag, and the pronoun must refer back to the subject of the sentence.",
+  "translation": "Ти сьогодні прийдеш на вечірку, правда?"
+}

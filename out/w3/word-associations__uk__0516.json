@@ -1,0 +1,14 @@
+{
+  "trigger_word": "coffee",
+  "all_words": [
+    {"word": "cup", "is_associated": true, "association_type": "THEMATIC", "explanation": "Кава зазвичай подається в чашці, тому слово 'cup' пов'язане з темою кави."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед — це транспорт, він не має жодного зв'язку з кавою."},
+    {"word": "milk", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Coffee with milk' — поширене англійське словосполучення, тому 'milk' асоціюється з 'coffee'."},
+    {"word": "sugar", "is_associated": true, "association_type": "THEMATIC", "explanation": "Цукор часто додають у каву, тому це слово належить до теми напою."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Взуття не пов'язане з кавою; це предмет одягу."},
+    {"word": "dog", "is_associated": false, "association_type": "NONE", "explanation": "Собака — тварина, і вона не має відношення до кави."}
+  ],
+  "correct_indices": [0, 2, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'coffee', стосуються напою, його подачі та додатків; решта слів належать до інших тем."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I got home last night,",
+  "correct_completion": "my parents were watching TV.",
+  "full_sentence": "When I got home last night, my parents were watching TV.",
+  "acceptable_variants": ["my parents were sleeping.", "the house was dark and quiet."],
+  "options": [
+    {"text": "they will watch TV tomorrow.", "is_correct": false, "why_wrong": "'Will' shows the future, but the stem is about last night, so the past tense is needed."},
+    {"text": "my parents was watching TV.", "is_correct": false, "why_wrong": "'Was' does not agree with the plural subject 'parents'. Use 'were' with plural subjects."},
+    {"text": "my parents were watching TV.", "is_correct": true, "why_wrong": null},
+    {"text": "the TV is broken today.", "is_correct": false, "why_wrong": "The present tense 'is' and the word 'today' do not fit a past-time stem about last night."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past Simple: was and were with singular and plural subjects",
+  "connector": "when",
+  "explanation": "After a 'when' clause that refers to a past time, the main clause needs a past form. With the plural subject 'parents', the correct past form of 'to be' is 'were'.",
+  "translation": "Коли я прийшов додому минулої ночі, мої батьки дивилися телевізор."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not until the final vote was counted,",
+  "correct_completion": "did the committee realise how close the result had been.",
+  "full_sentence": "Not until the final vote was counted did the committee realise how close the result had been.",
+  "acceptable_variants": ["did anyone on the committee grasp how narrow the margin had been.", "did the committee fully appreciate how narrow the margin had been."],
+  "options": [
+    {"text": "the committee realised how close the result had been.", "is_correct": false, "why_wrong": "After a fronted negative expression such as 'not until', English requires subject-auxiliary inversion, so declarative word order is ungrammatical here."},
+    {"text": "did the committee realise how close the result had been.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee did realise how close the result had been.", "is_correct": false, "why_wrong": "Emphatic 'did' without inversion does not fit a fronted 'not until' structure; the auxiliary must come before the subject."},
+    {"text": "how close the result had been did the committee realise.", "is_correct": false, "why_wrong": "This moves the object clause to the front, which is not a valid continuation of the fronted 'not until' structure and sounds unnatural."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion after fronted negative expressions ('not until')",
+  "connector": "not until",
+  "explanation": "After a fronted negative expression like 'not until', English inverts the auxiliary and the subject. Polish speakers often keep normal declarative order here because Polish word order is flexible and does not require inversion after fronted phrases.",
+  "translation": "Dopiero po przeliczeniu ostatniego głosu komisja zdała sobie sprawę, jak wyrównany był wynik."
+}

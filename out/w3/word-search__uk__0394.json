@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "O", "U", "R", "C", "E", "K", "P", "E"],
+    ["A", "Z", "C", "I", "T", "E", "Q", "W", "V"],
+    ["S", "L", "B", "J", "F", "G", "X", "H", "I"],
+    ["T", "U", "Y", "N", "O", "K", "P", "W", "D"],
+    ["H", "Q", "M", "B", "L", "J", "G", "F", "E"],
+    ["E", "R", "X", "M", "V", "Z", "O", "P", "N"],
+    ["S", "W", "K", "D", "A", "J", "F", "H", "C"],
+    ["I", "G", "Q", "L", "N", "R", "B", "T", "E"],
+    ["S", "V", "M", "P", "D", "U", "Y", "K", "Z"]
+  ],
+  "words_to_find": ["SOURCE", "EVIDENCE", "SUMMARY", "THESIS", "CITE"],
+  "word_positions": [
+    {"word": "SOURCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SUMMARY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "THESIS", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "CITE", "start_row": 1, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Synthesizing Sources"
+}

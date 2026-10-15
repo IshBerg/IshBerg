@@ -1,0 +1,14 @@
+{
+  "trigger_word": "narrative",
+  "all_words": [
+    {"word": "plot", "is_associated": true, "association_type": "THEMATIC", "explanation": "Сюжет (plot) — основа повествования; эти понятия относятся к одной теме разбора художественного текста."},
+    {"word": "teapot", "is_associated": false, "association_type": "NONE", "explanation": "Заварочный чайник — бытовой предмет и не имеет отношения к повествованию."},
+    {"word": "storyline", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сюжетная линия (storyline) — по смыслу очень близкое к нарративу понятие: последовательность событий в рассказе."},
+    {"word": "walrus", "is_associated": false, "association_type": "NONE", "explanation": "Морж — морское животное и не связан с литературным повествованием."},
+    {"word": "voice", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "В разборе стиля часто говорят о нарративном голосе (narrative voice), поэтому слова стоят рядом."},
+    {"word": "thimble", "is_associated": false, "association_type": "NONE", "explanation": "Наперсток — швейный инструмент и не относится к повествованию."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Нарратив — способ рассказа о событиях, который опирается на сюжет, сюжетную линию и голос рассказчика; остальные слова относятся к бытовым предметам и животным."
+}

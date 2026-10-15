@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["I", "D", "I", "O", "M", "F", "K", "Q", "W", "E"],
+    ["X", "B", "Z", "U", "J", "C", "V", "N", "Q", "T"],
+    ["P", "K", "W", "F", "D", "Q", "B", "X", "H", "Y"],
+    ["J", "H", "C", "K", "W", "Z", "F", "D", "U", "M"],
+    ["Q", "V", "R", "T", "Y", "X", "K", "B", "Z", "O"],
+    ["L", "M", "G", "A", "D", "F", "Y", "U", "C", "L"],
+    ["W", "D", "N", "J", "S", "K", "P", "Z", "V", "O"],
+    ["B", "Q", "A", "X", "H", "E", "W", "F", "K", "G"],
+    ["Y", "U", "L", "Z", "C", "T", "D", "J", "Q", "Y"],
+    ["R", "F", "S", "B", "N", "I", "G", "I", "R", "O"]
+  ],
+  "words_to_find": ["IDIOM", "ETYMOLOGY", "PHRASE", "ORIGIN", "SLANG"],
+  "word_positions": [
+    {"word": "IDIOM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ETYMOLOGY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "PHRASE", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ORIGIN", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SLANG", "start_row": 9, "start_col": 2, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Idiomatic Expressions and Their Origins"
+}

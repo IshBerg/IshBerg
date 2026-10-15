@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because her laptop was broken,",
+  "correct_completion": "she had it repaired at the shop.",
+  "full_sentence": "Because her laptop was broken, she had it repaired at the shop.",
+  "acceptable_variants": ["she got it fixed by a technician.", "she took it to a repair shop to be fixed."],
+  "options": [
+    {"text": "she repaired it herself at home.", "is_correct": false, "why_wrong": "The causative 'have' structure shows that she arranged for someone else to do the repair. This option says she did the repair herself."},
+    {"text": "she laughed at the broken screen.", "is_correct": false, "why_wrong": "A broken laptop does not logically lead to laughing, so this is not a cause-effect result."},
+    {"text": "she had it repaired at the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "she didn't need a laptop at all.", "is_correct": false, "why_wrong": "This contradicts the stem, which implies that she needed the laptop to work."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have' with a past participle",
+  "connector": "because",
+  "explanation": "The connector 'because' introduces a cause, so the completion must be the logical effect. The causative structure 'have + object + past participle' shows that someone else performs the action. Spanish speakers often use a simple past verb such as 'repaired' alone, but English needs 'had it repaired' to show the arrangement.",
+  "translation": "Como su portátil estaba roto, lo hizo reparar en la tienda."
+}

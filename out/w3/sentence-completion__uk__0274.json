@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results might suggest a link between the two variables,",
+  "correct_completion": "although further research would be needed to confirm it.",
+  "full_sentence": "The results might suggest a link between the two variables, although further research would be needed to confirm it.",
+  "acceptable_variants": ["though more evidence would be required to be sure.", "but the connection is not yet established."],
+  "options": [
+    {"text": "which proves the theory beyond doubt.", "is_correct": false, "why_wrong": "This overstates certainty. The hedge 'might suggest' is tentative, so a definite proof contradicts the stem."},
+    {"text": "although further research would be needed to confirm it.", "is_correct": true, "why_wrong": null},
+    {"text": "and the researchers are certain of their conclusions.", "is_correct": false, "why_wrong": "This contradicts the hedge 'might suggest', which signals uncertainty rather than certainty."},
+    {"text": "so the variables must be unrelated.", "is_correct": false, "why_wrong": "This draws the opposite conclusion from the hedged stem, which suggests a possible link."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Hedging with 'might' and a concessive clause",
+  "connector": "although",
+  "explanation": "The modal 'might' softens the claim, and the concessive clause after 'although' adds a limit on the certainty of that claim. Ukrainian speakers may state the conclusion directly because Ukrainian expresses hedging mainly through particles and word choice rather than a modal verb.",
+  "translation": "Результати можуть свідчити про зв'язок між двома змінними, хоча для підтвердження цього знадобилося б більше дослідження."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bus was late this morning, so",
+  "correct_completion": "we missed the first lecture.",
+  "full_sentence": "The bus was late this morning, so we missed the first lecture.",
+  "acceptable_variants": ["we arrived ten minutes late for the seminar.", "we had to walk the rest of the way."],
+  "options": [
+    {"text": "we had plenty of time to spare.", "is_correct": false, "why_wrong": "This contradicts the cause. 'So' introduces the result of the late bus, and having spare time would not follow from it."},
+    {"text": "we missed the first lecture.", "is_correct": true, "why_wrong": null},
+    {"text": "although it had been raining.", "is_correct": false, "why_wrong": "'Although' signals contrast, but 'so' introduces a result, so the continuation must describe what happened as a consequence."},
+    {"text": "the bus was blue.", "is_correct": false, "why_wrong": "This gives a description rather than a consequence. 'So' needs a clause showing what happened as a result of the delay."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result connector 'so' followed by a clause describing the consequence",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that states the result of the first part. Learners may be tempted by options that describe the situation or add a contrast, because they feel related to the topic, but the connector requires a consequence. Speakers whose first language places the result after a linking word may also need practice with this word order.",
+  "translation": "Otobüs bu sabah geç kaldı, bu yüzden ilk dersi kaçırdık."
+}

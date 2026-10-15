@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While the preliminary data appear promising,",
+  "correct_completion": "further longitudinal studies are needed before any firm conclusions can be drawn.",
+  "full_sentence": "While the preliminary data appear promising, further longitudinal studies are needed before any firm conclusions can be drawn.",
+  "acceptable_variants": ["more longitudinal research is required before firm conclusions can be reached.", "the findings should be treated as tentative until they are replicated."],
+  "options": [
+    {"text": "the results have definitively proven the hypothesis.", "is_correct": false, "why_wrong": "This asserts certainty, which ignores the qualifying contrast that 'while' sets up with the stem."},
+    {"text": "further longitudinal studies are needed before any firm conclusions can be drawn.", "is_correct": true, "why_wrong": null},
+    {"text": "the authors are certain that the effect is universal.", "is_correct": false, "why_wrong": "This expresses full confidence, which contradicts the hedged tone the stem establishes."},
+    {"text": "the sample size was reduced by half during the study.", "is_correct": false, "why_wrong": "This adds a methodological detail but does not complete the contrast with the promising data."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive clauses with 'while' and hedged academic qualification",
+  "connector": "while",
+  "explanation": "'While' introduces a concessive contrast: a positive observation is followed by a cautious qualification. Completions that express certainty or add unrelated detail break this hedging pattern. Learners should keep the tone tentative in academic writing.",
+  "translation": "Embora os dados preliminares pareçam promissores, são necessários mais estudos longitudinais antes que se possam tirar conclusões definitivas."
+}

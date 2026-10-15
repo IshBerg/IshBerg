@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Maria enjoys",
+  "correct_completion": "reading books in the evening.",
+  "full_sentence": "Maria enjoys reading books in the evening.",
+  "acceptable_variants": ["reading in bed before sleep.", "reading novels after dinner."],
+  "options": [
+    {"text": "to read books in the evening.", "is_correct": false, "why_wrong": "'Enjoy' is followed by a gerund (-ing form), not an infinitive with 'to'."},
+    {"text": "read books in the evening.", "is_correct": false, "why_wrong": "'Enjoy' cannot be followed directly by a bare verb; the -ing form is needed."},
+    {"text": "reading books in the evening.", "is_correct": true, "why_wrong": null},
+    {"text": "to reading books in the evening.", "is_correct": false, "why_wrong": "'to' is not used before a gerund here; the verb 'enjoy' takes the -ing form directly."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbs followed by gerunds, such as enjoy",
+  "connector": "enjoys",
+  "explanation": "The verb 'enjoy' is always followed by a gerund. Learners often add 'to' after it because many other verbs take an infinitive.",
+  "translation": "A Maria gosta de ler livros à noite."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna prefers reading novels, whereas",
+  "correct_completion": "her brother would rather watch films.",
+  "full_sentence": "Anna prefers reading novels, whereas her brother would rather watch films.",
+  "acceptable_variants": ["her brother prefers watching films.", "her brother enjoys action movies more."],
+  "options": [
+    {"text": "she also reads poetry.", "is_correct": false, "why_wrong": "This adds more of the same preference, but 'whereas' needs a contrast between the two parts of the sentence."},
+    {"text": "so she reads every evening.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'whereas' contrasts two things and does not signal a consequence."},
+    {"text": "her brother would rather watch films.", "is_correct": true, "why_wrong": null},
+    {"text": "because she finds them relaxing.", "is_correct": false, "why_wrong": "'Because' introduces a reason, which does not fit after 'whereas', a connector that sets up a comparison."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive connector 'whereas' followed by a full clause with a new subject",
+  "connector": "whereas",
+  "explanation": "Whereas sets up a contrast between two subjects or situations, so the continuation needs a new clause with its own subject that differs from the first part. Learners may reach for because or so by habit, since those are common cause and result connectors in many languages, but they do not express contrast here.",
+  "translation": "Анна любить читати романи, тоді як її брат воліє дивитися фільми."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the evidence was limited,",
+  "correct_completion": "the committee still approved the proposal.",
+  "full_sentence": "Although the evidence was limited, the committee still approved the proposal.",
+  "acceptable_variants": ["the committee nevertheless approved the proposal.", "the proposal was still approved by the committee."],
+  "options": [
+    {"text": "so the committee rejected it immediately.", "is_correct": false, "why_wrong": "'Although' signals contrast, not the cause-and-result pattern of 'so'."},
+    {"text": "the evidence was collected in March.", "is_correct": false, "why_wrong": "This gives timing information and does not complete the contrast expected after 'although'."},
+    {"text": "the committee still approved the proposal.", "is_correct": true, "why_wrong": null},
+    {"text": "the proposal was reported in the newspaper.", "is_correct": false, "why_wrong": "This adds an unrelated fact and does not contrast with the limited evidence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a main clause that shows contrast with the first part of the sentence. Learners whose first language expresses contrast with a different word order often add a connector such as 'but' as well, which is incorrect in English.",
+  "translation": "Embora as evidências fossem limitadas, o comitê ainda aprovou a proposta."
+}

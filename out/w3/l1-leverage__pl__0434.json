@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pokój", "transliteration": "pokoj", "meaning": "room"},
+    {"word": "list", "transliteration": "list", "meaning": "letter (a message sent by post)"},
+    {"word": "szafa", "transliteration": "szafa", "meaning": "wardrobe (a large cupboard for clothes)"},
+    {"word": "dyrektor", "transliteration": "dyrektor", "meaning": "headteacher (the head of a school)"}
+  ],
+  "english_words": ["headteacher", "room", "wardrobe", "letter"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each Polish word looks or sounds like an English word that students might expect it to mean, but the Polish form has a different meaning in everyday use.",
+  "false_friend_warning": "The Polish word 'pokoj' looks like the English word 'peace', and the Polish word 'dyrektor' looks like the English word 'director', but in these cases the meanings are room and headteacher, so students should not choose the look-alike English word."
+}

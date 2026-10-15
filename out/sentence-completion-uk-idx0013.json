@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the scandal could have been prevented.",
+  "full_sentence": "Had the committee been informed earlier, the scandal could have been prevented.",
+  "acceptable_variants": ["the outcome would have been very different.", "the damage might have been limited."],
+  "options": [
+    {"text": "the scandal would be prevented now.", "is_correct": false, "why_wrong": "'Had ... been informed' refers to a past condition, so the result must be in the past (could have been), not the present ('would be prevented now')."},
+    {"text": "the scandal could have been prevented.", "is_correct": true, "why_wrong": null},
+    {"text": "it had been informed of the scandal yesterday.", "is_correct": false, "why_wrong": "This repeats the information already given in the stem instead of completing the conditional result."},
+    {"text": "so it decided to ignore the matter.", "is_correct": false, "why_wrong": "'So' introduces a consequence of an action, but the inverted conditional requires a result clause about what could have happened."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle, with could/would have + past participle)",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'if', so the result clause needs a past modal perfect such as 'could have been prevented'.",
+  "translation": "Якби комітет був поінформований раніше, скандалу можна було б уникнути."
+}

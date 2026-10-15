@@ -1,0 +1,14 @@
+{
+  "trigger_word": "newspaper",
+  "all_words": [
+    {"word": "headline", "is_associated": true, "association_type": "THEMATIC", "explanation": "Naglowek to tytul artykulu umieszczony na pierwszej stronie gazety, wiec jest silnie zwiazany z gazeta."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma zadnego zwiazku z gazeta; to srodek transportu, a nie rzecz zwiazana z prasa."},
+    {"word": "editor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Redaktor to osoba, ktora przygotowuje tresc gazety do publikacji, wiec znaczeniowo wiaze sie z gazeta."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Wulkan nie ma zwiazku z gazeta, chyba ze w tresci artykulu, ale samo slowo nie jest z nia kojarzone."},
+    {"word": "article", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Artykul (news article) to typowe wyrazenie: w gazecie czytamy artykuly prasowe."},
+    {"word": "tennis", "is_associated": false, "association_type": "NONE", "explanation": "Tenis to sport i nie laczy sie z gazeta, nawet jesli gazety pisza o sporcie."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Slowo newspaper kojarzy sie z tekstami prasowymi i osobami, ktore je tworza, natomiast rower, wulkan i tenis nie maja z gazeta wyraznego zwiazku."
+}

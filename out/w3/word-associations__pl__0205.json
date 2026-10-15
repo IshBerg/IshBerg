@@ -1,0 +1,14 @@
+{
+  "trigger_word": "court",
+  "all_words": [
+    {"word": "judge", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Sędzia prowadzi rozprawę i wydaje wyrok w sądzie."},
+    {"word": "verdict", "is_associated": true, "association_type": "THEMATIC", "explanation": "Werdykt to decyzja wydawana na zakończenie procesu sądowego."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Kuchnia nie ma żadnego związku z salą sądową ani z procesem prawnym."},
+    {"word": "jury", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ława przysięgłych to grupa osób oceniających winę w sprawie karnej przed sądem."},
+    {"word": "tennis", "is_associated": false, "association_type": "NONE", "explanation": "Tenis to sport rakietowy i nie ma nic wspólnego z sądem."},
+    {"word": "lawyer", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Adwokat często występuje w sądzie, reprezentując klienta, czyli tworzy typowe połączenie z tym słowem."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Words linked to a court include people who work there, its procedures and its decisions, while everyday objects and unrelated sports are not connected to it."
+}

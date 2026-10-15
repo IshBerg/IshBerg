@@ -1,0 +1,17 @@
+{
+  "central_word": "hungry",
+  "chain_words": [
+    {"word": "peckish", "intensity": 1, "translation": "com um pouco de fome", "nuance": "slight hunger, you could eat a small snack"},
+    {"word": "hungry", "intensity": 2, "translation": "com fome", "nuance": "general feeling of wanting food"},
+    {"word": "starving", "intensity": 3, "translation": "faminto", "nuance": "very strong hunger, you feel you need food right now"},
+    {"word": "famished", "intensity": 4, "translation": "esfomeado", "nuance": "extremely hungry, often after a long time without eating"},
+    {"word": "ravenous", "intensity": 5, "translation": "voraz", "nuance": "so hungry that you want to eat a huge amount of food"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe wanting food, but with different intensities, from a light desire to eat to an overwhelming hunger.",
+  "usage_notes": [
+    {"word1": "hungry", "word2": "starving", "difference": "'Hungry' describes a normal wish to eat; 'starving' is a much stronger feeling and is often used in an exaggerated way."}
+  ],
+  "translations": {"peckish": "com um pouco de fome", "hungry": "com fome", "starving": "faminto", "famished": "esfomeado", "ravenous": "voraz"}
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem was short,",
+  "correct_completion": "it carried a deep emotion.",
+  "full_sentence": "Although the poem was short, it carried a deep emotion.",
+  "acceptable_variants": ["it still moved every reader deeply.", "it left a powerful feeling behind."],
+  "options": [
+    {"text": "so the readers stopped reading it.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast rather than a consequence."},
+    {"text": "it carried a deep emotion.", "is_correct": true, "why_wrong": null},
+    {"text": "the poet was born in 1850.", "is_correct": false, "why_wrong": "This adds a biographical fact but does not contrast with the shortness of the poem."},
+    {"text": "it contained many rhymes.", "is_correct": false, "why_wrong": "This describes the form of the poem, but it does not give the contrasting idea that 'although' expects."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Spanish speakers often reach for a result word such as 'so' here, but this connector expects an opposite or surprising idea.",
+  "translation": "Aunque el poema era breve, transmitía una emoción profunda."
+}

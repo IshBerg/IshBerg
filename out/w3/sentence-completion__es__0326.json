@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bus timetable says the bus leaves at 9:00, so",
+  "correct_completion": "we should be at the stop before nine o'clock.",
+  "full_sentence": "The bus timetable says the bus leaves at 9:00, so we should be at the stop before nine o'clock.",
+  "acceptable_variants": ["we need to be at the stop before nine.", "we must arrive at the stop early."],
+  "options": [
+    {"text": "the bus is always late in the morning.", "is_correct": false, "why_wrong": "This is a general fact about the bus, but it is not a logical result of the departure time shown in the timetable."},
+    {"text": "we bought two tickets for the museum.", "is_correct": false, "why_wrong": "This is an action that does not follow logically from the bus leaving at 9:00."},
+    {"text": "the map is on the wall.", "is_correct": false, "why_wrong": "This describes an object in the room, but it does not give a logical result of the timetable."},
+    {"text": "we should be at the stop before nine o'clock.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' and modal verbs of obligation",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result. The timetable shows when the bus leaves, so the logical result is that people must arrive before that time. Learners whose first language uses a different word order or connector for results often mix up 'so' and 'because', so it is useful to check the logic of the second clause.",
+  "translation": "El horario del autobús dice que el autobús sale a las 9:00, así que debemos estar en la parada antes de las nueve."
+}

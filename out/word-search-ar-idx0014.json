@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "E", "F", "E", "N", "D", "A", "N", "T"],
+    ["C", "K", "Q", "W", "Z", "J", "P", "X", "E"],
+    ["Y", "O", "B", "H", "F", "K", "M", "R", "V"],
+    ["G", "W", "U", "Z", "Q", "X", "J", "U", "I"],
+    ["P", "B", "K", "N", "Y", "W", "F", "L", "D"],
+    ["V", "T", "Q", "X", "S", "Z", "K", "I", "E"],
+    ["R", "M", "B", "J", "Q", "E", "W", "N", "N"],
+    ["Z", "F", "K", "Y", "T", "X", "L", "G", "C"],
+    ["H", "E", "A", "R", "I", "N", "G", "K", "E"]
+  ],
+  "words_to_find": ["DEFENDANT", "COUNSEL", "EVIDENCE", "RULING", "HEARING"],
+  "word_positions": [
+    {"word": "DEFENDANT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "COUNSEL", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "EVIDENCE", "start_row": 1, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "RULING", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "HEARING", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Legal Argumentation and Case Law"
+}

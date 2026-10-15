@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "hasta", "transliteration": "hasta", "meaning": "sick (ill person)"},
+    {"word": "ilaç", "transliteration": "ilac", "meaning": "medicine"},
+    {"word": "kas", "transliteration": "kas", "meaning": "muscle"},
+    {"word": "mide", "transliteration": "mide", "meaning": "stomach"}
+  ],
+  "english_words": ["muscle", "sick", "stomach", "medicine"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Turkish word 'hasta' is written almost identically to the English word 'hasty', but the two words are unrelated. In Turkish it means sick or a patient, while 'hasty' in English means done too quickly. The other three pairs are ordinary health vocabulary without a false-friend trap.",
+  "false_friend_warning": "Warning: the Turkish word 'hasta' looks similar to the English word 'hasty', which means done too quickly. In Turkish it means sick, so learners must not use 'hasty' in English to describe someone who is ill."
+}

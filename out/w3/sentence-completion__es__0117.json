@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were eating dinner,",
+  "correct_completion": "the lights suddenly went out.",
+  "full_sentence": "While we were eating dinner, the lights suddenly went out.",
+  "acceptable_variants": ["the power cut off without warning.", "the electricity failed for a moment."],
+  "options": [
+    {"text": "we eat dinner every night.", "is_correct": false, "why_wrong": "This describes a present habit, not a past action in progress, so it does not fit the past tense of the stem."},
+    {"text": "the lights suddenly went out.", "is_correct": true, "why_wrong": null},
+    {"text": "we were eat dinner.", "is_correct": false, "why_wrong": "After 'were' we need the -ing form, so the correct phrase is 'were eating'."},
+    {"text": "we had finished dinner already.", "is_correct": false, "why_wrong": "This describes a completed action, but 'while' needs an action that was still in progress when the interruption happened."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous with 'while' and past simple for a sudden interruption",
+  "connector": "while",
+  "explanation": "The stem uses the past continuous for an action in progress. The completion uses the past simple for the sudden event that interrupts it. Learners often use the simple past in both clauses, but English links an ongoing background action with a single completed event.",
+  "translation": "Mientras cenábamos, las luces se apagaron de repente."
+}

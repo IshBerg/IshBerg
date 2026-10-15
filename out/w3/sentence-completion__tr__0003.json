@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been warned twice about the noise,",
+  "correct_completion": "the neighbours finally agreed to turn down their music.",
+  "full_sentence": "Having been warned twice about the noise, the neighbours finally agreed to turn down their music.",
+  "acceptable_variants": ["the neighbours eventually stopped playing loud music.", "the couple next door finally lowered the volume."],
+  "options": [
+    {"text": "I warned the neighbours myself on Monday.", "is_correct": false, "why_wrong": "The participle clause needs the person who was warned as its subject. Here the speaker is the one who warned, so the subject does not match the passive 'having been warned'."},
+    {"text": "the building manager was asked to call the police.", "is_correct": false, "why_wrong": "The building manager was not warned about the noise, so the main clause does not continue the subject of the participle clause."},
+    {"text": "the neighbours finally agreed to turn down their music.", "is_correct": true, "why_wrong": null},
+    {"text": "the noise having been reduced by the council.", "is_correct": false, "why_wrong": "This adds a second participle clause with a different subject. It is confusing and does not give the response of the people who were warned."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Perfect passive participle clauses (having been + past participle)",
+  "connector": "having been warned",
+  "explanation": "The clause 'having been warned' is perfect and passive, so its implied subject must be the person who received the warning. The main clause must then continue that person's situation, here the neighbours' response. Options that make the speaker the warner or shift the subject to someone else break this link. Turkish speakers often find the subject hard to match because Turkish marks this meaning with verb suffixes rather than a separate auxiliary, so they may focus on the verb form and miss who the subject is.",
+  "translation": "Gürültü konusunda iki kez uyarıldıkları için, komşular sonunda müziklerinin sesini kısmayı kabul etti."
+}

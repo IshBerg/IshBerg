@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["R", "A", "I", "N", "T", "E", "K", "B", "P", "S"],
+    ["H", "J", "Q", "M", "Z", "Y", "T", "X", "U", "G"],
+    ["V", "K", "B", "E", "J", "H", "Q", "N", "M", "Z"],
+    ["P", "X", "T", "G", "Y", "M", "B", "Q", "E", "K"],
+    ["W", "R", "J", "P", "G", "Z", "V", "T", "H", "E"],
+    ["I", "Q", "M", "V", "D", "K", "E", "J", "R", "Y"],
+    ["N", "T", "H", "U", "Q", "B", "P", "K", "E", "G"],
+    ["D", "Z", "O", "M", "X", "J", "V", "Y", "Q", "B"],
+    ["K", "L", "H", "P", "V", "T", "W", "O", "N", "S"],
+    ["C", "G", "Y", "E", "R", "X", "M", "J", "Z", "Q"]
+  ],
+  "words_to_find": ["RAIN", "SUN", "WIND", "SNOW", "CLOUD"],
+  "word_positions": [
+    {"word": "RAIN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SUN", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "WIND", "start_row": 4, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SNOW", "start_row": 8, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "CLOUD", "start_row": 9, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Weather Descriptions"
+}

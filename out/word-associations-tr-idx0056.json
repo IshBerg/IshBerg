@@ -1,0 +1,14 @@
+{
+  "trigger_word": "source",
+  "all_words": [
+    {"word": "informant", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Muhbir (informant), haberi sağlayan kişidir; kaynak (source) ile anlamca yakındır."},
+    {"word": "fern", "is_associated": false, "association_type": "NONE", "explanation": "Eğrelti otu bir bitkidir ve gazetecilik kaynaklarıyla ilgisi yoktur."},
+    {"word": "anonymity", "is_associated": true, "association_type": "THEMATIC", "explanation": "Anonim kaynak korumak araştırmacı gazetecilikte sık karşılaşılan bir konudur; bu iki kavram aynı alana aittir."},
+    {"word": "saucepan", "is_associated": false, "association_type": "NONE", "explanation": "Tencere bir mutfak eşyasıdır ve haber araştırmasıyla bağlantısı yoktur."},
+    {"word": "leak", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Bilgi sızıntısı (leak) genellikle bir kaynak tarafından yapılır; bu iki sözcük sık birlikte kullanılır."},
+    {"word": "gerbil", "is_associated": false, "association_type": "NONE", "explanation": "Kum faresi bir hayvandır ve gazetecilikle ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Araştırmacı gazetecilikte kaynak, bilgiyi sağlayan kişidir; onun kimliği ve bilgi sızıntısı bu alanın konularıdır, diğer sözcükler ise ilgisiz nesne ve canlılardır."
+}

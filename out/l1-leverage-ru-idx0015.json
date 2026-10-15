@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "конкретный", "transliteration": "konkretnyy", "meaning": "specific, precise, or particular"},
+    {"word": "актуальный", "transliteration": "aktualnyy", "meaning": "topical, relevant, or currently important"},
+    {"word": "эффектный", "transliteration": "effektnyy", "meaning": "striking, showy, or visually impressive"},
+    {"word": "фабула", "transliteration": "fabula", "meaning": "the plot or sequence of events in a narrative"}
+  ],
+  "english_words": ["plot", "striking", "specific", "topical"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words look like English cognates because they share roots with English vocabulary, but their Russian meanings differ from the English forms, so the forms look close while the senses diverge.",
+  "false_friend_warning": "Russian 'конкретный' means specific, not 'concrete'; 'актуальный' means topical or relevant, not 'actual'; 'фабула' means plot, not 'fable'; and 'эффектный' means striking or showy, not 'effective'."
+}

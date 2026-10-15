@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "O", "M", "O", "N", "Y", "M", "Q", "W", "I"],
+    ["K", "E", "T", "B", "F", "L", "G", "V", "R", "J"],
+    ["P", "U", "N", "C", "Z", "H", "A", "O", "D", "W"],
+    ["X", "L", "S", "Q", "E", "T", "N", "K", "M", "F"],
+    ["O", "B", "W", "G", "Z", "Y", "V", "C", "S", "L"],
+    ["D", "R", "E", "I", "P", "H", "J", "F", "A", "T"],
+    ["A", "N", "K", "Q", "U", "L", "M", "B", "C", "W"],
+    ["R", "G", "Z", "V", "T", "E", "H", "N", "R", "Y"],
+    ["A", "L", "F", "D", "K", "J", "S", "O", "A", "P"],
+    ["P", "I", "Q", "X", "W", "G", "U", "E", "S", "B"]
+  ],
+  "words_to_find": ["HOMONYM", "IRONY", "PUN", "PARADOX", "SARCASM"],
+  "word_positions": [
+    {"word": "HOMONYM", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "PUN", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARADOX", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"},
+    {"word": "SARCASM", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Wordplay, Puns and Double Meaning"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the shop was closed,",
+  "correct_completion": "we bought some bread at the market.",
+  "full_sentence": "Although the shop was closed, we bought some bread at the market.",
+  "acceptable_variants": ["we still found some bread at the market.", "we managed to buy bread at the market anyway."],
+  "options": [
+    {"text": "so we bought a lot of milk.", "is_correct": false, "why_wrong": "'So' signals a result, but 'although' requires a contrast with the closed shop, not a consequence of it."},
+    {"text": "the shop had many customers.", "is_correct": false, "why_wrong": "This describes the shop but does not contrast with the fact that it was closed."},
+    {"text": "we bought some bread at the market.", "is_correct": true, "why_wrong": null},
+    {"text": "we needed to buy eggs.", "is_correct": false, "why_wrong": "This states a need rather than an action that contrasts with the shop being closed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first clause. Ukrainian speakers may reach for a connector that marks cause or result here, so it helps to check that the second clause goes against what the first clause suggests.",
+  "translation": "Хоча магазин був зачинений, ми купили трохи хліба на ринку."
+}

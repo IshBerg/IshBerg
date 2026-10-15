@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "kurs", "transliteration": "kurs", "meaning": "exchange rate (a false friend of English 'course')"},
+    {"word": "bagaż", "transliteration": "bagaz", "meaning": "luggage"},
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"},
+    {"word": "bilet", "transliteration": "bilet", "meaning": "ticket"}
+  ],
+  "english_words": ["luggage", "ticket", "exchange rate", "hotel"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Polish took 'kurs' from a Latin word meaning course or running, and it developed a financial sense for exchange rates. English 'course' kept the sense of a class or route, so the two forms look alike but mean different things.",
+  "false_friend_warning": "The Polish word 'kurs' looks like English 'course', but when travelling it usually means 'exchange rate', so do not use it to mean a class or a route."
+}

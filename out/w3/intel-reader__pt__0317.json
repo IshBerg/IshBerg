@@ -1,0 +1,20 @@
+{
+  "title": "Lucas and His Hobbies",
+  "text": "My name is Lucas. I like football very much. On Saturdays, I play football with my friends in the park. We play for two hours.\n\nI also like to swim. My sister Maria likes to read books. In the evening, we watch TV together.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What sport does Lucas like?", "options": ["Tennis", "Football", "Swimming", "Basketball"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Maria like to do?", "options": ["Play football", "Swim", "Read books", "Watch TV alone"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can we guess about Lucas?", "options": ["He is a sporty person", "He does not like sport", "He is a teacher", "He lives far away from the park"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about how Lucas and Maria spend their evenings?", "options": ["They spend time together at home", "They work at night", "They go to school in the evening", "They sleep in the park"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "football", "translation": "futebol", "definition": "a sport in which players kick a ball"},
+    {"word": "park", "translation": "parque", "definition": "a large public garden or green area"},
+    {"word": "swim", "translation": "nadar", "definition": "to move through water using your body"},
+    {"word": "evening", "translation": "noite", "definition": "the part of the day after the afternoon and before night"}
+  ],
+  "paragraph_translations": [
+    "Meu nome é Lucas. Eu gosto muito de futebol. Aos sábados, eu jogo futebol com os meus amigos no parque. Nós jogamos durante duas horas.",
+    "Eu também gosto de nadar. Minha irmã Maria gosta de ler livros. À noite, nós assistimos à TV juntos."
+  ]
+}

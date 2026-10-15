@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister studies medicine, so",
+  "correct_completion": "she wants to be a doctor.",
+  "full_sentence": "My sister studies medicine, so she wants to be a doctor.",
+  "acceptable_variants": ["she hopes to work in a hospital.", "she wants to be a nurse."],
+  "options": [
+    {"text": "she plays football every day.", "is_correct": false, "why_wrong": "This does not follow as a logical result of studying medicine."},
+    {"text": "she wants to be a pilot.", "is_correct": false, "why_wrong": "Studying medicine leads to a medical career, so this result does not follow logically."},
+    {"text": "she wants to be a doctor.", "is_correct": true, "why_wrong": null},
+    {"text": "she want to be a doctor.", "is_correct": false, "why_wrong": "With 'she', the verb needs an -s ending in the present simple, so 'wants' is correct."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present simple third person singular after 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a logical result of studying medicine. With third person singular subjects like 'she', the present simple verb takes an -s ending, and English requires the subject pronoun even when the context makes it clear.",
+  "translation": "Minha irmã estuda medicina, então ela quer ser médica."
+}

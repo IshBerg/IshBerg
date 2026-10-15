@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Though the poem seems simple at first reading,",
+  "correct_completion": "its repeated images conceal a far more complicated argument.",
+  "full_sentence": "Though the poem seems simple at first reading, its repeated images conceal a far more complicated argument.",
+  "acceptable_variants": ["its recurring symbols hide an intricate line of reasoning.", "the verse gradually reveals a dense and layered meaning."],
+  "options": [
+    {"text": "its repeated images conceal a far more complicated argument.", "is_correct": true, "why_wrong": null},
+    {"text": "so the poem must be read as a simple statement.", "is_correct": false, "why_wrong": "'So' signals a consequence that follows from simplicity, but the stem's 'though' sets up a contrast that this option ignores."},
+    {"text": "and the images are repeated for no reason at all.", "is_correct": false, "why_wrong": "This adds a claim about the poem without completing the contrast that 'though' requires."},
+    {"text": "because the poem was written in the nineteenth century.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but the stem is built on concession, so a causal clause does not complete it."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'though' and a contrasting main clause",
+  "connector": "though",
+  "explanation": "'Though' introduces a concession, so the main clause must present a contrast with the apparent simplicity described in the first clause.",
+  "translation": "Хоча вірш на перший погляд здається простим, його повторювані образи приховують значно складніший аргумент."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hemşire de sağlık ortamında çalışır ve doktorla birlikte hastaya bakar, bu yüzden doktorla doğrudan ilişkilidir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık yatakta kullanılan bir eşyadır; doktorla bir bağlantısı yoktur."},
+    {"word": "medicine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Doktor ilaç yazar ve ilaç almak sık kullanılan bir ifadedir, bu nedenle bu kelime doktorla birlikte kullanılır."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Bisiklet ulaşım aracıdır ve sağlık hizmetiyle ilgili değildir."},
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Doktorlar genellikle hastanede çalışır, bu nedenle hastane konuyla doğrudan ilişkilidir."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sandviç bir yiyecektir ve doktor veya sağlık konusuyla bir ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Doktorla ilişkili kelimeler sağlık ortamı, çalışanlar ve tedaviyle ilgili kelimelerdir; yastık, bisiklet ve sandviç bu konuyla bağlantılı değildir."
+}

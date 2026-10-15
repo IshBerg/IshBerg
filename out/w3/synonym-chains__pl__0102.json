@@ -1,0 +1,17 @@
+{
+  "central_word": "cold",
+  "chain_words": [
+    {"word": "chilly", "intensity": 1, "translation": "chłodny", "nuance": "slightly cold in an unpleasant way"},
+    {"word": "cool", "intensity": 2, "translation": "chłodnawy", "nuance": "pleasantly low in temperature"},
+    {"word": "cold", "intensity": 3, "translation": "zimny", "nuance": "general low temperature"},
+    {"word": "freezing", "intensity": 4, "translation": "mroźny", "nuance": "very cold, below the freezing point"},
+    {"word": "icy", "intensity": 5, "translation": "lodowaty", "nuance": "extremely cold, covered with or like ice"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express low temperature, but with different intensities, from a slight chill to a bitter, icy cold.",
+  "usage_notes": [
+    {"word1": "cold", "word2": "chilly", "difference": "'Cold' describes a general low temperature; 'chilly' is milder and often describes weather or a room that feels slightly uncomfortable."}
+  ],
+  "translations": {"chilly": "chłodny", "cool": "chłodnawy", "cold": "zimny", "freezing": "mroźny", "icy": "lodowaty"}
+}

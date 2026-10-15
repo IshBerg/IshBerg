@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you want a sweet cake,",
+  "correct_completion": "add more sugar.",
+  "full_sentence": "If you want a sweet cake, add more sugar.",
+  "acceptable_variants": ["use more sugar.", "add a spoon of honey."],
+  "options": [
+    {"text": "you can eat it now.", "is_correct": false, "why_wrong": "This is a result, but it does not tell you how to make the cake sweeter, which is the condition the sentence sets up."},
+    {"text": "add more sugar.", "is_correct": true, "why_wrong": null},
+    {"text": "we will be cold.", "is_correct": false, "why_wrong": "This has no link to making a cake sweet; it does not complete the if-clause."},
+    {"text": "the oven is hot.", "is_correct": false, "why_wrong": "The temperature of the oven does not make a cake sweet, so it does not complete the condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present-tense condition, the main clause gives the action to take. Learners often forget to use a clear action after the comma.",
+  "translation": "Si quieres un pastel dulce, añade más azúcar."
+}

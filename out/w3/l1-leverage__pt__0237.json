@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "música", "transliteration": "musica", "meaning": "music"},
+    {"word": "filme", "transliteration": "filme", "meaning": "film, movie"},
+    {"word": "teatro", "transliteration": "teatro", "meaning": "theatre, theater"},
+    {"word": "ator", "transliteration": "ator", "meaning": "actor"}
+  ],
+  "english_words": ["theater", "music", "actor", "film"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "All four words were borrowed from Latin or Greek roots that both languages share, so their forms stayed close and their meanings match directly. The learner can rely on the familiar shape of each word to recall the English form.",
+  "false_friend_warning": null
+}

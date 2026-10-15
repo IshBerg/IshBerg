@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will watch a film inside.", "we will cancel the picnic."],
+  "options": [
+    {"text": "we stayed at home yesterday.", "is_correct": false, "why_wrong": "The past simple refers to a finished time, which conflicts with 'tomorrow' and does not fit a first conditional result clause."},
+    {"text": "we would stay at home.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional for unreal or unlikely situations; a real future possibility with 'if' and present simple takes 'will'."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we stay at home every day.", "is_correct": false, "why_wrong": "The present simple here describes a habit, not a future result, so it does not complete the future meaning set up by 'if it rains tomorrow'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "In the first conditional, the 'if' clause uses the present simple for a real future possibility, and the main clause uses 'will' for the result. Polish speakers often add a future form inside the 'if' clause, but in English the 'if' clause takes the present simple even when the event is in the future.",
+  "translation": "Jeśli jutro będzie padać, zostaniemy w domu."
+}

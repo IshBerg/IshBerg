@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "U", "G", "E", "K", "Z", "O", "D", "M", "A"],
+    ["J", "F", "S", "W", "B", "L", "Q", "X", "I", "N"],
+    ["P", "D", "T", "I", "N", "Y", "K", "W", "U", "G"],
+    ["C", "M", "O", "A", "S", "H", "V", "T", "E", "R"],
+    ["C", "K", "J", "Z", "L", "F", "O", "D", "W", "Y"],
+    ["Q", "L", "X", "M", "E", "P", "R", "S", "T", "U"],
+    ["D", "K", "E", "N", "Q", "V", "W", "J", "F", "Z"],
+    ["B", "S", "H", "V", "K", "O", "A", "Z", "D", "Q"],
+    ["X", "W", "L", "P", "E", "N", "U", "R", "M", "G"],
+    ["Y", "J", "Q", "F", "W", "R", "K", "S", "B", "O"]
+  ],
+  "words_to_find": ["HUGE", "ANGRY", "CLEVER", "BRAVE", "TINY"],
+  "word_positions": [
+    {"word": "HUGE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ANGRY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "CLEVER", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "BRAVE", "start_row": 9, "start_col": 8, "direction": "DIAGONAL_UP_LEFT"},
+    {"word": "TINY", "start_row": 2, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Nuanced Synonyms"
+}

@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "C", "A", "R", "C", "E", "X", "Q", "M"],
+    ["K", "R", "P", "J", "W", "G", "Y", "L", "O"],
+    ["A", "B", "U", "N", "D", "A", "N", "T", "D"],
+    ["L", "F", "Q", "Z", "B", "W", "K", "P", "E"],
+    ["M", "A", "G", "Y", "R", "Q", "J", "F", "S"],
+    ["P", "Z", "V", "N", "K", "X", "O", "H", "T"],
+    ["W", "E", "B", "I", "C", "G", "Q", "Z", "K"],
+    ["R", "D", "B", "J", "S", "K", "Y", "E", "U"],
+    ["C", "P", "N", "Z", "Q", "H", "W", "D", "M"]
+  ],
+  "words_to_find": ["SCARCE", "MODEST", "LAVISH", "ABUNDANT"],
+  "word_positions": [
+    {"word": "SCARCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MODEST", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "LAVISH", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ABUNDANT", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Nuanced Synonyms"
+}

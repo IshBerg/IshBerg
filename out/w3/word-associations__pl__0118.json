@@ -1,0 +1,14 @@
+{
+  "trigger_word": "river",
+  "all_words": [
+    {"word": "water", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Woda jest głównym elementem rzeki, więc to bezpośrednie skojarzenie znaczeniowe."},
+    {"word": "boat", "is_associated": true, "association_type": "THEMATIC", "explanation": "Łódki często pływają po rzekach, więc słowa łączy wspólny temat."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Buty nie mają nic wspólnego z rzeką i nie są z nią powiązane."},
+    {"word": "fish", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ryby żyją w rzekach, więc to skojarzenie tematyczne."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Poduszka nie kojarzy się z rzeką w żaden sposób."},
+    {"word": "bridge", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Most nad rzeką to typowe połączenie wyrazów, czyli kolokacja, więc słowa często występują razem."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo river kojarzy się z wodą, zwierzętami wodnymi, łodziami i mostami, a nie z przedmiotami domowymi."
+}

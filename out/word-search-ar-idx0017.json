@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["A", "B", "S", "T", "R", "A", "C", "T"],
+    ["C", "H", "A", "P", "T", "E", "R", "N"],
+    ["K", "Q", "R", "Z", "X", "R", "J", "W"],
+    ["D", "F", "E", "W", "B", "I", "Y", "M"],
+    ["P", "N", "V", "Q", "K", "G", "Z", "F"],
+    ["X", "J", "I", "B", "W", "O", "M", "K"],
+    ["Q", "T", "E", "Z", "F", "U", "H", "V"],
+    ["B", "L", "W", "X", "D", "R", "N", "Y"]
+  ],
+  "words_to_find": ["ABSTRACT", "CHAPTER", "REVIEW", "RIGOUR"],
+  "word_positions": [
+    {"word": "ABSTRACT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHAPTER", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REVIEW", "start_row": 2, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "RIGOUR", "start_row": 2, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Academic Thesis Defense"
+}

@@ -1,0 +1,17 @@
+{
+  "central_word": "big",
+  "chain_words": [
+    {"word": "big", "intensity": 1, "translation": "grande", "nuance": "ordinary everyday size"},
+    {"word": "large", "intensity": 2, "translation": "amplio", "nuance": "bigger than normal, slightly more formal"},
+    {"word": "huge", "intensity": 3, "translation": "enorme", "nuance": "very large"},
+    {"word": "enormous", "intensity": 4, "translation": "inmenso", "nuance": "extremely large"},
+    {"word": "gigantic", "intensity": 5, "translation": "gigantesco", "nuance": "exceptionally large, almost unbelievable in size"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express large size, but with increasing intensity, from an ordinary big object to something gigantic.",
+  "usage_notes": [
+    {"word1": "big", "word2": "large", "difference": "'Large' is slightly more formal and is often used for amount or area; 'big' is more common in everyday speech."}
+  ],
+  "translations": {"big": "grande", "large": "amplio", "huge": "enorme", "enormous": "inmenso", "gigantic": "gigantesco"}
+}

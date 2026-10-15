@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the museum is closed on Mondays,",
+  "correct_completion": "visitors should plan their visit for another day.",
+  "full_sentence": "Because the museum is closed on Mondays, visitors should plan their visit for another day.",
+  "acceptable_variants": ["visitors need to come on Tuesday.", "people can visit the museum on another day."],
+  "options": [
+    {"text": "visitors can visit it on Monday.", "is_correct": false, "why_wrong": "This contradicts the stem, because the museum is closed on Mondays."},
+    {"text": "visitors should plan their visit for another day.", "is_correct": true, "why_wrong": null},
+    {"text": "the museum opens at nine o'clock.", "is_correct": false, "why_wrong": "This is a fact about opening hours, not a result of the museum being closed on Mondays."},
+    {"text": "the tickets are very cheap.", "is_correct": false, "why_wrong": "This does not follow from the Monday closing, so it does not complete the cause and effect."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason, so the main clause must show the result of that reason. Learners often place the result before the reason in their first language, so check the order of the two clauses.",
+  "translation": "Como el museo está cerrado los lunes, los visitantes deben planear su visita para otro día."
+}

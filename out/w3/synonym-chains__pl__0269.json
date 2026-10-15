@@ -1,0 +1,17 @@
+{
+  "central_word": "problem",
+  "chain_words": [
+    {"word": "issue", "intensity": 1, "translation": "kwestia", "nuance": "a point of discussion or concern, not necessarily negative"},
+    {"word": "difficulty", "intensity": 2, "translation": "trudność", "nuance": "something that makes a task harder to do"},
+    {"word": "problem", "intensity": 3, "translation": "problem", "nuance": "general word for something that needs solving"},
+    {"word": "crisis", "intensity": 4, "translation": "kryzys", "nuance": "serious moment with a risk of serious harm"},
+    {"word": "catastrophe", "intensity": 5, "translation": "katastrofa", "nuance": "disaster causing severe, widespread damage"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe something going wrong or needing attention, but they increase in severity from a neutral issue to a full disaster.",
+  "usage_notes": [
+    {"word1": "problem", "word2": "crisis", "difference": "'Problem' is a general word for something that needs solving; 'crisis' describes a much more serious turning point where the outcome is uncertain."}
+  ],
+  "translations": {"issue": "kwestia", "difficulty": "trudność", "problem": "problem", "crisis": "kryzys", "catastrophe": "katastrofa"}
+}

@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["F", "R", "E", "E", "X", "D", "H"],
+    ["B", "K", "Q", "M", "Z", "T", "A"],
+    ["O", "J", "V", "W", "P", "S", "L"],
+    ["P", "G", "D", "Y", "U", "C", "F"],
+    ["E", "H", "K", "Q", "R", "B", "X"],
+    ["N", "M", "Z", "T", "A", "W", "J"],
+    ["L", "O", "N", "G", "V", "K", "Q"]
+  ],
+  "words_to_find": ["FREE", "HALF", "OPEN", "LONG"],
+  "word_positions": [
+    {"word": "FREE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HALF", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "OPEN", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "LONG", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Compound Adjectives"
+}

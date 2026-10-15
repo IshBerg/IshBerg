@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poet was very tired,",
+  "correct_completion": "she still finished the poem that night.",
+  "full_sentence": "Although the poet was very tired, she still finished the poem that night.",
+  "acceptable_variants": ["she nevertheless completed the poem.", "she kept writing until dawn."],
+  "options": [
+    {"text": "so she stopped writing at once.", "is_correct": false, "why_wrong": "'Although' signals contrast, not result. 'So' introduces a result, which does not complete the contrast."},
+    {"text": "she still finished the poem that night.", "is_correct": true, "why_wrong": null},
+    {"text": "the sea was calm and blue.", "is_correct": false, "why_wrong": "This describes a scene but does not provide the contrasting action expected after 'although'."},
+    {"text": "she had drunk two cups of tea.", "is_correct": false, "why_wrong": "This adds unrelated information and does not complete the contrast started by 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Learners often confuse contrast with cause, so they choose a result clause with 'so' by mistake. Check the connector carefully before choosing.",
+  "translation": "Şair çok yorgun olmasına rağmen, şiiri o gece yine de bitirdi."
+}

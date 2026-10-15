@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "drowsy", "intensity": 1, "translation": "сонливий", "nuance": "slightly sleepy, feeling heavy-eyed"},
+    {"word": "sleepy", "intensity": 2, "translation": "сонний", "nuance": "needing sleep"},
+    {"word": "tired", "intensity": 3, "translation": "втомлений", "nuance": "general lack of energy"},
+    {"word": "weary", "intensity": 4, "translation": "змучений", "nuance": "worn down by long effort or difficulty"},
+    {"word": "exhausted", "intensity": 5, "translation": "виснажений", "nuance": "completely out of energy"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words describe feeling tired, from mild drowsiness at the start of the morning to complete exhaustion at the end of a long day.",
+  "usage_notes": [
+    {"word1": "sleepy", "word2": "tired", "difference": "'Sleepy' describes a need for sleep; 'tired' can describe general fatigue from any activity, including work or sport."}
+  ],
+  "translations": {"drowsy": "сонливий", "sleepy": "сонний", "tired": "втомлений", "weary": "змучений", "exhausted": "виснажений"}
+}

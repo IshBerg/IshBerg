@@ -1,0 +1,14 @@
+{
+  "trigger_word": "manuscript",
+  "all_words": [
+    {"word": "submission", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ማቅረብ (submission) የጥናት ጽሑፍ ለጆርናል ወይም ለኮንፈረንስ የሚላክበት ሂደት ነው፤ ስለዚህ ከማንዩስክሪፕት ጋር በቀጥታ ይዛመዳል።"},
+    {"word": "lemur", "is_associated": false, "association_type": "NONE", "explanation": "ሌሙር የማዳጋስካር እንስሳ ሲሆን ከአካዳሚክ ጽሑፍ ወይም ከግምገማ ጋር ምንም ግንኙነት የለውም።"},
+    {"word": "reviewer", "is_associated": true, "association_type": "THEMATIC", "explanation": "ገምጋሚ የማንዩስክሪፕቱን ጥራት የሚፈትሽ ባለሙያ ነው፤ ስለዚህ በዚሁ የአቻ ግምገማ ርዕስ ስር ይወድቃል።"},
+    {"word": "bobsled", "is_associated": false, "association_type": "NONE", "explanation": "ቦብስሌድ የበረዶ ስፖርት መሣሪያ ሲሆን ከአካዳሚክ ጽሑፍ ጋር ግንኙነት የለውም።"},
+    {"word": "revision", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ማሻሻያ (revision) ጽሑፉ ከግምገማ በኋላ የሚደረግ ለውጥ ነው፤ ከማንዩስክሪፕት ጋር ቀጥተኛ ትርጉም ይጋራል።"},
+    {"word": "tuxedo", "is_associated": false, "association_type": "NONE", "explanation": "ቱክሰዶ መደበኛ ልብስ ሲሆን ከአካዳሚክ ጽሑፍ ጋር ምንም ግንኙነት የለውም።"}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "ማንዩስክሪፕት የተጻፈ የጥናት ጽሑፍ ነው፤ ከእሱ ጋር የተያያዙ ቃላት ማቅረብ፣ ገምጋሚ እና ማሻሻያ ሲሆኑ ሌሎቹ ግን አይደሉም።"
+}

@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "O", "O", "D", "X", "Q", "Z", "R", "H", "S"],
+    ["B", "K", "P", "A", "Y", "M", "E", "J", "U", "I"],
+    ["F", "Q", "V", "C", "R", "H", "W", "D", "T", "L"],
+    ["C", "O", "T", "T", "O", "N", "G", "A", "P", "K"],
+    ["R", "E", "B", "I", "F", "U", "L", "Y", "Z", "D"],
+    ["S", "J", "K", "M", "Q", "W", "B", "X", "H", "C"],
+    ["L", "T", "F", "Y", "B", "D", "R", "K", "W", "P"],
+    ["H", "U", "O", "V", "G", "E", "N", "Q", "L", "Z"],
+    ["D", "C", "X", "N", "M", "P", "T", "R", "U", "A"],
+    ["J", "Q", "W", "F", "E", "S", "S", "A", "L", "G"]
+  ],
+  "words_to_find": ["WOOD", "SILK", "COTTON", "STONE", "GLASS"],
+  "word_positions": [
+    {"word": "WOOD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SILK", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "COTTON", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STONE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "GLASS", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Materials and Textures"
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bite",
+  "all_words": [
+    {"word": "tongue", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ağızda ısırılabilen ve idiomlarda sıkça geçen bir organdır; 'bite your tongue' ifadesinde doğrudan geçer."},
+    {"word": "dog", "is_associated": true, "association_type": "THEMATIC", "explanation": "Köpekler ısırmasıyla bilinir; bu yüzden 'bite' kelimesiyle aynı konuda, yani hayvan davranışı alanında yer alır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağın ısırma eylemiyle ya da ısırma idiomlarıyla hiçbir bağlantısı yoktur."},
+    {"word": "bullet", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Bite the bullet' ifadesi, zor bir durumu cesaretle kabul etmek anlamına gelir ve bu sabit ifade 'bullet' kelimesini içerir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastığın ısırma ya da ısırma idiomlarıyla bir ilgisi yoktur."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "Elma ısırılabilir olsa da 'bite' kelimesiyle özel bir ilişkisi bulunmayan genel bir meyvedir."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Bite' kelimesi, ağız organları, köpek davranışı ve 'bite the bullet' gibi sabit ifadelerle ilişkilidir; geri kalan kelimelerin bu anlamla bir bağlantısı yoktur."
+}

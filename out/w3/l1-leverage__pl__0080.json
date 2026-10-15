@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "klimat", "transliteration": "klimat", "meaning": "climate"},
+    {"word": "wulkan", "transliteration": "wulkan", "meaning": "volcano"},
+    {"word": "ocean", "transliteration": "ocean", "meaning": "ocean"},
+    {"word": "delta", "transliteration": "delta", "meaning": "delta"}
+  ],
+  "english_words": ["delta", "volcano", "climate", "ocean"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these geographical terms from Latin and Greek, so the spelling and meaning stayed almost the same. The Polish words are pronounced with Polish sounds, but their meaning matches the English word exactly.",
+  "false_friend_warning": null
+}

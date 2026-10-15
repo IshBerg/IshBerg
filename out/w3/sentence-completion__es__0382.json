@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the translator rendered the narrative's syntax with scrupulous fidelity,",
+  "correct_completion": "the English edition nonetheless lost much of the original's lyrical cadence.",
+  "full_sentence": "Although the translator rendered the narrative's syntax with scrupulous fidelity, the English edition nonetheless lost much of the original's lyrical cadence.",
+  "acceptable_variants": ["the English edition nevertheless failed to preserve much of the original's lyrical cadence.", "the English edition still lacked much of the original's musicality."],
+  "options": [
+    {"text": "the English edition therefore lost much of the original's lyrical cadence.", "is_correct": false, "why_wrong": "'Therefore' expresses a result, but 'although' requires a contrast with the first clause, not a consequence of it."},
+    {"text": "the English edition was a flawless, faithful rendering of the original.", "is_correct": false, "why_wrong": "This repeats the idea of fidelity already stated in the first clause instead of setting up a contrast with it."},
+    {"text": "the English edition nonetheless lost much of the original's lyrical cadence.", "is_correct": true, "why_wrong": null},
+    {"text": "the English edition was published in three separate volumes.", "is_correct": false, "why_wrong": "This is an unrelated fact; it does not contrast with the translator's fidelity."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must set up a contrast with the first clause. 'Nonetheless' signals concession, while 'therefore' signals result. Spanish speakers often reach for a connector that marks cause or result here, because the concessive relation is expressed with a different connector pattern in Spanish.",
+  "translation": "Aunque el traductor reprodujo la sintaxis de la narración con escrupulosa fidelidad, la edición en inglés perdió, no obstante, gran parte de la cadencia lírica del original."
+}

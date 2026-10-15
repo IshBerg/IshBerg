@@ -1,0 +1,14 @@
+{
+  "trigger_word": "conscience",
+  "all_words": [
+    {"word": "guilt", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La culpa es el sentimiento que surge cuando la conciencia reconoce que alguien ha hecho algo incorrecto."},
+    {"word": "budget", "is_associated": false, "association_type": "NONE", "explanation": "El presupuesto es un plan económico y no tiene relación directa con los juicios morales de la conciencia."},
+    {"word": "duty", "is_associated": true, "association_type": "THEMATIC", "explanation": "El deber pertenece al mismo campo de la ética y la responsabilidad que guía a la conciencia."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "El tomate es un alimento y no tiene ninguna relación con la moral ni con la conciencia."},
+    {"word": "remorse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El remordimiento es el arrepentimiento que la conciencia produce después de un acto indebido."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "El puente es una estructura física y no pertenece al campo semántico de la conciencia."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con la conciencia pertenecen al ámbito de la moral y la responsabilidad, mientras que las demás son objetos o conceptos cotidianos sin relación con la ética."
+}

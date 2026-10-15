@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present, of the moment"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily affected emotionally"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "biblioteca", "transliteration": "biblioteca", "meaning": "library, a collection of books for borrowing"}
+  ],
+  "english_words": ["sensitive", "library", "current", "bookshop"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin, so their spelling looks alike, yet over time the Spanish forms shifted to different meanings than their English counterparts.",
+  "false_friend_warning": "Several Spanish words look like English words but mean something different: the Spanish word transliterated as 'actual' means current or present, not real, and the Spanish word transliterated as 'libreria' means bookshop, not library."
+}

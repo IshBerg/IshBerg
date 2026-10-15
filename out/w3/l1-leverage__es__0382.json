@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "música", "transliteration": "musica", "meaning": "music"},
+    {"word": "chocolate", "transliteration": "chocolate", "meaning": "chocolate"},
+    {"word": "animal", "transliteration": "animal", "meaning": "animal"},
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"}
+  ],
+  "english_words": ["animal", "pregnant", "music", "chocolate"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Most of these words are true cognates that came into both languages from the same Latin or Greek source, so the forms stayed close and the meanings match.",
+  "false_friend_warning": "Watch out for the Spanish word that looks like the English word 'embarrassed': it means 'pregnant', so it must not be matched with 'embarrassed'."
+}

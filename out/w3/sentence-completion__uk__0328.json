@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bridge, which was built in 1900,",
+  "correct_completion": "still carries heavy traffic every day.",
+  "full_sentence": "The bridge, which was built in 1900, still carries heavy traffic every day.",
+  "acceptable_variants": ["remains in daily use.", "is still open to traffic."],
+  "options": [
+    {"text": "that still carries heavy traffic every day.", "is_correct": false, "why_wrong": "'That' is not used to introduce a non-defining clause after a comma; only 'which' or 'who' (or 'whom', 'whose') are used here."},
+    {"text": "which carries heavy traffic every day.", "is_correct": false, "why_wrong": "This adds a second relative clause but still leaves the sentence without a main verb for the subject 'The bridge'."},
+    {"text": "still carries heavy traffic every day.", "is_correct": true, "why_wrong": null},
+    {"text": "whom engineers often visit.", "is_correct": false, "why_wrong": "'Whom' refers to people, but 'the bridge' is a thing, and the sentence still has no main verb for the subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with commas",
+  "connector": "which",
+  "explanation": "A non-defining relative clause sits between commas and adds extra information about a noun that is already identified, so the sentence can still be understood without it. After the clause, the sentence needs its own main verb for the subject, so the completion must supply that verb.",
+  "translation": "Міст, який було збудовано в 1900 році, досі щодня пропускає великий потік транспорту."
+}

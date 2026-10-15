@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current or up to date, not actual in the sense of real"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice or likeable, not sympathetic"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly or if necessary, not eventually"},
+    {"word": "lektura", "transliteration": "lektura", "meaning": "a set book or assigned reading, not a lecture"}
+  ],
+  "english_words": ["possibly", "reading", "nice", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words look like English words because they share Latin roots, but their Polish meanings have shifted, so the forms look close while the senses diverge.",
+  "false_friend_warning": "Polish 'aktualny' means current, not actual; 'sympatyczny' means nice or likeable, not sympathetic; 'ewentualnie' means possibly, not eventually; and 'lektura' means an assigned reading, not a lecture. Each English look-alike is a false friend."
+}

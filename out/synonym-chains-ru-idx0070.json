@@ -1,0 +1,17 @@
+{
+  "central_word": "urgent",
+  "chain_words": [
+    {"word": "pressing", "intensity": 1, "translation": "насущный", "nuance": "needing attention soon"},
+    {"word": "important", "intensity": 2, "translation": "важный", "nuance": "significant enough to require action"},
+    {"word": "urgent", "intensity": 3, "translation": "срочный", "nuance": "demanding immediate action"},
+    {"word": "critical", "intensity": 4, "translation": "критический", "nuance": "decisive for the outcome of a situation"},
+    {"word": "imperative", "intensity": 5, "translation": "неотложный", "nuance": "absolutely necessary, admitting no delay or alternative"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe a need for action, but with different intensities, from a pressing concern to an absolute necessity.",
+  "usage_notes": [
+    {"word1": "urgent", "word2": "imperative", "difference": "'Urgent' stresses speed of response; 'imperative' stresses that the action is absolutely necessary, whatever the timing."}
+  ],
+  "translations": {"pressing": "насущный", "important": "важный", "urgent": "срочный", "critical": "критический", "imperative": "неотложный"}
+}

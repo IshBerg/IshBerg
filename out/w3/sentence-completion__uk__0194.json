@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the strong evidence presented,",
+  "correct_completion": "the jury remained unconvinced.",
+  "full_sentence": "Despite the strong evidence presented, the jury remained unconvinced.",
+  "acceptable_variants": ["the jury still refused to convict.", "the verdict was nevertheless uncertain."],
+  "options": [
+    {"text": "so the trial ended early.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'despite' requires a contrast with the evidence."},
+    {"text": "the evidence was presented on Monday.", "is_correct": false, "why_wrong": "This adds a detail about timing but does not complete the contrast set up by 'despite'."},
+    {"text": "the jury remained unconvinced.", "is_correct": true, "why_wrong": null},
+    {"text": "the jury was quickly convinced.", "is_correct": false, "why_wrong": "This agrees with the evidence instead of contrasting with it, so 'despite' would make the sentence illogical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Prepositional contrast with 'despite'",
+  "connector": "despite",
+  "explanation": "After 'despite', the main clause must show a result that goes against the expected effect of the noun phrase. Here the strong evidence would normally persuade, so the jury remaining unconvinced creates the contrast.",
+  "translation": "Незважаючи на вагомі докази, присяжні залишилися непереконаними."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "доцент", "transliteration": "dotsent", "meaning": "associate professor (an academic rank at a university)"},
+    {"word": "коледж", "transliteration": "koledzh", "meaning": "vocational or technical college below university level"},
+    {"word": "перспектива", "transliteration": "perspektyva", "meaning": "prospect or future opportunity"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, current, up to date"}
+  ],
+  "english_words": ["prospects", "relevant", "associate professor", "vocational college"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin, French or German through similar routes, so the spelling stayed close. Over time, however, the meanings drifted apart in each language.",
+  "false_friend_warning": "Watch out for false friends: the Ukrainian word 'koledzh' looks like English 'college', but it means a vocational or technical school below university level, and the Ukrainian word 'aktualnyi' looks like English 'actual' but means 'relevant' or 'up to date', so it must not be translated as 'actual'."
+}

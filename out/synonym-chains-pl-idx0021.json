@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "drowsy", "intensity": 1, "translation": "senny", "nuance": "slightly sleepy and inclined to doze off"},
+    {"word": "weary", "intensity": 2, "translation": "znużony", "nuance": "tired from prolonged effort or stress"},
+    {"word": "tired", "intensity": 3, "translation": "zmęczony", "nuance": "general state of needing rest after activity"},
+    {"word": "exhausted", "intensity": 4, "translation": "wyczerpany", "nuance": "completely drained of energy"},
+    {"word": "shattered", "intensity": 5, "translation": "wykończony", "nuance": "so tired that one feels physically and mentally broken"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe fatigue, rising from mild sleepiness to a state of complete collapse of energy.",
+  "usage_notes": [
+    {"word1": "weary", "word2": "exhausted", "difference": "'Weary' suggests a gradual tiredness from long effort, while 'exhausted' implies that all energy has been used up."}
+  ],
+  "translations": {"drowsy": "senny", "weary": "znużony", "tired": "zmęczony", "exhausted": "wyczerpany", "shattered": "wykończony"}
+}

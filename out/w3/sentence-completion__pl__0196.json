@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report,",
+  "correct_completion": "she sent it to the editor.",
+  "full_sentence": "Having finished the report, she sent it to the editor.",
+  "acceptable_variants": ["she emailed it to the editor the same day.", "she submitted the document for review."],
+  "options": [
+    {"text": "the editor was already asleep.", "is_correct": false, "why_wrong": "The participle clause 'having finished' needs a main clause with the same subject, the person who finished the report. Switching to an unrelated subject breaks this link."},
+    {"text": "she sent it to the editor.", "is_correct": true, "why_wrong": null},
+    {"text": "the deadline was moved to Friday.", "is_correct": false, "why_wrong": "The main clause must describe the action of the person who finished the report, and this describes an unrelated event."},
+    {"text": "she was very tired afterwards.", "is_correct": false, "why_wrong": "This describes a state, but it does not complete the sequence of actions that a participle clause introduces."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with a shared subject",
+  "connector": "having finished",
+  "explanation": "A participle clause at the start of a sentence describes an earlier action by the same subject as the main clause. The main clause must therefore continue with what that person did next.",
+  "translation": "Skończywszy raport, wysłała go do redaktora."
+}

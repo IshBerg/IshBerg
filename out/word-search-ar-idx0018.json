@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["K", "Q", "W", "Z", "J", "X", "B", "F", "Y"],
+    ["G", "D", "W", "Q", "Z", "K", "X", "L", "M"],
+    ["J", "E", "V", "Q", "W", "Z", "K", "P", "B"],
+    ["F", "X", "N", "Q", "J", "W", "Z", "K", "O"],
+    ["B", "W", "Q", "R", "K", "Z", "X", "V", "L"],
+    ["Z", "J", "D", "K", "E", "Q", "W", "X", "F"],
+    ["Q", "V", "F", "X", "B", "Z", "K", "W", "D"],
+    ["C", "A", "N", "O", "N", "Q", "W", "Y", "X"],
+    ["M", "E", "T", "A", "P", "H", "O", "R", "S"]
+  ],
+  "words_to_find": ["REBUTTAL", "PREMISE", "FALLACY", "ARGUMENT"],
+  "word_positions": [
+    {"word": "REBUTTAL", "start_row": 0, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PREMISE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "FALLACY", "start_row": 6, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "ARGUMENT", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Native-Level Debate and Rebuttal"
+}

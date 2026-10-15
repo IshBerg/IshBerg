@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I can't come to the party tonight because",
+  "correct_completion": "I have to work late.",
+  "full_sentence": "I can't come to the party tonight because I have to work late.",
+  "acceptable_variants": ["my boss asked me to stay at the office.", "I am feeling ill."],
+  "options": [
+    {"text": "so I will come tomorrow.", "is_correct": false, "why_wrong": "'So' shows a result, but 'because' needs a reason clause. This option gives no reason."},
+    {"text": "but I want to come.", "is_correct": false, "why_wrong": "'But' shows contrast, and 'because' needs a reason, not a contrasting wish."},
+    {"text": "I have to work late.", "is_correct": true, "why_wrong": null},
+    {"text": "I will be there at eight.", "is_correct": false, "why_wrong": "This gives a time, not a reason for missing the party."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part of the sentence. Polish speakers often use a similar reason word, so they should check that the clause gives a cause, not a result.",
+  "translation": "Nie mogę dziś wieczorem przyjść na imprezę, ponieważ muszę pracować do późna."
+}

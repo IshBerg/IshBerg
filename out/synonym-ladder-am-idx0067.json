@@ -1,0 +1,13 @@
+{
+  "start_word": "neutral",
+  "end_word": "inflammatory",
+  "ladder_steps": [
+    {"word": "neutral", "translation": "ገለልተኛ", "intensity_level": 1},
+    {"word": "slanted", "translation": "አድልዎ ያለው", "intensity_level": 2},
+    {"word": "partisan", "translation": "ወገንተኛ", "intensity_level": 3},
+    {"word": "provocative", "translation": "ቀስቃሽ", "intensity_level": 4},
+    {"word": "inflammatory", "translation": "ቁጣ የሚቀሰቅስ", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Words for how far a media text departs from neutrality form a ladder from neutral to inflammatory, each step more openly charged than the last."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee really needed",
+  "correct_completion": "was a clear plan of action.",
+  "full_sentence": "What the committee really needed was a clear plan of action.",
+  "acceptable_variants": ["was to agree on a clear plan of action.", "was a plan of action that everyone could follow."],
+  "options": [
+    {"text": "it was a clear plan of action.", "is_correct": false, "why_wrong": "After a what-clause, the pseudo-cleft needs a linking verb followed directly by the focused element. The extra pronoun 'it' makes the sentence ungrammatical."},
+    {"text": "they discussed the budget again.", "is_correct": false, "why_wrong": "A full clause with its own subject and verb cannot follow the linking verb of a pseudo-cleft. The sentence needs a complement that completes the what-clause."},
+    {"text": "was a clear plan of action.", "is_correct": true, "why_wrong": null},
+    {"text": "which the chairman had refused.", "is_correct": false, "why_wrong": "A relative clause on its own cannot complete the pseudo-cleft. The 'which' clause does not supply the focused noun phrase that the what-clause requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft sentences with a what-clause subject and a linking verb",
+  "connector": "what",
+  "explanation": "A pseudo-cleft uses a what-clause as the subject, a form of 'be' as the linking verb, and then the focused element. Learners often insert an extra subject pronoun after the what-clause because their first language marks focus with word order or suffixes rather than a separate linking verb, so the pronoun seems natural but is redundant in English.",
+  "translation": "Komitenin gerçekten ihtiyaç duyduğu şey net bir eylem planıydı."
+}

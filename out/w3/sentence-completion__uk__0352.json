@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the authors' careful methodology,",
+  "correct_completion": "several findings remained open to debate.",
+  "full_sentence": "Despite the authors' careful methodology, several findings remained open to debate.",
+  "acceptable_variants": ["some conclusions still lacked firm support.", "a few results were questioned by other researchers."],
+  "options": [
+    {"text": "so the findings were beyond doubt.", "is_correct": false, "why_wrong": "'So' signals a result that follows naturally from the methodology, not a contrast, so it does not complete the 'despite' structure."},
+    {"text": "the sample size was reported in the appendix.", "is_correct": false, "why_wrong": "This adds a detail but does not contrast with the careful methodology."},
+    {"text": "the journal accepted the manuscript quickly.", "is_correct": false, "why_wrong": "This describes the publication process and does not set up the contrast that 'despite' requires."},
+    {"text": "several findings remained open to debate.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' followed by a contrasting main clause in academic writing",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a fact that runs against what we would expect, so the main clause must show a contrasting result. Writers reading academic articles should look for the claim that is weakened or questioned, not for a simple reason.",
+  "translation": "Попри ретельну методологію авторів, кілька результатів залишилися предметом дискусії."
+}

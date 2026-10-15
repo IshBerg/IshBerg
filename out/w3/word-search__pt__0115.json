@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["F", "R", "U", "G", "A", "L", "K", "V", "P", "T"],
+    ["M", "Z", "J", "D", "C", "X", "B", "W", "H", "Q"],
+    ["Y", "K", "S", "D", "L", "P", "V", "R", "Q", "M"],
+    ["B", "J", "U", "W", "C", "Z", "I", "K", "D", "X"],
+    ["Q", "A", "O", "M", "P", "F", "J", "X", "B", "V"],
+    ["N", "H", "R", "D", "T", "K", "W", "Q", "Z", "L"],
+    ["C", "P", "E", "Y", "M", "A", "V", "X", "Q", "J"],
+    ["L", "K", "N", "Z", "B", "W", "D", "H", "F", "R"],
+    ["V", "M", "E", "J", "Q", "C", "X", "P", "K", "A"],
+    ["D", "B", "G", "K", "Y", "G", "N", "I", "T", "S"]
+  ],
+  "words_to_find": ["FRUGAL", "THRIFTY", "GENEROUS", "STINGY"],
+  "word_positions": [
+    {"word": "FRUGAL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THRIFTY", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"},
+    {"word": "GENEROUS", "start_row": 9, "start_col": 2, "direction": "VERTICAL_UP"},
+    {"word": "STINGY", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Nuanced Synonyms"
+}

@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "V", "I", "D", "E", "N", "C", "E", "E"],
+    ["K", "Q", "Z", "P", "W", "B", "T", "J", "S"],
+    ["R", "X", "F", "H", "G", "P", "W", "U", "S"],
+    ["Q", "E", "K", "H", "Z", "W", "M", "T", "A"],
+    ["F", "J", "A", "P", "D", "K", "C", "W", "Y"],
+    ["B", "X", "H", "S", "Q", "T", "L", "Z", "V"],
+    ["K", "P", "W", "F", "O", "R", "A", "J", "G"],
+    ["Z", "M", "Q", "D", "H", "N", "I", "X", "U"],
+    ["L", "O", "G", "I", "C", "F", "M", "K", "P"]
+  ],
+  "words_to_find": ["EVIDENCE", "ESSAY", "REASON", "LOGIC", "CLAIM"],
+  "word_positions": [
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSAY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "REASON", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LOGIC", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CLAIM", "start_row": 4, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Persuasive Essays"
+}

@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["P", "A", "R", "T", "Y", "Z", "Q", "I", "W", "J"],
+    ["K", "L", "D", "H", "F", "X", "B", "N", "R", "S"],
+    ["M", "Y", "T", "G", "O", "Q", "W", "V", "L", "Z"],
+    ["J", "R", "F", "N", "C", "U", "D", "I", "B", "X"],
+    ["G", "H", "K", "P", "Z", "W", "M", "T", "Y", "Q"],
+    ["V", "U", "L", "D", "R", "A", "S", "E", "X", "N"],
+    ["H", "E", "E", "Q", "K", "P", "J", "W", "V", "F"],
+    ["R", "M", "Z", "S", "N", "Y", "G", "H", "L", "D"],
+    ["W", "O", "X", "B", "T", "K", "Q", "F", "P", "V"],
+    ["N", "C", "Y", "R", "I", "L", "E", "K", "A", "C"]
+  ],
+  "words_to_find": ["PARTY", "INVITE", "GUEST", "CAKE", "COME"],
+  "word_positions": [
+    {"word": "PARTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "INVITE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "GUEST", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CAKE", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "COME", "start_row": 9, "start_col": 1, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Invitations"
+}

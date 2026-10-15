@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the shop was closing soon,",
+  "correct_completion": "we hurried to buy the last bread.",
+  "full_sentence": "Because the shop was closing soon, we hurried to buy the last bread.",
+  "acceptable_variants": ["we ran to the bakery as fast as we could.", "we rushed to get there before the doors closed."],
+  "options": [
+    {"text": "we walked slowly through the park.", "is_correct": false, "why_wrong": "This contradicts the urgency implied by 'soon' and does not follow logically from the reason given."},
+    {"text": "the shop was on the other side of town.", "is_correct": false, "why_wrong": "This describes location but does not complete the cause-effect link set up by 'because'."},
+    {"text": "we hurried to buy the last bread.", "is_correct": true, "why_wrong": null},
+    {"text": "the bread was baked in the morning.", "is_correct": false, "why_wrong": "This gives background information but not a result of the reason in the stem."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the stem gives the reason, so the main clause must describe the action that follows from it. Ukrainian speakers may place a result clause with 'so' in the wrong position, so check that the reason and the result are in the right order.",
+  "translation": "Оскільки магазин незабаром зачиняється, ми поспішили купити останній хліб."
+}

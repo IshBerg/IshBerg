@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "delta", "transliteration": "delta", "meaning": "delta"},
+    {"word": "kanal", "transliteration": "kanal", "meaning": "canal"},
+    {"word": "tropikal", "transliteration": "tropikal", "meaning": "tropical"},
+    {"word": "kanyon", "transliteration": "kanyon", "meaning": "canyon"}
+  ],
+  "english_words": ["canyon", "tropical", "delta", "canal"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "All four words come from the same international roots that both languages borrowed for geography terms, so the spelling and the meaning stay very close in English and in the Turkish word.",
+  "false_friend_warning": null
+}

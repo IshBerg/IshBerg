@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you come to my party,",
+  "correct_completion": "we will play games and dance.",
+  "full_sentence": "If you come to my party, we will play games and dance.",
+  "acceptable_variants": ["we will watch a film together.", "we will eat cake and talk."],
+  "options": [
+    {"text": "we went to the park yesterday.", "is_correct": false, "why_wrong": "The past tense does not fit a first conditional. The main clause needs a future form such as 'will'."},
+    {"text": "so the party is cancelled.", "is_correct": false, "why_wrong": "'So' introduces a result, but the sentence needs an activity that follows the condition introduced by 'if'."},
+    {"text": "we will play games and dance.", "is_correct": true, "why_wrong": null},
+    {"text": "the party was very small.", "is_correct": false, "why_wrong": "This describes the party but does not complete the conditional sentence with a result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present simple clause, the main clause uses 'will' plus a verb to describe a possible future result.",
+  "translation": "Якщо ти прийдеш на мою вечірку, ми будемо грати в ігри й танцювати."
+}

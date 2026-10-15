@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, current"},
+    {"word": "сенсація", "transliteration": "sensatsiia", "meaning": "sensational news story"},
+    {"word": "коментар", "transliteration": "komentar", "meaning": "commentary"},
+    {"word": "експерт", "transliteration": "ekspert", "meaning": "expert"}
+  ],
+  "english_words": ["expert", "relevant", "sensational", "commentary"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same source, so the forms stayed close, but the meaning of the Ukrainian word shifted over time. The student may guess the English meaning from the shape of the word and be misled.",
+  "false_friend_warning": "The Ukrainian word aktualnyi looks like the English word actual, but it means relevant or current, so students must not translate it as actual."
+}

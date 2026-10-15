@@ -1,0 +1,21 @@
+{
+  "title": "Tom's Clothes",
+  "text": "Today is cold and windy. Tom wears a warm coat, a hat and gloves. He also wears a red scarf. His shoes are black and his jeans are blue.\n\nTomorrow the weather will be sunny. Tom will wear a light shirt and shorts. His sister Ann likes summer clothes. When it is hot, she wears a yellow dress and a white hat.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is Tom's scarf?", "options": ["Red", "Blue", "Black", "Yellow"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What will Tom wear tomorrow?", "options": ["A warm coat", "A light shirt and shorts", "A red scarf", "Gloves"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Tom wear a warm coat today?", "options": ["Because it is sunny", "Because it is hot", "Because it is cold", "Because it is his birthday"], "correct_index": 2, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess about Ann?", "options": ["She does not like hats", "She likes hot weather", "She never wears dresses", "She is always cold"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "warm", "translation": "sıcak", "definition": "having a comfortable temperature, not cold"},
+    {"word": "scarf", "translation": "atkı", "definition": "a long piece of cloth worn around the neck"},
+    {"word": "gloves", "translation": "eldiven", "definition": "covers for the hands, worn in cold weather"},
+    {"word": "sunny", "translation": "güneşli", "definition": "with a lot of sun"},
+    {"word": "shorts", "translation": "şort", "definition": "short trousers that end above the knee"}
+  ],
+  "paragraph_translations": [
+    "Bugün hava soğuk ve rüzgarlı. Tom sıcak bir mont, bir şapka ve eldiven takıyor. Ayrıca kırmızı bir atkı da takıyor. Ayakkabıları siyah, kot pantolonu ise mavi.",
+    "Yarın hava güneşli olacak. Tom açık renkli bir gömlek ve şort giyecek. Kız kardeşi Ann yaz kıyafetlerini seviyor. Hava sıcak olduğunda sarı bir elbise ve beyaz bir şapka giyiyor."
+  ]
+}

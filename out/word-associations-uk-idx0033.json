@@ -1,0 +1,14 @@
+{
+  "trigger_word": "source",
+  "all_words": [
+    {"word": "informant", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Інформатор є джерелом інформації для журналіста, тож слово близьке за значенням до поняття джерела."},
+    {"word": "walnut", "is_associated": false, "association_type": "NONE", "explanation": "Волоський горіх є плодом дерева і не має жодного зв’язку з журналістським джерелом."},
+    {"word": "anonymity", "is_associated": true, "association_type": "THEMATIC", "explanation": "Анонімність часто є умовою, на якій джерело надає інформацію, тому тема спільна для обох понять."},
+    {"word": "gazebo", "is_associated": false, "association_type": "NONE", "explanation": "Альтанка є садовою спорудою і не стосується джерел інформації чи журналістики."},
+    {"word": "leak", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Витік є способом, яким інформація переходить від джерела до журналіста, тож слова пов’язані за змістом."},
+    {"word": "shovel", "is_associated": false, "association_type": "NONE", "explanation": "Лопата є садовим інструментом і не має відношення до джерел інформації."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "У журналістиці джерело — це особа або документ, що надають інформацію; пов’язані слова описують інформатора, анонімність і витік, а решта належить до інших сфер."
+}

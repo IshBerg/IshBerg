@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "рецепт", "transliteration": "retsept", "meaning": "prescription"},
+    {"word": "пацієнт", "transliteration": "patsiyent", "meaning": "patient"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant"},
+    {"word": "дієта", "transliteration": "diyeta", "meaning": "diet"}
+  ],
+  "english_words": ["patient", "diet", "relevant", "prescription"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Ukrainian word for a doctor's prescription, transliterated as retsept, looks very similar to the English word 'recipe', but the two words have different meanings. Learners should not translate it as 'recipe'.",
+  "false_friend_warning": "The Ukrainian word transliterated as retsept looks like the English word 'recipe', but it means a doctor's prescription, not a list of cooking instructions. When talking about medicine, use 'prescription' in English."
+}

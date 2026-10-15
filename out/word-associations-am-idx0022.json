@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "image", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ዘይቤ ብዙውን ጊዜ ምስልን በመጠቀም ትርጉምን ያስተላልፋል፤ ስለዚህ ምስል ከዘይቤ ጋር ቀጥተኛ ግንኙነት አለው።"},
+    {"word": "comparison", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ዘይቤ በመሠረቱ በሁለት ነገሮች መካከል ያለ ንጽጽር ነው፤ ስለዚህ ንጽጽር ከዘይቤ ጋር በቅርበት ይዛመዳል።"},
+    {"word": "thermometer", "is_associated": false, "association_type": "NONE", "explanation": "ቴርሞሜትር የሙቀት መለኪያ መሣሪያ ነው እንጂ ከቋንቋ ወይም ከሥነ-ጽሑፍ ጋር ግንኙነት የለውም።"},
+    {"word": "figurative", "is_associated": true, "association_type": "THEMATIC", "explanation": "ተምሳሌታዊ ወይም ምሳሌያዊ ቋንቋ ዘይቤን የሚያካትት ሰፊ ምድብ ነው።"},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "ግግር በረዶ ከቋንቋ ዘይቤ ጋር ምንም ቀጥተኛ ወይም ቀጥታ ያልሆነ ግንኙነት የለውም።"},
+    {"word": "simile", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "ምሳሌ (simile) እና ዘይቤ (metaphor) በሥነ-ጽሑፍ ትንተና ውስጥ ብዙውን ጊዜ አብረው ይነሳሉ።"}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "ከ'metaphor' ጋር የተያያዙ ቃላት ስለ ቋንቋ ምስል፣ ንጽጽርና ሥነ-ጽሑፋዊ ዘዴዎች ናቸው፤ ከቋንቋ ዓለም ውጭ ያሉ ቃላት ግን ከዘይቤ ጋር ግንኙነት የላቸውም።"
+}

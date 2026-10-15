@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There is not much milk in the fridge, so",
+  "correct_completion": "we need to go to the shop.",
+  "full_sentence": "There is not much milk in the fridge, so we need to go to the shop.",
+  "acceptable_variants": ["we must buy some more.", "we will go shopping today."],
+  "options": [
+    {"text": "we have plenty of juice for breakfast.", "is_correct": false, "why_wrong": "The stem describes a shortage of milk, and this option talks about juice, so it does not give a result of that shortage."},
+    {"text": "we drink it every morning.", "is_correct": false, "why_wrong": "This describes a habit, not a result. 'So' needs a clause that follows logically from the lack of milk."},
+    {"text": "we need to go to the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "we have too much milk to drink.", "is_correct": false, "why_wrong": "This contradicts the stem, which says there is not much milk in the fridge."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifier 'not much' with uncountable nouns, and result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part of the sentence. The quantifier 'not much' is used with uncountable nouns such as milk, and the result is that we must buy more.",
+  "translation": "No hay mucha leche en la nevera, así que necesitamos ir a la tienda."
+}

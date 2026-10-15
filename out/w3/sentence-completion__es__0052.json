@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The farm has three cows and two horses, so",
+  "correct_completion": "the children can see five big animals.",
+  "full_sentence": "The farm has three cows and two horses, so the children can see five big animals.",
+  "acceptable_variants": ["the children can see five animals.", "they can see five animals on the farm."],
+  "options": [
+    {"text": "the farm has no animals.", "is_correct": false, "why_wrong": "'So' introduces a result of the first clause, and this contradicts the animals already mentioned."},
+    {"text": "the children can see five big animals.", "is_correct": true, "why_wrong": null},
+    {"text": "the farm is very far away.", "is_correct": false, "why_wrong": "This adds a fact about distance, which does not follow logically from having these animals."},
+    {"text": "the cows are very tired.", "is_correct": false, "why_wrong": "This describes the cows' feelings, which does not follow logically from the number of animals."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result with 'so' and plural nouns after numbers",
+  "connector": "so",
+  "explanation": "After 'so', we need a logical result of the first clause. Plural nouns such as 'animals' take an -s ending after a number like five.",
+  "translation": "La granja tiene tres vacas y dos caballos, así que los niños pueden ver cinco animales grandes."
+}

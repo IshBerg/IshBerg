@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He is never late for work, so",
+  "correct_completion": "his boss trusts him.",
+  "full_sentence": "He is never late for work, so his boss trusts him.",
+  "acceptable_variants": ["his boss gives him more responsibility.", "his boss always praises his hard work."],
+  "options": [
+    {"text": "he always forgets his keys.", "is_correct": false, "why_wrong": "This describes an unrelated habit and does not follow logically from being never late."},
+    {"text": "he sometimes sleeps in late.", "is_correct": false, "why_wrong": "This contradicts the adverb 'never' in the stem."},
+    {"text": "his boss trusts him.", "is_correct": true, "why_wrong": null},
+    {"text": "he usually works at night.", "is_correct": false, "why_wrong": "This is not a result of punctuality, so it does not complete the cause-and-effect link created by 'so'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Adverb of frequency 'never' with the result connector 'so'",
+  "connector": "so",
+  "explanation": "The stem uses 'never' to describe a reliable habit, and 'so' introduces the result of that habit. The result must be a logical consequence, such as trust from the boss. Learners whose first language is Turkish sometimes place the adverb in the wrong position, so remember that 'never' comes after the verb 'is' in this sentence.",
+  "translation": "İşe hiçbir zaman geç kalmaz, bu yüzden patronu ona güvenir."
+}

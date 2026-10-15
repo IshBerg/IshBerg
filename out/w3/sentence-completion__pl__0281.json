@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was not the weather that",
+  "correct_completion": "delayed the flight, but a technical fault.",
+  "full_sentence": "It was not the weather that delayed the flight, but a technical fault.",
+  "acceptable_variants": ["delayed the flight, but a mechanical problem.", "delayed the flight, but an engine failure."],
+  "options": [
+    {"text": "which delayed the flight, but a technical fault.", "is_correct": false, "why_wrong": "'That' already introduces the relative clause in this cleft structure, so adding 'which' is redundant and makes the sentence ungrammatical."},
+    {"text": "delayed the flight, but a technical fault.", "is_correct": true, "why_wrong": null},
+    {"text": "the flight was delayed, but the weather was fine.", "is_correct": false, "why_wrong": "The stem already rules out the weather as the cause, so the continuation must name the real cause. This option repeats the wrong idea instead of contrasting it."},
+    {"text": "delay the flight, but a technical fault.", "is_correct": false, "why_wrong": "After 'that' the verb must be in the past tense to match the stem. The base form 'delay' breaks the agreement with the past-tense frame."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Cleft sentences with 'It was not X that ... but Y' focus structure",
+  "connector": "that",
+  "explanation": "This cleft structure places the focused element after a 'that' clause and contrasts it with a rejected option. Learners often add an extra relative word such as 'which' after 'that', because the English 'that' feels like a simple conjunction and the extra word seems necessary, but 'that' alone already carries the clause.",
+  "translation": "To nie pogoda opóźniła lot, lecz usterka techniczna."
+}

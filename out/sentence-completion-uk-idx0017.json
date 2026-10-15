@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the authors claim a causal link,",
+  "correct_completion": "the observational design cannot rule out confounding variables.",
+  "full_sentence": "Although the authors claim a causal link, the observational design cannot rule out confounding variables.",
+  "acceptable_variants": ["the study is unable to exclude alternative explanations.", "the evidence remains compatible with several competing accounts."],
+  "options": [
+    {"text": "so the confounding variables have been fully excluded.", "is_correct": false, "why_wrong": "'So' signals a consequence that contradicts the concessive 'although', which sets up a limitation rather than a resolution."},
+    {"text": "the observational design rules out every confounding variable.", "is_correct": false, "why_wrong": "This states absolute certainty, which reverses the hedged contrast the stem requires."},
+    {"text": "the observational design cannot rule out confounding variables.", "is_correct": true, "why_wrong": null},
+    {"text": "the authors have already tested every confounding variable experimentally.", "is_correct": false, "why_wrong": "This claims a completed experimental test, which does not complete the concession about an observational design."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and hedged qualification of a causal claim",
+  "connector": "although",
+  "explanation": "'Although' introduces a concession, so the main clause must qualify the causal claim by stating what the design cannot establish.",
+  "translation": "Хоча автори стверджують про причинний зв'язок, спостережний дизайн не може виключити конфаундерні змінні."
+}

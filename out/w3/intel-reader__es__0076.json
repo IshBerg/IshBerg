@@ -1,0 +1,20 @@
+{
+  "title": "A Visit to the Bakery",
+  "text": "Interviewer: How long have you had your bakery? Baker: I opened it ten years ago. Every morning I make bread and cakes before the shop opens at eight o'clock. Interviewer: Do you like your work? Baker: Yes, I love it because I meet many nice people.\n\nInterviewer: What is your most popular product? Baker: Our chocolate cake is very popular with children. We sell about fifty of them every Saturday. Interviewer: Thank you for your time.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How long has the baker had the bakery?", "options": ["Two years", "Five years", "Ten years", "Twenty years"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is the most popular product in the bakery?", "options": ["Bread", "Chocolate cake", "Coffee", "Cookies"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does the baker enjoy the work?", "options": ["Because the baker likes meeting people", "Because the baker works very few hours", "Because the baker earns a lot of money", "Because the baker sells only bread"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "When does the baker probably start work each day?", "options": ["Before eight in the morning", "After noon", "At midnight", "Only on Sundays"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "bakery", "translation": "panadería", "definition": "a shop that sells bread and cakes"},
+    {"word": "popular", "translation": "popular", "definition": "liked by many people"},
+    {"word": "cakes", "translation": "pasteles", "definition": "sweet food made from flour, eggs, and sugar"},
+    {"word": "meet", "translation": "conocer", "definition": "to see and talk to someone for the first time"}
+  ],
+  "paragraph_translations": [
+    "Entrevistador: ¿Cuánto tiempo lleva con la panadería? Panadero: La abrí hace diez años. Cada mañana hago pan y pasteles antes de que la tienda abra a las ocho. Entrevistador: ¿Le gusta su trabajo? Panadero: Sí, me encanta porque conozco a muchas personas simpáticas.",
+    "Entrevistador: ¿Cuál es su producto más popular? Panadero: Nuestro pastel de chocolate es muy popular entre los niños. Vendemos unos cincuenta cada sábado. Entrevistador: Gracias por su tiempo."
+  ]
+}

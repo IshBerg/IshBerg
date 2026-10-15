@@ -1,0 +1,13 @@
+{
+  "start_word": "optional",
+  "end_word": "mandatory",
+  "ladder_steps": [
+    {"word": "optional", "translation": "opcional", "intensity_level": 1},
+    {"word": "advisable", "translation": "recomendable", "intensity_level": 2},
+    {"word": "expected", "translation": "esperado", "intensity_level": 3},
+    {"word": "required", "translation": "exigido", "intensity_level": 4},
+    {"word": "mandatory", "translation": "obligatorio", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words form a ladder along one dimension, the strength of an obligation, from something one may freely choose to something that must be done."
+}

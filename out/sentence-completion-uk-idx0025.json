@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the precedent was binding on lower courts,",
+  "correct_completion": "the appellate judges were obliged to follow it.",
+  "full_sentence": "Because the precedent was binding on lower courts, the appellate judges were obliged to follow it.",
+  "acceptable_variants": ["the appellate judges had no discretion to depart from it.", "the appellate court was bound to apply the same rule."],
+  "options": [
+    {"text": "although the lower courts disagreed with it.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, but the sentence needs a consequence of the precedent's binding status, not a concession."},
+    {"text": "the appellate judges were obliged to follow it.", "is_correct": true, "why_wrong": null},
+    {"text": "the precedent was overturned in 1998.", "is_correct": false, "why_wrong": "This describes a past event unrelated to the binding effect that the stem sets up as the cause."},
+    {"text": "so the court could ignore the earlier ruling.", "is_correct": false, "why_wrong": "This contradicts the binding status stated in the cause clause. 'So' introduces a result that the precedent rules out."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clauses with 'because' (cause followed by a legal consequence)",
+  "connector": "because",
+  "explanation": "'Because' introduces the reason, and the main clause must state the legal consequence of that reason. A binding precedent obliges higher courts to follow it.",
+  "translation": "Оскільки цей прецедент був обов’язковим для нижчих судів, судді апеляційної інстанції були зобов’язані його дотримуватися."
+}

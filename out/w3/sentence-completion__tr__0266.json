@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not until the train arrived,",
+  "correct_completion": "did she realise her mistake.",
+  "full_sentence": "Not until the train arrived, did she realise her mistake.",
+  "acceptable_variants": ["did she notice her mistake.", "did she finally understand what she had done."],
+  "options": [
+    {"text": "she realised her mistake.", "is_correct": false, "why_wrong": "After a fronted negative time phrase like 'not until', the auxiliary must come before the subject, so 'did she realise' is required."},
+    {"text": "she was realising her mistake.", "is_correct": false, "why_wrong": "Inversion requires 'did' followed by the base verb, and the continuous form is not used in this structure."},
+    {"text": "did she realise her mistake.", "is_correct": true, "why_wrong": null},
+    {"text": "she did realise her mistake.", "is_correct": false, "why_wrong": "No inversion: the auxiliary 'did' comes after the subject, but after fronted 'not until' it must come before the subject."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject-auxiliary inversion after fronted 'not until'",
+  "connector": "not until",
+  "explanation": "After a fronted negative time expression such as 'not until', English uses subject-auxiliary inversion, so the auxiliary must come before the subject. Speakers whose first language has no auxiliary-based inversion of this kind often keep normal word order here, which is a common error.",
+  "translation": "Ancak tren geldiğinde hatasını fark etti."
+}

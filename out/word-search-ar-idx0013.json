@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "O", "N", "N", "E", "T", "K", "P"],
+    ["Q", "W", "J", "Z", "B", "V", "F", "L"],
+    ["S", "X", "D", "M", "H", "C", "U", "O"],
+    ["A", "K", "W", "J", "T", "Z", "N", "T"],
+    ["T", "F", "V", "B", "R", "X", "L", "H"],
+    ["I", "Q", "D", "W", "O", "K", "Z", "Y"],
+    ["R", "B", "X", "M", "P", "V", "U", "F"],
+    ["E", "J", "E", "L", "E", "G", "Y", "N"]
+  ],
+  "words_to_find": ["SONNET", "PLOT", "SATIRE", "ELEGY", "TROPE"],
+  "word_positions": [
+    {"word": "SONNET", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PLOT", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SATIRE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "ELEGY", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "TROPE", "start_row": 3, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Literary Criticism and Theory"
+}

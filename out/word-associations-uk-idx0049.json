@@ -1,0 +1,14 @@
+{
+  "trigger_word": "presentation",
+  "all_words": [
+    {"word": "slide", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слайди — звичайна частина презентації, тому ці слова часто стоять разом."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Трактор — сільськогосподарська техніка і не має відношення до презентацій."},
+    {"word": "audience", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Аудиторія — ті, для кого робиться презентація, тому слово близьке за змістом."},
+    {"word": "kettle", "is_associated": false, "association_type": "NONE", "explanation": "Чайник — побутовий предмет і не пов’язаний із презентаціями."},
+    {"word": "handout", "is_associated": true, "association_type": "THEMATIC", "explanation": "Роздатковий матеріал належить до тієї ж теми: його видають слухачам під час презентації."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик — природне утворення і не стосується презентацій."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Презентація включає слайди, аудиторію та роздатковий матеріал; інші слова належать до несуміжних сфер."
+}

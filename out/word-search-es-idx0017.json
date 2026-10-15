@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "E", "N", "A", "N", "T", "K", "N"],
+    ["Q", "W", "J", "Z", "X", "B", "F", "O"],
+    ["C", "K", "P", "H", "W", "Y", "D", "T"],
+    ["L", "V", "G", "Q", "Z", "J", "R", "I"],
+    ["A", "X", "B", "W", "F", "K", "M", "C"],
+    ["U", "Y", "J", "Q", "Z", "V", "G", "E"],
+    ["S", "R", "M", "K", "W", "X", "F", "B"],
+    ["E", "D", "E", "P", "O", "S", "I", "T"]
+  ],
+  "words_to_find": ["TENANT", "NOTICE", "CLAUSE", "DEPOSIT"],
+  "word_positions": [
+    {"word": "TENANT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "NOTICE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "CLAUSE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "DEPOSIT", "start_row": 7, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Legal and Contractual Texts"
+}

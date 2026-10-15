@@ -1,0 +1,14 @@
+{
+  "trigger_word": "novel",
+  "all_words": [
+    {"word": "chapter", "is_associated": true, "association_type": "THEMATIC", "explanation": "Um romance é dividido em capítulos, por isso essa palavra pertence ao mesmo tema da leitura de livros longos."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Trator é uma máquina agrícola e não tem nenhuma relação com romances ou com a literatura."},
+    {"word": "author", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O autor é a pessoa que escreve um romance, então a palavra tem um sentido diretamente ligado ao romance."},
+    {"word": "soup", "is_associated": false, "association_type": "NONE", "explanation": "Sopa é um alimento e não tem qualquer ligação com a ideia de romance."},
+    {"word": "plot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A trama, ou enredo, é a sequência de eventos de um romance, por isso a palavra está diretamente relacionada a ele."},
+    {"word": "anchor", "is_associated": false, "association_type": "NONE", "explanation": "Âncora é um objeto usado em navios e não aparece no contexto de romances."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra novel se associa a partes e elementos da obra, como capítulo, enredo e autor; os demais termos não têm relação com a literatura."
+}

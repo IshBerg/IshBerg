@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "R", "A", "I", "N", "X", "Q", "D", "Z", "T"],
+    ["G", "U", "L", "W", "Y", "H", "J", "F", "I", "V"],
+    ["P", "S", "B", "M", "Q", "N", "O", "C", "X", "R"],
+    ["D", "A", "Z", "Y", "L", "W", "K", "T", "G", "J"],
+    ["F", "X", "U", "R", "S", "E", "Q", "V", "E", "N"],
+    ["B", "K", "J", "V", "T", "M", "D", "R", "Y", "L"],
+    ["E", "Q", "W", "N", "P", "S", "F", "G", "U", "X"],
+    ["A", "D", "O", "Y", "I", "L", "H", "Z", "K", "Q"],
+    ["C", "F", "W", "B", "N", "G", "S", "P", "A", "M"],
+    ["H", "R", "Q", "J", "X", "V", "L", "O", "D", "Y"]
+  ],
+  "words_to_find": ["TRAIN", "HOTEL", "MAP", "BEACH", "TICKET"],
+  "word_positions": [
+    {"word": "TRAIN", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOTEL", "start_row": 1, "start_col": 5, "direction": "DIAGONAL_DOWN"},
+    {"word": "MAP", "start_row": 8, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "BEACH", "start_row": 5, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TICKET", "start_row": 0, "start_col": 9, "direction": "DIAGONAL_DOWN_LEFT"}
+  ],
+  "topic": "Travel Adventures"
+}

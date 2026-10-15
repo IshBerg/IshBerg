@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the draft,",
+  "correct_completion": "the writer began revising the opening chapter.",
+  "full_sentence": "Having finished the draft, the writer began revising the opening chapter.",
+  "acceptable_variants": ["the author immediately turned to the opening chapter.", "the writer set about revising the first chapter."],
+  "options": [
+    {"text": "the opening chapter was revised by the writer.", "is_correct": false, "why_wrong": "The participle 'Having finished' needs the writer as its subject; here the opening chapter becomes the subject, creating a dangling modifier."},
+    {"text": "so the revision started right after the deadline.", "is_correct": false, "why_wrong": "'So' introduces a result that the participle clause does not license, and the sentence never names who finished the draft."},
+    {"text": "it was finished by the writer the previous year.", "is_correct": false, "why_wrong": "This repeats the completion of the draft without moving the sentence on, and 'it' has no clear reference."},
+    {"text": "the writer began revising the opening chapter.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses with a shared subject ('Having finished ... , the writer ...')",
+  "connector": "having finished",
+  "explanation": "A participle clause at the start of a sentence must describe the subject of the main clause, so the writer who finished the draft must be the one who begins revising.",
+  "translation": "Tendo terminado o rascunho, a escritora começou a revisar o capítulo inicial."
+}

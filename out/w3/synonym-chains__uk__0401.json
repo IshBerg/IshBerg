@@ -1,0 +1,17 @@
+{
+  "central_word": "wrong",
+  "chain_words": [
+    {"word": "questionable", "intensity": 1, "translation": "сумнівний", "nuance": "doubtful, open to criticism but not clearly wrong"},
+    {"word": "dishonest", "intensity": 2, "translation": "нечесний", "nuance": "not truthful or fair in one's dealings"},
+    {"word": "unethical", "intensity": 3, "translation": "неетичний", "nuance": "against accepted moral principles"},
+    {"word": "corrupt", "intensity": 4, "translation": "корумпований", "nuance": "abusing power or trust for personal gain"},
+    {"word": "fraudulent", "intensity": 5, "translation": "шахрайський", "nuance": "deliberately deceptive in order to cheat others"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe behaviour that is morally wrong, but they differ in strength, from a doubtful action to a deliberate attempt to deceive.",
+  "usage_notes": [
+    {"word1": "dishonest", "word2": "fraudulent", "difference": "'Dishonest' describes a lack of truthfulness in general; 'fraudulent' describes a deliberate plan to deceive people for money or advantage."}
+  ],
+  "translations": {"questionable": "сумнівний", "dishonest": "нечесний", "unethical": "неетичний", "corrupt": "корумпований", "fraudulent": "шахрайський"}
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My new phone is faster than my old one, so",
+  "correct_completion": "I use it much more often.",
+  "full_sentence": "My new phone is faster than my old one, so I use it much more often.",
+  "acceptable_variants": ["I use it every day now.", "I use it more than my old phone."],
+  "options": [
+    {"text": "my old phone is newer.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the new phone is faster. It also does not show a result of the comparison."},
+    {"text": "I use it much more often.", "is_correct": true, "why_wrong": null},
+    {"text": "I bought it last year.", "is_correct": false, "why_wrong": "This gives a past fact, but it does not follow logically from the phone being faster."},
+    {"text": "it is the cheapest phone in the shop.", "is_correct": false, "why_wrong": "This is not a result of being faster and does not complete the comparison started in the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Comparative adjectives with 'faster than' and result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the comparison in the first part. The comparative 'faster than' leads to a result, which is using the phone more often.",
+  "translation": "Мій новий телефон швидший за старий, тому я користуюся ним набагато частіше."
+}

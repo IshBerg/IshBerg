@@ -1,0 +1,20 @@
+{
+  "title": "A Nurse's Working Day",
+  "text": "Interviewer: Can you tell us about your job? Maria: I am a nurse at a small hospital. I start work at seven in the morning and I help patients every day. I like my job because I can help people feel better.\n\nInterviewer: What is the hardest part of your work? Maria: Sometimes the days are very long, and I am tired at night. But I always go home happy when a patient says thank you. Interviewer: Thank you, Maria.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What time does Maria start work?", "options": ["At six in the morning", "At seven in the morning", "At eight in the morning", "At nine in the morning"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "According to Maria, what is sometimes hard about her work?", "options": ["The days can be very long", "The hospital is far away", "The food is bad", "The patients are rude"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Maria like her job?", "options": ["Because she can help people feel better", "Because she earns a lot of money", "Because she works only in the afternoon", "Because she has no patients"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Maria probably feel when a patient says thank you?", "options": ["Proud and happy", "Angry and bored", "Sad and tired", "Confused and worried"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "nurse", "translation": "hemşire", "definition": "a person whose job is to care for sick people in a hospital"},
+    {"word": "patients", "translation": "hastalar", "definition": "people who receive medical care from a doctor or nurse"},
+    {"word": "tired", "translation": "yorgun", "definition": "needing sleep or rest because you have had a lot of energy used"},
+    {"word": "hospital", "translation": "hastane", "definition": "a place where sick or injured people receive medical care"}
+  ],
+  "paragraph_translations": [
+    "Görüşmeci: İşiniz hakkında bize bilgi verebilir misiniz? Maria: Küçük bir hastanede hemşireyim. Sabah yedide işe başlarım ve her gün hastalara yardım ederim. İnsanların kendilerini daha iyi hissetmelerine yardım edebildiğim için işimi seviyorum.",
+    "Görüşmeci: İşinizin en zor kısmı nedir? Maria: Bazen günler çok uzun oluyor ve geceleri yorgun oluyorum. Ama bir hasta teşekkür ettiğinde her zaman mutlu bir şekilde eve dönerim. Görüşmeci: Teşekkürler, Maria."
+  ]
+}

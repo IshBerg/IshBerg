@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the weather had been better,",
+  "correct_completion": "we would have gone to the beach.",
+  "full_sentence": "If the weather had been better, we would have gone to the beach.",
+  "acceptable_variants": ["we could have gone to the beach.", "we might have gone to the beach."],
+  "options": [
+    {"text": "we will go to the beach tomorrow.", "is_correct": false, "why_wrong": "The future tense does not fit the past conditional structure set by 'had been'; the sentence describes an imagined past situation."},
+    {"text": "we would go to the beach every day.", "is_correct": false, "why_wrong": "This uses a present conditional and a habitual meaning, which does not match the past condition 'had been'."},
+    {"text": "we would have gone to the beach.", "is_correct": true, "why_wrong": null},
+    {"text": "we went to the beach last week.", "is_correct": false, "why_wrong": "The simple past reports a real event, but the sentence needs an imagined result of an unreal past condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: if + past perfect, would have + past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined result. The if-clause uses the past perfect, and the main clause uses would have plus the past participle.",
+  "translation": "Gdyby pogoda była lepsza, bylibyśmy poszli na plażę."
+}

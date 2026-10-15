@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results may indicate a link between the two variables,",
+  "correct_completion": "yet the design cannot establish whether one causes the other.",
+  "full_sentence": "The results may indicate a link between the two variables, yet the design cannot establish whether one causes the other.",
+  "acceptable_variants": ["a causal relationship remains unconfirmed.", "further evidence would be needed to draw firm conclusions."],
+  "options": [
+    {"text": "the study has definitively proved that one variable causes the other.", "is_correct": false, "why_wrong": "'Definitively proved' contradicts the hedged 'may indicate' in the stem, so it cannot complete the contrast."},
+    {"text": "so the link must therefore be dismissed entirely.", "is_correct": false, "why_wrong": "'So' draws a conclusion the hedged stem does not support, since the stem only suggests a possible link."},
+    {"text": "the two variables are certainly unrelated in every case.", "is_correct": false, "why_wrong": "'Certainly unrelated' contradicts the stem's suggestion of a link, rather than qualifying it."},
+    {"text": "yet the design cannot establish whether one causes the other.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Contrastive 'yet' linking a hedged claim with a limitation of the evidence",
+  "connector": "yet",
+  "explanation": "'Yet' introduces a limitation that qualifies the tentative claim in the stem, so the completion must state what the evidence cannot establish.",
+  "translation": "Результати можуть вказувати на зв'язок між двома змінними, проте дизайн дослідження не дає змоги встановити, чи викликає одна з них другу."
+}

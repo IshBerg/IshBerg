@@ -1,0 +1,14 @@
+{
+  "trigger_word": "stanza",
+  "all_words": [
+    {"word": "verse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dize (verse), şiirde bir mısra anlamına gelir; kıta (stanza) ise bu mısraların bir araya gelmiş hâlidir, bu nedenle iki kavram anlamca yakındır."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "Fener bir aydınlatma aracıdır ve şiir biçimiyle ilgisi yoktur."},
+    {"word": "rhyme", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kafiye, kıtadaki dizelerin düzenini belirler; bu iki kavram şiir biçimi konusunda aynı alana aittir."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Buzul doğal bir oluşumdur ve şiirle bağlantısı yoktur."},
+    {"word": "couplet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "İkilik (couplet), iki dizeden oluşan kısa bir kıta biçimidir; kelime doğrudan anlam olarak ilişkilidir."},
+    {"word": "sandal", "is_associated": false, "association_type": "NONE", "explanation": "Sandalet bir ayakkabı türüdür ve şiir kavramlarıyla ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kıta, dizelerin bir araya gelmesiyle oluşan şiir birimidir; ilişkili sözcükler dizeyi, kafiyeyi ve ikiliği anlatır, diğerleri ise şiirle ilgisi olmayan nesnelerdir."
+}

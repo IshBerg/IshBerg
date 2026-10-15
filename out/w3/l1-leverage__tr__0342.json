@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "friendly or pleasant"},
+    {"word": "pratik", "transliteration": "pratik", "meaning": "practical or convenient"},
+    {"word": "not", "transliteration": "not", "meaning": "a grade or mark given for schoolwork"},
+    {"word": "lisans", "transliteration": "lisans", "meaning": "a bachelor's degree from a university"}
+  ],
+  "english_words": ["practical", "bachelor's degree", "friendly", "grade"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Turkish word looks like an English word that carries a different meaning. Students who assume the look-alike English meaning will choose the wrong answer, so the pairing must follow the Turkish meaning.",
+  "false_friend_warning": "The Turkish word that looks like 'sympathetic' means friendly or pleasant, not feeling sorry for someone. The Turkish word that looks like 'practice' means practical or convenient. The Turkish word that looks like 'note' means a mark given for schoolwork. The Turkish word that looks like 'license' means a university degree."
+}

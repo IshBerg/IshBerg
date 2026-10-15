@@ -1,0 +1,14 @@
+{
+  "trigger_word": "holiday",
+  "all_words": [
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "Praia é um lugar típico de férias, onde as pessoas descansam e se divertem."},
+    {"word": "calculator", "is_associated": false, "association_type": "NONE", "explanation": "Calculadora não tem relação com férias; é um objeto usado no estudo ou no trabalho."},
+    {"word": "suitcase", "is_associated": true, "association_type": "THEMATIC", "explanation": "A mala é usada para levar roupas e objetos durante a viagem de férias."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Lápis é um objeto de escola e não está ligado às férias."},
+    {"word": "hotel", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Muitas pessoas se hospedam em um hotel durante as férias, como em 'stay in a hotel'."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Sofá fica em casa e não tem relação direta com as férias."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'holiday' se referem a lugares, objetos ou situações de viagem e descanso; as demais pertencem a outros contextos."
+}

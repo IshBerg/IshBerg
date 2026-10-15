@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people support the new law,",
+  "correct_completion": "critics argue that it does not address the underlying causes of the problem.",
+  "full_sentence": "Although many people support the new law, critics argue that it does not address the underlying causes of the problem.",
+  "acceptable_variants": ["critics still argue that it ignores the underlying causes of the problem.", "critics nevertheless point out that it leaves the root causes unresolved."],
+  "options": [
+    {"text": "so the government will not need to debate it further.", "is_correct": false, "why_wrong": "'So' introduces a result, not a contrast with the public support mentioned in the stem."},
+    {"text": "because it was passed by a large majority.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'although' requires a contrast."},
+    {"text": "the law was approved by parliament last year.", "is_correct": false, "why_wrong": "This adds a fact but does not create the contrast expected after 'although'."},
+    {"text": "critics argue that it does not address the underlying causes of the problem.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' in argumentative writing",
+  "connector": "although",
+  "explanation": "After 'although', the completion must show a contrast with the support mentioned in the first clause. Polish speakers may confuse 'although' with 'because', since the two connectors can look similar in their native language, so they may choose a cause instead of a contrast.",
+  "translation": "Chociaż wielu ludzi popiera nowe prawo, krytycy twierdzą, że nie rozwiązuje ono podstawowych przyczyn problemu."
+}

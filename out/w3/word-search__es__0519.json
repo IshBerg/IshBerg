@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "H", "A", "R", "T", "K", "M", "S", "W", "Q"],
+    ["Z", "J", "X", "F", "N", "B", "D", "U", "I", "V"],
+    ["G", "Y", "O", "K", "M", "W", "Q", "R", "T", "H"],
+    ["X", "R", "S", "D", "Z", "C", "F", "V", "L", "A"],
+    ["F", "L", "A", "M", "U", "K", "B", "E", "W", "J"],
+    ["V", "N", "O", "P", "C", "G", "H", "Y", "Q", "D"],
+    ["J", "X", "M", "R", "H", "T", "W", "I", "P", "N"],
+    ["K", "Q", "T", "B", "Z", "F", "D", "L", "O", "E"],
+    ["M", "S", "V", "K", "G", "Y", "U", "C", "A", "R"],
+    ["E", "L", "B", "A", "T", "X", "Q", "P", "Z", "T"]
+  ],
+  "words_to_find": ["CHART", "TREND", "GRAPH", "TABLE", "SURVEY"],
+  "word_positions": [
+    {"word": "CHART", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TREND", "start_row": 9, "start_col": 9, "direction": "VERTICAL_UP"},
+    {"word": "GRAPH", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TABLE", "start_row": 9, "start_col": 4, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SURVEY", "start_row": 0, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Presenting Data and Trends"
+}

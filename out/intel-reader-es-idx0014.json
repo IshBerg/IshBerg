@@ -1,0 +1,20 @@
+{
+  "title": "Algorithms and the Question of Accountability",
+  "text": "Automated decision systems now help determine who receives a loan, a job interview, or a medical referral. Their proponents argue that machines apply rules consistently, free from the prejudices that cloud human judgement. Critics respond that such systems learn from historical data, and therefore tend to reproduce the inequalities already embedded in that data.\n\nThe ethical difficulty is compounded by opacity, since the reasoning of a complex model is often impossible to reconstruct after the fact. When an applicant is refused, no single person may be able to explain why, and responsibility dissolves across developers, vendors and institutions. Many ethicists therefore propose that any system affecting people's lives should be auditable, so that its outcomes can be contested and its designers held to account.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "According to the first paragraph, what do critics say automated decision systems learn from?", "options": ["Consistent human rules", "Historical data", "Direct instructions from ethicists", "Random samples of applicants"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does the second paragraph say makes responsibility difficult to assign?", "options": ["The applicants never submit complete forms", "The reasoning of complex models is often impossible to reconstruct", "The institutions refuse to publish their budgets", "The systems only operate at night"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What does the passage imply about machines that apply rules consistently?", "options": ["Consistency guarantees fairness, because bias cannot persist in data", "Consistency alone does not guarantee fairness, since the rules may rest on biased data", "Consistency is a flaw that human judges should avoid", "Consistency matters only for medical referrals"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why might ethicists favour auditable systems?", "options": ["Auditing removes the need for human oversight", "Auditing allows outcomes to be challenged and designers to be held accountable", "Auditing makes systems faster to build", "Auditing eliminates the use of historical data"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "opacity", "translation": "opacidad", "definition": "the quality of being difficult to see into or understand"},
+    {"word": "inequalities", "translation": "desigualdades", "definition": "unfair differences in treatment, opportunity or status between groups"},
+    {"word": "auditable", "translation": "auditable", "definition": "capable of being systematically examined and checked"},
+    {"word": "contested", "translation": "impugnados", "definition": "challenged or disputed through a formal process"}
+  ],
+  "paragraph_translations": [
+    "Los sistemas automatizados de decisión ayudan ahora a determinar quién recibe un préstamo, una entrevista de trabajo o una derivación médica. Sus defensores sostienen que las máquinas aplican las reglas de manera coherente, libres de los prejuicios que nublan el juicio humano. Los críticos responden que tales sistemas aprenden de datos históricos y, por tanto, tienden a reproducir las desigualdades ya presentes en esos datos.",
+    "La dificultad ética se agrava por la opacidad, ya que el razonamiento de un modelo complejo suele ser imposible de reconstruir después de los hechos. Cuando se rechaza a un solicitante, es posible que nadie pueda explicar el motivo, y la responsabilidad se diluye entre desarrolladores, proveedores e instituciones. Por ello, muchos especialistas en ética proponen que cualquier sistema que afecte la vida de las personas sea auditable, de modo que sus resultados puedan impugnarse y sus diseñadores rindan cuentas."
+  ]
+}

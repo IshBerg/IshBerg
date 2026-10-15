@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["N", "E", "W", "S", "K", "L", "Q", "B", "J", "S"],
+    ["D", "F", "H", "U", "Z", "M", "G", "A", "X", "T"],
+    ["R", "I", "L", "W", "K", "B", "J", "C", "Y", "O"],
+    ["Q", "E", "D", "G", "V", "H", "L", "F", "U", "R"],
+    ["X", "M", "P", "N", "J", "Z", "I", "W", "K", "Y"],
+    ["B", "H", "T", "O", "A", "R", "E", "M", "A", "C"],
+    ["L", "S", "N", "Y", "R", "D", "U", "P", "F", "V"],
+    ["K", "G", "E", "W", "J", "T", "Q", "N", "H", "C"],
+    ["Y", "A", "V", "S", "F", "I", "E", "L", "D", "B"],
+    ["H", "J", "E", "U", "O", "C", "W", "R", "T", "G"]
+  ],
+  "words_to_find": ["NEWS", "STORY", "REPORTER", "CAMERA", "EVENT"],
+  "word_positions": [
+    {"word": "NEWS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STORY", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "REPORTER", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CAMERA", "start_row": 5, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "EVENT", "start_row": 9, "start_col": 2, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Reporting News"
+}

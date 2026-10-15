@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "технология", "transliteration": "tekhnologiya", "meaning": "technology"},
+    {"word": "демократия", "transliteration": "demokratiya", "meaning": "democracy"},
+    {"word": "философия", "transliteration": "filosofiya", "meaning": "philosophy"},
+    {"word": "этика", "transliteration": "etika", "meaning": "ethics"}
+  ],
+  "english_words": ["ethics", "technology", "philosophy", "democracy"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words were borrowed into both languages from Greek and Latin through European scholarship, so the forms stayed close.",
+  "false_friend_warning": null
+}

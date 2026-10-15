@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results of the test will be announced",
+  "correct_completion": "next Friday, once all the papers have been checked.",
+  "full_sentence": "The results of the test will be announced next Friday, once all the papers have been checked.",
+  "acceptable_variants": ["next Friday, after all the papers have been marked.", "next Friday, when the marking has been finished."],
+  "options": [
+    {"text": "next Friday, once all the papers have check.", "is_correct": false, "why_wrong": "'Have check' is missing the past participle; the passive needs 'have been checked'."},
+    {"text": "next Friday, once all the papers have been checked.", "is_correct": true, "why_wrong": null},
+    {"text": "next Friday, once all the papers was checked.", "is_correct": false, "why_wrong": "'Was' does not agree with the plural subject 'papers', and the present perfect passive needs 'have been'."},
+    {"text": "next Friday, once all the papers be checked.", "is_correct": false, "why_wrong": "The auxiliary 'be' needs 'have' before it, so the correct form is 'have been checked'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect passive: have been + past participle",
+  "connector": "once",
+  "explanation": "The passive with 'have been' + past participle describes an action completed before the announcement. Portuguese speakers may use an active verb or a simple past here, because the English passive with 'have been' is not structured the same way in their language.",
+  "translation": "Os resultados do teste serão anunciados na próxima sexta-feira, assim que todas as provas tiverem sido corrigidas."
+}

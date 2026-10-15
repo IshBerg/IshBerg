@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The boxes are heavy, so",
+  "correct_completion": "we need two people to carry them.",
+  "full_sentence": "The boxes are heavy, so we need two people to carry them.",
+  "acceptable_variants": ["we need two people to lift them.", "we must ask two people for help."],
+  "options": [
+    {"text": "the boxes are light.", "is_correct": false, "why_wrong": "'So' introduces a result of the first clause. Light boxes would not lead to the need for two people."},
+    {"text": "we can carry them by ourselves easily.", "is_correct": false, "why_wrong": "This contradicts the first clause, because heavy boxes are not easy to carry alone."},
+    {"text": "the boxes are blue.", "is_correct": false, "why_wrong": "The colour of the boxes is not a result of their weight, so it does not complete the logic of 'so'."},
+    {"text": "we need two people to carry them.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result with 'so' and plural nouns",
+  "connector": "so",
+  "explanation": "After 'so', we need a logical result of the first clause. Heavy objects usually need more than one person to carry them.",
+  "translation": "Las cajas son pesadas, así que necesitamos dos personas para llevarlas."
+}

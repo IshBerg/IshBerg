@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "akademik", "transliteration": "akademik", "meaning": "dormitory, student residence hall"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if necessary"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice, pleasant, likeable"}
+  ],
+  "english_words": ["possibly", "nice", "current", "dormitory"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each of these Polish words looks like an English word with a shared Latin or Greek root, so the spelling stayed close in both languages. Over time the Polish meanings drifted away from the English ones, so the look-alike form now points to a different meaning.",
+  "false_friend_warning": "Watch out for the false friends here: the Polish word that looks like 'academic' means 'dormitory' (student residence), and the Polish word that looks like 'actual' means 'current' or 'up to date'. The Polish word that looks like 'eventually' means 'possibly', and the Polish word that looks like 'sympathetic' means 'nice' or 'likeable'."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "You are from Brazil,",
+  "correct_completion": "aren't you?",
+  "full_sentence": "You are from Brazil, aren't you?",
+  "acceptable_variants": ["isn't that right?", "right?"],
+  "options": [
+    {"text": "are you?", "is_correct": false, "why_wrong": "After a positive statement, the tag must be negative, so 'are you?' is incorrect here."},
+    {"text": "aren't you?", "is_correct": true, "why_wrong": null},
+    {"text": "don't you?", "is_correct": false, "why_wrong": "The auxiliary in a tag must match the verb in the statement; here the verb is 'are', so 'don't' is wrong."},
+    {"text": "isn't it?", "is_correct": false, "why_wrong": "The pronoun in a tag must refer to the subject, which is 'you', so 'it' is wrong."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative tag questions after positive statements",
+  "connector": "tag question",
+  "explanation": "After a positive statement, English uses a negative tag, with an auxiliary that matches the verb in the statement and a pronoun that matches its subject. Speakers whose first language uses one invariant tag word often need practice choosing the correct auxiliary.",
+  "translation": "Você é do Brasil, não é?"
+}

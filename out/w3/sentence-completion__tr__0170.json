@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the report had been revised several times,",
+  "correct_completion": "it was still criticised by the committee.",
+  "full_sentence": "Although the report had been revised several times, it was still criticised by the committee.",
+  "acceptable_variants": ["it was still rejected by the committee.", "the committee still criticised it."],
+  "options": [
+    {"text": "so it was approved without any changes.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause; 'so' would wrongly make the approval a result of the revisions."},
+    {"text": "the revisions were made in March.", "is_correct": false, "why_wrong": "This adds a date but does not complete the contrast set up by 'although'."},
+    {"text": "it was still criticised by the committee.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was printed on thick paper.", "is_correct": false, "why_wrong": "This describes the report but is unrelated to the contrast that 'although' introduces."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and passive voice",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. The revisions set up an expected positive result, but the report is still criticised, which is shown with the passive form 'was criticised' (was plus the past participle). The agent phrase 'by the committee' is included here, but it could be left out without changing the contrast.",
+  "translation": "Rapor birkaç kez gözden geçirilmiş olmasına rağmen, komite tarafından hala eleştirildi."
+}

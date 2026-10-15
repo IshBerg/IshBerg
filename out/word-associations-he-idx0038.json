@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dissertation",
+  "all_words": [
+    {"word": "examiner", "is_associated": true, "association_type": "SEMANTIC", "explanation": "הבוחן הוא החבר בוועדה שמעריך את הדוקטורט ולכן הוא קשור ישירות לתהליך ההגנה והבחינה."},
+    {"word": "mandolin", "is_associated": false, "association_type": "NONE", "explanation": "המנדולינה היא כלי נגינה ואין לה קשר לעבודת דוקטורט או להגנה אקדמית."},
+    {"word": "committee", "is_associated": true, "association_type": "THEMATIC", "explanation": "ועדת הדוקטורט היא הגוף שבוחן את העבודה, ולכן היא שייכת לאותו נושא של הגנה אקדמית."},
+    {"word": "rhubarb", "is_associated": false, "association_type": "NONE", "explanation": "ריבס הוא צמח מאכל ואין לו קשר להגנה על עבודת דוקטורט."},
+    {"word": "viva", "is_associated": true, "association_type": "SEMANTIC", "explanation": "ויווה היא בחינה בעל-פה שבה מגן הדוקטורנט על עבודתו, ולכן היא קשורה ישירות למושג ההגנה."},
+    {"word": "cobweb", "is_associated": false, "association_type": "NONE", "explanation": "קורי עכביש הם חוטים שנוצרים על ידי עכביש ואין להם קשר לעבודה אקדמית."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "הגנה על עבודת דוקטורט היא בחינה פומבית שבה מעריכים את העבודה; המילים הקשורות הן בוחן, ועדה ובחינה בעל-פה, ואילו האחרות אינן קשורות לתחום."
+}

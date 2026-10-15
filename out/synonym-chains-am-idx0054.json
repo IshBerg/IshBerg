@@ -1,0 +1,17 @@
+{
+  "central_word": "unclear",
+  "chain_words": [
+    {"word": "vague", "intensity": 1, "translation": "ግልጽ ያልሆነ", "nuance": "not clearly defined, with only a rough outline"},
+    {"word": "ambiguous", "intensity": 2, "translation": "ሁለት ትርጉም ያለው", "nuance": "open to more than one interpretation"},
+    {"word": "unclear", "intensity": 3, "translation": "ያልተብራራ", "nuance": "general lack of clarity in meaning"},
+    {"word": "obscure", "intensity": 4, "translation": "ለመረዳት የሚያስቸግር", "nuance": "hard to understand because hidden or little known"},
+    {"word": "incomprehensible", "intensity": 5, "translation": "የማይገባ", "nuance": "impossible to understand at all"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe lack of clarity but with different intensities, from a rough outline to something impossible to understand.",
+  "usage_notes": [
+    {"word1": "vague", "word2": "ambiguous", "difference": "'Vague' describes something indistinct or lacking detail; 'ambiguous' describes something that has two or more possible meanings."}
+  ],
+  "translations": {"vague": "ግልጽ ያልሆነ", "ambiguous": "ሁለት ትርጉም ያለው", "unclear": "ያልተብራራ", "obscure": "ለመረዳት የሚያስቸግር", "incomprehensible": "የማይገባ"}
+}

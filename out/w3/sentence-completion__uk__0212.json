@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Rarely have I encountered such determination,",
+  "correct_completion": "as the team displayed during those final weeks.",
+  "full_sentence": "Rarely have I encountered such determination, as the team displayed during those final weeks.",
+  "acceptable_variants": ["as the candidates showed during the final debate.", "as the staff demonstrated throughout the crisis."],
+  "options": [
+    {"text": "I have encountered such determination.", "is_correct": false, "why_wrong": "After a fronted negative adverb such as 'rarely', English requires inversion of the auxiliary and the subject, so declarative word order is ungrammatical here."},
+    {"text": "so I have met people who lacked it.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not complete the emphatic structure started by the fronted adverb."},
+    {"text": "however the team showed determination.", "is_correct": false, "why_wrong": "'However' signals a contrast that does not follow from the stem and does not match the rhetorical emphasis of the inverted clause."},
+    {"text": "as the team displayed during those final weeks.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Negative adverbial fronting with subject-auxiliary inversion ('rarely')",
+  "connector": "rarely",
+  "explanation": "After a fronted negative adverb such as 'rarely', English inverts the auxiliary and the subject, which adds emphasis. Ukrainian speakers often keep normal word order because Ukrainian relies more on word order and particles than on inversion for emphasis, so the inverted form feels unnatural at first.",
+  "translation": "Рідко я зустрічав таку рішучість, як та, яку команда продемонструвала в останні тижні."
+}

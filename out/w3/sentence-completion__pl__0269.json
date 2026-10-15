@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The question of whether the project would succeed",
+  "correct_completion": "remained unanswered.",
+  "full_sentence": "The question of whether the project would succeed remained unanswered.",
+  "acceptable_variants": ["stayed unanswered.", "was never answered."],
+  "options": [
+    {"text": "remain unanswered.", "is_correct": false, "why_wrong": "The subject is a singular noun clause, so the verb must be singular and in the past tense to match the rest of the sentence."},
+    {"text": "which remained unanswered.", "is_correct": false, "why_wrong": "'Which' has no antecedent here, so it cannot introduce a relative clause; the main verb must follow the subject directly."},
+    {"text": "remained unanswered.", "is_correct": true, "why_wrong": null},
+    {"text": "remaining unanswered.", "is_correct": false, "why_wrong": "A participle cannot serve as the main verb of the sentence without an auxiliary."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject nominal clauses and subject-verb agreement",
+  "connector": "whether",
+  "explanation": "The whole nominal clause 'the question of whether the project would succeed' acts as a single singular subject, so the main verb must agree with it. Learners whose first language marks agreement differently often add extra words or use a participle in place of the verb.",
+  "translation": "Pytanie, czy projekt odniesie sukces, pozostało bez odpowiedzi."
+}

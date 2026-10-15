@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "When we arrived at the station,",
+  "correct_completion": "the train had already left.",
+  "full_sentence": "When we arrived at the station, the train had already left.",
+  "acceptable_variants": ["the train had gone.", "the train had departed."],
+  "options": [
+    {"text": "the train has already left.", "is_correct": false, "why_wrong": "The present perfect connects to the present. The stem is about a past moment, so the earlier past action needs the past perfect."},
+    {"text": "the train already left.", "is_correct": false, "why_wrong": "The simple past does not show that the train left before our arrival. The past perfect is needed to show the earlier action."},
+    {"text": "the train had already left.", "is_correct": true, "why_wrong": null},
+    {"text": "the train will already leave.", "is_correct": false, "why_wrong": "The future tense does not fit a sentence that describes a past moment."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past perfect to show an action completed before another past action",
+  "connector": "when",
+  "explanation": "The train left before the arrival, so the earlier action uses had plus the past participle. Portuguese speakers often use the simple past for both actions, because Portuguese has a single pluperfect form that is used less often in everyday speech."
+}

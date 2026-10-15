@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the memoir was written decades after the events,",
+  "correct_completion": "the author recalled the details with surprising precision.",
+  "full_sentence": "Even though the memoir was written decades after the events, the author recalled the details with surprising precision.",
+  "acceptable_variants": ["the author remembered the events in striking detail.", "the narrator described the scenes with remarkable accuracy."],
+  "options": [
+    {"text": "so the author wrote the memoir in a single week.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem sets up a contrast about the time between events and writing. The completion must express that contrast."},
+    {"text": "because the publisher demanded a shorter book.", "is_correct": false, "why_wrong": "'Because' gives a reason for an action. It does not complete the contrast started by 'even though'."},
+    {"text": "the author recalled the details with surprising precision.", "is_correct": true, "why_wrong": null},
+    {"text": "although the events were recorded in a diary.", "is_correct": false, "why_wrong": "'Although' adds a second concession, which repeats the logic of the stem instead of stating the contrasting outcome."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though' (contrast with a surprising outcome)",
+  "connector": "even though",
+  "explanation": "'Even though' introduces a contrast with the stem. Writing decades later would normally weaken memory, so the completion must state the unexpected result.",
+  "translation": "Mimo że wspomnienia zostały napisane dekady po opisywanych wydarzeniach, autor przypomniał sobie szczegóły z zaskakującą precyzją."
+}

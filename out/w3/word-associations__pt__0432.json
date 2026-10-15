@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dance",
+  "all_words": [
+    {"word": "music", "is_associated": true, "association_type": "SEMANTIC", "explanation": "A música é a base de uma dança, por isso as duas palavras têm ligação de significado."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Mesa é um móvel de casa e não tem nenhuma relação com dançar."},
+    {"word": "jump", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Pular é um movimento comum na dança, então as palavras estão ligadas pelo significado."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "Chuva é um fenômeno da natureza e não tem relação com dançar."},
+    {"word": "party", "is_associated": true, "association_type": "THEMATIC", "explanation": "Festas são lugares típicos para dançar, então as duas palavras pertencem ao mesmo tema."},
+    {"word": "book", "is_associated": false, "association_type": "NONE", "explanation": "Livro é algo para ler e não tem relação com dançar."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'dance' (música, pular e festa) pertencem ao mesmo tema ou têm ligação de significado, enquanto as outras não se relacionam com dançar."
+}

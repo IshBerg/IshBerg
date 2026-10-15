@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although critics argue that remote work weakens team cohesion,",
+  "correct_completion": "many studies show that productivity has actually increased.",
+  "full_sentence": "Although critics argue that remote work weakens team cohesion, many studies show that productivity has actually increased.",
+  "acceptable_variants": ["several recent surveys report that employees feel more productive at home.", "the evidence on productivity is more positive than expected."],
+  "options": [
+    {"text": "the policy should therefore be abandoned.", "is_correct": false, "why_wrong": "This is a conclusion that follows from the criticism. It does not provide the counterpoint that 'although' requires."},
+    {"text": "remote work has become common in many industries.", "is_correct": false, "why_wrong": "This describes a trend but does not set up a contrast with the criticism in the stem."},
+    {"text": "many studies show that productivity has actually increased.", "is_correct": true, "why_wrong": null},
+    {"text": "teams in the same city tend to communicate more often.", "is_correct": false, "why_wrong": "This supports the criticism rather than contrasting with it, so it breaks the concessive structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Ukrainian speakers sometimes add a second contrast marker in the main clause, but English needs only one contrast connector in this structure.",
+  "translation": "Хоча критики стверджують, що віддалена робота послаблює згуртованість команди, багато досліджень показують, що продуктивність насправді зросла."
+}

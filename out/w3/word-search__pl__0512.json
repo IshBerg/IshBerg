@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["D", "E", "B", "A", "T", "E", "T"],
+    ["Q", "W", "X", "K", "J", "Z", "H"],
+    ["M", "B", "V", "R", "C", "Y", "E"],
+    ["P", "A", "N", "E", "L", "K", "S"],
+    ["G", "Y", "O", "F", "W", "U", "I"],
+    ["A", "R", "G", "U", "E", "Z", "S"],
+    ["X", "T", "J", "Q", "B", "N", "V"]
+  ],
+  "words_to_find": ["DEBATE", "THESIS", "PANEL", "ARGUE"],
+  "word_positions": [
+    {"word": "DEBATE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THESIS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PANEL", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ARGUE", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Academic Discussion and Seminars"
+}

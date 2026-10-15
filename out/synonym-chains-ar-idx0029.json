@@ -1,0 +1,17 @@
+{
+  "central_word": "accurate",
+  "chain_words": [
+    {"word": "approximate", "intensity": 1, "translation": "تقريبي", "nuance": "close to the true value but not exact"},
+    {"word": "precise", "intensity": 2, "translation": "دقيق", "nuance": "carefully measured with fine detail"},
+    {"word": "accurate", "intensity": 3, "translation": "صحيح ودقيق", "nuance": "correct, matching the true value or fact"},
+    {"word": "exact", "intensity": 4, "translation": "مطابق تماماً", "nuance": "identical to the true value in every respect"},
+    {"word": "flawless", "intensity": 5, "translation": "خالٍ من العيوب", "nuance": "so correct that no error at all can be found"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe how closely a result matches the truth, from a rough estimate to a result with no error.",
+  "usage_notes": [
+    {"word1": "precise", "word2": "exact", "difference": "'Precise' refers to fine detail and careful measurement; 'exact' means completely identical to the true value or specification."}
+  ],
+  "translations": {"approximate": "تقريبي", "precise": "دقيق", "accurate": "صحيح ودقيق", "exact": "مطابق تماماً", "flawless": "خالٍ من العيوب"}
+}
