@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The report was written carefully; nevertheless,",
+  "correct_completion": "several errors were found by the editor.",
+  "full_sentence": "The report was written carefully; nevertheless, several errors were found by the editor.",
+  "acceptable_variants": ["some mistakes still remained in the final version.", "the editor still found a few problems."],
+  "options": [
+    {"text": "several errors were found by the editor.", "is_correct": true, "why_wrong": null},
+    {"text": "therefore, the editor praised the author.", "is_correct": false, "why_wrong": "'Therefore' signals a result that follows logically. The stem uses 'nevertheless', which signals a contrast, so this option does not fit the connector."},
+    {"text": "because the author was very careful.", "is_correct": false, "why_wrong": "'Because' introduces a cause. 'Nevertheless' requires a contrast with the carefulness just described."},
+    {"text": "in addition to the cover page.", "is_correct": false, "why_wrong": "'In addition' adds more information of the same kind, but it does not express the contrast that 'nevertheless' requires."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrastive linking adverbials such as 'nevertheless' and 'however'",
+  "connector": "nevertheless",
+  "explanation": "'Nevertheless' introduces a result that goes against what was expected from the first clause. Portuguese speakers may confuse it with 'portanto' or 'além disso' because the connectors look similar, so it is important to check the meaning of the contrast carefully.",
+  "translation": "O relatório foi escrito com cuidado; no entanto, vários erros foram encontrados pelo editor."
+}

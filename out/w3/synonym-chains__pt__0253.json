@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "sleepy", "intensity": 1, "translation": "com sono", "nuance": "mild need to sleep"},
+    {"word": "tired", "intensity": 2, "translation": "cansado", "nuance": "general lack of energy"},
+    {"word": "weary", "intensity": 3, "translation": "exausto de cansaço", "nuance": "tiredness that has built up over a long period"},
+    {"word": "exhausted", "intensity": 4, "translation": "esgotado", "nuance": "complete physical or mental fatigue"},
+    {"word": "drained", "intensity": 5, "translation": "sem energia nenhuma", "nuance": "feeling completely emptied of energy"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe tiredness but with different intensities, from mild sleepiness to complete loss of energy.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "weary", "difference": "'Tired' is a general word for lacking energy. 'Weary' suggests tiredness that has built up over time and can affect one's mood."}
+  ],
+  "translations": {"sleepy": "com sono", "tired": "cansado", "weary": "exausto de cansaço", "exhausted": "esgotado", "drained": "sem energia nenhuma"}
+}
