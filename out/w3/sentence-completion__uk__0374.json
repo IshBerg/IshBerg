@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the old man was tired,",
+  "correct_completion": "he kept walking toward the village.",
+  "full_sentence": "Although the old man was tired, he kept walking toward the village.",
+  "acceptable_variants": ["he continued walking toward the village.", "he did not stop until he reached the village."],
+  "options": [
+    {"text": "so he decided to stop for the night.", "is_correct": false, "why_wrong": "'Although' signals contrast, while 'so' signals result. A result does not fit the contrast this connector requires."},
+    {"text": "because the road was long.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'although' needs a contrasting action after the comma."},
+    {"text": "he kept walking toward the village.", "is_correct": true, "why_wrong": null},
+    {"text": "he was tired every day.", "is_correct": false, "why_wrong": "This repeats the idea of tiredness and adds no contrast, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show contrast with the first clause. Ukrainian speakers sometimes choose a result or cause connector here, so check the logical relationship between the two clauses before choosing.",
+  "translation": "Хоча старий чоловік був утомлений, він продовжував іти до села."
+}
