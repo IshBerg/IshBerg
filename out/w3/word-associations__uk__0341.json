@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "THEMATIC", "explanation": "Грім зазвичай чується під час грози, тому це слово тематично пов'язане зі штормом."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не має прямого зв'язку зі штормовою погодою, це предмет із зовсім іншої сфери."},
+    {"word": "gale", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Сильний вітер є частиною штормової погоди, тому це слово близьке за значенням до шторму."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим є предметом для дому і не пов'язаний з погодними явищами."},
+    {"word": "lightning", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Блискавка часто супроводжує шторм, і разом ці слова звичайно вживаються в одному контексті."},
+    {"word": "pepper", "is_associated": false, "association_type": "NONE", "explanation": "Перець є приправою для їжі і жодним чином не пов'язаний зі штормом."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'storm' асоціюється з явищами, які супроводжують сильну негоду: грім, сильний вітер і блискавку, тоді як решта слів належить до інших сфер життя."
+}

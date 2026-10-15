@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished her homework,",
+  "correct_completion": "Maria turned on the television.",
+  "full_sentence": "Having finished her homework, Maria turned on the television.",
+  "acceptable_variants": ["Maria switched the television on.", "Maria sat down to watch a film."],
+  "options": [
+    {"text": "the television was turned on by her.", "is_correct": false, "why_wrong": "The participle clause 'Having finished' must refer to the subject of the main clause. Here the main clause subject is 'the television', which cannot finish homework. This is a dangling participle."},
+    {"text": "Maria turned on the television.", "is_correct": true, "why_wrong": null},
+    {"text": "Maria will finish her homework tomorrow.", "is_correct": false, "why_wrong": "The stem already says the homework is finished, so this future action contradicts the participle clause."},
+    {"text": "there was a loud noise outside.", "is_correct": false, "why_wrong": "A perfect participle clause refers to the main clause subject. 'A loud noise' cannot have finished homework, so the sentence is illogical."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect participle clauses (the subject of the participle must match the subject of the main clause)",
+  "connector": "having finished",
+  "explanation": "A perfect participle clause ('Having finished') describes an action completed before the main action. Its implied subject must be the same as the subject of the main clause, so the main clause needs a person who could do the homework. Ukrainian speakers often build this kind of clause with a full subordinate clause, so the subject-matching rule is easy to overlook.",
+  "translation": "Закінчивши домашнє завдання, Марія увімкнула телевізор."
+}
