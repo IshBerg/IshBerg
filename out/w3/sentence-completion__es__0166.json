@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder at school,",
+  "correct_completion": "I would be working in a better job now.",
+  "full_sentence": "If I had studied harder at school, I would be working in a better job now.",
+  "acceptable_variants": ["I might be working in a better job now.", "I would be earning more money now."],
+  "options": [
+    {"text": "I work in a better job now.", "is_correct": false, "why_wrong": "A simple present tense states a real fact and does not express an unreal past condition with a present result."},
+    {"text": "I had a better job now.", "is_correct": false, "why_wrong": "A past simple verb does not express a hypothetical present result after a past condition."},
+    {"text": "I would be working in a better job now.", "is_correct": true, "why_wrong": null},
+    {"text": "I would have worked in a better job by now.", "is_correct": false, "why_wrong": "'Would have' plus a past form points to a past result, which does not fit the present time expression 'now'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: past condition with present result",
+  "connector": "if",
+  "explanation": "A mixed conditional links an unreal past condition with an unreal present result. The past perfect appears in the if-clause, and 'would' plus a continuous infinitive appears in the main clause to describe the present situation.",
+  "translation": "Si hubiera estudiado más duro en la escuela, ahora estaría trabajando en un mejor puesto."
+}

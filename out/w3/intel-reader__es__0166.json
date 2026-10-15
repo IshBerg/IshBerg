@@ -1,0 +1,20 @@
+{
+  "title": "An Email About an Interview",
+  "text": "Dear Ms. Lopez, thank you for applying for the sales position. We would like to invite you to an interview on Thursday at 2 p.m. Please call our office to confirm.\n\nThe interview will last about thirty minutes. Please bring your CV and two references. We look forward to hearing from you. Yours sincerely, James Wilson.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "When is the interview?", "options": ["On Thursday at 2 p.m.", "On Tuesday at 2 p.m.", "On Thursday at 4 p.m.", "On Friday at 2 p.m."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How long will the interview last?", "options": ["About thirty minutes", "About one hour", "About two hours", "About fifteen minutes"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What is the purpose of this email?", "options": ["To invite a candidate to an interview", "To reject a job application", "To ask for a salary increase", "To announce a new office"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What does the writer probably expect the reader to do?", "options": ["Call the office to confirm", "Send a payment", "Move to a new city", "Write a complaint"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "interview", "translation": "entrevista", "definition": "a meeting where someone is asked questions to see if they suit a job"},
+    {"word": "confirm", "translation": "confirmar", "definition": "to say that something is certain or correct"},
+    {"word": "references", "translation": "referencias", "definition": "people who can describe your work or character"},
+    {"word": "position", "translation": "puesto", "definition": "a job or role in an organisation"}
+  ],
+  "paragraph_translations": [
+    "Estimada señora López, gracias por solicitar el puesto de ventas. Nos gustaría invitarla a una entrevista el jueves a las 2 p. m. Por favor, llame a nuestra oficina para confirmar.",
+    "La entrevista durará unos treinta minutos. Por favor, traiga su currículum y dos referencias. Esperamos su respuesta. Atentamente, James Wilson."
+  ]
+}
