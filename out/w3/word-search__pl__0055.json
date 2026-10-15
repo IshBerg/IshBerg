@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "L", "A", "R", "I", "F", "Y", "K", "Q", "B"],
+    ["J", "O", "M", "T", "W", "P", "N", "Z", "X", "R"],
+    ["E", "H", "D", "V", "S", "K", "Q", "W", "A", "I"],
+    ["T", "R", "N", "M", "Z", "O", "L", "C", "G", "E"],
+    ["P", "Y", "J", "B", "K", "T", "W", "H", "D", "F"],
+    ["V", "X", "Z", "Q", "M", "N", "L", "P", "R", "S"],
+    ["K", "A", "W", "Z", "T", "Q", "M", "F", "U", "J"],
+    ["N", "J", "G", "L", "B", "H", "T", "Q", "S", "P"],
+    ["Q", "W", "K", "U", "Z", "D", "N", "X", "B", "L"],
+    ["R", "T", "V", "P", "E", "M", "Z", "Q", "A", "O"]
+  ],
+  "words_to_find": ["CLARIFY", "BRIEF", "VAGUE", "ABSURD"],
+  "word_positions": [
+    {"word": "CLARIFY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BRIEF", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "VAGUE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "ABSURD", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists C and D"
+}

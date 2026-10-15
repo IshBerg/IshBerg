@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom usually walks to school, but",
+  "correct_completion": "today he takes the bus.",
+  "full_sentence": "Tom usually walks to school, but today he takes the bus.",
+  "acceptable_variants": ["today he rides his bike.", "today he drives his father's car."],
+  "options": [
+    {"text": "so he walks today too.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. The stem already expects a change from the usual habit, which 'but' introduces."},
+    {"text": "he likes his blue bag.", "is_correct": false, "why_wrong": "This is a true sentence about Tom, but it does not contrast with the habit of walking to school."},
+    {"text": "today he takes the bus.", "is_correct": true, "why_wrong": null},
+    {"text": "he go to school by bike.", "is_correct": false, "why_wrong": "It may seem to contrast, but 'he go' is wrong. With he, the present simple verb needs an -s ending: 'he goes'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' and present simple third person",
+  "connector": "but",
+  "explanation": "The word 'but' introduces a contrast with the usual habit. The second clause must show a different action in the present simple, with the verb in third person singular (takes).",
+  "translation": "Tom zwykle chodzi do szkoły pieszo, ale dzisiaj jedzie autobusem."
+}
