@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the strong criticism from investors,",
+  "correct_completion": "the board approved the new strategy.",
+  "full_sentence": "Despite the strong criticism from investors, the board approved the new strategy.",
+  "acceptable_variants": ["the board still went ahead with the new strategy.", "the board nevertheless adopted the new strategy."],
+  "options": [
+    {"text": "because the investors were angry.", "is_correct": false, "why_wrong": "'Because' expresses cause, and this option repeats the criticism already named in the stem instead of completing the contrast that 'despite' sets up."},
+    {"text": "the investors had already criticised the plan.", "is_correct": false, "why_wrong": "This repeats the criticism already stated in the stem and adds no contrasting action after 'despite'."},
+    {"text": "the board approved the new strategy.", "is_correct": true, "why_wrong": null},
+    {"text": "the strategy will be published next year.", "is_correct": false, "why_wrong": "This describes a future publication rather than a contrasting action by the board, so it does not complete the contrast set up by 'despite'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'despite'",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a noun phrase that gives a fact opposing the main clause, so the main clause must show the action that happens in spite of the criticism. Learners may confuse 'despite' with 'because' because both can be followed by a noun phrase, but 'despite' always signals contrast, not cause.",
+  "translation": "Незважаючи на сильну критику з боку інвесторів, рада директорів схвалила нову стратегію."
+}
