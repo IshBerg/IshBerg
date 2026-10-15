@@ -1,0 +1,13 @@
+{
+  "start_word": "doubtful",
+  "end_word": "certain",
+  "ladder_steps": [
+    {"word": "doubtful", "translation": "duvidoso", "intensity_level": 1},
+    {"word": "possible", "translation": "possível", "intensity_level": 2},
+    {"word": "likely", "translation": "provável", "intensity_level": 3},
+    {"word": "probable", "translation": "muito provável", "intensity_level": 4},
+    {"word": "certain", "translation": "certo", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words form a scale of certainty about a claim, from the lowest degree of confidence to complete confidence. Each step is a slightly higher level of likelihood than the one before."
+}

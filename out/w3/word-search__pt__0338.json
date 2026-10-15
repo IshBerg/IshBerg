@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["C", "U", "L", "T", "U", "R", "E", "K", "F"],
+    ["B", "M", "P", "Q", "W", "Z", "J", "E", "E"],
+    ["V", "X", "D", "Y", "K", "N", "G", "F", "S"],
+    ["Q", "W", "Z", "B", "J", "A", "M", "O", "T"],
+    ["P", "Y", "C", "M", "U", "X", "K", "O", "I"],
+    ["R", "Q", "F", "G", "W", "B", "Z", "D", "V"],
+    ["J", "Y", "N", "X", "M", "P", "C", "K", "A"],
+    ["Q", "A", "S", "W", "B", "D", "F", "V", "L"],
+    ["L", "H", "E", "R", "I", "T", "A", "G", "E"]
+  ],
+  "words_to_find": ["CULTURE", "FOOD", "LANGUAGE", "FESTIVAL", "HERITAGE"],
+  "word_positions": [
+    {"word": "CULTURE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FOOD", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "LANGUAGE", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "FESTIVAL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "HERITAGE", "start_row": 8, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Cultural Diversity"
+}
