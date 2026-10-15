@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had a free weekend,",
+  "correct_completion": "I would visit my grandparents.",
+  "full_sentence": "If I had a free weekend, I would visit my grandparents.",
+  "acceptable_variants": ["I would call my grandparents.", "I would spend the day with my family."],
+  "options": [
+    {"text": "I visited my grandparents last week.", "is_correct": false, "why_wrong": "The past simple describes a real past event. The second conditional describes an imagined situation."},
+    {"text": "I will visit my grandparents on Monday.", "is_correct": false, "why_wrong": "'Will' expresses a real future plan. The second conditional needs 'would' because the condition is imagined."},
+    {"text": "I would visit my grandparents.", "is_correct": true, "why_wrong": null},
+    {"text": "I have visited my grandparents.", "is_correct": false, "why_wrong": "The present perfect describes a completed action in real life, which does not fit an imagined situation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional: 'if' with past simple, followed by 'would' and the base verb",
+  "connector": "if",
+  "explanation": "The second conditional describes an imagined present or future situation. The if-clause uses the past simple, and the result clause uses 'would' plus the base verb.",
+  "translation": "Якби в мене були вільні вихідні, я б відвідав бабусю з дідусем."
+}

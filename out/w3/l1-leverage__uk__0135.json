@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, topical, currently important"},
+    {"word": "конкретний", "transliteration": "konkretnyi", "meaning": "specific, particular"},
+    {"word": "акцент", "transliteration": "akcent", "meaning": "emphasis, stress placed on something"},
+    {"word": "реалізувати", "transliteration": "realizuvaty", "meaning": "to implement, to carry out"}
+  ],
+  "english_words": ["implement", "emphasis", "specific", "relevant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Ukrainian words come from international roots, so their spelling looks close to English, but their meanings shifted differently in each language over time.",
+  "false_friend_warning": "The Ukrainian word for 'relevant' looks like English 'actual', but it does not mean 'real'; the Ukrainian word for 'specific' looks like English 'concrete', but it does not mean 'solid'; and the Ukrainian word for 'to implement' looks like English 'realize', but it does not mean 'understand'."
+}
