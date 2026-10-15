@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder for the exam,",
+  "correct_completion": "I would have passed it easily.",
+  "full_sentence": "If I had studied harder for the exam, I would have passed it easily.",
+  "acceptable_variants": ["I would have done much better overall.", "I might have passed it easily."],
+  "options": [
+    {"text": "I would pass it easily.", "is_correct": false, "why_wrong": "'Would pass' refers to a present or future result. The third conditional needs 'would have' plus a past participle to describe an unreal past situation."},
+    {"text": "I will pass it easily.", "is_correct": false, "why_wrong": "'Will' is used for real future situations. This sentence is about an unreal past condition, so it does not fit."},
+    {"text": "I would have passed it easily.", "is_correct": true, "why_wrong": null},
+    {"text": "I passed it easily.", "is_correct": false, "why_wrong": "The simple past states a real past result. It does not express the unreal result of an unreal past condition set up by 'if' with 'had studied'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: 'if' + past perfect, 'would have' + past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation that did not happen and its imagined result. The condition uses the past perfect, and the result uses 'would have' plus a past participle. Portuguese speakers often mix up these forms because the verb tenses are organised differently in their own language, so it helps to memorise the full pattern.",
+  "translation": "Se eu tivesse estudado mais para a prova, eu teria passado facilmente."
+}
