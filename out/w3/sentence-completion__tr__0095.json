@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "In the kitchen,",
+  "correct_completion": "there are two cups and a plate on the table.",
+  "full_sentence": "In the kitchen, there are two cups and a plate on the table.",
+  "acceptable_variants": ["there is a clock on the wall.", "there are some apples in the bowl."],
+  "options": [
+    {"text": "there is two cups and a plate on the table.", "is_correct": false, "why_wrong": "'Two cups' is plural, so the verb must be 'are', not 'is'."},
+    {"text": "there are two cups and a plate on the table.", "is_correct": true, "why_wrong": null},
+    {"text": "cups and a plate there on the table.", "is_correct": false, "why_wrong": "The word order is incorrect. The structure needs 'there' followed by the verb before the noun phrase."},
+    {"text": "there was a cup on the table yesterday.", "is_correct": false, "why_wrong": "The past tense does not match the present scene described by the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "There is / There are with singular and plural nouns",
+  "connector": "there are",
+  "explanation": "'There are' is used before plural countable nouns, and 'there is' is used before singular or uncountable nouns. Learners may struggle with agreement here because the verb must match the noun that follows, not the word 'there'.",
+  "translation": "Mutfakta masanın üzerinde iki fincan ve bir tabak var."
+}
