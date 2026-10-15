@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "tygrys", "transliteration": "tygrys", "meaning": "tiger"},
+    {"word": "zebra", "transliteration": "zebra", "meaning": "zebra"},
+    {"word": "koala", "transliteration": "koala", "meaning": "koala"},
+    {"word": "panda", "transliteration": "panda", "meaning": "panda"}
+  ],
+  "english_words": ["panda", "tiger", "zebra", "koala"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these animal names from the same international source, so the English and the Polish forms are identical or very close.",
+  "false_friend_warning": null
+}
