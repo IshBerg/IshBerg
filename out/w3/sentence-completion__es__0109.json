@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "This is the café",
+  "correct_completion": "where we met last year.",
+  "full_sentence": "This is the café where we met last year.",
+  "acceptable_variants": ["where we had our first date.", "that we visited last summer."],
+  "options": [
+    {"text": "who we met last year.", "is_correct": false, "why_wrong": "'Who' refers to people, not to places. A café is a place, so the relative pronoun must be 'where'."},
+    {"text": "which we met last year.", "is_correct": false, "why_wrong": "'Which' is used for things, and the sentence would need a preposition such as 'at which'. For a place with a verb like 'met', 'where' is the simpler and correct choice."},
+    {"text": "where we met last year.", "is_correct": true, "why_wrong": null},
+    {"text": "whose we met last year.", "is_correct": false, "why_wrong": "'Whose' shows possession and must be followed by a noun, such as 'whose owner'. It does not introduce a place where something happened."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Relative clauses with 'where' for places",
+  "connector": "where",
+  "explanation": "A relative clause that describes a place uses 'where'. The clause after 'where' gives the place where the action happened, such as the café where we met.",
+  "translation": "Esta es la cafetería donde nos conocimos el año pasado."
+}

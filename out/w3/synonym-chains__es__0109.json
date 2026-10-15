@@ -1,0 +1,17 @@
+{
+  "central_word": "wind",
+  "chain_words": [
+    {"word": "breeze", "intensity": 1, "translation": "brisa", "nuance": "gentle, light air movement"},
+    {"word": "wind", "intensity": 2, "translation": "viento", "nuance": "general moving air"},
+    {"word": "gale", "intensity": 3, "translation": "vendaval", "nuance": "strong wind that can move objects"},
+    {"word": "storm", "intensity": 4, "translation": "tormenta", "nuance": "very strong wind with rain or snow"},
+    {"word": "hurricane", "intensity": 5, "translation": "huracán", "nuance": "extremely powerful, destructive wind system"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe moving air, from a gentle breeze to a destructive hurricane.",
+  "usage_notes": [
+    {"word1": "breeze", "word2": "gale", "difference": "'Breeze' describes pleasant, gentle air, while 'gale' describes wind strong enough to cause damage."}
+  ],
+  "translations": {"breeze": "brisa", "wind": "viento", "gale": "vendaval", "storm": "tormenta", "hurricane": "huracán"}
+}
