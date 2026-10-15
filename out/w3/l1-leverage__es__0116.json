@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "democracia", "transliteration": "democracia", "meaning": "democracy, a system of government chosen by the people"},
+    {"word": "violencia", "transliteration": "violencia", "meaning": "violence, the use of physical force to harm people"},
+    {"word": "comunidad", "transliteration": "comunidad", "meaning": "community, a group of people living or working together"},
+    {"word": "discriminación", "transliteration": "discriminacion", "meaning": "discrimination, unfair treatment of people based on who they are"}
+  ],
+  "english_words": ["community", "democracy", "discrimination", "violence"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These words share Latin roots with their English equivalents, so their forms stayed close and their meanings match across both languages. Spelling differences are usually small, such as the accent marks in Spanish.",
+  "false_friend_warning": null
+}
