@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the train was late,",
+  "correct_completion": "we took a taxi to the airport.",
+  "full_sentence": "Because the train was late, we took a taxi to the airport.",
+  "acceptable_variants": ["we booked a hotel near the station.", "we decided to wait on the platform."],
+  "options": [
+    {"text": "we had a lot of free time.", "is_correct": false, "why_wrong": "A late train creates a problem to solve, so it does not lead to free time as a result."},
+    {"text": "the train was very fast.", "is_correct": false, "why_wrong": "This contradicts the stated cause: the train was late, so it cannot be described as very fast here."},
+    {"text": "we took a taxi to the airport.", "is_correct": true, "why_wrong": null},
+    {"text": "we were happy to see it.", "is_correct": false, "why_wrong": "This describes a feeling about the train, not a result of the delay, so it does not complete the cause-and-effect link."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the cause, and the main clause must give a logical result of that cause. Here the delay is the cause, so the result must be an action that solves the problem.",
+  "translation": "Porque o trem estava atrasado, pegamos um táxi até o aeroporto."
+}
