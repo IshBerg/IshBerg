@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the evidence was strong,",
+  "correct_completion": "the jury still hesitated.",
+  "full_sentence": "Although the evidence was strong, the jury still hesitated.",
+  "acceptable_variants": ["the jury remained uncertain.", "the members still did not agree."],
+  "options": [
+    {"text": "the case was closed immediately.", "is_correct": false, "why_wrong": "This describes a result, but 'although' introduces a contrast, so the second clause must go against the strong evidence."},
+    {"text": "the jury was hearing it on Monday.", "is_correct": false, "why_wrong": "This adds a time detail and does not contrast with the strength of the evidence."},
+    {"text": "the jury still hesitated.", "is_correct": true, "why_wrong": null},
+    {"text": "because it was persuasive.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which clashes with the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the first part of the sentence. Learners should check that the second clause does not simply repeat the cause or express a result.",
+  "translation": "Mimo że dowody były mocne, ława przysięgłych nadal się wahała."
+}

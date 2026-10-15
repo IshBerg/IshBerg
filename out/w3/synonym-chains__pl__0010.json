@@ -1,0 +1,17 @@
+{
+  "central_word": "angry",
+  "chain_words": [
+    {"word": "annoyed", "intensity": 1, "translation": "poirytowany", "nuance": "mildly bothered by something"},
+    {"word": "irritated", "intensity": 2, "translation": "zirytowany", "nuance": "repeatedly bothered, with growing impatience"},
+    {"word": "angry", "intensity": 3, "translation": "zły", "nuance": "general strong displeasure"},
+    {"word": "furious", "intensity": 4, "translation": "wściekły", "nuance": "very intense anger"},
+    {"word": "enraged", "intensity": 5, "translation": "rozwścieczony", "nuance": "anger so strong it seems out of control"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express anger but with different intensities, from mild annoyance to anger that seems out of control.",
+  "usage_notes": [
+    {"word1": "angry", "word2": "furious", "difference": "'Angry' describes a general strong displeasure; 'furious' is stronger and often suggests anger that is hard to control."}
+  ],
+  "translations": {"annoyed": "poirytowany", "irritated": "zirytowany", "angry": "zły", "furious": "wściekły", "enraged": "rozwścieczony"}
+}
