@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the results appear promising,",
+  "correct_completion": "further research is needed before any firm conclusions can be drawn.",
+  "full_sentence": "Although the results appear promising, further research is needed before any firm conclusions can be drawn.",
+  "acceptable_variants": ["more replication is required before the findings can be accepted.", "caution is warranted when interpreting them."],
+  "options": [
+    {"text": "the authors have conclusively proven their hypothesis.", "is_correct": false, "why_wrong": "A conclusive claim contradicts the tentative tone set by 'appear' and the contrast introduced by 'although'."},
+    {"text": "the study was conducted over several years.", "is_correct": false, "why_wrong": "This adds background information but does not complete the contrast that 'although' requires."},
+    {"text": "further research is needed before any firm conclusions can be drawn.", "is_correct": true, "why_wrong": null},
+    {"text": "the data were collected in a laboratory setting.", "is_correct": false, "why_wrong": "This describes the method, not a contrasting judgement about the promising results."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' combined with hedging language",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must present a reservation that contrasts with the positive first clause. Hedged academic language such as 'appear' and 'firm conclusions' signals that the writer is cautious about the findings.",
+  "translation": "Chociaż wyniki wydają się obiecujące, przed wyciągnięciem stanowczych wniosków potrzebne są dalsze badania."
+}

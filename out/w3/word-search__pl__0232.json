@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["B", "I", "G", "K", "Q", "W", "S"],
+    ["X", "R", "Z", "N", "J", "Y", "M"],
+    ["F", "O", "P", "D", "S", "U", "A"],
+    ["A", "C", "H", "V", "A", "R", "L"],
+    ["S", "E", "N", "B", "M", "I", "L"],
+    ["T", "K", "G", "Y", "E", "Q", "W"],
+    ["T", "A", "L", "L", "D", "O", "P"]
+  ],
+  "words_to_find": ["BIG", "SMALL", "TALL", "FAST", "SAME"],
+  "word_positions": [
+    {"word": "BIG", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SMALL", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "TALL", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FAST", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SAME", "start_row": 2, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Comparing Things"
+}
