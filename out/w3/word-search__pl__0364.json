@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["R", "O", "B", "O", "T", "X", "K"],
+    ["F", "Q", "J", "L", "P", "W", "D"],
+    ["U", "Z", "G", "M", "H", "K", "A"],
+    ["T", "C", "O", "D", "E", "V", "T"],
+    ["U", "Y", "L", "N", "S", "B", "A"],
+    ["R", "W", "P", "G", "K", "Q", "Z"],
+    ["E", "M", "H", "V", "J", "C", "X"]
+  ],
+  "words_to_find": ["ROBOT", "FUTURE", "DATA", "CODE"],
+  "word_positions": [
+    {"word": "ROBOT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FUTURE", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "DATA", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "CODE", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "AI and the Future"
+}
