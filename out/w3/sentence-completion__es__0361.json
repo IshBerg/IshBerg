@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because I wanted more experience,",
+  "correct_completion": "I applied for a job at the hotel.",
+  "full_sentence": "Because I wanted more experience, I applied for a job at the hotel.",
+  "acceptable_variants": ["I decided to apply for a job in a hotel.", "I started looking for work at a hotel."],
+  "options": [
+    {"text": "the hotel was closed on Monday.", "is_correct": false, "why_wrong": "This describes a fact about the hotel, but it is not an action that the reason in the stem explains."},
+    {"text": "I applied for a job at the hotel.", "is_correct": true, "why_wrong": null},
+    {"text": "I have worked at a bank before.", "is_correct": false, "why_wrong": "This gives past work history, but it does not describe what the speaker did because of the reason."},
+    {"text": "the hotel has a big swimming pool.", "is_correct": false, "why_wrong": "This describes the hotel's facilities, not the speaker's action, so the main clause is left incomplete."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the reason comes first, and the main clause must describe the action that this reason explains. Spanish speakers may be tempted to add a second reason instead of the action, so check that the main clause answers the question why.",
+  "translation": "Porque quería más experiencia, solicité un trabajo en el hotel."
+}
