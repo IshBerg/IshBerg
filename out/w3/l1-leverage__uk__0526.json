@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "сіль", "transliteration": "sil", "meaning": "salt"},
+    {"word": "суп", "transliteration": "sup", "meaning": "soup"}
+  ],
+  "english_words": ["factory", "soup", "shop", "salt"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Some Ukrainian words look like English words because both languages borrowed them from the same international sources, but over time the spelling or meaning in each language drifted apart.",
+  "false_friend_warning": "The Ukrainian word 'mahazyn' looks like the English word 'magazine', but it means a shop; a magazine is a printed publication, which Ukrainian speakers call 'zhurnal'."
+}

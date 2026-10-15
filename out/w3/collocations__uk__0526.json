@@ -1,0 +1,32 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "speed",
+  "collocate": "limit",
+  "full_collocation": "speed limit",
+  "options": ["limit", "rule", "signal", "fine"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "rule", "reason": "We don't say 'speed rule' for the maximum allowed speed. The natural compound noun is 'speed limit'."},
+    {"word": "signal", "reason": "We don't say 'speed signal'. A 'signal' is a light or sign that gives instructions, not a maximum speed."},
+    {"word": "fine", "reason": "We don't say 'speed fine' for the penalty. The correct compound is 'speeding fine', formed from the verb 'speeding'."}
+  ],
+  "example_sentence": "Please check the speed ___ before you drive on this road.",
+  "gap_position": 4,
+  "translation": "обмеження швидкості",
+  "l1_interference": "Носії української мови ставлять головне слово в кінці, як у 'обмеження швидкості', тому можуть сказати 'limit speed' замість правильного 'speed limit'. В англійській мові першим стоїть слово, яке описує головне.",
+  "common_mistake": "limit speed",
+  "explanation": "In English compound nouns, the first noun often describes the second one. In 'speed limit', 'speed' tells us what kind of limit it is, so the order is the reverse of Ukrainian.",
+  "related_collocations": [
+    {"collocation": "road sign", "translation": "дорожній знак", "example": "The road sign shows a stop."},
+    {"collocation": "traffic jam", "translation": "затор на дорозі", "example": "There was a long traffic jam this morning."},
+    {"collocation": "speed camera", "translation": "камера швидкості", "example": "The speed camera took a photo of the car."}
+  ],
+  "memory_tip": "SPEED LIMIT = the first noun describes the second (what kind of limit) | ROAD SIGN = a sign on the road",
+  "matching_pairs": [
+    {"left": "speed", "right": "limit"},
+    {"left": "road", "right": "sign"},
+    {"left": "traffic", "right": "jam"},
+    {"left": "speed", "right": "camera"},
+    {"left": "traffic", "right": "light"}
+  ]
+}
