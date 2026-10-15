@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["M", "E", "D", "I", "A", "X", "Q", "B"],
+    ["Z", "K", "W", "J", "T", "L", "P", "A"],
+    ["H", "U", "Y", "C", "F", "G", "S", "N"],
+    ["R", "A", "D", "I", "O", "K", "W", "N"],
+    ["P", "Z", "X", "L", "J", "Y", "T", "E"],
+    ["K", "V", "I", "D", "E", "O", "G", "R"],
+    ["U", "Q", "W", "H", "M", "C", "F", "A"],
+    ["S", "L", "O", "G", "A", "N", "K", "X"]
+  ],
+  "words_to_find": ["MEDIA", "BANNER", "RADIO", "VIDEO", "SLOGAN"],
+  "word_positions": [
+    {"word": "MEDIA", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BANNER", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "RADIO", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VIDEO", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "SLOGAN", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Media and Advertising"
+}
