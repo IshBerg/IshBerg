@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["E", "X", "P", "E", "R", "I", "M", "E", "N", "T"],
+    ["E", "K", "Q", "L", "W", "B", "U", "S", "G", "F"],
+    ["Z", "V", "R", "M", "J", "K", "Y", "T", "P", "X"],
+    ["H", "N", "I", "Q", "W", "F", "S", "B", "G", "L"],
+    ["E", "J", "K", "D", "R", "U", "Z", "V", "M", "T"],
+    ["L", "Q", "W", "Y", "E", "A", "X", "G", "B", "N"],
+    ["P", "F", "H", "K", "S", "N", "T", "J", "V", "R"],
+    ["M", "U", "B", "L", "Q", "W", "C", "A", "X", "K"],
+    ["A", "G", "Z", "P", "V", "J", "R", "E", "D", "N"],
+    ["S", "L", "C", "I", "Y", "R", "O", "E", "H", "T"]
+  ],
+  "words_to_find": ["EXPERIMENT", "EVIDENCE", "THEORY", "SAMPLE", "DATA"],
+  "word_positions": [
+    {"word": "EXPERIMENT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EVIDENCE", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "THEORY", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "SAMPLE", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"},
+    {"word": "DATA", "start_row": 8, "start_col": 8, "direction": "DIAGONAL_UP_LEFT"}
+  ],
+  "topic": "Science, Research and Evidence"
+}
