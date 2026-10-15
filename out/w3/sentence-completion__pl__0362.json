@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she been informed of the delay earlier,",
+  "correct_completion": "she would have rearranged her entire schedule.",
+  "full_sentence": "Had she been informed of the delay earlier, she would have rearranged her entire schedule.",
+  "acceptable_variants": ["she would have changed all her plans.", "she would have adjusted her whole timetable."],
+  "options": [
+    {"text": "she rearranges her schedule every day.", "is_correct": false, "why_wrong": "The present simple describes a habit and does not fit the hypothetical past condition set up by 'Had ... been informed'; the main clause needs 'would have' plus a past participle."},
+    {"text": "she will rearrange her schedule tomorrow.", "is_correct": false, "why_wrong": "A future form does not fit a third conditional, which requires 'would have' plus a past participle in the main clause."},
+    {"text": "she would have rearranged her entire schedule.", "is_correct": true, "why_wrong": null},
+    {"text": "she had rearranged her schedule already.", "is_correct": false, "why_wrong": "The past perfect reports a completed past fact, not the hypothetical result that the inverted conditional requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' (hypothetical past)",
+  "connector": "had",
+  "explanation": "The inverted 'Had' opening makes this a third conditional, so the main clause must use 'would have' with a past participle. Polish speakers may reach for a simple past or a future form here, because Polish builds its conditional with a separate particle rather than an auxiliary verb, so the English auxiliary pattern needs to be learned as a fixed structure.",
+  "translation": "Gdyby wcześniej poinformowano ją o opóźnieniu, przearanżowałaby cały swój harmonogram."
+}
