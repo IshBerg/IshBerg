@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The data were collected over three years,",
+  "correct_completion": "and the results were then reviewed by an independent panel.",
+  "full_sentence": "The data were collected over three years, and the results were then reviewed by an independent panel.",
+  "acceptable_variants": ["and the findings were later checked by outside experts.", "and the results were subsequently evaluated by a review board."],
+  "options": [
+    {"text": "and the team were reviewing themselves.", "is_correct": false, "why_wrong": "The stem uses a passive pattern for the process, so the completion should continue it; this active clause breaks the logic of an independent check."},
+    {"text": "although nobody read the final report.", "is_correct": false, "why_wrong": "'Although' signals a contrast, but the stem describes a normal process, so no contrast is expected here."},
+    {"text": "which was never analysed at all.", "is_correct": false, "why_wrong": "This contradicts the stem, which describes data being collected over a long period, so it cannot be left unanalysed."},
+    {"text": "and the results were then reviewed by an independent panel.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Passive voice describing the stages of a research process",
+  "connector": "and",
+  "explanation": "The stem describes a research process in the passive. The completion must continue that sequence with the next logical stage, keeping the passive pattern and not introducing a contrast or a contradiction.",
+  "translation": "Los datos se recopilaron durante tres años, y después un panel independiente revisó los resultados."
+}
