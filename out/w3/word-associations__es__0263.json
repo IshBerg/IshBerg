@@ -1,0 +1,14 @@
+{
+  "trigger_word": "debate",
+  "all_words": [
+    {"word": "argument", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Un argumento es el núcleo de cualquier debate, por lo que la palabra está estrechamente relacionada con el significado del término."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Un glaciar no tiene ninguna relación con el debate, ni en su significado ni en expresiones habituales."},
+    {"word": "opponent", "is_associated": true, "association_type": "SEMANTIC", "explanation": "En un debate siempre hay un oponente, es decir, la persona que defiende la postura contraria."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "La cocina no se relaciona con el debate ni como concepto ni en combinaciones de palabras."},
+    {"word": "rebuttal", "is_associated": true, "association_type": "THEMATIC", "explanation": "La refutación es una parte típica del debate, en la que se responde a los argumentos del oponente."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "La cuchara no tiene relación con el debate, ni por su significado ni por su uso."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'debate' se asocia con los argumentos, los oponentes y las refutaciones, que forman parte de su estructura. Las demás palabras pertenecen a campos semánticos sin relación."
+}
