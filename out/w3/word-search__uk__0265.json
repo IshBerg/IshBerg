@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["G", "I", "F", "T", "X", "Q", "Z", "P"],
+    ["B", "U", "M", "E", "J", "W", "L", "A"],
+    ["C", "H", "O", "D", "V", "K", "S", "R"],
+    ["A", "N", "Y", "B", "F", "Q", "P", "T"],
+    ["K", "D", "I", "R", "U", "G", "H", "Y"],
+    ["E", "O", "M", "X", "Z", "B", "J", "W"],
+    ["R", "T", "S", "O", "N", "G", "Q", "L"],
+    ["V", "W", "X", "K", "Z", "M", "F", "D"]
+  ],
+  "words_to_find": ["GIFT", "PARTY", "CAKE", "SONG"],
+  "word_positions": [
+    {"word": "GIFT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARTY", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "CAKE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SONG", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Holidays Around the World"
+}
