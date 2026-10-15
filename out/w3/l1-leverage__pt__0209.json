@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "estômago", "transliteration": "estomago", "meaning": "stomach"},
+    {"word": "músculo", "transliteration": "musculo", "meaning": "muscle"},
+    {"word": "vértebra", "transliteration": "vertebra", "meaning": "vertebra"},
+    {"word": "artéria", "transliteration": "arteria", "meaning": "artery"}
+  ],
+  "english_words": ["artery", "stomach", "vertebra", "muscle"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Each of these English and Portuguese pairs comes from the same Latin or Greek source, which is why the spellings stayed close in both languages. The main differences are accent marks and small changes in endings.",
+  "false_friend_warning": null
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed of the revised figures,",
+  "correct_completion": "it would have reached a markedly different conclusion.",
+  "full_sentence": "Had the committee been informed of the revised figures, it would have reached a markedly different conclusion.",
+  "acceptable_variants": ["the outcome would have been markedly different.", "the committee would have revised its decision."],
+  "options": [
+    {"text": "the minutes were approved without discussion.", "is_correct": false, "why_wrong": "This describes a different event and does not give the hypothetical result that the inverted conditional clause requires."},
+    {"text": "the figures had already been published last year.", "is_correct": false, "why_wrong": "This states a past fact, not the hypothetical consequence expected after an inverted conditional."},
+    {"text": "it would have reached a markedly different conclusion.", "is_correct": true, "why_wrong": null},
+    {"text": "it was informed of the revised figures.", "is_correct": false, "why_wrong": "This repeats the condition rather than giving its consequence, since the inverted clause already states it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditional clauses (Had + subject + past participle) with a would have main clause",
+  "connector": "had",
+  "explanation": "The inverted form 'Had ... been informed' replaces 'If the committee had been informed', so the main clause must use 'would have' followed by a past participle. Learners often place a simple past form in the main clause because their first language does not invert the conditional in the same way.",
+  "translation": "Se o comitê tivesse sido informado sobre os números revisados, teria chegado a uma conclusão bastante diferente."
+}
