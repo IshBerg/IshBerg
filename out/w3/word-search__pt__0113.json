@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["M", "A", "K", "E", "Q", "W", "S", "C"],
+    ["P", "J", "D", "L", "F", "B", "T", "H"],
+    ["Z", "X", "U", "G", "N", "R", "Y", "O"],
+    ["K", "W", "Q", "S", "B", "D", "F", "I"],
+    ["H", "E", "A", "V", "Y", "T", "L", "C"],
+    ["J", "N", "M", "K", "Z", "P", "X", "E"],
+    ["Q", "D", "W", "B", "S", "G", "U", "L"],
+    ["O", "K", "F", "R", "A", "I", "N", "Y"]
+  ],
+  "words_to_find": ["MAKE", "CHOICE", "HEAVY", "RAIN"],
+  "word_positions": [
+    {"word": "MAKE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHOICE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "HEAVY", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RAIN", "start_row": 7, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations"
+}
