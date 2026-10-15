@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likeable"},
+    {"word": "heyecanlı", "transliteration": "heyecanli", "meaning": "excited"},
+    {"word": "alıngan", "transliteration": "alingan", "meaning": "easily offended"},
+    {"word": "utangaç", "transliteration": "utangac", "meaning": "shy"}
+  ],
+  "english_words": ["easily offended", "likeable", "shy", "excited"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed many emotion-related words from the same European sources, so some forms look alike. Over time one of the forms shifted in meaning, so the look-alike word now points to a different idea.",
+  "false_friend_warning": "Watch out: the first word in this list looks like the English word sympathetic, but it describes someone who is nice and easy to like. It does not mean that someone feels sorry for another person."
+}

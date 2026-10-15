@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["Q", "B", "A", "K", "E", "W", "Z", "J", "V", "R"],
+    ["C", "D", "F", "G", "H", "J", "K", "L", "M", "N"],
+    ["P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"],
+    ["A", "B", "C", "D", "E", "F", "G", "S", "H", "I"],
+    ["B", "D", "E", "F", "G", "H", "I", "A", "K", "L"],
+    ["N", "O", "P", "Q", "R", "S", "T", "L", "U", "V"],
+    ["M", "N", "O", "P", "R", "U", "V", "T", "W", "Z"],
+    ["Q", "I", "F", "G", "H", "J", "K", "L", "M", "X"],
+    ["P", "W", "X", "Y", "Z", "A", "B", "C", "D", "E"],
+    ["F", "G", "H", "J", "K", "N", "L", "E", "E", "P"]
+  ],
+  "words_to_find": ["BAKE", "SALT", "MIX", "PEEL"],
+  "word_positions": [
+    {"word": "BAKE", "start_row": 0, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "SALT", "start_row": 3, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "MIX", "start_row": 6, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "PEEL", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Recipes"
+}
