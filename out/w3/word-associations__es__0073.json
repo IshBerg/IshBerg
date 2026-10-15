@@ -1,0 +1,14 @@
+{
+  "trigger_word": "breakfast",
+  "all_words": [
+    {"word": "cereal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Los cereales son una comida típica del desayuno, por eso están directamente relacionados con esa palabra."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "El coche es un medio de transporte y no tiene ninguna relación con el desayuno."},
+    {"word": "milk", "is_associated": true, "association_type": "THEMATIC", "explanation": "La leche se bebe o se añade al café y a los cereales en el desayuno, así que pertenece al mismo tema."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "El piano es un instrumento musical y no se relaciona con las comidas de la mañana."},
+    {"word": "toast", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El pan tostado es uno de los alimentos más comunes en el desayuno."},
+    {"word": "coffee", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés se dice 'coffee with breakfast' con frecuencia, porque el café es una bebida muy habitual por la mañana."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con el desayuno son comidas y bebidas que se toman por la mañana; las demás pertenecen a otros temas."
+}
