@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["M", "O", "V", "I", "E", "X", "Q", "P"],
+    ["P", "Z", "B", "D", "G", "J", "T", "A"],
+    ["L", "Y", "F", "H", "C", "V", "Q", "R"],
+    ["A", "S", "E", "T", "D", "B", "W", "K"],
+    ["N", "G", "M", "X", "U", "Z", "A", "J"],
+    ["L", "U", "N", "C", "H", "Y", "L", "F"],
+    ["B", "R", "S", "Q", "P", "X", "K", "M"],
+    ["V", "J", "G", "H", "T", "D", "Q", "Y"]
+  ],
+  "words_to_find": ["MOVIE", "PARK", "LUNCH", "WALK", "PLAN"],
+  "word_positions": [
+    {"word": "MOVIE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PARK", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "LUNCH", "start_row": 5, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WALK", "start_row": 3, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PLAN", "start_row": 1, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Making Suggestions"
+}

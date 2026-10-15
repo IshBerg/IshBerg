@@ -1,0 +1,14 @@
+{
+  "trigger_word": "experiment",
+  "all_words": [
+    {"word": "hypothesis", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La hipótesis es la predicción que un experimento pone a prueba, por eso está estrechamente ligada a esta palabra."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "El paraguas no tiene ninguna relación con la investigación científica ni con la realización de experimentos."},
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "El laboratorio es el lugar donde se realizan los experimentos, así que pertenece al mismo campo temático."},
+    {"word": "orchard", "is_associated": false, "association_type": "NONE", "explanation": "El huerto de árboles frutales pertenece a la agricultura y no tiene relación con los experimentos científicos."},
+    {"word": "control group", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El grupo de control es una expresión que suele aparecer junto a la palabra experimento en textos de investigación."},
+    {"word": "pastry", "is_associated": false, "association_type": "NONE", "explanation": "La repostería no guarda ninguna relación con la investigación ni con los experimentos."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra experiment se asocia con la hipótesis, el laboratorio y el grupo de control, que forman parte del método científico; el paraguas, el huerto y la repostería no pertenecen a ese campo."
+}
