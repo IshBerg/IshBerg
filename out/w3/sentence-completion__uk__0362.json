@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite his grand promises,",
+  "correct_completion": "the mayor never fulfilled a single pledge.",
+  "full_sentence": "Despite his grand promises, the mayor never fulfilled a single pledge.",
+  "acceptable_variants": ["the mayor failed to keep any of his word.", "his promises came to nothing."],
+  "options": [
+    {"text": "so the mayor was elected again.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'despite' requires a contrast with the promises."},
+    {"text": "the mayor gave many speeches in the square.", "is_correct": false, "why_wrong": "This describes activity but does not show the contrast that 'despite' requires."},
+    {"text": "the city council met every Tuesday.", "is_correct": false, "why_wrong": "This adds unrelated information and does not complete the contrast started by 'despite'."},
+    {"text": "the mayor never fulfilled a single pledge.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive expressions with 'despite'",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a contrast with the first part of the sentence, so the completion must show what did not happen or what went against expectations. Learners often choose a result clause here, which signals cause rather than contrast.",
+  "translation": "Незважаючи на свої гучні обіцянки, мер жодної з них так і не виконав."
+}

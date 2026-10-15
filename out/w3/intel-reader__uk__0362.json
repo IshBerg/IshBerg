@@ -1,0 +1,20 @@
+{
+  "title": "Tom Is Sick",
+  "text": "Tom is sick today. He has a cold and a sore throat. He stays in bed and drinks warm tea. His mother gives him medicine.\n\nThe doctor comes to the house in the afternoon. She checks Tom's temperature. She says he needs to rest for two days. Tom feels better soon.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Tom have?", "options": ["A cold and a sore throat", "A broken leg", "A headache only", "A toothache"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How long does the doctor say Tom needs to rest?", "options": ["One day", "Two days", "One week", "Three days"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Tom stay in bed?", "options": ["He is ill and needs rest", "He wants to play games", "He is going to school", "He is on holiday"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "How does Tom probably feel at the end of the story?", "options": ["Much worse", "Better", "Very scared", "Very busy"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "doctor", "translation": "лікар", "definition": "a person who helps sick people"},
+    {"word": "medicine", "translation": "ліки", "definition": "something you take when you are sick"},
+    {"word": "temperature", "translation": "температура", "definition": "how hot or cold a person's body is"},
+    {"word": "rest", "translation": "відпочивати", "definition": "to relax and not work or move much"}
+  ],
+  "paragraph_translations": [
+    "Том сьогодні хворий. У нього застуда і болить горло. Він лежить у ліжку і п'є теплий чай. Мама дає йому ліки.",
+    "Лікар приходить до дому вдень. Вона перевіряє температуру Тома. Вона каже, що йому потрібно відпочивати два дні. Том незабаром почувається краще."
+  ]
+}
