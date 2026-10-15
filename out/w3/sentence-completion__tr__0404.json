@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you want a cheap meal,",
+  "correct_completion": "look at the prices on the menu.",
+  "full_sentence": "If you want a cheap meal, look at the prices on the menu.",
+  "acceptable_variants": ["check the prices on the menu.", "read the prices of the dishes on the menu."],
+  "options": [
+    {"text": "the waiter is very tall.", "is_correct": false, "why_wrong": "This describes the waiter, but it does not give the action you should take after the condition 'if you want a cheap meal'."},
+    {"text": "look at the prices on the menu.", "is_correct": true, "why_wrong": null},
+    {"text": "the window is very big.", "is_correct": false, "why_wrong": "This describes the restaurant, but it does not follow from the condition about wanting a cheap meal."},
+    {"text": "the dessert was very sweet.", "is_correct": false, "why_wrong": "This describes a past result, but the stem needs a present action that follows the condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and imperative result",
+  "connector": "if",
+  "explanation": "After 'if', the clause states the condition, and the main clause gives the action that follows from that condition.",
+  "translation": "Ucuz bir yemek istiyorsanız, menüdeki fiyatlara bakın."
+}
