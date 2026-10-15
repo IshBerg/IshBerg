@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "atual", "transliteration": "atual", "meaning": "current, present-day"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend, to plan"},
+    {"word": "eventualmente", "transliteration": "eventualmente", "meaning": "possibly, occasionally, on some occasions"},
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold, with a blocked nose"}
+  ],
+  "english_words": ["constipated", "intend", "current", "eventually"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Portuguese words and their English look-alikes come from the same Latin roots, so the spellings stayed close. Their meanings, however, drifted apart over time, which is why the pairs look correct at first glance but do not match in meaning.",
+  "false_friend_warning": "Watch out: the Portuguese word for a cold is not the English word 'constipated', which means having difficulty passing stools. Likewise, the Portuguese 'pretender' means to intend, not to pretend, and 'eventualmente' means possibly or occasionally, not eventually."
+}
