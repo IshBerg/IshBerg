@@ -1,0 +1,14 @@
+{
+  "trigger_word": "camera",
+  "all_words": [
+    {"word": "lens", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La lente es una parte esencial de la cámara, porque enfoca la luz para formar la imagen."},
+    {"word": "film", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Film camera' es una combinación habitual para hablar de una cámara que usa rollos de película."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "El río no tiene ninguna relación con el funcionamiento ni con el uso de una cámara."},
+    {"word": "photo", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La foto es el resultado que se obtiene al usar una cámara, así que las dos palabras están muy relacionadas."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "La cuchara es un utensilio de cocina y no tiene ninguna conexión con las cámaras."},
+    {"word": "flash", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Camera flash' es una colocación muy común para la luz que se usa al hacer fotos en lugares oscuros."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'camera' son las que pertenecen a su funcionamiento, a sus resultados o a combinaciones habituales con ella, mientras que las demás no tienen relación."
+}
