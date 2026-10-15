@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I cannot come to the party on Friday, because",
+  "correct_completion": "I have to work late.",
+  "full_sentence": "I cannot come to the party on Friday, because I have to work late.",
+  "acceptable_variants": ["my boss needs me that evening.", "I am busy at my job that night."],
+  "options": [
+    {"text": "the party is very big.", "is_correct": false, "why_wrong": "This gives a fact about the party, but it is not a reason why the writer cannot come."},
+    {"text": "I like parties a lot.", "is_correct": false, "why_wrong": "This is a positive opinion. It does not explain why the writer cannot come, so it does not complete the 'because' clause."},
+    {"text": "I have to work late.", "is_correct": true, "why_wrong": null},
+    {"text": "the party starts at seven.", "is_correct": false, "why_wrong": "This gives the time of the party, not the cause that 'because' needs."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part of the sentence. Ukrainian speakers sometimes add a general comment instead of a specific reason, so the reason must answer why the action is not possible.",
+  "translation": "Я не можу прийти на вечірку в п'ятницю, тому що мені треба працювати допізна."
+}
