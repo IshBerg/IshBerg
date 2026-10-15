@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister is ten years old and",
+  "correct_completion": "she has got a new bicycle.",
+  "full_sentence": "My sister is ten years old and she has got a new bicycle.",
+  "acceptable_variants": ["she has a new bicycle.", "she's got a new bicycle."],
+  "options": [
+    {"text": "she is got a new bicycle.", "is_correct": false, "why_wrong": "'Is got' is not a correct structure; use 'has got' to show possession."},
+    {"text": "she have got a new bicycle.", "is_correct": false, "why_wrong": "With she, the form must be 'has got', not 'have got'."},
+    {"text": "she got a new bicycle yesterday.", "is_correct": false, "why_wrong": "Past simple describes a finished event, but the stem describes a present possession."},
+    {"text": "she has got a new bicycle.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Has got for possession",
+  "connector": "and",
+  "explanation": "The stem needs a clause that describes what the sister possesses. 'Has got' is the correct form for third person singular in this structure. Turkish speakers often rely on one possessive form for all persons, so the third person 'has' can be missed.",
+  "translation": "Kardeşim on yaşında ve yeni bir bisikleti var."
+}
