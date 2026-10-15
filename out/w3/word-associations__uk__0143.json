@@ -1,0 +1,14 @@
+{
+  "trigger_word": "movie",
+  "all_words": [
+    {"word": "screen", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Екран є частиною перегляду фільму, тому його часто згадують разом зі словом фільм."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Молоток належить до ремонту та будівництва і не пов'язаний із фільмами."},
+    {"word": "actor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Актор грає у фільмі, тому між цими словами є пряме смислове зв'язок."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "Помідор є овочем і не має відношення до кіно."},
+    {"word": "popcorn", "is_associated": true, "association_type": "THEMATIC", "explanation": "Попкорн часто їдять під час перегляду фільму в кінотеатрі, тому це тематичний зв'язок."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед пов'язаний з транспортом, а не з розвагами в кінотеатрі."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Пов'язані слова стосуються перегляду фільмів у кінотеатрі, а не інших сфер життя."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The windows were cleaned yesterday,",
+  "correct_completion": "and the whole room looks brighter now.",
+  "full_sentence": "The windows were cleaned yesterday, and the whole room looks brighter now.",
+  "acceptable_variants": ["and the room feels much fresher.", "and more light comes in now."],
+  "options": [
+    {"text": "because the windows were broken.", "is_correct": false, "why_wrong": "This gives a cause that clashes with the stem, which says the windows were cleaned, not broken."},
+    {"text": "although nobody cleaned them.", "is_correct": false, "why_wrong": "This contradicts the passive in the stem, which says the windows were cleaned."},
+    {"text": "and the whole room looks brighter now.", "is_correct": true, "why_wrong": null},
+    {"text": "and the room was painted by children.", "is_correct": false, "why_wrong": "This describes a different action that is unrelated to the cleaning, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Passive voice: past simple and present result",
+  "connector": "and",
+  "explanation": "The passive shows that the windows received the action, and the second clause describes the present result. Ukrainian speakers may sometimes switch to an active verb with an unnamed subject, but here the windows are the focus, so the passive must stay consistent.",
+  "translation": "Вікна вчора вимили, і тепер кімната виглядає світлішою."
+}
