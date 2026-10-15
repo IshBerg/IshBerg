@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the delay,",
+  "correct_completion": "I would have taken a different train.",
+  "full_sentence": "If I had known about the delay, I would have taken a different train.",
+  "acceptable_variants": ["I would have left home earlier.", "I would have called a taxi instead."],
+  "options": [
+    {"text": "I will take a different train tomorrow.", "is_correct": false, "why_wrong": "The future tense does not match the unreal past condition introduced by 'If I had known'."},
+    {"text": "I took a different train yesterday.", "is_correct": false, "why_wrong": "This describes a real past action, but it does not express the imagined result of an unreal condition."},
+    {"text": "I would have taken a different train.", "is_correct": true, "why_wrong": null},
+    {"text": "I am taking a different train now.", "is_correct": false, "why_wrong": "The present continuous describes the present, while the stem requires an imagined past outcome."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional (unreal past) with 'if' and 'would have' plus past participle",
+  "connector": "if",
+  "explanation": "The stem uses the past perfect after 'if' to describe a situation that did not happen, so the main clause needs 'would have' plus a past participle. Learners whose first language expresses unreal past meaning with a single conditional form often omit 'have' in the result clause, so this pattern needs explicit practice."
+  ,"translation": "Якби я знав про затримку, я б сів на інший потяг."
+}
