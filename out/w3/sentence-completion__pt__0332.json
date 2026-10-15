@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My laptop was broken, so",
+  "correct_completion": "I had it repaired at a shop downtown.",
+  "full_sentence": "My laptop was broken, so I had it repaired at a shop downtown.",
+  "acceptable_variants": ["I got it repaired by a technician.", "I took it to a repair shop."],
+  "options": [
+    {"text": "I threw it in the bin.", "is_correct": false, "why_wrong": "This action would not solve the problem of a broken laptop, and it does not show someone else doing the repair."},
+    {"text": "I had it repaired at a shop downtown.", "is_correct": true, "why_wrong": null},
+    {"text": "I fixed it myself without any tools.", "is_correct": false, "why_wrong": "This is grammatically possible, but it uses a simple past verb. The meaning needed here is that someone else does the work, which requires the causative structure."},
+    {"text": "I went to bed early.", "is_correct": false, "why_wrong": "This does not respond to the problem of the broken laptop, so it does not complete the cause and effect."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have' with an object and a past participle",
+  "connector": "so",
+  "explanation": "After 'so', the second clause shows the result of the problem in the first clause. The causative structure have plus object plus past participle shows that someone else performs the action for the speaker. Portuguese speakers may be tempted to use a simple past verb here, but English needs the causative form.",
+  "translation": "Meu notebook estava quebrado, então mandei consertá-lo numa loja no centro."
+}
