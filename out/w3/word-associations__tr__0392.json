@@ -1,0 +1,14 @@
+{
+  "trigger_word": "robot",
+  "all_words": [
+    {"word": "automation", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Otomasyon, makinelerin insan emeğinin yerini almasını anlatır, bu yüzden robotla anlamsal olarak ilişkilidir."},
+    {"word": "orchestra", "is_associated": false, "association_type": "NONE", "explanation": "Orkestra robotla ilgili bir kavram değildir, bu yüzden ilişkili değildir."},
+    {"word": "factory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fabrika, robotların sıklıkla çalıştığı bir iş yeridir, bu nedenle tematik olarak ilişkilidir."},
+    {"word": "bakery", "is_associated": false, "association_type": "NONE", "explanation": "Fırın teknoloji ya da robotlarla ilgili bir yer değildir."},
+    {"word": "algorithm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Algoritma, robotların hangi adımları izleyeceğini belirleyen anlamsal olarak ilgili bir kavramdır."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastığın iş ya da teknolojiyle hiçbir bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Robot kelimesi otomasyon, fabrika ve algoritma gibi iş ve teknoloji alanındaki kavramlarla ilişkilidir; diğer kelimeler bu alanla bağlantılı değildir."
+}

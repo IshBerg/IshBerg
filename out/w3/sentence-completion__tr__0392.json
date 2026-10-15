@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Sorry for the late reply, because",
+  "correct_completion": "I was busy with my exams all week.",
+  "full_sentence": "Sorry for the late reply, because I was busy with my exams all week.",
+  "acceptable_variants": ["my exams took up all my time.", "I had a lot of work this week."],
+  "options": [
+    {"text": "so I was busy with my exams.", "is_correct": false, "why_wrong": "'So' signals a result, and it cannot follow 'because' to introduce a cause."},
+    {"text": "I will call you tomorrow.", "is_correct": false, "why_wrong": "This is a future promise, not a reason, so it does not complete a 'because' clause."},
+    {"text": "I was busy with my exams all week.", "is_correct": true, "why_wrong": null},
+    {"text": "busy with my exams all week.", "is_correct": false, "why_wrong": "This clause has no subject, so it is not a complete clause after 'because'. It needs a subject such as 'I'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Clauses introduced by 'because' that give the reason for a situation",
+  "connector": "because",
+  "explanation": "After 'because', we need a full clause with its own subject and verb that gives the reason for the delay. Turkish speakers often put the cause before the verb as a noun phrase, so learners may leave out the subject here.",
+  "translation": "Geç cevap verdiğim için özür dilerim, çünkü bütün hafta sınavlarla meşguldüm."
+}
