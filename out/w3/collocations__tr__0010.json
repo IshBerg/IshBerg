@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "press",
+  "collocate": "release",
+  "full_collocation": "press release",
+  "options": ["press release", "release press", "press conference", "news paper"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "release press", "reason": "The order is reversed. In English the modifying noun 'press' comes first, so we say 'press release'."},
+    {"word": "press conference", "reason": "A press conference is an event, not a written statement. We say 'issue a press release' but 'hold a press conference'."},
+    {"word": "news paper", "reason": "This means a printed newspaper, not an official statement sent to the media."}
+  ],
+  "example_sentence": "The company issued a ___ to deny the rumour.",
+  "gap_position": 4,
+  "translation": "basın bülteni",
+  "l1_interference": "Türkçede de tamlayan sözcük önce gelir ('basın bülteni'), bu yüzden sıra size doğal gelebilir; ancak İngilizcede 'release press' denmez, sıra 'press release' olarak sabittir.",
+  "common_mistake": "release press",
+  "explanation": "In English compound nouns, the first noun usually modifies the second. 'Press' describes the type of release, so the order stays fixed.",
+  "related_collocations": [
+    {"collocation": "breaking news", "translation": "son dakika haberi", "example": "The channel interrupted its show to report breaking news."},
+    {"collocation": "front page", "translation": "birinci sayfa", "example": "The scandal made the front page of every newspaper."},
+    {"collocation": "press conference", "translation": "basın toplantısı", "example": "The minister held a press conference after the meeting."}
+  ],
+  "memory_tip": "PRESS RELEASE = a written statement sent to the media | PRESS CONFERENCE = a live meeting with reporters"
+}

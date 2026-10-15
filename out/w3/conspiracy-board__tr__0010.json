@@ -1,0 +1,14 @@
+{
+  "codename": "PAPER TRAIL",
+  "briefing": "Agent, a suspicious file has surfaced with conflicting claims. Link each English term to its Turkish match to determine which sources can be trusted.",
+  "connection_mode": "vocabulary",
+  "difficulty": "medium",
+  "pairs": [
+    {"left": "biased", "right": "önyargılı", "left_style": "document", "right_style": "handwritten"},
+    {"left": "credible", "right": "inandırıcı", "left_style": "photo", "right_style": "document"},
+    {"left": "hypothesis", "right": "hipotez", "left_style": "newspaper", "right_style": "official"},
+    {"left": "evidence", "right": "kanıt", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "reliable", "right": "güvenilir", "left_style": "official", "right_style": "newspaper"},
+    {"left": "suspect", "right": "şüphelenmek", "left_style": "document", "right_style": "official"}
+  ]
+}
