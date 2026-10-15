@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["C", "H", "E", "S", "S", "K", "P", "L", "W", "T"],
+    ["B", "G", "J", "Q", "D", "F", "N", "V", "X", "A"],
+    ["M", "Z", "R", "T", "H", "W", "K", "P", "Y", "G"],
+    ["D", "F", "J", "L", "W", "B", "G", "K", "R", "Q"],
+    ["V", "O", "X", "K", "B", "P", "Z", "F", "J", "W"],
+    ["L", "K", "M", "W", "D", "F", "T", "B", "G", "H"],
+    ["P", "Q", "Z", "I", "H", "F", "T", "Y", "B", "K"],
+    ["J", "W", "R", "V", "N", "D", "K", "L", "X", "C"],
+    ["B", "G", "F", "H", "K", "O", "P", "M", "X", "Y"],
+    ["Q", "W", "T", "Z", "U", "S", "D", "R", "A", "C"]
+  ],
+  "words_to_find": ["CHESS", "TAG", "DOMINO", "CARDS"],
+  "word_positions": [
+    {"word": "CHESS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TAG", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "DOMINO", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CARDS", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Traditional Games"
+}

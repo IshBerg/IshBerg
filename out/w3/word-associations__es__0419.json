@@ -1,0 +1,14 @@
+{
+  "trigger_word": "park",
+  "all_words": [
+    {"word": "bench", "is_associated": true, "association_type": "THEMATIC", "explanation": "El banco es un lugar donde la gente se sienta en el parque a descansar."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "La computadora no tiene relación con el parque; se usa en casa o en la oficina."},
+    {"word": "tree", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los árboles son parte natural de la mayoría de los parques."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "La cuchara se usa para comer y no tiene relación con el parque."},
+    {"word": "ball", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La pelota es un juguete que se usa para jugar en el parque."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "El zapato es una prenda de vestir y no tiene relación directa con el parque."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'park' son cosas que se encuentran o se usan en un parque, mientras que las demás no tienen relación con este lugar."
+}
