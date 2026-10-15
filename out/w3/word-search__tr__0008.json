@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["J", "U", "S", "T", "I", "C", "E"],
+    ["K", "Z", "W", "B", "Q", "P", "N"],
+    ["V", "L", "O", "G", "I", "C", "T"],
+    ["M", "D", "F", "A", "N", "H", "R"],
+    ["T", "H", "E", "O", "R", "Y", "U"],
+    ["G", "P", "Q", "K", "B", "W", "S"],
+    ["C", "Z", "X", "L", "D", "F", "T"]
+  ],
+  "words_to_find": ["JUSTICE", "LOGIC", "THEORY", "TRUST"],
+  "word_positions": [
+    {"word": "JUSTICE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LOGIC", "start_row": 2, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "THEORY", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TRUST", "start_row": 2, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Academic Vocabulary: Abstract Nouns"
+}
