@@ -1,0 +1,14 @@
+{
+  "trigger_word": "chess",
+  "all_words": [
+    {"word": "board", "is_associated": true, "association_type": "THEMATIC", "explanation": "El tablero es parte esencial del ajedrez."},
+    {"word": "piece", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Las piezas se mueven sobre el tablero durante la partida."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "La banana no tiene ninguna relación con el ajedrez."},
+    {"word": "king", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El rey es la pieza más importante del ajedrez."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "La cuchara no se usa en el ajedrez."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "El árbol no tiene relación con el ajedrez."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas al ajedrez son las que forman parte del juego; las demás no tienen relación con él."
+}
