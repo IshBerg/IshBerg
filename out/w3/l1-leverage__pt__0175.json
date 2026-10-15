@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "casaco", "transliteration": "casaco", "meaning": "coat"},
+    {"word": "chuva", "transliteration": "chuva", "meaning": "rain"},
+    {"word": "tempo", "transliteration": "tempo", "meaning": "weather (also 'time' in Portuguese)"},
+    {"word": "vento", "transliteration": "vento", "meaning": "wind"}
+  ],
+  "english_words": ["rain", "weather", "wind", "coat"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "The Portuguese word 'tempo' and the English word 'tempo' come from the same Latin root, so they look alike, but each language developed a different meaning for the word.",
+  "false_friend_warning": "The Portuguese word 'tempo' (transliteration) looks like the English word 'tempo', which means the speed of a piece of music, but in Portuguese it means weather, so students should not match it to 'tempo' in English."
+}
