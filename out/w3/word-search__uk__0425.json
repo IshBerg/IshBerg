@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["V", "E", "R", "D", "I", "C", "T", "S"],
+    ["A", "N", "M", "B", "K", "L", "O", "T"],
+    ["P", "X", "Q", "W", "Z", "H", "Y", "A"],
+    ["P", "C", "F", "V", "R", "G", "N", "T"],
+    ["E", "W", "J", "U", "D", "G", "E", "U"],
+    ["A", "K", "P", "Q", "M", "N", "Z", "T"],
+    ["L", "Q", "D", "H", "S", "Y", "I", "E"],
+    ["T", "O", "R", "T", "K", "H", "Q", "W"]
+  ],
+  "words_to_find": ["VERDICT", "STATUTE", "APPEAL", "JUDGE", "TORT"],
+  "word_positions": [
+    {"word": "VERDICT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "STATUTE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "APPEAL", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "JUDGE", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "TORT", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Legal Argumentation and Case Law"
+}

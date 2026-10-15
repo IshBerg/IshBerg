@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The restaurant was small, but",
+  "correct_completion": "the food was delicious.",
+  "full_sentence": "The restaurant was small, but the food was delicious.",
+  "acceptable_variants": ["the service was quick and friendly.", "the tables were comfortable."],
+  "options": [
+    {"text": "and it was very small too.", "is_correct": false, "why_wrong": "'And' adds more of the same idea, but 'but' needs a contrasting idea."},
+    {"text": "the food was delicious.", "is_correct": true, "why_wrong": null},
+    {"text": "so we ate there every week.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast with the first part of the sentence."},
+    {"text": "because the chef was young.", "is_correct": false, "why_wrong": "'Because' gives a reason, not a contrast, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "'But' introduces a point that goes against the expectation created by the first clause. After it we need a positive detail that contrasts with the small size. Ukrainian speakers may look for a different connector here, but English uses 'but' directly after the comma.",
+  "translation": "Ресторан був маленьким, але їжа була смачною."
+}
