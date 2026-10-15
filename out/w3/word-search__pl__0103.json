@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["T", "E", "A", "C", "H", "E", "R", "Q", "V", "L"],
+    ["J", "O", "B", "N", "P", "U", "Z", "I", "W", "E"],
+    ["G", "L", "T", "Y", "D", "C", "F", "K", "M", "A"],
+    ["B", "W", "Q", "H", "J", "I", "N", "P", "T", "R"],
+    ["D", "X", "V", "O", "S", "Z", "U", "L", "A", "N"],
+    ["E", "R", "M", "I", "T", "Y", "K", "C", "B", "G"],
+    ["F", "X", "P", "W", "L", "U", "S", "O", "H", "J"],
+    ["N", "K", "A", "Q", "B", "T", "E", "V", "S", "U"],
+    ["Y", "G", "Z", "M", "R", "O", "D", "W", "L", "P"],
+    ["H", "I", "K", "D", "R", "E", "E", "R", "A", "C"]
+  ],
+  "words_to_find": ["TEACHER", "LEARN", "EXAM", "CAREER", "DESK"],
+  "word_positions": [
+    {"word": "TEACHER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LEARN", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "EXAM", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CAREER", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "DESK", "start_row": 8, "start_col": 6, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Education and Careers"
+}
