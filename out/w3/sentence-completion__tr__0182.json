@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By next June,",
+  "correct_completion": "I will have completed my degree.",
+  "full_sentence": "By next June, I will have completed my degree.",
+  "acceptable_variants": ["I will have finished my degree.", "my degree will have been completed."],
+  "options": [
+    {"text": "I completed my degree last June.", "is_correct": false, "why_wrong": "The past simple describes a completed event in the past. The sentence needs a future time and a future completion point, so this option uses the wrong tense."},
+    {"text": "I am completing my degree.", "is_correct": false, "why_wrong": "The present continuous describes an action in progress now. It does not show an action that will already be finished by a future time."},
+    {"text": "I will have completed my degree.", "is_correct": true, "why_wrong": null},
+    {"text": "I will be completing my degree.", "is_correct": false, "why_wrong": "The future continuous describes an action that will be in progress at a future time. The sentence needs an action that will already be finished by then."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect with 'by' and a future time expression",
+  "connector": "by",
+  "explanation": "The phrase 'by next June' sets a deadline in the future. The future perfect, formed with will have plus the past participle, shows that the action will be finished before that deadline. Turkish speakers may use a simple future tense here because Turkish marks this meaning with a separate verb suffix, so the English perfect form needs deliberate practice.",
+  "translation": "Gelecek Haziran'a kadar lisans eğitimimi tamamlamış olacağım."
+}
