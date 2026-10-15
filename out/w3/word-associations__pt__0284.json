@@ -1,0 +1,14 @@
+{
+  "trigger_word": "compiler",
+  "all_words": [
+    {"word": "syntax", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Sintaxe é o conjunto de regras que o compilador verifica ao ler o código-fonte, por isso o termo está diretamente ligado a ele."},
+    {"word": "sonnet", "is_associated": false, "association_type": "NONE", "explanation": "Soneto é uma forma poética e não tem relação com programação ou com o funcionamento de compiladores."},
+    {"word": "bytecode", "is_associated": true, "association_type": "THEMATIC", "explanation": "Bytecode é o resultado de certos compiladores, pertencendo ao mesmo tema da tradução de código."},
+    {"word": "tariff", "is_associated": false, "association_type": "NONE", "explanation": "Tarifa é um termo econômico sobre impostos de importação e não se relaciona com a área de compiladores."},
+    {"word": "lexer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O lexer, ou analisador léxico, é a primeira etapa de um compilador, que separa o código em tokens."},
+    {"word": "fugue", "is_associated": false, "association_type": "NONE", "explanation": "Fuga é uma composição musical contrapontística e não tem nenhuma ligação com compiladores."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'compiler' está associada a termos da teoria de linguagens e do processamento de código, enquanto as demais palavras pertencem a áreas sem relação com a programação."
+}

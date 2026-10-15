@@ -1,0 +1,17 @@
+{
+  "central_word": "damage",
+  "chain_words": [
+    {"word": "scratch", "intensity": 1, "translation": "arranhar", "nuance": "minor surface harm that is easy to repair"},
+    {"word": "damage", "intensity": 2, "translation": "danificar", "nuance": "harm that makes something less useful or less valuable"},
+    {"word": "ruin", "intensity": 3, "translation": "arruinar", "nuance": "damage so serious that the thing is no longer worth anything"},
+    {"word": "wreck", "intensity": 4, "translation": "destroçar", "nuance": "violent damage that leaves something broken or in pieces"},
+    {"word": "destroy", "intensity": 5, "translation": "destruir", "nuance": "complete damage that leaves nothing usable"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe harm to something, with increasing seriousness from a small scratch to complete destruction.",
+  "usage_notes": [
+    {"word1": "damage", "word2": "destroy", "difference": "'Damage' means harm that can still leave something partly working, while 'destroy' means harm so complete that nothing is left of its function."}
+  ],
+  "translations": {"scratch": "arranhar", "damage": "danificar", "ruin": "arruinar", "wreck": "destroçar", "destroy": "destruir"}
+}
