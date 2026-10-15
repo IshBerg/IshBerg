@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Jack and Jill went up the hill to",
+  "correct_completion": "fetch a pail of water.",
+  "full_sentence": "Jack and Jill went up the hill to fetch a pail of water.",
+  "acceptable_variants": ["fetch some water.", "get water from the well."],
+  "options": [
+    {"text": "fetched a pail of water.", "is_correct": false, "why_wrong": "After 'to', English uses the base form of the verb, not the past tense 'fetched'."},
+    {"text": "a pail of water fetch.", "is_correct": false, "why_wrong": "The verb must come right after 'to'. Putting the object before the verb breaks English word order."},
+    {"text": "fetch a pail of water.", "is_correct": true, "why_wrong": null},
+    {"text": "fetching a pail of water.", "is_correct": false, "why_wrong": "'To' followed by '-ing' is not used to show purpose. After 'to', use the base verb."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Base form of the verb after 'to' to show purpose",
+  "connector": "to",
+  "explanation": "After 'to', English uses the base form of the verb to show purpose. Learners often add an ending or put the object first, so this pattern needs practice.",
+  "translation": "Jack y Jill subieron la colina para traer un cubo de agua."
+}
