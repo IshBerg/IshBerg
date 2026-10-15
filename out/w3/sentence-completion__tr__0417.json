@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The hotel room was small,",
+  "correct_completion": "but the staff were very friendly.",
+  "full_sentence": "The hotel room was small, but the staff were very friendly.",
+  "acceptable_variants": ["but the view was beautiful.", "but the location was perfect."],
+  "options": [
+    {"text": "so we booked it again next year.", "is_correct": false, "why_wrong": "'So' shows a result, and booking again does not follow logically from a small room."},
+    {"text": "and the bed was very big.", "is_correct": false, "why_wrong": "'And' adds a similar point about size, so it does not show the contrast a review needs."},
+    {"text": "but the staff were very friendly.", "is_correct": true, "why_wrong": null},
+    {"text": "because the hotel was in the city.", "is_correct": false, "why_wrong": "'Because' gives a cause, but the stem is a negative comment that needs a contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but' in hotel reviews",
+  "connector": "but",
+  "explanation": "After the comma, we need a clause that gives a positive point to contrast with the negative first part. Learners often use a result connector here, but the review needs a contrast connector.",
+  "translation": "Otel odası küçüktü, ama personel çok samimiydi."
+}
