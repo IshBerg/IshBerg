@@ -1,0 +1,14 @@
+{
+  "trigger_word": "project",
+  "all_words": [
+    {"word": "research", "is_associated": true, "association_type": "THEMATIC", "explanation": "Um projeto geralmente exige pesquisa, pois é preciso reunir informações e dados antes de apresentar as conclusões."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "Tomate é um alimento e não tem nenhuma relação com projetos ou com o contexto de uma prova oral."},
+    {"word": "deadline", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês é natural dizer 'project deadline' (prazo do projeto), por isso as duas palavras aparecem juntas."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Martelo é uma ferramenta de construção e não está ligado à ideia de falar sobre um projeto."},
+    {"word": "presentation", "is_associated": true, "association_type": "THEMATIC", "explanation": "Em uma prova oral sobre o seu projeto, a apresentação é um momento central em que você explica o trabalho feito."},
+    {"word": "volcano", "is_associated": false, "association_type": "NONE", "explanation": "Vulcão é um fenômeno geológico e não tem relação com o tema de projetos pessoais ou acadêmicos."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'project' pertencem ao universo acadêmico e de trabalho, como pesquisa, prazo e apresentação, enquanto as demais não têm relação com esse contexto."
+}

@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["E", "V", "I", "D", "E", "N", "C", "E"],
+    ["E", "Q", "B", "K", "F", "W", "J", "T"],
+    ["S", "X", "G", "P", "Q", "R", "U", "H"],
+    ["S", "D", "V", "L", "B", "E", "K", "E"],
+    ["A", "Z", "W", "F", "J", "A", "Y", "S"],
+    ["Y", "C", "N", "U", "T", "S", "D", "I"],
+    ["C", "L", "A", "I", "M", "O", "G", "S"],
+    ["X", "P", "R", "Q", "B", "N", "V", "K"]
+  ],
+  "words_to_find": ["EVIDENCE", "ESSAY", "THESIS", "CLAIM", "REASON"],
+  "word_positions": [
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSAY", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "THESIS", "start_row": 1, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "CLAIM", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REASON", "start_row": 2, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Persuasive Essays"
+}
