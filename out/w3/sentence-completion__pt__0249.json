@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you want to drive a car in this country,",
+  "correct_completion": "you have to hold a valid driving licence.",
+  "full_sentence": "If you want to drive a car in this country, you have to hold a valid driving licence.",
+  "acceptable_variants": ["you need a valid driving licence.", "you must have a valid driving licence."],
+  "options": [
+    {"text": "you can ride a bicycle without a license.", "is_correct": false, "why_wrong": "This describes a different activity, riding a bicycle, and does not state the requirement for driving a car."},
+    {"text": "you must to wash the car every day.", "is_correct": false, "why_wrong": "'Must' is followed directly by the base verb, without 'to': 'you must wash'. Also, washing the car does not complete the condition about driving."},
+    {"text": "you have to hold a valid driving licence.", "is_correct": true, "why_wrong": null},
+    {"text": "you are going to be happy.", "is_correct": false, "why_wrong": "'Be going to' predicts a future result. It does not state the rule that the condition requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Obligation with 'have to' and 'must' after an if-clause",
+  "connector": "if",
+  "explanation": "The if-clause sets a condition, and the main clause states the obligation that follows from it. 'Have to' expresses an obligation that comes from an outside rule, such as a law. Portuguese speakers sometimes write 'must to' by copying the structure of their own language, but 'must' is always followed by the base verb.",
+  "translation": "Se você quer dirigir um carro neste país, você precisa ter uma carteira de motorista válida."
+}
