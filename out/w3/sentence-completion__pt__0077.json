@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The road was closed yesterday, so",
+  "correct_completion": "we were late for the concert.",
+  "full_sentence": "The road was closed yesterday, so we were late for the concert.",
+  "acceptable_variants": ["we were stuck in traffic for an hour.", "we took a longer route and arrived after the start."],
+  "options": [
+    {"text": "we were early for the concert.", "is_correct": false, "why_wrong": "A closed road causes delay, so being early does not follow as a result of the closed road."},
+    {"text": "we were at the cinema instead.", "is_correct": false, "why_wrong": "This describes a choice we made, not the result of the closed road that 'so' introduces."},
+    {"text": "we were late for the concert.", "is_correct": true, "why_wrong": null},
+    {"text": "the road was very clean.", "is_correct": false, "why_wrong": "This is a description that has no logical link to the consequence expected after 'so'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple 'was' and 'were' with 'so' to show a result",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result. After a past event that caused a problem, we need a past simple clause that describes the logical consequence of that problem.",
+  "translation": "A estrada estava fechada ontem, por isso estávamos atrasados para o concerto."
+}
