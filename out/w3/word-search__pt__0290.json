@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "T", "R", "A", "V", "E", "L", "K", "P"],
+    ["X", "O", "G", "N", "B", "Q", "W", "Z", "F"],
+    ["Y", "U", "L", "K", "S", "D", "F", "M", "N"],
+    ["B", "A", "V", "I", "G", "J", "P", "O", "T"],
+    ["W", "R", "Z", "U", "D", "H", "Q", "V", "K"],
+    ["N", "F", "X", "L", "T", "A", "B", "E", "C"],
+    ["M", "G", "I", "Q", "N", "R", "Y", "D", "W"],
+    ["J", "H", "V", "K", "P", "T", "Z", "F", "X"],
+    ["C", "Q", "W", "S", "U", "M", "M", "E", "R"]
+  ],
+  "words_to_find": ["TRAVEL", "MOVED", "HOLIDAY", "CHILD", "SUMMER"],
+  "word_positions": [
+    {"word": "TRAVEL", "start_row": 0, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "MOVED", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "HOLIDAY", "start_row": 0, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CHILD", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "SUMMER", "start_row": 8, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Discussing Life Experiences"
+}
