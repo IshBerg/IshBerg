@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "By the time the train arrives,",
+  "correct_completion": "we will have been waiting for an hour.",
+  "full_sentence": "By the time the train arrives, we will have been waiting for an hour.",
+  "acceptable_variants": ["we will have waited for an hour.", "we will have been standing here for an hour."],
+  "options": [
+    {"text": "we have already left the station.", "is_correct": false, "why_wrong": "The present perfect describes a finished action, but the sentence refers to a future moment after the train arrives."},
+    {"text": "we will have been waiting for an hour.", "is_correct": true, "why_wrong": null},
+    {"text": "the platform was empty.", "is_correct": false, "why_wrong": "The past tense describes a finished state and does not fit the future time frame set by the stem."},
+    {"text": "we waited there yesterday.", "is_correct": false, "why_wrong": "'Yesterday' refers to the past, which conflicts with the future reference of 'by the time the train arrives'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Future perfect continuous with 'by the time'",
+  "connector": "by the time",
+  "explanation": "'By the time' with a present-tense clause refers to a future moment, so the main clause needs the future perfect continuous to show an action that will still be in progress at that moment.",
+  "translation": "Quando o trem chegar, já teremos esperado por uma hora."
+}
