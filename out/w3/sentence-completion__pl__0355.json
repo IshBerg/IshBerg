@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the sample size was small,",
+  "correct_completion": "the researchers drew broad conclusions from the results.",
+  "full_sentence": "Although the sample size was small, the researchers drew broad conclusions from the results.",
+  "acceptable_variants": ["the researchers nonetheless generalised their findings to the wider population.", "the study still reported statistically robust conclusions."],
+  "options": [
+    {"text": "so the researchers drew broad conclusions from the results.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' already sets up a contrast; the two connectors cannot share one clause like this. Learners often transfer a cause-and-result pattern here."},
+    {"text": "the sample size was mentioned in the abstract.", "is_correct": false, "why_wrong": "This adds a fact about the paper but does not contrast with the concession; it only repeats the topic of the stem."},
+    {"text": "the researchers drew broad conclusions from the results.", "is_correct": true, "why_wrong": null},
+    {"text": "because the results were statistically significant.", "is_correct": false, "why_wrong": "'Because' signals cause, not contrast, so it clashes with the concessive meaning of 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a main clause that goes against the expectation set by the concessive clause. A small sample would normally weaken conclusions, so broad conclusions contrast with it. Learners often add a result connector such as 'so' after 'although', which is a common L1 interference pattern for Polish speakers.",
+  "translation": "Chociaż próba badawcza była mała, badacze wyciągnęli szerokie wnioski z wyników."
+}
