@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present-day"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily hurt or moved emotionally"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"}
+  ],
+  "english_words": ["bookshop", "sensitive", "current", "pregnant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These are false friends: each Spanish word looks or sounds like an English word, but the meanings differ, so the forms stay close while the senses do not. Each Spanish word is paired with its true English meaning, not with the English word it resembles.",
+  "false_friend_warning": "Learners who speak Spanish often assume that a Spanish word looks like an English word means the same thing. The Spanish word meaning 'pregnant' looks like the English word 'embarrassed', but 'embarrassed' means feeling ashamed or self-conscious. The Spanish adjective meaning 'sensitive' looks like the English adjective 'sensible', which actually means reasonable or practical."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am very hungry, so",
+  "correct_completion": "I want to order a big sandwich.",
+  "full_sentence": "I am very hungry, so I want to order a big sandwich.",
+  "acceptable_variants": ["I want to order a pizza.", "I would like to order some soup."],
+  "options": [
+    {"text": "the menu is on the table.", "is_correct": false, "why_wrong": "This describes the menu, but it is not a result of being hungry, so it does not complete the sentence logically."},
+    {"text": "I do not want to eat anything.", "is_correct": false, "why_wrong": "'So' introduces a result of the first part. Being hungry does not lead to not wanting to eat, so this contradicts the logic."},
+    {"text": "I want to order a big sandwich.", "is_correct": true, "why_wrong": null},
+    {"text": "the restaurant is closed on Sunday.", "is_correct": false, "why_wrong": "This is unrelated to being hungry. 'So' needs a result that follows from the first clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Connector 'so' to show a result",
+  "connector": "so",
+  "explanation": "The word 'so' introduces the result of the first part. Learners whose first language uses a different connecting structure may place the result before the connector, but in English the result always follows 'so'. Choose the option that is a natural action after feeling very hungry.",
+  "translation": "Tengo mucha hambre, así que quiero pedir un sándwich grande."
+}
