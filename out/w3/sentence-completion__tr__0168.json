@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder at school,",
+  "correct_completion": "I would have a better job now.",
+  "full_sentence": "If I had studied harder at school, I would have a better job now.",
+  "acceptable_variants": ["I would be a doctor by now.", "I would be earning more money today."],
+  "options": [
+    {"text": "I will have a better job tomorrow.", "is_correct": false, "why_wrong": "'Will' describes real future plans, but the stem is an unreal past condition, so the result needs 'would' with a present time reference."},
+    {"text": "I would have a better job now.", "is_correct": true, "why_wrong": null},
+    {"text": "I will have a better job now.", "is_correct": false, "why_wrong": "'Will' is used for real future situations; the stem is unreal, so 'would' is needed for the result."},
+    {"text": "I had a better job now.", "is_correct": false, "why_wrong": "'Had' describes a past situation, but the result refers to now, so it needs 'would' plus a present time reference."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals: unreal past condition with unreal present result",
+  "connector": "if",
+  "explanation": "A mixed conditional links an unreal past condition in the if-clause with an unreal present result in the main clause. Turkish speakers may find this structure difficult because Turkish expresses conditions with suffixes rather than separate verb tenses, so they may keep the same time reference in both clauses.",
+  "translation": "Okulda daha çok çalışsaydım, şimdi daha iyi bir işim olurdu."
+}
