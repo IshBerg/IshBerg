@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the letter was sent last week,",
+  "correct_completion": "it has not arrived yet.",
+  "full_sentence": "Although the letter was sent last week, it has not arrived yet.",
+  "acceptable_variants": ["it still has not reached me.", "it is still on its way."],
+  "options": [
+    {"text": "so it arrived yesterday.", "is_correct": false, "why_wrong": "'Although' signals contrast, not result. 'So' would show that the letter arrived because of something else, which does not fit."},
+    {"text": "we wrote it in English.", "is_correct": false, "why_wrong": "This gives extra information about the letter but does not contrast with the idea that it was sent last week."},
+    {"text": "it has not arrived yet.", "is_correct": true, "why_wrong": null},
+    {"text": "because the post office was open.", "is_correct": false, "why_wrong": "'Because' introduces a cause. 'Although' needs a contrasting clause, so this connector does not match."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and past simple passive voice",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must contrast with the first. The first clause is in the passive (was sent), and the contrast is shown by the negative present perfect in the main clause. Speakers who expect a result clause after an opening clause may choose the wrong connector, so check the meaning of the connector first.",
+  "translation": "Aunque la carta se envió la semana pasada, todavía no ha llegado."
+}
