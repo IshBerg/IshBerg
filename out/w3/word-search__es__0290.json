@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "R", "I", "P", "Q", "K", "S", "W", "M"],
+    ["J", "O", "B", "Z", "X", "Q", "C", "K", "O"],
+    ["Y", "W", "G", "Q", "K", "X", "H", "W", "V"],
+    ["F", "Y", "K", "Q", "X", "J", "O", "Z", "E"],
+    ["G", "R", "K", "Y", "Q", "Z", "O", "W", "X"],
+    ["W", "K", "I", "X", "Q", "Y", "L", "G", "U"],
+    ["Z", "Q", "Y", "E", "K", "X", "W", "J", "G"],
+    ["U", "X", "Q", "W", "N", "K", "Y", "Z", "Q"],
+    ["K", "Y", "X", "Q", "W", "D", "G", "Z", "J"]
+  ],
+  "words_to_find": ["TRIP", "MOVE", "FRIEND", "SCHOOL", "JOB"],
+  "word_positions": [
+    {"word": "TRIP", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MOVE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "FRIEND", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SCHOOL", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "JOB", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Discussing Life Experiences"
+}

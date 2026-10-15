@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the author presents a persuasive case,",
+  "correct_completion": "her evidence is largely anecdotal and cannot be generalized.",
+  "full_sentence": "Although the author presents a persuasive case, her evidence is largely anecdotal and cannot be generalized.",
+  "acceptable_variants": ["her argument rests on evidence that is largely anecdotal.", "the conclusions do not follow from the data she presents."],
+  "options": [
+    {"text": "so her conclusions are widely accepted by experts.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a clause that contrasts with the first part of the sentence."},
+    {"text": "the essay is written in clear and fluent prose.", "is_correct": false, "why_wrong": "This adds a positive feature of the writing, but it does not oppose the persuasive case."},
+    {"text": "her evidence is largely anecdotal and cannot be generalized.", "is_correct": true, "why_wrong": null},
+    {"text": "because the author cites several recent studies.", "is_correct": false, "why_wrong": "'Because' expresses cause, which does not fit the concessive meaning set up by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the clause must contrast with the persuasive case in the first part. A weakness in the evidence provides that contrast. Learners may choose 'so' or 'because' because both connect two ideas, but these connectors signal result or cause, not concession.",
+  "translation": "Aunque la autora presenta un argumento convincente, sus pruebas son en gran medida anecdóticas y no se pueden generalizar."
+}
