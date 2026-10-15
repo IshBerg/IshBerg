@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My friend always walks to school because",
+  "correct_completion": "she lives near the school.",
+  "full_sentence": "My friend always walks to school because she lives near the school.",
+  "acceptable_variants": ["she lives close to the school.", "the school is only a few streets away from her home."],
+  "options": [
+    {"text": "she likes to read books.", "is_correct": false, "why_wrong": "This tells us something about her hobbies, not the reason she walks to school."},
+    {"text": "he takes the bus every day.", "is_correct": false, "why_wrong": "This is a different action by another person. It does not explain why the friend walks."},
+    {"text": "she lives near the school.", "is_correct": true, "why_wrong": null},
+    {"text": "they play football at lunch.", "is_correct": false, "why_wrong": "This describes a lunchtime activity and does not give a reason for walking to school."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present Simple third person (she lives) after 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part. Polish speakers may forget the -s ending in the third person singular, so check that the verb after 'she' ends in -s.",
+  "translation": "Moja przyjaciółka zawsze chodzi do szkoły, ponieważ mieszka blisko szkoły."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "tired",
+  "all_words": [
+    {"word": "sleep", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kiedy ktoś jest zmęczony, zwykle potrzebuje snu, więc to słowo jest z nim bezpośrednio powiązane."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino jest instrumentem muzycznym i nie ma związku ze zmęczeniem."},
+    {"word": "bed", "is_associated": true, "association_type": "THEMATIC", "explanation": "Łóżko jest miejscem, w którym odpoczywamy, gdy jesteśmy zmęczeni."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka nie jest powiązana ze uczuciem zmęczenia."},
+    {"word": "yawn", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Ziewanie to typowy znak zmęczenia."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "Komputer to urządzenie elektroniczne i nie ma związku ze zmęczeniem."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane ze zmęczeniem opisują sen, odpoczynek i typowe objawy, natomiast pianino, rzeka i komputer nie mają z nim związku."
+}
