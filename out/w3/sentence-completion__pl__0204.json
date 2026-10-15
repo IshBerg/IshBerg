@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Little did she know,",
+  "correct_completion": "that the letter would change her life.",
+  "full_sentence": "Little did she know that the letter would change her life.",
+  "acceptable_variants": ["that the letter would completely change her life.", "how much the letter would change her life."],
+  "options": [
+    {"text": "so she threw the letter away.", "is_correct": false, "why_wrong": "'So' expresses a cause or result, but the stem sets up dramatic irony about a future consequence, not an immediate action."},
+    {"text": "she had changed her mind about the letter.", "is_correct": false, "why_wrong": "This does not fit the ironic foreshadowing that 'Little did she know' introduces."},
+    {"text": "the letter was written in French.", "is_correct": false, "why_wrong": "This adds a detail but does not complete the clause that the fronted negative phrase requires."},
+    {"text": "that the letter would change her life.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Fronted negative adverbial with inversion and a backshifted reported clause",
+  "connector": "little did",
+  "explanation": "After the fronted negative phrase, the auxiliary 'did' must come before the subject. The noun clause that follows uses 'would' to show a future seen from a past point of view. Polish speakers may find this inversion unfamiliar, because Polish word order is flexible and does not rely on auxiliary inversion in the same way.",
+  "translation": "Ona nie miała pojęcia, że ten list zmieni jej życie."
+}
