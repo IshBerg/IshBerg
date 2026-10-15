@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I was very hungry, so",
+  "correct_completion": "I made a sandwich.",
+  "full_sentence": "I was very hungry, so I made a sandwich.",
+  "acceptable_variants": ["I ate some fruit.", "I had an early lunch."],
+  "options": [
+    {"text": "but I was not hungry.", "is_correct": false, "why_wrong": "'But' shows contrast, which contradicts the first part of the sentence. 'So' needs a result that follows from being hungry."},
+    {"text": "because I was tired.", "is_correct": false, "why_wrong": "'Because' gives a reason, but after 'so' the sentence needs a result, not a reason."},
+    {"text": "I made a sandwich.", "is_correct": true, "why_wrong": null},
+    {"text": "although I had lunch.", "is_correct": false, "why_wrong": "'Although' introduces contrast, which does not fit a result that follows from hunger."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "The word 'so' introduces a result. Students often mix up 'so' and 'because' because both connect two clauses, but 'so' gives the result and 'because' gives the reason.",
+  "translation": "Byłem bardzo głodny, więc zrobiłem sobie kanapkę."
+}
