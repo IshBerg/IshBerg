@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder for the exam,",
+  "correct_completion": "I would have passed it easily.",
+  "full_sentence": "If I had studied harder for the exam, I would have passed it easily.",
+  "acceptable_variants": ["I might have passed it more easily.", "I would have got a better grade."],
+  "options": [
+    {"text": "I passed it easily last year.", "is_correct": false, "why_wrong": "The past simple does not fit the result clause of a third conditional, which needs 'would have' followed by a past participle."},
+    {"text": "I will pass it easily tomorrow.", "is_correct": false, "why_wrong": "'Will' refers to the future, but the third conditional describes an unreal situation in the past."},
+    {"text": "I would have passed it easily.", "is_correct": true, "why_wrong": null},
+    {"text": "I would pass it easily now.", "is_correct": false, "why_wrong": "This refers to the present, but the if-clause describes a past situation that did not happen."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: 'if' + past perfect, then 'would have' + past participle",
+  "connector": "if",
+  "explanation": "The if-clause uses the past perfect to describe an unreal past situation, so the main clause must use 'would have' with a past participle to describe the imagined result.",
+  "translation": "Sınava daha çok çalışsaydım, onu kolayca geçerdim."
+}
