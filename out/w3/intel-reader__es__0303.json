@@ -1,0 +1,20 @@
+{
+  "title": "My School Day",
+  "text": "Maria goes to school every day. Her favorite subject is science. In science class, she learns about plants and animals. She likes to do experiments with water and light.\n\nToday is Monday. Maria has math first, and then she has English. Math is hard for her, but she is happy. She studies with her friend Tom.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is Maria's favorite subject?", "options": ["Math", "Science", "English", "Music"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What subject does Maria have first on Monday?", "options": ["Science", "English", "Math", "Music"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Maria probably feel about science class?", "options": ["She likes it", "She is bored", "She is angry", "She is tired"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does Maria probably study with Tom?", "options": ["Math is hard for her", "It is Sunday", "Tom is her teacher", "She does not like school"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "science", "translation": "ciencia", "definition": "the study of nature and how things work"},
+    {"word": "experiments", "translation": "experimentos", "definition": "tests you do to find out what happens"},
+    {"word": "hard", "translation": "difícil", "definition": "not easy to do"},
+    {"word": "friend", "translation": "amigo", "definition": "a person you know well and like"}
+  ],
+  "paragraph_translations": [
+    "María va a la escuela todos los días. Su materia favorita es la ciencia. En la clase de ciencias aprende sobre las plantas y los animales. Le gusta hacer experimentos con agua y luz.",
+    "Hoy es lunes. María tiene matemáticas primero y luego tiene inglés. Las matemáticas son difíciles para ella, pero está contenta. Estudia con su amigo Tom."
+  ]
+}
