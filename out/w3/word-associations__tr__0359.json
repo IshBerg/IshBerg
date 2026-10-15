@@ -1,0 +1,14 @@
+{
+  "trigger_word": "computer",
+  "all_words": [
+    {"word": "keyboard", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Klavye, bilgisayarın ana parçalarından biridir ve yazı yazmak için kullanılır."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Ekmek bilgisayarla hiçbir şekilde ilgili değildir; yiyecek bir kelimedir."},
+    {"word": "screen", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Computer screen' sık kullanılan bir ifadedir; ekran bilgisayarın görüntü bölümüdür."},
+    {"word": "dog", "is_associated": false, "association_type": "NONE", "explanation": "Köpek bilgisayarla ilgili bir kavram değildir, sadece bir hayvan adıdır."},
+    {"word": "internet", "is_associated": true, "association_type": "THEMATIC", "explanation": "İnternet ve bilgisayar aynı teknoloji konusuna aittir ve sıkça birlikte kullanılır."},
+    {"word": "printer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Yazıcı bilgisayara bağlanarak belgeleri kâğıda yazdıran bir cihazdır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bilgisayarla ilişkili kelimeler donanım, ağ ve kullanım alanlarından gelir; yiyecek ve hayvan kelimeleri ise ilgisizdir."
+}

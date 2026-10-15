@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "I", "N", "T", "A", "D", "K", "Z", "Q", "W"],
+    ["B", "F", "G", "J", "S", "X", "V", "R", "K", "M"],
+    ["I", "U", "D", "W", "T", "K", "Z", "F", "H", "P"],
+    ["R", "A", "S", "L", "B", "O", "C", "G", "X", "D"],
+    ["O", "Q", "E", "W", "Z", "J", "N", "T", "V", "R"],
+    ["N", "K", "B", "F", "M", "V", "A", "E", "Y", "D"],
+    ["Y", "H", "T", "W", "R", "G", "U", "C", "L", "Q"],
+    ["J", "S", "K", "D", "Q", "W", "X", "N", "P", "Z"],
+    ["F", "R", "V", "L", "Z", "H", "Y", "S", "M", "T"],
+    ["E", "U", "L", "C", "K", "Q", "F", "X", "I", "B"]
+  ],
+  "words_to_find": ["HINT", "IRONY", "TONE", "CLUE", "IMPLY"],
+  "word_positions": [
+    {"word": "HINT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "TONE", "start_row": 2, "start_col": 4, "direction": "DIAGONAL_DOWN"},
+    {"word": "CLUE", "start_row": 9, "start_col": 3, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "IMPLY", "start_row": 9, "start_col": 8, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Understanding Implicit Meanings"
+}
