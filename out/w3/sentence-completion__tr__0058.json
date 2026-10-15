@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Ali usually takes the bus to school, so",
+  "correct_completion": "he arrives at school before nine.",
+  "full_sentence": "Ali usually takes the bus to school, so he arrives at school before nine.",
+  "acceptable_variants": ["he is never late for class.", "he reads a book on the bus."],
+  "options": [
+    {"text": "he never goes to school.", "is_correct": false, "why_wrong": "This contradicts the first clause, which says Ali takes the bus to school."},
+    {"text": "he arrives at school before nine.", "is_correct": true, "why_wrong": null},
+    {"text": "he arrive at school before nine.", "is_correct": false, "why_wrong": "With 'he', the present simple verb needs -s, so the correct form is 'arrives', not 'arrive'."},
+    {"text": "he likes the bus very much.", "is_correct": false, "why_wrong": "This is a feeling about the bus and does not show a result of taking it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present simple third person singular with the connector 'so'",
+  "connector": "so",
+  "explanation": "After 'so', the clause shows a result. In the present simple, third person singular subjects such as 'he' need the suffix -s on the verb. Turkish marks the person with different endings, so dropping this -s is a common slip for Turkish speakers.",
+  "translation": "Ali genellikle okula otobüsle gider, bu yüzden okula dokuzdan önce varır."
+}
