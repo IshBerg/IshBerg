@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["E", "V", "I", "D", "E", "N", "C", "E", "E"],
+    ["K", "M", "P", "O", "R", "W", "B", "Z", "S"],
+    ["D", "R", "A", "F", "T", "G", "J", "Q", "S"],
+    ["T", "N", "K", "U", "L", "X", "O", "P", "A"],
+    ["W", "H", "D", "B", "F", "M", "R", "T", "Y"],
+    ["V", "G", "E", "C", "L", "A", "U", "S", "E"],
+    ["Q", "P", "Z", "S", "N", "K", "W", "J", "B"],
+    ["Y", "M", "T", "R", "I", "O", "D", "X", "F"],
+    ["L", "C", "H", "V", "G", "S", "A", "B", "K"]
+  ],
+  "words_to_find": ["EVIDENCE", "ESSAY", "DRAFT", "THESIS", "CLAUSE"],
+  "word_positions": [
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESSAY", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DRAFT", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THESIS", "start_row": 3, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CLAUSE", "start_row": 5, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}
