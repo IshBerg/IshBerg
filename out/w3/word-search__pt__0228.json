@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["W", "O", "R", "D", "X", "Q", "L"],
+    ["K", "M", "S", "Z", "J", "F", "I"],
+    ["T", "R", "V", "U", "H", "C", "N"],
+    ["I", "Y", "J", "K", "W", "M", "E"],
+    ["T", "P", "A", "G", "E", "Z", "K"],
+    ["L", "D", "H", "B", "S", "Y", "F"],
+    ["E", "J", "K", "Q", "R", "W", "V"]
+  ],
+  "words_to_find": ["WORD", "LINE", "PAGE", "TITLE"],
+  "word_positions": [
+    {"word": "WORD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LINE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "PAGE", "start_row": 4, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "TITLE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Short Paragraphs"
+}
