@@ -1,0 +1,14 @@
+{
+  "trigger_word": "rain",
+  "all_words": [
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "Şemsiye, yağmur yağdığında insanların kullandığı bir eşyadır; bu nedenle tematik olarak bağlantılıdır."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Çöl, yağmurun çok az yağdığı kuru bir yerdir; yağmurla ilişkisi zıttır, bu yüzden bağlantı yoktur."},
+    {"word": "storm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Fırtına, çoğu zaman yağmurla birlikte gelen şiddetli bir hava olayıdır; anlamca yakındır."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastık uykuyla ilgilidir ve yağmurla hiçbir bağlantısı yoktur."},
+    {"word": "puddle", "is_associated": true, "association_type": "THEMATIC", "explanation": "Su birikintisi yağmurdan sonra oluşur; tematik olarak bağlantılıdır."},
+    {"word": "cloud", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bulut yağmuru oluşturan şeydir; anlamca yakından bağlıdır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Yağmurla ilgili kelimeler hava durumu, yağmurun etkileri ve yağmurda kullanılan eşyalar üzerinden bağlantı kurar."
+}

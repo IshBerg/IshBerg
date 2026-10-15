@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she left earlier,",
+  "correct_completion": "she would have caught the train.",
+  "full_sentence": "Had she left earlier, she would have caught the train.",
+  "acceptable_variants": ["she would have arrived on time.", "she would not have missed the meeting."],
+  "options": [
+    {"text": "she would have missed the train.", "is_correct": false, "why_wrong": "Missing the train contradicts the logic of leaving earlier. The result must be the opposite of the unreal past condition."},
+    {"text": "she would catch the train yesterday.", "is_correct": false, "why_wrong": "'Would' with a past time expression does not match the inverted third conditional structure, which needs 'would have' plus a past participle."},
+    {"text": "she would have caught the train.", "is_correct": true, "why_wrong": null},
+    {"text": "she catches the train every day.", "is_correct": false, "why_wrong": "This is a habitual present statement. It does not complete the hypothetical past condition started by 'had she left'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' before the subject",
+  "connector": "had",
+  "explanation": "In an inverted third conditional, 'had' moves before the subject and replaces 'if'. The main clause then needs 'would have' plus a past participle to express an unreal past result. Speakers may be tempted to use a simple tense here, but the structure requires the perfect form.",
+  "translation": "Daha erken ayrılsaydı, trene yetişmiş olurdu."
+}
