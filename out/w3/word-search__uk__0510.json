@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["A", "R", "G", "U", "M", "E", "N", "T", "S"],
+    ["R", "K", "P", "W", "L", "Y", "Z", "J", "E"],
+    ["Q", "H", "V", "Z", "K", "D", "W", "F", "M"],
+    ["B", "D", "E", "F", "G", "E", "K", "L", "I"],
+    ["P", "W", "X", "T", "T", "Y", "J", "Q", "N"],
+    ["K", "Z", "L", "A", "O", "C", "V", "B", "A"],
+    ["F", "G", "B", "J", "M", "R", "D", "K", "R"],
+    ["H", "E", "N", "U", "Q", "W", "I", "Z", "P"],
+    ["D", "Q", "X", "V", "L", "Z", "P", "C", "F"]
+  ],
+  "words_to_find": ["ARGUMENT", "SEMINAR", "RHETORIC", "DEBATE"],
+  "word_positions": [
+    {"word": "ARGUMENT", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SEMINAR", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "RHETORIC", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DEBATE", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Academic Discussion and Seminars"
+}
