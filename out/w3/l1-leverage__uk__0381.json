@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "футбол", "transliteration": "futbol", "meaning": "football"},
+    {"word": "шоколад", "transliteration": "shokolad", "meaning": "chocolate"},
+    {"word": "фільм", "transliteration": "film", "meaning": "film"},
+    {"word": "музика", "transliteration": "muzyka", "meaning": "music"}
+  ],
+  "english_words": ["chocolate", "film", "football", "music"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same international source, so the forms stayed close.",
+  "false_friend_warning": null
+}

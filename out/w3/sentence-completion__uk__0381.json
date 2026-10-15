@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My dog is small, but",
+  "correct_completion": "he is very fast.",
+  "full_sentence": "My dog is small, but he is very fast.",
+  "acceptable_variants": ["he is very strong.", "he can run very quickly."],
+  "options": [
+    {"text": "because he likes to eat.", "is_correct": false, "why_wrong": "'Because' introduces a reason, but 'but' needs a clause that contrasts with 'small'."},
+    {"text": "and he has a red collar.", "is_correct": false, "why_wrong": "'And' adds information rather than contrasting with the idea that the dog is small."},
+    {"text": "he is very fast.", "is_correct": true, "why_wrong": null},
+    {"text": "he is in the garden now.", "is_correct": false, "why_wrong": "This states where the dog is, which does not contrast with the dog being small."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', the second clause must show a contrast with the first part. Here the dog is small, so the completion should describe a quality that goes against that idea. Learners sometimes choose 'because' or 'and', which give a reason or add information instead of contrast.",
+  "translation": "Мій пес маленький, але він дуже швидкий."
+}
