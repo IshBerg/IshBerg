@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder for the exam,",
+  "correct_completion": "I would be working in a better job now.",
+  "full_sentence": "If I had studied harder for the exam, I would be working in a better job now.",
+  "acceptable_variants": ["I would have a better job now.", "I would be earning more money now."],
+  "options": [
+    {"text": "I would have a better job now.", "is_correct": false, "why_wrong": "'Would have' refers to a past result. The sentence has 'now', so the present result form 'would be working' is needed."},
+    {"text": "I would be working in a better job now.", "is_correct": true, "why_wrong": null},
+    {"text": "I will work in a better job now.", "is_correct": false, "why_wrong": "The first clause is an unreal past condition, so the main clause needs 'would', not the real future 'will'."},
+    {"text": "I work in a better job now.", "is_correct": false, "why_wrong": "This is a simple statement of fact. It does not form the result of an unreal past condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditional: past unreal condition with a present result",
+  "connector": "if",
+  "explanation": "The if-clause describes an unreal past situation with the past perfect, while the result is in the present, so the main clause uses would plus a present form. Turkish speakers often use the same verb tense in both clauses because Turkish marks conditional meaning with suffixes rather than separate tense pairs.",
+  "translation": "Sınav için daha çok çalışsaydım, şimdi daha iyi bir işte çalışıyor olurdum."
+}
