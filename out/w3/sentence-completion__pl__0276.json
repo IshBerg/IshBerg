@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The results seem to suggest a correlation,",
+  "correct_completion": "though further research would be needed to confirm it.",
+  "full_sentence": "The results seem to suggest a correlation, though further research would be needed to confirm it.",
+  "acceptable_variants": ["although a causal link has not been established.", "but the pattern may still be coincidental."],
+  "options": [
+    {"text": "which proves that the drug causes the illness.", "is_correct": false, "why_wrong": "This overstates certainty and contradicts the hedge 'seem to suggest'. Results that only suggest a link cannot prove causation."},
+    {"text": "so the drug is definitely harmful.", "is_correct": false, "why_wrong": "This replaces the hedged claim with a firm conclusion that the data do not support."},
+    {"text": "though further research would be needed to confirm it.", "is_correct": true, "why_wrong": null},
+    {"text": "which means the drug was certainly never tested.", "is_correct": false, "why_wrong": "This is not logically connected to the correlation. Whether a drug was tested is unrelated to what the results suggest."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Hedged claims and concessive 'though' for qualifying a conclusion",
+  "connector": "though",
+  "explanation": "The stem uses a hedge, so the completion must keep the claim tentative. A concessive clause with 'though' qualifies the conclusion and signals that the evidence is not yet final. Speakers who translate hedges literally often choose a firm assertion here, which breaks the academic register.",
+  "translation": "Wyniki wydają się sugerować korelację, choć do jej potwierdzenia potrzebne byłyby dalsze badania."
+}
