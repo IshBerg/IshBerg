@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While the preliminary data appear promising,",
+  "correct_completion": "further longitudinal studies are needed before any firm conclusions can be drawn.",
+  "full_sentence": "While the preliminary data appear promising, further longitudinal studies are needed before any firm conclusions can be drawn.",
+  "acceptable_variants": ["more research is required before firm conclusions can be reached.", "the evidence should be treated with caution until it has been replicated."],
+  "options": [
+    {"text": "the researchers have already proven the hypothesis beyond all doubt.", "is_correct": false, "why_wrong": "This overstates certainty, which clashes with the cautious tone set by 'while the preliminary data appear promising'."},
+    {"text": "so the results will certainly be published next year.", "is_correct": false, "why_wrong": "This describes a consequence rather than the qualification expected after a concessive 'while' clause."},
+    {"text": "further longitudinal studies are needed before any firm conclusions can be drawn.", "is_correct": true, "why_wrong": null},
+    {"text": "the sample size was surprisingly large.", "is_correct": false, "why_wrong": "This adds a detail but does not provide the qualification or contrast that the stem sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'while' with hedged academic claims",
+  "connector": "while",
+  "explanation": "'While' introduces a concession, so the second clause must qualify the first with a hedged, cautious claim rather than a confident conclusion.",
+  "translation": "Embora os dados preliminares pareçam promissores, são necessários mais estudos longitudinais antes que se possam tirar conclusões definitivas."
+}
