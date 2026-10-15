@@ -1,0 +1,14 @@
+{
+  "trigger_word": "restaurant",
+  "all_words": [
+    {"word": "menu", "is_associated": true, "association_type": "THEMATIC", "explanation": "El menú es la lista de comidas que se usa en el restaurante, por eso pertenece al mismo tema."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta no tiene ninguna relación con un restaurante."},
+    {"word": "waiter", "is_associated": true, "association_type": "THEMATIC", "explanation": "El camarero trabaja en el restaurante y atiende a los clientes."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña no se encuentra en un restaurante ni se relaciona con comer fuera."},
+    {"word": "table", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La palabra table se usa mucho con restaurant, como en restaurant table o table for two."},
+    {"word": "rain", "is_associated": false, "association_type": "NONE", "explanation": "La lluvia no tiene relación con los restaurantes."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con restaurant se relacionan con comer fuera de casa: la carta, el personal y los muebles del local."
+}
