@@ -1,0 +1,20 @@
+{
+  "title": "My Birthdays",
+  "text": "Hi, my name is Ana. My birthday is on the fifth of May. In May, the weather is warm, so my family and I go to the park. We have a picnic under the trees.\n\nMy brother's birthday is in December, on the tenth. In December, the weather is cold, and we stay inside. We eat a big dinner at home.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "When is Ana's birthday?", "options": ["On the fifth of May", "On the tenth of December", "In June", "In April"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "When is Ana's brother's birthday?", "options": ["On the fifth of May", "On the tenth of December", "On the tenth of May", "On the fifth of December"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can we infer about Ana's family in May?", "options": ["They like to be outside in warm weather", "They stay inside because it is cold", "They do not like the park", "They never eat together"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Where do Ana and her family probably prefer to eat in December?", "options": ["At home", "At the park", "At a beach", "At school"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "birthday", "translation": "aniversário", "definition": "the day each year when you celebrate the day you were born"},
+    {"word": "weather", "translation": "tempo (clima)", "definition": "the sun, rain, wind, and temperature outside"},
+    {"word": "park", "translation": "parque", "definition": "a large public place with grass and trees"},
+    {"word": "family", "translation": "família", "definition": "your mother, father, brothers, sisters, and other relatives"}
+  ],
+  "paragraph_translations": [
+    "Oi, meu nome é Ana. Meu aniversário é no dia cinco de maio. Em maio, o tempo está quente, então minha família e eu vamos ao parque. Nós fazemos um piquenique debaixo das árvores.",
+    "O aniversário do meu irmão é em dezembro, no dia dez. Em dezembro, o tempo está frio, e nós ficamos dentro de casa. Nós comemos um jantar grande em casa."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Her car broke down last week, so",
+  "correct_completion": "she had it repaired by a mechanic.",
+  "full_sentence": "Her car broke down last week, so she had it repaired by a mechanic.",
+  "acceptable_variants": ["she got it repaired by a mechanic.", "she had the engine fixed by a mechanic."],
+  "options": [
+    {"text": "she repaired it herself yesterday.", "is_correct": false, "why_wrong": "This says she did the repair herself. The causative 'have' structure (have + object + past participle) means someone else does the action for the subject."},
+    {"text": "she drove it to the garage to look at it.", "is_correct": false, "why_wrong": "This describes a trip to the garage, not getting the repair done by someone else."},
+    {"text": "she had it repaired by a mechanic.", "is_correct": true, "why_wrong": null},
+    {"text": "she decided to sell the car.", "is_correct": false, "why_wrong": "This is a different decision and does not complete the idea of arranging a repair after the breakdown."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causative 'have' + object + past participle",
+  "connector": "so",
+  "explanation": "The breakdown is the cause, and the second clause shows the result. The causative pattern 'have + object + past participle' shows that the subject arranges for someone else to do the action. Learners often use a simple past form that suggests they did the work themselves, so the causative form matters here.",
+  "translation": "O carro dela quebrou na semana passada, então ela o mandou consertar com um mecânico."
+}
