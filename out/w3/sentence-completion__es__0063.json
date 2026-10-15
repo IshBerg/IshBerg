@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "We usually play football",
+  "correct_completion": "on Saturday afternoons.",
+  "full_sentence": "We usually play football on Saturday afternoons.",
+  "acceptable_variants": ["on Sundays.", "on weekends."],
+  "options": [
+    {"text": "in Saturday afternoons.", "is_correct": false, "why_wrong": "Days of the week take 'on', not 'in', so 'in Saturday' is incorrect."},
+    {"text": "at Saturday afternoons.", "is_correct": false, "why_wrong": "'At' is used with clock times, such as 'at three o'clock', not with days of the week."},
+    {"text": "on Saturday afternoons.", "is_correct": true, "why_wrong": null},
+    {"text": "for Saturday afternoons.", "is_correct": false, "why_wrong": "'For' is used with lengths of time, such as 'for two hours', not with a specific day."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Prepositions of time with days of the week and parts of a day",
+  "connector": "on",
+  "explanation": "English uses the preposition 'on' with days of the week. Learners often omit the preposition when using plural days, because some languages use a definite article instead of a preposition in this position.",
+  "translation": "Normalmente jugamos al fútbol los sábados por la tarde."
+}
