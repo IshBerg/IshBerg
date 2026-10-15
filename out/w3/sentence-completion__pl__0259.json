@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday I went to the shop because I needed",
+  "correct_completion": "a new pair of shoes.",
+  "full_sentence": "Yesterday I went to the shop because I needed a new pair of shoes.",
+  "acceptable_variants": ["a pair of new shoes.", "a new pair of trainers."],
+  "options": [
+    {"text": "an new pair of shoes.", "is_correct": false, "why_wrong": "'An' is used before a vowel sound. 'New' begins with a consonant sound, so the article must be 'a'."},
+    {"text": "new pair of shoes.", "is_correct": false, "why_wrong": "A singular countable noun phrase needs an article, so 'a' is required before 'new pair'."},
+    {"text": "a new pair of shoes.", "is_correct": true, "why_wrong": null},
+    {"text": "a new shoes.", "is_correct": false, "why_wrong": "'Shoes' is plural, so 'a' cannot be used with it directly; 'a pair of' is needed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indefinite article 'a' or 'an' before consonant and vowel sounds",
+  "connector": "because",
+  "explanation": "After 'because', we need a noun phrase that gives the reason. The indefinite article depends on the sound of the next word, and a countable noun used in the singular needs an article such as 'a'.",
+  "translation": "Wczoraj poszedłem do sklepu, ponieważ potrzebowałem nowej pary butów."
+}
