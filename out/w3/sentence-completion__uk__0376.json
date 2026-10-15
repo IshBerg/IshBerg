@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem was very long,",
+  "correct_completion": "the students read every line with great interest.",
+  "full_sentence": "Although the poem was very long, the students read every line with great interest.",
+  "acceptable_variants": ["the students still finished it with enthusiasm.", "the class enjoyed every stanza."],
+  "options": [
+    {"text": "so the students skipped it entirely.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause. 'So' would show a result, which does not fit the contrast."},
+    {"text": "the students read every line with great interest.", "is_correct": true, "why_wrong": null},
+    {"text": "the poem had many lines and stanzas.", "is_correct": false, "why_wrong": "This repeats the information already given in the stem and does not complete the contrast."},
+    {"text": "the teacher was reading it aloud.", "is_correct": false, "why_wrong": "This describes the situation but does not give the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a contrast with the difficulty described in the first part of the sentence.",
+  "translation": "Хоча вірш був дуже довгим, учні уважно прочитали кожен рядок."
+}
