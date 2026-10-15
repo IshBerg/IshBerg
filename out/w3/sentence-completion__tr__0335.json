@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished her homework,",
+  "correct_completion": "she went out to meet her friends.",
+  "full_sentence": "Having finished her homework, she went out to meet her friends.",
+  "acceptable_variants": ["she went out with her friends.", "she then joined her friends at the park."],
+  "options": [
+    {"text": "to meet her friends.", "is_correct": false, "why_wrong": "'To meet her friends' is an infinitive phrase without a finite verb, so it cannot form the main clause after the participle clause."},
+    {"text": "her friends were waiting outside already.", "is_correct": false, "why_wrong": "This makes 'her friends' the subject of the main clause. The implied subject of 'Having finished' must be the same as the main clause subject, so this creates a dangling participle."},
+    {"text": "she went out to meet her friends.", "is_correct": true, "why_wrong": null},
+    {"text": "the homework was finished by her.", "is_correct": false, "why_wrong": "This repeats the information already given and makes 'the homework' the subject, which does not match the implied subject of the participle clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect participle clauses ('having + past participle') and the subject-matching rule",
+  "connector": "having finished",
+  "explanation": "The perfect participle clause 'Having finished her homework' describes an action completed before the main action. Its implied subject must be the same as the subject of the main clause, so the completion must be an action done by 'she'. Turkish speakers may find this rule unfamiliar because Turkish participle structures do not always require the same subject, so the subject match needs to be checked deliberately.",
+  "translation": "Ödevini bitirdikten sonra, arkadaşlarıyla buluşmak için dışarı çıktı."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "fridge", "is_associated": true, "association_type": "THEMATIC", "explanation": "Buzdolabı, yiyecekleri soğuk tutmak için mutfakta kullanılır."},
+    {"word": "football", "is_associated": false, "association_type": "NONE", "explanation": "Futbol topu mutfakla ilgili bir eşya değildir."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Lavabo mutfağın bir parçasıdır ve 'kitchen sink' gibi sık kullanılan bir ifadede yer alır."},
+    {"word": "bed", "is_associated": false, "association_type": "NONE", "explanation": "Yatak genellikle yatak odasında bulunur, mutfakta değildir."},
+    {"word": "spoon", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kaşık, mutfakta yemek hazırlamak ve yemek yemek için kullanılır."},
+    {"word": "park", "is_associated": false, "association_type": "NONE", "explanation": "Park dışarıda bir yerdir ve mutfakla bir ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Mutfak ile ilgili kelimeler arasında buzdolabı, lavabo ve kaşık vardır; futbol, yatak ve park ise mutfakla ilgili değildir."
+}
