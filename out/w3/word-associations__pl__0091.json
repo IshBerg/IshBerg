@@ -1,0 +1,14 @@
+{
+  "trigger_word": "breakfast",
+  "all_words": [
+    {"word": "coffee", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kawa jest typowym napojem podawanym na śniadanie, więc ma związek tematyczny z tym słowem."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma związku ze śniadaniem, ponieważ nie jest częścią tej codziennej czynności."},
+    {"word": "egg", "is_associated": true, "association_type": "THEMATIC", "explanation": "Jajka są częstym składnikiem śniadania, więc to słowo ma związek tematyczny."},
+    {"word": "table", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówi się 'breakfast table' (stół do śniadania), więc słowo łączy się kolokacyjnie ze śniadaniem."},
+    {"word": "tunnel", "is_associated": false, "association_type": "NONE", "explanation": "Tunel nie ma nic wspólnego ze śniadaniem."},
+    {"word": "toast", "is_associated": true, "association_type": "THEMATIC", "explanation": "Tosty są popularnym śniadaniem, więc to słowo ma związek tematyczny."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'breakfast' kojarzy się z jedzeniem i przedmiotami, których używamy podczas porannego posiłku."
+}

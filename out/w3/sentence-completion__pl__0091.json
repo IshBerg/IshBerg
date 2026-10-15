@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because she was tired,",
+  "correct_completion": "she went to bed early.",
+  "full_sentence": "Because she was tired, she went to bed early.",
+  "acceptable_variants": ["she decided to take a short nap.", "she stopped working and rested."],
+  "options": [
+    {"text": "she stayed up all night.", "is_correct": false, "why_wrong": "Staying up all night does not follow logically from being tired; 'because' needs a result that matches the reason."},
+    {"text": "she was happy to see her friends.", "is_correct": false, "why_wrong": "This adds a feeling about her friends, but it does not give the logical result of being tired."},
+    {"text": "she went to bed early.", "is_correct": true, "why_wrong": null},
+    {"text": "she bought a new car.", "is_correct": false, "why_wrong": "This action has no logical connection to being tired, so 'because' does not link them."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Causal clauses with 'because'",
+  "connector": "because",
+  "explanation": "The word 'because' introduces the reason, and the main clause must be the logical result of that reason. English uses a comma after a sentence-opening 'because' clause, so the comma is needed before the main clause.",
+  "translation": "Ponieważ była zmęczona, poszła wcześnie spać."
+}
