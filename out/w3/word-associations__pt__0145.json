@@ -1,0 +1,14 @@
+{
+  "trigger_word": "friend",
+  "all_words": [
+    {"word": "trust", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Confiança é uma qualidade essencial de uma boa amizade."},
+    {"word": "best", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês dizemos best friend (melhor amigo), uma expressão muito comum."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "Motor não tem nenhuma relação com amizade; é um objeto mecânico."},
+    {"word": "hug", "is_associated": true, "association_type": "THEMATIC", "explanation": "Amigos costumam se abraçar ao se encontrar; é uma ação do mesmo contexto social."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Ponte é uma estrutura física e não está ligada à palavra amigo."},
+    {"word": "stone", "is_associated": false, "association_type": "NONE", "explanation": "Pedra é um objeto da natureza sem relação com amizade."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra friend se associa a qualidades de amizade, expressões comuns e ações sociais, mas não a objetos."
+}
