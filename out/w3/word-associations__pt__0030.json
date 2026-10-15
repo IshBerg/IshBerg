@@ -1,0 +1,14 @@
+{
+  "trigger_word": "library",
+  "all_words": [
+    {"word": "book", "is_associated": true, "association_type": "THEMATIC", "explanation": "Os livros são o principal conteúdo de uma biblioteca, por isso a palavra está tematicamente ligada a ela."},
+    {"word": "librarian", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O bibliotecário é a pessoa que trabalha na biblioteca, por isso há uma relação de sentido direta."},
+    {"word": "engine", "is_associated": false, "association_type": "NONE", "explanation": "O motor pertence ao mundo das máquinas e não tem nenhuma relação com bibliotecas."},
+    {"word": "shelf", "is_associated": true, "association_type": "THEMATIC", "explanation": "As estantes são onde os livros ficam organizados dentro da biblioteca."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "A cenoura é um legume e não tem nenhuma ligação com o ambiente de uma biblioteca."},
+    {"word": "card", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "O cartão da biblioteca é o documento usado para pegar livros emprestados, formando uma combinação comum: 'library card'."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas à biblioteca se referem a livros, pessoas, móveis e serviços desse ambiente; motor e cenoura não têm nenhuma relação com ele."
+}
