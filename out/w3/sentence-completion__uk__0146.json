@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The letter was sent to the wrong address, so",
+  "correct_completion": "it had to be sent again.",
+  "full_sentence": "The letter was sent to the wrong address, so it had to be sent again.",
+  "acceptable_variants": ["the letter was sent again.", "it was returned to the sender."],
+  "options": [
+    {"text": "we were very happy to receive it.", "is_correct": false, "why_wrong": "'So' introduces a result of the problem with the address. Being happy to receive the letter does not follow from a wrong address."},
+    {"text": "the address is written in blue ink.", "is_correct": false, "why_wrong": "This describes the envelope but does not give a result of the error, so it does not complete the cause and effect."},
+    {"text": "it had to be sent again.", "is_correct": true, "why_wrong": null},
+    {"text": "the postman was given a prize.", "is_correct": false, "why_wrong": "A reward does not logically follow from a letter going to the wrong address, so the clause does not fit after 'so'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive voice in a result clause with 'had to be'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. The passive form 'had to be sent' shows that the action is done to the letter, and the result is logical. Ukrainian speakers may try to use a simple active verb here, but English expects the passive with 'be' followed by a past participle.",
+  "translation": "Лист надіслали не за тією адресою, тому його довелося надіслати знову."
+}
