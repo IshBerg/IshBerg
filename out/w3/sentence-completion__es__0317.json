@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The comic strip was very funny, so",
+  "correct_completion": "we all laughed out loud.",
+  "full_sentence": "The comic strip was very funny, so we all laughed out loud.",
+  "acceptable_variants": ["we all smiled.", "we read it again."],
+  "options": [
+    {"text": "the story was very sad.", "is_correct": false, "why_wrong": "This describes the story, but 'so' needs a result that follows from the comic being funny. A sad story does not follow from being funny."},
+    {"text": "I read it yesterday.", "is_correct": false, "why_wrong": "This gives a time detail, not a result. It does not complete the cause and effect started by 'so'."},
+    {"text": "we all laughed out loud.", "is_correct": true, "why_wrong": null},
+    {"text": "the comic was in black and white.", "is_correct": false, "why_wrong": "This describes the comic itself, not its effect on the readers, so it does not complete the result clause after 'so'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that states the result of the first part. Here the result of something being funny is a reaction of laughter.",
+  "translation": "La tira cómica era muy graciosa, así que todos nos reímos a carcajadas."
+}

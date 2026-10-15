@@ -1,0 +1,23 @@
+{
+  "central_word": "pain",
+  "chain_words": [
+    {"word": "sore", "intensity": 1, "translation": "dolorido", "nuance": "mild, tender pain when touched"},
+    {"word": "hurt", "intensity": 2, "translation": "lastimado", "nuance": "pain caused by an injury"},
+    {"word": "painful", "intensity": 3, "translation": "doloroso", "nuance": "clearly unpleasant pain that lasts"},
+    {"word": "severe", "intensity": 4, "translation": "grave, intenso", "nuance": "strong pain that needs attention"},
+    {"word": "unbearable", "intensity": 5, "translation": "insoportable", "nuance": "pain so strong it cannot be endured"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe the experience of pain, with intensity rising from a mild, tender ache to pain that cannot be endured.",
+  "usage_notes": [
+    {"word1": "sore", "word2": "painful", "difference": "'Sore' describes a tender, slight pain, often in one area; 'painful' describes pain that is more clearly unpleasant and lasting."}
+  ],
+  "translations": {
+    "sore": "dolorido",
+    "hurt": "lastimado",
+    "painful": "doloroso",
+    "severe": "grave, intenso",
+    "unbearable": "insoportable"
+  }
+}

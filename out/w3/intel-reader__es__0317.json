@@ -1,0 +1,20 @@
+{
+  "title": "Tom's Sports",
+  "text": "Tom likes football. He plays football on Saturday with his friends. They play in the park.\n\nTom also likes swimming. He swims in the pool on Monday. After swimming, he feels happy and tired.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What sport does Tom play on Saturday?", "options": ["Tennis", "Football", "Swimming", "Basketball"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "When does Tom swim?", "options": ["On Sunday", "On Monday", "On Friday", "On Saturday"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Tom probably feel after swimming?", "options": ["Happy and tired", "Angry and hungry", "Sad and cold", "Bored and lazy"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does Tom probably enjoy sports?", "options": ["He likes to be active and spend time with friends", "He does not like other people", "He has no free time at all", "He is afraid of the park"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "friends", "translation": "amigos", "definition": "people you like and spend time with"},
+    {"word": "park", "translation": "parque", "definition": "a public place with grass and trees where people can relax"},
+    {"word": "pool", "translation": "piscina", "definition": "a place with water where people swim"},
+    {"word": "tired", "translation": "cansado", "definition": "wanting to rest because you have used a lot of energy"}
+  ],
+  "paragraph_translations": [
+    "A Tom le gusta el fútbol. Juega al fútbol el sábado con sus amigos. Ellos juegan en el parque.",
+    "A Tom también le gusta nadar. Nada en la piscina el lunes. Después de nadar, se siente feliz y cansado."
+  ]
+}
