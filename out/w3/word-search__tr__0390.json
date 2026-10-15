@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "H", "E", "S", "I", "S", "C", "X", "E"],
+    ["K", "B", "R", "Y", "L", "P", "O", "W", "V"],
+    ["G", "U", "Z", "Q", "H", "J", "M", "K", "I"],
+    ["P", "Y", "A", "N", "X", "B", "M", "Q", "D"],
+    ["R", "E", "V", "I", "E", "W", "I", "L", "E"],
+    ["J", "K", "S", "O", "G", "F", "T", "Y", "N"],
+    ["M", "A", "D", "B", "P", "Z", "T", "R", "C"],
+    ["D", "E", "F", "E", "N", "S", "E", "Q", "E"],
+    ["W", "Y", "J", "K", "L", "Q", "E", "Z", "X"]
+  ],
+  "words_to_find": ["THESIS", "REVIEW", "DEFENSE", "EVIDENCE", "COMMITTEE"],
+  "word_positions": [
+    {"word": "THESIS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REVIEW", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DEFENSE", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EVIDENCE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "COMMITTEE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Academic Thesis Defense"
+}

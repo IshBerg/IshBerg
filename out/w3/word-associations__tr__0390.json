@@ -1,0 +1,14 @@
+{
+  "trigger_word": "automation",
+  "all_words": [
+    {"word": "robot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Robotlar otomasyonun en bilinen araçlarındandır, çünkü insan emeğini makinelerle değiştirir."},
+    {"word": "factory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fabrikalar, otomasyonun ilk ve en yaygın uygulandığı iş yerleri arasındadır."},
+    {"word": "poetry", "is_associated": false, "association_type": "NONE", "explanation": "Şiir, otomasyonla ilgili bir kavram değildir; insan yaratıcılığı ile ilgilidir ve teknolojiyle doğrudan bağlantısı yoktur."},
+    {"word": "algorithm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Algoritmalar, otomatik sistemlerin görevleri yerine getirmek için izlediği adım dizileridir."},
+    {"word": "gardening", "is_associated": false, "association_type": "NONE", "explanation": "Bahçecilik, otomasyon kavramıyla anlamsal ya da tematik bir bağ taşımaz."},
+    {"word": "workforce", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Otomasyon, iş gücünü etkileyen bir süreç olduğu için 'automation and the workforce' gibi sık kullanılan bir eşleşme oluşturur."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Otomasyon, makinelerin ve algoritmaların insan işlerini yürütmesini ifade eder; ilişkili kelimeler bu süreçte kullanılan araçları, uygulandığı yerleri ve etkilediği insanları kapsar."
+}
