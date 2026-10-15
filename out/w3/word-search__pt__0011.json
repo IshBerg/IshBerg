@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "O", "W", "E", "V", "E", "R", "X", "Q", "T"],
+    ["K", "A", "Z", "P", "L", "J", "B", "N", "W", "H"],
+    ["I", "M", "G", "Q", "U", "T", "K", "Y", "F", "E"],
+    ["N", "V", "O", "D", "A", "Z", "P", "L", "X", "R"],
+    ["D", "G", "W", "R", "T", "K", "Y", "N", "Q", "E"],
+    ["E", "J", "Z", "B", "E", "U", "X", "L", "H", "F"],
+    ["E", "P", "K", "T", "S", "O", "M", "W", "Y", "O"],
+    ["D", "A", "L", "C", "G", "N", "V", "Q", "J", "R"],
+    ["B", "E", "S", "I", "D", "E", "S", "E", "U", "E"],
+    ["F", "T", "Y", "B", "W", "K", "A", "C", "R", "X"]
+  ],
+  "words_to_find": ["HOWEVER", "THEREFORE", "MOREOVER", "BESIDES", "INDEED"],
+  "word_positions": [
+    {"word": "HOWEVER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THEREFORE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "MOREOVER", "start_row": 2, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "BESIDES", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "INDEED", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Linking Adverbials and Signposting"
+}
