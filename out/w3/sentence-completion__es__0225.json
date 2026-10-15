@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "What the committee really needed",
+  "correct_completion": "was a clear timetable for the review.",
+  "full_sentence": "What the committee really needed was a clear timetable for the review.",
+  "acceptable_variants": ["was a firm deadline for the review.", "was a realistic schedule for the review."],
+  "options": [
+    {"text": "they clearly needed more time.", "is_correct": false, "why_wrong": "This gives a complete clause with its own verb. A pseudo-cleft needs the 'what' clause to be followed directly by 'was' and the focused element."},
+    {"text": "was a clear timetable for the review.", "is_correct": true, "why_wrong": null},
+    {"text": "a clear timetable for the review was needed.", "is_correct": false, "why_wrong": "Once 'What' opens the clause, the focus must follow 'was' directly. Placing it after a passive verb breaks the structure."},
+    {"text": "which the chair had delayed.", "is_correct": false, "why_wrong": "'Which' does not introduce a pseudo-cleft, and this clause does not supply the focused element the stem is waiting for."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Pseudo-cleft sentences with a 'what' clause followed by 'was'",
+  "connector": "what",
+  "explanation": "A pseudo-cleft places the focus after a 'what' clause and a form of 'be'. Spanish speakers often expect a plain subject-verb order here, so the focused element must come right after 'was'.",
+  "translation": "Lo que el comité realmente necesitaba era un cronograma claro para la revisión."
+}
