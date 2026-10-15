@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she left earlier,",
+  "correct_completion": "she would have caught the train.",
+  "full_sentence": "Had she left earlier, she would have caught the train.",
+  "acceptable_variants": ["she would have made it onto the train.", "she could have caught the train."],
+  "options": [
+    {"text": "she is a very punctual person.", "is_correct": false, "why_wrong": "This describes a general trait and does not complete the inverted third conditional set up by 'had'."},
+    {"text": "she will catch the train tomorrow.", "is_correct": false, "why_wrong": "An inverted 'had' clause refers to an unreal past situation, so a future result does not fit."},
+    {"text": "the train was delayed last night.", "is_correct": false, "why_wrong": "This gives a past fact but not the main clause result that an inverted conditional requires."},
+    {"text": "she would have caught the train.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' instead of 'if'",
+  "connector": "had",
+  "explanation": "In an inverted third conditional, 'had' starts the clause instead of 'if', and the main clause uses would have plus a past participle. Learners sometimes choose a future form, which breaks the link to the unreal past.",
+  "translation": "Якби вона пішла раніше, вона б встигла на потяг."
+}
