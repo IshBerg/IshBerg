@@ -1,0 +1,23 @@
+{
+  "central_word": "damage",
+  "chain_words": [
+    {"word": "affect", "intensity": 1, "translation": "afectar", "nuance": "to have a small effect that may not be serious"},
+    {"word": "harm", "intensity": 2, "translation": "perjudicar", "nuance": "to cause a negative effect, often on people or health"},
+    {"word": "damage", "intensity": 3, "translation": "dañar", "nuance": "to cause physical or lasting harm to something"},
+    {"word": "devastate", "intensity": 4, "translation": "devastar", "nuance": "to cause very severe destruction over a wide area"},
+    {"word": "destroy", "intensity": 5, "translation": "destruir", "nuance": "to damage something so badly that it no longer exists"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe a negative effect on the environment, ranging from a small effect to complete destruction.",
+  "usage_notes": [
+    {"word1": "harm", "word2": "damage", "difference": "'Harm' often describes effects on living things or health, while 'damage' often describes physical objects or land, although both can be used for either."}
+  ],
+  "translations": {
+    "affect": "afectar",
+    "harm": "perjudicar",
+    "damage": "dañar",
+    "devastate": "devastar",
+    "destroy": "destruir"
+  }
+}
