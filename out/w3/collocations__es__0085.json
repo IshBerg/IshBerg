@@ -1,0 +1,32 @@
+{
+  "collocation_type": "ADJ_NOUN",
+  "base_word": "large",
+  "collocate": "number",
+  "full_collocation": "large number",
+  "options": ["large", "tall", "long", "heavy"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "tall", "reason": "'Tall' describes height, as in tall buildings or tall people. We don't use it with numbers."},
+    {"word": "long", "reason": "'Long' describes length or duration, as in a long road. It is not used with the size of a number."},
+    {"word": "heavy", "reason": "'Heavy' describes weight, as in heavy bags. We don't say 'heavy number'."}
+  ],
+  "matching_pairs": [
+    {"left": "even", "right": "number"},
+    {"left": "odd", "right": "number"},
+    {"left": "large", "right": "number"},
+    {"left": "whole", "right": "number"},
+    {"left": "small", "right": "number"}
+  ],
+  "example_sentence": "Eighty is a ___ number.",
+  "gap_position": 3,
+  "translation": "un número grande",
+  "l1_interference": "Los hispanohablantes suelen traducir 'grande' como 'big' o 'great', pero con cifras la combinación natural en inglés es 'large number'.",
+  "common_mistake": "heavy number",
+  "explanation": "In English, adjectives like 'large', 'small', 'even' and 'odd' describe the size or type of a number. 'Large' is the standard choice for how big a number is.",
+  "related_collocations": [
+    {"collocation": "even number", "translation": "un número par", "example": "Two, four and six are even numbers."},
+    {"collocation": "odd number", "translation": "un número impar", "example": "Twenty-one is an odd number."},
+    {"collocation": "whole number", "translation": "un número entero", "example": "Thirty is a whole number."}
+  ],
+  "memory_tip": "LARGE = big in size or amount (large number) | HEAVY = weight, not size (heavy bag)"
+}
