@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "кіт", "transliteration": "kit", "meaning": "cat"},
+    {"word": "сир", "transliteration": "syr", "meaning": "cheese"},
+    {"word": "пасти", "transliteration": "pasty", "meaning": "to herd"},
+    {"word": "коза", "transliteration": "koza", "meaning": "goat"}
+  ],
+  "english_words": ["goat", "cat", "cheese", "to herd"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Ukrainian words look or sound close to English words, but they come from different roots, so the English look-alikes carry different meanings.",
+  "false_friend_warning": "The Ukrainian word transliterated as 'kit' means cat, but the English word 'kit' means a set of tools or equipment, or a young animal such as a fox. The Ukrainian word transliterated as 'syr' means cheese, while English 'sir' is a polite title. The Ukrainian word transliterated as 'pasty' means to herd animals, while English 'pasty' describes something pale or a type of pastry."
+}
