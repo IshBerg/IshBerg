@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The film had great actors, but",
+  "correct_completion": "the story was very boring.",
+  "full_sentence": "The film had great actors, but the story was very boring.",
+  "acceptable_variants": ["the plot was very slow.", "the ending was disappointing."],
+  "options": [
+    {"text": "so I watched it twice.", "is_correct": false, "why_wrong": "'So' shows a result. Here we need a contrast with the good actors, so 'but' requires a negative or opposite idea."},
+    {"text": "because the actors were famous.", "is_correct": false, "why_wrong": "'Because' gives a reason. It repeats the positive idea instead of contrasting it."},
+    {"text": "the story was very boring.", "is_correct": true, "why_wrong": null},
+    {"text": "and the music was also good.", "is_correct": false, "why_wrong": "'And' adds more positive information. 'But' needs a contrasting idea."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the positive point in the first part of the sentence. Reviewers often use this pattern to say that something was good in one way and disappointing in another.",
+  "translation": "Фільм мав чудових акторів, але сюжет був дуже нудним."
+}

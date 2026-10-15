@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["J", "U", "D", "G", "E", "X", "C"],
+    ["Q", "N", "B", "Z", "A", "K", "O"],
+    ["C", "H", "V", "M", "P", "D", "U"],
+    ["A", "F", "Y", "I", "P", "N", "R"],
+    ["S", "G", "O", "W", "E", "L", "T"],
+    ["E", "R", "Q", "B", "A", "X", "M"],
+    ["L", "A", "W", "Z", "L", "T", "K"]
+  ],
+  "words_to_find": ["JUDGE", "COURT", "LAW", "CASE", "APPEAL"],
+  "word_positions": [
+    {"word": "JUDGE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "COURT", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "LAW", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CASE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "APPEAL", "start_row": 1, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Legal Argumentation and Case Law"
+}
