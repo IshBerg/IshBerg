@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["C", "L", "A", "U", "S", "E", "K", "Q", "T"],
+    ["N", "O", "T", "I", "C", "E", "V", "W", "E"],
+    ["J", "D", "F", "G", "Z", "X", "L", "B", "R"],
+    ["Y", "K", "W", "N", "J", "O", "Q", "R", "M"],
+    ["P", "G", "D", "V", "L", "Z", "U", "E", "S"],
+    ["F", "A", "X", "K", "N", "I", "J", "A", "Q"],
+    ["M", "W", "R", "B", "O", "D", "G", "C", "V"],
+    ["Z", "U", "E", "T", "F", "L", "K", "H", "X"],
+    ["Q", "S", "N", "J", "Y", "P", "W", "D", "G"]
+  ],
+  "words_to_find": ["CLAUSE", "BREACH", "PARTY", "TERMS", "NOTICE"],
+  "word_positions": [
+    {"word": "CLAUSE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BREACH", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "PARTY", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TERMS", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "NOTICE", "start_row": 1, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Legal and Contractual Texts"
+}

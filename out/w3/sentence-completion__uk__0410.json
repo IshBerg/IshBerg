@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am very hungry, so",
+  "correct_completion": "I will order a big meal.",
+  "full_sentence": "I am very hungry, so I will order a big meal.",
+  "acceptable_variants": ["I want to eat a lot.", "I will get a large dinner."],
+  "options": [
+    {"text": "I will pay the bill now.", "is_correct": false, "why_wrong": "Paying the bill usually happens at the end of a meal, so it is not a result of being hungry."},
+    {"text": "I was not hungry yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is past time, but 'so' needs a result that follows from the present feeling of hunger."},
+    {"text": "I will order a big meal.", "is_correct": true, "why_wrong": null},
+    {"text": "the restaurant is closed.", "is_correct": false, "why_wrong": "This is a new fact, but it is not a result of being hungry, so it does not complete the 'so' clause."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "The connector 'so' introduces a result. The second part must be a logical consequence of the first part, here the feeling of being very hungry. Ukrainian speakers may use a similar structure, but they sometimes mix up 'so' with 'because', which gives the reason instead of the result.",
+  "translation": "Я дуже голодний, тому замовлю велику порцію."
+}
