@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you book before Friday,",
+  "correct_completion": "you get a ten percent discount.",
+  "full_sentence": "If you book before Friday, you get a ten percent discount.",
+  "acceptable_variants": ["you will get a discount.", "you can save money."],
+  "options": [
+    {"text": "so you get a ten percent discount.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'if' needs a condition followed by its result, not a reason."},
+    {"text": "you get a ten percent discount.", "is_correct": true, "why_wrong": null},
+    {"text": "because you like the sea.", "is_correct": false, "why_wrong": "'Because' gives a reason, but this sentence needs a condition set by 'if'."},
+    {"text": "although the hotel is near the beach.", "is_correct": false, "why_wrong": "'Although' shows contrast, but this sentence needs a condition set by 'if'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, we use a present tense in the main clause to describe a real future condition and its result.",
+  "translation": "Si reserva antes del viernes, obtiene un descuento del diez por ciento."
+}
