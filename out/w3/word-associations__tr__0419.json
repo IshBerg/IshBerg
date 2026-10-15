@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "THEMATIC", "explanation": "Nehir, köprünün genellikle üzerinden geçtiği doğal yapıdır; bu yüzden iki kavram aynı bağlamda birlikte düşünülür."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano müzik aletidir ve köprüyle ne anlamsal ne de tematik bir bağlantısı vardır."},
+    {"word": "engineer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Mühendis köprü tasarlayan ve inşa eden kişi olduğu için köprü konusuyla tematik olarak ilişkilidir."},
+    {"word": "lemon", "is_associated": false, "association_type": "NONE", "explanation": "Limon bir meyvedir ve köprüyle herhangi bir bağlantısı yoktur."},
+    {"word": "steel", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Çelik, köprü yapımında sık kullanılan bir malzemedir ve 'steel bridge' yaygın bir birlikte kullanım örneğidir."},
+    {"word": "hat", "is_associated": false, "association_type": "NONE", "explanation": "Şapka giyilen bir aksesuardır ve köprü kavramıyla ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Bu kelimenin çağrışımları, köprünün geçiş işlevi, yapımı ve kullanılan malzemeler etrafında toplanır; bağlantısız kelimeler ise bu alanların dışındadır."
+}
