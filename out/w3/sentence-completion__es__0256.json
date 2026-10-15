@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is a beautiful day,",
+  "correct_completion": "isn't it?",
+  "full_sentence": "It is a beautiful day, isn't it?",
+  "acceptable_variants": ["is it not?"],
+  "options": [
+    {"text": "is it?", "is_correct": false, "why_wrong": "A positive statement needs a negative tag, so 'is it?' does not confirm the statement in the expected way."},
+    {"text": "does it?", "is_correct": false, "why_wrong": "'Does' is used with ordinary verbs. The verb 'be' takes its own auxiliary in the tag."},
+    {"text": "isn't it?", "is_correct": true, "why_wrong": null},
+    {"text": "wasn't it?", "is_correct": false, "why_wrong": "The statement is in the present tense, so the tag must also be in the present tense."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Tag questions with the verb be",
+  "connector": "tag question",
+  "explanation": "After a positive statement with the verb be, English adds a negative tag that repeats the same verb. Speakers whose language uses one fixed tag often miss this matching of the verb.",
+  "translation": "Es un día precioso, ¿verdad?"
+}
