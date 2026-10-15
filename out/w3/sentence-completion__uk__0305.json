@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at those dark clouds. Take an umbrella, because",
+  "correct_completion": "it is going to rain soon.",
+  "full_sentence": "Look at those dark clouds. Take an umbrella, because it is going to rain soon.",
+  "acceptable_variants": ["it is going to pour soon.", "it is going to start raining in a minute."],
+  "options": [
+    {"text": "the sun is shining brightly.", "is_correct": false, "why_wrong": "The stem describes dark clouds, so bright sunshine does not give a reason for taking an umbrella."},
+    {"text": "it rained here last week.", "is_correct": false, "why_wrong": "This is past tense and does not explain why you need an umbrella now."},
+    {"text": "it is going to rain soon.", "is_correct": true, "why_wrong": null},
+    {"text": "we went to the beach yesterday.", "is_correct": false, "why_wrong": "This is about the past and has no logical connection to the reason for the umbrella."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Future: going to for predictions based on present evidence",
+  "connector": "because",
+  "explanation": "Going to is used for a prediction based on evidence that can be seen now, such as dark clouds in the sky. Ukrainian speakers may choose a simple future form in this position, but in English the present evidence makes going to the natural choice.",
+  "translation": "Подивіться на ті темні хмари. Візьміть парасольку, бо незабаром піде дощ."
+}

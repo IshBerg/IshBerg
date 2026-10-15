@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bridge",
+  "all_words": [
+    {"word": "river", "is_associated": true, "association_type": "THEMATIC", "explanation": "Міст зазвичай перекидають через річку, тому ці слова пов'язані тематично."},
+    {"word": "cross", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Ми кажемо 'cross a bridge', тобто переходити міст, і це типове словосполучення."},
+    {"word": "tunnel", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Тунель і міст обидва є транспортними спорудами, тому їхні значення пов'язані."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Хліб не має жодного відношення до мостів ні за змістом, ні за словосполученнями."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно не пов'язане з мостами ні за значенням, ні в усталених словосполученнях."},
+    {"word": "engineer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Інженери проєктують і будують мости, тому це слово тематично пов'язане з bridge."}
+  ],
+  "correct_indices": [0, 1, 2, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово bridge асоціюється з транспортною інфраструктурою, річками, будівництвом та типовими дієсловами руху; слова без такого зв'язку не підходять."
+}
