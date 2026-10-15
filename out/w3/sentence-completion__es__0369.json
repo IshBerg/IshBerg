@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the contract was signed in March,",
+  "correct_completion": "the tenant did not receive the keys until May.",
+  "full_sentence": "Although the contract was signed in March, the tenant did not receive the keys until May.",
+  "acceptable_variants": ["the keys were only handed over in May.", "the tenant moved in two months later."],
+  "options": [
+    {"text": "so the tenant paid the rent in advance.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast. This option expresses a consequence instead."},
+    {"text": "the contract has three pages.", "is_correct": false, "why_wrong": "This adds a neutral fact about the document and does not contrast with the signing date."},
+    {"text": "both parties agreed to the terms.", "is_correct": false, "why_wrong": "This is consistent with signing a contract and does not create the contrast that 'although' requires."},
+    {"text": "the tenant did not receive the keys until May.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first part of the sentence. Spanish speakers may expect a cause or result pattern here, so check that the second clause opposes the expectation set up in the first.",
+  "translation": "Aunque el contrato se firmó en marzo, el inquilino no recibió las llaves hasta mayo."
+}
