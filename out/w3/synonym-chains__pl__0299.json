@@ -1,0 +1,23 @@
+{
+  "central_word": "angry",
+  "chain_words": [
+    {"word": "displeased", "intensity": 1, "translation": "niezadowolony", "nuance": "mild disapproval, not yet anger"},
+    {"word": "irritated", "intensity": 2, "translation": "poirytowany", "nuance": "short-lived annoyance that wears on one's patience"},
+    {"word": "exasperated", "intensity": 3, "translation": "wyprowadzony z równowagi", "nuance": "anger after repeated provocation, patience finally gone"},
+    {"word": "infuriated", "intensity": 4, "translation": "rozwścieczony", "nuance": "intense anger that provokes a strong reaction"},
+    {"word": "livid", "intensity": 5, "translation": "siny z wściekłości", "nuance": "rage so extreme that it is almost physically visible"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express anger, but they differ in intensity, from mild displeasure to a rage so strong that it turns the face pale.",
+  "usage_notes": [
+    {"word1": "irritated", "word2": "exasperated", "difference": "'Irritated' describes a mild, short-lived annoyance; 'exasperated' suggests that patience has finally run out after repeated provocation."}
+  ],
+  "translations": {
+    "displeased": "niezadowolony",
+    "irritated": "poirytowany",
+    "exasperated": "wyprowadzony z równowagi",
+    "infuriated": "rozwścieczony",
+    "livid": "siny z wściekłości"
+  }
+}

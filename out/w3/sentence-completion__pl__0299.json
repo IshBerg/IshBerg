@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Maria is my friend.",
+  "correct_completion": "She lives near my house.",
+  "full_sentence": "Maria is my friend. She lives near my house.",
+  "acceptable_variants": ["She is very kind.", "She goes to my school."],
+  "options": [
+    {"text": "Me lives near my house.", "is_correct": false, "why_wrong": "'Me' is an object pronoun. A sentence needs a subject pronoun such as 'I' or 'she' before the verb."},
+    {"text": "They lives near my house.", "is_correct": false, "why_wrong": "'They' refers to more than one person, while Maria is one person, and 'lives' does not agree with 'they'."},
+    {"text": "She lives near my house.", "is_correct": true, "why_wrong": null},
+    {"text": "It are near my house.", "is_correct": false, "why_wrong": "'It' is used for things and animals, not for a person like Maria, and 'are' does not agree with 'it'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Subject pronouns (she, he, they, it) and subject-verb agreement",
+  "connector": "none",
+  "explanation": "The second sentence needs a subject pronoun that refers to Maria, a single female person, followed by the correctly agreeing verb form 'lives'.",
+  "translation": "Maria jest moją przyjaciółką. Ona mieszka blisko mojego domu."
+}
