@@ -1,0 +1,14 @@
+{
+  "trigger_word": "Christmas",
+  "all_words": [
+    {"word": "tree", "is_associated": true, "association_type": "THEMATIC", "explanation": "A árvore de Natal é um dos símbolos mais conhecidos da festa, por isso a palavra está fortemente ligada ao Natal."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "A bicicleta não tem relação com o Natal; é um meio de transporte que não faz parte das tradições dessa festa."},
+    {"word": "present", "is_associated": true, "association_type": "THEMATIC", "explanation": "Os presentes são trocados no Natal, então essa palavra faz parte da festa."},
+    {"word": "cucumber", "is_associated": false, "association_type": "NONE", "explanation": "O pepino é um vegetal e não tem ligação com o Natal."},
+    {"word": "snowman", "is_associated": true, "association_type": "THEMATIC", "explanation": "O boneco de neve é um símbolo típico do inverno e das decorações de Natal."},
+    {"word": "candle", "is_associated": true, "association_type": "THEMATIC", "explanation": "As velas são usadas como decoração nas festas de Natal, por isso a palavra se relaciona à data."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra Christmas se relaciona com símbolos e costumes da festa, como a árvore, os presentes, o boneco de neve e as velas, enquanto bicicleta e pepino não têm ligação com o Natal."
+}
