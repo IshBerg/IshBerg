@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the essay was short,",
+  "correct_completion": "it presented a clear and convincing argument.",
+  "full_sentence": "Although the essay was short, it presented a clear and convincing argument.",
+  "acceptable_variants": ["it still covered every major point.", "it developed its main idea effectively."],
+  "options": [
+    {"text": "so it was easy to read.", "is_correct": false, "why_wrong": "'Although' signals contrast, not cause. This option expresses a result, which 'so' would show, not a contrast."},
+    {"text": "it presented a clear and convincing argument.", "is_correct": true, "why_wrong": null},
+    {"text": "the essay had many pages.", "is_correct": false, "why_wrong": "This repeats the idea of length instead of providing the contrasting point expected after 'although'."},
+    {"text": "the writer used a lot of examples.", "is_correct": false, "why_wrong": "This adds information but does not contrast with the shortness mentioned in the first part of the sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the clause must express a contrast with the first part of the sentence. Learners often use a cause-and-result structure here, because in some languages a single connector can cover both meanings.",
+  "translation": "Deneme kısa olmasına rağmen, açık ve ikna edici bir argüman sundu."
+}

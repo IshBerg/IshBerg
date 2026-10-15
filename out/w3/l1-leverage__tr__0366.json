@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "eventüel", "transliteration": "eventuel", "meaning": "possible, if it happens"},
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current, up to date"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likeable, pleasant"},
+    {"word": "konfor", "transliteration": "konfor", "meaning": "comfort, ease"}
+  ],
+  "english_words": ["comfort", "current", "possible", "sympathetic"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from French, so the forms look alike, but the meanings shifted in each language.",
+  "false_friend_warning": "The Turkish word 'sempatik' means 'likeable', not 'sympathetic', which in English means feeling sorry for someone. The Turkish word 'aktuel' means 'current' or 'up to date', not 'actual', which means 'real' or 'true'."
+}
