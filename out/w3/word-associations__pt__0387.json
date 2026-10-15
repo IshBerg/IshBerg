@@ -1,0 +1,14 @@
+{
+  "trigger_word": "plot",
+  "all_words": [
+    {"word": "twist", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Plot twist' é uma expressão comum para uma virada inesperada na história."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "Tomate é um alimento e não tem relação com a estrutura narrativa de uma história."},
+    {"word": "character", "is_associated": true, "association_type": "THEMATIC", "explanation": "Personagens fazem parte da trama e são elementos centrais de qualquer enredo."},
+    {"word": "ladder", "is_associated": false, "association_type": "NONE", "explanation": "Escada é um objeto físico sem ligação com o enredo de uma narrativa."},
+    {"word": "ending", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O final é a parte da história que resolve a trama, por isso se relaciona diretamente ao enredo."},
+    {"word": "chapter", "is_associated": true, "association_type": "THEMATIC", "explanation": "Capítulos organizam a sequência de eventos que forma o enredo de um livro."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Os termos associados ao enredo estão ligados à estrutura e aos elementos de uma narrativa, enquanto os demais pertencem a outros campos do cotidiano."
+}
