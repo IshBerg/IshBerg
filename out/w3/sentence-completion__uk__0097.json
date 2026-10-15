@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are four chairs in the room,",
+  "correct_completion": "but there is no table.",
+  "full_sentence": "There are four chairs in the room, but there is no table.",
+  "acceptable_variants": ["but there isn't a table.", "yet there is no table."],
+  "options": [
+    {"text": "so we can sit down together.", "is_correct": false, "why_wrong": "'So' shows a result, but the stem needs a contrast word after 'There are four chairs in the room,'."},
+    {"text": "and there is one table.", "is_correct": false, "why_wrong": "'And' adds more information in the same direction, but the sentence needs a contrast."},
+    {"text": "but there is no table.", "is_correct": true, "why_wrong": null},
+    {"text": "there are a lot of books.", "is_correct": false, "why_wrong": "This describes the room, but without a contrast word it does not continue the stem logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "There is / There are with the contrast connector 'but'",
+  "connector": "but",
+  "explanation": "'But' shows contrast: the first part says there are four chairs, and the second part says there is no table. Learners often forget that 'there is' goes with singular nouns, such as 'table', and 'there are' goes with plural nouns, such as 'chairs'.",
+  "translation": "У кімнаті чотири стільці, але столу немає."
+}
