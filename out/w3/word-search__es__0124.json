@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["N", "U", "A", "N", "C", "E", "I"],
+    ["K", "Q", "B", "T", "H", "D", "R"],
+    ["Z", "F", "W", "M", "V", "P", "O"],
+    ["J", "X", "C", "Y", "G", "W", "N"],
+    ["S", "L", "A", "N", "G", "R", "Y"],
+    ["V", "H", "E", "B", "K", "Z", "Q"],
+    ["T", "O", "N", "E", "W", "J", "X"]
+  ],
+  "words_to_find": ["NUANCE", "IRONY", "SLANG", "TONE"],
+  "word_positions": [
+    {"word": "NUANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "IRONY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "SLANG", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TONE", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Connotation and Nuance in Word Choice"
+}

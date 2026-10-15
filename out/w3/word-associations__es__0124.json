@@ -1,0 +1,14 @@
+{
+  "trigger_word": "teacher",
+  "all_words": [
+    {"word": "school", "is_associated": true, "association_type": "THEMATIC", "explanation": "Los profesores trabajan en la escuela, por eso esta palabra pertenece al mismo tema."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "El tractor es una máquina agrícola y no tiene relación con los profesores."},
+    {"word": "chalk", "is_associated": true, "association_type": "THEMATIC", "explanation": "La tiza se usa tradicionalmente para escribir en la pizarra en el aula, así que está relacionada con el trabajo del profesor."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "El plátano es una fruta y no tiene ninguna relación con la enseñanza."},
+    {"word": "lesson", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Una lección es lo que un profesor enseña, así que el significado está directamente relacionado."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "La nube pertenece al cielo y no está relacionada con los profesores."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con teacher se refieren al lugar de trabajo, a los materiales de clase y a lo que se enseña; las demás palabras no tienen relación con la enseñanza."
+}
