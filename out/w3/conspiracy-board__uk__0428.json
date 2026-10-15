@@ -1,0 +1,13 @@
+{
+  "codename": "QUIET CLOCK",
+  "briefing": "Agent, we've intercepted a daily timetable written in code. Match each English word on the evidence cards to its Ukrainian translation to reveal the schedule. Time is critical.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "morning", "right": "ранок", "left_style": "document", "right_style": "handwritten"},
+    {"left": "lunch", "right": "обід", "left_style": "photo", "right_style": "document"},
+    {"left": "school", "right": "школа", "left_style": "newspaper", "right_style": "official"},
+    {"left": "evening", "right": "вечір", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "time", "right": "час", "left_style": "official", "right_style": "newspaper"}
+  ]
+}
