@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother forgot his keys, so",
+  "correct_completion": "I gave him my spare key.",
+  "full_sentence": "My brother forgot his keys, so I gave him my spare key.",
+  "acceptable_variants": ["I lent him my spare key.", "I let him use my spare key."],
+  "options": [
+    {"text": "I gave he my spare key.", "is_correct": false, "why_wrong": "'He' is a subject pronoun. After the verb 'gave', English needs the object pronoun 'him' for the person receiving the key."},
+    {"text": "I gave him my spare key.", "is_correct": true, "why_wrong": null},
+    {"text": "I gave his my spare key.", "is_correct": false, "why_wrong": "'His' is a possessive word that must come before a noun. Here we need the object pronoun 'him' to name the person who receives the key."},
+    {"text": "I gave them my spare key.", "is_correct": false, "why_wrong": "'Them' is plural. The brother is one person, so the singular object pronoun 'him' is needed."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns after verbs",
+  "connector": "so",
+  "explanation": "After a verb such as 'gave', English uses an object pronoun to show who receives the action. Turkish uses one third person pronoun for he, she and it, so learners may not notice that English changes the form for the object and the subject.",
+  "translation": "Kardeşim anahtarlarını unuttu, bu yüzden ona yedek anahtarımı verdim."
+}
