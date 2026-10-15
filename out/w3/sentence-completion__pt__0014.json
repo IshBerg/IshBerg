@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the delay earlier,",
+  "correct_completion": "I would have taken a different train.",
+  "full_sentence": "If I had known about the delay earlier, I would have taken a different train.",
+  "acceptable_variants": ["I would have chosen another route.", "I would not have missed the meeting."],
+  "options": [
+    {"text": "I would be taking the bus right now.", "is_correct": false, "why_wrong": "This mixes a present-time result with a past condition. The stem 'had known' requires a past unreal result, so 'right now' does not fit."},
+    {"text": "I took the earlier train anyway.", "is_correct": false, "why_wrong": "This is a simple past about what actually happened. It does not give the hypothetical result that an unreal past condition needs."},
+    {"text": "I would have taken a different train.", "is_correct": true, "why_wrong": null},
+    {"text": "I will take a different train tomorrow.", "is_correct": false, "why_wrong": "This uses a real future tense. The third conditional structure set up by 'had known' expects 'would have' plus a past participle."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional (unreal past) after 'if' + past perfect",
+  "connector": "if",
+  "explanation": "The past perfect in the if-clause ('had known') signals an unreal past condition, so the main clause needs 'would have' plus a past participle. Portuguese speakers may be tempted to translate word for word and use a simple past or a future form here. In English, the two clauses must match in time.",
+  "translation": "Se eu tivesse sabido do atraso antes, teria pegado outro trem."
+}
