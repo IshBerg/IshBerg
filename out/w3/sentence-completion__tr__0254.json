@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I really like music,",
+  "correct_completion": "but I don't like loud parties.",
+  "full_sentence": "I really like music, but I don't like loud parties.",
+  "acceptable_variants": ["but I do not enjoy loud parties.", "but loud parties are not my thing."],
+  "options": [
+    {"text": "so I always go to concerts.", "is_correct": false, "why_wrong": "'So' shows a result, but the sentence needs a contrast. Here the liking and the dislike are opposite ideas, so 'but' is needed."},
+    {"text": "and I love loud parties too.", "is_correct": false, "why_wrong": "'And' adds a similar idea, but the sentence needs a contrast with the first part. This option does not show a different feeling."},
+    {"text": "but I don't like loud parties.", "is_correct": true, "why_wrong": null},
+    {"text": "because music is my hobby.", "is_correct": false, "why_wrong": "'Because' gives a reason for the first part, but it does not express a dislike, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Using 'but' to contrast a like with a dislike",
+  "connector": "but",
+  "explanation": "The first clause shows a positive feeling, so the second clause should show a different or negative feeling. Turkish speakers may use a word meaning 'and' here, but English needs a contrastive connector for this meaning.",
+  "translation": "Müziği gerçekten severim, ama yüksek sesli partileri sevmem."
+}
