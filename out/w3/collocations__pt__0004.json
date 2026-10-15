@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "bus",
+  "collocate": "stop",
+  "full_collocation": "bus stop",
+  "options": ["car", "train", "bus", "road"],
+  "correct_index": 2,
+  "distractors": [
+    {"word": "car", "reason": "'Car stop' is not a standard compound. The fixed term for a place where people wait is 'bus stop'."},
+    {"word": "train", "reason": "For trains we say 'train station', not 'train stop'. 'Train stop' is not used in standard English for the same meaning."},
+    {"word": "road", "reason": "'Road stop' is not a fixed compound. 'Roadside' or 'road sign' are the natural forms with 'road'."}
+  ],
+  "example_sentence": "Wait for me at the bus ___ near the library.",
+  "gap_position": 5,
+  "translation": "ponto de ônibus",
+  "l1_interference": "Os falantes de português costumam colocar o substantivo que descreve a função depois, como em 'ponto de ônibus'. Em inglês a ordem é invertida: o modificador vem primeiro (bus stop), por isso 'stop bus' está errado.",
+  "common_mistake": "stop bus",
+  "explanation": "In English compound nouns, the modifying noun comes first and the head noun second. 'Bus' describes what kind of stop it is, so the order is 'bus stop', not 'stop bus'.",
+  "related_collocations": [
+    {"collocation": "train station", "translation": "estação de trem", "example": "The train station is five minutes from our hotel."},
+    {"collocation": "traffic jam", "translation": "engarrafamento", "example": "We were late because of a traffic jam on the bridge."},
+    {"collocation": "phone call", "translation": "ligação telefônica", "example": "I received an important phone call this morning."}
+  ],
+  "memory_tip": "Modifier first, head noun last: BUS STOP = a stop for buses | STOP BUS = wrong order"
+}
