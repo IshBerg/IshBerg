@@ -1,0 +1,20 @@
+{
+  "title": "My Neighborhood",
+  "text": "I live on a quiet street. My neighborhood has a small park with big trees. There is a bakery on the corner. The bread is always warm.\n\nEvery Saturday, my neighbors play music in the park. My friend Ana has a dog named Max. Max likes to run after the ball. I like my neighborhood very much.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is on the corner of the street?", "options": ["A bakery", "A school", "A hospital", "A supermarket"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is the name of Ana's dog?", "options": ["Max", "Ball", "Ana", "Tom"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer feel about the neighborhood?", "options": ["They like it a lot", "They want to move away", "They are bored with it", "They do not know it well"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why do the neighbors probably like the park?", "options": ["It is a place to spend time together", "It is closed on weekends", "It has no trees", "It is far from their homes"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "bakery", "translation": "panadería", "definition": "a shop where bread and cakes are made and sold"},
+    {"word": "neighbors", "translation": "vecinos", "definition": "people who live near you"},
+    {"word": "quiet", "translation": "tranquilo", "definition": "not loud or noisy"},
+    {"word": "park", "translation": "parque", "definition": "a public green space where people can relax and play"}
+  ],
+  "paragraph_translations": [
+    "Vivo en una calle tranquila. Mi barrio tiene un parque pequeño con árboles grandes. Hay una panadería en la esquina. El pan siempre está caliente.",
+    "Cada sábado, mis vecinos tocan música en el parque. Mi amiga Ana tiene un perro llamado Max. A Max le gusta correr detrás de la pelota. Me gusta mucho mi barrio."
+  ]
+}

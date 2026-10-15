@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the long journey,",
+  "correct_completion": "the travellers arrived at dawn.",
+  "full_sentence": "Despite the long journey, the travellers arrived at dawn.",
+  "acceptable_variants": ["the travellers still reached the town at dawn.", "the travellers finally arrived at dawn."],
+  "options": [
+    {"text": "so they never left the house.", "is_correct": false, "why_wrong": "'So' expresses a result, and it does not contrast with the journey. 'Despite' needs a clause showing that the journey did not prevent the outcome."},
+    {"text": "the travellers arrived at dawn.", "is_correct": true, "why_wrong": null},
+    {"text": "the journey was a long train ride.", "is_correct": false, "why_wrong": "This repeats the idea of the stem without giving a contrasting outcome, so the sentence has no contrast."},
+    {"text": "the travellers were hungry and tired.", "is_correct": false, "why_wrong": "This describes the effects of the journey, which support the stem rather than contrast with it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' followed by a main clause with a noun phrase, not a clause with a verb",
+  "connector": "despite",
+  "explanation": "After 'despite', the first part of the sentence states a difficulty, and the main clause must show that the difficulty did not stop the result. Learners often add 'of' or a verb directly after the connector, so the phrase 'despite the long journey' must stay as a noun phrase.",
+  "translation": "A pesar del largo viaje, los viajeros llegaron al amanecer."
+}
