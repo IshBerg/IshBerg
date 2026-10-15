@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["G", "U", "E", "S", "S", "X", "T", "M"],
+    ["Q", "B", "Z", "P", "D", "O", "H", "A"],
+    ["L", "K", "W", "V", "J", "C", "I", "Y"],
+    ["F", "U", "T", "U", "R", "E", "N", "B"],
+    ["S", "Q", "A", "D", "G", "O", "K", "E"],
+    ["X", "P", "M", "R", "Z", "T", "V", "Q"],
+    ["J", "D", "W", "I", "L", "L", "G", "S"],
+    ["B", "N", "Y", "C", "H", "O", "F", "R"]
+  ],
+  "words_to_find": ["GUESS", "MAYBE", "FUTURE", "THINK", "WILL"],
+  "word_positions": [
+    {"word": "GUESS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MAYBE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "FUTURE", "start_row": 3, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THINK", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "WILL", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Making Predictions"
+}

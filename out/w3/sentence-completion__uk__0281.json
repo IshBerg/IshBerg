@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was not until the final report was published",
+  "correct_completion": "that the scale of the error became clear.",
+  "full_sentence": "It was not until the final report was published that the scale of the error became clear.",
+  "acceptable_variants": ["that the team realised how serious the error was.", "that the scale of the error became apparent to everyone."],
+  "options": [
+    {"text": "the scale of the error became clear.", "is_correct": false, "why_wrong": "The emphatic structure 'It was not until ... that' needs the linking word 'that' before the main clause. Without it the sentence is incomplete."},
+    {"text": "so the scale of the error became clear.", "is_correct": false, "why_wrong": "'So' introduces a result. The 'It was not until ... that' pattern is an emphatic cleft that needs 'that' to mark the point in time."},
+    {"text": "that the scale of the error became clear.", "is_correct": true, "why_wrong": null},
+    {"text": "because the scale of the error became clear.", "is_correct": false, "why_wrong": "'Because' introduces a cause. The 'It was not until ... that' pattern expresses timing and must be linked with 'that'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Cleft sentences with 'It was not until ... that'",
+  "connector": "that",
+  "explanation": "The structure 'It was not until + time clause + that + main clause' is an emphatic cleft that stresses the moment when something became known. After the time clause, 'that' must introduce the main clause. Ukrainian speakers may leave out the linking word or reach for a conjunction of cause, because Ukrainian expresses this kind of emphasis with different word order and particles.",
+  "translation": "Лише після публікації остаточного звіту стало зрозуміло масштаб помилки."
+}
