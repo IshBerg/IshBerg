@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hotel",
+  "all_words": [
+    {"word": "reservation", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "W języku angielskim mówi się 'hotel reservation' (rezerwacja hotelowa), więc to naturalne połączenie wyrazów."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Pianino jest instrumentem muzycznym i nie ma związku z pobytem w hotelu."},
+    {"word": "bed", "is_associated": true, "association_type": "THEMATIC", "explanation": "Łóżko to jedno z podstawowych wyposażeń pokoju hotelowego, dlatego jest mocno związane z hotelem."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "Marchewka to warzywo i nie ma żadnego związku z hotelami ani z podróżowaniem."},
+    {"word": "guest", "is_associated": true, "association_type": "THEMATIC", "explanation": "Gość to osoba, która zatrzymuje się w hotelu, więc to słowo jest typowo związane z hotelem."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower to środek transportu, który nie jest typowo związany z pobytem w hotelu."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'hotel' kojarzy się z rezerwacją, łóżkiem i gośćmi, czyli z tym, co dzieje się podczas pobytu w hotelu, a pozostałe słowa dotyczą zupełnie innych sytuacji."
+}
