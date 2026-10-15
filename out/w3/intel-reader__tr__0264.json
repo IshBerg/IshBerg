@@ -1,0 +1,19 @@
+{
+  "title": "A Rainy Day and a Sunny Day",
+  "text": "It is raining today. Ali wears a red coat and blue boots. He takes an umbrella because it is cold and wet outside.\n\nIn summer, Ali wears a white shirt and shorts. The sun is hot and the sky is blue. Ali feels happy on sunny days.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What color is Ali's coat?", "options": ["Red", "Blue", "White", "Green"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Ali wear in summer?", "options": ["A coat and boots", "A white shirt and shorts", "A red coat", "An umbrella"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Ali take an umbrella?", "options": ["Because it is sunny", "Because the weather is wet", "Because he likes the color", "Because it is summer"], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is the best guess about why Ali wears shorts in summer?", "options": ["Because it is hot", "Because it is raining", "Because it is cold", "Because it is night"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "umbrella", "translation": "şemsiye", "definition": "an object you hold over your head to stay dry"},
+    {"word": "shorts", "translation": "şort", "definition": "short trousers that end above the knees"},
+    {"word": "sunny", "translation": "güneşli", "definition": "with a lot of sunshine"}
+  ],
+  "paragraph_translations": [
+    "Bugün yağmur yağıyor. Ali kırmızı bir mont ve mavi bot giyiyor. Dışarısı soğuk ve ıslak olduğu için şemsiye alıyor.",
+    "Yazın Ali beyaz bir gömlek ve şort giyer. Güneş sıcak ve gökyüzü mavi. Ali güneşli günlerde mutlu hisseder."
+  ]
+}

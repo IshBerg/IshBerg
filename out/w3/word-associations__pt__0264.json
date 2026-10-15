@@ -1,0 +1,14 @@
+{
+  "trigger_word": "thrifty",
+  "all_words": [
+    {"word": "frugal", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Frugal é um sinônimo próximo de thrifty, pois ambos descrevem quem gasta com cuidado e evita desperdício."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Geleira pertence ao campo da geografia e não tem relação com economia nem com o hábito de poupar."},
+    {"word": "savings", "is_associated": true, "association_type": "THEMATIC", "explanation": "Economias são o resultado típico de quem é econômico, por isso se ligam ao tema do consumo cuidadoso."},
+    {"word": "saxophone", "is_associated": false, "association_type": "NONE", "explanation": "Saxofone pertence ao universo da música e não se relaciona com gastar com cuidado."},
+    {"word": "penny", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês, 'penny' aparece em expressões como 'pinch pennies', que significa economizar cada centavo."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "Lanterna não tem qualquer ligação com o tema de economia ou controle de gastos."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'thrifty' incluem um sinônimo próximo, um conceito ligado à poupança e uma expressão comum formada com 'penny', enquanto as demais pertencem a campos sem relação com o tema."
+}
