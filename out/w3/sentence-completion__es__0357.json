@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the park is close to my house,",
+  "correct_completion": "I go there every weekend.",
+  "full_sentence": "Because the park is close to my house, I go there every weekend.",
+  "acceptable_variants": ["I walk there with my dog.", "I play football there with my friends."],
+  "options": [
+    {"text": "I go there every weekend.", "is_correct": true, "why_wrong": null},
+    {"text": "although it is very far away.", "is_correct": false, "why_wrong": "'Although' shows contrast, but the stem gives a reason, so the completion must follow a cause, not oppose it."},
+    {"text": "so I never visit it.", "is_correct": false, "why_wrong": "This gives a result that contradicts the reason in the stem, so the sentence does not make sense as a logical continuation."},
+    {"text": "the park has a big lake.", "is_correct": false, "why_wrong": "This adds a description of the park, but it does not complete the reason-result structure started by 'because'."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the sentence gives the reason, and the main clause gives the result. The result should follow naturally from the reason in the first part of the sentence.",
+  "translation": "Como el parque está cerca de mi casa, voy allí todos los fines de semana."
+}
