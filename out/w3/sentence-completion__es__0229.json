@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am hungry, so",
+  "correct_completion": "I want to eat an apple.",
+  "full_sentence": "I am hungry, so I want to eat an apple.",
+  "acceptable_variants": ["I will have a snack.", "I need some food."],
+  "options": [
+    {"text": "I am a teacher.", "is_correct": false, "why_wrong": "Being a teacher is not a result of feeling hungry, so it does not complete the cause-and-effect link that 'so' requires."},
+    {"text": "It is very cold outside.", "is_correct": false, "why_wrong": "The weather does not follow from being hungry, so 'so' cannot connect these two ideas."},
+    {"text": "I want to eat an apple.", "is_correct": true, "why_wrong": null},
+    {"text": "I am not hungry at all.", "is_correct": false, "why_wrong": "This contradicts the stem, which already states that the speaker is hungry."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Connector 'so' showing a result, after the verb 'to be' in the first clause",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part of the sentence. Here the feeling of hunger leads to the action of wanting to eat.",
+  "translation": "Tengo hambre, así que quiero comer una manzana."
+}
