@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current, topical"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likeable, pleasant"},
+    {"word": "eventüel", "transliteration": "eventuel", "meaning": "possible, potential"},
+    {"word": "kolej", "transliteration": "kolej", "meaning": "high school, secondary school"}
+  ],
+  "english_words": ["possible", "high school", "likeable", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Turkish word looks almost identical to an English word that has a different meaning. The forms stayed close because both languages borrowed them from French and other European sources, but the meanings shifted separately in each language.",
+  "false_friend_warning": "Several Turkish words resemble English words but mean something different. The Turkish word for 'current' looks like the English word 'actual', the Turkish word for 'likeable' looks like 'sympathetic', the Turkish word for 'possible' looks like 'eventual', and the Turkish word for 'high school' looks like 'college'. Learners should check the meaning instead of translating these words literally."
+}
