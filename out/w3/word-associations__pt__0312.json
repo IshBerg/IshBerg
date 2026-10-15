@@ -1,0 +1,14 @@
+{
+  "trigger_word": "trend",
+  "all_words": [
+    {"word": "graph", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O gráfico é a forma mais comum de mostrar uma tendência ao longo do tempo, por isso o vínculo é semântico."},
+    {"word": "pizza", "is_associated": false, "association_type": "NONE", "explanation": "Pizza não tem nenhuma relação com apresentação de dados nem com tendências."},
+    {"word": "forecast", "is_associated": true, "association_type": "THEMATIC", "explanation": "Previsões costumam se basear na análise de tendências, então pertencem ao mesmo tema de dados."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "Guarda-chuva não está ligado a dados nem a tendências."},
+    {"word": "fluctuation", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Flutuação descreve variações ao longo do tempo, por isso tem um sentido próximo ao de tendência."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Tapete não tem relação com dados, gráficos ou tendências."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a trend se referem à representação de dados, à previsão ou à variação ao longo do tempo; as demais não têm ligação com esse campo."
+}
