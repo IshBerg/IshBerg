@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "colegio", "transliteration": "colegio", "meaning": "school"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend"},
+    {"word": "carrera", "transliteration": "carrera", "meaning": "university degree"}
+  ],
+  "english_words": ["attend", "degree", "school", "bookshop"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Several of these Spanish words look almost identical to English words, but their meanings have diverged, so the similarity in form misleads learners. Each English look-alike points to a different meaning from the one the Spanish word actually carries.",
+  "false_friend_warning": "Warning: a Spanish word that looks like the English word 'college' means 'school', a word that looks like 'library' means 'bookshop', and a word that looks like 'assist' means 'to attend', so these look-alikes are false friends that can mislead learners."
+}

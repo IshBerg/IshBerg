@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I won the lottery,",
+  "correct_completion": "I would travel around the world.",
+  "full_sentence": "If I won the lottery, I would travel around the world.",
+  "acceptable_variants": ["I would buy a big house.", "I would quit my job."],
+  "options": [
+    {"text": "I will buy a new car tomorrow.", "is_correct": false, "why_wrong": "'Will' belongs to the first conditional, which describes real future possibilities. A second conditional imagined situation needs 'would' in the result clause."},
+    {"text": "I traveled around the world yesterday.", "is_correct": false, "why_wrong": "This is a past simple statement about a completed event. It does not express the result of an imagined condition."},
+    {"text": "I would travel around the world.", "is_correct": true, "why_wrong": null},
+    {"text": "I have bought a new car.", "is_correct": false, "why_wrong": "The present perfect describes a finished action linked to the present. It does not fit an imagined situation introduced by 'if'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional: imagined or unreal situations",
+  "connector": "if",
+  "explanation": "Second conditional sentences describe unreal or imagined situations in the present or future. The if-clause uses the past simple, and the result clause uses 'would' followed by the base verb.",
+  "translation": "Si ganara la lotería, viajaría por todo el mundo."
+}
