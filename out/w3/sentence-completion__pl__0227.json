@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the project would have been approved last spring.",
+  "full_sentence": "Had the committee been informed earlier, the project would have been approved last spring.",
+  "acceptable_variants": ["the project would certainly have passed.", "the budget would have been secured earlier."],
+  "options": [
+    {"text": "so the project is delayed now.", "is_correct": false, "why_wrong": "'So' introduces a consequence of an actual fact, but the inverted conditional stem requires a hypothetical past result."},
+    {"text": "although the project was approved.", "is_correct": false, "why_wrong": "'Although' introduces a concession, which does not fit a hypothetical conditional clause starting with 'had'."},
+    {"text": "the project would have been approved last spring.", "is_correct": true, "why_wrong": null},
+    {"text": "unless the project had been cancelled.", "is_correct": false, "why_wrong": "'Unless' sets up a new negative condition, which clashes with the condition already expressed by the inverted 'had' structure."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle, followed by would have + past participle)",
+  "connector": "Had (inversion)",
+  "explanation": "The inverted 'had' replaces 'if', so the main clause must express the hypothetical past result using 'would have' plus a past participle.",
+  "translation": "Gdyby komisja została poinformowana wcześniej, projekt zostałby zatwierdzony w zeszłej wiośnie."
+}
