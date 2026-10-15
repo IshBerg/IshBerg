@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["H", "E", "D", "G", "E", "T", "A", "B", "C", "M"],
+    ["K", "L", "P", "R", "O", "H", "W", "Q", "V", "A"],
+    ["J", "N", "F", "Q", "U", "G", "X", "R", "T", "Y"],
+    ["Z", "W", "C", "O", "R", "I", "D", "K", "L", "B"],
+    ["P", "V", "N", "Y", "A", "M", "Q", "J", "K", "E"],
+    ["S", "Q", "U", "D", "Z", "W", "K", "B", "R", "F"],
+    ["L", "E", "I", "O", "P", "Q", "C", "T", "G", "H"],
+    ["Y", "D", "E", "N", "M", "V", "A", "F", "B", "R"],
+    ["T", "V", "W", "M", "J", "K", "Z", "S", "X", "Q"],
+    ["A", "Q", "P", "T", "S", "E", "G", "G", "U", "S"]
+  ],
+  "words_to_find": ["HEDGE", "MAYBE", "SEEM", "MIGHT", "SUGGEST"],
+  "word_positions": [
+    {"word": "HEDGE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MAYBE", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SEEM", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "MIGHT", "start_row": 4, "start_col": 5, "direction": "VERTICAL_UP"},
+    {"word": "SUGGEST", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Academic Hedging Vocabulary"
+}
