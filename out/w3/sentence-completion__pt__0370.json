@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem was short,",
+  "correct_completion": "it expressed a deep feeling of loss.",
+  "full_sentence": "Although the poem was short, it expressed a deep feeling of loss.",
+  "acceptable_variants": ["it still moved every reader deeply.", "it carried a powerful message."],
+  "options": [
+    {"text": "so the reader felt nothing at all.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' needs a clause that contrasts with the first part of the sentence."},
+    {"text": "it was written in blue ink.", "is_correct": false, "why_wrong": "This describes the appearance of the poem and does not contrast with its short length."},
+    {"text": "it expressed a deep feeling of loss.", "is_correct": true, "why_wrong": null},
+    {"text": "the poet was very young.", "is_correct": false, "why_wrong": "This gives background information but does not create the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Here the poem's short length is contrasted with its strong emotional impact.",
+  "translation": "Embora o poema fosse curto, ele expressava um sentimento profundo de perda."
+}
