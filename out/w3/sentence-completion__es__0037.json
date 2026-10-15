@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having been delayed by the storm,",
+  "correct_completion": "the flight finally landed at midnight.",
+  "full_sentence": "Having been delayed by the storm, the flight finally landed at midnight.",
+  "acceptable_variants": ["the plane finally touched down at midnight.", "the aircraft finally arrived at midnight."],
+  "options": [
+    {"text": "the airport was closed for the day.", "is_correct": false, "why_wrong": "The participle clause 'having been delayed' refers to the flight, so the main clause must have the flight as its subject. 'The airport' creates a misrelated participle."},
+    {"text": "the storm had started at noon.", "is_correct": false, "why_wrong": "This adds background about the storm, but it does not complete the main clause, which needs an outcome for the flight."},
+    {"text": "the flight finally landed at midnight.", "is_correct": true, "why_wrong": null},
+    {"text": "its weather forecast was accurate.", "is_correct": false, "why_wrong": "'Its' has no clear reference, and the sentence does not describe what happened to the flight after the delay."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Participle clauses with 'having been' and a matching subject in the main clause",
+  "connector": "having been delayed",
+  "explanation": "The participle clause gives the reason for the delay, so the main clause must describe what the flight did next, with the flight as the subject.",
+  "translation": "Habiendo sido retrasado por la tormenta, el vuelo finalmente aterrizó a medianoche."
+}

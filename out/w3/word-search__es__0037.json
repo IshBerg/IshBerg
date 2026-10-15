@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["B", "R", "E", "A", "K", "X", "Q", "T"],
+    ["M", "I", "D", "N", "O", "F", "H", "A"],
+    ["P", "S", "W", "G", "Y", "V", "Z", "K"],
+    ["R", "J", "Q", "C", "B", "M", "D", "E"],
+    ["U", "T", "L", "O", "O", "K", "W", "Z"],
+    ["N", "G", "A", "R", "H", "C", "P", "L"],
+    ["Y", "D", "F", "B", "S", "U", "Q", "M"],
+    ["J", "K", "W", "E", "Z", "T", "R", "V"]
+  ],
+  "words_to_find": ["BREAK", "TAKE", "LOOK", "RUN", "CUT"],
+  "word_positions": [
+    {"word": "BREAK", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TAKE", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "LOOK", "start_row": 4, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "RUN", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "CUT", "start_row": 5, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Idioms and Phrasal Verbs"
+}
