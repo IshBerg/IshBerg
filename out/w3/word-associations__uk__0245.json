@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "plane", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Літак — основний транспортний засіб, який безпосередньо пов'язаний з аеропортом."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Кухня не має прямого зв'язку з аеропортом, тому це слово не асоціюється з ним."},
+    {"word": "luggage", "is_associated": true, "association_type": "THEMATIC", "explanation": "Багаж є типовим предметом, який пасажири мають із собою в аеропорту."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно не пов'язане з аеропортами ні змістом, ні ситуацією."},
+    {"word": "passport", "is_associated": true, "association_type": "THEMATIC", "explanation": "Паспорт потрібен для перевірки документів на кордоні в аеропорту."},
+    {"word": "ticket", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'airline ticket' і 'boarding ticket' є усталеними в англійській мові."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з аеропортом, стосуються транспорту, подорожі, документів і процедур вильоту, тоді як інші слова належать до зовсім іншого контексту."
+}
