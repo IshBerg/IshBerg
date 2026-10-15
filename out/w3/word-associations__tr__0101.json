@@ -1,0 +1,14 @@
+{
+  "trigger_word": "shop",
+  "all_words": [
+    {"word": "customer", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dükkanda alışveriş yapan kişiye müşteri denir, bu yüzden kelime dükkanla tematik olarak ilgilidir."},
+    {"word": "dolphin", "is_associated": false, "association_type": "NONE", "explanation": "Yunus bir deniz hayvanıdır ve dükkanla hiçbir ilgisi yoktur, bu yüzden bağlantı yoktur."},
+    {"word": "price", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dükkanda her ürünün bir fiyatı vardır, bu yüzden kelime dükkanla tematik olarak ilgilidir."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bir müzik aletidir ve dükkanla doğrudan bir ilgisi yoktur."},
+    {"word": "window", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "İngilizcede 'shop window' yani dükkan vitrini denir, bu yüzden kelimeler sık birlikte kullanılır."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ bir doğa unsurudur ve dükkanla bir ilgisi yoktur, bu yüzden bağlantı kurulmaz."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Dükkanla ilgili kelimeler müşteri, fiyat ve vitrin gibi alışverişle bağlantılı olanlardır; diğer kelimeler alışverişle ilgili değildir."
+}
