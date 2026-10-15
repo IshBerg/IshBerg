@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "H", "E", "R", "E", "F", "O", "R", "E"],
+    ["H", "A", "K", "P", "D", "Y", "N", "W", "R"],
+    ["O", "C", "L", "S", "B", "I", "X", "E", "M"],
+    ["W", "Q", "F", "T", "J", "K", "V", "Z", "A"],
+    ["E", "G", "U", "C", "H", "O", "L", "P", "Y"],
+    ["V", "N", "T", "A", "E", "O", "Q", "F", "D"],
+    ["E", "X", "B", "R", "K", "S", "U", "M", "W"],
+    ["R", "Z", "O", "H", "I", "C", "T", "G", "P"],
+    ["J", "M", "Q", "N", "W", "Y", "F", "A", "H"]
+  ],
+  "words_to_find": ["THEREFORE", "HOWEVER", "ALTHOUGH", "MOREOVER"],
+  "word_positions": [
+    {"word": "THEREFORE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOWEVER", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "ALTHOUGH", "start_row": 1, "start_col": 1, "direction": "DIAGONAL_DOWN"},
+    {"word": "MOREOVER", "start_row": 8, "start_col": 1, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}
