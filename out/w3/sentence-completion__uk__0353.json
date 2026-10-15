@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the author had provided more data,",
+  "correct_completion": "the argument would have been much stronger.",
+  "full_sentence": "If the author had provided more data, the argument would have been much stronger.",
+  "acceptable_variants": ["the conclusion would have been more convincing.", "readers would have trusted the findings more."],
+  "options": [
+    {"text": "the article was published last year.", "is_correct": false, "why_wrong": "This gives a fact about publication, which does not complete a conditional sentence with 'if ... would have'."},
+    {"text": "the argument would have been much stronger.", "is_correct": true, "why_wrong": null},
+    {"text": "the data was collected in 2020.", "is_correct": false, "why_wrong": "This states a fact about data collection, but the stem requires a hypothetical result in the main clause."},
+    {"text": "so the argument is weak.", "is_correct": false, "why_wrong": "'So' expresses a result of a real situation, not the hypothetical result of data that was never provided."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with 'if' and 'would have'",
+  "connector": "if",
+  "explanation": "The stem uses 'had provided', so the main clause must use 'would have' plus a past participle to describe an unreal past result. Students often use a simple past form in the main clause, which does not express the missing condition.",
+  "translation": "Якби автор надав більше даних, аргумент був би значно переконливішим."
+}
