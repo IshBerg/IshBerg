@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I am hungry, so",
+  "correct_completion": "I want to order a sandwich.",
+  "full_sentence": "I am hungry, so I want to order a sandwich.",
+  "acceptable_variants": ["I would like a sandwich from the menu.", "I want to look at the menu."],
+  "options": [
+    {"text": "the menu is on the table.", "is_correct": false, "why_wrong": "This describes a place. It is not a logical result of being hungry."},
+    {"text": "the cake was very sweet.", "is_correct": false, "why_wrong": "This is a fact about the past. It does not follow from the stated hunger."},
+    {"text": "I want to order a sandwich.", "is_correct": true, "why_wrong": null},
+    {"text": "I do not like soup.", "is_correct": false, "why_wrong": "This is an opinion. It is not a result of being hungry."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Linking with 'so' to show a result",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. Being hungry leads to wanting food, so the completion must be a food-related action. Ukrainian speakers sometimes confuse 'so' with 'because', so remember that 'so' comes after the cause, while 'because' comes before the result.",
+  "translation": "Я голодний, тому я хочу замовити сендвіч."
+}
