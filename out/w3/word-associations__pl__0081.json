@@ -1,0 +1,14 @@
+{
+  "trigger_word": "lion",
+  "all_words": [
+    {"word": "mane", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Grzywa to charakterystyczna część wyglądu lwa, więc jest z nim ściśle związana."},
+    {"word": "roar", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ryk to dźwięk, który wydaje lew, więc łączy się z nim tematycznie."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "Kuchnia nie ma żadnego związku z lwem."},
+    {"word": "pride", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Grupa lwów nazywa się 'pride' (duma), więc to typowe połączenie słów."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Stół nie jest w żaden sposób związany z lwami."},
+    {"word": "zebra", "is_associated": true, "association_type": "THEMATIC", "explanation": "Zebra żyje na tych samych sawannach co lew, więc to skojarzenie tematyczne."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Skojarzenia słowa 'lion' obejmują jego wygląd, dźwięki, grupę społeczną i środowisko życia."
+}

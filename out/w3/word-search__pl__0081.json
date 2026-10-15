@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "W", "E", "N", "T", "Y", "F", "X"],
+    ["E", "A", "L", "K", "P", "Z", "O", "M"],
+    ["I", "J", "U", "B", "V", "Q", "R", "D"],
+    ["G", "S", "C", "W", "N", "H", "T", "K"],
+    ["H", "P", "F", "M", "D", "A", "Y", "B"],
+    ["T", "L", "Q", "J", "R", "V", "X", "Z"],
+    ["Y", "B", "U", "K", "C", "W", "S", "A"],
+    ["N", "I", "N", "E", "T", "Y", "G", "F"]
+  ],
+  "words_to_find": ["TWENTY", "FORTY", "EIGHTY", "NINETY"],
+  "word_positions": [
+    {"word": "TWENTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "FORTY", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "EIGHTY", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "NINETY", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Numbers 20-100"
+}
