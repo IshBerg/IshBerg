@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was reading a book,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While I was reading a book, the phone rang.",
+  "acceptable_variants": ["the doorbell rang.", "someone knocked on the door."],
+  "options": [
+    {"text": "the phone rings.", "is_correct": false, "why_wrong": "After 'while' with a past continuous clause, the interrupting action should use the past simple, not the present simple."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "I was sleeping.", "is_correct": false, "why_wrong": "Sleeping and reading at the same time does not fit the sentence, and it does not describe a sudden interruption."},
+    {"text": "the phone was ringing.", "is_correct": false, "why_wrong": "Both actions are continuous here, so the sentence describes two things happening at the same time instead of an interruption."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous interrupted by past simple with 'while'",
+  "connector": "while",
+  "explanation": "The past continuous describes the longer action in progress, and the past simple describes the shorter action that interrupts it.",
+  "translation": "Kiedy czytałem książkę, zadzwonił telefon."
+}
