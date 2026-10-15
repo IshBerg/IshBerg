@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She promised",
+  "correct_completion": "to help us with the move.",
+  "full_sentence": "She promised to help us with the move.",
+  "acceptable_variants": ["to help us pack the boxes.", "to come and assist us with the move."],
+  "options": [
+    {"text": "helping us with the move.", "is_correct": false, "why_wrong": "'Promise' is followed by the to-infinitive, not by the -ing form."},
+    {"text": "helped us with the move.", "is_correct": false, "why_wrong": "'Promise' needs the infinitive with 'to', not a past tense verb."},
+    {"text": "us to help with the move.", "is_correct": false, "why_wrong": "'Promise' cannot take an object before the infinitive in this pattern. The object would need a different structure, such as 'promised to help us'."},
+    {"text": "to help us with the move.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbs followed by the to-infinitive: promise + to + verb",
+  "connector": "promised",
+  "explanation": "'Promise' is followed by the to-infinitive. Polish speakers may be tempted to use an -ing form after this verb, because the Polish structure works differently.",
+  "translation": "Obiecała, że pomoże nam przy przeprowadzce."
+}
