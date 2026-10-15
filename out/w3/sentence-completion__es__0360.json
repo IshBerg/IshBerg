@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although I was nervous at first,",
+  "correct_completion": "I answered every question clearly.",
+  "full_sentence": "Although I was nervous at first, I answered every question clearly.",
+  "acceptable_variants": ["I still gave clear answers.", "I kept my answers calm and focused."],
+  "options": [
+    {"text": "so I cancelled the interview.", "is_correct": false, "why_wrong": "'Although' shows contrast, not cause. This option gives a result, so it does not fit the sentence."},
+    {"text": "the interviewer was waiting in the hall.", "is_correct": false, "why_wrong": "This adds a detail about the setting but does not contrast with being nervous."},
+    {"text": "I had brought my CV with me.", "is_correct": false, "why_wrong": "This describes preparation but does not contrast with the feeling of nervousness."},
+    {"text": "I answered every question clearly.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a contrast with the first part of the sentence. Spanish speakers sometimes choose a cause clause here because Spanish often links these ideas with similar connectors, so check the meaning carefully.",
+  "translation": "Aunque al principio estaba nervioso, respondí todas las preguntas con claridad."
+}
