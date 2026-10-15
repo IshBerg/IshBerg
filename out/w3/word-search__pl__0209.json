@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["P", "R", "I", "D", "E", "X", "K", "S"],
+    ["Q", "U", "T", "L", "B", "J", "Z", "H"],
+    ["W", "C", "G", "N", "D", "Y", "X", "A"],
+    ["K", "H", "O", "P", "E", "T", "Q", "M"],
+    ["E", "L", "S", "I", "U", "B", "D", "E"],
+    ["N", "R", "W", "K", "C", "G", "J", "Z"],
+    ["V", "X", "F", "E", "A", "R", "M", "Q"],
+    ["Y", "T", "L", "B", "D", "K", "W", "N"]
+  ],
+  "words_to_find": ["PRIDE", "SHAME", "HOPE", "ENVY", "FEAR"],
+  "word_positions": [
+    {"word": "PRIDE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SHAME", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "HOPE", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "ENVY", "start_row": 4, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "FEAR", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Complex Emotions"
+}
