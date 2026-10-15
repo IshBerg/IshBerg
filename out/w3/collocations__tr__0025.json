@@ -1,0 +1,32 @@
+{
+  "collocation_type": "ADJ_NOUN",
+  "base_word": "heavy",
+  "collocate": "rain",
+  "full_collocation": "heavy rain",
+  "options": ["big", "heavy", "strong", "thick"],
+  "correct_index": 1,
+  "matching_pairs": [
+    {"left": "heavy", "right": "rain"},
+    {"left": "strong", "right": "coffee"},
+    {"left": "fast", "right": "food"},
+    {"left": "high", "right": "temperature"},
+    {"left": "light", "right": "meal"}
+  ],
+  "distractors": [
+    {"word": "big", "reason": "We don't say 'big rain' in English. 'Big' describes size of objects, while 'heavy' describes the amount or intensity of rain."},
+    {"word": "strong", "reason": "We don't say 'strong rain'. 'Strong' is used with coffee, wind, or feelings, not usually with rain."},
+    {"word": "thick", "reason": "We don't say 'thick rain'. 'Thick' describes things like fog, smoke, or hair, not the intensity of rain."}
+  ],
+  "example_sentence": "We could not go out because of the ___ rain.",
+  "gap_position": 8,
+  "translation": "şiddetli yağmur",
+  "l1_interference": "Türkçe konuşanlar 'büyük' anlamına gelen 'big' kelimesini her zaman kullanır ve 'big rain' der; oysa İngilizcede yağmurun şiddeti için 'heavy' kullanılır.",
+  "common_mistake": "big rain",
+  "explanation": "In English, adjectives such as 'heavy', 'strong', and 'high' form fixed partnerships with particular nouns. 'Heavy' is the standard adjective used to describe a large amount or strong intensity of rain.",
+  "related_collocations": [
+    {"collocation": "strong coffee", "translation": "güçlü kahve", "example": "I need a cup of strong coffee in the morning."},
+    {"collocation": "fast food", "translation": "hazır yemek", "example": "We ate fast food after the football match."},
+    {"collocation": "high temperature", "translation": "yüksek sıcaklık", "example": "The high temperature made the afternoon uncomfortable."}
+  ],
+  "memory_tip": "HEAVY = large amount or strong intensity (heavy rain, heavy traffic) | BIG = large size of an object (a big house, a big dog)"
+}
