@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["C", "H", "A", "N", "C", "E", "K", "H"],
+    ["Z", "M", "Y", "L", "W", "G", "J", "A"],
+    ["P", "R", "O", "O", "F", "L", "Q", "B"],
+    ["T", "V", "N", "E", "D", "Z", "X", "I"],
+    ["R", "K", "G", "P", "R", "Y", "M", "T"],
+    ["U", "Q", "B", "L", "A", "C", "W", "J"],
+    ["S", "V", "G", "N", "F", "M", "X", "Q"],
+    ["T", "L", "E", "O", "T", "G", "H", "J"]
+  ],
+  "words_to_find": ["CHANCE", "HABIT", "TRUST", "DRAFT", "PROOF"],
+  "word_positions": [
+    {"word": "CHANCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HABIT", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "TRUST", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "DRAFT", "start_row": 3, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "PROOF", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists A and B"
+}
