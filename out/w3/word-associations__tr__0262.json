@@ -1,0 +1,14 @@
+{
+  "trigger_word": "viral",
+  "all_words": [
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktör internet kültürüyle ilgili değildir, bu yüzden viral kelimesiyle bir bağlantısı yoktur."},
+    {"word": "meme", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Meme, bir içeriğin hızla yayılmasını anlatan internet kültürü terimidir; bu nedenle viral ile anlamsal olarak ilişkilidir."},
+    {"word": "desert", "is_associated": false, "association_type": "NONE", "explanation": "Çöl ile viral kelimesi arasında ne anlamsal ne de tematik bir bağlantı vardır."},
+    {"word": "video", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Viral video, İngilizcede yaygın bir eşdizimli (kolokasyon) kullanımdır."},
+    {"word": "fork", "is_associated": false, "association_type": "NONE", "explanation": "Çatal bu kavramla ilgili değildir."},
+    {"word": "hashtag", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hashtag, viral içeriklerin sosyal medyada yayılmasıyla ortak bir temaya sahiptir."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Viral kelimesi, internetteki hızlı yayılım ve sosyal medya teması etrafında kümelenir; mekanik ya da doğal dünyayla ilgili kelimeler ise bağlantısızdır."
+}

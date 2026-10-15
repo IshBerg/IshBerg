@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When the phone rang,",
+  "correct_completion": "she was cooking dinner.",
+  "full_sentence": "When the phone rang, she was cooking dinner.",
+  "acceptable_variants": ["she was washing the dishes.", "she was reading a book."],
+  "options": [
+    {"text": "she cooks dinner.", "is_correct": false, "why_wrong": "The present simple 'cooks' does not fit the past time frame set by 'when the phone rang'."},
+    {"text": "she was cooking dinner.", "is_correct": true, "why_wrong": null},
+    {"text": "she has cooked dinner.", "is_correct": false, "why_wrong": "The present perfect describes a finished result. It does not describe an action in progress at the moment of the interruption."},
+    {"text": "she will cook dinner.", "is_correct": false, "why_wrong": "The future 'will cook' cannot describe what was happening at a moment in the past."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous for an action in progress when interrupted by a past simple event",
+  "connector": "when",
+  "explanation": "'When' followed by a past simple event introduces the interruption. The main clause uses the past continuous for the action that was already in progress. Turkish speakers may use a simple past form here because Turkish marks this progressive meaning with a suffix rather than a separate auxiliary.",
+  "translation": "Telefon çaldığında, o akşam yemeğini pişiriyordu."
+}
