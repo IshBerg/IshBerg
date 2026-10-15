@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had she closed the door",
+  "correct_completion": "when the phone began to ring.",
+  "full_sentence": "Hardly had she closed the door when the phone began to ring.",
+  "acceptable_variants": ["when the telephone started ringing.", "when her mobile phone began to ring."],
+  "options": [
+    {"text": "than the phone began to ring.", "is_correct": false, "why_wrong": "'Hardly' pairs with 'when', not 'than'; the 'than' construction belongs to 'no sooner'."},
+    {"text": "so the phone began to ring.", "is_correct": false, "why_wrong": "'So' signals cause and result, which the 'hardly ... when' structure does not express."},
+    {"text": "when the phone began to ring.", "is_correct": true, "why_wrong": null},
+    {"text": "and the phone had rung.", "is_correct": false, "why_wrong": "'And' joins two clauses without the immediate time sequence that 'hardly' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'hardly ... when'",
+  "connector": "hardly ... when",
+  "explanation": "'Hardly' is a negative adverb, so the auxiliary 'had' is placed before the subject. The fixed pattern is followed by 'when', not 'than' or 'and', to show two events occurring in immediate succession. Learners often join the two clauses with a simple conjunction, as Ukrainian speakers may do when translating word for word, but English requires this inverted structure.",
+  "translation": "Ледве вона зачинила двері, як задзвонив телефон."
+}

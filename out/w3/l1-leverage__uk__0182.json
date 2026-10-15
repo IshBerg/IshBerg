@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "парасоля", "transliteration": "parasolia", "meaning": "umbrella"},
+    {"word": "шарф", "transliteration": "sharf", "meaning": "scarf"},
+    {"word": "кепка", "transliteration": "kepka", "meaning": "cap"}
+  ],
+  "english_words": ["umbrella", "scarf", "shop", "cap"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "The Ukrainian word 'mahazyn' and the English word 'magazine' both trace back to the same Arabic root meaning storehouse. English kept that sense for a storehouse of printed matter, while Ukrainian narrowed it to a shop, so the forms stayed close while the meanings separated.",
+  "false_friend_warning": "Warning: the Ukrainian word 'mahazyn' looks and sounds like the English word 'magazine', but it means 'shop', so do not translate it as 'magazine'."
+}
