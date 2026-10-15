@@ -1,0 +1,25 @@
+{
+  "collocation_type": "NOUN_NOUN",
+  "base_word": "weekend",
+  "collocate": "trip",
+  "full_collocation": "weekend trip",
+  "options": ["weekend", "Monday", "Friday", "Tuesday"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "Monday", "reason": "We don't say 'Monday trip'. 'Weekend trip' is a fixed compound, and the day of the week is not used as a modifier here."},
+    {"word": "Friday", "reason": "We don't say 'Friday trip' as a fixed phrase. 'Friday' is used with 'night' or 'afternoon', like Friday night."},
+    {"word": "Tuesday", "reason": "We don't say 'Tuesday trip'. Weekdays are used with time words like 'on Tuesday', not as the first word of a trip compound."}
+  ],
+  "example_sentence": "We are going on a ___ trip to the mountains.",
+  "gap_position": 5,
+  "translation": "hafta sonu gezisi",
+  "l1_interference": "Türkçede de belirtme önce gelerek 'hafta sonu gezisi' şeklinde bir tamlama kurulur, bu yüzden sıra doğru görünür. Ancak Türkçe konuşanlar 'trip of weekend' ya da 'weekend's trip' gibi ek veya edat kullanma hatasına düşebilir.",
+  "common_mistake": "trip weekend",
+  "explanation": "In English, a noun can be placed before another noun to describe its type, forming a compound like 'weekend trip'. The first noun works as an adjective, and no 'of' or possessive is needed.",
+  "related_collocations": [
+    {"collocation": "day off", "translation": "izin günü", "example": "Monday is my day off."},
+    {"collocation": "Sunday lunch", "translation": "pazar öğle yemeği", "example": "We have a big Sunday lunch with the family."},
+    {"collocation": "bus stop", "translation": "otobüs durağı", "example": "Let's meet at the bus stop on Saturday."}
+  ],
+  "memory_tip": "NOUN + NOUN = the first noun describes the second (weekend trip, bus stop) | do not add 'of' or 's (trip of weekend)"
+}

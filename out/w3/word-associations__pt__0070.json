@@ -1,0 +1,14 @@
+{
+  "trigger_word": "coffee",
+  "all_words": [
+    {"word": "cup", "is_associated": true, "association_type": "THEMATIC", "explanation": "A xícara é usada para servir o café, por isso está tematicamente ligada a ele."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "O carro é um meio de transporte e não tem relação direta com o café."},
+    {"word": "milk", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Leite com café é uma combinação muito comum, como em coffee with milk."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "O martelo é uma ferramenta e não se usa com café em nenhum contexto comum."},
+    {"word": "sugar", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O açúcar é um ingrediente que se mistura ao café, por isso o sentido está ligado a ele."},
+    {"word": "spoon", "is_associated": true, "association_type": "THEMATIC", "explanation": "A colher é usada para mexer o café e fica na mesa junto com a xícara."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas ao café são itens que o acompanham, ingredientes e utensílios de servir; as demais não têm relação com a bebida."
+}
