@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The manager said that the new product",
+  "correct_completion": "would be ready next month.",
+  "full_sentence": "The manager said that the new product would be ready next month.",
+  "acceptable_variants": ["was going to be ready next month.", "would be available next month."],
+  "options": [
+    {"text": "was ready last month.", "is_correct": false, "why_wrong": "The past tense describes a finished event, which does not fit a product planned for the future."},
+    {"text": "would be ready next month.", "is_correct": true, "why_wrong": null},
+    {"text": "will be ready next month?", "is_correct": false, "why_wrong": "A question mark and question word order do not fit a reported statement."},
+    {"text": "the product be ready next month.", "is_correct": false, "why_wrong": "This is not a complete clause because it has no verb that agrees with the subject."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Reported speech with 'would' after a past reporting verb",
+  "connector": "that",
+  "explanation": "After a past reporting verb such as 'said', the future 'will' changes to 'would' in reported speech. The completion must therefore keep the same statement form with 'would'.",
+  "translation": "El gerente dijo que el nuevo producto estaría listo el próximo mes."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookstore"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive"},
+    {"word": "carpeta", "transliteration": "carpeta", "meaning": "folder"}
+  ],
+  "english_words": ["sensitive", "folder", "pregnant", "bookstore"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Spanish word in this set has a spelling or sound close to an English word, but the meanings are different. Similar form does not guarantee similar meaning, so the student must learn the real English meaning of each word.",
+  "false_friend_warning": "Careful: the Spanish word transliterated as 'embarazada' looks like the English word 'embarrassed', but it means pregnant, not embarrassed."
+}
