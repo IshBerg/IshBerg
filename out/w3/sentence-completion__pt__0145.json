@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He has been learning English since",
+  "correct_completion": "he was twelve years old.",
+  "full_sentence": "He has been learning English since he was twelve years old.",
+  "acceptable_variants": ["he was a child.", "he was ten years old."],
+  "options": [
+    {"text": "for twelve years.", "is_correct": false, "why_wrong": "'Since' needs a starting point in time, not a length of time. 'For' is the word that goes with a length of time."},
+    {"text": "twelve years ago.", "is_correct": false, "why_wrong": "'Ago' is used with the simple past, not with the present perfect, and it cannot follow 'since'."},
+    {"text": "he was twelve years old.", "is_correct": true, "why_wrong": null},
+    {"text": "he is happy with it.", "is_correct": false, "why_wrong": "'Since' must be followed by a point in time, and 'he is happy' does not describe a starting point."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect continuous with 'since' and 'for'",
+  "connector": "since",
+  "explanation": "'Since' introduces the exact starting point of an action that is still continuing, such as a year, an age or an event. 'For' introduces a length of time. Portuguese speakers may mix up these two connectors, so it helps to ask whether the phrase names a starting point or a duration.",
+  "translation": "Ele estuda inglês desde os doze anos de idade."
+}
