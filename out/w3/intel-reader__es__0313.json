@@ -1,0 +1,19 @@
+{
+  "title": "Tom's Day",
+  "text": "Tom wakes up at seven o'clock every day. He has a shower and eats a small breakfast. Then he walks to the bus stop. The bus takes him to work.\n\nAt six o'clock, Tom finishes work and goes home. He cooks dinner with his wife. After dinner, they watch TV together. Tom goes to bed at ten o'clock.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What time does Tom wake up?", "options": ["Six o'clock", "Seven o'clock", "Eight o'clock", "Nine o'clock"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What do Tom and his wife do after dinner?", "options": ["They go to work", "They watch TV", "They take a shower", "They walk to the bus stop"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why does Tom probably feel tired at the end of the day?", "options": ["He works all day", "He sleeps in the morning", "He does not eat dinner", "He watches a film"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of person is Tom?", "options": ["A lazy person", "A busy and regular person", "A person who never eats", "A person who does not like his wife"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "breakfast", "translation": "desayuno", "definition": "the first meal of the day"},
+    {"word": "shower", "translation": "ducha", "definition": "washing your body by standing under running water"},
+    {"word": "dinner", "translation": "cena", "definition": "the main meal of the evening"}
+  ],
+  "paragraph_translations": [
+    "Tom se despierta a las siete en punto todos los días. Se ducha y come un desayuno pequeño. Después camina hasta la parada del autobús. El autobús lo lleva al trabajo.",
+    "A las seis en punto, Tom termina el trabajo y vuelve a casa. Cocina la cena con su esposa. Después de cenar, ven la televisión juntos. Tom se acuesta a las diez en punto."
+  ]
+}

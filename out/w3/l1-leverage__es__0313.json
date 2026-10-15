@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "tecnología", "transliteration": "tecnologia", "meaning": "technology"},
+    {"word": "automatización", "transliteration": "automatizacion", "meaning": "automation"},
+    {"word": "digital", "transliteration": "digital", "meaning": "digital"},
+    {"word": "innovación", "transliteration": "innovacion", "meaning": "innovation"}
+  ],
+  "english_words": ["digital", "innovation", "technology", "automation"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "All four English words derive from Latin or Greek roots and keep almost identical spelling and meaning in both languages, so the forms stayed close. The only differences are small accent marks and endings that follow each language's own rules.",
+  "false_friend_warning": null
+}
