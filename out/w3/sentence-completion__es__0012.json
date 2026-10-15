@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Some students prefer to study alone, while others",
+  "correct_completion": "prefer to study in groups.",
+  "full_sentence": "Some students prefer to study alone, while others prefer to study in groups.",
+  "acceptable_variants": ["like to study in groups.", "prefer to study with classmates."],
+  "options": [
+    {"text": "prefers to study in groups.", "is_correct": false, "why_wrong": "'Others' is a plural subject, so the verb must be 'prefer', not 'prefers'. The third-person -s is used only with singular subjects."},
+    {"text": "study in groups on Fridays.", "is_correct": false, "why_wrong": "This adds a time detail, but the second clause must repeat the contrasting preference ('prefer to study') so that 'others' is set against 'some students'."},
+    {"text": "prefer to study in groups.", "is_correct": true, "why_wrong": null},
+    {"text": "to study in groups is preferred.", "is_correct": false, "why_wrong": "The passive 'is preferred' does not match the plural subject 'others', and it breaks the parallel structure that the contrast with 'some students' depends on."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Ellipsis of a repeated verb phrase after contrastive 'while'",
+  "connector": "while",
+  "explanation": "After 'while', the second clause sets up a contrast with the first. Here the verb phrase 'prefer to study' is repeated in full, and the plural subject 'others' takes the base form 'prefer'. Spanish speakers may add a time or place detail instead of completing the contrasting action, but the sentence needs the contrasting preference itself.",
+  "translation": "Algunos estudiantes prefieren estudiar solos, mientras que otros prefieren estudiar en grupos."
+}

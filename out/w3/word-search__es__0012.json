@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["H", "E", "N", "C", "E", "K", "T"],
+    ["O", "Q", "A", "Z", "P", "D", "H"],
+    ["W", "H", "I", "L", "E", "M", "U"],
+    ["E", "R", "G", "X", "J", "F", "S"],
+    ["V", "N", "Y", "K", "B", "Q", "D"],
+    ["E", "A", "W", "F", "U", "P", "C"],
+    ["R", "M", "Z", "Q", "T", "J", "V"]
+  ],
+  "words_to_find": ["HOWEVER", "HENCE", "WHILE", "THUS", "BUT"],
+  "word_positions": [
+    {"word": "HOWEVER", "start_row": 0, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "HENCE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WHILE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THUS", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "BUT", "start_row": 4, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Linking Words and Connectors"
+}
