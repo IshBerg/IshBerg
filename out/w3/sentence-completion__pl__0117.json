@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has already read the book,",
+  "correct_completion": "so she can tell us the ending.",
+  "full_sentence": "She has already read the book, so she can tell us the ending.",
+  "acceptable_variants": ["so she can give us her opinion.", "so she does not need to read it again."],
+  "options": [
+    {"text": "but she hasn't started it yet.", "is_correct": false, "why_wrong": "This contradicts 'already', which means the action is finished. 'Hasn't started yet' describes the opposite situation."},
+    {"text": "because she never reads books.", "is_correct": false, "why_wrong": "This does not follow logically from having read the book, and it contradicts the fact that she has read it."},
+    {"text": "so she can tell us the ending.", "is_correct": true, "why_wrong": null},
+    {"text": "so she is still reading it now.", "is_correct": false, "why_wrong": "This contradicts 'already read'. The present continuous describes an unfinished action, so it cannot follow the finished state."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Present perfect with 'already'",
+  "connector": "so",
+  "explanation": "The present perfect with 'already' shows that an action is finished, so the completion must be a logical result of that finished action.",
+  "translation": "Ona już przeczytała książkę, więc może nam opowiedzieć zakończenie."
+}
