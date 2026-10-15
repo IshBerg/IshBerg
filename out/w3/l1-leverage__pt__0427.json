@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pé", "transliteration": "pe", "meaning": "foot"},
+    {"word": "pasta", "transliteration": "pasta", "meaning": "folder"},
+    {"word": "roupa", "transliteration": "roupa", "meaning": "clothes"},
+    {"word": "sensível", "transliteration": "sensivel", "meaning": "sensitive"}
+  ],
+  "english_words": ["folder", "clothes", "foot", "sensitive"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 3}
+  ],
+  "pattern_explanation": "These Portuguese words look or sound like English words, but they come from different roots and carry different meanings in each language.",
+  "false_friend_warning": "Portuguese speakers may think the Portuguese word by its transliteration 'pe' means the English word 'pe', but it means foot. Similarly, the Portuguese word 'sensivel' means sensitive, not reasonable as in English."
+}

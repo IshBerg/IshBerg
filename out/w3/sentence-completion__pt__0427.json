@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although many people think school uniforms are unnecessary,",
+  "correct_completion": "I believe they help students feel equal.",
+  "full_sentence": "Although many people think school uniforms are unnecessary, I believe they help students feel equal.",
+  "acceptable_variants": ["I think they make students feel equal.", "I still believe they create a sense of unity."],
+  "options": [
+    {"text": "I believe they help students feel equal.", "is_correct": true, "why_wrong": null},
+    {"text": "so schools should stop using them.", "is_correct": false, "why_wrong": "'Although' introduces a contrast, not a cause. This clause gives a result, which does not fit the contrast structure."},
+    {"text": "because uniforms are very expensive.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but 'although' needs a clause that contrasts with the first part, and this clause does not state the writer's opinion."},
+    {"text": "the uniforms are blue and white.", "is_correct": false, "why_wrong": "This adds a description of the uniforms but does not provide the contrasting opinion expected after 'although'."}
+  ],
+  "correct_index": 0,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the writer needs a clause that gives a personal opinion which contrasts with the view stated in the first part of the sentence.",
+  "translation": "Embora muitas pessoas achem que os uniformes escolares são desnecessários, eu acredito que eles ajudam os alunos a se sentirem iguais."
+}
