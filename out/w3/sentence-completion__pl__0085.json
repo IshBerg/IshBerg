@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because she studied hard,",
+  "correct_completion": "she passed the exam.",
+  "full_sentence": "Because she studied hard, she passed the exam.",
+  "acceptable_variants": ["she got a good grade.", "she felt confident about the test."],
+  "options": [
+    {"text": "so she failed the exam.", "is_correct": false, "why_wrong": "The result 'failed' contradicts the cause 'studied hard'; the stem expects a positive result."},
+    {"text": "she passed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she was very tired.", "is_correct": false, "why_wrong": "This describes her state but does not complete the cause-effect link the sentence needs."},
+    {"text": "although the test was easy.", "is_correct": false, "why_wrong": "'Although' shows contrast, but the stem uses 'because' to show cause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After a cause clause introduced by 'because', the main clause must state the result. Many learners confuse 'because' with 'although' because both connect two clauses, so keep cause and contrast separate.",
+  "translation": "Ponieważ ciężko się uczyła, zdała egzamin."
+}
