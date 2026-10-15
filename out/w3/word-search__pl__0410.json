@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["M", "U", "S", "I", "C", "K", "Q", "T", "R"],
+    ["H", "J", "L", "O", "B", "N", "Z", "F", "E"],
+    ["V", "X", "W", "Q", "K", "D", "P", "T", "A"],
+    ["Y", "C", "R", "G", "U", "E", "L", "Q", "D"],
+    ["S", "K", "B", "J", "N", "F", "A", "W", "C"],
+    ["Z", "W", "H", "T", "P", "R", "Y", "M", "K"],
+    ["Q", "G", "I", "E", "X", "B", "N", "P", "T"],
+    ["J", "U", "Y", "M", "L", "O", "S", "D", "H"],
+    ["W", "Z", "G", "A", "M", "E", "K", "Q", "X"]
+  ],
+  "words_to_find": ["MUSIC", "READ", "SWIM", "GAME", "PLAY"],
+  "word_positions": [
+    {"word": "MUSIC", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "READ", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "SWIM", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "GAME", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "PLAY", "start_row": 2, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Free Time Activities"
+}
