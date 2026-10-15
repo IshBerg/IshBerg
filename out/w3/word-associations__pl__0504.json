@@ -1,0 +1,14 @@
+{
+  "trigger_word": "breakfast",
+  "all_words": [
+    {"word": "toast", "is_associated": true, "association_type": "THEMATIC", "explanation": "Tost to typowe pieczywo jedzone na śniadanie, więc należy do tego samego tematu posiłku."},
+    {"word": "egg", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Jajka są jednym z najczęstszych dań podawanych na śniadanie i często pojawiają się obok tego słowa."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma żadnego związku z posiłkami ani ze śniadaniem."},
+    {"word": "cereal", "is_associated": true, "association_type": "THEMATIC", "explanation": "Płatki śniadaniowe to klasyczne jedzenie na śniadanie, więc pasują do tego tematu."},
+    {"word": "lunch", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Lunch to inny posiłek dnia, więc jest znaczeniowo blisko śniadania."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Samochód nie ma związku ze śniadaniem ani z jedzeniem."}
+  ],
+  "correct_indices": [0, 1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo breakfast kojarzy się z jedzeniem i posiłkami dnia, a nie z miejscami w naturze ani z pojazdami."
+}
