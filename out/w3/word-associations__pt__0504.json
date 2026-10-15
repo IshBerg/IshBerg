@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dog",
+  "all_words": [
+    {"word": "bone", "is_associated": true, "association_type": "THEMATIC", "explanation": "O osso é um petisco típico do cão, por isso pertence ao mesmo tema de cuidados com animais de estimação."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "O carro não tem relação com o cão nem com o cuidado de animais."},
+    {"word": "leash", "is_associated": true, "association_type": "THEMATIC", "explanation": "A coleira com guia é usada para passear com o cão, por isso está ligada ao tema."},
+    {"word": "cake", "is_associated": false, "association_type": "NONE", "explanation": "O bolo é um alimento para pessoas e não tem relação com o cão."},
+    {"word": "bark", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Latir é o som característico do cão, por isso tem relação de significado com ele."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "A cadeira é um móvel e não tem ligação com o cão."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'dog' são coisas que pertencem ao mundo do cão, como o osso, a coleira e o latido, enquanto as outras palavras não se relacionam com ele."
+}
