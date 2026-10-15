@@ -1,0 +1,14 @@
+{
+  "trigger_word": "coffee",
+  "all_words": [
+    {"word": "cup", "is_associated": true, "association_type": "THEMATIC", "explanation": "Kawę pijemy z filiżanki, więc słowo 'cup' jest ściśle związane z kawą."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie ma żadnego związku z kawą ani z piciem."},
+    {"word": "milk", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Kawę często pijemy z mlekiem, np. 'coffee with milk', więc te słowa często występują razem."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Ołówek służy do pisania i nie kojarzy się z kawą."},
+    {"word": "sugar", "is_associated": true, "association_type": "THEMATIC", "explanation": "Do kawy dodajemy cukier, więc to słowo należy do tematu kawy."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Okno nie ma związku z kawą."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'coffee' kojarzy się z przedmiotami i dodatkami używanymi przy piciu kawy, takimi jak filiżanka, mleko i cukier."
+}

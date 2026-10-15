@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the children were tired,",
+  "correct_completion": "they went to bed early.",
+  "full_sentence": "Because the children were tired, they went to bed early.",
+  "acceptable_variants": ["they fell asleep at once.", "they slept early."],
+  "options": [
+    {"text": "they goes to bed early.", "is_correct": false, "why_wrong": "After the subject 'they' the verb takes its base form 'go', not 'goes'."},
+    {"text": "they going to bed early.", "is_correct": false, "why_wrong": "'Going' needs an auxiliary verb, such as 'they are going'. Without it the sentence is incomplete."},
+    {"text": "they went to bed early.", "is_correct": true, "why_wrong": null},
+    {"text": "they gone to bed early.", "is_correct": false, "why_wrong": "'Gone' needs 'have' or 'had'. The simple past form that fits here is 'went'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Simple past after the connector 'because'",
+  "connector": "because",
+  "explanation": "The connector 'because' introduces a cause, so the main clause must describe the result in the simple past. Polish speakers may mix up verb forms because Polish marks past tense differently and does not use auxiliary verbs.",
+  "translation": "Ponieważ dzieci były zmęczone, poszły spać wcześnie."
+}
