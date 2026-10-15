@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My brother is very tall, and",
+  "correct_completion": "he has got brown eyes.",
+  "full_sentence": "My brother is very tall, and he has got brown eyes.",
+  "acceptable_variants": ["he has brown eyes.", "his eyes are brown."],
+  "options": [
+    {"text": "he is got brown eyes.", "is_correct": false, "why_wrong": "'Be' and 'got' cannot be combined this way; the structure for possession is 'has got'."},
+    {"text": "he have got brown eyes.", "is_correct": false, "why_wrong": "With he, she and it, the form must be 'has got', not 'have got'."},
+    {"text": "he has got brown eyes.", "is_correct": true, "why_wrong": null},
+    {"text": "he got brown eyes yesterday.", "is_correct": false, "why_wrong": "'Got' here is past simple, which does not describe a permanent feature such as eye colour."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Has got for possession and physical features",
+  "connector": "and",
+  "explanation": "The stem asks for a clause that describes a physical feature of the brother. 'Has got' is the correct form for third person singular in this structure. Polish speakers often miss the third person form because Polish uses one verb form for possession across most persons, so the change to 'has' needs practice.",
+  "translation": "Mój brat jest bardzo wysoki i ma brązowe oczy."
+}
