@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "etyka", "transliteration": "etyka", "meaning": "ethics"},
+    {"word": "korupcja", "transliteration": "korupcja", "meaning": "corruption"},
+    {"word": "transparentność", "transliteration": "transparentność", "meaning": "transparency"},
+    {"word": "dyskrecja", "transliteration": "dyskrecja", "meaning": "discretion"}
+  ],
+  "english_words": ["transparency", "ethics", "discretion", "corruption"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from Greek and Latin sources, so the forms stayed close.",
+  "false_friend_warning": null
+}
