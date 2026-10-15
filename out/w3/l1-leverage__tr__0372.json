@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "tema", "transliteration": "tema", "meaning": "theme"},
+    {"word": "karakter", "transliteration": "karakter", "meaning": "character"},
+    {"word": "metafor", "transliteration": "metafor", "meaning": "metaphor"},
+    {"word": "ironi", "transliteration": "ironi", "meaning": "irony"}
+  ],
+  "english_words": ["irony", "theme", "character", "metaphor"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these literary terms from the same Greek and Latin sources, so the forms stayed close and the meanings remained the same.",
+  "false_friend_warning": null
+}
