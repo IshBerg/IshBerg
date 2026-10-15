@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister has bought a new bike, so",
+  "correct_completion": "she is going to ride it to school tomorrow.",
+  "full_sentence": "My sister has bought a new bike, so she is going to ride it to school tomorrow.",
+  "acceptable_variants": ["she will ride it to school tomorrow.", "she is going to take it to school tomorrow."],
+  "options": [
+    {"text": "she bought it last year.", "is_correct": false, "why_wrong": "This is about the past, but the stem needs a future action that follows from the purchase."},
+    {"text": "the bike was very expensive.", "is_correct": false, "why_wrong": "This describes the bike, but it does not give a future action after 'so'."},
+    {"text": "she likes buses more than bikes.", "is_correct": false, "why_wrong": "This states a preference and does not complete the logical result of buying a new bike."},
+    {"text": "she is going to ride it to school tomorrow.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Future: going to for plans already made",
+  "connector": "so",
+  "explanation": "Going to shows a plan that the sister has already made, so it fits after 'so' as the result of buying the bike. Polish speakers often use one future form for all situations, but English separates planned future from simple predictions.",
+  "translation": "Moja siostra kupiła nowy rower, więc jutro pojedzie nim do szkoły."
+}
