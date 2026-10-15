@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktüel", "transliteration": "aktuel", "meaning": "current, up to date"},
+    {"word": "gerçek", "transliteration": "gercek", "meaning": "real, true"},
+    {"word": "şefkatli", "transliteration": "sefkatli", "meaning": "compassionate, caring"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "pleasant, likeable"}
+  ],
+  "english_words": ["sympathetic", "current", "likeable", "actual"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These words entered both languages from the same European sources, so their spelling stayed close. Over time the meaning shifted in one of the languages, which created the false friend.",
+  "false_friend_warning": "False friend trap: the English word 'actual' looks like the Turkish word meaning 'current' or 'up to date', but in English 'actual' means real or true. Similarly, 'sympathetic' looks like the Turkish word meaning 'pleasant' or 'likeable', but in English it means feeling pity or compassion for someone's suffering."
+}
