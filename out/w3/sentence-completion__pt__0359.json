@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The article was rewritten several times",
+  "correct_completion": "because the editor found several factual errors.",
+  "full_sentence": "The article was rewritten several times because the editor found several factual errors.",
+  "acceptable_variants": ["because the facts needed checking.", "since the editor spotted several mistakes."],
+  "options": [
+    {"text": "and the editor was pleased with it.", "is_correct": false, "why_wrong": "This adds a reaction but gives no reason for the rewriting, so it does not complete a cause-and-effect link."},
+    {"text": "although it was published on time.", "is_correct": false, "why_wrong": "'Although' signals contrast, but the stem sets up no contrast to resolve, so the clause does not fit logically."},
+    {"text": "because the editor found several factual errors.", "is_correct": true, "why_wrong": null},
+    {"text": "unless the author agreed to new changes.", "is_correct": false, "why_wrong": "'Unless' introduces a condition that must be met, which does not explain why the article was rewritten in the past."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Reason clauses introduced by 'because'",
+  "connector": "because",
+  "explanation": "The stem describes an action, so the completion must give its cause. 'Because' introduces a reason. Learners often confuse the connectors that express reasons with those that express contrast, because a single word in their own language can cover both meanings.",
+  "translation": "O artigo foi reescrito várias vezes porque o editor encontrou vários erros factuais."
+}
