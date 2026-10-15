@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Not only did the new policy reduce costs,",
+  "correct_completion": "but it also improved customer satisfaction.",
+  "full_sentence": "Not only did the new policy reduce costs, but it also improved customer satisfaction.",
+  "acceptable_variants": ["but it also raised the quality of service.", "but it also made the company more competitive."],
+  "options": [
+    {"text": "so the company decided to close two branches.", "is_correct": false, "why_wrong": "This gives a consequence, but 'not only ... but also' requires an additional positive result of the same kind."},
+    {"text": "but it also improved customer satisfaction.", "is_correct": true, "why_wrong": null},
+    {"text": "although customers still complained about delays.", "is_correct": false, "why_wrong": "'Although' introduces a contrast that breaks the additive structure 'not only ... but also'."},
+    {"text": "because the costs had been rising for years.", "is_correct": false, "why_wrong": "This explains a cause, but the stem's correlative structure needs a second benefit, not a reason."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Correlative conjunction 'not only ... but also' for additive cohesion",
+  "connector": "not only ... but also",
+  "explanation": "The stem opens a correlative pair, so the completion must add a second benefit that matches the first in form and meaning. Learners often choose a clause that introduces a cause or a contrast, which breaks the additive relationship. Check that the second half adds a parallel idea rather than explaining or opposing the first.",
+  "translation": "Yeni politika yalnızca maliyetleri düşürmekle kalmadı, aynı zamanda müşteri memnuniyetini de artırdı."
+}
