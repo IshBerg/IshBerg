@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bed",
+  "all_words": [
+    {"word": "pillow", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O travesseiro é um item de roupa de cama, por isso está diretamente relacionado com a palavra 'bed'."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "A mesa é um móvel de sala de jantar ou de cozinha e não tem relação direta com a cama."},
+    {"word": "sleep", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dormir é a atividade que acontece na cama, por isso é uma associação temática."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "A cadeira é usada para sentar e não tem nenhuma relação com a cama."},
+    {"word": "blanket", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O cobertor é um item de roupa de cama e fica normalmente sobre a cama."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "O rio é um lugar natural e não tem relação com móveis ou com a cama."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas a 'bed' são itens de roupa de cama ou atividades que acontecem na cama; as demais palavras não têm relação com ela."
+}

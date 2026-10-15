@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There were many mice in the kitchen, so",
+  "correct_completion": "we bought a cat to catch them.",
+  "full_sentence": "There were many mice in the kitchen, so we bought a cat to catch them.",
+  "acceptable_variants": ["we called a pest control company.", "we put traps under the sink."],
+  "options": [
+    {"text": "we bought some fresh bread.", "is_correct": false, "why_wrong": "Bread does not solve the problem of mice, so it does not follow logically from the cause given."},
+    {"text": "we bought a cat to catch them.", "is_correct": true, "why_wrong": null},
+    {"text": "the mice were very small and quiet.", "is_correct": false, "why_wrong": "This describes the mice but does not give a result of having many of them in the kitchen."},
+    {"text": "we went to the market on Sunday.", "is_correct": false, "why_wrong": "A market visit is unrelated to the mice, so it does not complete the cause-effect link that 'so' introduces."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Irregular plural 'mice' and 'so' to show a result",
+  "connector": "so",
+  "explanation": "'So' introduces a result of the first clause. The irregular plural 'mice' is used for the first part, so the result should be an action that deals with the problem of many mice. Note that Portuguese speakers may expect a regular plural ending in -s, but 'mice' does not add -s.",
+  "translation": "Havia muitos ratos na cozinha, então compramos um gato para pegá-los."
+}
