@@ -1,0 +1,23 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "unhappy", "intensity": 1, "translation": "infeliz", "nuance": "mild lack of happiness"},
+    {"word": "sad", "intensity": 2, "translation": "triste", "nuance": "general feeling of sorrow"},
+    {"word": "miserable", "intensity": 3, "translation": "miserável", "nuance": "strong unhappiness that affects daily life"},
+    {"word": "heartbroken", "intensity": 4, "translation": "com o coração partido", "nuance": "deep sorrow caused by loss or disappointment"},
+    {"word": "devastated", "intensity": 5, "translation": "devastado", "nuance": "overwhelming sorrow that feels almost impossible to bear"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe unhappiness with different intensities, from a mild lack of happiness to overwhelming grief.",
+  "usage_notes": [
+    {"word1": "unhappy", "word2": "sad", "difference": "'Unhappy' describes a general lack of happiness, often as a state, while 'sad' describes a more specific feeling of sorrow that is often linked to a particular event."}
+  ],
+  "translations": {
+    "unhappy": "infeliz",
+    "sad": "triste",
+    "miserable": "miserável",
+    "heartbroken": "com o coração partido",
+    "devastated": "devastado"
+  }
+}

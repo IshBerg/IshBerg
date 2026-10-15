@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The rapid growth of online shopping",
+  "correct_completion": "has changed how people spend their money.",
+  "full_sentence": "The rapid growth of online shopping has changed how people spend their money.",
+  "acceptable_variants": ["has transformed the way people shop and pay.", "has made online payment a common habit."],
+  "options": [
+    {"text": "people have been changing spending.", "is_correct": false, "why_wrong": "The subject 'growth' is singular, and the phrase 'people have been changing spending' does not form a grammatical main clause that agrees with it."},
+    {"text": "is changing spend the money.", "is_correct": false, "why_wrong": "The word order and verb form are incorrect. 'Spend' cannot follow this verb pattern directly."},
+    {"text": "has changed how people spend their money.", "is_correct": true, "why_wrong": null},
+    {"text": "they changed the money spending.", "is_correct": false, "why_wrong": "The pronoun 'they' shifts the subject away from 'growth', so the sentence no longer completes the nominal subject correctly."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Nominal subject built from 'growth of' followed by a singular present perfect verb",
+  "connector": "of",
+  "explanation": "The stem uses a nominalization: the action 'grow' has become the noun 'growth', which becomes the singular subject of the verb. The completion must therefore begin with a singular verb form such as 'has changed'.",
+  "translation": "O rápido crescimento das compras online mudou a forma como as pessoas gastam seu dinheiro."
+}
