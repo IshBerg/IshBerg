@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "telefon", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "muzeum", "transliteration": "muzeum", "meaning": "museum"},
+    {"word": "problem", "transliteration": "problem", "meaning": "problem"},
+    {"word": "hotel", "transliteration": "hotel", "meaning": "hotel"}
+  ],
+  "english_words": ["hotel", "problem", "telephone", "museum"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Greek, Latin, or French, so the forms stayed close and the meanings are the same.",
+  "false_friend_warning": null
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Hello, Anna!",
+  "text": "Tom: Hi, Anna. How are you? Anna: I am fine, thanks. And you? Tom: I am good, thank you.\n\nAnna: Where is the bus? Tom: It is near the park. Anna: Thank you, Tom! Tom: You are welcome.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How is Tom?", "options": ["He is good.", "He is sad.", "He is at the park.", "He is late."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "Where is the bus?", "options": ["Near the park.", "At the school.", "At home.", "In the shop."], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does Anna feel at the end?", "options": ["Thankful", "Angry", "Sleepy", "Scared"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What kind of people are Tom and Anna?", "options": ["Friendly people", "Enemies", "Teachers", "Doctors"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "fine", "translation": "dobrze", "definition": "well; okay"},
+    {"word": "park", "translation": "park", "definition": "a place with grass and trees where people walk and play"},
+    {"word": "bus", "translation": "autobus", "definition": "a large vehicle that carries many people"},
+    {"word": "welcome", "translation": "proszę bardzo", "definition": "a polite answer when someone says thank you"}
+  ],
+  "paragraph_translations": [
+    "Tom: Cześć, Anna. Jak się masz? Anna: Dobrze, dzięki. A ty? Tom: Ja też dobrze, dziękuję.",
+    "Anna: Gdzie jest autobus? Tom: Jest blisko parku. Anna: Dziękuję, Tom! Tom: Proszę bardzo."
+  ]
+}
