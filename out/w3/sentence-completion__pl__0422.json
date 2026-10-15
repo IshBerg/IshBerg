@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Thank you for your invitation, but",
+  "correct_completion": "I can't come on Saturday.",
+  "full_sentence": "Thank you for your invitation, but I can't come on Saturday.",
+  "acceptable_variants": ["I have another plan that day.", "I would like to come, but I am busy."],
+  "options": [
+    {"text": "I love birthday parties.", "is_correct": false, "why_wrong": "This is a positive comment, but it does not refuse the invitation, so it does not complete the contrast started by 'but'."},
+    {"text": "I can't come on Saturday.", "is_correct": true, "why_wrong": null},
+    {"text": "come to my party on Saturday.", "is_correct": false, "why_wrong": "This is another invitation, not a reply that contrasts with thanking someone for an invitation."},
+    {"text": "the party was very big.", "is_correct": false, "why_wrong": "This describes a party but does not give a reply to the invitation."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Using 'but' to show a contrast in polite refusals",
+  "connector": "but",
+  "explanation": "After 'thank you for your invitation', 'but' signals a polite refusal. The clause that follows must contrast with the thanks by saying the speaker cannot attend.",
+  "translation": "Dziękuję za zaproszenie, ale nie mogę przyjść w sobotę."
+}
