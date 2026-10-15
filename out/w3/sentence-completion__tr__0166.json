@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had studied harder last year,",
+  "correct_completion": "I would be a doctor by now.",
+  "full_sentence": "If I had studied harder last year, I would be a doctor by now.",
+  "acceptable_variants": ["I would probably be a doctor by now.", "I would be a qualified doctor today."],
+  "options": [
+    {"text": "I will be a doctor by now.", "is_correct": false, "why_wrong": "'Will' expresses a real future prediction, but the if-clause describes an unreal past condition, so the result needs 'would'."},
+    {"text": "I was a doctor by now.", "is_correct": false, "why_wrong": "A simple past describes a fact, not the hypothetical result of the unreal condition; the result needs 'would' plus a base verb."},
+    {"text": "I would be a doctor by now.", "is_correct": true, "why_wrong": null},
+    {"text": "I would become a doctor tomorrow.", "is_correct": false, "why_wrong": "'Tomorrow' conflicts with 'by now', which refers to the present, so the time reference does not fit the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals (type 3 if-clause with a type 2 present result)",
+  "connector": "if",
+  "explanation": "This is a mixed conditional. The if-clause refers to an unreal past (had studied), while the result refers to the present (by now), so the result uses would plus a base verb. Turkish speakers often align the time of the result with the time of the condition, which leads them to choose a past form here; the result must instead point to the present time.",
+  "translation": "Geçen yıl daha çok çalışsaydım, şu an doktor olurdum."
+}
