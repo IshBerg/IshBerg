@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem is very short,",
+  "correct_completion": "it contains a deep message about loss.",
+  "full_sentence": "Although the poem is very short, it contains a deep message about loss.",
+  "acceptable_variants": ["it still expresses strong emotions.", "it leaves the reader with a lasting feeling."],
+  "options": [
+    {"text": "so it contains a deep message about loss.", "is_correct": false, "why_wrong": "'So' expresses a result, but 'although' requires a contrast. The result connector does not fit this stem."},
+    {"text": "it contains a deep message about loss.", "is_correct": true, "why_wrong": null},
+    {"text": "because the poet wrote it quickly.", "is_correct": false, "why_wrong": "'Because' gives a cause, while 'although' introduces a contrast. The two connectors cannot be swapped."},
+    {"text": "and the poet lives in a city.", "is_correct": false, "why_wrong": "'And' adds unrelated information, but it does not express the contrast that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must show a contrast with the first. Learners often use result or cause connectors here by habit, but 'although' always signals a surprising or opposite idea.",
+  "translation": "Aunque el poema es muy corto, contiene un mensaje profundo sobre la pérdida."
+}
