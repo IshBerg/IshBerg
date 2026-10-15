@@ -1,0 +1,13 @@
+{
+  "start_word": "bankrupt",
+  "end_word": "prosperous",
+  "ladder_steps": [
+    {"word": "bankrupt", "translation": "банкрутний", "intensity_level": 1},
+    {"word": "struggling", "translation": "збитковий", "intensity_level": 2},
+    {"word": "stable", "translation": "стабільний", "intensity_level": 3},
+    {"word": "profitable", "translation": "прибутковий", "intensity_level": 4},
+    {"word": "prosperous", "translation": "процвітаючий", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe the financial health of a business and form a ladder from complete failure to strong success, with each step indicating a better financial position than the one before."
+}

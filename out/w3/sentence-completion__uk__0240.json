@@ -1,0 +1,21 @@
+{
+  "sentence_stem": "Had the committee been given more time to review the evidence,",
+  "correct_completion": "it would have reached a far more nuanced verdict.",
+  "full_sentence": "Had the committee been given more time to review the evidence, it would have reached a far more nuanced verdict.",
+  "acceptable_variants": [
+    "the panel would have weighed the findings more carefully.",
+    "its judgement would have been considerably more balanced."
+  ],
+  "options": [
+    {"text": "it reaches a far more nuanced verdict.", "is_correct": false, "why_wrong": "The present tense does not match the hypothetical past condition set up by the inverted 'Had'. The main clause must express an unrealized past result."},
+    {"text": "it was reaching a more nuanced verdict.", "is_correct": false, "why_wrong": "The past continuous describes an ongoing past action, not the hypothetical result of a condition that did not happen."},
+    {"text": "so the verdict had been nuanced.", "is_correct": false, "why_wrong": "'So' introduces a result of a stated fact. The stem sets up a hypothetical condition, so the continuation must be a conditional consequence."},
+    {"text": "it would have reached a far more nuanced verdict.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had' in a formal register",
+  "connector": "had",
+  "explanation": "Inverted conditionals drop 'if' and move 'had' to the front of the clause. The main clause must then use would have plus a past participle to express the hypothetical result. Learners whose first language marks unreal past meaning with a different grammatical device often leave out the would have structure, so the main clause needs this full form to complete the condition.",
+  "translation": "Якби комітету дали більше часу на розгляд доказів, він ухвалив би набагато зваженіший висновок."
+}

@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "loan", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Банки видають позики, тому слово loan має прямий смисловий зв'язок зі словом bank."},
+    {"word": "orange", "is_associated": false, "association_type": "NONE", "explanation": "Апельсин належить до сфери фруктів і не має відношення до банківської справи."},
+    {"word": "interest", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення bank interest означає банківський відсоток, тому слова часто вживаються разом."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець є канцелярським приладдям і не пов'язаний з банками."},
+    {"word": "account", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Банківський рахунок, bank account, є типовим словосполученням, у якому обидва слова вживаються разом."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Жирафа є твариною і не має жодного зв'язку з банківською сферою."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово bank асоціюється з фінансовими послугами, такими як позики, відсотки та рахунки. Слова з інших сфер, як-от фрукти, канцелярія чи тварини, до нього не належать."
+}
