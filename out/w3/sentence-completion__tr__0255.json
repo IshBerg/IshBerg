@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister does not like coffee, so",
+  "correct_completion": "she drinks orange juice.",
+  "full_sentence": "My sister does not like coffee, so she drinks orange juice.",
+  "acceptable_variants": ["she drinks tea.", "she has a glass of milk."],
+  "options": [
+    {"text": "she does not likes orange juice.", "is_correct": false, "why_wrong": "After 'does not', use the base form 'like' or 'drink', not a form with -s."},
+    {"text": "she drinks orange juice.", "is_correct": true, "why_wrong": null},
+    {"text": "she drink orange juice.", "is_correct": false, "why_wrong": "With 'she' in the present simple, the verb needs -s: 'drinks', not 'drink'."},
+    {"text": "she likes coffee very much.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the sister does not like coffee."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present simple: like and don't like, with -s in the third person singular",
+  "connector": "so",
+  "explanation": "After 'so', the second part gives the result of the first part. Because the stem uses 'does not like', the result must be a positive present simple verb. Students may forget the third person -s, which English adds to present simple verbs after he, she, and it.",
+  "translation": "Kardeşim kahveyi sevmez, bu yüzden portakal suyu içer."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "kar", "transliteration": "kar", "meaning": "snow"},
+    {"word": "sis", "transliteration": "sis", "meaning": "fog, mist"},
+    {"word": "dolu", "transliteration": "dolu", "meaning": "hail (weather)"},
+    {"word": "pansiyon", "transliteration": "pansiyon", "meaning": "guesthouse"}
+  ],
+  "english_words": ["hail", "guesthouse", "snow", "fog"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These look-alike pairs are coincidences rather than shared origins, so the similarity in form does not reflect a similarity in meaning.",
+  "false_friend_warning": "False friend trap: the Turkish word 'kar' (transliteration kar) sounds like the English word 'car', but it means snow."
+}
