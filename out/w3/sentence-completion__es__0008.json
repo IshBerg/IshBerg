@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is widely believed that the new policy will reduce traffic, although",
+  "correct_completion": "there is still little evidence to confirm this.",
+  "full_sentence": "It is widely believed that the new policy will reduce traffic, although there is still little evidence to confirm this.",
+  "acceptable_variants": ["the data has not yet been analysed.", "there is still little proof of this."],
+  "options": [
+    {"text": "the policy was introduced in March.", "is_correct": false, "why_wrong": "This adds background detail, but it does not contrast with the expected effect on traffic that 'although' introduces."},
+    {"text": "because drivers have been asked to use buses.", "is_correct": false, "why_wrong": "'Because' signals cause, not contrast. 'Although' needs a clause that goes against the expected result."},
+    {"text": "there is still little evidence to confirm this.", "is_correct": true, "why_wrong": null},
+    {"text": "so the council has already approved it.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a clause that contrasts with the belief in the first part."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Impersonal passive 'It is believed that...' followed by a concessive clause with 'although'",
+  "connector": "although",
+  "explanation": "The impersonal passive reports a general belief, and 'although' then introduces a clause that contrasts with that belief. Spanish speakers often use 'because' or 'so' here, but English concessive clauses need a contrasting point.",
+  "translation": "Se cree ampliamente que la nueva política reducirá el tráfico, aunque todavía hay pocas pruebas que lo confirmen."
+}
