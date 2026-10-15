@@ -1,0 +1,14 @@
+{
+  "trigger_word": "lion",
+  "all_words": [
+    {"word": "jungle", "is_associated": true, "association_type": "THEMATIC", "explanation": "El león vive en la sabana y en algunas selvas, así que la selva está relacionada con el tema de los animales salvajes."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta no tiene ninguna relación con los leones ni con los animales salvajes."},
+    {"word": "roar", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El rugido es el sonido que hace el león, por eso la palabra está directamente relacionada con él."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "El lápiz es un objeto de la escuela y no tiene relación con el león."},
+    {"word": "king", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "En inglés se dice 'lion king' para hablar del rey de los animales, por eso la palabra aparece junto a 'lion'."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "El sofá es un mueble de la casa y no tiene ninguna relación con el león."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'lion' se asocia con el hábitat de la sabana y la selva, con su rugido y con el título de rey de los animales, mientras que los objetos de la casa y de la escuela no se asocian con ella."
+}
