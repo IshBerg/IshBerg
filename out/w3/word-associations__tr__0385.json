@@ -1,0 +1,14 @@
+{
+  "trigger_word": "experiment",
+  "all_words": [
+    {"word": "laboratory", "is_associated": true, "association_type": "THEMATIC", "explanation": "Deneyler genellikle laboratuvarda yapılır, bu yüzden iki kavram aynı bilimsel bağlamda yer alır."},
+    {"word": "guitar", "is_associated": false, "association_type": "NONE", "explanation": "Gitar bir müzik aletidir ve deney kavramıyla bilimsel bir bağlantısı yoktur."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Deneyden önce test edilen varsayım olan hipotez, 'hipotezi test etmek' kalıbıyla deneyle doğrudan ilişkilidir."},
+    {"word": "bakery", "is_associated": false, "association_type": "NONE", "explanation": "Fırın, ekmek ve pasta satılan bir yerdir; bilimsel deney ile ilgisi yoktur."},
+    {"word": "microscope", "is_associated": true, "association_type": "THEMATIC", "explanation": "Mikroskop, deneylerde numuneleri incelemek için kullanılan bir araçtır ve bu nedenle konuyla tematik olarak bağlantılıdır."},
+    {"word": "tennis", "is_associated": false, "association_type": "NONE", "explanation": "Tenis bir spor dalıdır ve deney kavramıyla hiçbir ilişkisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Deney kelimesi laboratuvar, hipotez ve mikroskop gibi bilimsel yöntemle ve araçlarla ilişkilidir; diğer kelimeler farklı alanlara aittir."
+}
