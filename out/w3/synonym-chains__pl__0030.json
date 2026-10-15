@@ -1,0 +1,23 @@
+{
+  "central_word": "hungry",
+  "chain_words": [
+    {"word": "peckish", "intensity": 1, "translation": "lekko zgłodniały", "nuance": "slightly hungry, wanting a small snack"},
+    {"word": "hungry", "intensity": 2, "translation": "głodny", "nuance": "wanting food in a normal way"},
+    {"word": "famished", "intensity": 3, "translation": "wygłodniały", "nuance": "very hungry, feeling weak from lack of food"},
+    {"word": "starving", "intensity": 4, "translation": "umierający z głodu", "nuance": "extremely hungry, often used informally for exaggeration"},
+    {"word": "ravenous", "intensity": 5, "translation": "zgłodniały jak wilk", "nuance": "eager to eat a large amount of food"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express the need for food but with different intensities, from a light desire for a snack to an overwhelming appetite.",
+  "usage_notes": [
+    {"word1": "hungry", "word2": "peckish", "difference": "'Hungry' describes a normal need for a meal; 'peckish' is informal British English and describes only a light appetite between meals."}
+  ],
+  "translations": {
+    "peckish": "lekko zgłodniały",
+    "hungry": "głodny",
+    "famished": "wygłodniały",
+    "starving": "umierający z głodu",
+    "ravenous": "zgłodniały jak wilk"
+  }
+}
