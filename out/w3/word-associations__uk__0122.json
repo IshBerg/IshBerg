@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лікарі працюють у лікарні, тому це слово належить до тієї самої теми."},
+    {"word": "stethoscope", "is_associated": true, "association_type": "THEMATIC", "explanation": "Стетоскоп є інструментом, яким лікар слухає серце та легені пацієнта."},
+    {"word": "medicine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Лікар призначає ліки, тому слова 'doctor' і 'medicine' часто стоять поруч."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Хліб не пов'язаний із лікарями чи медициною, тому ця пара не має зв'язку."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не має жодного зв'язку з роботою лікаря."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед належить до транспорту і не пов'язаний із лікарями."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'doctor' асоціюється з місцями, інструментами та ліками, пов'язаними з медичною допомогою."
+}
