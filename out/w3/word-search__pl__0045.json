@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["R", "E", "B", "U", "T", "T", "A", "L"],
+    ["P", "X", "K", "Z", "N", "J", "Q", "W"],
+    ["R", "D", "O", "N", "V", "X", "H", "K"],
+    ["E", "F", "A", "L", "L", "A", "C", "Y"],
+    ["M", "W", "Q", "J", "B", "D", "Z", "U"],
+    ["I", "T", "L", "O", "G", "I", "C", "K"],
+    ["S", "H", "P", "W", "X", "Q", "J", "N"],
+    ["E", "V", "C", "L", "A", "I", "M", "B"]
+  ],
+  "words_to_find": ["REBUTTAL", "PREMISE", "FALLACY", "LOGIC", "CLAIM"],
+  "word_positions": [
+    {"word": "REBUTTAL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PREMISE", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "FALLACY", "start_row": 3, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "LOGIC", "start_row": 5, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "CLAIM", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Precision Vocabulary for Argumentation"
+}
