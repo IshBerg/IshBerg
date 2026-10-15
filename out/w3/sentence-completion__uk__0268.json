@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had the team faced such a challenge,",
+  "correct_completion": "so they asked the manager for extra time.",
+  "full_sentence": "Never before had the team faced such a challenge, so they asked the manager for extra time.",
+  "acceptable_variants": ["so they requested more time from the manager.", "so they asked for help from the other departments."],
+  "options": [
+    {"text": "and they had always enjoyed easy tasks.", "is_correct": false, "why_wrong": "The stem stresses a new, hard challenge. This option describes an easy routine, which does not fit the emphasis of 'never before'."},
+    {"text": "but the team had already finished the project.", "is_correct": false, "why_wrong": "The stem sets up an unfamiliar difficulty, so a completed project does not follow logically from it."},
+    {"text": "so they asked the manager for extra time.", "is_correct": true, "why_wrong": null},
+    {"text": "because the weather was very cold.", "is_correct": false, "why_wrong": "'Because' introduces a cause unrelated to the challenge. The sentence needs a logical reaction to the challenge."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Fronted negative adverbials with subject-auxiliary inversion",
+  "connector": "never before",
+  "explanation": "After a fronted negative adverbial such as 'never before', the auxiliary is inverted, and the main clause must give a logical result of the stated challenge.",
+  "translation": "Ніколи раніше команда не стикалася з таким викликом, тому вони попросили у менеджера додатковий час."
+}

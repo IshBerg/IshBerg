@@ -1,0 +1,20 @@
+{
+  "title": "Ben's Food",
+  "text": "Ben likes breakfast. Every morning he eats bread and an egg. He drinks a glass of milk. He likes orange juice too, but only on Sundays.\n\nAt lunch, Ben eats soup with his mother. For dessert, they have an apple. Ben does not like tea, so he drinks water.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What does Ben eat every morning?", "options": ["Soup", "Bread and an egg", "An apple", "Rice"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does Ben not like to drink?", "options": ["Water", "Tea", "Milk", "Orange juice"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why is orange juice a special drink for Ben?", "options": ["He drinks it only on Sundays, so it is a treat", "He does not like oranges", "He drinks it every morning", "He cannot buy it in his town"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Where does Ben probably eat lunch?", "options": ["At a restaurant", "At school", "At home", "On a bus"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "breakfast", "translation": "сніданок", "definition": "the first meal of the day, eaten in the morning"},
+    {"word": "soup", "translation": "суп", "definition": "a warm liquid food made with water and vegetables or meat"},
+    {"word": "dessert", "translation": "десерт", "definition": "a sweet food eaten at the end of a meal"},
+    {"word": "apple", "translation": "яблуко", "definition": "a round, sweet fruit that is red, green or yellow"}
+  ],
+  "paragraph_translations": [
+    "Бен любить сніданок. Щоранку він їсть хліб і яйце. Він п'є склянку молока. Він також любить апельсиновий сік, але тільки по неділях.",
+    "У обід Бен їсть суп з мамою. На десерт вони мають яблуко. Бен не любить чай, тому п'є воду."
+  ]
+}
