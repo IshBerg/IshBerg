@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "метал", "transliteration": "metal", "meaning": "metal"},
+    {"word": "пластик", "transliteration": "plastyk", "meaning": "plastic"},
+    {"word": "бронза", "transliteration": "bronza", "meaning": "bronze"},
+    {"word": "текстура", "transliteration": "tekstura", "meaning": "texture"}
+  ],
+  "english_words": ["plastic", "texture", "metal", "bronze"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each of these four words comes from a Latin, Greek or French source that both languages borrowed, so the spelling and meaning stayed close to the English forms.",
+  "false_friend_warning": null
+}

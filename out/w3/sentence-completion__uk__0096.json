@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are many books on the shelf, but",
+  "correct_completion": "I cannot find the one I need.",
+  "full_sentence": "There are many books on the shelf, but I cannot find the one I need.",
+  "acceptable_variants": ["none of them is interesting for my project.", "I still have not read most of them."],
+  "options": [
+    {"text": "there is a cat under the table.", "is_correct": false, "why_wrong": "This introduces an unrelated object; the 'but' expects a contrast with the books on the shelf."},
+    {"text": "I can see them all clearly.", "is_correct": false, "why_wrong": "This agrees with the first clause instead of contrasting with it, so 'but' makes no sense."},
+    {"text": "I cannot find the one I need.", "is_correct": true, "why_wrong": null},
+    {"text": "there are two chairs in the room.", "is_correct": false, "why_wrong": "This is a correct existence sentence, but it does not complete the contrast opened by 'but'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "There is / There are, followed by a contrast with 'but'",
+  "connector": "but",
+  "explanation": "The 'but' signals that the second clause will contrast with the existence of many books. Ukrainian speakers may find a single fixed form natural for existence sentences, but English 'there is' and 'there are' must agree with the noun that follows.",
+  "translation": "На полиці багато книжок, але я не можу знайти ту, яка мені потрібна."
+}
