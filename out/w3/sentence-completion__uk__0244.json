@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the heavy rain,",
+  "correct_completion": "the match went ahead as scheduled.",
+  "full_sentence": "Despite the heavy rain, the match went ahead as scheduled.",
+  "acceptable_variants": ["the match was still played on time.", "the players took the field anyway."],
+  "options": [
+    {"text": "so the match was cancelled.", "is_correct": false, "why_wrong": "'So' expresses a result, but 'despite' requires a contrast, so a cancellation here is a consequence rather than a surprising outcome."},
+    {"text": "the match went ahead as scheduled.", "is_correct": true, "why_wrong": null},
+    {"text": "because the pitch was flooded.", "is_correct": false, "why_wrong": "'Because' introduces a cause, and 'despite' cannot be followed by a cause clause that explains the situation in this way."},
+    {"text": "the stadium was closed for repairs.", "is_correct": false, "why_wrong": "This adds a fact about the stadium but does not give the contrasting outcome that 'despite' expects."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Prepositional concession with 'despite' (despite + noun phrase, followed by a contrasting main clause)",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a concession, so the main clause must describe an outcome that goes against what the bad weather would normally lead to. Learners often add a result or cause link after the concessive phrase, but English expects a contrasting main clause instead.",
+  "translation": "Попри сильний дощ, матч відбувся за розкладом."
+}
