@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There was hardly any milk in the fridge, so",
+  "correct_completion": "we bought some more at the shop.",
+  "full_sentence": "There was hardly any milk in the fridge, so we bought some more at the shop.",
+  "acceptable_variants": ["we went to the supermarket.", "we ordered some milk online."],
+  "options": [
+    {"text": "we had a big glass of milk.", "is_correct": false, "why_wrong": "'So' introduces a result of the first clause. A big glass of milk does not follow from having hardly any milk."},
+    {"text": "we did not need to buy anything.", "is_correct": false, "why_wrong": "This contradicts the cause. Having hardly any milk creates a need to buy more, not a lack of need."},
+    {"text": "we bought some more at the shop.", "is_correct": true, "why_wrong": null},
+    {"text": "the fridge was empty and cold.", "is_correct": false, "why_wrong": "This repeats the description of the fridge but does not give a result of the cause stated before 'so'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Quantifier 'hardly any' with a cause-and-effect connector 'so'",
+  "connector": "so",
+  "explanation": "The word 'so' shows a result. The first clause says there is almost no milk, so the completion must describe what people did because of that shortage.",
+  "translation": "Casi no había leche en la nevera, así que compramos más en la tienda."
+}
