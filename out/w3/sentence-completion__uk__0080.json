@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Last weekend we walked to the market,",
+  "correct_completion": "and we visited the bakery.",
+  "full_sentence": "Last weekend we walked to the market, and we visited the bakery.",
+  "acceptable_variants": ["and we talked with our neighbours.", "and we looked at the fruit stalls."],
+  "options": [
+    {"text": "and we cleaned the kitchen all day.", "is_correct": false, "why_wrong": "Cleaning the kitchen does not continue the story of going to the market. The completion should describe what happened there."},
+    {"text": "and it rained a lot.", "is_correct": false, "why_wrong": "This describes the weather, but it does not complete the action of going to the market."},
+    {"text": "and we are going to buy bread.", "is_correct": false, "why_wrong": "This uses a future form, but the stem is in the past, so the completion needs a past verb."},
+    {"text": "and we visited the bakery.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple regular verbs (-ed) in narrative sentences",
+  "connector": "and",
+  "explanation": "The completion should continue the story with a past simple action that follows from walking to the market. Regular past verbs add -ed, as in 'walked' and 'visited'. Ukrainian speakers sometimes mix future and past forms when telling a story, so check that every verb in the sentence is in the past.",
+  "translation": "Минулих вихідних ми пішли на ринок і відвідали пекарню."
+}
