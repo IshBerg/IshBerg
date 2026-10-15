@@ -1,0 +1,14 @@
+{
+  "trigger_word": "news",
+  "all_words": [
+    {"word": "reporter", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Muhabir haber toplayıp yazan kişidir, bu yüzden haberle anlam olarak ilişkilidir."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Dağ bir doğa yeridir ve haberler veya gazetecilikle hiçbir ilgisi yoktur."},
+    {"word": "headline", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'News headline' sık kullanılan bir ifadedir; manşet haberin en üstündeki başlıktır."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Sandviç bir yiyecektir ve haber konusuyla hiçbir bağlantısı yoktur."},
+    {"word": "channel", "is_associated": true, "association_type": "THEMATIC", "explanation": "Haber kanalı, haberlerin yayınlandığı televizyon kanalıdır ve aynı konu alanına aittir."},
+    {"word": "editor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Editör, haberlerin yayına hazırlanmasından sorumlu gazetecilik çalışanıdır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Haber kelimesi gazetecilik ve medya dünyasıyla ilgili kelimelerle ilişkilidir; dağ ve sandviç gibi kelimeler ise bu alanın dışındadır."
+}

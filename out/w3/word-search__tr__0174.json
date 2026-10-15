@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["R", "E", "D", "Q", "W", "K", "M", "A", "B"],
+    ["P", "O", "J", "X", "C", "Z", "G", "H", "L"],
+    ["S", "K", "A", "Y", "M", "Q", "W", "Z", "U"],
+    ["H", "P", "Q", "I", "C", "D", "O", "X", "E"],
+    ["T", "G", "Y", "L", "W", "R", "A", "M", "K"],
+    ["J", "E", "V", "Q", "S", "P", "Z", "B", "D"],
+    ["Y", "U", "N", "X", "G", "L", "Q", "T", "R"],
+    ["C", "H", "O", "W", "F", "K", "J", "Y", "G"],
+    ["L", "B", "Q", "F", "I", "V", "E", "D", "K"]
+  ],
+  "words_to_find": ["RED", "BLUE", "TEN", "FIVE"],
+  "word_positions": [
+    {"word": "RED", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BLUE", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "TEN", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "FIVE", "start_row": 8, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Colors and Numbers 1-20"
+}
