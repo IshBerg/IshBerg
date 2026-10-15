@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["Q", "U", "E", "S", "T", "I", "O", "N", "A"],
+    ["B", "F", "K", "L", "W", "Z", "X", "M", "N"],
+    ["T", "O", "P", "I", "C", "G", "H", "J", "S"],
+    ["V", "P", "L", "Q", "Y", "D", "K", "B", "W"],
+    ["M", "Z", "F", "X", "R", "U", "J", "P", "E"],
+    ["Z", "K", "D", "O", "W", "L", "T", "G", "R"],
+    ["H", "Q", "C", "V", "M", "Y", "S", "A", "B"],
+    ["P", "E", "I", "W", "K", "F", "N", "Z", "U"],
+    ["R", "G", "X", "B", "L", "H", "T", "O", "C"]
+  ],
+  "words_to_find": ["QUESTION", "ANSWER", "RECORD", "TOPIC"],
+  "word_positions": [
+    {"word": "QUESTION", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ANSWER", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "RECORD", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "TOPIC", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Interview Transcripts"
+}
