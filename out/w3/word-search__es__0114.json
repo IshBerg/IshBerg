@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["H", "A", "P", "P", "Y", "A", "Q", "Z", "X"],
+    ["K", "M", "T", "B", "J", "N", "U", "I", "G"],
+    ["R", "D", "O", "F", "V", "G", "W", "K", "L"],
+    ["P", "E", "S", "X", "U", "R", "Q", "T", "A"],
+    ["C", "O", "W", "N", "K", "Y", "B", "X", "D"],
+    ["F", "A", "Z", "H", "I", "V", "E", "Q", "P"],
+    ["O", "U", "L", "T", "R", "M", "Y", "I", "H"],
+    ["Q", "S", "N", "M", "P", "H", "Z", "W", "E"],
+    ["B", "I", "K", "D", "S", "T", "L", "P", "F"]
+  ],
+  "words_to_find": ["HAPPY", "GLAD", "CALM", "SHY", "ANGRY"],
+  "word_positions": [
+    {"word": "HAPPY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GLAD", "start_row": 1, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CALM", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SHY", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"},
+    {"word": "ANGRY", "start_row": 0, "start_col": 5, "direction": "VERTICAL"}
+  ],
+  "topic": "Nuanced Synonyms"
+}

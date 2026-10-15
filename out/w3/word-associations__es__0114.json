@@ -1,0 +1,13 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El trueno es el sonido que se escucha durante una tormenta."},
+    {"word": "desk", "is_associated": false, "association_type": "NONE", "explanation": "Un escritorio es un mueble de oficina y no tiene relación con las tormentas."},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "El paraguas se usa para protegerse de la lluvia durante una tormenta."},
+    {"word": "dolphin", "is_associated": false, "association_type": "NONE", "explanation": "El delfín es un animal marino y no tiene relación con las tormentas."},
+    {"word": "lightning", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Se dice 'lightning storm' (tormenta eléctrica) porque los relámpagos aparecen en las tormentas."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "El pan es un alimento y no tiene relación con las tormentas."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "explanation": "Las palabras asociadas con 'storm' son fenómenos u objetos relacionados con las tormentas; las demás no tienen ninguna relación con ellas."
+}
