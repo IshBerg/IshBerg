@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were walking in the park,",
+  "correct_completion": "we saw an old friend.",
+  "full_sentence": "While we were walking in the park, we saw an old friend.",
+  "acceptable_variants": ["we met our neighbour.", "we heard someone singing."],
+  "options": [
+    {"text": "we have seen an old friend.", "is_correct": false, "why_wrong": "The present perfect 'have seen' does not fit a sentence set in the past with 'while' and a past continuous clause. The past simple 'saw' is needed."},
+    {"text": "we will see an old friend.", "is_correct": false, "why_wrong": "The future 'will see' does not match the past continuous 'were walking'. The sentence describes a past event."},
+    {"text": "we saw an old friend.", "is_correct": true, "why_wrong": null},
+    {"text": "we see an old friend.", "is_correct": false, "why_wrong": "The present simple 'see' is inconsistent with the past time frame set by 'were walking'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous after 'while' for an action in progress, with past simple in the main clause",
+  "connector": "while",
+  "explanation": "'While' with the past continuous marks an action that was in progress at the same time. The main clause then uses the past simple for the new event that happened during it.",
+  "translation": "Kiedy spacerowaliśmy po parku, zobaczyliśmy starego przyjaciela."
+}
