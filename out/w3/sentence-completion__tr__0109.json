@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were walking to the station,",
+  "correct_completion": "it started to rain.",
+  "full_sentence": "While we were walking to the station, it started to rain.",
+  "acceptable_variants": ["it was raining heavily.", "the sky suddenly turned dark."],
+  "options": [
+    {"text": "so we took a taxi home.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'while' needs an event that happens at the same time as the walking, not a consequence."},
+    {"text": "it started to rain.", "is_correct": true, "why_wrong": null},
+    {"text": "we will be at the station soon.", "is_correct": false, "why_wrong": "A future verb does not fit the past-time clause that 'while' introduces."},
+    {"text": "the train had arrived at noon.", "is_correct": false, "why_wrong": "This is a finished event before the walking began, but 'while' needs an action that happens during the walking."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous with 'while' for actions in progress at the same time",
+  "connector": "while",
+  "explanation": "'While' links two actions that happen at the same time. The first clause uses the past continuous, so the second clause should describe an event that interrupts or occurs during that activity. Learners whose first language is Turkish may need reminding that the progressive meaning must be marked with 'was' or 'were' plus the -ing form.",
+  "translation": "İstasyona doğru yürürken yağmur yağmaya başladı."
+}

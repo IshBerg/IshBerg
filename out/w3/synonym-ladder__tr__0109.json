@@ -1,0 +1,13 @@
+{
+  "start_word": "bad",
+  "end_word": "great",
+  "ladder_steps": [
+    {"word": "bad", "translation": "kötü", "intensity_level": 1},
+    {"word": "poor", "translation": "yetersiz", "intensity_level": 2},
+    {"word": "okay", "translation": "idare eder", "intensity_level": 3},
+    {"word": "good", "translation": "iyi", "intensity_level": 4},
+    {"word": "great", "translation": "harika", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe quality on one scale, from the worst result to the best, with each step slightly better than the last."
+}
