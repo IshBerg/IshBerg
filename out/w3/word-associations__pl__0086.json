@@ -1,0 +1,14 @@
+{
+  "trigger_word": "shoe",
+  "all_words": [
+    {"word": "sock", "is_associated": true, "association_type": "THEMATIC", "explanation": "Skarpetka i but to ubrania noszone razem na stopach, więc są ze sobą tematycznie powiązane."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Rzeka nie ma żadnego związku z butami."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Chleb nie ma żadnego związku z butami."},
+    {"word": "lace", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Sznurowadło tworzy typowe słowo złożone 'shoelace', więc łączy się z butem w stałym wyrażeniu."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Okno nie ma żadnego związku z butami."},
+    {"word": "foot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Stopa to część ciała, na której nosi się buty, więc znaczeniowo jest bardzo blisko."}
+  ],
+  "correct_indices": [0, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo 'shoe' łączy się z ubraniem na stopy, jego częściami i tym, co je otacza; rzeka, chleb i okno nie mają z nim związku."
+}

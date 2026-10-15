@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["F", "E", "V", "E", "R", "Q", "D", "K", "P"],
+    ["B", "A", "G", "Z", "W", "H", "O", "M", "I"],
+    ["J", "S", "Y", "X", "N", "U", "C", "W", "L"],
+    ["Q", "D", "K", "B", "A", "G", "T", "V", "L"],
+    ["N", "H", "I", "F", "A", "Y", "O", "Z", "J"],
+    ["W", "U", "K", "M", "B", "P", "R", "X", "Q"],
+    ["G", "Z", "R", "J", "V", "L", "H", "D", "W"],
+    ["Y", "K", "F", "S", "M", "Q", "A", "B", "V"],
+    ["T", "X", "G", "W", "E", "N", "Z", "U", "K"]
+  ],
+  "words_to_find": ["FEVER", "PILL", "NURSE", "DOCTOR"],
+  "word_positions": [
+    {"word": "FEVER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PILL", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "NURSE", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "DOCTOR", "start_row": 0, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Health and Illness"
+}
