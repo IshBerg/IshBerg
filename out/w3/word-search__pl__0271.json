@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["R", "E", "S", "T", "Q", "B", "M", "A", "O", "Z"],
+    ["H", "U", "C", "Y", "F", "G", "J", "I", "L", "V"],
+    ["P", "N", "O", "W", "Y", "S", "H", "F", "X", "U"],
+    ["M", "A", "Z", "K", "B", "L", "Q", "J", "C", "T"],
+    ["D", "V", "G", "Y", "N", "E", "B", "T", "U", "I"],
+    ["A", "R", "C", "H", "P", "E", "M", "Q", "F", "O"],
+    ["T", "F", "I", "D", "K", "P", "V", "Z", "S", "L"],
+    ["G", "Y", "W", "N", "Z", "O", "J", "U", "A", "R"],
+    ["C", "M", "X", "B", "K", "T", "Q", "E", "I", "N"],
+    ["B", "F", "H", "V", "S", "D", "K", "L", "A", "W"]
+  ],
+  "words_to_find": ["REST", "SLEEP", "DRINK", "WALK"],
+  "word_positions": [
+    {"word": "REST", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLEEP", "start_row": 2, "start_col": 5, "direction": "VERTICAL"},
+    {"word": "DRINK", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "WALK", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "Giving Advice"
+}
