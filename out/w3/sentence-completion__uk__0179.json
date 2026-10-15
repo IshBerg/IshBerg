@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before had the company faced",
+  "correct_completion": "such a serious financial crisis.",
+  "full_sentence": "Never before had the company faced such a serious financial crisis.",
+  "acceptable_variants": ["such a serious crisis in its history.", "a financial crisis of this scale."],
+  "options": [
+    {"text": "it had faced a serious financial crisis.", "is_correct": false, "why_wrong": "The stem already uses inversion after 'never before'. Repeating the subject 'it' after the inverted auxiliary breaks the word order required by this structure."},
+    {"text": "such a serious financial crisis.", "is_correct": true, "why_wrong": null},
+    {"text": "did the company face such a crisis.", "is_correct": false, "why_wrong": "The stem has already supplied the inverted auxiliary 'had'. A second auxiliary 'did' makes the structure ungrammatical."},
+    {"text": "the company had faced such a crisis.", "is_correct": false, "why_wrong": "This repeats the subject and the auxiliary after the stem, which is ungrammatical. The inversion is already complete in the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after 'never before'",
+  "connector": "never before",
+  "explanation": "After a negative adverbial such as 'never before', the auxiliary verb comes before the subject. The completion must then supply only the object and its modifiers, without repeating the subject or auxiliary.",
+  "translation": "Ніколи раніше компанія не стикалася з такою серйозною фінансовою кризою."
+}
