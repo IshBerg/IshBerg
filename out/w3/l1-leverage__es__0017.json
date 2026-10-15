@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "problema", "transliteration": "problema", "meaning": "problem, difficulty"},
+    {"word": "información", "transliteration": "informacion", "meaning": "information, data"},
+    {"word": "hospital", "transliteration": "hospital", "meaning": "hospital, medical center"},
+    {"word": "natural", "transliteration": "natural", "meaning": "natural, not artificial"}
+  ],
+  "english_words": ["hospital", "natural", "problem", "information"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin source, so the forms stayed close and the meanings stayed the same.",
+  "false_friend_warning": null
+}

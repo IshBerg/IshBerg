@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied for weeks,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Despite having studied for weeks, she still failed the exam.",
+  "acceptable_variants": ["she still did not pass.", "she nevertheless failed the exam."],
+  "options": [
+    {"text": "so she passed the exam easily.", "is_correct": false, "why_wrong": "'So' signals a result, not a contrast, and 'despite' requires an unexpected outcome."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "she had studied for weeks before.", "is_correct": false, "why_wrong": "This repeats the information in the stem instead of giving the contrasting outcome."},
+    {"text": "the exam was very long.", "is_correct": false, "why_wrong": "This describes the exam but does not complete the contrast introduced by 'despite'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive expressions with 'despite'",
+  "connector": "despite",
+  "explanation": "After 'despite', we need an outcome that contrasts with the expected result of the first part. Spanish speakers often confuse despite with although, because both express concession, but despite is followed directly by a noun or an -ing form rather than a full clause.",
+  "translation": "A pesar de haber estudiado durante semanas, todavía reprobó el examen."
+}
