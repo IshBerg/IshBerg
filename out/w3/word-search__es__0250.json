@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["W","O","L","F","B","Y","M","P","N"],
+    ["T","H","D","R","V","J","A","E","S"],
+    ["U","G","Z","Q","X","W","E","K","I"],
+    ["N","D","F","A","Y","U","L","I","M"],
+    ["F","S","B","R","Q","T","P","N","K"],
+    ["H","R","M","C","E","L","V","G","Y"],
+    ["A","J","O","Z","K","S","D","F","W"],
+    ["P","X","N","G","U","I","R","H","Q"],
+    ["C","A","S","T","L","E","B","M","Z"]
+  ],
+  "words_to_find": ["WOLF", "KING", "FROG", "CASTLE", "QUEEN"],
+  "word_positions": [
+    {"word": "WOLF", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "KING", "start_row": 2, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "FROG", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "CASTLE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "QUEEN", "start_row": 4, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Folk Tales"
+}
