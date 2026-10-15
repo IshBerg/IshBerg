@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday we were late for school because",
+  "correct_completion": "the bus was full.",
+  "full_sentence": "Yesterday we were late for school because the bus was full.",
+  "acceptable_variants": ["the bus was very crowded.", "there was a lot of traffic."],
+  "options": [
+    {"text": "we were very happy.", "is_correct": false, "why_wrong": "This describes a feeling, but it does not explain why the students were late."},
+    {"text": "the teacher was kind.", "is_correct": false, "why_wrong": "This describes the teacher, but it is not a reason for being late, so it does not complete the 'because' clause."},
+    {"text": "the bus was full.", "is_correct": true, "why_wrong": null},
+    {"text": "it was sunny outside.", "is_correct": false, "why_wrong": "This adds a fact about the weather, which does not explain the delay."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple of 'be' (was/were) in cause-and-effect sentences",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part of the sentence. Check that 'was' or 'were' matches the subject: a singular subject takes 'was', a plural subject takes 'were'. Ukrainian speakers sometimes forget the agreement of the past form with the subject when they write in English.",
+  "translation": "Вчора ми запізнилися до школи, бо автобус був переповнений."
+}
