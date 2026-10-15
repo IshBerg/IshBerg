@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["T", "E", "A", "C", "H", "E", "R"],
+    ["K", "U", "P", "Z", "N", "Q", "L"],
+    ["G", "V", "J", "W", "I", "F", "E"],
+    ["R", "Y", "E", "X", "A", "M", "S"],
+    ["A", "H", "C", "T", "D", "P", "S"],
+    ["D", "B", "O", "O", "K", "Z", "O"],
+    ["E", "W", "Q", "V", "U", "I", "N"]
+  ],
+  "words_to_find": ["TEACHER", "GRADE", "LESSON", "EXAM", "BOOK"],
+  "word_positions": [
+    {"word": "TEACHER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GRADE", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "LESSON", "start_row": 1, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "EXAM", "start_row": 3, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "BOOK", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Bagrut Vocabulary in Context: Lists A and B"
+}
