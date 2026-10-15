@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the results were promising,",
+  "correct_completion": "the researchers could not confirm the theory.",
+  "full_sentence": "Although the results were promising, the researchers could not confirm the theory.",
+  "acceptable_variants": ["the researchers still hesitated to draw conclusions.", "the team decided to run more tests."],
+  "options": [
+    {"text": "so the researchers confirmed the theory immediately.", "is_correct": false, "why_wrong": "'So' expresses a result, not a contrast. 'Although' needs a clause that contrasts with the promising results."},
+    {"text": "the researchers were very pleased with them.", "is_correct": false, "why_wrong": "This continues the positive idea of the stem instead of contrasting with it."},
+    {"text": "the researchers could not confirm the theory.", "is_correct": true, "why_wrong": null},
+    {"text": "because the data was collected last year.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which does not fit the contrast required after 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first part of the sentence, so the result is a negative or unexpected outcome.",
+  "translation": "Embora os resultados fossem promissores, os pesquisadores não conseguiram confirmar a teoria."
+}
