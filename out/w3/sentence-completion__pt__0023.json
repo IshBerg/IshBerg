@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the company listened to its customers,",
+  "correct_completion": "it would not be losing money today.",
+  "full_sentence": "Had the company listened to its customers, it would not be losing money today.",
+  "acceptable_variants": ["it would not be losing money now.", "it would be more profitable today."],
+  "options": [
+    {"text": "it is not losing money today.", "is_correct": false, "why_wrong": "The present tense states a real fact. It does not express the imagined present result of a past condition that did not happen."},
+    {"text": "it would not be losing money today.", "is_correct": true, "why_wrong": null},
+    {"text": "it did not lose money last year.", "is_correct": false, "why_wrong": "The past simple states a past fact. It does not express the present result of an unreal past condition."},
+    {"text": "it would not have lost money now.", "is_correct": false, "why_wrong": "The perfect form points to the past, which conflicts with 'now'. Mixed conditionals connect a past condition to a present result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Mixed conditionals with inverted 'had' (past condition, present result)",
+  "connector": "had (inverted if)",
+  "explanation": "'Had the company listened' is an inverted form of 'If the company had listened', which is a mixed conditional. The past condition leads to a present result, so 'would' plus a base verb is needed. Portuguese speakers may choose a past form here because the inverted word order is less familiar to them, so the subject-verb inversion is easy to overlook.",
+  "translation": "Se a empresa tivesse ouvido os seus clientes, hoje não estaria perdendo dinheiro."
+}
