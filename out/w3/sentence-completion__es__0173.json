@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Lunch finished,",
+  "correct_completion": "the children went back to their classes.",
+  "full_sentence": "Lunch finished, the children went back to their classes.",
+  "acceptable_variants": ["the children returned to class.", "the children lined up at the door."],
+  "options": [
+    {"text": "the children were hungry again.", "is_correct": false, "why_wrong": "This describes a state, but the stem sets up a sequence of events. After lunch ends, the next event is returning to class."},
+    {"text": "the children went back to their classes.", "is_correct": true, "why_wrong": null},
+    {"text": "the children had lunch yesterday.", "is_correct": false, "why_wrong": "This refers to a past meal, which does not follow the end of the lunch described in the stem."},
+    {"text": "the lunch menu was very long.", "is_correct": false, "why_wrong": "This describes the menu, not an event that follows the end of lunch."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Absolute clause (noun plus past participle) followed by a main clause",
+  "connector": "none (absolute clause)",
+  "explanation": "The absolute clause 'Lunch finished' gives the time of the main action without a conjunction, so the main clause must describe what happens next. Spanish speakers may try to add a conjunction or a verb to the absolute clause, but English uses a noun followed by a past participle with no verb 'to be'.",
+  "translation": "Terminó el almuerzo, y los niños volvieron a sus clases."
+}

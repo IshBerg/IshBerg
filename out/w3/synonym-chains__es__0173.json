@@ -1,0 +1,17 @@
+{
+  "central_word": "sad",
+  "chain_words": [
+    {"word": "upset", "intensity": 1, "translation": "molesto", "nuance": "mild disappointment after a specific event"},
+    {"word": "sad", "intensity": 2, "translation": "triste", "nuance": "general feeling of sorrow"},
+    {"word": "unhappy", "intensity": 3, "translation": "infeliz", "nuance": "lacking happiness over a longer period"},
+    {"word": "miserable", "intensity": 4, "translation": "miserable", "nuance": "deep and uncomfortable unhappiness"},
+    {"word": "devastated", "intensity": 5, "translation": "devastado", "nuance": "overwhelming grief or shock"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express unhappiness, from a mild upset reaction to overwhelming grief.",
+  "usage_notes": [
+    {"word1": "upset", "word2": "sad", "difference": "'Upset' often describes a reaction to a specific event; 'sad' describes a more general feeling of sorrow."}
+  ],
+  "translations": {"upset": "molesto", "sad": "triste", "unhappy": "infeliz", "miserable": "miserable", "devastated": "devastado"}
+}
