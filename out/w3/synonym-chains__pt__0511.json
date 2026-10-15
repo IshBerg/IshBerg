@@ -1,0 +1,23 @@
+{
+  "central_word": "big",
+  "chain_words": [
+    {"word": "small", "intensity": 1, "translation": "pequeno", "nuance": "less than average in size"},
+    {"word": "medium", "intensity": 2, "translation": "médio", "nuance": "neither small nor large"},
+    {"word": "big", "intensity": 3, "translation": "grande", "nuance": "larger than average in size"},
+    {"word": "large", "intensity": 4, "translation": "amplo", "nuance": "clearly big, often used for space or amount"},
+    {"word": "huge", "intensity": 5, "translation": "enorme", "nuance": "extremely big, impressive in size"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words describe size, from small things to huge ones, each step larger than the last.",
+  "usage_notes": [
+    {"word1": "big", "word2": "large", "difference": "'Big' is the everyday word for size; 'large' is more formal and is often used for amounts, areas, or sizes of clothing."}
+  ],
+  "translations": {
+    "small": "pequeno",
+    "medium": "médio",
+    "big": "grande",
+    "large": "amplo",
+    "huge": "enorme"
+  }
+}
