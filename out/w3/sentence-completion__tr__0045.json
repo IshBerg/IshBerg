@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because she has got a car,",
+  "correct_completion": "she can drive to work every day.",
+  "full_sentence": "Because she has got a car, she can drive to work every day.",
+  "acceptable_variants": ["she can drive her friends to school.", "she can go to the park by car."],
+  "options": [
+    {"text": "so she walks to work.", "is_correct": false, "why_wrong": "Having a car makes driving more likely, so 'walks' does not follow from the cause given in the stem."},
+    {"text": "she is very tired.", "is_correct": false, "why_wrong": "Being tired does not follow from having a car, so this does not complete the cause-and-effect logic."},
+    {"text": "she can drive to work every day.", "is_correct": true, "why_wrong": null},
+    {"text": "she has got a bicycle.", "is_correct": false, "why_wrong": "This repeats the 'has got' structure, but a bicycle does not explain why she can drive."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because' and 'has got'",
+  "connector": "because",
+  "explanation": "After 'because', the stem gives the reason. The completion must be the result that logically follows from owning a car.",
+  "translation": "Arabası olduğu için her gün işe arabayla gidebiliyor."
+}

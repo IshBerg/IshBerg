@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hand",
+  "all_words": [
+    {"word": "finger", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Parmak, elin bir parçasıdır, bu yüzden 'hand' kelimesiyle doğrudan ilgilidir."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Pencere, el ile ilgili değildir; bir binanın parçasıdır."},
+    {"word": "glove", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Eldiven, eli soğuktan veya kirden korumak için takılır; 'hand' ile sıkça birlikte kullanılır."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masa, el ile doğrudan bir ilişki kurmaz; yalnızca eşya olarak tanımlanır."},
+    {"word": "wrist", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Bilek, elin eklem kısmıdır ve doğrudan 'hand' ile bağlantılıdır."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Bulut, gökyüzünde bulunur ve el ile hiçbir ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Hand' kelimesiyle ilişkili olanlar, elin kendi parçaları (finger, wrist) ya da el ile kullanılan eşyalar (glove) olarak gruplanır."
+}
