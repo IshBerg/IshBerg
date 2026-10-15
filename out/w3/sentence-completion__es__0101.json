@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Tom has already finished his breakfast, so",
+  "correct_completion": "he is not hungry now.",
+  "full_sentence": "Tom has already finished his breakfast, so he is not hungry now.",
+  "acceptable_variants": ["he does not want to eat anything.", "he feels full right now."],
+  "options": [
+    {"text": "he is going to buy a new car.", "is_correct": false, "why_wrong": "Buying a car does not follow logically from finishing breakfast, so the result is unrelated."},
+    {"text": "he is not hungry now.", "is_correct": true, "why_wrong": null},
+    {"text": "he will eat it tomorrow.", "is_correct": false, "why_wrong": "The breakfast is already finished, so it cannot be eaten tomorrow. This contradicts 'already'."},
+    {"text": "he likes to play football after school.", "is_correct": false, "why_wrong": "Playing football is unrelated to the present result of finishing breakfast."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect with 'already' and result clauses with 'so'",
+  "connector": "so",
+  "explanation": "With 'already', the present perfect shows that an action is finished. The 'so' clause gives the present result of that finished action. Spanish speakers often use the simple past for finished actions, but English uses the present perfect when the result still matters now.",
+  "translation": "Tom ya ha terminado su desayuno, así que ahora no tiene hambre."
+}
