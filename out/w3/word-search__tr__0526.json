@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "I", "G", "I", "T", "A", "L", "W", "R"],
+    ["P", "N", "Y", "H", "Q", "V", "F", "Z", "O"],
+    ["C", "J", "X", "M", "E", "A", "W", "N", "B"],
+    ["Q", "L", "H", "Y", "L", "P", "V", "G", "O"],
+    ["B", "F", "O", "L", "Z", "K", "J", "D", "T"],
+    ["M", "Y", "I", "U", "N", "X", "R", "A", "S"],
+    ["G", "K", "T", "W", "D", "Q", "C", "Y", "U"],
+    ["S", "H", "V", "B", "F", "N", "X", "I", "L"],
+    ["J", "D", "R", "E", "M", "O", "T", "E", "K"]
+  ],
+  "words_to_find": ["DIGITAL", "ROBOT", "CLOUD", "REMOTE", "SKILL"],
+  "word_positions": [
+    {"word": "DIGITAL", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ROBOT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "CLOUD", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "REMOTE", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "SKILL", "start_row": 7, "start_col": 0, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "The Future of Work and Technology"
+}

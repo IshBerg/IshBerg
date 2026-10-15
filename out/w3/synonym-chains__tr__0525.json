@@ -1,0 +1,17 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "sleepy", "intensity": 1, "translation": "uykulu", "nuance": "wanting to go to bed, drowsy"},
+    {"word": "tired", "intensity": 2, "translation": "yorgun", "nuance": "needing rest after activity"},
+    {"word": "weary", "intensity": 3, "translation": "bıkkın", "nuance": "tired of something, worn down over time"},
+    {"word": "fatigued", "intensity": 4, "translation": "bitkin", "nuance": "deeply tired, often from long effort"},
+    {"word": "exhausted", "intensity": 5, "translation": "tükenmiş", "nuance": "completely drained of all energy"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express tiredness but with different intensities, from mild drowsiness to complete exhaustion.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "exhausted", "difference": "'Tired' is a general word for needing rest; 'exhausted' is much stronger and means having no energy left."}
+  ],
+  "translations": {"sleepy": "uykulu", "tired": "yorgun", "weary": "bıkkın", "fatigued": "bitkin", "exhausted": "tükenmiş"}
+}
