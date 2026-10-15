@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Should you require further assistance,",
+  "correct_completion": "please do not hesitate to contact our support team.",
+  "full_sentence": "Should you require further assistance, please do not hesitate to contact our support team.",
+  "acceptable_variants": ["feel free to get in touch with our support team.", "our support team is always available to help."],
+  "options": [
+    {"text": "so you will not be helped.", "is_correct": false, "why_wrong": "'So' introduces a result that has no logical link to the conditional offer of help set up by 'should'."},
+    {"text": "we had assisted you yesterday.", "is_correct": false, "why_wrong": "The simple past describes a previous event and cannot complete a conditional offer of future help."},
+    {"text": "please do not hesitate to contact our support team.", "is_correct": true, "why_wrong": null},
+    {"text": "although you may be requiring help.", "is_correct": false, "why_wrong": "'Although' signals concession, which contradicts the conditional meaning of 'should'. The verb form 'be requiring' is also unsuitable here."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditional with 'should' in formal register",
+  "connector": "should",
+  "explanation": "Inversion with 'should' replaces 'if' in formal English. The main clause then takes an imperative or present form to make the offer, not a past form. Learners often add a concessive word, but the conditional meaning is already complete.",
+  "translation": "Se por acaso você precisar de mais assistência, não hesite em entrar em contato com nossa equipe de suporte."
+}

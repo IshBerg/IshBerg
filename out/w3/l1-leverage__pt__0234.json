@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "celular", "transliteration": "celular", "meaning": "mobile phone"},
+    {"word": "arquivo", "transliteration": "arquivo", "meaning": "file"},
+    {"word": "atual", "transliteration": "atual", "meaning": "current"},
+    {"word": "carregador", "transliteration": "carregador", "meaning": "charger"}
+  ],
+  "english_words": ["charger", "mobile phone", "file", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Portuguese words look close to English words that share a Latin or Greek root, but their meanings developed differently in each language, so the English look-alikes do not carry the same sense.",
+  "false_friend_warning": "The Portuguese word that looks like the English word 'cellular' means 'mobile phone', and the Portuguese word that looks like 'archive' means 'file'. Students should not assume a look-alike has the same meaning in English."
+}
