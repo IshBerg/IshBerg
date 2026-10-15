@@ -1,0 +1,14 @@
+{
+  "trigger_word": "slang",
+  "all_words": [
+    {"word": "argot", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Арго означає особливий жаргон певної соціальної групи, тож його значення дуже близьке до слова slang."},
+    {"word": "sandwich", "is_associated": false, "association_type": "NONE", "explanation": "Сендвіч не має ані смислового, ані мовного зв'язку зі словом slang."},
+    {"word": "glossary", "is_associated": true, "association_type": "THEMATIC", "explanation": "Глосарій належить до тієї самої мовної теми, адже містить пояснення слів, зокрема сленгових."},
+    {"word": "bridge", "is_associated": false, "association_type": "NONE", "explanation": "Міст не пов'язаний зі словом slang ні за змістом, ні в межах однієї теми."},
+    {"word": "sling", "is_associated": true, "association_type": "PHONETIC", "explanation": "Слово sling схоже за звучанням на slang, тому асоціація є фонетичною, а не змістовною."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик не має ані смислового, ані фонетичного зв'язку зі словом slang."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані зі словом slang, належать до теми мови та її варіантів або схожі з ним за звучанням; інші слова не мають спільного значення чи звукового подібності."
+}

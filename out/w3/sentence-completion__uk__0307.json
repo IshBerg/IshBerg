@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The sky is full of dark clouds, so",
+  "correct_completion": "it is going to rain soon.",
+  "full_sentence": "The sky is full of dark clouds, so it is going to rain soon.",
+  "acceptable_variants": ["it will probably rain soon.", "we had better take an umbrella."],
+  "options": [
+    {"text": "we are going to the beach today.", "is_correct": false, "why_wrong": "A plan to go to the beach does not follow logically from dark clouds, which are a sign of rain, so this option does not complete the cause and effect."},
+    {"text": "we went to the beach yesterday.", "is_correct": false, "why_wrong": "The past simple describes a finished past event, but the clouds are visible now, so a past tense does not fit the present evidence."},
+    {"text": "it is going to rain soon.", "is_correct": true, "why_wrong": null},
+    {"text": "it was raining last week.", "is_correct": false, "why_wrong": "This refers to a past event, while the dark clouds are present evidence of a future result, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Future with going to for predictions based on present evidence",
+  "connector": "so",
+  "explanation": "The connector so introduces a result. The completion should state the likely outcome of what is visible now, and going to is used for a prediction based on present evidence, such as dark clouds.",
+  "translation": "Небо повне темних хмар, тож скоро піде дощ."
+}

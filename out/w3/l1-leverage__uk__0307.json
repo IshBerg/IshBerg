@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "аналіз", "transliteration": "analiz", "meaning": "analysis"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, pressing, current"},
+    {"word": "результат", "transliteration": "rezultat", "meaning": "result"},
+    {"word": "експеримент", "transliteration": "eksperyment", "meaning": "experiment"}
+  ],
+  "english_words": ["experiment", "result", "analysis", "relevant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Analysis, result and experiment come from Latin and Greek scientific vocabulary that both languages borrowed, so their forms stayed close across the two languages. The word transliterated as aktualnyi comes from a different root, although it sounds similar to English actual.",
+  "false_friend_warning": "Learners may see the Ukrainian word transliterated as aktualnyi and assume it means actual in English, but it means relevant, pressing or current; English actual means real or true, so the correct English word here is relevant."
+}
