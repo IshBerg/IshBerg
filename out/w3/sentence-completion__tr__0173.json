@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The report, which had been written by the team in March,",
+  "correct_completion": "was finally published by the council in June.",
+  "full_sentence": "The report, which had been written by the team in March, was finally published by the council in June.",
+  "acceptable_variants": ["was approved and released to the public in June.", "was finally made public by the council in June."],
+  "options": [
+    {"text": "the team wrote it again in June.", "is_correct": false, "why_wrong": "This uses active voice and describes a new action by the team. The stem sets up a passive structure, so the completion should continue with a passive verb."},
+    {"text": "they will publish it next year.", "is_correct": false, "why_wrong": "This is future active voice. It does not continue the passive pattern set up by 'had been written', and it gives a different time frame from the stem."},
+    {"text": "was finally published by the council in June.", "is_correct": true, "why_wrong": null},
+    {"text": "so the council was pleased with it.", "is_correct": false, "why_wrong": "This adds an opinion about the council, but it does not complete the passive structure or describe what happened to the report."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Passive voice following a past perfect passive in the stem",
+  "connector": "which",
+  "explanation": "The stem uses a past perfect passive ('had been written'), so the completion should continue the passive with 'was published' rather than switch to active voice. Learners whose first language, Turkish, marks the passive with a suffix may expect a single word here, but English needs a form of 'be' followed by a past participle.",
+  "translation": "Mart ayında ekip tarafından yazılmış olan rapor, sonunda Haziran ayında belediye meclisi tarafından yayımlandı."
+}
