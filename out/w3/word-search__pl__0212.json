@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["Y", "O", "G", "A", "K", "B", "G"],
+    ["Q", "W", "F", "J", "C", "V", "Y"],
+    ["D", "H", "X", "Z", "R", "L", "M"],
+    ["I", "N", "A", "K", "B", "F", "W"],
+    ["E", "C", "J", "R", "U", "N", "V"],
+    ["T", "Q", "O", "L", "D", "X", "Z"],
+    ["S", "L", "E", "E", "P", "K", "M"]
+  ],
+  "words_to_find": ["YOGA", "GYM", "DIET", "SLEEP", "RUN"],
+  "word_positions": [
+    {"word": "YOGA", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GYM", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "DIET", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SLEEP", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RUN", "start_row": 4, "start_col": 3, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Health and Fitness"
+}
