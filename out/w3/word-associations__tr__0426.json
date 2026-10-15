@@ -1,0 +1,14 @@
+{
+  "trigger_word": "exam",
+  "all_words": [
+    {"word": "pencil", "is_associated": true, "association_type": "THEMATIC", "explanation": "Öğrenciler sınavda genellikle kurşun kalem kullanır, bu yüzden kalem sınavla ilgilidir."},
+    {"word": "grade", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Sınavın sonucu bir not (grade) ile ifade edilir, anlamca doğrudan bağlantılıdır."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Zürafanın sınavla hiçbir anlam ya da kullanım bağı yoktur."},
+    {"word": "teacher", "is_associated": true, "association_type": "THEMATIC", "explanation": "Sınavı genellikle öğretmen hazırlar ve değerlendirir, bu nedenle konuyla ilgilidir."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyanonun sınav konusuyla ilgisi yoktur; sadece müzik aletidir."},
+    {"word": "score", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "İngilizcede bir sınavdan alınan puan için sıkça 'test score' ifadesi kullanılır."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Sınav kelimesiyle ilişkili kelimeler sınav ortamı, değerlendirme ve öğrenme ile ilgilidir; ilgisiz kelimeler ise bu alanın dışındadır."
+}

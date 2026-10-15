@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the museum is closed on Mondays,",
+  "correct_completion": "visitors cannot enter the building that day.",
+  "full_sentence": "Because the museum is closed on Mondays, visitors cannot enter the building that day.",
+  "acceptable_variants": ["guests need to visit on another day.", "people should come on Tuesday instead."],
+  "options": [
+    {"text": "the café is open on Mondays too.", "is_correct": false, "why_wrong": "This adds an unrelated fact. It does not follow as a result of the museum being closed."},
+    {"text": "the museum is very famous around the world.", "is_correct": false, "why_wrong": "This describes the museum, but it does not give the result of the closure that 'because' introduces."},
+    {"text": "visitors cannot enter the building that day.", "is_correct": true, "why_wrong": null},
+    {"text": "the gift shop sells postcards and books.", "is_correct": false, "why_wrong": "This describes the shop, but it does not explain the effect of the museum being closed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the cause. The main clause that follows must state the result of that cause.",
+  "translation": "Müze pazartesileri kapalı olduğu için, ziyaretçiler o gün binaya giremez."
+}
