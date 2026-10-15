@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Jack fell down and broke his crown, so",
+  "correct_completion": "Jill came tumbling after.",
+  "full_sentence": "Jack fell down and broke his crown, so Jill came tumbling after.",
+  "acceptable_variants": ["Jill followed him down the hill.", "Jill ran down to help him."],
+  "options": [
+    {"text": "Jill stayed at the top of the hill.", "is_correct": false, "why_wrong": "'So' introduces a result of the first clause. Staying at the top does not follow from Jack's fall."},
+    {"text": "Jill went home to eat her lunch.", "is_correct": false, "why_wrong": "This is unrelated to the fall, so it does not show the result that 'so' introduces."},
+    {"text": "Jill came tumbling after.", "is_correct": true, "why_wrong": null},
+    {"text": "Jill did not like the hill.", "is_correct": false, "why_wrong": "A dislike of the hill is not a result of Jack's fall, so it does not fit after 'so'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the logical result of the first part of the sentence. The second clause must follow naturally from the fall.",
+  "translation": "Jack spadł i uderzył się w głowę, więc Jill poleciała za nim."
+}
