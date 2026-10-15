@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you book the tour before Friday,",
+  "correct_completion": "you will get a ten percent discount.",
+  "full_sentence": "If you book the tour before Friday, you will get a ten percent discount.",
+  "acceptable_variants": ["you will save money.", "you can pay less for the tour."],
+  "options": [
+    {"text": "you pay full price for every ticket.", "is_correct": false, "why_wrong": "This describes the normal situation without the condition. The sentence needs a result that depends on booking early."},
+    {"text": "the tour was cancelled yesterday.", "is_correct": false, "why_wrong": "This is a past event. A first conditional needs a future result that follows from the condition after 'if'."},
+    {"text": "you will get a ten percent discount.", "is_correct": true, "why_wrong": null},
+    {"text": "the museum is closed on Sundays.", "is_correct": false, "why_wrong": "This is a fact about the museum, not a result of booking the tour before Friday."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense verb, the main clause uses 'will' to show a likely future result. Learners often need to check that the result clause refers to the future and not to the past.",
+  "translation": "Se você reservar o passeio antes de sexta-feira, você terá um desconto de dez por cento."
+}
