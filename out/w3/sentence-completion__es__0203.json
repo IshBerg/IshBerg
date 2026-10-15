@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the fact that the committee had reviewed the proposal for months,",
+  "correct_completion": "it still failed to reach a consensus.",
+  "full_sentence": "Despite the fact that the committee had reviewed the proposal for months, it still failed to reach a consensus.",
+  "acceptable_variants": ["it still could not agree on a final version.", "the members remained deeply divided."],
+  "options": [
+    {"text": "so the decision was made in an afternoon.", "is_correct": false, "why_wrong": "'So' signals a result that follows naturally from the first part, which contradicts the concessive meaning of 'despite the fact that'."},
+    {"text": "it still failed to reach a consensus.", "is_correct": true, "why_wrong": null},
+    {"text": "because the members were well rested.", "is_correct": false, "why_wrong": "'Because' introduces a cause, but the stem sets up an unexpected outcome. The completion should show what happened despite the long review."},
+    {"text": "the members were all seated in one room.", "is_correct": false, "why_wrong": "This describes the setting, but it does not provide the contrasting outcome that the concessive structure expects."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'despite the fact that' and the main clause that expresses the unexpected outcome",
+  "connector": "despite the fact that",
+  "explanation": "'Despite the fact that' introduces a concessive clause that sets up an expectation, and the main clause must express a result that goes against that expectation. Options that introduce a cause, a natural result or a mere description of the setting do not complete this contrast. Spanish speakers may be tempted to use a plain result clause here, because Spanish often expresses the same idea with a concessive construction that does not map directly onto English word order.",
+  "translation": "A pesar de que el comité había revisado la propuesta durante meses, todavía no logró llegar a un consenso."
+}

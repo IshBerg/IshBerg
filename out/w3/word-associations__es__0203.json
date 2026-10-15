@@ -1,0 +1,14 @@
+{
+  "trigger_word": "ink",
+  "all_words": [
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Un glaciar es una masa de hielo en montañas o regiones polares; no tiene relación con la escritura ni con la tinta."},
+    {"word": "pen", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La pluma o bolígrafo es el instrumento que se carga con tinta para escribir, por lo que su significado está estrechamente ligado a la tinta."},
+    {"word": "thunder", "is_associated": false, "association_type": "NONE", "explanation": "El trueno pertenece al campo de los fenómenos meteorológicos y no se relaciona con la tinta ni con la escritura."},
+    {"word": "parchment", "is_associated": true, "association_type": "THEMATIC", "explanation": "El pergamino es un soporte tradicional sobre el que se escribía con tinta, así que comparte el mismo ámbito temático de la escritura."},
+    {"word": "saddle", "is_associated": false, "association_type": "NONE", "explanation": "La silla de montar pertenece al ámbito de la equitación y no tiene vínculo con la tinta."},
+    {"word": "blot", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Blot' se usa en la expresión 'ink blot', es decir, una mancha de tinta, por lo que aparece con frecuencia junto a la palabra 'ink'."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas a 'ink' pertenecen al mundo de la escritura, como el bolígrafo, el pergamino y la mancha de tinta, mientras que las demás palabras pertenecen a contextos sin relación con la escritura."
+}
