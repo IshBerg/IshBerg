@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My sister usually",
+  "correct_completion": "drinks tea with breakfast.",
+  "full_sentence": "My sister usually drinks tea with breakfast.",
+  "acceptable_variants": ["eats toast with breakfast.", "has a cup of coffee after lunch."],
+  "options": [
+    {"text": "drink tea with breakfast.", "is_correct": false, "why_wrong": "After 'my sister' (third person singular), the verb needs an -s ending: 'drinks'."},
+    {"text": "is drinking tea with breakfast right now.", "is_correct": false, "why_wrong": "'Usually' shows a regular habit, so the present simple is needed, not the present continuous."},
+    {"text": "drinks tea with breakfast.", "is_correct": true, "why_wrong": null},
+    {"text": "drank tea with breakfast yesterday.", "is_correct": false, "why_wrong": "'Drank' is past simple, but 'usually' describes a regular habit in the present."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present simple, third person singular (-s ending)",
+  "connector": "usually",
+  "explanation": "Third person singular subjects such as 'my sister' take a verb with an -s ending in the present simple. Polish speakers often forget this ending because Polish verbs are conjugated differently for each person.",
+  "translation": "Moja siostra zwykle pije herbatę na śniadanie."
+}
