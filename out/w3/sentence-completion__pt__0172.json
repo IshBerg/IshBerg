@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before",
+  "correct_completion": "had the team faced such a difficult challenge.",
+  "full_sentence": "Never before had the team faced such a difficult challenge.",
+  "acceptable_variants": ["had the club faced such a challenge.", "had any side faced such a challenge."],
+  "options": [
+    {"text": "the team faced such a difficult challenge.", "is_correct": false, "why_wrong": "After a negative adverbial such as 'never before', English requires subject-auxiliary inversion, so the auxiliary must come before the subject."},
+    {"text": "so they celebrated their victory.", "is_correct": false, "why_wrong": "This is a result clause, not an inverted structure, and it does not follow the negative adverbial in the stem."},
+    {"text": "had the team faced such a difficult challenge.", "is_correct": true, "why_wrong": null},
+    {"text": "they faced such a difficult challenge before.", "is_correct": false, "why_wrong": "The adverb is in the wrong position and the subject still comes before the verb, so no inversion occurs."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after 'never before'",
+  "connector": "never before",
+  "explanation": "After a negative adverbial placed at the start of a clause, English puts the auxiliary verb before the subject. Learners often keep the normal word order here, but the inversion is required in this structure.",
+  "translation": "Nunca antes a equipe tinha enfrentado um desafio tão difícil."
+}
