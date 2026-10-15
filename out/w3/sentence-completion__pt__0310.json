@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The teacher gave us a very difficult test, so",
+  "correct_completion": "we had to study hard for it.",
+  "full_sentence": "The teacher gave us a very difficult test, so we had to study hard for it.",
+  "acceptable_variants": ["we had to revise a lot for it.", "we spent the whole weekend studying."],
+  "options": [
+    {"text": "we went to the cinema on Friday.", "is_correct": false, "why_wrong": "'So' introduces a result of the first clause. Going to the cinema does not follow logically from a difficult test."},
+    {"text": "the test was easy for everyone.", "is_correct": false, "why_wrong": "This contradicts the stem, which describes the test as difficult, and it gives no result."},
+    {"text": "we had to study hard for it.", "is_correct": true, "why_wrong": null},
+    {"text": "but we did not study at all.", "is_correct": false, "why_wrong": "'But' expresses contrast, while the stem with 'so' needs a result that follows from the difficulty."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and result with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. The completion must show what follows logically from a very difficult test.",
+  "translation": "O professor nos deu uma prova muito difícil, então tivemos que estudar muito para ela."
+}
