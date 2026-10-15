@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I can't go to the cinema with you tonight, because",
+  "correct_completion": "I have already seen that film.",
+  "full_sentence": "I can't go to the cinema with you tonight, because I have already seen that film.",
+  "acceptable_variants": ["I have already watched that film.", "I have already watched it."],
+  "options": [
+    {"text": "I will see that film tomorrow.", "is_correct": false, "why_wrong": "This uses a future form, which does not explain why the speaker cannot go tonight. The reason needs a completed action that affects the present, shown with the present perfect."},
+    {"text": "I saw that film last week.", "is_correct": false, "why_wrong": "The past simple describes a finished event at a specific time and does not connect it to the present. The present perfect with 'already' links the past experience to the current situation."},
+    {"text": "I have already seen that film.", "is_correct": true, "why_wrong": null},
+    {"text": "I am seeing that film now.", "is_correct": false, "why_wrong": "The present continuous describes an action in progress, but the reason here is a finished experience, so this does not explain the refusal."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect with 'already' to show a completed action that affects the present",
+  "connector": "because",
+  "explanation": "The word 'already' signals that the action happened before now, and the present perfect links that completed action to the present situation. Learners whose first language has no separate perfect tense often choose a simple past form here, but English uses the present perfect when the result still matters now.",
+  "translation": "Bu gece seninle sinemaya gidemem, çünkü o filmi zaten izledim."
+}
