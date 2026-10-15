@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "embarazada", "transliteration": "embarazada", "meaning": "pregnant (not embarrassed)"},
+    {"word": "librería", "transliteration": "libreria", "meaning": "bookshop (not library)"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present-day (not actual in the sense of real)"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive (not sensible)"}
+  ],
+  "english_words": ["sensitive", "pregnant", "bookshop", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These Spanish words look almost identical to English words, but over time their meanings moved apart in each language, so the resemblance misleads learners.",
+  "false_friend_warning": "Warning: the Spanish word 'sensible' looks like the English word 'sensible', but it means 'sensitive', while the English 'sensible' means reasonable or practical; learners should not translate it that way."
+}

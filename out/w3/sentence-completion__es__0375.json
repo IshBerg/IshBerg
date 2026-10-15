@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Notwithstanding the defendant's repeated objections,",
+  "correct_completion": "the court admitted the evidence into the record.",
+  "full_sentence": "Notwithstanding the defendant's repeated objections, the court admitted the evidence into the record.",
+  "acceptable_variants": ["the court nevertheless admitted the evidence into the record.", "the judge still allowed the evidence to be recorded."],
+  "options": [
+    {"text": "so the court excluded the evidence entirely.", "is_correct": false, "why_wrong": "'So' signals a result that follows from the objections, but 'notwithstanding' requires a contrast with them."},
+    {"text": "the court admitted the evidence into the record.", "is_correct": true, "why_wrong": null},
+    {"text": "because the objections were well founded.", "is_correct": false, "why_wrong": "'Because' gives a cause, which repeats the logic of the objections instead of completing the contrast that 'notwithstanding' requires."},
+    {"text": "the defendant had raised several objections earlier.", "is_correct": false, "why_wrong": "This restates the objections already described in the stem and does not express a contrasting outcome."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive use of 'notwithstanding' in legal argumentation",
+  "connector": "notwithstanding",
+  "explanation": "'Notwithstanding' introduces a fact that opposes the main clause, so the main clause must show the outcome that holds in spite of the objections. Spanish speakers may confuse it with a cause pattern because Spanish 'no obstante' often sits close to a result, but in English the connector always signals contrast.",
+  "translation": "Sin perjuicio de las objeciones reiteradas del acusado, el tribunal admitió la prueba en el expediente."
+}

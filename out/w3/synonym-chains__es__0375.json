@@ -1,0 +1,23 @@
+{
+  "central_word": "disagree",
+  "chain_words": [
+    {"word": "differ", "intensity": 1, "translation": "diferir", "nuance": "hold a view that is not quite the same as another"},
+    {"word": "disagree", "intensity": 2, "translation": "no estar de acuerdo", "nuance": "not share someone's opinion"},
+    {"word": "dispute", "intensity": 3, "translation": "discutir", "nuance": "argue about a matter openly"},
+    {"word": "contest", "intensity": 4, "translation": "impugnar", "nuance": "challenge a decision or claim formally"},
+    {"word": "reject", "intensity": 5, "translation": "rechazar", "nuance": "refuse completely to accept something"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express different views about the same matter, moving from a mild difference of opinion to a complete refusal to accept it.",
+  "usage_notes": [
+    {"word1": "dispute", "word2": "contest", "difference": "'Dispute' describes an open argument about a matter; 'contest' implies a more formal challenge to a decision or claim."}
+  ],
+  "translations": {
+    "differ": "diferir",
+    "disagree": "no estar de acuerdo",
+    "dispute": "discutir",
+    "contest": "impugnar",
+    "reject": "rechazar"
+  }
+}
