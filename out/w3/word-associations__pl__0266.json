@@ -1,0 +1,14 @@
+{
+  "trigger_word": "slang",
+  "all_words": [
+    {"word": "jargon", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Żargon to specjalistyczny lub grupowy język, blisko spokrewniony ze slangiem i należący do tego samego obszaru nieformalnych rejestrów."},
+    {"word": "tectonic", "is_associated": false, "association_type": "NONE", "explanation": "Tektoniczny to termin z geologii i nie ma żadnego związku ze slangiem ani z językiem."},
+    {"word": "dialect", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dialekt to odmiana języka związana z regionem lub grupą, czyli z tym samym tematem zróżnicowania języka co slang."},
+    {"word": "pavement", "is_associated": false, "association_type": "NONE", "explanation": "Chodnik nie ma związku z językiem, slangiem ani zmianami językowymi."},
+    {"word": "coinage", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Coinage, czyli tworzenie nowych wyrazów, to podstawowy mechanizm powstawania slangu."},
+    {"word": "lantern", "is_associated": false, "association_type": "NONE", "explanation": "Latarnia nie ma żadnego związku ze slangiem ani ze zmianami językowymi."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo slang wiąże się z innymi rejestrami językowymi, z tworzeniem nowych wyrazów i z odmianami regionalnymi, natomiast pojęcia spoza języka nie są z nim powiązane."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have left home earlier.",
+  "full_sentence": "Had she known about the delay, she would have left home earlier.",
+  "acceptable_variants": ["she would have set off sooner.", "she would have departed earlier."],
+  "options": [
+    {"text": "she will leave home earlier.", "is_correct": false, "why_wrong": "The stem sets up an unreal past condition, so the main clause needs 'would have' plus a past participle, not the future 'will'."},
+    {"text": "she left home earlier yesterday.", "is_correct": false, "why_wrong": "This is a plain past statement about a real event. It does not complete the hypothetical meaning opened by the inverted 'Had she known'."},
+    {"text": "she would have left home earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "she leaves home earlier every day.", "is_correct": false, "why_wrong": "The present simple describes a habit and cannot follow a past unreal conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (fronted 'Had' clause without 'if')",
+  "connector": "had",
+  "explanation": "The fronted 'Had' clause replaces 'if' through inversion, so the main clause must use 'would have' and a past participle to express an unreal past condition. Polish speakers often reach for a simple past or a future form here because Polish marks conditional meaning with a particle rather than with a perfect structure, so the English pattern needs deliberate practice.",
+  "translation": "Gdyby wiedziała o opóźnieniu, wyszłaby z domu wcześniej."
+}
