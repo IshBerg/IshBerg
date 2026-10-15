@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite having studied for weeks,",
+  "correct_completion": "she still failed the exam.",
+  "full_sentence": "Despite having studied for weeks, she still failed the exam.",
+  "acceptable_variants": ["she nevertheless did not pass.", "she could not pass the test in the end."],
+  "options": [
+    {"text": "so she failed the exam.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'despite' requires a contrast with the effort described in the first part."},
+    {"text": "she still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "because she was tired.", "is_correct": false, "why_wrong": "'Because' introduces a cause, not a contrast. 'Despite' needs a clause that goes against what the effort would lead one to expect."},
+    {"text": "the exam was very hard.", "is_correct": false, "why_wrong": "This describes the exam but does not complete the contrast set up by 'despite'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' followed by a gerund (-ing) phrase",
+  "connector": "despite",
+  "explanation": "After 'despite' plus a gerund phrase, the main clause must show a result that goes against the effort mentioned. Turkish speakers may expect a converb ending to carry this meaning, so note that English uses a separate word and a gerund here instead.",
+  "translation": "Haftalarca çalışmasına rağmen sınavdan yine de kaldı."
+}
