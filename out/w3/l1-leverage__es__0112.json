@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "profesor", "transliteration": "profesor", "meaning": "teacher"},
+    {"word": "universidad", "transliteration": "universidad", "meaning": "university"},
+    {"word": "biología", "transliteration": "biologia", "meaning": "biology"},
+    {"word": "estudiante", "transliteration": "estudiante", "meaning": "student"}
+  ],
+  "english_words": ["biology", "student", "teacher", "university"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin and Greek sources, so the spellings stay close and the meanings match. Spanish learners can often guess these words from their own vocabulary.",
+  "false_friend_warning": null
+}

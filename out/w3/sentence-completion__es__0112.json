@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat ice,",
+  "correct_completion": "it turns into water.",
+  "full_sentence": "If you heat ice, it turns into water.",
+  "acceptable_variants": ["it melts.", "it becomes a liquid."],
+  "options": [
+    {"text": "it turned into water yesterday.", "is_correct": false, "why_wrong": "A zero conditional describes general facts that are always true, so it uses the present simple, not a past event tied to yesterday."},
+    {"text": "it will turn into water.", "is_correct": false, "why_wrong": "Zero conditionals use the present simple in both clauses for general facts. 'Will' is used for future results in first conditionals."},
+    {"text": "it turns into water.", "is_correct": true, "why_wrong": null},
+    {"text": "it would turn into water.", "is_correct": false, "why_wrong": "'Would' belongs to second conditionals about imagined situations, not to a general fact like melting ice."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional with 'if' and the present simple",
+  "connector": "if",
+  "explanation": "Zero conditionals describe general facts that are always true. After 'if' with the present simple, the main clause also uses the present simple, not the future.",
+  "translation": "Si calientas hielo, se convierte en agua."
+}
