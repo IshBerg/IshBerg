@@ -1,0 +1,14 @@
+{
+  "trigger_word": "knight",
+  "all_words": [
+    {"word": "sword", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Меч був основною зброєю лицаря, тому це семантичний зв'язок."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не має відношення до лицарів середньовіччя."},
+    {"word": "night", "is_associated": true, "association_type": "PHONETIC", "explanation": "«Night» вимовляється так само, як «knight», оскільки початкова «k» не читається, тому це фонетичний зв'язок."},
+    {"word": "salad", "is_associated": false, "association_type": "NONE", "explanation": "Салат не пов'язаний ані за змістом, ані за звучанням зі словом «knight»."},
+    {"word": "tournament", "is_associated": true, "association_type": "THEMATIC", "explanation": "Турнір було лицарським змаганням у середньовіччі, тому слова тематично пов'язані."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Піаніно не має жодного зв'язку з лицарями ні за значенням, ні за звучанням."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово «knight» асоціюється зі зброєю, середньовічними турнірами та омофоном «night»; решта слів не мають із ним зв'язку."
+}
