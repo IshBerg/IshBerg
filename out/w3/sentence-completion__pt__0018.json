@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Even though the hotel was expensive,",
+  "correct_completion": "the guests were very satisfied with the service.",
+  "full_sentence": "Even though the hotel was expensive, the guests were very satisfied with the service.",
+  "acceptable_variants": ["most of the guests still enjoyed their stay.", "the guests were still happy with the service."],
+  "options": [
+    {"text": "so they booked it again for the next year.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'even though' requires a contrast. The stem sets up a problem that the main clause must answer with a contrasting outcome."},
+    {"text": "the rooms were very small.", "is_correct": false, "why_wrong": "This adds another fact about the hotel but does not express the contrast that 'even though' calls for."},
+    {"text": "the guests were very satisfied with the service.", "is_correct": true, "why_wrong": null},
+    {"text": "because the price included breakfast.", "is_correct": false, "why_wrong": "'Because' introduces a reason, which conflicts with 'even though', a concession connector that signals a contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'even though'",
+  "connector": "even though",
+  "explanation": "After 'even though', the main clause must show a result that contrasts with the expense mentioned in the stem. Learners whose first language uses a similar concessive connector sometimes add 'but' after 'even though', which is incorrect in English.",
+  "translation": "Apesar de o hotel ser caro, os hóspedes ficaram muito satisfeitos com o serviço."
+}

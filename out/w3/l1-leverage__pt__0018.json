@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "atualmente", "transliteration": "atualmente", "meaning": "currently, at the present time"},
+    {"word": "eventualmente", "transliteration": "eventualmente", "meaning": "occasionally, from time to time"},
+    {"word": "realmente", "transliteration": "realmente", "meaning": "really, in fact"},
+    {"word": "livraria", "transliteration": "livraria", "meaning": "bookshop"}
+  ],
+  "english_words": ["actually", "bookshop", "currently", "occasionally"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These words entered both languages from the same Latin sources, so their spelling stayed close. Over time the meaning shifted in one of the languages, which created the false friend.",
+  "false_friend_warning": "False friend trap: the English word 'actually' looks like the Portuguese word that means 'currently', but in English 'actually' means 'in fact' or 'really'. The English word 'currently' is the correct match for the Portuguese word meaning 'at the present time'."
+}
