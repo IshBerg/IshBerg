@@ -1,0 +1,14 @@
+{
+  "trigger_word": "police",
+  "all_words": [
+    {"word": "officer", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Funkcjonariusz to osoba, która pracuje w policji, więc słowa są bezpośrednio związane znaczeniowo."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Ogród nie ma żadnego związku z pracą policji ani z bezpieczeństwem publicznym."},
+    {"word": "siren", "is_associated": true, "association_type": "THEMATIC", "explanation": "Syrena jest dźwiękiem, który radiowozy policyjne wykorzystują podczas interwencji, więc należy do tego samego tematu."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "Chleb jest produktem spożywczym i nie ma związku z policją."},
+    {"word": "crime", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Przestępstwo to główny powód, dla którego policja interweniuje, więc to pojęcie jest ściśle związane z tematem."},
+    {"word": "badge", "is_associated": true, "association_type": "THEMATIC", "explanation": "Odznaka jest symbolem, który policjanci noszą na mundurze, więc należy do tego samego obszaru tematycznego."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z police dotyczą pracy policjantów, ich wyposażenia, interwencji i przestępstw, a słowa z życia codziennego, takie jak garden czy bread, do tego tematu nie należą."
+}
