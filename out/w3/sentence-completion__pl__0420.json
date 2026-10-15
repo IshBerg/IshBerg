@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you come to my party on Saturday,",
+  "correct_completion": "we can play games and eat cake.",
+  "full_sentence": "If you come to my party on Saturday, we can play games and eat cake.",
+  "acceptable_variants": ["we can dance and talk together.", "we will have a fun time."],
+  "options": [
+    {"text": "I am sorry, but I do not like parties.", "is_correct": false, "why_wrong": "This contradicts the invitation and does not give a possible result of the condition."},
+    {"text": "we can play games and eat cake.", "is_correct": true, "why_wrong": null},
+    {"text": "yesterday was a holiday.", "is_correct": false, "why_wrong": "The past time does not fit the future party described by the 'if' clause."},
+    {"text": "the shop is closed on Sundays.", "is_correct": false, "why_wrong": "This is unrelated to the party, so it does not complete the conditional sentence."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' in a first conditional, the main clause describes a likely future result. Learners should check that the completion talks about the future and follows logically from the condition.",
+  "translation": "Jeśli przyjdziesz na moje przyjęcie w sobotę, będziemy mogli pograć w gry i zjeść tort."
+}
