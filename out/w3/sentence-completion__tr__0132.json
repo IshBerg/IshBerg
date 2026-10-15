@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you heat water to one hundred degrees,",
+  "correct_completion": "it boils.",
+  "full_sentence": "If you heat water to one hundred degrees, it boils.",
+  "acceptable_variants": ["it starts to boil.", "it begins to bubble."],
+  "options": [
+    {"text": "it would boil eventually.", "is_correct": false, "why_wrong": "'Would' belongs to the second conditional, which describes imagined situations. A zero conditional describes general facts with the present simple."},
+    {"text": "it boils.", "is_correct": true, "why_wrong": null},
+    {"text": "it will boil tomorrow.", "is_correct": false, "why_wrong": "'Will' points to a specific future result. A zero conditional describes a fact that is always true, not a single future event."},
+    {"text": "it boiled last week.", "is_correct": false, "why_wrong": "The past simple describes one finished past event. A zero conditional describes a general fact that happens whenever the condition is met."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Zero conditional: 'if' with present simple, followed by present simple for general truths",
+  "connector": "if",
+  "explanation": "The zero conditional expresses facts that are always true when the condition happens. Both clauses use the present simple, so the result clause also takes the present simple.",
+  "translation": "Suyu yüz dereceye ısıtırsanız, kaynar."
+}
