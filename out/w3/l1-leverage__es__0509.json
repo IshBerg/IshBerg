@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "bosque", "transliteration": "bosque", "meaning": "forest"},
+    {"word": "lobo", "transliteration": "lobo", "meaning": "wolf"},
+    {"word": "castillo", "transliteration": "castillo", "meaning": "castle"},
+    {"word": "magia", "transliteration": "magia", "meaning": "magic"}
+  ],
+  "english_words": ["castle", "magic", "forest", "wolf"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin sources, so the spelling and meaning stayed close. Learners can recognise each pair quickly, but should still check the stress and the final vowel when speaking.",
+  "false_friend_warning": null
+}

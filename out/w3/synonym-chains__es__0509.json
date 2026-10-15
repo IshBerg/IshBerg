@@ -1,0 +1,23 @@
+{
+  "central_word": "late",
+  "chain_words": [
+    {"word": "almost", "intensity": 1, "translation": "casi", "nuance": "close to a time, but not quite there yet"},
+    {"word": "late", "intensity": 2, "translation": "tarde", "nuance": "after the time that was planned"},
+    {"word": "very late", "intensity": 3, "translation": "muy tarde", "nuance": "much later than planned"},
+    {"word": "too late", "intensity": 4, "translation": "demasiado tarde", "nuance": "later than is still acceptable"},
+    {"word": "overdue", "intensity": 5, "translation": "atrasado", "nuance": "should have happened long ago"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe a time that is not on schedule, from nearly on time to clearly past the expected moment.",
+  "usage_notes": [
+    {"word1": "late", "word2": "overdue", "difference": "'Late' describes a person or event arriving after the planned time; 'overdue' is used for things that should have already happened or been returned."}
+  ],
+  "translations": {
+    "almost": "casi",
+    "late": "tarde",
+    "very late": "muy tarde",
+    "too late": "demasiado tarde",
+    "overdue": "atrasado"
+  }
+}
