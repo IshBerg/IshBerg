@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current, up to date"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly, if needed"},
+    {"word": "dyskretny", "transliteration": "dyskretny", "meaning": "discreet, tactful"},
+    {"word": "rezultat", "transliteration": "rezultat", "meaning": "result, outcome"}
+  ],
+  "english_words": ["possibly", "result", "current", "discreet"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from Latin or French, so the forms look alike, but the meanings in Polish have drifted away from the English ones.",
+  "false_friend_warning": "The Polish word aktualny looks like the English word actual, but it means current or up to date. English actual means real or genuine, so a Polish speaker may write 'the actual report' when they mean 'the current report'."
+}

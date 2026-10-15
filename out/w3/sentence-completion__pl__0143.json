@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The window was broken",
+  "correct_completion": "by a stone yesterday.",
+  "full_sentence": "The window was broken by a stone yesterday.",
+  "acceptable_variants": ["by a stone last night.", "by a child yesterday."],
+  "options": [
+    {"text": "the stone broke it yesterday.", "is_correct": false, "why_wrong": "This is an active sentence with a new subject. After 'was broken', a second verb makes the sentence ungrammatical."},
+    {"text": "broke yesterday by a stone.", "is_correct": false, "why_wrong": "'Broke' is a second verb in the same clause. After 'was', only the past participle 'broken' is used."},
+    {"text": "by a stone yesterday.", "is_correct": true, "why_wrong": null},
+    {"text": "to a stone yesterday.", "is_correct": false, "why_wrong": "'To' is the wrong preposition here. Passive sentences use 'by' to show who or what did the action."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past passive with 'by' for the agent",
+  "connector": "by",
+  "explanation": "In the passive, 'was' carries the tense and the past participle carries the meaning. The doer follows 'by', and the time expression comes last. Learners often add a second verb after the passive form, which breaks the structure.",
+  "translation": "Okno zostało wybite kamieniem wczoraj."
+}
