@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Porównanie (simile) to figura retoryczna bliska metaforze, obie służą do przedstawiania jednego pojęcia przez pryzmat drugiego."},
+    {"word": "thermometer", "is_associated": false, "association_type": "NONE", "explanation": "Termometr jest przyrządem mierzącym temperaturę i nie ma nic wspólnego z figurami retorycznymi ani literaturą."},
+    {"word": "imagery", "is_associated": true, "association_type": "THEMATIC", "explanation": "Obrazowanie (imagery) to środek literacki, który należy do tego samego obszaru co metafora, czyli do języka poetyckiego."},
+    {"word": "submarine", "is_associated": false, "association_type": "NONE", "explanation": "Okręt podwodny to pojazd wojskowy lub badawczy i nie jest związany z językiem metaforycznym."},
+    {"word": "figurative", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie 'figurative language' (język przenośny) jest stałym połączeniem, w którym metafora jest typowym przykładem."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Dywan to element wyposażenia wnętrz i nie ma żadnego związku z figurami stylistycznymi."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo metaphor kojarzy się z innymi figurami i środkami literackimi (simile, imagery, figurative language), podczas gdy thermometer, submarine i carpet nie należą do tego pola znaczeniowego."
+}
