@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "You are coming to the party tonight,",
+  "correct_completion": "aren't you?",
+  "full_sentence": "You are coming to the party tonight, aren't you?",
+  "acceptable_variants": ["are you not?"],
+  "options": [
+    {"text": "do you?", "is_correct": false, "why_wrong": "The tag must use the same auxiliary verb as the main clause. The main clause uses 'are', not 'do'."},
+    {"text": "are you?", "is_correct": false, "why_wrong": "A positive statement takes a negative tag. Tag questions reverse the polarity of the main clause."},
+    {"text": "aren't you?", "is_correct": true, "why_wrong": null},
+    {"text": "you are?", "is_correct": false, "why_wrong": "A tag question needs an auxiliary verb followed by the subject. 'You are?' does not form a tag."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Tag questions with auxiliary verbs",
+  "connector": "aren't you?",
+  "explanation": "A tag question repeats the auxiliary verb from the main clause in the opposite form. A positive statement with 'are' takes a negative tag with 'aren't'.",
+  "translation": "Idziesz dziś wieczorem na przyjęcie, prawda?"
+}
