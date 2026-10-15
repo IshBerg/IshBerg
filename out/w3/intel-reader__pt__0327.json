@@ -1,0 +1,20 @@
+{
+  "title": "My Neighborhood",
+  "text": "Maria lives in a quiet neighborhood. There is a small bakery on the corner, next to a big school. Every morning, she buys bread there before work.\n\nThe park is across the street from the school. On Saturdays, Maria goes to the park with her brother. They walk around the lake and feed the ducks.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the bakery?", "options": ["On the corner", "In the park", "Next to the bank", "Far from the school"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "When does Maria go to the park?", "options": ["Every morning", "On Saturdays", "On Mondays", "After school"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What can we guess about Maria?", "options": ["She works in the bakery.", "She likes spending time outdoors.", "She does not have a brother.", "She is a teacher at the school."], "correct_index": 1, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why is the bakery a convenient place for Maria?", "options": ["It is next to the park.", "It is close to her home and work route.", "It is open only on Saturdays.", "It sells toys and books."], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "bakery", "translation": "padaria", "definition": "a shop that sells bread and cakes"},
+    {"word": "school", "translation": "escola", "definition": "a place where children go to learn"},
+    {"word": "park", "translation": "parque", "definition": "a large public area with grass and trees"},
+    {"word": "lake", "translation": "lago", "definition": "a large area of water surrounded by land"}
+  ],
+  "paragraph_translations": [
+    "Maria mora em um bairro tranquilo. Há uma pequena padaria na esquina, ao lado de uma escola grande. Todas as manhãs, ela compra pão lá antes do trabalho.",
+    "O parque fica do outro lado da rua em frente à escola. Aos sábados, Maria vai ao parque com o irmão. Eles caminham ao redor do lago e alimentam os patos."
+  ]
+}
