@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While we were walking in the park,",
+  "correct_completion": "it started to rain.",
+  "full_sentence": "While we were walking in the park, it started to rain.",
+  "acceptable_variants": ["it began to rain.", "it suddenly started raining."],
+  "options": [
+    {"text": "it rains.", "is_correct": false, "why_wrong": "The present simple does not fit a past narrative. The event happened during the walk, so the past simple is needed."},
+    {"text": "so we stayed at home.", "is_correct": false, "why_wrong": "'So' introduces a result, but the stem describes an activity already in progress, so staying home cannot follow from it."},
+    {"text": "it started to rain.", "is_correct": true, "why_wrong": null},
+    {"text": "rain was started.", "is_correct": false, "why_wrong": "This passive form is unnatural. English describes weather with 'it' plus a verb such as 'started' or 'began'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past continuous with 'while' for an activity in progress, followed by past simple for an interrupting event",
+  "connector": "while",
+  "explanation": "'While' with the past continuous describes a background activity. The second clause needs the past simple to show the event that happens during it. Many learners at this level use the present simple here because the verb tense system works differently in their first language.",
+  "translation": "Поки ми гуляли парком, почався дощ."
+}
