@@ -1,0 +1,24 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["I", "N", "T", "E", "R", "P", "R", "E", "T", "B"],
+    ["X", "Q", "L", "I", "S", "T", "E", "N", "K", "O"],
+    ["G", "W", "Z", "A", "D", "F", "U", "P", "J", "O"],
+    ["V", "L", "D", "F", "K", "Z", "Q", "R", "W", "T"],
+    ["M", "N", "O", "X", "B", "C", "D", "E", "F", "H"],
+    ["T", "K", "P", "S", "Y", "J", "Q", "W", "Z", "A"],
+    ["H", "Z", "X", "C", "S", "B", "V", "D", "M", "F"],
+    ["G", "U", "R", "K", "Y", "A", "N", "M", "X", "P"],
+    ["I", "Q", "W", "J", "E", "V", "R", "Z", "K", "L"],
+    ["S", "D", "F", "E", "W", "K", "P", "Y", "C", "M"]
+  ],
+  "words_to_find": ["INTERPRET", "BOOTH", "GLOSSARY", "LISTEN", "SIGHT"],
+  "word_positions": [
+    {"word": "INTERPRET", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BOOTH", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "GLOSSARY", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "LISTEN", "start_row": 1, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "SIGHT", "start_row": 9, "start_col": 0, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Advanced Simultaneous Interpretation Practice"
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although it was raining heavily,",
+  "correct_completion": "we decided to go for a walk.",
+  "full_sentence": "Although it was raining heavily, we decided to go for a walk.",
+  "acceptable_variants": ["we still went outside.", "we continued our journey."],
+  "options": [
+    {"text": "so we stayed at home.", "is_correct": false, "why_wrong": "'Although' indicates contrast, not cause. Use 'because' if you want to show cause."},
+    {"text": "we decided to go for a walk.", "is_correct": true, "why_wrong": null},
+    {"text": "we were getting wet.", "is_correct": false, "why_wrong": "This describes the situation but doesn't complete the contrast started by 'although'."},
+    {"text": "it was very cold.", "is_correct": false, "why_wrong": "This adds information but doesn't provide the contrasting action expected after 'although'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence.",
+  "translation": "Aunque llovía con fuerza, decidimos salir a dar un paseo."
+}
