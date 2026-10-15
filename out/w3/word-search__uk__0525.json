@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "U", "M", "M", "A", "R", "Y", "M"],
+    ["K", "Q", "L", "W", "D", "Z", "P", "A"],
+    ["N", "B", "V", "G", "X", "T", "J", "I"],
+    ["E", "Y", "C", "F", "K", "Q", "W", "N"],
+    ["S", "H", "O", "R", "T", "X", "M", "D"],
+    ["L", "U", "G", "A", "Z", "P", "V", "R"],
+    ["Q", "N", "B", "R", "I", "E", "F", "Y"],
+    ["D", "W", "K", "J", "O", "C", "T", "H"]
+  ],
+  "words_to_find": ["SUMMARY", "MAIN", "SHORT", "BRIEF"],
+  "word_positions": [
+    {"word": "SUMMARY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MAIN", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "SHORT", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BRIEF", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Summarising and Paraphrasing"
+}
