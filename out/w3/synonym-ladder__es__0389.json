@@ -1,0 +1,13 @@
+{
+  "start_word": "cheap",
+  "end_word": "expensive",
+  "ladder_steps": [
+    {"word": "cheap", "translation": "barato", "intensity_level": 1},
+    {"word": "inexpensive", "translation": "económico", "intensity_level": 2},
+    {"word": "reasonable", "translation": "razonable", "intensity_level": 3},
+    {"word": "pricey", "translation": "bastante caro", "intensity_level": 4},
+    {"word": "expensive", "translation": "caro", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe how much something costs, moving from the lowest price to the highest, with each step slightly more expensive than the last."
+}
