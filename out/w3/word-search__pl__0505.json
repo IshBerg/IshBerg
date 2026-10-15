@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "T", "A", "T", "U", "T", "E", "V"],
+    ["K", "N", "B", "Q", "W", "H", "M", "E"],
+    ["T", "O", "R", "T", "X", "J", "Z", "R"],
+    ["G", "H", "Y", "L", "F", "N", "B", "D"],
+    ["A", "P", "P", "E", "A", "L", "K", "I"],
+    ["M", "Q", "W", "Z", "B", "H", "F", "C"],
+    ["J", "K", "N", "R", "Y", "L", "D", "T"],
+    ["E", "S", "T", "O", "P", "P", "E", "L"]
+  ],
+  "words_to_find": ["STATUTE", "VERDICT", "APPEAL", "TORT", "ESTOPPEL"],
+  "word_positions": [
+    {"word": "STATUTE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VERDICT", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "APPEAL", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TORT", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ESTOPPEL", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Legal Argumentation and Case Law"
+}
