@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "publicidad", "transliteration": "publicidad", "meaning": "advertising"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present-day"},
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily hurt or upset"},
+    {"word": "éxito", "transliteration": "exito", "meaning": "success"}
+  ],
+  "english_words": ["current", "success", "advertising", "sensitive"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed this family of words from Latin and French, so the forms stayed close, but the meanings drifted apart over time.",
+  "false_friend_warning": "The Spanish word for advertising looks like the English word publicity, but publicity means public attention or press coverage, not paid advertising. Likewise, the Spanish word for current looks like the English word actual, which means real or true."
+}

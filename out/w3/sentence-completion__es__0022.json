@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the company invested in better security,",
+  "correct_completion": "it would not have lost so much data last year.",
+  "full_sentence": "Had the company invested in better security, it would not have lost so much data last year.",
+  "acceptable_variants": ["it probably wouldn't have lost so much data last year.", "the losses would have been far smaller."],
+  "options": [
+    {"text": "it would lose much data next year.", "is_correct": false, "why_wrong": "'Would lose' with 'next year' describes a future result, but the stem is a past unreal condition about last year."},
+    {"text": "so it lost a lot of data last year.", "is_correct": false, "why_wrong": "'So' signals cause and effect, not a conditional result. The stem needs a hypothetical result clause."},
+    {"text": "it would not have lost so much data last year.", "is_correct": true, "why_wrong": null},
+    {"text": "it will not lose data now.", "is_correct": false, "why_wrong": "'Will' expresses a real future result, but an inverted 'had' sentence needs a hypothetical past result."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional with inverted 'had' in place of 'if'",
+  "connector": "had (inverted if)",
+  "explanation": "Inverted 'had' replaces 'if', so the stem is a third conditional describing a past situation that did not happen. The result clause must use 'would have' plus a past participle. Students often reach for a simple conditional or a simple past here, but English requires the perfect form in the result clause.",
+  "translation": "Si la empresa hubiera invertido en mejor seguridad, no habría perdido tantos datos el año pasado."
+}
