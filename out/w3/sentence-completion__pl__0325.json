@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The phone was off all evening, so",
+  "correct_completion": "he must have forgotten to charge it.",
+  "full_sentence": "The phone was off all evening, so he must have forgotten to charge it.",
+  "acceptable_variants": ["he must have left it at home.", "he might have run out of battery."],
+  "options": [
+    {"text": "he will be late for work.", "is_correct": false, "why_wrong": "'Will' expresses a future prediction, but the stem describes a past situation that needs a past explanation."},
+    {"text": "he must have forgotten to charge it.", "is_correct": true, "why_wrong": null},
+    {"text": "he would have called us.", "is_correct": false, "why_wrong": "'Would have called' describes an imagined past result, not a logical conclusion about why the phone was off."},
+    {"text": "he can go to school tomorrow.", "is_correct": false, "why_wrong": "This talks about a future possibility and gives no reason for the phone being off in the past."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal perfect 'must have + past participle' for a logical deduction about the past",
+  "connector": "so",
+  "explanation": "'Must have' plus a past participle expresses a confident conclusion about a past situation, based on evidence. Polish speakers often use a simple past verb here, because Polish does not have a separate modal perfect structure.",
+  "translation": "Telefon był wyłączony przez cały wieczór, więc on musiał zapomnieć go naładować."
+}
