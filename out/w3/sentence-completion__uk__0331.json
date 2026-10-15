@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The students who studied hard",
+  "correct_completion": "passed the final exam easily.",
+  "full_sentence": "The students who studied hard passed the final exam easily.",
+  "acceptable_variants": ["all passed the final exam easily.", "were praised by the teacher."],
+  "options": [
+    {"text": "which passed the final exam easily.", "is_correct": false, "why_wrong": "'Which' is used for things, not people. For people, use 'who' or 'that' in the relative clause, and the sentence already contains 'who'."},
+    {"text": "they passed the final exam easily.", "is_correct": false, "why_wrong": "Repeating the subject after a relative clause is incorrect in English. The relative pronoun already acts as the subject of the clause."},
+    {"text": "passed the final exam easily.", "is_correct": true, "why_wrong": null},
+    {"text": "whom the teacher praised for their effort.", "is_correct": false, "why_wrong": "'Whom' cannot follow 'who' in the same clause, and the sentence would have no main verb for the subject 'The students'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Defining relative clauses without commas",
+  "connector": "who",
+  "explanation": "A defining relative clause has no commas and identifies which people the sentence is about, so the clause must be followed directly by the main verb of the sentence. Learners often add the subject again or use 'which' for people, which is not correct.",
+  "translation": "Студенти, які старанно вчилися, легко склали підсумковий іспит."
+}

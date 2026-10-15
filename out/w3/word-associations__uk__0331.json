@@ -1,0 +1,14 @@
+{
+  "trigger_word": "diagnosis",
+  "all_words": [
+    {"word": "symptom", "is_associated": true, "association_type": "THEMATIC", "explanation": "Симптом належить до тієї самої медичної сфери, адже саме за симптомами лікар зазвичай встановлює діагноз."},
+    {"word": "carburettor", "is_associated": false, "association_type": "NONE", "explanation": "Карбюратор є деталлю двигуна і не має жодного зв'язку з медичним поняттям діагнозу."},
+    {"word": "prognosis", "is_associated": true, "association_type": "THEMATIC", "explanation": "Прогноз є наступним етапом після діагнозу в медицині, тому він належить до того самого тематичного поля."},
+    {"word": "sonnet", "is_associated": false, "association_type": "NONE", "explanation": "Сонет є поетичною формою і не пов'язаний з медичною термінологією чи діагнозом."},
+    {"word": "differential", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "В англійській мові 'differential diagnosis' є усталеним медичним словосполученням, що означає диференційний діагноз."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Льодовик є природним геологічним утворенням і не має жодного відношення до діагнозу."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'diagnosis' пов'язане з медичною термінологією: симптомами, прогнозом і усталеними словосполученнями на кшталт 'differential diagnosis', тоді як решта слів належить до інших сфер."
+}
