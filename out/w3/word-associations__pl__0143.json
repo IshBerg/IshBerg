@@ -1,0 +1,14 @@
+{
+  "trigger_word": "shop",
+  "all_words": [
+    {"word": "basket", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Koszyk to przedmiot, którego ludzie używają w sklepie do noszenia zakupów."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Drzewo nie ma żadnego związku z zakupami w sklepie."},
+    {"word": "cashier", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kasjer pracuje w sklepie i przyjmuje płatności przy kasie."},
+    {"word": "price", "is_associated": true, "association_type": "THEMATIC", "explanation": "Cena informuje, ile kosztuje towar, więc jest ważną częścią zakupów w sklepie."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra jest elementem przyrody i nie ma związku ze sklepem."},
+    {"word": "receipt", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Wyrażenie shop receipt jest typowe, bo paragon dostajesz po zakupie w sklepie."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Wszystkie poprawne słowa dotyczą robienia zakupów w sklepie; słowa związane z przyrodą nie pasują do tego tematu."
+}
