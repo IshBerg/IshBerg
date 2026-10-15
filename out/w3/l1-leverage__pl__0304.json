@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "informacja", "transliteration": "informacja", "meaning": "information"},
+    {"word": "analiza", "transliteration": "analiza", "meaning": "analysis"},
+    {"word": "hipoteza", "transliteration": "hipoteza", "meaning": "hypothesis"},
+    {"word": "eksperyment", "transliteration": "eksperyment", "meaning": "experiment"}
+  ],
+  "english_words": ["hypothesis", "experiment", "information", "analysis"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these scientific terms from Latin and Greek, so the Polish and English forms stayed close in spelling and meaning.",
+  "false_friend_warning": null
+}

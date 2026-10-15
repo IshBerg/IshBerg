@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it stops raining this afternoon,",
+  "correct_completion": "we will go to the park.",
+  "full_sentence": "If it stops raining this afternoon, we will go to the park.",
+  "acceptable_variants": ["we will take a walk.", "we are going to go to the park."],
+  "options": [
+    {"text": "we is going to the park.", "is_correct": false, "why_wrong": "The subject 'we' takes the verb form 'are', not 'is'. This is a grammar error, not a logical completion."},
+    {"text": "because we like cinemas.", "is_correct": false, "why_wrong": "'Because' introduces a reason, not the result of a condition. The sentence needs a main clause describing what will happen."},
+    {"text": "we will go to the park.", "is_correct": true, "why_wrong": null},
+    {"text": "we yesterday went to the park.", "is_correct": false, "why_wrong": "The past tense does not fit a future condition, and 'yesterday' conflicts with 'this afternoon'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will' for future possibilities",
+  "connector": "if",
+  "explanation": "In the first conditional, the if-clause uses the present simple to talk about the future, and the main clause uses 'will' plus the base verb.",
+  "translation": "Jeśli dziś po południu przestanie padać, pójdziemy do parku."
+}
