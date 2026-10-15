@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the novel is long and complex,",
+  "correct_completion": "many readers find its characters deeply memorable.",
+  "full_sentence": "Although the novel is long and complex, many readers find its characters deeply memorable.",
+  "acceptable_variants": ["readers still praise its vivid characters.", "critics often admire the characters' depth."],
+  "options": [
+    {"text": "so readers rarely finish it.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast. This option expresses a consequence instead."},
+    {"text": "many readers find its characters deeply memorable.", "is_correct": true, "why_wrong": null},
+    {"text": "the novel was published in 1920.", "is_correct": false, "why_wrong": "This adds a factual detail but does not provide the contrast expected after 'although'."},
+    {"text": "the author wrote it in a small village.", "is_correct": false, "why_wrong": "This describes where the book was written but does not contrast with the length and complexity mentioned in the first clause."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must contrast with the first part of the sentence. Spanish speakers often expect a cause or result pattern here, so check that the second clause opposes the difficulty described in the first.",
+  "translation": "Aunque la novela es larga y compleja, muchos lectores encuentran a sus personajes profundamente memorables."
+}

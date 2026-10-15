@@ -1,0 +1,14 @@
+{
+  "trigger_word": "wallet",
+  "all_words": [
+    {"word": "money", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La cartera sirve para guardar dinero, así que las dos palabras están muy relacionadas."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "El río es un curso natural de agua y no tiene relación con las carteras."},
+    {"word": "card", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Las tarjetas, como la tarjeta de crédito, se guardan normalmente en la cartera."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "La nube es un fenómeno del cielo y no se relaciona con una cartera."},
+    {"word": "pocket", "is_associated": true, "association_type": "THEMATIC", "explanation": "El bolsillo es un lugar donde muchas personas llevan la cartera."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "La bicicleta es un medio de transporte y no tiene relación con una cartera."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La cartera se asocia con el dinero, las tarjetas y los lugares donde se guarda; el río, la nube y la bicicleta no tienen relación con ella."
+}
