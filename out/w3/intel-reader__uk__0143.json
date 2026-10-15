@@ -1,0 +1,19 @@
+{
+  "title": "At the Bus Stop",
+  "text": "Tom is at the bus stop. He waits for the bus. It is cold today.\n\nA woman comes to the stop. She says hello to Tom. The bus comes, and they get on.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is Tom?", "options": ["At home", "At the bus stop", "At school", "At the shop"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does the woman say to Tom?", "options": ["Goodbye", "Hello", "Thank you", "Sorry"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the woman seem to feel about Tom?", "options": ["She knows him and is friendly", "She is angry with him", "She is lost", "She is hungry"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What will Tom probably do next?", "options": ["Buy a car", "Go home to sleep", "Get on the bus", "Call his teacher"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "stop", "translation": "зупинка", "definition": "a place where a bus stops so people can get on or off"},
+    {"word": "bus", "translation": "автобус", "definition": "a large vehicle that carries many passengers"},
+    {"word": "cold", "translation": "холодний", "definition": "having a low temperature, not warm"}
+  ],
+  "paragraph_translations": [
+    "Том на автобусній зупинці. Він чекає автобус. Сьогодні холодно.",
+    "До зупинки підходить жінка. Вона вітається з Томом. Приїжджає автобус, і вони сідають у нього."
+  ]
+}
