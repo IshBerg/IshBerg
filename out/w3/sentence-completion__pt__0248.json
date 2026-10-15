@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will watch a movie inside.", "we will play games at home."],
+  "options": [
+    {"text": "we went to the park yesterday.", "is_correct": false, "why_wrong": "The past tense does not fit a future possibility introduced by 'if' in a first conditional sentence."},
+    {"text": "we would stay at home.", "is_correct": false, "why_wrong": "'Would' is used in the second conditional for unlikely situations, not for a real possibility tomorrow."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we stayed at home yesterday.", "is_correct": false, "why_wrong": "This uses the past tense and refers to yesterday, so it does not complete a future condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "In the first conditional, the if-clause uses the present simple for a future possibility, and the main clause uses 'will' with the base verb to show the likely result.",
+  "translation": "Se chover amanhã, nós vamos ficar em casa."
+}
