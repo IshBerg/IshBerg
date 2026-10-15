@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Look at those black clouds!",
+  "correct_completion": "It is going to rain.",
+  "full_sentence": "Look at those black clouds! It is going to rain.",
+  "acceptable_variants": ["It is going to rain soon.", "It will probably rain soon."],
+  "options": [
+    {"text": "It is going to rain.", "is_correct": true, "why_wrong": null},
+    {"text": "It will rain yesterday.", "is_correct": false, "why_wrong": "'Yesterday' refers to the past, but 'will' is used for the future. The sentence needs a future form without a past time expression."},
+    {"text": "It rains every day in June.", "is_correct": false, "why_wrong": "This is a general habit, while the stem describes a prediction based on present evidence."},
+    {"text": "It has rained last week.", "is_correct": false, "why_wrong": "This refers to a past event. The black clouds are evidence of what will happen next."}
+  ],
+  "correct_index": 0,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Future: going to for predictions based on present evidence",
+  "connector": "going to",
+  "explanation": "When we see present evidence that something will happen soon, we use 'be going to' followed by the base verb. The black clouds are the evidence, so the prediction uses 'going to'.",
+  "translation": "Spójrz na te czarne chmury! Zaraz będzie padać."
+}
