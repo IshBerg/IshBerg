@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["D", "E", "A", "R", "K", "M", "P", "U", "Y"],
+    ["R", "B", "C", "F", "H", "J", "W", "L", "O"],
+    ["V", "E", "K", "Z", "Q", "B", "E", "T", "P"],
+    ["M", "U", "G", "W", "J", "R", "C", "X", "F"],
+    ["H", "B", "D", "A", "E", "K", "W", "Q", "Z"],
+    ["F", "J", "N", "C", "R", "M", "T", "P", "V"],
+    ["K", "W", "N", "O", "Y", "D", "U", "B", "G"],
+    ["T", "I", "H", "Z", "V", "P", "S", "K", "Q"],
+    ["S", "X", "L", "E", "T", "T", "E", "R", "O"]
+  ],
+  "words_to_find": ["DEAR", "REGARDS", "SINCERELY", "LETTER"],
+  "word_positions": [
+    {"word": "DEAR", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "REGARDS", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SINCERELY", "start_row": 8, "start_col": 0, "direction": "DIAGONAL_UP"},
+    {"word": "LETTER", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Formal Letters"
+}
