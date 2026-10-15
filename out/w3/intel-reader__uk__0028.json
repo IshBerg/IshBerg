@@ -1,0 +1,20 @@
+{
+  "title": "An Email from Anna",
+  "text": "Hi Tom! How are you? I am in London now. I am staying with my friend Lucy. The weather is cold, but the city is very nice.\n\nYesterday we visited a big museum. It was free and very interesting. Tonight we are going to a small Italian restaurant. Please write back soon!",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the writer now?", "options": ["In London", "In Paris", "At home", "In Rome"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What did the writer and Lucy do yesterday?", "options": ["They visited a museum", "They went to a park", "They cooked dinner", "They took a train"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the writer feel about the city?", "options": ["They like it", "They are bored with it", "They are angry about it", "They are tired of it"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why does the writer say 'Please write back soon!'?", "options": ["They want an answer from Tom", "They want to leave London", "They are going to bed", "They do not like Tom"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "weather", "translation": "погода", "definition": "the conditions outside, such as sun, rain or cold"},
+    {"word": "museum", "translation": "музей", "definition": "a building where people can see old or special objects"},
+    {"word": "interesting", "translation": "цікавий", "definition": "making you want to learn more or pay attention"},
+    {"word": "staying", "translation": "зупинятися, жити тимчасово", "definition": "living somewhere for a short time"}
+  ],
+  "paragraph_translations": [
+    "Привіт, Томе! Як справи? Я зараз у Лондоні. Я зупинилася у своєї подруги Люсі. Погода холодна, але місто дуже гарне.",
+    "Вчора ми відвідали великий музей. Він був безкоштовний і дуже цікавий. Сьогодні ввечері ми йдемо в маленький італійський ресторан. Будь ласка, напиши мені незабаром!"
+  ]
+}
