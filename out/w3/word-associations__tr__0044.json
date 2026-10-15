@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hand",
+  "all_words": [
+    {"word": "glove", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Eldiven el için yapılmış bir giysidir; bu yüzden 'glove' (eldiven) elle doğrudan ilişkilidir."},
+    {"word": "finger", "is_associated": true, "association_type": "THEMATIC", "explanation": "Parmak elin bir parçasıdır, bu yüzden 'finger' (parmak) aynı vücut bölgesi temasına aittir."},
+    {"word": "clap", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Clap your hands' (ellerini çırpmak) sık kullanılan bir ifadedir, bu yüzden 'clap' (çırpmak) ile 'hand' birlikte kullanılır."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Ayakkabı ayakla giyilir, ele ait değildir; bu yüzden elle bir bağlantısı yoktur."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "Bulut gökyüzünde bulunur ve vücut parçalarıyla ilgili değildir."},
+    {"word": "moon", "is_associated": false, "association_type": "NONE", "explanation": "Ay gökyüzündeki bir cisimdir ve el ile hiçbir ilişkisi yoktur."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "'Hand' kelimesi eldiven, parmak ve çırpmak gibi ele ait kavramlarla ilişkilidir; diğer kelimeler farklı konulara aittir."
+}
