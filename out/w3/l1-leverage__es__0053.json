@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "música", "transliteration": "musica", "meaning": "music"},
+    {"word": "guitarra", "transliteration": "guitarra", "meaning": "guitar"},
+    {"word": "tenis", "transliteration": "tenis", "meaning": "tennis"},
+    {"word": "fotografía", "transliteration": "fotografia", "meaning": "photography"}
+  ],
+  "english_words": ["guitar", "photography", "music", "tennis"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages took these words from the same international sources, so their spelling and meaning stayed very close. The Spanish words are spelled with Latin letters and only add accents or small endings.",
+  "false_friend_warning": null
+}
