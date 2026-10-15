@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I really enjoy",
+  "correct_completion": "reading novels in the evening.",
+  "full_sentence": "I really enjoy reading novels in the evening.",
+  "acceptable_variants": ["reading novels at night.", "reading novels before bed."],
+  "options": [
+    {"text": "to read novels in the evening.", "is_correct": false, "why_wrong": "'Enjoy' is followed by a gerund (-ing form), not by an infinitive with 'to'."},
+    {"text": "reading novels in the evening.", "is_correct": true, "why_wrong": null},
+    {"text": "read novels in the evening.", "is_correct": false, "why_wrong": "A bare infinitive without 'to' cannot follow 'enjoy'."},
+    {"text": "to reading novels in the evening.", "is_correct": false, "why_wrong": "'To' followed by -ing is not a valid structure after 'enjoy'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbs followed by a gerund: enjoy + -ing",
+  "connector": "enjoy",
+  "explanation": "The verb enjoy takes a gerund as its object. Learners often transfer the infinitive pattern from their first language, so this verb needs extra practice with the -ing form.",
+  "translation": "Realmente disfruto leer novelas por la noche."
+}
