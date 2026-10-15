@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My grandmother can't use a computer, but",
+  "correct_completion": "she can make delicious bread.",
+  "full_sentence": "My grandmother can't use a computer, but she can make delicious bread.",
+  "acceptable_variants": ["she can cook very well.", "she can bake cakes."],
+  "options": [
+    {"text": "she can't make bread.", "is_correct": false, "why_wrong": "'But' needs a positive ability to contrast with 'can't use a computer'. A negative repeats the same pattern and gives no contrast."},
+    {"text": "she likes to read books.", "is_correct": false, "why_wrong": "This describes a preference, not an ability, so it does not complete the contrast with 'can't'."},
+    {"text": "she can make delicious bread.", "is_correct": true, "why_wrong": null},
+    {"text": "she is very old.", "is_correct": false, "why_wrong": "This describes her age, not something she can do, so it does not answer the ability contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Ability with 'can' and contrast with 'but'",
+  "connector": "but",
+  "explanation": "'But' introduces a contrast with the negative ability in the first clause, so the second clause should state a positive ability using 'can' followed by a base verb. Portuguese speakers may mix up 'can' with 'know how to' because Portuguese uses two different verbs for these meanings, so check that the verb after 'can' is a plain action verb.",
+  "translation": "Minha avó não consegue usar computador, mas ela consegue fazer pão delicioso."
+}
