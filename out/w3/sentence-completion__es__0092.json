@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Mount Everest is the highest mountain in the world, so",
+  "correct_completion": "many climbers try to reach its summit.",
+  "full_sentence": "Mount Everest is the highest mountain in the world, so many climbers try to reach its summit.",
+  "acceptable_variants": ["many climbers attempt to reach its top.", "it attracts climbers from around the globe."],
+  "options": [
+    {"text": "it is the smallest mountain in the world.", "is_correct": false, "why_wrong": "This contradicts the stem, which says the mountain is the highest, and it gives no result."},
+    {"text": "it is very near the sea.", "is_correct": false, "why_wrong": "This is a fact about location and does not follow from being the highest mountain."},
+    {"text": "many climbers try to reach its summit.", "is_correct": true, "why_wrong": null},
+    {"text": "the highest mountain is in Asia.", "is_correct": false, "why_wrong": "This repeats the superlative idea but gives a location, not a consequence of being the highest."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Superlative adjectives with 'the' used to explain a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. Being the highest mountain makes it attractive to climbers, so the result must describe what people do. Learners may confuse the superlative with a simple comparison, so check that the stem uses 'the' with 'highest'.",
+  "translation": "El Everest es la montaña más alta del mundo, así que muchos escaladores intentan llegar a su cumbre."
+}
