@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["O", "F", "F", "E", "R", "X", "P"],
+    ["Q", "W", "Z", "K", "J", "B", "R"],
+    ["D", "Y", "T", "H", "T", "N", "I"],
+    ["E", "U", "E", "G", "R", "K", "C"],
+    ["A", "V", "R", "Z", "A", "J", "E"],
+    ["L", "F", "M", "W", "D", "Q", "B"],
+    ["K", "P", "S", "X", "E", "Y", "V"]
+  ],
+  "words_to_find": ["OFFER", "PRICE", "TERMS", "TRADE", "DEAL"],
+  "word_positions": [
+    {"word": "OFFER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "PRICE", "start_row": 0, "start_col": 6, "direction": "VERTICAL"},
+    {"word": "TERMS", "start_row": 2, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "TRADE", "start_row": 2, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "DEAL", "start_row": 2, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Negotiating"
+}
