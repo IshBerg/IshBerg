@@ -1,0 +1,13 @@
+{
+  "start_word": "terrible",
+  "end_word": "excellent",
+  "ladder_steps": [
+    {"word": "terrible", "translation": "terrible", "intensity_level": 1},
+    {"word": "bad", "translation": "malo", "intensity_level": 2},
+    {"word": "okay", "translation": "regular", "intensity_level": 3},
+    {"word": "good", "translation": "bueno", "intensity_level": 4},
+    {"word": "excellent", "translation": "excelente", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Review ratings move along one scale of quality, from very negative to very positive, with each step slightly better than the last."
+}

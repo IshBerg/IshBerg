@@ -1,0 +1,14 @@
+{
+  "trigger_word": "movie",
+  "all_words": [
+    {"word": "actor", "is_associated": true, "association_type": "THEMATIC", "explanation": "Un actor aparece en la película, así que forma parte del mundo del cine."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "El pescado no tiene ninguna relación con las películas."},
+    {"word": "screen", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La pantalla es donde se proyecta la película; las dos palabras se usan juntas en 'movie screen'."},
+    {"word": "kitchen", "is_associated": false, "association_type": "NONE", "explanation": "La cocina no se relaciona con ver películas."},
+    {"word": "popcorn", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las palomitas se comen tradicionalmente mientras se ve una película, sobre todo en el cine."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "La montaña no tiene relación con el cine."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'movie' son las que pertenecen al mundo de las películas: personas, lugares y cosas que se usan al verlas."
+}
