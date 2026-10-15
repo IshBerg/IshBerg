@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Never before",
+  "correct_completion": "had the company faced such a serious financial crisis.",
+  "full_sentence": "Never before had the company faced such a serious financial crisis.",
+  "acceptable_variants": ["had the company encountered such a serious financial crisis.", "had the firm ever faced such a serious crisis."],
+  "options": [
+    {"text": "the company faced such a serious financial crisis.", "is_correct": false, "why_wrong": "Without inversion, the subject stays before the auxiliary, so the negative adverbial at the start is not handled correctly."},
+    {"text": "had the company faced such a serious financial crisis.", "is_correct": true, "why_wrong": null},
+    {"text": "the company had faced such a serious financial crisis.", "is_correct": false, "why_wrong": "This is standard word order; a negative adverbial at the start of the sentence requires subject-auxiliary inversion."},
+    {"text": "did the company face such a serious financial crisis.", "is_correct": false, "why_wrong": "'Did' does not combine with the past perfect; the auxiliary must be 'had' to express an earlier time up to now."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion after 'never before'",
+  "connector": "never before",
+  "explanation": "When a negative adverbial such as 'never before' opens the sentence, the auxiliary verb comes before the subject. The past perfect auxiliary 'had' must be placed before 'the company' to form the inverted structure.",
+  "translation": "Nigdy wcześniej firma nie stanęła w obliczu tak poważnego kryzysu finansowego."
+}
