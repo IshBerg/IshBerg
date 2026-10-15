@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the film received excellent reviews,",
+  "correct_completion": "it failed to attract large audiences.",
+  "full_sentence": "Although the film received excellent reviews, it failed to attract large audiences.",
+  "acceptable_variants": ["it did not attract large audiences.", "audiences still stayed away."],
+  "options": [
+    {"text": "so it won several awards.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not contrast with the praise in the first clause; 'although' requires a contrasting idea."},
+    {"text": "because the reviews were excellent.", "is_correct": false, "why_wrong": "'Because' gives a cause that repeats the first clause, so it does not create the contrast that 'although' requires."},
+    {"text": "it failed to attract large audiences.", "is_correct": true, "why_wrong": null},
+    {"text": "the director was very young.", "is_correct": false, "why_wrong": "This adds an unrelated fact about the director and does not complete the contrast introduced by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the second clause must express a result that contrasts with the first clause. Learners often reach for a cause-and-effect connector here, which breaks the concessive meaning.",
+  "translation": "Хоча фільм отримав чудові відгуки, він не зміг привабити велику аудиторію."
+}
