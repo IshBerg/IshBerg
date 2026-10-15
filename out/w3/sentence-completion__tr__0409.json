@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before we eat the soup,",
+  "correct_completion": "we wash our hands.",
+  "full_sentence": "Before we eat the soup, we wash our hands.",
+  "acceptable_variants": ["we wash our hands first.", "we always wash our hands."],
+  "options": [
+    {"text": "the soup was very hot.", "is_correct": false, "why_wrong": "This describes the soup, but 'before' needs an action that happens earlier than eating."},
+    {"text": "we ate the soup yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a past time, but the stem says the eating has not happened yet, so this action cannot come before it."},
+    {"text": "we wash our hands.", "is_correct": true, "why_wrong": null},
+    {"text": "the cat sleeps on the chair.", "is_correct": false, "why_wrong": "This is unrelated to the cooking situation and does not complete the time relation set by 'before'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Time clauses with 'before'",
+  "connector": "before",
+  "explanation": "'Before' shows that one action comes earlier than another. Here the second part must be an action that happens before eating the soup. Turkish speakers may find this easy because Turkish also places a time phrase before the main verb, but English uses the simple present for routine actions in this kind of sentence.",
+  "translation": "Çorbayı yemeden önce ellerimizi yıkarız."
+}
