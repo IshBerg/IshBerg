@@ -1,0 +1,23 @@
+{
+  "central_word": "hot",
+  "chain_words": [
+    {"word": "warm", "intensity": 1, "translation": "morno", "nuance": "pleasantly above cool, mild heat"},
+    {"word": "hot", "intensity": 2, "translation": "quente", "nuance": "high temperature, general word"},
+    {"word": "sweltering", "intensity": 3, "translation": "sufocante", "nuance": "uncomfortably hot, often with humidity"},
+    {"word": "scorching", "intensity": 4, "translation": "escaldante", "nuance": "very hot, burning the surface"},
+    {"word": "boiling", "intensity": 5, "translation": "fervendo", "nuance": "extremely hot, at the strongest level"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe high temperature, from pleasant warmth to extreme heat.",
+  "usage_notes": [
+    {"word1": "warm", "word2": "hot", "difference": "'Warm' describes a pleasant, mild level of heat; 'hot' describes a higher temperature that can be uncomfortable."}
+  ],
+  "translations": {
+    "warm": "morno",
+    "hot": "quente",
+    "sweltering": "sufocante",
+    "scorching": "escaldante",
+    "boiling": "fervendo"
+  }
+}
