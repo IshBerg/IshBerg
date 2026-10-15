@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While I was cooking dinner,",
+  "correct_completion": "the phone rang.",
+  "full_sentence": "While I was cooking dinner, the phone rang.",
+  "acceptable_variants": ["the phone rang suddenly.", "someone knocked on the door."],
+  "options": [
+    {"text": "the phone was ringing every day.", "is_correct": false, "why_wrong": "'Every day' describes a habit, but the sentence needs a single past event that interrupts the longer action."},
+    {"text": "the phone rang.", "is_correct": true, "why_wrong": null},
+    {"text": "I was cooking dinner yesterday.", "is_correct": false, "why_wrong": "This repeats the first part of the sentence instead of completing the interruption."},
+    {"text": "I will answer the phone later.", "is_correct": false, "why_wrong": "The future does not fit a past action that interrupted another past action."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous for a background action interrupted by a past simple action",
+  "connector": "while",
+  "explanation": "The past continuous describes the longer action in progress, and the past simple describes the shorter action that interrupted it. Portuguese speakers may use the same past form for both actions, but English needs the continuous form for the longer background action.",
+  "translation": "Enquanto eu cozinhava o jantar, o telefone tocou."
+}
