@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It was the manager who",
+  "correct_completion": "approved the new budget last Monday.",
+  "full_sentence": "It was the manager who approved the new budget last Monday.",
+  "acceptable_variants": ["signed the new budget last Monday.", "decided to approve the new budget last Monday."],
+  "options": [
+    {"text": "the new budget was approved last Monday.", "is_correct": false, "why_wrong": "This is a passive sentence, not a cleft; the stem 'It was the manager who' needs a relative clause that names the person who acted."},
+    {"text": "approved the new budget last Monday.", "is_correct": true, "why_wrong": null},
+    {"text": "approving the budget was necessary.", "is_correct": false, "why_wrong": "This does not fit after 'who', which needs a finite verb to describe what the person did."},
+    {"text": "because the budget had been reviewed.", "is_correct": false, "why_wrong": "'Because' introduces a reason, but the cleft structure needs a relative clause introduced by 'who' to focus on the person."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Cleft sentences with 'It was ... who'",
+  "connector": "who",
+  "explanation": "A cleft sentence highlights one element of the sentence, here the person, using 'It was ... who'. The completion must be a relative clause with a finite verb that describes what that person did.",
+  "translation": "Foi o gerente quem aprovou o novo orçamento na segunda-feira passada."
+}
