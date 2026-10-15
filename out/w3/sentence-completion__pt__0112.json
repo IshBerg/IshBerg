@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He has never tried sushi, but",
+  "correct_completion": "he wants to try it next week.",
+  "full_sentence": "He has never tried sushi, but he wants to try it next week.",
+  "acceptable_variants": ["he would like to try it soon.", "he is excited to taste it one day."],
+  "options": [
+    {"text": "he has eaten it every week.", "is_correct": false, "why_wrong": "This contradicts 'never' in the first clause, so it cannot follow the stem."},
+    {"text": "so he ate it yesterday.", "is_correct": false, "why_wrong": "This contradicts 'never', and 'so' shows result rather than the contrast that 'but' requires."},
+    {"text": "he wants to try it next week.", "is_correct": true, "why_wrong": null},
+    {"text": "he cooked dinner for his family last night.", "is_correct": false, "why_wrong": "This is unrelated to sushi and does not contrast with the idea of never having tried it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present perfect with 'never' and contrast with 'but'",
+  "connector": "but",
+  "explanation": "'But' introduces a contrast with the first clause. The first clause uses the present perfect with 'never' to say that the experience has not happened yet, so the second clause must show a different attitude or plan. Portuguese speakers sometimes choose a past simple option because the Portuguese past tense covers both completed actions and past experiences, but English uses the present perfect with 'never' to talk about life experience up to now.",
+  "translation": "Ele nunca experimentou sushi, mas quer experimentá-lo na próxima semana."
+}
