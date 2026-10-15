@@ -1,0 +1,13 @@
+{
+  "start_word": "awful",
+  "end_word": "excellent",
+  "ladder_steps": [
+    {"word": "awful", "translation": "horrible", "intensity_level": 1},
+    {"word": "poor", "translation": "malo", "intensity_level": 2},
+    {"word": "fair", "translation": "regular", "intensity_level": 3},
+    {"word": "good", "translation": "bueno", "intensity_level": 4},
+    {"word": "excellent", "translation": "excelente", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "Quality words form a ladder from the worst rating to the best, each step slightly better than the one before."
+}

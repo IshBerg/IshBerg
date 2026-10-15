@@ -1,0 +1,14 @@
+{
+  "trigger_word": "movie",
+  "all_words": [
+    {"word": "screen", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Una película se proyecta en una pantalla, por eso ambas palabras están relacionadas."},
+    {"word": "popcorn", "is_associated": true, "association_type": "THEMATIC", "explanation": "Mucha gente come palomitas mientras ve una película en el cine."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Una bicicleta no tiene ninguna relación con las películas."},
+    {"word": "actor", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Los actores son las personas que aparecen en una película."},
+    {"word": "tomato", "is_associated": false, "association_type": "NONE", "explanation": "El tomate es un alimento de la cocina y no tiene relación con el cine."},
+    {"word": "theater", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión movie theater es habitual para referirse al cine."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas se relacionan con el cine por su significado, su contexto o expresiones habituales; las demás no tienen ninguna relación con las películas."
+}
