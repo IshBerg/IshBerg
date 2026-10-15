@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "plane", "is_associated": true, "association_type": "THEMATIC", "explanation": "Літак є головним транспортом в аеропорту, тому слово тематично пов'язане з ним."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "Риба не має жодного зв'язку з аеропортом, тому слово не пов'язане з темою."},
+    {"word": "gate", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Словосполучення 'airport gate' означає вихід на посадку; це усталений вираз."},
+    {"word": "passport", "is_associated": true, "association_type": "THEMATIC", "explanation": "Паспорт потрібен для перевірки під час реєстрації та посадки, тому слово тематично пов'язане."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не належить до аеропорту, і прямого зв'язку між цими словами немає."},
+    {"word": "suitcase", "is_associated": true, "association_type": "THEMATIC", "explanation": "Валіза є речю, яку беруть у подорож, тому слово тематично пов'язане з аеропортом."}
+  ],
+  "correct_indices": [0, 2, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з аеропортом, стосуються польоту, перевірки документів і багажу; риба і річка до цієї теми не належать."
+}

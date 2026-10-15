@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Anna has just",
+  "correct_completion": "finished her report.",
+  "full_sentence": "Anna has just finished her report.",
+  "acceptable_variants": ["completed her report.", "handed in her report."],
+  "options": [
+    {"text": "will finish her report.", "is_correct": false, "why_wrong": "The future 'will' does not fit 'has just', which describes an action completed a very short time before now."},
+    {"text": "finished her report.", "is_correct": true, "why_wrong": null},
+    {"text": "is finishing her report.", "is_correct": false, "why_wrong": "The present continuous does not follow 'has just'. The present perfect needs a past participle such as 'finished'."},
+    {"text": "finished her report yesterday.", "is_correct": false, "why_wrong": "'Yesterday' is a finished time and cannot be used with the present perfect 'has just'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'just'",
+  "connector": "just",
+  "explanation": "'Just' shows that an action was completed a very short time before the present moment. After 'has just', we need the past participle to show a completed action linked to now. Ukrainian speakers may use a simple past form here, because the Ukrainian past tense does not link the action to the present in the same way.",
+  "translation": "Анна щойно закінчила свій звіт."
+}
