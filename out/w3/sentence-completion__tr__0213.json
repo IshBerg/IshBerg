@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the mounting evidence against him,",
+  "correct_completion": "the defendant maintained his innocence throughout the trial.",
+  "full_sentence": "Despite the mounting evidence against him, the defendant maintained his innocence throughout the trial.",
+  "acceptable_variants": ["the defendant still denied any wrongdoing.", "the defendant refused to accept the charges."],
+  "options": [
+    {"text": "so the defendant confessed to the crime.", "is_correct": false, "why_wrong": "'So' signals a result, but 'despite' requires a contrast: the main clause must hold against the evidence, not follow from it."},
+    {"text": "because the defendant had already admitted everything.", "is_correct": false, "why_wrong": "'Because' introduces a cause, which does not fit the concessive meaning of 'despite' and would make the sentence contradictory."},
+    {"text": "the defendant maintained his innocence throughout the trial.", "is_correct": true, "why_wrong": null},
+    {"text": "the evidence was therefore dismissed as irrelevant.", "is_correct": false, "why_wrong": "This describes a consequence of the evidence rather than a contrasting action, so it breaks the concessive structure set up by 'despite'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive prepositions: 'despite' and 'in spite of' followed by a noun phrase",
+  "connector": "despite",
+  "explanation": "'Despite' is a preposition of contrast, so the following main clause must express an outcome that goes against the evidence. Options that express a cause or a result reverse the intended meaning.",
+  "translation": "Aleyhine olan artan delillere rağmen, sanık duruşma boyunca masumiyetini savundu."
+}

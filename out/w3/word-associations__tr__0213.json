@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "oven", "is_associated": true, "association_type": "THEMATIC", "explanation": "Fırın mutfakta yemek pişirmek için kullanılan bir alettir."},
+    {"word": "whale", "is_associated": false, "association_type": "NONE", "explanation": "Balina okyanusta yaşayan bir hayvandır ve mutfakla hiçbir ilgisi yoktur."},
+    {"word": "sink", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Lavabo mutfağın ayrılmaz bir parçasıdır ve 'kitchen sink' yaygın bir ifadedir."},
+    {"word": "planet", "is_associated": false, "association_type": "NONE", "explanation": "Gezegen uzayla ilgili bir kavramdır; mutfakla bir bağlantısı yoktur."},
+    {"word": "fork", "is_associated": true, "association_type": "THEMATIC", "explanation": "Çatal mutfakta yemek yemek için kullanılan bir eşyadır."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piyano bir müzik aletidir ve mutfakla ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Mutfak kelimesiyle ilişkili kelimeler, mutfaktaki eşyalar ve mutfak ifadeleri üzerinden kurulur; diğer kelimeler bu alanın dışındadır."
+}
