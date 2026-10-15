@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the strong evidence presented in the essay,",
+  "correct_completion": "many readers remained unconvinced.",
+  "full_sentence": "Despite the strong evidence presented in the essay, many readers remained unconvinced.",
+  "acceptable_variants": ["many readers still disagreed.", "some readers stayed skeptical."],
+  "options": [
+    {"text": "the evidence was therefore weak.", "is_correct": false, "why_wrong": "'Therefore' signals a result, but 'despite' requires a contrast with the strong evidence, not a conclusion that the evidence is weak."},
+    {"text": "readers were convinced by it.", "is_correct": false, "why_wrong": "This agrees with the evidence instead of contrasting with it; 'despite' needs an unexpected result."},
+    {"text": "many readers remained unconvinced.", "is_correct": true, "why_wrong": null},
+    {"text": "the essay was written in pencil.", "is_correct": false, "why_wrong": "This is a fact about the essay's form and does not complete the contrast started by 'despite'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive expressions with 'despite'",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a result that goes against what we would expect from the first part of the sentence. Here the strong evidence would normally persuade readers, so the completion must show the opposite outcome. Students often confuse 'despite' with 'therefore', which expresses a result and not a contrast.",
+  "translation": "Apesar das fortes evidências apresentadas no ensaio, muitos leitores continuaram não convencidos."
+}
