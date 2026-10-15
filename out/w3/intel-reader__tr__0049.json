@@ -1,0 +1,20 @@
+{
+  "title": "A Simple Cake",
+  "text": "Today I will make a simple cake. First, you need eggs, flour, sugar and milk. Then, put the eggs and sugar in a big bowl. Mix them with a spoon. Add the flour and milk and mix again.\n\nNext, pour the mixture into a small pan. Bake the cake in the oven for thirty minutes. The cake is ready when it is golden brown. Let it cool before you eat it.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What do you need to make the cake?", "options": ["Eggs, flour, sugar and milk", "Rice, tea, salt and butter", "Apples, bread, sugar and water", "Eggs, meat, oil and cheese"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "How long do you bake the cake?", "options": ["Ten minutes", "Twenty minutes", "Thirty minutes", "One hour"], "correct_index": 2, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why should you let the cake cool before you eat it?", "options": ["It is too hot to eat safely", "It needs more sugar", "It will become bigger", "It must go back in the oven"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What can we guess when the cake is golden brown?", "options": ["It is ready", "It is raw", "It is cold", "It has no flour"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "bowl", "translation": "kase", "definition": "a round container used for mixing food"},
+    {"word": "mix", "translation": "karıştırmak", "definition": "to combine things together so they are no longer separate"},
+    {"word": "pan", "translation": "tava", "definition": "a flat metal dish used for cooking"},
+    {"word": "golden", "translation": "altın rengi", "definition": "having a yellow-brown colour like gold"}
+  ],
+  "paragraph_translations": [
+    "Bugün basit bir kek yapacağım. Önce yumurta, un, şeker ve süt gerekiyor. Sonra yumurtaları ve şekeri büyük bir kaseye koy. Onları bir kaşıkla karıştır. Unu ve sütü ekle ve tekrar karıştır.",
+    "Sonra karışımı küçük bir tavaya dök. Keki fırında otuz dakika pişir. Kek altın rengi olduğunda hazırdır. Yemeden önce soğumasını bekle."
+  ]
+}
