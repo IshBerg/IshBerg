@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["E", "A", "S", "T", "E", "R", "M", "G"],
+    ["Q", "B", "N", "R", "T", "X", "Z", "I"],
+    ["D", "I", "W", "A", "L", "I", "O", "F"],
+    ["J", "K", "N", "S", "U", "B", "E", "T"],
+    ["H", "O", "L", "I", "D", "A", "Y", "C"],
+    ["P", "R", "U", "N", "G", "E", "V", "A"],
+    ["W", "M", "S", "Q", "T", "H", "J", "K"],
+    ["L", "Z", "X", "C", "B", "D", "N", "E"]
+  ],
+  "words_to_find": ["EASTER", "DIWALI", "HOLIDAY", "GIFT", "CAKE"],
+  "word_positions": [
+    {"word": "EASTER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DIWALI", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "HOLIDAY", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GIFT", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "CAKE", "start_row": 4, "start_col": 7, "direction": "VERTICAL"}
+  ],
+  "topic": "Holidays Around the World"
+}
