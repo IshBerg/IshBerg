@@ -1,0 +1,14 @@
+{
+  "trigger_word": "bank",
+  "all_words": [
+    {"word": "account", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Bank account є усталеним словосполученням, яке означає банківський рахунок, тому ці слова часто використовуються разом."},
+    {"word": "carrot", "is_associated": false, "association_type": "NONE", "explanation": "Морква є овочем і не має жодного зв'язку зі значенням слова bank у фінансовому контексті."},
+    {"word": "loan", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Позика є однією з основних банківських послуг, тому вона семантично тісно пов'язана з bank."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Подушка є предметом побуту, який не належить до сфери банківської справи."},
+    {"word": "teller", "is_associated": true, "association_type": "THEMATIC", "explanation": "Касир у банку належить до тієї самої тематичної сфери, що й банк, бо працює з грошовими операціями."},
+    {"word": "interest", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Відсотки, або interest, є основою банківського заробітку на вкладах і кредитах, тож це поняття пов'язане з банком."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово bank пов'язане з фінансовими поняттями, такими як рахунок, позика, касир і відсотки, тоді як морква і подушка належать до зовсім інших сфер."
+}
