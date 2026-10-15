@@ -1,0 +1,14 @@
+{
+  "trigger_word": "profit",
+  "all_words": [
+    {"word": "income", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Gelir, kâr ile yakından ilişkilidir, çünkü kâr genellikle gelirden giderlerin çıkarılmasıyla hesaplanır."},
+    {"word": "margin", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Profit margin, işletmelerde kâr oranını anlatan yaygın bir eşdizimdir."},
+    {"word": "giraffe", "is_associated": false, "association_type": "NONE", "explanation": "Zürafa kelimesinin iş ve ekonomi dünyasıyla hiçbir ilgisi yoktur."},
+    {"word": "budget", "is_associated": true, "association_type": "THEMATIC", "explanation": "Bütçe, kâr hedeflerinin planlanmasıyla ilgili temel bir iş terimidir."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Halı, iş dünyasıyla ilgisi olmayan günlük bir eşyadır."},
+    {"word": "loss", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Zarar, kârın karşıtıdır ve aynı mali alan içinde doğal olarak bağlantılıdır."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kâr kelimesi gelir, marj, bütçe ve zarar gibi iktisadi kavramlarla ilişkilidir, zürafa ve halı gibi kelimeler ise bu alanın dışında kalır."
+}

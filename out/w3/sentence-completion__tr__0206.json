@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the report early,",
+  "correct_completion": "she sent it to her manager.",
+  "full_sentence": "Having finished the report early, she sent it to her manager.",
+  "acceptable_variants": ["she handed it in to her manager.", "she was able to leave the office on time."],
+  "options": [
+    {"text": "the sun had already set.", "is_correct": false, "why_wrong": "The verbless clause needs the main subject to be the one who finished the report. A sun cannot finish a report, so this creates a dangling modifier."},
+    {"text": "it was submitted late.", "is_correct": false, "why_wrong": "The subject 'it' (the report) cannot be the one who finished it, and 'late' contradicts 'early' in the stem."},
+    {"text": "she sent it to her manager.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was very long.", "is_correct": false, "why_wrong": "This describes the report, but the verbless clause requires the main clause to state the action of the person who finished it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses with an implied subject",
+  "connector": "having finished",
+  "explanation": "A participle clause at the start of a sentence must share its implied subject with the main clause. Only the option with a person doing the action fits this rule.",
+  "translation": "Raporu erken bitirdikten sonra, onu müdürüne gönderdi."
+}
