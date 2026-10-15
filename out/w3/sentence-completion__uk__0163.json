@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She avoided",
+  "correct_completion": "answering the question directly.",
+  "full_sentence": "She avoided answering the question directly.",
+  "acceptable_variants": ["discussing the problem openly.", "talking about her plans."],
+  "options": [
+    {"text": "to answer the question directly.", "is_correct": false, "why_wrong": "'Avoid' is always followed by a gerund, never by an infinitive with 'to'."},
+    {"text": "answering the question directly.", "is_correct": true, "why_wrong": null},
+    {"text": "answer the question directly.", "is_correct": false, "why_wrong": "A bare infinitive cannot follow 'avoided'. The verb needs a gerund after it."},
+    {"text": "to be answering the question directly.", "is_correct": false, "why_wrong": "'Avoid' takes a simple gerund here, and the continuous infinitive makes the sentence unnatural."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbs followed by gerunds: avoid, enjoy, finish, suggest",
+  "connector": "avoided",
+  "explanation": "Some verbs in English, such as avoid, enjoy and finish, are always followed by a gerund. Ukrainian speakers may expect an infinitive after a verb of intention, so they can mix up the two patterns.",
+  "translation": "Вона уникала прямої відповіді на запитання."
+}
