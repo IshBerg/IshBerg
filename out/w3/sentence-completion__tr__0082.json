@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "After we finished dinner,",
+  "correct_completion": "we washed the dishes.",
+  "full_sentence": "After we finished dinner, we washed the dishes.",
+  "acceptable_variants": ["we cleaned the kitchen.", "we tidied the table."],
+  "options": [
+    {"text": "the dinner is still cooking.", "is_correct": false, "why_wrong": "This uses the present tense, but the stem describes a finished event in the past, so the completion must also be past simple."},
+    {"text": "we washed the dishes.", "is_correct": true, "why_wrong": null},
+    {"text": "we will go to bed at nine tomorrow.", "is_correct": false, "why_wrong": "The future 'will' does not fit the past sequence started by 'after' and the finished dinner."},
+    {"text": "dinner was very tasty.", "is_correct": false, "why_wrong": "This describes the dinner but does not give the next action that follows finishing it."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Past simple regular verbs (finished, washed) in time clauses with 'after'",
+  "connector": "after",
+  "explanation": "'After' introduces an event that happens later than the first one. Both verbs are regular past simple forms made by adding -ed. Turkish speakers may use a present form in the main clause here, but two completed past actions need the past simple.",
+  "translation": "Yemeği bitirdikten sonra bulaşıkları yıkadık."
+}

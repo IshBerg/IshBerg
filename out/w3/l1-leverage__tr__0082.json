@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pasta", "transliteration": "pasta", "meaning": "cake"},
+    {"word": "kültür", "transliteration": "kültür", "meaning": "culture"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "likeable, pleasant"},
+    {"word": "otel", "transliteration": "otel", "meaning": "hotel"}
+  ],
+  "english_words": ["hotel", "likeable", "cake", "culture"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Turkish word for a sweet baked dessert has the same form as the English word 'pasta', which in English means noodles. Both words come from the same Italian source, but their meanings have split apart, so the form looks identical while the meaning differs.",
+  "false_friend_warning": "The Turkish word that looks like English 'sympathetic' means 'likeable or pleasant' in Turkish, so Turkish speakers may wrongly choose 'sympathetic' here; in English, 'sympathetic' means showing sorrow for someone's trouble or sharing their feelings."
+}
