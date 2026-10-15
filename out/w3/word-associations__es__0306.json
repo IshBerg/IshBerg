@@ -1,0 +1,14 @@
+{
+  "trigger_word": "airport",
+  "all_words": [
+    {"word": "plane", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Los aviones son el medio de transporte principal que se usa en un aeropuerto."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Un árbol no tiene relación directa con el funcionamiento de un aeropuerto."},
+    {"word": "luggage", "is_associated": true, "association_type": "THEMATIC", "explanation": "El equipaje forma parte de la experiencia de viajar y pasa por el aeropuerto."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Una almohada se usa para dormir y no tiene relación con los aeropuertos."},
+    {"word": "passport", "is_associated": true, "association_type": "THEMATIC", "explanation": "El pasaporte se muestra en los controles de seguridad y de migración del aeropuerto."},
+    {"word": "gate", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión 'boarding gate' es una combinación muy frecuente en inglés para referirse a la puerta de embarque."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Un aeropuerto se asocia con los aviones, el viaje y los trámites de embarque, mientras que los objetos de la vida cotidiana sin relación con los viajes no pertenecen a este campo."
+}
