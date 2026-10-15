@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["C", "R", "I", "M", "E", "X", "Q", "Z", "R"],
+    ["K", "J", "W", "Y", "Z", "M", "B", "P", "I"],
+    ["E", "D", "X", "W", "Z", "J", "K", "Q", "G"],
+    ["Z", "Q", "J", "W", "X", "Y", "K", "M", "H"],
+    ["M", "Z", "U", "J", "Y", "X", "W", "K", "T"],
+    ["P", "J", "W", "A", "X", "K", "Y", "Z", "S"],
+    ["J", "W", "Y", "Z", "L", "X", "M", "Q", "K"],
+    ["Q", "K", "Y", "J", "Z", "X", "M", "W", "P"],
+    ["V", "O", "T", "E", "Y", "Z", "W", "J", "M"]
+  ],
+  "words_to_find": ["CRIME", "RIGHTS", "EQUAL", "VOTE"],
+  "word_positions": [
+    {"word": "CRIME", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RIGHTS", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "EQUAL", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "VOTE", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Social Issues"
+}
