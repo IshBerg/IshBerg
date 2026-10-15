@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I have a lot of homework today, so",
+  "correct_completion": "I cannot go to the cinema.",
+  "full_sentence": "I have a lot of homework today, so I cannot go to the cinema.",
+  "acceptable_variants": ["I will not be able to join you.", "I have to stay at home and study."],
+  "options": [
+    {"text": "I am going to the cinema with you tonight.", "is_correct": false, "why_wrong": "This does not give a result of the stem and ignores the cause-and-effect link created by 'so'."},
+    {"text": "I cannot go to the cinema.", "is_correct": true, "why_wrong": null},
+    {"text": "I have a few homeworks to finish.", "is_correct": false, "why_wrong": "'Homework' is uncountable and has no plural form, so it cannot be used with 'a few' or made plural."},
+    {"text": "I need some homeworks from the teacher.", "is_correct": false, "why_wrong": "'Homework' has no plural form, and this sentence does not explain the result of having a lot of work."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Uncountable nouns (homework) and cause-and-effect with 'so'",
+  "connector": "so",
+  "explanation": "Homework is an uncountable noun, so it has no plural form and we use 'a lot of' rather than 'a few'. Polish speakers may be tempted to add an -s to nouns like this, because plural endings are very common in Polish; in English, homework stays the same in the plural.",
+  "translation": "Mam dziś dużo pracy domowej, więc nie mogę iść do kina."
+}
