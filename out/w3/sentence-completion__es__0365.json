@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Having finished the final chapter,",
+  "correct_completion": "she closed the book and sat in silence.",
+  "full_sentence": "Having finished the final chapter, she closed the book and sat in silence.",
+  "acceptable_variants": ["she set the book aside and fell silent.", "she put the book down and sat quietly."],
+  "options": [
+    {"text": "the silence closed the book and sat down.", "is_correct": false, "why_wrong": "The participle clause 'Having finished' refers to the subject of the main clause, so that subject must be the reader, not 'the silence'."},
+    {"text": "she closed the book and sat in silence.", "is_correct": true, "why_wrong": null},
+    {"text": "she will close the book and sat in silence.", "is_correct": false, "why_wrong": "Coordinated verbs must share one tense; 'will close' does not match the past tense 'sat'."},
+    {"text": "she closing the book and sat in silence.", "is_correct": false, "why_wrong": "A verb ending in -ing needs an auxiliary such as 'was' to form a finite verb, so 'she closing' is ungrammatical."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Perfect participle clauses ('Having + past participle') and subject agreement",
+  "connector": "having finished",
+  "explanation": "The opening participle clause must describe the subject of the main clause, which is the person who finished the chapter. Spanish speakers may leave the subject unstated or let a different noun act as the subject, because Spanish allows more flexible subject placement. In English the subject must be clear and the verbs must share the same tense.",
+  "translation": "Después de terminar el último capítulo, cerró el libro y se quedó en silencio."
+}

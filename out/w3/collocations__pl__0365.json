@@ -1,0 +1,32 @@
+{
+  "collocation_type": "VERB_PREP",
+  "base_word": "depend",
+  "collocate": "on",
+  "full_collocation": "depend on",
+  "options": ["on", "from", "of", "to"],
+  "correct_index": 0,
+  "distractors": [
+    {"word": "from", "reason": "We don't say 'depend from'. Polish 'zależeć od' translates literally as 'from', but English uses 'on' with 'depend'."},
+    {"word": "of", "reason": "We don't say 'depend of'. 'Of' goes with words like 'consist' or 'think', not with 'depend'."},
+    {"word": "to", "reason": "We don't say 'depend to'. 'To' is used with words like 'refer' or 'belong', not with 'depend'."}
+  ],
+  "example_sentence": "The results depend ___ the sample size.",
+  "gap_position": 3,
+  "translation": "zależeć od",
+  "l1_interference": "Po polsku mówimy 'zależeć od', więc osoby uczące się często tłumaczą 'od' jako 'from' i mówią 'depend from' zamiast poprawnego 'depend on'.",
+  "common_mistake": "depend from",
+  "explanation": "In English, 'depend' is followed by 'on' when it introduces what something relies on, such as data, conditions or evidence. In academic writing it often appears when a result is linked to a variable.",
+  "related_collocations": [
+    {"collocation": "rely on", "translation": "polegać na", "example": "The authors rely on evidence from several studies."},
+    {"collocation": "consist of", "translation": "składać się z", "example": "The sample consists of two hundred participants."},
+    {"collocation": "focus on", "translation": "skupiać się na", "example": "The article focuses on the main argument."}
+  ],
+  "matching_pairs": [
+    {"left": "depend", "right": "on the data"},
+    {"left": "rely", "right": "on evidence"},
+    {"left": "consist", "right": "of several parts"},
+    {"left": "focus", "right": "on the main argument"},
+    {"left": "refer", "right": "to previous research"}
+  ],
+  "memory_tip": "DEPEND ON = one thing relies on another (data, conditions, variables) | DEPEND FROM = never used in English"
+}

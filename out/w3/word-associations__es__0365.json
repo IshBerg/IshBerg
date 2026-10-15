@@ -1,0 +1,14 @@
+{
+  "trigger_word": "wallet",
+  "all_words": [
+    {"word": "money", "is_associated": true, "association_type": "THEMATIC", "explanation": "El dinero se guarda normalmente en la cartera, por eso las dos palabras están relacionadas."},
+    {"word": "tree", "is_associated": false, "association_type": "NONE", "explanation": "Un árbol no tiene ninguna relación con una cartera."},
+    {"word": "card", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las tarjetas se guardan en la cartera, así que existe una relación temática entre ellas."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Una ventana no tiene relación con una cartera; es un objeto de otro tipo."},
+    {"word": "leather", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Muchas carteras se fabrican con cuero, por eso la palabra tiene un vínculo de significado."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Una bicicleta no tiene relación con una cartera."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La cartera está relacionada con el dinero, las tarjetas y el material con que suele fabricarse; los demás objetos no tienen relación con ella."
+}

@@ -1,0 +1,17 @@
+{
+  "central_word": "afraid",
+  "chain_words": [
+    {"word": "uneasy", "intensity": 1, "translation": "intranquilo", "nuance": "a vague sense that something is wrong"},
+    {"word": "apprehensive", "intensity": 2, "translation": "aprensivo", "nuance": "worried about something expected to happen"},
+    {"word": "anxious", "intensity": 3, "translation": "ansioso", "nuance": "persistent worry and tension"},
+    {"word": "frightened", "intensity": 4, "translation": "asustado", "nuance": "a sudden sense of fear caused by a specific threat"},
+    {"word": "terrified", "intensity": 5, "translation": "aterrorizado", "nuance": "overwhelming fear that takes hold of the whole person"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all express fear, but they rise from a faint unease to an overwhelming terror, so each step carries a stronger sense of alarm than the one before.",
+  "usage_notes": [
+    {"word1": "anxious", "word2": "apprehensive", "difference": "'Anxious' usually describes an ongoing state of worry, while 'apprehensive' usually refers to worry about a specific expected event."}
+  ],
+  "translations": {"uneasy": "intranquilo", "apprehensive": "aprensivo", "anxious": "ansioso", "frightened": "asustado", "terrified": "aterrorizado"}
+}
