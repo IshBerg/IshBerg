@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["C", "O", "M", "M", "I", "T", "T", "E", "E"],
+    ["D", "K", "Q", "W", "R", "Z", "P", "J", "X"],
+    ["B", "E", "L", "G", "H", "Y", "U", "O", "A"],
+    ["M", "T", "F", "J", "Q", "W", "I", "R", "Z"],
+    ["V", "C", "K", "E", "D", "B", "L", "G", "V"],
+    ["P", "X", "A", "O", "N", "M", "Y", "H", "I"],
+    ["W", "R", "S", "U", "T", "S", "K", "Q", "V"],
+    ["F", "Z", "J", "N", "R", "D", "E", "M", "A"],
+    ["T", "H", "E", "S", "I", "S", "W", "K", "Y"]
+  ],
+  "words_to_find": ["COMMITTEE", "THESIS", "VIVA", "DEFENSE"],
+  "word_positions": [
+    {"word": "COMMITTEE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "THESIS", "start_row": 8, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "VIVA", "start_row": 4, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "DEFENSE", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"}
+  ],
+  "topic": "Academic Thesis Defense"
+}
