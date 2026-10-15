@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["S", "O", "C", "C", "E", "R", "Q", "C"],
+    ["Z", "B", "K", "M", "P", "V", "D", "H"],
+    ["G", "W", "X", "J", "A", "Y", "U", "E"],
+    ["O", "F", "R", "B", "I", "Q", "M", "S"],
+    ["L", "A", "Z", "K", "N", "X", "W", "S"],
+    ["F", "D", "P", "H", "T", "Y", "C", "U"],
+    ["T", "E", "N", "N", "I", "S", "J", "M"],
+    ["K", "Q", "V", "W", "B", "R", "Z", "L"]
+  ],
+  "words_to_find": ["SOCCER", "CHESS", "TENNIS", "GOLF", "PAINT"],
+  "word_positions": [
+    {"word": "SOCCER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CHESS", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "TENNIS", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GOLF", "start_row": 2, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "PAINT", "start_row": 1, "start_col": 4, "direction": "VERTICAL"}
+  ],
+  "topic": "Hobbies and Sports"
+}
