@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the traffic jam,",
+  "correct_completion": "I would have taken the train.",
+  "full_sentence": "If I had known about the traffic jam, I would have taken the train.",
+  "acceptable_variants": ["I would have called a taxi.", "I would have left home earlier."],
+  "options": [
+    {"text": "I would take the train tomorrow.", "is_correct": false, "why_wrong": "This uses a present or future form, but the stem refers to an unreal past situation, so a past result is needed."},
+    {"text": "I took the train every day.", "is_correct": false, "why_wrong": "This describes a past habit but does not give the imagined result of the unreal past condition."},
+    {"text": "I would have taken the train.", "is_correct": true, "why_wrong": null},
+    {"text": "I will be late for work.", "is_correct": false, "why_wrong": "This states a real future consequence, not an imagined past result, so it does not match the third conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional: if + past perfect, would have + past participle",
+  "connector": "if",
+  "explanation": "The third conditional describes an imagined past situation and its imagined past result. Learners often use a simple past or would alone here, because Portuguese speakers may transfer a single past form instead of using had + past participle in the condition and would have + past participle in the result.",
+  "translation": "Se eu tivesse sabido do congestionamento, teria pegado o trem."
+}
