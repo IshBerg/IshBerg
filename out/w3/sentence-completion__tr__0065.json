@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Can you tell me where",
+  "correct_completion": "the nearest bus stop is.",
+  "full_sentence": "Can you tell me where the nearest bus stop is?",
+  "acceptable_variants": ["the nearest bus stop is located.", "the nearest bus stop is across the street."],
+  "options": [
+    {"text": "is the nearest bus stop?", "is_correct": false, "why_wrong": "This keeps the question word order of a direct question. After 'Can you tell me where', the subject must come before the verb."},
+    {"text": "does the nearest bus stop is.", "is_correct": false, "why_wrong": "'Does' and 'is' cannot be used together here. The sentence needs a simple subject followed by the verb 'is'."},
+    {"text": "the nearest bus stop is.", "is_correct": true, "why_wrong": null},
+    {"text": "the nearest bus stops are.", "is_correct": false, "why_wrong": "The plural 'stops' does not match 'the nearest bus stop', which refers to one stop."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Indirect questions with 'where'",
+  "connector": "where",
+  "explanation": "An indirect question introduced by 'where' uses statement word order, with the subject before the verb. Learners whose first language places the verb at the end of a clause may find this order difficult.",
+  "translation": "En yakın otobüs durağının nerede olduğunu söyleyebilir misin?"
+}

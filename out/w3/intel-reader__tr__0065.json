@@ -1,0 +1,20 @@
+{
+  "title": "Welcome to Sunny Bay Hotel",
+  "text": "Welcome to Sunny Bay Hotel. Our hotel is near the beach, so you can walk there in five minutes. Every room has a balcony and free Wi-Fi. Breakfast is served from 7 a.m. to 10 a.m.\n\nThe hotel has a swimming pool on the roof. It is open every day in the summer. Guests can also rent bicycles at the front desk for 10 euros a day. Children under six stay for free.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "How far is the beach from the hotel?", "options": ["About five minutes on foot", "About one kilometre by bus", "Next to the swimming pool", "Across the street from the airport"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "When can guests use the rooftop pool?", "options": ["Only in winter", "Every day in the summer", "Only on weekends", "Only after 10 p.m."], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "Why might a family with a small child like this hotel?", "options": ["Children under six stay for free", "The hotel has no breakfast", "The rooms have no balcony", "The bicycles are very expensive"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "What is probably the best time to enjoy the pool?", "options": ["During a warm summer day", "During a cold winter week", "During a snowy weekend", "During a long autumn night"], "correct_index": 0, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "balcony", "translation": "balkon", "definition": "a small outdoor area attached to a room, above the ground"},
+    {"word": "breakfast", "translation": "kahvaltı", "definition": "the first meal of the day, eaten in the morning"},
+    {"word": "rent", "translation": "kiralamak", "definition": "to pay money to use something for a period of time"},
+    {"word": "roof", "translation": "çatı", "definition": "the top covering of a building"}
+  ],
+  "paragraph_translations": [
+    "Sunny Bay Hotel'e hoş geldiniz. Otelimiz plaja yakın, bu yüzden oraya beş dakikada yürüyerek gidebilirsiniz. Her odada balkon ve ücretsiz Wi-Fi bulunur. Kahvaltı sabah 7 ile 10 arasında servis edilir.",
+    "Otelin çatısında bir yüzme havuzu var. Yaz aylarında her gün açıktır. Misafirler ayrıca resepsiyondan günlük 10 euroya bisiklet kiralayabilir. Altı yaşın altındaki çocuklar ücretsiz kalır."
+  ]
+}
