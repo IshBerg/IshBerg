@@ -1,0 +1,14 @@
+{
+  "trigger_word": "conscience",
+  "all_words": [
+    {"word": "guilt", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Suçluluk, vicdanın rahatsız olduğu duygudur; bu yüzden vicdanla doğrudan ilişkilidir."},
+    {"word": "pebble", "is_associated": false, "association_type": "NONE", "explanation": "Çakıl taşının ahlaki sorumlulukla ya da vicdanla hiçbir ilgisi yoktur."},
+    {"word": "integrity", "is_associated": true, "association_type": "THEMATIC", "explanation": "Dürüstlük, vicdanın yol gösterdiği ahlaki ilkelerle aynı tema altında yer alır."},
+    {"word": "ladder", "is_associated": false, "association_type": "NONE", "explanation": "Merdiven somut bir nesnedir ve vicdan kavramıyla bir bağlantısı yoktur."},
+    {"word": "clear", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Clear conscience' (rahat vicdan) sık kullanılan bir ifadedir, bu nedenle 'clear' sözcüğü vicdanla birlikte kullanılır."},
+    {"word": "cucumber", "is_associated": false, "association_type": "NONE", "explanation": "Salatalık bir sebzedir ve vicdanla ya da ahlaki kavramlarla ilgisi yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Vicdan kavramıyla ilişkili sözcükler ahlaki duygu, ilke ve ortak kullanım açısından bağlantılıdır; diğerleri ise bu kavramla ilgisi olmayan somut nesnelerdir."
+}

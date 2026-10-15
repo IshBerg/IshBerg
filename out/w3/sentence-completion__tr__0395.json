@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the bus is late,",
+  "correct_completion": "we will take a taxi instead.",
+  "full_sentence": "If the bus is late, we will take a taxi instead.",
+  "acceptable_variants": ["we will walk to the station.", "we will wait for the next bus."],
+  "options": [
+    {"text": "the timetable shows the time of the next bus.", "is_correct": false, "why_wrong": "This describes the timetable, but it does not state what happens when the bus is late."},
+    {"text": "the map is on the second page.", "is_correct": false, "why_wrong": "This is unrelated to the condition, so it does not complete the if-clause."},
+    {"text": "we will take a taxi instead.", "is_correct": true, "why_wrong": null},
+    {"text": "we would have taken the train yesterday.", "is_correct": false, "why_wrong": "This uses a past conditional, which does not match a present condition about a late bus."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause uses 'will' to describe a likely future result. Turkish speakers may add a past form in the main clause here, but English keeps the future form after a present condition.",
+  "translation": "Otobüs geç kalırsa, bunun yerine taksiye bineceğiz."
+}

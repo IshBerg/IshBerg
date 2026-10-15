@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["R", "H", "E", "T", "O", "R", "I", "C", "Q", "B"],
+    ["N", "K", "L", "M", "P", "Z", "U", "Y", "J", "I"],
+    ["F", "A", "G", "H", "J", "K", "L", "M", "O", "A"],
+    ["V", "W", "R", "X", "C", "Q", "D", "P", "Z", "S"],
+    ["B", "G", "E", "R", "K", "M", "W", "Y", "T", "U"],
+    ["H", "Q", "R", "D", "A", "P", "J", "N", "L", "C"],
+    ["O", "V", "I", "G", "B", "T", "K", "W", "X", "F"],
+    ["U", "D", "T", "M", "Y", "P", "I", "Z", "Q", "H"],
+    ["L", "N", "A", "K", "W", "G", "S", "V", "U", "M"],
+    ["J", "Y", "S", "O", "T", "F", "D", "B", "E", "K"]
+  ],
+  "words_to_find": ["RHETORIC", "BIAS", "NARRATIVE", "SATIRE"],
+  "word_positions": [
+    {"word": "RHETORIC", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "BIAS", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "NARRATIVE", "start_row": 1, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "SATIRE", "start_row": 9, "start_col": 2, "direction": "VERTICAL_UP"}
+  ],
+  "topic": "Media Literacy and Discourse Analysis"
+}
