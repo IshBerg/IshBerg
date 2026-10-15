@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem is short,",
+  "correct_completion": "it contains many deep meanings.",
+  "full_sentence": "Although the poem is short, it contains many deep meanings.",
+  "acceptable_variants": ["it still carries a powerful message.", "it still reveals a complex emotion."],
+  "options": [
+    {"text": "so the poet wrote it quickly.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not provide the contrast that 'although' requires."},
+    {"text": "it contains many deep meanings.", "is_correct": true, "why_wrong": null},
+    {"text": "because it has only four lines.", "is_correct": false, "why_wrong": "'Because' gives a reason and conflicts with 'although' in the same clause."},
+    {"text": "the poem was written in English.", "is_correct": false, "why_wrong": "This adds a fact but does not set up the contrast that 'although' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that shows contrast with the first part of the sentence. Turkish speakers sometimes add a result or reason connector after this structure, but English allows only one linking word per clause, so those options are wrong.",
+  "translation": "Şiir kısa olmasına rağmen, birçok derin anlam içerir."
+}
