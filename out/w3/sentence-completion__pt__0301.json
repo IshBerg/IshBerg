@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I think it will rain tomorrow, so",
+  "correct_completion": "I am going to take an umbrella.",
+  "full_sentence": "I think it will rain tomorrow, so I am going to take an umbrella.",
+  "acceptable_variants": ["I am going to stay at home.", "I will take my umbrella."],
+  "options": [
+    {"text": "I will eat a big cake.", "is_correct": false, "why_wrong": "A cake does not follow from the rain forecast, so the result does not connect with 'so'."},
+    {"text": "I am going to take an umbrella.", "is_correct": true, "why_wrong": null},
+    {"text": "I was at the beach yesterday.", "is_correct": false, "why_wrong": "This uses the past tense, but 'so' needs a result about tomorrow."},
+    {"text": "the umbrella is very red.", "is_correct": false, "why_wrong": "This describes the umbrella but does not give an action or result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Future: going to for plans based on evidence, with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need the result of the first clause. Here the speaker's prediction about the weather leads to a planned action, which is expressed with 'going to'.",
+  "translation": "Acho que vai chover amanhã, então vou levar um guarda-chuva."
+}

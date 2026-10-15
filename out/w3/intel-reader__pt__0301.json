@@ -1,0 +1,20 @@
+{
+  "title": "My School Day",
+  "text": "I go to school every day. My favorite subject is math. In math class we learn numbers and shapes. The teacher is kind.\n\nIn the afternoon we have art. I like to paint pictures with my friends. Art is fun. After school I go home.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "What is the speaker's favorite subject?", "options": ["English", "Math", "Science", "Music"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What does the speaker like to do in art class?", "options": ["Sing songs", "Paint pictures with friends", "Write stories", "Play football"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "How does the speaker probably feel about school?", "options": ["They dislike school very much", "They are afraid of their teacher", "They are sad about art class", "They enjoy learning and their classes"], "correct_index": 3, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why is art probably a good class for the speaker?", "options": ["Because it is boring", "Because it is fun and they like painting", "Because it is only in the morning", "Because it has no friends"], "correct_index": 1, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "favorite", "translation": "favorito", "definition": "liked more than other things"},
+    {"word": "numbers", "translation": "números", "definition": "symbols used for counting and calculating"},
+    {"word": "teacher", "translation": "professor(a)", "definition": "a person who teaches students in a school"},
+    {"word": "paint", "translation": "pintar", "definition": "to make a picture using colors"}
+  ],
+  "paragraph_translations": [
+    "Eu vou à escola todos os dias. Minha matéria favorita é matemática. Na aula de matemática aprendemos números e formas. O(a) professor(a) é gentil.",
+    "À tarde temos aula de artes. Eu gosto de pintar quadros com meus amigos. Arte é divertida. Depois da escola eu volto para casa."
+  ]
+}

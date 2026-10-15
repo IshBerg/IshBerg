@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "gráfico", "transliteration": "grafico", "meaning": "graph"},
+    {"word": "tendência", "transliteration": "tendencia", "meaning": "trend"},
+    {"word": "estatística", "transliteration": "estatistica", "meaning": "statistics"},
+    {"word": "proporção", "transliteration": "proporcao", "meaning": "proportion"}
+  ],
+  "english_words": ["statistics", "proportion", "graph", "trend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin and Greek sources, so the forms stayed close and carry the same meaning.",
+  "false_friend_warning": null
+}
