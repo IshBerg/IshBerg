@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the negotiators shown greater flexibility,",
+  "correct_completion": "the agreement might have been concluded months earlier.",
+  "full_sentence": "Had the negotiators shown greater flexibility, the agreement might have been concluded months earlier.",
+  "acceptable_variants": ["the deal could have been signed much sooner.", "a settlement would probably have emerged long before."],
+  "options": [
+    {"text": "the negotiations are still ongoing.", "is_correct": false, "why_wrong": "This describes the present situation, while the inverted conditional requires an unreal past result."},
+    {"text": "the agreement might have been concluded months earlier.", "is_correct": true, "why_wrong": null},
+    {"text": "so the agreement was concluded months earlier.", "is_correct": false, "why_wrong": "'So' presents the result as a real fact, but 'had' sets up a hypothetical condition that did not happen."},
+    {"text": "the negotiators will be flexible tomorrow.", "is_correct": false, "why_wrong": "This refers to the future, while the stem requires a counterfactual past result."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'had' and a modal in the main clause",
+  "connector": "had",
+  "explanation": "Inversion of the auxiliary 'had' replaces 'if' in a third conditional. The main clause must use a modal perfect form to express a past result that did not happen. Learners often produce a simple past or a future form here, which breaks the hypothetical meaning.",
+  "translation": "Якби переговорники проявили більшу гнучкість, угоду, можливо, було б укладено на кілька місяців раніше."
+}
