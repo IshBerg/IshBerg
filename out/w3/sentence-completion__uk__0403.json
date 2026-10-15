@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bus leaves at 8:00, so",
+  "correct_completion": "we must arrive at the stop by 7:45.",
+  "full_sentence": "The bus leaves at 8:00, so we must arrive at the stop by 7:45.",
+  "acceptable_variants": ["we need to be at the stop early.", "we should not be late."],
+  "options": [
+    {"text": "the bus is usually very late.", "is_correct": false, "why_wrong": "This describes the bus but is not a logical result of the departure time. 'So' needs a result that follows from the timetable."},
+    {"text": "we can eat lunch at the cafe.", "is_correct": false, "why_wrong": "This is unrelated to the departure time and does not show a result of the bus leaving at 8:00."},
+    {"text": "the timetable is on the wall.", "is_correct": false, "why_wrong": "This describes where the timetable is, not a result of the bus schedule."},
+    {"text": "we must arrive at the stop by 7:45.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so' and modal 'must' for necessity",
+  "connector": "so",
+  "explanation": "After 'so', the main clause gives the result of the first part. Here the timetable time creates a need to arrive early, so the result uses 'must' to show necessity. Ukrainian speakers may need to remember that English uses 'so' directly before the result clause, without an extra linking word.",
+  "translation": "Автобус відправляється о 8:00, тому ми маємо прибути на зупинку до 7:45."
+}
