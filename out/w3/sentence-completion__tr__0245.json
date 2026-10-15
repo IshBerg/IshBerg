@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she not hesitated at the threshold of the publisher's office,",
+  "correct_completion": "the manuscript would have remained unread in a drawer.",
+  "full_sentence": "Had she not hesitated at the threshold of the publisher's office, the manuscript would have remained unread in a drawer.",
+  "acceptable_variants": ["the manuscript would have gathered dust in a drawer.", "the manuscript would have stayed unpublished."],
+  "options": [
+    {"text": "the manuscript remains unread in a drawer.", "is_correct": false, "why_wrong": "The present tense does not match the past condition set up by 'Had she not hesitated'. The main clause must be a past conditional."},
+    {"text": "the manuscript would have remained unread in a drawer.", "is_correct": true, "why_wrong": null},
+    {"text": "she would hesitate again tomorrow.", "is_correct": false, "why_wrong": "This describes a future habit and does not complete the counterfactual past situation introduced by the inverted conditional."},
+    {"text": "the publisher had already rejected it.", "is_correct": false, "why_wrong": "A past perfect reports a completed event. It cannot serve as the main clause that answers an inverted third conditional."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle) with would have + past participle",
+  "connector": "Had",
+  "explanation": "Inverted conditionals drop 'if' and move 'had' to the front of the clause. The main clause then needs 'would have' plus a past participle to express the imagined result. Turkish speakers often reuse a simple past or a plain conditional here, because Turkish marks hypothetical meaning with suffixes rather than a separate auxiliary structure, so the English pattern needs deliberate practice.",
+  "translation": "Yayınevinin eşiğinde tereddüt etmeseydi, el yazması bir çekmecede okunmadan kalırdı."
+}
