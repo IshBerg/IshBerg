@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I like these shoes",
+  "correct_completion": "because they are comfortable.",
+  "full_sentence": "I like these shoes because they are comfortable.",
+  "acceptable_variants": ["because they fit me well.", "because they feel soft."],
+  "options": [
+    {"text": "and I bought them yesterday.", "is_correct": false, "why_wrong": "This adds information about the past, but it does not give a reason for liking the shoes."},
+    {"text": "because they are comfortable.", "is_correct": true, "why_wrong": null},
+    {"text": "because that shoes are comfortable.", "is_correct": false, "why_wrong": "'Shoes' is plural, so the demonstrative must be 'these' or 'those', not 'that'."},
+    {"text": "because they is comfortable.", "is_correct": false, "why_wrong": "Subject-verb agreement is wrong: 'they' takes 'are', not 'is'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Demonstrative 'these' with plural nouns and cause clauses with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', we need a clause that gives the reason for the first part of the sentence. The pronoun 'they' must refer back to the plural noun 'shoes'.",
+  "translation": "Bu ayakkabıları seviyorum çünkü çok rahatlar."
+}

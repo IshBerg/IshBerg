@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "teori", "transliteration": "teori", "meaning": "theory"},
+    {"word": "problem", "transliteration": "problem", "meaning": "problem"},
+    {"word": "analiz", "transliteration": "analiz", "meaning": "analysis"},
+    {"word": "hipotez", "transliteration": "hipotez", "meaning": "hypothesis"}
+  ],
+  "english_words": ["analysis", "hypothesis", "theory", "problem"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each pair comes from the same Greek or Latin root, so the spelling and meaning stay close in both languages. These academic nouns are easy to recognise for learners in seminar discussions.",
+  "false_friend_warning": null
+}
