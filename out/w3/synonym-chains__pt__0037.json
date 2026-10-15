@@ -1,0 +1,23 @@
+{
+  "central_word": "tired",
+  "chain_words": [
+    {"word": "sleepy", "intensity": 1, "translation": "sonolento", "nuance": "wanting to sleep"},
+    {"word": "tired", "intensity": 2, "translation": "cansado", "nuance": "lacking energy after activity"},
+    {"word": "weary", "intensity": 3, "translation": "fatigado", "nuance": "tired for a long time, often with sadness"},
+    {"word": "exhausted", "intensity": 4, "translation": "exausto", "nuance": "completely tired out"},
+    {"word": "worn out", "intensity": 5, "translation": "esgotado", "nuance": "so tired that nothing more can be done"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe lacking energy, from wanting to sleep to being completely drained.",
+  "usage_notes": [
+    {"word1": "tired", "word2": "sleepy", "difference": "'Sleepy' focuses on wanting to go to sleep, while 'tired' describes a general lack of energy."}
+  ],
+  "translations": {
+    "sleepy": "sonolento",
+    "tired": "cansado",
+    "weary": "fatigado",
+    "exhausted": "exausto",
+    "worn out": "esgotado"
+  }
+}
