@@ -1,0 +1,14 @@
+{
+  "trigger_word": "pencil",
+  "all_words": [
+    {"word": "eraser", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Una goma de borrar es un objeto de la misma clase de útiles escolares que el lápiz y se usa con él."},
+    {"word": "fish", "is_associated": false, "association_type": "NONE", "explanation": "El pez no tiene ninguna relación con el lápiz ni con el uso de útiles para escribir."},
+    {"word": "paper", "is_associated": true, "association_type": "THEMATIC", "explanation": "El papel es el lugar donde se escribe con lápiz, por eso ambos pertenecen al mismo tema de la escuela."},
+    {"word": "cloud", "is_associated": false, "association_type": "NONE", "explanation": "La nube está en el cielo y no tiene relación con el lápiz."},
+    {"word": "write", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "La expresión 'write with a pencil' es muy común, por eso el verbo se asocia con el lápiz."},
+    {"word": "banana", "is_associated": false, "association_type": "NONE", "explanation": "La banana es una fruta y no tiene ninguna relación con los útiles escolares."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'pencil' se asocia con objetos escolares y con la acción de escribir, mientras que las palabras de la naturaleza y de la comida no tienen relación con ella."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If the soup is too hot,",
+  "correct_completion": "I will wait a few minutes.",
+  "full_sentence": "If the soup is too hot, I will wait a few minutes.",
+  "acceptable_variants": ["I will let it cool down.", "I will wait a little bit."],
+  "options": [
+    {"text": "I will order a dessert.", "is_correct": false, "why_wrong": "Ordering dessert is not a logical response to the soup being too hot. The result must relate to the condition."},
+    {"text": "I will wait a few minutes.", "is_correct": true, "why_wrong": null},
+    {"text": "the soup was very cheap.", "is_correct": false, "why_wrong": "This describes the price of the soup, not a response to its temperature."},
+    {"text": "I like soup every day.", "is_correct": false, "why_wrong": "This is a general statement about preference, not a result of the condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense, the main clause uses 'will' to describe the likely result. The result must be a sensible action that depends on the condition in the first part of the sentence. Spanish speakers sometimes use a present tense in the main clause, but English needs 'will' for a future result.",
+  "translation": "Si la sopa está muy caliente, esperaré unos minutos."
+}
