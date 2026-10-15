@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the poem is short,",
+  "correct_completion": "it carries a very deep meaning.",
+  "full_sentence": "Although the poem is short, it carries a very deep meaning.",
+  "acceptable_variants": ["it still expresses a powerful emotion.", "it still reveals a complex theme."],
+  "options": [
+    {"text": "so it is easy to memorise.", "is_correct": false, "why_wrong": "'So' shows a result, not a contrast. The sentence needs a clause that contrasts with 'short'."},
+    {"text": "and it has many rhymes.", "is_correct": false, "why_wrong": "'And' adds information but does not create a contrast with 'short'."},
+    {"text": "it carries a very deep meaning.", "is_correct": true, "why_wrong": null},
+    {"text": "because it was written long ago.", "is_correct": false, "why_wrong": "'Because' shows cause, which does not fit the contrast set up by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', we need a clause that contrasts with the first part of the sentence. Here the poem's shortness is set against the depth of its meaning.",
+  "translation": "Chociaż wiersz jest krótki, niesie bardzo głębokie znaczenie."
+}
