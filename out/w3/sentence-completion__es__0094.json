@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "While she was studying,",
+  "correct_completion": "her brother was playing the guitar in the next room.",
+  "full_sentence": "While she was studying, her brother was playing the guitar in the next room.",
+  "acceptable_variants": ["her brother was practising the piano.", "her friend was cooking dinner in the kitchen."],
+  "options": [
+    {"text": "she studies English every day.", "is_correct": false, "why_wrong": "This uses the present simple, which does not match the past time frame set by the stem."},
+    {"text": "her brother was playing the guitar in the next room.", "is_correct": true, "why_wrong": null},
+    {"text": "her brother played the guitar in the next room.", "is_correct": false, "why_wrong": "'While' with an action in progress needs the past continuous ('was playing'), not the simple past."},
+    {"text": "she had finished her exam.", "is_correct": false, "why_wrong": "This uses the past perfect for a finished event, so it does not fit an action in progress after 'while'."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past continuous with 'while'",
+  "connector": "while",
+  "explanation": "The stem sets an action in progress in the past, so the second clause must also describe an action in progress at the same time, using the past continuous. Speakers whose first language marks ongoing past actions differently may be tempted to use the simple past here.",
+  "translation": "Mientras ella estudiaba, su hermano tocaba la guitarra en la habitación de al lado."
+}
