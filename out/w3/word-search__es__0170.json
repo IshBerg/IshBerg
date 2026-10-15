@@ -1,0 +1,23 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["T", "H", "E", "R", "E", "F", "O", "R", "E"],
+    ["M", "K", "J", "Q", "S", "B", "Z", "X", "D"],
+    ["O", "P", "L", "J", "U", "N", "A", "Q", "Z"],
+    ["R", "B", "C", "K", "M", "T", "R", "W", "Y"],
+    ["E", "V", "D", "Q", "M", "L", "G", "H", "N"],
+    ["O", "X", "K", "P", "A", "B", "U", "J", "C"],
+    ["V", "W", "N", "F", "R", "Z", "E", "D", "L"],
+    ["E", "G", "B", "T", "Y", "C", "H", "K", "P"],
+    ["R", "J", "H", "O", "W", "E", "V", "E", "R"]
+  ],
+  "words_to_find": ["THEREFORE", "MOREOVER", "HOWEVER", "SUMMARY", "ARGUE"],
+  "word_positions": [
+    {"word": "THEREFORE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MOREOVER", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "HOWEVER", "start_row": 8, "start_col": 2, "direction": "HORIZONTAL"},
+    {"word": "SUMMARY", "start_row": 1, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "ARGUE", "start_row": 2, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Collocations and Chunks for Writing"
+}
