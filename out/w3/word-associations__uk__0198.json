@@ -1,0 +1,14 @@
+{
+  "trigger_word": "news",
+  "all_words": [
+    {"word": "newspaper", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Газета є одним із основних джерел новин, тому це слово прямо пов'язане з темою 'news'."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "Яблуко є фруктом і не має жодного зв'язку з новинами чи журналістикою."},
+    {"word": "reporter", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Репортер збирає та передає новини, тому ця людина належить до того самого смислового поля."},
+    {"word": "garden", "is_associated": false, "association_type": "NONE", "explanation": "Сад стосується природи й дому, але не має відношення до повідомлень про події."},
+    {"word": "headline", "is_associated": true, "association_type": "THEMATIC", "explanation": "Заголовок є головною частиною новинної статті, тому він тематично пов'язаний із новинами."},
+    {"word": "knee", "is_associated": false, "association_type": "NONE", "explanation": "Коліно є частиною тіла і не пов'язане з новинами."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з 'news', стосуються журналістики та медіа (газета, репортер, заголовок), а решта належить до інших тем: їжі, природи чи тіла."
+}
