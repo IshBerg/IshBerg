@@ -1,0 +1,14 @@
+{
+  "trigger_word": "doctor",
+  "all_words": [
+    {"word": "nurse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Медсестра (nurse) працює разом із лікарем, тому це семантичний зв'язок."},
+    {"word": "hospital", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лікар працює в лікарні (hospital), тому це тематичний зв'язок."},
+    {"word": "pencil", "is_associated": false, "association_type": "NONE", "explanation": "Олівець (pencil) не пов'язаний з роботою лікаря, тому це не асоціація."},
+    {"word": "patient", "is_associated": true, "association_type": "THEMATIC", "explanation": "Лікар лікує пацієнта (patient), тому це тематичний зв'язок."},
+    {"word": "pilot", "is_associated": false, "association_type": "NONE", "explanation": "Пілот (pilot) працює в авіації, а не в медицині, тому це не асоціація."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Вікно (window) не має відношення до роботи лікаря, тому це не асоціація."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'doctor' (лікар) асоціюється з лікарнею, пацієнтами та медсестрами, бо це люди й місця, пов'язані з його роботою."
+}
