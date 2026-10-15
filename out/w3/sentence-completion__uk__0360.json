@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the report was long,",
+  "correct_completion": "the reviewers found its conclusions convincing.",
+  "full_sentence": "Although the report was long, the reviewers found its conclusions convincing.",
+  "acceptable_variants": ["the reviewers still praised its clarity.", "the reviewers were nevertheless impressed."],
+  "options": [
+    {"text": "the reviewers stopped reading it halfway through.", "is_correct": false, "why_wrong": "This is a result of the length, not a contrast. 'Although' needs a clause that goes against the expectation created by the first part."},
+    {"text": "it was written in two languages.", "is_correct": false, "why_wrong": "This adds an unrelated detail and does not complete the contrast started by 'although'."},
+    {"text": "the reviewers found its conclusions convincing.", "is_correct": true, "why_wrong": null},
+    {"text": "therefore the conclusions were ignored.", "is_correct": false, "why_wrong": "'Therefore' signals a result, which conflicts with the contrast that 'although' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause should show a contrast with the expectation created by the first part. Here, the report's length suggests weak conclusions, so the correct completion says the reviewers were nevertheless convinced.",
+  "translation": "Хоча звіт був довгим, рецензенти вважали його висновки переконливими."
+}
