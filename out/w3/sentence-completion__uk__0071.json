@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the bus was late,",
+  "correct_completion": "we walked to school.",
+  "full_sentence": "Because the bus was late, we walked to school.",
+  "acceptable_variants": ["we took a taxi.", "we arrived late for class."],
+  "options": [
+    {"text": "we were happy about it.", "is_correct": false, "why_wrong": "This describes a feeling, but 'because' needs a clause that shows the result of the late bus."},
+    {"text": "we walked to school.", "is_correct": true, "why_wrong": null},
+    {"text": "the bus driver was very kind.", "is_correct": false, "why_wrong": "This gives unrelated information and does not show a result of the late bus."},
+    {"text": "the school was closed for the day.", "is_correct": false, "why_wrong": "This is not a logical result of the bus being late, so it breaks the cause and effect link."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Cause and effect with 'because'",
+  "connector": "because",
+  "explanation": "After 'because', the first clause gives the cause, so the second clause should show the logical effect. Ukrainian speakers may find this pattern familiar because Ukrainian uses a similar connector in the same position, but they should still check the word order.",
+  "translation": "Оскільки автобус запізнився, ми пішли до школи пішки."
+}

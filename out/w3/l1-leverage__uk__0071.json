@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "magazyn", "meaning": "shop, store"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, topical, of current interest"},
+    {"word": "хмара", "transliteration": "khmara", "meaning": "cloud"},
+    {"word": "прогноз", "transliteration": "prohnoz", "meaning": "forecast, prediction"}
+  ],
+  "english_words": ["cloud", "shop", "forecast", "relevant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "Some of these words entered Ukrainian and English from the same European sources, so their forms look close, but their meanings split apart over time. Matching the meaning, not the look, is the key skill.",
+  "false_friend_warning": "The Ukrainian word that looks like 'magazine' means a shop or store, not a printed publication. The Ukrainian word that looks like 'actual' means relevant or current, not real or genuine."
+}
