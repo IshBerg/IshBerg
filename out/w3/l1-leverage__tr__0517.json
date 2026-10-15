@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "restoran", "transliteration": "restoran", "meaning": "restaurant"},
+    {"word": "çikolata", "transliteration": "cikolata", "meaning": "chocolate"},
+    {"word": "salata", "transliteration": "salata", "meaning": "salad"},
+    {"word": "pasta", "transliteration": "pasta", "meaning": "pasta"}
+  ],
+  "english_words": ["salad", "pasta", "restaurant", "chocolate"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from the same source, so the forms stayed close.",
+  "false_friend_warning": null
+}
