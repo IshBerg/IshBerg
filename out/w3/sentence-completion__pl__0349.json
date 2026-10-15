@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the reduction in funding,",
+  "correct_completion": "the charity continued its weekend programme.",
+  "full_sentence": "Despite the reduction in funding, the charity continued its weekend programme.",
+  "acceptable_variants": ["the charity still ran its weekend programme.", "the charity kept its weekend programme running."],
+  "options": [
+    {"text": "because the charity needed more money.", "is_correct": false, "why_wrong": "'Because' expresses cause, but the sentence needs a contrast with the reduction in funding."},
+    {"text": "the charity continued its weekend programme.", "is_correct": true, "why_wrong": null},
+    {"text": "although the charity continued its weekend programme.", "is_correct": false, "why_wrong": "'Although' repeats the contrast already made by 'despite'; only one connector is needed."},
+    {"text": "so the charity reduced its weekend programme.", "is_correct": false, "why_wrong": "'So' expresses a result and adds a second connector; it does not show the contrast that 'despite' requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Despite plus a nominalization, followed by a main clause",
+  "connector": "despite",
+  "explanation": "'Despite' is followed by a noun phrase built on a nominalization ('the reduction'), so the main clause follows the comma directly. Adding a second connector such as 'although' is ungrammatical. Polish speakers may add a contrast word here, since Polish often marks concession with a clause conjunction.",
+  "translation": "Mimo zmniejszenia finansowania organizacja charytatywna kontynuowała swój weekendowy program."
+}
