@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend"},
+    {"word": "realizar", "transliteration": "realizar", "meaning": "to carry out, to accomplish"},
+    {"word": "eventual", "transliteration": "eventual", "meaning": "occasional, possible"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to attend"}
+  ],
+  "english_words": ["occasional", "attend", "intend", "accomplish"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Portuguese and English share many Latin-based spellings, so some Portuguese words look like English words while their meanings have shifted. Learners who rely on spelling alone will choose the wrong meaning, so these pairs need explicit attention.",
+  "false_friend_warning": "Watch out for false friends: the Portuguese word pretender (transliteration) means 'to intend', not 'to pretend', and realizar means 'to carry out', not 'to realize'. Likewise, eventual means 'occasional' rather than 'eventual', and assistir means 'to attend' rather than 'to assist'."
+}

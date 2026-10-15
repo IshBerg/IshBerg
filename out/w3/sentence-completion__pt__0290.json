@@ -1,0 +1,17 @@
+{
+  "sentence_stem": "Look at those birds,",
+  "correct_completion": "they are very big.",
+  "full_sentence": "Look at those birds, they are very big.",
+  "acceptable_variants": ["they are very beautiful.", "they are singing."],
+  "options": [
+    {"text": "it is my pencil.", "is_correct": false, "why_wrong": "'It' is singular and refers to one object, while 'those birds' is plural, so the pronoun does not match."},
+    {"text": "they are very big.", "is_correct": true, "why_wrong": null},
+    {"text": "this is a red car.", "is_correct": false, "why_wrong": "This introduces a different object and does not describe the birds that the stem points to."},
+    {"text": "that bag is blue.", "is_correct": false, "why_wrong": "This talks about a bag, which is not the subject of the stem, so it does not complete the sentence logically."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Demonstrative 'those' with plural nouns and the matching pronoun 'they'",
+  "connector": "those",
+  "explanation": "The demonstrative 'those' points to things that are plural and at a distance, so the completion must continue with the plural pronoun 'they'. Portuguese speakers may be tempted to use a singular pronoun here, but it must agree with the plural noun."
+}
