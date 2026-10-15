@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["W", "O", "R", "L", "D", "K", "Q", "Z", "M", "E"],
+    ["B", "U", "F", "H", "C", "A", "J", "X", "Y", "N"],
+    ["S", "T", "V", "D", "I", "O", "Q", "R", "W", "G"],
+    ["U", "P", "M", "K", "Z", "F", "B", "C", "D", "L"],
+    ["N", "H", "E", "Q", "X", "J", "O", "T", "V", "I"],
+    ["Y", "K", "L", "A", "G", "W", "B", "M", "Q", "S"],
+    ["Z", "R", "X", "U", "K", "F", "D", "P", "J", "H"],
+    ["C", "W", "Q", "L", "B", "Y", "I", "V", "Z", "X"],
+    ["M", "G", "H", "O", "T", "D", "R", "F", "K", "U"],
+    ["J", "N", "P", "W", "L", "E", "V", "A", "R", "T"]
+  ],
+  "words_to_find": ["WORLD", "ENGLISH", "SPEAK", "TRAVEL"],
+  "word_positions": [
+    {"word": "WORLD", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ENGLISH", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "SPEAK", "start_row": 2, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TRAVEL", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"}
+  ],
+  "topic": "English as a Global Language"
+}
