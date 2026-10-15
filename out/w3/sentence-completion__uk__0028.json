@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Judging by the strange results,",
+  "correct_completion": "someone must have made a mistake in the calculations.",
+  "full_sentence": "Judging by the strange results, someone must have made a mistake in the calculations.",
+  "acceptable_variants": ["someone might have made a mistake in the calculations.", "there could have been an error in the data."],
+  "options": [
+    {"text": "the calculations were done yesterday.", "is_correct": false, "why_wrong": "This states a fact about timing. The stem asks for a speculation about what caused the strange results."},
+    {"text": "we will probably check them again next week.", "is_correct": false, "why_wrong": "This is a future plan, not a deduction about the past. The stem calls for a modal perfect about something that already happened."},
+    {"text": "someone must have made a mistake in the calculations.", "is_correct": true, "why_wrong": null},
+    {"text": "so the results were not published.", "is_correct": false, "why_wrong": "'So' introduces a consequence, but the stem asks for a speculation about the cause of the results."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Modal perfect 'must have' + past participle for speculation about the past",
+  "connector": "must have",
+  "explanation": "The stem is a logical deduction from evidence, so the completion needs a modal of certainty followed by have and a past participle. Learners whose first language does not mark past speculation with a separate verb form may use a simple past or a plain modal here, which does not express the deduction.",
+  "translation": "Судячи з дивних результатів, хтось, мабуть, припустився помилки в розрахунках."
+}
