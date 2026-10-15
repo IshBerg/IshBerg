@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Because the report had been checked twice,",
+  "correct_completion": "the manager signed it without changes.",
+  "full_sentence": "Because the report had been checked twice, the manager signed it without changes.",
+  "acceptable_variants": ["the manager approved it at once.", "the manager signed it quickly."],
+  "options": [
+    {"text": "the manager was not satisfied with it.", "is_correct": false, "why_wrong": "The stem gives a reason that should lead to approval, so a negative reaction does not follow logically from the passive 'had been checked'."},
+    {"text": "it had been checked twice before.", "is_correct": false, "why_wrong": "This repeats information already in the stem instead of giving the result that the 'because' clause requires."},
+    {"text": "the manager signed it without changes.", "is_correct": true, "why_wrong": null},
+    {"text": "so it was sent back for more checks.", "is_correct": false, "why_wrong": "'So' repeats the cause-effect link already set by 'because', and the result contradicts the reason given."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past perfect passive ('had been checked') after 'because'",
+  "connector": "because",
+  "explanation": "'Because' introduces the cause, so the main clause must state the logical result. The past perfect passive shows that the checking happened before the signing. Turkish speakers may find the past perfect passive hard because Turkish marks this time relation with verb suffixes rather than a separate auxiliary verb.",
+  "translation": "Rapor iki kez kontrol edildiği için yönetici onu değişiklik yapmadan imzaladı."
+}

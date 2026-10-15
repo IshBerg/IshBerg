@@ -1,0 +1,14 @@
+{
+  "trigger_word": "heart",
+  "all_words": [
+    {"word": "blood", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Kalp kanı vücutta dolaştırır, bu yüzden kan kalple doğrudan ilişkilidir."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Yastığın kalple veya sağlıkla bir ilgisi yoktur."},
+    {"word": "pulse", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Nabız kalp atışının ölçüsüdür ve kalple doğrudan bağlantılıdır."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masanın kalp konusuyla hiçbir anlamsal bağı yoktur."},
+    {"word": "exercise", "is_associated": true, "association_type": "THEMATIC", "explanation": "Egzersiz kalp sağlığını güçlendirdiği için sağlık temasında kalple ilişkilidir."},
+    {"word": "beat", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Heartbeat' birleşiminde yaygın olarak birlikte kullanılır."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Kalp kelimesiyle ilgili kelimeler kan, nabız, egzersiz ve kalp atışı gibi vücut ve sağlık bağlantılarıdır."
+}
