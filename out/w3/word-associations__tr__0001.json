@@ -1,0 +1,14 @@
+{
+  "trigger_word": "justice",
+  "all_words": [
+    {"word": "pancake", "is_associated": false, "association_type": "NONE", "explanation": "Pankek adalet kavramıyla ne anlamsal ne de tematik bir bağ taşır; mutfakla ilgili bir sözcüktür."},
+    {"word": "verdict", "is_associated": true, "association_type": "THEMATIC", "explanation": "Karar (verdict), mahkemede adaletin uygulanmasının sonucu olduğu için adalet temasıyla bağlantılıdır."},
+    {"word": "glacier", "is_associated": false, "association_type": "NONE", "explanation": "Buzul, adalet kavramıyla hiçbir bağlantısı olmayan bir doğa terimidir."},
+    {"word": "fairness", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Adillik (fairness), adalet kavramına çok yakın anlamlı bir sözcüktür."},
+    {"word": "tribunal", "is_associated": true, "association_type": "THEMATIC", "explanation": "Mahkeme heyeti (tribunal), adaletin dağıtıldığı kurumla ilgili olduğu için tematik bir bağlantı kurar."},
+    {"word": "reluctance", "is_associated": false, "association_type": "NONE", "explanation": "İsteksizlik bir tutumu anlatır, ancak adalet kavramıyla doğrudan bir ilişkisi yoktur."}
+  ],
+  "correct_indices": [1, 3, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Adalet (justice) sözcüğü hukuk, karar ve eşitlik alanındaki sözcüklerle çağrışım yapar; mahkeme, karar ve adillik bu alanın parçalarıdır."
+}
