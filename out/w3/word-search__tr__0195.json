@@ -1,0 +1,23 @@
+{
+  "grid_size": 10,
+  "grid": [
+    ["A", "P", "P", "L", "E", "K", "W", "Z", "Q", "C"],
+    ["B", "D", "F", "G", "H", "J", "M", "N", "S", "A"],
+    ["X", "Y", "U", "I", "V", "B", "D", "F", "K", "R"],
+    ["J", "K", "Q", "W", "Z", "L", "X", "V", "H", "R"],
+    ["M", "N", "S", "D", "B", "F", "G", "H", "J", "O"],
+    ["G", "K", "L", "W", "Y", "Z", "Q", "X", "C", "T"],
+    ["N", "R", "V", "B", "F", "H", "J", "K", "M", "W"],
+    ["V", "W", "A", "D", "G", "H", "J", "K", "L", "M"],
+    ["X", "Z", "Q", "P", "R", "S", "T", "U", "V", "W"],
+    ["B", "D", "F", "G", "E", "N", "O", "L", "E", "M"]
+  ],
+  "words_to_find": ["APPLE", "CARROT", "MELON", "GRAPE"],
+  "word_positions": [
+    {"word": "APPLE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "CARROT", "start_row": 0, "start_col": 9, "direction": "VERTICAL"},
+    {"word": "MELON", "start_row": 9, "start_col": 9, "direction": "HORIZONTAL_REVERSE"},
+    {"word": "GRAPE", "start_row": 5, "start_col": 0, "direction": "DIAGONAL_DOWN"}
+  ],
+  "topic": "Fruit and Vegetables"
+}

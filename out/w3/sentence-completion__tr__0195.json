@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although the exam was difficult,",
+  "correct_completion": "she still managed to pass.",
+  "full_sentence": "Although the exam was difficult, she still managed to pass.",
+  "acceptable_variants": ["she still passed the exam.", "she managed to pass anyway."],
+  "options": [
+    {"text": "so she gave up immediately.", "is_correct": false, "why_wrong": "'Although' introduces contrast, not a result. 'So' would express cause and effect, which does not fit this stem."},
+    {"text": "because she studied for weeks.", "is_correct": false, "why_wrong": "'Because' gives a reason, but the stem needs a contrasting clause after 'although'."},
+    {"text": "she still managed to pass.", "is_correct": true, "why_wrong": null},
+    {"text": "she was happy about the test.", "is_correct": false, "why_wrong": "This adds a feeling but does not contrast with the difficulty of the exam, so the concessive structure is not completed."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must show a result that goes against the expectation created by the first clause. Learners often mix up contrast and cause, so check the connector carefully.",
+  "translation": "Sınav zor olmasına rağmen, yine de geçmeyi başardı."
+}
