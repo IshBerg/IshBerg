@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The new bridge was opened last year,",
+  "correct_completion": "and it is used by thousands of people every day.",
+  "full_sentence": "The new bridge was opened last year, and it is used by thousands of people every day.",
+  "acceptable_variants": ["and it is visited by tourists every day.", "and it is crossed by many cars every day."],
+  "options": [
+    {"text": "and it rains there every day.", "is_correct": false, "why_wrong": "This describes the weather, not the bridge being used, so it does not complete the sentence logically."},
+    {"text": "because people used it yesterday.", "is_correct": false, "why_wrong": "This gives a past reason, but the stem needs a present result about the bridge."},
+    {"text": "and it is used by thousands of people every day.", "is_correct": true, "why_wrong": null},
+    {"text": "so the bridge opened last year.", "is_correct": false, "why_wrong": "This repeats information from the stem and does not add a new passive structure about the bridge now."}
+  ],
+  "correct_index": 2,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Passive voice: past and present",
+  "connector": "and",
+  "explanation": "The passive uses be plus a past participle. 'Was opened' describes a past action, while 'is used' describes a present situation. Portuguese speakers often prefer an active structure here, but the bridge receives the action, so the passive is needed.",
+  "translation": "A nova ponte foi inaugurada no ano passado e é usada por milhares de pessoas todos os dias."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to watch or to attend"},
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend or to aim to do something"},
+    {"word": "eventual", "transliteration": "eventual", "meaning": "occasional or possible, not regular"},
+    {"word": "atualmente", "transliteration": "atualmente", "meaning": "at the present time"}
+  ],
+  "english_words": ["occasional", "currently", "to watch", "to intend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these academic and formal terms from Latin and French, so the forms look alike. Over time each language narrowed or shifted the meaning, so the spelling alone cannot be trusted.",
+  "false_friend_warning": "Watch out for the Portuguese verb that means to intend: it looks like English pretend, but it means to plan or aim to do something, so its English match is to intend, not to pretend."
+}
