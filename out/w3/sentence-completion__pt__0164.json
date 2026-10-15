@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The old bridge was closed last month,",
+  "correct_completion": "so drivers now use the new road.",
+  "full_sentence": "The old bridge was closed last month, so drivers now use the new road.",
+  "acceptable_variants": ["so traffic has moved to the new road.", "so the new road is now busy every morning."],
+  "options": [
+    {"text": "drivers still use it every day.", "is_correct": false, "why_wrong": "This describes continued use, which contradicts the idea that the bridge was closed last month."},
+    {"text": "so drivers now use the new road.", "is_correct": true, "why_wrong": null},
+    {"text": "the bridge built drivers.", "is_correct": false, "why_wrong": "This makes no sense, because a bridge cannot build people, and the sentence needs a logical result of the closure."},
+    {"text": "so the new road is being closed by drivers.", "is_correct": false, "why_wrong": "This reverses the logic of the passive: drivers do not close roads, so this completion does not follow from the closure."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Passive voice in past and present tenses, showing the result of an action",
+  "connector": "so",
+  "explanation": "Passive sentences focus on what is affected by the action. The completion should show the result for drivers after the closure, not reverse who performs the action.",
+  "translation": "A ponte antiga foi fechada no mês passado, então os motoristas agora usam a nova estrada."
+}
