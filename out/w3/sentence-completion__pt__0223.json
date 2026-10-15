@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the crisis could have been averted.",
+  "full_sentence": "Had the committee been informed earlier, the crisis could have been averted.",
+  "acceptable_variants": ["the crisis might have been avoided.", "the outcome would have been very different."],
+  "options": [
+    {"text": "the crisis would be averted now.", "is_correct": false, "why_wrong": "This mixes a present-time result with a past condition. The inverted 'Had ... been' clause needs a result that refers to the past, such as 'could have been'."},
+    {"text": "so the crisis was averted.", "is_correct": false, "why_wrong": "'So' introduces the result of a known fact, but this sentence is hypothetical, so the result must stay in the conditional form."},
+    {"text": "the crisis is being averted.", "is_correct": false, "why_wrong": "The present continuous describes an ongoing action now, which clashes with the past hypothetical condition."},
+    {"text": "the crisis could have been averted.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had'",
+  "connector": "had (inverted if)",
+  "explanation": "'Had' replaces 'if' in this inverted third conditional, so the auxiliary moves before the subject. The result clause must match the past condition with 'could have been'. Portuguese speakers may be tempted to use a simple past or present result here, but English needs a perfect modal to match the past condition.",
+  "translation": "Se o comitê tivesse sido informado mais cedo, a crise poderia ter sido evitada."
+}
