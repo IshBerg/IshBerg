@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He stopped",
+  "correct_completion": "to buy bread on the way home.",
+  "full_sentence": "He stopped to buy bread on the way home.",
+  "acceptable_variants": ["to get some fresh air.", "to check his messages."],
+  "options": [
+    {"text": "buy bread on the way home.", "is_correct": false, "why_wrong": "A bare infinitive cannot follow 'stopped' in this position, so the sentence is ungrammatical."},
+    {"text": "buying bread on the way home.", "is_correct": false, "why_wrong": "'Stop' followed by a gerund means to quit an activity, so this says he ended a habit of buying bread, not that he paused to do it."},
+    {"text": "to buy bread on the way home.", "is_correct": true, "why_wrong": null},
+    {"text": "bought bread on the way home.", "is_correct": false, "why_wrong": "A past tense verb cannot follow 'stopped' directly, so this form breaks the grammar of the sentence."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Verbs followed by gerund versus to-infinitive: stop + to-infinitive for purpose",
+  "connector": "stopped",
+  "explanation": "'Stop' followed by a gerund means to quit an activity, while 'stop' followed by a to-infinitive means to pause in order to do something else. Learners may confuse the two because their first language expresses purpose with a full clause rather than an infinitive.",
+  "translation": "Zatrzymał się, żeby kupić chleb w drodze do domu."
+}
