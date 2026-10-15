@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Yesterday we visited the museum, so",
+  "correct_completion": "we walked for hours.",
+  "full_sentence": "Yesterday we visited the museum, so we walked for hours.",
+  "acceptable_variants": ["we explored every room.", "we enjoyed the exhibits."],
+  "options": [
+    {"text": "we decided to stay at home.", "is_correct": false, "why_wrong": "'So' introduces a result of the visit, and staying at home does not follow from visiting the museum."},
+    {"text": "the museum was closed.", "is_correct": false, "why_wrong": "This contradicts the idea that we visited the museum."},
+    {"text": "we were in a hurry to leave.", "is_correct": false, "why_wrong": "This feeling is not a logical result of visiting, so it does not complete the sentence well."},
+    {"text": "we walked for hours.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple of regular verbs (visited, walked) with 'so' to show a result",
+  "connector": "so",
+  "explanation": "After 'so', we need a result clause that follows logically from the first part of the sentence. Portuguese speakers may forget to add -ed to regular past verbs, so check both verbs in the sentence.",
+  "translation": "Ontem visitamos o museu, então caminhamos por horas."
+}

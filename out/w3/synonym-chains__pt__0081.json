@@ -1,0 +1,23 @@
+{
+  "central_word": "walk",
+  "chain_words": [
+    {"word": "stroll", "intensity": 1, "translation": "passear", "nuance": "walking slowly and relaxed, with no hurry"},
+    {"word": "walk", "intensity": 2, "translation": "caminhar", "nuance": "general word for moving on foot"},
+    {"word": "hurry", "intensity": 3, "translation": "apressar-se", "nuance": "moving faster because time is short"},
+    {"word": "rush", "intensity": 4, "translation": "correr apressadamente", "nuance": "moving quickly and urgently"},
+    {"word": "sprint", "intensity": 5, "translation": "correr em alta velocidade", "nuance": "running at maximum speed for a short distance"}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "mode": "SYNONYM_CHAIN",
+  "explanation": "These words all describe moving on foot, with increasing speed and urgency from a relaxed stroll to a full sprint.",
+  "usage_notes": [
+    {"word1": "walk", "word2": "sprint", "difference": "'Walk' is the neutral word for moving on foot; 'sprint' describes running at maximum speed for a short distance."}
+  ],
+  "translations": {
+    "stroll": "passear",
+    "walk": "caminhar",
+    "hurry": "apressar-se",
+    "rush": "correr apressadamente",
+    "sprint": "correr em alta velocidade"
+  }
+}
