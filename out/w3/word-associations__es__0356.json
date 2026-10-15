@@ -1,0 +1,14 @@
+{
+  "trigger_word": "song",
+  "all_words": [
+    {"word": "sing", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Sing a song' (cantar una canción) es una combinación muy común en inglés."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Una mesa no tiene relación con las canciones; es un objeto de la casa."},
+    {"word": "music", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La música y las canciones pertenecen al mismo campo de significado."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Una ventana no tiene relación con las canciones."},
+    {"word": "dance", "is_associated": true, "association_type": "THEMATIC", "explanation": "Las canciones de acción suelen incluir bailes y movimientos, así que la palabra está relacionada con el tema."},
+    {"word": "bread", "is_associated": false, "association_type": "NONE", "explanation": "El pan es un alimento y no tiene relación con las canciones."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Las palabras asociadas con 'song' tienen que ver con cantar, la música y el baile, que son parte de las canciones de acción. Los objetos y alimentos no pertenecen a este grupo."
+}
