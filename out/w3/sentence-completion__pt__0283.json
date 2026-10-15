@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "It is very hot in here.",
+  "correct_completion": "Open the window, please.",
+  "full_sentence": "It is very hot in here. Open the window, please.",
+  "acceptable_variants": ["Please open the window.", "Open the door, please."],
+  "options": [
+    {"text": "I open the window, please.", "is_correct": false, "why_wrong": "Imperative sentences do not use a subject such as 'I'. The verb comes first."},
+    {"text": "Opens the window, please.", "is_correct": false, "why_wrong": "The imperative uses the base form of the verb, without the -s ending."},
+    {"text": "Open the window, please.", "is_correct": true, "why_wrong": null},
+    {"text": "Opening the window, please.", "is_correct": false, "why_wrong": "The imperative uses the base form of the verb, not the -ing form."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Imperative form with 'please'",
+  "connector": "imperative",
+  "explanation": "An imperative sentence gives an instruction. It starts with the base form of the verb and has no subject. Portuguese speakers may add a subject or change the verb ending, because Portuguese imperatives have separate endings for each person.",
+  "translation": "Está muito quente aqui. Abra a janela, por favor."
+}

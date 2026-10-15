@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "pretender", "transliteration": "pretender", "meaning": "to intend or plan"},
+    {"word": "eventual", "transliteration": "eventual", "meaning": "possible or occasional"},
+    {"word": "assistir", "transliteration": "assistir", "meaning": "to attend or to watch"},
+    {"word": "constipado", "transliteration": "constipado", "meaning": "having a cold"}
+  ],
+  "english_words": ["to attend", "to have a cold", "possible", "to intend"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "The Portuguese and English words share a Latin root and similar spelling, so learners may assume they have the same meaning. In each case the Portuguese meaning has shifted away from the English word.",
+  "false_friend_warning": "The Portuguese word 'pretender' looks like the English verb 'pretend', but it means to intend or plan, so it does not mean to pretend. Likewise, the Portuguese word 'eventual' means possible, not eventual in the English sense of final."
+}
