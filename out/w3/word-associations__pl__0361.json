@@ -1,0 +1,14 @@
+{
+  "trigger_word": "experiment",
+  "all_words": [
+    {"word": "laboratory", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Laboratorium to miejsce, w którym przeprowadza się eksperymenty."},
+    {"word": "pizza", "is_associated": false, "association_type": "NONE", "explanation": "Pizza nie ma żadnego związku z eksperymentami; to jest jedzenie."},
+    {"word": "hypothesis", "is_associated": true, "association_type": "THEMATIC", "explanation": "Hipoteza to przypuszczenie, które eksperyment ma sprawdzić, więc należy do tego samego obszaru badań."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra jest elementem geografii i nie ma związku z eksperymentami naukowymi."},
+    {"word": "data", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Dane są zbierane i analizowane podczas eksperymentu, aby wyciągnąć wnioski."},
+    {"word": "conduct", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Czasownik 'conduct' tworzy stały związek 'conduct an experiment', czyli przeprowadzić eksperyment."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa związane z eksperymentem dotyczą miejsca, metody i wyników badań; jedzenie i geografia nie mają z nim związku."
+}

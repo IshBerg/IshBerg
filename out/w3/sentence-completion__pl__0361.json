@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known the truth earlier,",
+  "correct_completion": "she would have acted very differently.",
+  "full_sentence": "Had she known the truth earlier, she would have acted very differently.",
+  "acceptable_variants": ["she might have changed her plans.", "she would have done things differently."],
+  "options": [
+    {"text": "she acted very differently.", "is_correct": false, "why_wrong": "This is a simple past statement; it does not express the hypothetical result that the inverted conditional requires."},
+    {"text": "she would have acted very differently.", "is_correct": true, "why_wrong": null},
+    {"text": "she has been acting differently for years.", "is_correct": false, "why_wrong": "The present perfect continuous describes an ongoing action, not a hypothetical past result."},
+    {"text": "she could act differently now.", "is_correct": false, "why_wrong": "'Now' refers to present time, while the stem describes a past condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted conditionals with 'had' (third conditional)",
+  "connector": "had (inverted conditional)",
+  "explanation": "The stem uses an inverted 'had' clause instead of 'if', so the main clause must express a hypothetical past result with 'would have' plus a past participle. Learners often choose a simple past form here, which describes what happened rather than what would have happened.",
+  "translation": "Gdyby wcześniej znała prawdę, zachowałaby się zupełnie inaczej."
+}
