@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Of all the cities we visited,",
+  "correct_completion": "Rome was the most beautiful.",
+  "full_sentence": "Of all the cities we visited, Rome was the most beautiful.",
+  "acceptable_variants": ["Rome was the most beautiful city of all.", "Rome was the most beautiful of them all."],
+  "options": [
+    {"text": "we took many photos there.", "is_correct": false, "why_wrong": "This is a true statement, but it does not compare the cities, so it does not complete the superlative comparison started by 'of all'."},
+    {"text": "Rome was more beautiful than Paris.", "is_correct": false, "why_wrong": "This uses the comparative form 'more beautiful', which compares two cities. The stem with 'of all' needs the superlative form to rank one city above the whole group."},
+    {"text": "Rome was the most beautiful.", "is_correct": true, "why_wrong": null},
+    {"text": "the trains were very late.", "is_correct": false, "why_wrong": "This describes the trains, not the cities, so it does not complete the comparison the stem sets up."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Superlative adjectives with 'of all'",
+  "connector": "of all",
+  "explanation": "The phrase 'of all' introduces a whole group, so the sentence needs a superlative adjective such as 'the most beautiful' to rank one item above the others. Portuguese speakers may be tempted to use a comparative form like 'more beautiful' here, but English requires 'the most' when one item is compared with a whole group.",
+  "translation": "De todas as cidades que visitamos, Roma foi a mais bonita."
+}

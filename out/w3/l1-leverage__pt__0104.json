@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "família", "transliteration": "familia", "meaning": "family"},
+    {"word": "comunicação", "transliteration": "comunicacao", "meaning": "communication"},
+    {"word": "relação", "transliteration": "relacao", "meaning": "relation, relationship"},
+    {"word": "conexão", "transliteration": "conexao", "meaning": "connection"}
+  ],
+  "english_words": ["relation", "connection", "family", "communication"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Each Portuguese word and its English match come from the same Latin root, so the spelling and meaning stay close. The Portuguese words end in an -ao or -ia pattern that often corresponds to English -ion or -y endings.",
+  "false_friend_warning": null
+}
