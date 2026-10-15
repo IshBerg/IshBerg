@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The museum, which was built in 1900,",
+  "correct_completion": "is open to the public every day.",
+  "full_sentence": "The museum, which was built in 1900, is open to the public every day.",
+  "acceptable_variants": ["is one of the oldest buildings in the city.", "attracts thousands of visitors each year."],
+  "options": [
+    {"text": "who is open to the public every day.", "is_correct": false, "why_wrong": "'Who' refers to people, but the subject here is a museum, which is a thing."},
+    {"text": "that is open to the public every day.", "is_correct": false, "why_wrong": "A non-defining clause after a comma cannot use 'that'; use 'which' for things."},
+    {"text": "is open to the public every day.", "is_correct": true, "why_wrong": null},
+    {"text": "which open to the public every day.", "is_correct": false, "why_wrong": "The verb must agree with the singular subject 'the museum', so it should be 'is', not 'open'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Non-defining relative clauses with 'which'",
+  "connector": "which",
+  "explanation": "A non-defining relative clause is set off by commas and gives extra information about the noun. After it, the main clause needs its own finite verb, and the relative pronoun must match the noun it refers to.",
+  "translation": "Muzeum, które zostało zbudowane w 1900 roku, jest otwarte dla zwiedzających każdego dnia."
+}
