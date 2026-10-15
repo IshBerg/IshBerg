@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "dans", "transliteration": "dans", "meaning": "dance"},
+    {"word": "test", "transliteration": "test", "meaning": "test"},
+    {"word": "kontrol", "transliteration": "kontrol", "meaning": "control"},
+    {"word": "park", "transliteration": "park", "meaning": "park"}
+  ],
+  "english_words": ["control", "park", "dance", "test"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Turkish words were borrowed from English, so their spelling and meaning stayed close to the English forms.",
+  "false_friend_warning": null
+}

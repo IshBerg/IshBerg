@@ -1,0 +1,20 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "E", "R", "H", "A", "P", "S"],
+    ["L", "Q", "W", "Z", "S", "X", "J"],
+    ["I", "B", "N", "V", "E", "K", "T"],
+    ["K", "D", "F", "U", "E", "O", "R"],
+    ["E", "J", "X", "C", "M", "Q", "W"],
+    ["L", "Z", "T", "G", "S", "V", "H"],
+    ["Y", "H", "M", "A", "Y", "B", "E"]
+  ],
+  "words_to_find": ["PERHAPS", "LIKELY", "SEEMS", "MAYBE"],
+  "word_positions": [
+    {"word": "PERHAPS", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "LIKELY", "start_row": 1, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "SEEMS", "start_row": 1, "start_col": 4, "direction": "VERTICAL"},
+    {"word": "MAYBE", "start_row": 6, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Hedging, Certainty and Stance"
+}
