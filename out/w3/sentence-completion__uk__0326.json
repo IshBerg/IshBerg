@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although he studied hard,",
+  "correct_completion": "he still failed the exam.",
+  "full_sentence": "Although he studied hard, he still failed the exam.",
+  "acceptable_variants": ["he did not pass the exam.", "he still got a low score."],
+  "options": [
+    {"text": "so he passed easily.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' requires a contrast with the first clause."},
+    {"text": "he was tired and hungry.", "is_correct": false, "why_wrong": "This describes his state but does not contrast with the effort of studying."},
+    {"text": "he still failed the exam.", "is_correct": true, "why_wrong": null},
+    {"text": "he finished the exam early.", "is_correct": false, "why_wrong": "This describes timing, not an outcome that contrasts with studying hard."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although'",
+  "connector": "although",
+  "explanation": "After 'although', the main clause must express a contrast with the first clause. Learners sometimes add a result connector such as 'so' here, because in their first language the same word order often expresses cause and result.",
+  "translation": "Хоча він старанно вчився, він все одно не склав іспит."
+}

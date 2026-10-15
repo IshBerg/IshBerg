@@ -1,0 +1,20 @@
+{
+  "title": "Places in Town",
+  "text": "I live in a small town. There are many places here. The library is on Main Street. It is next to the bank. I go to the library every week.\n\nThe park is near my house. There are trees and a big lake. Children play on the swings. On Sunday, my family has lunch in the park. We like it very much.",
+  "questions": [
+    {"id": "L1_LITERAL_1", "text": "Where is the library?", "options": ["On Main Street", "Next to the school", "In the park", "Near the lake"], "correct_index": 0, "level": "L1_LITERAL"},
+    {"id": "L1_LITERAL_2", "text": "What is near the writer's house?", "options": ["The library", "The park", "The bank", "The school"], "correct_index": 1, "level": "L1_LITERAL"},
+    {"id": "L2_INFERENTIAL_1", "text": "What kind of family is it probably?", "options": ["They like to spend time outdoors together", "They never eat lunch", "They do not like the park", "They work at the bank"], "correct_index": 0, "level": "L2_INFERENTIAL"},
+    {"id": "L2_INFERENTIAL_2", "text": "Why is the park a good place for children?", "options": ["There is a big bank", "There are many books", "There are swings to play on", "There is a school"], "correct_index": 2, "level": "L2_INFERENTIAL"}
+  ],
+  "vocabulary": [
+    {"word": "library", "translation": "бібліотека", "definition": "a place with many books that people can borrow"},
+    {"word": "bank", "translation": "банк", "definition": "a place where people keep their money"},
+    {"word": "park", "translation": "парк", "definition": "a large public garden with trees and grass"},
+    {"word": "swings", "translation": "гойдалки", "definition": "seats hung from ropes that children move back and forth"}
+  ],
+  "paragraph_translations": [
+    "Я живу в маленькому місті. Тут багато цікавих місць. Бібліотека знаходиться на головній вулиці. Вона поруч з банком. Я ходжу до бібліотеки кожного тижня.",
+    "Парк недалеко від мого будинку. Там є дерева і велике озеро. Діти граються на гойдалках. У неділю моя родина обідає в парку. Нам це дуже подобається."
+  ]
+}

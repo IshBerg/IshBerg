@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant; pressing, current in importance"},
+    {"word": "симпатичний", "transliteration": "sympatychnyi", "meaning": "attractive, pleasant-looking"},
+    {"word": "коректний", "transliteration": "korektnyi", "meaning": "polite, tactful, behaving properly"},
+    {"word": "конкретний", "transliteration": "konkretnyi", "meaning": "specific, precise"}
+  ],
+  "english_words": ["polite", "specific", "relevant", "attractive"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Several Ukrainian words look almost identical to English words: the Ukrainian 'aktualnyi' resembles 'actual', 'sympatychnyi' resembles 'sympathetic', 'korektnyi' resembles 'correct', and 'konkretnyi' resembles 'concrete'. Their forms stayed close, but each language developed its own meaning for the word, so the meanings drifted apart.",
+  "false_friend_warning": "Watch out for the false friend: the Ukrainian word 'aktualnyi' looks like the English word 'actual', but it means 'relevant' or 'pressing', not 'real' or 'existing'. Likewise, 'konkretnyi' means 'specific', not 'concrete' (solid, physical material)."
+}
