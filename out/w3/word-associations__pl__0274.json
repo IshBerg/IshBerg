@@ -1,0 +1,14 @@
+{
+  "trigger_word": "quill",
+  "all_words": [
+    {"word": "ink", "is_associated": true, "association_type": "THEMATIC", "explanation": "Atrament był niezbędny do pisania piórem, dlatego jest ściśle związany z tematem dawnego pisania."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "Klawiatura należy do nowoczesnych urządzeń i nie ma związku z pisaniem piórem."},
+    {"word": "parchment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Pergamin był dawnym materiałem do pisania, na którym używano pióra, więc łączy się z tym tematem."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "Traktor jest maszyną rolniczą i nie ma żadnego związku z literackim pisaniem."},
+    {"word": "scribe", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Skryba to osoba zawodowo przepisująca i pisząca teksty, więc znaczeniowo jest bliska piórze jako narzędziu pisarza."},
+    {"word": "sonnet", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Sonet to forma poetycka pisana piórem, więc znaczeniowo wiąże się z literackim wymiarem tego narzędzia."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Pióro kojarzy się z dawnym sposobem pisania: z atramentem, pergaminem, skrybą i tekstami literackimi, takimi jak sonet. Klawiatura i traktor pochodzą z innych dziedzin, dlatego nie są z nim związane."
+}

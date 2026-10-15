@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The committee, having reviewed the evidence at length,",
+  "correct_completion": "resolved to postpone its decision.",
+  "full_sentence": "The committee, having reviewed the evidence at length, resolved to postpone its decision.",
+  "acceptable_variants": ["chose to defer its ruling.", "decided to adjourn the matter."],
+  "options": [
+    {"text": "it's pretty much decided, mate.", "is_correct": false, "why_wrong": "The informal tone and the word 'mate' clash with the formal register of a committee report, so the completion breaks the stylistic level of the sentence."},
+    {"text": "resolved to postpone its decision.", "is_correct": true, "why_wrong": null},
+    {"text": "so they kind of gave up.", "is_correct": false, "why_wrong": "The casual phrase 'kind of' and the idea of giving up are not formal enough, and they do not match the careful review described in the stem."},
+    {"text": "the members were, like, bored.", "is_correct": false, "why_wrong": "The filler 'like' is a conversational marker, which is out of place in formal written English, and the completion does not describe a decision."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Participle clauses and register consistency in formal writing",
+  "connector": "having reviewed (participle clause)",
+  "explanation": "The stem uses a formal participle clause, so the completion must keep the same formal register and continue the logic of careful review. Learners should check that the tone of the completion matches the tone of the first part. Speakers of many languages may mix formal and informal phrases when they are less confident, so keeping one register throughout is an important skill at this level.",
+  "translation": "Komisja, po dokładnym przeglądzie dowodów, postanowiła odłożyć swoją decyzję."
+}
