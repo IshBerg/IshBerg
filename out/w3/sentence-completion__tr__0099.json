@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will stay inside.", "we will not go out."],
+  "options": [
+    {"text": "we went to the beach yesterday.", "is_correct": false, "why_wrong": "This is a past event and does not give the expected future result of the condition."},
+    {"text": "the sun was shining brightly.", "is_correct": false, "why_wrong": "This describes weather that contradicts the rain in the stem and does not complete the conditional sentence."},
+    {"text": "we bought an umbrella last week.", "is_correct": false, "why_wrong": "A past action does not give the future result that the first conditional requires after 'if' with a present tense clause."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and 'will'",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense clause about the future, the main clause uses 'will' and a future result. Turkish speakers may place the result in a past or present form here, but English needs a future verb after the condition.",
+  "translation": "Yarın yağmur yağarsa evde kalacağız."
+}
