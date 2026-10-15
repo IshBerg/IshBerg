@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "конкретний", "transliteration": "konkretnyi", "meaning": "specific"},
+    {"word": "стаж", "transliteration": "stazh", "meaning": "length of service, seniority"},
+    {"word": "коректний", "transliteration": "korektnyi", "meaning": "polite, tactful"}
+  ],
+  "english_words": ["seniority", "polite", "factory", "specific"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Ukrainian words look close to English words, but over time they took different meanings, so the forms look similar while the meanings differ.",
+  "false_friend_warning": "Four Ukrainian words look like English words but mean something else: 'fabryka' looks like 'fabric' but means factory, 'konkretnyi' looks like 'concrete' but means specific, 'stazh' looks like 'stage' but means length of service, and 'korektnyi' looks like 'correct' but means polite or tactful."
+}
