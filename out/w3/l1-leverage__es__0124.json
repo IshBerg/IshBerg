@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "problema", "transliteration": "problema", "meaning": "a difficulty that needs to be solved"},
+    {"word": "información", "transliteration": "informacion", "meaning": "facts or details about something"},
+    {"word": "familia", "transliteration": "familia", "meaning": "a group of people related by blood or marriage"},
+    {"word": "animal", "transliteration": "animal", "meaning": "a living creature that is not a plant or a person"}
+  ],
+  "english_words": ["family", "animal", "problem", "information"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Both languages borrowed these words from the same Latin source, so the forms stayed close and the meanings stayed the same.",
+  "false_friend_warning": null
+}

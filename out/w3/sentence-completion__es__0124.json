@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child, I",
+  "correct_completion": "used to play in the park every afternoon.",
+  "full_sentence": "When I was a child, I used to play in the park every afternoon.",
+  "acceptable_variants": ["would play in the park every afternoon.", "often played in the park every afternoon."],
+  "options": [
+    {"text": "use to play in the park every afternoon.", "is_correct": false, "why_wrong": "The correct form is 'used to', with the final -d. Without it the phrase is ungrammatical."},
+    {"text": "am used to play in the park every afternoon.", "is_correct": false, "why_wrong": "'Be used to' means being accustomed to something and needs -ing, as in 'am used to playing'. Here the meaning is a past habit, so this does not fit."},
+    {"text": "used to play in the park every afternoon.", "is_correct": true, "why_wrong": null},
+    {"text": "used playing in the park every afternoon.", "is_correct": false, "why_wrong": "'Used' needs 'to' before the verb to express a past habit. Without 'to' the sentence is ungrammatical."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "'Used to' for past habits and states, followed by the base verb",
+  "connector": "used to",
+  "explanation": "'Used to' describes a habit or situation that was true in the past but is no longer true. It is followed by the base form of the verb. Learners who translate a past habit with a simple past tense often confuse it with 'be used to', which is a different structure that takes an -ing form.",
+  "translation": "Cuando era niño, solía jugar en el parque todas las tardes."
+}
