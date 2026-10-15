@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My bag is very heavy, so",
+  "correct_completion": "I need help to carry it.",
+  "full_sentence": "My bag is very heavy, so I need help to carry it.",
+  "acceptable_variants": ["I ask my friend to help me.", "I take a taxi home."],
+  "options": [
+    {"text": "it is very light.", "is_correct": false, "why_wrong": "'Light' contradicts 'heavy', so it cannot be the result of the bag being heavy."},
+    {"text": "I need help to carry it.", "is_correct": true, "why_wrong": null},
+    {"text": "I like the colour.", "is_correct": false, "why_wrong": "Liking the colour does not follow from the bag being heavy."},
+    {"text": "the colour is blue.", "is_correct": false, "why_wrong": "This describes the bag, but it does not show a result of its weight."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause. The weight of the bag is the cause, and needing help to carry it is the effect.",
+  "translation": "Moja torba jest bardzo ciężka, więc potrzebuję pomocy, żeby ją nieść."
+}
