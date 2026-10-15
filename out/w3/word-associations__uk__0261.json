@@ -1,0 +1,14 @@
+{
+  "trigger_word": "kitchen",
+  "all_words": [
+    {"word": "stove", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Плита є основним приладом на кухні, на якому готують їжу."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Гора не має відношення до кухні: це природний рельєф, а не предмет із кухонного побуту."},
+    {"word": "spoon", "is_associated": true, "association_type": "THEMATIC", "explanation": "Ложка належить до кухонного приладдя і часто використовується під час приготування та їди на кухні."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка є природним водним об'єктом і не пов'язана з кухнею чи її предметами."},
+    {"word": "oven", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Духовка є кухонним приладом для запікання та випікання страв."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "Скрипка є музичним інструментом і не належить до кухонного обладнання."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово kitchen асоціюється з предметами, які використовують для приготування та подачі їжі; природні об'єкти та музичні інструменти до цієї групи не належать."
+}

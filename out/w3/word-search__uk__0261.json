@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["W", "A", "T", "E", "R", "Q", "X", "S"],
+    ["K", "J", "H", "M", "Z", "B", "D", "L"],
+    ["Y", "N", "F", "G", "O", "C", "P", "E"],
+    ["D", "I", "U", "V", "T", "Q", "W", "E"],
+    ["M", "B", "A", "K", "F", "J", "Z", "P"],
+    ["R", "A", "P", "P", "L", "E", "H", "G"],
+    ["U", "Q", "X", "R", "O", "V", "T", "B"],
+    ["N", "O", "W", "Z", "J", "K", "C", "D"]
+  ],
+  "words_to_find": ["WATER", "SLEEP", "APPLE", "RUN"],
+  "word_positions": [
+    {"word": "WATER", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SLEEP", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "APPLE", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "RUN", "start_row": 5, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Healthy Habits"
+}
