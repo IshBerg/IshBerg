@@ -1,0 +1,22 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["I", "M", "A", "G", "I", "N", "E", "W"],
+    ["X", "Q", "K", "P", "L", "T", "V", "I"],
+    ["B", "Z", "F", "J", "C", "K", "Q", "S"],
+    ["W", "N", "R", "G", "X", "F", "D", "H"],
+    ["O", "T", "B", "K", "Z", "Q", "P", "Y"],
+    ["U", "D", "R", "E", "A", "M", "J", "C"],
+    ["L", "V", "K", "Z", "Q", "X", "P", "T"],
+    ["D", "G", "M", "A", "Y", "B", "E", "K"]
+  ],
+  "words_to_find": ["IMAGINE", "WISH", "DREAM", "WOULD", "MAYBE"],
+  "word_positions": [
+    {"word": "IMAGINE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "WISH", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "DREAM", "start_row": 5, "start_col": 1, "direction": "HORIZONTAL"},
+    {"word": "WOULD", "start_row": 3, "start_col": 0, "direction": "VERTICAL"},
+    {"word": "MAYBE", "start_row": 7, "start_col": 2, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Hypothetical Situations"
+}

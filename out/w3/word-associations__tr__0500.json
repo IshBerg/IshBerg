@@ -1,0 +1,14 @@
+{
+  "trigger_word": "dance",
+  "all_words": [
+    {"word": "music", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Müzik, dans ederken çalan şeydir ve iki kavram birbiriyle doğrudan ilgilidir."},
+    {"word": "apple", "is_associated": false, "association_type": "NONE", "explanation": "Elma bir meyvedir ve danstan ilgili değildir."},
+    {"word": "song", "is_associated": true, "association_type": "THEMATIC", "explanation": "Şarkı, dansla aynı etkinlik içinde söylenen bir parçadır."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Araba bir taşıttır ve danstan ilgili değildir."},
+    {"word": "step", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Dans adımı sık kullanılan bir ifadedir, bu yüzden iki kelime birlikte kullanılır."},
+    {"word": "moon", "is_associated": false, "association_type": "NONE", "explanation": "Ay gökyüzünde görülür ve danstan ilgili değildir."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Dans kelimesi müzik, şarkı ve adım gibi kelimelerle ilişkilidir; diğer kelimelerin ise dansla bir ilgisi yoktur."
+}
