@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The bag is very heavy, so",
+  "correct_completion": "I need two hands to carry it.",
+  "full_sentence": "The bag is very heavy, so I need two hands to carry it.",
+  "acceptable_variants": ["my arms get tired.", "I put it on the floor."],
+  "options": [
+    {"text": "I can carry it easily.", "is_correct": false, "why_wrong": "This contradicts the first clause; 'so' needs a result that follows from the bag being heavy."},
+    {"text": "I need two hands to carry it.", "is_correct": true, "why_wrong": null},
+    {"text": "it is made of paper.", "is_correct": false, "why_wrong": "This describes the material of the bag, not a result of its weight."},
+    {"text": "I left it at home.", "is_correct": false, "why_wrong": "This does not follow as a result of the bag being heavy."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Result clauses with 'so'",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that states the result of the first part of the sentence. Heaviness leads to needing help or extra effort to carry something.",
+  "translation": "Torba jest bardzo ciężka, więc potrzebuję obu rąk, żeby ją nieść."
+}

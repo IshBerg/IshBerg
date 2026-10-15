@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Porównanie (simile) jest figurą stylistyczną tak jak metafora, więc znaczeniowo jest z nią bezpośrednio powiązane."},
+    {"word": "imagery", "is_associated": true, "association_type": "THEMATIC", "explanation": "Obrazowanie (imagery) często pojawia się razem z metaforą, bo metafory tworzą żywe obrazy w wyobraźni czytelnika."},
+    {"word": "calculator", "is_associated": false, "association_type": "NONE", "explanation": "Kalkulator nie ma związku z językiem literackim ani z figurami stylistycznymi."},
+    {"word": "figurative", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Przymiotnik figurative tworzy z 'language' wyrażenie figurative language, czyli język przenośny, używany razem z metaforą."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma związku z figurami stylistycznymi ani z tym pojęciem w literaturze."},
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Rower nie jest powiązany z metaforą ani z opisem stylu w literaturze."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowo metaphor kojarzy się z pojęciami z zakresu stylu literackiego, takimi jak simile, imagery i figurative language."
+}
