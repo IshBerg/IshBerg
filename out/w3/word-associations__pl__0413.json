@@ -1,0 +1,14 @@
+{
+  "trigger_word": "volunteer",
+  "all_words": [
+    {"word": "charity", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Wolontariusz zazwyczaj pomaga w ramach organizacji charytatywnej, więc obie kategorie są ze sobą powiązane znaczeniowo."},
+    {"word": "hospital", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Mówi się 'volunteer at a hospital', czyli 'pracować jako wolontariusz w szpitalu', więc słowa często występują razem."},
+    {"word": "tortoise", "is_associated": false, "association_type": "NONE", "explanation": "Żółw nie ma żadnego związku z wolontariatem ani z pracą społeczną."},
+    {"word": "salary", "is_associated": true, "association_type": "THEMATIC", "explanation": "Pensja jest tematycznie związana z pracą, a wolontariusz właśnie jej nie otrzymuje, więc to ważny kontrast w tym temacie."},
+    {"word": "mountain", "is_associated": false, "association_type": "NONE", "explanation": "Góra nie ma związku z wolontariatem, to słowo z zupełnie innego tematu."},
+    {"word": "community", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Wolontariat często służy lokalnej społeczności, więc słowo 'community' ma z nim silny związek znaczeniowy."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Słowa powiązane z 'volunteer' dotyczą pomocy innym, miejsc pracy wolontariackiej oraz tematu pracy i wynagrodzenia, natomiast pozostałe słowa nie mają z tym związku."
+}

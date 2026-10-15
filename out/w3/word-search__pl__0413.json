@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["M", "A", "T", "H", "K", "P", "W", "A"],
+    ["B", "Q", "N", "F", "J", "U", "Z", "R"],
+    ["G", "V", "L", "D", "X", "C", "Y", "T"],
+    ["W", "E", "K", "P", "O", "M", "H", "Q"],
+    ["H", "I", "S", "T", "O", "R", "Y", "D"],
+    ["F", "B", "U", "N", "L", "A", "J", "W"],
+    ["Q", "X", "D", "G", "K", "E", "V", "P"],
+    ["S", "C", "I", "E", "N", "C", "E", "Z"]
+  ],
+  "words_to_find": ["MATH", "ART", "HISTORY", "SCIENCE"],
+  "word_positions": [
+    {"word": "MATH", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "ART", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "HISTORY", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "SCIENCE", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"}
+  ],
+  "topic": "School Subjects"
+}
