@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "feliz", "transliteration": "feliz", "meaning": "happy"},
+    {"word": "raiva", "transliteration": "raiva", "meaning": "anger"},
+    {"word": "sensível", "transliteration": "sensivel", "meaning": "sensitive (easily hurt or moved by feelings)"},
+    {"word": "sensato", "transliteration": "sensato", "meaning": "sensible (wise, reasonable)"}
+  ],
+  "english_words": ["sensible", "happy", "sensitive", "anger"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "The Portuguese word sensivel and the English word sensitive share a Latin origin, so they look and mean the same. The English word sensible looks almost identical to sensivel, but it means wise or reasonable, which is a different meaning.",
+  "false_friend_warning": "Be careful: the Portuguese word sensivel looks like the English word sensible, but it means sensitive (easily hurt or moved by feelings), not wise or reasonable."
+}

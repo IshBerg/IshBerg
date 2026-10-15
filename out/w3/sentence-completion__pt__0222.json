@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed earlier,",
+  "correct_completion": "the proposal would almost certainly have been approved.",
+  "full_sentence": "Had the committee been informed earlier, the proposal would almost certainly have been approved.",
+  "acceptable_variants": ["the proposal would likely have passed without debate.", "the outcome would almost certainly have been favourable."],
+  "options": [
+    {"text": "the meeting was postponed until Monday.", "is_correct": false, "why_wrong": "This describes an unrelated event and does not complete the hypothetical result that the inverted 'Had ... been informed' clause introduces."},
+    {"text": "so the proposal was rejected.", "is_correct": false, "why_wrong": "'So' presents a real cause-and-effect result, but the inverted 'Had' clause requires a hypothetical past outcome, so this does not fit."},
+    {"text": "the proposal would almost certainly have been approved.", "is_correct": true, "why_wrong": null},
+    {"text": "the committee would inform everyone next time.", "is_correct": false, "why_wrong": "This shifts to a future habit, which breaks the past conditional structure set up by 'Had ... been informed'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "The inverted form 'Had ... been informed' replaces 'If ... had been informed', so the main clause needs 'would have' followed by a past participle to express the hypothetical result.",
+  "translation": "Se o comitê tivesse sido informado mais cedo, a proposta quase certamente teria sido aprovada."
+}

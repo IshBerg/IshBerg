@@ -1,0 +1,14 @@
+{
+  "trigger_word": "storm",
+  "all_words": [
+    {"word": "thunder", "is_associated": true, "association_type": "SEMANTIC", "explanation": "O trovão é o som que acompanha o relâmpago durante uma tempestade, por isso está semanticamente ligado a 'storm'."},
+    {"word": "umbrella", "is_associated": true, "association_type": "THEMATIC", "explanation": "O guarda-chuva é um objeto típico de dias de tempestade, então a associação é temática."},
+    {"word": "calendar", "is_associated": false, "association_type": "NONE", "explanation": "Calendário não tem relação com tempestades; é uma palavra sem ligação com o tema."},
+    {"word": "rain", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'Rain' forma com 'storm' a expressão 'rainstorm' (tempestade com chuva), uma colocação muito frequente em inglês."},
+    {"word": "sofa", "is_associated": false, "association_type": "NONE", "explanation": "Sofá é um móvel de casa, sem qualquer ligação com tempestades."},
+    {"word": "piano", "is_associated": false, "association_type": "NONE", "explanation": "Piano é um instrumento musical, sem relação com o tema 'storm'."}
+  ],
+  "correct_indices": [0, 1, 3],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "As palavras associadas descrevem elementos que costumam aparecer em uma tempestade, enquanto as demais pertencem a outros contextos."
+}
