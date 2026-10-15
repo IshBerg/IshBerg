@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The preliminary data, although encouraging,",
+  "correct_completion": "should not be taken as conclusive evidence.",
+  "full_sentence": "The preliminary data, although encouraging, should not be taken as conclusive evidence.",
+  "acceptable_variants": ["cannot yet be regarded as definitive.", "ought to be treated with some caution."],
+  "options": [
+    {"text": "they prove the hypothesis beyond any doubt.", "is_correct": false, "why_wrong": "Asserting full proof contradicts the concessive structure, which signals reservation after the word 'encouraging'."},
+    {"text": "the researchers have already published them.", "is_correct": false, "why_wrong": "This adds a factual detail but does not complete the evaluative contrast that the stem sets up."},
+    {"text": "should not be taken as conclusive evidence.", "is_correct": true, "why_wrong": null},
+    {"text": "they were collected over three years.", "is_correct": false, "why_wrong": "This describes the history of the data, not the reservation that 'although' calls for."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive clauses with 'although' and hedged evaluation",
+  "connector": "although",
+  "explanation": "After 'although', the writer concedes a positive point and then qualifies it, so the completion must express reservation. Ukrainian speakers may translate the concession literally and then drift toward an unhedged claim, which breaks the contrast.",
+  "translation": "Попередні дані, хоча й обнадійливі, не слід сприймати як остаточний доказ."
+}
