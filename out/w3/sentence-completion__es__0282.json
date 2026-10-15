@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the rapid growth of online learning,",
+  "correct_completion": "many universities still require in-person exams.",
+  "full_sentence": "Despite the rapid growth of online learning, many universities still require in-person exams.",
+  "acceptable_variants": ["many universities still keep in-person exams.", "in-person exams remain common at many universities."],
+  "options": [
+    {"text": "so most students chose to study at home.", "is_correct": false, "why_wrong": "'So' shows a result, but 'despite' requires a contrast with the growth mentioned in the stem."},
+    {"text": "online learning is now popular in every country.", "is_correct": false, "why_wrong": "This repeats the idea of growth instead of contrasting with it, so it does not complete the 'despite' pattern."},
+    {"text": "many universities still require in-person exams.", "is_correct": true, "why_wrong": null},
+    {"text": "the growth caused a rise in exam fees.", "is_correct": false, "why_wrong": "This presents the growth as a cause, which contradicts the contrast signalled by 'despite'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive 'despite' with a nominalized noun phrase",
+  "connector": "despite",
+  "explanation": "'Despite' introduces a contrast with the noun phrase that follows it, so the main clause must show something that goes against the growth. The verb 'grow' has been turned into the noun 'growth', a typical feature of academic style.",
+  "translation": "A pesar del rápido crecimiento del aprendizaje en línea, muchas universidades todavía exigen exámenes presenciales."
+}
