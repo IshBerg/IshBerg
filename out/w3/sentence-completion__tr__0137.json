@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had more money,",
+  "correct_completion": "I would buy a new bike.",
+  "full_sentence": "If I had more money, I would buy a new bike.",
+  "acceptable_variants": ["I'd buy a new bike.", "I would travel around the world."],
+  "options": [
+    {"text": "I bought a new bike yesterday.", "is_correct": false, "why_wrong": "The past simple here describes a finished real event, and 'yesterday' does not fit the imagined situation set up by the 'if' clause."},
+    {"text": "I will buy a new bike.", "is_correct": false, "why_wrong": "'Will' does not follow a past simple 'if' clause. The main clause needs 'would' plus the base verb for an imagined situation."},
+    {"text": "I would buy a new bike.", "is_correct": true, "why_wrong": null},
+    {"text": "I have bought a new bike.", "is_correct": false, "why_wrong": "The present perfect describes a completed action, so it cannot express the imagined result of a condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Second conditional with 'if' and 'would'",
+  "connector": "if",
+  "explanation": "The stem uses 'if' with a past simple verb, which signals an imagined present situation. The main clause therefore needs 'would' plus the base verb. Turkish speakers often use a simple future form here because Turkish marks hypothetical meaning with a conditional suffix on the verb, not a separate modal.",
+  "translation": "Daha fazla param olsaydı, yeni bir bisiklet alırdım."
+}
