@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "When I was a child,",
+  "correct_completion": "I lived in a small village by the sea.",
+  "full_sentence": "When I was a child, I lived in a small village by the sea.",
+  "acceptable_variants": ["I was very happy and played outside every day.", "I lived with my grandmother on a farm."],
+  "options": [
+    {"text": "they was at school every day.", "is_correct": false, "why_wrong": "The subject 'they' takes 'were', not 'was', so the verb form is wrong."},
+    {"text": "I am going to the market now.", "is_correct": false, "why_wrong": "The stem is in the past, so the completion should use the past tense, not the present tense."},
+    {"text": "I lived in a small village by the sea.", "is_correct": true, "why_wrong": null},
+    {"text": "I were a teacher at school.", "is_correct": false, "why_wrong": "The subject 'I' takes 'was', not 'were', so the verb form is wrong."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past simple of 'be' (was/were) in time clauses introduced by 'when'",
+  "connector": "when",
+  "explanation": "After 'when' with a past form of 'be', the main clause should continue in the past simple and describe what happened at that time. The correct option uses a past verb form that matches the subject.",
+  "translation": "Ben çocukken, deniz kenarındaki küçük bir köyde yaşardım."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "tansiyon", "transliteration": "tansiyon", "meaning": "blood pressure"},
+    {"word": "hasta", "transliteration": "hasta", "meaning": "patient (a person receiving medical care)"},
+    {"word": "ilaç", "transliteration": "ilac", "meaning": "medicine"},
+    {"word": "eczane", "transliteration": "eczane", "meaning": "pharmacy"}
+  ],
+  "english_words": ["pharmacy", "medicine", "blood pressure", "patient"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Several medical terms entered Turkish from European sources, so their spelling looks close to English while some meanings have shifted.",
+  "false_friend_warning": "The Turkish word tansiyon looks like English 'tension', but it means blood pressure. Do not translate it as 'tension' when talking about health or a doctor's visit."
+}
