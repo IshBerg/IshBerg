@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Before you leave the room,",
+  "correct_completion": "turn off the lights.",
+  "full_sentence": "Before you leave the room, turn off the lights.",
+  "acceptable_variants": ["please turn off the lights.", "switch off the lights."],
+  "options": [
+    {"text": "you turned off the lights.", "is_correct": false, "why_wrong": "This is a past tense statement, not an imperative command."},
+    {"text": "you are turning off the lights.", "is_correct": false, "why_wrong": "This describes an action in progress, not a command to the listener."},
+    {"text": "turn off the lights.", "is_correct": true, "why_wrong": null},
+    {"text": "the lights were turned off yesterday.", "is_correct": false, "why_wrong": "This refers to the past and does not give an instruction after 'before you leave the room'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Imperatives after a time clause with 'before'",
+  "connector": "before",
+  "explanation": "After a time clause, the main clause is an imperative: the base form of the verb, with no subject, gives a command.",
+  "translation": "Antes de salir de la habitación, apaga las luces."
+}
