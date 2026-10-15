@@ -1,0 +1,14 @@
+{
+  "trigger_word": "hypothesis",
+  "all_words": [
+    {"word": "experiment", "is_associated": true, "association_type": "THEMATIC", "explanation": "Експеримент тематично пов'язаний із «hypothesis», адже гіпотезу зазвичай перевіряють за допомогою експерименту."},
+    {"word": "theory", "is_associated": true, "association_type": "SEMANTIC", "explanation": "«Theory» семантично близьке до «hypothesis»: обидва слова стосуються пояснення явищ, але теорія вже має більше підтверджень."},
+    {"word": "evidence", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "«Evidence» часто поєднується з «hypothesis» у словосполученнях на кшталт «support a hypothesis» або «evidence against a hypothesis»."},
+    {"word": "umbrella", "is_associated": false, "association_type": "NONE", "explanation": "«Umbrella» не пов'язане з «hypothesis»: це побутовий предмет без наукового змісту."},
+    {"word": "melody", "is_associated": false, "association_type": "NONE", "explanation": "«Melody» не пов'язане з «hypothesis»: це музичний термін, який не стосується наукових припущень."},
+    {"word": "harvest", "is_associated": false, "association_type": "NONE", "explanation": "«Harvest» не пов'язане з «hypothesis»: це сільськогосподарський термін, що означає збирання врожаю."}
+  ],
+  "correct_indices": [0, 1, 2],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слова, пов'язані з «hypothesis», належать до сфери наукового дослідження: перевірка, докази та теорії; побутові, музичні та аграрні слова до неї не належать."
+}
