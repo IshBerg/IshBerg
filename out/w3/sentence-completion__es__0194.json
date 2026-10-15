@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee acted sooner,",
+  "correct_completion": "the scandal might have been avoided.",
+  "full_sentence": "Had the committee acted sooner, the scandal might have been avoided.",
+  "acceptable_variants": ["the outcome could have been different.", "the damage would have been limited."],
+  "options": [
+    {"text": "the scandal is happening now.", "is_correct": false, "why_wrong": "The inverted 'Had' opens a past hypothetical, so a present-tense result clashes with the structure set up by the stem."},
+    {"text": "the scandal might have been avoided.", "is_correct": true, "why_wrong": null},
+    {"text": "they will publish a report.", "is_correct": false, "why_wrong": "A future action does not complete the counterfactual condition introduced by 'Had'."},
+    {"text": "the committee was very busy.", "is_correct": false, "why_wrong": "This states a fact about the past but does not give the hypothetical result the stem requires."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional with 'Had'",
+  "connector": "had",
+  "explanation": "An inverted third conditional omits 'if' and begins with 'Had' plus a subject and past participle. The main clause then uses a modal perfect form to describe the unrealised result.",
+  "translation": "Si el comité hubiera actuado antes, el escándalo podría haberse evitado."
+}
