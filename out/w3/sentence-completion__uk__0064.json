@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If it rains tomorrow,",
+  "correct_completion": "we will stay at home.",
+  "full_sentence": "If it rains tomorrow, we will stay at home.",
+  "acceptable_variants": ["we will watch a movie inside.", "we will cancel the picnic."],
+  "options": [
+    {"text": "we went to the beach yesterday.", "is_correct": false, "why_wrong": "This is past tense and does not express a condition for the future."},
+    {"text": "we would have gone to the park last week.", "is_correct": false, "why_wrong": "'Would have' describes an unreal past situation, not a real condition about tomorrow."},
+    {"text": "we will stay at home.", "is_correct": true, "why_wrong": null},
+    {"text": "we went to the park since last Monday.", "is_correct": false, "why_wrong": "'Since' refers to a past starting point, not to a future condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if' and the future tense",
+  "connector": "if",
+  "explanation": "After 'if' with a present tense verb, the main clause uses the future tense to describe a real possible situation in the future.",
+  "translation": "Якщо завтра піде дощ, ми залишимося вдома."
+}
