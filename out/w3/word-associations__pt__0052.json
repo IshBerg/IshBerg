@@ -1,0 +1,14 @@
+{
+  "trigger_word": "cow",
+  "all_words": [
+    {"word": "milk", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês dizemos 'cow milk' (leite de vaca), por isso as duas palavras formam uma combinação comum."},
+    {"word": "car", "is_associated": false, "association_type": "NONE", "explanation": "Carro (car) não tem nenhuma relação com vacas; não é animal nem faz parte da fazenda."},
+    {"word": "farm", "is_associated": true, "association_type": "THEMATIC", "explanation": "A vaca vive na fazenda (farm), então as duas palavras pertencem ao mesmo tema."},
+    {"word": "shoe", "is_associated": false, "association_type": "NONE", "explanation": "Sapato (shoe) não tem ligação com vacas, nem com animais ou com a fazenda."},
+    {"word": "pig", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Porco (pig) e vaca (cow) são animais de fazenda, por isso têm significado parecido dentro da mesma categoria."},
+    {"word": "book", "is_associated": false, "association_type": "NONE", "explanation": "Livro (book) não tem relação com vacas; é um objeto para ler e estudar."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'cow' (vaca) se relaciona com leite, fazenda e outros animais de fazenda; as palavras sem essa ligação não são associadas."
+}
