@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If I had known about the delay,",
+  "correct_completion": "I would have taken an earlier train.",
+  "full_sentence": "If I had known about the delay, I would have taken an earlier train.",
+  "acceptable_variants": ["I would have left home earlier.", "I would have caught the earlier bus."],
+  "options": [
+    {"text": "I will take an earlier train.", "is_correct": false, "why_wrong": "The future 'will' does not express the imagined past result of an unreal condition."},
+    {"text": "I would take an earlier train.", "is_correct": false, "why_wrong": "'Would take' refers to present or future unreal situations. After a past condition the result needs 'would have taken'."},
+    {"text": "I would have taken an earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "I had taken an earlier train.", "is_correct": false, "why_wrong": "The past perfect states a completed past fact. It does not express the hypothetical result of the unreal condition."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Third conditional (unreal past)",
+  "connector": "if",
+  "explanation": "The third conditional uses 'had' plus past participle in the if-clause and 'would have' plus past participle in the result clause. Speakers whose first language marks the conditional mood on the verb in both clauses may be tempted to use 'would' after 'if' as well, but English requires the past perfect in the if-clause.",
+  "translation": "Gdybym wiedział o opóźnieniu, wziąłbym wcześniejszy pociąg."
+}
