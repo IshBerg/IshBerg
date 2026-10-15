@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "магазин", "transliteration": "mahazyn", "meaning": "shop"},
+    {"word": "фабрика", "transliteration": "fabryka", "meaning": "factory"},
+    {"word": "актуальний", "transliteration": "aktualnyi", "meaning": "relevant, current"},
+    {"word": "коректний", "transliteration": "korektnyi", "meaning": "polite, courteous"}
+  ],
+  "english_words": ["factory", "polite", "shop", "relevant"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "Several Ukrainian words look like English words because both languages borrowed them from the same sources, but over time the meanings drifted apart in one language. Learners should not assume that a look-alike word has the same meaning.",
+  "false_friend_warning": "Warning: the Ukrainian word 'mahazyn' looks like the English word 'magazine', but it means 'shop', not a printed publication."
+}

@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the committee been informed of the risks in advance,",
+  "correct_completion": "it would not have approved the proposal.",
+  "full_sentence": "Had the committee been informed of the risks in advance, it would not have approved the proposal.",
+  "acceptable_variants": ["it would have rejected the proposal outright.", "the proposal would never have passed."],
+  "options": [
+    {"text": "it approves the proposal every year.", "is_correct": false, "why_wrong": "The stem requires a hypothetical past result. A present habit does not complete the third conditional structure."},
+    {"text": "it will have approved the proposal already.", "is_correct": false, "why_wrong": "A future perfect contradicts the hypothetical past condition, which needs a past conditional result."},
+    {"text": "it would not have approved the proposal.", "is_correct": true, "why_wrong": null},
+    {"text": "we should inform the committee tomorrow.", "is_correct": false, "why_wrong": "This is a suggestion about future action and does not complete the inverted conditional begun by 'Had'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "The inverted form 'Had + subject + past participle' replaces 'if' and expresses an unreal past situation. The main clause must then use 'would have' plus a past participle. Learners may find this inversion unfamiliar because it removes the word 'if'.",
+  "translation": "Якби комітет був заздалегідь поінформований про ризики, він би не схвалив цю пропозицію."
+}
