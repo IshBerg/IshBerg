@@ -1,0 +1,14 @@
+{
+  "trigger_word": "headline",
+  "all_words": [
+    {"word": "newspaper", "is_associated": true, "association_type": "SEMANTIC", "explanation": "'Newspaper' (periódico) está semánticamente relacionado con 'headline' (titular), porque los titulares aparecen en los periódicos y en otros medios de comunicación."},
+    {"word": "tractor", "is_associated": false, "association_type": "NONE", "explanation": "'Tractor' (tractor) no tiene ninguna relación con los titulares ni con los medios de comunicación."},
+    {"word": "article", "is_associated": true, "association_type": "THEMATIC", "explanation": "'Article' (artículo) pertenece al mismo tema del periodismo: cada titular encabeza un artículo de noticias."},
+    {"word": "violin", "is_associated": false, "association_type": "NONE", "explanation": "'Violin' (violín) pertenece al mundo de la música y no guarda relación con los titulares."},
+    {"word": "make", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El verbo 'make' forma la expresión 'make headlines' (salir en los titulares, volverse noticia), por lo que es una colocación habitual."},
+    {"word": "grab", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "El verbo 'grab' forma la expresión 'grab headlines' (llamar la atención de los medios), otra colocación habitual con 'headline'."}
+  ],
+  "correct_indices": [0, 2, 4, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'headline' se asocia con el periodismo (newspaper, article) y con colocaciones como 'make headlines' y 'grab headlines'; 'tractor' y 'violin' no tienen relación con ella."
+}
