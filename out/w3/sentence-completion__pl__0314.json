@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My mum was tired, so",
+  "correct_completion": "I helped her with the dinner.",
+  "full_sentence": "My mum was tired, so I helped her with the dinner.",
+  "acceptable_variants": ["I cooked dinner for her.", "I made her a cup of tea."],
+  "options": [
+    {"text": "me helped her with the dinner.", "is_correct": false, "why_wrong": "'Me' is an object pronoun, so it cannot be the subject of the verb. The subject must be 'I'."},
+    {"text": "I helped she with the dinner.", "is_correct": false, "why_wrong": "'She' is a subject pronoun. After a verb, English uses the object form 'her'."},
+    {"text": "I helped her with the dinner.", "is_correct": true, "why_wrong": null},
+    {"text": "I helped it with the dinner.", "is_correct": false, "why_wrong": "'It' is used for things and animals, not for a person such as the speaker's mum."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Object pronouns after verbs (me, you, him, her, us, them)",
+  "connector": "so",
+  "explanation": "After 'so', we need a clause that shows the result of the first part. The verb 'helped' needs an object pronoun, so the mum receives the action in the object form 'her'. Polish speakers sometimes choose the subject form after a verb because Polish marks grammatical roles with case endings, so the English object form needs extra attention.",
+  "translation": "Mama była zmęczona, więc pomogłem jej przy kolacji."
+}
