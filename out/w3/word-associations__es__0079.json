@@ -1,0 +1,14 @@
+{
+  "trigger_word": "park",
+  "all_words": [
+    {"word": "bench", "is_associated": true, "association_type": "SEMANTIC", "explanation": "El banco es un lugar para sentarse dentro del parque, por eso está relacionado con el tema."},
+    {"word": "computer", "is_associated": false, "association_type": "NONE", "explanation": "El ordenador no tiene relación con los parques; se usa sobre todo en oficinas y casas."},
+    {"word": "grass", "is_associated": true, "association_type": "SEMANTIC", "explanation": "La hierba es parte típica de un parque, donde la gente camina y juega."},
+    {"word": "keyboard", "is_associated": false, "association_type": "NONE", "explanation": "El teclado pertenece al mundo de la informática y no se encuentra en un parque."},
+    {"word": "playground", "is_associated": true, "association_type": "THEMATIC", "explanation": "El parque infantil es una zona típica de los parques públicos, así que pertenece al mismo contexto."},
+    {"word": "spoon", "is_associated": false, "association_type": "NONE", "explanation": "La cuchara es un utensilio de cocina y no tiene ninguna relación con un parque."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "La palabra 'park' se asocia con lugares y objetos que se encuentran al aire libre en un parque; los objetos de oficina o de cocina no pertenecen a este campo."
+}
