@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has never travelled abroad, but",
+  "correct_completion": "she has always wanted to visit Italy.",
+  "full_sentence": "She has never travelled abroad, but she has always wanted to visit Italy.",
+  "acceptable_variants": ["she has dreamed of going there.", "she hopes to go one day."],
+  "options": [
+    {"text": "so she has been to Italy twice.", "is_correct": false, "why_wrong": "This contradicts 'has never travelled' and uses 'so', which signals a result rather than a contrast."},
+    {"text": "she has travelled to five countries.", "is_correct": false, "why_wrong": "This directly contradicts 'never', so it cannot continue the sentence stem."},
+    {"text": "she has always wanted to visit Italy.", "is_correct": true, "why_wrong": null},
+    {"text": "and she has never seen the sea.", "is_correct": false, "why_wrong": "'And' adds more information rather than contrasting with the first clause, which 'but' requires."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present perfect with 'never' and contrast with 'but'",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with 'has never travelled'. The present perfect 'has always wanted' describes a wish that continues up to now, which fits the contrast. Learners often use a simple past here, but English uses the present perfect when the period of time reaches the present.",
+  "translation": "Nigdy nie podróżowała za granicę, ale zawsze chciała odwiedzić Włochy."
+}
