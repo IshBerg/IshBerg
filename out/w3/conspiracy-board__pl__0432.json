@@ -1,0 +1,13 @@
+{
+  "codename": "SILENT COMPASS",
+  "briefing": "Agent, we have intercepted a set of street directions that must be decoded. Match each English word on the evidence cards with its Polish meaning before time runs out.",
+  "connection_mode": "vocabulary",
+  "difficulty": "easy",
+  "pairs": [
+    {"left": "street", "right": "ulica", "left_style": "document", "right_style": "handwritten"},
+    {"left": "left", "right": "lewo", "left_style": "photo", "right_style": "newspaper"},
+    {"left": "straight", "right": "prosto", "left_style": "newspaper", "right_style": "official"},
+    {"left": "corner", "right": "róg", "left_style": "handwritten", "right_style": "photo"},
+    {"left": "turn", "right": "skręć", "left_style": "official", "right_style": "document"}
+  ]
+}
