@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "szef", "transliteration": "szef", "meaning": "boss"},
+    {"word": "sałata", "transliteration": "salata", "meaning": "lettuce"},
+    {"word": "ryż", "transliteration": "ryz", "meaning": "rice"},
+    {"word": "zupa", "transliteration": "zupa", "meaning": "soup"}
+  ],
+  "english_words": ["soup", "rice", "lettuce", "boss"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from the same source, so the forms stayed close.",
+  "false_friend_warning": "Learners may match the Polish word 'szef' with the English 'chef' and the Polish word 'salata' with the English 'salad', because the spellings look alike, but 'szef' means boss and 'salata' means lettuce."
+}
