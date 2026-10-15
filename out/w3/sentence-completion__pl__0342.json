@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Exhausted after the long match,",
+  "correct_completion": "the players sat down on the bench.",
+  "full_sentence": "Exhausted after the long match, the players sat down on the bench.",
+  "acceptable_variants": ["the players rested for a while.", "they all sat down to catch their breath."],
+  "options": [
+    {"text": "the stadium was very large.", "is_correct": false, "why_wrong": "The participle 'exhausted' describes the players, so the main clause must have the players as its subject. Here the subject becomes the stadium, which creates a dangling participle."},
+    {"text": "the players sat down on the bench.", "is_correct": true, "why_wrong": null},
+    {"text": "it started to rain.", "is_correct": false, "why_wrong": "The main clause now has 'it' as its subject, which does not match the people implied by 'exhausted'."},
+    {"text": "so they had won the game.", "is_correct": false, "why_wrong": "This gives a reason that repeats the idea of the participle clause, and it does not logically follow from being exhausted."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Participle clauses and the subject of the main clause",
+  "connector": "exhausted",
+  "explanation": "A participle clause at the start of a sentence must refer to the subject of the main clause. Here 'exhausted' describes the players, so the main clause must have the players as its subject. Options that switch the subject to a place or to 'it' create a dangling participle.",
+  "translation": "Wyczerpani długim meczem, zawodnicy usiedli na ławce."
+}

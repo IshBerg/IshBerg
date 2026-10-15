@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "akademik", "transliteration": "akademik", "meaning": "dormitory"},
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice"},
+    {"word": "ankieta", "transliteration": "ankieta", "meaning": "questionnaire"}
+  ],
+  "english_words": ["questionnaire", "dormitory", "nice", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Several Polish words look like English words but have different meanings, so learners who trust the resemblance will often pick the wrong English equivalent.",
+  "false_friend_warning": "The Polish word 'akademik' looks like the English word 'academic', but it means a dormitory where students live, so it should never be translated as 'academic'."
+}
