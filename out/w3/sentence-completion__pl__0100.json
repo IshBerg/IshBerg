@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I lost my wallet on the bus, so",
+  "correct_completion": "I went to the lost property office to ask for help.",
+  "full_sentence": "I lost my wallet on the bus, so I went to the lost property office to ask for help.",
+  "acceptable_variants": ["I went straight to the bus company to report it.", "I rang the bus company to report it."],
+  "options": [
+    {"text": "I wrote a poem about the sea.", "is_correct": false, "why_wrong": "This is an unrelated action that does not follow as a result of losing the wallet."},
+    {"text": "I catch the bus to work every day.", "is_correct": false, "why_wrong": "The present simple describes a habit and does not fit a past event that causes a result."},
+    {"text": "I went to the lost property office to ask for help.", "is_correct": true, "why_wrong": null},
+    {"text": "I bought a bus ticket for my friend.", "is_correct": false, "why_wrong": "Buying a ticket for a friend is not a logical result of losing one's own wallet."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Past simple irregular verbs in result clauses",
+  "connector": "so",
+  "explanation": "'So' introduces the result of the first clause, so the second clause must follow logically from losing the wallet. Irregular past forms such as 'lost' and 'went' keep the whole narrative in the past. Polish speakers may mix past and present forms in this pattern, because Polish verb endings mark tense in a different way.",
+  "translation": "Zgubiłem portfel w autobusie, więc poszedłem do biura rzeczy znalezionych, żeby poprosić o pomoc."
+}
