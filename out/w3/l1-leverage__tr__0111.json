@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "kolej", "transliteration": "kolej", "meaning": "a private secondary school (high school)"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "friendly, likeable"},
+    {"word": "konferans", "transliteration": "konferans", "meaning": "a lecture or formal talk given by a speaker"},
+    {"word": "ajanda", "transliteration": "ajanda", "meaning": "a personal diary or planner book"}
+  ],
+  "english_words": ["friendly", "high school", "planner", "lecture"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 0},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 2}
+  ],
+  "pattern_explanation": "These Turkish words were borrowed from European languages, so their spelling looks close to the English words. Over time their meanings shifted in Turkish, so the surface form misleads learners who rely on resemblance alone.",
+  "false_friend_warning": "Warning: the Turkish words kolej, sempatik, konferans and ajanda look like the English words college, sympathetic, conference and agenda, but they mean high school, friendly, lecture and planner. Do not translate them by their shape."
+}

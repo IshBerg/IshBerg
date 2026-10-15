@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Although she has never been abroad,",
+  "correct_completion": "she speaks English very well.",
+  "full_sentence": "Although she has never been abroad, she speaks English very well.",
+  "acceptable_variants": ["she still speaks good English.", "she has learned a lot from films and books."],
+  "options": [
+    {"text": "so she has booked a flight to Paris.", "is_correct": false, "why_wrong": "'So' introduces a result, but 'although' needs a contrasting statement after it."},
+    {"text": "she has visited more than ten countries.", "is_correct": false, "why_wrong": "This contradicts the stem, which says she has never been abroad."},
+    {"text": "she speaks English very well.", "is_correct": true, "why_wrong": null},
+    {"text": "she will travel abroad next year because of this.", "is_correct": false, "why_wrong": "'Because' expresses a cause, not a contrast, so it does not complete a sentence started by 'although'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Present perfect with 'never' in a concessive clause",
+  "connector": "although",
+  "explanation": "After 'although', the sentence needs a clause that contrasts with the present perfect statement 'she has never been abroad'. Turkish speakers often find the present perfect with 'never' difficult because Turkish marks this kind of experience with a different verb form, so they may choose a simple past tense or a result connector by mistake.",
+  "translation": "Hiç yurt dışına çıkmamış olmasına rağmen İngilizceyi çok iyi konuşuyor."
+}
