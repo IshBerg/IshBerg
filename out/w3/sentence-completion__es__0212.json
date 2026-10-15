@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have taken an earlier train.",
+  "full_sentence": "Had she known about the delay, she would have taken an earlier train.",
+  "acceptable_variants": ["she might have taken an earlier train.", "she could have caught an earlier train."],
+  "options": [
+    {"text": "she takes an earlier train every day.", "is_correct": false, "why_wrong": "The inverted 'had' structure sets up an unreal past condition, so the result must be a past conditional; a present habitual form does not fit."},
+    {"text": "she has known about the delay since morning.", "is_correct": false, "why_wrong": "This describes a state of knowledge but does not complete the unreal conditional result that 'had she known' requires."},
+    {"text": "she would have taken an earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "she will have taken an earlier train.", "is_correct": false, "why_wrong": "The future perfect does not express the hypothetical past result required after an inverted third conditional."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (had + subject + past participle, with would have as the result)",
+  "connector": "had",
+  "explanation": "In an inverted third conditional, 'had' replaces 'if' at the start of the clause. The main clause then needs 'would have' plus a past participle to show what would have happened in an unreal past situation. Spanish speakers often expect a simple past or a present form here, so it helps to focus on the 'would have' pattern.",
+  "translation": "Si hubiera sabido del retraso, habría tomado un tren más temprano."
+}
