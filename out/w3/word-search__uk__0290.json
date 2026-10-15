@@ -1,0 +1,22 @@
+{
+  "grid_size": 9,
+  "grid": [
+    ["S", "T", "O", "R", "Y", "X", "Q", "K", "E"],
+    ["B", "M", "C", "D", "F", "G", "H", "J", "V"],
+    ["W", "P", "D", "L", "K", "Z", "F", "N", "E"],
+    ["Q", "X", "Y", "C", "U", "T", "B", "G", "N"],
+    ["P", "H", "K", "Y", "W", "C", "D", "Q", "T"],
+    ["Z", "L", "W", "X", "K", "J", "Q", "P", "M"],
+    ["C", "D", "A", "S", "H", "F", "I", "K", "G"],
+    ["K", "R", "F", "N", "M", "R", "Q", "X", "B"],
+    ["J", "V", "N", "B", "T", "G", "H", "Z", "C"]
+  ],
+  "words_to_find": ["STORY", "EVENT", "PLAN", "TRIP"],
+  "word_positions": [
+    {"word": "STORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EVENT", "start_row": 0, "start_col": 8, "direction": "VERTICAL"},
+    {"word": "PLAN", "start_row": 4, "start_col": 0, "direction": "DIAGONAL_DOWN"},
+    {"word": "TRIP", "start_row": 8, "start_col": 4, "direction": "DIAGONAL_UP"}
+  ],
+  "topic": "Narrating Events"
+}
