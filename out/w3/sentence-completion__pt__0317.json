@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He said he had finished the report, but",
+  "correct_completion": "he had not checked the data yet.",
+  "full_sentence": "He said he had finished the report, but he had not checked the data yet.",
+  "acceptable_variants": ["he still had to check the data.", "he had not verified the figures yet."],
+  "options": [
+    {"text": "he had forgotten the deadline.", "is_correct": false, "why_wrong": "'But' needs a clause that contrasts with 'had finished the report'. Forgetting the deadline does not complete that contrast."},
+    {"text": "he would send it tomorrow.", "is_correct": false, "why_wrong": "This is a future-in-the-past form, but it does not express what is still missing after 'but'."},
+    {"text": "he had not checked the data yet.", "is_correct": true, "why_wrong": null},
+    {"text": "the report was very long.", "is_correct": false, "why_wrong": "This describes the report but does not contrast with the fact that he finished it."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Reported speech with the contrast connector 'but'",
+  "connector": "but",
+  "explanation": "In reported speech, the past perfect is used after 'said' to report what someone stated. After 'but', the clause must show a contrast with the first part, so learners should use a negative past perfect to show what was not done.",
+  "translation": "Ele disse que tinha terminado o relatório, mas ainda não tinha verificado os dados."
+}
