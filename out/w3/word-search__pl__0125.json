@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["T", "H", "E", "O", "R", "Y", "Q", "W"],
+    ["K", "J", "L", "P", "D", "Z", "F", "M"],
+    ["B", "G", "C", "S", "V", "N", "W", "A"],
+    ["D", "P", "L", "K", "H", "G", "F", "T"],
+    ["A", "Q", "W", "Z", "B", "J", "C", "R"],
+    ["T", "M", "V", "H", "G", "N", "Y", "I"],
+    ["A", "K", "P", "D", "L", "R", "S", "X"],
+    ["E", "T", "H", "I", "C", "S", "L", "O"]
+  ],
+  "words_to_find": ["THEORY", "MATRIX", "ETHICS", "DATA"],
+  "word_positions": [
+    {"word": "THEORY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "MATRIX", "start_row": 1, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "ETHICS", "start_row": 7, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "DATA", "start_row": 3, "start_col": 0, "direction": "VERTICAL"}
+  ],
+  "topic": "Specialized Lexis Across Disciplines"
+}
