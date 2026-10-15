@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "My name is Anna,",
+  "correct_completion": "and I am from Poland.",
+  "full_sentence": "My name is Anna, and I am from Poland.",
+  "acceptable_variants": ["and I live in Warsaw.", "and I like music."],
+  "options": [
+    {"text": "and is ten years old.", "is_correct": false, "why_wrong": "'Is' does not match the subject 'I'. With 'I', the verb 'to be' must be 'am'."},
+    {"text": "and I am from Poland.", "is_correct": true, "why_wrong": null},
+    {"text": "and are a teacher.", "is_correct": false, "why_wrong": "'Are' does not match the subject 'I'. With 'I', the verb 'to be' must be 'am'."},
+    {"text": "and it is very cold.", "is_correct": false, "why_wrong": "The sentence is grammatical, but it talks about the weather and does not give information about the speaker."}
+  ],
+  "correct_index": 1,
+  "completion_type": "LOGICAL",
+  "grammar_focus": "Verb 'to be': 'am' with the subject 'I'",
+  "connector": "and",
+  "explanation": "After 'and', we need a clause that gives more information about the speaker. The verb 'to be' must agree with the subject 'I' and take the form 'am'.",
+  "translation": "Nazywam się Anna i jestem z Polski."
+}
