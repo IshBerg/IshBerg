@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has been studying English",
+  "correct_completion": "for three years.",
+  "full_sentence": "She has been studying English for three years.",
+  "acceptable_variants": ["for three years now.", "since 2021."],
+  "options": [
+    {"text": "in three years.", "is_correct": false, "why_wrong": "'In' with a period of time points to the future, but the sentence describes an action that has continued up to now."},
+    {"text": "three years ago.", "is_correct": false, "why_wrong": "'Ago' is used with the past simple, not the present perfect continuous, so it cannot finish this sentence."},
+    {"text": "for three years.", "is_correct": true, "why_wrong": null},
+    {"text": "since three years.", "is_correct": false, "why_wrong": "'Since' must be followed by a specific point in time (for example 'since 2021'), not by a duration such as 'three years'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect continuous with 'for' and 'since'",
+  "connector": "for",
+  "explanation": "The present perfect continuous describes an action that started in the past and continues now. 'For' introduces a duration, while 'since' needs a point in time and 'ago' belongs to the past simple.",
+  "translation": "Üç yıldır İngilizce öğreniyor."
+}

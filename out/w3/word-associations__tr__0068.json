@@ -1,0 +1,14 @@
+{
+  "trigger_word": "sun",
+  "all_words": [
+    {"word": "beach", "is_associated": true, "association_type": "THEMATIC", "explanation": "İnsanlar güneşli havalarda genellikle plaja gider, bu yüzden plaj ve güneş birlikte düşünülür."},
+    {"word": "chair", "is_associated": false, "association_type": "NONE", "explanation": "Sandalye güneşle doğrudan bir ilişkisi olmayan günlük bir eşyadır."},
+    {"word": "warm", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Güneş ısı verir, bu yüzden sıcak kelimesi güneşle anlam olarak ilişkilidir."},
+    {"word": "table", "is_associated": false, "association_type": "NONE", "explanation": "Masa güneşle ilgili bir kelime değildir ve bu bağlamda bir anlam bağı yoktur."},
+    {"word": "shine", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "'The sun shines' ifadesi çok yaygındır, shine fiili güneşle sık birlikte kullanılır."},
+    {"word": "bed", "is_associated": false, "association_type": "NONE", "explanation": "Yatak güneşle ilgili bir kelime değildir ve güneşle bağlantısı yoktur."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Güneşle ilgili kelimeler sıcaklık, ışık ve yaz tatili gibi bağlamlarda ortaya çıkar; diğer kelimeler bu bağlamın dışındadır."
+}
