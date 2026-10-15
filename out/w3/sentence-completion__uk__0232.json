@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Despite the team's careful preparation,",
+  "correct_completion": "the project still encountered several unexpected delays.",
+  "full_sentence": "Despite the team's careful preparation, the project still encountered several unexpected delays.",
+  "acceptable_variants": ["the schedule nevertheless slipped by two weeks.", "unexpected delays nonetheless arose."],
+  "options": [
+    {"text": "the team celebrated with a large dinner.", "is_correct": false, "why_wrong": "This describes an unrelated event and does not complete the contrast expected after 'despite'."},
+    {"text": "so the project was delayed for weeks.", "is_correct": false, "why_wrong": "'So' signals a result, while 'despite' requires an outcome that contrasts with the preparation."},
+    {"text": "the project still encountered several unexpected delays.", "is_correct": true, "why_wrong": null},
+    {"text": "the team members took a long holiday.", "is_correct": false, "why_wrong": "This is unrelated to the project's progress and does not express the expected contrast."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Concessive prepositions with 'despite'",
+  "connector": "despite",
+  "explanation": "After 'despite', the clause must describe an outcome that contrasts with the expected effect of the preparation. The word 'still' signals this concession.",
+  "translation": "Попри ретельну підготовку команди, проєкт усе одно зіткнувся з кількома несподіваними затримками."
+}

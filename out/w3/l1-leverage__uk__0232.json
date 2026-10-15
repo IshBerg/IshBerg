@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "комп'ютер", "transliteration": "kompiuter", "meaning": "computer"},
+    {"word": "телефон", "transliteration": "telefon", "meaning": "telephone"},
+    {"word": "інтернет", "transliteration": "internet", "meaning": "internet"},
+    {"word": "принтер", "transliteration": "pryntyr", "meaning": "printer"}
+  ],
+  "english_words": ["printer", "computer", "internet", "telephone"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 1},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 2},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed these technology words from the same source, so the forms stayed close. The shared spelling and sound make them easy for the student to recognise.",
+  "false_friend_warning": null
+}
