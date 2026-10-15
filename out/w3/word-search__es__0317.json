@@ -1,0 +1,21 @@
+{
+  "grid_size": 8,
+  "grid": [
+    ["P", "R", "I", "C", "E", "X", "Q", "T"],
+    ["B", "K", "M", "D", "F", "Z", "J", "O"],
+    ["N", "V", "H", "Y", "L", "C", "Q", "U"],
+    ["S", "T", "G", "W", "Z", "K", "B", "R"],
+    ["A", "D", "U", "F", "J", "X", "Y", "N"],
+    ["H", "V", "I", "Q", "M", "A", "P", "L"],
+    ["K", "Z", "D", "T", "W", "R", "C", "S"],
+    ["Y", "B", "E", "G", "N", "F", "U", "M"]
+  ],
+  "words_to_find": ["PRICE", "TOUR", "GUIDE", "MAP"],
+  "word_positions": [
+    {"word": "PRICE", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "TOUR", "start_row": 0, "start_col": 7, "direction": "VERTICAL"},
+    {"word": "GUIDE", "start_row": 3, "start_col": 2, "direction": "VERTICAL"},
+    {"word": "MAP", "start_row": 5, "start_col": 4, "direction": "HORIZONTAL"}
+  ],
+  "topic": "Brochures"
+}
