@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had she known about the delay,",
+  "correct_completion": "she would have taken an earlier train.",
+  "full_sentence": "Had she known about the delay, she would have taken an earlier train.",
+  "acceptable_variants": ["she would have caught an earlier train.", "she would have changed her plans sooner."],
+  "options": [
+    {"text": "she takes an earlier train.", "is_correct": false, "why_wrong": "The present simple does not match the past hypothetical meaning set up by the inverted 'Had she known'."},
+    {"text": "she has taken an earlier train.", "is_correct": false, "why_wrong": "The present perfect states a real completed action. It cannot express the unreal result of an inverted third conditional."},
+    {"text": "she would have taken an earlier train.", "is_correct": true, "why_wrong": null},
+    {"text": "she would take an earlier train tomorrow.", "is_correct": false, "why_wrong": "'Would take' with 'tomorrow' places the result in the future, while 'Had she known' refers to a past situation."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle, then would have + past participle)",
+  "connector": "had",
+  "explanation": "'Had she known' is an inverted form of 'If she had known'. The main clause needs 'would have' plus a past participle to express a hypothetical past result. Polish speakers may be tempted to use a simple past form here, because Polish marks the conditional mood with a particle rather than with a separate perfect construction.",
+  "translation": "Gdyby wiedziała o opóźnieniu, wzięłaby wcześniejszy pociąg."
+}
