@@ -1,0 +1,14 @@
+{
+  "trigger_word": "metaphor",
+  "all_words": [
+    {"word": "simile", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Símile é outra figura de linguagem que compara dois elementos, por isso está semanticamente ligada a metáfora."},
+    {"word": "figurative", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Figurativo descreve um uso não literal da linguagem, exatamente o sentido em que a metáfora é empregada."},
+    {"word": "hammer", "is_associated": false, "association_type": "NONE", "explanation": "Martelo é um objeto concreto de ferramentas e não tem relação com figuras de linguagem ou com a análise literária."},
+    {"word": "poem", "is_associated": true, "association_type": "THEMATIC", "explanation": "Poemas usam metáforas com frequência, por isso a palavra pertence ao mesmo campo temático da retórica literária."},
+    {"word": "lettuce", "is_associated": false, "association_type": "NONE", "explanation": "Alface é um vegetal e não se relaciona com a linguagem figurada nem com o estudo da literatura."},
+    {"word": "mixed", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "A expressão mixed metaphor (metáfora misturada) é uma combinação consagrada, usada para criticar imagens que se contradizem."}
+  ],
+  "correct_indices": [0, 1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra metaphor se associa a termos de retórica, como simile e figurative, a textos literários, como poem, e a combinações consagradas, como mixed metaphor. Hammer e lettuce não têm relação com o campo."
+}
