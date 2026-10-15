@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "apartman", "transliteration": "apartman", "meaning": "apartment building"},
+    {"word": "sempatik", "transliteration": "sempatik", "meaning": "friendly, likeable"},
+    {"word": "lavabo", "transliteration": "lavabo", "meaning": "sink, washbasin"},
+    {"word": "kolej", "transliteration": "kolej", "meaning": "high school"}
+  ],
+  "english_words": ["high school", "sink", "friendly", "apartment building"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 3},
+    {"l1_index": 1, "en_index": 2},
+    {"l1_index": 2, "en_index": 1},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "These words look like English words but have different meanings, so a learner who translates them literally will make a mistake. Compare each Turkish word with its English meaning, not with the English word it resembles.",
+  "false_friend_warning": "Several Turkish words look like English words but mean something else: one looks like 'apartment' but means a whole apartment building, one looks like 'sympathetic' but means friendly, one looks like 'lavatory' but means a sink, and one looks like 'college' but means high school."
+}

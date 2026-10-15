@@ -1,0 +1,21 @@
+{
+  "grid_size": 7,
+  "grid": [
+    ["P", "O", "V", "E", "R", "T", "Y"],
+    ["K", "W", "Z", "Q", "M", "B", "X"],
+    ["J", "U", "S", "T", "I", "C", "E"],
+    ["L", "K", "F", "A", "Z", "P", "Q"],
+    ["G", "E", "N", "D", "E", "R", "U"],
+    ["Z", "F", "O", "X", "W", "K", "A"],
+    ["R", "I", "G", "H", "T", "S", "L"]
+  ],
+  "words_to_find": ["POVERTY", "JUSTICE", "GENDER", "RIGHTS", "EQUAL"],
+  "word_positions": [
+    {"word": "POVERTY", "start_row": 0, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "JUSTICE", "start_row": 2, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "GENDER", "start_row": 4, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "RIGHTS", "start_row": 6, "start_col": 0, "direction": "HORIZONTAL"},
+    {"word": "EQUAL", "start_row": 2, "start_col": 6, "direction": "VERTICAL"}
+  ],
+  "topic": "Society and Inequality"
+}
