@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "The package, sent from London yesterday,",
+  "correct_completion": "arrived at my house this morning.",
+  "full_sentence": "The package, sent from London yesterday, arrived at my house this morning.",
+  "acceptable_variants": ["was delivered to my house this morning.", "reached my house early this morning."],
+  "options": [
+    {"text": "I opened it at breakfast.", "is_correct": false, "why_wrong": "A new subject after the comma creates a comma splice. The stem still needs a main verb about the package."},
+    {"text": "arrived at my house this morning.", "is_correct": true, "why_wrong": null},
+    {"text": "to be delivered tomorrow.", "is_correct": false, "why_wrong": "This is an infinitive phrase, not a main verb, and 'tomorrow' contradicts the stem's 'yesterday'."},
+    {"text": "is very heavy and big.", "is_correct": false, "why_wrong": "This is grammatical, but it describes the size of the package, which the stem does not prepare for."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Past participle clauses that add information about a noun",
+  "connector": "sent",
+  "explanation": "The phrase 'sent from London yesterday' is a participle clause that gives extra information about the noun. The main verb must follow after the second comma.",
+  "translation": "El paquete, enviado desde Londres ayer, llegó a mi casa esta mañana."
+}
