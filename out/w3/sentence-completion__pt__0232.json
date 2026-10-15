@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Hardly had the meeting begun,",
+  "correct_completion": "when the fire alarm rang.",
+  "full_sentence": "Hardly had the meeting begun, when the fire alarm rang.",
+  "acceptable_variants": ["when the fire alarm went off.", "when someone pulled the fire alarm."],
+  "options": [
+    {"text": "because the fire alarm rang.", "is_correct": false, "why_wrong": "'Because' introduces a reason, but 'hardly ... when' expresses two events happening one right after the other, not a cause."},
+    {"text": "than the fire alarm rang.", "is_correct": false, "why_wrong": "'Than' belongs to the pattern 'no sooner ... than'. Mixing it with 'hardly ... when' is a common error."},
+    {"text": "when the fire alarm rang.", "is_correct": true, "why_wrong": null},
+    {"text": "so the fire alarm rang.", "is_correct": false, "why_wrong": "'So' introduces a result, which does not fit the time relation required by 'hardly ... when'."}
+  ],
+  "correct_index": 2,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Negative inversion with 'hardly' followed by 'when'",
+  "connector": "when",
+  "explanation": "The inversion 'Hardly had ...' is used for emphasis and must be followed by 'when', which links two events that happen immediately one after the other. 'Than' belongs to a different structure, 'no sooner ... than', so it cannot be used here. Learners often mix these two patterns, so it helps to memorise each one as a fixed unit.",
+  "translation": "Mal a reunião havia começado quando o alarme de incêndio tocou."
+}
