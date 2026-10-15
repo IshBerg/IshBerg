@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "He has not finished his homework yet,",
+  "correct_completion": "so he cannot go out with his friends.",
+  "full_sentence": "He has not finished his homework yet, so he cannot go out with his friends.",
+  "acceptable_variants": ["so he has to stay home tonight.", "so he is staying at home this evening."],
+  "options": [
+    {"text": "so he is going to the park now.", "is_correct": false, "why_wrong": "This does not follow from the unfinished homework, which is the logical result the stem sets up."},
+    {"text": "so he cannot go out with his friends.", "is_correct": true, "why_wrong": null},
+    {"text": "he has already done it.", "is_correct": false, "why_wrong": "This contradicts 'has not finished ... yet' in the stem."},
+    {"text": "he finished it last night.", "is_correct": false, "why_wrong": "A finished past action contradicts the present perfect negative 'has not finished' in the stem."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Present perfect negative with 'yet' and a logical result",
+  "connector": "yet",
+  "explanation": "'Yet' is used with the present perfect in negative sentences to show that an action has not happened up to now. The second clause must state the logical result of that unfinished action. Spanish speakers often use a simple past form here, because Spanish speakers may treat a finished-time past as acceptable with 'yet'; the present perfect is needed with 'yet'.",
+  "translation": "Él todavía no ha terminado su tarea, así que no puede salir con sus amigos."
+}

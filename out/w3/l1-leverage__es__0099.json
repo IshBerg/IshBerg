@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "sensible", "transliteration": "sensible", "meaning": "sensitive, easily affected (by pollution, weather, etc.)"},
+    {"word": "actual", "transliteration": "actual", "meaning": "current, present-day"},
+    {"word": "ambiente", "transliteration": "ambiente", "meaning": "environment, surroundings"},
+    {"word": "asistir", "transliteration": "asistir", "meaning": "to attend, to be present at"}
+  ],
+  "english_words": ["environment", "to attend", "sensitive", "current"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 3},
+    {"l1_index": 2, "en_index": 0},
+    {"l1_index": 3, "en_index": 1}
+  ],
+  "pattern_explanation": "These Spanish words look almost identical to English words, but their meanings in Spanish differ from the English forms, so the similar spelling misleads learners.",
+  "false_friend_warning": "The Spanish adjective that looks like English 'sensible' means sensitive or easily affected, not reasonable; students who translate it as 'sensible' will say the wrong thing about the environment."
+}
