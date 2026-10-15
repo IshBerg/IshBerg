@@ -1,0 +1,14 @@
+{
+  "trigger_word": "market",
+  "all_words": [
+    {"word": "price", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Preço é o valor pelo qual os produtos são vendidos no mercado, por isso está diretamente ligado ao mercado."},
+    {"word": "fork", "is_associated": false, "association_type": "NONE", "explanation": "Garfo é um utensílio de mesa e não tem relação com o funcionamento do mercado."},
+    {"word": "trader", "is_associated": true, "association_type": "THEMATIC", "explanation": "Comerciante e investidor são pessoas que atuam no mercado, então pertencem ao mesmo tema."},
+    {"word": "pillow", "is_associated": false, "association_type": "NONE", "explanation": "Travesseiro pertence ao tema do quarto e do sono, não tem ligação com o mercado."},
+    {"word": "share", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Em inglês, 'market share' (participação de mercado) é uma expressão fixa com a palavra 'market'."},
+    {"word": "window", "is_associated": false, "association_type": "NONE", "explanation": "Janela é uma parte da casa ou de um carro e não se relaciona com o mercado."}
+  ],
+  "correct_indices": [0, 2, 4],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "A palavra 'market' se associa a preço, a pessoas que negociam e à expressão fixa 'market share'. As outras palavras pertencem a contextos da vida cotidiana sem relação com o comércio."
+}
