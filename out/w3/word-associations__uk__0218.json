@@ -1,0 +1,14 @@
+{
+  "trigger_word": "advertisement",
+  "all_words": [
+    {"word": "bicycle", "is_associated": false, "association_type": "NONE", "explanation": "Велосипед не пов'язаний з рекламою, тому що це звичайний транспортний засіб без зв'язку з комунікацією з покупцями."},
+    {"word": "poster", "is_associated": true, "association_type": "SEMANTIC", "explanation": "Постер є одним із найпоширеніших носіїв реклами, тому його значення тісно пов'язане зі словом 'advertisement'."},
+    {"word": "river", "is_associated": false, "association_type": "NONE", "explanation": "Річка не має жодного відношення до реклами, отже асоціація відсутня."},
+    {"word": "slogan", "is_associated": true, "association_type": "COLLOCATIONAL", "explanation": "Слоган часто зустрічається разом із рекламою, наприклад у словосполученні 'catchy slogan' (влучний слоган)."},
+    {"word": "carpet", "is_associated": false, "association_type": "NONE", "explanation": "Килим не пов'язаний з рекламою і не належить до її звичайного словникового поля."},
+    {"word": "brand", "is_associated": true, "association_type": "THEMATIC", "explanation": "Бренд є головною темою рекламної діяльності, тому він тематично пов'язаний із рекламою."}
+  ],
+  "correct_indices": [1, 3, 5],
+  "mode": "SELECT_ASSOCIATIONS",
+  "explanation": "Слово 'advertisement' пов'язане з постерами, слоганами та брендами, тоді як інші слова належать до зовсім інших сфер життя."
+}

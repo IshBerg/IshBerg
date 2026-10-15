@@ -1,0 +1,13 @@
+{
+  "start_word": "cheap",
+  "end_word": "expensive",
+  "ladder_steps": [
+    {"word": "cheap", "translation": "дешевий", "intensity_level": 1},
+    {"word": "affordable", "translation": "доступний", "intensity_level": 2},
+    {"word": "reasonable", "translation": "помірний", "intensity_level": 3},
+    {"word": "pricey", "translation": "дорогуватий", "intensity_level": 4},
+    {"word": "expensive", "translation": "дорогий", "intensity_level": 5}
+  ],
+  "correct_order": [0, 1, 2, 3, 4],
+  "explanation": "These words describe price along one scale, from the lowest cost to the highest, with each step slightly more expensive than the last."
+}
