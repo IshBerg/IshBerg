@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "There are many books on the shelf, but",
+  "correct_completion": "there is not much space left for more.",
+  "full_sentence": "There are many books on the shelf, but there is not much space left for more.",
+  "acceptable_variants": ["there is hardly any room for new ones.", "there is little room for new books."],
+  "options": [
+    {"text": "there is much space left for more.", "is_correct": false, "why_wrong": "The 'but' signals a limitation, so a positive statement about plenty of space does not create the contrast the sentence needs."},
+    {"text": "there are many shelves in the room.", "is_correct": false, "why_wrong": "This adds new information about shelves but does not contrast with the idea of many books."},
+    {"text": "there is a few space left for more.", "is_correct": false, "why_wrong": "'A few' is used with countable nouns. Space is uncountable, so 'a little' or 'not much' is needed."},
+    {"text": "there is not much space left for more.", "is_correct": true, "why_wrong": null}
+  ],
+  "correct_index": 3,
+  "completion_type": "CONTRAST",
+  "grammar_focus": "Quantifiers with uncountable nouns (much, many, a few, a little)",
+  "connector": "but",
+  "explanation": "After 'but', we need a clause that contrasts with the first part of the sentence. Space is uncountable, so 'much' is used in negative sentences, not 'a few'. Speakers may choose 'a few' by mistake because many countable and uncountable nouns are treated the same way in their first language.",
+  "translation": "На полиці багато книжок, але для нових майже немає місця."
+}
