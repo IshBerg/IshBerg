@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "Had the manager read the warning email,",
+  "correct_completion": "the project would have been saved.",
+  "full_sentence": "Had the manager read the warning email, the project would have been saved.",
+  "acceptable_variants": ["the project might have been saved.", "the project could have been saved."],
+  "options": [
+    {"text": "the project was saved last week.", "is_correct": false, "why_wrong": "This states a real past fact, but the stem describes an unreal past condition that needs a hypothetical result."},
+    {"text": "the project would have been saved.", "is_correct": true, "why_wrong": null},
+    {"text": "so the project was delayed.", "is_correct": false, "why_wrong": "'So' introduces a result that actually happened, while the inverted conditional describes what would have happened."},
+    {"text": "the project could save money.", "is_correct": false, "why_wrong": "This uses a present form, which does not match the past time of the condition."}
+  ],
+  "correct_index": 1,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "Inverted third conditional (Had + subject + past participle)",
+  "connector": "had",
+  "explanation": "Inverted conditionals replace 'if' with 'had' placed before the subject. This sentence describes an unreal past situation, so the result clause needs 'would have' followed by a past participle. Speakers whose first language marks hypothetical past differently often choose a simple past form here by mistake.",
+  "translation": "Yönetici uyarı e-postasını okumuş olsaydı, proje kurtarılmış olurdu."
+}
