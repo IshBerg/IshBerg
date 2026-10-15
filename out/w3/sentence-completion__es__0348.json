@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "I'm sorry I missed your call,",
+  "correct_completion": "I was in a meeting.",
+  "full_sentence": "I'm sorry I missed your call, I was in a meeting.",
+  "acceptable_variants": ["I was driving, so I could not answer.", "my phone was on silent."],
+  "options": [
+    {"text": "Can you tell me the time?", "is_correct": false, "why_wrong": "This is a question about time, so it does not explain why the call was missed."},
+    {"text": "I like pizza very much.", "is_correct": false, "why_wrong": "This is an unrelated statement that does not explain the missed call."},
+    {"text": "I was in a meeting.", "is_correct": true, "why_wrong": null},
+    {"text": "I will call you yesterday.", "is_correct": false, "why_wrong": "'Will' refers to the future, but 'yesterday' refers to the past, so the two parts of the sentence do not match."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CAUSE_EFFECT",
+  "grammar_focus": "Giving a reason with a past continuous clause after a message apology",
+  "connector": "I was",
+  "explanation": "The first clause apologises for a missed call, so the second clause must give a reason for it. A short past continuous sentence explains what the speaker was doing at that time. Learners often add an unrelated fact or a question here, but the text messages need a clear reason.",
+  "translation": "Lo siento, no contesté tu llamada: estaba en una reunión."
+}
