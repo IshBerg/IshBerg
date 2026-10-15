@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "She has already",
+  "correct_completion": "finished her homework.",
+  "full_sentence": "She has already finished her homework.",
+  "acceptable_variants": ["completed her homework.", "done her homework."],
+  "options": [
+    {"text": "she will finish it tomorrow.", "is_correct": false, "why_wrong": "A future verb does not fit 'already', which refers to an action completed before now."},
+    {"text": "finished her homework.", "is_correct": true, "why_wrong": null},
+    {"text": "she finished it yesterday.", "is_correct": false, "why_wrong": "A specific past time such as 'yesterday' cannot be used with the present perfect."},
+    {"text": "she is finishing it now.", "is_correct": false, "why_wrong": "The present continuous describes an action in progress, but 'already' needs a completed action."}
+  ],
+  "correct_index": 1,
+  "completion_type": "GRAMMATICAL",
+  "grammar_focus": "Present perfect with 'already' for completed actions",
+  "connector": "already",
+  "explanation": "'Already' is used with the present perfect to show that an action is completed earlier than expected or before now. The auxiliary 'has' is followed by the past participle. Learners whose first language is Polish may need reminding that English uses the present perfect for this meaning, while a simple past form would be wrong with 'already'.",
+  "translation": "Ona już skończyła pracę domową."
+}

@@ -1,0 +1,17 @@
+{
+  "l1_words": [
+    {"word": "aktualny", "transliteration": "aktualny", "meaning": "current"},
+    {"word": "ewentualnie", "transliteration": "ewentualnie", "meaning": "possibly"},
+    {"word": "sympatyczny", "transliteration": "sympatyczny", "meaning": "nice"},
+    {"word": "lektura", "transliteration": "lektura", "meaning": "reading"}
+  ],
+  "english_words": ["reading", "possibly", "current", "nice"],
+  "correct_pairs": [
+    {"l1_index": 0, "en_index": 2},
+    {"l1_index": 1, "en_index": 1},
+    {"l1_index": 2, "en_index": 3},
+    {"l1_index": 3, "en_index": 0}
+  ],
+  "pattern_explanation": "Both languages borrowed this word from the same source, so the forms stayed close.",
+  "false_friend_warning": "The Polish word 'aktualny' looks like the English 'actual', but it means 'current' or 'up to date'; Polish speakers often confuse it with 'actual', which means real or existing. Also, 'sympatyczny' looks like 'sympathetic' but means 'nice' or 'pleasant'."
+}
