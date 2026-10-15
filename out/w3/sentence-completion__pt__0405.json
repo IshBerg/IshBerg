@@ -1,0 +1,18 @@
+{
+  "sentence_stem": "If you forget the eggs,",
+  "correct_completion": "the cake will not rise well.",
+  "full_sentence": "If you forget the eggs, the cake will not rise well.",
+  "acceptable_variants": ["the cake may be flat.", "it will be dry and heavy."],
+  "options": [
+    {"text": "the cake will be very tall.", "is_correct": false, "why_wrong": "This is the opposite of the expected result when eggs are missing."},
+    {"text": "you will need a big bowl.", "is_correct": false, "why_wrong": "This may be true of many recipes, but it is not a result of forgetting the eggs."},
+    {"text": "the cake will not rise well.", "is_correct": true, "why_wrong": null},
+    {"text": "the oven will be hot.", "is_correct": false, "why_wrong": "This describes the oven, not the cake, and does not follow from forgetting the eggs."}
+  ],
+  "correct_index": 2,
+  "completion_type": "CONDITIONAL",
+  "grammar_focus": "First conditional with 'if'",
+  "connector": "if",
+  "explanation": "The 'if' clause describes a possible condition, and the main clause uses 'will' to describe the likely result of that condition.",
+  "translation": "Se você esquecer os ovos, o bolo não vai crescer bem."
+}
